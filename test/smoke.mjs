@@ -1,0 +1,12 @@
+import { createRequire } from 'node:module'; const { chromium } = createRequire(import.meta.url)('playwright');
+import { start } from '../dev/server.mjs';
+const srv = await start(3920);
+const b = await chromium.launch();
+const p = await b.newPage({ viewport: { width: 390, height: 844 } });
+const errs = []; p.on('pageerror', (e) => errs.push('PAGEERR ' + e.message)); p.on('console', (m) => { if (m.type() === 'error') errs.push('CONSOLE ' + m.text()); });
+await p.goto('http://localhost:3920/');
+await p.waitForTimeout(1500);
+console.log('onb login link:', await p.locator('text=Já tenho conta').count());
+await p.screenshot({ path: '/tmp/claude-0/-home-claude/bb4201d1-86ae-53d3-b9e7-0bd93a0ff471/scratchpad/s1.png' });
+console.log(errs.join('\n') || 'no errors');
+await b.close(); srv.close();

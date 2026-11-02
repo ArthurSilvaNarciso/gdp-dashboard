@@ -1,0 +1,198 @@
+// Teste de ponta a ponta: app + API + Postgres (PGlite), vários aparelhos (contextos de navegador).
+import { createRequire } from 'node:module';
+import { start } from '../dev/server.mjs';
+const { chromium } = createRequire(import.meta.url)('playwright');
+const SHOT = process.env.SHOT || '/tmp/claude-0/-home-claude/bb4201d1-86ae-53d3-b9e7-0bd93a0ff471/scratchpad/';
+globalThis.__MEMORY_FAKE_AI = async ({ messages, system }) => {
+  const prompt = messages[messages.length - 1].content;
+  const q = (i) => ({ topic: 'Material', c: 'Caso ' + i + ': uma equipe aplica a regra no dia a dia.', q: 'Qual alternativa está de acordo com o material?', a: i % 4, src: 'p. ' + (i + 1), o: [0, 1, 2, 3].map((j) => ({ t: j === i % 4 ? 'A alternativa correta ' + i : 'Alternativa plausível ' + j, p: j === i % 4 ? 'correta' : ['troca', 'inversao', 'generalizacao', 'restricao'][j], w: 'Explicação ' + j })) });
+  const n = prompt.includes('Crie 3 novas') ? 3 : (prompt.match(/crie (\d+) questões/) || [0, 5])[1] * 1;
+  const text = prompt.includes('array JSON') ? JSON.stringify(Array.from({ length: n }, (_, i) => q(i))) : 'Pense assim: **a regra vale com exceções**. Por isso a alternativa marcada exagera.';
+  const chunks = text.match(/.{1,12}/gs).map((t) => `data: ${JSON.stringify({ type: 'content_block_delta', delta: { type: 'text_delta', text: t } })}\n\n`);
+  return new Response(new ReadableStream({ async start(c) { for (const ch of chunks) { c.enqueue(new TextEncoder().encode(ch)); await new Promise((r) => setTimeout(r, 2)); } c.close(); } }), { status: 200 });
+};
+const PORT = 3931, URL0 = 'http://localhost:' + PORT + '/';
+const srv = await start(PORT);
+const b = await chromium.launch();
+const log = []; const errs = [];
+const ok = (name, cond) => { log.push((cond ? 'OK   ' : 'FAIL ') + name); };
+async function device(name) {
+  const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, extraHTTPHeaders: { 'x-forwarded-for': '10.1.0.' + Math.floor(Math.random() * 250) } });
+  const p = await ctx.newPage();
+  p.on('pageerror', (e) => errs.push(name + ' PAGEERR ' + e.message));
+  p.on('console', (m) => { if (m.type() === 'error' && !/ERR_TUNNEL|fonts\.g|net::ERR|status of 40[14]/.test(m.text())) errs.push(name + ' ' + m.text()); });
+  await p.goto(URL0); await p.waitForFunction(() => window.API && (API.on || API === null) !== undefined); await p.waitForTimeout(600);
+  return p;
+}
+const shot = (p, f) => p.screenshot({ path: SHOT + f });
+const toastText = (p) => p.evaluate(() => (document.querySelector('.toast') || {}).textContent || '');
+async function onboard(p, name) {
+  await p.click('[data-act=onb-next]'); await p.fill('#onb-name', name); await p.click('[data-act=persona][data-id=concurso]'); await p.click('[data-act=onb-next]'); await p.click('[data-act=goal][data-n="5"]'); await p.click('[data-act=onb-finish]');
+}
+async function playSession(p, right = true) {
+  for (let k = 0; k < 80; k++) {
+    const st = await p.evaluate(() => ui.session && ui.session.phase); if (!st || st === 'summary') break;
+    if (st === 'desafio') await p.click('[data-act=reveal]');
+    else if (st === 'esforco') { const wi = await p.evaluate((r) => { const s = ui.session; const q = QINDEX[s.queue[s.i]].q; return s.order.findIndex((o) => (r ? o === q.a : o !== q.a)); }, right); await p.click(`.opt >> nth=${wi}`); await p.click('[data-act=conf][data-c=certeza]'); }
+    else if (st === 'feedback') await p.click('.dock [data-act=consol]');
+    else if (st === 'consol') await p.click('.dock [data-act=next]');
+    await p.waitForTimeout(30);
+  }
+  await p.click('[data-act=end]');
+}
+const settle = (p) => p.waitForFunction(() => !API.inflight && !API.timer || API.sync === 'saved', null, { timeout: 8000 }).catch(() => {});
+async function flush(p) { await p.evaluate(async () => { clearTimeout(API.timer); API.timer = null; await pushServer(); }); }
+
+try {
+  /* ---------- Sem servidor: modo local continua igual ---------- */
+  {
+    const ctx = await b.newContext({ viewport: { width: 390, height: 844 } }); const p = await ctx.newPage();
+    p.on('pageerror', (e) => errs.push('LOCAL PAGEERR ' + e.message));
+    await p.route('**/api/**', (r) => r.abort());
+    await p.goto(URL0); await p.waitForTimeout(800);
+    ok('sem servidor: API desligada e sem botão de entrar', await p.evaluate(() => API.on === false) && (await p.locator('text=Já tenho conta').count()) === 0);
+    await onboard(p, 'Local'); await p.click('[data-act=quick]'); await playSession(p);
+    await p.click('[data-tab=perfil]');
+    ok('sem servidor: perfil sem bloco de conta', (await p.locator('.promo').count()) === 0 && await p.evaluate(() => Object.keys(S.cards).length === 3));
+    await ctx.close();
+  }
+
+  /* ---------- Aparelho A: estuda sem conta e depois cria a conta ---------- */
+  const A = await device('A');
+  ok('servidor detectado com banco e IA', await A.evaluate(() => API.on && API.db && API.ai && !API.user));
+  await shot(A, 'e1-onb.png');
+  await onboard(A, 'Ruth');
+  await A.click('[data-act=quick]'); await playSession(A);
+  await A.click('[data-tab=perfil]');
+  ok('perfil mostra convite para criar conta', (await A.locator('.promo').count()) === 1);
+  await shot(A, 'e2-promo.png');
+  await A.click('.promo [data-act=auth-open][data-m=signup]'); await A.waitForTimeout(150);
+  ok('folha de cadastro abre com nome preenchido', await A.inputValue('#au-name') === 'Ruth');
+  await A.fill('#au-email', 'ruth@memory.app'); await A.fill('#au-pass', 'curta');
+  await A.click('.sheet button[type=submit]'); await A.waitForTimeout(100);
+  ok('validação de senha curta', (await A.locator('#au-err .notice').textContent()).includes('8 caracteres'));
+  await A.click('[data-act=auth-eye]');
+  ok('mostrar senha', await A.getAttribute('#au-pass', 'type') === 'text');
+  await A.fill('#au-pass', 'estudo-ativo-2026'); await shot(A, 'e3-signup.png');
+  await A.click('.sheet button[type=submit]');
+  await A.waitForFunction(() => API.user && API.sync === 'saved', null, { timeout: 8000 });
+  ok('conta criada e progresso enviado', await A.evaluate(async () => { const r = await (await fetch('/api/state')).json(); return Object.keys(r.state.cards).length === 3 && r.state.user.name === 'Ruth'; }));
+  ok('perfil mostra e-mail e sincronização', (await A.locator('.page >> text=ruth@memory.app').count()) === 1);
+
+  /* ---------- Aparelho B: entra na mesma conta ---------- */
+  const B = await device('B');
+  await B.click('[data-act=auth-open][data-m=login]'); await B.waitForTimeout(100);
+  await B.fill('#au-email', 'ruth@memory.app'); await B.fill('#au-pass', 'errada-123'); await B.click('.sheet button[type=submit]');
+  await B.waitForSelector('#au-err .notice'); ok('senha errada mostra erro', (await B.locator('#au-err .notice').textContent()).includes('incorretos'));
+  await B.fill('#au-pass', 'estudo-ativo-2026'); await B.click('.sheet button[type=submit]');
+  await B.waitForFunction(() => API.user && S.user.onboarded, null, { timeout: 8000 }); await B.waitForTimeout(200);
+  ok('login no aparelho B pula o onboarding e traz o progresso', await B.evaluate(() => Object.keys(S.cards).length === 3 && S.user.name === 'Ruth' && ui.tab === 'home' && !!document.querySelector('.hdr')));
+  await B.click('[data-act=quick]'); await playSession(B, false); await flush(B);
+  await A.evaluate(() => syncAll()); await A.waitForTimeout(200);
+  ok('A recebe o que B estudou', await A.evaluate(() => Object.keys(S.cards).length >= 4));
+
+  /* ---------- Trilhas próprias e código curto ---------- */
+  const did = await A.evaluate(() => { const id = importCode(deckCode(deckById('excel'))); render(); return id; });
+  await A.waitForTimeout(400);
+  await B.evaluate(() => syncAll()); await B.waitForTimeout(200);
+  ok('trilha criada em A aparece em B', await B.evaluate((id) => !!CUSTOM.find((d) => d.id === id), did));
+  await A.evaluate((id) => ACT['open-deck']({ id }), did); await A.click('[data-act=share-deck]'); await A.waitForTimeout(100);
+  await A.click('[data-act=share-short]'); await A.waitForSelector('#short-box .codebox');
+  const code = (await A.locator('#short-box .codebox b').textContent()).trim();
+  ok('código curto gerado', /^[A-Z2-9]{6}$/.test(code));
+  await shot(A, 'e4-share.png');
+  await A.click('.sheet [data-act=sheet-close]'); await A.waitForTimeout(250);
+  const C = await device('C');
+  await onboard(C, 'Caio');
+  await C.click('[data-tab=trilhas]'); await C.click('[data-act=tab][data-tab=importar]');
+  await C.fill('#imp-code', code.toLowerCase()); await C.click('[data-act=imp-code]'); await C.waitForTimeout(400);
+  ok('código curto importa trilha sem conta', await C.evaluate(() => CUSTOM.length === 1 && CUSTOM[0].subtitle === 'Compartilhada por Ruth'));
+  await C.evaluate(() => ACT['imp-reset']()); await C.fill('#imp-code', 'ZZZZZZ'); await C.click('[data-act=imp-code]'); await C.waitForTimeout(300);
+  ok('código inexistente mostra erro', (await C.locator('.notice.err').count()) === 1);
+
+  /* ---------- Turmas ---------- */
+  await A.click('[data-tab=perfil]'); await A.click('[data-act=tab][data-tab=turmas]');
+  await A.fill('#cls-name', 'Turma Concurso TRT'); await A.click('[data-act=cls-create]');
+  await A.waitForSelector('.cls-hero .codebox b'); const tcode = (await A.locator('.cls-hero .codebox b').textContent()).trim();
+  ok('turma criada com código', /^[A-Z2-9]{6}$/.test(tcode));
+  await A.click('[data-act=cls-add-deck]'); await A.waitForTimeout(150);
+  await A.click(`.sheet [data-act=cls-add][data-id=${did}]`); await A.waitForTimeout(500);
+  await A.click('[data-act=cls-add-deck]'); await A.waitForTimeout(150);
+  await A.click('.sheet [data-act=cls-add][data-id=dconst]'); await A.waitForTimeout(500);
+  ok('professor indicou 2 trilhas', await A.evaluate(() => API.cls.decks.length === 2));
+  // C entra na turma pelo código (precisa de conta) — via link
+  const D = await device('D');
+  await D.goto(URL0 + '?turma=' + tcode); await D.waitForTimeout(900);
+  ok('link de turma abre cadastro com aviso', (await D.locator('.sheet >> text=participar da turma').count()) === 1);
+  await D.fill('#au-name', 'Duda Lima'); await D.fill('#au-email', 'duda@memory.app'); await D.fill('#au-pass', 'turma-forte-2026'); await D.click('.sheet button[type=submit]');
+  await D.waitForFunction(() => API.user && API.classes.length === 1, null, { timeout: 8000 });
+  ok('aluno entrou na turma pelo link', await D.evaluate(() => API.classes[0].name === 'Turma Concurso TRT' && API.classes[0].role === 'student'));
+  await onboard(D, 'Duda');
+  ok('trilha da turma aparece para o aluno', await D.evaluate((id) => !!deckById(id) && deckById(id).classDeck && personaDecks().includes(id), did));
+  await D.click('[data-tab=trilhas]'); await D.click('[data-act=cat][data-id=turma]'); await D.waitForTimeout(100);
+  ok('filtro "Da turma" lista 2 trilhas', await D.evaluate(() => document.querySelectorAll('#deck-grid .ccard').length === 2));
+  await D.evaluate((id) => startCycle({ decks: [id], size: 4, title: 'T' }), did); await playSession(D); await flush(D);
+  // E entra pelo campo de código
+  const E = await device('E');
+  await E.click('[data-act=auth-open][data-m=login]'); await E.click('[data-act=auth-mode][data-m=signup]'); await E.fill('#au-name', 'Enzo Prado'); await E.fill('#au-email', 'enzo@memory.app'); await E.fill('#au-pass', 'turma-forte-2027'); await E.click('.sheet button[type=submit]');
+  await E.waitForFunction(() => API.user, null, { timeout: 8000 }); await onboard(E, 'Enzo');
+  await E.click('[data-tab=perfil]'); await E.click('.list [data-act=tab][data-tab=turmas]');
+  await E.fill('#cls-code', tcode.toLowerCase()); await E.click('[data-act=cls-join]');
+  await E.waitForSelector('.cls-hero'); await E.waitForTimeout(300);
+  ok('aluno vê trilhas e ranking (sem dados dos colegas)', (await E.locator('.rank .item').count()) === 2 && (await E.locator('text=duda@memory.app').count()) === 0);
+  await shot(E, 'e5-aluno.png');
+  // Painel do professor
+  await A.click('[data-act=cls-refresh]'); await A.waitForSelector('.member'); await A.waitForTimeout(300);
+  ok('painel lista 2 alunos', (await A.locator('.member').count()) === 2);
+  const duda = await A.evaluate(() => API.cls.students.find((s) => s.name === 'Duda Lima'));
+  ok('progresso da aluna na trilha da turma', duda && duda.summary.week === 4 && duda.decks[Object.keys(duda.decks).find((k) => k.startsWith('u'))].seen === 4);
+  await A.click(`[data-act=cls-member][data-id="${duda.id}"]`); await A.waitForTimeout(200);
+  ok('detalhe do aluno abre', (await A.locator('.mdetail .dprog').count()) === 2);
+  await shot(A, 'e6-painel.png');
+  await A.evaluate(() => document.querySelector('.mdetail').scrollIntoView()); await shot(A, 'e6b-painel-aluno.png');
+
+  /* ---------- IA pelo servidor ---------- */
+  await D.click('[data-tab=home]'); await D.click('[data-act=quick]');
+  await D.click('[data-act=reveal]'); const wi = await D.evaluate(() => { const s = ui.session; const q = QINDEX[s.queue[s.i]].q; return s.order.findIndex((o) => o !== q.a); });
+  await D.click(`.opt >> nth=${wi}`); await D.click('[data-act=conf][data-c=acho]'); await D.click('.dock [data-act=consol]'); await D.waitForTimeout(150);
+  ok('tutor disponível para quem tem conta', (await D.locator('#tutor').count()) === 1);
+  await D.click('[data-act=tutor-chip] >> nth=0'); await D.waitForFunction(() => ui.session.tutor.msgs.length === 2, null, { timeout: 8000 });
+  ok('tutor respondeu via servidor', await D.evaluate(() => ui.session.tutor.msgs[1].content.includes('exceções')));
+  await D.click('[data-act=train]'); await D.waitForFunction(() => ui.session.train.done === 3, null, { timeout: 8000 });
+  ok('variações criadas via servidor', await D.evaluate(() => CUSTOM.some((d) => d.id === 'ureforco' && d.questions.length === 3)));
+  await shot(D, 'e7-tutor.png');
+  await D.evaluate(() => ACT.end());
+  await D.click('[data-tab=trilhas]'); await D.click('[data-act=tab][data-tab=importar]');
+  await D.fill('#imp-text', 'Material de estudo sobre a LGPD. '.repeat(20)); await D.click('[data-act=imp-qty][data-n="5"]');
+  await D.click('[data-act=imp-generate]'); await D.waitForFunction(() => imp.done, null, { timeout: 10000 });
+  ok('gerou trilha com IA pelo servidor', await D.evaluate(() => deckById(imp.done).questions.length === 5));
+  const anon = await device('anon'); await onboard(anon, 'Visitante');
+  await anon.click('[data-tab=trilhas]'); await anon.click('[data-act=tab][data-tab=importar]');
+  ok('sem conta: IA pede login', (await anon.locator('.notice >> text=Entre na sua conta').count()) === 1);
+
+  /* ---------- Segurança da conta ---------- */
+  await A.click('[data-tab=perfil]'); await A.click('.list [data-act=tab][data-tab=conta]');
+  await shot(A, 'e8-conta.png');
+  await A.click('[data-act=acct-pw]'); await A.fill('#pw-cur', 'estudo-ativo-2026'); await A.fill('#pw-new', 'nova-senha-forte-1'); await A.click('form[data-form=pw] button[type=submit]');
+  await A.waitForTimeout(500);
+  ok('senha alterada', (await toastText(A)).includes('Senha alterada'));
+  await B.evaluate(() => { S.xp += 1; persist(); }); await flush(B); await B.waitForTimeout(200);
+  ok('aparelho B foi desconectado após troca de senha', await B.evaluate(() => API.user === null));
+  await A.click('[data-act=acct-logout]'); await A.click('.sheet [data-act=acct-logout-go]'); await A.waitForTimeout(1200);
+  ok('sair limpa o aparelho e volta ao início', await A.evaluate(() => !S.user.onboarded && API.user === null && CUSTOM.length === 0));
+  await A.click('[data-act=auth-open][data-m=login]'); await A.fill('#au-email', 'ruth@memory.app'); await A.fill('#au-pass', 'nova-senha-forte-1'); await A.click('.sheet button[type=submit]');
+  await A.waitForFunction(() => API.user && S.user.onboarded && CUSTOM.length >= 1, null, { timeout: 8000 });
+  ok('entrar de novo restaura progresso e trilhas', await A.evaluate(() => Object.keys(S.cards).length >= 4));
+  // Zerar progresso propaga
+  await A.click('[data-tab=perfil]'); await A.click('[data-act=ask-reset]'); await A.click('[data-act=do-reset]'); await flush(A);
+  ok('zerar progresso vale na nuvem', await A.evaluate(async () => Object.keys((await (await fetch('/api/state')).json()).state.cards).length === 0));
+  await shot(A, 'e9-perfil.png');
+  // Excluir conta
+  await E.click('[data-tab=perfil]'); await E.click('.list [data-act=tab][data-tab=conta]'); await E.click('[data-act=acct-del]');
+  await E.fill('#del-pass', 'turma-forte-2027'); await E.click('form[data-form=del] button[type=submit]'); await E.waitForTimeout(1500);
+  ok('conta excluída', await E.evaluate(async () => (await (await fetch('/api/auth/me')).json()).user === null && !S.user.onboarded));
+} catch (e) { log.push('ERRO ' + e.message.split('\n').slice(0, 3).join(' | ')); }
+console.log(log.join('\n'));
+console.log(errs.length ? 'ERROS:\n' + errs.join('\n') : 'Sem erros de console');
+console.log(log.filter((l) => l.startsWith('OK')).length + '/' + log.length);
+await b.close(); srv.close(); process.exit(0);

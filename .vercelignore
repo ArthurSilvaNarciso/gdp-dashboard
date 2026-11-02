@@ -1,0 +1,6 @@
+src
+dev
+test
+dist
+node_modules
+*.mp4

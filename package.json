@@ -1,0 +1,24 @@
+{
+  "name": "memory-app",
+  "version": "3.0.0",
+  "description": "Memory — estudo por recuperação ativa, com contas, sincronização, turmas e IA.",
+  "scripts": {
+    "dev": "node dev/server.mjs 3000",
+    "assemble": "node dev/build.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@neondatabase/serverless": "0.10.4",
+    "bcryptjs": "2.4.3",
+    "jose": "5.9.6"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.2.17"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -13,12 +13,11 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%231F2A6B'/%3E%3Ccircle cx='9.5' cy='12' r='5' fill='%234A5BD6'/%3E%3Ccircle cx='14.5' cy='12' r='5' fill='%23FF7A22'/%3E%3C/svg%3E">
 <style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui}img{max-width:100%}[hidden]{display:none!important}</style>
 <title>Memory</title>
+<meta name="claude:viewport-fit-sides" content="cover">
 <meta name="theme-color" content="#1F2A6B">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap">
-</head>
-<body>
 <style>
 /* Layout: app mobile de uma coluna (390px de referência); no desktop aparece dentro de uma moldura de iPhone. */
 :root {
@@ -331,7 +330,8 @@ details.gab .body { padding: 0 16px 16px 58px; display: flex; flex-direction: co
 .kgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 .kcard { border-radius: 20px; padding: 16px; display: flex; flex-direction: column; gap: 10px; }
 .kcard b { font-family: var(--display); font-size: 26px; font-weight: 600; line-height: 1.1; color: var(--ink); }
-.kcard span { font-size: 13px; font-weight: 700; color: var(--ink-2); }
+.kcard > span:not(.tile) { font-size: 13px; font-weight: 700; color: var(--ink-2); }
+.kcard b span { font: inherit; color: inherit; }
 .chart { width: 100%; height: auto; display: block; }
 .chart .g { stroke: var(--line); stroke-width: 1; }
 .chart .tg { stroke: var(--ok); stroke-width: 1.4; stroke-dasharray: 4 4; }
@@ -490,7 +490,78 @@ img.fade.ok { opacity: 1; }
 .wd.fut i { background: transparent; box-shadow: inset 0 0 0 1.5px var(--line); color: var(--ink-3); }
 .hdr .hero-girl { height: 214px; top: 58px; }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+
+/* ===== v5 · conta, turmas e servidor ===== */
+.pw { position: relative; }
+.pw .input { padding-right: 52px; }
+.pw-eye { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; color: var(--ink-3); }
+.pw-eye[aria-pressed="true"] { color: var(--link); }
+.inline-form { display: flex; gap: 8px; margin-top: 12px; }
+.inline-form .input { flex: 1; min-width: 0; min-height: 44px; }
+.code-in { font-family: var(--display); font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
+.code-in::placeholder { letter-spacing: .04em; text-transform: none; font-weight: 500; }
+.promo { background: var(--navy); color: #fff; border-radius: 22px; padding: 18px; display: flex; flex-direction: column; gap: 14px; position: relative; overflow: hidden; }
+.promo::after { content: ""; position: absolute; width: 112px; height: 112px; border-radius: 50%; background: var(--orange); right: -52px; top: -58px; opacity: .9; }
+.promo-top > div { padding-right: 30px; }
+.promo > * { position: relative; z-index: 1; }
+.promo-top { display: flex; gap: 12px; align-items: flex-start; }
+.promo-top b { font-family: var(--display); font-weight: 600; font-size: 16px; display: block; }
+.promo-top span { font-size: 13.5px; color: rgba(255,255,255,.78); line-height: 1.4; }
+.btn-ghost-light { background: rgba(255,255,255,.12); color: #fff; box-shadow: inset 0 0 0 1.5px rgba(255,255,255,.25); }
+.cls-hero { background: var(--navy); color: #fff; border-radius: 24px; padding: 20px; display: flex; flex-direction: column; gap: 10px; position: relative; overflow: hidden; }
+.cls-hero::after { content: ""; position: absolute; width: 150px; height: 150px; border-radius: 50%; background: var(--orange); right: -62px; bottom: -84px; opacity: .95; }
+.cls-hero::before { content: ""; position: absolute; width: 120px; height: 120px; border-radius: 50%; border: 1.5px solid rgba(255,255,255,.14); left: -40px; bottom: -60px; }
+.cls-hero > * { position: relative; z-index: 1; }
+.cls-hero .tag { align-self: flex-start; }
+.cls-hero h1 { font-size: 24px; line-height: 1.2; overflow-wrap: anywhere; }
+.cls-hero p { margin: 0; color: rgba(255,255,255,.75); font-size: 14px; }
+.codebox { display: flex; align-items: center; justify-content: space-between; gap: 12px; background: rgba(255,255,255,.1); border: 1.5px solid rgba(255,255,255,.16); border-radius: 18px; padding: 12px 12px 12px 16px; }
+.codebox small { display: block; font-size: 12px; color: rgba(255,255,255,.7); font-weight: 600; }
+.codebox b { font-family: var(--display); font-size: 26px; font-weight: 700; letter-spacing: .12em; }
+.codebox .cb-act { display: flex; gap: 8px; align-items: center; flex: none; }
+.hero-actions { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.hero-actions .btn .ico { width: 18px; height: 18px; }
+.codebox .btn .ico { width: 18px; height: 18px; }
+.codebox.light { background: var(--t-peach); border-color: transparent; color: var(--ink); }
+.codebox.light small { color: var(--ink-2); }
+.icon-btn.glassy { background: rgba(255,255,255,.14); color: #fff; box-shadow: none; }
+.link-light { color: rgba(255,255,255,.8); font-size: 13px; font-weight: 700; align-self: flex-start; text-decoration: underline; text-underline-offset: 3px; }
+.rank .item.me { background: var(--t-peach); }
+.rank .pos { width: 22px; text-align: center; font-family: var(--display); font-weight: 700; color: var(--ink-3); flex: none; }
+.rank .item:nth-child(1) .pos { color: var(--orange); }
+.rank .item .main span .ico { width: 13px; height: 13px; vertical-align: -2px; color: var(--orange); }
+.avatar.sm { width: 36px; height: 36px; font-size: 13px; background: var(--navy-2); }
+.member + .member { border-top: 1px solid var(--line); }
+.list .member .item { border: 0; }
+.member .mstats { text-align: right; flex: none; }
+.member .mstats b { display: block; font-family: var(--display); font-weight: 600; font-size: 16px; color: var(--ink); }
+.member .mstats span { font-size: 11px; color: var(--ink-3); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
+.member.open > .item .chev { transform: rotate(90deg); }
+.member .chev { transition: transform .2s ease; }
+.mdetail { padding: 4px 16px 16px; display: flex; flex-direction: column; gap: 12px; animation: fadeUp .25s ease both; }
+.mini4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.mini4 > div { background: var(--bg); border-radius: 14px; padding: 10px 6px; text-align: center; }
+.mini4 b { display: block; font-family: var(--display); font-weight: 600; font-size: 17px; }
+.mini4 span { font-size: 11px; color: var(--ink-3); font-weight: 700; }
+.dprog { display: flex; flex-direction: column; gap: 6px; }
+.dprog-h { display: flex; justify-content: space-between; gap: 8px; font-size: 14px; font-weight: 700; }
+.dprog-h span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dotk { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--ink-3); margin-right: 6px; vertical-align: 1px; }
+.dotk.ok { background: var(--ok); } .dotk.warn { background: var(--orange); }
+.empty.dashed { display: flex; gap: 8px; align-items: center; justify-content: center; width: 100%; border: 1.5px dashed var(--line); border-radius: 18px; color: var(--link); font-weight: 700; }
+.empty-state { display: flex; flex-direction: column; gap: 12px; align-items: center; text-align: center; padding: 24px 8px; }
+.tile.big { width: 72px; height: 72px; border-radius: 24px; }
+.tile.big .ico { width: 34px; height: 34px; }
+details.acc.plain { background: var(--surface); border-radius: 16px; box-shadow: inset 0 0 0 1.5px var(--line); }
+details.acc.plain summary { font-size: 14px; color: var(--ink-2); }
+details.acc.plain .body { padding: 0 16px 16px; }
+.skel { border-radius: 20px; background: linear-gradient(90deg, var(--line) 0%, var(--surface) 50%, var(--line) 100%); background-size: 200% 100%; animation: skel 1.2s ease-in-out infinite; }
+@keyframes skel { from { background-position: 100% 0; } to { background-position: -100% 0; } }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(6px); } }
+@media (prefers-reduced-motion: reduce) { .skel, .mdetail { animation: none; } }
 </style>
+</head>
+<body>
 
 <div id="app">
   <div class="statusbar" id="statusbar" aria-hidden="true">
@@ -886,6 +957,7 @@ const PERSONAS = [
   { id: 'empresa', l: 'Empresa ou treinamento', d: 'Onboarding e qualificação', decks: ['neuro', 'excel'] }
 ];
 
+
 /* ===== Trilhas adicionais ===== */
 BUILTIN_DECKS.push(
   {
@@ -1026,6 +1098,210 @@ BUILTIN_DECKS.push(
 PERSONAS.find((p) => p.id === 'escola').decks = ['neuro', 'mat', 'port', 'logica'];
 PERSONAS.find((p) => p.id === 'faculdade').decks = ['neuro', 'logica', 'mat', 'port'];
 PERSONAS.find((p) => p.id === 'empresa').decks = ['neuro', 'excel', 'lgpd'];
+
+const SH = (() => {
+// Código compartilhado entre o servidor (import ESM) e o app (embutido no build dentro de um IIFE).
+// Sem dependências: só funções puras.
+
+const S_DAY = 864e5;
+const S_FACTOR = 19 / 81, S_DECAY = -0.5, S_FIRM = 10;
+const S_PATTERNS = ['correta', 'inversao', 'generalizacao', 'restricao', 'extrapolacao', 'troca', 'calculo'];
+const S_LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'];
+const DAYKEY_RE = /^\d{4}-\d{2}-\d{2}$/;
+const ID_RE = /^[A-Za-z0-9_-]{1,64}$/;
+
+const num = (v, min, max, def = 0) => { const n = Number(v); return Number.isFinite(n) ? Math.min(max, Math.max(min, n)) : def; };
+const int = (v, min, max, def = 0) => Math.round(num(v, min, max, def));
+const str = (v, max) => (typeof v === 'string' ? v : v == null ? '' : String(v)).slice(0, max);
+const isObj = (v) => v && typeof v === 'object' && !Array.isArray(v);
+
+/* ---------- Saneamento do estado (o que chega do cliente nunca é confiável) ---------- */
+function sanitizeState(s) {
+  if (!isObj(s)) return null;
+  const MAXT = 4102444800000; // 2100
+  const out = { v: 2, resetAt: int(s.resetAt, 0, MAXT), cards: {}, log: {}, xp: int(s.xp, 0, 1e9), streak: { count: 0, last: null }, freezes: int(s.freezes, 0, 2), calib: {}, traps: {}, badges: {}, sims: [], totals: {}, updatedAt: int(s.updatedAt, 0, MAXT) };
+  const u = isObj(s.user) ? s.user : {};
+  out.user = {
+    name: str(u.name, 60), persona: typeof u.persona === 'string' ? str(u.persona, 20) : null, goal: int(u.goal, 1, 100, 10),
+    retrieval: u.retrieval !== false, fx: u.fx !== false, onboarded: !!u.onboarded, retention: num(u.retention, 0.8, 0.97, 0.9)
+  };
+  let n = 0;
+  if (isObj(s.cards)) for (const id in s.cards) {
+    if (!ID_RE.test(id) || ++n > 20000) continue;
+    const c = s.cards[id]; if (!isObj(c)) continue;
+    out.cards[id] = { n: int(c.n, 0, 1e6), ok: int(c.ok, 0, 1e6), lapses: int(c.lapses, 0, 1e6), s: num(c.s, 0, 36500), d: num(c.d, 1, 10, 5), last: int(c.last, 0, MAXT), g: int(c.g, 1, 4, 3), due: int(c.due, 0, MAXT) };
+  }
+  const LOGF = ['n', 'ok', 'cert', 'fixed', 'rev', 'cycles', 'tutor'];
+  if (isObj(s.log)) for (const k in s.log) {
+    if (!DAYKEY_RE.test(k)) continue;
+    const l = s.log[k]; if (!isObj(l)) continue;
+    const o = { mx: {} }; for (const f of LOGF) o[f] = int(l[f], 0, 1e6);
+    if (isObj(l.mx)) for (const m in l.mx) if (ID_RE.test(m)) o.mx[m] = 1;
+    out.log[k] = o;
+  }
+  if (isObj(s.streak)) out.streak = { count: int(s.streak.count, 0, 1e5), last: typeof s.streak.last === 'string' && DAYKEY_RE.test(s.streak.last) ? s.streak.last : null };
+  for (const k of ['chute', 'acho', 'certeza']) { const c = isObj(s.calib) && isObj(s.calib[k]) ? s.calib[k] : {}; const nn = int(c.n, 0, 1e7); out.calib[k] = { n: nn, ok: int(c.ok, 0, nn) }; }
+  if (isObj(s.traps)) for (const k of S_PATTERNS) if (s.traps[k] != null) out.traps[k] = int(s.traps[k], 0, 1e7);
+  if (isObj(s.badges)) for (const k in s.badges) if (ID_RE.test(k)) out.badges[k] = int(s.badges[k], 1, MAXT, 1);
+  if (Array.isArray(s.sims)) out.sims = s.sims.filter(isObj).slice(-50).map((x) => ({ at: int(x.at, 0, MAXT), title: str(x.title, 80), score: int(x.score, 0, 100), n: int(x.n, 0, 1000) }));
+  const t = isObj(s.totals) ? s.totals : {}; out.totals = { fixed: int(t.fixed, 0, 1e7), cycles: int(t.cycles, 0, 1e7) };
+  return out;
+}
+
+/* ---------- Mesclagem entre aparelhos (comutativa: a ordem não importa) ---------- */
+function mergeState(a, b) {
+  if (!a) return b; if (!b) return a;
+  // "Zerar progresso" em um aparelho vence o que os outros ainda tinham guardado de antes.
+  const ra = a.resetAt || 0, rb = b.resetAt || 0;
+  if (ra !== rb) {
+    const stale = ra > rb ? b : a, R = Math.max(ra, rb);
+    const cards = {}; for (const id in stale.cards || {}) if ((stale.cards[id].last || 0) > R) cards[id] = stale.cards[id];
+    const clean = { user: stale.user, updatedAt: stale.updatedAt, resetAt: R, cards, log: {}, xp: 0, streak: { count: 0, last: null }, freezes: 0, calib: {}, traps: {}, badges: {}, sims: [], totals: { fixed: 0, cycles: 0 } };
+    if (ra > rb) b = clean; else a = clean;
+  }
+  const newer = (a.updatedAt || 0) >= (b.updatedAt || 0) ? a : b;
+  const out = { v: 2 };
+  out.user = Object.assign({}, newer.user, { onboarded: !!((a.user || {}).onboarded || (b.user || {}).onboarded) });
+  if (!out.user.name) out.user.name = (a.user || {}).name || (b.user || {}).name || '';
+  if (!out.user.persona) out.user.persona = (a.user || {}).persona || (b.user || {}).persona || null;
+  out.cards = Object.assign({}, a.cards);
+  for (const id in b.cards || {}) {
+    const x = out.cards[id], y = b.cards[id];
+    if (!x || (y.last || 0) > (x.last || 0) || ((y.last || 0) === (x.last || 0) && (y.n || 0) > (x.n || 0))) out.cards[id] = y;
+  }
+  out.log = {};
+  for (const k of new Set([...Object.keys(a.log || {}), ...Object.keys(b.log || {})])) {
+    const x = (a.log || {})[k] || {}, y = (b.log || {})[k] || {};
+    const o = {}; for (const f of ['n', 'ok', 'cert', 'fixed', 'rev', 'cycles', 'tutor']) o[f] = Math.max(x[f] || 0, y[f] || 0);
+    o.mx = Object.assign({}, x.mx, y.mx); out.log[k] = o;
+  }
+  out.xp = Math.max(a.xp || 0, b.xp || 0);
+  const sa = a.streak || {}, sb = b.streak || {};
+  out.streak = (sa.last || '') > (sb.last || '') ? sa : (sb.last || '') > (sa.last || '') ? sb : ((sa.count || 0) >= (sb.count || 0) ? sa : sb);
+  out.streak = Object.assign({ count: 0, last: null }, out.streak);
+  out.freezes = newer.freezes || 0;
+  out.calib = {};
+  for (const k of ['chute', 'acho', 'certeza']) { const x = (a.calib || {})[k] || { n: 0, ok: 0 }, y = (b.calib || {})[k] || { n: 0, ok: 0 }; out.calib[k] = Object.assign({}, (y.n || 0) > (x.n || 0) ? y : x); }
+  out.traps = {}; for (const k of new Set([...Object.keys(a.traps || {}), ...Object.keys(b.traps || {})])) out.traps[k] = Math.max((a.traps || {})[k] || 0, (b.traps || {})[k] || 0);
+  out.badges = Object.assign({}, b.badges); for (const k in a.badges || {}) out.badges[k] = out.badges[k] ? Math.min(out.badges[k], a.badges[k]) : a.badges[k];
+  const sims = new Map(); for (const x of [...(a.sims || []), ...(b.sims || [])]) sims.set(x.at + '|' + x.title, x);
+  out.sims = [...sims.values()].sort((x, y) => x.at - y.at).slice(-50);
+  const ta = a.totals || {}, tb = b.totals || {}; out.totals = { fixed: Math.max(ta.fixed || 0, tb.fixed || 0), cycles: Math.max(ta.cycles || 0, tb.cycles || 0) };
+  out.updatedAt = Math.max(a.updatedAt || 0, b.updatedAt || 0);
+  out.resetAt = Math.max(a.resetAt || 0, b.resetAt || 0);
+  return out;
+}
+
+/* ---------- Saneamento de trilhas ---------- */
+function sanitizeQuestion(x, id) {
+  if (!isObj(x) || typeof x.q !== 'string' || !Array.isArray(x.o)) return null;
+  const o = x.o.filter((y) => isObj(y) && typeof y.t === 'string' && y.t.trim()).slice(0, 5).map((y) => ({ t: str(y.t, 400), p: S_PATTERNS.includes(y.p) ? y.p : 'troca', w: str(y.w, 600) }));
+  if (o.length < 3) return null;
+  let a = Number.isInteger(x.a) && x.a >= 0 && x.a < o.length ? x.a : o.findIndex((y) => y.p === 'correta');
+  if (a < 0) return null;
+  o.forEach((y, j) => { if (j === a) y.p = 'correta'; else if (y.p === 'correta') y.p = 'troca'; });
+  return { id, topic: str(x.topic || 'Seu material', 40), c: str(x.c, 800), q: str(x.q, 500), a, src: str(x.src, 80), o };
+}
+function sanitizeDeck(d, opts = {}) {
+  if (!isObj(d)) return null;
+  const id = opts.id || d.id;
+  if (typeof id !== 'string' || !/^u[A-Za-z0-9_]{1,48}$/.test(id)) return null;
+  const qs = [];
+  const seen = new Set();
+  for (const x of Array.isArray(d.questions) ? d.questions.slice(0, 400) : []) {
+    const qid = opts.renumber ? id + '_' + qs.length : x && x.id;
+    if (typeof qid !== 'string' || !ID_RE.test(qid) || seen.has(qid)) continue;
+    const q = sanitizeQuestion(x, qid); if (q) { qs.push(q); seen.add(qid); }
+  }
+  if (!qs.length) return null;
+  const colors = ['navy', 'orange', 'green', 'pink', 'blue', 'yellow', 'purple'];
+  return {
+    id, title: str(d.title, 60).trim() || 'Trilha', subtitle: str(d.subtitle, 60), blurb: str(d.blurb, 300), color: colors.includes(d.color) ? d.color : 'navy',
+    tag: str(d.tag, 24), custom: true, createdAt: int(d.createdAt, 0, 4102444800000, Date.now()), source: str(d.source, 120), questions: qs
+  };
+}
+
+/* ---------- Métricas ---------- */
+function s_retr(c, at) { if (!c || !c.s) return 0; const t = Math.max(0, (at - c.last) / S_DAY); return Math.pow(1 + S_FACTOR * t / c.s, S_DECAY); }
+function s_dayNum(k) { const [y, m, d] = k.split('-').map(Number); return Math.round(Date.UTC(y, m - 1, d) / S_DAY); }
+function s_today(tz = 'America/Sao_Paulo', at = Date.now()) {
+  try { return new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(at)); } catch (e) { return new Date(at).toISOString().slice(0, 10); }
+}
+// Resumo compacto salvo junto do estado (usado em turmas e ranking).
+function summarize(s, at = Date.now()) {
+  const cards = (s && s.cards) || {}, log = (s && s.log) || {};
+  let seen = 0, firm = 0, rsum = 0, last = 0, due = 0;
+  for (const id in cards) { const c = cards[id]; if (!c.s) continue; seen++; rsum += s_retr(c, at); if (c.s >= S_FIRM && c.g > 1) firm++; if (c.last > last) last = c.last; if (c.due <= at) due++; }
+  let answered = 0, ok = 0; const days = {};
+  const keys = Object.keys(log).sort();
+  for (const k of keys) { answered += log[k].n || 0; ok += log[k].ok || 0; }
+  for (const k of keys.slice(-35)) if (log[k].n) days[k] = [log[k].n || 0, log[k].ok || 0];
+  const traps = Object.entries((s && s.traps) || {}).filter(([k]) => k !== 'correta').sort((x, y) => y[1] - x[1]).slice(0, 3).map(([k, v]) => [k, v]);
+  return { seen, firm, due, memory: seen ? Math.round((rsum / seen) * 100) : null, answered, ok, xp: (s && s.xp) || 0, streak: (s && s.streak) || { count: 0, last: null }, freezes: (s && s.freezes) || 0, lastActive: last || null, days, traps, sims: ((s && s.sims) || []).slice(-5), at };
+}
+// Finaliza o resumo para "agora" (sequência viva, últimos 7 dias, memória estimada no momento da coleta).
+function finalizeSummary(sm, at = Date.now()) {
+  if (!sm || !sm.at) return { answered: 0, ok: 0, accuracy: null, streak: 0, week: 0, weekOk: 0, xp: 0, level: 1, memory: null, firm: 0, seen: 0, due: 0, lastActive: null, traps: [] };
+  const today = s_dayNum(s_today(undefined, at));
+  let week = 0, weekOk = 0;
+  for (const k in sm.days || {}) if (today - s_dayNum(k) < 7) { week += sm.days[k][0]; weekOk += sm.days[k][1]; }
+  let streak = 0; const st = sm.streak || {};
+  if (st.last) { const gap = today - s_dayNum(st.last); streak = gap <= 1 || gap - 1 <= (sm.freezes || 0) ? st.count || 0 : 0; }
+  return {
+    answered: sm.answered, ok: sm.ok, accuracy: sm.answered ? Math.round((sm.ok / sm.answered) * 100) : null, streak, week, weekOk,
+    xp: sm.xp, level: Math.floor(Math.sqrt(sm.xp / 40)) + 1, memory: sm.memory, firm: sm.firm, seen: sm.seen, due: sm.due, lastActive: sm.lastActive, traps: sm.traps || [], sims: sm.sims || []
+  };
+}
+function deckProgress(s, qids, at = Date.now()) {
+  const cards = (s && s.cards) || {}; let m = 0, l = 0, rsum = 0, n = 0, ok = 0;
+  for (const id of qids) { const c = cards[id]; if (!c || !c.s) continue; if (c.s >= S_FIRM && c.g > 1) m++; else l++; rsum += s_retr(c, at); n += c.n || 0; ok += c.ok || 0; }
+  const t = qids.length, seenN = m + l;
+  return { t, seen: seenN, firm: m, mem: seenN ? Math.round((rsum / seenN) * 100) : null, pct: t ? Math.round(((m + l * 0.4) / t) * 100) : 0, accuracy: n ? Math.round((ok / n) * 100) : null };
+}
+
+/* ---------- Prompts da IA (mesmo texto no servidor e no modo Claude) ---------- */
+function questionContext(q, pick) {
+  return `Caso: ${q.c}\nPergunta: ${q.q}\n` + q.o.map((o, i) => `${S_LETTERS[i]}) ${o.t}${i === q.a ? ' [CORRETA]' : ''} — explicação: ${o.w}`).join('\n') +
+    (pick != null ? `\nO aluno marcou: ${S_LETTERS[pick]}${pick === q.a ? ' (acertou)' : ' (errou)'}` : '');
+}
+function tutorSystem(q, pick, deckTitle) {
+  return `Você é o tutor do Memory, um app de estudo. Ajude o aluno a entender esta questão da trilha "${deckTitle}".\n${questionContext(q, pick)}\n\nRegras: responda em português do Brasil, em no máximo 110 palavras, com linguagem simples e direta, como um professor paciente. Sem títulos nem listas longas. Use **negrito** só no ponto-chave. Se o aluno pedir um macete, crie um curto e memorável. Não invente fatos fora do conteúdo da questão.`;
+}
+function variationPrompt(q, deckTitle, n) {
+  return `Você é o motor de questões do Memory. O aluno errou a questão abaixo, da trilha "${deckTitle}". Crie ${n} novas questões que treinem EXATAMENTE o mesmo conceito, cada uma com um caso diferente e realista, para fixar o ponto por outros ângulos. Não repita o caso original.\n\nQUESTÃO ORIGINAL:\n${questionContext(q, null)}\n\nRegras: português do Brasil; 4 alternativas; exatamente uma com "p":"correta"; as erradas usam um destes padrões: "inversao", "generalizacao", "restricao", "extrapolacao", "troca", "calculo"; "w" explica em 1 a 2 frases por que a alternativa está certa ou errada; "a" é o índice da correta (varie a posição); "topic" com até 4 palavras; "src" igual ou semelhante ao da original (${q.src || 'trilha ' + deckTitle}).\n\nResponda SOMENTE com um array JSON:\n[{"topic":"...","c":"...","q":"...","a":0,"src":"...","o":[{"t":"...","p":"correta","w":"..."},{"t":"...","p":"troca","w":"..."},{"t":"...","p":"generalizacao","w":"..."},{"t":"...","p":"inversao","w":"..."}]}]`;
+}
+function buildPrompt(material, n, title, focus) {
+  return `Você é o motor de questões do Memory, um app de estudo baseado em prática de recuperação, feedback imediato e engenharia reversa de pegadinhas.
+
+Com base EXCLUSIVAMENTE no material abaixo, crie ${n} questões de múltipla escolha em português do Brasil.
+
+Regras:
+- Cada questão começa com um caso curto e realista (campo "c", 1 a 3 frases) que aplica o conteúdo a uma situação prática. Depois vem a pergunta (campo "q").
+- Exatamente 4 alternativas (campo "o"). Cada uma tem "t" (texto, até 160 caracteres), "p" (padrão) e "w" (por que está certa ou errada, 1 a 2 frases, apoiadas no material).
+- Exatamente uma alternativa correta, com "p": "correta". As erradas devem ser plausíveis e usar um destes padrões de pegadinha: "inversao" (troca o sentido ou a ordem), "generalizacao" (transforma regra com exceção em absoluta), "restricao" (acrescenta condição que não existe), "extrapolacao" (vai além do que o material diz), "troca" (usa conceito vizinho no lugar do correto), "calculo" (erro de procedimento ou de conta).
+- "a" é o índice (0 a 3) da alternativa correta. Varie a posição da correta entre as questões.
+- "topic": assunto em até 4 palavras. "src": onde está no material, por exemplo "p. 12" quando houver marcação [p. N]; senão, o nome da seção.
+- Cubra partes diferentes do material e priorize conceitos que costumam ser cobrados. Não pergunte sobre detalhes irrelevantes, como números de página ou dados de capa.
+- Não invente fatos que não estejam no material.${focus ? '\n- Foco pedido pelo aluno: ' + focus : ''}
+
+Responda SOMENTE com um array JSON, sem texto antes ou depois, neste formato:
+[{"topic":"...","c":"...","q":"...","a":0,"src":"p. 3","o":[{"t":"...","p":"correta","w":"..."},{"t":"...","p":"troca","w":"..."},{"t":"...","p":"generalizacao","w":"..."},{"t":"...","p":"inversao","w":"..."}]}]
+
+MATERIAL: ${title}
+<<<
+${material}
+>>>`;
+}
+// Extrai o array JSON de uma resposta de texto (tolerante a texto antes/depois e a cercas de código).
+function extractJsonArray(text) {
+  const t = String(text || '');
+  const i = t.indexOf('['), j = t.lastIndexOf(']');
+  if (i < 0 || j <= i) return null;
+  try { return JSON.parse(t.slice(i, j + 1)); } catch (e) { return null; }
+}
+
+return { sanitizeState, mergeState, sanitizeQuestion, sanitizeDeck, summarize, finalizeSummary, deckProgress, questionContext, tutorSystem, variationPrompt, buildPrompt, extractJsonArray, s_today };
+})();
 /* ================= Utilidades ================= */
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -1133,11 +1409,12 @@ function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* indisp
 function loadState() { try { const raw = lsGet(LS_STATE); if (raw) return migrate(JSON.parse(raw)); } catch (e) {} return blankState(); }
 function loadDecks() { try { const raw = lsGet(LS_DECKS); return raw ? JSON.parse(raw) : []; } catch (e) { return []; } }
 
+var API = null, CLASS_DECKS = []; // definidos em server.js
 let S = loadState();
 let CUSTOM = loadDecks();
 let QINDEX = {};
 function reindex() { QINDEX = {}; for (const d of allDecks()) for (const q of d.questions) QINDEX[q.id] = { q, deck: d }; }
-const allDecks = () => [...CUSTOM, ...BUILTIN_DECKS];
+const allDecks = () => [...CUSTOM, ...(CLASS_DECKS || []), ...BUILTIN_DECKS];
 const deckById = (id) => allDecks().find((d) => d.id === id);
 reindex();
 
@@ -1151,6 +1428,7 @@ function persist() {
   S.updatedAt = Date.now();
   lsSet(LS_STATE, JSON.stringify(S));
   if (cloud.col) { clearTimeout(cloud.timer); cloud.timer = setTimeout(pushState, 1200); }
+  serverSave();
 }
 async function pushState() {
   if (!cloud.col) return;
@@ -1163,11 +1441,12 @@ async function pushState() {
 function saveDecksLocal() { lsSet(LS_DECKS, JSON.stringify(CUSTOM)); }
 const deckWrites = {};
 function pushDeck(deck) {
+  serverPutDeck(deck);
   if (!cloud.col) return;
   const prev = deckWrites[deck.id] || Promise.resolve();
   deckWrites[deck.id] = prev.then(() => cloud.col.doc(deck.id).set({ json: JSON.stringify(deck), createdAt: deck.createdAt })).catch(() => {});
 }
-async function removeDeckRemote(id) { if (!cloud.col) return; try { await cloud.col.doc(id).delete(); } catch (e) {} }
+async function removeDeckRemote(id) { serverDeleteDeck(id); if (!cloud.col) return; try { await cloud.col.doc(id).delete(); } catch (e) {} }
 async function initCloud() {
   try {
     if (!window.claude || typeof window.claude.use !== 'function') return;
@@ -1229,7 +1508,7 @@ function peekToday() { return Object.assign(LOG0(), S.log[dayKey()] || {}); }
 const totalAnswered = () => Object.values(S.log).reduce((a, x) => a + (x.n || 0), 0);
 function level() { return Math.floor(Math.sqrt(S.xp / 40)) + 1; }
 function levelRange(lv) { return [40 * (lv - 1) ** 2, 40 * lv ** 2]; }
-function personaDecks() { const p = PERSONAS.find((x) => x.id === S.user.persona); return [...CUSTOM.map((d) => d.id), ...(p ? p.decks : ['neuro'])]; }
+function personaDecks() { const p = PERSONAS.find((x) => x.id === S.user.persona); return [...new Set([...CUSTOM.map((d) => d.id), ...(API ? classDeckIds() : []), ...(p ? p.decks : ['neuro'])])].filter((id) => deckById(id)); }
 function whenText(ts) { if (ts <= Date.now()) return 'agora'; const d = Math.round((ts - Date.now()) / DAY); if (d <= 0) return 'hoje'; if (d === 1) return 'amanhã'; return 'em ' + d + ' dias'; }
 
 /* ---------- Sequência com protetor (inspirado no Duolingo) ---------- */
@@ -1257,7 +1536,7 @@ function missions() {
     { id: 'fix', l: 'Transforme 1 erro em acerto no mesmo ciclo', v: L.fixed, t: 1 },
     { id: 'rev', l: 'Faça 3 revisões pendentes', v: L.rev, t: 3, need: () => dueIds().length + L.rev >= 3 },
     { id: 'cyc', l: 'Conclua 2 ciclos', v: L.cycles, t: 2 },
-    { id: 'tut', l: 'Tire uma dúvida com o tutor ou treine um erro', v: L.tutor, t: 1, need: () => !!SAMPLE }
+    { id: 'tut', l: 'Tire uma dúvida com o tutor ou treine um erro', v: L.tutor, t: 1, need: () => aiReady() }
   ].filter((m) => !m.need || m.need());
   const third = pool[doy % pool.length];
   return [
@@ -1423,23 +1702,19 @@ function questionContext(q, pick) {
     (pick != null ? `\nO aluno marcou: ${LETTERS[pick]}${pick === q.a ? ' (acertou)' : ' (errou)'}` : '');
 }
 async function askTutor(text) {
-  const s = ui.session; if (!SAMPLE || !s || s.tutor.busy || !text.trim()) return;
+  const s = ui.session; if (!aiReady() || !s || s.tutor.busy || !text.trim()) return;
   const { q, deck } = QINDEX[s.queue[s.i]];
   const t = s.tutor;
   t.msgs.push({ role: 'user', content: text.trim() }); t.busy = true; t.live = ''; t.err = '';
   render(); scrollTutor();
-  const sys = `Você é o tutor do Memory, um app de estudo. Ajude o aluno a entender esta questão da trilha "${deck.title}".\n${questionContext(q, s.pick)}\n\nRegras: responda em português do Brasil, em no máximo 110 palavras, com linguagem simples e direta, como um professor paciente. Sem títulos nem listas longas. Use **negrito** só no ponto-chave. Se o aluno pedir um macete, crie um curto e memorável. Não invente fatos fora do conteúdo da questão.`;
-  const messages = t.msgs.map((m, i) => ({ role: m.role, content: i === 0 ? sys + '\n\nPergunta do aluno: ' + m.content : m.content }));
   try {
-    const res = await SAMPLE(messages, {
-      cache: false, modelTier: 'quick',
-      onText: ({ text: full }) => { t.live = full; const el = document.getElementById('tutor-live'); if (el) { el.innerHTML = '<p>' + richText(full) + '</p>'; scrollTutor(); } }
-    });
-    t.msgs.push({ role: 'assistant', content: res.text });
+    const reply = await AI.tutor(q, s.pick, deck, t.msgs.map((m) => ({ role: m.role, content: m.content })),
+      ({ text: full }) => { t.live = full; const el = document.getElementById('tutor-live'); if (el) { el.innerHTML = '<p>' + richText(full) + '</p>'; scrollTutor(); } });
+    t.msgs.push({ role: 'assistant', content: reply });
     const L = todayLog(); L.tutor++; checkMissions(); persist();
   } catch (e) {
     t.msgs.pop();
-    t.err = e && e.code === 'not_granted' ? 'Permita que o Memory use o Claude para conversar com o tutor.' : e && e.code === 'rate_limited' ? 'Muitas perguntas seguidas. Aguarde um instante.' : 'O tutor não respondeu agora. Tente de novo.';
+    t.err = aiError(e, 'O tutor não respondeu agora. Tente de novo.');
   }
   t.busy = false; t.live = '';
   if (ui.session === s) { render(); scrollTutor(); }
@@ -1450,11 +1725,11 @@ function variationPrompt(q, deck, n) {
   return `Você é o motor de questões do Memory. O aluno errou a questão abaixo, da trilha "${deck.title}". Crie ${n} novas questões que treinem EXATAMENTE o mesmo conceito, cada uma com um caso diferente e realista, para fixar o ponto por outros ângulos. Não repita o caso original.\n\nQUESTÃO ORIGINAL:\n${questionContext(q, null)}\n\nRegras: português do Brasil; 4 alternativas; exatamente uma com "p":"correta"; as erradas usam um destes padrões: "inversao", "generalizacao", "restricao", "extrapolacao", "troca", "calculo"; "w" explica em 1 a 2 frases por que a alternativa está certa ou errada; "a" é o índice da correta (varie a posição); "topic" com até 4 palavras; "src" igual ou semelhante ao da original (${q.src || 'trilha ' + deck.title}).\n\nResponda SOMENTE com um array JSON:\n[{"topic":"...","c":"...","q":"...","a":0,"src":"...","o":[{"t":"...","p":"correta","w":"..."},{"t":"...","p":"troca","w":"..."},{"t":"...","p":"generalizacao","w":"..."},{"t":"...","p":"inversao","w":"..."}]}]`;
 }
 async function trainPoint() {
-  const s = ui.session; if (!SAMPLE || !s || s.train.busy) return;
+  const s = ui.session; if (!aiReady() || !s || s.train.busy) return;
   const { q, deck } = QINDEX[s.queue[s.i]];
   s.train.busy = true; s.train.err = ''; render();
   try {
-    const arr = await SAMPLE.json(variationPrompt(q, deck, 3), { cache: false });
+    const arr = await AI.variations(q, deck, 3);
     let rf = CUSTOM.find((d) => d.id === 'ureforco');
     if (!rf) { rf = { id: 'ureforco', title: 'Reforço dos seus erros', subtitle: 'Gerado pelo tutor', blurb: 'Variações criadas a partir das questões que você errou, para treinar o mesmo ponto por outros ângulos.', color: 'orange', tag: 'Reforço', custom: true, createdAt: Date.now(), questions: [] }; CUSTOM.unshift(rf); }
     const qs = validateQuestions(arr, 'ureforco_' + Date.now().toString(36));
@@ -1465,7 +1740,7 @@ async function trainPoint() {
     if (ui.session === s) { s.queue.splice(s.i + 1, 0, ...qs.map((x) => x.id)); s.added += qs.length; s.train.done = qs.length; }
     const L = todayLog(); L.tutor++; checkMissions(); persist();
   } catch (e) {
-    s.train.err = e && e.code === 'rate_limited' ? 'Muitas gerações seguidas. Aguarde um minuto.' : e && e.code === 'not_granted' ? 'Permita que o Memory use o Claude para gerar questões.' : 'Não foi possível criar as variações agora.';
+    s.train.err = aiError(e, 'Não foi possível criar as variações agora.');
   }
   s.train.busy = false;
   if (ui.session === s) render();
@@ -1539,12 +1814,12 @@ function render() {
   else if (ui.session) { tabbar.hidden = true; v.innerHTML = viewSession(); navyTop = ui.session.phase === 'summary'; }
   else {
     tabbar.hidden = false; tabbar.innerHTML = viewTabbar();
-    const views = { home: viewHome, trilhas: viewTrilhas, importar: viewImport, progresso: viewProgress, perfil: viewProfile };
+    const views = { home: viewHome, trilhas: viewTrilhas, importar: viewImport, progresso: viewProgress, perfil: viewProfile, conta: viewConta, turmas: viewTurmas };
     v.innerHTML = (views[ui.tab] || viewHome)();
     navyTop = ui.tab === 'home';
   }
   if (sb) sb.classList.toggle('on-navy', navyTop);
-  const key = !S.user.onboarded ? 'onb' + ui.onb : ui.session ? 'ses' + ui.session.mode + ui.session.i + (ui.session.phase === 'summary' ? 'sum' : '') : ui.tab + (ui.deck || '') + (imp.done || '');
+  const key = !S.user.onboarded ? 'onb' + ui.onb : ui.session ? 'ses' + ui.session.mode + ui.session.i + (ui.session.phase === 'summary' ? 'sum' : '') : ui.tab + (ui.deck || '') + (imp.done || '') + (ui.tab === 'turmas' && API && API.cls ? API.cls.id + (API.cls.name ? '1' : '0') : '');
   if (key !== render.last) {
     render.last = key;
     v.classList.remove('screen-in');
@@ -1563,7 +1838,7 @@ function renderSheet() {
   $('#app').appendChild(el);
 }
 function viewTabbar() {
-  const cur = ui.tab === 'importar' ? 'trilhas' : ui.tab;
+  const cur = ui.tab === 'importar' ? 'trilhas' : ui.tab === 'conta' || ui.tab === 'turmas' ? 'perfil' : ui.tab;
   const t = (id, label, icon) => `<button class="tab" data-act="tab" data-tab="${id}" ${cur === id ? 'aria-current="page"' : ''}><span class="pip">${ico(icon)}</span><span>${label}</span></button>`;
   return t('home', 'Início', 'home') + t('trilhas', 'Trilhas', 'decks') + t('progresso', 'Progresso', 'chart') + t('perfil', 'Perfil', 'user');
 }
@@ -1579,7 +1854,7 @@ function viewOnboarding() {
         <p class="muted">Ciclos curtos de estudo ativo que trocam a dopamina do scroll pela dopamina do acerto.</p></div>
       <div class="list">${[['c-blue', 'target', 'Desafio', 'Um caso real abre cada questão'], ['c-peach', 'bolt', 'Esforço', 'Você lembra antes de ver as opções'], ['c-mint', 'check', 'Recompensa', 'Feedback na hora'], ['c-lilac', 'book', 'Consolidação', 'O porquê de cada alternativa']]
         .map(([c, i, t, s]) => `<div class="item"><span class="tile ${c}">${ico(i)}</span><div class="main"><b>${t}</b><span>${s}</span></div></div>`).join('')}</div>
-      <div class="blk" style="gap:16px">${dots}<button class="btn btn-orange btn-block" data-act="onb-next">Começar</button></div></div></div>`;
+      <div class="blk" style="gap:12px">${dots}<button class="btn btn-orange btn-block" data-act="onb-next">Começar</button>${API && API.on && API.db ? `<button class="btn btn-text btn-block" data-act="auth-open" data-m="login">Já tenho conta · <b style="color:var(--orange-ink)">Entrar</b></button>` : ''}</div></div></div>`;
   if (step === 1) return `<div class="onb"><div class="onb-body">
       <div class="blk" style="gap:20px"><div class="blk" style="gap:6px"><span class="tiny" style="font-weight:700">Passo 2 de 3</span><h1>Vamos nos conhecer</h1></div>
         <div class="field"><label for="onb-name">Seu nome</label><input id="onb-name" class="input" autocomplete="given-name" placeholder="Como quer ser chamado" value="${esc(S.user.name)}" maxlength="40"></div>
@@ -1628,6 +1903,7 @@ function viewHome() {
       ${weekStrip()}
       <div class="blk"><div class="sec"><h2>Continue estudando</h2><button class="link" data-act="tab" data-tab="trilhas">Ver todas</button></div>
         <div class="hscroll">${decks.map(deckCard).join('')}</div></div>
+      ${homeClassBlock()}
       <div class="card pad" style="flex-direction:row;align-items:center;background:var(--t-peach);box-shadow:none">
         <span class="tile" style="background:var(--orange);color:#fff">${ico('bolt')}</span>
         <div style="flex:1;min-width:0"><b class="d" style="font-weight:600;display:block">Sem vontade de começar?</b><span class="small muted">3 questões em menos de 2 minutos</span></div>
@@ -1640,10 +1916,12 @@ function viewHome() {
 }
 
 /* ---------- Trilhas ---------- */
-const CATS = [['all', 'Todas'], ['Concursos', 'Concursos'], ['Escola', 'Escola'], ['Corporativo', 'Corporativo'], ['mine', 'Seu material']];
+const CATS0 = [['all', 'Todas'], ['Concursos', 'Concursos'], ['Escola', 'Escola'], ['Corporativo', 'Corporativo'], ['mine', 'Seu material']];
+const catsNow = () => (API && classDeckIds().length ? [CATS0[0], ['turma', 'Da turma'], ...CATS0.slice(1)] : CATS0);
 function filteredDecks() {
   const q = (ui.q || '').trim().toLowerCase(); const cat = ui.cat || 'all';
-  return allDecks().filter((d) => (cat === 'all' || (cat === 'mine' ? d.custom : d.tag === cat || (cat === 'Concursos' && d.tag === 'Recomendado'))) && (!q || (d.title + ' ' + d.subtitle + ' ' + (d.blurb || '')).toLowerCase().includes(q)));
+  const tids = cat === 'turma' && API ? classDeckIds() : [];
+  return allDecks().filter((d) => (cat === 'all' || (cat === 'turma' ? tids.includes(d.id) : cat === 'mine' ? d.custom : d.tag === cat || (cat === 'Concursos' && d.tag === 'Recomendado'))) && (!q || (d.title + ' ' + d.subtitle + ' ' + (d.blurb || '')).toLowerCase().includes(q)));
 }
 function deckGrid() { const list = filteredDecks(); return list.length ? `<div class="grid2">${list.map(deckCard).join('')}</div>` : '<div class="empty">Nenhuma trilha encontrada.</div>'; }
 function viewTrilhas() {
@@ -1652,7 +1930,7 @@ function viewTrilhas() {
   return `<div class="page">
     <div class="sec" style="padding-top:6px"><h1 style="font-size:26px">Trilhas</h1><button class="icon-btn" data-act="tab" data-tab="importar" aria-label="Criar trilha">${ico('plus')}</button></div>
     <label class="search">${ico('search')}<input id="deck-q" placeholder="Buscar trilha" value="${esc(ui.q || '')}" autocomplete="off" aria-label="Buscar trilha"></label>
-    <div class="chips" role="group" aria-label="Categorias">${CATS.map(([id, l]) => `<button class="fchip" data-act="cat" data-id="${id}" aria-pressed="${(ui.cat || 'all') === id}">${l}</button>`).join('')}</div>
+    <div class="chips" role="group" aria-label="Categorias">${catsNow().map(([id, l]) => `<button class="fchip" data-act="cat" data-id="${id}" aria-pressed="${(ui.cat || 'all') === id}">${l}</button>`).join('')}</div>
     <div class="list">
       <button class="item" data-act="tab" data-tab="importar"><span class="tile c-peach">${ico('upload')}</span><div class="main"><b>Criar trilha com seu PDF</b><span>Apostila, edital, manual ou código</span></div>${chev()}</button>
       <button class="item" data-act="sim-pick"><span class="tile c-blue">${ico('clock')}</span><div class="main"><b>Simulado</b><span>Cronometrado, gabarito no final</span></div>${chev()}</button>
@@ -1737,14 +2015,15 @@ function viewSession() {
     <div class="sess-body">${body}</div><div class="dock">${dock}</div></div>`;
 }
 function viewTrain(s) {
-  if (!SAMPLE || s.correct) return '';
+  if (!aiReady() || s.correct) return '';
   const t = s.train;
   if (t.done) return `<div class="callout" style="background:var(--ok-soft)"><span class="tile" style="background:var(--ok);color:#fff">${ico('check')}</span><div><b>${t.done} questões de reforço criadas</b><p>Elas entram logo a seguir e ficam salvas em “Reforço dos seus erros”.</p></div></div>`;
   return `<div class="card pad" style="flex-direction:row;align-items:center"><span class="tile c-peach">${ico('target')}</span><div style="flex:1;min-width:0"><b class="d" style="font-weight:600;display:block;font-size:15px">Treinar este ponto</b><span class="tiny" style="font-size:13px">3 questões novas sobre o mesmo conceito</span>${t.err ? `<p class="tiny" style="color:var(--bad)">${esc(t.err)}</p>` : ''}</div>
     <button class="btn btn-orange btn-sm" data-act="train" ${t.busy ? 'disabled' : ''}>${t.busy ? 'Criando...' : 'Criar'}</button></div>`;
 }
 function viewTutor(s) {
-  if (!SAMPLE) return '';
+  if (aiNeedsLogin()) return `<div class="card pad" style="flex-direction:row;align-items:center"><span class="avatar" style="width:40px;height:40px;background:var(--navy-2)">${ico('spark')}</span><div style="flex:1;min-width:0"><b class="d" style="font-weight:600;display:block">Tutor com IA</b><span class="tiny" style="font-size:13px">Entre na conta para tirar dúvidas e treinar seus erros</span></div><button class="btn btn-primary btn-sm" data-act="auth-open" data-m="signup">Entrar</button></div>`;
+  if (!aiReady()) return '';
   const t = s.tutor;
   const chips = ['Explique de outro jeito', 'Me dê um exemplo', 'Crie um macete'];
   return `<div class="tutor" id="tutor">
@@ -1812,7 +2091,7 @@ function viewImport() {
       <div class="list">${d.questions.map((q, i) => `<div class="item"><span class="tile c-blue num" style="width:36px;height:36px;border-radius:12px;font-size:13px">${pad(i + 1)}</span><div class="main"><b>${esc(q.q)}</b><span>${esc(q.topic)}</span></div></div>`).join('')}</div>
       <button class="btn btn-text btn-block" data-act="imp-reset">Criar outra trilha</button></div>`;
   }
-  const hasMat = (imp.text || '').trim().length > 0; const ai = SAMPLE !== null;
+  const hasMat = (imp.text || '').trim().length > 0; const ai = aiReady();
   return `<div class="page">
     <div class="sec" style="padding-top:6px"><button class="icon-btn" data-act="tab" data-tab="trilhas" aria-label="Voltar">${ico('back')}</button><span></span></div>
     <div class="blk" style="gap:8px"><h1 style="font-size:26px">Nova trilha</h1><p class="muted small">Envie um PDF ou cole um texto. O Memory cria casos, alternativas e o gabarito comentado.</p></div>
@@ -1826,9 +2105,9 @@ function viewImport() {
     ${imp.error ? `<div class="notice err" role="alert">${esc(imp.error)}</div>` : ''}
     ${imp.busy ? `<div class="card pad gen"><b class="d" style="font-weight:600">Criando questões</b><div class="bar"><i class="o" style="width:${Math.max(6, imp.progress * 100)}%"></i></div><span class="tiny" id="gen-status">${imp.progress > 0 ? 'Questão ' + Math.min(imp.qty, Math.ceil(imp.progress * imp.qty)) + ' de ' + imp.qty : 'Lendo o material'}</span><button class="btn btn-soft btn-sm" data-act="imp-cancel">Cancelar</button></div>` :
       `<button class="btn btn-orange btn-block" data-act="imp-generate" ${hasMat && ai && !imp.reading ? '' : 'disabled'}>Gerar ${imp.qty} questões</button>`}
-    ${!ai && sampleChecked ? `<div class="notice">A geração automática funciona com o Memory aberto no Claude, com login. Trilhas prontas e códigos funcionam normalmente.</div>` : ''}
+    ${aiNeedsLogin() ? `<div class="notice" style="display:flex;gap:12px;align-items:center;justify-content:space-between"><span>Entre na sua conta para gerar questões com IA.</span><button class="btn btn-primary btn-sm" data-act="auth-open" data-m="signup">Entrar</button></div>` : !ai && sampleChecked ? `<div class="notice">${API && API.on ? 'A geração com IA ainda não foi ativada neste servidor. Trilhas prontas e códigos funcionam normalmente.' : 'A geração automática funciona com o Memory aberto no Claude, com login. Trilhas prontas e códigos funcionam normalmente.'}</div>` : ''}
     <div class="card pad"><div style="display:flex;gap:12px;align-items:center"><span class="tile c-blue">${ico('share')}</span><div><b class="d" style="font-weight:600;display:block">Recebeu um código?</b><span class="tiny" style="font-size:13px">Professores e equipes compartilham trilhas prontas</span></div></div>
-      <textarea id="imp-code" class="textarea" style="min-height:76px" placeholder="Cole o código MEMORY1:...">${esc(imp.code)}</textarea>
+      <textarea id="imp-code" class="textarea" style="min-height:76px" placeholder="${API && API.on ? 'Digite o código curto (ex.: K7PX2M) ou cole MEMORY1:...' : 'Cole o código MEMORY1:...'}">${esc(imp.code)}</textarea>
       ${imp.codeErr ? `<div class="notice err">${esc(imp.codeErr)}</div>` : ''}
       <button class="btn btn-primary btn-block btn-sm" data-act="imp-code">Adicionar trilha</button></div>
   </div>`;
@@ -1900,6 +2179,7 @@ function viewProfile() {
   return `<div class="page">
     <div class="sec" style="padding-top:6px"><h1 style="font-size:26px">Perfil</h1></div>
     <div class="pcard"><span class="avatar">${esc(initials())}</span><div style="min-width:0"><b>${esc(S.user.name || 'Estudante')}</b><span>${p ? esc(p.l) : 'Memory'} · nível ${level()}</span></div><button class="edit" data-act="edit-name" aria-label="Editar nome">${ico('edit')}</button></div>
+    ${accountBlock()}
     <div class="field"><label for="pf-name">Nome</label><input id="pf-name" class="input" value="${esc(S.user.name)}" maxlength="40" placeholder="Seu nome"></div>
     <div class="field"><span class="flabel">Objetivo</span><div class="choice-list">${PERSONAS.map((x, i) => `<button class="choice pick" data-act="persona" data-id="${x.id}" aria-pressed="${S.user.persona === x.id}"><span class="tile round ${['c-peach', 'c-blue', 'c-yellow', 'c-mint'][i]}">${ico(['target', 'book', 'spark', 'layers'][i])}</span><div class="main"><b>${x.l}</b><span>${x.d}</span></div><i class="radio"></i></button>`).join('')}</div></div>
     <div class="field"><span class="flabel">Meta diária de questões</span><div class="seg" role="group">${[5, 10, 20, 30].map((n) => `<button data-act="goal" data-n="${n}" aria-pressed="${S.user.goal === n}">${n}</button>`).join('')}</div></div>
@@ -1907,7 +2187,7 @@ function viewProfile() {
     <div class="blk"><div class="sec"><h2>Preferências</h2></div><div class="list">
       ${sw('retrieval', 'Recuperação ativa', 'Pensar antes de ver as alternativas', 'c-blue', 'spark')}
       ${sw('fx', 'Som e vibração', 'Sinal de acerto e erro', 'c-peach', 'bolt')}
-      <div class="item"><span class="tile round c-mint">${ico('shield')}</span><div class="main"><b>Seus dados</b><span>${cloud.status === 'cloud' ? 'Salvos na sua conta e sincronizados' : 'Salvos neste aparelho'}</span></div></div>
+      <div class="item"><span class="tile round c-mint">${ico('shield')}</span><div class="main"><b>Seus dados</b><span>${loggedIn() ? 'Na sua conta Memory, sincronizados' : cloud.status === 'cloud' ? 'Salvos na sua conta e sincronizados' : 'Salvos neste aparelho'}</span></div></div>
     </div></div>
     <div class="blk"><div class="sec"><h2>Sobre o método</h2></div><div class="list">
       ${acc('c-pink', 'alert', 'Por que ler não é estudar', '<p>Reler gera familiaridade, e familiaridade parece domínio. É a ilusão de competência. Só o esforço de lembrar sem olhar mostra o que você sabe e fortalece a memória.</p>')}
@@ -1918,7 +2198,7 @@ function viewProfile() {
     <div class="list">${ui.confirmReset ?
       `<div class="item noicon"><div class="main"><b>Zerar todo o progresso?</b><span>Respostas, XP, sequência e revisões serão apagados. Suas trilhas continuam.</span></div></div><div class="item noicon" style="gap:10px"><button class="btn btn-ghost btn-sm" style="flex:1" data-act="cancel-reset">Cancelar</button><button class="btn btn-danger btn-sm" style="flex:1" data-act="do-reset">Zerar</button></div>` :
       `<button class="item noicon" data-act="ask-reset" style="justify-content:center;color:var(--bad);font-weight:700">Zerar progresso</button>`}</div>
-    <p class="tiny" style="text-align:center">Memory 4.0</p>
+    <p class="tiny" style="text-align:center">Memory 5.0${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
   </div>`;
 }
 
@@ -1930,7 +2210,7 @@ function simSheet(decks) {
   renderSheet();
 }
 const ACT = {
-  'tab': (d) => { ui.tab = d.tab; ui.deck = null; ui.confirmDelete = false; ui.confirmReset = false; render(); $('#view').scrollTop = 0; },
+  'tab': (d) => { if (d.tab === 'turmas' && API) { API.cls = null; API.confirm = null; } ui.tab = d.tab; ui.deck = null; ui.confirmDelete = false; ui.confirmReset = false; render(); $('#view').scrollTop = 0; },
   'cat': (d) => { ui.cat = d.id; document.querySelectorAll('.fchip').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.id === d.id))); const g = document.getElementById('deck-grid'); if (g) g.innerHTML = deckGrid(); },
   'edit-name': () => { const n = document.getElementById('pf-name'); if (n) { n.focus(); n.select(); } },
   'onb-next': () => { const n = document.getElementById('onb-name'); if (n) S.user.name = n.value.trim(); ui.onb++; render(); $('#view').scrollTop = 0; },
@@ -1963,9 +2243,11 @@ const ACT = {
   },
   'share-deck': (d) => {
     const dk = deckById(d.id); if (!dk) return;
-    ui.sheet = `<div class="blk" style="gap:6px"><h2>Compartilhar trilha</h2><p class="muted small">Envie o código para colegas ou alunos. Eles colam em Trilhas › Criar e recebem as mesmas ${dk.questions.length} questões, com progresso próprio.</p></div>
-      <textarea id="share-code" class="textarea" readonly style="min-height:110px;font-size:12px;resize:none">${esc(deckCode(dk))}</textarea>
-      <div class="duo"><button class="btn btn-ghost" data-act="sheet-close">Fechar</button><button class="btn btn-orange" data-act="copy-code">Copiar código</button></div>`;
+    const online = API && API.on && API.db;
+    const long = `<textarea id="share-code" class="textarea" readonly style="min-height:${online ? 80 : 110}px;font-size:12px;resize:none">${esc(deckCode(dk))}</textarea>`;
+    ui.sheet = `<div class="blk" style="gap:6px"><h2>Compartilhar trilha</h2><p class="muted small">Colegas e alunos recebem as mesmas ${dk.questions.length} questões, com progresso próprio.</p></div>
+      ${online ? (loggedIn() ? `<div id="short-box" class="blk" style="gap:8px"><button class="btn btn-orange btn-block" data-act="share-short" data-id="${esc(dk.id)}">Gerar código curto</button></div>` : `<div class="notice" style="display:flex;gap:12px;align-items:center;justify-content:space-between"><span>Entre na conta para gerar um código curto de 6 letras.</span><button class="btn btn-primary btn-sm" data-act="auth-open" data-m="login">Entrar</button></div>`) + `<details class="acc plain"><summary><span class="grow">Código completo (funciona sem internet)</span>${chev()}</summary><div class="body">${long}<button class="btn btn-ghost btn-sm btn-block" data-act="copy-code">Copiar código completo</button></div></details><button class="btn btn-ghost btn-block" data-act="sheet-close">Fechar</button>` :
+      `${long}<div class="duo"><button class="btn btn-ghost" data-act="sheet-close">Fechar</button><button class="btn btn-orange" data-act="copy-code">Copiar código</button></div>`}`;
     renderSheet();
   },
   'copy-code': (d, el) => {
@@ -2004,14 +2286,21 @@ const ACT = {
   'imp-generate': () => { syncImportFields(); generate(); },
   'imp-cancel': () => { if (imp.abort) imp.abort.abort(); },
   'imp-reset': () => { Object.assign(imp, { file: null, text: '', pages: 0, title: '', focus: '', error: '', done: null, note: '', progress: 0, code: '', codeErr: '' }); render(); },
-  'imp-code': () => {
+  'imp-code': async (d, el) => {
     syncImportFields();
+    const sc = API && API.on && shortCode(imp.code);
+    if (sc) {
+      el.disabled = true; el.textContent = 'Buscando...';
+      try { const id = await importShortCode(sc); imp.code = ''; imp.codeErr = ''; imp.done = id; imp.note = ''; }
+      catch (e) { imp.codeErr = e.message || 'Código não encontrado.'; }
+      render(); $('#view').scrollTop = 0; return;
+    }
     try { const id = importCode(imp.code); imp.code = ''; imp.codeErr = ''; imp.done = id; imp.note = ''; render(); $('#view').scrollTop = 0; }
     catch (e) { imp.codeErr = 'Código inválido. Confira se copiou o código inteiro, começando por MEMORY1:'; render(); }
   },
   'ask-reset': () => { ui.confirmReset = true; render(); },
   'cancel-reset': () => { ui.confirmReset = false; render(); },
-  'do-reset': () => { const u = S.user; S = blankState(); S.user = u; ui.confirmReset = false; persist(); render(); toast('Progresso zerado'); }
+  'do-reset': () => { const u = S.user; S = blankState(); S.user = u; S.resetAt = Date.now(); ui.confirmReset = false; persist(); render(); toast('Progresso zerado'); }
 };
 document.addEventListener('input', (e) => { if (e.target.id === 'deck-q') { ui.q = e.target.value; const g = document.getElementById('deck-grid'); if (g) g.innerHTML = deckGrid(); } });
 
@@ -2126,20 +2415,17 @@ function validateQuestions(arr, prefix) {
   return out;
 }
 async function generate() {
-  if (!SAMPLE || imp.busy) return;
+  if (!aiReady() || imp.busy) return;
   const raw = (imp.text || '').trim(); if (!raw) return;
   const { text, cut } = prepareMaterial(raw);
   imp.busy = true; imp.error = ''; imp.progress = 0; imp.note = cut ? 'O material era longo, então usamos trechos distribuídos ao longo de todo o conteúdo. Para cobrir tudo, importe por capítulos.' : '';
   const ctl = new AbortController(); imp.abort = ctl; render();
   const title = (imp.title || imp.file || 'Meu material').trim();
   try {
-    const result = await SAMPLE.json(buildPrompt(text, imp.qty, title, imp.focus.trim()), {
-      modelTier: 'default', signal: ctl.signal, cache: false,
-      onText: ({ text: t }) => {
+    const result = await AI.questions(text, imp.qty, title, imp.focus.trim(), ({ text: t }) => {
         const n = (t.match(/"q"\s*:/g) || []).length; const p = Math.min(0.98, n / imp.qty);
         if (p !== imp.progress) { imp.progress = p; const st = document.getElementById('gen-status'), tr = document.querySelector('.gen .track i'); if (st) st.textContent = 'Questão ' + Math.min(imp.qty, Math.max(1, n)) + ' de ' + imp.qty; if (tr) tr.style.width = Math.max(6, p * 100) + '%'; }
-      }
-    });
+    }, ctl.signal);
     const id = 'u' + Date.now().toString(36);
     const qs = validateQuestions(result, id);
     if (!qs.length) throw { code: 'invalid_json' };
@@ -2147,7 +2433,7 @@ async function generate() {
     imp.done = id;
   } catch (e) {
     const code = e && e.code;
-    imp.error = code === 'cancelled' ? '' : code === 'not_granted' ? 'Para gerar questões, permita que o Memory use o Claude quando o pedido aparecer.' : code === 'rate_limited' ? 'Muitas gerações seguidas. Aguarde um minuto e tente de novo.' : code === 'invalid_json' ? 'A resposta veio incompleta. Tente gerar menos questões ou um trecho menor do material.' : code === 'refused' ? 'Não foi possível gerar questões a partir deste conteúdo.' : 'Não foi possível gerar agora. Tente novamente em instantes.';
+    imp.error = code === 'cancelled' ? '' : aiError(e, 'Não foi possível gerar agora. Tente novamente em instantes.');
   }
   imp.busy = false; imp.abort = null; render(); $('#view').scrollTop = 0;
 }
@@ -2188,7 +2474,7 @@ document.addEventListener('submit', (e) => {
 });
 document.addEventListener('input', (e) => {
   const id = e.target.id;
-  if (id === 'imp-text') { imp.text = e.target.value; const btn = document.querySelector('[data-act="imp-generate"]'); if (btn) btn.disabled = !(imp.text.trim() && SAMPLE && !imp.reading); }
+  if (id === 'imp-text') { imp.text = e.target.value; const btn = document.querySelector('[data-act="imp-generate"]'); if (btn) btn.disabled = !(imp.text.trim() && aiReady() && !imp.reading); }
   else if (id === 'imp-title') imp.title = e.target.value;
   else if (id === 'imp-focus') imp.focus = e.target.value;
   else if (id === 'imp-code') imp.code = e.target.value;
@@ -2209,9 +2495,549 @@ document.addEventListener('keydown', (e) => {
   } else if (e.key === 'Enter') { const b = document.querySelector('.dock .btn-primary:not([disabled]), .dock .btn-orange'); if (b) b.click(); }
 });
 
+
+/* ================= Conta, sincronização, turmas e IA (back-end do Memory) ================= */
+// Quando o app roda no servidor do Memory (Vercel), /api responde e libera: conta, progresso na nuvem,
+// turmas com painel do professor, códigos curtos e IA. Sem servidor, tudo continua funcionando no aparelho.
+I.users = '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c1-3.5 3.6-5.5 6.5-5.5s5.5 2 6.5 5.5"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8M18 14.8c1.8.8 3 2.6 3.5 5.2"/>';
+I.eye = '<path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/>';
+I.cloud = '<path d="M7 18h10a4 4 0 0 0 .7-7.95A6 6 0 0 0 6.1 9.1 4.5 4.5 0 0 0 7 18Z"/>';
+I.copy = '<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/>';
+I.logout = '<path d="M15 4h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-4M10 16l-4-4 4-4M6 12h10"/>';
+I.download = '<path d="M12 4v12m0 0-5-5m5 5 5-5M4 20h16"/>';
+I.key = '<circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M17 6l3 3M15 8l2 2"/>';
+I.refresh = '<path d="M20 12a8 8 0 1 1-2.3-5.6M20 4v5h-5"/>';
+TAG_COLOR['Turma'] = 'c-mint';
+DECK_LOOK.ureforco = DECK_LOOK.ureforco || { pal: 'peach', v: 3, icon: 'target' };
+
+const LS_CLASSES = 'memory.classes.v1';
+API = {
+  on: false, db: false, ai: false, user: null, sync: 'local', lastSync: 0, timer: null, inflight: false, again: false, retry: null,
+  classes: (() => { try { return JSON.parse(lsGet(LS_CLASSES) || '[]'); } catch (e) { return []; } })(),
+  cls: null, clsLoading: false, clsErr: '', member: null, confirm: null
+};
+const auth = { mode: 'signup', name: '', email: '', pass: '', err: '', busy: false, show: false, note: '', after: null };
+const acct = { pwOpen: false, pwErr: '', delOpen: false, delErr: '', busy: false };
+
+async function api(method, path, body, opts = {}) {
+  const init = { method, credentials: 'same-origin', headers: {}, signal: opts.signal, keepalive: !!opts.keepalive };
+  if (method !== 'GET') { init.headers['content-type'] = 'application/json'; init.body = JSON.stringify(body || {}); }
+  let r;
+  try { r = await fetch('/api/' + path, init); } catch (e) { if (e && e.name === 'AbortError') throw e; const er = new Error('Sem conexão com o servidor. Confira sua internet.'); er.code = 'offline'; throw er; }
+  let data = null; try { data = await r.json(); } catch (e) { /* sem corpo */ }
+  if (!r.ok) { const er = new Error((data && data.message) || 'Algo deu errado. Tente de novo.'); er.code = (data && data.error) || 'http_' + r.status; er.status = r.status; throw er; }
+  return data;
+}
+const loggedIn = () => !!(API && API.user);
+const isTyping = () => { const a = document.activeElement; return !!(a && a.matches && a.matches('input, textarea')); };
+function rerender() { if (!ui.session && !isTyping()) render(); }
+function saveClassesCache() { lsSet(LS_CLASSES, JSON.stringify(API.classes || [])); }
+
+/* ---------- Trilhas das turmas (entram na lista de trilhas do aluno) ---------- */
+function refreshClassDecks() {
+  const own = new Set(CUSTOM.map((d) => d.id)); const seen = new Set(); const out = [];
+  for (const c of API.classes || []) for (const d of c.decks || []) {
+    if (d.builtin || own.has(d.id) || seen.has(d.id) || !Array.isArray(d.questions) || !d.questions.length) continue;
+    seen.add(d.id);
+    out.push(Object.assign({}, d, { custom: false, classDeck: true, tag: 'Turma', subtitle: 'Turma ' + c.name, blurb: d.blurb || 'Trilha indicada na turma ' + c.name + '.', className: c.name }));
+  }
+  CLASS_DECKS = out; reindex();
+}
+function classDeckIds() { const ids = []; for (const c of (API && API.classes) || []) for (const d of c.decks || []) if (!ids.includes(d.id)) ids.push(d.id); return ids; }
+refreshClassDecks();
+
+/* ---------- Sincronização do progresso ---------- */
+function serverSave() {
+  if (!loggedIn()) return;
+  clearTimeout(API.timer); API.timer = setTimeout(pushServer, 1500);
+}
+async function pushServer() {
+  if (!loggedIn()) return;
+  if (API.inflight) { API.again = true; return; }
+  API.inflight = true; API.sync = 'saving'; paintSync();
+  try {
+    const r = await api('PUT', 'state', { state: S });
+    const local = SH.sanitizeState(S);
+    const merged = SH.mergeState(local, SH.sanitizeState(r.state));
+    const changed = JSON.stringify(merged) !== JSON.stringify(SH.mergeState(local, local));
+    S = migrate(merged); lsSet(LS_STATE, JSON.stringify(S));
+    API.sync = 'saved'; API.lastSync = Date.now(); clearTimeout(API.retry);
+    if (changed) rerender();
+  } catch (e) { syncFailed(e); }
+  API.inflight = false; paintSync();
+  if (API.again) { API.again = false; pushServer(); }
+}
+function syncFailed(e) {
+  if (e && e.status === 401) { API.user = null; API.sync = 'local'; notify('Sua sessão terminou. Entre de novo para sincronizar.'); rerender(); return; }
+  API.sync = 'offline';
+  clearTimeout(API.retry); API.retry = setTimeout(() => { if (loggedIn()) pushServer(); }, 30000);
+}
+async function syncDecks() {
+  const r = await api('GET', 'decks');
+  const del = new Set(r.deleted || []); let changed = false;
+  if (del.size) { const n = CUSTOM.length; CUSTOM = CUSTOM.filter((d) => !del.has(d.id)); changed = CUSTOM.length !== n; }
+  const remote = new Map((r.decks || []).map((d) => [d.id, d]));
+  const local = new Map(CUSTOM.map((d) => [d.id, d]));
+  for (const [id, d] of remote) {
+    const l = local.get(id);
+    if (!l) { CUSTOM.push(d); changed = true; } else if (d.questions.length > l.questions.length) { Object.assign(l, d); changed = true; }
+  }
+  for (const d of CUSTOM) { const rd = remote.get(d.id); if (!rd || rd.questions.length < d.questions.length) serverPutDeck(d); }
+  if (changed) { CUSTOM.sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0)); saveDecksLocal(); }
+  refreshClassDecks();
+}
+function serverPutDeck(d) {
+  if (!loggedIn() || !d || !d.custom) return;
+  api('PUT', 'decks/' + encodeURIComponent(d.id), { deck: d }).catch((e) => {
+    if (e.code === 'deleted') { CUSTOM = CUSTOM.filter((x) => x.id !== d.id); saveDecksLocal(); refreshClassDecks(); rerender(); }
+  });
+}
+function serverDeleteDeck(id) { if (loggedIn()) api('DELETE', 'decks/' + encodeURIComponent(id)).catch(() => {}); }
+async function loadClasses() {
+  const r = await api('GET', 'classes');
+  API.classes = r.classes || []; saveClassesCache(); refreshClassDecks();
+}
+async function syncAll() {
+  if (!loggedIn()) return;
+  API.sync = 'saving'; paintSync();
+  try {
+    await pushServer();
+    await syncDecks();
+    await loadClasses();
+    API.sync = 'saved'; API.lastSync = Date.now();
+  } catch (e) { syncFailed(e); }
+  paintSync();
+}
+function syncText() {
+  if (!loggedIn()) return 'Salvo neste aparelho';
+  if (API.sync === 'saving') return 'Sincronizando...';
+  if (API.sync === 'offline') return 'Sem conexão · tentando de novo';
+  if (!API.lastSync) return 'Conectado';
+  const m = Math.round((Date.now() - API.lastSync) / 60000);
+  return 'Sincronizado ' + (m < 1 ? 'agora' : m < 60 ? 'há ' + m + ' min' : 'hoje');
+}
+function paintSync() { document.querySelectorAll('[data-sync]').forEach((el) => { el.textContent = syncText(); }); }
+window.addEventListener('online', () => { if (loggedIn()) pushServer(); });
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && loggedIn() && Date.now() - API.lastSync > 30000) syncAll().then(rerender);
+  if (document.visibilityState === 'hidden' && loggedIn() && API.timer) {
+    clearTimeout(API.timer); API.timer = null;
+    const body = JSON.stringify({ state: S });
+    if (body.length < 60000) api('PUT', 'state', { state: S }, { keepalive: true }).catch(() => {});
+  }
+});
+
+/* ---------- IA: Claude (dentro do claude.ai) ou servidor do Memory ---------- */
+function aiReady() { return !!SAMPLE || !!(API && API.ai && API.user); }
+function aiNeedsLogin() { return !SAMPLE && API && API.ai && !API.user && API.db; }
+async function aiStream(kind, body, onText, signal) {
+  let r;
+  try { r = await fetch('/api/ai/' + kind, { method: 'POST', credentials: 'same-origin', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body), signal }); }
+  catch (e) { throw { code: e && e.name === 'AbortError' ? 'cancelled' : 'offline' }; }
+  if (!r.ok) { let d = {}; try { d = await r.json(); } catch (e) { /* vazio */ } throw { code: d.error === 'unauthorized' ? 'not_granted' : d.error || 'error', message: d.message }; }
+  const rd = r.body.getReader(); const dec = new TextDecoder(); let full = '';
+  try {
+    for (;;) {
+      const { value, done } = await rd.read(); if (done) break;
+      full += dec.decode(value, { stream: true });
+      const cut = full.indexOf('\u0000'); if (onText) onText({ text: cut >= 0 ? full.slice(0, cut).trim() : full });
+    }
+  } catch (e) { throw { code: e && e.name === 'AbortError' ? 'cancelled' : 'error' }; }
+  const k = full.indexOf('\u0000ERR:'); if (k >= 0) throw { code: full.slice(k + 5).trim() };
+  return full;
+}
+const AI = {
+  async tutor(q, pick, deck, msgs, onText) {
+    if (SAMPLE) {
+      const sys = SH.tutorSystem(q, pick, deck.title);
+      const messages = msgs.map((m, i) => ({ role: m.role, content: i === 0 ? sys + '\n\nPergunta do aluno: ' + m.content : m.content }));
+      return (await SAMPLE(messages, { cache: false, modelTier: 'quick', onText })).text;
+    }
+    return aiStream('tutor', { question: q, pick, deckTitle: deck.title, messages: msgs }, onText);
+  },
+  async variations(q, deck, n) {
+    if (SAMPLE) return SAMPLE.json(SH.variationPrompt(q, deck.title, n), { cache: false });
+    const arr = SH.extractJsonArray(await aiStream('variations', { question: q, deckTitle: deck.title, n }));
+    if (!arr) throw { code: 'invalid_json' }; return arr;
+  },
+  async questions(text, n, title, focus, onText, signal) {
+    if (SAMPLE) return SAMPLE.json(SH.buildPrompt(text, n, title, focus), { modelTier: 'default', signal, cache: false, onText });
+    const arr = SH.extractJsonArray(await aiStream('questions', { material: text, n, title, focus }, onText, signal));
+    if (!arr) throw { code: 'invalid_json' }; return arr;
+  }
+};
+function aiError(e, fallback) {
+  const c = e && e.code;
+  if (c === 'not_granted') return SAMPLE ? 'Permita que o Memory use o Claude quando o pedido aparecer.' : 'Entre na sua conta para usar a IA.';
+  if (c === 'rate_limited') return 'Muitos pedidos seguidos. Aguarde um minuto e tente de novo.';
+  if (c === 'ai_quota') return (e && e.message) || 'Você atingiu o limite diário da IA. Ele renova amanhã.';
+  if (c === 'invalid_json') return 'A resposta veio incompleta. Tente de novo com menos questões.';
+  if (c === 'refused') return 'Não foi possível gerar a partir deste conteúdo.';
+  if (c === 'offline') return 'Sem conexão com o servidor. Confira sua internet.';
+  if (c === 'material_short') return 'O material está curto demais para gerar questões.';
+  return fallback;
+}
+
+/* ---------- Entrar / criar conta ---------- */
+function authSheet() {
+  const su = auth.mode === 'signup';
+  const hasLocal = Object.keys(S.cards).length > 0;
+  return `<form class="blk" data-form="auth" style="gap:16px" novalidate>
+    <div class="blk" style="gap:6px"><h2>${su ? 'Crie sua conta' : 'Entrar na conta'}</h2>
+      <p class="muted small">${esc(auth.note || (su ? 'Grátis. Seu progresso fica salvo e sincroniza entre celular e computador.' : 'Use o e-mail e a senha da sua conta Memory.'))}</p></div>
+    <div class="seg" role="group" aria-label="Tipo de acesso"><button type="button" data-act="auth-mode" data-m="signup" aria-pressed="${su}">Criar conta</button><button type="button" data-act="auth-mode" data-m="login" aria-pressed="${!su}">Já tenho conta</button></div>
+    ${su ? `<div class="field"><label for="au-name">Nome</label><input id="au-name" name="name" class="input" autocomplete="name" maxlength="60" placeholder="Como quer ser chamado" value="${esc(auth.name)}"></div>` : ''}
+    <div class="field"><label for="au-email">E-mail</label><input id="au-email" name="email" type="email" class="input" autocomplete="${su ? 'email' : 'username'}" inputmode="email" autocapitalize="off" spellcheck="false" maxlength="254" placeholder="voce@email.com" value="${esc(auth.email)}"></div>
+    <div class="field"><label for="au-pass">Senha</label><div class="pw"><input id="au-pass" name="password" type="${auth.show ? 'text' : 'password'}" class="input" autocomplete="${su ? 'new-password' : 'current-password'}" maxlength="72" placeholder="${su ? 'Mínimo de 8 caracteres' : 'Sua senha'}" value="${esc(auth.pass)}"><button type="button" class="pw-eye" data-act="auth-eye" aria-label="${auth.show ? 'Esconder senha' : 'Mostrar senha'}" aria-pressed="${auth.show}">${ico('eye')}</button></div></div>
+    <div id="au-err">${auth.err ? `<div class="notice err" role="alert">${esc(auth.err)}</div>` : ''}</div>
+    <button class="btn btn-orange btn-block" type="submit" ${auth.busy ? 'disabled' : ''}>${auth.busy ? 'Aguarde...' : su ? 'Criar conta' : 'Entrar'}</button>
+    ${su && hasLocal ? '<p class="tiny" style="text-align:center;margin-top:-4px">O progresso deste aparelho vai junto para a conta.</p>' : ''}
+  </form>`;
+}
+function readAuth() {
+  const n = document.getElementById('au-name'), e = document.getElementById('au-email'), p = document.getElementById('au-pass');
+  if (n) auth.name = n.value; if (e) auth.email = e.value; if (p) auth.pass = p.value;
+}
+function paintAuth(focus) {
+  const sh = document.querySelector('.sheet');
+  if (!sh || !document.querySelector('[data-form="auth"]')) { ui.sheet = authSheet(); renderSheet(); }
+  else sh.innerHTML = authSheet();
+  if (focus) setTimeout(() => { const el = document.getElementById(focus); if (el) el.focus(); }, 60);
+}
+function openAuth(mode, opts = {}) {
+  Object.assign(auth, { mode, err: '', busy: false, note: opts.note || '', after: opts.after || null });
+  if (!auth.name && S.user.name) auth.name = S.user.name;
+  ui.sheet = authSheet(); renderSheet();
+  setTimeout(() => { const el = document.getElementById(mode === 'signup' && !auth.name ? 'au-name' : auth.email ? 'au-pass' : 'au-email'); if (el && matchMedia('(pointer:fine)').matches) el.focus(); }, 80);
+}
+async function submitAuth() {
+  readAuth(); if (auth.busy) return;
+  const su = auth.mode === 'signup';
+  const email = auth.email.trim();
+  if (su && !auth.name.trim()) { auth.err = 'Informe seu nome.'; return paintAuth('au-name'); }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { auth.err = 'Informe um e-mail válido.'; return paintAuth('au-email'); }
+  if (auth.pass.length < (su ? 8 : 1)) { auth.err = su ? 'A senha precisa ter pelo menos 8 caracteres.' : 'Informe sua senha.'; return paintAuth('au-pass'); }
+  auth.busy = true; auth.err = ''; paintAuth();
+  try {
+    const r = await api('POST', su ? 'auth/signup' : 'auth/login', su ? { name: auth.name.trim(), email, password: auth.pass } : { email, password: auth.pass });
+    API.user = r.user;
+    if (su && !S.user.name) S.user.name = r.user.name.split(' ')[0];
+    const after = auth.after;
+    Object.assign(auth, { pass: '', err: '', busy: false, show: false, note: '', after: null });
+    ui.sheet = null; renderSheet();
+    notify(su ? 'Conta criada. Seu progresso agora fica salvo na nuvem.' : 'Bem-vindo de volta, ' + r.user.name.split(' ')[0] + '.');
+    lsSet(LS_STATE, JSON.stringify(S));
+    await syncAll();
+    if (after) await after();
+    render();
+  } catch (e) {
+    auth.busy = false;
+    auth.err = e.message || 'Não foi possível entrar agora.';
+    if (e.code === 'email_taken') auth.mode = 'login';
+    paintAuth(e.code === 'bad_credentials' ? 'au-pass' : null);
+  }
+}
+document.addEventListener('submit', (e) => { if (e.target.dataset && e.target.dataset.form === 'auth') { e.preventDefault(); submitAuth(); } });
+
+async function logout() {
+  try { await api('POST', 'auth/logout'); } catch (e) { /* sai mesmo assim */ }
+  try { localStorage.removeItem(LS_STATE); localStorage.removeItem(LS_DECKS); localStorage.removeItem(LS_CLASSES); } catch (e) { /* indisponível */ }
+  location.replace(location.pathname);
+}
+
+/* ---------- Código curto para trilhas ---------- */
+async function importShortCode(code) {
+  const r = await api('GET', 'share/' + encodeURIComponent(code));
+  const d = r.deck; const id = 'u' + Date.now().toString(36);
+  const qs = validateQuestions(d.questions, id);
+  if (!qs.length) throw new Error('Esta trilha está vazia.');
+  addDeck({ id, title: String(d.title || 'Trilha compartilhada').slice(0, 60), subtitle: 'Compartilhada por ' + (d.by || 'um colega'), blurb: String(d.blurb || 'Trilha recebida por código.').slice(0, 300), color: 'navy', tag: 'Compartilhada', custom: true, createdAt: Date.now(), source: 'código ' + code, questions: qs });
+  return id;
+}
+const shortCode = (s) => { const c = String(s || '').toUpperCase().replace(/[^A-Z0-9]/g, ''); return /^[A-Z2-9]{6}$/.test(c) ? c : null; };
+const appLink = (param, code) => location.origin + location.pathname + '?' + param + '=' + code;
+async function shareOrCopy(text, url, el) {
+  if (navigator.share && matchMedia('(pointer:coarse)').matches) { try { await navigator.share({ title: 'Memory', text, url }); return; } catch (e) { if (e && e.name === 'AbortError') return; } }
+  try { await navigator.clipboard.writeText(url ? text + ' ' + url : text); if (el) el.textContent = 'Copiado'; notify('Copiado'); } catch (e) { notify('Não foi possível copiar. Selecione o código e copie.'); }
+}
+
+/* ---------- Turmas ---------- */
+async function openClass(id) {
+  ui.tab = 'turmas'; API.member = null; API.confirm = null;
+  API.cls = { id }; API.clsLoading = true; API.clsErr = ''; render(); $('#view').scrollTop = 0;
+  try { const r = await api('GET', 'classes/' + id); if (API.cls && API.cls.id === id) API.cls = r.class; }
+  catch (e) { API.clsErr = e.message; if (e.status === 404) { API.classes = API.classes.filter((c) => c.id !== id); saveClassesCache(); refreshClassDecks(); } }
+  API.clsLoading = false; if (ui.tab === 'turmas') render();
+}
+async function joinClass(code, silent) {
+  const c = shortCode(code);
+  if (!c) { if (!silent) notify('O código da turma tem 6 letras e números.'); return; }
+  const r = await api('POST', 'classes/join', { code: c });
+  await loadClasses();
+  notify((r.already ? 'Você já participa de “' : 'Você entrou em “') + r.class.name + '”.');
+  if (S.user.onboarded) await openClass(r.class.id);
+}
+const rel = (t) => { if (!t) return 'nunca'; const m = Math.round((Date.now() - t) / 60000); if (m < 2) return 'agora'; if (m < 60) return 'há ' + m + ' min'; const h = Math.round(m / 60); if (h < 24) return 'há ' + h + ' h'; const d = Math.round(h / 24); return d === 1 ? 'ontem' : 'há ' + d + ' dias'; };
+const pct = (v) => (v == null ? '–' : v + '%');
+const ini2 = (n) => String(n || '?').trim().split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
+
+function viewTurmas() {
+  if (!loggedIn()) {
+    return `<div class="page"><div class="sec" style="padding-top:6px"><button class="icon-btn" data-act="tab" data-tab="perfil" aria-label="Voltar">${ico('back')}</button><span></span></div>
+      <div class="empty-state"><span class="tile c-blue big">${ico('users')}</span><h1 style="font-size:24px">Turmas</h1><p class="muted">Entre na sua conta para criar uma turma ou entrar com o código do professor.</p>
+      <button class="btn btn-orange btn-block" data-act="auth-open" data-m="signup">Criar conta grátis</button><button class="btn btn-ghost btn-block" data-act="auth-open" data-m="login">Já tenho conta</button></div></div>`;
+  }
+  if (API.cls) return viewClass();
+  const mine = API.classes.filter((c) => c.role === 'owner'), joined = API.classes.filter((c) => c.role !== 'owner');
+  const row = (c) => `<button class="item" data-act="cls-open" data-id="${c.id}"><span class="tile ${c.role === 'owner' ? 'c-peach' : 'c-blue'}">${c.role === 'owner' ? ico('chart') : ico('users')}</span><div class="main"><b>${esc(c.name)}</b><span>${c.role === 'owner' ? plural(c.members, 'aluno', 'alunos') + ' · código ' + esc(c.joinCode || '') : 'Professor(a) ' + esc(c.owner) + ' · ' + plural(c.decks.length, 'trilha', 'trilhas')}</span></div>${chev()}</button>`;
+  return `<div class="page">
+    <div class="sec" style="padding-top:6px"><button class="icon-btn" data-act="tab" data-tab="perfil" aria-label="Voltar">${ico('back')}</button><span></span></div>
+    <div class="blk" style="gap:8px"><h1 style="font-size:26px">Turmas</h1><p class="muted small">Professores e empresas acompanham a evolução da turma. Alunos recebem as trilhas e disputam o ranking da semana.</p></div>
+    <div class="card pad"><div style="display:flex;gap:12px;align-items:center"><span class="tile c-blue">${ico('users')}</span><div><b class="d" style="font-weight:600;display:block">Entrar em uma turma</b><span class="tiny" style="font-size:13px">Digite o código que o professor passou</span></div></div>
+      <div class="inline-form"><input id="cls-code" class="input code-in" placeholder="EX: K7PX2M" maxlength="9" autocomplete="off" autocapitalize="characters" spellcheck="false" aria-label="Código da turma"><button class="btn btn-primary btn-sm" data-act="cls-join">Entrar</button></div></div>
+    ${joined.length ? `<div class="blk"><div class="sec"><h2>Suas turmas</h2></div><div class="list">${joined.map(row).join('')}</div></div>` : ''}
+    <div class="blk"><div class="sec"><h2>Turmas que você criou</h2></div>
+      ${mine.length ? `<div class="list">${mine.map(row).join('')}</div>` : ''}
+      <div class="card pad"><div style="display:flex;gap:12px;align-items:center"><span class="tile c-peach">${ico('plus')}</span><div><b class="d" style="font-weight:600;display:block">Criar turma</b><span class="tiny" style="font-size:13px">Para professores, cursinhos e equipes</span></div></div>
+        <div class="inline-form"><input id="cls-name" class="input" placeholder="Ex.: 3º B · Noite" maxlength="60" autocomplete="off" aria-label="Nome da turma"><button class="btn btn-orange btn-sm" data-act="cls-create">Criar</button></div></div>
+    </div>
+  </div>`;
+}
+
+function viewClass() {
+  const c = API.cls;
+  const back = `<div class="sec" style="padding-top:6px"><button class="icon-btn" data-act="cls-back" aria-label="Voltar">${ico('back')}</button>${c.role === 'owner' ? `<button class="icon-btn" data-act="cls-refresh" aria-label="Atualizar">${ico('refresh')}</button>` : '<span></span>'}</div>`;
+  if (API.clsLoading && !c.name) return `<div class="page">${back}<div class="skel" style="height:150px"></div><div class="skel" style="height:90px"></div><div class="skel" style="height:220px"></div></div>`;
+  if (API.clsErr && !c.name) return `<div class="page">${back}<div class="notice err">${esc(API.clsErr)}</div><button class="btn btn-ghost btn-block" data-act="cls-open" data-id="${esc(c.id)}">Tentar de novo</button></div>`;
+  const decks = (c.decks || []).map((d) => (d.builtin ? deckById(d.id) || d : deckById(d.id) || d));
+  const deckRow = (d) => {
+    const real = deckById(d.id); const st = real ? deckStats(real) : null;
+    return `<div class="item"><span class="tile ${d.builtin ? 'c-blue' : 'c-mint'}">${ico('decks')}</span><button class="main" data-act="open-deck" data-id="${esc(d.id)}" style="text-align:left"><b>${esc(d.title)}</b><span>${real ? plural(real.questions.length, 'questão', 'questões') + (st ? ' · você: ' + st.pct + '%' : '') : 'Trilha do Memory'}</span></button>${c.role === 'owner' ? `<button class="icon-btn flat" data-act="cls-rm-deck" data-id="${esc(d.id)}" aria-label="Remover trilha da turma">${ico('x')}</button>` : chev()}</div>`;
+  };
+  const ranking = (c.ranking || []).length ? `<div class="blk"><div class="sec"><h2>Ranking da semana</h2><span class="tiny">acertos em 7 dias</span></div><div class="list rank">${c.ranking.map((r, i) => `<div class="item ${r.me ? 'me' : ''}"><span class="pos num">${i + 1}</span><span class="avatar sm">${esc(ini2(r.name))}</span><div class="main"><b>${esc(r.name)}${r.me ? ' <span class="tag c-peach">você</span>' : ''}</b><span>${plural(r.week, 'resposta', 'respostas')} · ${ico('flame')} ${r.streak}</span></div><span class="end num" style="font-family:var(--display);color:var(--ink)">${r.weekOk}</span></div>`).join('')}</div></div>` : '';
+  if (c.role !== 'owner') {
+    return `<div class="page">${back}
+      <div class="cls-hero"><span class="tag" style="background:rgba(255,255,255,.14);color:#fff">Turma</span><h1>${esc(c.name)}</h1><p>${plural(c.members, 'aluno', 'alunos')}</p></div>
+      <div class="blk"><div class="sec"><h2>Trilhas da turma</h2></div>${decks.length ? `<div class="list">${decks.map(deckRow).join('')}</div>` : '<div class="empty">O professor ainda não indicou trilhas.</div>'}</div>
+      ${ranking}
+      <div class="list">${API.confirm === 'leave' ? `<div class="item noicon"><div class="main"><b>Sair da turma?</b><span>Seu progresso continua salvo na sua conta.</span></div></div><div class="item noicon" style="gap:10px"><button class="btn btn-ghost btn-sm" style="flex:1" data-act="cls-confirm" data-v="">Cancelar</button><button class="btn btn-danger btn-sm" style="flex:1" data-act="cls-leave">Sair</button></div>` : `<button class="item noicon" data-act="cls-confirm" data-v="leave" style="justify-content:center;color:var(--bad);font-weight:700">Sair da turma</button>`}</div>
+    </div>`;
+  }
+  const o = c.overview || {};
+  const TRAP = (k) => (PATTERNS[k] ? PATTERNS[k].l : k);
+  const student = (s) => {
+    const sm = s.summary; const open = API.member === s.id;
+    const status = sm.week ? `<span class="dotk ok"></span>ativo` : sm.answered ? `<span class="dotk warn"></span>parado` : `<span class="dotk"></span>não começou`;
+    return `<div class="member ${open ? 'open' : ''}"><button class="item" data-act="cls-member" data-id="${s.id}" aria-expanded="${open}"><span class="avatar sm">${esc(ini2(s.name))}</span><div class="main"><b>${esc(s.name)}</b><span>${status} · ${rel(sm.lastActive || s.lastSeen)}</span></div><div class="mstats"><b class="num">${pct(sm.accuracy)}</b><span>acerto</span></div>${chev()}</button>
+      ${open ? `<div class="mdetail">
+        <div class="mini4"><div><b class="num">${sm.week}</b><span>na semana</span></div><div><b class="num">${pct(sm.memory)}</b><span>memória</span></div><div><b class="num">${sm.streak}</b><span>sequência</span></div><div><b class="num">${sm.answered}</b><span>no total</span></div></div>
+        ${decks.length ? decks.map((d) => { const p = (s.decks || {})[d.id] || { pct: 0, seen: 0, t: 0 }; return `<div class="dprog"><div class="dprog-h"><span>${esc(d.title)}</span><b class="num">${p.pct}%</b></div><div class="bar"><i class="${p.pct >= 70 ? 'g' : 'o'}" style="width:${p.pct}%"></i></div><span class="tiny">${p.seen} de ${p.t} questões vistas${p.accuracy != null ? ' · ' + p.accuracy + '% de acerto' : ''}</span></div>`; }).join('') : ''}
+        ${sm.traps.length ? `<p class="tiny">Mais cai em: ${sm.traps.map(([k]) => esc(TRAP(k))).join(', ')}</p>` : ''}
+        <p class="tiny">${esc(s.email)} · entrou ${new Date(s.joinedAt).toLocaleDateString('pt-BR')}</p>
+        ${API.confirm === 'rm:' + s.id ? `<div class="duo"><button class="btn btn-ghost btn-sm" data-act="cls-confirm" data-v="">Cancelar</button><button class="btn btn-danger btn-sm" data-act="cls-rm-member" data-id="${s.id}">Remover</button></div>` : `<button class="btn btn-text btn-sm" style="color:var(--bad)" data-act="cls-confirm" data-v="rm:${s.id}">Remover da turma</button>`}
+      </div>` : ''}</div>`;
+  };
+  return `<div class="page">${back}
+    <div class="cls-hero"><span class="tag" style="background:rgba(255,255,255,.14);color:#fff">Painel do professor</span><h1>${esc(c.name)}</h1>
+      <div class="codebox"><div><small>Código da turma</small><b class="num">${esc(c.joinCode)}</b></div><div class="cb-act"><button class="icon-btn glassy" data-act="cls-copy" aria-label="Copiar código">${ico('copy')}</button></div></div>
+      <div class="hero-actions"><button class="btn btn-orange btn-sm" data-act="cls-share">${ico('share')} Convidar alunos</button><button class="link-light" data-act="cls-newcode">Gerar novo código</button></div></div>
+    <div class="kgrid">
+      <div class="kcard c-blue"><span class="tile" style="background:var(--surface)">${ico('users')}</span><b class="num">${cnt(o.students || 0)}</b><span>alunos · ${o.activeWeek || 0} ativos</span></div>
+      <div class="kcard c-peach"><span class="tile" style="background:var(--surface)">${ico('layers')}</span><b class="num">${cnt(o.weekAnswers || 0)}</b><span>respostas na semana</span></div>
+      <div class="kcard c-mint"><span class="tile" style="background:var(--surface)">${ico('target')}</span><b class="num">${o.accuracy == null ? '–' : cnt(o.accuracy, '%')}</b><span>acerto médio</span></div>
+      <div class="kcard c-lilac"><span class="tile" style="background:var(--surface)">${ico('spark')}</span><b class="num">${o.memory == null ? '–' : cnt(o.memory, '%')}</b><span>memória média</span></div>
+    </div>
+    ${(o.traps || []).length ? `<div class="card pad"><b class="d" style="font-weight:600">Pegadinhas que mais derrubam a turma</b><div class="chips" style="margin-top:4px">${o.traps.map(([k, v]) => `<span class="tag c-pink">${esc(TRAP(k))} · ${v}</span>`).join('')}</div><span class="tiny" style="font-size:13px">Vale revisar esses padrões em aula.</span></div>` : ''}
+    <div class="blk"><div class="sec"><h2>Trilhas da turma</h2><button class="link" data-act="cls-add-deck">Adicionar</button></div>${decks.length ? `<div class="list">${decks.map(deckRow).join('')}</div>` : `<button class="empty dashed" data-act="cls-add-deck">${ico('plus')} Indique trilhas para a turma estudar</button>`}</div>
+    <div class="blk"><div class="sec"><h2>Alunos</h2><span class="tiny num" style="font-weight:700">${(c.students || []).length}</span></div>
+      ${(c.students || []).length ? `<div class="list">${c.students.map(student).join('')}</div>` : `<div class="empty">Ninguém entrou ainda. Compartilhe o código <b>${esc(c.joinCode)}</b> com a turma.</div>`}</div>
+    ${ranking}
+    <div class="list">${API.confirm === 'del' ? `<div class="item noicon"><div class="main"><b>Excluir a turma?</b><span>Os alunos saem da turma. O progresso de cada um continua na conta deles.</span></div></div><div class="item noicon" style="gap:10px"><button class="btn btn-ghost btn-sm" style="flex:1" data-act="cls-confirm" data-v="">Cancelar</button><button class="btn btn-danger btn-sm" style="flex:1" data-act="cls-delete">Excluir</button></div>` : `<button class="item noicon" data-act="cls-confirm" data-v="del" style="justify-content:center;color:var(--bad);font-weight:700">Excluir turma</button>`}</div>
+  </div>`;
+}
+function addDeckSheet() {
+  const c = API.cls; const has = new Set((c.decks || []).map((d) => d.id));
+  const mine = CUSTOM.filter((d) => !has.has(d.id)), builtin = BUILTIN_DECKS.filter((d) => !has.has(d.id));
+  const row = (d, b) => { const lk = PAL[lookOf(d).pal]; return `<button class="item" data-act="cls-add" data-id="${esc(d.id)}" data-b="${b ? 1 : ''}"><span class="tile" style="background:${lk.bg};color:${lk.fg}">${ico('decks')}</span><div class="main"><b>${esc(d.title)}</b><span>${plural(d.questions.length, 'questão', 'questões')}</span></div>${ico('plus')}</button>`; };
+  ui.sheet = `<div class="blk" style="gap:6px"><h2>Adicionar trilha</h2><p class="muted small">Os alunos recebem a trilha em Início e em Trilhas. Você acompanha o progresso de cada um.</p></div>
+    ${mine.length ? `<div class="blk" style="gap:8px"><span class="flabel">Suas trilhas</span><div class="list">${mine.map((d) => row(d, false)).join('')}</div></div>` : `<div class="notice">Crie uma trilha com seu PDF em Trilhas › Criar para indicar material próprio.</div>`}
+    ${builtin.length ? `<div class="blk" style="gap:8px"><span class="flabel">Trilhas do Memory</span><div class="list">${builtin.map((d) => row(d, true)).join('')}</div></div>` : ''}
+    <button class="btn btn-ghost btn-block" data-act="sheet-close">Fechar</button>`;
+  renderSheet();
+}
+
+/* ---------- Conta ---------- */
+function viewConta() {
+  if (!loggedIn()) { ui.tab = 'perfil'; return viewProfile(); }
+  const u = API.user;
+  return `<div class="page">
+    <div class="sec" style="padding-top:6px"><button class="icon-btn" data-act="tab" data-tab="perfil" aria-label="Voltar">${ico('back')}</button><span></span></div>
+    <div class="blk" style="gap:8px"><h1 style="font-size:26px">Conta</h1></div>
+    <div class="pcard"><span class="avatar">${esc(ini2(u.name))}</span><div style="min-width:0"><b>${esc(u.name)}</b><span style="overflow-wrap:anywhere">${esc(u.email)}</span></div></div>
+    <div class="card pad" style="flex-direction:row;align-items:center"><span class="tile c-mint">${ico('cloud')}</span><div style="flex:1;min-width:0"><b class="d" style="font-weight:600;display:block">Progresso na nuvem</b><span class="tiny" style="font-size:13px" data-sync>${syncText()}</span></div><button class="btn btn-ghost btn-sm" data-act="sync-now">Sincronizar</button></div>
+    <div class="list">
+      <button class="item" data-act="tab" data-tab="turmas"><span class="tile round c-blue">${ico('users')}</span><div class="main"><b>Turmas</b><span>${API.classes.length ? plural(API.classes.length, 'turma', 'turmas') : 'Criar ou entrar com código'}</span></div>${chev()}</button>
+      <button class="item" data-act="acct-pw"><span class="tile round c-lilac">${ico('key')}</span><div class="main"><b>Alterar senha</b><span>Os outros aparelhos são desconectados</span></div>${chev()}</button>
+      ${acct.pwOpen ? `<form class="item noicon blk" data-form="pw" style="gap:12px;align-items:stretch">
+        <div class="field"><label for="pw-cur">Senha atual</label><input id="pw-cur" type="password" class="input" autocomplete="current-password" maxlength="72"></div>
+        <div class="field"><label for="pw-new">Nova senha</label><input id="pw-new" type="password" class="input" autocomplete="new-password" maxlength="72" placeholder="Mínimo de 8 caracteres"></div>
+        ${acct.pwErr ? `<div class="notice err">${esc(acct.pwErr)}</div>` : ''}
+        <button class="btn btn-primary btn-sm" type="submit" ${acct.busy ? 'disabled' : ''}>Salvar nova senha</button></form>` : ''}
+      <button class="item" data-act="acct-others"><span class="tile round c-peach">${ico('shield')}</span><div class="main"><b>Desconectar outros aparelhos</b><span>Use se perdeu o celular ou entrou em outro computador</span></div>${chev()}</button>
+      <button class="item" data-act="acct-export"><span class="tile round c-mint">${ico('download')}</span><div class="main"><b>Baixar meus dados</b><span>Cópia completa em JSON (LGPD)</span></div>${chev()}</button>
+      <button class="item" data-act="acct-logout"><span class="tile round c-yellow">${ico('logout')}</span><div class="main"><b>Sair da conta</b><span>O progresso continua salvo na nuvem</span></div>${chev()}</button>
+    </div>
+    <div class="list">${acct.delOpen ? `<form class="item noicon blk" data-form="del" style="gap:12px;align-items:stretch"><div class="main"><b>Excluir conta para sempre?</b><span>Progresso, trilhas e turmas criadas por você serão apagados do servidor. Não dá para desfazer.</span></div>
+        <div class="field"><label for="del-pass">Confirme com sua senha</label><input id="del-pass" type="password" class="input" autocomplete="current-password" maxlength="72"></div>
+        ${acct.delErr ? `<div class="notice err">${esc(acct.delErr)}</div>` : ''}
+        <div class="duo"><button class="btn btn-ghost btn-sm" type="button" data-act="acct-del">Cancelar</button><button class="btn btn-danger btn-sm" type="submit" ${acct.busy ? 'disabled' : ''}>Excluir conta</button></div></form>` :
+      `<button class="item noicon" data-act="acct-del" style="justify-content:center;color:var(--bad);font-weight:700">Excluir conta</button>`}</div>
+    <p class="tiny" style="text-align:center">Senha protegida com bcrypt · sessão em cookie seguro · conta criada em ${new Date(u.createdAt).toLocaleDateString('pt-BR')}</p>
+  </div>`;
+}
+document.addEventListener('submit', async (e) => {
+  const f = e.target.dataset && e.target.dataset.form;
+  if (f === 'pw') {
+    e.preventDefault(); if (acct.busy) return;
+    const cur = document.getElementById('pw-cur').value, nx = document.getElementById('pw-new').value;
+    if (nx.length < 8) { acct.pwErr = 'A nova senha precisa ter pelo menos 8 caracteres.'; return render(); }
+    acct.busy = true;
+    try { await api('POST', 'auth/password', { current: cur, next: nx }); acct.pwOpen = false; acct.pwErr = ''; notify('Senha alterada. Os outros aparelhos foram desconectados.'); }
+    catch (er) { acct.pwErr = er.message; }
+    acct.busy = false; render();
+  } else if (f === 'del') {
+    e.preventDefault(); if (acct.busy) return;
+    acct.busy = true;
+    try { await api('DELETE', 'auth/me', { password: document.getElementById('del-pass').value }); notify('Conta excluída.'); setTimeout(logout, 600); }
+    catch (er) { acct.delErr = er.message; acct.busy = false; render(); }
+  }
+});
+
+/* ---------- Bloco de conta no Perfil e no Início ---------- */
+function accountBlock() {
+  if (!API || !API.on || !API.db) return '';
+  if (!loggedIn()) return `<div class="promo"><div class="promo-top"><span class="tile" style="background:rgba(255,255,255,.14);color:#fff">${ico('cloud')}</span><div><b>Salve seu progresso na nuvem</b><span>Conta grátis para estudar no celular e no computador, entrar em turmas${API.ai ? ' e usar o tutor com IA' : ''}.</span></div></div>
+    <div class="duo"><button class="btn btn-ghost-light btn-sm" data-act="auth-open" data-m="login">Entrar</button><button class="btn btn-orange btn-sm" data-act="auth-open" data-m="signup">Criar conta</button></div></div>`;
+  return `<div class="list"><button class="item" data-act="tab" data-tab="conta"><span class="tile round c-mint">${ico('cloud')}</span><div class="main"><b>${esc(API.user.email)}</b><span data-sync>${syncText()}</span></div>${chev()}</button>
+    <button class="item" data-act="tab" data-tab="turmas"><span class="tile round c-blue">${ico('users')}</span><div class="main"><b>Turmas</b><span>${API.classes.length ? API.classes.map((c) => esc(c.name)).slice(0, 2).join(' · ') + (API.classes.length > 2 ? ' · +' + (API.classes.length - 2) : '') : 'Criar ou entrar com código'}</span></div>${chev()}</button></div>`;
+}
+function homeClassBlock() {
+  if (!loggedIn() || !API.classes.length) return '';
+  const owner = API.classes.filter((c) => c.role === 'owner');
+  const items = API.classes.slice(0, 3).map((c) => `<button class="item" data-act="cls-open" data-id="${c.id}"><span class="tile ${c.role === 'owner' ? 'c-peach' : 'c-mint'}">${ico(c.role === 'owner' ? 'chart' : 'users')}</span><div class="main"><b>${esc(c.name)}</b><span>${c.role === 'owner' ? 'Painel · ' + plural(c.members, 'aluno', 'alunos') : 'Ranking da semana e trilhas'}</span></div>${chev()}</button>`).join('');
+  return `<div class="blk"><div class="sec"><h2>${owner.length === API.classes.length ? 'Suas turmas' : 'Sua turma'}</h2><button class="link" data-act="tab" data-tab="turmas">Ver todas</button></div><div class="list">${items}</div></div>`;
+}
+
+/* ---------- Ações ---------- */
+Object.assign(ACT, {
+  'auth-open': (d) => openAuth(d.m || 'signup'),
+  'auth-mode': (d) => { readAuth(); auth.mode = d.m; auth.err = ''; paintAuth(); },
+  'auth-eye': () => { readAuth(); auth.show = !auth.show; paintAuth('au-pass'); },
+  'sync-now': async (d, el) => { el.disabled = true; await syncAll(); render(); notify(API.sync === 'saved' ? 'Tudo sincronizado.' : 'Não foi possível sincronizar agora.'); },
+  'acct-pw': () => { acct.pwOpen = !acct.pwOpen; acct.pwErr = ''; render(); if (acct.pwOpen) setTimeout(() => { const el = document.getElementById('pw-cur'); if (el) el.focus(); }, 60); },
+  'acct-del': () => { acct.delOpen = !acct.delOpen; acct.delErr = ''; render(); },
+  'acct-others': async () => { try { await api('POST', 'auth/logout-all'); notify('Os outros aparelhos foram desconectados.'); } catch (e) { notify(e.message); } },
+  'acct-logout': () => {
+    ui.sheet = `<div class="blk" style="gap:6px"><h2>Sair da conta?</h2><p class="muted small">Seu progresso continua salvo na nuvem. Neste aparelho, os dados locais são apagados para proteger sua privacidade.</p></div><div class="duo"><button class="btn btn-ghost" data-act="sheet-close">Cancelar</button><button class="btn btn-primary" data-act="acct-logout-go">Sair</button></div>`;
+    renderSheet();
+  },
+  'acct-logout-go': async () => { await pushServer(); logout(); },
+  'acct-export': async () => {
+    try {
+      const data = await api('GET', 'export');
+      const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' }));
+      const a = document.createElement('a'); a.href = url; a.download = 'memory-meus-dados.json'; document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 4000); notify('Download iniciado.');
+    } catch (e) { notify(e.message); }
+  },
+  'cls-open': (d) => openClass(d.id),
+  'cls-back': () => { API.cls = null; API.confirm = null; render(); $('#view').scrollTop = 0; },
+  'cls-refresh': () => { if (API.cls) openClass(API.cls.id); },
+  'cls-member': (d) => { API.member = API.member === d.id ? null : d.id; API.confirm = null; render(); },
+  'cls-confirm': (d) => { API.confirm = d.v || null; render(); },
+  'cls-join': async (d, el) => {
+    const inp = document.getElementById('cls-code'); const c = inp ? inp.value : '';
+    if (!shortCode(c)) { notify('O código da turma tem 6 letras e números.'); if (inp) inp.focus(); return; }
+    el.disabled = true; try { await joinClass(c); } catch (e) { notify(e.message); el.disabled = false; }
+  },
+  'cls-create': async (d, el) => {
+    const inp = document.getElementById('cls-name'); const name = inp ? inp.value.trim() : '';
+    if (name.length < 2) { notify('Dê um nome à turma.'); if (inp) inp.focus(); return; }
+    el.disabled = true;
+    try { const r = await api('POST', 'classes', { name }); await loadClasses(); notify('Turma criada. Compartilhe o código ' + r.class.joinCode + '.'); await openClass(r.class.id); }
+    catch (e) { notify(e.message); el.disabled = false; }
+  },
+  'cls-copy': async (d, el) => { const c = API.cls; if (!c || !c.joinCode) return; try { await navigator.clipboard.writeText(c.joinCode); notify('Código copiado'); } catch (e) { notify('Código: ' + c.joinCode); } },
+  'cls-share': (d, el) => { const c = API.cls; if (c) shareOrCopy('Entre na minha turma "' + c.name + '" no Memory. Código: ' + c.joinCode, appLink('turma', c.joinCode), el); },
+  'cls-newcode': async () => { const c = API.cls; if (!c) return; try { const r = await api('POST', 'classes/' + c.id + '/code'); c.joinCode = r.joinCode; await loadClasses(); render(); notify('Novo código: ' + r.joinCode + '. O anterior deixou de valer.'); } catch (e) { notify(e.message); } },
+  'cls-add-deck': () => addDeckSheet(),
+  'cls-add': async (d) => {
+    const c = API.cls; if (!c) return;
+    const body = d.b ? { builtin: d.id } : { deck: CUSTOM.find((x) => x.id === d.id) };
+    try { await api('POST', 'classes/' + c.id + '/decks', body); ui.sheet = null; renderSheet(); notify('Trilha adicionada à turma'); await loadClasses(); await openClass(c.id); }
+    catch (e) { notify(e.message); }
+  },
+  'cls-rm-deck': async (d) => { const c = API.cls; try { await api('DELETE', 'classes/' + c.id + '/decks/' + encodeURIComponent(d.id)); notify('Trilha removida da turma'); await loadClasses(); await openClass(c.id); } catch (e) { notify(e.message); } },
+  'cls-rm-member': async (d) => { const c = API.cls; try { await api('DELETE', 'classes/' + c.id + '/members/' + d.id); notify('Aluno removido'); await openClass(c.id); await loadClasses(); } catch (e) { notify(e.message); } },
+  'cls-leave': async () => { const c = API.cls; try { await api('POST', 'classes/' + c.id + '/leave'); API.cls = null; API.confirm = null; await loadClasses(); render(); notify('Você saiu da turma'); } catch (e) { notify(e.message); } },
+  'cls-delete': async () => { const c = API.cls; try { await api('DELETE', 'classes/' + c.id); API.cls = null; API.confirm = null; await loadClasses(); render(); notify('Turma excluída'); } catch (e) { notify(e.message); } },
+  'share-short': async (d, el) => {
+    const dk = deckById(d.id); if (!dk) return;
+    el.disabled = true; el.textContent = 'Gerando...';
+    try {
+      const r = await api('POST', 'share', { deck: dk });
+      const box = document.getElementById('short-box');
+      if (box) box.innerHTML = `<div class="codebox light"><div><small>Código da trilha</small><b class="num">${r.code}</b></div><div class="cb-act"><button class="btn btn-orange btn-sm" data-act="share-link" data-c="${r.code}" data-t="${esc(dk.title)}">${ico('share')} Enviar</button></div></div><span class="tiny" style="font-size:13px">Quem receber digita o código em Trilhas › Criar, ou abre o link.</span>`;
+    } catch (e) { el.disabled = false; el.textContent = 'Gerar código curto'; notify(e.message); }
+  },
+  'share-link': (d, el) => shareOrCopy('Estude a trilha "' + d.t + '" no Memory. Código: ' + d.c, appLink('t', d.c), el)
+});
+document.addEventListener('input', (e) => { if (e.target.id === 'cls-code') { const p = e.target.selectionStart; e.target.value = e.target.value.toUpperCase(); try { e.target.setSelectionRange(p, p); } catch (x) { /* ok */ } } });
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Enter') return;
+  if (e.target.id === 'cls-code') { e.preventDefault(); const b = document.querySelector('[data-act="cls-join"]'); if (b) b.click(); }
+  if (e.target.id === 'cls-name') { e.preventDefault(); const b = document.querySelector('[data-act="cls-create"]'); if (b) b.click(); }
+});
+
+/* ---------- Links (?t=CÓDIGO e ?turma=CÓDIGO) ---------- */
+async function handleLinks() {
+  const p = new URLSearchParams(location.search);
+  const t = shortCode(p.get('t')), turma = shortCode(p.get('turma'));
+  if (!t && !turma) return;
+  history.replaceState(null, '', location.pathname);
+  if (t) {
+    try { const id = await importShortCode(t); notify('Trilha adicionada às suas trilhas.'); if (S.user.onboarded) { ui.tab = 'trilhas'; ui.deck = id; } }
+    catch (e) { notify(e.message || 'Não foi possível abrir este código.'); }
+  }
+  if (turma) {
+    if (loggedIn()) { try { await joinClass(turma, true); } catch (e) { notify(e.message); } }
+    else openAuth('signup', { note: 'Crie sua conta (ou entre) para participar da turma. Leva menos de um minuto.', after: () => joinClass(turma, true).catch((e) => notify(e.message)) });
+  }
+}
+
+/* ---------- Inicialização do servidor ---------- */
+async function initServer() {
+  if (!/^https?:$/.test(location.protocol)) return;
+  try {
+    const ctl = new AbortController(); const tm = setTimeout(() => ctl.abort(), 6000);
+    const h = await fetch('/api/health', { signal: ctl.signal, credentials: 'same-origin', cache: 'no-store' }); clearTimeout(tm);
+    if (!h.ok) return;
+    const j = await h.json(); if (!j || j.service !== 'memory') return;
+    API.on = true; API.db = !!j.db; API.ai = !!j.ai;
+  } catch (e) { return; }
+  if (API.db) {
+    try { API.user = (await api('GET', 'auth/me')).user; } catch (e) { API.user = null; }
+    if (API.user) await syncAll();
+    else if (API.classes.length) { API.classes = []; saveClassesCache(); refreshClassDecks(); }
+  }
+  await handleLinks();
+  rerender();
+}
+
 /* ================= Inicialização ================= */
 render();
 initCloud();
+initServer();
 (async () => {
   try { if (window.claude && typeof window.claude.use === 'function') SAMPLE = await window.claude.use('sample'); } catch (e) { SAMPLE = null; }
   sampleChecked = true;
@@ -2219,6 +3045,5 @@ initCloud();
 })();
 
 </script>
-
 </body>
 </html>
