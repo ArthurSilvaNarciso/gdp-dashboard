@@ -249,7 +249,7 @@ function missions() {
 }
 function checkMissions() {
   const L = todayLog();
-  for (const m of missions()) if (m.done && !L.mx[m.id]) { L.mx[m.id] = 1; S.xp += 20; notify("Missão concluída · +20 XP"); }
+  for (const m of missions()) if (m.done && !L.mx[m.id]) { L.mx[m.id] = 1; S.xp += 20; earnCoins(5); notify('Missão concluída · +20 XP · +5 moedas'); }
 }
 
 /* ---------- Conquistas ---------- */
@@ -275,7 +275,7 @@ function badgeProgress(id) {
 }
 function checkBadges() {
   S.badges = S.badges || {};
-  for (const b of BADGES) if (!S.badges[b.id] && b.ok()) { S.badges[b.id] = Date.now(); notify("Conquista: " + b.l); }
+  for (const b of BADGES) if (!S.badges[b.id] && b.ok()) { S.badges[b.id] = Date.now(); earnCoins(20); notify('Conquista: ' + b.l + ' · +20 moedas'); }
 }
 
 /* ================= Efeitos e avisos ================= */
@@ -322,7 +322,7 @@ function startCycle({ decks = [], ids = null, size = 10, title = 'Ciclo', review
   }
   if (!list.length) { render(); toast(reviewOnly ? 'Nenhuma revisão pendente agora.' : 'Não há questões para este ciclo.'); return; }
   const dueSet = new Set(list.filter((id) => S.cards[id] && S.cards[id].due <= now));
-  ui.session = { mode, title, params: { decks, ids, size, title, reviewOnly, mode }, queue: list, i: 0, results: [], requeued: {}, xp: 0, dueSet, added: 0 };
+  ui.session = { mode, title, params: { decks, ids, size, title, reviewOnly, mode }, queue: list, i: 0, results: [], requeued: {}, xp: 0, dueSet, added: 0, combo: 0, maxCombo: 0, coins: 0, streak0: S.streak.last === dayKey() ? -1 : S.streak.count };
   if (mode === 'sim') { ui.session.answers = {}; ui.session.start = now; ui.session.deadline = now + list.length * 90e3; startSimTimer(); }
   setupQuestion();
   render();
@@ -352,6 +352,10 @@ function answer(conf) {
   bumpStreak();
   let gain = correct ? (conf === 'certeza' ? 15 : conf === 'acho' ? 12 : 8) : 3;
   if (second) gain = Math.round(gain / 2);
+  // Combo: acertos seguidos rendem bônus (recompensa por manter o foco).
+  if (correct && !second) { s.combo = (s.combo || 0) + 1; s.maxCombo = Math.max(s.maxCombo || 0, s.combo); } else if (!correct) s.combo = 0;
+  s.bonus = correct && s.combo >= 3 ? Math.min(10, (s.combo - 2) * 2) : 0; gain += s.bonus;
+  if (correct && !second) { const c0 = conf === 'certeza' ? 2 : 1; earnCoins(c0); s.coins = (s.coins || 0) + c0; }
   S.xp += gain; s.xp += gain;
   let requeue = false;
   if (!correct && !s.requeued[id]) { s.queue.push(id); s.requeued[id] = true; requeue = true; }
@@ -371,7 +375,9 @@ function finishCycle() {
   const s = ui.session; clearInterval(s.tick); clearInterval(s.simTick);
   s.phase = 'summary';
   const L = todayLog(); L.cycles++; S.totals.cycles++;
+  earnCoins(5); s.coins = (s.coins || 0) + 5;
   checkMissions(); checkBadges(); persist(); render();
+  if (s.streak0 !== -1 && S.streak.last === dayKey()) setTimeout(() => { if (ui.session === s) streakSheet(S.streak.count); }, REDUCED ? 0 : 650);
 }
 
 /* ---------- Simulado (inspirado em Qconcursos/TEC) ---------- */
@@ -609,7 +615,7 @@ function viewHome() {
   const tiles = ['c-blue', 'c-mint', 'c-lilac'], icons = ['target', 'check', 'recall'];
   return `<div class="hdr">${typeof PHOTOS !== 'undefined' ? `<img class="hero-girl fade" src="${PHOTOS.hero}" width="760" height="1020" decoding="async" alt="">` : ''}
       <div class="top"><div class="hello"><button class="avatar avbtn" data-act="tab" data-tab="perfil" aria-label="Abrir seu perfil">${avatarSVG(avatarConfig())}</button><div><small>${hi},</small><b>${first}</b></div></div>
-        <span class="glass gchip num" title="Dias seguidos">${ico('flame')}${st} ${st === 1 ? 'dia' : 'dias'}</span></div>
+        <div class="chips-r"><span class="glass gchip num" title="Moedas">${coinIco()}${coinsBal()}</span><span class="glass gchip num" title="Dias seguidos">${ico('flame')}${st} ${st === 1 ? 'dia' : 'dias'}</span></div></div>
       <h1>${due ? 'Hora de <em>revisar</em> o que você aprendeu' : 'Pronto para a <em>próxima sessão</em>?'}</h1>
       <div class="memrow">
         <div class="glass"><b class="num">${mem == null ? '–' : Math.round(mem * 100) + '%'}</b><span>memória</span></div>
@@ -623,6 +629,8 @@ function viewHome() {
       <button class="btn btn-orange btn-sm" data-act="${due ? 'review-all' : 'cycle-all'}">${due ? 'Revisar' : 'Começar'}</button>
     </div></div>
     <div class="page" style="padding-top:22px">
+      ${examCard()}
+      ${chestCard()}
       ${!S.user.avatar && !S.user.avSeen ? `<div class="avnudge"><span class="av md">${avatarSVG(avatarConfig())}</span><div><b>Monte seu personagem</b><span>Escolha rosto, cabelo, roupa e estilo. Ele aparece no ranking da turma.</span></div><div class="avnudge-act"><button class="btn btn-orange btn-sm" data-act="av-open">Montar</button><button class="icon-btn flat" data-act="av-later" aria-label="Agora não">${ico('close')}</button></div></div>` : ''}
       ${weekStrip()}
       <div class="blk"><div class="sec"><h2>Continue estudando</h2><button class="link" data-act="tab" data-tab="trilhas">Ver todas</button></div>
@@ -723,7 +731,7 @@ function viewSession() {
       `<p class="q">Qual é a sua confiança?</p><div class="conf"><button class="c-peach" data-act="conf" data-c="chute">Chutei<small>não sei</small></button><button class="c-blue" data-act="conf" data-c="acho">Acho que sim<small>com dúvida</small></button><button class="c-mint" data-act="conf" data-c="certeza">Tenho certeza<small>sei explicar</small></button></div>`;
   } else if (s.phase === 'feedback') {
     const v = verdict(s);
-    body = `<div class="verdict ${v.cls}" role="status"><span class="vi">${ico(v.icon)}</span><div style="flex:1;min-width:0"><h3>${v.title}</h3><p>${v.text}</p></div><span class="xp num">+${s.gain} XP</span></div>` + head + opts(true);
+    body = `<div class="verdict ${v.cls}" role="status"><span class="vi">${ico(v.icon)}</span><div style="flex:1;min-width:0"><h3>${v.title}</h3><p>${v.text}</p></div><span class="xp num">+${s.gain} XP</span></div>${s.bonus ? `<div class="combo" role="status"><b class="num">Combo ×${s.combo}</b><span>+${s.bonus} XP de bônus por acertos seguidos</span></div>` : ''}` + head + opts(true);
     dock = s.correct ? `<div class="duo"><button class="btn btn-soft" data-act="consol">Ver o porquê</button><button class="btn btn-primary" data-act="next">Próxima</button></div>` :
       `<button class="btn btn-orange btn-block" data-act="consol">Entender o erro</button>`;
   } else {
@@ -784,6 +792,7 @@ function viewSummary() {
   const perfect = first.length >= 3 && ok === first.length;
   return `<div class="sess"><div class="result">${perfect ? `<div class="result-illo">${illo('done')}</div>` : ''}<span class="lbl">Ciclo concluído${s.title && s.title !== 'Sessão' ? ' · ' + esc(s.title) : ''}</span><div class="big num">${cnt(acc, '%')}</div><p>${ok} de ${first.length} na primeira tentativa. ${msg}</p></div>
     <div class="rstats"><div class="card"><b class="num" style="color:var(--orange-ink)">+${s.xp}</b><span>XP</span></div><div class="card"><b class="num">${avg}s</b><span>por questão</span></div><div class="card"><b class="num">${mem == null ? '–' : Math.round(mem * 100) + '%'}</b><span>memória</span></div></div>
+    <div class="sumpills"><span class="pill">${coinIco()}<b class="num">+${s.coins || 0}</b> moedas</span>${(s.maxCombo || 0) >= 3 ? `<span class="pill"><b class="num">×${s.maxCombo}</b> maior combo</span>` : ''}</div>
     <div class="page" style="padding-top:20px">
       ${ill ? `<div class="callout" style="background:var(--bad-soft)"><span class="tile" style="background:var(--bad);color:#fff">${ico('alert')}</span><div><b>${plural(ill, 'ilusão de competência corrigida', 'ilusões de competência corrigidas')}</b><p>Você marcou “tenho certeza” e errou. Esses erros iriam com você para a prova.</p></div></div>` : ''}
       ${fixed ? `<div class="callout" style="background:var(--ok-soft)"><span class="tile" style="background:var(--ok);color:#fff">${ico('check')}</span><div><b>${plural(fixed, 'erro virou acerto', 'erros viraram acertos')}</b><p>A correção imediata funcionou. Agora eles voltam em revisões espaçadas.</p></div></div>` : ''}
@@ -912,7 +921,7 @@ function viewProfile() {
       <div class="phead-stats">
         <div><span class="tile c-peach">${ico('flame')}</span><b class="num">${cnt(streakNow())}</b><span>dias seguidos</span></div>
         <div><span class="tile c-blue">${ico('trophy')}</span><b class="num">${nb}/${BADGES.length}</b><span>conquistas</span></div>
-        <div><span class="tile c-mint">${ico('target')}</span><b class="num">${cnt(totalAnswered())}</b><span>respostas</span></div>
+        <div><span class="tile c-mint">${coinIco()}</span><b class="num">${cnt(coinsBal())}</b><span>moedas</span></div>
       </div>
       ${S.user.avatar ? `<button class="btn btn-ghost btn-sm btn-block" data-act="av-open">${ico('edit')} Editar avatar</button>` : `<button class="btn btn-orange btn-sm btn-block" data-act="av-open">Montar meu avatar</button>`}
     </div>
@@ -926,6 +935,8 @@ function viewProfile() {
     <div class="blk"><div class="sec"><h2>Preferências</h2></div><div class="list">
       ${sw('retrieval', 'Recuperação ativa', 'Pensar antes de ver as alternativas', 'c-blue', 'recall')}
       ${sw('fx', 'Som e vibração', 'Sinal de acerto e erro', 'c-peach', 'bolt')}
+      <button class="item" data-act="remind-open"><span class="tile round c-lilac">${ico('clock')}</span><div class="main"><b>Lembrete diário</b><span>${S.user.remind ? 'Todo dia às ' + esc(S.user.remind) : 'Um alerta no calendário do celular'}</span></div>${chev()}</button>
+      <button class="item" data-act="exam-open"><span class="tile round c-blue">${ico('exam')}</span><div class="main"><b>Objetivo e data da prova</b><span>${examInfo() ? esc(examInfo().name) + ' · ' + new Date(examInfo().at).toLocaleDateString('pt-BR') : 'Ainda não definido'}</span></div>${chev()}</button>
       <div class="item"><span class="tile round c-mint">${ico('shield')}</span><div class="main"><b>Seus dados</b><span>${loggedIn() ? 'Na sua conta Memory, sincronizados' : cloud.status === 'cloud' ? 'Salvos na sua conta e sincronizados' : 'Salvos neste aparelho'}</span></div></div>
     </div></div>
     <div class="blk"><div class="sec"><h2>Sobre o método</h2></div><div class="list">
@@ -953,7 +964,7 @@ const ACT = {
   'cat': (d) => { ui.cat = d.id; document.querySelectorAll('.fchip').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.id === d.id))); const g = document.getElementById('deck-grid'); if (g) g.innerHTML = deckGrid(); },
   'edit-name': () => { const n = document.getElementById('pf-name'); if (n) { n.focus(); n.select(); } },
   'onb-next': () => { const n = document.getElementById('onb-name'); if (n) S.user.name = n.value.trim(); ui.onb++; render(); $('#view').scrollTop = 0; },
-  'onb-finish': () => { S.user.onboarded = true; persist(); ui.tab = 'home'; render(); },
+  'onb-finish': () => { S.user.onboarded = true; persist(); ui.tab = 'home'; render(); if (!S.user.exam) setTimeout(examSheet, REDUCED ? 0 : 500); },
   'persona': (d) => { const n = document.getElementById('onb-name') || document.getElementById('pf-name'); if (n) S.user.name = n.value.trim(); S.user.persona = d.id; if (S.user.onboarded) persist(); render(); },
   'goal': (d) => { S.user.goal = Number(d.n); if (S.user.onboarded) persist(); render(); },
   'retention': (d) => { S.user.retention = Number(d.r); persist(); render(); },
@@ -1039,7 +1050,7 @@ const ACT = {
   },
   'ask-reset': () => { ui.confirmReset = true; render(); },
   'cancel-reset': () => { ui.confirmReset = false; render(); },
-  'do-reset': () => { const u = S.user; S = blankState(); S.user = u; S.resetAt = Date.now(); ui.confirmReset = false; persist(); render(); toast('Progresso zerado'); }
+  'do-reset': () => { const u = S.user, own = S.owned; S = blankState(); S.user = u; S.owned = own || {}; S.resetAt = Date.now(); ui.confirmReset = false; persist(); render(); toast('Progresso zerado'); }
 };
 document.addEventListener('input', (e) => { if (e.target.id === 'deck-q') { ui.q = e.target.value; const g = document.getElementById('deck-grid'); if (g) g.innerHTML = deckGrid(); } });
 

@@ -29,6 +29,8 @@ const shot = (p, f) => p.screenshot({ path: SHOT + f });
 const toastText = (p) => p.evaluate(() => (document.querySelector('.toast') || {}).textContent || '');
 async function onboard(p, name) {
   await p.click('[data-act=onb-next]'); await p.fill('#onb-name', name); await p.click('[data-act=persona][data-id=concurso]'); await p.click('[data-act=onb-next]'); await p.click('[data-act=goal][data-n="5"]'); await p.click('[data-act=onb-finish]');
+  await p.waitForSelector('form[data-form=exam]', { timeout: 3000 }).catch(() => {}); await p.waitForTimeout(250);
+  if (await p.locator('form[data-form=exam]').count()) { await p.click('.sheet [data-act=sheet-close]'); await p.waitForTimeout(300); }
 }
 async function playSession(p, right = true) {
   for (let k = 0; k < 80; k++) {
@@ -39,6 +41,8 @@ async function playSession(p, right = true) {
     else if (st === 'consol') await p.click('.dock [data-act=next]');
     await p.waitForTimeout(30);
   }
+  await p.waitForTimeout(800);
+  if (await p.locator('.scrim').count()) { await p.click('.sheet [data-act=sheet-close]'); await p.waitForTimeout(300); }
   await p.click('[data-act=end]');
 }
 const settle = (p) => p.waitForFunction(() => !API.inflight && !API.timer || API.sync === 'saved', null, { timeout: 8000 }).catch(() => {});
@@ -133,6 +137,15 @@ try {
   await D.click('[data-tab=trilhas]'); await D.click('[data-act=cat][data-id=turma]'); await D.waitForTimeout(100);
   ok('filtro "Da turma" lista 2 trilhas', await D.evaluate(() => document.querySelectorAll('#deck-grid .ccard').length === 2));
   await D.evaluate((id) => startCycle({ decks: [id], size: 4, title: 'T' }), did); await playSession(D); await flush(D);
+  ok('moedas ganhas ao estudar', await D.evaluate(() => coinsBal() >= 4 + 5));
+  await D.evaluate(() => startCycle({ decks: ['neuro'], size: 3, title: 'Sessão' })); await playSession(D);
+  await D.click('[data-tab=home]').catch(() => {}); await D.waitForTimeout(300);
+  ok('baú do dia aparece ao bater a meta', (await D.locator('[data-act=chest-open]').count()) === 1);
+  const c0 = await D.evaluate(() => coinsBal()); await D.click('[data-act=chest-open]'); await D.waitForSelector('.reward');
+  ok('baú dá moedas e só abre uma vez por dia', await D.evaluate((c) => coinsBal() >= c + 10 && !chestReady(), c0)); await D.click('[data-act=chest-close]'); await D.waitForTimeout(300);
+  await D.click('[data-act=exam-open]'); await D.fill('#ex-name', 'ENEM'); await D.fill('#ex-date', new Date(Date.now() + 30 * 864e5).toISOString().slice(0, 10)); await D.click('form[data-form=exam] [type=submit]'); await D.waitForTimeout(300);
+  ok('objetivo com contagem regressiva e preparação', (await D.locator('.goalcard .ring').count()) === 1 && (await D.locator('.goalcard >> text=Faltam 30 dias').count()) === 1);
+  await flush(D);
   // E entra pelo campo de código
   const E = await device('E');
   await E.click('[data-act=auth-open][data-m=login]'); await E.click('[data-act=auth-mode][data-m=signup]'); await E.fill('#au-name', 'Enzo Prado'); await E.fill('#au-email', 'enzo@memory.app'); await E.fill('#au-pass', 'turma-forte-2027'); await E.click('.sheet button[type=submit]');
@@ -151,17 +164,22 @@ try {
   await E.click('[data-act=av-grp][data-k=fundo]'); await E.click('[data-act=av-set][data-k=bgp][data-v=raios]');
   await E.click('[data-act=av-random]'); await E.click('[data-act=av-undo]');
   ok('desfazer volta ao visual anterior', await E.evaluate(() => AVED.cfg.hat === 'capelo' && AVED.cfg.bgp === 'raios' && AVED.cfg.glasses === 'aviador'));
-  await E.click('[data-act=av-save]'); await E.waitForTimeout(300);
+  await E.click('[data-act=av-try-save]'); await E.waitForSelector('.sheet .list');
+  ok('loja: item sem saldo não é salvo', (await E.locator('.sheet .notice >> text=Faltam').count()) === 1 && await E.evaluate(() => !S.user.avatar || S.user.avatar.hat !== 'capelo'));
+  await E.click('.sheet [data-act=sheet-close]'); await E.waitForTimeout(250);
+  await E.evaluate(() => { S.coins.earned += 400; }); const bal0 = await E.evaluate(() => coinsBal());
+  await E.click('[data-act=av-try-save]'); await E.waitForSelector('.sheet [data-act=shop-buy]'); await E.click('.sheet [data-act=shop-buy]'); await E.waitForTimeout(300);
+  ok('loja: compra desconta as moedas e libera os itens', await E.evaluate((b0) => coinsBal() === b0 - 290 && S.owned['hat:capelo'] && S.owned['glasses:aviador'] && S.owned['bgp:raios'], bal0));
   ok('avatar salvo no perfil', await E.evaluate(() => S.user.avatar.hair === 'coque' && S.user.avatar.hat === 'capelo' && S.user.avatar.gc === 2 && !!document.querySelector('.phead-av svg')));
   await flush(E);
-  ok('avatar sincronizado na conta', await E.evaluate(async () => { const a = (await (await fetch('/api/state')).json()).state.user.avatar; return a.hair === 'coque' && a.hat === 'capelo' && a.bgp === 'raios' && a.gc === 2; }));
+  ok('avatar e compras sincronizados na conta', await E.evaluate(async () => { const st = (await (await fetch('/api/state')).json()).state; const a = st.user.avatar; return a.hair === 'coque' && a.hat === 'capelo' && a.bgp === 'raios' && a.gc === 2 && st.owned['hat:capelo'] && st.coins.spent === 290; }));
   await D.evaluate(() => openClass(API.classes[0].id)); await D.waitForSelector('.rank'); await D.waitForTimeout(300);
   ok('colega vê o avatar novo no ranking', await D.evaluate(() => API.cls.ranking.some((r) => r.avatar && r.avatar.hair === 'coque')));
   // Painel do professor
   await A.click('[data-act=cls-refresh]'); await A.waitForSelector('.member'); await A.waitForTimeout(300);
   ok('painel lista 2 alunos', (await A.locator('.member').count()) === 2);
   const duda = await A.evaluate(() => API.cls.students.find((s) => s.name === 'Duda Lima'));
-  ok('progresso da aluna na trilha da turma', duda && duda.summary.week === 4 && duda.decks[Object.keys(duda.decks).find((k) => k.startsWith('u'))].seen === 4);
+  ok('progresso da aluna na trilha da turma', duda && duda.summary.week >= 4 && duda.decks[Object.keys(duda.decks).find((k) => k.startsWith('u'))].seen === 4);
   await A.click(`[data-act=cls-member][data-id="${duda.id}"]`); await A.waitForTimeout(200);
   ok('detalhe do aluno abre', (await A.locator('.mdetail .dprog').count()) === 2);
   await shot(A, 'e6-painel.png');

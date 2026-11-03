@@ -291,7 +291,9 @@ function avSection([key, label, kind]) {
   const view = AV_VIEW[key];
   return `<section class="avsec"><h3>${label}</h3><div class="avgrid">${AV_OPTS[key].map((v) => {
     const t = Object.assign({}, c, { [key]: v });
-    return `<button class="avopt ${c[key] === v ? 'on' : ''}" data-act="av-set" data-k="${key}" data-v="${v}" aria-pressed="${c[key] === v}"><span class="avthumb ${view ? 'crop' : ''}">${avatarSVG(t, view ? { view } : {})}</span><span>${AV_LABEL[v] || v}</span></button>`;
+    const r = typeof itemRule === 'function' ? itemRule(key, v) : null; const own = !r || itemOwned(key, v);
+    const tag = own ? '' : `<span class="lock">${r.price && !r.level ? coinIco() + r.price : ico('key')}</span>`;
+    return `<button class="avopt ${c[key] === v ? 'on' : ''} ${own ? '' : 'locked'}" data-act="av-set" data-k="${key}" data-v="${v}" aria-pressed="${c[key] === v}" ${own ? '' : `aria-label="${esc(AV_LABEL[v] || v)}, ${esc(itemLockText(r))}"`}><span class="avthumb ${view ? 'crop' : ''}">${avatarSVG(t, view ? { view } : {})}${tag}</span><span>${AV_LABEL[v] || v}</span></button>`;
   }).join('')}</div></section>`;
 }
 function avOptionsHTML() { const g = AV_GROUPS.find((x) => x[0] === AVED.grp) || AV_GROUPS[0]; return g[3].map(avSection).join(''); }
@@ -300,19 +302,19 @@ function viewAvatar() {
   const changed = JSON.stringify(AVED.cfg) !== JSON.stringify(AVED.orig);
   return `<div class="avpage">
     <div class="avstage ${avLum(AV.bg[AVED.cfg.bg]) < 0.5 ? 'on-dark' : ''}" style="--avbg:${AV.bg[AVED.cfg.bg]}">
-      <div class="avtop"><button class="icon-btn" data-act="av-cancel" aria-label="Voltar sem salvar">${ico('back')}</button><b>Seu avatar</b><div class="avtop-r"><button class="icon-btn" data-act="av-undo" aria-label="Desfazer" ${AVED.hist.length ? '' : 'disabled'}>${ico('recall')}</button><button class="icon-btn" data-act="av-random" aria-label="Sortear um visual">${ico('shuffle')}</button></div></div>
+      <div class="avtop"><button class="icon-btn" data-act="av-cancel" aria-label="Voltar sem salvar">${ico('back')}</button><span class="avbal" title="Suas moedas">${coinIco()}<b class="num" id="av-bal">${coinsBal()}</b></span><div class="avtop-r"><button class="icon-btn" data-act="av-undo" aria-label="Desfazer" ${AVED.hist.length ? '' : 'disabled'}>${ico('recall')}</button><button class="icon-btn" data-act="av-random" aria-label="Sortear um visual">${ico('shuffle')}</button></div></div>
       <div class="avpreview" id="av-preview">${avatarSVG(AVED.cfg, { title: 'Seu avatar' })}</div>
       <div class="avgroups" role="tablist" aria-label="Partes do avatar">${AV_GROUPS.map(([k, l, i]) => `<button class="avg" role="tab" data-act="av-grp" data-k="${k}" aria-selected="${AVED.grp === k}"><span class="tile">${ico(i)}</span><span>${l}</span></button>`).join('')}</div>
     </div>
     <div class="avpanel" id="av-opts">${avOptionsHTML()}</div>
-    <div class="dock"><button class="btn btn-ghost" data-act="av-cancel">Cancelar</button><button class="btn btn-orange" data-act="av-save" ${changed || !S.user.avatar ? '' : 'disabled'}>Salvar avatar</button></div>
+    <div class="dock"><button class="btn btn-ghost" data-act="av-cancel">Cancelar</button><button class="btn btn-orange" data-act="av-try-save" ${changed || !S.user.avatar ? '' : 'disabled'}>Salvar avatar</button></div>
   </div>`;
 }
 function avRepaint(panel = true) {
   const pv = document.getElementById('av-preview'); if (pv) { pv.innerHTML = avatarSVG(AVED.cfg, { title: 'Seu avatar' }); if (!REDUCED) { pv.classList.remove('bump'); void pv.offsetWidth; pv.classList.add('bump'); } }
   const st = document.querySelector('.avstage'); if (st) { st.style.setProperty('--avbg', AV.bg[AVED.cfg.bg]); st.classList.toggle('on-dark', avLum(AV.bg[AVED.cfg.bg]) < 0.5); }
   if (panel) { const op = document.getElementById('av-opts'); if (op) op.innerHTML = avOptionsHTML(); }
-  const sv = document.querySelector('[data-act="av-save"]'); if (sv) sv.disabled = false;
+  const sv = document.querySelector('[data-act="av-try-save"]'); if (sv) { sv.disabled = false; const n = lockedInCfg(AVED.cfg).length; sv.textContent = n ? 'Salvar · ' + plural(n, 'item da loja', 'itens da loja') : 'Salvar avatar'; }
   const un = document.querySelector('[data-act="av-undo"]'); if (un) un.disabled = !AVED.hist.length;
 }
 function avPush() { AVED.hist.push(Object.assign({}, AVED.cfg)); if (AVED.hist.length > 40) AVED.hist.shift(); }
@@ -343,6 +345,19 @@ Object.assign(ACT, {
       top: o.top[r(o.top.length)], tc: r(AV.top.length), bg: r(AV.bg.length), bgp: pick(o.bgp, 0.5), blush: Math.random() < 0.7
     });
     avRepaint();
+  },
+  'av-try-save': () => {
+    const items = lockedInCfg(AVED.cfg);
+    if (!items.length) return ACT['av-save']();
+    const buyable = items.filter((x) => x.r.price), blocked = items.filter((x) => !x.r.price);
+    const total = buyable.reduce((s2, x) => s2 + x.r.price, 0), bal = coinsBal();
+    const row = (x) => `<div class="item"><span class="avthumb sm">${avatarSVG(Object.assign({}, AVED.cfg), AV_VIEW[x.k] ? { view: AV_VIEW[x.k] } : {})}</span><div class="main"><b>${esc(AV_LABEL[x.v] || x.v)}</b><span>${esc(itemLockText(x.r))}</span></div>${x.r.price ? `<span class="end num">${coinIco()}${x.r.price}</span>` : ico('key')}</div>`;
+    ui.sheet = `<div class="blk" style="gap:6px"><h2>${blocked.length ? 'Item ainda bloqueado' : 'Itens novos no visual'}</h2><p class="muted small">${blocked.length ? 'Alguns itens só liberam com conquistas ou nível. Você pode continuar testando o visual.' : 'Você está usando itens da loja. Compre para salvar este visual.'}</p></div>
+      <div class="list">${items.map(row).join('')}</div>
+      ${blocked.length ? `<button class="btn btn-primary btn-block" data-act="sheet-close">Entendi</button>` : bal >= total
+        ? `<div class="duo"><button class="btn btn-ghost" data-act="sheet-close">Voltar</button><button class="btn btn-orange" data-act="shop-buy">Comprar · ${total} moedas</button></div><p class="tiny" style="text-align:center">Saldo depois da compra: ${bal - total} moedas</p>`
+        : `<div class="notice">Faltam <b>${total - bal} moedas</b>. Você ganha estudando: 1 a 2 por acerto, 5 por ciclo, 5 por missão, 20 por conquista e o baú do dia.</div><button class="btn btn-primary btn-block" data-act="sheet-close">Continuar montando</button>`}`;
+    renderSheet();
   },
   'av-save': () => { S.user.avatar = avNormalize(AVED.cfg); S.user.avSeen = 1; persist(); AVED.cfg = null; ui.tab = 'perfil'; render(); $('#view').scrollTop = 0; notify('Avatar salvo.'); },
   'av-cancel': () => { AVED.cfg = null; ui.tab = 'perfil'; render(); $('#view').scrollTop = 0; }

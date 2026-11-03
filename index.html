@@ -712,6 +712,77 @@ details.acc.plain .body { padding: 0 16px 16px; }
 .avstage.on-dark .avtop b, .avstage.on-dark .avg { color: #fff; }
 .avstage.on-dark .avg .tile { background: rgba(255,255,255,.16); color: #fff; }
 .avstage.on-dark .avg[aria-selected="true"] .tile { background: #fff; color: #1F2A6B; }
+
+/* ===== v5.6 · engajamento ===== */
+.coin { width: 20px; height: 20px; flex: none; }
+.coin .cf { fill: #FFC15E; } .coin .cr { stroke: #E5962E; stroke-width: 1.4; } .coin .c1 { fill: #1F2A6B; } .coin .c2 { fill: #FF7A22; opacity: .92; }
+.hdr .chips-r { display: flex; gap: 8px; }
+.gchip .coin { width: 18px; height: 18px; }
+.goalcard { display: flex; flex-direction: column; gap: 12px; width: 100%; text-align: left; background: var(--navy); color: #fff; border-radius: 24px; padding: 16px 16px 14px; position: relative; overflow: hidden; box-shadow: var(--shadow); }
+.goalcard::after { content: ""; position: absolute; width: 120px; height: 120px; border-radius: 50%; border: 18px solid rgba(255,122,34,.9); right: -46px; bottom: -60px; }
+.goalcard > * { position: relative; z-index: 1; }
+.goalcard .gc-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.goalcard small { display: block; font-size: 12.5px; font-weight: 700; color: rgba(255,255,255,.7); text-transform: uppercase; letter-spacing: .06em; }
+.goalcard .gc-top b { font-family: var(--display); font-weight: 700; font-size: 24px; }
+.ring { --p: 0; width: 74px; height: 74px; border-radius: 50%; flex: none; display: flex; flex-direction: column; align-items: center; justify-content: center; background: conic-gradient(#FF7A22 calc(var(--p) * 1%), rgba(255,255,255,.14) 0); position: relative; }
+.ring::before { content: ""; position: absolute; inset: 7px; border-radius: 50%; background: var(--navy); }
+.ring > * { position: relative; }
+.ring span { font-family: var(--display); font-weight: 700; font-size: 17px; line-height: 1; }
+.ring i { font-style: normal; font-size: 9.5px; font-weight: 700; color: rgba(255,255,255,.7); margin-top: 2px; }
+.gc-plan { display: flex; flex-direction: column; gap: 7px; font-size: 13.5px; color: rgba(255,255,255,.85); }
+.gc-plan b { color: #fff; }
+.gc-plan .bar { background: rgba(255,255,255,.15); }
+.goalcard.empty { flex-direction: row; align-items: center; background: var(--surface); color: var(--ink); gap: 14px; }
+.goalcard.empty::after { display: none; }
+.goalcard.empty .main { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.goalcard.empty b { font-weight: 700; font-size: 15px; } .goalcard.empty .main span { font-size: 13px; color: var(--ink-3); }
+.chest { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 12px; width: 100%; text-align: left; background: var(--surface); border-radius: 22px; padding: 12px 14px; box-shadow: var(--shadow); }
+.chest .main { display: flex; flex-direction: column; min-width: 0; }
+.chest .main b { font-weight: 700; font-size: 15px; } .chest .main span { font-size: 13px; color: var(--ink-3); }
+.chest.locked .bar { grid-column: 1 / -1; }
+.chest.locked .chest-ico { filter: grayscale(.7); opacity: .6; }
+.chest-ico { width: 46px; height: 40px; display: block; }
+.chest-ico svg { width: 100%; height: 100%; display: block; }
+.chest.ready { background: var(--t-peach); box-shadow: inset 0 0 0 2px var(--orange); }
+.chest.ready .chest-ico { animation: wiggle 1.6s ease-in-out infinite; }
+@keyframes wiggle { 0%, 70%, 100% { transform: rotate(0); } 76% { transform: rotate(-8deg); } 84% { transform: rotate(7deg); } 92% { transform: rotate(-4deg); } }
+.reward { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 12px; padding-top: 8px; }
+.chest-big { position: relative; width: 132px; height: 116px; }
+.chest-big svg { width: 100%; height: 100%; position: relative; z-index: 1; animation: pop .5s cubic-bezier(.2,1.4,.4,1) both; }
+.chest-big .lid { transform-box: fill-box; transform-origin: 0% 100%; transition: transform .5s cubic-bezier(.2,1.4,.4,1) .15s; }
+.chest-big .lid.up { transform: translate(-2px, -9px) rotate(-14deg); }
+.burst { position: absolute; inset: -30px; border-radius: 50%; background: radial-gradient(circle, rgba(255,181,71,.55), rgba(255,181,71,0) 65%); animation: burst 1.2s ease-out both; }
+@keyframes burst { from { transform: scale(.3); opacity: 0; } 40% { opacity: 1; } }
+@keyframes pop { from { transform: scale(.6); opacity: 0; } }
+.reward-row { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+.pill { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 99px; background: var(--t-peach); font-size: 14px; font-weight: 700; color: var(--ink); }
+.pill .ico { width: 18px; height: 18px; color: var(--orange-ink); }
+.flame-big { position: relative; width: 120px; height: 120px; display: grid; place-items: center; color: var(--orange); animation: pop .5s cubic-bezier(.2,1.4,.4,1) both; }
+.flame-big .ico { width: 120px; height: 120px; stroke-width: 1.4; }
+.flame-big b { position: absolute; bottom: 20px; font-family: var(--display); font-size: 30px; font-weight: 700; color: var(--ink); }
+.wk7 { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; width: 100%; }
+.wk7 span { display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 11px; font-weight: 700; color: var(--ink-3); }
+.wk7 i { width: 30px; height: 30px; border-radius: 50%; background: var(--line); display: grid; place-items: center; color: #fff; }
+.wk7 span.on i { background: var(--orange); }
+.wk7 span.today i { box-shadow: 0 0 0 3px var(--t-peach); }
+.wk7 .ico { width: 15px; height: 15px; stroke-width: 3; }
+.reward .bar { width: 100%; }
+.combo { display: flex; align-items: center; gap: 10px; padding: 10px 14px; border-radius: 16px; background: linear-gradient(90deg, var(--t-peach), transparent); font-size: 13.5px; color: var(--ink-2); animation: pop .35s cubic-bezier(.2,1.4,.4,1) both; }
+.combo b { font-family: var(--display); color: var(--orange-ink); font-size: 16px; }
+.sumpills { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 14px; padding: 0 16px; }
+.avopt.locked .avthumb .avsvg { filter: saturate(.85); }
+.avthumb { position: relative; }
+.avopt .lock { position: absolute; right: -2px; bottom: -2px; display: inline-flex; align-items: center; gap: 2px; padding: 2px 6px 2px 3px; border-radius: 99px; background: var(--ink); color: #fff; font-size: 10.5px; font-weight: 800; box-shadow: 0 0 0 2px var(--surface); }
+.avopt .lock .coin { width: 13px; height: 13px; }
+.avopt .lock .ico { width: 12px; height: 12px; color: #FFB547; }
+.avthumb { overflow: visible; }
+.avthumb .avsvg { border-radius: 50%; }
+.avbal { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 99px; background: rgba(255,255,255,.75); font-weight: 800; color: #1F2A6B; font-size: 15px; }
+.avstage.on-dark .avbal { background: rgba(255,255,255,.16); color: #fff; }
+.avthumb.sm { width: 44px; height: 44px; flex: none; }
+.shake { animation: shake .35s ease; }
+@keyframes shake { 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
+@media (prefers-reduced-motion: reduce) { .chest.ready .chest-ico, .burst, .chest-big svg, .flame-big, .combo { animation: none; } }
 </style>
 </head>
 <body>
@@ -1280,6 +1351,11 @@ function sanitizeState(s) {
   };
   const av = sanitizeAvatar(u.avatar); if (av) out.user.avatar = av;
   if (u.avSeen) out.user.avSeen = 1;
+  if (isObj(u.exam) && typeof u.exam.date === 'string' && DAYKEY_RE.test(u.exam.date)) out.user.exam = { name: str(u.exam.name, 40), date: u.exam.date };
+  if (typeof u.remind === 'string' && /^\d{2}:\d{2}$/.test(u.remind)) out.user.remind = u.remind;
+  const co = isObj(s.coins) ? s.coins : {}; out.coins = { earned: int(co.earned, 0, 1e9), spent: int(co.spent, 0, 1e9) };
+  out.owned = {}; if (isObj(s.owned)) { let k = 0; for (const key in s.owned) if (/^[a-z]{1,12}:[a-z]{1,12}$/.test(key) && ++k <= 300) out.owned[key] = int(s.owned[key], 1, MAXT, 1); }
+  if (typeof s.chest === 'string' && DAYKEY_RE.test(s.chest)) out.chest = s.chest;
   let n = 0;
   if (isObj(s.cards)) for (const id in s.cards) {
     if (!ID_RE.test(id) || ++n > 20000) continue;
@@ -1321,7 +1397,7 @@ function mergeState(a, b) {
   if (ra !== rb) {
     const stale = ra > rb ? b : a, R = Math.max(ra, rb);
     const cards = {}; for (const id in stale.cards || {}) if ((stale.cards[id].last || 0) > R) cards[id] = stale.cards[id];
-    const clean = { user: stale.user, updatedAt: stale.updatedAt, resetAt: R, cards, log: {}, xp: 0, streak: { count: 0, last: null }, freezes: 0, calib: {}, traps: {}, badges: {}, sims: [], totals: { fixed: 0, cycles: 0 } };
+    const clean = { user: stale.user, updatedAt: stale.updatedAt, resetAt: R, cards, log: {}, coins: { earned: 0, spent: 0 }, owned: stale.owned || {}, xp: 0, streak: { count: 0, last: null }, freezes: 0, calib: {}, traps: {}, badges: {}, sims: [], totals: { fixed: 0, cycles: 0 } };
     if (ra > rb) b = clean; else a = clean;
   }
   const newer = (a.updatedAt || 0) >= (b.updatedAt || 0) ? a : b;
@@ -1352,6 +1428,9 @@ function mergeState(a, b) {
   const sims = new Map(); for (const x of [...(a.sims || []), ...(b.sims || [])]) sims.set(x.at + '|' + x.title, x);
   out.sims = [...sims.values()].sort((x, y) => x.at - y.at).slice(-50);
   const ta = a.totals || {}, tb = b.totals || {}; out.totals = { fixed: Math.max(ta.fixed || 0, tb.fixed || 0), cycles: Math.max(ta.cycles || 0, tb.cycles || 0) };
+  const ca = a.coins || {}, cb = b.coins || {}; out.coins = { earned: Math.max(ca.earned || 0, cb.earned || 0), spent: Math.max(ca.spent || 0, cb.spent || 0) };
+  out.owned = Object.assign({}, a.owned, b.owned);
+  const ch = [a.chest || '', b.chest || ''].sort()[1]; if (ch) out.chest = ch;
   out.updatedAt = Math.max(a.updatedAt || 0, b.updatedAt || 0);
   out.resetAt = Math.max(a.resetAt || 0, b.resetAt || 0);
   return out;
@@ -1718,7 +1797,7 @@ function missions() {
 }
 function checkMissions() {
   const L = todayLog();
-  for (const m of missions()) if (m.done && !L.mx[m.id]) { L.mx[m.id] = 1; S.xp += 20; notify("Missão concluída · +20 XP"); }
+  for (const m of missions()) if (m.done && !L.mx[m.id]) { L.mx[m.id] = 1; S.xp += 20; earnCoins(5); notify('Missão concluída · +20 XP · +5 moedas'); }
 }
 
 /* ---------- Conquistas ---------- */
@@ -1744,7 +1823,7 @@ function badgeProgress(id) {
 }
 function checkBadges() {
   S.badges = S.badges || {};
-  for (const b of BADGES) if (!S.badges[b.id] && b.ok()) { S.badges[b.id] = Date.now(); notify("Conquista: " + b.l); }
+  for (const b of BADGES) if (!S.badges[b.id] && b.ok()) { S.badges[b.id] = Date.now(); earnCoins(20); notify('Conquista: ' + b.l + ' · +20 moedas'); }
 }
 
 /* ================= Efeitos e avisos ================= */
@@ -1791,7 +1870,7 @@ function startCycle({ decks = [], ids = null, size = 10, title = 'Ciclo', review
   }
   if (!list.length) { render(); toast(reviewOnly ? 'Nenhuma revisão pendente agora.' : 'Não há questões para este ciclo.'); return; }
   const dueSet = new Set(list.filter((id) => S.cards[id] && S.cards[id].due <= now));
-  ui.session = { mode, title, params: { decks, ids, size, title, reviewOnly, mode }, queue: list, i: 0, results: [], requeued: {}, xp: 0, dueSet, added: 0 };
+  ui.session = { mode, title, params: { decks, ids, size, title, reviewOnly, mode }, queue: list, i: 0, results: [], requeued: {}, xp: 0, dueSet, added: 0, combo: 0, maxCombo: 0, coins: 0, streak0: S.streak.last === dayKey() ? -1 : S.streak.count };
   if (mode === 'sim') { ui.session.answers = {}; ui.session.start = now; ui.session.deadline = now + list.length * 90e3; startSimTimer(); }
   setupQuestion();
   render();
@@ -1821,6 +1900,10 @@ function answer(conf) {
   bumpStreak();
   let gain = correct ? (conf === 'certeza' ? 15 : conf === 'acho' ? 12 : 8) : 3;
   if (second) gain = Math.round(gain / 2);
+  // Combo: acertos seguidos rendem bônus (recompensa por manter o foco).
+  if (correct && !second) { s.combo = (s.combo || 0) + 1; s.maxCombo = Math.max(s.maxCombo || 0, s.combo); } else if (!correct) s.combo = 0;
+  s.bonus = correct && s.combo >= 3 ? Math.min(10, (s.combo - 2) * 2) : 0; gain += s.bonus;
+  if (correct && !second) { const c0 = conf === 'certeza' ? 2 : 1; earnCoins(c0); s.coins = (s.coins || 0) + c0; }
   S.xp += gain; s.xp += gain;
   let requeue = false;
   if (!correct && !s.requeued[id]) { s.queue.push(id); s.requeued[id] = true; requeue = true; }
@@ -1840,7 +1923,9 @@ function finishCycle() {
   const s = ui.session; clearInterval(s.tick); clearInterval(s.simTick);
   s.phase = 'summary';
   const L = todayLog(); L.cycles++; S.totals.cycles++;
+  earnCoins(5); s.coins = (s.coins || 0) + 5;
   checkMissions(); checkBadges(); persist(); render();
+  if (s.streak0 !== -1 && S.streak.last === dayKey()) setTimeout(() => { if (ui.session === s) streakSheet(S.streak.count); }, REDUCED ? 0 : 650);
 }
 
 /* ---------- Simulado (inspirado em Qconcursos/TEC) ---------- */
@@ -2078,7 +2163,7 @@ function viewHome() {
   const tiles = ['c-blue', 'c-mint', 'c-lilac'], icons = ['target', 'check', 'recall'];
   return `<div class="hdr">${typeof PHOTOS !== 'undefined' ? `<img class="hero-girl fade" src="${PHOTOS.hero}" width="760" height="1020" decoding="async" alt="">` : ''}
       <div class="top"><div class="hello"><button class="avatar avbtn" data-act="tab" data-tab="perfil" aria-label="Abrir seu perfil">${avatarSVG(avatarConfig())}</button><div><small>${hi},</small><b>${first}</b></div></div>
-        <span class="glass gchip num" title="Dias seguidos">${ico('flame')}${st} ${st === 1 ? 'dia' : 'dias'}</span></div>
+        <div class="chips-r"><span class="glass gchip num" title="Moedas">${coinIco()}${coinsBal()}</span><span class="glass gchip num" title="Dias seguidos">${ico('flame')}${st} ${st === 1 ? 'dia' : 'dias'}</span></div></div>
       <h1>${due ? 'Hora de <em>revisar</em> o que você aprendeu' : 'Pronto para a <em>próxima sessão</em>?'}</h1>
       <div class="memrow">
         <div class="glass"><b class="num">${mem == null ? '–' : Math.round(mem * 100) + '%'}</b><span>memória</span></div>
@@ -2092,6 +2177,8 @@ function viewHome() {
       <button class="btn btn-orange btn-sm" data-act="${due ? 'review-all' : 'cycle-all'}">${due ? 'Revisar' : 'Começar'}</button>
     </div></div>
     <div class="page" style="padding-top:22px">
+      ${examCard()}
+      ${chestCard()}
       ${!S.user.avatar && !S.user.avSeen ? `<div class="avnudge"><span class="av md">${avatarSVG(avatarConfig())}</span><div><b>Monte seu personagem</b><span>Escolha rosto, cabelo, roupa e estilo. Ele aparece no ranking da turma.</span></div><div class="avnudge-act"><button class="btn btn-orange btn-sm" data-act="av-open">Montar</button><button class="icon-btn flat" data-act="av-later" aria-label="Agora não">${ico('close')}</button></div></div>` : ''}
       ${weekStrip()}
       <div class="blk"><div class="sec"><h2>Continue estudando</h2><button class="link" data-act="tab" data-tab="trilhas">Ver todas</button></div>
@@ -2192,7 +2279,7 @@ function viewSession() {
       `<p class="q">Qual é a sua confiança?</p><div class="conf"><button class="c-peach" data-act="conf" data-c="chute">Chutei<small>não sei</small></button><button class="c-blue" data-act="conf" data-c="acho">Acho que sim<small>com dúvida</small></button><button class="c-mint" data-act="conf" data-c="certeza">Tenho certeza<small>sei explicar</small></button></div>`;
   } else if (s.phase === 'feedback') {
     const v = verdict(s);
-    body = `<div class="verdict ${v.cls}" role="status"><span class="vi">${ico(v.icon)}</span><div style="flex:1;min-width:0"><h3>${v.title}</h3><p>${v.text}</p></div><span class="xp num">+${s.gain} XP</span></div>` + head + opts(true);
+    body = `<div class="verdict ${v.cls}" role="status"><span class="vi">${ico(v.icon)}</span><div style="flex:1;min-width:0"><h3>${v.title}</h3><p>${v.text}</p></div><span class="xp num">+${s.gain} XP</span></div>${s.bonus ? `<div class="combo" role="status"><b class="num">Combo ×${s.combo}</b><span>+${s.bonus} XP de bônus por acertos seguidos</span></div>` : ''}` + head + opts(true);
     dock = s.correct ? `<div class="duo"><button class="btn btn-soft" data-act="consol">Ver o porquê</button><button class="btn btn-primary" data-act="next">Próxima</button></div>` :
       `<button class="btn btn-orange btn-block" data-act="consol">Entender o erro</button>`;
   } else {
@@ -2253,6 +2340,7 @@ function viewSummary() {
   const perfect = first.length >= 3 && ok === first.length;
   return `<div class="sess"><div class="result">${perfect ? `<div class="result-illo">${illo('done')}</div>` : ''}<span class="lbl">Ciclo concluído${s.title && s.title !== 'Sessão' ? ' · ' + esc(s.title) : ''}</span><div class="big num">${cnt(acc, '%')}</div><p>${ok} de ${first.length} na primeira tentativa. ${msg}</p></div>
     <div class="rstats"><div class="card"><b class="num" style="color:var(--orange-ink)">+${s.xp}</b><span>XP</span></div><div class="card"><b class="num">${avg}s</b><span>por questão</span></div><div class="card"><b class="num">${mem == null ? '–' : Math.round(mem * 100) + '%'}</b><span>memória</span></div></div>
+    <div class="sumpills"><span class="pill">${coinIco()}<b class="num">+${s.coins || 0}</b> moedas</span>${(s.maxCombo || 0) >= 3 ? `<span class="pill"><b class="num">×${s.maxCombo}</b> maior combo</span>` : ''}</div>
     <div class="page" style="padding-top:20px">
       ${ill ? `<div class="callout" style="background:var(--bad-soft)"><span class="tile" style="background:var(--bad);color:#fff">${ico('alert')}</span><div><b>${plural(ill, 'ilusão de competência corrigida', 'ilusões de competência corrigidas')}</b><p>Você marcou “tenho certeza” e errou. Esses erros iriam com você para a prova.</p></div></div>` : ''}
       ${fixed ? `<div class="callout" style="background:var(--ok-soft)"><span class="tile" style="background:var(--ok);color:#fff">${ico('check')}</span><div><b>${plural(fixed, 'erro virou acerto', 'erros viraram acertos')}</b><p>A correção imediata funcionou. Agora eles voltam em revisões espaçadas.</p></div></div>` : ''}
@@ -2381,7 +2469,7 @@ function viewProfile() {
       <div class="phead-stats">
         <div><span class="tile c-peach">${ico('flame')}</span><b class="num">${cnt(streakNow())}</b><span>dias seguidos</span></div>
         <div><span class="tile c-blue">${ico('trophy')}</span><b class="num">${nb}/${BADGES.length}</b><span>conquistas</span></div>
-        <div><span class="tile c-mint">${ico('target')}</span><b class="num">${cnt(totalAnswered())}</b><span>respostas</span></div>
+        <div><span class="tile c-mint">${coinIco()}</span><b class="num">${cnt(coinsBal())}</b><span>moedas</span></div>
       </div>
       ${S.user.avatar ? `<button class="btn btn-ghost btn-sm btn-block" data-act="av-open">${ico('edit')} Editar avatar</button>` : `<button class="btn btn-orange btn-sm btn-block" data-act="av-open">Montar meu avatar</button>`}
     </div>
@@ -2395,6 +2483,8 @@ function viewProfile() {
     <div class="blk"><div class="sec"><h2>Preferências</h2></div><div class="list">
       ${sw('retrieval', 'Recuperação ativa', 'Pensar antes de ver as alternativas', 'c-blue', 'recall')}
       ${sw('fx', 'Som e vibração', 'Sinal de acerto e erro', 'c-peach', 'bolt')}
+      <button class="item" data-act="remind-open"><span class="tile round c-lilac">${ico('clock')}</span><div class="main"><b>Lembrete diário</b><span>${S.user.remind ? 'Todo dia às ' + esc(S.user.remind) : 'Um alerta no calendário do celular'}</span></div>${chev()}</button>
+      <button class="item" data-act="exam-open"><span class="tile round c-blue">${ico('exam')}</span><div class="main"><b>Objetivo e data da prova</b><span>${examInfo() ? esc(examInfo().name) + ' · ' + new Date(examInfo().at).toLocaleDateString('pt-BR') : 'Ainda não definido'}</span></div>${chev()}</button>
       <div class="item"><span class="tile round c-mint">${ico('shield')}</span><div class="main"><b>Seus dados</b><span>${loggedIn() ? 'Na sua conta Memory, sincronizados' : cloud.status === 'cloud' ? 'Salvos na sua conta e sincronizados' : 'Salvos neste aparelho'}</span></div></div>
     </div></div>
     <div class="blk"><div class="sec"><h2>Sobre o método</h2></div><div class="list">
@@ -2422,7 +2512,7 @@ const ACT = {
   'cat': (d) => { ui.cat = d.id; document.querySelectorAll('.fchip').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.id === d.id))); const g = document.getElementById('deck-grid'); if (g) g.innerHTML = deckGrid(); },
   'edit-name': () => { const n = document.getElementById('pf-name'); if (n) { n.focus(); n.select(); } },
   'onb-next': () => { const n = document.getElementById('onb-name'); if (n) S.user.name = n.value.trim(); ui.onb++; render(); $('#view').scrollTop = 0; },
-  'onb-finish': () => { S.user.onboarded = true; persist(); ui.tab = 'home'; render(); },
+  'onb-finish': () => { S.user.onboarded = true; persist(); ui.tab = 'home'; render(); if (!S.user.exam) setTimeout(examSheet, REDUCED ? 0 : 500); },
   'persona': (d) => { const n = document.getElementById('onb-name') || document.getElementById('pf-name'); if (n) S.user.name = n.value.trim(); S.user.persona = d.id; if (S.user.onboarded) persist(); render(); },
   'goal': (d) => { S.user.goal = Number(d.n); if (S.user.onboarded) persist(); render(); },
   'retention': (d) => { S.user.retention = Number(d.r); persist(); render(); },
@@ -2508,7 +2598,7 @@ const ACT = {
   },
   'ask-reset': () => { ui.confirmReset = true; render(); },
   'cancel-reset': () => { ui.confirmReset = false; render(); },
-  'do-reset': () => { const u = S.user; S = blankState(); S.user = u; S.resetAt = Date.now(); ui.confirmReset = false; persist(); render(); toast('Progresso zerado'); }
+  'do-reset': () => { const u = S.user, own = S.owned; S = blankState(); S.user = u; S.owned = own || {}; S.resetAt = Date.now(); ui.confirmReset = false; persist(); render(); toast('Progresso zerado'); }
 };
 document.addEventListener('input', (e) => { if (e.target.id === 'deck-q') { ui.q = e.target.value; const g = document.getElementById('deck-grid'); if (g) g.innerHTML = deckGrid(); } });
 
@@ -3067,7 +3157,9 @@ function avSection([key, label, kind]) {
   const view = AV_VIEW[key];
   return `<section class="avsec"><h3>${label}</h3><div class="avgrid">${AV_OPTS[key].map((v) => {
     const t = Object.assign({}, c, { [key]: v });
-    return `<button class="avopt ${c[key] === v ? 'on' : ''}" data-act="av-set" data-k="${key}" data-v="${v}" aria-pressed="${c[key] === v}"><span class="avthumb ${view ? 'crop' : ''}">${avatarSVG(t, view ? { view } : {})}</span><span>${AV_LABEL[v] || v}</span></button>`;
+    const r = typeof itemRule === 'function' ? itemRule(key, v) : null; const own = !r || itemOwned(key, v);
+    const tag = own ? '' : `<span class="lock">${r.price && !r.level ? coinIco() + r.price : ico('key')}</span>`;
+    return `<button class="avopt ${c[key] === v ? 'on' : ''} ${own ? '' : 'locked'}" data-act="av-set" data-k="${key}" data-v="${v}" aria-pressed="${c[key] === v}" ${own ? '' : `aria-label="${esc(AV_LABEL[v] || v)}, ${esc(itemLockText(r))}"`}><span class="avthumb ${view ? 'crop' : ''}">${avatarSVG(t, view ? { view } : {})}${tag}</span><span>${AV_LABEL[v] || v}</span></button>`;
   }).join('')}</div></section>`;
 }
 function avOptionsHTML() { const g = AV_GROUPS.find((x) => x[0] === AVED.grp) || AV_GROUPS[0]; return g[3].map(avSection).join(''); }
@@ -3076,19 +3168,19 @@ function viewAvatar() {
   const changed = JSON.stringify(AVED.cfg) !== JSON.stringify(AVED.orig);
   return `<div class="avpage">
     <div class="avstage ${avLum(AV.bg[AVED.cfg.bg]) < 0.5 ? 'on-dark' : ''}" style="--avbg:${AV.bg[AVED.cfg.bg]}">
-      <div class="avtop"><button class="icon-btn" data-act="av-cancel" aria-label="Voltar sem salvar">${ico('back')}</button><b>Seu avatar</b><div class="avtop-r"><button class="icon-btn" data-act="av-undo" aria-label="Desfazer" ${AVED.hist.length ? '' : 'disabled'}>${ico('recall')}</button><button class="icon-btn" data-act="av-random" aria-label="Sortear um visual">${ico('shuffle')}</button></div></div>
+      <div class="avtop"><button class="icon-btn" data-act="av-cancel" aria-label="Voltar sem salvar">${ico('back')}</button><span class="avbal" title="Suas moedas">${coinIco()}<b class="num" id="av-bal">${coinsBal()}</b></span><div class="avtop-r"><button class="icon-btn" data-act="av-undo" aria-label="Desfazer" ${AVED.hist.length ? '' : 'disabled'}>${ico('recall')}</button><button class="icon-btn" data-act="av-random" aria-label="Sortear um visual">${ico('shuffle')}</button></div></div>
       <div class="avpreview" id="av-preview">${avatarSVG(AVED.cfg, { title: 'Seu avatar' })}</div>
       <div class="avgroups" role="tablist" aria-label="Partes do avatar">${AV_GROUPS.map(([k, l, i]) => `<button class="avg" role="tab" data-act="av-grp" data-k="${k}" aria-selected="${AVED.grp === k}"><span class="tile">${ico(i)}</span><span>${l}</span></button>`).join('')}</div>
     </div>
     <div class="avpanel" id="av-opts">${avOptionsHTML()}</div>
-    <div class="dock"><button class="btn btn-ghost" data-act="av-cancel">Cancelar</button><button class="btn btn-orange" data-act="av-save" ${changed || !S.user.avatar ? '' : 'disabled'}>Salvar avatar</button></div>
+    <div class="dock"><button class="btn btn-ghost" data-act="av-cancel">Cancelar</button><button class="btn btn-orange" data-act="av-try-save" ${changed || !S.user.avatar ? '' : 'disabled'}>Salvar avatar</button></div>
   </div>`;
 }
 function avRepaint(panel = true) {
   const pv = document.getElementById('av-preview'); if (pv) { pv.innerHTML = avatarSVG(AVED.cfg, { title: 'Seu avatar' }); if (!REDUCED) { pv.classList.remove('bump'); void pv.offsetWidth; pv.classList.add('bump'); } }
   const st = document.querySelector('.avstage'); if (st) { st.style.setProperty('--avbg', AV.bg[AVED.cfg.bg]); st.classList.toggle('on-dark', avLum(AV.bg[AVED.cfg.bg]) < 0.5); }
   if (panel) { const op = document.getElementById('av-opts'); if (op) op.innerHTML = avOptionsHTML(); }
-  const sv = document.querySelector('[data-act="av-save"]'); if (sv) sv.disabled = false;
+  const sv = document.querySelector('[data-act="av-try-save"]'); if (sv) { sv.disabled = false; const n = lockedInCfg(AVED.cfg).length; sv.textContent = n ? 'Salvar · ' + plural(n, 'item da loja', 'itens da loja') : 'Salvar avatar'; }
   const un = document.querySelector('[data-act="av-undo"]'); if (un) un.disabled = !AVED.hist.length;
 }
 function avPush() { AVED.hist.push(Object.assign({}, AVED.cfg)); if (AVED.hist.length > 40) AVED.hist.shift(); }
@@ -3120,8 +3212,208 @@ Object.assign(ACT, {
     });
     avRepaint();
   },
+  'av-try-save': () => {
+    const items = lockedInCfg(AVED.cfg);
+    if (!items.length) return ACT['av-save']();
+    const buyable = items.filter((x) => x.r.price), blocked = items.filter((x) => !x.r.price);
+    const total = buyable.reduce((s2, x) => s2 + x.r.price, 0), bal = coinsBal();
+    const row = (x) => `<div class="item"><span class="avthumb sm">${avatarSVG(Object.assign({}, AVED.cfg), AV_VIEW[x.k] ? { view: AV_VIEW[x.k] } : {})}</span><div class="main"><b>${esc(AV_LABEL[x.v] || x.v)}</b><span>${esc(itemLockText(x.r))}</span></div>${x.r.price ? `<span class="end num">${coinIco()}${x.r.price}</span>` : ico('key')}</div>`;
+    ui.sheet = `<div class="blk" style="gap:6px"><h2>${blocked.length ? 'Item ainda bloqueado' : 'Itens novos no visual'}</h2><p class="muted small">${blocked.length ? 'Alguns itens só liberam com conquistas ou nível. Você pode continuar testando o visual.' : 'Você está usando itens da loja. Compre para salvar este visual.'}</p></div>
+      <div class="list">${items.map(row).join('')}</div>
+      ${blocked.length ? `<button class="btn btn-primary btn-block" data-act="sheet-close">Entendi</button>` : bal >= total
+        ? `<div class="duo"><button class="btn btn-ghost" data-act="sheet-close">Voltar</button><button class="btn btn-orange" data-act="shop-buy">Comprar · ${total} moedas</button></div><p class="tiny" style="text-align:center">Saldo depois da compra: ${bal - total} moedas</p>`
+        : `<div class="notice">Faltam <b>${total - bal} moedas</b>. Você ganha estudando: 1 a 2 por acerto, 5 por ciclo, 5 por missão, 20 por conquista e o baú do dia.</div><button class="btn btn-primary btn-block" data-act="sheet-close">Continuar montando</button>`}`;
+    renderSheet();
+  },
   'av-save': () => { S.user.avatar = avNormalize(AVED.cfg); S.user.avSeen = 1; persist(); AVED.cfg = null; ui.tab = 'perfil'; render(); $('#view').scrollTop = 0; notify('Avatar salvo.'); },
   'av-cancel': () => { AVED.cfg = null; ui.tab = 'perfil'; render(); $('#view').scrollTop = 0; }
+});
+
+/* ================= Motivos para voltar todo dia ================= */
+// 1) Um objetivo com data (a prova): contagem regressiva, preparação e plano do dia.
+// 2) Moedas ganhas estudando, gastas na loja do avatar (itens de estilo; rosto e cabelo são sempre grátis).
+// 3) Baú do dia ao bater a meta (recompensa variável), combos de acertos e comemoração da sequência.
+// 4) Lembrete diário no calendário do celular.
+
+I.coin = '<circle cx="12" cy="12" r="10.5" class="cf"/><circle cx="12" cy="12" r="8" fill="none" class="cr"/><circle cx="9.6" cy="12" r="3.6" class="c1"/><circle cx="14.4" cy="12" r="3.6" class="c2"/>';
+const coinIco = (cls = '') => `<svg class="coin ${cls}" viewBox="0 0 24 24" aria-hidden="true">${I.coin}</svg>`;
+
+/* ---------- Moedas ---------- */
+function coinsBal() { const c = S.coins || {}; return Math.max(0, (c.earned || 0) - (c.spent || 0)); }
+function earnCoins(n, why) {
+  if (!n) return 0;
+  S.coins = S.coins || { earned: 0, spent: 0 }; S.coins.earned += n;
+  if (why) notify(`+${n} moedas · ${why}`);
+  return n;
+}
+function spendCoins(n) { if (coinsBal() < n) return false; S.coins = S.coins || { earned: 0, spent: 0 }; S.coins.spent += n; return true; }
+
+/* ---------- Loja do avatar ---------- */
+// Preço em moedas, ou desbloqueio por conquista/nível. O que não está aqui é grátis.
+const AV_SHOP = {
+  hat: { bonetras: 40, bucket: 60, viseira: 40, bandana: 60, fedora: 90, fone: 80, capelo: { badge: 'sim70', price: 150 }, coroa: { badge: 'streak30' } },
+  glasses: { retro: 40, gatinho: 50, hex: 60, meia: 60, sol: 70, aviador: 80, coracao: 90, monoculo: 120 },
+  acc: { argola: 40, piercing: 50, flor: 50, colar: 60, gravata: 60, cachecol: 80, lapis: { badge: 'q100', price: 100 } },
+  top: { regata: 40, gola: 50, listrada: 60, esportiva: 70, blazer: 80, jaqueta: 90, jaleco: 100 },
+  bgp: { bolinhas: 30, listras: 30, ondas: 40, grade: 40, raios: 60, marca: { level: 5 } }
+};
+const itemKey = (k, v) => k + ':' + v;
+function itemRule(k, v) { const r = (AV_SHOP[k] || {})[v]; return r == null ? null : typeof r === 'number' ? { price: r } : r; }
+function itemOwned(k, v) {
+  const r = itemRule(k, v); if (!r) return true;
+  if (S.owned && S.owned[itemKey(k, v)]) return true;
+  if (r.badge && S.badges && S.badges[r.badge]) return true;
+  if (r.level && level() >= r.level) return true;
+  return false;
+}
+function itemLockText(r) {
+  const b = r.badge && BADGES.find((x) => x.id === r.badge);
+  if (r.level) return 'Libera no nível ' + r.level;
+  if (b && r.price) return `${r.price} moedas ou conquista “${b.l}”`;
+  if (b) return 'Conquista “' + b.l + '”';
+  return r.price + ' moedas';
+}
+function lockedInCfg(cfg) {
+  const out = [];
+  for (const k of Object.keys(AV_SHOP)) { const v = cfg[k]; if (!itemOwned(k, v)) out.push({ k, v, r: itemRule(k, v) }); }
+  return out;
+}
+
+/* ---------- Objetivo com data ---------- */
+function examInfo() {
+  const e = S.user.exam; if (!e || !e.date) return null;
+  const [y, m, d] = e.date.split('-').map(Number); const at = new Date(y, m - 1, d);
+  const days = Math.ceil((at - new Date(new Date().toDateString())) / DAY);
+  return { name: e.name || 'Sua prova', date: e.date, days, at };
+}
+function targetDecks() { return personaDecks().map(deckById).filter(Boolean); }
+// Preparação: quanto do conteúdo-alvo você lembraria hoje (memória × cobertura).
+function readiness() {
+  let tot = 0, sum = 0, firm = 0;
+  for (const d of targetDecks()) for (const q of d.questions) { tot++; const c = S.cards[q.id]; if (c && c.s) { sum += retr(c); if (c.s >= FIRM && c.g > 1) firm++; } }
+  return { pct: tot ? Math.round((sum / tot) * 100) : 0, total: tot, firm };
+}
+function dailyPlan() {
+  const ex = examInfo(), r = readiness(); const goal = S.user.goal;
+  if (!ex || ex.days <= 0) return { n: goal, why: '' };
+  const missing = Math.max(0, Math.ceil(r.total * 0.9) - r.firm);
+  const need = Math.max(goal, Math.ceil((missing * 2.2) / Math.max(1, ex.days))); // cada questão firme pede ~2 a 3 revisões
+  return { n: Math.min(60, need), why: need > goal ? 'para chegar a 90% até a prova' : 'mantém você no ritmo da prova' };
+}
+function examCard() {
+  const ex = examInfo(); const r = readiness();
+  if (!ex) return `<button class="goalcard empty" data-act="exam-open"><span class="tile c-blue">${ico('exam')}</span><div class="main"><b>Tem prova marcada?</b><span>Coloque a data e o Memory monta o ritmo até lá</span></div>${chev()}</button>`;
+  if (ex.days < 0) return `<button class="goalcard" data-act="exam-open"><span class="tile c-mint">${ico('trophy')}</span><div class="main"><b>${esc(ex.name)} já passou</b><span>Como foi? Defina o próximo objetivo</span></div>${chev()}</button>`;
+  const plan = dailyPlan(); const L = peekToday(); const done = Math.min(L.n, plan.n);
+  return `<button class="goalcard" data-act="exam-open" aria-label="Objetivo: ${esc(ex.name)}">
+    <div class="gc-top"><div><small>${esc(ex.name)}</small><b class="num">${ex.days === 0 ? 'É hoje!' : ex.days === 1 ? 'Falta 1 dia' : 'Faltam ' + ex.days + ' dias'}</b></div>
+      <div class="ring" style="--p:${r.pct}"><span class="num">${r.pct}%</span><i>preparação</i></div></div>
+    <div class="gc-plan"><span>Hoje: <b class="num">${done}/${plan.n}</b> questões${plan.why ? ' · ' + plan.why : ''}</span><div class="bar"><i class="${done >= plan.n ? 'g' : 'o'}" style="width:${Math.round((done / plan.n) * 100)}%"></i></div></div>
+  </button>`;
+}
+function examSheet() {
+  const e = S.user.exam || {}; const today = dayKey();
+  const sug = [['ENEM', ''], ['Vestibular', ''], ['Concurso', ''], ['Prova da faculdade', ''], ['Certificação', '']];
+  ui.sheet = `<form class="blk" data-form="exam" style="gap:16px"><div class="blk" style="gap:6px"><h2>Seu objetivo</h2><p class="muted small">Com a data, o Memory mostra quanto falta, sua preparação e quantas questões fazer por dia.</p></div>
+    <div class="field"><label for="ex-name">Nome da prova</label><input id="ex-name" class="input" maxlength="40" placeholder="Ex.: ENEM, Concurso TRT, Prova de Anatomia" value="${esc(e.name || '')}"></div>
+    <div class="chips">${sug.map(([s]) => `<button type="button" class="fchip" data-act="exam-sug" data-v="${s}">${s}</button>`).join('')}</div>
+    <div class="field"><label for="ex-date">Data</label><input id="ex-date" class="input" type="date" min="${today}" value="${esc(e.date || '')}"></div>
+    <div class="duo">${e.date ? '<button type="button" class="btn btn-ghost" data-act="exam-clear">Remover</button>' : '<button type="button" class="btn btn-ghost" data-act="sheet-close">Agora não</button>'}<button class="btn btn-orange" type="submit">Salvar objetivo</button></div></form>`;
+  renderSheet();
+}
+document.addEventListener('submit', (e) => {
+  if (!e.target.dataset || e.target.dataset.form !== 'exam') return;
+  e.preventDefault();
+  const name = document.getElementById('ex-name').value.trim().slice(0, 40), date = document.getElementById('ex-date').value;
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) { const f = document.getElementById('ex-date'); f.focus(); f.classList.add('shake'); setTimeout(() => f.classList.remove('shake'), 400); return; }
+  S.user.exam = { name: name || 'Minha prova', date }; persist(); ui.sheet = null; renderSheet(); render();
+  const ex = examInfo(); notify(ex.days > 0 ? `Objetivo salvo: ${ex.days} dias até ${ex.name}.` : 'Objetivo salvo.');
+});
+
+/* ---------- Baú do dia ---------- */
+function chestReady() { const L = peekToday(); return L.n >= S.user.goal && S.chest !== dayKey(); }
+function chestCard() {
+  if (S.chest === dayKey()) return '';
+  const L = peekToday(); const left = Math.max(0, S.user.goal - L.n);
+  if (left > 0) return `<div class="chest locked"><span class="chest-ico">${chestSVG(false)}</span><div class="main"><b>Baú do dia</b><span>Faltam ${plural(left, 'questão', 'questões')} para abrir</span></div><div class="bar"><i class="o" style="width:${Math.round((L.n / S.user.goal) * 100)}%"></i></div></div>`;
+  return `<button class="chest ready" data-act="chest-open"><span class="chest-ico">${chestSVG(false)}</span><div class="main"><b>Seu baú está pronto</b><span>Meta do dia batida. Toque para abrir</span></div><span class="btn btn-orange btn-sm">Abrir</span></button>`;
+}
+function chestSVG(open) {
+  return `<svg viewBox="0 0 64 56" aria-hidden="true"><rect x="6" y="24" width="52" height="28" rx="6" fill="#FF7A22"/><rect x="6" y="36" width="52" height="4" fill="#D2550A"/>
+    <g class="lid ${open ? 'up' : ''}"><path d="M6 26C6 12 16 6 32 6S58 12 58 26Z" fill="#FF9B55"/><path d="M6 26C6 12 16 6 32 6S58 12 58 26" fill="none" stroke="#D2550A" stroke-width="3"/></g>
+    <rect x="27" y="22" width="10" height="14" rx="3" fill="#1F2A6B"/><circle cx="32" cy="29" r="2" fill="#FFD7B8"/></svg>`;
+}
+function openChest() {
+  if (!chestReady()) return;
+  const roll = Math.random();
+  const coins = roll < 0.55 ? 10 + Math.floor(Math.random() * 11) : roll < 0.9 ? 21 + Math.floor(Math.random() * 15) : 50;
+  const freeze = (S.freezes || 0) < 2 && Math.random() < 0.15;
+  S.chest = dayKey(); earnCoins(coins); if (freeze) S.freezes = (S.freezes || 0) + 1;
+  persist();
+  ui.sheet = `<div class="reward"><div class="chest-big">${chestSVG(true)}<span class="burst"></span></div><h2>${coins === 50 ? 'Baú raro!' : 'Baú aberto'}</h2>
+    <div class="reward-row"><span class="pill">${coinIco()}<b class="num">+${coins}</b> moedas</span>${freeze ? `<span class="pill">${ico('shield')}<b>+1</b> protetor de sequência</span>` : ''}</div>
+    <p class="muted small">Volte amanhã: cada dia de meta batida abre um baú novo.</p><button class="btn btn-primary btn-block" data-act="chest-close">Continuar</button></div>`;
+  renderSheet(); tone(true);
+}
+
+/* ---------- Comemoração da sequência ---------- */
+const STREAK_MARKS = [3, 7, 14, 30, 50, 100, 365];
+function streakSheet(n) {
+  const next = STREAK_MARKS.find((m) => m > n) || n + 30;
+  const days = []; const today = new Date();
+  for (let i = 6; i >= 0; i--) { const d = new Date(today.getTime() - i * DAY); const on = (S.log[dayKey(d)] || {}).n > 0; days.push(`<span class="${on ? 'on' : ''}${i === 0 ? ' today' : ''}"><i>${on ? ico('check') : ''}</i>${['D', 'S', 'T', 'Q', 'Q', 'S', 'S'][d.getDay()]}</span>`); }
+  ui.sheet = `<div class="reward streak"><div class="flame-big">${ico('flame')}<b class="num">${n}</b></div><h2>${n === 1 ? 'Sequência começou!' : n + ' dias seguidos!'}</h2>
+    <p class="muted small">${n === 1 ? 'Volte amanhã para não quebrar a corrente.' : STREAK_MARKS.includes(n) ? 'Marco alcançado. Sua memória agradece a constância.' : 'Continue assim. Próximo marco: ' + next + ' dias.'}</p>
+    <div class="wk7">${days.join('')}</div>
+    <div class="bar"><i class="o" style="width:${Math.round((n / next) * 100)}%"></i></div><span class="tiny">${n} de ${next} dias · ${S.freezes || 0} ${(S.freezes || 0) === 1 ? 'protetor guardado' : 'protetores guardados'}</span>
+    <button class="btn btn-orange btn-block" data-act="sheet-close">Continuar</button></div>`;
+  renderSheet();
+}
+
+/* ---------- Lembrete diário (calendário) ---------- */
+function reminderICS(hhmm) {
+  const [h, m] = hhmm.split(':').map(Number); const d = new Date(); d.setHours(h, m, 0, 0); if (d < new Date()) d.setDate(d.getDate() + 1);
+  const pad2 = (n) => String(n).padStart(2, '0');
+  const dt = `${d.getFullYear()}${pad2(d.getMonth() + 1)}${pad2(d.getDate())}T${pad2(h)}${pad2(m)}00`;
+  const url = /^https?:/.test(location.protocol) ? location.origin + location.pathname : '';
+  return ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Memory//Lembrete//PT-BR', 'CALSCALE:GREGORIAN', 'BEGIN:VEVENT',
+    'UID:memory-lembrete-' + Date.now() + '@memory', 'DTSTAMP:' + new Date().toISOString().replace(/[-:]/g, '').slice(0, 15) + 'Z', 'DTSTART:' + dt, 'DURATION:PT10M',
+    'RRULE:FREQ=DAILY', 'SUMMARY:Memory · ' + S.user.goal + ' questões de hoje', 'DESCRIPTION:Mantenha sua sequência. ' + url, url ? 'URL:' + url : '',
+    'BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:Hora do Memory', 'TRIGGER:-PT0M', 'END:VALARM', 'END:VEVENT', 'END:VCALENDAR'].filter(Boolean).join('\r\n');
+}
+function reminderSheet() {
+  const cur = S.user.remind || '19:00';
+  ui.sheet = `<div class="blk" style="gap:6px"><h2>Lembrete diário</h2><p class="muted small">Escolha um horário. O Memory cria um evento diário no calendário do seu celular, com alerta, para você não esquecer.</p></div>
+    <div class="seg" role="group">${['07:00', '12:00', '19:00', '21:00'].map((t) => `<button data-act="remind-pick" data-t="${t}" aria-pressed="${cur === t}">${t}</button>`).join('')}</div>
+    <div class="field"><label for="rm-time">Outro horário</label><input id="rm-time" class="input" type="time" value="${cur}"></div>
+    <button class="btn btn-orange btn-block" data-act="remind-save">Adicionar ao calendário</button>`;
+  renderSheet();
+}
+
+/* ---------- Ações ---------- */
+Object.assign(ACT, {
+  'exam-open': () => examSheet(),
+  'exam-sug': (d) => { const n = document.getElementById('ex-name'); if (n) { n.value = d.v; n.focus(); } },
+  'exam-clear': () => { delete S.user.exam; persist(); ui.sheet = null; renderSheet(); render(); },
+  'chest-open': () => openChest(),
+  'chest-close': () => { ACT['sheet-close'](); setTimeout(render, 220); },
+  'remind-open': () => reminderSheet(),
+  'remind-pick': (d) => { const t = document.getElementById('rm-time'); if (t) t.value = d.t; document.querySelectorAll('[data-act=remind-pick]').forEach((b) => b.setAttribute('aria-pressed', b.dataset.t === d.t)); },
+  'remind-save': () => {
+    const t = (document.getElementById('rm-time') || {}).value || '19:00';
+    S.user.remind = t; persist();
+    const url = URL.createObjectURL(new Blob([reminderICS(t)], { type: 'text/calendar' }));
+    const a = document.createElement('a'); a.href = url; a.download = 'lembrete-memory.ics'; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 4000);
+    ui.sheet = null; renderSheet(); render(); notify('Abra o arquivo para adicionar o lembrete das ' + t + '.');
+  },
+  'shop-buy': () => {
+    const items = lockedInCfg(AVED.cfg); const buyable = items.filter((x) => x.r.price);
+    const total = buyable.reduce((a, x) => a + x.r.price, 0);
+    if (buyable.length !== items.length || !spendCoins(total)) return;
+    S.owned = S.owned || {}; for (const x of buyable) S.owned[itemKey(x.k, x.v)] = Date.now();
+    ui.sheet = null; renderSheet(); ACT['av-save'](); notify(`Compra feita · −${total} moedas`);
+  }
 });
 
 /* ================= Conta, sincronização, turmas e IA (back-end do Memory) ================= */
