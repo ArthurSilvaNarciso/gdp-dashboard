@@ -177,7 +177,7 @@ function authSheet() {
   const su = auth.mode === 'signup';
   const hasLocal = Object.keys(S.cards).length > 0;
   return `<form class="blk" data-form="auth" style="gap:16px" novalidate>
-    <div class="blk" style="gap:6px"><h2>${su ? 'Crie sua conta' : 'Entrar na conta'}</h2>
+    ${su ? `<div class="illo-wrap sm">${illo('sync')}</div>` : ''}<div class="blk" style="gap:6px"><h2>${su ? 'Crie sua conta' : 'Entrar na conta'}</h2>
       <p class="muted small">${esc(auth.note || (su ? 'Grátis. Seu progresso fica salvo e sincroniza entre celular e computador.' : 'Use o e-mail e a senha da sua conta Memory.'))}</p></div>
     <div class="seg" role="group" aria-label="Tipo de acesso"><button type="button" data-act="auth-mode" data-m="signup" aria-pressed="${su}">Criar conta</button><button type="button" data-act="auth-mode" data-m="login" aria-pressed="${!su}">Já tenho conta</button></div>
     ${su ? `<div class="field"><label for="au-name">Nome</label><input id="au-name" name="name" class="input" autocomplete="name" maxlength="60" placeholder="Como quer ser chamado" value="${esc(auth.name)}"></div>` : ''}
@@ -279,7 +279,7 @@ const ini2 = (n) => String(n || '?').trim().split(/\s+/).slice(0, 2).map((w) => 
 function viewTurmas() {
   if (!loggedIn()) {
     return `<div class="page"><div class="sec" style="padding-top:6px"><button class="icon-btn" data-act="tab" data-tab="perfil" aria-label="Voltar">${ico('back')}</button><span></span></div>
-      <div class="empty-state"><span class="tile c-blue big">${ico('users')}</span><h1 style="font-size:24px">Turmas</h1><p class="muted">Entre na sua conta para criar uma turma ou entrar com o código do professor.</p>
+      <div class="empty-state">${illo('class', 'lg')}<h1 style="font-size:24px">Turmas</h1><p class="muted">Entre na sua conta para criar uma turma ou entrar com o código do professor.</p>
       <button class="btn btn-orange btn-block" data-act="auth-open" data-m="signup">Criar conta grátis</button><button class="btn btn-ghost btn-block" data-act="auth-open" data-m="login">Já tenho conta</button></div></div>`;
   }
   if (API.cls) return viewClass();
@@ -288,6 +288,7 @@ function viewTurmas() {
   return `<div class="page">
     <div class="sec" style="padding-top:6px"><button class="icon-btn" data-act="tab" data-tab="perfil" aria-label="Voltar">${ico('back')}</button><span></span></div>
     <div class="blk" style="gap:8px"><h1 style="font-size:26px">Turmas</h1><p class="muted small">Professores e empresas acompanham a evolução da turma. Alunos recebem as trilhas e disputam o ranking da semana.</p></div>
+    ${API.classes.length ? '' : `<div class="illo-wrap">${illo('class', 'lg')}</div>`}
     <div class="card pad"><div style="display:flex;gap:12px;align-items:center"><span class="tile c-blue">${ico('users')}</span><div><b class="d" style="font-weight:600;display:block">Entrar em uma turma</b><span class="tiny" style="font-size:13px">Digite o código que o professor passou</span></div></div>
       <div class="inline-form"><input id="cls-code" class="input code-in" placeholder="EX: K7PX2M" maxlength="9" autocomplete="off" autocapitalize="characters" spellcheck="false" aria-label="Código da turma"><button class="btn btn-primary btn-sm" data-act="cls-join">Entrar</button></div></div>
     ${joined.length ? `<div class="blk"><div class="sec"><h2>Suas turmas</h2></div><div class="list">${joined.map(row).join('')}</div></div>` : ''}
@@ -432,6 +433,14 @@ function homeClassBlock() {
 
 /* ---------- Ações ---------- */
 Object.assign(ACT, {
+  'badge': (d) => {
+    const b = BADGES.find((x) => x.id === d.id); if (!b) return;
+    const at = S.badges && S.badges[b.id]; const pr = badgeProgress(b.id);
+    ui.sheet = `<div class="medal-sheet"><img class="medal big ${at ? '' : 'locked'}" src="img/badges/${b.id}.webp" width="120" height="120" alt=""><h2>${esc(b.l)}</h2><p class="muted small">${esc(b.d)}</p>
+      ${at ? `<span class="tag c-mint">Conquistada em ${new Date(at).toLocaleDateString('pt-BR')}</span>` : `<div class="bprog lg"><i style="width:${Math.round((Math.min(pr.v, pr.t) / pr.t) * 100)}%"></i></div><span class="tiny num">${Math.min(pr.v, pr.t)} de ${pr.t}</span>`}</div>
+      <button class="btn btn-primary btn-block" data-act="sheet-close">Fechar</button>`;
+    renderSheet();
+  },
   'auth-open': (d) => openAuth(d.m || 'signup'),
   'auth-mode': (d) => { readAuth(); auth.mode = d.m; auth.err = ''; paintAuth(); },
   'auth-eye': () => { readAuth(); auth.show = !auth.show; paintAuth('au-pass'); },

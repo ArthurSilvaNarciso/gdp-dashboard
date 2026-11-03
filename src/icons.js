@@ -50,3 +50,17 @@ I.layers = I.decks;
 I.memory = I.mind;
 I.spark = I.recall; // compatibilidade: qualquer uso antigo vira "recuperar"
 DECK_LOOK.neuro = Object.assign({}, DECK_LOOK.neuro, { icon: 'mind' });
+
+/* ---------- Ícones ilustrados (sprite único: cada desenho existe uma vez no DOM) ---------- */
+(function mountGlyphs() {
+  const sym = Object.entries(GLYPHS).map(([k, v]) => `<symbol id="gi-${k}" viewBox="0 0 24 24">${v.n ? `<path class="gn" d="${v.n}"/>` : ''}${v.a ? `<path class="ga" d="${v.a}"/>` : ''}</symbol>`).join('');
+  document.body.insertAdjacentHTML('afterbegin', `<svg width="0" height="0" style="position:absolute" aria-hidden="true">${sym}</svg>`);
+  for (const k of Object.keys(GLYPHS)) I[k] = `<use href="#gi-${k}"/>`;
+  I.layers = I.decks; I.memory = I.mind; I.spark = I.recall;
+})();
+
+/* ---------- Ilustrações de estado (mesma linguagem dos ícones) ---------- */
+function illo(name, cls = '') {
+  const v = ILLOS[name]; if (!v) return '';
+  return `<svg class="illo ${cls}" viewBox="0 0 ${v.w} ${v.h}" role="img" aria-hidden="true">${v.n ? `<path class="gn" d="${v.n}"/>` : ''}${v.a ? `<path class="ga" d="${v.a}"/>` : ''}</svg>`;
+}

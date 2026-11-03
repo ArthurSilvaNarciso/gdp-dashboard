@@ -265,6 +265,14 @@ const BADGES = [
   { id: 'import', l: 'Material próprio', d: 'Criou a primeira trilha com seu material.', ok: () => CUSTOM.some((d) => d.id !== 'ureforco') },
   { id: 'streak30', l: '30 dias', d: 'Um mês inteiro de constância.', ok: () => S.streak.count >= 30 }
 ];
+
+function badgeProgress(id) {
+  const firm = seenIds().filter((x) => S.cards[x].s >= FIRM && S.cards[x].g > 1).length;
+  const best = Math.max(0, ...(S.sims || []).map((x) => x.score));
+  const m = { first: [S.totals.cycles, 1], streak3: [S.streak.count, 3], streak7: [S.streak.count, 7], q100: [totalAnswered(), 100], fixer: [S.totals.fixed, 10],
+    calib: [S.calib.certeza.n, 20], firm25: [firm, 25], sim70: [best, 70], import: [CUSTOM.filter((d) => d.id !== 'ureforco').length, 1], streak30: [S.streak.count, 30] }[id] || [0, 1];
+  return { v: m[0] || 0, t: m[1] };
+}
 function checkBadges() {
   S.badges = S.badges || {};
   for (const b of BADGES) if (!S.badges[b.id] && b.ok()) { S.badges[b.id] = Date.now(); notify("Conquista: " + b.l); }
@@ -573,7 +581,7 @@ function viewOnboarding() {
   if (step === 1) return `<div class="onb"><div class="onb-body">
       <div class="blk" style="gap:20px"><div class="blk" style="gap:6px"><span class="tiny" style="font-weight:700">Passo 2 de 3</span><h1>Vamos nos conhecer</h1></div>
         <div class="field"><label for="onb-name">Seu nome</label><input id="onb-name" class="input" autocomplete="given-name" placeholder="Como quer ser chamado" value="${esc(S.user.name)}" maxlength="40"></div>
-        <div class="field"><span class="flabel">Para que você vai estudar?</span><div class="choice-list">${PERSONAS.map((p, i) => `<button class="choice pick" data-act="persona" data-id="${p.id}" aria-pressed="${S.user.persona === p.id}"><span class="tile ${['c-peach', 'c-blue', 'c-yellow', 'c-mint'][i]}">${ico(['target', 'book', 'school', 'decks'][i])}</span><div class="main"><b>${p.l}</b><span>${p.d}</span></div><i class="radio"></i></button>`).join('')}</div></div></div>
+        <div class="field"><span class="flabel">Para que você vai estudar?</span><div class="choice-list">${PERSONAS.map((p, i) => `<button class="choice pick" data-act="persona" data-id="${p.id}" aria-pressed="${S.user.persona === p.id}"><span class="tile ${['c-peach', 'c-blue', 'c-yellow', 'c-mint'][i]}">${ico(['exam', 'read', 'school', 'work'][i])}</span><div class="main"><b>${p.l}</b><span>${p.d}</span></div><i class="radio"></i></button>`).join('')}</div></div></div>
       <div class="blk" style="gap:16px">${dots}<button class="btn btn-orange btn-block" data-act="onb-next" ${S.user.persona ? '' : 'disabled'}>Continuar</button></div></div></div>`;
   const goals = [[5, 'Leve', '5 min por dia', 'c-mint'], [10, 'Constante', '10 min por dia', 'c-blue'], [20, 'Intenso', '20 min por dia', 'c-peach'], [30, 'Reta final', '30 min por dia', 'c-pink']];
   return `<div class="onb"><div class="onb-body">
@@ -638,7 +646,7 @@ function filteredDecks() {
   const tids = cat === 'turma' && API ? classDeckIds() : [];
   return allDecks().filter((d) => (cat === 'all' || (cat === 'turma' ? tids.includes(d.id) : cat === 'mine' ? d.custom : d.tag === cat || (cat === 'Concursos' && d.tag === 'Recomendado'))) && (!q || (d.title + ' ' + d.subtitle + ' ' + (d.blurb || '')).toLowerCase().includes(q)));
 }
-function deckGrid() { const list = filteredDecks(); return list.length ? `<div class="grid2">${list.map(deckCard).join('')}</div>` : '<div class="empty">Nenhuma trilha encontrada.</div>'; }
+function deckGrid() { const list = filteredDecks(); return list.length ? `<div class="grid2">${list.map(deckCard).join('')}</div>` : `<div class="empty-illo">${illo('search')}<b>Nenhuma trilha encontrada</b><span>Tente outra palavra ou crie uma trilha com o seu PDF.</span></div>`; }
 function viewTrilhas() {
   if (ui.deck) return viewDeck(deckById(ui.deck));
   const errs = errorIds().length;
@@ -772,7 +780,8 @@ function viewSummary() {
   const top = Object.entries(traps).sort((a, b) => b[1] - a[1])[0];
   const fixed = r.filter((x) => x.second && x.correct).length; const mem = memoryNow();
   const msg = acc >= 80 ? 'Ciclo forte. O conteúdo está entrando.' : acc >= 50 ? 'Bom ciclo. Os erros de hoje viram as revisões de amanhã.' : 'Ciclo difícil, e é assim que se aprende. Errar e corrigir na hora fixa mais.';
-  return `<div class="sess"><div class="result"><span class="lbl">${esc(s.title)} concluído</span><div class="big num">${cnt(acc, '%')}</div><p>${ok} de ${first.length} na primeira tentativa. ${msg}</p></div>
+  const perfect = first.length >= 3 && ok === first.length;
+  return `<div class="sess"><div class="result">${perfect ? `<div class="result-illo">${illo('done')}</div>` : ''}<span class="lbl">Ciclo concluído${s.title && s.title !== 'Sessão' ? ' · ' + esc(s.title) : ''}</span><div class="big num">${cnt(acc, '%')}</div><p>${ok} de ${first.length} na primeira tentativa. ${msg}</p></div>
     <div class="rstats"><div class="card"><b class="num" style="color:var(--orange-ink)">+${s.xp}</b><span>XP</span></div><div class="card"><b class="num">${avg}s</b><span>por questão</span></div><div class="card"><b class="num">${mem == null ? '–' : Math.round(mem * 100) + '%'}</b><span>memória</span></div></div>
     <div class="page" style="padding-top:20px">
       ${ill ? `<div class="callout" style="background:var(--bad-soft)"><span class="tile" style="background:var(--bad);color:#fff">${ico('alert')}</span><div><b>${plural(ill, 'ilusão de competência corrigida', 'ilusões de competência corrigidas')}</b><p>Você marcou “tenho certeza” e errou. Esses erros iriam com você para a prova.</p></div></div>` : ''}
@@ -881,7 +890,7 @@ function viewProgress() {
     ${traps.length ? `<div class="blk"><div class="sec"><h2>Pegadinhas que mais te pegam</h2></div><div class="list">${traps.slice(0, 4).map(([k, n], i) => `<div class="item"><span class="tile ${bcol[i]}">${ico('alert')}</span><div class="main"><b>${PATTERNS[k].l}</b><span>${PATTERNS[k].d}</span></div><span class="end num">${n}×</span></div>`).join('')}</div></div>` : ''}
     ${sims.length ? `<div class="blk"><div class="sec"><h2>Simulados</h2></div><div class="list">${sims.map((x) => `<div class="item"><span class="tile c-blue">${ico('clock')}</span><div class="main"><b>${esc(x.title)}</b><span>${new Date(x.at).toLocaleDateString('pt-BR')} · ${x.n} questões</span></div><span class="end num" style="color:var(--ink);font-family:var(--display)">${x.score}%</span></div>`).join('')}</div></div>` : ''}
     <div class="blk"><div class="sec"><h2>Conquistas</h2><span class="tiny num" style="font-weight:700">${nb} de ${BADGES.length}</span></div>
-      <div class="badges">${BADGES.map((b, i) => `<div class="badge ${S.badges && S.badges[b.id] ? 'on' : ''}" title="${esc(b.d)}"><span class="tile ${bcol[i % bcol.length]}">${ico('trophy')}</span><b>${esc(b.l)}</b></div>`).join('')}</div></div>
+      <div class="badges">${BADGES.map((b) => { const on = !!(S.badges && S.badges[b.id]); const pr = badgeProgress(b.id); return `<button class="badge ${on ? 'on' : ''}" data-act="badge" data-id="${b.id}" aria-label="${esc(b.l)}${on ? ', conquistada' : ', ' + pr.v + ' de ' + pr.t}"><img class="medal" src="img/badges/${b.id}.webp" width="56" height="56" alt="" loading="lazy" decoding="async"><b>${esc(b.l)}</b>${on ? '' : `<span class="bprog"><i style="width:${Math.round((Math.min(pr.v, pr.t) / pr.t) * 100)}%"></i></span>`}</button>`; }).join('')}</div></div>
   </div>`;
 }
 
@@ -896,7 +905,7 @@ function viewProfile() {
     <div class="pcard"><span class="avatar">${esc(initials())}</span><div style="min-width:0"><b>${esc(S.user.name || 'Estudante')}</b><span>${p ? esc(p.l) : 'Memory'} · nível ${level()}</span></div><button class="edit" data-act="edit-name" aria-label="Editar nome">${ico('edit')}</button></div>
     ${accountBlock()}
     <div class="field"><label for="pf-name">Nome</label><input id="pf-name" class="input" value="${esc(S.user.name)}" maxlength="40" placeholder="Seu nome"></div>
-    <div class="field"><span class="flabel">Objetivo</span><div class="choice-list">${PERSONAS.map((x, i) => `<button class="choice pick" data-act="persona" data-id="${x.id}" aria-pressed="${S.user.persona === x.id}"><span class="tile round ${['c-peach', 'c-blue', 'c-yellow', 'c-mint'][i]}">${ico(['target', 'book', 'school', 'decks'][i])}</span><div class="main"><b>${x.l}</b><span>${x.d}</span></div><i class="radio"></i></button>`).join('')}</div></div>
+    <div class="field"><span class="flabel">Objetivo</span><div class="choice-list">${PERSONAS.map((x, i) => `<button class="choice pick" data-act="persona" data-id="${x.id}" aria-pressed="${S.user.persona === x.id}"><span class="tile round ${['c-peach', 'c-blue', 'c-yellow', 'c-mint'][i]}">${ico(['exam', 'read', 'school', 'work'][i])}</span><div class="main"><b>${x.l}</b><span>${x.d}</span></div><i class="radio"></i></button>`).join('')}</div></div>
     <div class="field"><span class="flabel">Meta diária de questões</span><div class="seg" role="group">${[5, 10, 20, 30].map((n) => `<button data-act="goal" data-n="${n}" aria-pressed="${S.user.goal === n}">${n}</button>`).join('')}</div></div>
     <div class="field"><span class="flabel">Retenção desejada</span><div class="seg" role="group">${[0.85, 0.9, 0.95].map((r) => `<button data-act="retention" data-r="${r}" aria-pressed="${Math.abs(ret - r) < 0.001}">${Math.round(r * 100)}%</button>`).join('')}</div><span class="tiny" style="font-size:13px">Mais alto significa mais revisões por dia. 90% é o equilíbrio recomendado.</span></div>
     <div class="blk"><div class="sec"><h2>Preferências</h2></div><div class="list">

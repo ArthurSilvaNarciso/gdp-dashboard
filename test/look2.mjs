@@ -1,0 +1,13 @@
+import { createRequire } from 'node:module';
+import { start } from '../dev/server.mjs';
+const { chromium } = createRequire(import.meta.url)('playwright');
+const OUT = '/tmp/claude-0/-home-claude/bb4201d1-86ae-53d3-b9e7-0bd93a0ff471/scratchpad/l2-';
+const srv = await start(3952); const b = await chromium.launch();
+const c = await b.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2 }); const p = await c.newPage();
+await p.goto('http://localhost:3952/'); await p.waitForTimeout(600);
+await p.click('[data-act=onb-next]'); await p.fill('#onb-name', 'Ruth'); await p.click('[data-act=persona][data-id=concurso]'); await p.click('[data-act=onb-next]'); await p.click('[data-act=onb-finish]');
+await p.evaluate(() => { S.totals.cycles = 3; S.streak = { count: 4, last: dayKey() }; S.badges = { first: Date.now() - 864e5, streak3: Date.now() }; S.log[dayKey()] = { n: 40, ok: 30, cert: 5, fixed: 2, rev: 0, cycles: 3, tutor: 0, mx: {} }; persist(); });
+await p.click('[data-tab=progresso]'); await p.waitForTimeout(900);
+await p.evaluate(() => document.querySelector('.badges').scrollIntoView({ block: 'center' })); await p.waitForTimeout(500); await p.screenshot({ path: OUT + 'badges.png' });
+await p.click('[data-act=badge][data-id=q100]'); await p.waitForTimeout(700); await p.screenshot({ path: OUT + 'sheet.png' });
+await b.close(); srv.close(); process.exit(0);

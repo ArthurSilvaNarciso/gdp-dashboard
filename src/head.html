@@ -579,6 +579,40 @@ details.acc.plain .body { padding: 0 16px 16px; }
 .upd { background: var(--navy); color: #fff; }
 .offline { background: var(--ink); color: var(--bg); padding: 12px 16px; justify-content: center; text-align: center; font-size: 13px; }
 .offline.back { background: var(--ok); color: #fff; }
+
+/* ícones ilustrados (sprite) */
+.gn { fill: currentColor; stroke: currentColor; stroke-width: .42; stroke-linejoin: round; }
+.ga { fill: var(--ic-accent, var(--orange)); stroke: var(--ic-accent, var(--orange)); stroke-width: .3; stroke-linejoin: round; }
+.btn-orange .ico, .btn-primary .ico, .on-accent .ico, .avatar .ico, .gchip .ico, .kcard:first-child .tile .ico { --ic-accent: currentColor; }
+.tab .ico { --ic-accent: currentColor; }
+.tab[aria-current="page"] .ico { --ic-accent: var(--orange); }
+.tile.c-pink .ico { --ic-accent: var(--bad); }
+.pbadge .ico { --ic-accent: var(--orange); }
+.badge { cursor: pointer; }
+.badge .medal { width: 56px; height: 56px; display: block; transition: transform .2s ease; }
+.badge.on .medal { filter: drop-shadow(0 6px 10px rgba(31,42,107,.22)); }
+.badge:not(.on) .medal, .medal.locked { filter: grayscale(1); opacity: .32; }
+.badge:active .medal { transform: scale(.94); }
+.bprog { display: block; width: 70%; height: 4px; border-radius: 4px; background: var(--line); overflow: hidden; }
+.bprog i { display: block; height: 100%; background: var(--orange); border-radius: 4px; }
+.bprog.lg { width: 100%; height: 8px; }
+.medal-sheet { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 10px; padding-top: 6px; }
+.medal-sheet .medal.big { width: 120px; height: 120px; filter: drop-shadow(0 10px 18px rgba(31,42,107,.25)); animation: medalIn .5s cubic-bezier(.2,1.4,.4,1) both; }
+.medal-sheet .medal.big.locked { filter: grayscale(1); opacity: .35; }
+@keyframes medalIn { from { transform: scale(.6) rotate(-12deg); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .medal-sheet .medal.big { animation: none; } }
+.illo { display: block; width: 100%; height: auto; color: var(--tile-ink); }
+.illo .gn { stroke-width: 1.2; }
+.illo.lg { max-width: 200px; margin: 0 auto; }
+.illo-wrap { display: flex; justify-content: center; padding: 6px 0 2px; }
+.illo-wrap .illo { max-width: 220px; }
+.illo-wrap.sm .illo { max-width: 150px; }
+.empty-illo { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px; padding: 24px 16px; }
+.empty-illo .illo { max-width: 170px; margin-bottom: 8px; }
+.empty-illo b { font-family: var(--display); font-weight: 600; font-size: 16px; }
+.empty-illo span { font-size: 14px; color: var(--ink-3); max-width: 260px; }
+.result-illo { width: 112px; margin: 18px auto 2px; color: #fff; }
+.result-illo .illo { color: #fff; }
 </style>
 
 <div id="app">
