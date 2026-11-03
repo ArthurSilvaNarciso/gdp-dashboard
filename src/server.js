@@ -1,14 +1,6 @@
 /* ================= Conta, sincronização, turmas e IA (back-end do Memory) ================= */
 // Quando o app roda no servidor do Memory (Vercel), /api responde e libera: conta, progresso na nuvem,
 // turmas com painel do professor, códigos curtos e IA. Sem servidor, tudo continua funcionando no aparelho.
-I.users = '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c1-3.5 3.6-5.5 6.5-5.5s5.5 2 6.5 5.5"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8M18 14.8c1.8.8 3 2.6 3.5 5.2"/>';
-I.eye = '<path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/>';
-I.cloud = '<path d="M7 18h10a4 4 0 0 0 .7-7.95A6 6 0 0 0 6.1 9.1 4.5 4.5 0 0 0 7 18Z"/>';
-I.copy = '<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/>';
-I.logout = '<path d="M15 4h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-4M10 16l-4-4 4-4M6 12h10"/>';
-I.download = '<path d="M12 4v12m0 0-5-5m5 5 5-5M4 20h16"/>';
-I.key = '<circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M17 6l3 3M15 8l2 2"/>';
-I.refresh = '<path d="M20 12a8 8 0 1 1-2.3-5.6M20 4v5h-5"/>';
 TAG_COLOR['Turma'] = 'c-mint';
 DECK_LOOK.ureforco = DECK_LOOK.ureforco || { pal: 'peach', v: 3, icon: 'target' };
 
@@ -194,6 +186,7 @@ function authSheet() {
     <div id="au-err">${auth.err ? `<div class="notice err" role="alert">${esc(auth.err)}</div>` : ''}</div>
     <button class="btn btn-orange btn-block" type="submit" ${auth.busy ? 'disabled' : ''}>${auth.busy ? 'Aguarde...' : su ? 'Criar conta' : 'Entrar'}</button>
     ${su && hasLocal ? '<p class="tiny" style="text-align:center;margin-top:-4px">O progresso deste aparelho vai junto para a conta.</p>' : ''}
+    ${!su ? '<button type="button" class="btn btn-text btn-block" data-act="forgot-open" style="margin-top:-6px">Esqueci minha senha</button>' : ''}
   </form>`;
 }
 function readAuth() {
@@ -347,7 +340,7 @@ function viewClass() {
       <div class="kcard c-blue"><span class="tile" style="background:var(--surface)">${ico('users')}</span><b class="num">${cnt(o.students || 0)}</b><span>alunos · ${o.activeWeek || 0} ativos</span></div>
       <div class="kcard c-peach"><span class="tile" style="background:var(--surface)">${ico('layers')}</span><b class="num">${cnt(o.weekAnswers || 0)}</b><span>respostas na semana</span></div>
       <div class="kcard c-mint"><span class="tile" style="background:var(--surface)">${ico('target')}</span><b class="num">${o.accuracy == null ? '–' : cnt(o.accuracy, '%')}</b><span>acerto médio</span></div>
-      <div class="kcard c-lilac"><span class="tile" style="background:var(--surface)">${ico('spark')}</span><b class="num">${o.memory == null ? '–' : cnt(o.memory, '%')}</b><span>memória média</span></div>
+      <div class="kcard c-lilac"><span class="tile" style="background:var(--surface)">${ico('mind')}</span><b class="num">${o.memory == null ? '–' : cnt(o.memory, '%')}</b><span>memória média</span></div>
     </div>
     ${(o.traps || []).length ? `<div class="card pad"><b class="d" style="font-weight:600">Pegadinhas que mais derrubam a turma</b><div class="chips" style="margin-top:4px">${o.traps.map(([k, v]) => `<span class="tag c-pink">${esc(TRAP(k))} · ${v}</span>`).join('')}</div><span class="tiny" style="font-size:13px">Vale revisar esses padrões em aula.</span></div>` : ''}
     <button class="item report" data-act="cls-report"><span class="tile c-mint">${ico('download')}</span><div class="main"><b>Baixar relatório da turma</b><span>Planilha para Excel com o desempenho de cada aluno</span></div>${chev()}</button>
@@ -536,12 +529,91 @@ window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); PWA.
 window.addEventListener('appinstalled', () => { PWA.evt = null; notify('Memory instalado. Abra pela tela inicial.'); rerender(); });
 function registerSW() {
   if (!('serviceWorker' in navigator) || !API.on) return;
-  navigator.serviceWorker.register('/sw.js').catch(() => { /* sem cache offline */ });
+  const hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.register('/sw.js').then((reg) => {
+    const offer = (w) => { if (w && hadController) showUpdate(w); };
+    if (reg.waiting) offer(reg.waiting);
+    reg.addEventListener('updatefound', () => { const w = reg.installing; if (w) w.addEventListener('statechange', () => { if (w.state === 'installed') offer(w); }); });
+    setInterval(() => reg.update().catch(() => {}), 30 * 60 * 1000);
+  }).catch(() => { /* sem cache offline */ });
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadController && !reloading) { reloading = true; location.reload(); } });
 }
+// Nova versão publicada: avisa sem interromper (nunca no meio de um ciclo de estudo).
+function showUpdate(worker) {
+  if (document.querySelector('.upd')) return;
+  const put = () => {
+    if (ui.session) return setTimeout(put, 5000);
+    const el = document.createElement('div'); el.className = 'upd'; el.setAttribute('role', 'status');
+    el.innerHTML = `<span>Nova versão do Memory disponível.</span><button class="btn btn-orange btn-sm" type="button">Atualizar</button>`;
+    el.querySelector('button').addEventListener('click', () => { el.querySelector('button').disabled = true; persist(); worker.postMessage({ type: 'skip' }); setTimeout(() => location.reload(), 1500); });
+    $('#app').appendChild(el);
+  };
+  put();
+}
+/* ---------- Sem internet ---------- */
+function paintOnline() {
+  let el = document.querySelector('.offline');
+  if (navigator.onLine) { if (el) { el.classList.add('back'); setTimeout(() => el.remove(), 1600); el.textContent = 'Conexão de volta · sincronizando'; } return; }
+  if (!el) { el = document.createElement('div'); el.className = 'offline'; el.setAttribute('role', 'status'); $('#app').appendChild(el); }
+  el.classList.remove('back'); el.textContent = 'Sem internet · seu progresso fica salvo no aparelho';
+}
+window.addEventListener('offline', paintOnline);
+window.addEventListener('online', () => { if (document.querySelector('.offline')) paintOnline(); });
+if (!navigator.onLine) setTimeout(paintOnline, 0);
+
+/* ---------- Esqueci a senha / redefinir ---------- */
+function forgotSheet(done) {
+  return done ? `<div class="blk" style="gap:6px"><h2>${API.email ? 'Confira seu e-mail' : 'Fale com a administração'}</h2><p class="muted small">${API.email ? 'Se existir uma conta com esse e-mail, enviamos um link para criar uma nova senha. Ele vale por 1 hora. Olhe também o spam.' : 'Por segurança, a redefinição é feita por um link que a administração do Memory gera para você. Peça ao seu professor ou ao responsável pela plataforma.'}</p></div><button class="btn btn-primary btn-block" data-act="auth-open" data-m="login">Voltar para o login</button>`
+  : `<form class="blk" data-form="forgot" style="gap:16px" novalidate><div class="blk" style="gap:6px"><h2>Esqueci minha senha</h2><p class="muted small">${API.email ? 'Digite o e-mail da sua conta. Você recebe um link para criar uma senha nova.' : 'Digite o e-mail da sua conta para registrarmos o pedido.'}</p></div>
+    <div class="field"><label for="fg-email">E-mail</label><input id="fg-email" type="email" class="input" autocomplete="username" inputmode="email" autocapitalize="off" spellcheck="false" maxlength="254" value="${esc(auth.email)}"></div>
+    <div id="fg-err"></div><button class="btn btn-orange btn-block" type="submit">${API.email ? 'Enviar link' : 'Continuar'}</button>
+    <button type="button" class="btn btn-text btn-block" data-act="auth-open" data-m="login">Voltar</button></form>`;
+}
+function resetSheet(email, err, busy) {
+  return `<form class="blk" data-form="reset" style="gap:16px" novalidate><div class="blk" style="gap:6px"><h2>Criar nova senha</h2><p class="muted small">Conta ${esc(email)}. Depois de salvar, os outros aparelhos são desconectados.</p></div>
+    <input type="email" autocomplete="username" value="${esc(email)}" hidden readonly>
+    <div class="field"><label for="rs-pass">Nova senha</label><input id="rs-pass" type="password" class="input" autocomplete="new-password" maxlength="72" placeholder="Mínimo de 8 caracteres"></div>
+    <div class="field"><label for="rs-pass2">Repita a senha</label><input id="rs-pass2" type="password" class="input" autocomplete="new-password" maxlength="72"></div>
+    ${err ? `<div class="notice err" role="alert">${esc(err)}</div>` : ''}
+    <button class="btn btn-orange btn-block" type="submit" ${busy ? 'disabled' : ''}>${busy ? 'Salvando...' : 'Salvar e entrar'}</button></form>`;
+}
+const RESET = { token: null, email: '' };
+async function handleReset() {
+  const p = new URLSearchParams(location.search); const token = p.get('redefinir');
+  if (!token) return;
+  history.replaceState(null, '', location.pathname);
+  try { const r = await api('POST', 'auth/reset', { token, check: true }); RESET.token = token; RESET.email = r.email; ui.sheet = resetSheet(r.email); renderSheet(); }
+  catch (e) { ui.sheet = `<div class="blk" style="gap:6px"><h2>Link de senha</h2><p class="muted small">${esc(e.message)}</p></div><button class="btn btn-primary btn-block" data-act="forgot-open">Pedir outro link</button>`; renderSheet(); }
+}
+document.addEventListener('submit', async (e) => {
+  const f = e.target.dataset && e.target.dataset.form;
+  if (f === 'forgot') {
+    e.preventDefault();
+    const email = document.getElementById('fg-email').value.trim(); auth.email = email;
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { document.getElementById('fg-err').innerHTML = '<div class="notice err">Informe um e-mail válido.</div>'; return; }
+    e.target.querySelector('[type=submit]').disabled = true;
+    try { await api('POST', 'auth/forgot', { email }); document.querySelector('.sheet').innerHTML = forgotSheet(true); }
+    catch (er) { document.getElementById('fg-err').innerHTML = `<div class="notice err">${esc(er.message)}</div>`; e.target.querySelector('[type=submit]').disabled = false; }
+  } else if (f === 'reset') {
+    e.preventDefault();
+    const a = document.getElementById('rs-pass').value, b = document.getElementById('rs-pass2').value;
+    const sh = document.querySelector('.sheet');
+    if (a.length < 8) { sh.innerHTML = resetSheet(RESET.email, 'A senha precisa ter pelo menos 8 caracteres.'); return; }
+    if (a !== b) { sh.innerHTML = resetSheet(RESET.email, 'As duas senhas não são iguais.'); return; }
+    sh.innerHTML = resetSheet(RESET.email, '', true);
+    try {
+      const r = await api('POST', 'auth/reset', { token: RESET.token, password: a });
+      API.user = r.user; RESET.token = null; ui.sheet = null; renderSheet();
+      notify('Senha nova salva. Você já está na sua conta.');
+      await syncAll(); render();
+    } catch (er) { sh.innerHTML = resetSheet(RESET.email, er.message); }
+  }
+});
 
 /* ---------- Administração ---------- */
 const ADM = { data: null, users: null, audit: null, q: '', action: '', loading: false, err: '' };
-const ACTION_LABEL = { signup: 'Cadastro', login: 'Login', login_failed: 'Login recusado', password_changed: 'Senha alterada', logout_all: 'Saiu dos aparelhos', account_deleted: 'Conta excluída', share_created: 'Código de trilha', class_created: 'Turma criada', class_joined: 'Entrou na turma', class_left: 'Saiu da turma', class_deleted: 'Turma excluída', class_member_removed: 'Aluno removido', class_report: 'Relatório baixado' };
+const ACTION_LABEL = { reset_requested: 'Pediu nova senha', password_reset: 'Senha redefinida', reset_link_created: 'Link de senha gerado', signup: 'Cadastro', login: 'Login', login_failed: 'Login recusado', password_changed: 'Senha alterada', logout_all: 'Saiu dos aparelhos', account_deleted: 'Conta excluída', share_created: 'Código de trilha', class_created: 'Turma criada', class_joined: 'Entrou na turma', class_left: 'Saiu da turma', class_deleted: 'Turma excluída', class_member_removed: 'Aluno removido', class_report: 'Relatório baixado' };
 async function loadAdmin(part) {
   ADM.loading = true; ADM.err = ''; rerender();
   try {
@@ -573,12 +645,12 @@ function viewAdmin() {
     <div class="list">
       <div class="item"><span class="tile c-blue">${ico('users')}</span><div class="main"><b>${plural(d.classes.classes, 'turma', 'turmas')}</b><span>${plural(d.classes.students, 'aluno vinculado', 'alunos vinculados')}</span></div></div>
       <div class="item"><span class="tile c-peach">${ico('decks')}</span><div class="main"><b>${plural(d.content.decks, 'trilha própria', 'trilhas próprias')}</b><span>${plural(d.content.shares, 'código compartilhado', 'códigos compartilhados')} · ${d.content.share_uses} usos</span></div></div>
-      <div class="item"><span class="tile c-lilac">${ico('spark')}</span><div class="main"><b>IA ${d.ai.enabled ? 'ativa' : 'desligada'}</b><span>${d.ai.enabled ? 'Hoje: ' + plural(d.ai.users, 'pessoa', 'pessoas') + ' · ' + d.ai.units + ' unidades' : 'Configure ANTHROPIC_API_KEY na Vercel'}</span></div></div>
+      <div class="item"><span class="tile c-lilac">${ico('tutor')}</span><div class="main"><b>IA ${d.ai.enabled ? 'ativa' : 'desligada'}</b><span>${d.ai.enabled ? 'Hoje: ' + plural(d.ai.users, 'pessoa', 'pessoas') + ' · ' + d.ai.units + ' unidades' : 'Configure ANTHROPIC_API_KEY na Vercel'}</span></div></div>
       ${d.traps.length ? `<div class="item"><span class="tile c-pink">${ico('alert')}</span><div class="main"><b>Pegadinhas que mais derrubam</b><span>${d.traps.map(([k, v]) => esc(TRAP(k)) + ' (' + v + ')').join(' · ')}</span></div></div>` : ''}
     </div>
     <div class="blk"><div class="sec"><h2>Usuários</h2><span class="tiny num">${(ADM.users || []).length}</span></div>
       <label class="search">${ico('search')}<input id="adm-q" placeholder="Buscar por nome ou e-mail" value="${esc(ADM.q)}" autocomplete="off" aria-label="Buscar usuário"></label>
-      <div class="list">${(ADM.users || []).map((u) => `<div class="item"><span class="avatar sm">${esc(ini2(u.name))}</span><div class="main"><b>${esc(u.name)}</b><span style="overflow-wrap:anywhere">${esc(u.email)} · visto ${rel(u.lastSeen)}</span><span>${u.answered} respostas · ${u.week} na semana${u.accuracy != null ? ' · ' + u.accuracy + '%' : ''}${u.owned ? ' · professor(a) de ' + u.owned : ''}${u.joined ? ' · aluno(a) em ' + u.joined : ''}</span></div></div>`).join('') || '<div class="empty">Nenhum usuário encontrado.</div>'}</div></div>
+      <div class="list">${(ADM.users || []).map((u) => `<div class="item"><span class="avatar sm">${esc(ini2(u.name))}</span><div class="main"><b>${esc(u.name)}</b><span style="overflow-wrap:anywhere">${esc(u.email)} · visto ${rel(u.lastSeen)}</span><span>${u.answered} respostas · ${u.week} na semana${u.accuracy != null ? ' · ' + u.accuracy + '%' : ''}${u.owned ? ' · professor(a) de ' + u.owned : ''}${u.joined ? ' · aluno(a) em ' + u.joined : ''}</span></div><button class="icon-btn flat" data-act="adm-reset" data-id="${u.id}" data-n="${esc(u.name)}" aria-label="Gerar link para redefinir a senha de ${esc(u.name)}">${ico('key')}</button></div>`).join('') || '<div class="empty">Nenhum usuário encontrado.</div>'}</div></div>
     <div class="blk"><div class="sec"><h2>Auditoria</h2></div>
       <div class="chips" role="group" aria-label="Filtrar eventos">${actions.map((a) => `<button class="fchip" data-act="adm-action" data-a="${a}" aria-pressed="${ADM.action === a}">${a ? ACTION_LABEL[a] : 'Tudo'}</button>`).join('')}</div>
       <div class="list">${(ADM.audit || []).map((e) => `<div class="item"><span class="tile ${/failed|deleted|removed/.test(e.action) ? 'c-pink' : 'c-blue'}">${ico(/login|signup/.test(e.action) ? 'user' : /class/.test(e.action) ? 'users' : 'shield')}</span><div class="main"><b>${esc(ACTION_LABEL[e.action] || e.action)}</b><span style="overflow-wrap:anywhere">${esc(e.email || 'sem conta')}${e.ip ? ' · ' + esc(e.ip) : ''}</span></div><span class="end">${rel(e.at)}</span></div>`).join('') || '<div class="empty">Nenhum evento.</div>'}</div></div>
@@ -598,6 +670,16 @@ async function downloadFile(path, fallbackName) {
   setTimeout(() => URL.revokeObjectURL(url), 4000);
 }
 Object.assign(ACT, {
+  'forgot-open': () => { readAuth(); ui.sheet = forgotSheet(false); renderSheet(); },
+  'adm-reset': async (d) => {
+    try {
+      const r = await api('POST', 'admin/users/' + d.id + '/reset-link');
+      ui.sheet = `<div class="blk" style="gap:6px"><h2>Link para ${esc(d.n)}</h2><p class="muted small">Envie só para essa pessoa. Vale por 1 hora, funciona uma vez e desconecta os outros aparelhos dela.</p></div>
+        <textarea id="share-code" class="textarea" readonly style="min-height:84px;font-size:13px;resize:none">${esc(r.url)}</textarea>
+        <div class="duo"><button class="btn btn-ghost" data-act="sheet-close">Fechar</button><button class="btn btn-orange" data-act="copy-code">Copiar link</button></div>`;
+      renderSheet();
+    } catch (e) { notify(e.message); }
+  },
   'adm-refresh': () => loadAdmin(),
   'adm-action': (d) => { ADM.action = d.a || ''; loadAdmin('audit'); },
   'cls-report': async (d, el) => { const c = API.cls; if (!c) return; el.disabled = true; try { await downloadFile('classes/' + c.id + '/report', 'relatorio-turma.csv'); notify('Relatório baixado. Abre direto no Excel.'); } catch (e) { notify(e.message); } el.disabled = false; },
@@ -627,7 +709,7 @@ async function initServer() {
     const h = await fetch('/api/health', { signal: ctl.signal, credentials: 'same-origin', cache: 'no-store' }); clearTimeout(tm);
     if (!h.ok) return;
     const j = await h.json(); if (!j || j.service !== 'memory') return;
-    API.on = true; API.db = !!j.db; API.ai = !!j.ai;
+    API.on = true; API.db = !!j.db; API.ai = !!j.ai; API.email = !!j.email;
   } catch (e) { return; }
   if (API.db) {
     try { API.user = (await api('GET', 'auth/me')).user; } catch (e) { API.user = null; }
@@ -636,6 +718,7 @@ async function initServer() {
   }
   await handleLinks();
   await handleShortcut();
+  await handleReset();
   registerSW();
   rerender();
 }

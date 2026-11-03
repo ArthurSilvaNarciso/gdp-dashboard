@@ -101,7 +101,13 @@ function migrate(s) {
   return out;
 }
 function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
-function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* indisponível */ } }
+function lsSet(k, v) {
+  try { localStorage.setItem(k, v); }
+  catch (e) {
+    // Armazenamento cheio ou bloqueado (aba anônima): avisa uma vez, sem travar o app.
+    if (!lsSet.warned && e && /quota|exceeded/i.test(String(e.name) + String(e.message))) { lsSet.warned = true; setTimeout(() => notify('O armazenamento deste aparelho está cheio. Crie uma conta para não perder o progresso.'), 0); }
+  }
+}
 function loadState() { try { const raw = lsGet(LS_STATE); if (raw) return migrate(JSON.parse(raw)); } catch (e) {} return blankState(); }
 function loadDecks() { try { const raw = lsGet(LS_DECKS); return raw ? JSON.parse(raw) : []; } catch (e) { return []; } }
 
@@ -466,7 +472,7 @@ const PAL = {
   yellow: { bg: '#FFEFBA', a: '#FF7A22', b: '#1F2A6B', fg: '#5E4200', dot: 'rgba(94,66,0,.14)' }
 };
 const DECK_LOOK = {
-  neuro: { pal: 'navy', v: 1, icon: 'spark' }, port: { pal: 'peach', v: 0, glyph: 'Aa' }, dconst: { pal: 'blue', v: 2, glyph: '§' },
+  neuro: { pal: 'navy', v: 1, icon: 'mind' }, port: { pal: 'peach', v: 0, glyph: 'Aa' }, dconst: { pal: 'blue', v: 2, glyph: '§' },
   logica: { pal: 'lilac', v: 3, glyph: 'p→q' }, excel: { pal: 'mint', v: 0, glyph: 'fx' }, mat: { pal: 'yellow', v: 2, glyph: 'π' },
   lgpd: { pal: 'navy', v: 3, icon: 'shield' }, ureforco: { pal: 'peach', v: 3, icon: 'target' }
 };
@@ -531,8 +537,21 @@ function renderSheet() {
   if (!ui.sheet) return;
   const el = document.createElement('div'); el.className = 'scrim'; el.dataset.act = 'sheet-close';
   el.innerHTML = `<div class="sheet" role="dialog" aria-modal="true" data-stop="1">${ui.sheet}</div>`;
+  if (!old) renderSheet.back = document.activeElement;
   $('#app').appendChild(el);
+  // Acessibilidade: o foco entra no painel e volta para onde estava quando ele fecha.
+  setTimeout(() => { const sh = document.querySelector('.sheet'); if (sh && !sh.contains(document.activeElement)) { const f = sh.querySelector('input:not([type=hidden]), textarea, button:not([disabled])'); if (f && matchMedia('(pointer:fine)').matches) f.focus(); else { sh.tabIndex = -1; sh.focus({ preventScroll: true }); } } }, 30);
 }
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Tab' || !ui.sheet) return;
+  const sh = document.querySelector('.sheet'); if (!sh) return;
+  const f = [...sh.querySelectorAll('a[href], button:not([disabled]), input, textarea, select, summary, [tabindex]:not([tabindex="-1"])')].filter((x) => x.offsetParent !== null);
+  if (!f.length) return;
+  const first = f[0], last = f[f.length - 1];
+  if (e.shiftKey && (document.activeElement === first || !sh.contains(document.activeElement))) { e.preventDefault(); last.focus(); }
+  else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+});
+new MutationObserver(() => { if (!document.querySelector('.scrim') && renderSheet.back && document.contains(renderSheet.back)) { try { renderSheet.back.focus({ preventScroll: true }); } catch (e) { /* ok */ } renderSheet.back = null; } }).observe(document.getElementById('app'), { childList: true });
 function viewTabbar() {
   const cur = ui.tab === 'importar' ? 'trilhas' : ui.tab === 'conta' || ui.tab === 'turmas' || ui.tab === 'admin' ? 'perfil' : ui.tab;
   const t = (id, label, icon) => `<button class="tab" data-act="tab" data-tab="${id}" ${cur === id ? 'aria-current="page"' : ''}><span class="pip">${ico(icon)}</span><span>${label}</span></button>`;
@@ -554,7 +573,7 @@ function viewOnboarding() {
   if (step === 1) return `<div class="onb"><div class="onb-body">
       <div class="blk" style="gap:20px"><div class="blk" style="gap:6px"><span class="tiny" style="font-weight:700">Passo 2 de 3</span><h1>Vamos nos conhecer</h1></div>
         <div class="field"><label for="onb-name">Seu nome</label><input id="onb-name" class="input" autocomplete="given-name" placeholder="Como quer ser chamado" value="${esc(S.user.name)}" maxlength="40"></div>
-        <div class="field"><span class="flabel">Para que você vai estudar?</span><div class="choice-list">${PERSONAS.map((p, i) => `<button class="choice pick" data-act="persona" data-id="${p.id}" aria-pressed="${S.user.persona === p.id}"><span class="tile ${['c-peach', 'c-blue', 'c-yellow', 'c-mint'][i]}">${ico(['target', 'book', 'spark', 'layers'][i])}</span><div class="main"><b>${p.l}</b><span>${p.d}</span></div><i class="radio"></i></button>`).join('')}</div></div></div>
+        <div class="field"><span class="flabel">Para que você vai estudar?</span><div class="choice-list">${PERSONAS.map((p, i) => `<button class="choice pick" data-act="persona" data-id="${p.id}" aria-pressed="${S.user.persona === p.id}"><span class="tile ${['c-peach', 'c-blue', 'c-yellow', 'c-mint'][i]}">${ico(['target', 'book', 'school', 'decks'][i])}</span><div class="main"><b>${p.l}</b><span>${p.d}</span></div><i class="radio"></i></button>`).join('')}</div></div></div>
       <div class="blk" style="gap:16px">${dots}<button class="btn btn-orange btn-block" data-act="onb-next" ${S.user.persona ? '' : 'disabled'}>Continuar</button></div></div></div>`;
   const goals = [[5, 'Leve', '5 min por dia', 'c-mint'], [10, 'Constante', '10 min por dia', 'c-blue'], [20, 'Intenso', '20 min por dia', 'c-peach'], [30, 'Reta final', '30 min por dia', 'c-pink']];
   return `<div class="onb"><div class="onb-body">
@@ -579,7 +598,7 @@ function viewHome() {
   const errs = errorIds().length, st = streakNow(), ms = missions(), L = peekToday();
   const size = Math.max(5, Math.min(10, S.user.goal));
   const decks = personaDecks().map(deckById).filter(Boolean).sort((a, b) => (deckStats(b).t - deckStats(b).f > 0) - (deckStats(a).t - deckStats(a).f > 0));
-  const tiles = ['c-blue', 'c-mint', 'c-lilac'], icons = ['target', 'check', 'spark'];
+  const tiles = ['c-blue', 'c-mint', 'c-lilac'], icons = ['target', 'check', 'recall'];
   return `<div class="hdr">${typeof PHOTOS !== 'undefined' ? `<img class="hero-girl fade" src="${PHOTOS.hero}" width="760" height="1020" decoding="async" alt="">` : ''}
       <div class="top"><div class="hello"><span class="avatar">${esc(initials())}</span><div><small>${hi},</small><b>${first}</b></div></div>
         <span class="glass gchip num" title="Dias seguidos">${ico('flame')}${st} ${st === 1 ? 'dia' : 'dias'}</span></div>
@@ -718,12 +737,12 @@ function viewTrain(s) {
     <button class="btn btn-orange btn-sm" data-act="train" ${t.busy ? 'disabled' : ''}>${t.busy ? 'Criando...' : 'Criar'}</button></div>`;
 }
 function viewTutor(s) {
-  if (aiNeedsLogin()) return `<div class="card pad" style="flex-direction:row;align-items:center"><span class="avatar" style="width:40px;height:40px;background:var(--navy-2)">${ico('spark')}</span><div style="flex:1;min-width:0"><b class="d" style="font-weight:600;display:block">Tutor com IA</b><span class="tiny" style="font-size:13px">Entre na conta para tirar dúvidas e treinar seus erros</span></div><button class="btn btn-primary btn-sm" data-act="auth-open" data-m="signup">Entrar</button></div>`;
+  if (aiNeedsLogin()) return `<div class="card pad" style="flex-direction:row;align-items:center"><span class="avatar" style="width:40px;height:40px;background:var(--navy-2)">${ico('tutor')}</span><div style="flex:1;min-width:0"><b class="d" style="font-weight:600;display:block">Tutor com IA</b><span class="tiny" style="font-size:13px">Entre na conta para tirar dúvidas e treinar seus erros</span></div><button class="btn btn-primary btn-sm" data-act="auth-open" data-m="signup">Entrar</button></div>`;
   if (!aiReady()) return '';
   const t = s.tutor;
   const chips = ['Explique de outro jeito', 'Me dê um exemplo', 'Crie um macete'];
   return `<div class="tutor" id="tutor">
-    <div class="hd"><span class="avatar" style="width:40px;height:40px;background:var(--navy-2)">${ico('spark')}</span><div style="flex:1;min-width:0"><b class="d" style="font-weight:600;display:block">Tutor Memory</b><span class="tiny" style="font-size:13px">Tire dúvidas sobre esta questão</span></div></div>
+    <div class="hd"><span class="avatar" style="width:40px;height:40px;background:var(--navy-2)">${ico('tutor')}</span><div style="flex:1;min-width:0"><b class="d" style="font-weight:600;display:block">Tutor Memory</b><span class="tiny" style="font-size:13px">Tire dúvidas sobre esta questão</span></div></div>
     ${t.msgs.map((m) => `<div class="bubble ${m.role === 'user' ? 'me' : 'ai'}"><p>${m.role === 'user' ? esc(m.content) : richText(m.content)}</p></div>`).join('')}
     ${t.busy ? `<div class="bubble ai" id="tutor-live"><p>${t.live ? richText(t.live) : '<span class="typing"><i></i><i></i><i></i></span>'}</p></div>` : ''}
     ${t.err ? `<div class="notice err">${esc(t.err)}</div>` : ''}
@@ -877,11 +896,11 @@ function viewProfile() {
     <div class="pcard"><span class="avatar">${esc(initials())}</span><div style="min-width:0"><b>${esc(S.user.name || 'Estudante')}</b><span>${p ? esc(p.l) : 'Memory'} · nível ${level()}</span></div><button class="edit" data-act="edit-name" aria-label="Editar nome">${ico('edit')}</button></div>
     ${accountBlock()}
     <div class="field"><label for="pf-name">Nome</label><input id="pf-name" class="input" value="${esc(S.user.name)}" maxlength="40" placeholder="Seu nome"></div>
-    <div class="field"><span class="flabel">Objetivo</span><div class="choice-list">${PERSONAS.map((x, i) => `<button class="choice pick" data-act="persona" data-id="${x.id}" aria-pressed="${S.user.persona === x.id}"><span class="tile round ${['c-peach', 'c-blue', 'c-yellow', 'c-mint'][i]}">${ico(['target', 'book', 'spark', 'layers'][i])}</span><div class="main"><b>${x.l}</b><span>${x.d}</span></div><i class="radio"></i></button>`).join('')}</div></div>
+    <div class="field"><span class="flabel">Objetivo</span><div class="choice-list">${PERSONAS.map((x, i) => `<button class="choice pick" data-act="persona" data-id="${x.id}" aria-pressed="${S.user.persona === x.id}"><span class="tile round ${['c-peach', 'c-blue', 'c-yellow', 'c-mint'][i]}">${ico(['target', 'book', 'school', 'decks'][i])}</span><div class="main"><b>${x.l}</b><span>${x.d}</span></div><i class="radio"></i></button>`).join('')}</div></div>
     <div class="field"><span class="flabel">Meta diária de questões</span><div class="seg" role="group">${[5, 10, 20, 30].map((n) => `<button data-act="goal" data-n="${n}" aria-pressed="${S.user.goal === n}">${n}</button>`).join('')}</div></div>
     <div class="field"><span class="flabel">Retenção desejada</span><div class="seg" role="group">${[0.85, 0.9, 0.95].map((r) => `<button data-act="retention" data-r="${r}" aria-pressed="${Math.abs(ret - r) < 0.001}">${Math.round(r * 100)}%</button>`).join('')}</div><span class="tiny" style="font-size:13px">Mais alto significa mais revisões por dia. 90% é o equilíbrio recomendado.</span></div>
     <div class="blk"><div class="sec"><h2>Preferências</h2></div><div class="list">
-      ${sw('retrieval', 'Recuperação ativa', 'Pensar antes de ver as alternativas', 'c-blue', 'spark')}
+      ${sw('retrieval', 'Recuperação ativa', 'Pensar antes de ver as alternativas', 'c-blue', 'recall')}
       ${sw('fx', 'Som e vibração', 'Sinal de acerto e erro', 'c-peach', 'bolt')}
       <div class="item"><span class="tile round c-mint">${ico('shield')}</span><div class="main"><b>Seus dados</b><span>${loggedIn() ? 'Na sua conta Memory, sincronizados' : cloud.status === 'cloud' ? 'Salvos na sua conta e sincronizados' : 'Salvos neste aparelho'}</span></div></div>
     </div></div>
@@ -902,7 +921,7 @@ function viewProfile() {
 function simSheet(decks) {
   ui.sheet = `<div class="blk" style="gap:6px"><h2>Simulado</h2><p class="muted small">Até 10 questões sorteadas, 90 segundos por questão e gabarito só no final.</p></div>
     <div class="list">${decks.map((d) => { const lk = PAL[lookOf(d).pal]; return `<button class="item" data-act="sim-deck" data-id="${esc(d.id)}"><span class="tile" style="background:${lk.bg};color:${lk.fg}">${ico('clock')}</span><div class="main"><b>${esc(d.title)}</b><span>${Math.min(10, d.questions.length)} questões · ${Math.round(Math.min(10, d.questions.length) * 1.5)} min</span></div>${chev()}</button>`; }).join('')}
-    <button class="item" data-act="sim-mix"><span class="tile c-peach">${ico('spark')}</span><div class="main"><b>Misto das suas trilhas</b><span>10 questões · 15 min</span></div>${chev()}</button></div>`;
+    <button class="item" data-act="sim-mix"><span class="tile c-peach">${ico('shuffle')}</span><div class="main"><b>Misto das suas trilhas</b><span>10 questões · 15 min</span></div>${chev()}</button></div>`;
   renderSheet();
 }
 const ACT = {

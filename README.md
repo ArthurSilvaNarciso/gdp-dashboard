@@ -23,6 +23,8 @@ App mobile-first de estudo em ciclos curtos (desafio → esforço → recompensa
 | `ANTHROPIC_API_KEY` | não | Liga o tutor e a geração de questões com IA |
 | `ANTHROPIC_MODEL` | não | Modelo da IA (padrão `claude-haiku-5-5`) |
 | `AI_DAILY_UNITS` | não | Cota diária de IA por usuário (padrão 120) |
+| `ADMIN_EMAILS` | não | E-mails (separados por vírgula) com acesso ao painel de administração |
+| `RESEND_API_KEY` + `EMAIL_FROM` | não | Envia por e-mail o link de “esqueci minha senha” (sem isso, a administração gera o link) |
 | `SESSION_SECRET` | não | Segredo das sessões (sem ele, um segredo forte é gerado e guardado no banco) |
 
 As tabelas são criadas sozinhas na primeira requisição.

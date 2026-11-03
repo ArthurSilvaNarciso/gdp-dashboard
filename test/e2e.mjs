@@ -164,6 +164,26 @@ try {
   ok('busca de usuários', await A.evaluate(() => ADM.users.length === 1 && ADM.users[0].email === 'duda@memory.app'));
   await A.click('[data-act=adm-action][data-a=class_joined]'); await A.waitForTimeout(500);
   ok('auditoria filtrada', await A.evaluate(() => ADM.audit.length >= 2 && ADM.audit.every((e) => e.action === 'class_joined')));
+  await A.fill('#adm-q', 'duda'); await A.waitForTimeout(700);
+  const dudaId = await A.evaluate(() => ADM.users[0].id);
+  await A.click(`[data-act=adm-reset][data-id="${dudaId}"]`); await A.waitForSelector('.sheet #share-code');
+  const link = await A.inputValue('#share-code'); await A.click('.sheet [data-act=sheet-close]');
+  ok('admin gera link de redefinição', /\?redefinir=[A-Za-z0-9_-]{30,}/.test(link));
+  await D.goto(link.replace(/^https?:\/\/[^/]+\//, URL0)); await D.waitForSelector('form[data-form=reset]', { timeout: 8000 });
+  await D.fill('#rs-pass', 'duda-nova-2026'); await D.fill('#rs-pass2', 'duda-outra'); await D.click('form[data-form=reset] [type=submit]'); await D.waitForTimeout(150);
+  ok('redefinir: senhas diferentes avisam', (await D.locator('.sheet .notice.err').textContent()).includes('iguais'));
+  await D.fill('#rs-pass', 'duda-nova-2026'); await D.fill('#rs-pass2', 'duda-nova-2026'); await D.click('form[data-form=reset] [type=submit]');
+  await D.waitForFunction(() => API.user && API.user.email === 'duda@memory.app' && !ui.sheet, null, { timeout: 8000 });
+  ok('senha redefinida pelo link e já entra na conta', await D.evaluate(() => API.classes.length === 1));
+  await C.click('[data-tab=perfil]'); await C.click('.promo [data-act=auth-open][data-m=login]'); await C.click('[data-act=forgot-open]');
+  await C.fill('#fg-email', 'caio@memory.app'); await C.click('form[data-form=forgot] [type=submit]'); await C.waitForTimeout(300);
+  ok('esqueci a senha orienta sem revelar contas', (await C.locator('.sheet h2').textContent()).includes('administração'));
+  await C.click('.sheet [data-act=auth-open]'); await C.keyboard.press('Escape'); await C.waitForTimeout(300);
+  /* ---------- Sem internet ---------- */
+  await A.context().setOffline(true); await A.evaluate(() => window.dispatchEvent(new Event('offline'))); await A.waitForTimeout(200);
+  ok('aviso de sem internet', (await A.locator('.offline').count()) === 1);
+  await A.context().setOffline(false); await A.evaluate(() => window.dispatchEvent(new Event('online'))); await A.waitForTimeout(1900);
+  ok('aviso some quando a conexão volta', (await A.locator('.offline').count()) === 0);
   /* ---------- PWA ---------- */
   ok('manifesto e service worker', await A.evaluate(async () => { const m = await (await fetch('/manifest.webmanifest')).json(); const reg = await navigator.serviceWorker.getRegistration(); return m.short_name === 'Memory' && !!reg; }));
 

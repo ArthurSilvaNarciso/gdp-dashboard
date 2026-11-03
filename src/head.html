@@ -554,6 +554,31 @@ details.acc.plain .body { padding: 0 16px 16px; }
 @keyframes growY { from { transform: scaleY(0); } }
 .item.report { background: var(--surface); border-radius: 18px; box-shadow: var(--shadow); }
 @media (prefers-reduced-motion: reduce) { .abar i { animation: none; } }
+
+/* ===== v5.2 · identidade própria: ícones com um acento laranja, blocos neutros ===== */
+:root { --tile: #EFF1F8; --tile-ink: #1F2A6B; }
+:root[data-theme="dark"] { --tile: rgba(255,255,255,.07); --tile-ink: #CFD5FF; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --tile: rgba(255,255,255,.07); --tile-ink: #CFD5FF; } }
+.ico .a { fill: var(--orange); stroke: none; }
+.ico .f { fill: currentColor; stroke: none; }
+.btn-orange .ico .a, .btn-primary .ico .a, .on-accent .ico .a, .avatar .ico .a, .gchip .ico .a { fill: currentColor; }
+.tab .ico .a { fill: currentColor; opacity: .55; }
+.tab[aria-current="page"] .ico .a { fill: var(--orange); opacity: 1; }
+.tile.c-blue, .tile.c-peach, .tile.c-mint, .tile.c-lilac, .tile.c-yellow { background: var(--tile); color: var(--tile-ink); }
+.tile.c-pink { background: var(--bad-soft); color: var(--bad); }
+.tile.c-pink .ico .a { fill: var(--bad); }
+.kcard.c-blue, .kcard.c-peach, .kcard.c-mint, .kcard.c-lilac, .kcard.c-yellow { background: var(--surface); box-shadow: var(--shadow); }
+.kcard .tile { background: var(--tile) !important; color: var(--tile-ink); }
+.kcard:first-child { background: var(--navy); }
+.kcard:first-child b, .kcard:first-child > span:not(.tile) { color: #fff; }
+.kcard:first-child > span:not(.tile) { opacity: .78; }
+.kcard:first-child .tile { background: rgba(255,255,255,.12) !important; color: #fff; }
+.badge.on .tile { background: var(--navy-2); color: #fff; }
+.badge.on .tile .ico .a { fill: var(--orange); }
+.upd, .offline { position: absolute; left: 12px; right: 12px; bottom: calc(86px + env(safe-area-inset-bottom, 0px)); z-index: 60; border-radius: 18px; padding: 10px 10px 10px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 14px; font-weight: 700; box-shadow: 0 12px 32px rgba(20,26,51,.22); animation: fadeUp .3s ease both; }
+.upd { background: var(--navy); color: #fff; }
+.offline { background: var(--ink); color: var(--bg); padding: 12px 16px; justify-content: center; text-align: center; font-size: 13px; }
+.offline.back { background: var(--ok); color: #fff; }
 </style>
 
 <div id="app">

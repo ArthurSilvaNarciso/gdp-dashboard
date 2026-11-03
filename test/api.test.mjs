@@ -274,3 +274,30 @@ test('relatório CSV da turma e área de administração', async () => {
   const au = await adm('GET', 'admin/audit?action=class_joined');
   assert.ok(au.data.events.length >= 1 && au.data.events.every((e) => e.action === 'class_joined'));
 });
+
+test('recuperação de senha: link do administrador, uso único e expiração', async () => {
+  const u = client(); const su = await u('POST', 'auth/signup', { name: 'Pia', email: 'pia@ex.com', password: 'memoria-forte-p' });
+  const other = client(); await other('POST', 'auth/login', { email: 'pia@ex.com', password: 'memoria-forte-p' });
+  const f = await client()('POST', 'auth/forgot', { email: 'pia@ex.com' });
+  assert.equal(f.status, 200); assert.equal(f.data.email, false);
+  assert.equal((await client()('POST', 'auth/forgot', { email: 'ninguem@ex.com' })).status, 200, 'não revela se existe');
+  const adm = client(); await adm('POST', 'auth/login', { email: 'chefe@ex.com', password: 'memoria-forte-c' });
+  assert.equal((await u('POST', 'admin/users/' + su.data.user.id + '/reset-link')).status, 403);
+  const l = await adm('POST', 'admin/users/' + su.data.user.id + '/reset-link');
+  assert.equal(l.status, 200); const token = new URL(l.data.url).searchParams.get('redefinir'); assert.ok(token.length > 30);
+  const anon = client();
+  assert.equal((await anon('POST', 'auth/reset', { token, check: true })).data.email, 'pia@ex.com');
+  assert.equal((await anon('POST', 'auth/reset', { token, password: 'curta' })).data.error, 'weak_password');
+  assert.equal((await anon('POST', 'auth/reset', { token, password: 'senha-nova-da-pia' })).status, 200);
+  assert.equal((await anon('GET', 'auth/me')).data.user.email, 'pia@ex.com', 'entra direto após redefinir');
+  assert.equal((await anon('POST', 'auth/reset', { token, password: 'outra-senha-nova' })).data.error, 'invalid_token', 'uso único');
+  assert.equal((await other('GET', 'auth/me')).data.user, null, 'outros aparelhos saem');
+  assert.equal((await client()('POST', 'auth/login', { email: 'pia@ex.com', password: 'senha-nova-da-pia' })).status, 200);
+  assert.equal((await anon('POST', 'auth/reset', { token: 'x'.repeat(40), password: 'qualquer-coisa-1' })).data.error, 'invalid_token');
+  // Um link novo invalida o anterior
+  const l1 = await adm('POST', 'admin/users/' + su.data.user.id + '/reset-link'); const l2 = await adm('POST', 'admin/users/' + su.data.user.id + '/reset-link');
+  const t1 = new URL(l1.data.url).searchParams.get('redefinir'), t2 = new URL(l2.data.url).searchParams.get('redefinir');
+  assert.equal((await anon('POST', 'auth/reset', { token: t1, check: true })).data.error, 'invalid_token');
+  assert.equal((await anon('POST', 'auth/reset', { token: t2, check: true })).status, 200);
+  const r = await fetch('http://localhost:3911/api/health'); assert.ok(r.headers.get('x-request-id'));
+});
