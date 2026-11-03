@@ -1,0 +1,77 @@
+{
+  "id": "logica",
+  "questions": [
+    {
+      "id": "logica7", "topic": "Negação de “nenhum”",
+      "c": "No relatório de uma prova do concurso dos Correios, o fiscal escreveu: “Nenhum candidato da sala 12 faltou.” Depois, a coordenação constatou que o registro estava errado.",
+      "q": "Qual frase expressa a negação lógica do registro do fiscal?",
+      "a": 2, "src": "Lógica de quantificadores: ~(nenhum A é B) ≡ algum A é B",
+      "o": [
+        { "t": "Todo candidato da sala 12 faltou.", "p": "inversao", "w": "É a proposição contrária, não a negação. Para derrubar “nenhum”, basta um caso; não é preciso que todos tenham faltado." },
+        { "t": "Todos os candidatos da sala 12 compareceram.", "p": "troca", "w": "Diz a mesma coisa que o registro original, com outras palavras. É uma equivalência, não uma negação." },
+        { "t": "Algum candidato da sala 12 faltou.", "p": "correta", "w": "A negação de “nenhum A é B” é “algum A é B”. Basta que um candidato tenha faltado para o registro ser falso." },
+        { "t": "Algum candidato da sala 12 não faltou.", "p": "calculo", "w": "Trocou o quantificador e também negou o verbo. “Algum não faltou” é compatível com o registro original, então não o nega." }
+      ]
+    },
+    {
+      "id": "logica8", "topic": "Bicondicional",
+      "c": "O gerente de uma agência bancária em Campinas anunciou: “Paulo receberá o bônus se, e somente se, bater a meta do mês.”",
+      "q": "Em qual situação a afirmação do gerente é falsa?",
+      "a": 1, "src": "Bicondicional: p ↔ q é falsa quando p e q têm valores diferentes",
+      "o": [
+        { "t": "Paulo bateu a meta e recebeu o bônus.", "p": "calculo", "w": "As duas partes são verdadeiras. Na bicondicional, V ↔ V resulta em verdadeiro." },
+        { "t": "Paulo não bateu a meta, mas recebeu o bônus.", "p": "correta", "w": "A bicondicional é falsa quando as partes têm valores diferentes. O “somente se” proíbe receber o bônus sem bater a meta." },
+        { "t": "Paulo não bateu a meta e não recebeu o bônus.", "p": "troca", "w": "Confunde com a conjunção, em que F e F dá falso. Na bicondicional, F ↔ F é verdadeiro, porque as partes têm o mesmo valor." },
+        { "t": "Em nenhuma situação, pois a frase só garante o que acontece quando Paulo bate a meta.", "p": "restricao", "w": "Lê só a ida, como se fosse uma condicional. O “somente se” acrescenta a volta: receber o bônus sem bater a meta torna a frase falsa." }
+      ]
+    },
+    {
+      "id": "logica9", "topic": "Tautologia",
+      "c": "Em um simulado para o concurso do INSS, Lucas precisa identificar, entre quatro proposições, aquela que é verdadeira para quaisquer valores lógicos de p e q.",
+      "q": "Qual proposição é uma tautologia?",
+      "a": 3, "src": "Tabela-verdade: tautologia e contradição",
+      "o": [
+        { "t": "p → (p ∧ q)", "p": "inversao", "w": "Trocou antecedente e consequente. Com p verdadeira e q falsa, fica V → F, que é falso." },
+        { "t": "p ∧ ~p", "p": "troca", "w": "É uma contradição: falsa em todas as linhas da tabela, o oposto de uma tautologia." },
+        { "t": "(p ∨ q) → p", "p": "calculo", "w": "Falha na linha p = F e q = V: o antecedente fica verdadeiro e o consequente, falso. Uma única linha falsa já basta para não ser tautologia." },
+        { "t": "(p ∧ q) → p", "p": "correta", "w": "Se p ∧ q é verdadeira, p também é, então nunca ocorre V → F. A proposição é verdadeira nas quatro linhas da tabela." }
+      ]
+    },
+    {
+      "id": "logica10", "topic": "Combinação simples",
+      "c": "A Secretaria de Saúde de Porto Alegre vai formar uma comissão de 3 servidores, escolhidos entre 8 candidatos. Na comissão não há cargos: todos têm a mesma função.",
+      "q": "Quantas comissões diferentes podem ser formadas?",
+      "a": 0, "src": "Análise combinatória: C(n,p) = n! ÷ [p! (n − p)!]",
+      "o": [
+        { "t": "56", "p": "correta", "w": "A ordem não importa, então é combinação: C(8,3) = (8 × 7 × 6) ÷ (3 × 2 × 1) = 336 ÷ 6 = 56." },
+        { "t": "336", "p": "troca", "w": "É o arranjo A(8,3) = 8 × 7 × 6, que conta a ordem. Como não há cargos, escolher Ana, Bia e Caio forma a mesma comissão que Caio, Ana e Bia." },
+        { "t": "512", "p": "extrapolacao", "w": "8³ = 512 permitiria escolher a mesma pessoa mais de uma vez, o que não faz sentido em uma comissão." },
+        { "t": "112", "p": "calculo", "w": "Dividiu 336 por 3 em vez de 3! = 6. Cada grupo de 3 pessoas aparece em 6 ordens diferentes no arranjo." }
+      ]
+    },
+    {
+      "id": "logica11", "topic": "Casa dos pombos",
+      "c": "A coordenadora de um cursinho em Fortaleza quer montar uma turma com um número de alunos que garanta, com certeza, que pelo menos três deles façam aniversário no mesmo mês.",
+      "q": "Qual é o menor número de alunos que garante isso?",
+      "a": 0, "src": "Princípio da casa dos pombos (Dirichlet)",
+      "o": [
+        { "t": "25", "p": "correta", "w": "No pior caso, os alunos se espalham ao máximo: 2 por mês dá 24. O 25º aluno será obrigatoriamente o terceiro de algum mês: 2 × 12 + 1 = 25." },
+        { "t": "24", "p": "calculo", "w": "Esqueceu o “+ 1”. Com 24 alunos é possível haver exatamente 2 por mês, sem nenhum mês com três." },
+        { "t": "13", "p": "troca", "w": "É a resposta para “pelo menos dois no mesmo mês” (12 + 1). Para garantir três, cada mês pode receber dois alunos antes da coincidência obrigatória." },
+        { "t": "36", "p": "extrapolacao", "w": "36 alunos garantem três no mesmo mês, mas não é o menor número. A pergunta pede o mínimo, e 25 já bastam." }
+      ]
+    },
+    {
+      "id": "logica12", "topic": "Verdades e mentiras",
+      "c": "Um notebook sumiu de uma repartição em Brasília, e um dos três estagiários o pegou. Ana disse: “Foi o Caio.” Bruno disse: “Não fui eu.” Caio disse: “A Ana está mentindo.” Apenas um deles diz a verdade.",
+      "q": "Quem pegou o notebook?",
+      "a": 3, "src": "Raciocínio lógico: verdades e mentiras",
+      "o": [
+        { "t": "Caio.", "p": "inversao", "w": "Acreditou na acusação de Ana. Se fosse Caio, Ana e Bruno diriam a verdade, mas só um deles pode dizer a verdade." },
+        { "t": "Ana.", "p": "calculo", "w": "Se fosse Ana, Bruno (“não fui eu”) e Caio (“a Ana está mentindo”) diriam a verdade: seriam dois verdadeiros, o que contradiz o enunciado." },
+        { "t": "Não é possível determinar com as informações dadas.", "p": "extrapolacao", "w": "As informações bastam. Ana e Caio se contradizem, então exatamente um deles diz a verdade; logo, Bruno mente, e foi ele." },
+        { "t": "Bruno.", "p": "correta", "w": "Ana e Caio se contradizem, então um deles é o único que diz a verdade, e Bruno mente. Se “não fui eu” é falso, foi Bruno. Conferindo: Ana mente e Caio diz a verdade." }
+      ]
+    }
+  ]
+}

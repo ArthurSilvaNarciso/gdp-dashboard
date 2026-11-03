@@ -766,6 +766,34 @@ details.acc.plain .body { padding: 0 16px 16px; }
 .shake { animation: shake .35s ease; }
 @keyframes shake { 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
 @media (prefers-reduced-motion: reduce) { .chest.ready .chest-ico, .burst, .chest-big svg, .flame-big, .combo { animation: none; } }
+
+/* ===== jornada ===== */
+.journey { display: flex; flex-direction: column; align-items: center; gap: 18px; padding: 10px 0 6px; position: relative; }
+.jn { display: flex; flex-direction: column; align-items: center; gap: 6px; transform: translateX(var(--x)); position: relative; }
+.jn-btn { width: 66px; height: 66px; border-radius: 50%; display: grid; place-items: center; background: var(--tile); color: var(--tile-ink); box-shadow: 0 6px 0 var(--line); font-size: 20px; transition: transform .12s ease, box-shadow .12s ease; }
+.jn-btn:active { transform: translateY(4px); box-shadow: 0 2px 0 var(--line); }
+.jn-btn .ico { width: 28px; height: 28px; stroke-width: 2.6; }
+.jn-btn b { font-family: var(--display); font-weight: 700; }
+.jn.done .jn-btn { background: var(--navy-2); color: #fff; box-shadow: 0 6px 0 #18205A; }
+.jn.current .jn-btn { background: var(--orange); color: #fff; box-shadow: 0 6px 0 #C85A10, 0 0 0 8px var(--t-peach); }
+.jn.current .jn-btn { animation: jnpulse 2.2s ease-in-out infinite; }
+@keyframes jnpulse { 50% { box-shadow: 0 6px 0 #C85A10, 0 0 0 14px rgba(255,122,34,.12); } }
+.jn-tip { position: absolute; top: -34px; background: var(--surface); color: var(--orange-ink); font-weight: 800; font-size: 12.5px; padding: 5px 12px; border-radius: 10px; box-shadow: var(--shadow); white-space: nowrap; }
+.jn-tip::after { content: ""; position: absolute; left: 50%; bottom: -5px; width: 10px; height: 10px; background: var(--surface); transform: translateX(-50%) rotate(45deg); }
+.jn.current { margin-top: 26px; }
+.jn-cap { font-size: 12px; font-weight: 700; color: var(--ink-3); max-width: 130px; text-align: center; }
+.jn-stars { display: flex; gap: 2px; }
+.jn-stars .jstar { width: 17px; height: 17px; fill: var(--line); }
+.jn-stars .jstar.on { fill: #FFB547; }
+.jn.trophy .jn-btn { background: var(--surface); box-shadow: 0 6px 0 var(--line), inset 0 0 0 2px var(--line); color: var(--ink-3); }
+.jn.trophy.done .jn-btn { background: #FFC15E; color: #7A4A00; box-shadow: 0 6px 0 #E5962E; }
+@media (prefers-reduced-motion: reduce) { .jn.current .jn-btn { animation: none; } }
+.nextstep { display: flex; align-items: center; gap: 14px; width: 100%; text-align: left; background: var(--surface); border-radius: 22px; padding: 14px; box-shadow: var(--shadow); }
+.nextstep .main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.nextstep small { font-size: 12px; font-weight: 700; color: var(--orange-ink); text-transform: uppercase; letter-spacing: .04em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.nextstep b { font-weight: 700; font-size: 15px; }
+.nextstep .main > span { font-size: 12.5px; color: var(--ink-3); }
+.ns-node { width: 52px; height: 52px; border-radius: 50%; background: var(--orange); color: #fff; display: grid; place-items: center; box-shadow: 0 5px 0 #C85A10; flex: none; font-family: var(--display); font-size: 18px; }
 </style>
 
 <div id="app">

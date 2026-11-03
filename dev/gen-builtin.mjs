@@ -1,6 +1,6 @@
 // Gera lib/builtin.js (ids das questões das trilhas nativas) a partir de src/data*.js
-import fs from 'node:fs'; import vm from 'node:vm';
-const code = fs.readFileSync('src/data.js', 'utf8') + '\n' + fs.readFileSync('src/data2.js', 'utf8') + '\n;globalThis.__out = { BUILTIN_DECKS };';
+import fs from 'node:fs'; import vm from 'node:vm'; import { contentJS } from './content.mjs';
+const code = fs.readFileSync('src/data.js', 'utf8') + '\n' + fs.readFileSync('src/data2.js', 'utf8') + '\n' + contentJS() + '\n;globalThis.__out = { BUILTIN_DECKS };';
 const ctx = {}; vm.createContext(ctx); vm.runInContext(code, ctx);
 const out = {};
 for (const d of ctx.__out.BUILTIN_DECKS) out[d.id] = { title: d.title, qids: d.questions.map((q) => q.id) };

@@ -1,0 +1,71 @@
+{
+  "id": "excel",
+  "questions": [
+    {
+      "id": "excel7", "topic": "CONT.SES",
+      "c": "Na planilha de chamados do suporte de uma empresa de Campinas, a coluna A traz o status (\"Aberto\" ou \"Fechado\") e a coluna B traz a prioridade (\"Alta\", \"Média\" ou \"Baixa\"). A coordenadora quer saber quantos chamados abertos são de prioridade alta.",
+      "q": "Qual fórmula retorna essa contagem?", "a": 1, "src": "Excel: CONT.SES",
+      "o": [
+        { "t": "=CONT.SE(A:A;\"Aberto\";B:B;\"Alta\")", "p": "troca", "w": "CONT.SE aceita só um intervalo e um critério. Com quatro argumentos, o Excel nem aceita a fórmula e avisa que há argumentos demais." },
+        { "t": "=CONT.SES(A:A;\"Aberto\";B:B;\"Alta\")", "p": "correta", "w": "CONT.SES conta as linhas que atendem a todos os critérios ao mesmo tempo: status Aberto e prioridade Alta na mesma linha." },
+        { "t": "=CONT.SE(A:A;\"Aberto\")+CONT.SE(B:B;\"Alta\")", "p": "calculo", "w": "Soma duas contagens separadas: conta duas vezes os abertos de prioridade alta e ainda inclui os fechados de prioridade alta." },
+        { "t": "=CONT.VALORES(A:A)", "p": "generalizacao", "w": "CONT.VALORES conta qualquer célula preenchida, inclusive o cabeçalho e os chamados fechados. Não aplica critério nenhum." }
+      ]
+    },
+    {
+      "id": "excel8", "topic": "ÍNDICE e CORRESP",
+      "c": "Na planilha do RH da Construtora Horizonte, a coluna A tem a matrícula, a coluna B tem o nome e a coluna C tem o CPF. Em H2 você digita um CPF e quer que a matrícula correspondente apareça em I2.",
+      "q": "Qual fórmula deve ser escrita em I2?", "a": 3, "src": "Excel: ÍNDICE e CORRESP",
+      "o": [
+        { "t": "=ÍNDICE(C:C;CORRESP(H2;A:A;0))", "p": "inversao", "w": "Trocou os papéis das colunas: procura o CPF na coluna de matrículas e devolveria um CPF. O CORRESP deve procurar em C e o ÍNDICE deve retornar de A." },
+        { "t": "=PROCV(H2;A:C;1;FALSO)", "p": "troca", "w": "O PROCV sempre procura na primeira coluna da matriz, que aqui é a matrícula. Ele não busca o CPF na coluna C para retornar algo à esquerda, e daria #N/D." },
+        { "t": "=ÍNDICE(A:A;CORRESP(H2;C:C;1))", "p": "calculo", "w": "O tipo 1 faz correspondência aproximada e exige dados em ordem crescente. Com CPFs fora de ordem, pode trazer a matrícula de outra pessoa. Use 0." },
+        { "t": "=ÍNDICE(A:A;CORRESP(H2;C:C;0))", "p": "correta", "w": "CORRESP encontra a linha do CPF na coluna C (0 = correspondência exata) e ÍNDICE devolve a matrícula dessa mesma linha na coluna A, mesmo estando à esquerda." }
+      ]
+    },
+    {
+      "id": "excel9", "topic": "SEERRO",
+      "c": "Na planilha de vendas de uma rede de farmácias de Recife, a célula D2 tem =C2/B2 (faturamento dividido pela quantidade vendida). Nos produtos que não venderam nada no mês, B2 vale 0 e aparece #DIV/0!. O gerente quer ver 0 nesses casos.",
+      "q": "Qual solução atende ao pedido?", "a": 0, "src": "Excel: SEERRO",
+      "o": [
+        { "t": "=SEERRO(C2/B2;0)", "p": "correta", "w": "SEERRO(valor; valor_se_erro) calcula C2/B2 e, se o resultado for um erro, mostra 0. Quando não há erro, mostra a divisão normalmente." },
+        { "t": "=SEERRO(0;C2/B2)", "p": "inversao", "w": "Inverteu os argumentos. O primeiro é o valor testado; como 0 não é erro, a fórmula mostraria 0 em todas as linhas, inclusive nas que venderam." },
+        { "t": "=SE(C2/B2=0;0;C2/B2)", "p": "calculo", "w": "Quando B2 é 0, a divisão já gera #DIV/0! dentro do próprio teste do SE, e o erro continua aparecendo. O teste correto seria sobre B2, não sobre o resultado." },
+        { "t": "Formatar a coluna D como Número com duas casas decimais.", "p": "troca", "w": "A formatação muda só a aparência de valores válidos. Ela não transforma um erro em 0." }
+      ]
+    },
+    {
+      "id": "excel10", "topic": "Formatação condicional",
+      "c": "No controle de contas a pagar de um escritório em Curitiba, a tabela ocupa A2:F100 e a coluna E traz a data de vencimento. A coordenadora quer que as linhas com vencimento já passado fiquem vermelhas automaticamente, atualizando a cada dia.",
+      "q": "Qual regra de formatação condicional, aplicada a A2:F100, faz isso?", "a": 2, "src": "Excel: formatação condicional com fórmula",
+      "o": [
+        { "t": "=$E2>HOJE()", "p": "inversao", "w": "O sinal está invertido. Essa regra pintaria as contas que ainda vão vencer, e não as vencidas." },
+        { "t": "=E2<HOJE()", "p": "calculo", "w": "Sem o $ na coluna, a referência se desloca: a célula B2 testaria F2, a C2 testaria G2, e assim por diante. A linha não ficaria vermelha por inteiro." },
+        { "t": "=$E2<HOJE()", "p": "correta", "w": "O $ trava a coluna E e deixa a linha variar, então cada célula da linha testa o vencimento da própria linha. HOJE() é recalculada todo dia." },
+        { "t": "Em vez de regra, classificar a coluna E da data mais antiga para a mais nova.", "p": "troca", "w": "Classificar muda a ordem das linhas, mas não destaca nada e não diferencia o que já venceu do que ainda vai vencer." }
+      ]
+    },
+    {
+      "id": "excel11", "topic": "Validação de dados",
+      "c": "Na planilha de pedidos compartilhada pela equipe comercial de Belo Horizonte, a coluna C (Estado) recebe \"MG\", \"mg\", \"Minas\" e \"M.G.\", o que estraga os relatórios. Você quer impedir que alguém digite algo fora de uma lista de siglas.",
+      "q": "Qual recurso resolve o problema na origem?", "a": 3, "src": "Excel: Dados > Validação de Dados",
+      "o": [
+        { "t": "Remover duplicadas na coluna C.", "p": "troca", "w": "Remover duplicadas apaga linhas com valores repetidos. Aqui apagaria pedidos legítimos do mesmo estado e não impediria novas digitações erradas." },
+        { "t": "Usar Localizar e Substituir uma vez; assim os erros não voltam a acontecer.", "p": "extrapolacao", "w": "Localizar e Substituir corrige o que já foi digitado, mas não impede que alguém digite errado amanhã." },
+        { "t": "Proteger a planilha inteira com senha.", "p": "generalizacao", "w": "Bloqueia tudo, inclusive o lançamento correto de pedidos. O objetivo é restringir os valores da coluna C, não travar a planilha." },
+        { "t": "Validação de dados, permitindo apenas valores de uma Lista com as siglas dos estados.", "p": "correta", "w": "A validação com Lista cria um menu suspenso e recusa qualquer valor fora dele, padronizando a coluna já no momento da digitação." }
+      ]
+    },
+    {
+      "id": "excel12", "topic": "FILTRO",
+      "c": "No Microsoft 365, a base de chamados de uma prefeitura ocupa A2:D500 e a coluna C traz o setor responsável. Em outra aba, você quer que apareçam automaticamente todas as linhas do setor \"Obras\", atualizadas sempre que a base mudar.",
+      "q": "Qual fórmula faz isso?", "a": 0, "src": "Excel 365: FILTRO",
+      "o": [
+        { "t": "=FILTRO(A2:D500;C2:C500=\"Obras\")", "p": "correta", "w": "FILTRO(matriz; incluir) devolve todas as linhas que atendem à condição. O resultado se espalha pelas células abaixo e se atualiza com a base." },
+        { "t": "=FILTRO(C2:C500=\"Obras\";A2:D500)", "p": "inversao", "w": "Os argumentos estão invertidos. Primeiro vem o intervalo que será devolvido; depois, a condição que decide quais linhas entram." },
+        { "t": "=PROCV(\"Obras\";C2:D500;2;FALSO)", "p": "troca", "w": "O PROCV devolve só a primeira ocorrência e só uma coluna. Não lista todas as linhas do setor." },
+        { "t": "=FILTRO(A2:D500;C:C=\"Obras\")", "p": "calculo", "w": "A condição precisa ter a mesma altura da matriz. Comparar 499 linhas com a coluna inteira gera erro #VALOR!." }
+      ]
+    }
+  ]
+}

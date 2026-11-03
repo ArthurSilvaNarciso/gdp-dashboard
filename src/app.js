@@ -306,7 +306,7 @@ function showToast() {
 const toast = notify;
 
 /* ================= Sessões ================= */
-function startCycle({ decks = [], ids = null, size = 10, title = 'Ciclo', reviewOnly = false, mode = 'learn' }) {
+function startCycle({ decks = [], ids = null, size = 10, title = 'Ciclo', reviewOnly = false, mode = 'learn', unit = null }) {
   let list;
   const now = Date.now();
   if (ids) list = ids.slice(0, size);
@@ -322,7 +322,7 @@ function startCycle({ decks = [], ids = null, size = 10, title = 'Ciclo', review
   }
   if (!list.length) { render(); toast(reviewOnly ? 'Nenhuma revisão pendente agora.' : 'Não há questões para este ciclo.'); return; }
   const dueSet = new Set(list.filter((id) => S.cards[id] && S.cards[id].due <= now));
-  ui.session = { mode, title, params: { decks, ids, size, title, reviewOnly, mode }, queue: list, i: 0, results: [], requeued: {}, xp: 0, dueSet, added: 0, combo: 0, maxCombo: 0, coins: 0, streak0: S.streak.last === dayKey() ? -1 : S.streak.count };
+  ui.session = { mode, title, params: { decks, ids, size, title, reviewOnly, mode, unit }, queue: list, i: 0, results: [], requeued: {}, xp: 0, dueSet, added: 0, combo: 0, maxCombo: 0, coins: 0, streak0: S.streak.last === dayKey() ? -1 : S.streak.count };
   if (mode === 'sim') { ui.session.answers = {}; ui.session.start = now; ui.session.deadline = now + list.length * 90e3; startSimTimer(); }
   setupQuestion();
   render();
@@ -376,6 +376,7 @@ function finishCycle() {
   s.phase = 'summary';
   const L = todayLog(); L.cycles++; S.totals.cycles++;
   earnCoins(5); s.coins = (s.coins || 0) + 5;
+  checkUnit(s);
   checkMissions(); checkBadges(); persist(); render();
   if (s.streak0 !== -1 && S.streak.last === dayKey()) setTimeout(() => { if (ui.session === s) streakSheet(S.streak.count); }, REDUCED ? 0 : 650);
 }
@@ -630,6 +631,7 @@ function viewHome() {
     </div></div>
     <div class="page" style="padding-top:22px">
       ${examCard()}
+      ${nextStepCard()}
       ${chestCard()}
       ${!S.user.avatar && !S.user.avSeen ? `<div class="avnudge"><span class="av md">${avatarSVG(avatarConfig())}</span><div><b>Monte seu personagem</b><span>Escolha rosto, cabelo, roupa e estilo. Ele aparece no ranking da turma.</span></div><div class="avnudge-act"><button class="btn btn-orange btn-sm" data-act="av-open">Montar</button><button class="icon-btn flat" data-act="av-later" aria-label="Agora não">${ico('close')}</button></div></div>` : ''}
       ${weekStrip()}
@@ -689,6 +691,7 @@ function viewDeck(d) {
         <div class="duo">${st.due ? `<button class="btn btn-soft btn-sm" data-act="cycle-deck" data-id="${esc(d.id)}">Ciclo completo</button>` : `<button class="btn btn-soft btn-sm" data-act="quick-deck" data-id="${esc(d.id)}">3 rápidas</button>`}
           <button class="btn btn-soft btn-sm" data-act="sim-deck" data-id="${esc(d.id)}">Simulado · ${Math.round(simN * 1.5)} min</button></div>
       </div>
+      ${journeyHTML(d)}
       <div class="blk"><div class="sec"><h2>Conteúdo</h2><div class="legend"><span><i class="dot m"></i>Firme</span><span><i class="dot l"></i>Aprendendo</span></div></div>
         <div class="list">${d.questions.map((q, i) => {
           const c = cardOf(q.id); const cls = !c || !c.s ? '' : c.s >= FIRM && c.g > 1 ? 'm' : 'l';

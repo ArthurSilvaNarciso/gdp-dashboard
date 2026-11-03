@@ -1,0 +1,116 @@
+{
+  "id": "seg", "title": "Segurança digital no trabalho", "subtitle": "Golpes, senhas e boas práticas", "tag": "Corporativo",
+  "blurb": "Phishing, golpe do falso chefe, senhas, ransomware e Wi-Fi público: como reconhecer as ameaças mais comuns no escritório e reagir a elas.",
+  "questions": [
+    {
+      "id": "seg1", "topic": "Phishing por e-mail",
+      "c": "Fernanda, analista de uma distribuidora em Campinas, recebe um e-mail com o logotipo do banco da empresa. A mensagem diz que a conta será bloqueada em 24 horas se ela não confirmar os dados em um link, e o remetente é suporte@bancoo-seguranca.com.",
+      "q": "Qual é a atitude correta?", "a": 2, "src": "Cert.br, Cartilha de Segurança para Internet: Golpes",
+      "o": [
+        { "t": "Clicar no link apenas para conferir a página, sem digitar nenhum dado.", "p": "restricao", "w": "Não digitar dados não torna o clique seguro. A página pode tentar instalar código malicioso e o clique confirma ao golpista que o endereço está ativo." },
+        { "t": "Responder ao e-mail pedindo que o remetente comprove que é do banco.", "p": "troca", "w": "Responder abre uma conversa com o golpista, que vai inventar uma \"prova\". A verificação deve ser feita por canal oficial, nunca pela própria mensagem." },
+        { "t": "Não clicar nem responder e reportar a mensagem à equipe de TI ou segurança pelo canal oficial da empresa.", "p": "correta", "w": "Urgência, ameaça e remetente com domínio estranho são sinais clássicos de phishing. Reportar permite que a TI bloqueie a mensagem para todos." },
+        { "t": "Encaminhar o e-mail para os colegas, alertando para que não cliquem.", "p": "inversao", "w": "A intenção é proteger, mas o efeito é o contrário: o link malicioso chega a mais pessoas. O alerta deve partir da TI, depois do reporte." }
+      ]
+    },
+    {
+      "id": "seg2", "topic": "Golpe do falso chefe",
+      "c": "Um número desconhecido, com a foto do diretor financeiro no perfil, escreve no WhatsApp para um analista de uma empresa em Goiânia: \"Troquei de número. Estou em reunião, faça agora um Pix de R$ 8.000 para um fornecedor. Depois te explico.\"",
+      "q": "O que o analista deve fazer?", "a": 0, "src": "Cert.br, Cartilha de Segurança para Internet: Golpes",
+      "o": [
+        { "t": "Confirmar o pedido com o diretor por um canal já conhecido, como o número antigo ou pessoalmente, antes de qualquer pagamento.", "p": "correta", "w": "Urgência, número novo e pedido de Pix fora do processo são a marca do golpe. A checagem precisa ser feita por um canal que o golpista não controla." },
+        { "t": "Fazer o Pix, pois a foto e o nome do diretor no perfil comprovam a identidade.", "p": "extrapolacao", "w": "Qualquer pessoa pode copiar uma foto e um nome para um perfil. Isso não prova nada sobre quem está do outro lado." },
+        { "t": "Confirmar fazendo uma pergunta pessoal ao próprio número novo.", "p": "troca", "w": "Verificar pelo mesmo canal suspeito não adianta: o golpista pode ter pesquisado a resposta ou inventar uma desculpa." },
+        { "t": "Fazer o Pix só se o valor estiver abaixo do limite de aprovação do setor.", "p": "restricao", "w": "O valor não muda o fato de que o pedido pode ser falso. Pagamentos devem seguir o fluxo oficial, qualquer que seja o valor." }
+      ]
+    },
+    {
+      "id": "seg3", "topic": "Engenharia social por telefone",
+      "c": "A recepcionista de uma clínica em Manaus recebe a ligação de um homem que diz ser da empresa de TI terceirizada. Ele pede o login e a senha dela para \"corrigir um erro urgente no servidor\".",
+      "q": "Como ela deve agir?", "a": 3, "src": "Cert.br, Cartilha de Segurança para Internet: Senhas",
+      "o": [
+        { "t": "Informar a senha, já que o suporte de TI tem acesso aos sistemas de qualquer forma.", "p": "inversao", "w": "O raciocínio está invertido: justamente por ter acesso administrativo, a TI de verdade não precisa da senha de ninguém." },
+        { "t": "Informar apenas o login, pois um dado isolado nunca oferece risco.", "p": "generalizacao", "w": "O login é metade da credencial e ajuda o golpista a montar o ataque. E ceder qualquer parte confirma que a vítima está disposta a colaborar." },
+        { "t": "Informar a senha e trocá-la logo depois da ligação.", "p": "calculo", "w": "Erro de procedimento: no intervalo, o golpista já pode entrar, copiar dados ou criar outros acessos." },
+        { "t": "Não informar nada, encerrar a ligação e avisar a TI pelo canal interno oficial.", "p": "correta", "w": "Senha é pessoal e nenhum suporte legítimo deve pedi-la. Avisar a TI permite alertar os colegas, que podem receber a mesma ligação." }
+      ]
+    },
+    {
+      "id": "seg4", "topic": "Senhas e gerenciador",
+      "c": "Rodrigo, supervisor de uma loja em São Paulo, usa a senha Brasil@2024 no e-mail, no sistema de vendas e no banco. Ele acha que ela é segura porque tem letra maiúscula, símbolo e número.",
+      "q": "Qual é a melhor recomendação para ele?", "a": 1, "src": "Cert.br, Cartilha de Segurança para Internet: Senhas; NIST SP 800-63B",
+      "o": [
+        { "t": "Manter a senha em todos os sistemas, pois ter maiúscula, símbolo e número já a torna forte.", "p": "generalizacao", "w": "Palavra comum mais ano é um padrão que programas de ataque testam cedo. E, se um serviço vazar, a mesma senha abre todos os outros." },
+        { "t": "Usar senhas longas e diferentes em cada serviço, como frases-senha, guardadas em um gerenciador de senhas.", "p": "correta", "w": "Comprimento pesa mais que complexidade, e senha única impede que um vazamento se espalhe. O gerenciador guarda todas, e ele só precisa lembrar uma senha mestra." },
+        { "t": "Trocar apenas o ano a cada vez: Brasil@2025, Brasil@2026, e assim por diante.", "p": "calculo", "w": "A variação é previsível. Quem conhece uma senha antiga descobre a nova em poucas tentativas." },
+        { "t": "Criar senhas diferentes e anotá-las em um papel colado no monitor.", "p": "troca", "w": "Troca um cofre protegido por uma anotação à vista de qualquer pessoa que passe pela mesa." }
+      ]
+    },
+    {
+      "id": "seg5", "topic": "Autenticação em dois fatores",
+      "c": "O e-mail corporativo de uma empresa em Belo Horizonte passou a exigir, além da senha, um código gerado por um aplicativo autenticador no celular do funcionário.",
+      "q": "Qual é o benefício real dessa mudança?", "a": 1, "src": "Cert.br, Cartilha de Segurança para Internet: Verificação em duas etapas",
+      "o": [
+        { "t": "A senha deixa de ser necessária, porque o código passa a substituí-la.", "p": "troca", "w": "O código é um fator a mais, não um substituto. O login passa a exigir as duas coisas: senha e código." },
+        { "t": "Mesmo que a senha vaze, o invasor ainda precisa do segundo fator para entrar na conta.", "p": "correta", "w": "A verificação em duas etapas combina algo que você sabe (senha) com algo que você tem (celular). Só a senha não basta para entrar." },
+        { "t": "A conta se torna impossível de invadir em qualquer situação.", "p": "generalizacao", "w": "Reduz muito o risco, mas não o elimina. Se o funcionário repassar o código a um golpista, por exemplo, a proteção cai." },
+        { "t": "Só protege se o celular estiver conectado à internet no momento do login.", "p": "restricao", "w": "Aplicativos autenticadores geram os códigos no próprio aparelho, a partir da hora, e funcionam mesmo sem internet." }
+      ]
+    },
+    {
+      "id": "seg6", "topic": "Wi-Fi público",
+      "c": "No aeroporto de Brasília, a analista Carla vê duas redes abertas, Aeroporto_Free e Aeroporto-WiFi-Gratis, e precisa acessar o sistema financeiro da empresa antes do voo.",
+      "q": "Qual é a conduta mais segura?", "a": 3, "src": "Cert.br, Cartilha de Segurança para Internet: Redes",
+      "o": [
+        { "t": "Conectar-se à rede de nome mais oficial, pois um nome igual ao do local garante que ela é legítima.", "p": "extrapolacao", "w": "Qualquer pessoa pode criar uma rede com o nome que quiser. Redes falsas com nomes convincentes são usadas justamente para capturar dados." },
+        { "t": "Usar qualquer uma das redes, pois redes públicas são sempre monitoradas e protegidas pela administração.", "p": "generalizacao", "w": "Redes abertas, em geral, não criptografam o tráfego entre o aparelho e o roteador, e outras pessoas conectadas podem tentar interceptá-lo." },
+        { "t": "Usar uma das redes abertas, mas acessar o sistema pela janela anônima do navegador.", "p": "troca", "w": "A janela anônima só evita guardar histórico e cookies no próprio aparelho. Ela não protege o tráfego na rede." },
+        { "t": "Usar os dados móveis do celular ou a VPN corporativa para acessar o sistema.", "p": "correta", "w": "A rede móvel evita o Wi-Fi compartilhado, e a VPN cria um túnel criptografado até a empresa. As duas reduzem o risco de interceptação." }
+      ]
+    },
+    {
+      "id": "seg7", "topic": "Ransomware e backup",
+      "c": "Na segunda de manhã, os arquivos de um escritório de advocacia em Recife aparecem com uma extensão estranha, e um aviso na tela exige pagamento em criptomoeda para devolvê-los.",
+      "q": "Que medida, tomada antes do ataque, permitiria recuperar os arquivos sem depender dos criminosos?", "a": 0, "src": "Cert.br, Cartilha de Segurança para Internet (ransomware e backup)",
+      "o": [
+        { "t": "Backups regulares, testados e guardados desconectados da rede.", "p": "correta", "w": "O ransomware cifra o que consegue alcançar. Uma cópia desconectada e testada permite restaurar os arquivos sem pagar resgate." },
+        { "t": "Um backup em HD externo que fica sempre conectado ao servidor.", "p": "troca", "w": "Um disco sempre conectado pode ser cifrado junto com o servidor. Backup útil contra ransomware precisa ficar isolado." },
+        { "t": "Um antivírus atualizado, que impede qualquer ransomware de agir.", "p": "generalizacao", "w": "O antivírus ajuda, mas não detecta todas as ameaças, principalmente as novas. Ele não substitui o backup." },
+        { "t": "Sincronizar a pasta com a nuvem, pois a cópia sincronizada nunca é afetada.", "p": "extrapolacao", "w": "A sincronização replica as alterações, inclusive os arquivos cifrados. Sincronizar não é o mesmo que ter backup isolado." }
+      ]
+    },
+    {
+      "id": "seg8", "topic": "URL falsa",
+      "c": "Um funcionário recebe um SMS: \"Sua CNH será suspensa. Regularize em https://detran-sp.gov.br.regulariza-cnh.com/pagar\".",
+      "q": "Qual domínio realmente controla esse endereço?", "a": 2, "src": "Sistema de nomes de domínio (DNS); Cert.br, Cartilha: Golpes",
+      "o": [
+        { "t": "detran-sp.gov.br, pois é o que aparece logo no início do endereço.", "p": "inversao", "w": "Leu na ordem errada. O domínio se lê da direita para a esquerda, a partir do fim do nome antes da primeira barra." },
+        { "t": "gov.br, pois qualquer endereço que contenha gov.br é oficial.", "p": "generalizacao", "w": "Qualquer um pode criar subdomínios com o texto que quiser, inclusive \"gov.br\". O que conta é o domínio no final do nome." },
+        { "t": "regulariza-cnh.com, o final do nome antes da primeira barra; o que vem antes são subdomínios criados pelo dono.", "p": "correta", "w": "O nome do servidor é detran-sp.gov.br.regulariza-cnh.com, e quem o controla é o dono de regulariza-cnh.com. O texto inicial é só disfarce." },
+        { "t": "O endereço é confiável, porque começa com https.", "p": "extrapolacao", "w": "O https só indica que a conexão é criptografada. Sites de golpe também usam https e cadeado." }
+      ]
+    },
+    {
+      "id": "seg9", "topic": "Atualização de sistemas",
+      "c": "Há semanas, o notebook de um vendedor em Fortaleza mostra o aviso de uma atualização de segurança do Windows. Ele sempre adia, porque \"o computador está funcionando bem\".",
+      "q": "Por que adiar a atualização é arriscado?", "a": 3, "src": "Cert.br, Cartilha de Segurança para Internet (atualização de sistemas)",
+      "o": [
+        { "t": "Não é arriscado: atualizações trazem só recursos novos, e a segurança depende apenas do antivírus.", "p": "troca", "w": "Atualizações de segurança corrigem falhas do próprio sistema, algo que o antivírus não faz." },
+        { "t": "Só seria arriscado se o computador começasse a ficar lento.", "p": "restricao", "w": "Lentidão não tem relação com a falha estar aberta. Um sistema vulnerável pode funcionar perfeitamente até ser atacado." },
+        { "t": "Instalar a atualização é que deixa o sistema vulnerável, porque altera arquivos do Windows.", "p": "inversao", "w": "É o contrário: a atualização fecha brechas. Quem fica vulnerável é o sistema desatualizado." },
+        { "t": "As atualizações corrigem falhas já conhecidas, que criminosos exploram justamente em sistemas desatualizados.", "p": "correta", "w": "Quando uma correção é publicada, a falha fica conhecida. Atacantes passam a mirar quem ainda não aplicou a correção." }
+      ]
+    },
+    {
+      "id": "seg10", "topic": "Mesa e tela limpas",
+      "c": "Em uma repartição pública de Porto Alegre, um servidor sai para o café e deixa o computador desbloqueado, processos impressos com dados pessoais sobre a mesa e a senha anotada em um papel sob o teclado.",
+      "q": "Qual conduta segue a política de mesa limpa e tela limpa?", "a": 0, "src": "ABNT NBR ISO/IEC 27002: política de mesa limpa e tela limpa",
+      "o": [
+        { "t": "Bloquear a tela (Win + L) e guardar documentos e anotações sensíveis sempre que se afastar, mesmo por pouco tempo.", "p": "correta", "w": "Bastam poucos minutos para alguém usar a sessão aberta, fotografar documentos ou copiar a senha. A regra vale para qualquer ausência." },
+        { "t": "Bloquear o computador só em ausências longas, como o almoço, pois em pausas rápidas não há risco.", "p": "restricao", "w": "O risco não depende da duração da pausa. Uma sessão aberta por cinco minutos já basta para um acesso indevido." },
+        { "t": "Deixar os papéis na mesa, pois o ambiente é interno e só há colegas por perto.", "p": "generalizacao", "w": "Ambientes internos recebem visitantes, terceirizados e público. E nem todo colega pode ver dados pessoais de terceiros." },
+        { "t": "Desligar o monitor, que tem o mesmo efeito de bloquear a sessão.", "p": "troca", "w": "Desligar o monitor só apaga a imagem. Basta ligá-lo de novo para usar a sessão, que continua desbloqueada." }
+      ]
+    }
+  ]
+}

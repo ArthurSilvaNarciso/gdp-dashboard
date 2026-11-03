@@ -1,5 +1,6 @@
 // Monta o app em um único HTML: index.html (servidor/Vercel) e dist/artifact.html (Claude).
 import fs from 'node:fs';
+import { contentJS } from './content.mjs';
 const R = (f) => fs.readFileSync(f, 'utf8');
 const head = R('src/head.html');
 const cut = head.indexOf('</style>') + '</style>'.length;
@@ -9,7 +10,7 @@ if (!shared.includes('return {')) throw new Error('export de shared.js não enco
 const app = R('src/app.js');
 const mark = '/* ================= Inicialização ================= */';
 const i = app.indexOf(mark); if (i < 0) throw new Error('marcador de inicialização não encontrado');
-const js = [R('src/data.js'), R('src/data2.js'), 'const SH = (() => {\n' + shared + '\n})();', app.slice(0, i), R('src/glyphs.js'), R('src/icons.js'), R('src/avatar.js'), R('src/engage.js'), R('src/server.js'), app.slice(i)].join('\n');
+const js = [R('src/data.js'), R('src/data2.js'), contentJS(), 'const SH = (() => {\n' + shared + '\n})();', app.slice(0, i), R('src/glyphs.js'), R('src/icons.js'), R('src/avatar.js'), R('src/engage.js'), R('src/journey.js'), R('src/server.js'), app.slice(i)].join('\n');
 const script = '<script>\n' + js + '\n</script>\n';
 fs.mkdirSync('dist', { recursive: true });
 fs.writeFileSync('index.html', R('dev/preamble.html') + headPart + '\n</head>\n<body>' + bodyPart + script + '</body>\n</html>\n');

@@ -1,0 +1,149 @@
+{
+  "id": "hist",
+  "title": "História do Brasil",
+  "subtitle": "Da Colônia à República",
+  "tag": "Escola",
+  "blurb": "Do engenho de açúcar à Constituição Cidadã: interprete fontes e situações em vez de só decorar datas.",
+  "questions": [
+    {
+      "id": "hist1",
+      "topic": "Ciclo do açúcar",
+      "c": "Em “Cultura e Opulência do Brasil por suas Drogas e Minas” (1711), o jesuíta André João Antonil escreveu que os escravos eram “as mãos e os pés do senhor do engenho”.",
+      "q": "O que o trecho revela sobre a economia açucareira colonial?",
+      "a": 1,
+      "src": "Antonil, Cultura e Opulência do Brasil (1711)",
+      "o": [
+        { "t": "A produção era voltada sobretudo ao mercado interno, e a metrópole comprava apenas o excedente.", "p": "inversao", "w": "Inverte o sentido da economia colonial. O açúcar era produzido em grandes propriedades para exportação à Europa." },
+        { "t": "A produção de açúcar dependia do trabalho de africanos escravizados, base da economia dos engenhos.", "p": "correta", "w": "A metáfora mostra que todo o trabalho do engenho, da lavoura à moenda, era feito por pessoas escravizadas, sobretudo africanas." },
+        { "t": "A base da produção era o trabalho assalariado de imigrantes europeus.", "p": "troca", "w": "Confunde períodos. A imigração europeia em larga escala para a lavoura ocorreu no fim do século XIX, sobretudo nos cafezais paulistas." },
+        { "t": "Os indígenas nunca foram escravizados na colônia, por isso foi preciso trazer africanos.", "p": "generalizacao", "w": "Indígenas foram escravizados, sobretudo no início da colonização e em regiões como São Paulo. O “nunca” torna a afirmação falsa." }
+      ]
+    },
+    {
+      "id": "hist2",
+      "topic": "Inconfidência Mineira",
+      "c": "Em 1789, os moradores de Vila Rica temiam a derrama, cobrança forçada dos impostos atrasados sobre o ouro. Um grupo formado sobretudo por membros da elite local, com a participação do alferes Tiradentes, planejava um levante contra a Coroa portuguesa.",
+      "q": "Qual afirmação sobre esse movimento está correta?",
+      "a": 3,
+      "src": "Autos de Devassa da Inconfidência Mineira",
+      "o": [
+        { "t": "Foi uma revolta popular de escravizados, soldados e artesãos, conhecida como Revolta dos Alfaiates.", "p": "troca", "w": "Descreve a Conjuração Baiana (1798). A Inconfidência Mineira reuniu sobretudo membros da elite de Minas." },
+        { "t": "Os conspiradores chegaram a proclamar uma república em Vila Rica, que durou alguns meses.", "p": "extrapolacao", "w": "O levante nunca chegou a acontecer. O movimento foi descoberto ainda na fase de planejamento." },
+        { "t": "Todos os líderes foram condenados à forca e executados em 1792.", "p": "generalizacao", "w": "Outros réus também foram condenados à morte, mas só Tiradentes foi executado. Os demais tiveram a pena comutada, em geral em degredo na África." },
+        { "t": "Foi delatado antes de começar, e Tiradentes foi enforcado em 1792, no Rio de Janeiro.", "p": "correta", "w": "Joaquim Silvério dos Reis denunciou a conspiração em 1789. Tiradentes foi executado em 21 de abril de 1792." }
+      ]
+    },
+    {
+      "id": "hist3",
+      "topic": "Abertura dos portos",
+      "c": "Em janeiro de 1808, poucos dias depois de chegar a Salvador fugindo das tropas de Napoleão, o príncipe regente D. João assinou a carta régia de abertura dos portos. Comerciantes ingleses logo passaram a desembarcar mercadorias no Brasil.",
+      "q": "Qual mudança essa medida provocou?",
+      "a": 0,
+      "src": "Carta Régia de 28 de janeiro de 1808",
+      "o": [
+        { "t": "Encerrou o monopólio comercial de Portugal e permitiu o comércio direto com nações amigas, sobretudo a Inglaterra.", "p": "correta", "w": "A abertura dos portos rompeu o exclusivo metropolitano, base do pacto colonial, e favoreceu principalmente os produtos britânicos." },
+        { "t": "Reforçou o pacto colonial, obrigando o Brasil a comerciar apenas com Portugal.", "p": "inversao", "w": "Diz o oposto. Até 1808 vigorava o monopólio português; a carta régia acabou justamente com ele." },
+        { "t": "Tornou o Brasil independente de Portugal, já que a colônia passou a comerciar livremente.", "p": "extrapolacao", "w": "Liberdade comercial não é independência política. A independência só foi proclamada em 1822." },
+        { "t": "Abriu os portos somente aos navios portugueses que escapassem do bloqueio de Napoleão.", "p": "restricao", "w": "A medida não se limitou a navios portugueses: abriu os portos às nações amigas de Portugal." }
+      ]
+    },
+    {
+      "id": "hist4",
+      "topic": "Independência",
+      "c": "Em 9 de janeiro de 1822, contrariando as Cortes de Lisboa, que exigiam sua volta, D. Pedro declarou: “Se é para o bem de todos e felicidade geral da nação, estou pronto: diga ao povo que fico.” Meses depois, em 7 de setembro, proclamou a independência.",
+      "q": "Qual característica marcou o processo de independência do Brasil?",
+      "a": 2,
+      "src": "Dia do Fico (1822); Tratado de 1825",
+      "o": [
+        { "t": "Foi totalmente pacífica, sem conflitos armados em nenhuma província.", "p": "generalizacao", "w": "Houve guerras de independência, como na Bahia, que só expulsou as tropas portuguesas em 2 de julho de 1823." },
+        { "t": "Instituiu a República, com D. Pedro como primeiro presidente do país.", "p": "troca", "w": "Confunde regimes. O Brasil tornou-se um Império, e D. Pedro foi aclamado imperador; a República só veio em 1889." },
+        { "t": "Foi conduzida pelo próprio príncipe regente, herdeiro do trono português, e manteve a monarquia e a escravidão.", "p": "correta", "w": "A independência partiu da própria Casa de Bragança e preservou a estrutura social, inclusive a escravidão, abolida só em 1888." },
+        { "t": "Foi reconhecida por Portugal no mesmo dia do grito do Ipiranga.", "p": "extrapolacao", "w": "Portugal só reconheceu a independência em 1825, em tratado que incluiu o pagamento de indenização pelo Brasil." }
+      ]
+    },
+    {
+      "id": "hist5",
+      "topic": "Lei do Ventre Livre",
+      "c": "Joana, escravizada em uma fazenda de café do Vale do Paraíba, deu à luz um filho em novembro de 1871, poucas semanas depois da aprovação da Lei Rio Branco.",
+      "q": "Qual era a situação jurídica da criança?",
+      "a": 3,
+      "src": "Lei 2.040, de 28 de setembro de 1871",
+      "o": [
+        { "t": "Continuava escravizada, pois só a Lei Áurea libertou os filhos de mulheres escravizadas.", "p": "troca", "w": "Confunde as leis. A Lei Áurea (1888) aboliu a escravidão; a liberdade dos que nasciam de mãe escravizada veio com a lei de 1871." },
+        { "t": "Nascia livre, e a mãe também era libertada automaticamente no momento do parto.", "p": "extrapolacao", "w": "A lei de 1871 libertava apenas os filhos nascidos a partir dela. A mãe continuava escravizada." },
+        { "t": "Só seria livre se o senhor recebesse indenização do governo no momento do parto.", "p": "restricao", "w": "A liberdade não dependia de indenização no parto. A indenização era uma opção do senhor quando a criança completasse 8 anos." },
+        { "t": "Nascia livre, mas podia ficar sob a autoridade do senhor da mãe e prestar-lhe serviços até os 21 anos.", "p": "correta", "w": "A lei garantia a liberdade, mas deixava a criança com o senhor até os 8 anos; depois, ele podia usar seus serviços até os 21 ou entregá-la ao Estado." }
+      ]
+    },
+    {
+      "id": "hist6",
+      "topic": "Proclamação da República",
+      "c": "Sobre o 15 de novembro de 1889, o jornalista republicano Aristides Lobo escreveu: “O povo assistiu àquilo bestializado, atônito, surpreso, sem conhecer o que significava. Muitos acreditavam sinceramente estar vendo uma parada.”",
+      "q": "O que o trecho sugere sobre a Proclamação da República?",
+      "a": 1,
+      "src": "Aristides Lobo, Diário Popular (1889)",
+      "o": [
+        { "t": "Resultou de uma grande mobilização popular, que tomou as ruas e derrubou o imperador.", "p": "inversao", "w": "O trecho diz o oposto: a população assistiu sem entender o que acontecia, e não como protagonista." },
+        { "t": "Foi um movimento conduzido por militares e elites, liderado por Deodoro da Fonseca, com pouca participação popular.", "p": "correta", "w": "A República foi proclamada por um movimento militar, com apoio de setores da elite. O povo “bestializado” indica distância do processo." },
+        { "t": "Mostra que a população resistiu à República e tentou impedir a queda da monarquia.", "p": "extrapolacao", "w": "Estar surpreso e sem entender não é resistir. A alternativa tira do texto uma conclusão que ele não sustenta." },
+        { "t": "Prova que nenhum brasileiro defendia ideias republicanas antes de 1889.", "p": "generalizacao", "w": "Já havia republicanos organizados, como mostram o Manifesto Republicano de 1870 e o Partido Republicano Paulista, de 1873." }
+      ]
+    },
+    {
+      "id": "hist7",
+      "topic": "Era Vargas e CLT",
+      "c": "Em 1º de maio de 1943, durante o Estado Novo, Getúlio Vargas assinou o Decreto-Lei 5.452, que aprovou a Consolidação das Leis do Trabalho (CLT).",
+      "q": "Qual característica do governo Vargas a CLT ilustra?",
+      "a": 2,
+      "src": "Decreto-Lei 5.452/1943 (CLT)",
+      "o": [
+        { "t": "Foi aprovada pelo Congresso após amplo debate democrático, típico do Estado Novo.", "p": "inversao", "w": "O Estado Novo foi uma ditadura, com o Congresso fechado. A CLT foi editada por decreto-lei, sem votação parlamentar." },
+        { "t": "Estendeu desde logo os mesmos direitos aos trabalhadores rurais e domésticos.", "p": "extrapolacao", "w": "Pelo art. 7º do texto original, a CLT, em regra, não se aplicava aos empregados domésticos nem aos trabalhadores rurais." },
+        { "t": "Reuniu as leis trabalhistas em um só texto e reforçou a intervenção do Estado nas relações de trabalho.", "p": "correta", "w": "A CLT consolidou leis já existentes e ampliou o papel do Estado, que também controlava os sindicatos, marca do trabalhismo varguista." },
+        { "t": "Criou o 13º salário e o FGTS, marcas do governo Vargas.", "p": "troca", "w": "Atribui a Vargas medidas posteriores: o 13º salário é de 1962 (governo Goulart) e o FGTS, de 1966 (regime militar)." }
+      ]
+    },
+    {
+      "id": "hist8",
+      "topic": "AI-5",
+      "c": "Em 13 de dezembro de 1968, o governo Costa e Silva editou o AI-5. Um de seus artigos dizia: “Fica suspensa a garantia de habeas corpus, nos casos de crimes políticos, contra a segurança nacional, a ordem econômica e social e a economia popular.”",
+      "q": "O que esse trecho revela sobre o momento político?",
+      "a": 0,
+      "src": "Ato Institucional nº 5 (1968), art. 10",
+      "o": [
+        { "t": "O endurecimento da ditadura militar, que retirou garantias de quem fosse acusado de crimes políticos.", "p": "correta", "w": "O AI-5 permitiu fechar o Congresso, cassar mandatos e suspendeu o habeas corpus para crimes políticos, abrindo o período mais repressivo do regime." },
+        { "t": "O fim do habeas corpus para todo e qualquer crime no país.", "p": "generalizacao", "w": "O próprio trecho limita a suspensão a certos crimes, como os políticos e contra a segurança nacional." },
+        { "t": "O início da abertura política, com a devolução de poderes ao Congresso.", "p": "inversao", "w": "É o contrário: o AI-5 concentrou poderes no Executivo. A abertura veio no fim dos anos 1970, com a revogação dos atos institucionais." },
+        { "t": "O golpe que derrubou João Goulart e deu início ao regime militar.", "p": "troca", "w": "O golpe ocorreu em 1964, e o primeiro ato institucional foi editado naquele ano. O AI-5 veio quatro anos depois." }
+      ]
+    },
+    {
+      "id": "hist9",
+      "topic": "Diretas Já",
+      "c": "Em 1984, comícios em cidades como São Paulo e Rio de Janeiro reuniram multidões que pediam a aprovação da emenda Dante de Oliveira, que restabelecia a eleição direta para presidente.",
+      "q": "Qual foi o resultado imediato da campanha?",
+      "a": 1,
+      "src": "Emenda Dante de Oliveira (votação de 25/4/1984); Colégio Eleitoral de 1985",
+      "o": [
+        { "t": "A emenda foi aprovada, e Tancredo Neves foi eleito presidente pelo voto direto em 1985.", "p": "extrapolacao", "w": "A emenda não foi aprovada. Tancredo venceu em 1985, mas no Colégio Eleitoral, por eleição indireta." },
+        { "t": "A emenda não obteve dois terços na Câmara, e Tancredo Neves foi eleito de forma indireta em 1985.", "p": "correta", "w": "Em abril de 1984, a emenda teve maioria, mas não os dois terços exigidos. O presidente seguinte saiu do Colégio Eleitoral." },
+        { "t": "As eleições diretas aconteceram ainda em 1985, e Fernando Collor foi eleito presidente.", "p": "troca", "w": "Collor venceu a primeira eleição direta após o regime militar, mas ela ocorreu em 1989." },
+        { "t": "A campanha foi organizada pelos militares para dar legitimidade à continuidade do regime.", "p": "inversao", "w": "Inverte os papéis. As Diretas Já reuniram partidos de oposição e sociedade civil contra o regime militar." }
+      ]
+    },
+    {
+      "id": "hist10",
+      "topic": "Constituição de 1988",
+      "c": "O deputado Ulysses Guimarães, presidente da Assembleia Nacional Constituinte, chamou de “Constituição Cidadã” a Carta promulgada em 5 de outubro de 1988, após o fim do regime militar.",
+      "q": "O que justifica esse apelido?",
+      "a": 3,
+      "src": "CF/88, art. 5º, XLII, e art. 14, §1º, II",
+      "o": [
+        { "t": "Ter instituído pela primeira vez o direito de voto das mulheres no Brasil.", "p": "troca", "w": "O voto feminino veio com o Código Eleitoral de 1932 e foi incorporado à Constituição de 1934." },
+        { "t": "Ter sido aprovada diretamente pela população em um plebiscito nacional.", "p": "extrapolacao", "w": "A Constituição foi elaborada e promulgada pela Assembleia Nacional Constituinte, sem plebiscito de aprovação." },
+        { "t": "Garantir direitos apenas a quem tem título de eleitor, isto é, aos cidadãos em sentido estrito.", "p": "restricao", "w": "Os direitos fundamentais valem para todos, inclusive para quem não vota. O apelido se refere à ampliação de direitos, não a um limite." },
+        { "t": "Ter ampliado direitos e garantias, como o voto facultativo aos 16 anos e o racismo como crime inafiançável e imprescritível.", "p": "correta", "w": "Após a ditadura, a Carta ampliou direitos civis, políticos e sociais. O voto aos 16 está no art. 14 e o racismo como crime, no art. 5º, XLII." }
+      ]
+    }
+  ]
+}

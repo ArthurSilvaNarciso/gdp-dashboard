@@ -1,0 +1,71 @@
+{
+  "id": "lgpd",
+  "questions": [
+    {
+      "id": "lgpd7", "topic": "Controlador e operador",
+      "c": "A rede de academias FitSul, de Porto Alegre, decide quais dados dos alunos coletar e para quê. Ela contratou uma empresa de software que hospeda e processa esse cadastro seguindo as instruções da FitSul.",
+      "q": "Como cada empresa se classifica segundo a LGPD?", "a": 2, "src": "LGPD, art. 5º, VI e VII, e art. 39",
+      "o": [
+        { "t": "A empresa de software é a controladora e a FitSul é a operadora.", "p": "inversao", "w": "Os papéis estão invertidos. Quem toma as decisões sobre o tratamento é a FitSul; quem trata os dados em nome dela é a empresa de software." },
+        { "t": "As duas são controladoras, pois ambas têm acesso aos dados.", "p": "generalizacao", "w": "Ter acesso aos dados não torna ninguém controlador. O que define o controlador é a competência para decidir sobre o tratamento." },
+        { "t": "A FitSul é a controladora e a empresa de software é a operadora.", "p": "correta", "w": "Controlador é a quem competem as decisões sobre o tratamento (art. 5º, VI). Operador é quem realiza o tratamento em nome do controlador e segundo suas instruções (art. 5º, VII, e art. 39)." },
+        { "t": "A empresa de software passa a ser a encarregada (DPO) da FitSul.", "p": "troca", "w": "O encarregado é o canal de comunicação com titulares e ANPD. Prestar o serviço de processamento faz da empresa uma operadora, não encarregada." }
+      ]
+    },
+    {
+      "id": "lgpd8", "topic": "Pseudonimização",
+      "c": "Um hospital de Campinas trocou nomes e CPFs dos pacientes por códigos em uma planilha usada em um estudo interno. A tabela que liga cada código ao paciente fica guardada em outro sistema, protegido e separado.",
+      "q": "Como a LGPD trata esse procedimento?", "a": 0, "src": "LGPD, art. 5º, III e XI, art. 12 e art. 13, § 4º",
+      "o": [
+        { "t": "É pseudonimização: como a tabela permite reidentificar os pacientes, os dados continuam sendo pessoais.", "p": "correta", "w": "Na pseudonimização, o dado só volta a ser associado à pessoa com uma informação adicional mantida em separado (art. 13, § 4º). Como é reversível, a proteção da LGPD continua valendo." },
+        { "t": "É anonimização, e a LGPD deixa de se aplicar à planilha.", "p": "troca", "w": "Anonimização exige que o dado perca a possibilidade de associação ao indivíduo. Aqui a associação é possível pela tabela, então não é anonimização." },
+        { "t": "É pseudonimização, e por isso o hospital fica dispensado de cumprir a LGPD nessa planilha.", "p": "extrapolacao", "w": "Acertou o nome, mas errou o efeito. A lei afasta a aplicação só para dados anonimizados de forma irreversível (art. 12), não para pseudonimizados." },
+        { "t": "É anonimização, que é reversível; a pseudonimização é que não pode ser desfeita.", "p": "inversao", "w": "Os conceitos estão trocados. A anonimização busca impedir a reidentificação; a pseudonimização permite reidentificar com a informação guardada à parte." }
+      ]
+    },
+    {
+      "id": "lgpd9", "topic": "Dados de crianças",
+      "c": "Uma startup de Recife lançou um aplicativo de jogos educativos para crianças de 8 a 11 anos. Para liberar o jogo, ela exige nome completo, endereço, escola e foto da criança, embora o jogo só precise de um apelido e da idade.",
+      "q": "Essa exigência está de acordo com a LGPD?", "a": 3, "src": "LGPD, art. 14, § 4º",
+      "o": [
+        { "t": "Sim, desde que os pais tenham aceitado os termos de uso do aplicativo.", "p": "extrapolacao", "w": "A concordância dos pais não autoriza exigir dados além do necessário. A vedação do art. 14, § 4º, vale mesmo com consentimento." },
+        { "t": "Sim, porque a LGPD só protege dados de pessoas maiores de 18 anos.", "p": "restricao", "w": "A LGPD protege titulares de qualquer idade e tem um artigo próprio, o 14, para dados de crianças e adolescentes." },
+        { "t": "Não, porque a LGPD proíbe qualquer tratamento de dados de crianças.", "p": "generalizacao", "w": "A lei não proíbe. Ela permite o tratamento, desde que no melhor interesse da criança e com as salvaguardas do art. 14." },
+        { "t": "Não: o controlador não pode condicionar a participação da criança em jogos a dados além dos estritamente necessários.", "p": "correta", "w": "O art. 14, § 4º, proíbe condicionar a participação de crianças em jogos e aplicações de internet ao fornecimento de dados além dos estritamente necessários à atividade." }
+      ]
+    },
+    {
+      "id": "lgpd10", "topic": "Princípio da necessidade",
+      "c": "No cadastro para entrega, uma loja de móveis de Joinville pede nome, endereço e telefone, mas também renda mensal, estado civil e profissão do cliente. Essas três últimas informações não são usadas para nada.",
+      "q": "Qual princípio da LGPD a loja desrespeita mais diretamente?", "a": 1, "src": "LGPD, art. 6º, III",
+      "o": [
+        { "t": "Livre acesso, que garante ao titular consultar seus dados.", "p": "troca", "w": "Livre acesso é o direito de consultar, de forma facilitada e gratuita, como os dados são tratados. O problema aqui é coletar dados demais." },
+        { "t": "Necessidade, que limita o tratamento ao mínimo necessário para a finalidade.", "p": "correta", "w": "O princípio da necessidade exige dados pertinentes, proporcionais e não excessivos em relação à finalidade. Renda e estado civil não servem para uma entrega." },
+        { "t": "Nenhum, pois qualquer dado fornecido voluntariamente pelo cliente pode ser coletado.", "p": "generalizacao", "w": "O fato de o cliente preencher o campo não dispensa os princípios. A coleta continua limitada ao que a finalidade exige." },
+        { "t": "Segurança, pois o problema só existiria se esses dados vazassem.", "p": "restricao", "w": "Cria uma condição que não existe. Coletar dados excessivos já viola a lei, mesmo que nunca haja vazamento." }
+      ]
+    },
+    {
+      "id": "lgpd11", "topic": "Eliminação dos dados",
+      "c": "Logo após ser desligada de uma transportadora de Campinas, uma ex-funcionária pede que a empresa apague todos os dados dela, inclusive os registros trabalhistas e de pagamento.",
+      "q": "Como a empresa deve agir?", "a": 3, "src": "LGPD, art. 15, art. 16, I, e art. 18, VI",
+      "o": [
+        { "t": "Apagar tudo imediatamente, pois após o término do tratamento os dados devem ser eliminados sem exceção.", "p": "generalizacao", "w": "A regra de eliminação tem exceções. O art. 16 autoriza conservar dados para cumprir obrigação legal ou regulatória." },
+        { "t": "Manter todos os dados por tempo indeterminado, já que foram coletados de forma legal.", "p": "extrapolacao", "w": "Coleta legal não autoriza guardar tudo para sempre. Terminado o tratamento, o que não tiver base para conservação deve ser eliminado." },
+        { "t": "Aguardar autorização da ANPD, que precisa aprovar cada pedido de eliminação.", "p": "restricao", "w": "Não existe essa etapa. O titular faz o pedido diretamente ao controlador, que responde sem precisar de aval da ANPD." },
+        { "t": "Conservar os dados necessários para cumprir obrigações legais, como as trabalhistas, e eliminar os demais.", "p": "correta", "w": "O art. 16, I, permite manter dados para cumprimento de obrigação legal ou regulatória. O que não se enquadrar nas exceções deve ser eliminado." }
+      ]
+    },
+    {
+      "id": "lgpd12", "topic": "Transferência internacional",
+      "c": "Uma empresa de software de Florianópolis quer armazenar o banco de dados dos clientes brasileiros em servidores de um provedor de nuvem nos Estados Unidos.",
+      "q": "O que a LGPD diz sobre essa transferência internacional?", "a": 0, "src": "LGPD, art. 33 e art. 3º",
+      "o": [
+        { "t": "É permitida se se enquadrar em uma das hipóteses do art. 33, como cláusulas-padrão contratuais ou consentimento específico do titular.", "p": "correta", "w": "O art. 33 lista os casos em que a transferência é permitida, entre eles garantias contratuais (como cláusulas-padrão) e o consentimento específico e em destaque do titular." },
+        { "t": "É proibida, porque dados de brasileiros não podem sair do país.", "p": "generalizacao", "w": "A lei não proíbe a transferência. Ela a permite nas hipóteses do art. 33." },
+        { "t": "É livre, porque a LGPD só vale para dados armazenados no Brasil.", "p": "restricao", "w": "O art. 3º diz que a LGPD se aplica independentemente do país onde os dados estejam, se a operação ocorrer no Brasil, visar pessoas localizadas aqui ou os dados tiverem sido coletados no país." },
+        { "t": "Depende sempre de autorização prévia da ANPD, em todos os casos.", "p": "extrapolacao", "w": "A autorização da ANPD é só uma das hipóteses do art. 33 (inciso V). Há outras, como cláusulas contratuais e consentimento." }
+      ]
+    }
+  ]
+}

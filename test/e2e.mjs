@@ -58,7 +58,12 @@ try {
     ok('sem servidor: API desligada e sem botão de entrar', await p.evaluate(() => API.on === false) && (await p.locator('text=Já tenho conta').count()) === 0);
     await onboard(p, 'Local'); await p.click('[data-act=quick]'); await playSession(p);
     await p.click('[data-tab=perfil]');
-    ok('sem servidor: perfil sem bloco de conta', (await p.locator('.promo').count()) === 0 && await p.evaluate(() => Object.keys(S.cards).length === 3));
+    await p.evaluate(() => ACT['open-deck']({ id: 'port' })); await p.waitForTimeout(300);
+    ok('jornada da trilha em etapas', (await p.locator('.journey .jn-btn[data-act=unit-start]').count()) === Math.ceil((await p.evaluate(() => deckById('port').questions.length)) / 4));
+    await p.click('.jn.current .jn-btn'); await p.waitForTimeout(200);
+    ok('etapa abre um ciclo com as questões dela', await p.evaluate(() => ui.session && ui.session.params.unit && ui.session.queue.every((id) => id.startsWith('port'))));
+    await p.evaluate(() => ACT.end());
+    await p.click('[data-tab=perfil]'); ok('sem servidor: perfil sem bloco de conta', (await p.locator('.promo').count()) === 0 && await p.evaluate(() => Object.keys(S.cards).length === 3));
     await ctx.close();
   }
 

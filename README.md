@@ -10,6 +10,9 @@ App mobile-first de estudo em ciclos curtos (desafio → esforço → recompensa
 - **IA no servidor** (tutor, variações de erro e geração de questões a partir de PDF) com streaming e cota diária por usuário.
 - **Segurança**: limite de tentativas, verificação de origem (CSRF), saneamento de tudo o que chega do cliente, cabeçalhos de segurança e trilha de auditoria.
 
+## Conteúdo
+As trilhas nativas ficam em `src/data.js`, `src/data2.js` e `content/*.json` (formato e regras em `content/SPEC.md`; valide com `node dev/validate-content.mjs content/*.json`).
+
 ## Estrutura
 - `index.html` + `img/` — o app (gerado por `npm run assemble` a partir de `src/`).
 - `api/main.js` — função serverless única (todas as rotas `/api/*`).

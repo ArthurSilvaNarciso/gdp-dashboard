@@ -1,0 +1,77 @@
+{
+  "id": "neuro",
+  "questions": [
+    {
+      "id": "neuro7", "topic": "Intercalação",
+      "c": "Camila vai prestar o concurso do Banco do Brasil e precisa treinar problemas de porcentagem, juros simples e regra de três. Na prova, os três tipos aparecem misturados, sem aviso de qual método usar.",
+      "q": "Qual organização do treino tende a prepará-la melhor para a prova?",
+      "a": 1, "src": "Rohrer & Taylor (2007), Instructional Science",
+      "o": [
+        { "t": "Resolver em blocos (todos de porcentagem, depois todos de juros), porque assim ela acerta mais durante o treino.", "p": "inversao", "w": "O treino em blocos dá mais acertos na hora, mas no teste posterior a prática intercalada vence. Confunde desempenho durante o treino com aprendizagem." },
+        { "t": "Misturar os três tipos na mesma sessão, para treinar também a escolha do método adequado a cada problema.", "p": "correta", "w": "É a intercalação: ao alternar tipos, o aluno precisa identificar qual estratégia usar, exatamente o que a prova exige. Em Rohrer & Taylor (2007), quem intercalou foi muito melhor no teste final." },
+        { "t": "Dedicar um dia inteiro a cada tipo de problema, porque assim o estudo fica espaçado ao longo da semana.", "p": "troca", "w": "Confunde espaçamento com intercalação. Espaçar ajuda, mas cada sessão continua em bloco e não treina a escolha do método." },
+        { "t": "Tanto faz a ordem, desde que ela resolva o mesmo número de exercícios.", "p": "generalizacao", "w": "Trata a quantidade como único fator. Com o mesmo número de exercícios, a ordem muda bastante o resultado no teste final." }
+      ]
+    },
+    {
+      "id": "neuro8", "topic": "Efeito de geração",
+      "c": "Em um cursinho de Recife, o professor Ricardo dividiu a turma em dois grupos. O grupo A leu pares de palavras prontos, como “quente – frio”. O grupo B viu “quente – f___” e teve de completar a segunda palavra.",
+      "q": "Qual resultado a pesquisa sobre o efeito de geração prevê para um teste de memória posterior?",
+      "a": 3, "src": "Slamecka & Graf (1978), Journal of Experimental Psychology: Human Learning and Memory",
+      "o": [
+        { "t": "O grupo A lembra mais, porque leu as palavras completas e não correu o risco de errar.", "p": "inversao", "w": "Inverte o efeito. Ler pronto exige menos processamento; ter de produzir a palavra é justamente o que fortalece a memória." },
+        { "t": "O grupo B lembra mais, por causa do efeito de espaçamento entre as palavras.", "p": "troca", "w": "Acerta o grupo, mas erra o mecanismo. Não houve intervalo entre sessões; a vantagem vem de gerar a resposta, não de espaçar o estudo." },
+        { "t": "O grupo B lembra mais, mas apenas se revisar os pares no dia seguinte.", "p": "restricao", "w": "Acrescenta uma condição que o efeito não tem. A vantagem de gerar a palavra aparece mesmo sem nenhuma revisão extra." },
+        { "t": "O grupo B lembra mais, porque produzir a palavra exige um esforço que fortalece o registro na memória.", "p": "correta", "w": "É o efeito de geração, descrito por Slamecka & Graf (1978): informações que o próprio aluno gera são lembradas melhor do que as que ele apenas lê." }
+      ]
+    },
+    {
+      "id": "neuro9", "topic": "Sono e consolidação",
+      "c": "Na véspera do ENEM, Bruno decide virar a noite estudando um conteúdo de Química que ainda não tinha visto, para chegar à prova com tudo “fresco” na cabeça.",
+      "q": "O que a pesquisa sobre sono e memória indica sobre essa decisão?",
+      "a": 0, "src": "Diekelmann & Born (2010), Nature Reviews Neuroscience",
+      "o": [
+        { "t": "É ruim: o sono ajuda a consolidar o que foi estudado, e a privação de sono também prejudica a atenção e a capacidade de aprender.", "p": "correta", "w": "Durante o sono, o cérebro reativa e estabiliza memórias recentes. Sem dormir, Bruno consolida menos o conteúdo novo e ainda chega à prova com a atenção comprometida." },
+        { "t": "É boa: estudar até a hora da prova mantém a informação recente e compensa a noite sem sono.", "p": "inversao", "w": "Inverte a lógica. A sensação de frescor não é consolidação, e a privação de sono piora justamente a atenção e a memória de que ele vai precisar." },
+        { "t": "Só seria ruim se ele passasse duas ou mais noites seguidas sem dormir.", "p": "restricao", "w": "Inventa um limite. Uma única noite sem sono já prejudica a consolidação do que foi aprendido e o desempenho no dia seguinte." },
+        { "t": "Vai fazê-lo esquecer tudo o que estudou ao longo do ano.", "p": "extrapolacao", "w": "Exagera o efeito. Uma noite em claro não apaga memórias já consolidadas; o prejuízo maior recai sobre o conteúdo novo e sobre a atenção." }
+      ]
+    },
+    {
+      "id": "neuro10", "topic": "Multitarefa",
+      "c": "Larissa estuda Direito Administrativo com o celular ao lado. A cada poucos minutos chega uma notificação do WhatsApp, e ela para para responder. Ela diz que consegue “fazer as duas coisas ao mesmo tempo”.",
+      "q": "O que a pesquisa sobre multitarefa indica?",
+      "a": 2, "src": "Rubinstein, Meyer & Evans (2001), Journal of Experimental Psychology: Human Perception and Performance",
+      "o": [
+        { "t": "Ela faz multitarefa de verdade: o cérebro divide a atenção igualmente e processa as duas tarefas em paralelo.", "p": "troca", "w": "Confunde alternância com processamento paralelo. Em tarefas que exigem atenção, o cérebro não processa as duas juntas: ele salta de uma para a outra." },
+        { "t": "Alternar entre tarefas treina o cérebro e, com o tempo, deixa o estudo mais rápido.", "p": "inversao", "w": "Inverte o achado. Cada troca de tarefa tem custo de tempo e de precisão; interromper o estudo o tempo todo deixa o trabalho mais lento, não mais rápido." },
+        { "t": "Ela alterna entre as tarefas, e cada troca custa tempo e atenção, o que piora a qualidade do estudo.", "p": "correta", "w": "Rubinstein, Meyer & Evans (2001) mostraram que alternar tarefas gera custos de troca, em tempo e em erros, que se somam a cada interrupção." },
+        { "t": "O prejuízo só existe quando ela responde; deixar as notificações aparecendo na tela não atrapalha.", "p": "restricao", "w": "Acrescenta uma condição falsa. Estudos mostram que apenas receber a notificação, sem responder, já reduz o desempenho em tarefas de atenção." }
+      ]
+    },
+    {
+      "id": "neuro11", "topic": "Curva do esquecimento",
+      "c": "Thiago assistiu a uma aula de duas horas sobre Direito Penal na segunda-feira e não revisou o conteúdo durante o restante do mês.",
+      "q": "Segundo a curva do esquecimento de Ebbinghaus, como tende a evoluir o que ele retém?",
+      "a": 3, "src": "Ebbinghaus (1885), Über das Gedächtnis",
+      "o": [
+        { "t": "Ele esquece pouco nos primeiros dias e cada vez mais rápido com o passar das semanas.", "p": "inversao", "w": "Inverte o formato da curva. A perda é mais intensa logo após o estudo e depois desacelera." },
+        { "t": "O esquecimento só começa depois de alguns dias sem contato com o conteúdo.", "p": "restricao", "w": "Inventa um período de carência. A queda começa já nas primeiras horas após a aula." },
+        { "t": "Em uma semana ele terá esquecido absolutamente tudo, sem deixar nenhum vestígio.", "p": "extrapolacao", "w": "Vai além dos dados. Mesmo após um mês, Ebbinghaus reaprendia o material mais rápido do que da primeira vez, sinal de que algo permaneceu." },
+        { "t": "A perda é rápida nas primeiras horas e dias e depois desacelera, formando uma curva que vai se achatando.", "p": "correta", "w": "Ebbinghaus (1885) mediu a própria memória para sílabas sem sentido e encontrou esse padrão. Revisões espaçadas servem para “reerguer” a curva antes que ela caia demais." }
+      ]
+    },
+    {
+      "id": "neuro12", "topic": "Codificação dupla",
+      "c": "Mariana estuda as fases do processo legislativo para o concurso da Câmara dos Deputados. Em vez de só ler o texto, ela desenha um fluxograma das etapas e escreve, ao lado de cada seta, o que acontece nela.",
+      "q": "Qual princípio melhor justifica a estratégia de Mariana?",
+      "a": 0, "src": "Paivio (1971), Imagery and Verbal Processes",
+      "o": [
+        { "t": "Codificação dupla: a informação fica registrada em forma verbal e visual, o que cria mais caminhos para lembrar.", "p": "correta", "w": "Paivio propôs que palavras e imagens são processadas por sistemas distintos. Combinar os dois, de forma integrada, oferece duas vias de recuperação." },
+        { "t": "Estilos de aprendizagem: ela é uma aluna “visual” e por isso só aprende bem com desenhos.", "p": "troca", "w": "A ideia de ensinar conforme o “estilo” de cada aluno não tem respaldo em evidências (Pashler et al., 2008). O benefício de combinar texto e imagem vale para todos." },
+        { "t": "Sobrecarga cognitiva: misturar texto e imagem divide a atenção, então ela deveria usar só o texto.", "p": "inversao", "w": "Inverte o efeito. Quando palavras e imagem se complementam e aparecem juntas, a combinação favorece a compreensão e a memória (Mayer, princípio multimídia)." },
+        { "t": "Codificação dupla, e por isso qualquer imagem ajuda, mesmo decorativa e sem relação com o conteúdo.", "p": "generalizacao", "w": "Generaliza demais. Imagens decorativas, sem ligação com o conteúdo, não criam a segunda via de memória e podem até distrair." }
+      ]
+    }
+  ]
+}

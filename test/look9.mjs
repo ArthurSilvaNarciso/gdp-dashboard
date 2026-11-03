@@ -1,0 +1,18 @@
+import { createRequire } from 'node:module';
+import { start } from '../dev/server.mjs';
+const { chromium } = createRequire(import.meta.url)('playwright');
+const OUT = '/tmp/claude-0/-home-claude/bb4201d1-86ae-53d3-b9e7-0bd93a0ff471/scratchpad/l9-';
+const srv = await start(3959); const b = await chromium.launch();
+const c = await b.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2 }); const p = await c.newPage();
+const errs = []; p.on('pageerror', (e) => errs.push(e.message));
+await p.goto('http://localhost:3959/'); await p.waitForTimeout(600);
+await p.click('[data-act=onb-next]'); await p.fill('#onb-name', 'Ruth'); await p.click('[data-act=persona][data-id=escola]'); await p.click('[data-act=onb-next]'); await p.click('[data-act=onb-finish]');
+await p.waitForTimeout(800); await p.keyboard.press('Escape'); await p.waitForTimeout(300);
+await p.evaluate(() => { const d = deckById('bio'); const now = Date.now(); d.questions.slice(0, 6).forEach((q, i) => { S.cards[q.id] = { n: 2, ok: 1, lapses: 0, s: i < 4 ? 30 : 2, d: 5, last: now - 864e5 + i, g: 4, due: now + 9e8 }; }); persist(); render(); });
+await p.waitForTimeout(800); await p.evaluate(() => document.getElementById('view').scrollTo(0, 280)); await p.waitForTimeout(400); await p.screenshot({ path: OUT + 'home.png' });
+await p.click('[data-tab=trilhas]'); await p.click('[data-act=cat][data-id=Escola]'); await p.waitForTimeout(500); await p.evaluate(() => document.getElementById('view').scrollTo(0, 380)); await p.waitForTimeout(300); await p.screenshot({ path: OUT + 'trilhas.png' });
+await p.evaluate(() => ACT['open-deck']({ id: 'bio' })); await p.waitForTimeout(800); await p.screenshot({ path: OUT + 'deck.png' });
+await p.evaluate(() => document.querySelector('.journey').scrollIntoView({ block: 'center' })); await p.waitForTimeout(400); await p.screenshot({ path: OUT + 'jornada.png' });
+await p.click('.jn.current .jn-btn'); await p.click('[data-act=reveal]'); await p.waitForTimeout(500); await p.screenshot({ path: OUT + 'questao.png' });
+console.log(errs.join('\n') || 'sem erros');
+await b.close(); srv.close(); process.exit(0);

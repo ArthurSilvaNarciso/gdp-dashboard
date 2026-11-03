@@ -1,0 +1,185 @@
+{
+ "id": "port",
+ "questions": [
+  {
+   "id": "port7",
+   "topic": "Concordância nominal",
+   "c": "A assessora Juliana, da Prefeitura de Campinas, revisa quatro frases de e-mails antes de enviá-los aos secretários municipais.",
+   "q": "Assinale a frase correta quanto à concordância nominal.",
+   "a": 0,
+   "src": "Concordância nominal: anexo, meio, bastante, é proibido",
+   "o": [
+    {
+     "t": "Seguem anexas as planilhas com o orçamento do trimestre.",
+     "p": "correta",
+     "w": "“Anexo” é adjetivo e concorda com o substantivo a que se refere: planilhas anexas. A locução “em anexo” é que fica invariável."
+    },
+    {
+     "t": "A secretária ficou meia preocupada com o atraso do repasse.",
+     "p": "troca",
+     "w": "Aqui “meio” significa “um pouco” e é advérbio, portanto invariável: “meio preocupada”. Só varia como numeral ou adjetivo, como em “meia hora”."
+    },
+    {
+     "t": "Havia bastante servidores aguardando o início da reunião.",
+     "p": "inversao",
+     "w": "Antes de substantivo, “bastante” é determinante (equivale a “muitos”) e concorda: “bastantes servidores”. Fica invariável só como advérbio: “estudaram bastante”."
+    },
+    {
+     "t": "É proibida entrada de pessoas sem crachá.",
+     "p": "generalizacao",
+     "w": "Sem artigo ou outro determinante, a expressão fica invariável: “É proibido entrada”. Com artigo, concorda: “É proibida a entrada”."
+    }
+   ]
+  },
+  {
+   "id": "port8",
+   "topic": "Mau ou mal",
+   "c": "Um relatório da ouvidoria de um hospital público de Salvador precisa ser corrigido antes de seguir para a diretoria.",
+   "q": "Assinale a frase em que “mau” e “mal” estão empregados corretamente.",
+   "a": 2,
+   "src": "Mau (adjetivo, oposto de bom) x mal (advérbio, oposto de bem)",
+   "o": [
+    {
+     "t": "O mal atendimento na recepção gerou dezenas de reclamações.",
+     "p": "troca",
+     "w": "Antes de substantivo, com sentido de ruim, usa-se o adjetivo “mau”, oposto de “bom”: “mau atendimento”."
+    },
+    {
+     "t": "O novo fluxo de triagem foi mau planejado desde o início.",
+     "p": "inversao",
+     "w": "Modificando um particípio, usa-se o advérbio “mal”, oposto de “bem”: “mal planejado”, como em “bem planejado”."
+    },
+    {
+     "t": "Ele não é um mau profissional; apenas se expressou mal na reunião.",
+     "p": "correta",
+     "w": "“Mau profissional” (oposto de bom profissional) é adjetivo; “expressou-se mal” (oposto de bem) é advérbio. Os dois usos estão certos."
+    },
+    {
+     "t": "A coordenadora chegou de mal humor e saiu ainda mais mal-humorada.",
+     "p": "generalizacao",
+     "w": "Estende a grafia de “mal-humorado” ao substantivo. “Humor” pede o adjetivo: “mau humor”, oposto de “bom humor”."
+    }
+   ]
+  },
+  {
+   "id": "port9",
+   "topic": "Onde ou aonde",
+   "c": "No balcão de atendimento do Fórum de Belo Horizonte, um estagiário prepara respostas padronizadas para as dúvidas mais comuns do público.",
+   "q": "Assinale a frase correta quanto ao uso de “onde” e “aonde”.",
+   "a": 1,
+   "src": "Onde (lugar em que) x aonde (a + onde, com verbos de movimento)",
+   "o": [
+    {
+     "t": "Aonde fica o setor de protocolo?",
+     "p": "inversao",
+     "w": "“Ficar” indica permanência e não pede a preposição “a”. O correto é “Onde fica o setor de protocolo?”."
+    },
+    {
+     "t": "Aonde a senhora precisa ir para retirar a certidão?",
+     "p": "correta",
+     "w": "“Ir” pede a preposição “a” (ir a algum lugar). A + onde = aonde, forma usada com verbos de movimento."
+    },
+    {
+     "t": "Não sei onde o oficial de justiça foi depois do almoço.",
+     "p": "restricao",
+     "w": "A regra não se limita às perguntas diretas: vale também na interrogativa indireta. Quem vai, vai a algum lugar: “Não sei aonde o oficial de justiça foi”."
+    },
+    {
+     "t": "Vivemos uma época aonde quase tudo se resolve pela internet.",
+     "p": "extrapolacao",
+     "w": "“Onde” e “aonde” indicam lugar. Para tempo, a norma-padrão pede “em que”: “uma época em que quase tudo se resolve pela internet”."
+    }
+   ]
+  },
+  {
+   "id": "port10",
+   "topic": "Há ou a",
+   "c": "A assessoria de comunicação do Tribunal Regional Eleitoral de Pernambuco revisa os avisos que serão publicados no site.",
+   "q": "Assinale a frase correta quanto ao uso de “há” e “a”.",
+   "a": 3,
+   "src": "Há (tempo decorrido) x a (tempo futuro e distância)",
+   "o": [
+    {
+     "t": "A sessão de julgamento começará daqui há dez minutos.",
+     "p": "inversao",
+     "w": "Para tempo futuro, usa-se a preposição “a”: “daqui a dez minutos”. “Há” indica tempo já decorrido."
+    },
+    {
+     "t": "O servidor trabalha neste cartório eleitoral a doze anos.",
+     "p": "troca",
+     "w": "Tempo decorrido se indica com o verbo “haver”, que equivale a “faz”: “trabalha há doze anos”."
+    },
+    {
+     "t": "O novo posto de atendimento fica há dois quilômetros da sede.",
+     "p": "generalizacao",
+     "w": "Estende o “há” a qualquer medida. Ele só indica tempo decorrido; para distância, usa-se a preposição: “fica a dois quilômetros”."
+    },
+    {
+     "t": "O edital foi publicado há duas semanas, e as inscrições terminam daqui a três dias.",
+     "p": "correta",
+     "w": "“Há duas semanas” indica tempo decorrido (faz duas semanas); “daqui a três dias” indica tempo futuro, com a preposição “a”."
+    }
+   ]
+  },
+  {
+   "id": "port11",
+   "topic": "Voz passiva sintética",
+   "c": "Uma imobiliária de Curitiba pediu a um revisor que conferisse os anúncios antes de publicá-los no jornal.",
+   "q": "Assinale a frase correta quanto à concordância do verbo acompanhado do pronome “se”.",
+   "a": 1,
+   "src": "Pronome se: partícula apassivadora x índice de indeterminação do sujeito",
+   "o": [
+    {
+     "t": "Vende-se apartamentos de dois quartos no Batel.",
+     "p": "troca",
+     "w": "“Vender” é transitivo direto, e o “se” é partícula apassivadora: “apartamentos” é o sujeito (apartamentos são vendidos). O verbo vai ao plural: “Vendem-se”."
+    },
+    {
+     "t": "Alugam-se salas comerciais no centro da cidade.",
+     "p": "correta",
+     "w": "Voz passiva sintética: “salas comerciais” é o sujeito (salas são alugadas), e o verbo concorda com ele no plural."
+    },
+    {
+     "t": "Precisam-se de corretores com experiência em vendas.",
+     "p": "generalizacao",
+     "w": "“Precisar de” é transitivo indireto. Aqui o “se” indetermina o sujeito, e o verbo fica no singular: “Precisa-se de corretores”."
+    },
+    {
+     "t": "Divulgou-se, na edição de domingo, os preços do novo lançamento.",
+     "p": "calculo",
+     "w": "O sujeito (os preços) está distante do verbo, mas continua mandando na concordância: “Divulgaram-se os preços”."
+    }
+   ]
+  },
+  {
+   "id": "port12",
+   "topic": "Acentuação: novo acordo",
+   "c": "Uma editora de Belém atualiza um livro didático para o Acordo Ortográfico em vigor e precisa revisar a acentuação de algumas frases.",
+   "q": "Assinale a frase grafada de acordo com as regras de acentuação vigentes.",
+   "a": 2,
+   "src": "Acordo Ortográfico de 1990 (Decreto 6.583/2008), Bases VIII e IX",
+   "o": [
+    {
+     "t": "A plateia aplaudiu de pé o gesto heróico do bombeiro.",
+     "p": "generalizacao",
+     "w": "Nas paroxítonas, o ditongo aberto “oi” perdeu o acento: “heroico”. O acento continua só nas oxítonas e nos monossílabos, como em “herói”."
+    },
+    {
+     "t": "Os papeis da reunião ficaram esquecidos sobre a mesa.",
+     "p": "inversao",
+     "w": "Inverte a regra. A queda do acento vale para as paroxítonas; nas oxítonas, o ditongo aberto mantém o acento: “papéis”."
+    },
+    {
+     "t": "A assembleia aprovou a ideia de criar um voo direto para Belém.",
+     "p": "correta",
+     "w": "“Assembleia” e “ideia” perderam o acento (ditongo aberto em paroxítona), “voo” perdeu o circunflexo do hiato “oo”, e “Belém” é oxítona terminada em “em”, acentuada."
+    },
+    {
+     "t": "Os alunos lêem os textos e vêem os mapas com atenção.",
+     "p": "troca",
+     "w": "“Leem” e “veem” perderam o circunflexo do hiato “ee”. Não confunda com “têm” e “vêm” (plural de ter e vir), que continuam acentuados."
+    }
+   ]
+  }
+ ]
+}

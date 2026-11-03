@@ -4,3 +4,4 @@ test
 dist
 node_modules
 *.mp4
+content

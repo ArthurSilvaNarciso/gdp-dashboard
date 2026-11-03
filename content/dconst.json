@@ -1,0 +1,77 @@
+{
+  "id": "dconst",
+  "questions": [
+    {
+      "id": "dconst7", "topic": "Habeas corpus",
+      "c": "Marcos, morador de Belém, soube por um policial que um delegado pretende prendê-lo na semana que vem, sem flagrante e sem ordem judicial. Ele quer agir antes que a prisão aconteça.",
+      "q": "Assinale a afirmação correta sobre a situação de Marcos.",
+      "a": 3, "src": "CF/88, art. 5º, LXVIII",
+      "o": [
+        { "t": "Ele deve aguardar a prisão, pois o habeas corpus só cabe depois que a coação já ocorreu.", "p": "restricao", "w": "A Constituição protege também quem “se achar ameaçado de sofrer” coação. Existe o habeas corpus preventivo, que busca impedir a prisão ilegal." },
+        { "t": "Ele deve impetrar mandado de segurança, por se tratar de ato ilegal de autoridade pública.", "p": "troca", "w": "O mandado de segurança é residual: só cabe quando o direito não é amparado por habeas corpus ou habeas data. A liberdade de locomoção é protegida pelo habeas corpus." },
+        { "t": "Ele pode impetrar habeas corpus, mas precisa obrigatoriamente contratar um advogado para isso.", "p": "extrapolacao", "w": "A impetração de habeas corpus não é atividade privativa de advogado (Lei 8.906/1994, art. 1º, § 1º), e a ação é gratuita (CF/88, art. 5º, LXXVII)." },
+        { "t": "Ele pode impetrar habeas corpus preventivo, pois está ameaçado de sofrer coação ilegal em sua liberdade de locomoção.", "p": "correta", "w": "Pelo art. 5º, LXVIII, cabe habeas corpus sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação na liberdade de locomoção, por ilegalidade ou abuso de poder." }
+      ]
+    },
+    {
+      "id": "dconst8", "topic": "Mandado de segurança",
+      "c": "Felipe foi aprovado no vestibular de uma universidade federal em Natal, mas a secretaria recusou sua matrícula exigindo um documento que não consta do edital. Ele tem prova documental de que cumpriu todos os requisitos.",
+      "q": "Assinale a afirmação correta.",
+      "a": 0, "src": "CF/88, art. 5º, LXIX; Lei 12.016/2009, art. 23",
+      "o": [
+        { "t": "Cabe mandado de segurança, pois há direito líquido e certo, não amparado por habeas corpus ou habeas data, violado por autoridade pública.", "p": "correta", "w": "É a hipótese do art. 5º, LXIX: o direito pode ser comprovado de plano por documentos, e o ato vem de autoridade de uma universidade federal." },
+        { "t": "Cabe habeas data, porque o caso envolve documentos pessoais do candidato.", "p": "troca", "w": "O habeas data serve para conhecer ou retificar informações sobre o impetrante em bancos de dados públicos. Felipe não quer acessar dados, quer garantir a matrícula." },
+        { "t": "Caberia mandado de segurança mesmo que o ato fosse de um particular sem nenhuma atribuição do Poder Público.", "p": "generalizacao", "w": "O mandado de segurança exige que o responsável seja autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público. Não cabe contra qualquer particular." },
+        { "t": "Cabe mandado de segurança, mas apenas se for impetrado em até 30 dias após a recusa.", "p": "restricao", "w": "Impõe um limite que a lei não prevê. O prazo para impetrar é de 120 dias, contados da ciência do ato (Lei 12.016/2009, art. 23)." }
+      ]
+    },
+    {
+      "id": "dconst9", "topic": "Mandado de injunção",
+      "c": "Renata, servidora pública em Goiânia, alega que um direito previsto na Constituição depende de uma lei regulamentadora que nunca foi editada, o que a impede de exercê-lo.",
+      "q": "Qual é o instrumento adequado segundo a Constituição?",
+      "a": 2, "src": "CF/88, art. 5º, LXXI",
+      "o": [
+        { "t": "Mandado de segurança, porque há direito líquido e certo violado por ato de autoridade.", "p": "troca", "w": "O mandado de segurança combate ato ilegal ou abusivo. Aqui o problema é a ausência de norma regulamentadora, ou seja, uma omissão." },
+        { "t": "Mandado de injunção, mas apenas se o direito estiver ligado à nacionalidade, à soberania ou à cidadania.", "p": "restricao", "w": "Corta metade do texto. A Constituição também protege os “direitos e liberdades constitucionais” em geral, além das prerrogativas de nacionalidade, soberania e cidadania." },
+        { "t": "Mandado de injunção, porque a falta de norma regulamentadora torna inviável o exercício de um direito constitucional.", "p": "correta", "w": "É exatamente a hipótese do art. 5º, LXXI: o mandado de injunção combate a omissão que torna inviável o exercício de direitos e liberdades constitucionais." },
+        { "t": "Nenhum: enquanto a lei não for editada, o direito não pode ser levado ao Judiciário.", "p": "inversao", "w": "Inverte a finalidade do instituto. O mandado de injunção existe justamente para que a falta de lei não anule um direito previsto na Constituição." }
+      ]
+    },
+    {
+      "id": "dconst10", "topic": "Ação popular",
+      "c": "Joaquim, eleitor em Teresina, descobriu que a prefeitura contratou um show por um valor muito acima do de mercado e quer propor uma ação popular para anular o contrato.",
+      "q": "Assinale a afirmação correta.",
+      "a": 1, "src": "CF/88, art. 5º, LXXIII",
+      "o": [
+        { "t": "Ele não pode propor a ação, pois só o Ministério Público tem legitimidade para defender o patrimônio público.", "p": "troca", "w": "Confunde com a ação civil pública. Na ação popular, a Constituição dá legitimidade a qualquer cidadão." },
+        { "t": "Ele pode propor a ação como cidadão e, salvo comprovada má-fé, ficará isento de custas judiciais e do ônus da sucumbência.", "p": "correta", "w": "É o texto do art. 5º, LXXIII: qualquer cidadão pode propor ação popular para anular ato lesivo ao patrimônio público, e a isenção só cai se houver má-fé comprovada." },
+        { "t": "Ele ficará isento de custas em qualquer hipótese, mesmo que fique provada a sua má-fé.", "p": "generalizacao", "w": "A isenção não é absoluta. A própria Constituição ressalva a hipótese de comprovada má-fé do autor." },
+        { "t": "Ele só pode propor a ação se comprovar que sofreu prejuízo pessoal e direto com o contrato.", "p": "restricao", "w": "A Constituição não exige prejuízo pessoal. Basta ser cidadão e apontar ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural." }
+      ]
+    },
+    {
+      "id": "dconst11", "topic": "Brasileiro nato",
+      "c": "Sophie nasceu em Florianópolis, filha de um casal de franceses que estava no Brasil a turismo. Nenhum dos pais estava a serviço da França.",
+      "q": "Como a Constituição classifica Sophie quanto à nacionalidade brasileira?",
+      "a": 3, "src": "CF/88, art. 12, I, a",
+      "o": [
+        { "t": "Ela não é brasileira, porque para ser brasileiro nato é preciso ter ao menos um dos pais brasileiro.", "p": "restricao", "w": "Acrescenta um requisito que o art. 12, I, a, não tem. Quem nasce no Brasil é brasileiro nato, ainda que de pais estrangeiros." },
+        { "t": "Ela só seria brasileira nata se os pais estivessem a serviço da França.", "p": "inversao", "w": "Inverte a exceção. Estar a serviço do país de origem é justamente o que afasta a nacionalidade brasileira de quem nasce aqui de pais estrangeiros." },
+        { "t": "Ela é brasileira, mas naturalizada, porque os pais são estrangeiros.", "p": "troca", "w": "Confunde nato com naturalizado. A naturalização depende de requerimento e requisitos (art. 12, II); Sophie é nata pelo simples nascimento no território." },
+        { "t": "Ela é brasileira nata, porque nasceu no Brasil e os pais estrangeiros não estavam a serviço de seu país.", "p": "correta", "w": "O art. 12, I, a, adota o critério do território: são natos os nascidos no Brasil, ainda que de pais estrangeiros, desde que estes não estejam a serviço de seu país." }
+      ]
+    },
+    {
+      "id": "dconst12", "topic": "Sigilo das comunicações",
+      "c": "Um delegado da Polícia Civil de São Paulo investiga uma quadrilha de roubo de cargas e quer interceptar as ligações telefônicas de um dos suspeitos.",
+      "q": "O que a Constituição exige para que a interceptação seja lícita?",
+      "a": 1, "src": "CF/88, art. 5º, XII; Lei 9.296/1996, art. 3º",
+      "o": [
+        { "t": "Autorização do Ministério Público, que é o titular da ação penal.", "p": "troca", "w": "O Ministério Público e a autoridade policial podem pedir a interceptação, mas quem a determina é o juiz (Lei 9.296/1996, art. 3º)." },
+        { "t": "Ordem judicial, nas hipóteses e na forma da lei, para fins de investigação criminal ou instrução processual penal.", "p": "correta", "w": "É o que diz o art. 5º, XII: as comunicações telefônicas podem ser interceptadas por ordem judicial, para fins penais, nas hipóteses e na forma que a lei estabelecer." },
+        { "t": "Ordem judicial, que também poderia ser concedida para instruir uma ação civil de cobrança contra o suspeito.", "p": "extrapolacao", "w": "A Constituição limita a interceptação telefônica a fins de investigação criminal ou instrução processual penal. O processo civil fica de fora." },
+        { "t": "Nada a torna lícita: o sigilo das comunicações telefônicas é absoluto.", "p": "generalizacao", "w": "A própria Constituição abre exceção para as comunicações telefônicas, por ordem judicial e para fins penais." }
+      ]
+    }
+  ]
+}

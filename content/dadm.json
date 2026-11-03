@@ -1,0 +1,149 @@
+{
+  "id": "dadm",
+  "title": "Direito Administrativo",
+  "subtitle": "Princípios, atos e servidores",
+  "tag": "Concursos",
+  "blurb": "Princípios, atos administrativos, servidores, improbidade e licitações em casos práticos, com o artigo exato de cada regra.",
+  "questions": [
+    {
+      "id": "dadm1",
+      "topic": "Princípios LIMPE",
+      "c": "O prefeito de um município do interior do Paraná mandou colocar seu nome e sua foto nas placas das obras e nas campanhas publicitárias da prefeitura, pagas com recursos públicos.",
+      "q": "Assinale a alternativa correta sobre a conduta do prefeito.",
+      "a": 0,
+      "src": "CF/88, art. 37, caput e §1º",
+      "o": [
+        { "t": "Ofende a impessoalidade, pois a publicidade oficial não pode ter nomes, símbolos ou imagens que caracterizem promoção pessoal.", "p": "correta", "w": "O art. 37, §1º, exige caráter educativo, informativo ou de orientação social e veda a promoção pessoal de autoridades, expressão da impessoalidade." },
+        { "t": "É lícita, pois o princípio da publicidade permite divulgar qualquer conteúdo sobre as obras do governo.", "p": "generalizacao", "w": "Publicidade significa transparência, não autorização para qualquer conteúdo. A própria CF limita a publicidade oficial no art. 37, §1º." },
+        { "t": "Os princípios do art. 37 obrigam apenas a União e os estados; o município segue só a sua lei orgânica.", "p": "restricao", "w": "O caput do art. 37 alcança a administração direta e indireta de qualquer dos Poderes da União, dos estados, do DF e dos municípios." },
+        { "t": "É irregular, e a CF determina a perda automática do mandato do prefeito por esse fato.", "p": "extrapolacao", "w": "A CF não prevê perda automática do mandato por essa conduta. Eventuais sanções dependem de processo e das leis aplicáveis." }
+      ]
+    },
+    {
+      "id": "dadm2",
+      "topic": "Cargos em comissão",
+      "c": "Uma prefeitura de Minas Gerais quer nomear, sem concurso, 30 pessoas para cargos em comissão de “auxiliar administrativo”, com tarefas de protocolo, digitação e arquivo.",
+      "q": "Essas nomeações são compatíveis com a Constituição?",
+      "a": 2,
+      "src": "CF/88, art. 37, II e V",
+      "o": [
+        { "t": "Sim, porque cargos em comissão dispensam concurso, qualquer que seja a atribuição.", "p": "generalizacao", "w": "Dispensam concurso, mas não servem para qualquer atribuição. O art. 37, V, limita esses cargos a direção, chefia e assessoramento." },
+        { "t": "Sim, desde que os nomeados já ocupem cargo efetivo, como a CF exige para os cargos em comissão.", "p": "troca", "w": "Confunde com a função de confiança, que é exercida exclusivamente por servidores efetivos. Cargo em comissão pode ser ocupado por quem não é servidor, respeitado o percentual mínimo que a lei reservar a servidores de carreira." },
+        { "t": "Não, pois cargos em comissão destinam-se apenas às atribuições de direção, chefia e assessoramento.", "p": "correta", "w": "Tarefas burocráticas e técnicas exigem cargo efetivo, provido por concurso (art. 37, II). O cargo em comissão é restrito ao que prevê o art. 37, V." },
+        { "t": "Não, porque a CF proíbe a criação de cargos em comissão nos municípios.", "p": "restricao", "w": "A CF não faz essa proibição. Municípios podem criar cargos em comissão por lei, desde que para direção, chefia e assessoramento." }
+      ]
+    },
+    {
+      "id": "dadm3",
+      "topic": "Acumulação de cargos",
+      "c": "Márcia é enfermeira efetiva de um hospital estadual em Fortaleza, no turno da manhã. Ela foi aprovada em concurso para enfermeira de uma unidade básica de saúde do município, no turno da tarde.",
+      "q": "Márcia pode acumular os dois cargos?",
+      "a": 1,
+      "src": "CF/88, art. 37, XVI, “c”",
+      "o": [
+        { "t": "Não, porque a Constituição proíbe qualquer acumulação remunerada de cargos públicos.", "p": "generalizacao", "w": "A vedação tem exceções. Havendo compatibilidade de horários, o art. 37, XVI, permite três hipóteses de acumulação." },
+        { "t": "Sim, pois a CF permite acumular dois cargos privativos de profissionais de saúde, com profissões regulamentadas, se houver compatibilidade de horários.", "p": "correta", "w": "É a hipótese da alínea “c” do art. 37, XVI. Os turnos distintos garantem a compatibilidade, observado o teto remuneratório do inciso XI." },
+        { "t": "Sim, mas somente se os dois cargos forem do mesmo ente federativo.", "p": "restricao", "w": "A CF não exige que os cargos sejam do mesmo ente. Um cargo estadual e um municipal podem ser acumulados nas hipóteses permitidas." },
+        { "t": "Sim, e ela poderia acumular ainda um terceiro cargo, de professora, se os horários permitissem.", "p": "extrapolacao", "w": "As exceções do art. 37, XVI, autorizam a acumulação de dois cargos, nunca de três." }
+      ]
+    },
+    {
+      "id": "dadm4",
+      "topic": "Atributos do ato",
+      "c": "Fiscais da vigilância sanitária de Recife encontram alimentos com prazo de validade vencido em um supermercado. Eles apreendem e inutilizam os produtos no mesmo momento, sem pedir ordem judicial.",
+      "q": "Qual atributo do ato administrativo permite essa atuação imediata?",
+      "a": 3,
+      "src": "Di Pietro, Direito Administrativo: atributos do ato administrativo",
+      "o": [
+        { "t": "Tipicidade, atributo que permite à Administração executar materialmente seus atos sem recorrer ao Judiciário.", "p": "troca", "w": "Tipicidade significa que o ato deve corresponder a uma figura definida em lei. Executar sem ordem judicial é outro atributo." },
+        { "t": "Autoexecutoriedade, que dispensa o Judiciário em qualquer caso, inclusive na cobrança forçada de multas não pagas.", "p": "generalizacao", "w": "A autoexecutoriedade não é absoluta. A multa não paga, por exemplo, é cobrada por execução fiscal, no Judiciário." },
+        { "t": "Imperatividade, que faz o ato obrigar o particular só depois que ele concorda com o seu conteúdo.", "p": "inversao", "w": "Inverte o conceito. Imperatividade é justamente a imposição do ato a terceiros, independentemente da concordância deles." },
+        { "t": "Autoexecutoriedade, que permite à Administração executar suas decisões diretamente, sem prévia ordem judicial.", "p": "correta", "w": "Existe quando a lei autoriza ou em situação urgente, como o risco à saúde pública. A apreensão de alimentos vencidos é exemplo clássico." }
+      ]
+    },
+    {
+      "id": "dadm5",
+      "topic": "Anulação e revogação",
+      "c": "Dois meses depois de conceder uma licença de funcionamento a uma empresa, uma secretaria estadual descobre que ela não apresentou um documento que a lei exige como requisito obrigatório.",
+      "q": "Segundo a Súmula 473 do STF, como a Administração deve agir?",
+      "a": 2,
+      "src": "STF, Súmula 473",
+      "o": [
+        { "t": "Revogar a licença, já que a revogação é o instrumento para desfazer atos ilegais.", "p": "troca", "w": "Confunde os institutos. A revogação retira atos válidos por conveniência ou oportunidade; ato ilegal deve ser anulado." },
+        { "t": "Pedir ao Judiciário que anule a licença, porque a Administração não pode anular os próprios atos.", "p": "restricao", "w": "Pela autotutela, a própria Administração pode anular seus atos ilegais, sem depender de ação judicial." },
+        { "t": "Anular a licença por ilegalidade, no exercício da autotutela, ressalvada a apreciação judicial.", "p": "correta", "w": "A Súmula 473 diz que a Administração pode anular seus atos ilegais, “porque deles não se originam direitos”, ressalvada a apreciação judicial." },
+        { "t": "Anular a licença, mas respeitar os direitos adquiridos da empresa, como a súmula exige na anulação.", "p": "inversao", "w": "Inverte a súmula. O respeito aos direitos adquiridos é exigido na revogação; de atos ilegais não se originam direitos." }
+      ]
+    },
+    {
+      "id": "dadm6",
+      "topic": "Poder de polícia",
+      "c": "Fiscais da prefeitura de Curitiba interditam um bar que funcionava sem alvará e com som acima do limite permitido pela legislação municipal.",
+      "q": "Qual poder administrativo fundamenta a interdição?",
+      "a": 0,
+      "src": "CTN (Lei 5.172/66), art. 78",
+      "o": [
+        { "t": "Poder de polícia, que limita direitos, interesses e liberdades individuais em favor do interesse público.", "p": "correta", "w": "O art. 78 do CTN define poder de polícia como a atividade que limita ou disciplina direitos e liberdades em razão do interesse público, como a tranquilidade e a segurança." },
+        { "t": "Poder disciplinar, porque a prefeitura está punindo quem descumpriu a lei.", "p": "troca", "w": "O poder disciplinar pune servidores e quem tem vínculo especial com a Administração. O dono do bar é um particular sem esse vínculo." },
+        { "t": "Poder de polícia, mas a interdição só é válida se precedida de autorização judicial.", "p": "restricao", "w": "Medidas de polícia previstas em lei podem ser executadas pela própria Administração, sem autorização judicial prévia." },
+        { "t": "Poder de polícia, que permite impor qualquer restrição, mesmo sem previsão legal, se houver interesse público.", "p": "generalizacao", "w": "O poder de polícia se submete à legalidade e à proporcionalidade. Não autoriza restrições sem base em lei." }
+      ]
+    },
+    {
+      "id": "dadm7",
+      "topic": "Responsabilidade civil objetiva",
+      "c": "Um ônibus de uma concessionária do transporte coletivo de Belo Horizonte bate no carro de Roberto, que estava parado no semáforo. Roberto não era passageiro do ônibus.",
+      "q": "Como fica a responsabilidade pelos danos ao carro de Roberto?",
+      "a": 3,
+      "src": "CF/88, art. 37, §6º",
+      "o": [
+        { "t": "É subjetiva: Roberto precisa provar a culpa do motorista para ser indenizado.", "p": "troca", "w": "Troca a responsabilidade objetiva pela subjetiva. Pelo art. 37, §6º, basta provar o dano e o nexo com a atuação do agente." },
+        { "t": "O art. 37, §6º, vale só para pessoas jurídicas de direito público; a concessionária não responde objetivamente.", "p": "restricao", "w": "O dispositivo inclui expressamente as pessoas jurídicas de direito privado prestadoras de serviços públicos, como a concessionária." },
+        { "t": "A concessionária responde objetivamente e pode cobrar o valor do motorista em regresso, mesmo sem dolo ou culpa dele.", "p": "extrapolacao", "w": "A primeira parte está certa, mas o direito de regresso só existe nos casos de dolo ou culpa do agente." },
+        { "t": "A concessionária responde objetivamente, sem que Roberto prove culpa, e tem regresso contra o motorista se houver dolo ou culpa.", "p": "correta", "w": "O art. 37, §6º, alcança as prestadoras privadas de serviço público. O STF (RE 591.874) aplica a regra também a terceiros não usuários, como Roberto." }
+      ]
+    },
+    {
+      "id": "dadm8",
+      "topic": "Estabilidade do servidor",
+      "c": "Lucas foi aprovado em concurso público, nomeado para cargo efetivo de um órgão federal e está em efetivo exercício há dois anos.",
+      "q": "De acordo com a Constituição, Lucas já é estável?",
+      "a": 1,
+      "src": "CF/88, art. 41, caput, §1º e §4º",
+      "o": [
+        { "t": "Sim, pois a estabilidade é adquirida após dois anos de efetivo exercício.", "p": "troca", "w": "Usa a regra anterior à EC 19/1998. Hoje, o art. 41 exige três anos de efetivo exercício." },
+        { "t": "Não: a estabilidade exige três anos de efetivo exercício e aprovação em avaliação especial de desempenho.", "p": "correta", "w": "O art. 41 fixa três anos de efetivo exercício, e o §4º exige avaliação especial de desempenho por comissão instituída para essa finalidade." },
+        { "t": "Não, e mesmo depois de estável ele nunca poderá perder o cargo.", "p": "generalizacao", "w": "O servidor estável pode perder o cargo por sentença transitada em julgado, processo administrativo ou avaliação periódica de desempenho (art. 41, §1º)." },
+        { "t": "Não, porque além dos três anos a CF exige que ele tenha sido promovido pelo menos uma vez.", "p": "restricao", "w": "A Constituição não exige promoção para a estabilidade. A alternativa acrescenta um requisito inexistente." }
+      ]
+    },
+    {
+      "id": "dadm9",
+      "topic": "Improbidade e dolo",
+      "c": "Em 2023, um servidor de uma prefeitura de Santa Catarina, por descuido e sem intenção, deixou de conferir um documento, o que causou prejuízo ao erário. Não há indício de má-fé.",
+      "q": "Pela Lei 8.429/92, com a redação da Lei 14.230/2021, essa conduta configura improbidade administrativa?",
+      "a": 2,
+      "src": "Lei 8.429/92, art. 1º, §§1º e 2º (redação da Lei 14.230/2021)",
+      "o": [
+        { "t": "Sim, porque qualquer prejuízo ao erário configura improbidade, com ou sem intenção.", "p": "generalizacao", "w": "Desde a Lei 14.230/2021, só condutas dolosas configuram improbidade. Prejuízo sem dolo não basta." },
+        { "t": "Sim, porque os atos que causam lesão ao erário (art. 10) ainda admitem a forma culposa.", "p": "extrapolacao", "w": "A modalidade culposa do art. 10 deixou de existir com a Lei 14.230/2021. Hoje todos os tipos dos arts. 9º, 10 e 11 exigem dolo." },
+        { "t": "Não, pois só condutas dolosas configuram improbidade, e a mera voluntariedade do agente não basta.", "p": "correta", "w": "O art. 1º, §1º, fala em “condutas dolosas”, e o §2º define dolo como vontade livre e consciente de alcançar o resultado ilícito, não bastando a voluntariedade." },
+        { "t": "Não, porque a lei de improbidade se aplica apenas a agentes políticos eleitos, e não a servidores.", "p": "restricao", "w": "A lei alcança todo agente público, inclusive servidores de carreira (art. 2º). O problema aqui é a ausência de dolo." }
+      ]
+    },
+    {
+      "id": "dadm10",
+      "topic": "Modalidades de licitação",
+      "c": "Em 2025, um município de Goiás vai comprar cerca de R$ 800 mil em papel, canetas e outros materiais de escritório para as escolas, todos com especificações usuais de mercado.",
+      "q": "Qual modalidade de licitação deve ser usada, segundo a Lei 14.133/2021?",
+      "a": 3,
+      "src": "Lei 14.133/2021, art. 6º, XLI, art. 28 e art. 32",
+      "o": [
+        { "t": "Convite, por ser a modalidade mais simples para compras de material de consumo.", "p": "troca", "w": "O convite era modalidade da Lei 8.666/93 e não existe na Lei 14.133/2021, assim como a tomada de preços." },
+        { "t": "Leilão, porque é a modalidade em que vence quem oferece o menor preço.", "p": "inversao", "w": "Inverte a finalidade. O leilão serve para alienar bens, e vence o maior lance; não é usado para comprar." },
+        { "t": "Diálogo competitivo, que o gestor pode escolher para qualquer contratação.", "p": "generalizacao", "w": "O diálogo competitivo é restrito às hipóteses do art. 32, como contratações que envolvam inovação tecnológica ou técnica." },
+        { "t": "Pregão, obrigatório para a aquisição de bens e serviços comuns, com julgamento por menor preço ou maior desconto.", "p": "correta", "w": "É o que define o art. 6º, XLI. Pregão, concorrência, concurso, leilão e diálogo competitivo são as modalidades do art. 28." }
+      ]
+    }
+  ]
+}

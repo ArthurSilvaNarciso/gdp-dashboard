@@ -1,0 +1,149 @@
+{
+  "id": "bio",
+  "title": "Biologia ENEM",
+  "subtitle": "Células, genética e ecologia",
+  "tag": "Escola",
+  "blurb": "Divisão celular, genética, imunologia e ecologia em casos do dia a dia, do jeito que o ENEM cobra.",
+  "questions": [
+    {
+      "id": "bio1",
+      "topic": "Mitose e meiose",
+      "c": "Em uma aula de um cursinho no Recife, a professora compara a divisão das células da pele que fecham um corte no braço com a divisão das células dos testículos que originam os espermatozoides. As células humanas do corpo têm 46 cromossomos.",
+      "q": "Qual afirmação descreve corretamente as duas divisões?",
+      "a": 2,
+      "src": "Divisão celular: mitose e meiose (espermatogênese)",
+      "o": [
+        { "t": "Na cicatrização ocorre meiose, e nos testículos ocorre mitose, já que os espermatozoides são cópias idênticas da célula-mãe.", "p": "inversao", "w": "Inverte os processos. A cicatrização usa mitose, que gera células idênticas; os espermatozoides vêm da meiose e não são cópias da célula-mãe." },
+        { "t": "Nos testículos, a meiose gera duas células com 23 cromossomos cada, pois ocorre uma única divisão.", "p": "calculo", "w": "A meiose tem duas divisões sucessivas (meiose I e II). Por isso uma célula origina quatro células haploides, e não duas." },
+        { "t": "Na cicatrização, a mitose gera duas células com 46 cromossomos; nos testículos, a meiose gera quatro células com 23.", "p": "correta", "w": "A mitose mantém o número de cromossomos e serve ao crescimento e à reparação. A meiose reduz esse número à metade e forma os gametas." },
+        { "t": "Nos dois casos ocorre meiose, porque toda divisão celular reduz o número de cromossomos pela metade.", "p": "generalizacao", "w": "Só a meiose reduz o número de cromossomos. Se toda divisão fizesse isso, as células da pele perderiam cromossomos a cada cicatrização." }
+      ]
+    },
+    {
+      "id": "bio2",
+      "topic": "Fotossíntese e respiração",
+      "c": "Um produtor de alfaces de Holambra (SP) instalou um sensor de gás carbônico (CO2) em uma estufa bem fechada. Durante o dia, a concentração de CO2 cai; durante a noite, ela sobe.",
+      "q": "O que explica principalmente o aumento de CO2 durante a noite?",
+      "a": 0,
+      "src": "Fotossíntese e respiração celular nas plantas",
+      "o": [
+        { "t": "Sem luz, a fotossíntese para, mas as plantas continuam a respiração celular, que libera CO2.", "p": "correta", "w": "A fotossíntese depende de luz e consome CO2. A respiração celular ocorre dia e noite e libera CO2, que se acumula quando a fotossíntese para." },
+        { "t": "À noite as plantas fazem fotossíntese, que libera CO2, e durante o dia fazem respiração, que o consome.", "p": "inversao", "w": "Troca os papéis dos dois processos. A fotossíntese consome CO2 e libera O2; a respiração consome O2 e libera CO2." },
+        { "t": "As plantas só respiram à noite; durante o dia, fazem apenas fotossíntese.", "p": "restricao", "w": "Cria um limite que não existe. As plantas respiram o tempo todo; de dia, a fotossíntese costuma superar a respiração e o saldo de CO2 cai." },
+        { "t": "À noite as folhas intensificam a transpiração, que libera CO2 pelos estômatos.", "p": "troca", "w": "Transpiração é a perda de vapor de água pelas folhas, não a liberação de CO2. O processo que libera CO2 é a respiração celular." }
+      ]
+    },
+    {
+      "id": "bio3",
+      "topic": "Cruzamento Aa x Aa",
+      "c": "Um casal de Belo Horizonte, ambos com pigmentação normal da pele, teve um filho albino. O albinismo oculocutâneo é uma condição autossômica recessiva.",
+      "q": "Qual é a probabilidade de o próximo filho do casal ser albino?",
+      "a": 1,
+      "src": "Primeira Lei de Mendel: cruzamento Aa x Aa",
+      "o": [
+        { "t": "1/2, porque metade dos gametas de cada um dos pais carrega o alelo a.", "p": "calculo", "w": "Para o filho ser aa, precisa receber a de cada pai. As probabilidades se multiplicam: 1/2 x 1/2 = 1/4, e não 1/2." },
+        { "t": "1/4, pois os dois pais são heterozigotos (Aa), e Aa x Aa gera 1 AA : 2 Aa : 1 aa.", "p": "correta", "w": "Pais normais com filho albino só podem ser Aa. Do cruzamento, 3/4 têm fenótipo normal e 1/4 é aa, ou seja, albino." },
+        { "t": "3/4, porque a proporção 3:1 indica que três em cada quatro filhos terão a característica recessiva.", "p": "inversao", "w": "Inverte a proporção 3:1. Os três quartos correspondem ao fenótipo dominante (normal); só um quarto manifesta o recessivo." },
+        { "t": "Zero, porque o casal já teve um filho albino e o próximo certamente será normal.", "p": "extrapolacao", "w": "Cada gestação é um evento independente. O resultado anterior não altera a chance de 1/4 para o próximo filho." }
+      ]
+    },
+    {
+      "id": "bio4",
+      "topic": "Sistema ABO",
+      "c": "Um paciente com sangue tipo O chega a um hospital de Salvador precisando de transfusão de hemácias. O banco de sangue tem bolsas dos tipos A, B, AB e O.",
+      "q": "Considerando apenas o sistema ABO, quais bolsas podem ser usadas?",
+      "a": 3,
+      "src": "Sistema ABO: aglutinogênios e aglutininas",
+      "o": [
+        { "t": "Qualquer uma, porque o tipo O é o receptor universal.", "p": "inversao", "w": "Inverte os papéis. O tipo O é o doador universal de hemácias; o receptor universal é o tipo AB." },
+        { "t": "Tipo AB, porque o plasma do sangue AB não tem aglutininas anti-A nem anti-B.", "p": "troca", "w": "Confunde aglutinina com aglutinogênio. Na transfusão de hemácias importa o antígeno do doador: as hemácias AB têm A e B e seriam atacadas pelo receptor." },
+        { "t": "Tipo O, mas somente se o doador for parente do paciente.", "p": "restricao", "w": "O parentesco não é critério de compatibilidade no sistema ABO. A alternativa acrescenta uma condição que não existe." },
+        { "t": "Apenas tipo O, porque o plasma do paciente tem anticorpos anti-A e anti-B.", "p": "correta", "w": "Quem é O tem aglutininas anti-A e anti-B e reagiria a hemácias com antígeno A ou B. Por isso só recebe hemácias do tipo O." }
+      ]
+    },
+    {
+      "id": "bio5",
+      "topic": "Níveis tróficos",
+      "c": "Em uma área do Pantanal, um estudo descreve a cadeia alimentar: capim → capivara → onça-pintada. Os pesquisadores observam que há muito mais capivaras do que onças na região.",
+      "q": "Qual afirmação sobre essa cadeia alimentar está correta?",
+      "a": 1,
+      "src": "Ecologia: fluxo de energia e níveis tróficos",
+      "o": [
+        { "t": "A onça ocupa o 2º nível trófico, pois é o segundo animal da cadeia.", "p": "calculo", "w": "Os níveis tróficos começam pelo produtor. Capim é o 1º nível, a capivara o 2º e a onça o 3º." },
+        { "t": "A capivara é consumidora primária (2º nível); a onça, consumidora secundária (3º nível), dispõe de menos energia.", "p": "correta", "w": "A cada nível, boa parte da energia é perdida, sobretudo como calor na respiração. Sobra pouca energia para o topo, que sustenta menos indivíduos." },
+        { "t": "A energia aumenta a cada nível trófico, por isso a onça, no topo, concentra mais energia que o capim.", "p": "inversao", "w": "É o contrário: a energia disponível diminui a cada nível. Por isso as pirâmides de energia são sempre mais largas na base." },
+        { "t": "A energia circula em ciclo: os decompositores a devolvem ao capim, que a reaproveita.", "p": "troca", "w": "Confunde ciclo da matéria com fluxo de energia. Os nutrientes são reciclados, mas a energia flui em um só sentido e se dissipa como calor." }
+      ]
+    },
+    {
+      "id": "bio6",
+      "topic": "Vacina e soro",
+      "c": "Um trabalhador rural de Goiás foi picado por uma jararaca e levado ao hospital mais próximo poucas horas depois.",
+      "q": "Qual é o tratamento indicado e por quê?",
+      "a": 0,
+      "src": "Ministério da Saúde: soros antiofídicos e imunização passiva",
+      "o": [
+        { "t": "Soro antiofídico específico (antibotrópico), que fornece anticorpos prontos e age de imediato.", "p": "correta", "w": "O soro é imunização passiva: traz anticorpos já produzidos que neutralizam o veneno na hora. É o indicado para quem já foi picado." },
+        { "t": "Vacina contra o veneno, que estimula o organismo a produzir os próprios anticorpos.", "p": "troca", "w": "A vacina é preventiva: induz imunização ativa, que leva dias ou semanas. Para um envenenamento em curso, é preciso o soro." },
+        { "t": "Soro, porque ele cria memória imunológica e protege o trabalhador contra picadas futuras.", "p": "inversao", "w": "Atribui ao soro uma característica da vacina. Os anticorpos do soro são eliminados com o tempo e não geram memória imunológica." },
+        { "t": "Qualquer soro antiofídico, porque um mesmo soro neutraliza o veneno de todas as serpentes.", "p": "generalizacao", "w": "Os soros são específicos para os venenos de cada grupo de serpentes. Para a jararaca (gênero Bothrops), usa-se o soro antibotrópico." }
+      ]
+    },
+    {
+      "id": "bio7",
+      "topic": "Estufa e ozônio",
+      "c": "Em um debate de uma escola de Porto Alegre, um aluno afirmou: “O buraco na camada de ozônio é a causa do aquecimento global.”",
+      "q": "Qual correção a professora deve fazer?",
+      "a": 3,
+      "src": "Protocolo de Montreal (1987); IPCC",
+      "o": [
+        { "t": "O efeito estufa é que filtra a radiação ultravioleta, e a camada de ozônio é que retém o calor na Terra.", "p": "inversao", "w": "Troca as funções. A camada de ozônio filtra o ultravioleta; os gases de efeito estufa retêm parte do calor (radiação infravermelha)." },
+        { "t": "O efeito estufa é sempre prejudicial e deveria ser eliminado por completo da atmosfera.", "p": "generalizacao", "w": "O efeito estufa natural mantém a Terra habitável. O problema é a sua intensificação pelas emissões humanas." },
+        { "t": "O buraco na camada de ozônio é causado principalmente pelo CO2 emitido por carros e queimadas.", "p": "troca", "w": "A destruição do ozônio se deve sobretudo aos CFCs e gases semelhantes, controlados pelo Protocolo de Montreal. O CO2 está ligado ao efeito estufa." },
+        { "t": "São fenômenos distintos: o aquecimento vem da intensificação do efeito estufa; o ozônio filtra o ultravioleta e foi afetado por CFCs.", "p": "correta", "w": "O aquecimento global decorre do acúmulo de gases como CO2 e metano. A camada de ozônio protege contra o ultravioleta e foi degradada sobretudo por CFCs." }
+      ]
+    },
+    {
+      "id": "bio8",
+      "topic": "Darwin e Lamarck",
+      "c": "Um livro didático antigo dizia: “As girafas esticaram o pescoço para alcançar as folhas altas e passaram essa característica aos filhotes.” O professor de uma escola de Manaus pediu que a turma reescrevesse a frase segundo Darwin.",
+      "q": "Como a seleção natural explica o pescoço longo das girafas?",
+      "a": 2,
+      "src": "Darwin, A Origem das Espécies (1859)",
+      "o": [
+        { "t": "O esforço de esticar o pescoço o alongou ao longo da vida, e essa mudança foi herdada pelos filhotes.", "p": "troca", "w": "Essa é a explicação de Lamarck (uso e desuso e herança dos caracteres adquiridos), justamente a da frase do livro antigo." },
+        { "t": "A necessidade de alcançar as folhas fez surgir nas girafas a variação de pescoço longo.", "p": "inversao", "w": "Inverte a causa. Para Darwin, a variação já existe na população; o ambiente seleciona, mas não cria a variação por necessidade." },
+        { "t": "Já havia variação no pescoço; as de pescoço mais longo sobreviviam e se reproduziam mais, e a característica se tornou comum.", "p": "correta", "w": "É a seleção natural: variação prévia, sobrevivência e reprodução diferenciais e aumento da frequência da característica favorável ao longo das gerações." },
+        { "t": "Darwin explicou o fenômeno com base nas leis de Mendel e no papel do DNA na hereditariedade.", "p": "extrapolacao", "w": "Darwin não conhecia o trabalho de Mendel nem o DNA. A união da seleção natural com a genética veio depois, no século XX." }
+      ]
+    },
+    {
+      "id": "bio9",
+      "topic": "Transcrição e tradução",
+      "c": "Em um laboratório de uma universidade de Campinas, um estudante analisa um trecho da fita molde de DNA de uma célula humana com a sequência TAC GGA.",
+      "q": "Qual é a sequência do RNA mensageiro transcrito e onde ele será traduzido?",
+      "a": 0,
+      "src": "Dogma central: DNA → RNA → proteína",
+      "o": [
+        { "t": "AUG CCU, traduzido pelos ribossomos no citoplasma.", "p": "correta", "w": "Na transcrição, A pareia com U, T com A, C com G e G com C. O RNAm sai do núcleo e é traduzido nos ribossomos, no citoplasma." },
+        { "t": "ATG CCT, traduzido pelos ribossomos no citoplasma.", "p": "troca", "w": "Usa timina, base exclusiva do DNA. No RNA, a timina é substituída pela uracila (U)." },
+        { "t": "UAC GGA, traduzido pelos ribossomos no citoplasma.", "p": "calculo", "w": "Apenas trocou T por U na própria fita molde, sem fazer o pareamento de bases. O RNAm é complementar à fita molde." },
+        { "t": "AUG CCU, mas a tradução só pode ocorrer dentro do núcleo, junto ao DNA.", "p": "restricao", "w": "A sequência está certa, mas a restrição não existe. Em células eucarióticas, a transcrição ocorre no núcleo e a tradução, no citoplasma." }
+      ]
+    },
+    {
+      "id": "bio10",
+      "topic": "Dengue",
+      "c": "Agentes de combate a endemias de Campo Grande (MS) visitam casas e encontram larvas de mosquito em pratos de vasos de plantas com água parada.",
+      "q": "Qual afirmação sobre a dengue está correta?",
+      "a": 3,
+      "src": "Ministério da Saúde: dengue",
+      "o": [
+        { "t": "É causada por um protozoário e transmitida pelo mosquito Anopheles, o mesmo da malária.", "p": "troca", "w": "Mistura a dengue com a malária. A malária é causada por um protozoário (Plasmodium) e transmitida pelo Anopheles; a dengue não." },
+        { "t": "O vírus é o vetor da doença, e o mosquito é o seu agente causador.", "p": "inversao", "w": "Inverte os papéis. O agente causador é o vírus da dengue; o vetor, que o transmite, é o mosquito Aedes aegypti." },
+        { "t": "Além da picada do mosquito, passa de pessoa para pessoa pela tosse e pelo espirro, como a gripe.", "p": "extrapolacao", "w": "A dengue não é transmitida pelo ar. A via de transmissão relevante é a picada do mosquito infectado." },
+        { "t": "É causada por um vírus e transmitida pela picada da fêmea do Aedes aegypti, que se reproduz em água parada.", "p": "correta", "w": "Só a fêmea do Aedes aegypti se alimenta de sangue e transmite o vírus. Eliminar a água parada interrompe o ciclo do mosquito." }
+      ]
+    }
+  ]
+}

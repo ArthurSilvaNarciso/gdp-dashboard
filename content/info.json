@@ -1,0 +1,116 @@
+{
+  "id": "info", "title": "Informática para concursos", "subtitle": "Windows, Office e internet", "tag": "Concursos",
+  "blurb": "Atalhos, planilhas, protocolos, backup, nuvem e e-mail: o que mais cai nas provas de informática, em casos práticos do dia a dia.",
+  "questions": [
+    {
+      "id": "info1", "topic": "Atalhos do Windows",
+      "c": "Marcos, servidor de uma prefeitura em Natal, vai sair para o almoço e deixará o computador ligado, com uma planilha aberta no meio do trabalho.",
+      "q": "Qual afirmação sobre atalhos do Windows está correta?", "a": 1, "src": "Microsoft: atalhos de teclado do Windows",
+      "o": [
+        { "t": "Ctrl + Z refaz a última ação que foi desfeita.", "p": "inversao", "w": "É o contrário: Ctrl + Z desfaz a última ação. Para refazer, o atalho usual é Ctrl + Y." },
+        { "t": "Win + L bloqueia a sessão sem fechar os programas abertos.", "p": "correta", "w": "Win + L bloqueia o computador na hora. Para voltar, é preciso a senha, e a planilha continua aberta do jeito que estava." },
+        { "t": "Alt + Tab fecha a janela ativa.", "p": "troca", "w": "Alt + Tab alterna entre as janelas abertas. Quem fecha a janela ativa é Alt + F4." },
+        { "t": "Win + L encerra a sessão e fecha todos os programas, como um logoff.", "p": "extrapolacao", "w": "Bloquear não é sair. O logoff encerra a sessão e fecha os programas; o bloqueio só protege a tela e mantém tudo aberto." }
+      ]
+    },
+    {
+      "id": "info2", "topic": "Quebra de página",
+      "c": "Paula está formatando um relatório no Word e, para começar cada capítulo em uma página nova, aperta Enter várias vezes. Sempre que ela edita o texto acima, os títulos saem do lugar.",
+      "q": "Qual é a solução adequada?", "a": 3, "src": "Microsoft Word: inserir quebra de página",
+      "o": [
+        { "t": "Usar Shift + Enter no fim do capítulo, que cria uma página nova.", "p": "troca", "w": "Shift + Enter insere uma quebra de linha manual, sem criar parágrafo novo. Não leva o texto para a próxima página." },
+        { "t": "Continuar usando Enter, mas só depois de terminar de editar todo o texto.", "p": "restricao", "w": "Funciona só até a próxima alteração. Qualquer revisão posterior volta a deslocar os títulos." },
+        { "t": "Inserir uma quebra de página logo depois do título de cada capítulo.", "p": "inversao", "w": "A quebra no lugar errado separa o título do texto: o título fica no fim de uma página e o capítulo começa na seguinte." },
+        { "t": "Inserir uma quebra de página antes de cada capítulo, com Ctrl + Enter.", "p": "correta", "w": "A quebra de página força o início do capítulo na página seguinte, não importa quanto texto haja antes. Ctrl + Enter funciona no Word e no Writer." }
+      ]
+    },
+    {
+      "id": "info3", "topic": "Referências mistas",
+      "c": "Na planilha de estoque do almoxarifado de um tribunal, a célula C3 contém a fórmula =A$1+$B2. O técnico copia C3 e cola em D5.",
+      "q": "Qual fórmula aparecerá em D5?", "a": 0, "src": "Planilhas: referências relativas, absolutas e mistas",
+      "o": [
+        { "t": "=B$1+$B4", "p": "correta", "w": "De C3 para D5, anda 1 coluna e 2 linhas. Em A$1, a coluna vira B e a linha fica travada. Em $B2, a coluna fica travada e a linha vai de 2 para 4." },
+        { "t": "=A$1+$B2", "p": "generalizacao", "w": "Supõe que qualquer $ trava a referência inteira. O $ trava só a parte que vem logo depois dele: a linha em A$1 e a coluna em $B2." },
+        { "t": "=B$3+$C4", "p": "calculo", "w": "Deslocou linha e coluna de todas as referências, ignorando os $. As partes travadas não mudam ao copiar." },
+        { "t": "=$A3+C$2", "p": "inversao", "w": "Inverteu o papel do $: travou o que estava livre e deslocou o que estava travado." }
+      ]
+    },
+    {
+      "id": "info4", "topic": "Protocolos de e-mail",
+      "c": "Juliana, analista de uma agência reguladora, lê o e-mail institucional no notebook, no celular e no computador do escritório. Ela quer que mensagens, pastas e marcações de lido fiquem iguais em todos, mantidas no servidor.",
+      "q": "Qual protocolo de recebimento atende melhor a essa necessidade?", "a": 2, "src": "Protocolos de e-mail: SMTP, POP3 e IMAP",
+      "o": [
+        { "t": "POP3, que baixa as mensagens para o aparelho.", "p": "troca", "w": "O POP3 foi feito para baixar mensagens para um dispositivo. Ele não sincroniza pastas nem marcações entre vários aparelhos." },
+        { "t": "SMTP, que é o protocolo usado para receber e-mails.", "p": "inversao", "w": "Inverteu a função. O SMTP é o protocolo de envio de mensagens; para receber, usam-se POP3 ou IMAP." },
+        { "t": "IMAP, que mantém as mensagens no servidor e sincroniza os aparelhos.", "p": "correta", "w": "Com IMAP, as mensagens e pastas ficam no servidor, e cada aparelho apenas as acessa. Lido, movido ou apagado em um aparece igual nos outros." },
+        { "t": "POP3, desde que ela use o mesmo programa de e-mail em todos os aparelhos.", "p": "restricao", "w": "Usar o mesmo programa não muda o funcionamento do protocolo. O POP3 continua sem sincronizar pastas e marcações." }
+      ]
+    },
+    {
+      "id": "info5", "topic": "RAM e armazenamento",
+      "c": "O computador de um cartório em Ribeirão Preto fica lento quando vários programas estão abertos, embora o SSD de 512 GB ainda tenha 300 GB livres. O técnico sugere aumentar a memória RAM de 4 GB para 16 GB.",
+      "q": "Por que a sugestão do técnico faz sentido?", "a": 2, "src": "Arquitetura de computadores: memória principal e secundária",
+      "o": [
+        { "t": "Não faz sentido: com 300 GB livres no SSD, o computador já tem memória de sobra.", "p": "troca", "w": "Confunde armazenamento com RAM. O SSD guarda arquivos; os programas em execução precisam de espaço na RAM." },
+        { "t": "Porque a RAM, ao contrário do SSD, mantém os dados mesmo com o computador desligado.", "p": "inversao", "w": "É o contrário. A RAM é volátil e perde o conteúdo ao desligar; o SSD é que guarda os dados de forma permanente." },
+        { "t": "Porque a RAM guarda temporariamente os programas e dados em uso; com pouca RAM, o sistema recorre ao disco, que é mais lento.", "p": "correta", "w": "Quando a RAM acaba, o sistema usa parte do disco como extensão da memória, o que é bem mais lento. Mais RAM permite manter mais programas abertos com fluidez." },
+        { "t": "Porque mais RAM aumenta também o espaço disponível para salvar arquivos.", "p": "extrapolacao", "w": "A RAM não é usada para salvar arquivos. O espaço de armazenamento continua sendo o do SSD." }
+      ]
+    },
+    {
+      "id": "info6", "topic": "Extensões de arquivo",
+      "c": "Um servidor de uma secretaria estadual recebe um e-mail com o anexo boleto_pagamento.pdf.exe e a mensagem \"segue o boleto em PDF\".",
+      "q": "Que tipo de arquivo é esse anexo?", "a": 0, "src": "Windows: extensões de nome de arquivo",
+      "o": [
+        { "t": "Um executável, pois a extensão que vale é a última, depois do último ponto.", "p": "correta", "w": "A extensão real é .exe, que indica um programa. O .pdf no meio do nome é só parte do nome, um truque comum para enganar quem lê rápido." },
+        { "t": "Um PDF, pois a extensão .pdf aparece no nome.", "p": "inversao", "w": "Leu a extensão na ordem errada. O que define o tipo é o trecho após o último ponto, que aqui é .exe." },
+        { "t": "Um PDF e um executável ao mesmo tempo, que abre nos dois programas.", "p": "extrapolacao", "w": "Um arquivo tem uma única extensão efetiva. O Windows o trata como programa, por causa do .exe final." },
+        { "t": "Só seria um executável se a extensão estivesse em maiúsculas, como .EXE.", "p": "restricao", "w": "No Windows, extensões não diferenciam maiúsculas de minúsculas. .exe e .EXE são a mesma coisa." }
+      ]
+    },
+    {
+      "id": "info7", "topic": "Backup diferencial",
+      "c": "Um escritório de contabilidade em Londrina faz backup completo no domingo e backups diferenciais de segunda a sábado. Na quinta de manhã, o servidor falha e é preciso recuperar os dados como estavam na quarta à noite.",
+      "q": "O que precisa ser restaurado?", "a": 3, "src": "Tipos de backup: completo, incremental e diferencial",
+      "o": [
+        { "t": "O completo de domingo e os backups de segunda, terça e quarta.", "p": "troca", "w": "Esse é o procedimento do backup incremental, em que cada cópia só tem o que mudou desde o backup anterior." },
+        { "t": "Apenas o diferencial de quarta, pois ele já contém tudo.", "p": "extrapolacao", "w": "O diferencial tem só o que mudou desde o último completo. Sem o completo de domingo, faltariam os arquivos que não mudaram." },
+        { "t": "O diferencial de quarta e, depois dele, o completo de domingo.", "p": "inversao", "w": "A ordem está invertida. Restaurar o completo por último sobrescreveria as versões mais novas pelas de domingo." },
+        { "t": "O completo de domingo e, depois, apenas o diferencial de quarta.", "p": "correta", "w": "Cada diferencial acumula tudo o que mudou desde o último completo. Basta o completo seguido do diferencial mais recente." }
+      ]
+    },
+    {
+      "id": "info8", "topic": "Modelos de nuvem",
+      "c": "Uma prefeitura em Maringá passou a usar e-mail, editor de textos e planilhas de um pacote on-line pelo navegador, sem instalar servidores nem cuidar das atualizações do software.",
+      "q": "Em qual modelo de serviço de nuvem isso se enquadra?", "a": 1, "src": "NIST SP 800-145: definição de computação em nuvem",
+      "o": [
+        { "t": "IaaS, em que a prefeitura contrata só servidores virtuais e instala ela mesma os programas.", "p": "troca", "w": "No IaaS, o cliente recebe a infraestrutura e cuida do sistema e dos aplicativos. Não é o caso de quem só usa o software pronto." },
+        { "t": "SaaS, em que o fornecedor entrega o software pronto e cuida da infraestrutura e das atualizações.", "p": "correta", "w": "No SaaS (software como serviço), o usuário só usa a aplicação, geralmente pelo navegador. Servidores, manutenção e atualizações ficam com o fornecedor." },
+        { "t": "Nuvem privada, pois todo serviço usado por órgão público é privado por definição.", "p": "generalizacao", "w": "Ser órgão público não torna a nuvem privada. Um pacote on-line oferecido a muitos clientes é um serviço de nuvem pública." },
+        { "t": "Não é nuvem, pois só há computação em nuvem quando os dados ficam em servidores no exterior.", "p": "restricao", "w": "A localização dos servidores não define a nuvem. O que importa é o acesso a recursos sob demanda, pela rede, oferecidos por um provedor." }
+      ]
+    },
+    {
+      "id": "info9", "topic": "Partes da URL",
+      "c": "No material de um curso, aparece o endereço https://loja.cafebrasil.com.br/produtos/moido, de uma empresa fictícia.",
+      "q": "Assinale a identificação correta das partes dessa URL.", "a": 0, "src": "RFC 3986: sintaxe de URI",
+      "o": [
+        { "t": "https é o protocolo, cafebrasil.com.br é o domínio, loja é um subdomínio e /produtos/moido é o caminho.", "p": "correta", "w": "O protocolo vem antes de ://. Depois vem o nome do servidor (subdomínio + domínio) e, após a primeira barra, o caminho do recurso." },
+        { "t": "O domínio é apenas .br, e cafebrasil é o nome da página.", "p": "troca", "w": ".br é o domínio de primeiro nível, que indica o país. O domínio registrado pela empresa é cafebrasil.com.br." },
+        { "t": "O domínio é /produtos/moido e loja.cafebrasil.com.br é o caminho.", "p": "inversao", "w": "Inverteu as partes. O nome do servidor vem antes da primeira barra; o caminho vem depois dela." },
+        { "t": "Tudo o que vem depois de https:// faz parte do domínio.", "p": "generalizacao", "w": "O domínio termina na primeira barra. O que vem depois, como /produtos/moido, é o caminho dentro do site." }
+      ]
+    },
+    {
+      "id": "info10", "topic": "Cc e Cco",
+      "c": "A secretária de uma escola estadual em Belém vai enviar um comunicado por e-mail para 150 pais. Os pais não devem ver os endereços uns dos outros.",
+      "q": "Como ela deve endereçar a mensagem?", "a": 3, "src": "Clientes de e-mail: campos Para, Cc e Cco",
+      "o": [
+        { "t": "Colocar os endereços dos pais em Cc, que esconde os destinatários.", "p": "troca", "w": "Cc (com cópia) mostra os endereços a todos que recebem. Quem oculta é o Cco (com cópia oculta)." },
+        { "t": "Colocar os endereços em Cco, mas saber que cada pai verá os demais se clicar em Responder a todos.", "p": "extrapolacao", "w": "Os endereços em Cco não aparecem para os outros destinatários, nem ao responder a todos." },
+        { "t": "Colocar todos em Para, pois os provedores ocultam a lista quando há mais de 100 destinatários.", "p": "restricao", "w": "Não existe essa regra. Endereços em Para ficam visíveis para todos, qualquer que seja a quantidade." },
+        { "t": "Colocar os endereços dos pais em Cco (cópia oculta).", "p": "correta", "w": "No Cco, cada destinatário recebe a mensagem sem ver os demais endereços. Isso protege a privacidade dos pais." }
+      ]
+    }
+  ]
+}
