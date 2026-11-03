@@ -613,6 +613,63 @@ details.acc.plain .body { padding: 0 16px 16px; }
 .empty-illo span { font-size: 14px; color: var(--ink-3); max-width: 260px; }
 .result-illo { width: 112px; margin: 18px auto 2px; color: #fff; }
 .result-illo .illo { color: #fff; }
+
+/* ===== v5.4 · avatar e perfil ===== */
+.av { display: inline-block; width: 42px; height: 42px; border-radius: 50%; overflow: hidden; flex: none; background: var(--tile); }
+.av.sm { width: 36px; height: 36px; }
+.av.md { width: 58px; height: 58px; }
+.av .avsvg, .avatar .avsvg { width: 100%; height: 100%; display: block; border-radius: 50%; }
+.avatar.avbtn { padding: 0; overflow: hidden; background: rgba(255,255,255,.16); box-shadow: 0 0 0 2px rgba(255,255,255,.35); }
+.phead { position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px; background: var(--surface); border-radius: 26px; padding: 22px 18px 18px; box-shadow: var(--shadow); overflow: hidden; }
+.phead::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 92px; background: var(--navy); }
+.phead::after { content: ""; position: absolute; width: 130px; height: 130px; border-radius: 50%; background: var(--orange); right: -50px; top: -64px; opacity: .95; }
+.phead > * { position: relative; z-index: 1; }
+.phead-av { position: relative; width: 116px; height: 116px; border-radius: 50%; padding: 0; box-shadow: 0 0 0 5px var(--surface), 0 12px 28px rgba(20,26,51,.18); margin-top: 8px; }
+.phead-av .avsvg { width: 100%; height: 100%; border-radius: 50%; display: block; }
+.phead-edit { position: absolute; right: -2px; bottom: 2px; width: 34px; height: 34px; border-radius: 50%; background: var(--orange); color: #fff; display: grid; place-items: center; box-shadow: 0 0 0 3px var(--surface); }
+.phead-edit .ico { width: 17px; height: 17px; stroke-width: 2.2; }
+.phead-name { font-size: 22px; margin-top: 6px; overflow-wrap: anywhere; }
+.phead-sub { font-size: 13.5px; color: var(--ink-3); font-weight: 700; overflow-wrap: anywhere; }
+.phead-lv { width: 100%; display: flex; flex-direction: column; gap: 6px; margin-top: 8px; }
+.lvrow { display: flex; justify-content: space-between; font-size: 13px; color: var(--ink-2); }
+.lvrow b { font-family: var(--display); font-weight: 600; color: var(--ink); }
+.phead-stats { width: 100%; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 8px 0 4px; }
+.phead-stats > div { background: var(--bg); border-radius: 18px; padding: 12px 6px; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.phead-stats .tile { width: 34px; height: 34px; border-radius: 12px; }
+.phead-stats .tile .ico { width: 19px; height: 19px; }
+.phead-stats b, .phead-stats b span { font-family: var(--display); font-weight: 600; font-size: 18px; }
+.phead-stats > div > span:not(.tile) { font-size: 11.5px; font-weight: 700; color: var(--ink-3); }
+.avnudge { display: flex; align-items: center; gap: 12px; background: var(--surface); border-radius: 22px; padding: 12px 12px 12px 14px; box-shadow: var(--shadow); }
+.avnudge > div:nth-child(2) { flex: 1; min-width: 0; }
+.avnudge b { display: block; font-family: var(--display); font-weight: 600; font-size: 15px; }
+.avnudge span:not(.av) { font-size: 13px; color: var(--ink-3); line-height: 1.35; display: block; }
+.avnudge-act { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+/* editor */
+.avpage { min-height: 100%; display: flex; flex-direction: column; background: var(--surface); }
+.avstage { background: var(--avbg, var(--bg)); padding-bottom: 22px; transition: background .3s ease; }
+#view:has(.avpage) { display: flex; flex-direction: column; }
+.avpage { flex: 1 0 auto; padding-bottom: 0; }
+.avpreview { width: 188px; height: 188px; margin: 0 auto; border-radius: 50%; box-shadow: 0 0 0 6px var(--surface), 0 18px 40px rgba(20,26,51,.16); overflow: hidden; }
+.avpreview .avsvg { width: 100%; height: 100%; display: block; }
+.avpreview.bump { animation: avbump .28s cubic-bezier(.2,1.4,.4,1); }
+@keyframes avbump { 40% { transform: scale(1.04); } }
+.avpanel { flex: 1; background: var(--surface); border-radius: 26px 26px 0 0; box-shadow: 0 -6px 24px rgba(20,26,51,.06); padding: 14px 0 12px; display: flex; flex-direction: column; gap: 12px; }
+.avcats { display: flex; gap: 8px; overflow-x: auto; padding: 0 16px 2px; scrollbar-width: none; }
+.avcats::-webkit-scrollbar { display: none; }
+.avcats .fchip { flex: none; }
+#av-opts { padding: 0 16px; }
+.avgrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.avopt { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 8px 4px 10px; border-radius: 18px; background: var(--bg); box-shadow: inset 0 0 0 2px transparent; font-size: 12.5px; font-weight: 700; color: var(--ink-2); transition: box-shadow .15s ease, transform .12s ease; }
+.avopt.on { box-shadow: inset 0 0 0 2.5px var(--orange); color: var(--ink); background: var(--surface); }
+.avopt:active { transform: scale(.96); }
+.avthumb { width: 74px; height: 74px; border-radius: 50%; overflow: hidden; display: block; }
+.avthumb .avsvg { width: 100%; height: 100%; display: block; }
+.avsw { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; padding: 4px 0; }
+.sw { aspect-ratio: 1; border-radius: 50%; background: var(--c); box-shadow: inset 0 0 0 1.5px rgba(20,26,51,.12); position: relative; transition: transform .12s ease; }
+.sw.on { box-shadow: 0 0 0 3px var(--surface), 0 0 0 5.5px var(--orange); }
+.sw:active { transform: scale(.92); }
+.avtoggle { display: flex; align-items: center; justify-content: space-between; margin-top: 16px; padding: 12px 14px; border-radius: 16px; background: var(--bg); font-weight: 700; font-size: 14px; }
+.avpage .dock { display: grid; grid-template-columns: 1fr 1.6fr; gap: 10px; }
 </style>
 
 <div id="app">

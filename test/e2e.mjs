@@ -142,6 +142,19 @@ try {
   await E.waitForSelector('.cls-hero'); await E.waitForTimeout(300);
   ok('aluno vê trilhas e ranking (sem dados dos colegas)', (await E.locator('.rank .item').count()) === 2 && (await E.locator('text=duda@memory.app').count()) === 0);
   await shot(E, 'e5-aluno.png');
+  ok('ranking mostra o avatar de cada aluno', (await E.locator('.rank .item .av svg').count()) === 2);
+  /* ---------- Avatar ---------- */
+  await E.click('[data-tab=perfil]'); await E.click('.phead [data-act=av-open]'); await E.waitForSelector('.avpreview svg');
+  await E.click('[data-act=av-cat][data-k=hair]'); await E.click('[data-act=av-set][data-k=hair][data-v=coque]');
+  await E.click('[data-act=av-cat][data-k=acc]'); await E.click('[data-act=av-set][data-k=acc][data-v=fone]');
+  await E.click('[data-act=av-cat][data-k=bg]'); await E.click('[data-act=av-set][data-k=bg][data-v="3"]');
+  await E.click('[data-act=av-random]'); await E.click('[data-act=av-cat][data-k=hair]'); await E.click('[data-act=av-set][data-k=hair][data-v=coque]');
+  await E.click('[data-act=av-save]'); await E.waitForTimeout(300);
+  ok('avatar salvo no perfil', await E.evaluate(() => S.user.avatar.hair === 'coque' && !!document.querySelector('.phead-av svg')));
+  await flush(E);
+  ok('avatar sincronizado na conta', await E.evaluate(async () => (await (await fetch('/api/state')).json()).state.user.avatar.hair === 'coque'));
+  await D.evaluate(() => openClass(API.classes[0].id)); await D.waitForSelector('.rank'); await D.waitForTimeout(300);
+  ok('colega vê o avatar novo no ranking', await D.evaluate(() => API.cls.ranking.some((r) => r.avatar && r.avatar.hair === 'coque')));
   // Painel do professor
   await A.click('[data-act=cls-refresh]'); await A.waitForSelector('.member'); await A.waitForTimeout(300);
   ok('painel lista 2 alunos', (await A.locator('.member').count()) === 2);

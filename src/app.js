@@ -523,8 +523,8 @@ function render() {
   if (!S.user.onboarded) { tabbar.hidden = true; v.innerHTML = viewOnboarding(); navyTop = true; }
   else if (ui.session) { tabbar.hidden = true; v.innerHTML = viewSession(); navyTop = ui.session.phase === 'summary'; }
   else {
-    tabbar.hidden = false; tabbar.innerHTML = viewTabbar();
-    const views = { home: viewHome, trilhas: viewTrilhas, importar: viewImport, progresso: viewProgress, perfil: viewProfile, conta: viewConta, turmas: viewTurmas, admin: viewAdmin };
+    tabbar.hidden = ui.tab === 'avatar'; tabbar.innerHTML = viewTabbar();
+    const views = { home: viewHome, trilhas: viewTrilhas, importar: viewImport, progresso: viewProgress, perfil: viewProfile, conta: viewConta, turmas: viewTurmas, admin: viewAdmin, avatar: viewAvatar };
     v.innerHTML = (views[ui.tab] || viewHome)();
     navyTop = ui.tab === 'home';
   }
@@ -561,7 +561,7 @@ document.addEventListener('keydown', (e) => {
 });
 new MutationObserver(() => { if (!document.querySelector('.scrim') && renderSheet.back && document.contains(renderSheet.back)) { try { renderSheet.back.focus({ preventScroll: true }); } catch (e) { /* ok */ } renderSheet.back = null; } }).observe(document.getElementById('app'), { childList: true });
 function viewTabbar() {
-  const cur = ui.tab === 'importar' ? 'trilhas' : ui.tab === 'conta' || ui.tab === 'turmas' || ui.tab === 'admin' ? 'perfil' : ui.tab;
+  const cur = ui.tab === 'importar' ? 'trilhas' : ui.tab === 'conta' || ui.tab === 'turmas' || ui.tab === 'admin' || ui.tab === 'avatar' ? 'perfil' : ui.tab;
   const t = (id, label, icon) => `<button class="tab" data-act="tab" data-tab="${id}" ${cur === id ? 'aria-current="page"' : ''}><span class="pip">${ico(icon)}</span><span>${label}</span></button>`;
   return t('home', 'Início', 'home') + t('trilhas', 'Trilhas', 'decks') + t('progresso', 'Progresso', 'chart') + t('perfil', 'Perfil', 'user');
 }
@@ -608,7 +608,7 @@ function viewHome() {
   const decks = personaDecks().map(deckById).filter(Boolean).sort((a, b) => (deckStats(b).t - deckStats(b).f > 0) - (deckStats(a).t - deckStats(a).f > 0));
   const tiles = ['c-blue', 'c-mint', 'c-lilac'], icons = ['target', 'check', 'recall'];
   return `<div class="hdr">${typeof PHOTOS !== 'undefined' ? `<img class="hero-girl fade" src="${PHOTOS.hero}" width="760" height="1020" decoding="async" alt="">` : ''}
-      <div class="top"><div class="hello"><span class="avatar">${esc(initials())}</span><div><small>${hi},</small><b>${first}</b></div></div>
+      <div class="top"><div class="hello"><button class="avatar avbtn" data-act="tab" data-tab="perfil" aria-label="Abrir seu perfil">${avatarSVG(avatarConfig())}</button><div><small>${hi},</small><b>${first}</b></div></div>
         <span class="glass gchip num" title="Dias seguidos">${ico('flame')}${st} ${st === 1 ? 'dia' : 'dias'}</span></div>
       <h1>${due ? 'Hora de <em>revisar</em> o que você aprendeu' : 'Pronto para a <em>próxima sessão</em>?'}</h1>
       <div class="memrow">
@@ -623,6 +623,7 @@ function viewHome() {
       <button class="btn btn-orange btn-sm" data-act="${due ? 'review-all' : 'cycle-all'}">${due ? 'Revisar' : 'Começar'}</button>
     </div></div>
     <div class="page" style="padding-top:22px">
+      ${!S.user.avatar && !S.user.avSeen ? `<div class="avnudge"><span class="av md">${avatarSVG(avatarConfig())}</span><div><b>Monte seu personagem</b><span>Escolha rosto, cabelo, roupa e estilo. Ele aparece no ranking da turma.</span></div><div class="avnudge-act"><button class="btn btn-orange btn-sm" data-act="av-open">Montar</button><button class="icon-btn flat" data-act="av-later" aria-label="Agora não">${ico('close')}</button></div></div>` : ''}
       ${weekStrip()}
       <div class="blk"><div class="sec"><h2>Continue estudando</h2><button class="link" data-act="tab" data-tab="trilhas">Ver todas</button></div>
         <div class="hscroll">${decks.map(deckCard).join('')}</div></div>
@@ -897,14 +898,28 @@ function viewProgress() {
 /* ---------- Perfil ---------- */
 function viewProfile() {
   const p = PERSONAS.find((x) => x.id === S.user.persona);
+  const lv = level(); const [lo, hi] = levelRange(lv); const nb = Object.keys(S.badges || {}).filter((k) => BADGES.some((b) => b.id === k)).length;
   const sw = (key, label, sub, c, i) => `<div class="item"><span class="tile round ${c}">${ico(i)}</span><div class="main"><b>${label}</b><span>${sub}</span></div><button class="switch" role="switch" aria-checked="${!!S.user[key]}" aria-label="${label}" data-act="toggle" data-key="${key}"></button></div>`;
   const ret = S.user.retention || 0.9;
   const acc = (c, i, t, body) => `<details class="acc"><summary><span class="tile round ${c}">${ico(i)}</span><span class="grow">${t}</span>${chev()}</summary><div class="body">${body}</div></details>`;
   return `<div class="page">
     <div class="sec" style="padding-top:6px"><h1 style="font-size:26px">Perfil</h1></div>
-    <div class="pcard"><span class="avatar">${esc(initials())}</span><div style="min-width:0"><b>${esc(S.user.name || 'Estudante')}</b><span>${p ? esc(p.l) : 'Memory'} · nível ${level()}</span></div><button class="edit" data-act="edit-name" aria-label="Editar nome">${ico('edit')}</button></div>
+    <div class="phead">
+      <button class="phead-av" data-act="av-open" aria-label="Editar avatar">${avatarSVG(avatarConfig(), { title: 'Seu avatar' })}<span class="phead-edit">${ico('edit')}</span></button>
+      <h2 class="phead-name">${esc(S.user.name || 'Estudante')}</h2>
+      <span class="phead-sub">${p ? esc(p.l) : 'Memory'}${S.streak.count >= 7 ? ' · em ritmo de ' + S.streak.count + ' dias' : ''}</span>
+      <div class="phead-lv"><div class="lvrow"><b>Nível ${lv}</b><span class="num">${S.xp - lo} / ${hi - lo} XP</span></div><div class="bar"><i class="o" style="width:${Math.max(3, Math.min(100, ((S.xp - lo) / (hi - lo)) * 100))}%"></i></div></div>
+      <div class="phead-stats">
+        <div><span class="tile c-peach">${ico('flame')}</span><b class="num">${cnt(streakNow())}</b><span>dias seguidos</span></div>
+        <div><span class="tile c-blue">${ico('trophy')}</span><b class="num">${nb}/${BADGES.length}</b><span>conquistas</span></div>
+        <div><span class="tile c-mint">${ico('target')}</span><b class="num">${cnt(totalAnswered())}</b><span>respostas</span></div>
+      </div>
+      ${S.user.avatar ? `<button class="btn btn-ghost btn-sm btn-block" data-act="av-open">${ico('edit')} Editar avatar</button>` : `<button class="btn btn-orange btn-sm btn-block" data-act="av-open">Montar meu avatar</button>`}
+    </div>
     ${accountBlock()}
+    <div class="sec" style="margin-top:4px"><h2>Seus dados</h2></div>
     <div class="field"><label for="pf-name">Nome</label><input id="pf-name" class="input" value="${esc(S.user.name)}" maxlength="40" placeholder="Seu nome"></div>
+    <div class="sec" style="margin-top:4px"><h2>Estudo</h2></div>
     <div class="field"><span class="flabel">Objetivo</span><div class="choice-list">${PERSONAS.map((x, i) => `<button class="choice pick" data-act="persona" data-id="${x.id}" aria-pressed="${S.user.persona === x.id}"><span class="tile round ${['c-peach', 'c-blue', 'c-yellow', 'c-mint'][i]}">${ico(['exam', 'read', 'school', 'work'][i])}</span><div class="main"><b>${x.l}</b><span>${x.d}</span></div><i class="radio"></i></button>`).join('')}</div></div>
     <div class="field"><span class="flabel">Meta diária de questões</span><div class="seg" role="group">${[5, 10, 20, 30].map((n) => `<button data-act="goal" data-n="${n}" aria-pressed="${S.user.goal === n}">${n}</button>`).join('')}</div></div>
     <div class="field"><span class="flabel">Retenção desejada</span><div class="seg" role="group">${[0.85, 0.9, 0.95].map((r) => `<button data-act="retention" data-r="${r}" aria-pressed="${Math.abs(ret - r) < 0.001}">${Math.round(r * 100)}%</button>`).join('')}</div><span class="tiny" style="font-size:13px">Mais alto significa mais revisões por dia. 90% é o equilíbrio recomendado.</span></div>
@@ -922,7 +937,7 @@ function viewProfile() {
     <div class="list">${ui.confirmReset ?
       `<div class="item noicon"><div class="main"><b>Zerar todo o progresso?</b><span>Respostas, XP, sequência e revisões serão apagados. Suas trilhas continuam.</span></div></div><div class="item noicon" style="gap:10px"><button class="btn btn-ghost btn-sm" style="flex:1" data-act="cancel-reset">Cancelar</button><button class="btn btn-danger btn-sm" style="flex:1" data-act="do-reset">Zerar</button></div>` :
       `<button class="item noicon" data-act="ask-reset" style="justify-content:center;color:var(--bad);font-weight:700">Zerar progresso</button>`}</div>
-    <p class="tiny" style="text-align:center">Memory 5.0${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
+    <p class="tiny" style="text-align:center">Memory 5.4${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
   </div>`;
 }
 
@@ -1055,9 +1070,8 @@ function weekStrip() {
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && ui.sheet) ACT['sheet-close'](); });
 document.addEventListener('input', (e) => {
   if (e.target.id !== 'pf-name') return;
-  const b = document.querySelector('.pcard b'), av = document.querySelector('.pcard .avatar');
+  const b = document.querySelector('.phead-name');
   if (b) b.textContent = e.target.value.trim() || 'Estudante';
-  if (av) av.textContent = (e.target.value.trim() || 'M').split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
 });
 let pdfReady = null;
 function loadScript(src) { return new Promise((res, rej) => { const s = document.createElement('script'); s.src = src; s.onload = res; s.onerror = () => rej(new Error('load')); document.head.appendChild(s); }); }
