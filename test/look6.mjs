@@ -1,0 +1,12 @@
+import { createRequire } from 'node:module';
+import { start } from '../dev/server.mjs';
+const { chromium } = createRequire(import.meta.url)('playwright');
+const OUT = '/tmp/claude-0/-home-claude/bb4201d1-86ae-53d3-b9e7-0bd93a0ff471/scratchpad/l6-';
+const srv = await start(3956); const b = await chromium.launch();
+const c = await b.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, colorScheme: 'dark' }); const p = await c.newPage();
+await p.goto('http://localhost:3956/'); await p.waitForTimeout(600);
+await p.click('[data-act=onb-next]'); await p.fill('#onb-name', 'Ruth'); await p.click('[data-act=persona][data-id=concurso]'); await p.click('[data-act=onb-next]'); await p.click('[data-act=onb-finish]');
+await p.click('[data-tab=perfil]'); await p.click('.phead [data-act=av-open]'); await p.waitForTimeout(500);
+await p.click('[data-act=av-grp][data-k=fundo]'); await p.click('[data-act=av-set][data-k=bg][data-v="10"]'); await p.click('[data-act=av-set][data-k=bgp][data-v=marca]');
+await p.click('[data-act=av-grp][data-k=cabeca]'); await p.click('[data-act=av-set][data-k=hat][data-v=capelo]'); await p.waitForTimeout(500); await p.screenshot({ path: OUT + 'dark.png' });
+await b.close(); srv.close(); process.exit(0);

@@ -653,7 +653,7 @@ details.acc.plain .body { padding: 0 16px 16px; }
 .avpreview .avsvg { width: 100%; height: 100%; display: block; }
 .avpreview.bump { animation: avbump .28s cubic-bezier(.2,1.4,.4,1); }
 @keyframes avbump { 40% { transform: scale(1.04); } }
-.avpanel { flex: 1; background: var(--surface); border-radius: 26px 26px 0 0; box-shadow: 0 -6px 24px rgba(20,26,51,.06); padding: 14px 0 12px; display: flex; flex-direction: column; gap: 12px; }
+.avpanel { flex: 1; background: var(--surface); display: flex; flex-direction: column; }
 .avcats { display: flex; gap: 8px; overflow-x: auto; padding: 0 16px 2px; scrollbar-width: none; }
 .avcats::-webkit-scrollbar { display: none; }
 .avcats .fchip { flex: none; }
@@ -670,6 +670,31 @@ details.acc.plain .body { padding: 0 16px 16px; }
 .sw:active { transform: scale(.92); }
 .avtoggle { display: flex; align-items: center; justify-content: space-between; margin-top: 16px; padding: 12px 14px; border-radius: 16px; background: var(--bg); font-weight: 700; font-size: 14px; }
 .avpage .dock { display: grid; grid-template-columns: 1fr 1.6fr; gap: 10px; }
+
+/* editor v2: prévia fixa, grupos e seções */
+.avstage { position: sticky; top: 0; z-index: 5; box-shadow: 0 10px 20px -18px rgba(20,26,51,.5); }
+.avtop { display: flex; align-items: center; justify-content: space-between; padding: 6px 16px 0; }
+.avtop b { font-family: var(--display); font-weight: 600; font-size: 16px; color: #1F2A6B; }
+.avtop-r { display: flex; gap: 8px; }
+.avtop .icon-btn[disabled] { opacity: .4; }
+.avstage .avpreview { width: 150px; height: 150px; margin-top: 2px; }
+.avgroups { display: flex; gap: 6px; overflow-x: auto; padding: 14px 16px 0; scrollbar-width: none; }
+.avgroups::-webkit-scrollbar { display: none; }
+.avg { flex: none; display: flex; flex-direction: column; align-items: center; gap: 4px; width: 64px; font-size: 11.5px; font-weight: 700; color: #3B436A; }
+.avg .tile { width: 46px; height: 46px; border-radius: 16px; background: rgba(255,255,255,.7); color: #1F2A6B; box-shadow: inset 0 0 0 2px transparent; transition: background .15s ease, box-shadow .15s ease; }
+.avg[aria-selected="true"] .tile { background: #fff; box-shadow: inset 0 0 0 2.5px var(--orange); }
+.avg[aria-selected="true"] { color: #141A33; }
+.avpanel { padding: 16px; gap: 20px; border-radius: 0; box-shadow: none; }
+.avsec { display: flex; flex-direction: column; gap: 10px; }
+.avsec h3 { font-family: var(--display); font-weight: 600; font-size: 15px; }
+.avsw { grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 9px; }
+.avthumb.crop { background: var(--tile); }
+.avgrid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.avopt { padding: 6px 2px 8px; font-size: 11.5px; border-radius: 16px; }
+.avthumb { width: 60px; height: 60px; }
+.avstage.on-dark .avtop b, .avstage.on-dark .avg { color: #fff; }
+.avstage.on-dark .avg .tile { background: rgba(255,255,255,.16); color: #fff; }
+.avstage.on-dark .avg[aria-selected="true"] .tile { background: #fff; color: #1F2A6B; }
 </style>
 
 <div id="app">
