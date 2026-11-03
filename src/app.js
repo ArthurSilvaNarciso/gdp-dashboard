@@ -510,7 +510,7 @@ function render() {
   else if (ui.session) { tabbar.hidden = true; v.innerHTML = viewSession(); navyTop = ui.session.phase === 'summary'; }
   else {
     tabbar.hidden = false; tabbar.innerHTML = viewTabbar();
-    const views = { home: viewHome, trilhas: viewTrilhas, importar: viewImport, progresso: viewProgress, perfil: viewProfile, conta: viewConta, turmas: viewTurmas };
+    const views = { home: viewHome, trilhas: viewTrilhas, importar: viewImport, progresso: viewProgress, perfil: viewProfile, conta: viewConta, turmas: viewTurmas, admin: viewAdmin };
     v.innerHTML = (views[ui.tab] || viewHome)();
     navyTop = ui.tab === 'home';
   }
@@ -534,7 +534,7 @@ function renderSheet() {
   $('#app').appendChild(el);
 }
 function viewTabbar() {
-  const cur = ui.tab === 'importar' ? 'trilhas' : ui.tab === 'conta' || ui.tab === 'turmas' ? 'perfil' : ui.tab;
+  const cur = ui.tab === 'importar' ? 'trilhas' : ui.tab === 'conta' || ui.tab === 'turmas' || ui.tab === 'admin' ? 'perfil' : ui.tab;
   const t = (id, label, icon) => `<button class="tab" data-act="tab" data-tab="${id}" ${cur === id ? 'aria-current="page"' : ''}><span class="pip">${ico(icon)}</span><span>${label}</span></button>`;
   return t('home', 'Início', 'home') + t('trilhas', 'Trilhas', 'decks') + t('progresso', 'Progresso', 'chart') + t('perfil', 'Perfil', 'user');
 }

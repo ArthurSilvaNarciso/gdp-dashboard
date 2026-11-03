@@ -14,7 +14,7 @@ export async function start(port = 3000, opts = {}) {
   }
   process.env.COOKIE_INSECURE = '1';
   const root = path.resolve(opts.root || '.');
-  const types = { '.html': 'text/html; charset=utf-8', '.webp': 'image/webp', '.png': 'image/png', '.js': 'text/javascript', '.json': 'application/json', '.mp4': 'video/mp4', '.svg': 'image/svg+xml' };
+  const types = { '.html': 'text/html; charset=utf-8', '.webp': 'image/webp', '.png': 'image/png', '.js': 'text/javascript', '.json': 'application/json', '.mp4': 'video/mp4', '.svg': 'image/svg+xml', '.webmanifest': 'application/manifest+json' };
   const server = http.createServer(async (req, res) => {
     const u = new URL(req.url, 'http://x');
     if (u.pathname.startsWith('/api/') || u.pathname === '/api') return handle(req, res);

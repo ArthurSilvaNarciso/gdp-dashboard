@@ -11,6 +11,7 @@ globalThis.__MEMORY_FAKE_AI = async ({ messages, system }) => {
   const chunks = text.match(/.{1,12}/gs).map((t) => `data: ${JSON.stringify({ type: 'content_block_delta', delta: { type: 'text_delta', text: t } })}\n\n`);
   return new Response(new ReadableStream({ async start(c) { for (const ch of chunks) { c.enqueue(new TextEncoder().encode(ch)); await new Promise((r) => setTimeout(r, 2)); } c.close(); } }), { status: 200 });
 };
+process.env.ADMIN_EMAILS = 'ruth@memory.app';
 const PORT = 3931, URL0 = 'http://localhost:' + PORT + '/';
 const srv = await start(PORT);
 const b = await chromium.launch();
@@ -150,6 +151,21 @@ try {
   ok('detalhe do aluno abre', (await A.locator('.mdetail .dprog').count()) === 2);
   await shot(A, 'e6-painel.png');
   await A.evaluate(() => document.querySelector('.mdetail').scrollIntoView()); await shot(A, 'e6b-painel-aluno.png');
+  const [dl] = await Promise.all([A.waitForEvent('download'), A.click('[data-act=cls-report]')]);
+  const csv = await (await import('node:fs')).promises.readFile(await dl.path(), 'utf8');
+  ok('relatório CSV da turma baixado', dl.suggestedFilename().endsWith('.csv') && csv.includes('Duda Lima') && csv.includes('Enzo Prado'));
+  /* ---------- Administração ---------- */
+  await A.click('[data-tab=perfil]'); await A.waitForTimeout(200);
+  ok('admin vê item de Administração', (await A.locator('[data-act=tab][data-tab=admin]').count()) === 1 && (await D.evaluate(() => !API.user.admin)));
+  await A.click('[data-act=tab][data-tab=admin]'); await A.waitForSelector('.achart'); await A.waitForTimeout(400);
+  ok('painel admin com métricas e gráfico', await A.evaluate(() => ADM.data.users.users >= 3 && document.querySelectorAll('.abar').length === 14));
+  await shot(A, 'e10-admin.png');
+  await A.fill('#adm-q', 'duda'); await A.waitForTimeout(700);
+  ok('busca de usuários', await A.evaluate(() => ADM.users.length === 1 && ADM.users[0].email === 'duda@memory.app'));
+  await A.click('[data-act=adm-action][data-a=class_joined]'); await A.waitForTimeout(500);
+  ok('auditoria filtrada', await A.evaluate(() => ADM.audit.length >= 2 && ADM.audit.every((e) => e.action === 'class_joined')));
+  /* ---------- PWA ---------- */
+  ok('manifesto e service worker', await A.evaluate(async () => { const m = await (await fetch('/manifest.webmanifest')).json(); const reg = await navigator.serviceWorker.getRegistration(); return m.short_name === 'Memory' && !!reg; }));
 
   /* ---------- IA pelo servidor ---------- */
   await D.click('[data-tab=home]'); await D.click('[data-act=quick]');

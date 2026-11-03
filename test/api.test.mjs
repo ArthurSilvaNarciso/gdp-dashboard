@@ -14,6 +14,7 @@ before(async () => {
     const chunks = text.match(/.{1,7}/gs).map((t) => `data: ${JSON.stringify({ type: 'content_block_delta', delta: { type: 'text_delta', text: t } })}\n\n`);
     return new Response(new ReadableStream({ start(c) { for (const ch of chunks) c.enqueue(new TextEncoder().encode(ch)); c.close(); } }), { status: 200 });
   };
+  process.env.ADMIN_EMAILS = 'chefe@ex.com, outra@ex.com';
   server = await start(PORT);
 });
 after(() => server.close());
@@ -246,4 +247,30 @@ test('senha, sair de todos os aparelhos, exportar e excluir conta', async () => 
   assert.equal((await a('DELETE', 'auth/me', { password: 'nova-senha-123' })).status, 200);
   assert.equal((await a('GET', 'auth/me')).data.user, null);
   assert.equal((await client()('POST', 'auth/login', { email: 'leo@ex.com', password: 'nova-senha-123' })).status, 401);
+});
+
+test('relatório CSV da turma e área de administração', async () => {
+  const prof = client(); await prof('POST', 'auth/signup', { name: 'Prof Nina', email: 'nina@ex.com', password: 'memoria-forte-n' });
+  const al = client(); await al('POST', 'auth/signup', { name: 'Otto; "Aluno"', email: 'otto@ex.com', password: 'memoria-forte-o' });
+  const c = (await prof('POST', 'classes', { name: 'Relatório 1' })).data.class;
+  await prof('POST', 'classes/' + c.id + '/decks', { builtin: 'neuro' });
+  await al('POST', 'classes/join', { code: c.joinCode });
+  const now = Date.now();
+  await al('PUT', 'state', { state: state({ cards: { neuro1: { n: 1, ok: 1, s: 12, d: 4, last: now, g: 4, due: now + 9e8 } }, log: { [day(0)]: { n: 5, ok: 4 } }, traps: { troca: 3 } }) });
+  const r = await prof('GET', 'classes/' + c.id + '/report');
+  assert.equal(r.status, 200); assert.match(r.headers.get('content-type'), /text\/csv/); assert.match(r.headers.get('content-disposition'), /memory-relatorio-1/);
+  const lines = r.data.replace(/^﻿/, '').trim().split('\r\n');
+  assert.equal(lines.length, 2); assert.match(lines[0], /Trilha: Hackeando o estudo/);
+  assert.ok(lines[1].startsWith('"Otto; ""Aluno"""'), lines[1]); assert.match(lines[1], /;5;4;5;80;/); assert.match(lines[1], /;troca;/);
+  assert.equal((await al('GET', 'classes/' + c.id + '/report')).status, 403);
+  assert.equal((await prof('GET', 'admin/overview')).status, 403);
+  const adm = client(); const su = await adm('POST', 'auth/signup', { name: 'Chefe', email: 'Chefe@ex.com', password: 'memoria-forte-c' });
+  assert.equal(su.data.user.admin, true);
+  const o = await adm('GET', 'admin/overview');
+  assert.equal(o.status, 200); assert.ok(o.data.users.users >= 3); assert.equal(o.data.days.length, 14); assert.ok(o.data.classes.classes >= 1);
+  assert.ok(o.data.days[13].answers >= 5, JSON.stringify(o.data.days.slice(-2)));
+  const us = await adm('GET', 'admin/users?q=otto');
+  assert.equal(us.data.users.length, 1); assert.equal(us.data.users[0].week, 5); assert.equal(us.data.users[0].joined, 1);
+  const au = await adm('GET', 'admin/audit?action=class_joined');
+  assert.ok(au.data.events.length >= 1 && au.data.events.every((e) => e.action === 'class_joined'));
 });

@@ -545,6 +545,15 @@ details.acc.plain .body { padding: 0 16px 16px; }
 @keyframes skel { from { background-position: 100% 0; } to { background-position: -100% 0; } }
 @keyframes fadeUp { from { opacity: 0; transform: translateY(6px); } }
 @media (prefers-reduced-motion: reduce) { .skel, .mdetail { animation: none; } }
+
+.achart { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 4px; height: 128px; align-items: end; margin-top: 10px; }
+.abar { position: relative; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; padding-bottom: 16px; }
+.abar i { display: block; width: 100%; border-radius: 6px 6px 3px 3px; background: linear-gradient(180deg, var(--orange), #FFA866); transform-origin: bottom; animation: growY .6s cubic-bezier(.2,.8,.2,1) both; }
+.abar b { position: absolute; top: -2px; font-size: 10px; font-weight: 700; color: var(--link); }
+.abar span { position: absolute; bottom: 0; font-size: 10px; color: var(--ink-3); font-weight: 700; }
+@keyframes growY { from { transform: scaleY(0); } }
+.item.report { background: var(--surface); border-radius: 18px; box-shadow: var(--shadow); }
+@media (prefers-reduced-motion: reduce) { .abar i { animation: none; } }
 </style>
 
 <div id="app">

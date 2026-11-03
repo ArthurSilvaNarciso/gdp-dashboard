@@ -7,6 +7,9 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Memory">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <meta property="og:title" content="Memory">
 <meta property="og:description" content="Você sabe o que estudar. O Memory resolve o como.">
 <meta property="og:image" content="img/neuro-1280.webp">
@@ -559,6 +562,15 @@ details.acc.plain .body { padding: 0 16px 16px; }
 @keyframes skel { from { background-position: 100% 0; } to { background-position: -100% 0; } }
 @keyframes fadeUp { from { opacity: 0; transform: translateY(6px); } }
 @media (prefers-reduced-motion: reduce) { .skel, .mdetail { animation: none; } }
+
+.achart { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 4px; height: 128px; align-items: end; margin-top: 10px; }
+.abar { position: relative; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; padding-bottom: 16px; }
+.abar i { display: block; width: 100%; border-radius: 6px 6px 3px 3px; background: linear-gradient(180deg, var(--orange), #FFA866); transform-origin: bottom; animation: growY .6s cubic-bezier(.2,.8,.2,1) both; }
+.abar b { position: absolute; top: -2px; font-size: 10px; font-weight: 700; color: var(--link); }
+.abar span { position: absolute; bottom: 0; font-size: 10px; color: var(--ink-3); font-weight: 700; }
+@keyframes growY { from { transform: scaleY(0); } }
+.item.report { background: var(--surface); border-radius: 18px; box-shadow: var(--shadow); }
+@media (prefers-reduced-motion: reduce) { .abar i { animation: none; } }
 </style>
 </head>
 <body>
@@ -1814,7 +1826,7 @@ function render() {
   else if (ui.session) { tabbar.hidden = true; v.innerHTML = viewSession(); navyTop = ui.session.phase === 'summary'; }
   else {
     tabbar.hidden = false; tabbar.innerHTML = viewTabbar();
-    const views = { home: viewHome, trilhas: viewTrilhas, importar: viewImport, progresso: viewProgress, perfil: viewProfile, conta: viewConta, turmas: viewTurmas };
+    const views = { home: viewHome, trilhas: viewTrilhas, importar: viewImport, progresso: viewProgress, perfil: viewProfile, conta: viewConta, turmas: viewTurmas, admin: viewAdmin };
     v.innerHTML = (views[ui.tab] || viewHome)();
     navyTop = ui.tab === 'home';
   }
@@ -1838,7 +1850,7 @@ function renderSheet() {
   $('#app').appendChild(el);
 }
 function viewTabbar() {
-  const cur = ui.tab === 'importar' ? 'trilhas' : ui.tab === 'conta' || ui.tab === 'turmas' ? 'perfil' : ui.tab;
+  const cur = ui.tab === 'importar' ? 'trilhas' : ui.tab === 'conta' || ui.tab === 'turmas' || ui.tab === 'admin' ? 'perfil' : ui.tab;
   const t = (id, label, icon) => `<button class="tab" data-act="tab" data-tab="${id}" ${cur === id ? 'aria-current="page"' : ''}><span class="pip">${ico(icon)}</span><span>${label}</span></button>`;
   return t('home', 'Início', 'home') + t('trilhas', 'Trilhas', 'decks') + t('progresso', 'Progresso', 'chart') + t('perfil', 'Perfil', 'user');
 }
@@ -2848,6 +2860,7 @@ function viewClass() {
       <div class="kcard c-lilac"><span class="tile" style="background:var(--surface)">${ico('spark')}</span><b class="num">${o.memory == null ? '–' : cnt(o.memory, '%')}</b><span>memória média</span></div>
     </div>
     ${(o.traps || []).length ? `<div class="card pad"><b class="d" style="font-weight:600">Pegadinhas que mais derrubam a turma</b><div class="chips" style="margin-top:4px">${o.traps.map(([k, v]) => `<span class="tag c-pink">${esc(TRAP(k))} · ${v}</span>`).join('')}</div><span class="tiny" style="font-size:13px">Vale revisar esses padrões em aula.</span></div>` : ''}
+    <button class="item report" data-act="cls-report"><span class="tile c-mint">${ico('download')}</span><div class="main"><b>Baixar relatório da turma</b><span>Planilha para Excel com o desempenho de cada aluno</span></div>${chev()}</button>
     <div class="blk"><div class="sec"><h2>Trilhas da turma</h2><button class="link" data-act="cls-add-deck">Adicionar</button></div>${decks.length ? `<div class="list">${decks.map(deckRow).join('')}</div>` : `<button class="empty dashed" data-act="cls-add-deck">${ico('plus')} Indique trilhas para a turma estudar</button>`}</div>
     <div class="blk"><div class="sec"><h2>Alunos</h2><span class="tiny num" style="font-weight:700">${(c.students || []).length}</span></div>
       ${(c.students || []).length ? `<div class="list">${c.students.map(student).join('')}</div>` : `<div class="empty">Ninguém entrou ainda. Compartilhe o código <b>${esc(c.joinCode)}</b> com a turma.</div>`}</div>
@@ -2914,12 +2927,18 @@ document.addEventListener('submit', async (e) => {
 });
 
 /* ---------- Bloco de conta no Perfil e no Início ---------- */
+function extraItems() {
+  const items = [];
+  if (loggedIn() && API.user.admin) items.push(`<button class="item" data-act="tab" data-tab="admin"><span class="tile round c-lilac">${ico('chart')}</span><div class="main"><b>Administração</b><span>Usuários, uso e auditoria</span></div>${chev()}</button>`);
+  if (PWA.can()) items.push(`<button class="item" data-act="pwa-install"><span class="tile round c-peach">${ico('download')}</span><div class="main"><b>Instalar o Memory</b><span>Abre como app, direto da tela inicial, até sem internet</span></div>${chev()}</button>`);
+  return items.length ? `<div class="list">${items.join('')}</div>` : '';
+}
 function accountBlock() {
-  if (!API || !API.on || !API.db) return '';
+  if (!API || !API.on || !API.db) return extraItems();
   if (!loggedIn()) return `<div class="promo"><div class="promo-top"><span class="tile" style="background:rgba(255,255,255,.14);color:#fff">${ico('cloud')}</span><div><b>Salve seu progresso na nuvem</b><span>Conta grátis para estudar no celular e no computador, entrar em turmas${API.ai ? ' e usar o tutor com IA' : ''}.</span></div></div>
-    <div class="duo"><button class="btn btn-ghost-light btn-sm" data-act="auth-open" data-m="login">Entrar</button><button class="btn btn-orange btn-sm" data-act="auth-open" data-m="signup">Criar conta</button></div></div>`;
+    <div class="duo"><button class="btn btn-ghost-light btn-sm" data-act="auth-open" data-m="login">Entrar</button><button class="btn btn-orange btn-sm" data-act="auth-open" data-m="signup">Criar conta</button></div></div>${extraItems()}`;
   return `<div class="list"><button class="item" data-act="tab" data-tab="conta"><span class="tile round c-mint">${ico('cloud')}</span><div class="main"><b>${esc(API.user.email)}</b><span data-sync>${syncText()}</span></div>${chev()}</button>
-    <button class="item" data-act="tab" data-tab="turmas"><span class="tile round c-blue">${ico('users')}</span><div class="main"><b>Turmas</b><span>${API.classes.length ? API.classes.map((c) => esc(c.name)).slice(0, 2).join(' · ') + (API.classes.length > 2 ? ' · +' + (API.classes.length - 2) : '') : 'Criar ou entrar com código'}</span></div>${chev()}</button></div>`;
+    <button class="item" data-act="tab" data-tab="turmas"><span class="tile round c-blue">${ico('users')}</span><div class="main"><b>Turmas</b><span>${API.classes.length ? API.classes.map((c) => esc(c.name)).slice(0, 2).join(' · ') + (API.classes.length > 2 ? ' · +' + (API.classes.length - 2) : '') : 'Criar ou entrar com código'}</span></div>${chev()}</button></div>${extraItems()}`;
 }
 function homeClassBlock() {
   if (!loggedIn() || !API.classes.length) return '';
@@ -3015,6 +3034,101 @@ async function handleLinks() {
   }
 }
 
+
+/* ---------- App instalável (PWA) ---------- */
+const PWA = {
+  evt: null,
+  standalone: () => { try { return matchMedia('(display-mode: standalone)').matches || navigator.standalone === true; } catch (e) { return false; } },
+  ios: () => /iphone|ipad|ipod/i.test(navigator.userAgent) && !/crios|fxios/i.test(navigator.userAgent),
+  can() { return !!(API && API.on) && !this.standalone() && (!!this.evt || this.ios()); }
+};
+window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); PWA.evt = e; if (ui.tab === 'perfil') rerender(); });
+window.addEventListener('appinstalled', () => { PWA.evt = null; notify('Memory instalado. Abra pela tela inicial.'); rerender(); });
+function registerSW() {
+  if (!('serviceWorker' in navigator) || !API.on) return;
+  navigator.serviceWorker.register('/sw.js').catch(() => { /* sem cache offline */ });
+}
+
+/* ---------- Administração ---------- */
+const ADM = { data: null, users: null, audit: null, q: '', action: '', loading: false, err: '' };
+const ACTION_LABEL = { signup: 'Cadastro', login: 'Login', login_failed: 'Login recusado', password_changed: 'Senha alterada', logout_all: 'Saiu dos aparelhos', account_deleted: 'Conta excluída', share_created: 'Código de trilha', class_created: 'Turma criada', class_joined: 'Entrou na turma', class_left: 'Saiu da turma', class_deleted: 'Turma excluída', class_member_removed: 'Aluno removido', class_report: 'Relatório baixado' };
+async function loadAdmin(part) {
+  ADM.loading = true; ADM.err = ''; rerender();
+  try {
+    if (!part || part === 'overview') ADM.data = await api('GET', 'admin/overview');
+    if (!part || part === 'users') ADM.users = (await api('GET', 'admin/users?q=' + encodeURIComponent(ADM.q))).users;
+    if (!part || part === 'audit') ADM.audit = (await api('GET', 'admin/audit?action=' + encodeURIComponent(ADM.action))).events;
+  } catch (e) { ADM.err = e.message; }
+  ADM.loading = false; if (ui.tab === 'admin') render();
+}
+function viewAdmin() {
+  if (!loggedIn() || !API.user.admin) { ui.tab = 'perfil'; return viewProfile(); }
+  if (!ADM.data && !ADM.loading && !ADM.err) setTimeout(() => loadAdmin(), 0);
+  const back = `<div class="sec" style="padding-top:6px"><button class="icon-btn" data-act="tab" data-tab="perfil" aria-label="Voltar">${ico('back')}</button><button class="icon-btn" data-act="adm-refresh" aria-label="Atualizar">${ico('refresh')}</button></div>`;
+  const d = ADM.data;
+  if (!d) return `<div class="page">${back}<h1 style="font-size:26px">Administração</h1>${ADM.err ? `<div class="notice err">${esc(ADM.err)}</div>` : '<div class="skel" style="height:180px"></div><div class="skel" style="height:220px"></div>'}</div>`;
+  const max = Math.max(1, ...d.days.map((x) => x.answers));
+  const bars = d.days.map((x, i) => `<div class="abar" title="${x.d.split('-').reverse().join('/')}: ${x.answers} respostas, ${x.signups} cadastros"><i style="height:${Math.max(3, (x.answers / max) * 100)}%"></i>${x.signups ? `<b>${x.signups}</b>` : ''}<span>${i % 2 ? '' : x.d.slice(8)}</span></div>`).join('');
+  const TRAP = (k) => (PATTERNS[k] ? PATTERNS[k].l : k);
+  const actions = ['', 'signup', 'login', 'login_failed', 'class_created', 'class_joined', 'password_changed', 'account_deleted'];
+  return `<div class="page">${back}
+    <div class="blk" style="gap:6px"><h1 style="font-size:26px">Administração</h1><p class="muted small">Visão geral do Memory em tempo real · versão ${esc(d.version)}</p></div>
+    <div class="kgrid">
+      <div class="kcard c-blue"><span class="tile" style="background:var(--surface)">${ico('users')}</span><b class="num">${cnt(d.users.users)}</b><span>usuários · +${d.users.new7} na semana</span></div>
+      <div class="kcard c-mint"><span class="tile" style="background:var(--surface)">${ico('flame')}</span><b class="num">${cnt(d.users.active7)}</b><span>ativos em 7 dias · ${d.users.active1} hoje</span></div>
+      <div class="kcard c-peach"><span class="tile" style="background:var(--surface)">${ico('layers')}</span><b class="num">${cnt(d.answers.week)}</b><span>respostas na semana</span></div>
+      <div class="kcard c-lilac"><span class="tile" style="background:var(--surface)">${ico('target')}</span><b class="num">${d.answers.accuracy == null ? '–' : cnt(d.answers.accuracy, '%')}</b><span>acerto na semana</span></div>
+    </div>
+    <div class="card pad"><div style="display:flex;flex-direction:column;gap:2px"><b class="d" style="font-weight:600">Últimos 14 dias</b><span class="tiny">barras: respostas · número: cadastros</span></div><div class="achart">${bars}</div></div>
+    <div class="list">
+      <div class="item"><span class="tile c-blue">${ico('users')}</span><div class="main"><b>${plural(d.classes.classes, 'turma', 'turmas')}</b><span>${plural(d.classes.students, 'aluno vinculado', 'alunos vinculados')}</span></div></div>
+      <div class="item"><span class="tile c-peach">${ico('decks')}</span><div class="main"><b>${plural(d.content.decks, 'trilha própria', 'trilhas próprias')}</b><span>${plural(d.content.shares, 'código compartilhado', 'códigos compartilhados')} · ${d.content.share_uses} usos</span></div></div>
+      <div class="item"><span class="tile c-lilac">${ico('spark')}</span><div class="main"><b>IA ${d.ai.enabled ? 'ativa' : 'desligada'}</b><span>${d.ai.enabled ? 'Hoje: ' + plural(d.ai.users, 'pessoa', 'pessoas') + ' · ' + d.ai.units + ' unidades' : 'Configure ANTHROPIC_API_KEY na Vercel'}</span></div></div>
+      ${d.traps.length ? `<div class="item"><span class="tile c-pink">${ico('alert')}</span><div class="main"><b>Pegadinhas que mais derrubam</b><span>${d.traps.map(([k, v]) => esc(TRAP(k)) + ' (' + v + ')').join(' · ')}</span></div></div>` : ''}
+    </div>
+    <div class="blk"><div class="sec"><h2>Usuários</h2><span class="tiny num">${(ADM.users || []).length}</span></div>
+      <label class="search">${ico('search')}<input id="adm-q" placeholder="Buscar por nome ou e-mail" value="${esc(ADM.q)}" autocomplete="off" aria-label="Buscar usuário"></label>
+      <div class="list">${(ADM.users || []).map((u) => `<div class="item"><span class="avatar sm">${esc(ini2(u.name))}</span><div class="main"><b>${esc(u.name)}</b><span style="overflow-wrap:anywhere">${esc(u.email)} · visto ${rel(u.lastSeen)}</span><span>${u.answered} respostas · ${u.week} na semana${u.accuracy != null ? ' · ' + u.accuracy + '%' : ''}${u.owned ? ' · professor(a) de ' + u.owned : ''}${u.joined ? ' · aluno(a) em ' + u.joined : ''}</span></div></div>`).join('') || '<div class="empty">Nenhum usuário encontrado.</div>'}</div></div>
+    <div class="blk"><div class="sec"><h2>Auditoria</h2></div>
+      <div class="chips" role="group" aria-label="Filtrar eventos">${actions.map((a) => `<button class="fchip" data-act="adm-action" data-a="${a}" aria-pressed="${ADM.action === a}">${a ? ACTION_LABEL[a] : 'Tudo'}</button>`).join('')}</div>
+      <div class="list">${(ADM.audit || []).map((e) => `<div class="item"><span class="tile ${/failed|deleted|removed/.test(e.action) ? 'c-pink' : 'c-blue'}">${ico(/login|signup/.test(e.action) ? 'user' : /class/.test(e.action) ? 'users' : 'shield')}</span><div class="main"><b>${esc(ACTION_LABEL[e.action] || e.action)}</b><span style="overflow-wrap:anywhere">${esc(e.email || 'sem conta')}${e.ip ? ' · ' + esc(e.ip) : ''}</span></div><span class="end">${rel(e.at)}</span></div>`).join('') || '<div class="empty">Nenhum evento.</div>'}</div></div>
+  </div>`;
+}
+document.addEventListener('input', (e) => {
+  if (e.target.id !== 'adm-q') return;
+  ADM.q = e.target.value; clearTimeout(ADM.t);
+  ADM.t = setTimeout(async () => { try { ADM.users = (await api('GET', 'admin/users?q=' + encodeURIComponent(ADM.q))).users; } catch (er) { return; } const pos = e.target.selectionStart; render(); const el = document.getElementById('adm-q'); if (el) { el.focus(); try { el.setSelectionRange(pos, pos); } catch (x) { /* ok */ } } }, 300);
+});
+async function downloadFile(path, fallbackName) {
+  const r = await fetch('/api/' + path, { credentials: 'same-origin' });
+  if (!r.ok) { let m = 'Não foi possível baixar agora.'; try { m = (await r.json()).message || m; } catch (e) { /* vazio */ } throw new Error(m); }
+  const name = ((r.headers.get('content-disposition') || '').match(/filename="([^"]+)"/) || [])[1] || fallbackName;
+  const url = URL.createObjectURL(await r.blob());
+  const a = document.createElement('a'); a.href = url; a.download = name; document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 4000);
+}
+Object.assign(ACT, {
+  'adm-refresh': () => loadAdmin(),
+  'adm-action': (d) => { ADM.action = d.a || ''; loadAdmin('audit'); },
+  'cls-report': async (d, el) => { const c = API.cls; if (!c) return; el.disabled = true; try { await downloadFile('classes/' + c.id + '/report', 'relatorio-turma.csv'); notify('Relatório baixado. Abre direto no Excel.'); } catch (e) { notify(e.message); } el.disabled = false; },
+  'pwa-install': async () => {
+    if (PWA.evt) { PWA.evt.prompt(); try { await PWA.evt.userChoice; } catch (e) { /* ok */ } PWA.evt = null; rerender(); return; }
+    ui.sheet = `<div class="blk" style="gap:6px"><h2>Instalar no iPhone</h2><p class="muted small">Leva 10 segundos e o Memory passa a abrir como um app.</p></div>
+      <div class="list"><div class="item"><span class="tile c-blue num">1</span><div class="main"><b>Toque em Compartilhar</b><span>O quadrado com a seta, na barra do Safari</span></div></div>
+      <div class="item"><span class="tile c-peach num">2</span><div class="main"><b>“Adicionar à Tela de Início”</b><span>Role a lista de opções até encontrar</span></div></div>
+      <div class="item"><span class="tile c-mint num">3</span><div class="main"><b>Toque em Adicionar</b><span>O ícone do Memory aparece na tela inicial</span></div></div></div>
+      <button class="btn btn-primary btn-block" data-act="sheet-close">Entendi</button>`;
+    renderSheet();
+  }
+});
+async function handleShortcut() {
+  const p = new URLSearchParams(location.search); const a = p.get('acao'); if (!a && !p.get('origem')) return;
+  history.replaceState(null, '', location.pathname);
+  if (!S.user.onboarded) return;
+  if (a === 'revisar') { const ids = dueIds(); if (ids.length) startCycle({ ids, size: 20, title: 'Revisão' }); else notify('Nenhuma revisão pendente agora. Que tal uma sessão nova?'); }
+  else if (a === 'turmas') { ui.tab = 'turmas'; API.cls = null; render(); }
+}
+
 /* ---------- Inicialização do servidor ---------- */
 async function initServer() {
   if (!/^https?:$/.test(location.protocol)) return;
@@ -3031,6 +3145,8 @@ async function initServer() {
     else if (API.classes.length) { API.classes = []; saveClassesCache(); refreshClassDecks(); }
   }
   await handleLinks();
+  await handleShortcut();
+  registerSW();
   rerender();
 }
 

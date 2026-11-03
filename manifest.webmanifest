@@ -1,0 +1,22 @@
+{
+  "name": "Memory — estudo ativo",
+  "short_name": "Memory",
+  "description": "Ciclos curtos de estudo ativo com revisão espaçada, simulados, turmas e tutor com IA.",
+  "lang": "pt-BR",
+  "start_url": "/?origem=app",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F6F7FB",
+  "theme_color": "#1F2A6B",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/img/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Revisar agora", "url": "/?acao=revisar", "icons": [{ "src": "/img/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Turmas", "url": "/?acao=turmas", "icons": [{ "src": "/img/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
