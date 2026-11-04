@@ -204,7 +204,7 @@ function memoryNow(at = Date.now()) { const ids = seenIds(); if (!ids.length) re
 function dueIds() { const now = Date.now(); return seenIds().filter((id) => S.cards[id].due <= now).sort((a, b) => retr(S.cards[a]) - retr(S.cards[b])); }
 function nextDue() { let min = Infinity; for (const id of seenIds()) min = Math.min(min, S.cards[id].due); return min; }
 function errorIds() { return seenIds().filter((id) => S.cards[id].g === 1 || (S.cards[id].lapses > 0 && retr(S.cards[id]) < 0.97)).sort((a, b) => retr(S.cards[a]) - retr(S.cards[b])); }
-const LOG0 = () => ({ n: 0, ok: 0, cert: 0, fixed: 0, rev: 0, cycles: 0, tutor: 0, mx: {} });
+const LOG0 = () => ({ n: 0, ok: 0, cert: 0, fixed: 0, rev: 0, cycles: 0, tutor: 0, units: 0, mx: {} });
 function todayLog() { const k = dayKey(); S.log[k] = Object.assign(LOG0(), S.log[k] || {}); return S.log[k]; }
 function peekToday() { return Object.assign(LOG0(), S.log[dayKey()] || {}); }
 const totalAnswered = () => Object.values(S.log).reduce((a, x) => a + (x.n || 0), 0);
@@ -475,7 +475,7 @@ const chev = () => `<svg class="ico chev" viewBox="0 0 24 24" aria-hidden="true"
 const tickIco = () => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${I.tick}</svg>`;
 
 /* ---------- Imagens (arquivos publicados junto com o app) ---------- */
-const PHOTOS = { hero: 'img/hero.webp', neuro: 1, port: 1, dconst: 1, logica: 1, excel: 1, mat: 1, lgpd: 1 };
+const PHOTOS = { hero: 'img/hero.webp', neuro: 1, port: 1, dconst: 1, logica: 1, excel: 1, mat: 1, lgpd: 1, bio: 1, hist: 1, dadm: 1, info: 1, seg: 1 };
 const REDUCED = (() => { try { return matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) { return false; } })();
 /* ---------- Capas ilustradas das trilhas ---------- */
 const PAL = {
@@ -617,22 +617,16 @@ function viewHome() {
   return `<div class="hdr">${typeof PHOTOS !== 'undefined' ? `<img class="hero-girl fade" src="${PHOTOS.hero}" width="760" height="1020" decoding="async" alt="">` : ''}
       <div class="top"><div class="hello"><button class="avatar avbtn" data-act="tab" data-tab="perfil" aria-label="Abrir seu perfil">${avatarSVG(avatarConfig())}</button><div><small>${hi},</small><b>${first}</b></div></div>
         <div class="chips-r"><span class="glass gchip num" title="Moedas">${coinIco()}${coinsBal()}</span><span class="glass gchip num" title="Dias seguidos">${ico('flame')}${st} ${st === 1 ? 'dia' : 'dias'}</span></div></div>
-      <h1>${due ? 'Hora de <em>revisar</em> o que você aprendeu' : 'Pronto para a <em>próxima sessão</em>?'}</h1>
+      <h1>${todayPlan().every((x) => x.done) ? 'Dia <em>completo</em>. Seu cérebro agradece' : due ? 'Hora de <em>revisar</em> o que você aprendeu' : 'Pronto para a <em>próxima sessão</em>?'}</h1>
       <div class="memrow">
         <div class="glass"><b class="num">${mem == null ? '–' : Math.round(mem * 100) + '%'}</b><span>memória</span></div>
         <div class="glass"><b class="num">${due}</b><span>revisões</span></div>
         <div class="glass"><b class="num">${Math.min(L.n, S.user.goal)}/${S.user.goal}</b><span>meta hoje</span></div>
       </div>
     </div>
-    <div class="cta-float"><div class="cta-card">
-      <span class="tile c-peach">${ico(due ? 'clock' : 'layers')}</span>
-      <div class="txt"><b>${due ? 'Revisão pendente' : 'Sessão de hoje'}</b><span>${due ? plural(Math.min(due, 20), 'questão', 'questões') + ' abaixo da meta' : size + ' questões · ' + (nd < Infinity ? 'próxima revisão ' + whenText(nd) : 'comece agora')}</span></div>
-      <button class="btn btn-orange btn-sm" data-act="${due ? 'review-all' : 'cycle-all'}">${due ? 'Revisar' : 'Começar'}</button>
-    </div></div>
+    <div class="cta-float">${planCard()}</div>
     <div class="page" style="padding-top:22px">
       ${examCard()}
-      ${nextStepCard()}
-      ${chestCard()}
       ${!S.user.avatar && !S.user.avSeen ? `<div class="avnudge"><span class="av md">${avatarSVG(avatarConfig())}</span><div><b>Monte seu personagem</b><span>Escolha rosto, cabelo, roupa e estilo. Ele aparece no ranking da turma.</span></div><div class="avnudge-act"><button class="btn btn-orange btn-sm" data-act="av-open">Montar</button><button class="icon-btn flat" data-act="av-later" aria-label="Agora não">${ico('close')}</button></div></div>` : ''}
       ${weekStrip()}
       <div class="blk"><div class="sec"><h2>Continue estudando</h2><button class="link" data-act="tab" data-tab="trilhas">Ver todas</button></div>
@@ -715,7 +709,7 @@ function viewSession() {
   const head = `<div class="qmeta"><span class="tag ${TAG_COLOR[deck.tag] || 'c-blue'}">${esc(q.topic)}</span><span>${esc(deck.title)}</span>${back ? '<span class="tag c-peach">De volta para fixar</span>' : ''}</div>
     <div class="case"><span class="tile c-${L.pal === 'navy' ? 'blue' : L.pal}">${ico('file')}</span><span>${esc(q.c)}</span></div>
     <h2 class="qtext">${esc(q.q)}</h2>`;
-  const top = (extra) => `<div class="sess-head"><div class="r"><button class="icon-btn" data-act="quit" aria-label="Sair">${ico('close')}</button><div class="pline" role="progressbar" aria-valuenow="${s.i + 1}" aria-valuemax="${s.queue.length}"><i style="width:${Math.max(4, pct)}%"></i></div><span class="d num" style="font-weight:600;font-size:14px;min-width:40px;text-align:right">${s.i + 1}/${s.queue.length}</span></div>${extra}</div>`;
+  const top = (extra) => `<div class="sess-head"><div class="r"><button class="icon-btn" data-act="quit" aria-label="Sair">${ico('close')}</button><div class="pline" role="progressbar" aria-label="Progresso do ciclo" aria-valuemin="1" aria-valuenow="${s.i + 1}" aria-valuemax="${s.queue.length}"><i style="width:${Math.max(4, pct)}%"></i></div><span class="d num" style="font-weight:600;font-size:14px;min-width:40px;text-align:right">${s.i + 1}/${s.queue.length}</span></div>${extra}</div>`;
   const opts = (fb) => `<div class="opts${!fb && s.justRevealed ? ' in' : ''}">${s.order.map((oi, di) => fb ? `<button class="opt ${oi === q.a ? 'right' : oi === s.pick ? 'wrong' : 'dim'}" disabled><span class="L">${LETTERS[di]}</span><span>${esc(q.o[oi].t)}</span></button>` : `<button class="opt" data-act="pick" data-i="${oi}" aria-pressed="${s.pick === oi}"><span class="L">${LETTERS[di]}</span><span>${esc(q.o[oi].t)}</span></button>`).join('')}</div>`;
   if (s.mode === 'sim') {
     return `<div class="sess">${top(`<div class="r" style="justify-content:space-between;padding-left:6px"><span class="tag c-blue">Simulado · gabarito no final</span><span class="timer-chip" id="sim-timer">${mmss(s.deadline - Date.now())}</span></div>`)}
@@ -800,7 +794,7 @@ function viewSummary() {
       ${ill ? `<div class="callout" style="background:var(--bad-soft)"><span class="tile" style="background:var(--bad);color:#fff">${ico('alert')}</span><div><b>${plural(ill, 'ilusão de competência corrigida', 'ilusões de competência corrigidas')}</b><p>Você marcou “tenho certeza” e errou. Esses erros iriam com você para a prova.</p></div></div>` : ''}
       ${fixed ? `<div class="callout" style="background:var(--ok-soft)"><span class="tile" style="background:var(--ok);color:#fff">${ico('check')}</span><div><b>${plural(fixed, 'erro virou acerto', 'erros viraram acertos')}</b><p>A correção imediata funcionou. Agora eles voltam em revisões espaçadas.</p></div></div>` : ''}
       ${top ? `<div class="callout" style="background:var(--t-blue)"><span class="tile" style="background:var(--navy-2);color:#fff">${ico('target')}</span><div><b>Padrão que mais te pegou: ${PATTERNS[top[0]].l}</b><p>${PATTERNS[top[0]].d}</p></div></div>` : ''}
-      <div class="blk" style="gap:8px"><button class="btn btn-orange btn-block" data-act="again">Mais um ciclo</button><button class="btn btn-text btn-block" data-act="end">Voltar ao início</button></div>
+      ${planSummaryHTML()}
     </div></div>`;
 }
 function viewSimSummary() {

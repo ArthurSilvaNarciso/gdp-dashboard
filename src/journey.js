@@ -45,11 +45,11 @@ function checkUnit(s) {
   const p = s.params && s.params.unit; if (!p || p.was) return;
   const dk = deckById(p.deck); if (!dk) return;
   const u = units(dk)[p.n - 1];
-  if (u && u.done) { earnCoins(10); notify(`Etapa ${p.n} concluída · +10 moedas`); S.units = (S.units || 0) + 1; }
+  if (u && u.done) { earnCoins(10); notify(`Etapa ${p.n} concluída · +10 moedas`); S.units = (S.units || 0) + 1; todayLog().units++; }
 }
 
-// Próximo passo no Início: a etapa atual da trilha que você estudou por último (ou a primeira do seu plano).
-function nextStepCard() {
+// Próxima etapa: a etapa atual da trilha que você estudou por último (ou a primeira do seu plano).
+function nextUnit() {
   const decks = personaDecks().map(deckById).filter(Boolean);
   let best = null, bestAt = -1;
   for (const d of decks) {
@@ -57,10 +57,54 @@ function nextStepCard() {
     const u = units(d).find((x) => x.state === 'current');
     if (u && last > bestAt) { best = { d, u }; bestAt = last; }
   }
-  if (!best) return '';
-  const { d, u } = best; const us = units(d); const done = us.filter((x) => x.done).length;
-  return `<button class="nextstep" data-act="unit-start" data-id="${esc(d.id)}" data-n="${u.n}">
-    <span class="ns-node"><b class="num">${u.n}</b></span>
-    <div class="main"><small>Próxima etapa · ${esc(d.title)}</small><b>${esc(u.topics.slice(0, 2).join(' e '))}</b><div class="bar"><i class="o" style="width:${Math.round((done / us.length) * 100)}%"></i></div><span>${done} de ${us.length} etapas concluídas</span></div>
-    ${chev()}</button>`;
+  return best;
 }
+
+/* ================= Plano de hoje =================
+   Três passos curtos, sempre na mesma ordem: revisar o que está esquecendo, avançar uma etapa
+   e bater a meta para abrir o baú. Dá um motivo concreto para abrir o app todo dia. */
+function todayPlan() {
+  const L = peekToday(), due = dueIds().length, g = S.user.goal, steps = [];
+  const size = Math.max(5, Math.min(10, g));
+  if (due || L.rev) steps.push({ done: !due, t: due ? 'Revisar ' + plural(Math.min(due, 20), 'questão', 'questões') : 'Revisões em dia', s: due ? 'Antes que a memória caia abaixo da meta' : plural(L.rev, 'revisão feita', 'revisões feitas') + ' hoje', act: 'review-all', cta: 'Revisar' });
+  else steps.push({ done: L.cycles > 0, t: L.cycles ? 'Ciclo do dia feito' : 'Ciclo de ' + size + ' questões', s: L.cycles ? plural(L.n, 'questão respondida', 'questões respondidas') + ' hoje' : 'Leva uns 5 minutos', act: 'cycle-all', cta: 'Começar' });
+  const nu = nextUnit();
+  if (L.units) steps.push({ done: true, t: L.units > 1 ? L.units + ' etapas concluídas' : 'Etapa concluída', s: nu ? 'Próxima: etapa ' + nu.u.n + ' de ' + nu.d.title : 'Trilhas em dia' });
+  else if (nu) steps.push({ done: false, t: 'Etapa ' + nu.u.n + ' · ' + nu.d.title, s: nu.u.topics.slice(0, 2).join(' e '), act: 'unit-start', ds: { id: nu.d.id, n: nu.u.n }, data: `data-id="${esc(nu.d.id)}" data-n="${nu.u.n}"`, cta: nu.u.seen ? 'Continuar' : 'Começar' });
+  const opened = S.chest === dayKey(), ready = chestReady(), n = Math.min(L.n, g);
+  steps.push({ done: opened, chest: true, t: opened ? 'Baú do dia aberto' : ready ? 'Abrir o baú do dia' : 'Bater a meta e abrir o baú', s: opened ? 'Volte amanhã para um novo' : n + ' de ' + g + ' questões', bar: opened ? 0 : n / g, act: ready ? 'chest-open' : 'cycle-all', cta: ready ? 'Abrir' : 'Estudar', hot: ready });
+  return steps;
+}
+function planCard() {
+  const steps = todayPlan(); const done = steps.filter((x) => x.done).length; const all = done === steps.length;
+  const cur = steps.findIndex((x) => !x.done || false);
+  const li = steps.map((x, i) => {
+    const state = x.done ? 'done' : i === cur ? 'cur' : 'todo';
+    const dot = x.done ? tickIco() : x.chest ? chestSVG(false) : `<b class="num">${i + 1}</b>`;
+    const body = `<span class="ps-txt"><b>${esc(x.t)}</b><span>${esc(x.s)}</span>${x.bar ? `<span class="bar"><i class="o" style="width:${Math.round(x.bar * 100)}%"></i></span>` : ''}</span>`;
+    const pill = state === 'cur' || x.hot ? `<span class="btn ${x.hot ? 'btn-orange' : 'btn-orange'} btn-sm">${esc(x.cta)}</span>` : x.done ? '' : chev();
+    return x.done || !x.act ? `<li class="ps ${state}${x.chest ? ' is-chest' : ''}"><span class="ps-dot">${dot}</span>${body}</li>`
+      : `<li class="ps ${state}${x.chest ? ' is-chest' : ''}"><button class="ps-btn" data-act="${x.act}" ${x.data || ''}><span class="ps-dot">${dot}</span>${body}${pill}</button></li>`;
+  }).join('');
+  return `<section class="plan${all ? ' all' : ''}" aria-label="Plano de hoje">
+    <div class="plan-h"><div><small>Plano de hoje</small><b>${all ? 'Dia completo. Mandou bem!' : done ? done + ' de ' + steps.length + ' passos feitos' : steps.length + ' passos curtos'}</b></div>
+      <span class="plan-ring" style="--p:${Math.round((done / steps.length) * 100)}" aria-label="${done} de ${steps.length}"><span class="num">${done}/${steps.length}</span></span></div>
+    <ol class="plan-steps">${li}</ol>
+    ${all ? `<p class="plan-foot">${ico('flame')} Sequência garantida hoje. Amanhã tem baú novo.</p>` : ''}
+  </section>`;
+}
+
+// Fim de ciclo: mostra o plano e leva direto ao próximo passo (evita o "e agora?").
+function planNext() { const steps = todayPlan(); return { steps, done: steps.filter((x) => x.done).length, nx: steps.find((x) => !x.done && x.act) }; }
+function planSummaryHTML() {
+  const { steps, done, nx } = planNext(); const n = steps.length;
+  const goLbl = !nx ? '' : nx.act === 'chest-open' ? 'Abrir o baú do dia' : nx.act === 'unit-start' ? (nx.cta === 'Continuar' ? 'Continuar a etapa ' : 'Começar a etapa ') + nx.ds.n : nx.act === 'review-all' ? 'Revisar o que falta' : 'Mais um ciclo';
+  const sub = !nx ? 'Plano de hoje completo' : nx.act === 'cycle-all' && nx.chest ? 'Faltam ' + plural(Math.max(0, S.user.goal - peekToday().n), 'questão', 'questões') + ' para abrir o baú' : 'Próximo: ' + nx.t;
+  return `<div class="plan-mini"><span class="plan-ring" style="--p:${Math.round((done / n) * 100)}"><span class="num">${done}/${n}</span></span><div><small>Plano de hoje</small><b>${esc(sub)}</b></div></div>
+    <div class="blk" style="gap:8px">${nx ? `<button class="btn btn-orange btn-block" data-act="plan-go">${esc(goLbl)}</button>${nx.act !== 'cycle-all' ? '<button class="btn btn-soft btn-block" data-act="again">Mais um ciclo</button>' : ''}` : '<button class="btn btn-orange btn-block" data-act="again">Mais um ciclo</button>'}<button class="btn btn-text btn-block" data-act="end">Voltar ao início</button></div>`;
+}
+ACT['plan-go'] = () => {
+  const { nx } = planNext(); if (!nx) return ACT.end();
+  if (nx.act === 'cycle-all' && ui.session) return ACT.again();
+  ACT.end(); ACT[nx.act](nx.ds || {});
+};

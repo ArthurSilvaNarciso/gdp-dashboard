@@ -32,7 +32,7 @@ async function onboard(p, name) {
   await p.waitForSelector('form[data-form=exam]', { timeout: 3000 }).catch(() => {}); await p.waitForTimeout(250);
   if (await p.locator('form[data-form=exam]').count()) { await p.click('.sheet [data-act=sheet-close]'); await p.waitForTimeout(300); }
 }
-async function playSession(p, right = true) {
+async function playSession(p, right = true, stay = false) {
   for (let k = 0; k < 80; k++) {
     const st = await p.evaluate(() => ui.session && ui.session.phase); if (!st || st === 'summary') break;
     if (st === 'desafio') await p.click('[data-act=reveal]');
@@ -43,7 +43,7 @@ async function playSession(p, right = true) {
   }
   await p.waitForTimeout(800);
   if (await p.locator('.scrim').count()) { await p.click('.sheet [data-act=sheet-close]'); await p.waitForTimeout(300); }
-  await p.click('[data-act=end]');
+  if (!stay) await p.click('[data-act=end]');
 }
 const settle = (p) => p.waitForFunction(() => !API.inflight && !API.timer || API.sync === 'saved', null, { timeout: 8000 }).catch(() => {});
 async function flush(p) { await p.evaluate(async () => { clearTimeout(API.timer); API.timer = null; await pushServer(); }); }
@@ -145,10 +145,16 @@ try {
   ok('moedas ganhas ao estudar', await D.evaluate(() => coinsBal() >= 4 + 5));
   await D.evaluate(() => startCycle({ decks: ['neuro'], size: 3, title: 'Sessão' })); await playSession(D);
   await D.click('[data-tab=home]').catch(() => {}); await D.waitForTimeout(300);
+  ok('plano de hoje com passos e progresso', (await D.locator('.plan .ps').count()) >= 2 && (await D.locator('.plan-ring').count()) === 1);
   ok('baú do dia aparece ao bater a meta', (await D.locator('[data-act=chest-open]').count()) === 1);
   const c0 = await D.evaluate(() => coinsBal()); await D.click('[data-act=chest-open]'); await D.waitForSelector('.reward');
   ok('baú dá moedas e só abre uma vez por dia', await D.evaluate((c) => coinsBal() >= c + 10 && !chestReady(), c0)); await D.click('[data-act=chest-close]'); await D.waitForTimeout(300);
-  await D.click('[data-act=exam-open]'); await D.fill('#ex-name', 'ENEM'); await D.fill('#ex-date', new Date(Date.now() + 30 * 864e5).toISOString().slice(0, 10)); await D.click('form[data-form=exam] [type=submit]'); await D.waitForTimeout(300);
+  await D.evaluate(() => startCycle({ decks: ['neuro'], size: 3, title: 'Sessão' })); await playSession(D, true, true);
+  ok('fim de ciclo mostra o plano e o próximo passo', (await D.locator('.plan-mini').count()) === 1);
+  if (await D.locator('[data-act=plan-go]').count()) { await D.click('[data-act=plan-go]'); await D.waitForTimeout(300); ok('próximo passo abre direto', await D.evaluate(() => !!(ui.session && ui.session.phase !== 'summary') || ui.tab === 'home')); if (await D.evaluate(() => !!ui.session)) await D.evaluate(() => ACT.end()); }
+  else await D.click('[data-act=end]');
+  await D.waitForTimeout(200);
+  await D.click('[data-act=exam-open]'); await D.fill('#ex-name', 'ENEM'); await D.fill('#ex-date', new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Sao_Paulo' }).format(new Date(Date.now() + 30 * 864e5))); await D.click('form[data-form=exam] [type=submit]'); await D.waitForTimeout(300);
   ok('objetivo com contagem regressiva e preparação', (await D.locator('.goalcard .ring').count()) === 1 && (await D.locator('.goalcard >> text=Faltam 30 dias').count()) === 1);
   await flush(D);
   // E entra pelo campo de código

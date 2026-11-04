@@ -33,7 +33,7 @@ function client() {
     return { status: r.status, data, headers: r.headers };
   };
 }
-const day = (o = 0) => new Date(Date.now() + o * 864e5).toISOString().slice(0, 10);
+const day = (o = 0) => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Sao_Paulo' }).format(new Date(Date.now() + o * 864e5)); // mesmo dia que o app usa (horário de Brasília)
 const state = (over = {}) => Object.assign({ v: 2, user: { name: 'Ana', persona: 'concurso', goal: 10, onboarded: true, retention: 0.9 }, cards: {}, log: {}, xp: 0, streak: { count: 0, last: null }, freezes: 0, calib: {}, traps: {}, badges: {}, sims: [], totals: { fixed: 0, cycles: 0 }, updatedAt: Date.now() }, over);
 
 test('saúde e banco', async () => {
