@@ -1,0 +1,555 @@
+{
+  "id": "seg",
+  "questions": [
+    {
+      "id": "seg11", "topic": "Smishing de entrega",
+      "c": "Jéssica, assistente de compras de uma rede de farmácias em Curitiba, recebe um SMS: \"Sua encomenda está retida. Pague a taxa de R$ 4,90 em até 2 horas no link\". A empresa de fato espera várias entregas naquela semana.",
+      "q": "Qual é a atitude mais segura?", "a": 2, "src": "Cert.br, Cartilha de Segurança para Internet: Golpes",
+      "o": [
+        { "t": "Pagar a taxa, já que o valor é baixo e a empresa realmente espera encomendas.", "p": "restricao", "w": "O valor baixo é isca: o objetivo costuma ser capturar os dados do cartão. Esperar entregas não torna a mensagem verdadeira." },
+        { "t": "Responder ao SMS pedindo o número de rastreio antes de pagar.", "p": "troca", "w": "Responder só confirma ao golpista que o número está ativo. A checagem deve ser feita fora da mensagem, em canal oficial." },
+        { "t": "Não abrir o link e conferir a situação da entrega digitando o endereço oficial da transportadora ou usando o app oficial.", "p": "correta", "w": "Urgência, taxa inesperada e link por SMS são sinais de smishing. Consultar por um canal que você mesmo acessa elimina o risco do link falso." },
+        { "t": "Abrir o link pelo celular pessoal, que não tem dados da empresa.", "p": "extrapolacao", "w": "Trocar de aparelho não neutraliza o golpe: a página continua tentando roubar dados de pagamento e pode explorar o próprio celular." }
+      ]
+    },
+    {
+      "id": "seg12", "topic": "Golpe do motoboy",
+      "c": "Seu Antônio, sócio de uma padaria em Belém, recebe a ligação de uma suposta \"central de segurança\" do banco. A atendente diz que o cartão foi clonado, pede que ele digite a senha no teclado do telefone e avisa que um motoboy vai buscar o cartão para perícia.",
+      "q": "O que caracteriza essa situação?", "a": 0, "src": "Febraban, alertas de golpes: golpe do motoboy",
+      "o": [
+        { "t": "É golpe: banco não pede senha por telefone nem envia ninguém para retirar cartão.", "p": "correta", "w": "A Febraban alerta que bancos nunca pedem senha nem recolhem cartões em casa. Senha mais cartão físico dá ao golpista tudo o que ele precisa." },
+        { "t": "É legítimo se a atendente souber o nome completo e o CPF dele.", "p": "restricao", "w": "Nome e CPF circulam em vazamentos e são fáceis de obter. Saber esses dados não prova que a ligação vem do banco." },
+        { "t": "É legítimo, pois o banco precisa do cartão para provar a clonagem.", "p": "inversao", "w": "Inverte o procedimento. Em caso de suspeita, o banco bloqueia o cartão pelo sistema; não precisa do plástico nem da senha." },
+        { "t": "É golpe só se o motoboy não apresentar crachá do banco.", "p": "extrapolacao", "w": "Um crachá é fácil de falsificar. O pedido em si, senha por telefone e entrega do cartão, já define o golpe." }
+      ]
+    },
+    {
+      "id": "seg13", "topic": "Número falsificado",
+      "c": "Rafael, gerente de uma loja em Ribeirão Preto, recebe uma ligação em que aparece no visor o mesmo número impresso no verso do seu cartão. O atendente relata compras suspeitas e pede que ele confirme o código que acabou de chegar por SMS.",
+      "q": "O que Rafael deve fazer?", "a": 3, "src": "Febraban, alertas de golpes: falsa central telefônica",
+      "o": [
+        { "t": "Confirmar o código, porque o número exibido no visor prova que é o banco.", "p": "generalizacao", "w": "O número que aparece no identificador pode ser falsificado. Ver o número oficial na tela não garante quem está ligando." },
+        { "t": "Passar o código, mas pedir o nome e a matrícula do atendente.", "p": "restricao", "w": "Nome e matrícula podem ser inventados. Depois que o código é passado, o golpista já tem o que precisa." },
+        { "t": "Não passar o código e esperar o banco enviar outro SMS para confirmar.", "p": "troca", "w": "Esperar outra mensagem não resolve: o golpista pode provocar novos códigos. A checagem precisa partir do próprio cliente." },
+        { "t": "Desligar e ligar ele mesmo para o número oficial do banco, de preferência de outro aparelho.", "p": "correta", "w": "Quem liga define o canal. Retornar por iniciativa própria, idealmente de outro telefone, evita cair de novo na linha do golpista." }
+      ]
+    },
+    {
+      "id": "seg14", "topic": "Falso suporte técnico",
+      "c": "Enquanto pesquisa um fornecedor, Patrícia, do financeiro de uma construtora em Natal, vê surgir uma janela que trava o navegador: \"Seu computador está infectado. Ligue já para o suporte Microsoft no 0800\". Ao ligar, pedem que ela instale um programa de acesso remoto.",
+      "q": "Qual é a resposta correta?", "a": 1, "src": "Cert.br, Cartilha de Segurança para Internet: Golpes",
+      "o": [
+        { "t": "Instalar o programa, já que um técnico vai resolver o problema mais rápido.", "p": "inversao", "w": "O \"técnico\" é o golpista. Com acesso remoto, ele controla o computador, instala malware e pode acessar sistemas financeiros." },
+        { "t": "Não ligar nem instalar nada, fechar o navegador e acionar o suporte de TI da empresa pelo canal interno.", "p": "correta", "w": "Empresas de software não exibem alertas com telefone para ligar. Janelas assim são golpe de falso suporte; quem deve avaliar é a TI da própria empresa." },
+        { "t": "Instalar o programa só se o atendente souber o modelo do computador.", "p": "restricao", "w": "Dados técnicos do navegador são visíveis para qualquer site. Isso não prova que o atendimento é legítimo." },
+        { "t": "Pagar a licença de antivírus oferecida na ligação para remover a infecção.", "p": "extrapolacao", "w": "A cobrança faz parte do golpe. Não existe infecção comprovada, e o pagamento ainda expõe os dados do cartão." }
+      ]
+    },
+    {
+      "id": "seg15", "topic": "Boleto adulterado",
+      "c": "Marcos, do contas a pagar de uma indústria em Joinville, recebe por e-mail o boleto de um fornecedor habitual. Ao digitar o código no aplicativo do banco, a tela de confirmação mostra como beneficiário uma pessoa física desconhecida.",
+      "q": "O que ele deve fazer?", "a": 2, "src": "Febraban, alertas de golpes: boleto falso",
+      "o": [
+        { "t": "Pagar, já que o valor e o vencimento batem com a nota fiscal.", "p": "generalizacao", "w": "O golpista copia valor e vencimento justamente para parecer legítimo. O que denuncia a fraude é o beneficiário diferente." },
+        { "t": "Pagar e depois pedir ao fornecedor que confirme o recebimento.", "p": "inversao", "w": "Inverte a ordem: a confirmação tem de vir antes. Depois do pagamento, recuperar o dinheiro é difícil." },
+        { "t": "Não pagar e confirmar os dados com o fornecedor por um telefone já cadastrado, avisando também a equipe de segurança.", "p": "correta", "w": "Beneficiário diferente do fornecedor é o principal sinal de boleto adulterado. A confirmação deve usar um contato já conhecido, não o que veio no e-mail." },
+        { "t": "Pagar, pois boletos enviados por e-mail de fornecedor conhecido são sempre seguros.", "p": "extrapolacao", "w": "E-mails de fornecedores podem ser invadidos ou interceptados, e o boleto trocado no caminho. A origem conhecida não garante o conteúdo." }
+      ]
+    },
+    {
+      "id": "seg16", "topic": "Troca de conta bancária",
+      "c": "A equipe financeira de uma transportadora em Campo Grande recebe, do e-mail de sempre de um fornecedor, um aviso: \"Mudamos de banco. A partir desta fatura, depositem na nova conta abaixo\". O pagamento de R$ 120 mil vence amanhã.",
+      "q": "Qual procedimento evita a fraude?", "a": 1, "src": "FBI IC3, Business Email Compromise; Cert.br, Cartilha: Golpes",
+      "o": [
+        { "t": "Responder ao e-mail pedindo que o fornecedor confirme a nova conta.", "p": "troca", "w": "Se a caixa do fornecedor foi invadida, quem responde é o próprio golpista. Confirmar pelo mesmo canal não protege." },
+        { "t": "Confirmar a mudança por telefone, usando o número já registrado no cadastro do fornecedor, antes de alterar qualquer dado.", "p": "correta", "w": "Na fraude de e-mail corporativo (BEC), o golpista usa contas reais invadidas. A verificação por um canal independente e já conhecido é o controle mais eficaz." },
+        { "t": "Aceitar a troca, porque o e-mail veio do endereço verdadeiro do fornecedor.", "p": "generalizacao", "w": "Um endereço verdadeiro pode estar comprometido. O remetente legítimo não garante que o pedido é legítimo." },
+        { "t": "Pagar metade na conta nova e metade na antiga para dividir o risco.", "p": "calculo", "w": "Dividir não elimina a fraude: metade do dinheiro ainda pode ir para o golpista. O certo é confirmar antes de pagar." }
+      ]
+    },
+    {
+      "id": "seg17", "topic": "Fraude do CEO",
+      "c": "Luciana, analista de tesouraria em São Paulo, recebe um e-mail do \"presidente\" vindo de presidente@empresa-holding.com, domínio parecido com o real. Ele pede uma transferência sigilosa para uma aquisição e diz para não comentar com ninguém.",
+      "q": "Qual elemento mais indica a fraude e como ela deve agir?", "a": 3, "src": "FBI IC3, Business Email Compromise; Cert.br, Cartilha: Golpes",
+      "o": [
+        { "t": "O tom formal; ela deve responder pedindo que o presidente escreva de modo mais informal.", "p": "troca", "w": "O tom não é o ponto central e pode ser imitado. Responder ao e-mail suspeito mantém a conversa no canal do golpista." },
+        { "t": "Nenhum, pois pedidos do presidente devem ser cumpridos com prioridade.", "p": "inversao", "w": "Inverte a lógica: a autoridade é justamente a alavanca do golpe. Pedidos do topo também precisam seguir o fluxo de aprovação." },
+        { "t": "O valor alto; se fosse menor, ela poderia fazer a transferência.", "p": "restricao", "w": "O valor não define a fraude. Pedido fora do processo, com sigilo e domínio estranho, é suspeito em qualquer valor." },
+        { "t": "A combinação de sigilo, urgência e domínio diferente; ela deve confirmar com o presidente por outro canal e seguir o fluxo de aprovação.", "p": "correta", "w": "Isolar a vítima (\"não conte a ninguém\") e pressionar são marcas da fraude do CEO. Confirmar por canal independente quebra o golpe." }
+      ]
+    },
+    {
+      "id": "seg18", "topic": "Comprovante de Pix falso",
+      "c": "Uma loja de eletrônicos em Uberlândia vende um notebook pelo WhatsApp. O comprador manda a imagem de um comprovante de Pix e pede para retirar o produto imediatamente, pois está \"com pressa\".",
+      "q": "O que o vendedor deve fazer antes de liberar o produto?", "a": 0, "src": "Febraban, alertas de golpes: comprovante falso",
+      "o": [
+        { "t": "Conferir no extrato ou no aplicativo do banco se o valor realmente entrou na conta.", "p": "correta", "w": "Imagens de comprovante são fáceis de forjar ou editar. Só o crédito no extrato confirma que o pagamento aconteceu." },
+        { "t": "Conferir se o comprovante traz nome do banco, data e código de autenticação.", "p": "restricao", "w": "Comprovantes falsos imitam todos esses campos. Checar a imagem não substitui conferir a própria conta." },
+        { "t": "Liberar o produto, porque o Pix é instantâneo e não pode ser falsificado.", "p": "extrapolacao", "w": "A transação Pix é segura, mas a imagem do comprovante não. O golpe está no comprovante, não no sistema Pix." },
+        { "t": "Pedir ao comprador que envie o comprovante também em PDF.", "p": "troca", "w": "Trocar o formato do arquivo não muda nada: um PDF também pode ser forjado. A prova está no extrato." }
+      ]
+    },
+    {
+      "id": "seg19", "topic": "Pix enviado por engano",
+      "c": "Débora, dona de um ateliê em Salvador, recebe um Pix de R$ 900 de um desconhecido. Minutos depois, ele liga dizendo que errou a chave e pede que ela devolva o valor para outra chave Pix, \"a da minha esposa\".",
+      "q": "Qual é a conduta segura?", "a": 2, "src": "Banco Central do Brasil, Regulamento do Pix; Febraban, golpe do Pix errado",
+      "o": [
+        { "t": "Fazer um novo Pix para a chave indicada, já que o dinheiro não é dela.", "p": "troca", "w": "Esse é o golpe: o primeiro Pix pode ter vindo de conta fraudada e ser contestado depois, e ela acabaria pagando duas vezes." },
+        { "t": "Ficar com o valor, pois quem errou a chave perde o direito ao dinheiro.", "p": "inversao", "w": "Valor recebido por engano deve ser devolvido. O erro de quem enviou não transfere a propriedade do dinheiro." },
+        { "t": "Conferir o crédito no extrato e devolver pela função de devolução do próprio Pix recebido, que retorna à conta de origem.", "p": "correta", "w": "A devolução pelo próprio Pix garante que o dinheiro volte para quem enviou. Mandar para outra chave abre espaço para fraude." },
+        { "t": "Devolver para outra chave apenas se o desconhecido mandar a foto de um documento.", "p": "restricao", "w": "Uma foto de documento não muda o risco. O caminho seguro é sempre a devolução para a conta de origem." }
+      ]
+    },
+    {
+      "id": "seg20", "topic": "QR code adulterado",
+      "c": "No estacionamento de um shopping em Florianópolis, Bruno vê um adesivo com QR code colado sobre a placa de pagamento: \"Pague aqui sem fila\". Ao escanear, o Pix mostra como recebedor o nome de uma pessoa física.",
+      "q": "O que esse detalhe indica e o que ele deve fazer?", "a": 3, "src": "Cert.br, Cartilha de Segurança para Internet: Golpes; Febraban, alertas de golpes",
+      "o": [
+        { "t": "Nada de anormal; QR codes em locais públicos são sempre do estabelecimento.", "p": "generalizacao", "w": "Qualquer pessoa pode imprimir e colar um QR code por cima do original. Estar no local não prova a origem." },
+        { "t": "Pagar, pois o Pix é seguro e o dinheiro pode ser recuperado depois.", "p": "extrapolacao", "w": "A segurança do Pix não impede que você pague a pessoa errada, e a recuperação não é garantida." },
+        { "t": "Pagar só se o valor for igual ao da tabela do estacionamento.", "p": "restricao", "w": "O golpista copia o valor correto. O que importa é quem recebe, e o recebedor não confere com o estabelecimento." },
+        { "t": "Que o QR code pode ter sido adulterado; não pagar e usar o caixa ou o app oficial do estacionamento.", "p": "correta", "w": "Antes de confirmar um Pix por QR code, confira o nome do recebedor. Se não corresponde ao estabelecimento, use um canal oficial." }
+      ]
+    },
+    {
+      "id": "seg21", "topic": "Frase-senha",
+      "c": "A TI de uma cooperativa em Chapecó vai orientar os funcionários sobre como criar a senha de rede. Um analista propõe exigir 8 caracteres com maiúscula, número e símbolo; outro propõe incentivar frases longas e fáceis de lembrar.",
+      "q": "Qual orientação está mais alinhada ao NIST SP 800-63B?", "a": 1, "src": "NIST SP 800-63B (diretrizes para senhas memorizadas)",
+      "o": [
+        { "t": "Exigir símbolos e números, pois a complexidade compensa a senha curta.", "p": "inversao", "w": "Inverte a prioridade do NIST: comprimento pesa mais que regras de composição, que levam a padrões previsíveis como Senha@1." },
+        { "t": "Incentivar frases-senha longas e únicas, como várias palavras sem relação entre si, e bloquear senhas comuns ou vazadas.", "p": "correta", "w": "O NIST recomenda priorizar o comprimento, aceitar senhas longas e comparar as escolhidas com listas de senhas comprometidas." },
+        { "t": "Usar uma frase famosa, como um verso do Hino Nacional, porque é longa.", "p": "extrapolacao", "w": "Comprimento ajuda, mas frases conhecidas estão em dicionários de ataque. A frase-senha deve ser imprevisível." },
+        { "t": "Permitir qualquer senha, desde que o funcionário a troque todo mês.", "p": "troca", "w": "Troca frequente não compensa senha fraca, e o NIST não recomenda troca periódica sem motivo." }
+      ]
+    },
+    {
+      "id": "seg22", "topic": "Troca periódica de senha",
+      "c": "Em um escritório de contabilidade em Vitória, o sistema obriga a troca de senha a cada 30 dias. Os funcionários passaram a usar Contab01, Contab02, Contab03 e assim por diante.",
+      "q": "Segundo o NIST SP 800-63B, quando a troca de senha deve ser exigida?", "a": 0, "src": "NIST SP 800-63B (diretrizes para senhas memorizadas)",
+      "o": [
+        { "t": "Quando houver indício de que a senha foi comprometida, e não em prazos fixos arbitrários.", "p": "correta", "w": "O NIST desaconselha a troca periódica sem motivo, que gera senhas previsíveis como no caso. A troca é obrigatória diante de evidência de comprometimento." },
+        { "t": "Toda semana, porque quanto mais frequente a troca, mais segura é a senha.", "p": "generalizacao", "w": "Mais trocas levam a variações mínimas e previsíveis. Frequência não é sinônimo de segurança." },
+        { "t": "Nunca, nem mesmo se a senha aparecer em um vazamento.", "p": "extrapolacao", "w": "Vai além da regra. O NIST dispensa a troca periódica, mas exige trocar quando há sinal de comprometimento." },
+        { "t": "A cada 30 dias, desde que a nova senha mude pelo menos um número.", "p": "calculo", "w": "Mudar um dígito cria exatamente o padrão do caso, que um atacante adivinha em poucas tentativas." }
+      ]
+    },
+    {
+      "id": "seg23", "topic": "Senha vazada",
+      "c": "Diego, vendedor de uma concessionária em Londrina, recebe do gerenciador de senhas o aviso de que a senha de um site de compras apareceu em um vazamento. Ele usa essa mesma senha no e-mail corporativo.",
+      "q": "Qual é a ação mais adequada?", "a": 2, "src": "Cert.br, Cartilha de Segurança para Internet: Senhas; NIST SP 800-63B",
+      "o": [
+        { "t": "Trocar a senha apenas no site de compras, que foi o serviço vazado.", "p": "restricao", "w": "Limita a troca ao site vazado. Atacantes testam a senha vazada em outros serviços, inclusive no e-mail corporativo." },
+        { "t": "Esperar algum sinal de invasão antes de trocar, para não perder tempo.", "p": "inversao", "w": "Inverte a lógica da prevenção: quando a invasão aparece, o estrago já foi feito. O vazamento já é motivo para trocar." },
+        { "t": "Trocar a senha em todos os serviços onde ela era usada, criando senhas únicas, e avisar a TI sobre o e-mail corporativo.", "p": "correta", "w": "Senha vazada deve ser considerada comprometida em todos os lugares onde foi reutilizada. Senhas únicas impedem que o problema se repita." },
+        { "t": "Acrescentar um número ao final da senha antiga em todos os serviços.", "p": "calculo", "w": "Uma variação mínima da senha vazada é das primeiras tentativas de quem já a conhece." }
+      ]
+    },
+    {
+      "id": "seg24", "topic": "Senha mestra",
+      "c": "Uma agência de publicidade no Rio de Janeiro adotou um gerenciador de senhas corporativo. Paula pergunta como deve proteger o acesso ao próprio gerenciador, que guarda todas as suas credenciais.",
+      "q": "Qual é a recomendação correta?", "a": 0, "src": "Cert.br, Cartilha de Segurança para Internet: Senhas",
+      "o": [
+        { "t": "Usar uma senha mestra longa e exclusiva, que não seja usada em nenhum outro lugar, e ativar a verificação em duas etapas.", "p": "correta", "w": "A senha mestra protege todas as outras, por isso precisa ser forte e única. O segundo fator protege o cofre mesmo que ela vaze." },
+        { "t": "Usar a mesma senha do e-mail corporativo, para não precisar decorar outra.", "p": "troca", "w": "Se o e-mail vazar, o cofre inteiro cai junto. A senha mestra deve ser exclusiva." },
+        { "t": "Guardar a senha mestra dentro do próprio gerenciador, para não esquecê-la.", "p": "inversao", "w": "Inverte a lógica: a senha que abre o cofre não pode estar trancada dentro dele." },
+        { "t": "Dispensar a senha mestra forte, porque o gerenciador já criptografa tudo.", "p": "extrapolacao", "w": "A criptografia do cofre depende da senha mestra. Senha mestra fraca torna a criptografia fácil de contornar." }
+      ]
+    },
+    {
+      "id": "seg25", "topic": "Verificação por SMS",
+      "c": "Na prefeitura de Maringá, o sistema de RH oferece três opções de segundo fator: código por SMS, aplicativo autenticador ou chave física de segurança. Um servidor quer entender o ponto fraco do SMS.",
+      "q": "Qual afirmação sobre o código por SMS está correta?", "a": 3, "src": "NIST SP 800-63B (autenticadores fora de banda); Cert.br, Cartilha: Verificação em duas etapas",
+      "o": [
+        { "t": "É inútil e deixa a conta menos segura do que usar só a senha.", "p": "generalizacao", "w": "Exagera. Mesmo com riscos, o SMS acrescenta uma barreira em relação à senha sozinha." },
+        { "t": "É a opção mais segura, porque depende da operadora de telefonia.", "p": "inversao", "w": "Inverte o risco: depender da operadora é justamente o ponto fraco, pois a linha pode ser transferida por fraude." },
+        { "t": "Só é arriscado se o celular estiver sem senha de bloqueio.", "p": "restricao", "w": "O principal risco não depende do aparelho: na troca fraudulenta de chip, o código chega ao celular do golpista." },
+        { "t": "Protege mais que só a senha, mas é vulnerável à troca fraudulenta de chip e a golpes que pedem o código; app ou chave física são preferíveis.", "p": "correta", "w": "O NIST classifica o SMS como autenticador de uso restrito por esses riscos. Aplicativo autenticador e chave física são opções mais robustas." }
+      ]
+    },
+    {
+      "id": "seg26", "topic": "Chave de segurança física",
+      "c": "Uma fintech em São Paulo distribuiu chaves físicas de segurança (padrão FIDO2) para a equipe financeira. Um funcionário cai em uma página falsa idêntica à do sistema e digita a senha, mas o login do golpista não funciona.",
+      "q": "Por que a chave física protegeu a conta nesse caso?", "a": 1, "src": "FIDO Alliance, especificações FIDO2/WebAuthn; NIST SP 800-63B (resistência a phishing)",
+      "o": [
+        { "t": "Porque a chave física substitui a senha e impede que ela seja digitada.", "p": "troca", "w": "No caso, a senha foi digitada e capturada. A proteção veio da chave, que não entrega a credencial ao site falso." },
+        { "t": "Porque a chave verifica o endereço do site e só responde ao domínio verdadeiro em que foi cadastrada.", "p": "correta", "w": "A credencial FIDO2 fica vinculada ao domínio legítimo. Num site falso, a chave não gera a resposta válida, por isso é considerada resistente a phishing." },
+        { "t": "Porque a chave gera um código de seis dígitos que muda a cada 30 segundos.", "p": "calculo", "w": "Esse é o funcionamento do aplicativo autenticador. Um código assim pode ser digitado no site falso e repassado pelo golpista." },
+        { "t": "Porque a chave bloqueia qualquer site falso no navegador do funcionário.", "p": "extrapolacao", "w": "A chave não filtra a navegação. Ela apenas se recusa a autenticar em domínios diferentes do cadastrado." }
+      ]
+    },
+    {
+      "id": "seg27", "topic": "Fadiga de notificações",
+      "c": "Às 23h, Henrique, engenheiro de uma mineradora em Belo Horizonte, recebe no celular dezenas de pedidos seguidos de \"Aprovar login?\" do sistema da empresa. Ele não está tentando entrar em nada.",
+      "q": "O que esses pedidos indicam e como ele deve agir?", "a": 0, "src": "CISA, Implementing Phishing-Resistant MFA (2022); Cert.br, Cartilha: Verificação em duas etapas",
+      "o": [
+        { "t": "Que alguém já tem a senha dele; deve negar todos, avisar a equipe de segurança e trocar a senha.", "p": "correta", "w": "Os pedidos só aparecem depois que a senha é aceita. O ataque aposta no cansaço da vítima, que aprova para fazer as notificações pararem." },
+        { "t": "Que o aplicativo está com defeito; deve aprovar um pedido para as notificações pararem.", "p": "inversao", "w": "É exatamente o que o atacante espera. Aprovar entrega o acesso à conta." },
+        { "t": "Que há um problema de rede; basta desligar o celular até de manhã.", "p": "troca", "w": "Trata um ataque como falha técnica. Desligar o celular não impede novas tentativas nem resolve a senha comprometida." },
+        { "t": "Que é um teste automático da TI, que costuma acontecer de madrugada.", "p": "extrapolacao", "w": "Supõe um procedimento que não existe. Pedidos de aprovação sem login seu devem ser tratados como ataque." }
+      ]
+    },
+    {
+      "id": "seg28", "topic": "Código do WhatsApp",
+      "c": "Camila, recepcionista de uma clínica odontológica em Teresina, atende o WhatsApp da clínica. Um contato que se diz de um \"sistema de agendamento parceiro\" pede o código de seis dígitos que acabou de chegar por SMS para \"ativar a integração\".",
+      "q": "Qual é a conduta correta?", "a": 2, "src": "Cert.br, Cartilha de Segurança para Internet: Golpes; Central de Ajuda do WhatsApp",
+      "o": [
+        { "t": "Passar o código, porque ele serve apenas para confirmar o número da clínica.", "p": "inversao", "w": "Inverte o efeito: o código registra a conta em outro aparelho. Quem o recebe assume o WhatsApp da clínica." },
+        { "t": "Passar o código só se o contato estiver salvo na agenda do celular.", "p": "restricao", "w": "Contatos salvos também podem ter sido invadidos. O código de verificação não deve ser repassado a ninguém." },
+        { "t": "Não passar o código e ativar a confirmação em duas etapas do WhatsApp, com PIN.", "p": "correta", "w": "O código de registro é pessoal. A confirmação em duas etapas exige um PIN extra e dificulta a clonagem da conta." },
+        { "t": "Passar o código e, em seguida, trocar o chip do celular por segurança.", "p": "extrapolacao", "w": "Depois do código entregue, a conta já pode ter sido tomada. Trocar o chip não desfaz o acesso do golpista." }
+      ]
+    },
+    {
+      "id": "seg29", "topic": "Atualização falsa",
+      "c": "Ao abrir um site de notícias, Vinícius, assistente administrativo em Aracaju, vê um aviso em tela cheia: \"Seu navegador está desatualizado. Baixe a atualização aqui\", com um botão que faz o download de um arquivo .exe.",
+      "q": "Como ele deve atualizar o navegador com segurança?", "a": 1, "src": "Cert.br, Cartilha de Segurança para Internet: Códigos maliciosos",
+      "o": [
+        { "t": "Pelo botão do aviso, já que manter o navegador atualizado é importante.", "p": "extrapolacao", "w": "Atualizar é importante, mas a origem do arquivo é desconhecida. Avisos de sites são uma forma comum de distribuir malware." },
+        { "t": "Pelo menu do próprio navegador ou pela ferramenta de atualização da empresa, nunca por aviso exibido em site.", "p": "correta", "w": "Navegadores se atualizam pelas próprias configurações. Uma página não tem como saber, nem resolver, a versão instalada." },
+        { "t": "Pelo botão do aviso, desde que o antivírus não reclame do arquivo.", "p": "restricao", "w": "O antivírus não detecta todas as ameaças, principalmente as novas. O silêncio dele não torna o arquivo confiável." },
+        { "t": "Desinstalando o navegador e usando outro que nunca precise de atualização.", "p": "generalizacao", "w": "Todo navegador recebe atualizações de segurança. Trocar de programa não elimina a necessidade de atualizar." }
+      ]
+    },
+    {
+      "id": "seg30", "topic": "Sistema sem suporte",
+      "c": "Em uma escola particular de Juiz de Fora, os computadores da secretaria usam uma versão de sistema operacional que o fabricante deixou de atualizar. A diretora argumenta que \"tem antivírus e nunca deu problema\".",
+      "q": "Qual é o risco principal de manter esses computadores?", "a": 3, "src": "Cert.br, Cartilha de Segurança para Internet (atualização); ABNT NBR ISO/IEC 27002:2022, controle 8.8",
+      "o": [
+        { "t": "Nenhum, pois o antivírus substitui as atualizações do sistema.", "p": "troca", "w": "Antivírus e atualização têm papéis diferentes. O antivírus não corrige as falhas do próprio sistema." },
+        { "t": "Os computadores ficarem mais lentos, o que afeta a produtividade.", "p": "extrapolacao", "w": "A lentidão pode acontecer, mas não é o risco central. O problema é de segurança, não de desempenho." },
+        { "t": "Só há risco se os computadores forem usados para acessar banco.", "p": "restricao", "w": "Qualquer conexão à rede expõe as falhas, e a secretaria guarda dados de alunos e famílias." },
+        { "t": "Falhas de segurança descobertas daqui em diante não serão mais corrigidas, deixando as máquinas expostas.", "p": "correta", "w": "Sem suporte, novas vulnerabilidades ficam abertas para sempre. A gestão de vulnerabilidades exige sistemas que recebam correções." }
+      ]
+    },
+    {
+      "id": "seg31", "topic": "Regra 3-2-1",
+      "c": "Um escritório de arquitetura em Goiânia guarda os projetos apenas no servidor do próprio escritório. O sócio pergunta à consultora de TI como seguir a regra 3-2-1 de backup.",
+      "q": "Qual configuração atende à regra 3-2-1?", "a": 3, "src": "US-CERT, Data Backup Options (2012); Cert.br, Cartilha: Backup",
+      "o": [
+        { "t": "Três backups por dia, em dois horários diferentes, durante um mês.", "p": "troca", "w": "Confunde a regra com frequência. O 3-2-1 trata de quantidade de cópias, tipos de mídia e localização." },
+        { "t": "Três cópias no mesmo servidor, em duas pastas diferentes.", "p": "calculo", "w": "Conta errado o que importa: se o servidor falhar ou for atacado, todas as cópias se perdem juntas." },
+        { "t": "Uma cópia na nuvem, que sozinha já cumpre a regra.", "p": "generalizacao", "w": "Uma cópia não basta. A regra pede três cópias, em pelo menos dois tipos de armazenamento." },
+        { "t": "Três cópias dos dados, em dois tipos de mídia diferentes, com uma delas fora do escritório.", "p": "correta", "w": "Esse é o 3-2-1: os dados originais mais duas cópias, em mídias distintas, e uma cópia em outro local para sobreviver a incêndio, furto ou ataque." }
+      ]
+    },
+    {
+      "id": "seg32", "topic": "Backup desconectado",
+      "c": "Uma loja de materiais de construção em Feira de Santana foi atingida por ransomware. O HD externo de backup, que ficava sempre ligado ao computador do caixa, também teve os arquivos criptografados.",
+      "q": "Que mudança teria preservado o backup?", "a": 0, "src": "Cert.br, Cartilha de Segurança para Internet: Backup; ABNT NBR ISO/IEC 27002:2022, controle 8.13",
+      "o": [
+        { "t": "Manter ao menos uma cópia desconectada ou imutável, ligada só durante a cópia.", "p": "correta", "w": "O ransomware alcança tudo o que está montado e acessível. Uma cópia isolada fica fora do alcance do ataque." },
+        { "t": "Usar um HD externo de maior capacidade, sempre conectado.", "p": "calculo", "w": "Capacidade não é o problema. Conectado o tempo todo, um HD maior seria criptografado do mesmo jeito." },
+        { "t": "Fazer backup com mais frequência, no mesmo HD conectado.", "p": "troca", "w": "Frequência ajuda a perder menos dados, mas não protege a cópia de ser atingida junto com o computador." },
+        { "t": "Guardar o backup em uma pasta oculta do próprio computador.", "p": "inversao", "w": "Inverte o objetivo: a cópia continua dentro da máquina atacada. Ocultar uma pasta não a protege de criptografia." }
+      ]
+    },
+    {
+      "id": "seg33", "topic": "Teste de restauração",
+      "c": "A TI de um hospital em Ribeirão Preto faz backup diário há dois anos, com relatórios sempre marcando \"concluído com sucesso\". Ninguém nunca tentou restaurar um arquivo a partir dessas cópias.",
+      "q": "Qual é o problema dessa rotina?", "a": 2, "src": "Cert.br, Cartilha de Segurança para Internet: Backup; ABNT NBR ISO/IEC 27002:2022, controle 8.13",
+      "o": [
+        { "t": "Nenhum, porque o relatório de sucesso garante que os dados podem ser recuperados.", "p": "generalizacao", "w": "O relatório indica que a cópia foi feita, não que ela funciona. Arquivos corrompidos ou incompletos só aparecem na restauração." },
+        { "t": "O backup deveria ser semanal, e não diário.", "p": "troca", "w": "Troca o problema: a frequência não é a falha do caso. Mesmo um backup semanal precisaria ser testado." },
+        { "t": "Sem testes periódicos de restauração, não há como saber se o backup vai funcionar quando for necessário.", "p": "correta", "w": "Backup que nunca foi restaurado é uma aposta. Testes periódicos confirmam que os dados voltam completos e em tempo aceitável." },
+        { "t": "O backup só precisa ser testado depois de um ataque.", "p": "inversao", "w": "Inverte a ordem: descobrir no meio da crise que a cópia não funciona é tarde demais." }
+      ]
+    },
+    {
+      "id": "seg34", "topic": "Resposta a ransomware",
+      "c": "Às 9h, Thaís, analista de uma seguradora em Porto Alegre, percebe que os arquivos da pasta de rede estão mudando de nome, um a um, e aparece um arquivo LEIA-ME pedindo resgate.",
+      "q": "Qual deve ser a primeira atitude dela?", "a": 1, "src": "Cert.br, Cartilha de Segurança para Internet: Códigos maliciosos; ABNT NBR ISO/IEC 27002:2022, controle 6.8",
+      "o": [
+        { "t": "Entrar em contato com os criminosos pelo endereço do LEIA-ME para negociar.", "p": "extrapolacao", "w": "Negociar não é decisão de um funcionário, e pagar não garante a devolução dos dados. A prioridade é conter o ataque." },
+        { "t": "Desconectar o computador da rede, sem apagar nada, e acionar imediatamente a equipe de TI ou segurança.", "p": "correta", "w": "Isolar a máquina limita o avanço da criptografia para outras pastas. Avisar na hora permite à equipe agir e preservar evidências." },
+        { "t": "Continuar trabalhando e avisar a TI no fim do dia, para não atrapalhar a rotina.", "p": "inversao", "w": "Cada minuto conta: enquanto ela espera, mais arquivos são criptografados." },
+        { "t": "Apagar os arquivos afetados e o LEIA-ME para impedir que a infecção se espalhe.", "p": "troca", "w": "Apagar não interrompe o ataque e destrói evidências que a equipe precisa para investigar e recuperar." }
+      ]
+    },
+    {
+      "id": "seg35", "topic": "Alcance da VPN",
+      "c": "Gustavo, consultor de uma empresa de software de Recife, trabalha do hotel durante uma viagem e liga a VPN corporativa antes de acessar os sistemas. Ele conclui que, com a VPN ligada, \"está protegido de tudo\".",
+      "q": "O que a VPN corporativa de fato protege?", "a": 3, "src": "Cert.br, Cartilha de Segurança para Internet: Redes",
+      "o": [
+        { "t": "Protege contra phishing, porque bloqueia qualquer site falso.", "p": "troca", "w": "Confunde VPN com filtro de conteúdo. Se ele digitar a senha numa página falsa, a VPN não impede." },
+        { "t": "Impede que qualquer malware chegue ao notebook enquanto estiver ligada.", "p": "generalizacao", "w": "A VPN cria um túnel cifrado, mas o que vem por ele, como um anexo infectado, chega do mesmo jeito." },
+        { "t": "Protege apenas se o Wi-Fi do hotel tiver senha.", "p": "restricao", "w": "Acrescenta uma condição inexistente. A VPN cifra o tráfego tanto em redes abertas quanto em redes com senha." },
+        { "t": "Cifra o tráfego entre o notebook e a rede da empresa, impedindo que outros na rede do hotel leiam ou alterem os dados.", "p": "correta", "w": "Essa é a função da VPN: proteger o caminho dos dados em redes não confiáveis. Ela não substitui cuidado com links, anexos e atualizações." }
+      ]
+    },
+    {
+      "id": "seg36", "topic": "Roteador de casa",
+      "c": "Aline, analista de RH de uma rede varejista, passou a trabalhar em casa, em Niterói. O roteador foi instalado pela operadora há quatro anos e nunca teve nenhuma configuração alterada, nem a senha de administração.",
+      "q": "Qual conjunto de ajustes mais melhora a segurança dessa rede?", "a": 0, "src": "Cert.br, Cartilha de Segurança para Internet: Redes",
+      "o": [
+        { "t": "Trocar a senha de administração padrão, usar WPA2 ou WPA3 com senha forte e manter o firmware atualizado.", "p": "correta", "w": "Senhas de fábrica são públicas, criptografia fraca é quebrada com facilidade e firmware antigo tem falhas conhecidas. Os três ajustes atacam esses riscos." },
+        { "t": "Esconder o nome da rede, o que já dispensa senha no Wi-Fi.", "p": "extrapolacao", "w": "Ocultar o nome é fácil de contornar com ferramentas comuns. Não substitui criptografia nem senha." },
+        { "t": "Trocar apenas o nome da rede para algo que não identifique a família.", "p": "restricao", "w": "Ajuda um pouco na privacidade, mas deixa intactas a senha de fábrica e o firmware desatualizado." },
+        { "t": "Usar a criptografia WEP, a mais antiga e, por isso, mais testada.", "p": "inversao", "w": "Inverte o raciocínio: o WEP é antigo justamente porque foi superado e é quebrado em minutos." }
+      ]
+    },
+    {
+      "id": "seg37", "topic": "Pendrive desconhecido",
+      "c": "No estacionamento de uma distribuidora de alimentos em Contagem, um funcionário encontra um pendrive com a etiqueta \"Salários 2026 - Confidencial\".",
+      "q": "O que ele deve fazer?", "a": 2, "src": "Cert.br, Cartilha de Segurança para Internet: Códigos maliciosos; ABNT NBR ISO/IEC 27002:2022, controle 7.10",
+      "o": [
+        { "t": "Conectar no computador do trabalho para descobrir de quem é e devolver.", "p": "inversao", "w": "A boa intenção vira o ataque: pendrives deixados de propósito são uma técnica conhecida para infectar a rede de quem os conecta." },
+        { "t": "Conectar só depois de rodar o antivírus no pendrive.", "p": "restricao", "w": "O antivírus não detecta tudo, e alguns dispositivos se passam por teclado e executam comandos assim que são conectados." },
+        { "t": "Não conectar em nenhum computador e entregar o pendrive à equipe de TI ou segurança.", "p": "correta", "w": "A etiqueta chamativa é isca de engenharia social. A equipe de segurança tem como analisar o dispositivo com segurança." },
+        { "t": "Conectar no computador de casa, que não tem dados da empresa.", "p": "extrapolacao", "w": "O computador pessoal também pode ser infectado e, muitas vezes, é usado para acessar e-mail e sistemas do trabalho." }
+      ]
+    },
+    {
+      "id": "seg38", "topic": "Carregador público",
+      "c": "No saguão da rodoviária de Belo Horizonte, a bateria do celular corporativo de Sérgio está acabando. Há um totem com cabos USB gratuitos para recarga e também tomadas comuns na parede.",
+      "q": "Qual é a opção mais segura para carregar o aparelho?", "a": 1, "src": "Cert.br, Cartilha de Segurança para Internet: Dispositivos móveis; FCC, Juice Jacking (2023)",
+      "o": [
+        { "t": "Usar o cabo do totem, já que ele só transmite energia.", "p": "generalizacao", "w": "Um cabo USB pode transmitir dados além de energia. Não há como saber o que está ligado do outro lado do totem." },
+        { "t": "Usar o próprio carregador ligado à tomada, ou uma bateria portátil.", "p": "correta", "w": "Com o próprio carregador na tomada, não há conexão de dados com um equipamento desconhecido." },
+        { "t": "Usar o cabo do totem e aceitar o aviso de \"confiar neste dispositivo\" para carregar mais rápido.", "p": "inversao", "w": "Inverte a proteção: o aviso existe para bloquear a troca de dados. Aceitá-lo abre o celular ao equipamento desconhecido." },
+        { "t": "Usar o cabo do totem, desde que o celular esteja com a tela bloqueada.", "p": "restricao", "w": "O bloqueio ajuda, mas não elimina o risco de um equipamento adulterado. Evitar a conexão de dados é o mais seguro." }
+      ]
+    },
+    {
+      "id": "seg39", "topic": "Celular corporativo perdido",
+      "c": "Voltando de um evento em São Paulo, Mariana, coordenadora comercial de uma indústria de cosméticos, percebe que esqueceu o celular corporativo no táxi. O aparelho tem e-mail, WhatsApp de clientes e acesso ao CRM.",
+      "q": "Qual é a prioridade?", "a": 2, "src": "Cert.br, Cartilha de Segurança para Internet: Dispositivos móveis; ABNT NBR ISO/IEC 27002:2022, controle 6.8",
+      "o": [
+        { "t": "Esperar até o dia seguinte para ver se o taxista devolve o aparelho.", "p": "inversao", "w": "A espera é o que o risco precisa. Enquanto isso, quem estiver com o aparelho pode tentar acessar os dados." },
+        { "t": "Avisar a TI só se o celular estiver sem senha de bloqueio.", "p": "restricao", "w": "Mesmo com bloqueio, a TI precisa saber para bloquear acessos, trocar credenciais e, se for o caso, apagar o aparelho remotamente." },
+        { "t": "Comunicar imediatamente a TI ou a segurança, para bloqueio, troca de senhas e apagamento remoto, se necessário.", "p": "correta", "w": "Avisar rápido permite usar o gerenciamento remoto do aparelho e cortar os acessos antes que alguém os explore." },
+        { "t": "Registrar boletim de ocorrência, que por si só bloqueia o acesso aos dados.", "p": "troca", "w": "O boletim pode ser útil, mas não tem efeito técnico. Quem bloqueia os acessos é a TI da empresa." }
+      ]
+    },
+    {
+      "id": "seg40", "topic": "Descarte de equipamentos",
+      "c": "Um escritório de advocacia em Campinas vai doar notebooks antigos a uma ONG. O estagiário propõe apagar as pastas dos clientes, esvaziar a lixeira e fazer uma formatação rápida antes da doação.",
+      "q": "Esse procedimento é suficiente?", "a": 3, "src": "NIST SP 800-88 Rev. 1, Guidelines for Media Sanitization; ABNT NBR ISO/IEC 27002:2022, controle 7.14",
+      "o": [
+        { "t": "Sim, porque o que vai para a lixeira esvaziada deixa de existir no disco.", "p": "inversao", "w": "Ao excluir um arquivo, em geral o sistema só marca o espaço como livre. Os dados continuam no disco até serem sobrescritos." },
+        { "t": "Sim, desde que os notebooks sejam doados a uma instituição confiável.", "p": "restricao", "w": "A confiança na ONG não protege os dados: os equipamentos podem ser revendidos ou perdidos no futuro." },
+        { "t": "Não; o correto é retirar e guardar o teclado e a tela dos notebooks.", "p": "troca", "w": "Os dados ficam no disco de armazenamento, não no teclado nem na tela." },
+        { "t": "Não; formatação rápida não apaga os dados de forma irrecuperável, e o disco deve passar por sanitização adequada ou destruição.", "p": "correta", "w": "Ferramentas comuns recuperam arquivos depois de exclusão e formatação rápida. O descarte seguro exige sanitização própria ou destruição do disco." }
+      ]
+    },
+    {
+      "id": "seg41", "topic": "Link de compartilhamento",
+      "c": "Rodrigo, analista de uma incorporadora em Fortaleza, precisa enviar a planilha de preços de um lançamento a um corretor parceiro. Na nuvem da empresa, a opção mais rápida é \"Qualquer pessoa com o link pode editar\".",
+      "q": "Qual configuração é a mais adequada?", "a": 0, "src": "ABNT NBR ISO/IEC 27002:2022, controles 5.14 e 5.15",
+      "o": [
+        { "t": "Compartilhar só com o e-mail do corretor, apenas para visualização e, se possível, com data de expiração.", "p": "correta", "w": "Aplica o menor privilégio: só quem precisa, só o acesso necessário e só pelo tempo necessário." },
+        { "t": "Usar o link aberto para edição, já que o endereço é longo e difícil de adivinhar.", "p": "extrapolacao", "w": "O link pode ser encaminhado, publicado ou vazar, e qualquer um que o tenha poderá alterar a planilha." },
+        { "t": "Usar o link aberto, mas só para visualização, sem prazo de expiração.", "p": "restricao", "w": "Restringir a edição ajuda, mas qualquer pessoa com o link ainda vê os preços, por tempo indeterminado." },
+        { "t": "Compartilhar com toda a empresa, para que o corretor peça acesso a algum colega.", "p": "troca", "w": "Troca o destinatário: expõe a planilha a toda a empresa e ainda não resolve o acesso do corretor." }
+      ]
+    },
+    {
+      "id": "seg42", "topic": "Acesso de terceiros",
+      "c": "Uma consultoria de marketing de Salvador trabalhou por seis meses para uma rede de supermercados, com acesso a pastas na nuvem e ao sistema de vendas. O contrato terminou na semana passada.",
+      "q": "O que a área responsável na rede de supermercados deve fazer?", "a": 1, "src": "ABNT NBR ISO/IEC 27002:2022, controle 5.18",
+      "o": [
+        { "t": "Manter os acessos, caso a consultoria seja contratada novamente.", "p": "extrapolacao", "w": "Acesso sem necessidade atual é risco sem benefício. Se houver novo contrato, o acesso pode ser concedido de novo." },
+        { "t": "Revogar todos os acessos da consultoria e revisar se restou algum compartilhamento ativo.", "p": "correta", "w": "Direitos de acesso devem ser removidos quando o vínculo termina. Contas esquecidas são porta de entrada comum para invasões." },
+        { "t": "Revogar apenas o acesso ao sistema de vendas, que é o mais crítico.", "p": "restricao", "w": "As pastas na nuvem também podem conter dados sensíveis. Todos os acessos ligados ao contrato devem ser encerrados." },
+        { "t": "Trocar as senhas dos funcionários da rede, o que encerra automaticamente o acesso de terceiros.", "p": "troca", "w": "As contas e os compartilhamentos da consultoria são independentes das senhas dos funcionários." }
+      ]
+    },
+    {
+      "id": "seg43", "topic": "Classificação da informação",
+      "c": "Na sede de uma operadora de saúde em Belo Horizonte, um colega do marketing pede a Felipe, do financeiro, um relatório marcado como \"Confidencial\" com a inadimplência por cliente, \"só para dar uma olhada\".",
+      "q": "Como Felipe deve agir?", "a": 0, "src": "ABNT NBR ISO/IEC 27002:2022, controles 5.12, 5.13 e 5.15",
+      "o": [
+        { "t": "Verificar se o colega tem necessidade e autorização para aquele conteúdo, seguindo as regras definidas para a classificação.", "p": "correta", "w": "O rótulo indica como a informação deve ser tratada. Acesso a dado confidencial depende de necessidade de conhecer e de autorização, não de pedido informal." },
+        { "t": "Enviar, já que o colega trabalha na mesma empresa.", "p": "generalizacao", "w": "Ser da empresa não dá acesso a tudo. Informação confidencial é restrita a quem precisa dela para o trabalho." },
+        { "t": "Enviar, desde que por e-mail interno e não por WhatsApp.", "p": "restricao", "w": "O canal importa, mas a questão anterior é se o colega pode ter acesso. Um canal seguro não autoriza o envio." },
+        { "t": "Retirar o rótulo \"Confidencial\" do arquivo antes de enviar.", "p": "inversao", "w": "Inverte a lógica: mudar o rótulo não muda o conteúdo. A classificação acompanha a informação, não o arquivo." }
+      ]
+    },
+    {
+      "id": "seg44", "topic": "Nuvem pessoal",
+      "c": "Para terminar um relatório no fim de semana, Lucas, analista de uma empresa de energia em Curitiba, pensa em enviar a base de clientes para o e-mail pessoal e salvá-la na sua conta gratuita de nuvem.",
+      "q": "Qual é a alternativa correta?", "a": 2, "src": "ABNT NBR ISO/IEC 27002:2022, controle 5.14; LGPD, art. 46",
+      "o": [
+        { "t": "Enviar, porque a conta pessoal tem senha forte e verificação em duas etapas.", "p": "restricao", "w": "Mesmo bem protegida, a conta pessoal fica fora do controle, do monitoramento e das políticas da empresa." },
+        { "t": "Enviar só a parte da base com clientes pessoa jurídica, que não tem dados pessoais.", "p": "extrapolacao", "w": "Bases de clientes empresariais costumam trazer nomes, e-mails e telefones de contatos, que são dados pessoais. E ainda podem ser confidenciais." },
+        { "t": "Usar apenas os meios autorizados pela empresa, como VPN e nuvem corporativa, e consultar a TI se não tiver acesso.", "p": "correta", "w": "Dados da empresa devem circular por canais aprovados, que têm controle de acesso e registro. Se falta um meio, quem resolve é a TI." },
+        { "t": "Enviar e apagar os arquivos da nuvem pessoal na segunda-feira.", "p": "inversao", "w": "Apagar depois não desfaz a exposição: cópias, sincronizações e acessos podem ter ocorrido no meio do caminho." }
+      ]
+    },
+    {
+      "id": "seg45", "topic": "Dados em IA pública",
+      "c": "Para economizar tempo, Renata, advogada de um escritório em Brasília, pensa em colar a íntegra de um contrato sigiloso de um cliente em um chatbot de IA gratuito, de uso pessoal, para pedir um resumo.",
+      "q": "Qual é a conduta adequada?", "a": 3, "src": "LGPD, art. 46; ABNT NBR ISO/IEC 27002:2022, controle 5.14",
+      "o": [
+        { "t": "Colar o contrato, já que chatbots de IA nunca guardam o que é digitado.", "p": "generalizacao", "w": "Cada serviço tem sua política; muitos gratuitos podem armazenar e usar o conteúdo. Não se pode supor que nada fica guardado." },
+        { "t": "Colar o contrato, desde que ela apague a conversa logo em seguida.", "p": "restricao", "w": "Apagar o histórico na tela não garante que o conteúdo foi eliminado dos servidores do serviço." },
+        { "t": "Colar o contrato, pois o sigilo profissional dela se estende ao serviço de IA.", "p": "extrapolacao", "w": "O dever de sigilo é dela, não da empresa que opera o chatbot. Enviar o texto a terceiros pode violar esse dever." },
+        { "t": "Não inserir o contrato em ferramenta não aprovada e usar apenas as soluções autorizadas pelo escritório, conforme a política interna.", "p": "correta", "w": "Ao colar o texto, ela transfere informação sigilosa a um terceiro sem contrato com o escritório. Ferramentas aprovadas têm regras de uso e proteção definidas." }
+      ]
+    },
+    {
+      "id": "seg46", "topic": "E-mail ao destinatário errado",
+      "c": "Ao usar o preenchimento automático, Cláudia, do RH de uma rede de academias em Recife, envia a planilha com salários e CPFs de 300 funcionários para um fornecedor externo com nome parecido ao do gerente.",
+      "q": "O que ela deve fazer?", "a": 1, "src": "LGPD, art. 48; ABNT NBR ISO/IEC 27002:2022, controle 6.8",
+      "o": [
+        { "t": "Não comentar com ninguém e pedir ao fornecedor, em particular, que apague o e-mail.", "p": "inversao", "w": "Esconder o incidente piora tudo. A empresa pode ter obrigação legal de avaliar o caso e comunicar a ANPD e os titulares." },
+        { "t": "Comunicar imediatamente o time de segurança ou o encarregado de dados, informando o que foi enviado, para quem e quando.", "p": "correta", "w": "É um incidente com dados pessoais. Informar rápido permite pedir a exclusão, avaliar o risco e cumprir o art. 48 da LGPD, se for o caso." },
+        { "t": "Esperar para ver se o fornecedor faz algum uso indevido dos dados antes de avisar.", "p": "restricao", "w": "O incidente já ocorreu com o envio. A avaliação de risco cabe à empresa, e esperar atrapalha a contenção." },
+        { "t": "Mandar um novo e-mail ao fornecedor pedindo que ignore a mensagem; isso encerra o incidente.", "p": "extrapolacao", "w": "Pedir que ignore pode ajudar, mas não encerra nada: o incidente precisa ser registrado e avaliado pela empresa." }
+      ]
+    },
+    {
+      "id": "seg47", "topic": "Senha digitada em phishing",
+      "c": "Eduardo, assistente de uma corretora de imóveis em Santos, clicou em um e-mail de \"documento compartilhado\" e digitou a senha corporativa na página que abriu. Só depois percebeu que o endereço era estranho.",
+      "q": "O que ele deve fazer agora?", "a": 3, "src": "Cert.br, Cartilha de Segurança para Internet: Golpes; ABNT NBR ISO/IEC 27002:2022, controle 6.8",
+      "o": [
+        { "t": "Apagar o e-mail e não contar a ninguém, já que nada aconteceu até agora.", "p": "inversao", "w": "A ausência de sinais não significa ausência de invasão. Esconder o erro dá tempo ao atacante para usar a senha." },
+        { "t": "Trocar a senha só se começar a receber e-mails estranhos.", "p": "restricao", "w": "Espera um sintoma para agir. A senha já foi entregue ao golpista e deve ser trocada antes que ele a use." },
+        { "t": "Rodar o antivírus, que resolve o problema da senha capturada.", "p": "troca", "w": "O antivírus procura programas maliciosos no computador. A senha foi enviada a um site externo, e isso ele não desfaz." },
+        { "t": "Trocar a senha imediatamente e avisar a equipe de segurança, informando o link e o horário do acesso.", "p": "correta", "w": "Trocar a senha corta o acesso do golpista, e o aviso permite à equipe verificar acessos suspeitos e bloquear a página para os colegas." }
+      ]
+    },
+    {
+      "id": "seg48", "topic": "Deepfake de voz",
+      "c": "Juliana, do financeiro de uma rede de hotéis em Maceió, recebe uma ligação de número desconhecido com a voz idêntica à do diretor-geral. Ele pede uma transferência urgente para fechar um contrato e diz que está sem acesso ao e-mail.",
+      "q": "Qual é a conduta mais segura?", "a": 0, "src": "FBI IC3, alerta \"Criminals Use Generative Artificial Intelligence to Facilitate Financial Fraud\" (2024); Cert.br, Cartilha: Golpes",
+      "o": [
+        { "t": "Desligar e confirmar o pedido ligando para o diretor em um número já conhecido, seguindo o fluxo normal de aprovação.", "p": "correta", "w": "Ferramentas de IA conseguem imitar vozes a partir de poucos áudios. A confirmação por um canal que ela mesma inicia é o que quebra o golpe." },
+        { "t": "Fazer a transferência, porque a voz idêntica comprova que é o diretor.", "p": "generalizacao", "w": "Com IA, a voz deixou de ser prova de identidade. Um áudio clonado pode soar exatamente como a pessoa." },
+        { "t": "Fazer perguntas sobre a empresa durante a própria ligação para testar o interlocutor.", "p": "troca", "w": "Informações da empresa costumam estar na internet, e o golpista pode contornar as perguntas. A checagem deve ocorrer fora da ligação." },
+        { "t": "Fazer a transferência se o valor estiver dentro do limite que ela pode aprovar sozinha.", "p": "restricao", "w": "O limite de alçada não diz nada sobre a autenticidade do pedido. Pedido urgente fora do fluxo deve ser confirmado em qualquer valor." }
+      ]
+    },
+    {
+      "id": "seg49", "topic": "Extensões do navegador",
+      "c": "Felipe, analista de uma empresa de logística em Cuiabá, quer instalar uma extensão gratuita de \"conversor de PDF\". Na instalação, ela pede permissão para \"ler e alterar todos os seus dados em todos os sites\".",
+      "q": "Como ele deve avaliar o pedido?", "a": 2, "src": "ABNT NBR ISO/IEC 27002:2022, controle 8.19; Cert.br, Cartilha: Códigos maliciosos",
+      "o": [
+        { "t": "Instalar, porque extensões das lojas oficiais são todas verificadas e seguras.", "p": "generalizacao", "w": "As lojas reduzem o risco, mas extensões maliciosas já passaram pelas verificações, e extensões legítimas podem ser vendidas e alteradas depois." },
+        { "t": "Instalar, já que a permissão só vale para os sites de PDF.", "p": "inversao", "w": "A permissão diz o contrário: vale para todos os sites, inclusive o e-mail e os sistemas internos." },
+        { "t": "Desconfiar: a permissão é excessiva para a função; instalar só extensões aprovadas pela TI, com permissões compatíveis com o que fazem.", "p": "correta", "w": "Uma extensão com acesso a todos os sites pode ler senhas, e-mails e dados de sistemas. Permissão desproporcional é sinal de alerta." },
+        { "t": "Instalar e desativar a extensão quando acessar o banco.", "p": "restricao", "w": "Protege só um site e depende de lembrar sempre. Os demais sistemas continuam expostos." }
+      ]
+    },
+    {
+      "id": "seg50", "topic": "Cadeado no navegador",
+      "c": "Em um treinamento numa cooperativa de crédito em Passo Fundo, um funcionário afirma: \"Se o endereço começa com https e aparece o cadeado, o site é confiável\".",
+      "q": "Qual correção o instrutor deve fazer?", "a": 1, "src": "Cert.br, Cartilha de Segurança para Internet: Uso seguro da Internet",
+      "o": [
+        { "t": "Nenhuma: o cadeado só aparece em sites verificados por órgãos oficiais.", "p": "extrapolacao", "w": "Certificados para HTTPS podem ser obtidos gratuitamente por qualquer dono de domínio, inclusive golpistas." },
+        { "t": "O cadeado indica que a conexão com aquele endereço é criptografada, mas não que o site é legítimo; sites de phishing também usam HTTPS.", "p": "correta", "w": "O HTTPS protege os dados no caminho. Se o endereço é falso, os dados chegam cifrados, mas direto ao golpista." },
+        { "t": "O cadeado garante que o site não tem vírus.", "p": "troca", "w": "Confunde criptografia da conexão com verificação de conteúdo. Um site com HTTPS pode distribuir malware." },
+        { "t": "O cadeado só vale para sites de bancos; nos demais, não significa nada.", "p": "restricao", "w": "O cadeado tem o mesmo significado em qualquer site: conexão cifrada com o domínio exibido." }
+      ]
+    },
+    {
+      "id": "seg51", "topic": "Foto do crachá",
+      "c": "No primeiro dia de trabalho em um banco em São Paulo, Larissa quer postar no LinkedIn uma foto segurando o crachá, com a mesa, a tela do computador e o mural da equipe ao fundo.",
+      "q": "Qual é o risco dessa postagem?", "a": 1, "src": "Cert.br, Cartilha de Segurança para Internet: Redes sociais",
+      "o": [
+        { "t": "Nenhum, porque o LinkedIn é uma rede profissional.", "p": "generalizacao", "w": "Ser profissional não torna a rede segura. Golpistas usam justamente o LinkedIn para mapear funcionários." },
+        { "t": "Expor o modelo do crachá e detalhes internos, que ajudam golpistas a falsificar identificação e a montar abordagens de engenharia social.", "p": "correta", "w": "Crachá, telas e murais revelam layout, nomes e sistemas. Esses detalhes tornam convincentes golpes presenciais e por telefone." },
+        { "t": "O risco existe só se a postagem for pública; para conexões, não há problema.", "p": "restricao", "w": "Conexões incluem desconhecidos, e a foto pode ser compartilhada. O cuidado vale para qualquer público." },
+        { "t": "O banco pode demitir a funcionária por justa causa automaticamente.", "p": "extrapolacao", "w": "Vai além do caso e não é a questão de segurança. O ponto é a informação exposta, não uma punição presumida." }
+      ]
+    },
+    {
+      "id": "seg52", "topic": "Falso recrutador",
+      "c": "Leonardo, desenvolvedor de uma fintech em Florianópolis, é abordado no LinkedIn por um \"recrutador\" de uma empresa estrangeira. Para a etapa técnica, recebe um projeto para baixar e executar no notebook do trabalho.",
+      "q": "Qual é a conduta segura?", "a": 3, "src": "Cert.br, Cartilha de Segurança para Internet: Redes sociais e Códigos maliciosos",
+      "o": [
+        { "t": "Executar o projeto, já que a vaga é de uma empresa conhecida.", "p": "troca", "w": "Confunde a reputação da empresa com a do perfil. Golpistas criam perfis falsos usando o nome de empresas reais." },
+        { "t": "Executar o projeto, desde que o antivírus esteja ativo.", "p": "restricao", "w": "Código novo e direcionado costuma passar pelo antivírus. A proteção não justifica rodar código de origem desconhecida." },
+        { "t": "Enviar ao recrutador informações sobre os sistemas da fintech para mostrar experiência.", "p": "extrapolacao", "w": "Detalhes internos do empregador atual são confidenciais e são exatamente o que um falso recrutador pode buscar." },
+        { "t": "Não executar nada no equipamento da empresa e desconfiar da abordagem, confirmando a vaga pelos canais oficiais da empresa citada.", "p": "correta", "w": "Falsas vagas são usadas para fazer a vítima rodar código malicioso. O equipamento corporativo não deve receber arquivos de processos seletivos externos." }
+      ]
+    },
+    {
+      "id": "seg53", "topic": "Trabalho em local público",
+      "c": "Patrícia, gerente de contas de uma seguradora, trabalha de uma cafeteria lotada em Belo Horizonte. Ela revisa propostas com dados de clientes e entra em uma chamada de vídeo sobre a renovação de um grande contrato.",
+      "q": "Qual cuidado é o mais adequado?", "a": 0, "src": "ABNT NBR ISO/IEC 27002:2022, controle 6.7; Cert.br, Cartilha: Dispositivos móveis",
+      "o": [
+        { "t": "Evitar que outras pessoas vejam a tela ou ouçam a conversa, usando fone, filtro de privacidade ou um lugar reservado, e bloquear a tela ao se afastar.", "p": "correta", "w": "Em local público, o risco inclui quem olha a tela e quem escuta a conversa. Trabalho remoto exige proteger o que se vê e o que se fala." },
+        { "t": "Usar a VPN, que resolve todos os riscos de trabalhar em público.", "p": "generalizacao", "w": "A VPN protege o tráfego de rede, mas não impede que alguém leia a tela ou ouça a chamada." },
+        { "t": "Falar baixo apenas quando mencionar valores do contrato.", "p": "restricao", "w": "Nomes de clientes e detalhes da negociação também são sensíveis. O cuidado não pode se limitar aos valores." },
+        { "t": "Deixar o notebook aberto na mesa ao ir ao balcão, já que a cafeteria é movimentada e alguém notaria um furto.", "p": "inversao", "w": "Inverte o risco: o movimento facilita o furto e a espiada. O aparelho deve ir junto ou, no mínimo, ficar bloqueado." }
+      ]
+    },
+    {
+      "id": "seg54", "topic": "Celular pessoal no trabalho",
+      "c": "Uma construtora de Manaus passou a permitir que os engenheiros acessem e-mail e documentos da empresa no celular pessoal (BYOD). Tiago quer configurar o acesso no próprio aparelho.",
+      "q": "Qual prática está de acordo com uma política de BYOD segura?", "a": 2, "src": "ABNT NBR ISO/IEC 27002:2022, controle 8.1; Cert.br, Cartilha: Dispositivos móveis",
+      "o": [
+        { "t": "Instalar os aplicativos da empresa e desativar o bloqueio de tela para agilizar o acesso no canteiro.", "p": "inversao", "w": "Inverte a proteção: sem bloqueio, quem pegar o celular acessa os dados da empresa." },
+        { "t": "Usar o aparelho sem atualizações, já que é pessoal e a empresa não pode exigir nada.", "p": "extrapolacao", "w": "Ao aderir ao BYOD, o funcionário aceita requisitos mínimos de segurança para acessar dados da empresa." },
+        { "t": "Seguir a política da empresa: bloqueio de tela, sistema atualizado e aplicativos corporativos em perfil gerenciado, que permite apagar só os dados da empresa.", "p": "correta", "w": "Separar os dados corporativos permite proteger e, se preciso, apagar remotamente o que é da empresa, sem tocar nas fotos e conversas pessoais." },
+        { "t": "Encaminhar os e-mails corporativos para o e-mail pessoal, que já está configurado no celular.", "p": "troca", "w": "Troca o canal controlado por um fora da gestão da empresa. Os dados saem do ambiente corporativo." }
+      ]
+    },
+    {
+      "id": "seg55", "topic": "Macros em anexos",
+      "c": "Gisele, do departamento pessoal de uma indústria em Caxias do Sul, recebe de um remetente desconhecido o anexo \"Folha_Ponto.xlsm\". Ao abrir, o arquivo aparece em branco com a mensagem: \"Clique em Habilitar Conteúdo para visualizar\".",
+      "q": "O que ela deve fazer?", "a": 0, "src": "Cert.br, Cartilha de Segurança para Internet: Códigos maliciosos",
+      "o": [
+        { "t": "Não habilitar o conteúdo, fechar o arquivo e reportar o e-mail à equipe de segurança.", "p": "correta", "w": "Habilitar conteúdo permite que macros sejam executadas, e macros são um meio comum de instalar malware. O arquivo \"em branco\" é a isca." },
+        { "t": "Habilitar, pois arquivos de planilha não podem conter vírus.", "p": "generalizacao", "w": "Planilhas com macros, como as .xlsm, podem executar código. A extensão já indica que o arquivo contém macros." },
+        { "t": "Habilitar só se o antivírus não tiver alertado ao abrir o arquivo.", "p": "restricao", "w": "Macros maliciosas novas costumam passar pelo antivírus. A ausência de alerta não é prova de segurança." },
+        { "t": "Encaminhar o arquivo a uma colega para ver se no computador dela ele abre normalmente.", "p": "troca", "w": "Troca a vítima, não o risco: leva o arquivo malicioso a mais uma pessoa." }
+      ]
+    },
+    {
+      "id": "seg56", "topic": "Carona na catraca",
+      "c": "Na entrada de um prédio comercial em Belém, um homem com uniforme de empresa de manutenção e uma caixa de ferramentas pede a Ricardo que segure a porta: \"Esqueci o crachá, estou atrasado para o chamado no 5º andar\".",
+      "q": "Qual é a atitude correta?", "a": 3, "src": "ABNT NBR ISO/IEC 27002:2022, controle 7.2",
+      "o": [
+        { "t": "Deixar entrar, porque o uniforme e as ferramentas comprovam o serviço.", "p": "generalizacao", "w": "Uniforme e ferramentas são fáceis de conseguir. A aparência de prestador de serviço é um disfarce clássico." },
+        { "t": "Deixar entrar e acompanhar o homem até o 5º andar.", "p": "troca", "w": "Acompanhar não substitui a identificação: Ricardo não sabe se o chamado existe nem se o homem é autorizado." },
+        { "t": "Deixar entrar só se ele mostrar a ordem de serviço no celular.", "p": "restricao", "w": "Uma tela de celular é fácil de forjar. A liberação de acesso cabe à recepção ou à segurança." },
+        { "t": "Não liberar a passagem e orientá-lo, com educação, a se identificar na recepção.", "p": "correta", "w": "Entrar \"de carona\" atrás de quem tem acesso é uma técnica de engenharia social. Cada pessoa deve passar pelo controle de acesso." }
+      ]
+    },
+    {
+      "id": "seg57", "topic": "Falso e-mail do RH",
+      "c": "Funcionários de uma rede de lojas em Goiânia recebem um e-mail com o assunto \"Reajuste salarial: atualize seus dados até hoje\", com logotipo da empresa e um link para \"login no portal do colaborador\".",
+      "q": "Como o funcionário deve proceder?", "a": 2, "src": "Cert.br, Cartilha de Segurança para Internet: Golpes",
+      "o": [
+        { "t": "Clicar e entrar com a senha, já que o e-mail tem o logotipo da empresa.", "p": "extrapolacao", "w": "Logotipos são fáceis de copiar. A identidade visual não comprova a origem da mensagem." },
+        { "t": "Clicar, mas só digitar a senha se a página for idêntica à do portal.", "p": "restricao", "w": "Páginas falsas copiam o visual do portal com perfeição. A semelhança não indica legitimidade." },
+        { "t": "Não usar o link: acessar o portal pelo endereço que já conhece ou pela intranet, confirmar com o RH por canal interno e reportar o e-mail.", "p": "correta", "w": "Assunto atraente, prazo curto e pedido de login são marcas de phishing. Acessar por conta própria elimina o risco do link." },
+        { "t": "Responder ao e-mail com os dados pedidos, em vez de clicar no link.", "p": "troca", "w": "Troca um meio de entregar dados ao golpista por outro. O problema é o pedido, não o formato da resposta." }
+      ]
+    },
+    {
+      "id": "seg58", "topic": "Caixa de e-mail cheia",
+      "c": "Wellington, técnico de uma companhia de saneamento em Campina Grande, recebe de \"Equipe de TI\" um e-mail de um domínio externo: \"Sua caixa atingiu 99% do limite. Valide sua conta em 24 horas ou perderá mensagens\".",
+      "q": "Qual é a melhor forma de agir?", "a": 1, "src": "Cert.br, Cartilha de Segurança para Internet: Golpes",
+      "o": [
+        { "t": "Validar a conta pelo link, porque perder mensagens prejudicaria o trabalho.", "p": "inversao", "w": "O medo de perder mensagens é a alavanca do golpe. Ceder à urgência é exatamente o que o atacante quer." },
+        { "t": "Não clicar, conferir o espaço da caixa no próprio programa de e-mail e reportar a mensagem à TI pelo canal oficial.", "p": "correta", "w": "Remetente externo se dizendo TI interna, prazo curto e pedido de validação indicam phishing. A cota pode ser vista no próprio sistema." },
+        { "t": "Apagar e-mails antigos para liberar espaço e depois clicar no link.", "p": "calculo", "w": "Resolve um problema que talvez nem exista e mantém o clique no link malicioso." },
+        { "t": "Clicar no link apenas pelo celular, onde o risco é menor.", "p": "generalizacao", "w": "Celulares também são alvo de phishing, e a tela pequena dificulta conferir o endereço." }
+      ]
+    },
+    {
+      "id": "seg59", "topic": "Senha compartilhada",
+      "c": "Antes de sair de férias, Marcelo, comprador de uma rede de supermercados em Ribeirão Preto, propõe deixar sua senha do sistema de compras com a colega Aline, para ela aprovar pedidos no lugar dele.",
+      "q": "Qual é a solução adequada?", "a": 0, "src": "ABNT NBR ISO/IEC 27002:2022, controles 5.17 e 5.18",
+      "o": [
+        { "t": "Pedir à TI ou ao gestor que dê a Aline acesso próprio ou delegação temporária no sistema, sem compartilhar a senha.", "p": "correta", "w": "Cada pessoa deve usar a própria credencial. Assim fica registrado quem aprovou cada pedido, e o acesso extra pode ser retirado depois." },
+        { "t": "Compartilhar a senha e trocá-la quando voltar das férias.", "p": "restricao", "w": "Trocar depois não resolve o período em que as aprovações saíram no nome dele, sem registro de quem as fez." },
+        { "t": "Compartilhar, porque Aline é da mesma equipe e de confiança.", "p": "generalizacao", "w": "Confiança não substitui rastreabilidade. Com a senha compartilhada, não há como saber quem fez cada operação." },
+        { "t": "Anotar a senha em um envelope lacrado na gaveta de Aline.", "p": "troca", "w": "Muda a forma de entrega, mas o problema continua: a credencial pessoal passa a ser usada por outra pessoa." }
+      ]
+    },
+    {
+      "id": "seg60", "topic": "Software pirata",
+      "c": "Para não esperar a compra de licença, Daniel, designer de uma agência em Porto Alegre, baixa uma versão \"crackeada\" de um programa de edição. O instalador pede que ele desative o antivírus antes de continuar.",
+      "q": "Qual é a avaliação correta?", "a": 3, "src": "Lei 9.609/1998 (Lei do Software); Cert.br, Cartilha: Códigos maliciosos",
+      "o": [
+        { "t": "É seguro, pois desativar o antivírus é um passo técnico normal de qualquer instalação.", "p": "generalizacao", "w": "Instaladores legítimos não pedem isso. O pedido serve para impedir que o antivírus detecte o código malicioso embutido." },
+        { "t": "É seguro se o arquivo tiver muitos downloads e comentários positivos.", "p": "restricao", "w": "Popularidade e comentários podem ser forjados e não comprovam a ausência de malware." },
+        { "t": "O único problema é jurídico; do ponto de vista técnico, não há risco.", "p": "troca", "w": "Há os dois problemas: a violação de direitos de software e o risco de malware, que é alto nesse tipo de arquivo." },
+        { "t": "É arriscado e ilegal: programas piratas são um meio comum de espalhar malware, e o software deve ser obtido pela TI, com licença.", "p": "correta", "w": "A pirataria viola a Lei do Software e expõe a rede a códigos maliciosos. Desativar o antivírus a pedido do instalador é um sinal claro de perigo." }
+      ]
+    }
+  ]
+}

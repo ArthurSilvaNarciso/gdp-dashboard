@@ -25,7 +25,7 @@ function client() {
   return async function call(method, path, body, extra = {}) {
     const r = await fetch(BASE + '/api/' + path, {
       method, headers: Object.assign({ 'content-type': 'application/json', cookie, origin: BASE, 'x-forwarded-for': ip }, extra.headers || {}),
-      body: body === undefined ? undefined : JSON.stringify(body)
+      body: body === undefined ? undefined : JSON.stringify(path === 'auth/signup' && body && !('terms' in body) ? Object.assign({ terms: true }, body) : body)
     });
     const sc = r.headers.get('set-cookie'); if (sc) cookie = sc.split(';')[0];
     const ct = r.headers.get('content-type') || '';
@@ -44,6 +44,7 @@ test('saúde e banco', async () => {
 test('cadastro, login, sessão e erros de validação', async () => {
   const a = client();
   assert.equal((await a('POST', 'auth/signup', { name: '', email: 'x@y.com', password: 'abcdefgh1' })).data.error, 'name_required');
+  assert.equal((await a('POST', 'auth/signup', { name: 'Ana', email: 'ana@ex.com', password: 'memoria-forte-1', terms: false })).data.error, 'terms_required');
   assert.equal((await a('POST', 'auth/signup', { name: 'Ana', email: 'nao-email', password: 'abcdefgh1' })).data.error, 'invalid_email');
   assert.equal((await a('POST', 'auth/signup', { name: 'Ana', email: 'ana@ex.com', password: 'curta' })).data.error, 'weak_password');
   assert.equal((await a('POST', 'auth/signup', { name: 'Ana', email: 'ana@ex.com', password: '12345678' })).data.error, 'weak_password');
@@ -300,4 +301,73 @@ test('recuperação de senha: link do administrador, uso único e expiração', 
   assert.equal((await anon('POST', 'auth/reset', { token: t1, check: true })).data.error, 'invalid_token');
   assert.equal((await anon('POST', 'auth/reset', { token: t2, check: true })).status, 200);
   const r = await fetch('http://localhost:3911/api/health'); assert.ok(r.headers.get('x-request-id'));
+});
+
+test('reporte de problema em questão e revisão pelo administrador', async () => {
+  const anon = client();
+  assert.equal((await anon('POST', 'reports', { questionId: 'port3', deckId: 'port', kind: 'xx' })).data.error, 'invalid_kind');
+  assert.equal((await anon('POST', 'reports', { questionId: '<x>', kind: 'gabarito' })).data.error, 'invalid_question');
+  assert.equal((await anon('POST', 'reports', { questionId: 'port3', deckId: 'port', kind: 'gabarito', note: 'Acho que a correta é a C.' })).status, 201);
+  const u = client(); await u('POST', 'auth/signup', { name: 'Rafa Reporte', email: 'rafa@ex.com', password: 'memoria-forte-r' });
+  assert.equal((await u('POST', 'reports', { questionId: 'port3', deckId: 'port', kind: 'enunciado' })).status, 201);
+  assert.equal((await u('POST', 'reports', { questionId: 'port3', deckId: 'port', kind: 'portugues' })).data.updated, true, 'mesmo usuário atualiza o reporte aberto');
+  assert.equal((await u('GET', 'admin/reports')).status, 403);
+  const adm = client(); await adm('POST', 'auth/login', { email: 'chefe@ex.com', password: 'memoria-forte-c' });
+  const l = await adm('GET', 'admin/reports'); assert.equal(l.status, 200);
+  const mine = l.data.reports.filter((r) => r.questionId === 'port3'); assert.equal(mine.length, 2); assert.equal(mine[0].same, 2); assert.equal(l.data.kinds.gabarito, 'Gabarito errado');
+  assert.equal((await adm('PATCH', 'admin/reports/' + mine[0].id, { status: 'resolved' })).status, 200);
+  assert.equal((await adm('GET', 'admin/reports')).data.reports.filter((r) => r.questionId === 'port3').length, 0, 'resolver fecha todos da questão');
+});
+
+test('notificações push: chave VAPID, inscrição, teste e rotina diária', async () => {
+  const sent = []; globalThis.__MEMORY_FAKE_PUSH = async (sub, payload) => { if (sub.endpoint.includes('gone')) { const e = new Error('gone'); e.statusCode = 410; throw e; } sent.push({ ep: sub.endpoint, payload }); };
+  const k1 = await client()('GET', 'push/key'); const k2 = await client()('GET', 'push/key');
+  assert.equal(k1.status, 200); assert.ok(k1.data.publicKey.length > 80); assert.equal(k1.data.publicKey, k2.data.publicKey, 'chave estável');
+  const u = client(); const nsu = await u('POST', 'auth/signup', { name: 'Nina Push', email: 'nina.push@ex.com', password: 'memoria-forte-n' }); assert.equal(nsu.status, 201, JSON.stringify(nsu.data));
+  const sub = (ep) => ({ subscription: { endpoint: 'https://push.example.com/' + ep, keys: { p256dh: 'BP' + 'a'.repeat(80), auth: 'abcdefghijklmnop' } }, hour: 19 });
+  assert.equal((await u('POST', 'push/subscribe', { subscription: { endpoint: 'http://inseguro' } })).data.error, 'invalid_subscription');
+  assert.equal((await u('POST', 'push/subscribe', sub('nina-1'))).status, 200);
+  assert.equal((await u('POST', 'push/subscribe', sub('gone-1'))).status, 200);
+  await u('PUT', 'state', { state: state({ log: { [day(-1)]: { n: 5, ok: 4 } }, streak: { count: 4, last: day(-1) }, user: { name: 'Nina', goal: 10, onboarded: true } }) });
+  const t = await u('POST', 'push/test'); assert.equal(t.data.sent, 1);
+  sent.length = 0;
+  const c = await client()('GET', 'cron/daily'); assert.equal(c.status, 200);
+  const toNina = sent.filter((x) => x.ep.endsWith('nina-1')); assert.equal(toNina.length, 1); assert.match(toNina[0].payload.title, /sequência de 4 dias/);
+  sent.length = 0; process.env.CRON_SECRET = 'segredo-cron';
+  assert.equal((await client()('GET', 'cron/daily')).status, 401);
+  const c2 = await client()('GET', 'cron/daily', undefined, { headers: { authorization: 'Bearer segredo-cron' } });
+  assert.equal(c2.status, 200); assert.equal(sent.filter((x) => x.ep.endsWith('nina-1')).length, 0, 'não repete no mesmo dia');
+  delete process.env.CRON_SECRET;
+  // Quem já estudou hoje não recebe lembrete
+  const v = client(); await v('POST', 'auth/signup', { name: 'Vivi Hoje', email: 'vivi@ex.com', password: 'memoria-forte-v' });
+  await v('POST', 'push/subscribe', sub('vivi-1')); await v('PUT', 'state', { state: state({ log: { [day(0)]: { n: 3, ok: 3 } }, streak: { count: 1, last: day(0) } }) });
+  sent.length = 0; process.env.CRON_SECRET = 's2';
+  await client()('GET', 'cron/daily', undefined, { headers: { authorization: 'Bearer s2' } }); delete process.env.CRON_SECRET;
+  assert.equal(sent.filter((x) => x.ep.endsWith('vivi-1')).length, 0);
+  assert.equal((await u('DELETE', 'push/subscribe', { endpoint: 'https://push.example.com/nina-1' })).status, 200);
+  delete globalThis.__MEMORY_FAKE_PUSH;
+});
+
+test('liga semanal e amigos por convite', async () => {
+  const mk = async (name, email, n, ok) => { const c = client(); await c('POST', 'auth/signup', { name, email, password: 'memoria-forte-l' }); await c('PUT', 'state', { state: state({ log: { [day(0)]: { n, ok } }, streak: { count: 1, last: day(0) } }) }); return c; };
+  const a = await mk('Lia Liga', 'lia@ex.com', 10, 8); const b = await mk('Beto Liga', 'beto@ex.com', 4, 2);
+  assert.equal((await client()('GET', 'league')).status, 401);
+  const la = await a('GET', 'league'); assert.equal(la.status, 200); assert.equal(la.data.tierName, 'Bronze');
+  const lb = await b('GET', 'league'); assert.ok(lb.data.members.length >= 2);
+  const me = lb.data.members.find((m) => m.me); const lia = lb.data.members.find((m) => m.name === 'Lia');
+  assert.equal(lia.points, 8 * 10 + 10 * 2); assert.equal(me.points, 2 * 10 + 4 * 2); assert.ok(lia.pos < me.pos);
+  assert.ok(lb.data.endsAt > Date.now());
+  // Pontos atualizam quando o progresso sincroniza
+  await b('PUT', 'state', { state: state({ log: { [day(0)]: { n: 20, ok: 18 } }, streak: { count: 1, last: day(0) } }) });
+  const lb2 = await b('GET', 'league'); assert.equal(lb2.data.members[0].name, 'Beto');
+  // Amigos
+  const fa = await a('GET', 'friends'); assert.match(fa.data.code, /^[A-Z0-9]{6}$/); assert.equal(fa.data.friends.length, 1);
+  assert.equal((await a('POST', 'friends', { code: fa.data.code })).data.error, 'self_invite');
+  assert.equal((await b('POST', 'friends', { code: 'ZZZZZZ' })).status, 404);
+  const add = await b('POST', 'friends', { code: fa.data.code.toLowerCase() }); assert.equal(add.data.friend.name, 'Lia');
+  const fb = await b('GET', 'friends'); assert.equal(fb.data.friends.length, 2); assert.equal(fb.data.friends[0].name, 'Beto');
+  const fa2 = await a('GET', 'friends'); assert.equal(fa2.data.friends.length, 2, 'amizade nos dois sentidos');
+  const liaId = fb.data.friends.find((f) => f.name === 'Lia').id;
+  assert.equal((await b('DELETE', 'friends/' + liaId)).status, 200);
+  assert.equal((await a('GET', 'friends')).data.friends.length, 1);
 });

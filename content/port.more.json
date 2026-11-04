@@ -1,0 +1,1310 @@
+{
+ "id": "port",
+ "questions": [
+  {
+   "id": "port13",
+   "topic": "Crase com demonstrativos",
+   "c": "Na Secretaria de Educação de Fortaleza, a servidora Débora revisa um despacho que menciona dois processos e os servidores responsáveis por eles.",
+   "q": "Assinale a frase em que o acento indicativo de crase está empregado corretamente.",
+   "a": 2,
+   "src": "Crase: a + aquele/aquela/aquilo e a + a (= aquela) (Bechara, Moderna Gramática Portuguesa)",
+   "o": [
+    {
+     "t": "A diretora entregou àquele relatório ao secretário na reunião.",
+     "p": "extrapolacao",
+     "w": "“Entregar” pede objeto direto para a coisa entregue (entregou o relatório). Sem preposição antes do pronome, não há fusão: “entregou aquele relatório”."
+    },
+    {
+     "t": "Esta solução é semelhante a que foi adotada pela Secretaria de Saúde.",
+     "p": "restricao",
+     "w": "A crase não ocorre só antes de substantivo: “semelhante” pede “a”, e o “a” seguinte equivale a “aquela”. Logo: “semelhante à que foi adotada”."
+    },
+    {
+     "t": "Encaminhe a resposta àquele servidor que assinou o primeiro parecer.",
+     "p": "correta",
+     "w": "“Encaminhar” pede a preposição “a” (encaminhar algo a alguém), que se funde com o “a” inicial de “aquele”: a + aquele = àquele."
+    },
+    {
+     "t": "Refiro-me àquilo que foi decidido ontem, e não à isto que está na pauta.",
+     "p": "generalizacao",
+     "w": "Só há crase com os demonstrativos iniciados por “a” (aquele, aquela, aquilo). “Isto” não começa por “a”, então o correto é “a isto”."
+    }
+   ]
+  },
+  {
+   "id": "port14",
+   "topic": "Crase facultativa",
+   "c": "Na Defensoria Pública de Porto Alegre, um estagiário redige ofícios e quer saber em quais casos o acento grave é opcional.",
+   "q": "Assinale a frase em que o acento grave poderia ser omitido sem erro.",
+   "a": 0,
+   "src": "Crase facultativa: possessivo feminino singular, nome próprio feminino e “até” (Cegalla, Novíssima Gramática)",
+   "o": [
+    {
+     "t": "Enviei o parecer à minha coordenadora antes do prazo.",
+     "p": "correta",
+     "w": "Antes de pronome possessivo feminino no singular, o artigo é facultativo; por isso a crase também é: “à minha coordenadora” ou “a minha coordenadora”."
+    },
+    {
+     "t": "O atendimento ao público vai das 9h às 17h.",
+     "p": "generalizacao",
+     "w": "Em intervalo de horas determinadas (das... às...), há artigo nos dois termos e a crase é obrigatória. Nem toda crase é opcional."
+    },
+    {
+     "t": "A audiência foi suspensa devido à falta de energia.",
+     "p": "troca",
+     "w": "“Devido a” pede preposição e “a falta” tem artigo: a crase é obrigatória. Ela só é facultativa em casos como possessivos, nomes de mulher e depois de “até”."
+    },
+    {
+     "t": "A defensora chegou à reunião às pressas, sem os documentos.",
+     "p": "extrapolacao",
+     "w": "Nas locuções adverbiais femininas, como “às pressas”, a crase é obrigatória; e “chegar a” + “a reunião” também exige o acento. Nenhum dos dois casos é facultativo."
+    }
+   ]
+  },
+  {
+   "id": "port15",
+   "topic": "Crase com horas",
+   "c": "A assessoria do Tribunal de Justiça de Minas Gerais prepara o aviso sobre o horário do plantão judiciário no feriado de Tiradentes.",
+   "q": "Assinale a frase correta quanto ao uso do acento grave.",
+   "a": 3,
+   "src": "Crase na indicação de horas; paralelismo “de... a” e “das... às” (Bechara, Moderna Gramática Portuguesa)",
+   "o": [
+    {
+     "t": "O expediente de sábado vai de 8h às 12h.",
+     "p": "calculo",
+     "w": "Mistura as estruturas: sem artigo no primeiro termo (“de”), não há artigo no segundo. O paralelismo exige “de 8h a 12h” ou “das 8h às 12h”."
+    },
+    {
+     "t": "Os servidores estão de plantão desde às 7h da manhã.",
+     "p": "generalizacao",
+     "w": "“Desde” já é preposição e não se combina com outra. Antes da hora fica só o artigo: “desde as 7h”."
+    },
+    {
+     "t": "A sessão extraordinária começará daqui à uma hora.",
+     "p": "troca",
+     "w": "Aqui “uma hora” indica duração, não a hora marcada no relógio, e não há artigo: “daqui a uma hora”. A crase só ocorre com a hora marcada: “começa à uma hora”."
+    },
+    {
+     "t": "O plantão funcionará das 8h às 18h, e os pedidos urgentes serão recebidos até as 17h.",
+     "p": "correta",
+     "w": "No intervalo “das... às...” há artigo nos dois termos, por isso “às 18h”. Depois de “até”, a crase é facultativa, então “até as 17h” também está correto."
+    }
+   ]
+  },
+  {
+   "id": "port16",
+   "topic": "Concordância do verbo ser",
+   "c": "Na recepção de uma agência do INSS em Belém, o vigilante grava avisos sonoros para os segurados que aguardam atendimento.",
+   "q": "Assinale a frase correta quanto à concordância do verbo “ser”.",
+   "a": 1,
+   "src": "Concordância do verbo ser com horas, datas e distâncias (Cegalla, Novíssima Gramática)",
+   "o": [
+    {
+     "t": "Atenção: é duas horas, e a senha 45 já pode se dirigir ao guichê.",
+     "p": "generalizacao",
+     "w": "O verbo “ser” não fica sempre no singular na indicação de horas: concorda com o numeral. O correto é “são duas horas”."
+    },
+    {
+     "t": "Agora é meio-dia e meia, e o atendimento da tarde começa à uma hora.",
+     "p": "correta",
+     "w": "Indicando horas, o verbo “ser” concorda com o numeral: “é meio-dia”, “é uma hora”, “são duas horas”. “Meia” concorda com “hora”, subentendida."
+    },
+    {
+     "t": "Hoje são dia 15, último dia para fazer a prova de vida.",
+     "p": "troca",
+     "w": "Com a palavra “dia” expressa, o verbo concorda com ela: “Hoje é dia 15”. Sem a palavra “dia”, admite-se o plural: “Hoje são 15”."
+    },
+    {
+     "t": "Daqui até a outra agência da avenida são um quilômetro.",
+     "p": "extrapolacao",
+     "w": "Na indicação de distância, o verbo concorda com o numeral: “é um quilômetro”, mas “são dois quilômetros”."
+    }
+   ]
+  },
+  {
+   "id": "port17",
+   "topic": "Sujeito posposto",
+   "c": "O almoxarife da Prefeitura de Joinville redige um relatório sobre o material escolar que ainda não chegou às escolas municipais.",
+   "q": "Assinale a frase em que a concordância verbal está correta.",
+   "a": 3,
+   "src": "Concordância verbal com sujeito posposto; haver impessoal x existir (Celso Cunha & Lindley Cintra, Nova Gramática do Português Contemporâneo)",
+   "o": [
+    {
+     "t": "Chegou ontem à tarde os novos computadores do laboratório.",
+     "p": "inversao",
+     "w": "Inverter a ordem não muda a concordância: o sujeito “os novos computadores” está no plural, então “Chegaram ontem os novos computadores”."
+    },
+    {
+     "t": "Devem haver vagas remanescentes no próximo edital.",
+     "p": "generalizacao",
+     "w": "Estende a regra do sujeito posposto a um verbo impessoal. “Haver” (= existir) não tem sujeito e passa a impessoalidade ao auxiliar: “Deve haver vagas”."
+    },
+    {
+     "t": "Existe, na avaliação da direção, muitas dúvidas sobre o novo sistema.",
+     "p": "troca",
+     "w": "Trata “existir” como se fosse “haver”. “Existir” é verbo pessoal e concorda com o sujeito “muitas dúvidas”: “Existem muitas dúvidas”."
+    },
+    {
+     "t": "Ainda faltam, segundo o almoxarifado, trezentas carteiras escolares.",
+     "p": "correta",
+     "w": "O sujeito de “faltar” é “trezentas carteiras escolares”, que vem depois do verbo. Anteposto ou posposto, sujeito plural leva o verbo ao plural."
+    }
+   ]
+  },
+  {
+   "id": "port18",
+   "topic": "Regência nominal",
+   "c": "A Comissão de Ética de uma autarquia federal em Brasília revisa o parecer sobre a conduta de um servidor antes de enviá-lo ao dirigente máximo.",
+   "q": "Assinale a frase correta quanto à regência nominal.",
+   "a": 1,
+   "src": "Regência nominal: compatível com, obediência a, preferível a, contrário a (Celso Pedro Luft, Dicionário Prático de Regência Nominal)",
+   "o": [
+    {
+     "t": "O servidor sempre demonstrou obediência com as normas internas.",
+     "p": "troca",
+     "w": "“Obediência” rege a preposição “a”, como o verbo “obedecer”: “obediência às normas internas”."
+    },
+    {
+     "t": "A atitude do servidor foi compatível com o cargo e coerente com o código de ética.",
+     "p": "correta",
+     "w": "“Compatível” e “coerente” regem a preposição “com”: compatível com algo, coerente com algo."
+    },
+    {
+     "t": "É preferível advertir do que punir sem ouvir o servidor.",
+     "p": "extrapolacao",
+     "w": "“Preferível” rege “a” e já contém a ideia de comparação, sem “do que”: “É preferível advertir a punir”."
+    },
+    {
+     "t": "O relator se mostrou contrário com a aplicação da penalidade.",
+     "p": "generalizacao",
+     "w": "Estende o “com” de “compatível” e “coerente” a outro nome. “Contrário” rege “a”: “contrário à aplicação da penalidade”."
+    }
+   ]
+  },
+  {
+   "id": "port19",
+   "topic": "Vírgula e oração adjetiva",
+   "c": "Um analista do Tribunal Regional do Trabalho da 15ª Região, em Campinas, revisa uma notícia para a intranet. Todos os servidores do tribunal concluíram o curso de ética, e o texto precisa deixar isso claro.",
+   "q": "Assinale a frase pontuada de acordo com a informação do caso.",
+   "a": 0,
+   "src": "Orações adjetivas explicativas (entre vírgulas) x restritivas (sem vírgulas) (Bechara, Moderna Gramática Portuguesa)",
+   "o": [
+    {
+     "t": "Os servidores do TRT, que concluíram o curso de ética, receberão o certificado em maio.",
+     "p": "correta",
+     "w": "Entre vírgulas, a oração adjetiva é explicativa: acrescenta uma informação sobre todos os servidores do TRT, como pede o caso."
+    },
+    {
+     "t": "Os servidores do TRT que concluíram o curso de ética receberão o certificado em maio.",
+     "p": "inversao",
+     "w": "Sem vírgulas, a oração é restritiva: sugere que só uma parte dos servidores concluiu o curso, o contrário do que informa o caso."
+    },
+    {
+     "t": "Os servidores do TRT que concluíram o curso de ética, receberão o certificado em maio.",
+     "p": "generalizacao",
+     "w": "Trata a vírgula como pausa para sujeito longo. A norma-padrão não separa o sujeito do verbo por vírgula."
+    },
+    {
+     "t": "Os servidores do TRT, que concluíram o curso de ética receberão o certificado em maio.",
+     "p": "calculo",
+     "w": "A oração intercalada foi aberta por vírgula, mas não foi fechada. A explicativa fica entre duas vírgulas: “..., que concluíram o curso de ética, receberão...”."
+    }
+   ]
+  },
+  {
+   "id": "port20",
+   "topic": "Vírgula entre orações",
+   "c": "A ouvidoria de uma companhia de saneamento de Campo Grande redige uma resposta a um consumidor que reclamou da falta de água no bairro.",
+   "q": "Assinale a frase pontuada corretamente.",
+   "a": 2,
+   "src": "Pontuação de orações coordenadas e de adverbiais antepostas (Celso Cunha & Lindley Cintra, Nova Gramática do Português Contemporâneo)",
+   "o": [
+    {
+     "t": "A equipe trocou a tubulação e, o abastecimento foi retomado às 18h.",
+     "p": "inversao",
+     "w": "A vírgula ficou depois do “e”, quando o lugar dela seria antes da conjunção. Orações coordenadas com sujeitos diferentes admitem: “trocou a tubulação, e o abastecimento...”."
+    },
+    {
+     "t": "O abastecimento, será normalizado quando a manutenção terminar.",
+     "p": "generalizacao",
+     "w": "Não se separa o sujeito (“O abastecimento”) do verbo (“será normalizado”) por vírgula, por mais que se faça pausa na leitura."
+    },
+    {
+     "t": "Quando a manutenção terminar, o abastecimento será normalizado.",
+     "p": "correta",
+     "w": "A oração adverbial temporal veio antes da principal; deslocada para o início do período, ela é separada por vírgula."
+    },
+    {
+     "t": "A manutenção atrasou porém, o abastecimento foi normalizado no prazo.",
+     "p": "troca",
+     "w": "A conjunção adversativa no início da oração vem precedida de vírgula: “atrasou, porém o abastecimento...”. Só deslocada para o meio da oração ela fica entre vírgulas."
+    }
+   ]
+  },
+  {
+   "id": "port21",
+   "topic": "Mesóclise",
+   "c": "Na Câmara Municipal do Recife, uma assessora redige, em linguagem formal, o edital de convocação de uma audiência pública.",
+   "q": "Assinale a frase correta quanto à colocação pronominal segundo a norma-padrão.",
+   "a": 1,
+   "src": "Colocação pronominal: mesóclise no futuro do presente e do pretérito; atração (Bechara, Moderna Gramática Portuguesa)",
+   "o": [
+    {
+     "t": "A audiência realizará-se no plenário, às 10h do dia 12.",
+     "p": "generalizacao",
+     "w": "A ênclise não se usa com o futuro do presente nem com o futuro do pretérito. Sem palavra atrativa, cabe a mesóclise: “realizar-se-á”."
+    },
+    {
+     "t": "A audiência realizar-se-á no plenário, às 10h do dia 12.",
+     "p": "correta",
+     "w": "Com verbo no futuro do presente e sem palavra atrativa antes dele, a norma-padrão pede a mesóclise: “realizar-se-á”."
+    },
+    {
+     "t": "Não realizar-se-á a audiência sem o quórum mínimo.",
+     "p": "extrapolacao",
+     "w": "Aplica a mesóclise além do seu caso. A palavra negativa “não” atrai o pronome, e a próclise prevalece: “Não se realizará”."
+    },
+    {
+     "t": "Se convocarem-me, comparecerei à audiência.",
+     "p": "troca",
+     "w": "Conjunções subordinativas, como “se”, também atraem o pronome. O correto é a próclise: “Se me convocarem”."
+    }
+   ]
+  },
+  {
+   "id": "port22",
+   "topic": "Pronome e particípio",
+   "c": "A secretária-executiva de uma construtora de Belo Horizonte revisa os e-mails que o diretor vai enviar a um cliente.",
+   "q": "Assinale a frase correta quanto à colocação pronominal.",
+   "a": 3,
+   "src": "Colocação pronominal: vedada a ênclise ao particípio e ao futuro; atração por pronomes (Cegalla, Novíssima Gramática)",
+   "o": [
+    {
+     "t": "O setor jurídico tinha enviado-lhe o contrato na véspera.",
+     "p": "generalizacao",
+     "w": "Nunca se faz ênclise ao particípio. O pronome se liga ao auxiliar: “tinha-lhe enviado” (ou, havendo palavra atrativa, vem antes dele)."
+    },
+    {
+     "t": "Quem enviou-lhe o contrato foi o setor jurídico.",
+     "p": "restricao",
+     "w": "Esquece que pronomes como “quem” também atraem o oblíquo, não só as palavras negativas. O correto é “Quem lhe enviou o contrato”."
+    },
+    {
+     "t": "O diretor enviaria-me o contrato se o cliente já o tivesse assinado.",
+     "p": "extrapolacao",
+     "w": "Estende a ênclise ao futuro do pretérito, onde ela não cabe. Sem palavra atrativa, usa-se a mesóclise: “enviar-me-ia”."
+    },
+    {
+     "t": "Envie-me, por favor, a versão final do contrato até sexta-feira.",
+     "p": "correta",
+     "w": "No início da frase e com verbo no imperativo afirmativo, a norma-padrão pede ênclise: “Envie-me”."
+    }
+   ]
+  },
+  {
+   "id": "port23",
+   "topic": "Transposição de voz",
+   "c": "Um jornalista da assessoria do Ministério da Saúde precisa reescrever na voz passiva analítica a frase: “A Anvisa analisará os novos pedidos de registro.”",
+   "q": "Qual é a transposição correta?",
+   "a": 2,
+   "src": "Voz ativa e voz passiva analítica: correspondência de tempos (Celso Cunha & Lindley Cintra, Nova Gramática do Português Contemporâneo)",
+   "o": [
+    {
+     "t": "Os novos pedidos de registro foram analisados pela Anvisa.",
+     "p": "calculo",
+     "w": "Erra o tempo verbal: “analisará” está no futuro do presente, então o auxiliar também deve estar: “serão analisados”, e não “foram”."
+    },
+    {
+     "t": "Analisar-se-ão os novos pedidos de registro.",
+     "p": "troca",
+     "w": "Essa é a voz passiva sintética (pronominal), não a analítica pedida, que se forma com o verbo “ser” + particípio."
+    },
+    {
+     "t": "Os novos pedidos de registro serão analisados pela Anvisa.",
+     "p": "correta",
+     "w": "O objeto direto vira sujeito, o sujeito vira agente da passiva e o auxiliar “ser” assume o tempo do verbo original, o futuro do presente: “serão analisados”."
+    },
+    {
+     "t": "A Anvisa terá analisado os novos pedidos de registro.",
+     "p": "inversao",
+     "w": "Continua na voz ativa, com a Anvisa como sujeito agente, e ainda troca o tempo para o futuro composto."
+    }
+   ]
+  },
+  {
+   "id": "port24",
+   "topic": "Pronome relativo cujo",
+   "c": "Uma servidora do Detran da Bahia redige um comunicado sobre motoristas que tiveram a carteira de habilitação suspensa.",
+   "q": "Assinale a frase em que o pronome relativo está empregado corretamente.",
+   "a": 0,
+   "src": "Pronome relativo “cujo”: posse, concordância com o possuído, sem artigo posposto (Bechara, Moderna Gramática Portuguesa)",
+   "o": [
+    {
+     "t": "Os condutores cujas habilitações foram suspensas devem fazer o curso de reciclagem.",
+     "p": "correta",
+     "w": "“Cujo” liga o possuidor (condutores) à coisa possuída (habilitações), concorda com o possuído e dispensa artigo: “cujas habilitações”."
+    },
+    {
+     "t": "Os condutores cujas as habilitações foram suspensas devem fazer o curso.",
+     "p": "extrapolacao",
+     "w": "Depois de “cujo” e suas flexões não se usa artigo: “cujas habilitações”, nunca “cujas as habilitações”."
+    },
+    {
+     "t": "Os condutores cujos habilitações foram suspensas devem fazer o curso.",
+     "p": "inversao",
+     "w": "“Cujo” concorda com o termo possuído (habilitações), não com o possuidor (condutores): “cujas habilitações”."
+    },
+    {
+     "t": "O curso, que o conteúdo foi atualizado, terá carga de 30 horas.",
+     "p": "troca",
+     "w": "Há relação de posse (o conteúdo do curso), por isso o relativo adequado é “cujo”: “O curso, cujo conteúdo foi atualizado, terá...”."
+    }
+   ]
+  },
+  {
+   "id": "port25",
+   "topic": "Relativo com preposição",
+   "c": "Em entrevista ao jornal de uma universidade estadual em Londrina, uma professora fala sobre sua carreira e sobre os projetos que coordena.",
+   "q": "Assinale a frase correta quanto à regência do pronome relativo.",
+   "a": 2,
+   "src": "Regência e pronome relativo: a preposição exigida vem antes do relativo (Cegalla, Novíssima Gramática)",
+   "o": [
+    {
+     "t": "Esta é a pesquisa que mais gosto de orientar.",
+     "p": "generalizacao",
+     "w": "Usa “que” sem preposição como se servisse para qualquer verbo. Quem gosta, gosta de algo: “a pesquisa de que mais gosto”."
+    },
+    {
+     "t": "Essa é a resolução de que se refere o regimento do programa.",
+     "p": "troca",
+     "w": "“Referir-se” pede a preposição “a”, não “de”: “a resolução a que se refere o regimento”."
+    },
+    {
+     "t": "Este é o cargo a que sempre aspirei.",
+     "p": "correta",
+     "w": "“Aspirar”, no sentido de desejar, pede a preposição “a”, que se coloca antes do relativo: aspirar a um cargo → o cargo a que aspirei."
+    },
+    {
+     "t": "Este é o resultado de que esperávamos desde o início do projeto.",
+     "p": "extrapolacao",
+     "w": "Acrescenta preposição que o verbo não pede. “Esperar” é transitivo direto (esperar algo): “o resultado que esperávamos”."
+    }
+   ]
+  },
+  {
+   "id": "port26",
+   "topic": "Conjunção concessiva",
+   "c": "Num parecer da Procuradoria-Geral do Estado do Paraná, lê-se: “Conquanto o contrato tenha sido assinado fora do prazo, não houve prejuízo ao erário.”",
+   "q": "Qual conjunção substitui “conquanto” sem alterar o sentido do trecho?",
+   "a": 0,
+   "src": "Conjunções subordinativas concessivas, causais, condicionais e coordenativas conclusivas (Bechara, Moderna Gramática Portuguesa)",
+   "o": [
+    {
+     "t": "Embora",
+     "p": "correta",
+     "w": "“Conquanto” é concessiva, como “embora”, “ainda que” e “se bem que”: admite um fato contrário, que não impede a conclusão. O subjuntivo “tenha sido” se mantém."
+    },
+    {
+     "t": "Porquanto",
+     "p": "troca",
+     "w": "Apesar da forma parecida, “porquanto” é causal ou explicativa (= porque, visto que), não concessiva."
+    },
+    {
+     "t": "Contanto que",
+     "p": "restricao",
+     "w": "“Contanto que” é condicional: transformaria a assinatura fora do prazo em condição para a ausência de prejuízo, ideia que não existe no trecho."
+    },
+    {
+     "t": "Portanto",
+     "p": "inversao",
+     "w": "“Portanto” é conclusiva: inverteria a relação, apresentando o atraso como causa da ausência de prejuízo, e ainda exigiria outra estrutura verbal."
+    }
+   ]
+  },
+  {
+   "id": "port27",
+   "topic": "Valores do “como”",
+   "c": "Uma revisora da Assembleia Legislativa de Goiás analisa frases do discurso de encerramento do ano legislativo.",
+   "q": "Em qual frase “como” tem valor de causa?",
+   "a": 3,
+   "src": "Valores semânticos de “como”: causal, conformativo, comparativo e advérbio interrogativo (Celso Cunha & Lindley Cintra, Nova Gramática do Português Contemporâneo)",
+   "o": [
+    {
+     "t": "A sessão terminou como o regimento determina.",
+     "p": "troca",
+     "w": "Aqui “como” equivale a “conforme”: é conformativo e indica acordo com o regimento, não causa."
+    },
+    {
+     "t": "O deputado discursou como um professor em sala de aula.",
+     "p": "generalizacao",
+     "w": "Aqui “como” é comparativo (discursou do modo que um professor discursa). Seu valor muda conforme a relação entre os termos; não é sempre causal."
+    },
+    {
+     "t": "Ninguém sabe como o relator votará amanhã.",
+     "p": "extrapolacao",
+     "w": "Aqui “como” é advérbio interrogativo de modo, numa interrogativa indireta (de que modo votará). Não liga uma causa a um efeito."
+    },
+    {
+     "t": "Como a sessão atrasou, a votação do orçamento ficou para o dia seguinte.",
+     "p": "correta",
+     "w": "Anteposto à oração principal e equivalente a “porque” ou “visto que”, “como” é causal: o atraso foi a causa do adiamento."
+    }
+   ]
+  },
+  {
+   "id": "port28",
+   "topic": "Oração substantiva subjetiva",
+   "c": "Num simulado de um cursinho em Teresina, o professor pede a análise do período: “É fundamental que os candidatos cheguem uma hora antes.”",
+   "q": "Como se classifica a oração “que os candidatos cheguem uma hora antes”?",
+   "a": 1,
+   "src": "Orações subordinadas substantivas: subjetiva, objetiva direta e predicativa (Bechara, Moderna Gramática Portuguesa)",
+   "o": [
+    {
+     "t": "Subordinada substantiva objetiva direta.",
+     "p": "troca",
+     "w": "A objetiva direta completa um verbo transitivo direto, como em “Exijo que cheguem cedo”. Aqui não há verbo transitivo: a oração é o sujeito."
+    },
+    {
+     "t": "Subordinada substantiva subjetiva.",
+     "p": "correta",
+     "w": "A oração é o sujeito de “é fundamental”: isso (que os candidatos cheguem) é fundamental. É a estrutura típica: verbo de ligação + predicativo + oração."
+    },
+    {
+     "t": "Subordinada substantiva predicativa.",
+     "p": "inversao",
+     "w": "Inverte as funções: “fundamental” é o predicativo, e a oração é o sujeito. A predicativa vem depois do verbo de ligação com sujeito expresso: “O ideal é que cheguem cedo”."
+    },
+    {
+     "t": "Subordinada adjetiva restritiva.",
+     "p": "generalizacao",
+     "w": "Supõe que todo “que” seja pronome relativo. Aqui ele é conjunção integrante: não retoma nenhum termo anterior, e a oração pode ser trocada por “isso”."
+    }
+   ]
+  },
+  {
+   "id": "port29",
+   "topic": "Desde que condicional",
+   "c": "O edital de um concurso da Prefeitura de Maringá estabelece: “O candidato poderá usar calculadora, desde que ela não seja programável.”",
+   "q": "Que relação a locução “desde que” estabelece nesse trecho?",
+   "a": 3,
+   "src": "Orações subordinadas adverbiais condicionais e temporais: “desde que” (Celso Cunha & Lindley Cintra, Nova Gramática do Português Contemporâneo)",
+   "o": [
+    {
+     "t": "Tempo.",
+     "p": "troca",
+     "w": "“Desde que” é temporal quando marca um ponto de partida no tempo, em geral com indicativo: “Desde que assumiu, reorganizou o setor”. Não é o caso."
+    },
+    {
+     "t": "Causa.",
+     "p": "extrapolacao",
+     "w": "O trecho não apresenta o motivo de um fato; impõe uma exigência para que o uso da calculadora seja permitido."
+    },
+    {
+     "t": "Concessão.",
+     "p": "inversao",
+     "w": "Concessão admite um obstáculo que não impede o fato (como “embora”). Aqui ocorre o contrário: a característica da calculadora é requisito para o uso."
+    },
+    {
+     "t": "Condição.",
+     "p": "correta",
+     "w": "Com o verbo no subjuntivo e o sentido de “contanto que”, “desde que” introduz oração adverbial condicional: o uso da calculadora depende de ela não ser programável."
+    }
+   ]
+  },
+  {
+   "id": "port30",
+   "topic": "Oração reduzida",
+   "c": "A ata da reunião do conselho de uma cooperativa agrícola de Chapecó começa assim: “Encerrada a votação, o presidente anunciou o resultado.”",
+   "q": "Que circunstância a oração reduzida “Encerrada a votação” expressa?",
+   "a": 1,
+   "src": "Orações reduzidas de particípio com valor adverbial (Bechara, Moderna Gramática Portuguesa)",
+   "o": [
+    {
+     "t": "Finalidade: equivale a “Para que a votação fosse encerrada”.",
+     "p": "inversao",
+     "w": "Inverte a ordem dos fatos: o encerramento já tinha ocorrido quando o resultado foi anunciado; não é um objetivo a alcançar."
+    },
+    {
+     "t": "Tempo: equivale a “Depois que a votação foi encerrada”.",
+     "p": "correta",
+     "w": "A oração reduzida de particípio situa no tempo o fato principal; desenvolvida, fica “Depois que (Assim que) a votação foi encerrada”."
+    },
+    {
+     "t": "Concessão: equivale a “Embora a votação tenha sido encerrada”.",
+     "p": "troca",
+     "w": "Não há oposição entre o encerramento da votação e o anúncio do resultado; um fato sucede naturalmente o outro."
+    },
+    {
+     "t": "Nenhuma: orações reduzidas não exprimem circunstâncias, pois não têm conjunção.",
+     "p": "generalizacao",
+     "w": "Orações reduzidas de infinitivo, gerúndio ou particípio podem ser adverbiais. Sem conectivo, o valor vem do sentido e da possibilidade de desenvolvê-las."
+    }
+   ]
+  },
+  {
+   "id": "port31",
+   "topic": "Metonímia",
+   "c": "Num cartaz da Biblioteca Pública do Paraná, em Curitiba, lê-se: “Neste mês, venha ler Clarice Lispector.”",
+   "q": "Que figura de linguagem há em “ler Clarice Lispector”?",
+   "a": 0,
+   "src": "Figuras de linguagem: metonímia (autor pela obra) x metáfora (Cegalla, Novíssima Gramática)",
+   "o": [
+    {
+     "t": "Metonímia, pois o nome da autora está no lugar da obra.",
+     "p": "correta",
+     "w": "Na metonímia, um termo substitui outro com o qual tem relação objetiva de proximidade, como o autor pela obra: lê-se a obra de Clarice."
+    },
+    {
+     "t": "Metáfora, pois há uma comparação implícita entre a autora e um livro.",
+     "p": "troca",
+     "w": "A metáfora se baseia em semelhança (comparação implícita). Aqui a relação é de contiguidade (autor e obra), típica da metonímia."
+    },
+    {
+     "t": "Hipérbole, pois há um exagero intencional.",
+     "p": "extrapolacao",
+     "w": "Não há exagero na frase: ninguém amplia um fato para dar ênfase. Atribuir hipérbole vai além do que o texto apresenta."
+    },
+    {
+     "t": "Nenhuma, pois figuras de linguagem só ocorrem em textos literários.",
+     "p": "generalizacao",
+     "w": "Figuras de linguagem aparecem também na fala cotidiana, na publicidade e no jornalismo, como neste cartaz."
+    }
+   ]
+  },
+  {
+   "id": "port32",
+   "topic": "Eufemismo",
+   "c": "Uma nota de pesar da Câmara Municipal de Natal informa: “O ex-vereador Antônio Bezerra partiu ontem, aos 92 anos, cercado pela família.”",
+   "q": "Que figura de linguagem há no emprego de “partiu”?",
+   "a": 2,
+   "src": "Figuras de linguagem: eufemismo x hipérbole, ironia e prosopopeia (Bechara, Moderna Gramática Portuguesa)",
+   "o": [
+    {
+     "t": "Hipérbole, porque enfatiza a perda com exagero.",
+     "p": "inversao",
+     "w": "A hipérbole exagera para enfatizar; o eufemismo faz o oposto, atenua. A nota busca suavizar, não ampliar."
+    },
+    {
+     "t": "Ironia, porque diz o contrário do que pensa.",
+     "p": "troca",
+     "w": "A ironia diz o contrário do que se quer expressar, com intenção crítica ou humorística, o que não ocorre numa nota de pesar."
+    },
+    {
+     "t": "Eufemismo, porque suaviza a notícia da morte.",
+     "p": "correta",
+     "w": "O eufemismo substitui uma expressão dura ou desagradável por outra mais branda: “partiu” no lugar de “morreu”."
+    },
+    {
+     "t": "Prosopopeia, porque atribui uma ação humana a um ser inanimado.",
+     "p": "extrapolacao",
+     "w": "Prosopopeia dá características humanas a seres inanimados ou irracionais. Quem “partiu” é uma pessoa, então não há personificação."
+    }
+   ]
+  },
+  {
+   "id": "port33",
+   "topic": "Coesão por demonstrativos",
+   "c": "Uma notícia do portal da Prefeitura de Manaus diz: “A prefeitura reformou a Unidade Básica de Saúde do bairro Compensa e a escola municipal ao lado. Esta ganhou uma quadra coberta; aquela, um consultório odontológico.”",
+   "q": "A que termos se referem, respectivamente, “esta” e “aquela”?",
+   "a": 1,
+   "src": "Coesão referencial: “este” retoma o termo mais próximo, “aquele” o mais distante (Koch, A Coesão Textual; Bechara)",
+   "o": [
+    {
+     "t": "“Esta” retoma a Unidade Básica de Saúde; “aquela”, a escola municipal.",
+     "p": "inversao",
+     "w": "Inverte a regra: “esta” retoma o termo mais próximo, a escola; “aquela”, o mais distante, a UBS."
+    },
+    {
+     "t": "“Esta” retoma a escola municipal; “aquela”, a Unidade Básica de Saúde.",
+     "p": "correta",
+     "w": "Ao retomar dois termos já citados, “este/esta” se refere ao mais próximo (a escola) e “aquele/aquela”, ao mais distante (a UBS). O sentido confirma: quadra na escola, consultório na UBS."
+    },
+    {
+     "t": "Os dois pronomes retomam “a prefeitura”, sujeito da primeira oração.",
+     "p": "troca",
+     "w": "Os demonstrativos distribuem as melhorias entre os dois prédios reformados; não retomam quem fez a reforma."
+    },
+    {
+     "t": "“Esta” antecipa um termo que ainda vai aparecer; “aquela” retoma a escola.",
+     "p": "extrapolacao",
+     "w": "Nenhum dos dois é catafórico aqui: ambos retomam termos já mencionados, ou seja, são anafóricos."
+    }
+   ]
+  },
+  {
+   "id": "port34",
+   "topic": "Parônimos",
+   "c": "Um assessor do Tribunal de Contas do Estado do Rio Grande do Norte revisa um relatório de auditoria antes da publicação.",
+   "q": "Assinale a frase em que não há troca entre parônimos.",
+   "a": 3,
+   "src": "Parônimos: discrição/descrição, eminente/iminente, deferir/diferir, infligir/infringir (VOLP; Cegalla, Dicionário de Dificuldades)",
+   "o": [
+    {
+     "t": "Diante do eminente risco de dano ao erário, o tribunal suspendeu o contrato.",
+     "p": "troca",
+     "w": "“Eminente” significa elevado, ilustre. Para algo prestes a acontecer, usa-se “iminente”: “iminente risco”."
+    },
+    {
+     "t": "O pedido de prorrogação foi diferido pelo presidente, que o aprovou ontem.",
+     "p": "inversao",
+     "w": "“Diferir” significa adiar ou ser diferente. Atender a um pedido é “deferir”: “o pedido foi deferido”."
+    },
+    {
+     "t": "O tribunal infringiu multa ao gestor que descumpriu o prazo.",
+     "p": "extrapolacao",
+     "w": "“Infringir” é violar (infringir uma norma). Aplicar pena ou castigo é “infligir”: “infligiu multa ao gestor”."
+    },
+    {
+     "t": "O auditor agiu com discrição ao tratar dos dados sigilosos da empresa.",
+     "p": "correta",
+     "w": "“Discrição” significa reserva, prudência. “Descrição” é o ato de descrever."
+    }
+   ]
+  },
+  {
+   "id": "port35",
+   "topic": "Sessão, seção e cessão",
+   "c": "Uma servidora da Secretaria de Patrimônio de Juiz de Fora redige um aviso sobre um imóvel municipal que poderá ser cedido a uma associação de moradores.",
+   "q": "Assinale a frase correta quanto ao emprego de “sessão”, “seção” e “cessão”.",
+   "a": 2,
+   "src": "Homônimos homófonos: sessão, seção (secção) e cessão (VOLP; Cegalla, Dicionário de Dificuldades)",
+   "o": [
+    {
+     "t": "A sessão do imóvel à associação será votada na cessão de quinta-feira.",
+     "p": "inversao",
+     "w": "Inverte os dois sentidos: o ato de ceder é “cessão”; a reunião em que se vota é “sessão”."
+    },
+    {
+     "t": "Os documentos devem ser entregues na sessão de protocolo, no térreo.",
+     "p": "troca",
+     "w": "Departamento ou divisão de um órgão é “seção”: “na seção de protocolo”."
+    },
+    {
+     "t": "A cessão do imóvel à associação será votada na sessão de quinta-feira.",
+     "p": "correta",
+     "w": "“Cessão” é o ato de ceder; “sessão” é o período em que se reúne um grupo ou ocorre um evento; “seção” (ou secção) é divisão, departamento."
+    },
+    {
+     "t": "A seção plenária da Câmara começou com uma hora de atraso.",
+     "p": "generalizacao",
+     "w": "Usa “seção” para qualquer caso. Reunião de um colegiado é “sessão”: “a sessão plenária”."
+    }
+   ]
+  },
+  {
+   "id": "port36",
+   "topic": "Acerca de e senão",
+   "c": "Um repórter da rádio de uma universidade federal em Campina Grande escreve o texto de uma notícia sobre o calendário acadêmico.",
+   "q": "Assinale a frase correta.",
+   "a": 0,
+   "src": "Acerca de / há cerca de; senão / se não (Cegalla, Dicionário de Dificuldades da Língua Portuguesa)",
+   "o": [
+    {
+     "t": "A reitoria falou acerca do novo calendário, aprovado há cerca de um mês.",
+     "p": "correta",
+     "w": "“Acerca de” significa “a respeito de”; “há cerca de” indica tempo decorrido aproximado (faz cerca de um mês)."
+    },
+    {
+     "t": "O reitor falou há cerca do novo calendário com os estudantes.",
+     "p": "troca",
+     "w": "Para “a respeito de”, usa-se “acerca de”: “falou acerca do novo calendário”. “Há cerca de” indica tempo."
+    },
+    {
+     "t": "O novo calendário foi aprovado acerca de um mês.",
+     "p": "inversao",
+     "w": "Faz o caminho oposto: para tempo decorrido aproximado, usa-se o verbo “haver”: “aprovado há cerca de um mês”."
+    },
+    {
+     "t": "As aulas não começarão em agosto, se não em setembro.",
+     "p": "generalizacao",
+     "w": "Com o sentido de “mas sim”, escreve-se “senão”, junto: “não em agosto, senão em setembro”. “Se não”, separado, equivale a “caso não”."
+    }
+   ]
+  },
+  {
+   "id": "port37",
+   "topic": "Ortografia: s, z, ç",
+   "c": "Um técnico da Secretaria da Fazenda de Santa Catarina redige uma nota explicativa para os contribuintes sobre a instabilidade do sistema de emissão de notas fiscais.",
+   "q": "Assinale a frase em que todas as palavras estão grafadas corretamente.",
+   "a": 2,
+   "src": "Ortografia oficial (VOLP/ABL): paralisação, exceção, privilégio, empecilho, pesquisa",
+   "o": [
+    {
+     "t": "A paralização do sistema foi uma excessão, e a análise será refeita.",
+     "p": "troca",
+     "w": "Troca as letras: “paralisação” vem de “paralisar”, com s, e “exceção” se escreve com ç, não com ss."
+    },
+    {
+     "t": "Nenhum contribuinte terá previlégio, e qualquer impecilho deve ser comunicado.",
+     "p": "inversao",
+     "w": "Inverte as vogais: a grafia oficial é “privilégio” (pri-) e “empecilho” (em-)."
+    },
+    {
+     "t": "A paralisação do sistema foi uma exceção, e a análise da pesquisa será refeita.",
+     "p": "correta",
+     "w": "“Paralisação” vem de “paralisar” (com s); “exceção” se escreve com ç, como “exceto”; “análise” e “pesquisa” levam s."
+    },
+    {
+     "t": "A pesquiza mostrou excesso de reclamações sobre a emissão de notas.",
+     "p": "generalizacao",
+     "w": "Generaliza o z de verbos como “organizar” e “utilizar”. “Pesquisa” vem de “pesquisar”, com s; “excesso” está correto."
+    }
+   ]
+  },
+  {
+   "id": "port38",
+   "topic": "Hífen com prefixos",
+   "c": "A Secretaria de Comunicação de uma prefeitura de Sergipe está padronizando a grafia das palavras usadas nos boletins oficiais.",
+   "q": "Assinale a alternativa em que todas as palavras seguem o Acordo Ortográfico de 1990.",
+   "a": 0,
+   "src": "Acordo Ortográfico de 1990 (Decreto 6.583/2008), Base XVI: hífen com prefixos",
+   "o": [
+    {
+     "t": "anti-inflamatório, autoescola, contrarregra, micro-ondas",
+     "p": "correta",
+     "w": "Há hífen quando o prefixo termina na mesma vogal que inicia a palavra seguinte (anti-inflamatório, micro-ondas). Com vogais diferentes, junta-se (autoescola); antes de r ou s, a consoante dobra (contrarregra)."
+    },
+    {
+     "t": "antiinflamatório, auto-escola, contra-regra, microondas",
+     "p": "inversao",
+     "w": "É a grafia anterior ao Acordo, que funciona ao contrário da atual: hoje há hífen com vogais iguais (anti-inflamatório, micro-ondas) e não há nos outros dois casos."
+    },
+    {
+     "t": "anti-inflamatório, auto-escola, contra-regra, micro-ondas",
+     "p": "generalizacao",
+     "w": "Generaliza o hífen para todo prefixo terminado em vogal. Ele só ocorre antes de h ou da mesma vogal; com vogal diferente, junta-se (autoescola), e antes de r dobra-se a letra (contrarregra)."
+    },
+    {
+     "t": "anti-inflamatório, autoescola, contrarregra, microondas",
+     "p": "restricao",
+     "w": "Aplica a regra das vogais iguais só em parte: “micro” termina em o e “ondas” começa por o, por isso “micro-ondas” leva hífen."
+    }
+   ]
+  },
+  {
+   "id": "port39",
+   "topic": "Acento diferencial",
+   "c": "Uma professora de um cursinho popular em Salvador corrige textos de alunos que vão prestar concurso para o Tribunal de Justiça da Bahia.",
+   "q": "Assinale a frase em que a acentuação está correta.",
+   "a": 3,
+   "src": "Acordo Ortográfico de 1990, Bases IX e X: acentos diferenciais mantidos (pôde, pôr, têm, vêm) e abolidos (para, veem, leem)",
+   "o": [
+    {
+     "t": "Ontem ele não pode comparecer à prova, mas hoje pôde.",
+     "p": "inversao",
+     "w": "Inverte as formas: “pôde”, com acento, é o pretérito perfeito (ontem ele não pôde); “pode”, sem acento, é o presente (hoje pode)."
+    },
+    {
+     "t": "Eles vêem o resultado no site e lêem o edital com atenção.",
+     "p": "generalizacao",
+     "w": "Estende às formas em “-eem” o acento de “têm” e “vêm”. Pelo Acordo, “veem”, “leem”, “creem” e “deem” não têm acento."
+    },
+    {
+     "t": "O candidato pára no posto de gasolina a caminho da prova.",
+     "p": "extrapolacao",
+     "w": "O Acordo de 1990 aboliu o acento diferencial de “para” (verbo). Hoje se escreve “para” tanto no verbo quanto na preposição."
+    },
+    {
+     "t": "Os candidatos têm até amanhã para pôr os documentos no envelope.",
+     "p": "correta",
+     "w": "“Têm” (plural) leva acento para se distinguir de “tem” (singular). “Pôr” (verbo) mantém o acento diferencial em relação à preposição “por”."
+    }
+   ]
+  },
+  {
+   "id": "port40",
+   "topic": "Vocativo em ofícios",
+   "c": "Uma servidora da Secretaria de Educação do Estado do Ceará vai redigir um ofício dirigido a um senador da República para pedir apoio a um projeto.",
+   "q": "Segundo o Manual de Redação da Presidência da República, qual é o vocativo adequado?",
+   "a": 1,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.4: vocativo e formas abolidas",
+   "o": [
+    {
+     "t": "Excelentíssimo Senhor Senador,",
+     "p": "generalizacao",
+     "w": "Estende a todas as autoridades um vocativo que o Manual reserva aos Chefes de Poder, como o Presidente da República e o Presidente do Congresso Nacional."
+    },
+    {
+     "t": "Senhor Senador,",
+     "p": "correta",
+     "w": "O Manual reserva “Excelentíssimo Senhor” aos Chefes de Poder. As demais autoridades, mesmo as tratadas por Vossa Excelência, recebem “Senhor” seguido do cargo."
+    },
+    {
+     "t": "Ilustríssimo Senhor Senador,",
+     "p": "troca",
+     "w": "O Manual aboliu, nas comunicações oficiais, o uso de “Ilustríssimo” (Ilmo.) e de “Digníssimo” (DD)."
+    },
+    {
+     "t": "Vossa Excelência, Senador,",
+     "p": "calculo",
+     "w": "Erra o procedimento: “Vossa Excelência” é pronome de tratamento usado no corpo do texto, não vocativo. No vocativo, usa-se “Senhor” + cargo."
+    }
+   ]
+  },
+  {
+   "id": "port41",
+   "topic": "Fechos de comunicação",
+   "c": "O superintendente de um hospital universitário federal em Uberlândia vai assinar um ofício dirigido ao Ministro da Saúde, autoridade de hierarquia superior à sua.",
+   "q": "Segundo o Manual de Redação da Presidência da República, qual fecho deve ser usado?",
+   "a": 3,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.7: fechos",
+   "o": [
+    {
+     "t": "Atenciosamente,",
+     "p": "inversao",
+     "w": "“Atenciosamente” é o fecho para autoridades de mesma hierarquia, de hierarquia inferior e demais casos. Para autoridade superior, usa-se “Respeitosamente”."
+    },
+    {
+     "t": "Cordialmente,",
+     "p": "troca",
+     "w": "O Manual não prevê “Cordialmente” nas comunicações oficiais; os únicos fechos padronizados são “Respeitosamente” e “Atenciosamente”."
+    },
+    {
+     "t": "Nenhum, pois a assinatura e a identificação do signatário substituem o fecho.",
+     "p": "extrapolacao",
+     "w": "O fecho é parte da estrutura do padrão ofício e não é dispensado pela assinatura; serve para arrematar o texto e saudar o destinatário."
+    },
+    {
+     "t": "Respeitosamente,",
+     "p": "correta",
+     "w": "O Manual prevê só dois fechos: “Respeitosamente,” para autoridades de hierarquia superior, inclusive o Presidente da República, e “Atenciosamente,” para os demais casos."
+    }
+   ]
+  },
+  {
+   "id": "port42",
+   "topic": "Funções do que",
+   "c": "Num simulado para o concurso da Polícia Civil do Ceará, o professor pede que os alunos classifiquem o “que” em quatro frases.",
+   "q": "Em qual frase o “que” é pronome relativo?",
+   "a": 1,
+   "src": "Funções da palavra “que”: pronome relativo, conjunção integrante, partícula expletiva e substantivo (Cegalla, Novíssima Gramática)",
+   "o": [
+    {
+     "t": "O delegado afirmou que o inquérito estava concluído.",
+     "p": "troca",
+     "w": "Aqui o “que” é conjunção integrante: introduz a oração que completa “afirmou” e pode ser substituída por “isso” (afirmou isso)."
+    },
+    {
+     "t": "O inquérito que o delegado concluiu foi enviado ao Ministério Público.",
+     "p": "correta",
+     "w": "O “que” retoma “o inquérito” e pode ser trocado por “o qual” (o inquérito, o qual o delegado concluiu). Isso o identifica como pronome relativo."
+    },
+    {
+     "t": "O depoimento da testemunha tinha um quê de mistério.",
+     "p": "extrapolacao",
+     "w": "Acentuado e determinado por artigo, “quê” é substantivo (= alguma coisa); não retoma nenhum termo anterior."
+    },
+    {
+     "t": "Quase que o prazo do inquérito venceu sem conclusão.",
+     "p": "generalizacao",
+     "w": "Aqui o “que” é partícula expletiva (de realce): pode ser retirado sem prejuízo do sentido (“Quase o prazo venceu”)."
+    }
+   ]
+  },
+  {
+   "id": "port43",
+   "topic": "Funções do se",
+   "c": "Na prova de um concurso para a Câmara Municipal de Belo Horizonte, aparece a frase: “O vereador perguntou se a sessão seria transmitida pela internet.”",
+   "q": "Qual é a função do “se” nessa frase?",
+   "a": 0,
+   "src": "Funções da palavra “se”: conjunção integrante, conjunção condicional, partícula apassivadora e pronome reflexivo (Bechara, Moderna Gramática Portuguesa)",
+   "o": [
+    {
+     "t": "Conjunção integrante, que introduz oração subordinada substantiva objetiva direta.",
+     "p": "correta",
+     "w": "O “se” introduz a oração que completa “perguntou” (perguntou isso), numa interrogativa indireta. É conjunção integrante."
+    },
+    {
+     "t": "Conjunção condicional, equivalente a “caso”.",
+     "p": "troca",
+     "w": "Trocar por “caso” deixa a frase sem sentido (perguntou caso a sessão...). O “se” condicional introduz oração adverbial: “Se chover, a sessão será adiada”."
+    },
+    {
+     "t": "Partícula apassivadora, porque a oração está na voz passiva.",
+     "p": "extrapolacao",
+     "w": "A oração “seria transmitida” já está na voz passiva analítica, e o “se” não se liga ao verbo como pronome. A apassivadora acompanha verbo transitivo direto: “Transmitiu-se a sessão”."
+    },
+    {
+     "t": "Pronome reflexivo, porque a ação recai sobre o próprio vereador.",
+     "p": "inversao",
+     "w": "Não há ação que volte para o sujeito: o “se” não é pronome, e sim conectivo entre a oração principal e a subordinada."
+    }
+   ]
+  },
+  {
+   "id": "port44",
+   "topic": "Pressuposto",
+   "c": "Em entrevista a uma rádio de Cuiabá, o secretário estadual de Saúde afirmou: “Os medicamentos deixaram de faltar no hospital regional.”",
+   "q": "Que informação está pressuposta nessa fala?",
+   "a": 2,
+   "src": "Implícitos: pressupostos marcados por verbos como “deixar de” (Koch, Argumentação e Linguagem; Fiorin & Savioli, Para Entender o Texto)",
+   "o": [
+    {
+     "t": "Nunca faltaram medicamentos no hospital regional.",
+     "p": "inversao",
+     "w": "Contradiz o pressuposto: dizer que os medicamentos “deixaram de faltar” implica que, antes, eles faltavam."
+    },
+    {
+     "t": "O secretário é o responsável pela melhora no abastecimento.",
+     "p": "extrapolacao",
+     "w": "A frase não diz quem causou a mudança. Atribuir o mérito ao secretário vai além do que está posto e do que está pressuposto."
+    },
+    {
+     "t": "Antes, faltavam medicamentos no hospital regional.",
+     "p": "correta",
+     "w": "“Deixar de” é marcador de pressuposição: só deixa de ocorrer o que antes ocorria. Logo, pressupõe-se que já houve falta de medicamentos."
+    },
+    {
+     "t": "Em nenhuma unidade de saúde do estado faltarão medicamentos.",
+     "p": "generalizacao",
+     "w": "A frase fala só do hospital regional e da situação atual; não autoriza estender a afirmação a todas as unidades nem ao futuro."
+    }
+   ]
+  },
+  {
+   "id": "port45",
+   "topic": "Futuro do subjuntivo",
+   "c": "Uma servidora do Tribunal Regional Federal da 4ª Região, em Porto Alegre, redige orientações para as partes de um processo.",
+   "q": "Assinale a frase correta quanto à flexão verbal.",
+   "a": 1,
+   "src": "Conjugação de verbos irregulares: futuro do subjuntivo de ver, vir, intervir e manter (Celso Cunha & Lindley Cintra, Nova Gramática do Português Contemporâneo)",
+   "o": [
+    {
+     "t": "Quando a perita vir ao fórum, trará o laudo assinado.",
+     "p": "troca",
+     "w": "Para o verbo “vir”, o futuro do subjuntivo é “vier”: “Quando a perita vier ao fórum”. “Vir” é o futuro do subjuntivo de “ver”."
+    },
+    {
+     "t": "Se o juiz vir necessidade de perícia, as partes serão intimadas.",
+     "p": "correta",
+     "w": "O futuro do subjuntivo de “ver” é “vir” (se eu vir, se ele vir). “Ver” é o infinitivo e não cabe depois de “se” com valor de futuro."
+    },
+    {
+     "t": "Se o Ministério Público intervir no processo, o prazo será reaberto.",
+     "p": "calculo",
+     "w": "Erra a conjugação: “intervir” deriva de “vir” e segue seu modelo. Assim como “se ele vier”, diz-se “se o Ministério Público intervier”."
+    },
+    {
+     "t": "Se as partes manterem o acordo, o processo será arquivado.",
+     "p": "generalizacao",
+     "w": "Conjuga “manter” como verbo regular. Ele segue o modelo de “ter” (se eles tiverem): “se as partes mantiverem o acordo”."
+    }
+   ]
+  },
+  {
+   "id": "port46",
+   "type": "ce",
+   "topic": "Crase em “de... a”",
+   "src": "Crase: paralelismo “de... a” (sem artigo) e “das... às” (com artigo) (Bechara, Moderna Gramática Portuguesa)",
+   "c": "Um aviso afixado num posto de atendimento ao cidadão em Ribeirão Preto diz: “Atendimento de segunda a sexta-feira, das 8h às 17h.”",
+   "q": "No aviso, a ausência de acento grave em “de segunda a sexta-feira” está correta, pois, sem artigo no primeiro termo, o “a” do segundo é apenas preposição.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. Na correlação “de... a”, sem artigo no primeiro termo, também não há artigo no segundo, logo não há crase. Em “das 8h às 17h”, há artigo nos dois."
+    },
+    {
+     "t": "Errado",
+     "p": "generalizacao",
+     "w": "Julgar errado seria supor crase sempre que o “a” antecede palavra feminina. A crase exige preposição e artigo, e o paralelismo com “de” mostra que aqui não há artigo."
+    }
+   ]
+  },
+  {
+   "id": "port47",
+   "type": "ce",
+   "topic": "Verbo tratar-se de",
+   "src": "Índice de indeterminação do sujeito com verbo transitivo indireto: “trata-se de” (Cegalla, Novíssima Gramática)",
+   "c": "Em nota à imprensa, a Secretaria de Segurança Pública de Goiás escreveu: “Tratam-se de casos isolados, que já estão sendo investigados.”",
+   "q": "A concordância de “Tratam-se” está correta, pois o verbo concorda com o sujeito “casos isolados”.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo é tratar o “se” como partícula apassivadora. “Tratar de” é transitivo indireto: o “se” indetermina o sujeito e o verbo fica no singular."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. “De casos isolados” é objeto indireto, não sujeito. Com o “se” índice de indeterminação do sujeito, o verbo fica no singular: “Trata-se de casos isolados”."
+    }
+   ]
+  },
+  {
+   "id": "port48",
+   "type": "ce",
+   "topic": "Regência de residente",
+   "src": "Regência nominal: residente em, morador em, situado em (Cegalla, Dicionário de Dificuldades da Língua Portuguesa)",
+   "c": "Numa petição a um juizado especial cível de Aracaju, o advogado qualificou o autor como “residente na Rua Laranjeiras, n. 120”.",
+   "q": "Segundo a norma-padrão, a regência de “residente na Rua Laranjeiras” está adequada, pois o adjetivo, como o verbo “residir”, pede a preposição “em”.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. Quem reside, reside em algum lugar; o adjetivo “residente” mantém a mesma regência: “residente na rua”, “situado na avenida”."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado é tomar como padrão a forma “residente à rua”, comum em documentos. A norma-padrão registra “em”, a mesma preposição do verbo “residir”."
+    }
+   ]
+  },
+  {
+   "id": "port49",
+   "type": "ce",
+   "topic": "Vírgula sujeito-verbo",
+   "src": "Pontuação: não se separa o sujeito do verbo por vírgula (Celso Cunha & Lindley Cintra, Nova Gramática do Português Contemporâneo)",
+   "c": "Um comunicado da pró-reitoria de uma universidade federal em Belém diz: “Os estudantes que se inscreveram no programa de monitoria até o dia 10 de março, receberão a bolsa em abril.”",
+   "q": "A vírgula depois de “10 de março” está correta, porque marca o fim de um sujeito longo.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo é transformar em regra a pausa de leitura. A extensão do sujeito não autoriza a vírgula entre ele e o verbo."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. Todo o trecho “Os estudantes que se inscreveram... até o dia 10 de março” é sujeito de “receberão”, e não se separa o sujeito do verbo por vírgula."
+    }
+   ]
+  },
+  {
+   "id": "port50",
+   "type": "ce",
+   "topic": "Ênclise ao infinitivo",
+   "src": "Colocação pronominal: ênclise ao infinitivo e formas lo, la, los, las (Bechara, Moderna Gramática Portuguesa)",
+   "c": "Num despacho da Secretaria da Fazenda do Piauí, lê-se: “Cabe à coordenação notificar o contribuinte e orientá-lo sobre o parcelamento.”",
+   "q": "A forma “orientá-lo” está correta: com infinitivo não flexionado e sem palavra atrativa, cabe a ênclise, e o pronome “o” assume a forma “lo” após a queda do “r” final.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. Com infinitivo não flexionado, a ênclise é a colocação regular; em verbo terminado em r, cai o r e o pronome vira “lo” (orientar + o = orientá-lo)."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado é supor que a ênclise só caiba no início da frase. Com infinitivo não flexionado e sem atrativo, ela é a colocação recomendada pela norma-padrão."
+    }
+   ]
+  },
+  {
+   "id": "port51",
+   "type": "ce",
+   "topic": "Voz reflexiva",
+   "src": "Vozes verbais: ativa, passiva e reflexiva (Celso Cunha & Lindley Cintra, Nova Gramática do Português Contemporâneo)",
+   "c": "O relatório de acidente de trabalho de uma metalúrgica de Betim registra: “O operador se feriu ao ajustar a prensa.”",
+   "q": "Em “O operador se feriu”, o verbo está na voz reflexiva, pois o sujeito pratica e, ao mesmo tempo, sofre a ação.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. O sujeito “o operador” é agente e paciente da ação de ferir; o pronome “se”, de mesma pessoa do sujeito, caracteriza a voz reflexiva."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado é confundir esse “se” com a partícula apassivadora. Na passiva sintética, o sujeito sofre a ação sem praticá-la (“Ajustou-se a prensa”), o que não é o caso."
+    }
+   ]
+  },
+  {
+   "id": "port52",
+   "type": "ce",
+   "topic": "À medida que",
+   "src": "Conjunções subordinativas proporcionais: à medida que, à proporção que (Bechara, Moderna Gramática Portuguesa)",
+   "c": "Um relatório de uma cooperativa de crédito de Fortaleza afirma: “À medida que os juros caem, aumenta a procura por crédito.”",
+   "q": "A locução “à medida que” tem valor causal e poderia ser substituída por “já que” sem alteração de sentido.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo é trocar a relação de proporção pela de causa. “Já que” apresentaria a queda dos juros como motivo pontual, perdendo a ideia de variação simultânea."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. “À medida que” é conjunção proporcional: os dois fatos variam juntos (quanto mais os juros caem, mais aumenta a procura). Equivale a “à proporção que”."
+    }
+   ]
+  },
+  {
+   "id": "port53",
+   "type": "ce",
+   "topic": "Oração adjetiva restritiva",
+   "src": "Orações adjetivas restritivas x explicativas: efeito de sentido da vírgula (Bechara, Moderna Gramática Portuguesa)",
+   "c": "Um aviso da Prefeitura de Florianópolis informa: “Os contribuintes que pagarem o IPTU em cota única terão desconto de 10%.”",
+   "q": "Sem vírgulas, a oração “que pagarem o IPTU em cota única” é restritiva e indica que só parte dos contribuintes terá o desconto.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. A oração restritiva delimita o antecedente: o desconto vale apenas para o grupo de contribuintes que pagar em cota única."
+    },
+    {
+     "t": "Errado",
+     "p": "inversao",
+     "w": "Julgar errado é inverter o efeito da pontuação. Seria a oração explicativa, entre vírgulas, que estenderia a característica a todos os contribuintes."
+    }
+   ]
+  },
+  {
+   "id": "port54",
+   "type": "ce",
+   "topic": "Catacrese",
+   "src": "Figuras de linguagem: catacrese (Cegalla, Novíssima Gramática)",
+   "c": "No manual de montagem de uma fábrica de móveis de Bento Gonçalves, lê-se: “Fixe os quatro pés da mesa antes de encaixar o tampo.”",
+   "q": "A expressão “pés da mesa” é exemplo de catacrese: uma metáfora já incorporada ao uso comum, por falta de um termo próprio.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. Na catacrese, uma palavra é emprestada por semelhança para nomear algo que não tem nome próprio, e o uso se torna tão comum que deixa de soar figurado."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado é confundir a catacrese com a prosopopeia. Não se atribui à mesa ação ou sentimento humano; apenas se nomeia uma parte dela por semelhança."
+    }
+   ]
+  },
+  {
+   "id": "port55",
+   "type": "ce",
+   "topic": "Catáfora",
+   "src": "Coesão referencial: anáfora (retoma) x catáfora (antecipa) (Koch, A Coesão Textual)",
+   "c": "Um folheto do hemocentro de Pernambuco diz: “O pedido é este: doe sangue antes do feriado.”",
+   "q": "O pronome “este” é anafórico, pois retoma uma informação já apresentada no texto.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "inversao",
+     "w": "Julgar certo é inverter a direção da referência. O pronome aponta para frente, para o trecho que vem depois dos dois-pontos."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. “Este” é catafórico: antecipa a informação “doe sangue antes do feriado”, que ainda vai aparecer. Anafórico seria se retomasse algo já dito."
+    }
+   ]
+  },
+  {
+   "id": "port56",
+   "type": "ce",
+   "topic": "Ratificar ou retificar",
+   "src": "Parônimos: ratificar (confirmar) x retificar (corrigir) (Cegalla, Dicionário de Dificuldades da Língua Portuguesa)",
+   "c": "Numa sessão do Tribunal de Justiça do Amapá, o relator corrigiu um erro material do próprio voto, e o secretário registrou na ata: “O relator retificou o voto.”",
+   "q": "O secretário poderia ter escrito “ratificou” no lugar de “retificou” sem alterar o sentido do registro.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo é tratar parônimos como sinônimos. As palavras se parecem na forma, mas têm sentidos diferentes."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. “Retificar” significa corrigir, que foi o que o relator fez; “ratificar” significa confirmar, validar. A troca mudaria o sentido da ata."
+    }
+   ]
+  },
+  {
+   "id": "port57",
+   "type": "ce",
+   "topic": "Hífen: autoescola",
+   "src": "Acordo Ortográfico de 1990 (Decreto 6.583/2008), Base XVI: prefixo terminado em vogal diferente da inicial seguinte",
+   "c": "Um vereador de Feira de Santana apresentou um projeto de lei sobre o funcionamento de “auto-escolas” no município.",
+   "q": "Segundo o Acordo Ortográfico, a palavra deve ser grafada com hífen, “auto-escola”, como ocorre em “auto-observação”.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo é estender o hífen a todo prefixo terminado em vogal. Ele só ocorre quando a palavra seguinte começa por h ou pela mesma vogal do prefixo."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. Em “auto-observação”, o prefixo termina em o e a palavra começa por o, por isso há hífen. Em “autoescola”, as vogais são diferentes e a grafia é junta."
+    }
+   ]
+  },
+  {
+   "id": "port58",
+   "type": "ce",
+   "topic": "Acento no hiato",
+   "src": "Acordo Ortográfico de 1990, Base X: i e u tônicos em hiato (juiz/juízes, raiz/raízes)",
+   "c": "Um revisor do Tribunal de Justiça de Rondônia encontrou, num mesmo despacho, as grafias “juiz” e “juízes”.",
+   "q": "As duas grafias estão corretas: em “juiz”, o i tônico do hiato forma sílaba com o z e não leva acento; em “juízes”, fica sozinho na sílaba e é acentuado.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. O i e o u tônicos de hiato são acentuados quando formam sílaba sozinhos ou com s (ju-í-zes), mas não quando formam sílaba com outra consoante (ju-iz)."
+    },
+    {
+     "t": "Errado",
+     "p": "generalizacao",
+     "w": "Julgar errado é supor que o singular e o plural sigam sempre a mesma acentuação. A divisão silábica muda (ju-iz, ju-í-zes), e o acento acompanha essa mudança."
+    }
+   ]
+  },
+  {
+   "id": "port59",
+   "type": "ce",
+   "topic": "Possessivo com Vossa Excelência",
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.1.1: concordância com pronomes de tratamento",
+   "c": "Um assessor da Assembleia Legislativa de Minas Gerais redige um ofício a um desembargador e escreve: “Informamos a Vossa Excelência que vosso pedido foi atendido.”",
+   "q": "O emprego de “vosso” está correto, pois os possessivos referidos aos pronomes de tratamento ficam na segunda pessoa do plural.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo é guiar-se pelo “Vossa” do pronome. Embora se dirijam à segunda pessoa, os pronomes de tratamento levam a concordância para a terceira pessoa."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. Segundo o Manual, os possessivos referidos a pronomes de tratamento são sempre de terceira pessoa: “Vossa Excelência... seu pedido foi atendido”."
+    }
+   ]
+  },
+  {
+   "id": "port60",
+   "type": "ce",
+   "topic": "Uso de “doutor”",
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.4",
+   "c": "Uma servidora da Prefeitura de Olinda pergunta à chefia se deve escrever “Doutor” antes do nome de todo advogado a quem envia ofícios.",
+   "q": "Segundo o Manual de Redação da Presidência da República, deve-se evitar o uso indiscriminado de “doutor”; o tratamento “Senhor” já confere a formalidade desejada.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. O Manual orienta evitar “doutor” de forma indiscriminada, por ser título acadêmico, e considera que “Senhor” já dá ao texto a formalidade necessária."
+    },
+    {
+     "t": "Errado",
+     "p": "generalizacao",
+     "w": "Julgar errado é supor que “doutor” seja forma de tratamento obrigatória para certas profissões. O Manual não a prevê como tratamento e recomenda evitar o uso indiscriminado."
+    }
+   ]
+  }
+ ]
+}

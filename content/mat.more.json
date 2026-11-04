@@ -1,0 +1,1445 @@
+{
+ "id": "mat",
+ "questions": [
+  {
+   "id": "mat13",
+   "topic": "Razão em misturas",
+   "c": "Numa lanchonete de Belém, o suco é preparado misturando concentrado de açaí e água na razão de 1 para 4. O dono quer preparar 15 litros de suco pronto.",
+   "q": "Quantos litros de concentrado serão necessários?",
+   "a": 0,
+   "src": "Razão e proporção: parte ÷ total = 1 ÷ (1 + 4)",
+   "o": [
+    {
+     "t": "3 litros",
+     "p": "correta",
+     "w": "A razão 1 para 4 forma 5 partes iguais, das quais 1 é concentrado: 15 ÷ 5 = 3 litros (e 12 litros de água)."
+    },
+    {
+     "t": "3,75 litros",
+     "p": "calculo",
+     "w": "Dividiu 15 por 4. O total da mistura tem 1 + 4 = 5 partes, não 4."
+    },
+    {
+     "t": "12 litros",
+     "p": "inversao",
+     "w": "Essa é a quantidade de água (4 das 5 partes). Inverteu concentrado e água."
+    },
+    {
+     "t": "15 litros, com 60 litros de água",
+     "p": "troca",
+     "w": "Tratou os 15 litros como a quantidade de concentrado. O enunciado fala em 15 litros de suco pronto."
+    }
+   ]
+  },
+  {
+   "id": "mat14",
+   "topic": "Divisão proporcional",
+   "c": "Três amigas abriram uma loja de bolos em Fortaleza, investindo R$ 10.000,00, R$ 15.000,00 e R$ 25.000,00. O lucro de R$ 12.000,00 do primeiro ano será dividido de forma diretamente proporcional ao valor investido.",
+   "q": "Quanto receberá a sócia que investiu R$ 25.000,00?",
+   "a": 1,
+   "src": "Divisão em partes diretamente proporcionais",
+   "o": [
+    {
+     "t": "R$ 4.000,00",
+     "p": "generalizacao",
+     "w": "Dividiu o lucro em partes iguais (12.000 ÷ 3), ignorando que a divisão é proporcional ao investimento."
+    },
+    {
+     "t": "R$ 6.000,00",
+     "p": "correta",
+     "w": "O investimento total é R$ 50.000,00, e ela entrou com 25/50 = 1/2 dele. Recebe 12.000 × 1/2 = R$ 6.000,00."
+    },
+    {
+     "t": "R$ 2.400,00",
+     "p": "troca",
+     "w": "Calculou a parte da sócia que investiu R$ 10.000,00 (10/50 de 12.000)."
+    },
+    {
+     "t": "R$ 7.500,00",
+     "p": "calculo",
+     "w": "Usou 40.000 como total investido, esquecendo uma das sócias: 12.000 × 25/40."
+    }
+   ]
+  },
+  {
+   "id": "mat15",
+   "topic": "Escala e área",
+   "c": "A maquete de um condomínio em Curitiba foi feita na escala 1:200. Na maquete, a área de lazer ocupa 50 cm².",
+   "q": "Qual é a área real da área de lazer?",
+   "a": 2,
+   "src": "Escala: razão de áreas = (razão linear)²",
+   "o": [
+    {
+     "t": "1 m²",
+     "p": "calculo",
+     "w": "Multiplicou por 200 em vez de 200². A escala linear vale para comprimentos; áreas usam o quadrado dela."
+    },
+    {
+     "t": "20.000 m²",
+     "p": "troca",
+     "w": "Converteu cm² para m² dividindo por 100, que é a conversão de comprimento. Para área, divide-se por 10.000."
+    },
+    {
+     "t": "200 m²",
+     "p": "correta",
+     "w": "Em área, a escala se eleva ao quadrado: 50 × 200² = 2.000.000 cm². Como 1 m² = 10.000 cm², são 200 m²."
+    },
+    {
+     "t": "0,25 cm²",
+     "p": "inversao",
+     "w": "Dividiu pela escala em vez de multiplicar. A maquete é menor que o real, então o valor real tem de ser maior."
+    }
+   ]
+  },
+  {
+   "id": "mat16",
+   "topic": "Velocidade e tempo",
+   "c": "Um ônibus faz o trajeto de Campinas a São Paulo em 1 h 30 min, com velocidade média de 80 km/h. Num dia de trânsito intenso, a velocidade média caiu para 60 km/h no mesmo trajeto.",
+   "q": "Quanto tempo durou a viagem nesse dia?",
+   "a": 3,
+   "src": "Grandezas inversamente proporcionais: v × t = distância constante",
+   "o": [
+    {
+     "t": "1 h 07 min 30 s",
+     "p": "inversao",
+     "w": "Tratou as grandezas como diretas (1,5 × 60 ÷ 80). Com velocidade menor, o tempo tem de aumentar."
+    },
+    {
+     "t": "1 h 44 min",
+     "p": "calculo",
+     "w": "Leu 1 h 30 min como 1,3 h. Trinta minutos são meia hora, ou seja, 1,5 h."
+    },
+    {
+     "t": "1 h 50 min",
+     "p": "extrapolacao",
+     "w": "Somou 20 minutos porque a velocidade caiu 20 km/h. Não há essa correspondência; é preciso usar a proporção inversa."
+    },
+    {
+     "t": "2 h",
+     "p": "correta",
+     "w": "A distância é 80 × 1,5 = 120 km. A 60 km/h, o tempo é 120 ÷ 60 = 2 h. Velocidade e tempo são inversamente proporcionais."
+    }
+   ]
+  },
+  {
+   "id": "mat17",
+   "topic": "Desconto à vista",
+   "c": "Uma loja de Goiânia vende uma TV por R$ 2.400,00 a prazo ou por R$ 2.040,00 à vista.",
+   "q": "Qual é o percentual de desconto para pagamento à vista, em relação ao preço a prazo?",
+   "a": 0,
+   "src": "Porcentagem: desconto ÷ preço original",
+   "o": [
+    {
+     "t": "15%",
+     "p": "correta",
+     "w": "O desconto é 2.400 − 2.040 = R$ 360,00. Em relação ao preço a prazo: 360 ÷ 2.400 = 0,15 = 15%."
+    },
+    {
+     "t": "Aproximadamente 17,6%",
+     "p": "inversao",
+     "w": "Dividiu 360 pelo preço à vista (2.040). A base do desconto é o preço original, R$ 2.400,00."
+    },
+    {
+     "t": "36%",
+     "p": "calculo",
+     "w": "Leu R$ 360,00 como 36%, sem dividir pelo preço. Percentual exige comparar a diferença com a base."
+    },
+    {
+     "t": "85%",
+     "p": "troca",
+     "w": "85% é quanto o preço à vista representa do preço a prazo. O desconto é o que falta para 100%."
+    }
+   ]
+  },
+  {
+   "id": "mat18",
+   "topic": "Porcentagem de porcentagem",
+   "c": "No concurso de uma prefeitura em Recife, 40% dos inscritos faltaram à prova. Entre os que compareceram, 25% foram aprovados.",
+   "q": "Que porcentagem do total de inscritos foi aprovada?",
+   "a": 1,
+   "src": "Porcentagem de porcentagem: multiplicação das taxas",
+   "o": [
+    {
+     "t": "10%",
+     "p": "inversao",
+     "w": "Aplicou os 25% sobre os 40% que faltaram, e não sobre os 60% que fizeram a prova."
+    },
+    {
+     "t": "15%",
+     "p": "correta",
+     "w": "Compareceram 60% dos inscritos. Os aprovados são 25% desses 60%: 0,25 × 0,60 = 0,15 = 15%."
+    },
+    {
+     "t": "25%",
+     "p": "troca",
+     "w": "Os 25% se referem a quem compareceu, não ao total de inscritos. É preciso calcular a porcentagem da porcentagem."
+    },
+    {
+     "t": "35%",
+     "p": "calculo",
+     "w": "Subtraiu 25 de 60. Porcentagem de porcentagem se calcula multiplicando as taxas."
+    }
+   ]
+  },
+  {
+   "id": "mat19",
+   "topic": "Prazo nos juros simples",
+   "c": "Dona Lúcia, de Teresina, emprestou R$ 5.000,00 a uma sobrinha, a juros simples de 2% ao mês, e recebeu de volta R$ 6.200,00 no total.",
+   "q": "Por quantos meses durou o empréstimo?",
+   "a": 2,
+   "src": "Juros simples: J = C × i × t",
+   "o": [
+    {
+     "t": "62 meses",
+     "p": "troca",
+     "w": "Dividiu o montante (R$ 6.200,00) pelos juros mensais. Na fórmula J = C × i × t entram só os juros, R$ 1.200,00."
+    },
+    {
+     "t": "120 meses",
+     "p": "calculo",
+     "w": "Converteu 2% como 0,002. O correto é 2% = 2 ÷ 100 = 0,02, que dá R$ 100,00 de juros por mês."
+    },
+    {
+     "t": "12 meses",
+     "p": "correta",
+     "w": "Os juros foram 6.200 − 5.000 = R$ 1.200,00. Por mês, rendem 5.000 × 0,02 = R$ 100,00. Logo, t = 1.200 ÷ 100 = 12 meses."
+    },
+    {
+     "t": "24 meses",
+     "p": "inversao",
+     "w": "Os juros correspondem a 24% do capital (1.200 ÷ 5.000), e isso foi lido como número de meses. É preciso dividir 24% pela taxa mensal."
+    }
+   ]
+  },
+  {
+   "id": "mat20",
+   "topic": "Dívida com juros compostos",
+   "c": "Rafael, de Manaus, deixou de pagar uma fatura de cartão de R$ 1.500,00. O banco cobra juros compostos de 10% ao mês, e ele vai quitar a dívida depois de 2 meses, sem outros encargos.",
+   "q": "Quanto Rafael pagará para quitar a dívida?",
+   "a": 3,
+   "src": "Juros compostos: M = C × (1 + i)ᵗ",
+   "o": [
+    {
+     "t": "R$ 1.800,00",
+     "p": "troca",
+     "w": "Calculou juros simples (10% + 10% = 20% sobre 1.500). Nos compostos, os juros do 1º mês também rendem juros."
+    },
+    {
+     "t": "R$ 1.650,00",
+     "p": "calculo",
+     "w": "Aplicou os juros de apenas um mês. A dívida ficou 2 meses em aberto."
+    },
+    {
+     "t": "R$ 1.996,50",
+     "p": "extrapolacao",
+     "w": "Calculou 3 meses de juros (1.500 × 1,1³). O enunciado fala em 2 meses."
+    },
+    {
+     "t": "R$ 1.815,00",
+     "p": "correta",
+     "w": "M = 1.500 × 1,1² = 1.500 × 1,21 = R$ 1.815,00. No segundo mês, os juros incidem sobre R$ 1.650,00."
+    }
+   ]
+  },
+  {
+   "id": "mat21",
+   "topic": "Ponto de equilíbrio",
+   "c": "Uma costureira de Caruaru tem custo fixo mensal de R$ 1.200,00 e gasta R$ 15,00 de material por peça. Ela vende cada peça por R$ 45,00.",
+   "q": "Quantas peças ela precisa vender no mês para não ter prejuízo?",
+   "a": 0,
+   "src": "Função afim: receita − custo = 0",
+   "o": [
+    {
+     "t": "40 peças",
+     "p": "correta",
+     "w": "Cada peça deixa 45 − 15 = R$ 30,00 para cobrir o custo fixo: 45x = 1.200 + 15x → 30x = 1.200 → x = 40."
+    },
+    {
+     "t": "27 peças",
+     "p": "calculo",
+     "w": "Dividiu 1.200 por 45, esquecendo o custo de R$ 15,00 de cada peça. Com 27 peças, ainda haveria prejuízo."
+    },
+    {
+     "t": "80 peças",
+     "p": "troca",
+     "w": "Dividiu o custo fixo pelo custo da peça (1.200 ÷ 15). O que paga o custo fixo é a margem de R$ 30,00 por peça."
+    },
+    {
+     "t": "20 peças",
+     "p": "inversao",
+     "w": "Somou preço e custo (45 + 15 = 60), quando deveria subtrair: o custo da peça reduz o que sobra da venda."
+    }
+   ]
+  },
+  {
+   "id": "mat22",
+   "topic": "Coeficiente linear",
+   "c": "Em Florianópolis, uma corrida de táxi de 5 km custou R$ 25,00 e outra de 12 km custou R$ 46,00. O preço é uma função afim da distância percorrida.",
+   "q": "Qual é o valor da bandeirada, a parte fixa do preço?",
+   "a": 1,
+   "src": "Função afim f(x) = ax + b: b é o valor inicial",
+   "o": [
+    {
+     "t": "R$ 3,00",
+     "p": "troca",
+     "w": "Esse é o coeficiente angular, o preço por quilômetro, e não a parte fixa."
+    },
+    {
+     "t": "R$ 10,00",
+     "p": "correta",
+     "w": "Taxa por km: (46 − 25) ÷ (12 − 5) = 21 ÷ 7 = R$ 3,00. Então 25 = 3 × 5 + b, e b = R$ 10,00."
+    },
+    {
+     "t": "R$ 21,00",
+     "p": "calculo",
+     "w": "Fez só a diferença entre os preços. Esse valor corresponde aos 7 km a mais, não à bandeirada."
+    },
+    {
+     "t": "R$ 25,00",
+     "p": "restricao",
+     "w": "Tratou o preço da corrida menor como valor fixo. Mesmo nela há 5 km cobrados a R$ 3,00 cada."
+    }
+   ]
+  },
+  {
+   "id": "mat23",
+   "topic": "Altura máxima",
+   "c": "Num treino em Porto Alegre, a altura de uma bola chutada para cima é dada por h(t) = −5t² + 20t, com h em metros e t em segundos.",
+   "q": "Qual é a altura máxima da bola e em que instante ela é atingida?",
+   "a": 2,
+   "src": "Vértice da parábola: tᵥ = −b ÷ 2a",
+   "o": [
+    {
+     "t": "2 m, atingida 20 s após o chute.",
+     "p": "inversao",
+     "w": "Trocou os papéis: 2 é o instante do vértice e 20 é a altura máxima."
+    },
+    {
+     "t": "40 m, atingida 2 s após o chute.",
+     "p": "calculo",
+     "w": "Usou Δ ÷ 2a em vez de −Δ ÷ 4a. O correto é −400 ÷ (4 × (−5)) = 20 m."
+    },
+    {
+     "t": "20 m, atingida 2 s após o chute.",
+     "p": "correta",
+     "w": "tᵥ = −20 ÷ (2 × (−5)) = 2 s. Substituindo: h(2) = −5 × 4 + 20 × 2 = −20 + 40 = 20 m."
+    },
+    {
+     "t": "20 m, atingida 4 s após o chute.",
+     "p": "troca",
+     "w": "Em t = 4 s a bola volta ao chão (h = 0): essa é a raiz, não o vértice."
+    }
+   ]
+  },
+  {
+   "id": "mat24",
+   "topic": "Lucro máximo",
+   "c": "Uma doceria de Belo Horizonte calculou que, vendendo cada caixa de brigadeiros a x reais, seu lucro diário é L(x) = −2x² + 80x − 600.",
+   "q": "Qual preço da caixa torna o lucro máximo?",
+   "a": 3,
+   "src": "Vértice da parábola: xᵥ = −b ÷ 2a",
+   "o": [
+    {
+     "t": "R$ 40,00",
+     "p": "calculo",
+     "w": "Fez −b ÷ a, esquecendo o 2 do denominador. A esse preço, o lucro seria negativo (L(40) = −600)."
+    },
+    {
+     "t": "R$ 200,00",
+     "p": "troca",
+     "w": "Esse é o lucro máximo, L(20), e não o preço que o produz."
+    },
+    {
+     "t": "R$ 10,00",
+     "p": "extrapolacao",
+     "w": "R$ 10,00 é uma raiz de L(x): a esse preço o lucro é zero, e não máximo."
+    },
+    {
+     "t": "R$ 20,00",
+     "p": "correta",
+     "w": "O máximo está no vértice: xᵥ = −80 ÷ (2 × (−2)) = 20. Nesse preço, L(20) = R$ 200,00."
+    }
+   ]
+  },
+  {
+   "id": "mat25",
+   "topic": "Raízes da quadrática",
+   "c": "Numa feira de ciências em São José dos Campos, a altura de um foguete de garrafa PET é dada por h(t) = −5t² + 30t, com h em metros e t em segundos após o lançamento.",
+   "q": "Quanto tempo depois do lançamento o foguete volta ao chão?",
+   "a": 0,
+   "src": "Equação do 2º grau: raízes de at² + bt = 0",
+   "o": [
+    {
+     "t": "6 s",
+     "p": "correta",
+     "w": "Volta ao chão quando h(t) = 0: −5t² + 30t = 0 → t(−5t + 30) = 0 → t = 0 (lançamento) ou t = 6 s."
+    },
+    {
+     "t": "3 s",
+     "p": "troca",
+     "w": "Em t = 3 s o foguete atinge a altura máxima (vértice). A volta ao chão é a outra raiz."
+    },
+    {
+     "t": "12 s",
+     "p": "calculo",
+     "w": "Na fórmula de Bhaskara, dividiu por a = −5 em vez de 2a = −10."
+    },
+    {
+     "t": "0 s",
+     "p": "restricao",
+     "w": "t = 0 é a raiz que corresponde ao lançamento. A pergunta é sobre a volta ao chão, a outra raiz."
+    }
+   ]
+  },
+  {
+   "id": "mat26",
+   "topic": "Crescimento exponencial",
+   "c": "Num laboratório da Fiocruz, no Rio de Janeiro, uma cultura começa com 500 bactérias e dobra de tamanho a cada 3 horas.",
+   "q": "Quantas bactérias haverá após 15 horas?",
+   "a": 1,
+   "src": "Função exponencial: N(t) = N₀ × 2^(t/T)",
+   "o": [
+    {
+     "t": "8.000",
+     "p": "calculo",
+     "w": "Contou 4 duplicações em vez de 5. São 15 ÷ 3 = 5 períodos de 3 horas."
+    },
+    {
+     "t": "16.000",
+     "p": "correta",
+     "w": "Em 15 horas há 15 ÷ 3 = 5 duplicações: 500 × 2⁵ = 500 × 32 = 16.000."
+    },
+    {
+     "t": "3.000",
+     "p": "troca",
+     "w": "Somou 500 a cada período, como num crescimento linear. Dobrar significa multiplicar por 2."
+    },
+    {
+     "t": "16.384.000",
+     "p": "extrapolacao",
+     "w": "Usou 15 como expoente, como se dobrasse a cada hora. A duplicação ocorre a cada 3 horas."
+    }
+   ]
+  },
+  {
+   "id": "mat27",
+   "topic": "Meia-vida",
+   "c": "Um medicamento aplicado num hospital de Recife tem meia-vida de 6 horas no organismo. Um paciente recebeu uma dose de 800 mg.",
+   "q": "Quantos miligramas do medicamento restam no organismo 24 horas após a aplicação?",
+   "a": 2,
+   "src": "Decaimento exponencial: Q = Q₀ × (1/2)^(t/T)",
+   "o": [
+    {
+     "t": "200 mg",
+     "p": "calculo",
+     "w": "Dividiu 800 por 4. A cada meia-vida a quantidade cai pela metade, então divide-se por 2⁴ = 16."
+    },
+    {
+     "t": "Nada, pois o medicamento é eliminado em 12 horas.",
+     "p": "troca",
+     "w": "Supôs perda constante de 400 mg a cada 6 horas (decaimento linear). Na meia-vida, cai a metade do que resta."
+    },
+    {
+     "t": "50 mg",
+     "p": "correta",
+     "w": "Em 24 horas há 24 ÷ 6 = 4 meias-vidas: 800 → 400 → 200 → 100 → 50 mg."
+    },
+    {
+     "t": "25 mg",
+     "p": "extrapolacao",
+     "w": "Contou 5 meias-vidas, incluindo o instante zero. Em 24 horas cabem apenas 4 períodos de 6 horas."
+    }
+   ]
+  },
+  {
+   "id": "mat28",
+   "topic": "Logaritmo e pH",
+   "c": "Uma análise ambiental em Cubatão mediu pH 3 na água da chuva e pH 5 na água de um rio da região. O pH é definido por pH = −log[H⁺].",
+   "q": "Comparando as concentrações de H⁺, o que se conclui?",
+   "a": 3,
+   "src": "pH = −log[H⁺]",
+   "o": [
+    {
+     "t": "A concentração na chuva é 2 vezes a do rio.",
+     "p": "calculo",
+     "w": "Usou a diferença de pH (5 − 3 = 2) como razão. Cada unidade de pH corresponde a um fator 10."
+    },
+    {
+     "t": "A concentração na chuva é cerca de 1,67 vez a do rio.",
+     "p": "troca",
+     "w": "Dividiu os valores de pH (5 ÷ 3). O pH é um logaritmo, então é preciso voltar às potências de 10."
+    },
+    {
+     "t": "A concentração na chuva é 100 vezes menor que a do rio.",
+     "p": "inversao",
+     "w": "Inverteu o sentido: quanto menor o pH, maior a concentração de H⁺. A chuva é a mais ácida."
+    },
+    {
+     "t": "A concentração na chuva é 100 vezes a do rio.",
+     "p": "correta",
+     "w": "[H⁺] = 10⁻³ na chuva e 10⁻⁵ no rio. A razão é 10⁻³ ÷ 10⁻⁵ = 10² = 100."
+    }
+   ]
+  },
+  {
+   "id": "mat29",
+   "topic": "Equação exponencial com log",
+   "c": "O número de usuários de um aplicativo criado em Florianópolis tem dobrado a cada mês desde o lançamento. Use log 2 = 0,30 e log 3 = 0,48.",
+   "q": "Mantido esse ritmo, depois de aproximadamente quantos meses o número de usuários será 12 vezes o inicial?",
+   "a": 0,
+   "src": "Logaritmo: 2ᵗ = 12 → t = log 12 ÷ log 2",
+   "o": [
+    {
+     "t": "3,6 meses",
+     "p": "correta",
+     "w": "2ᵗ = 12 → t = log 12 ÷ log 2. Como 12 = 2² × 3, log 12 = 0,60 + 0,48 = 1,08, e t = 1,08 ÷ 0,30 = 3,6."
+    },
+    {
+     "t": "6 meses",
+     "p": "troca",
+     "w": "Fez 12 ÷ 2, como se o crescimento fosse linear. Dobrar a cada mês é multiplicar por 2 a cada período."
+    },
+    {
+     "t": "2,6 meses",
+     "p": "calculo",
+     "w": "Escreveu log 12 = log 3 + log 2 = 0,78, como se 12 fosse 3 × 2. O correto é 12 = 3 × 2², com log 12 = 1,08."
+    },
+    {
+     "t": "1,08 mês",
+     "p": "restricao",
+     "w": "Calculou log 12, mas parou aí. Falta dividir por log 2 para isolar t."
+    }
+   ]
+  },
+  {
+   "id": "mat30",
+   "topic": "Termo geral da PA",
+   "c": "Carla, de Natal, começou a guardar dinheiro: R$ 50,00 no 1º mês, R$ 70,00 no 2º, R$ 90,00 no 3º, sempre R$ 20,00 a mais que no mês anterior.",
+   "q": "Quanto ela vai guardar no 12º mês?",
+   "a": 1,
+   "src": "Progressão aritmética: aₙ = a₁ + (n − 1) × r",
+   "o": [
+    {
+     "t": "R$ 290,00",
+     "p": "calculo",
+     "w": "Usou n × r em vez de (n − 1) × r. Do 1º ao 12º mês há apenas 11 aumentos."
+    },
+    {
+     "t": "R$ 270,00",
+     "p": "correta",
+     "w": "É uma PA com a₁ = 50 e r = 20: a₁₂ = 50 + 11 × 20 = 50 + 220 = R$ 270,00."
+    },
+    {
+     "t": "R$ 1.920,00",
+     "p": "troca",
+     "w": "Essa é a soma de tudo o que ela guardou nos 12 meses, e não o valor guardado no 12º mês."
+    },
+    {
+     "t": "R$ 240,00",
+     "p": "restricao",
+     "w": "Fez só 12 × 20, desconsiderando o valor inicial de R$ 50,00."
+    }
+   ]
+  },
+  {
+   "id": "mat31",
+   "topic": "Soma da PA",
+   "c": "Um corredor de Fortaleza, treinando para uma maratona, correu 3 km no 1º dia e aumentou 1 km a cada dia, durante 20 dias.",
+   "q": "Quantos quilômetros ele correu no total nesses 20 dias?",
+   "a": 2,
+   "src": "Soma da PA: Sₙ = n × (a₁ + aₙ) ÷ 2",
+   "o": [
+    {
+     "t": "22 km",
+     "p": "troca",
+     "w": "Essa é a distância corrida no 20º dia, e não o total acumulado."
+    },
+    {
+     "t": "230 km",
+     "p": "calculo",
+     "w": "Usou a₂₀ = 20 km, somando 1 km por dia desde o primeiro. Do 1º ao 20º dia há só 19 aumentos."
+    },
+    {
+     "t": "250 km",
+     "p": "correta",
+     "w": "a₂₀ = 3 + 19 × 1 = 22 km. S₂₀ = 20 × (3 + 22) ÷ 2 = 20 × 25 ÷ 2 = 250 km."
+    },
+    {
+     "t": "500 km",
+     "p": "extrapolacao",
+     "w": "Esqueceu de dividir por 2 na fórmula da soma, contando cada par (primeiro + último) duas vezes."
+    }
+   ]
+  },
+  {
+   "id": "mat32",
+   "topic": "Termo da PG",
+   "c": "Uma campanha de doação de sangue em Salvador começou com 3 doadores no 1º dia. A cada dia, o número de doadores triplicou em relação ao dia anterior.",
+   "q": "Quantas pessoas doaram no 6º dia?",
+   "a": 3,
+   "src": "Progressão geométrica: aₙ = a₁ × qⁿ⁻¹",
+   "o": [
+    {
+     "t": "2.187",
+     "p": "calculo",
+     "w": "Usou expoente n em vez de n − 1: 3 × 3⁶. Do 1º ao 6º dia há 5 multiplicações por 3."
+    },
+    {
+     "t": "18",
+     "p": "troca",
+     "w": "Fez 3 × 6, como se o número crescesse de forma linear. Triplicar a cada dia gera uma PG."
+    },
+    {
+     "t": "1.092",
+     "p": "extrapolacao",
+     "w": "Essa é a soma dos doadores dos 6 dias. A pergunta pede apenas os do 6º dia."
+    },
+    {
+     "t": "729",
+     "p": "correta",
+     "w": "PG com a₁ = 3 e q = 3: a₆ = 3 × 3⁵ = 3 × 243 = 729."
+    }
+   ]
+  },
+  {
+   "id": "mat33",
+   "topic": "Soma da PG",
+   "c": "Uma fábrica de Joinville produziu 1.000 peças em janeiro e, a cada mês, dobrou a produção do mês anterior, até abril.",
+   "q": "Quantas peças foram produzidas no total, de janeiro a abril?",
+   "a": 0,
+   "src": "Soma da PG finita: Sₙ = a₁ × (qⁿ − 1) ÷ (q − 1)",
+   "o": [
+    {
+     "t": "15.000",
+     "p": "correta",
+     "w": "1.000 + 2.000 + 4.000 + 8.000 = 15.000, ou S₄ = 1.000 × (2⁴ − 1) ÷ (2 − 1) = 15.000."
+    },
+    {
+     "t": "8.000",
+     "p": "troca",
+     "w": "Essa é só a produção de abril. A pergunta pede o total dos quatro meses."
+    },
+    {
+     "t": "16.000",
+     "p": "calculo",
+     "w": "Fez 1.000 × 2⁴, esquecendo o “− 1” da fórmula da soma."
+    },
+    {
+     "t": "10.000",
+     "p": "generalizacao",
+     "w": "Supôs aumento fixo de 1.000 peças por mês (uma PA). Dobrar a produção gera uma PG."
+    }
+   ]
+  },
+  {
+   "id": "mat34",
+   "topic": "Área do trapézio",
+   "c": "Um terreno em Campo Grande tem a forma de um trapézio: os lados paralelos medem 30 m e 20 m, e a distância entre eles é de 15 m.",
+   "q": "Qual é a área do terreno?",
+   "a": 1,
+   "src": "Área do trapézio: A = (B + b) × h ÷ 2",
+   "o": [
+    {
+     "t": "750 m²",
+     "p": "calculo",
+     "w": "Esqueceu de dividir por 2. A fórmula usa a média das bases."
+    },
+    {
+     "t": "375 m²",
+     "p": "correta",
+     "w": "A = (30 + 20) × 15 ÷ 2 = 50 × 15 ÷ 2 = 375 m²."
+    },
+    {
+     "t": "450 m²",
+     "p": "extrapolacao",
+     "w": "Calculou como um retângulo com a base maior (30 × 15), o que superestima a área."
+    },
+    {
+     "t": "9.000 m²",
+     "p": "troca",
+     "w": "Multiplicou as três medidas, como se calculasse um volume. Área envolve só duas dimensões."
+    }
+   ]
+  },
+  {
+   "id": "mat35",
+   "topic": "Perímetro e custo",
+   "c": "Um sítio retangular em Atibaia mede 80 m por 50 m e será cercado com 4 voltas de arame. O arame custa R$ 2,00 o metro.",
+   "q": "Quanto será gasto com arame?",
+   "a": 2,
+   "src": "Perímetro do retângulo: P = 2 × (b + h)",
+   "o": [
+    {
+     "t": "R$ 520,00",
+     "p": "restricao",
+     "w": "Calculou o arame de uma só volta. O enunciado pede 4 voltas."
+    },
+    {
+     "t": "R$ 1.040,00",
+     "p": "calculo",
+     "w": "Usou 80 + 50 = 130 m como perímetro, somando só dois lados. O retângulo tem quatro lados."
+    },
+    {
+     "t": "R$ 2.080,00",
+     "p": "correta",
+     "w": "Perímetro: 2 × (80 + 50) = 260 m. Com 4 voltas, 1.040 m de arame, que custam 1.040 × 2 = R$ 2.080,00."
+    },
+    {
+     "t": "R$ 32.000,00",
+     "p": "troca",
+     "w": "Usou a área (80 × 50 = 4.000 m²) no lugar do perímetro. A cerca acompanha o contorno do terreno."
+    }
+   ]
+  },
+  {
+   "id": "mat36",
+   "topic": "Área do círculo",
+   "c": "Uma pizzaria de São Paulo vende a pizza média, de 30 cm de diâmetro, por R$ 45,00 e a grande, de 40 cm de diâmetro, por R$ 72,00. Use π = 3.",
+   "q": "Qual pizza tem o menor preço por cm² e quanto custa cada cm² dela?",
+   "a": 3,
+   "src": "Área do círculo: A = π × r²",
+   "o": [
+    {
+     "t": "A média, pois custa R$ 1,50 por centímetro de diâmetro, contra R$ 1,80 da grande.",
+     "p": "troca",
+     "w": "Comparou preço por centímetro de diâmetro, uma medida linear. A quantidade de pizza depende da área."
+    },
+    {
+     "t": "Tanto faz: a grande custa 60% a mais e tem cerca de 60% a mais de área.",
+     "p": "extrapolacao",
+     "w": "A área cresce com o quadrado do raio: a grande tem 1.200 ÷ 675 ≈ 1,78 vez a área, cerca de 78% a mais."
+    },
+    {
+     "t": "A grande, a R$ 0,015 por cm².",
+     "p": "calculo",
+     "w": "Usou o diâmetro no lugar do raio (3 × 40² = 4.800 cm²). O raio da grande é 20 cm."
+    },
+    {
+     "t": "A grande, a R$ 0,06 por cm².",
+     "p": "correta",
+     "w": "Grande: 3 × 20² = 1.200 cm², e 72 ÷ 1.200 = R$ 0,06. Média: 3 × 15² = 675 cm², e 45 ÷ 675 ≈ R$ 0,067."
+    }
+   ]
+  },
+  {
+   "id": "mat37",
+   "topic": "Semelhança e sombras",
+   "c": "Numa tarde ensolarada em Goiânia, um poste de 6 m projeta uma sombra de 4 m. No mesmo instante, um prédio vizinho projeta uma sombra de 30 m.",
+   "q": "Qual é a altura do prédio?",
+   "a": 0,
+   "src": "Semelhança de triângulos: altura ÷ sombra constante",
+   "o": [
+    {
+     "t": "45 m",
+     "p": "correta",
+     "w": "Os raios de sol são paralelos e formam triângulos semelhantes: 6/4 = h/30, logo h = 6 × 30 ÷ 4 = 45 m."
+    },
+    {
+     "t": "20 m",
+     "p": "inversao",
+     "w": "Montou a proporção invertida (4/6 = h/30). Se o poste é mais alto que sua sombra, o prédio também é."
+    },
+    {
+     "t": "32 m",
+     "p": "calculo",
+     "w": "Somou à sombra a diferença entre poste e sombra (30 + 2). Semelhança é relação multiplicativa, não aditiva."
+    },
+    {
+     "t": "180 m",
+     "p": "troca",
+     "w": "Multiplicou 6 × 30 e esqueceu de dividir pela sombra do poste, que completa a proporção."
+    }
+   ]
+  },
+  {
+   "id": "mat38",
+   "topic": "Ângulo interno de polígono",
+   "c": "Um arquiteto vai revestir uma praça em Brasília com ladrilhos que têm a forma de hexágono regular.",
+   "q": "Quanto mede cada ângulo interno de um ladrilho?",
+   "a": 1,
+   "src": "Soma dos ângulos internos: Sᵢ = (n − 2) × 180°",
+   "o": [
+    {
+     "t": "60°",
+     "p": "troca",
+     "w": "60° é o ângulo central (360° ÷ 6), formado no centro do hexágono, e não o ângulo interno."
+    },
+    {
+     "t": "120°",
+     "p": "correta",
+     "w": "A soma dos ângulos internos do hexágono é (6 − 2) × 180° = 720°. Como é regular, cada ângulo mede 720° ÷ 6 = 120°."
+    },
+    {
+     "t": "720°",
+     "p": "extrapolacao",
+     "w": "Essa é a soma de todos os ângulos internos. Falta dividir pelos 6 ângulos."
+    },
+    {
+     "t": "150°",
+     "p": "calculo",
+     "w": "Usou (n − 1) × 180° na soma. A fórmula correta é (n − 2) × 180°."
+    }
+   ]
+  },
+  {
+   "id": "mat39",
+   "topic": "Volume do prisma",
+   "c": "O reservatório de água de uma escola em Campina Grande tem a forma de um paralelepípedo, com medidas internas de 2 m de comprimento, 1,5 m de largura e 1,2 m de altura.",
+   "q": "Qual é a capacidade do reservatório, em litros?",
+   "a": 2,
+   "src": "Volume do paralelepípedo: V = a × b × c; 1 m³ = 1.000 L",
+   "o": [
+    {
+     "t": "360 L",
+     "p": "calculo",
+     "w": "Usou 1 m³ = 100 L. O metro cúbico equivale a 1.000 litros."
+    },
+    {
+     "t": "4.700 L",
+     "p": "troca",
+     "w": "Somou as dimensões (2 + 1,5 + 1,2 = 4,7) em vez de multiplicá-las."
+    },
+    {
+     "t": "3.600 L",
+     "p": "correta",
+     "w": "V = 2 × 1,5 × 1,2 = 3,6 m³. Como 1 m³ = 1.000 L, a capacidade é 3.600 L."
+    },
+    {
+     "t": "3,6 L",
+     "p": "restricao",
+     "w": "Calculou o volume em m³, mas não converteu para litros, como pede a pergunta."
+    }
+   ]
+  },
+  {
+   "id": "mat40",
+   "topic": "Volume do cone",
+   "c": "Uma sorveteria em Gramado usa casquinhas em forma de cone, com 6 cm de diâmetro na abertura e 10 cm de altura interna. Use π = 3.",
+   "q": "Qual é o volume interno de cada casquinha?",
+   "a": 3,
+   "src": "Volume do cone: V = (1/3) × π × r² × h",
+   "o": [
+    {
+     "t": "270 cm³",
+     "p": "troca",
+     "w": "Calculou o volume de um cilindro de mesma base e altura. O cone tem 1/3 desse volume."
+    },
+    {
+     "t": "360 cm³",
+     "p": "calculo",
+     "w": "Usou o diâmetro (6 cm) como se fosse o raio: (1/3) × 3 × 36 × 10."
+    },
+    {
+     "t": "30 cm³",
+     "p": "restricao",
+     "w": "Não elevou o raio ao quadrado: (1/3) × 3 × 3 × 10. A área da base é π × r²."
+    },
+    {
+     "t": "90 cm³",
+     "p": "correta",
+     "w": "O raio é 6 ÷ 2 = 3 cm. V = (1/3) × 3 × 3² × 10 = (1/3) × 270 = 90 cm³."
+    }
+   ]
+  },
+  {
+   "id": "mat41",
+   "topic": "Volume da esfera",
+   "c": "Uma fábrica de Blumenau produz enfeites de vidro maciço em forma de esfera, com 20 cm de diâmetro. Use π = 3.",
+   "q": "Qual é o volume de vidro em cada enfeite?",
+   "a": 0,
+   "src": "Volume da esfera: V = (4/3) × π × r³",
+   "o": [
+    {
+     "t": "4.000 cm³",
+     "p": "correta",
+     "w": "O raio é 10 cm. V = (4/3) × 3 × 10³ = 4 × 1.000 = 4.000 cm³, ou 4 litros."
+    },
+    {
+     "t": "1.200 cm³",
+     "p": "troca",
+     "w": "Calculou 4 × π × r², que é a área da superfície da esfera, e não o volume."
+    },
+    {
+     "t": "32.000 cm³",
+     "p": "calculo",
+     "w": "Usou o diâmetro como raio: (4/3) × 3 × 20³. O raio é a metade do diâmetro."
+    },
+    {
+     "t": "3.000 cm³",
+     "p": "restricao",
+     "w": "Fez só π × r³, sem o fator 4/3 da fórmula do volume da esfera."
+    }
+   ]
+  },
+  {
+   "id": "mat42",
+   "topic": "Área lateral do cilindro",
+   "c": "Uma indústria de enlatados em Itajaí imprime um rótulo que cobre toda a lateral de uma lata cilíndrica de 8 cm de diâmetro e 10 cm de altura, sem sobreposição. Use π = 3.",
+   "q": "Qual é a área do rótulo?",
+   "a": 1,
+   "src": "Área lateral do cilindro: Aₗ = 2 × π × r × h",
+   "o": [
+    {
+     "t": "120 cm²",
+     "p": "restricao",
+     "w": "Usou π × r × h, sem o 2. O comprimento da circunferência é 2πr."
+    },
+    {
+     "t": "240 cm²",
+     "p": "correta",
+     "w": "Planificada, a lateral é um retângulo de base 2πr = 2 × 3 × 4 = 24 cm e altura 10 cm: 24 × 10 = 240 cm²."
+    },
+    {
+     "t": "480 cm²",
+     "p": "calculo",
+     "w": "Usou o diâmetro (8 cm) como raio. O raio da lata é 4 cm."
+    },
+    {
+     "t": "336 cm²",
+     "p": "extrapolacao",
+     "w": "Somou as áreas da tampa e do fundo (2 × 3 × 4² = 96). O rótulo cobre só a lateral."
+    }
+   ]
+  },
+  {
+   "id": "mat43",
+   "topic": "Seno no triângulo retângulo",
+   "c": "A rampa de um escorregador num parque de Londrina tem 4 m de comprimento e forma um ângulo de 30° com o chão. Use sen 30° = 0,50, cos 30° = 0,87 e tg 30° = 0,58.",
+   "q": "A que altura do chão fica o topo da rampa?",
+   "a": 2,
+   "src": "Trigonometria: sen θ = cateto oposto ÷ hipotenusa",
+   "o": [
+    {
+     "t": "3,48 m",
+     "p": "troca",
+     "w": "Usou o cosseno, que dá o cateto adjacente: a distância horizontal coberta pela rampa, e não a altura."
+    },
+    {
+     "t": "8 m",
+     "p": "inversao",
+     "w": "Dividiu 4 por 0,5. Num triângulo retângulo, nenhum cateto pode ser maior que a hipotenusa."
+    },
+    {
+     "t": "2 m",
+     "p": "correta",
+     "w": "A rampa é a hipotenusa e a altura é o cateto oposto ao ângulo: h = 4 × sen 30° = 4 × 0,50 = 2 m."
+    },
+    {
+     "t": "2,32 m",
+     "p": "calculo",
+     "w": "Usou a tangente, que relaciona os dois catetos. O comprimento da rampa é a hipotenusa, então se usa o seno."
+    }
+   ]
+  },
+  {
+   "id": "mat44",
+   "topic": "Tangente e altura",
+   "c": "Para medir uma árvore num parque de Curitiba, uma estudante ficou a 20 m do tronco e viu o topo sob um ângulo de 35° com a horizontal. Seus olhos estão a 1,5 m do chão. Use tg 35° = 0,70.",
+   "q": "Qual é a altura da árvore?",
+   "a": 3,
+   "src": "Trigonometria: tg θ = cateto oposto ÷ cateto adjacente",
+   "o": [
+    {
+     "t": "14 m",
+     "p": "restricao",
+     "w": "Calculou só a parte acima dos olhos. O ângulo é medido a partir de 1,5 m do chão."
+    },
+    {
+     "t": "Cerca de 30,1 m",
+     "p": "inversao",
+     "w": "Dividiu 20 por 0,70 em vez de multiplicar. A tangente é oposto ÷ adjacente, então oposto = adjacente × tg."
+    },
+    {
+     "t": "12,5 m",
+     "p": "calculo",
+     "w": "Subtraiu a altura dos olhos em vez de somá-la. A visada parte de 1,5 m acima do chão."
+    },
+    {
+     "t": "15,5 m",
+     "p": "correta",
+     "w": "Acima dos olhos: 20 × tg 35° = 20 × 0,70 = 14 m. Somando a altura dos olhos: 14 + 1,5 = 15,5 m."
+    }
+   ]
+  },
+  {
+   "id": "mat45",
+   "topic": "Cosseno no triângulo retângulo",
+   "c": "Um pintor em Maceió apoiou uma escada de 5 m num muro, formando um ângulo de 60° com o chão. Use cos 60° = 0,50 e sen 60° = 0,87.",
+   "q": "A que distância do muro está o pé da escada?",
+   "a": 0,
+   "src": "Trigonometria: cos θ = cateto adjacente ÷ hipotenusa",
+   "o": [
+    {
+     "t": "2,5 m",
+     "p": "correta",
+     "w": "A escada é a hipotenusa e a distância ao muro é o cateto adjacente ao ângulo de 60°: 5 × cos 60° = 5 × 0,50 = 2,5 m."
+    },
+    {
+     "t": "4,35 m",
+     "p": "troca",
+     "w": "Usou o seno, que dá a altura atingida no muro (cateto oposto), e não a distância do pé da escada."
+    },
+    {
+     "t": "10 m",
+     "p": "inversao",
+     "w": "Dividiu 5 por 0,5. O cateto não pode ser maior que a hipotenusa, que é a própria escada."
+    },
+    {
+     "t": "0,5 m",
+     "p": "restricao",
+     "w": "Usou só o valor do cosseno, sem multiplicar pelo comprimento da escada."
+    }
+   ]
+  },
+  {
+   "id": "mat46",
+   "topic": "Nota necessária na média",
+   "c": "Num colégio de Aracaju, a média anual é a média aritmética das 4 notas bimestrais, e é preciso média 7,0 para ser aprovado. Júlia tirou 6,0, 7,5 e 6,5 nos três primeiros bimestres.",
+   "q": "Qual é a nota mínima que Júlia precisa tirar no 4º bimestre?",
+   "a": 1,
+   "src": "Média aritmética: soma ÷ quantidade",
+   "o": [
+    {
+     "t": "7,0",
+     "p": "generalizacao",
+     "w": "Tirar a nota da média só basta se as notas anteriores já estiverem na média. As de Júlia somam 20, abaixo de 21."
+    },
+    {
+     "t": "8,0",
+     "p": "correta",
+     "w": "A soma das 4 notas precisa ser 4 × 7 = 28. Ela já tem 6,0 + 7,5 + 6,5 = 20. Falta 28 − 20 = 8,0."
+    },
+    {
+     "t": "Cerca de 6,7",
+     "p": "troca",
+     "w": "Essa é a média atual de Júlia (20 ÷ 3), e não a nota de que ela precisa."
+    },
+    {
+     "t": "Cerca de 7,3",
+     "p": "calculo",
+     "w": "Fez a média entre a média atual (≈ 6,67) e a 4ª nota, como se a última prova pesasse tanto quanto as três primeiras juntas."
+    }
+   ]
+  },
+  {
+   "id": "mat47",
+   "topic": "Moda",
+   "c": "Uma loja de calçados de Franca anotou a numeração dos 10 pares vendidos num dia: 35, 36, 37, 37, 38, 39, 39, 39, 40 e 42. O gerente quer repor primeiro o número mais vendido.",
+   "q": "Qual medida o gerente deve usar e qual é o seu valor?",
+   "a": 2,
+   "src": "Estatística: moda é o valor de maior frequência",
+   "o": [
+    {
+     "t": "A média, que é 38,2.",
+     "p": "troca",
+     "w": "A média (382 ÷ 10) nem é uma numeração que existe. O gerente quer o número mais frequente."
+    },
+    {
+     "t": "A mediana, que é 38,5.",
+     "p": "inversao",
+     "w": "A mediana é o valor central da lista ordenada, (38 + 39) ÷ 2, e não indica o número mais vendido."
+    },
+    {
+     "t": "A moda, que é 39.",
+     "p": "correta",
+     "w": "O número mais vendido é o de maior frequência: 39 aparece 3 vezes, mais que qualquer outro. Essa é a moda."
+    },
+    {
+     "t": "A moda, que é 37 e 39.",
+     "p": "calculo",
+     "w": "O 37 aparece só 2 vezes e o 39 aparece 3. A distribuição tem uma única moda."
+    }
+   ]
+  },
+  {
+   "id": "mat48",
+   "topic": "Desvio padrão",
+   "c": "Uma loja de Uberlândia registrou o número de reclamações por dia durante 8 dias: 2, 4, 4, 4, 5, 5, 7 e 9.",
+   "q": "Qual é o desvio padrão populacional desses dados (dividindo por 8)?",
+   "a": 3,
+   "src": "Desvio padrão populacional: σ = √[Σ(x − x̄)² ÷ n]",
+   "o": [
+    {
+     "t": "4",
+     "p": "troca",
+     "w": "Esse é o valor da variância. O desvio padrão é a raiz quadrada da variância."
+    },
+    {
+     "t": "1,5",
+     "p": "restricao",
+     "w": "Usou os desvios em módulo (soma 12 ÷ 8). Esse é o desvio médio; o desvio padrão eleva os desvios ao quadrado."
+    },
+    {
+     "t": "0",
+     "p": "calculo",
+     "w": "Somou os desvios sem elevá-los ao quadrado. Os positivos e negativos sempre se anulam em torno da média."
+    },
+    {
+     "t": "2",
+     "p": "correta",
+     "w": "Média: 40 ÷ 8 = 5. Desvios ao quadrado: 9, 1, 1, 1, 0, 0, 4, 16, que somam 32. Variância: 32 ÷ 8 = 4. Desvio padrão: √4 = 2."
+    }
+   ]
+  },
+  {
+   "id": "mat49",
+   "topic": "Leitura de gráfico",
+   "c": "Um gráfico de barras mostra as vendas mensais de uma livraria de Ouro Preto: janeiro, 200 livros; fevereiro, 250; março, 300; abril, 330; maio, 360.",
+   "q": "Em qual passagem de um mês para o seguinte houve o maior aumento percentual nas vendas?",
+   "a": 0,
+   "src": "Variação percentual entre períodos consecutivos",
+   "o": [
+    {
+     "t": "De janeiro para fevereiro, com aumento de 25%.",
+     "p": "correta",
+     "w": "Aumentos: 50/200 = 25%; 50/250 = 20%; 30/300 = 10%; 30/330 ≈ 9,1%. O maior é de janeiro para fevereiro."
+    },
+    {
+     "t": "De abril para maio, mês com a maior venda.",
+     "p": "troca",
+     "w": "Confundiu o maior valor de vendas com o maior crescimento. Esse foi, na verdade, o menor aumento percentual."
+    },
+    {
+     "t": "Empate entre janeiro→fevereiro e fevereiro→março, com 25% cada.",
+     "p": "calculo",
+     "w": "Os aumentos absolutos são iguais (50 livros), mas de fevereiro para março a base é 250: 50/250 = 20%."
+    },
+    {
+     "t": "De março para abril, com aumento de 30%.",
+     "p": "extrapolacao",
+     "w": "Leu o aumento de 30 livros como 30%. Sobre a base de 300, ele corresponde a apenas 10%."
+    }
+   ]
+  },
+  {
+   "id": "mat50",
+   "topic": "Gráfico de setores",
+   "c": "Um gráfico de setores mostra como 1.200 estudantes de uma universidade em Viçosa chegam ao campus. O setor “bicicleta” tem ângulo central de 54°.",
+   "q": "Quantos estudantes vão de bicicleta?",
+   "a": 1,
+   "src": "Gráfico de setores: ângulo ÷ 360° = fração do total",
+   "o": [
+    {
+     "t": "648",
+     "p": "troca",
+     "w": "Tratou 54° como 54%. O círculo inteiro tem 360°, não 100."
+    },
+    {
+     "t": "180",
+     "p": "correta",
+     "w": "O setor representa 54 ÷ 360 = 0,15 = 15% do círculo. 15% de 1.200 = 180 estudantes."
+    },
+    {
+     "t": "15",
+     "p": "restricao",
+     "w": "15 é a porcentagem que o setor representa. Falta aplicá-la ao total de 1.200 estudantes."
+    },
+    {
+     "t": "80",
+     "p": "inversao",
+     "w": "Dividiu 1.200 por 15 em vez de multiplicar por 0,15."
+    }
+   ]
+  },
+  {
+   "id": "mat51",
+   "topic": "Retirada sem reposição",
+   "c": "Numa quermesse em Juazeiro do Norte, uma urna tem 5 bolas vermelhas e 3 azuis. Um participante retira duas bolas, uma após a outra, sem devolver a primeira.",
+   "q": "Qual é a probabilidade de as duas bolas serem vermelhas?",
+   "a": 2,
+   "src": "Probabilidade de eventos sucessivos: P(A e B) = P(A) × P(B | A)",
+   "o": [
+    {
+     "t": "25/64",
+     "p": "troca",
+     "w": "Calculou como se a primeira bola fosse devolvida (5/8 × 5/8). Sem reposição, a urna muda."
+    },
+    {
+     "t": "5/16",
+     "p": "calculo",
+     "w": "Reduziu as vermelhas para 4, mas manteve 8 bolas no total. Depois da 1ª retirada, restam 7 bolas."
+    },
+    {
+     "t": "5/14",
+     "p": "correta",
+     "w": "Na 1ª retirada, 5/8. Sem reposição, restam 4 vermelhas em 7 bolas: 4/7. P = 5/8 × 4/7 = 20/56 = 5/14."
+    },
+    {
+     "t": "3/28",
+     "p": "inversao",
+     "w": "Calculou a chance de as duas serem azuis (3/8 × 2/7), e não vermelhas."
+    }
+   ]
+  },
+  {
+   "id": "mat52",
+   "topic": "Probabilidade da união",
+   "c": "Numa turma de 40 alunos de uma escola em Pelotas, 18 jogam futebol, 12 jogam vôlei e 6 jogam os dois esportes. Um aluno será sorteado.",
+   "q": "Qual é a probabilidade de o sorteado jogar futebol ou vôlei?",
+   "a": 3,
+   "src": "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)",
+   "o": [
+    {
+     "t": "75%",
+     "p": "calculo",
+     "w": "Somou 18 + 12 = 30 sem descontar os 6 que jogam os dois, contados duas vezes."
+    },
+    {
+     "t": "15%",
+     "p": "troca",
+     "w": "Calculou a chance de jogar os dois esportes (6 ÷ 40). “Ou” inclui quem joga pelo menos um."
+    },
+    {
+     "t": "40%",
+     "p": "inversao",
+     "w": "Essa é a chance do evento contrário: não jogar nenhum dos dois (16 ÷ 40)."
+    },
+    {
+     "t": "60%",
+     "p": "correta",
+     "w": "Jogam pelo menos um esporte 18 + 12 − 6 = 24 alunos. P = 24 ÷ 40 = 0,6 = 60%."
+    }
+   ]
+  },
+  {
+   "id": "mat53",
+   "topic": "Princípio multiplicativo",
+   "c": "Um restaurante de Belo Horizonte oferece um menu executivo com 3 opções de entrada, 4 de prato principal e 2 de sobremesa. O cliente escolhe uma opção de cada etapa.",
+   "q": "Quantos menus diferentes podem ser montados?",
+   "a": 0,
+   "src": "Princípio fundamental da contagem",
+   "o": [
+    {
+     "t": "24",
+     "p": "correta",
+     "w": "As escolhas são independentes e sucessivas: 3 × 4 × 2 = 24."
+    },
+    {
+     "t": "9",
+     "p": "troca",
+     "w": "Somou as opções (3 + 4 + 2). A soma vale para escolher uma opção entre todas, não uma de cada etapa."
+    },
+    {
+     "t": "12",
+     "p": "restricao",
+     "w": "Contou só entrada e prato principal (3 × 4) e deixou a sobremesa de fora."
+    },
+    {
+     "t": "84",
+     "p": "calculo",
+     "w": "Calculou C(9, 3), escolhendo 3 pratos quaisquer entre os 9. Isso permitiria, por exemplo, três sobremesas."
+    }
+   ]
+  },
+  {
+   "id": "mat54",
+   "topic": "Combinação de sabores",
+   "c": "Uma sorveteria de Belém tem 10 sabores. O cliente monta uma taça com 3 bolas de sabores diferentes, e a ordem das bolas na taça não importa.",
+   "q": "Quantas taças diferentes podem ser montadas?",
+   "a": 1,
+   "src": "Combinação simples: C(n, p) = n! ÷ [p! (n − p)!]",
+   "o": [
+    {
+     "t": "720",
+     "p": "troca",
+     "w": "Calculou arranjo (10 × 9 × 8), contando como diferentes as mesmas três bolas em outra ordem."
+    },
+    {
+     "t": "120",
+     "p": "correta",
+     "w": "Como a ordem não importa, é combinação: C(10, 3) = (10 × 9 × 8) ÷ (3 × 2 × 1) = 720 ÷ 6 = 120."
+    },
+    {
+     "t": "1.000",
+     "p": "calculo",
+     "w": "Fez 10³, permitindo repetir sabores e considerando a ordem. O enunciado exige sabores diferentes."
+    },
+    {
+     "t": "30",
+     "p": "extrapolacao",
+     "w": "Multiplicou 10 × 3. O número de escolhas não se obtém multiplicando sabores por bolas."
+    }
+   ]
+  },
+  {
+   "id": "mat55",
+   "topic": "Metro cúbico e litro",
+   "c": "A conta de água de uma casa em Campinas, onde moram 4 pessoas, registrou consumo de 18 m³ num mês de 30 dias.",
+   "q": "Qual foi o consumo médio por pessoa, por dia?",
+   "a": 2,
+   "src": "Conversão de unidades: 1 m³ = 1.000 L",
+   "o": [
+    {
+     "t": "15 litros",
+     "p": "calculo",
+     "w": "Usou 1 m³ = 100 L. O metro cúbico equivale a 1.000 litros."
+    },
+    {
+     "t": "600 litros",
+     "p": "restricao",
+     "w": "Esse é o consumo diário da casa inteira. Falta dividir pelas 4 pessoas."
+    },
+    {
+     "t": "150 litros",
+     "p": "correta",
+     "w": "18 m³ = 18.000 L. Por dia, 18.000 ÷ 30 = 600 L; por pessoa, 600 ÷ 4 = 150 L."
+    },
+    {
+     "t": "4.500 litros",
+     "p": "troca",
+     "w": "Esse é o consumo de cada pessoa no mês inteiro. Falta dividir pelos 30 dias."
+    }
+   ]
+  },
+  {
+   "id": "mat56",
+   "topic": "Conversão de velocidade",
+   "c": "Numa competição escolar em São Luís, um velocista correu os 100 m rasos em 10 s.",
+   "q": "Qual foi a velocidade média dele, em km/h?",
+   "a": 3,
+   "src": "Conversão: 1 m/s = 3,6 km/h",
+   "o": [
+    {
+     "t": "Cerca de 2,78 km/h",
+     "p": "inversao",
+     "w": "Dividiu por 3,6 em vez de multiplicar. Dividir é o caminho de km/h para m/s."
+    },
+    {
+     "t": "10 km/h",
+     "p": "restricao",
+     "w": "Calculou 10 m/s e não converteu a unidade, como pede a pergunta."
+    },
+    {
+     "t": "600 km/h",
+     "p": "calculo",
+     "w": "Multiplicou 10 por 60, convertendo só segundos em minutos. Faltou passar metros a quilômetros e minutos a horas."
+    },
+    {
+     "t": "36 km/h",
+     "p": "correta",
+     "w": "v = 100 ÷ 10 = 10 m/s. Para passar de m/s a km/h, multiplica-se por 3,6: 10 × 3,6 = 36 km/h."
+    }
+   ]
+  },
+  {
+   "id": "mat57",
+   "topic": "Hectare e quilômetro quadrado",
+   "c": "Um produtor rural de Sorriso (MT) tem uma área de plantio de 2,5 km².",
+   "q": "Quantos hectares tem essa área?",
+   "a": 0,
+   "src": "Conversão de área: 1 km² = 100 ha; 1 ha = 10.000 m²",
+   "o": [
+    {
+     "t": "250 ha",
+     "p": "correta",
+     "w": "1 km² = 1.000.000 m² e 1 ha = 10.000 m², logo 1 km² = 100 ha. Assim, 2,5 × 100 = 250 ha."
+    },
+    {
+     "t": "2.500 ha",
+     "p": "calculo",
+     "w": "Usou 1 km² = 1.000 ha, aplicando o fator de conversão de comprimento (1 km = 1.000 m) a uma área."
+    },
+    {
+     "t": "25 ha",
+     "p": "inversao",
+     "w": "Usou 1 km² = 10 ha. O hectare é bem menor que o km²: cabem 100 hectares em 1 km²."
+    },
+    {
+     "t": "2.500.000 ha",
+     "p": "troca",
+     "w": "Esse número é a área em metros quadrados (2,5 × 1.000.000 m²), e não em hectares."
+    }
+   ]
+  },
+  {
+   "id": "mat58",
+   "topic": "Divisão inversamente proporcional",
+   "c": "Uma empresa de Vitória vai dividir um prêmio de R$ 9.000,00 entre dois funcionários, em partes inversamente proporcionais ao número de faltas no ano. Paulo faltou 2 dias e Sílvia faltou 4 dias.",
+   "q": "Quanto Sílvia vai receber?",
+   "a": 1,
+   "src": "Divisão em partes inversamente proporcionais",
+   "o": [
+    {
+     "t": "R$ 6.000,00",
+     "p": "inversao",
+     "w": "Dividiu de forma diretamente proporcional às faltas. Quem faltou mais deve receber menos."
+    },
+    {
+     "t": "R$ 3.000,00",
+     "p": "correta",
+     "w": "As partes são proporcionais a 1/2 e 1/4, ou seja, 2 para 1. Sílvia recebe 1/3 do prêmio: 9.000 ÷ 3 = R$ 3.000,00."
+    },
+    {
+     "t": "R$ 4.500,00",
+     "p": "generalizacao",
+     "w": "Dividiu o prêmio igualmente, ignorando o critério das faltas."
+    },
+    {
+     "t": "R$ 2.250,00",
+     "p": "calculo",
+     "w": "Dividiu o prêmio pelo número de faltas de Sílvia (9.000 ÷ 4), sem montar a proporção entre os dois."
+    }
+   ]
+  },
+  {
+   "id": "mat59",
+   "topic": "Consumo de combustível",
+   "c": "Uma família de Belo Horizonte fará uma viagem de 540 km até o litoral, ida e volta pelo mesmo caminho. O carro faz 12 km por litro, e a gasolina custa R$ 6,00 o litro.",
+   "q": "Quanto a família gastará com gasolina na viagem de ida e volta?",
+   "a": 2,
+   "src": "Regra de três: distância ÷ consumo = litros",
+   "o": [
+    {
+     "t": "R$ 270,00",
+     "p": "restricao",
+     "w": "Calculou só a ida (540 ÷ 12 × 6). A viagem inclui a volta."
+    },
+    {
+     "t": "R$ 90,00",
+     "p": "troca",
+     "w": "90 é a quantidade de litros, não o valor em reais. Falta multiplicar pelo preço do litro."
+    },
+    {
+     "t": "R$ 540,00",
+     "p": "correta",
+     "w": "Distância total: 2 × 540 = 1.080 km. Litros: 1.080 ÷ 12 = 90 L. Custo: 90 × 6 = R$ 540,00."
+    },
+    {
+     "t": "R$ 15,00",
+     "p": "calculo",
+     "w": "Dividiu pelo preço em vez de multiplicar: 1.080 ÷ (12 × 6). Mais litros custam mais, então o preço multiplica."
+    }
+   ]
+  },
+  {
+   "id": "mat60",
+   "topic": "Velocidade média",
+   "c": "Um motorista de aplicativo em Salvador percorreu 24 km até um bairro a 60 km/h e voltou pelo mesmo caminho a 40 km/h.",
+   "q": "Qual foi a velocidade média no percurso de ida e volta?",
+   "a": 3,
+   "src": "Velocidade média = distância total ÷ tempo total",
+   "o": [
+    {
+     "t": "50 km/h",
+     "p": "troca",
+     "w": "Fez a média aritmética das velocidades. Como a volta, mais lenta, durou mais tempo, ela pesa mais."
+    },
+    {
+     "t": "100 km/h",
+     "p": "calculo",
+     "w": "Somou as velocidades. Velocidade média é distância total dividida pelo tempo total."
+    },
+    {
+     "t": "24 km/h",
+     "p": "restricao",
+     "w": "Usou só a distância de ida (24 km) com o tempo total de 1 h. O percurso total é de 48 km."
+    },
+    {
+     "t": "48 km/h",
+     "p": "correta",
+     "w": "Ida: 24 ÷ 60 = 0,4 h. Volta: 24 ÷ 40 = 0,6 h. Velocidade média = 48 km ÷ 1 h = 48 km/h."
+    }
+   ]
+  }
+ ]
+}

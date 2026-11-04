@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 export function contentJS(dir = 'content') {
   const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort() : [];
-  const extra = files.map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
+  const extra = files.map((f) => { try { return JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')); } catch (e) { console.warn('conteúdo ignorado (JSON inválido):', f); return null; } }).filter(Boolean);
   const colors = { Escola: 'orange', Concursos: 'navy', Corporativo: 'navy' };
   return `/* ===== Conteúdo ampliado (content/*.json) ===== */
 (function () {

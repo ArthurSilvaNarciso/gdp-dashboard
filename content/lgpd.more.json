@@ -1,0 +1,1355 @@
+{
+ "id": "lgpd",
+ "questions": [
+  {
+   "id": "lgpd13",
+   "topic": "Dado identificável",
+   "c": "A Metalúrgica Vale do Aço, de Ipatinga, publica no mural interno uma lista de advertências só com o número de matrícula de cada funcionário, sem os nomes. Qualquer colega com acesso ao sistema de RH descobre de quem é cada matrícula.",
+   "q": "A matrícula, nesse contexto, é dado pessoal?",
+   "a": 3,
+   "src": "LGPD, art. 5º, I",
+   "o": [
+    {
+     "t": "Não, porque dado pessoal é apenas o que identifica diretamente, como nome e CPF.",
+     "p": "restricao",
+     "w": "A lei inclui a pessoa identificável, e não só a identificada. A matrícula permite chegar ao funcionário."
+    },
+    {
+     "t": "Não, porque a matrícula é um dado da empresa, e não do funcionário.",
+     "p": "troca",
+     "w": "Quem gera o número não importa. O que conta é se a informação se relaciona a uma pessoa natural identificável."
+    },
+    {
+     "t": "Sim, e por ser dado de funcionário é automaticamente dado sensível.",
+     "p": "extrapolacao",
+     "w": "Sensíveis são só os dados listados no art. 5º, II, como saúde, religião e biometria. Matrícula é dado pessoal comum."
+    },
+    {
+     "t": "Sim, porque é informação relacionada a pessoa natural identificável.",
+     "p": "correta",
+     "w": "Dado pessoal não é só o que identifica diretamente. Basta a informação estar relacionada a pessoa identificável, como a matrícula ligada ao cadastro do RH (art. 5º, I)."
+    }
+   ]
+  },
+  {
+   "id": "lgpd14",
+   "topic": "Agregado que identifica",
+   "c": "Para um relatório público de diversidade, uma empresa de tecnologia de Recife divulgou a média salarial de cada cargo. O cargo de diretor financeiro tem uma única ocupante, cujo nome aparece no site da empresa.",
+   "q": "Como a LGPD trata a média salarial desse cargo?",
+   "a": 0,
+   "src": "LGPD, art. 5º, I e III, e art. 12",
+   "o": [
+    {
+     "t": "Continua sendo dado pessoal, pois permite identificar a diretora com esforços razoáveis.",
+     "p": "correta",
+     "w": "A média de um grupo de uma pessoa é o salário dela. Dado que pode ser associado ao titular com meios razoáveis não é anonimizado (art. 5º, III, e art. 12)."
+    },
+    {
+     "t": "É dado anonimizado, porque toda média é anonimizada.",
+     "p": "generalizacao",
+     "w": "Agregar nem sempre anonimiza. Se o grupo permite identificar alguém, o dado continua pessoal."
+    },
+    {
+     "t": "É dado anonimizado, e só voltaria a ser pessoal se alguém de fato descobrisse quem é a diretora.",
+     "p": "restricao",
+     "w": "O art. 12 basta que a reversão seja possível com esforços razoáveis. Não é preciso que alguém já a tenha feito."
+    },
+    {
+     "t": "É dado sensível, porque salário está na lista de dados sensíveis.",
+     "p": "troca",
+     "w": "Salário não está no rol do art. 5º, II. Aqui ele é dado pessoal comum."
+    }
+   ]
+  },
+  {
+   "id": "lgpd15",
+   "topic": "Dados de empresas",
+   "c": "Uma empresa de software de Blumenau mantém um cadastro de empresas clientes com razão social, CNPJ e faturamento anual, além do nome, do e-mail e do celular do comprador responsável em cada cliente.",
+   "q": "Quais informações desse cadastro são dados pessoais para a LGPD?",
+   "a": 1,
+   "src": "LGPD, art. 5º, I e V",
+   "o": [
+    {
+     "t": "Todas, porque a LGPD protege dados de pessoas físicas e jurídicas.",
+     "p": "generalizacao",
+     "w": "A LGPD protege dados de pessoas naturais. Razão social, CNPJ e faturamento são dados da empresa."
+    },
+    {
+     "t": "O nome, o e-mail e o celular do comprador, porque se referem a uma pessoa natural.",
+     "p": "correta",
+     "w": "Titular é a pessoa natural a quem os dados se referem (art. 5º, V). Dados da pessoa jurídica, como CNPJ e faturamento, não são dados pessoais."
+    },
+    {
+     "t": "Só o CNPJ e o faturamento, por serem dados do cliente.",
+     "p": "inversao",
+     "w": "É o contrário: os dados da empresa ficam fora, e os dados do comprador, pessoa natural, são dados pessoais."
+    },
+    {
+     "t": "Nenhuma, porque contatos comerciais estão fora da LGPD.",
+     "p": "restricao",
+     "w": "A lei não exclui contatos profissionais. Nome, e-mail e celular do comprador identificam uma pessoa natural."
+    }
+   ]
+  },
+  {
+   "id": "lgpd16",
+   "topic": "Conceito de tratamento",
+   "c": "A recepção de uma clínica odontológica de Londrina apenas consulta e mantém arquivadas as fichas de pacientes antigos, sem usá-las para nada novo.",
+   "q": "Consultar e arquivar essas fichas é tratamento de dados pessoais?",
+   "a": 3,
+   "src": "LGPD, art. 5º, X",
+   "o": [
+    {
+     "t": "Não, porque só há tratamento quando os dados são compartilhados com terceiros.",
+     "p": "restricao",
+     "w": "Compartilhar é só uma das operações. Guardar e consultar já são tratamento."
+    },
+    {
+     "t": "Não, porque o tratamento é a coleta; o que vem depois é mero arquivamento.",
+     "p": "troca",
+     "w": "Coleta é uma das operações de tratamento, não sinônimo dele. O arquivamento também está na lista do art. 5º, X."
+    },
+    {
+     "t": "Sim, mas só porque são dados de saúde; dados comuns arquivados não seriam tratados.",
+     "p": "extrapolacao",
+     "w": "O conceito de tratamento vale para qualquer dado pessoal, sensível ou não."
+    },
+    {
+     "t": "Sim: acesso, utilização e arquivamento estão entre as operações que a lei define como tratamento.",
+     "p": "correta",
+     "w": "O art. 5º, X, define tratamento como toda operação com dados pessoais, incluindo acesso, utilização, arquivamento e armazenamento."
+    }
+   ]
+  },
+  {
+   "id": "lgpd17",
+   "type": "ce",
+   "topic": "Imagens de câmeras",
+   "src": "LGPD, art. 5º, I e X",
+   "c": "O Condomínio Residencial Ipê, em Goiânia, grava as imagens das câmeras do hall e da garagem, nas quais é possível reconhecer moradores e visitantes.",
+   "q": "As imagens que permitem identificar moradores e visitantes são dados pessoais, e gravá-las e armazená-las configura tratamento de dados pessoais.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. Imagem que permite identificar alguém é informação relacionada a pessoa natural (art. 5º, I), e gravar e armazenar são operações de tratamento (art. 5º, X)."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado supõe que só dados escritos, como nome e CPF, sejam dados pessoais. A lei não faz essa restrição: imagem que identifica também é dado pessoal."
+    }
+   ]
+  },
+  {
+   "id": "lgpd18",
+   "topic": "Biometria e legítimo interesse",
+   "c": "O Condomínio Jardim das Palmeiras, em Uberlândia, vai trocar o cartão de acesso pela leitura da digital dos moradores. O síndico quer fundamentar o tratamento no legítimo interesse do condomínio.",
+   "q": "Essa base legal pode ser usada?",
+   "a": 3,
+   "src": "LGPD, art. 5º, II, e art. 11",
+   "o": [
+    {
+     "t": "Sim, porque o legítimo interesse vale para qualquer dado, sensível ou não.",
+     "p": "generalizacao",
+     "w": "O legítimo interesse está no art. 7º, para dados comuns. O art. 11, que rege os sensíveis, não o prevê."
+    },
+    {
+     "t": "Sim, desde que a troca seja aprovada em assembleia e registrada em ata.",
+     "p": "restricao",
+     "w": "A aprovação em assembleia não cria base legal. Para dados sensíveis, a base precisa estar no art. 11."
+    },
+    {
+     "t": "Não há o que fundamentar, porque a digital convertida em código é dado anonimizado.",
+     "p": "troca",
+     "w": "O código da digital continua ligado ao morador e serve justamente para identificá-lo. É dado biométrico, não anonimizado."
+    },
+    {
+     "t": "Não: a digital é dado biométrico, portanto sensível, e o legítimo interesse não está entre as hipóteses do art. 11.",
+     "p": "correta",
+     "w": "Dados sensíveis só podem ser tratados nas hipóteses do art. 11, que não incluem o legítimo interesse."
+    }
+   ]
+  },
+  {
+   "id": "lgpd19",
+   "topic": "Princípio da finalidade",
+   "c": "Uma rede de farmácias de Fortaleza coleta o CPF dos clientes informando que é para emitir a nota fiscal. Meses depois, passa a usar esses CPFs para montar perfis de consumo e vendê-los a anunciantes, sem avisar os clientes.",
+   "q": "Qual princípio da LGPD é violado de forma mais direta?",
+   "a": 2,
+   "src": "LGPD, art. 6º, I",
+   "o": [
+    {
+     "t": "Livre acesso, porque os clientes não podem consultar os perfis.",
+     "p": "troca",
+     "w": "O problema central não é a consulta pelo titular, e sim o uso para um fim diferente do informado."
+    },
+    {
+     "t": "Nenhum, desde que a nota fiscal continue sendo emitida normalmente.",
+     "p": "restricao",
+     "w": "Cumprir a finalidade original não autoriza usos novos e incompatíveis com ela."
+    },
+    {
+     "t": "Finalidade, que exige propósitos legítimos, específicos e informados, sem tratamento posterior incompatível.",
+     "p": "correta",
+     "w": "O CPF foi coletado para a nota fiscal. Usá-lo para vender perfis é um tratamento posterior incompatível com a finalidade informada."
+    },
+    {
+     "t": "Prevenção, que proíbe qualquer uso comercial de dados pessoais.",
+     "p": "extrapolacao",
+     "w": "A prevenção trata de evitar danos. A LGPD não proíbe o uso comercial de dados; exige base legal e respeito aos princípios."
+    }
+   ]
+  },
+  {
+   "id": "lgpd20",
+   "topic": "Princípio da transparência",
+   "c": "Um aplicativo de delivery de Belo Horizonte compartilha dados dos usuários com parceiros de publicidade. A política de privacidade fala só em \"parceiros\", sem dizer quem são, e fica em um link difícil de encontrar.",
+   "q": "Qual princípio é desrespeitado de forma mais direta?",
+   "a": 0,
+   "src": "LGPD, art. 6º, VI",
+   "o": [
+    {
+     "t": "Transparência, que garante informações claras, precisas e facilmente acessíveis sobre o tratamento e os agentes.",
+     "p": "correta",
+     "w": "Informação vaga (\"parceiros\") e escondida não é clara nem facilmente acessível, como exige o art. 6º, VI."
+    },
+    {
+     "t": "Necessidade, porque o aplicativo coleta dados demais.",
+     "p": "troca",
+     "w": "O caso não diz que há coleta excessiva. A falha é na informação dada ao usuário sobre o compartilhamento."
+    },
+    {
+     "t": "Nenhum, pois basta a política de privacidade existir, mesmo em local de difícil acesso.",
+     "p": "extrapolacao",
+     "w": "Ter uma política não basta. A informação precisa ser clara, precisa e facilmente acessível."
+    },
+    {
+     "t": "Transparência, mas só depois que algum usuário reclamar à ANPD.",
+     "p": "restricao",
+     "w": "O princípio vale desde o início do tratamento. Não depende de reclamação para ser exigido."
+    }
+   ]
+  },
+  {
+   "id": "lgpd21",
+   "topic": "Não discriminação",
+   "c": "Uma empresa de call center de Campina Grande passou a usar os dados de saúde do exame admissional para recusar candidatos com histórico de depressão, mesmo quando o médico os considerou aptos para o cargo.",
+   "q": "Qual princípio da LGPD essa prática viola?",
+   "a": 2,
+   "src": "LGPD, art. 6º, IX",
+   "o": [
+    {
+     "t": "Qualidade dos dados, porque o diagnóstico pode estar desatualizado.",
+     "p": "troca",
+     "w": "O problema não é a exatidão do dado, e sim o uso dele para discriminar."
+    },
+    {
+     "t": "Nenhum, porque o candidato forneceu os dados por vontade própria.",
+     "p": "generalizacao",
+     "w": "Fornecer o dado não autoriza qualquer uso. Os princípios valem para todo tratamento."
+    },
+    {
+     "t": "Não discriminação, que proíbe o tratamento para fins discriminatórios ilícitos ou abusivos.",
+     "p": "correta",
+     "w": "Usar dado de saúde para excluir candidatos aptos é tratamento com fim discriminatório, vedado pelo art. 6º, IX."
+    },
+    {
+     "t": "Nenhum, porque a LGPD só protege empregados já contratados, e não candidatos.",
+     "p": "restricao",
+     "w": "A lei protege qualquer pessoa natural titular de dados, inclusive candidatos a emprego."
+    }
+   ]
+  },
+  {
+   "id": "lgpd22",
+   "type": "ce",
+   "topic": "Segurança desde a concepção",
+   "src": "LGPD, art. 46, § 2º",
+   "c": "Uma fintech de São Paulo está desenhando um aplicativo de carteira digital que ainda não foi lançado.",
+   "q": "As medidas de segurança exigidas pela LGPD devem ser observadas desde a fase de concepção do aplicativo até a sua execução, e não apenas depois do lançamento.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. O art. 46, § 2º, determina que as medidas de segurança sejam observadas desde a fase de concepção do produto ou serviço até a sua execução."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado limita o dever de segurança ao produto já lançado. A lei exige as medidas desde a concepção."
+    }
+   ]
+  },
+  {
+   "id": "lgpd23",
+   "topic": "Prestação de contas",
+   "c": "Em uma fiscalização, a ANPD pede a uma seguradora de São Paulo que demonstre como cumpre a LGPD. O diretor diz que a empresa \"sempre agiu de boa-fé\", mas não tem registros, políticas nem evidências das medidas adotadas.",
+   "q": "Qual princípio exige que a seguradora comprove o que faz?",
+   "a": 0,
+   "src": "LGPD, art. 6º, X",
+   "o": [
+    {
+     "t": "Responsabilização e prestação de contas: o agente deve demonstrar medidas eficazes e capazes de comprovar o cumprimento da lei.",
+     "p": "correta",
+     "w": "Não basta cumprir; é preciso demonstrar. O art. 6º, X, exige comprovar a adoção e a eficácia das medidas."
+    },
+    {
+     "t": "Boa-fé, que basta por si só para afastar a fiscalização.",
+     "p": "extrapolacao",
+     "w": "A boa-fé orienta todo tratamento, mas não substitui a demonstração das medidas adotadas."
+    },
+    {
+     "t": "Transparência, que se dirige à ANPD e não aos titulares.",
+     "p": "inversao",
+     "w": "A transparência é uma garantia dada aos titulares. O dever de demonstrar conformidade é a prestação de contas."
+    },
+    {
+     "t": "Livre acesso, que obriga a empresa a dar à ANPD acesso a todos os sistemas.",
+     "p": "troca",
+     "w": "Livre acesso é direito do titular de consultar seus dados, de forma facilitada e gratuita."
+    }
+   ]
+  },
+  {
+   "id": "lgpd24",
+   "topic": "Execução de contrato",
+   "c": "Uma loja virtual de Curitiba usa o endereço e o telefone do cliente para entregar a compra que ele acabou de fazer.",
+   "q": "Qual base legal ampara esse tratamento sem necessidade de consentimento?",
+   "a": 0,
+   "src": "LGPD, art. 7º, V",
+   "o": [
+    {
+     "t": "Execução de contrato do qual o titular é parte.",
+     "p": "correta",
+     "w": "A entrega cumpre o contrato de compra. O art. 7º, V, permite tratar os dados necessários para executá-lo."
+    },
+    {
+     "t": "Proteção do crédito.",
+     "p": "troca",
+     "w": "Essa base serve, por exemplo, para consultas de crédito. A entrega da compra se ampara na execução do contrato."
+    },
+    {
+     "t": "Nenhuma: toda coleta em comércio eletrônico exige consentimento.",
+     "p": "generalizacao",
+     "w": "O consentimento é uma das dez bases do art. 7º. Para entregar a compra, a execução do contrato basta."
+    },
+    {
+     "t": "Legítimo interesse, desde que o cliente tenha mais de 18 anos.",
+     "p": "restricao",
+     "w": "A idade não define a base legal. A hipótese aplicável é a execução do contrato."
+    }
+   ]
+  },
+  {
+   "id": "lgpd25",
+   "topic": "Legítimo interesse: limites",
+   "c": "Uma academia de Joinville envia a alunos ativos ofertas de novos planos com base no legítimo interesse. Para \"melhorar as ofertas\", quer passar a coletar a renda familiar e o patrimônio de cada aluno.",
+   "q": "O que a LGPD diz sobre isso?",
+   "a": 2,
+   "src": "LGPD, art. 10, § 1º",
+   "o": [
+    {
+     "t": "O legítimo interesse permite coletar qualquer dado útil ao negócio.",
+     "p": "generalizacao",
+     "w": "É justamente o contrário: o legítimo interesse tem limites mais estreitos, restritos ao estritamente necessário."
+    },
+    {
+     "t": "Basta incluir a coleta no contrato de adesão para ela ficar autorizada.",
+     "p": "extrapolacao",
+     "w": "Uma cláusula no contrato não transforma dados desnecessários em necessários."
+    },
+    {
+     "t": "Com base no legítimo interesse, só podem ser tratados os dados estritamente necessários para a finalidade pretendida.",
+     "p": "correta",
+     "w": "O art. 10, § 1º, limita o legítimo interesse aos dados estritamente necessários. Renda e patrimônio vão além do que a oferta de planos exige."
+    },
+    {
+     "t": "O legítimo interesse só pode ser usado por órgãos públicos.",
+     "p": "restricao",
+     "w": "Qualquer controlador pode usar o legítimo interesse, observados os limites do art. 10."
+    }
+   ]
+  },
+  {
+   "id": "lgpd26",
+   "topic": "Proteção do crédito",
+   "c": "Antes de aprovar uma compra parcelada no carnê, uma loja de eletrodomésticos de Teresina consulta o CPF do cliente em um birô de crédito.",
+   "q": "Qual base legal ampara expressamente essa consulta?",
+   "a": 2,
+   "src": "LGPD, art. 7º, X",
+   "o": [
+    {
+     "t": "Tutela da saúde.",
+     "p": "troca",
+     "w": "Essa base se restringe a procedimentos de profissionais e serviços de saúde. Não tem relação com crédito."
+    },
+    {
+     "t": "Consentimento por escrito com firma reconhecida.",
+     "p": "extrapolacao",
+     "w": "A LGPD não exige firma reconhecida para o consentimento, e a proteção do crédito dispensa o consentimento."
+    },
+    {
+     "t": "Proteção do crédito.",
+     "p": "correta",
+     "w": "O art. 7º, X, prevê a proteção do crédito como base legal própria, sem depender de consentimento."
+    },
+    {
+     "t": "Nenhuma: consultar o CPF é sempre proibido sem ordem judicial.",
+     "p": "generalizacao",
+     "w": "A lei não exige ordem judicial. A consulta se apoia na proteção do crédito."
+    }
+   ]
+  },
+  {
+   "id": "lgpd27",
+   "type": "ce",
+   "topic": "Segurança após o término",
+   "src": "LGPD, art. 47",
+   "c": "Uma empresa de call center de Salvador encerrou o contrato com um banco, para o qual tratava dados de clientes como operadora.",
+   "q": "Com o fim do contrato, cessa a obrigação da empresa de call center de garantir a segurança dos dados pessoais que tratou.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo limita o dever de segurança à duração do contrato, uma condição que a lei não prevê."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. O art. 47 obriga os agentes e qualquer pessoa que intervenha no tratamento a garantir a segurança da informação mesmo após o seu término."
+    }
+   ]
+  },
+  {
+   "id": "lgpd28",
+   "topic": "Exercício regular de direitos",
+   "c": "Uma ex-funcionária processou uma rede de restaurantes de Salvador na Justiça do Trabalho. A empresa quer usar os registros de ponto e os e-mails corporativos dela para se defender no processo.",
+   "q": "Qual base legal permite esse uso sem o consentimento da ex-funcionária?",
+   "a": 1,
+   "src": "LGPD, art. 7º, VI",
+   "o": [
+    {
+     "t": "Nenhuma: depois do desligamento, qualquer uso depende de consentimento.",
+     "p": "restricao",
+     "w": "O fim do vínculo não elimina as outras bases legais. A defesa em juízo tem base própria."
+    },
+    {
+     "t": "Exercício regular de direitos em processo judicial, administrativo ou arbitral.",
+     "p": "correta",
+     "w": "O art. 7º, VI, permite tratar dados para exercer direitos em processo. A defesa na ação trabalhista se enquadra aí."
+    },
+    {
+     "t": "Proteção da vida ou da incolumidade física.",
+     "p": "troca",
+     "w": "Essa base é para situações de risco à vida ou à integridade física, o que não é o caso."
+    },
+    {
+     "t": "Legítimo interesse de terceiro, desde que o juiz autorize antes cada documento.",
+     "p": "extrapolacao",
+     "w": "A lei não exige autorização judicial prévia para a empresa usar os dados na própria defesa."
+    }
+   ]
+  },
+  {
+   "id": "lgpd29",
+   "topic": "Proteção da vida",
+   "c": "Um funcionário de uma fábrica de Contagem desmaiou no refeitório. A técnica de segurança do trabalho informou aos socorristas do SAMU as alergias e os medicamentos dele, registrados no cadastro interno.",
+   "q": "Esse compartilhamento de dados de saúde é permitido pela LGPD?",
+   "a": 3,
+   "src": "LGPD, art. 11, II, e",
+   "o": [
+    {
+     "t": "Não, porque dados de saúde nunca podem ser compartilhados sem consentimento.",
+     "p": "generalizacao",
+     "w": "O consentimento é só uma das hipóteses do art. 11. A proteção da vida dispensa o consentimento."
+    },
+    {
+     "t": "Sim, mas só depois que a família assinar um termo de autorização.",
+     "p": "restricao",
+     "w": "A lei não exige termo da família. Em emergência, a proteção da vida já é a base legal."
+    },
+    {
+     "t": "Não, porque só o encarregado pode repassar dados pessoais a terceiros.",
+     "p": "troca",
+     "w": "O encarregado é canal de comunicação com titulares e ANPD. Ele não tem exclusividade para compartilhar dados."
+    },
+    {
+     "t": "Sim: a proteção da vida ou da incolumidade física do titular permite tratar dado sensível sem consentimento.",
+     "p": "correta",
+     "w": "O art. 11, II, e, autoriza o tratamento de dados sensíveis, sem consentimento, quando indispensável para proteger a vida do titular ou de terceiro."
+    }
+   ]
+  },
+  {
+   "id": "lgpd30",
+   "topic": "Tutela da saúde",
+   "c": "Uma clínica de fisioterapia de Campo Grande registra no prontuário o diagnóstico, a evolução e os exames de cada paciente atendido pelos seus fisioterapeutas.",
+   "q": "Qual hipótese do art. 11 permite esse tratamento sem consentimento?",
+   "a": 2,
+   "src": "LGPD, art. 11, II, f",
+   "o": [
+    {
+     "t": "Legítimo interesse da clínica, que também vale para dados sensíveis.",
+     "p": "troca",
+     "w": "O legítimo interesse não está no art. 11. Dados de saúde precisam de uma das hipóteses próprias dos sensíveis."
+    },
+    {
+     "t": "Nenhuma: dados de saúde só podem ser tratados com consentimento.",
+     "p": "generalizacao",
+     "w": "O art. 11, II, lista hipóteses sem consentimento, e a tutela da saúde é uma delas."
+    },
+    {
+     "t": "Tutela da saúde, em procedimento realizado por profissionais de saúde ou serviços de saúde.",
+     "p": "correta",
+     "w": "O art. 11, II, f, permite tratar dados sensíveis para a tutela da saúde, exclusivamente em procedimento de profissionais, serviços de saúde ou autoridade sanitária."
+    },
+    {
+     "t": "Tutela da saúde, mas apenas em hospitais públicos.",
+     "p": "restricao",
+     "w": "A lei não restringe a hipótese a serviços públicos. Clínicas privadas e seus profissionais também estão abrangidos."
+    }
+   ]
+  },
+  {
+   "id": "lgpd31",
+   "topic": "Seleção de riscos",
+   "c": "Uma operadora de plano de saúde de Porto Alegre quer usar dados de saúde de pessoas interessadas em contratar um plano para recusar quem tiver doenças crônicas.",
+   "q": "O que a LGPD diz sobre essa prática?",
+   "a": 2,
+   "src": "LGPD, art. 11, § 5º",
+   "o": [
+    {
+     "t": "É permitida, porque a tutela da saúde autoriza qualquer uso de dados de saúde por operadoras.",
+     "p": "generalizacao",
+     "w": "A tutela da saúde não cobre seleção de riscos, que o § 5º do art. 11 proíbe de forma expressa."
+    },
+    {
+     "t": "É vedada só na exclusão de beneficiários; na contratação, é permitida.",
+     "p": "restricao",
+     "w": "A vedação abrange a contratação de qualquer modalidade e também a contratação e exclusão de beneficiários."
+    },
+    {
+     "t": "É vedada: operadoras não podem tratar dados de saúde para seleção de riscos na contratação nem na exclusão de beneficiários.",
+     "p": "correta",
+     "w": "O art. 11, § 5º, proíbe expressamente o uso de dados de saúde por operadoras de planos para seleção de riscos."
+    },
+    {
+     "t": "É permitida se o interessado der consentimento específico e destacado.",
+     "p": "extrapolacao",
+     "w": "A vedação não tem exceção por consentimento. O § 5º proíbe a prática em si."
+    }
+   ]
+  },
+  {
+   "id": "lgpd32",
+   "type": "ce",
+   "topic": "Prazo de comunicação",
+   "src": "Resolução CD/ANPD nº 15/2024, art. 6º",
+   "c": "Na segunda-feira, a equipe de TI de uma rede de clínicas de Fortaleza confirmou que um ataque expôs prontuários de pacientes, com risco relevante aos titulares.",
+   "q": "Pelo regulamento da ANPD, a rede de clínicas, como controladora, deve comunicar o incidente à ANPD no prazo de três dias úteis, contados do conhecimento de que o incidente afetou dados pessoais.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. O Regulamento de Comunicação de Incidente de Segurança fixa o prazo de três dias úteis para a comunicação à ANPD, contado do conhecimento de que o incidente afetou dados pessoais."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado costuma vir da confusão com o prazo de 72 horas do regulamento europeu (GDPR). No Brasil, a ANPD fixou três dias úteis."
+    }
+   ]
+  },
+  {
+   "id": "lgpd33",
+   "topic": "Consentimento por escrito",
+   "c": "Um salão de beleza de Niterói quer usar fotos das clientes nas redes sociais e incluiu a autorização na cláusula 14 do contrato de serviço, com a mesma fonte e formato das demais cláusulas.",
+   "q": "O que a LGPD exige quando o consentimento é dado por escrito?",
+   "a": 1,
+   "src": "LGPD, art. 8º, caput e § 1º",
+   "o": [
+    {
+     "t": "Que seja registrado em cartório.",
+     "p": "extrapolacao",
+     "w": "A LGPD não exige registro em cartório. Exige que a cláusula escrita seja destacada."
+    },
+    {
+     "t": "Que conste de cláusula destacada das demais cláusulas contratuais.",
+     "p": "correta",
+     "w": "O art. 8º, § 1º, exige destaque. Uma autorização perdida no meio do contrato não cumpre a regra."
+    },
+    {
+     "t": "Nada específico: basta a assinatura no fim do contrato.",
+     "p": "generalizacao",
+     "w": "A assinatura geral do contrato não basta. A cláusula de consentimento precisa se destacar das demais."
+    },
+    {
+     "t": "Que seja sempre em papel, pois o meio eletrônico não vale.",
+     "p": "restricao",
+     "w": "O art. 8º aceita o consentimento por escrito ou por outro meio que demonstre a vontade do titular."
+    }
+   ]
+  },
+  {
+   "id": "lgpd34",
+   "topic": "Consentimento genérico",
+   "c": "No cadastro de uma loja online de Florianópolis, o cliente marca a caixa: \"Autorizo o uso dos meus dados para quaisquer fins que a empresa julgar convenientes\".",
+   "q": "Qual é o efeito dessa autorização segundo a LGPD?",
+   "a": 1,
+   "src": "LGPD, art. 8º, § 4º",
+   "o": [
+    {
+     "t": "É válida para qualquer uso, porque o cliente marcou a caixa livremente.",
+     "p": "extrapolacao",
+     "w": "A liberdade de marcar não supre a falta de finalidade determinada. A autorização genérica é nula."
+    },
+    {
+     "t": "É nula, porque o consentimento deve se referir a finalidades determinadas.",
+     "p": "correta",
+     "w": "O art. 8º, § 4º, declara nulas as autorizações genéricas. O consentimento precisa indicar para que os dados serão usados."
+    },
+    {
+     "t": "É válida, mas só pelo prazo de 12 meses.",
+     "p": "restricao",
+     "w": "A lei não prevê validade temporária para autorização genérica. Ela é nula desde o início."
+    },
+    {
+     "t": "É nula só para dados sensíveis; para dados comuns, vale normalmente.",
+     "p": "troca",
+     "w": "A nulidade do art. 8º, § 4º, vale para qualquer consentimento, e não só para os dados sensíveis."
+    }
+   ]
+  },
+  {
+   "id": "lgpd35",
+   "topic": "Revogação do consentimento",
+   "c": "Um cliente de um clube de vinhos de Bento Gonçalves quer revogar o consentimento para receber ofertas por WhatsApp. A empresa diz que ele precisa enviar uma carta registrada e pagar uma taxa de R$ 15.",
+   "q": "A exigência está de acordo com a LGPD?",
+   "a": 1,
+   "src": "LGPD, art. 8º, § 5º",
+   "o": [
+    {
+     "t": "Sim, porque o consentimento, uma vez dado, não pode ser revogado.",
+     "p": "generalizacao",
+     "w": "A lei permite revogar o consentimento a qualquer momento."
+    },
+    {
+     "t": "Não: a revogação pode ser feita a qualquer momento, por procedimento gratuito e facilitado.",
+     "p": "correta",
+     "w": "O art. 8º, § 5º, garante a revogação por manifestação expressa, mediante procedimento gratuito e facilitado. Carta registrada e taxa contrariam a regra."
+    },
+    {
+     "t": "Sim, desde que a taxa tenha sido informada no momento do cadastro.",
+     "p": "restricao",
+     "w": "Avisar antes não legitima a cobrança. O procedimento de revogação deve ser gratuito."
+    },
+    {
+     "t": "Não, e a revogação ainda torna ilegais todas as ofertas já enviadas.",
+     "p": "extrapolacao",
+     "w": "A revogação vale dali em diante. A lei ratifica os tratamentos feitos enquanto o consentimento estava válido."
+    }
+   ]
+  },
+  {
+   "id": "lgpd36",
+   "topic": "Prova do consentimento",
+   "c": "Um cliente de uma operadora de TV por assinatura de Goiânia nega ter consentido com o uso dos seus dados para publicidade. A empresa responde que cabe ao cliente provar que não consentiu.",
+   "q": "Segundo a LGPD, quem tem o ônus de provar que o consentimento foi obtido regularmente?",
+   "a": 2,
+   "src": "LGPD, art. 8º, § 2º",
+   "o": [
+    {
+     "t": "O titular, que alega não ter consentido.",
+     "p": "inversao",
+     "w": "A lei inverte essa lógica: quem usa o consentimento como base legal é que precisa prová-lo."
+    },
+    {
+     "t": "A ANPD, que deve investigar se houve consentimento.",
+     "p": "troca",
+     "w": "A ANPD fiscaliza, mas a obrigação de provar o consentimento é do controlador."
+    },
+    {
+     "t": "O controlador, no caso a operadora.",
+     "p": "correta",
+     "w": "O art. 8º, § 2º, atribui ao controlador o ônus da prova de que o consentimento foi obtido conforme a lei."
+    },
+    {
+     "t": "Ninguém, porque o consentimento dado por telefone não precisa ser provado.",
+     "p": "generalizacao",
+     "w": "Qualquer que seja o meio, o controlador deve conseguir demonstrar o consentimento."
+    }
+   ]
+  },
+  {
+   "id": "lgpd37",
+   "type": "ce",
+   "topic": "Publicização da infração",
+   "src": "LGPD, art. 52, IV",
+   "c": "Durante uma fiscalização da ANPD em uma rede varejista de Manaus, ainda em andamento, um concorrente sugeriu que a infração fosse divulgada imediatamente.",
+   "q": "A publicização da infração pode ser aplicada como sanção logo no início da apuração, antes de confirmada a ocorrência da infração.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "inversao",
+     "w": "Julgar certo inverte a ordem prevista na lei, que exige primeiro apurar e confirmar a infração para só depois publicizá-la."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. O art. 52, IV, prevê a publicização da infração após devidamente apurada e confirmada a sua ocorrência."
+    }
+   ]
+  },
+  {
+   "id": "lgpd38",
+   "topic": "Compartilhamento e consentimento",
+   "c": "Uma escola de idiomas de Campinas obteve o consentimento dos alunos adultos para enviar a própria newsletter. Agora, quer repassar os e-mails a uma editora parceira, que vai usá-los em campanhas próprias.",
+   "q": "O que a LGPD exige para esse repasse, se a base for o consentimento?",
+   "a": 0,
+   "src": "LGPD, art. 7º, § 5º",
+   "o": [
+    {
+     "t": "Consentimento específico dos alunos para o compartilhamento com o outro controlador.",
+     "p": "correta",
+     "w": "O art. 7º, § 5º, exige novo consentimento específico quando o controlador quer comunicar ou compartilhar os dados com outros controladores."
+    },
+    {
+     "t": "Nada, porque o consentimento original já cobre o repasse a parceiros.",
+     "p": "extrapolacao",
+     "w": "O consentimento vale para a finalidade informada, a newsletter da escola. O repasse à editora precisa de consentimento específico."
+    },
+    {
+     "t": "Apenas um aviso prévio à ANPD.",
+     "p": "troca",
+     "w": "A lei não prevê aviso à ANPD nesse caso. A exigência é o consentimento específico do titular."
+    },
+    {
+     "t": "Consentimento específico, mas só se a editora ficar em outro estado.",
+     "p": "restricao",
+     "w": "A localização da editora é irrelevante. Qualquer compartilhamento com outro controlador exige consentimento específico."
+    }
+   ]
+  },
+  {
+   "id": "lgpd39",
+   "topic": "Prazo da declaração completa",
+   "c": "Um cliente de um banco digital de São Paulo pede uma declaração clara e completa, com a origem dos seus dados, os critérios usados e a finalidade do tratamento.",
+   "q": "Qual prazo a LGPD dá ao controlador para fornecer essa declaração?",
+   "a": 1,
+   "src": "LGPD, art. 19, II",
+   "o": [
+    {
+     "t": "Imediatamente, no mesmo dia do pedido.",
+     "p": "troca",
+     "w": "O prazo imediato vale para a resposta em formato simplificado (art. 19, I). A declaração completa tem até 15 dias."
+    },
+    {
+     "t": "Até 15 dias, contados da data do requerimento do titular.",
+     "p": "correta",
+     "w": "O art. 19, II, fixa até 15 dias para a declaração clara e completa. O formato simplificado deve ser imediato."
+    },
+    {
+     "t": "Até 30 dias úteis, contados do requerimento.",
+     "p": "calculo",
+     "w": "A lei fixa até 15 dias para a declaração completa, e não 30 dias úteis."
+    },
+    {
+     "t": "Não há prazo; o controlador responde quando puder.",
+     "p": "generalizacao",
+     "w": "A lei estabelece prazo expresso para a resposta ao titular."
+    }
+   ]
+  },
+  {
+   "id": "lgpd40",
+   "topic": "Portabilidade",
+   "c": "Uma cliente de uma academia de Natal vai mudar para outra rede e pede, de forma expressa, que seu histórico de treinos e avaliações seja enviado à nova academia.",
+   "q": "Qual direito do titular ela está exercendo?",
+   "a": 2,
+   "src": "LGPD, art. 18, V e § 7º",
+   "o": [
+    {
+     "t": "Eliminação dos dados.",
+     "p": "troca",
+     "w": "Eliminar é apagar os dados. A cliente quer que eles sejam transferidos a outro fornecedor."
+    },
+    {
+     "t": "Nenhum, porque o histórico pertence à academia.",
+     "p": "inversao",
+     "w": "Os dados pessoais se referem à titular, que tem o direito de pedir a portabilidade."
+    },
+    {
+     "t": "Portabilidade dos dados a outro fornecedor de serviço, mediante requisição expressa.",
+     "p": "correta",
+     "w": "O art. 18, V, garante a portabilidade a outro fornecedor, conforme regulamentação da ANPD e observados os segredos comercial e industrial."
+    },
+    {
+     "t": "Portabilidade, que inclui também os dados que a academia já anonimizou.",
+     "p": "extrapolacao",
+     "w": "O art. 18, § 7º, exclui da portabilidade os dados já anonimizados pelo controlador."
+    }
+   ]
+  },
+  {
+   "id": "lgpd41",
+   "topic": "Decisão automatizada",
+   "c": "Uma fintech de Belo Horizonte negou um cartão de crédito a um cliente por meio de um sistema que decide sozinho, sem intervenção humana. O cliente quer contestar a decisão.",
+   "q": "O que a LGPD garante a ele?",
+   "a": 3,
+   "src": "LGPD, art. 20",
+   "o": [
+    {
+     "t": "Nada, porque decisões de concessão de crédito são livres.",
+     "p": "generalizacao",
+     "w": "A liberdade de conceder crédito não afasta o direito de pedir revisão da decisão automatizada."
+    },
+    {
+     "t": "O direito de receber o código-fonte completo do sistema.",
+     "p": "extrapolacao",
+     "w": "A lei garante informações claras sobre critérios e procedimentos, observados os segredos comercial e industrial, e não o código-fonte."
+    },
+    {
+     "t": "A revisão, mas só se ele for cliente há mais de um ano.",
+     "p": "restricao",
+     "w": "A lei não impõe tempo mínimo de relacionamento para pedir a revisão."
+    },
+    {
+     "t": "O direito de solicitar a revisão da decisão tomada unicamente com base em tratamento automatizado.",
+     "p": "correta",
+     "w": "O art. 20 garante a revisão de decisões automatizadas que afetem os interesses do titular, inclusive as de crédito."
+    }
+   ]
+  },
+  {
+   "id": "lgpd42",
+   "type": "ce",
+   "topic": "Suspensão do banco",
+   "src": "LGPD, art. 52, X",
+   "c": "Após processo administrativo, a ANPD decidiu suspender parcialmente o funcionamento do banco de dados de uma empresa de marketing de Belo Horizonte ligado a uma infração.",
+   "q": "A suspensão parcial do funcionamento do banco de dados pode durar no máximo seis meses, sem possibilidade de prorrogação.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo aceita uma restrição que a lei não traz: o prazo máximo de seis meses pode ser prorrogado."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. O art. 52, X, prevê a suspensão pelo período máximo de seis meses, prorrogável por igual período, até a regularização."
+    }
+   ]
+  },
+  {
+   "id": "lgpd43",
+   "topic": "Pedido ao agente errado",
+   "c": "Um consumidor envia a uma rede de supermercados de Recife um pedido de acesso a dados que, na verdade, estão com outra empresa, uma farmácia de nome parecido. O supermercado não trata nenhum dado desse consumidor.",
+   "q": "Como o supermercado deve responder?",
+   "a": 1,
+   "src": "LGPD, art. 18, § 4º, I",
+   "o": [
+    {
+     "t": "Ignorar o pedido, já que não tem relação com ele.",
+     "p": "generalizacao",
+     "w": "A lei prevê uma resposta ao titular, mesmo quando a empresa não é agente de tratamento."
+    },
+    {
+     "t": "Informar que não é agente de tratamento desses dados e indicar, sempre que possível, quem é.",
+     "p": "correta",
+     "w": "O art. 18, § 4º, I, prevê exatamente essa resposta quando o pedido chega a quem não é agente de tratamento."
+    },
+    {
+     "t": "Encaminhar o pedido à ANPD, que decide quem deve responder.",
+     "p": "troca",
+     "w": "Não há essa etapa. A empresa responde diretamente ao titular e indica, se possível, o agente correto."
+    },
+    {
+     "t": "Cobrar uma taxa para localizar o verdadeiro controlador.",
+     "p": "extrapolacao",
+     "w": "A lei não prevê cobrança. Os pedidos do titular devem ser atendidos sem custos para ele."
+    }
+   ]
+  },
+  {
+   "id": "lgpd44",
+   "topic": "Consentimento dos pais",
+   "c": "Uma escola de natação de Santos lança um aplicativo para alunos de 6 a 11 anos que registra fotos e o desempenho nas aulas. A base legal escolhida é o consentimento.",
+   "q": "De quem deve ser obtido esse consentimento, segundo o art. 14?",
+   "a": 2,
+   "src": "LGPD, art. 14, § 1º",
+   "o": [
+    {
+     "t": "Da própria criança, por ser a titular dos dados.",
+     "p": "troca",
+     "w": "A criança é a titular, mas a lei exige que o consentimento venha dos pais ou do responsável legal."
+    },
+    {
+     "t": "Dos dois pais, obrigatoriamente, com assinatura de ambos.",
+     "p": "restricao",
+     "w": "A lei fala em pelo menos um dos pais. Não exige a assinatura dos dois."
+    },
+    {
+     "t": "De pelo menos um dos pais ou do responsável legal, de forma específica e em destaque.",
+     "p": "correta",
+     "w": "O art. 14, § 1º, exige consentimento específico e em destaque dado por pelo menos um dos pais ou pelo responsável legal."
+    },
+    {
+     "t": "De qualquer um dos pais, por cláusula genérica na matrícula que vale para usos futuros.",
+     "p": "extrapolacao",
+     "w": "O consentimento deve ser específico e em destaque. Autorização genérica para usos futuros não atende ao art. 14."
+    }
+   ]
+  },
+  {
+   "id": "lgpd45",
+   "topic": "Contato com os responsáveis",
+   "c": "Uma criança de 9 anos se perdeu dos pais em um shopping de Brasília. A equipe de segurança anotou o nome e o telefone que ela informou para ligar para a mãe.",
+   "q": "Esse dado pode ser coletado sem o consentimento prévio dos pais?",
+   "a": 3,
+   "src": "LGPD, art. 14, § 3º",
+   "o": [
+    {
+     "t": "Não, porque nenhum dado de criança pode ser coletado sem o consentimento dos pais.",
+     "p": "generalizacao",
+     "w": "A lei traz exceções. Contatar os pais e proteger a criança são duas delas."
+    },
+    {
+     "t": "Sim, e o shopping pode guardar o número para enviar promoções depois.",
+     "p": "extrapolacao",
+     "w": "A exceção exige uso único e sem armazenamento. Usar o número para marketing está fora dela."
+    },
+    {
+     "t": "Sim, mas só se a criança tiver mais de 12 anos.",
+     "p": "restricao",
+     "w": "A exceção do § 3º trata justamente de crianças. A lei não exige idade mínima para aplicá-la."
+    },
+    {
+     "t": "Sim, para contatar os pais, desde que usado uma única vez, sem armazenamento e sem repasse a terceiros.",
+     "p": "correta",
+     "w": "O art. 14, § 3º, permite coletar dados de criança sem consentimento para contatar os pais, com uso único, sem armazenamento e sem repasse."
+    }
+   ]
+  },
+  {
+   "id": "lgpd46",
+   "topic": "Finalidade alcançada",
+   "c": "Uma construtora de Maceió encerrou um processo seletivo. Os currículos dos candidatos não aprovados continuam guardados, sem previsão de uso e sem nenhuma obrigação legal de conservação.",
+   "q": "O que a LGPD determina?",
+   "a": 0,
+   "src": "LGPD, art. 15, I, e art. 16",
+   "o": [
+    {
+     "t": "Alcançada a finalidade, o tratamento termina, e os dados devem ser eliminados, salvo as hipóteses de conservação do art. 16.",
+     "p": "correta",
+     "w": "O art. 15, I, encerra o tratamento quando a finalidade é alcançada, e o art. 16 manda eliminar os dados, ressalvadas as exceções."
+    },
+    {
+     "t": "Os currículos podem ficar guardados por tempo indeterminado, pois foram enviados voluntariamente.",
+     "p": "extrapolacao",
+     "w": "O envio voluntário não autoriza guarda sem prazo. Terminada a finalidade, os dados devem ser eliminados."
+    },
+    {
+     "t": "A eliminação só é obrigatória se o candidato pedir.",
+     "p": "restricao",
+     "w": "O art. 16 determina a eliminação após o término do tratamento, independentemente de pedido."
+    },
+    {
+     "t": "Os currículos devem ser enviados à ANPD para arquivamento.",
+     "p": "troca",
+     "w": "A ANPD não arquiva dados de empresas. O destino é a eliminação, salvo as hipóteses do art. 16."
+    }
+   ]
+  },
+  {
+   "id": "lgpd47",
+   "type": "ce",
+   "topic": "Reclamação à ANPD",
+   "src": "LGPD, art. 55-J, V",
+   "c": "Um cliente de uma operadora de telefonia de Belém quer reclamar à ANPD porque a empresa usa os dados dele de forma irregular. Ele ainda não procurou a operadora.",
+   "q": "Pela LGPD, a ANPD aprecia petições do titular contra o controlador independentemente de o titular ter apresentado antes reclamação ao próprio controlador.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo ignora a condição da lei: a petição à ANPD pressupõe reclamação prévia ao controlador."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. O art. 55-J, V, atribui à ANPD apreciar petições do titular após comprovada a apresentação de reclamação ao controlador não solucionada no prazo regulamentar."
+    }
+   ]
+  },
+  {
+   "id": "lgpd48",
+   "topic": "Conservação anonimizada",
+   "c": "Uma rede de cursos livres de Vitória encerrou o tratamento dos dados dos ex-alunos, mas quer manter estatísticas de evasão por curso para uso interno.",
+   "q": "Em que condição a LGPD permite conservar esses dados para uso exclusivo do controlador?",
+   "a": 3,
+   "src": "LGPD, art. 16, IV",
+   "o": [
+    {
+     "t": "Se os dados forem apenas pseudonimizados.",
+     "p": "troca",
+     "w": "Pseudonimizar não basta, porque permite reidentificar. A lei exige anonimização."
+    },
+    {
+     "t": "Em qualquer condição, já que o uso é só interno.",
+     "p": "generalizacao",
+     "w": "O uso interno não dispensa a anonimização exigida pelo art. 16, IV."
+    },
+    {
+     "t": "Se os dados forem repassados apenas a empresas parceiras do setor.",
+     "p": "inversao",
+     "w": "É o contrário: a hipótese exige uso exclusivo do controlador, sem acesso de terceiros."
+    },
+    {
+     "t": "Se os dados forem anonimizados e o acesso por terceiros for vedado.",
+     "p": "correta",
+     "w": "O art. 16, IV, autoriza a conservação para uso exclusivo do controlador, vedado o acesso de terceiros e desde que os dados sejam anonimizados."
+    }
+   ]
+  },
+  {
+   "id": "lgpd49",
+   "topic": "Consentimento na transferência",
+   "c": "Uma agência de intercâmbio de Curitiba vai enviar os dados dos estudantes a escolas no Canadá e quer usar o consentimento do titular como base para essa transferência internacional.",
+   "q": "Como deve ser esse consentimento?",
+   "a": 0,
+   "src": "LGPD, art. 33, VIII",
+   "o": [
+    {
+     "t": "Específico e em destaque, com informação prévia sobre o caráter internacional da operação.",
+     "p": "correta",
+     "w": "O art. 33, VIII, exige consentimento específico e em destaque, com informação prévia sobre o caráter internacional, distinguindo-o de outras finalidades."
+    },
+    {
+     "t": "Genérico, incluído nos termos de uso do site da agência.",
+     "p": "generalizacao",
+     "w": "Uma autorização genérica nos termos de uso não é específica nem destacada, como o art. 33, VIII, exige."
+    },
+    {
+     "t": "Presumido, se o estudante não se opuser em até 10 dias.",
+     "p": "inversao",
+     "w": "Silêncio não é consentimento. A lei exige manifestação específica e em destaque do titular."
+    },
+    {
+     "t": "Com firma reconhecida e aprovação prévia da ANPD para cada estudante.",
+     "p": "extrapolacao",
+     "w": "A lei não exige firma reconhecida nem aprovação da ANPD para o consentimento do titular."
+    }
+   ]
+  },
+  {
+   "id": "lgpd50",
+   "topic": "Registro das operações",
+   "c": "Uma empresa de cobrança de Ribeirão Preto, que atua como operadora para vários bancos, não mantém registro das operações de tratamento que realiza. Ela alega que essa obrigação é só dos bancos.",
+   "q": "A alegação está correta?",
+   "a": 1,
+   "src": "LGPD, art. 37",
+   "o": [
+    {
+     "t": "Sim, porque o registro é obrigação exclusiva do controlador.",
+     "p": "restricao",
+     "w": "O art. 37 inclui expressamente o operador no dever de manter o registro."
+    },
+    {
+     "t": "Não: o controlador e o operador devem manter registro das operações, especialmente quando baseadas no legítimo interesse.",
+     "p": "correta",
+     "w": "O art. 37 impõe o registro das operações de tratamento aos dois agentes, controlador e operador."
+    },
+    {
+     "t": "Sim, porque o registro só é exigido de órgãos públicos.",
+     "p": "troca",
+     "w": "O art. 37 vale para os agentes de tratamento em geral, públicos e privados."
+    },
+    {
+     "t": "Não, e o registro deve ser enviado todo mês à ANPD.",
+     "p": "extrapolacao",
+     "w": "A lei exige manter o registro, e não enviá-lo periodicamente à ANPD."
+    }
+   ]
+  },
+  {
+   "id": "lgpd51",
+   "topic": "Relatório de impacto",
+   "c": "Uma rede de hospitais de São Paulo trata grande volume de dados de saúde, e a ANPD determinou que ela elabore um relatório de impacto à proteção de dados pessoais.",
+   "q": "O que esse relatório deve conter, no mínimo, segundo a LGPD?",
+   "a": 3,
+   "src": "LGPD, art. 38, parágrafo único",
+   "o": [
+    {
+     "t": "A lista completa dos pacientes, com os respectivos diagnósticos.",
+     "p": "extrapolacao",
+     "w": "O relatório descreve processos e riscos. Não exige relacionar pacientes e diagnósticos."
+    },
+    {
+     "t": "Apenas o nome e o contato do encarregado.",
+     "p": "restricao",
+     "w": "Esses dados não são o conteúdo mínimo do relatório, que deve descrever o tratamento e as medidas de mitigação."
+    },
+    {
+     "t": "O balanço financeiro e o faturamento da rede.",
+     "p": "troca",
+     "w": "Dados financeiros da empresa não fazem parte do relatório de impacto, que trata de riscos aos titulares."
+    },
+    {
+     "t": "Os tipos de dados coletados, a metodologia de coleta e de segurança e a análise das medidas de mitigação de risco.",
+     "p": "correta",
+     "w": "O parágrafo único do art. 38 lista esse conteúdo mínimo: tipos de dados, metodologia de coleta e segurança e as salvaguardas adotadas."
+    }
+   ]
+  },
+  {
+   "id": "lgpd52",
+   "type": "ce",
+   "topic": "Uso particular",
+   "src": "LGPD, art. 4º, I",
+   "c": "Fernanda, analista de uma empresa de Campinas, guarda no celular pessoal os contatos e as datas de aniversário de amigos e parentes, só para lembrar de cumprimentá-los.",
+   "q": "A LGPD não se aplica a esse tratamento, por ser realizado por pessoa natural para fins exclusivamente particulares e não econômicos.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. O art. 4º, I, exclui da LGPD o tratamento feito por pessoa natural para fins exclusivamente particulares e não econômicos."
+    },
+    {
+     "t": "Errado",
+     "p": "generalizacao",
+     "w": "Julgar errado supõe que a LGPD alcance todo e qualquer tratamento. A própria lei exclui o uso particular e não econômico."
+    }
+   ]
+  },
+  {
+   "id": "lgpd53",
+   "topic": "Operador fora das instruções",
+   "c": "Uma agência de marketing de Porto Alegre, contratada como operadora por uma loja de roupas, usou a base de clientes da loja para vender cursos próprios, contrariando as instruções recebidas. Clientes sofreram danos.",
+   "q": "Como a agência responde segundo a LGPD?",
+   "a": 0,
+   "src": "LGPD, art. 39 e art. 42, § 1º, I",
+   "o": [
+    {
+     "t": "Responde solidariamente pelos danos e se equipara ao controlador, por não ter seguido as instruções lícitas.",
+     "p": "correta",
+     "w": "O operador deve seguir as instruções do controlador (art. 39). Se não segue, responde solidariamente e se equipara ao controlador (art. 42, § 1º, I)."
+    },
+    {
+     "t": "Não responde, porque só o controlador responde por danos.",
+     "p": "generalizacao",
+     "w": "O operador também responde, e de forma solidária, quando descumpre a lei ou as instruções do controlador."
+    },
+    {
+     "t": "Responde sozinha, e a loja fica isenta em qualquer situação.",
+     "p": "extrapolacao",
+     "w": "A lei prevê responsabilidade solidária do operador. A isenção do controlador depende das hipóteses do art. 43."
+    },
+    {
+     "t": "Responde apenas se o contrato com a loja tiver cláusula de responsabilidade.",
+     "p": "restricao",
+     "w": "A responsabilidade decorre da própria LGPD, com ou sem cláusula contratual."
+    }
+   ]
+  },
+  {
+   "id": "lgpd54",
+   "topic": "Contato do encarregado",
+   "c": "Uma rede de supermercados de Belém nomeou uma encarregada, mas o nome e o contato dela constam só de um documento interno do RH.",
+   "q": "O que a LGPD exige quanto à identidade e ao contato do encarregado?",
+   "a": 0,
+   "src": "LGPD, art. 41, § 1º",
+   "o": [
+    {
+     "t": "Que sejam divulgados publicamente, de forma clara e objetiva, preferencialmente no site do controlador.",
+     "p": "correta",
+     "w": "O art. 41, § 1º, exige divulgação pública da identidade e do contato do encarregado, para que os titulares possam procurá-lo."
+    },
+    {
+     "t": "Que fiquem em sigilo, para proteger o encarregado de pressões.",
+     "p": "inversao",
+     "w": "É o contrário: o encarregado é canal de comunicação com os titulares, e por isso seu contato deve ser público."
+    },
+    {
+     "t": "Que sejam informados apenas à ANPD.",
+     "p": "restricao",
+     "w": "A divulgação é pública, e não restrita à ANPD."
+    },
+    {
+     "t": "Que sejam publicados no Diário Oficial da União.",
+     "p": "extrapolacao",
+     "w": "A lei não exige publicação em diário oficial. Indica, de preferência, o site do controlador."
+    }
+   ]
+  },
+  {
+   "id": "lgpd55",
+   "topic": "Conteúdo da comunicação",
+   "c": "Uma loja virtual de Joinville sofreu um vazamento que pode causar dano relevante aos clientes e vai comunicar o incidente à ANPD.",
+   "q": "O que a comunicação deve mencionar, no mínimo, segundo a LGPD?",
+   "a": 1,
+   "src": "LGPD, art. 48, § 1º",
+   "o": [
+    {
+     "t": "Apenas a data em que o incidente ocorreu.",
+     "p": "restricao",
+     "w": "A lei exige bem mais: dados afetados, titulares, riscos, medidas de segurança e medidas de mitigação."
+    },
+    {
+     "t": "A natureza dos dados, os titulares envolvidos, os riscos e as medidas adotadas ou a adotar para reverter ou mitigar os efeitos.",
+     "p": "correta",
+     "w": "O art. 48, § 1º, lista esses itens, além das medidas de segurança usadas e dos motivos da demora, se a comunicação não foi imediata."
+    },
+    {
+     "t": "O código-fonte completo do sistema invadido.",
+     "p": "extrapolacao",
+     "w": "A lei pede as medidas técnicas e de segurança, observados os segredos comercial e industrial, e não o código-fonte."
+    },
+    {
+     "t": "Um pedido público de desculpas assinado pelo encarregado.",
+     "p": "troca",
+     "w": "Pedido de desculpas não está no conteúdo mínimo. A comunicação é técnica e informativa."
+    }
+   ]
+  },
+  {
+   "id": "lgpd56",
+   "topic": "Quem comunica o incidente",
+   "c": "Um provedor de nuvem que atua como operador de uma rede de clínicas de Recife sofreu um ataque que expôs prontuários. Há risco relevante aos pacientes.",
+   "q": "A quem cabe, segundo a LGPD, comunicar o incidente à ANPD e aos titulares?",
+   "a": 1,
+   "src": "LGPD, art. 48, caput",
+   "o": [
+    {
+     "t": "Ao operador, o provedor de nuvem, porque o ataque foi nos servidores dele.",
+     "p": "inversao",
+     "w": "O local do ataque não muda o responsável pela comunicação. A lei atribui esse dever ao controlador."
+    },
+    {
+     "t": "Ao controlador, a rede de clínicas.",
+     "p": "correta",
+     "w": "O art. 48 atribui ao controlador o dever de comunicar à ANPD e aos titulares o incidente que possa causar risco ou dano relevante."
+    },
+    {
+     "t": "Aos próprios pacientes, que devem registrar reclamação na ANPD.",
+     "p": "troca",
+     "w": "Os pacientes são os titulares a serem avisados. Não cabe a eles comunicar o incidente."
+    },
+    {
+     "t": "A ninguém, porque o incidente ocorreu fora da empresa controladora.",
+     "p": "restricao",
+     "w": "O dever do controlador vale mesmo que o incidente ocorra no operador."
+    }
+   ]
+  },
+  {
+   "id": "lgpd57",
+   "type": "ce",
+   "topic": "Agente de pequeno porte",
+   "src": "Resolução CD/ANPD nº 2/2022, art. 11",
+   "c": "Uma microempresa de contabilidade de Londrina, enquadrada como agente de tratamento de pequeno porte e que não realiza tratamento de alto risco, não indicou encarregado.",
+   "q": "Pelo regulamento da ANPD, a microempresa pode deixar de indicar encarregado, mas deve disponibilizar um canal de comunicação com os titulares.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. O regulamento dispensa o agente de pequeno porte de indicar encarregado, mas exige um canal de comunicação com o titular."
+    },
+    {
+     "t": "Errado",
+     "p": "generalizacao",
+     "w": "Julgar errado parte da ideia de que todo controlador, sem exceção, deve indicar encarregado. O art. 41, § 3º, permite à ANPD prever dispensas, e o regulamento as previu."
+    }
+   ]
+  },
+  {
+   "id": "lgpd58",
+   "topic": "Cálculo da multa",
+   "c": "Uma rede varejista teve faturamento de R$ 4 bilhões no Brasil no último exercício, excluídos os tributos, e cometeu uma infração à LGPD.",
+   "q": "Qual é o valor máximo da multa simples por essa infração?",
+   "a": 3,
+   "src": "LGPD, art. 52, II",
+   "o": [
+    {
+     "t": "R$ 80 milhões, que correspondem a 2% do faturamento.",
+     "p": "extrapolacao",
+     "w": "O cálculo dos 2% está certo, mas ignora o teto. A multa é limitada a R$ 50 milhões por infração."
+    },
+    {
+     "t": "R$ 8 milhões, que correspondem a 2% do faturamento.",
+     "p": "calculo",
+     "w": "Conta errada: R$ 8 milhões são 0,2% de R$ 4 bilhões. 2% seriam R$ 80 milhões, acima do teto."
+    },
+    {
+     "t": "R$ 50 milhões como valor mínimo, aplicado a toda grande empresa.",
+     "p": "inversao",
+     "w": "R$ 50 milhões é teto, e não piso. A multa é de até esse valor por infração."
+    },
+    {
+     "t": "R$ 50 milhões, porque 2% do faturamento (R$ 80 milhões) ultrapassa o limite por infração.",
+     "p": "correta",
+     "w": "A multa simples é de até 2% do faturamento no Brasil, excluídos os tributos, limitada a R$ 50 milhões por infração."
+    }
+   ]
+  },
+  {
+   "id": "lgpd59",
+   "topic": "Sanções a órgãos públicos",
+   "c": "Uma secretaria municipal de saúde do interior de Minas Gerais descumpriu a LGPD ao publicar uma planilha com dados de pacientes.",
+   "q": "Quais sanções do art. 52 a ANPD pode aplicar a esse órgão público?",
+   "a": 0,
+   "src": "LGPD, art. 52, § 3º",
+   "o": [
+    {
+     "t": "Advertência, publicização, bloqueio e eliminação dos dados, entre outras, mas não as multas.",
+     "p": "correta",
+     "w": "O art. 52, § 3º, lista as sanções aplicáveis a órgãos públicos (I, IV, V, VI, X, XI e XII). As multas (II e III) ficam de fora."
+    },
+    {
+     "t": "Todas, inclusive a multa simples e a multa diária.",
+     "p": "generalizacao",
+     "w": "As multas não estão entre as sanções que o § 3º do art. 52 permite aplicar a órgãos públicos."
+    },
+    {
+     "t": "Nenhuma, porque órgãos públicos não estão sujeitos à LGPD.",
+     "p": "restricao",
+     "w": "A LGPD se aplica ao poder público, que tem até capítulo próprio na lei."
+    },
+    {
+     "t": "Apenas a multa simples, por ser a única sanção aplicável a órgãos públicos.",
+     "p": "inversao",
+     "w": "É o contrário: a multa é justamente uma das sanções que não se aplicam a órgãos públicos."
+    }
+   ]
+  },
+  {
+   "id": "lgpd60",
+   "type": "ce",
+   "topic": "Dados manifestamente públicos",
+   "src": "LGPD, art. 7º, § 4º",
+   "c": "Uma empresa de recrutamento de Curitiba coleta dados que profissionais publicaram em seus perfis abertos em redes profissionais.",
+   "q": "Por terem sido tornados manifestamente públicos pelos titulares, esses dados podem ser usados para qualquer finalidade, sem observar os princípios da LGPD nem os direitos dos titulares.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "extrapolacao",
+     "w": "Julgar certo vai além da regra: a lei só dispensa o consentimento, e não os princípios nem os direitos do titular."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. O art. 7º, § 4º, dispensa o consentimento para dados tornados manifestamente públicos pelo titular, resguardados os seus direitos e os princípios da lei."
+    }
+   ]
+  }
+ ]
+}

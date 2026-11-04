@@ -25,3 +25,22 @@ Para trilhas que JÁ existem, use só `{ "id": "port", "questions": [...] }` e c
 - Os ids das questões devem ser únicos e seguir o padrão `<id da trilha><número>`.
 
 Depois de escrever, rode `node dev/validate-content.mjs content/<id>.json` e corrija até passar.
+
+## Arquivos de ampliação
+Para não mexer nos arquivos existentes, questões novas de uma trilha vão em `content/<id>.more.json` com `{ "id": "<id>", "questions": [...] }`.
+Continue a numeração a partir do maior número já usado pela trilha (veja `content/TOPICS.md`). Ids sempre `<id da trilha><n>` (ex.: dconst13), mesmo que as questões antigas usem outro prefixo.
+
+## Formato Certo/Errado (estilo Cebraspe)
+Usado só em trilhas de concurso. Mesmo objeto, com estas diferenças:
+```json
+{ "id": "dconst40", "type": "ce", "topic": "Mandado de segurança", "src": "CF/88, art. 5º, LXIX",
+  "c": "Situação realista de 1 a 3 frases.",
+  "q": "Afirmação a julgar, completa, terminando em ponto.",
+  "a": 1,
+  "o": [ { "t": "Certo", "p": "generalizacao", "w": "Por que julgar Certo é um erro..." },
+         { "t": "Errado", "p": "correta", "w": "Por que o item está errado, citando a regra..." } ] }
+```
+- `o` tem EXATAMENTE 2 itens, nesta ordem: `Certo` e `Errado`. `a` = 0 se o item é certo, 1 se é errado.
+- O julgamento errado recebe o padrão da pegadinha que o item usa (ex.: item errado por generalização → a opção "Certo" leva `"p": "generalizacao"`; item certo que parece errado → a opção "Errado" leva o padrão que confundiria o aluno).
+- Equilibre: entre 40% e 60% dos itens Certo/Errado de cada arquivo devem ser certos.
+- Itens errados devem ter UM erro claro e verificável (troca de prazo, de competência, de palavra-chave, generalização), nunca ambiguidade.

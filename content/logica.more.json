@@ -1,0 +1,1337 @@
+{
+ "id": "logica",
+ "questions": [
+  {
+   "id": "logica13",
+   "topic": "O que é proposição",
+   "c": "Num simulado para o concurso do INSS, Renata precisava identificar qual das frases de um enunciado era uma proposição lógica.",
+   "q": "Qual das frases abaixo é uma proposição?",
+   "a": 0,
+   "src": "Lógica proposicional: proposição é sentença declarativa que admite V ou F",
+   "o": [
+    {
+     "t": "Brasília é a capital do Piauí.",
+     "p": "correta",
+     "w": "É uma frase declarativa com valor lógico definido (falso). Ser falsa não impede uma frase de ser proposição."
+    },
+    {
+     "t": "Que horas começa a prova?",
+     "p": "troca",
+     "w": "Frase interrogativa não afirma nada, então não pode ser julgada verdadeira ou falsa."
+    },
+    {
+     "t": "Preencha o gabarito com caneta preta.",
+     "p": "extrapolacao",
+     "w": "É uma ordem (frase imperativa). Ordens não são verdadeiras nem falsas, logo não são proposições."
+    },
+    {
+     "t": "Ele foi aprovado no concurso.",
+     "p": "generalizacao",
+     "w": "Sem saber quem é “ele”, a frase é uma sentença aberta: seu valor depende de quem ocupa o lugar do sujeito."
+    }
+   ]
+  },
+  {
+   "id": "logica14",
+   "topic": "Linhas da tabela-verdade",
+   "c": "Um professor de cursinho em Recife vai montar no quadro a tabela-verdade completa da proposição (p ∧ q) → (r ∨ s).",
+   "q": "Quantas linhas, sem contar o cabeçalho, essa tabela deve ter?",
+   "a": 1,
+   "src": "Tabela-verdade: 2ⁿ linhas para n proposições simples",
+   "o": [
+    {
+     "t": "8",
+     "p": "calculo",
+     "w": "Multiplicou 2 × 4 em vez de calcular 2⁴. O número de linhas cresce como potência de 2."
+    },
+    {
+     "t": "16",
+     "p": "correta",
+     "w": "Há 4 proposições simples (p, q, r, s), e cada uma assume V ou F: 2⁴ = 16 combinações."
+    },
+    {
+     "t": "4",
+     "p": "troca",
+     "w": "Confundiu o número de proposições simples com o número de linhas da tabela."
+    },
+    {
+     "t": "32",
+     "p": "extrapolacao",
+     "w": "Contou a proposição composta como se fosse mais uma variável. Só as proposições simples geram combinações."
+    }
+   ]
+  },
+  {
+   "id": "logica15",
+   "topic": "Valor lógico composto",
+   "c": "Num treino para o TRF, Lucas recebeu: p: “Recife é a capital de Pernambuco” (V); q: “7 é um número par” (F); r: “Um ano tem 12 meses” (V).",
+   "q": "Qual é o valor lógico de (p ∨ q) → (q ∧ r)?",
+   "a": 2,
+   "src": "Tabela-verdade da condicional: só é falsa quando V → F",
+   "o": [
+    {
+     "t": "Verdadeiro, porque o antecedente p ∨ q é verdadeiro.",
+     "p": "calculo",
+     "w": "Avaliou só o antecedente. É preciso calcular também o consequente, que aqui é falso."
+    },
+    {
+     "t": "Verdadeiro, porque basta uma das partes ser verdadeira.",
+     "p": "troca",
+     "w": "Essa é a regra da disjunção (ou). A condicional tem regra própria: é falsa quando V → F."
+    },
+    {
+     "t": "Falso, porque o antecedente p ∨ q é verdadeiro e o consequente q ∧ r é falso.",
+     "p": "correta",
+     "w": "p ∨ q = V ∨ F = V e q ∧ r = F ∧ V = F. A condicional V → F é a única combinação falsa."
+    },
+    {
+     "t": "Verdadeiro, porque a condicional só é falsa quando o antecedente é falso.",
+     "p": "inversao",
+     "w": "Inverteu a regra. Antecedente falso torna a condicional verdadeira; a falsidade exige antecedente V e consequente F."
+    }
+   ]
+  },
+  {
+   "id": "logica16",
+   "topic": "Disjunção exclusiva",
+   "c": "A atendente de uma clínica em Belo Horizonte informou: “Ou Marta será atendida hoje, ou Marta será atendida amanhã.”",
+   "q": "Se a frase da atendente for verdadeira, o que se pode concluir?",
+   "a": 3,
+   "src": "Disjunção exclusiva (ou... ou): verdadeira só quando as partes têm valores diferentes",
+   "o": [
+    {
+     "t": "Marta pode ser atendida nos dois dias.",
+     "p": "troca",
+     "w": "Isso vale para a disjunção inclusiva (ou). Na exclusiva, as duas partes verdadeiras tornam a frase falsa."
+    },
+    {
+     "t": "Marta será atendida hoje, necessariamente.",
+     "p": "restricao",
+     "w": "A frase não diz qual dos dias será. Ela garante só que será um deles, e não os dois."
+    },
+    {
+     "t": "Marta pode não ser atendida em nenhum dos dois dias.",
+     "p": "extrapolacao",
+     "w": "Se as duas partes forem falsas, a disjunção exclusiva é falsa. Como a frase é verdadeira, um dos atendimentos ocorre."
+    },
+    {
+     "t": "Marta será atendida em exatamente um dos dois dias.",
+     "p": "correta",
+     "w": "O “ou... ou” indica disjunção exclusiva: é verdadeira apenas quando uma parte é V e a outra é F."
+    }
+   ]
+  },
+  {
+   "id": "logica17",
+   "topic": "Condicional como disjunção",
+   "c": "O edital de um concurso da Prefeitura de Fortaleza diz: “Se o candidato tiver deficiência, então terá tempo adicional de prova.”",
+   "q": "Qual frase é logicamente equivalente à do edital?",
+   "a": 0,
+   "src": "Equivalência: p → q ≡ ¬p ∨ q",
+   "o": [
+    {
+     "t": "O candidato não tem deficiência ou terá tempo adicional de prova.",
+     "p": "correta",
+     "w": "A condicional p → q equivale a ¬p ∨ q: nega-se o antecedente, troca-se “se... então” por “ou” e mantém-se o consequente."
+    },
+    {
+     "t": "O candidato tem deficiência ou não terá tempo adicional de prova.",
+     "p": "calculo",
+     "w": "Negou a parte errada. Essa frase equivale a q → p, não a p → q."
+    },
+    {
+     "t": "Se o candidato tiver tempo adicional de prova, então tem deficiência.",
+     "p": "inversao",
+     "w": "É a recíproca (q → p), que não é equivalente à condicional original."
+    },
+    {
+     "t": "O candidato tem deficiência e terá tempo adicional de prova.",
+     "p": "troca",
+     "w": "A conjunção afirma as duas coisas. A condicional não garante que o candidato tenha deficiência."
+    }
+   ]
+  },
+  {
+   "id": "logica18",
+   "topic": "Negação da disjunção",
+   "c": "O síndico de um prédio em Curitiba prometeu: “Vou pintar a fachada ou trocar o portão.” No fim do ano, a assembleia concluiu que a promessa foi descumprida.",
+   "q": "O que, necessariamente, aconteceu?",
+   "a": 1,
+   "src": "Lei de De Morgan: ¬(p ∨ q) ≡ ¬p ∧ ¬q",
+   "o": [
+    {
+     "t": "O síndico não pintou a fachada ou não trocou o portão.",
+     "p": "calculo",
+     "w": "Negou as partes, mas manteve o “ou”. De Morgan exige trocar o “ou” pelo “e”."
+    },
+    {
+     "t": "O síndico não pintou a fachada e não trocou o portão.",
+     "p": "correta",
+     "w": "Pela Lei de De Morgan, a negação de “p ou q” é “não p e não q”. Para a disjunção ser falsa, as duas partes precisam ser falsas."
+    },
+    {
+     "t": "O síndico pintou a fachada, mas não trocou o portão.",
+     "p": "restricao",
+     "w": "Nesse cenário a promessa foi cumprida, pois basta uma das partes da disjunção ser verdadeira."
+    },
+    {
+     "t": "Se o síndico pintou a fachada, então não trocou o portão.",
+     "p": "troca",
+     "w": "Troca a negação por uma condicional que nada tem a ver com De Morgan e que não garante o descumprimento."
+    }
+   ]
+  },
+  {
+   "id": "logica19",
+   "topic": "Negação de “algum”",
+   "c": "Uma reportagem afirmou: “Algum vereador de Natal votou contra o projeto.” A Câmara publicou a ata da votação e provou que a reportagem estava errada.",
+   "q": "Qual frase expressa a negação da afirmação da reportagem?",
+   "a": 2,
+   "src": "Lógica de quantificadores: ¬(algum A é B) ≡ nenhum A é B",
+   "o": [
+    {
+     "t": "Algum vereador de Natal não votou contra o projeto.",
+     "p": "calculo",
+     "w": "Negou só o verbo e manteve o “algum”. Essa frase pode ser verdadeira junto com a original."
+    },
+    {
+     "t": "Todo vereador de Natal votou contra o projeto.",
+     "p": "inversao",
+     "w": "Reforça a afirmação original em vez de negá-la: se todos votaram contra, algum votou contra."
+    },
+    {
+     "t": "Nenhum vereador de Natal votou contra o projeto.",
+     "p": "correta",
+     "w": "Para que “algum A é B” seja falsa, não pode haver nenhum caso: a negação é “nenhum A é B”."
+    },
+    {
+     "t": "A maioria dos vereadores de Natal votou a favor do projeto.",
+     "p": "extrapolacao",
+     "w": "Se a maioria votou a favor, ainda pode existir algum vereador que votou contra. Não é negação."
+    }
+   ]
+  },
+  {
+   "id": "logica20",
+   "topic": "Negação de “existe”",
+   "c": "Em relatório, um auditor da CGU escreveu: “Existe contrato da secretaria que não foi publicado no Diário Oficial.” O gestor quer contestar exatamente essa frase.",
+   "q": "Qual frase nega corretamente a afirmação do auditor?",
+   "a": 3,
+   "src": "Lógica de quantificadores: ¬(existe x que não P) ≡ todo x é P",
+   "o": [
+    {
+     "t": "Existe contrato da secretaria que foi publicado no Diário Oficial.",
+     "p": "calculo",
+     "w": "Negou apenas o verbo e manteve o “existe”. As duas frases podem ser verdadeiras ao mesmo tempo."
+    },
+    {
+     "t": "Nenhum contrato da secretaria foi publicado no Diário Oficial.",
+     "p": "troca",
+     "w": "Isso torna a afirmação do auditor ainda mais forte, em vez de negá-la."
+    },
+    {
+     "t": "A maioria dos contratos da secretaria foi publicada no Diário Oficial.",
+     "p": "extrapolacao",
+     "w": "“A maioria” deixa espaço para algum contrato não publicado, o que mantém a frase do auditor verdadeira."
+    },
+    {
+     "t": "Todo contrato da secretaria foi publicado no Diário Oficial.",
+     "p": "correta",
+     "w": "Nega-se o “existe” trocando-o por “todo” e nega-se o predicado: “não foi publicado” vira “foi publicado”."
+    }
+   ]
+  },
+  {
+   "id": "logica21",
+   "topic": "Modus ponens",
+   "c": "Uma norma de um hospital em Porto Alegre diz: “Se o paciente tiver febre acima de 39 °C, então será encaminhado ao pronto-atendimento.” Seu Antônio chegou com febre de 39,5 °C.",
+   "q": "Qual conclusão é válida?",
+   "a": 0,
+   "src": "Modus ponens: p → q, p ⊢ q",
+   "o": [
+    {
+     "t": "Seu Antônio será encaminhado ao pronto-atendimento.",
+     "p": "correta",
+     "w": "O antecedente foi afirmado (febre acima de 39 °C). Pelo modus ponens, conclui-se o consequente."
+    },
+    {
+     "t": "Nada se conclui, porque a norma não cita Seu Antônio pelo nome.",
+     "p": "restricao",
+     "w": "A norma vale para qualquer paciente que cumpra a condição. Não precisa citar nomes."
+    },
+    {
+     "t": "Todo paciente encaminhado ao pronto-atendimento tem febre acima de 39 °C.",
+     "p": "inversao",
+     "w": "É a recíproca da norma. Outros motivos podem levar alguém ao pronto-atendimento."
+    },
+    {
+     "t": "Seu Antônio só será encaminhado se também tiver outros sintomas.",
+     "p": "extrapolacao",
+     "w": "Acrescenta uma condição que a norma não traz. A febre acima de 39 °C já basta."
+    }
+   ]
+  },
+  {
+   "id": "logica22",
+   "topic": "Modus tollens",
+   "c": "Um técnico de informática em Manaus explica: “Se o servidor estiver ligado, a luz verde do painel estará acesa.” Ao chegar à sala, ele viu a luz verde apagada.",
+   "q": "Supondo a regra verdadeira, qual conclusão é válida?",
+   "a": 1,
+   "src": "Modus tollens: p → q, ¬q ⊢ ¬p",
+   "o": [
+    {
+     "t": "O servidor está ligado, mas a lâmpada queimou.",
+     "p": "extrapolacao",
+     "w": "Inventa uma hipótese fora das premissas. Se a regra é verdadeira, servidor ligado implica luz acesa."
+    },
+    {
+     "t": "O servidor não está ligado.",
+     "p": "correta",
+     "w": "Negou-se o consequente (luz apagada). Pelo modus tollens, nega-se o antecedente: o servidor está desligado."
+    },
+    {
+     "t": "Nada se pode concluir sobre o servidor.",
+     "p": "troca",
+     "w": "Confunde com a negação do antecedente, que de fato não permite concluir. Negar o consequente permite."
+    },
+    {
+     "t": "Se a luz verde acender, o servidor estará ligado.",
+     "p": "inversao",
+     "w": "É a recíproca da regra, que não decorre das premissas."
+    }
+   ]
+  },
+  {
+   "id": "logica23",
+   "topic": "Silogismo disjuntivo",
+   "c": "Na secretaria de um tribunal em Goiânia, a informação era: “O processo está no gabinete do relator ou no arquivo.” Após a busca, a servidora confirmou que o processo não está no arquivo.",
+   "q": "O que se pode concluir?",
+   "a": 2,
+   "src": "Silogismo disjuntivo: p ∨ q, ¬q ⊢ p",
+   "o": [
+    {
+     "t": "O processo pode estar em qualquer outro setor do tribunal.",
+     "p": "extrapolacao",
+     "w": "Se a premissa é verdadeira, só há duas possibilidades. Não há espaço para outros setores."
+    },
+    {
+     "t": "Nada se conclui, pois na disjunção as duas partes podem ser verdadeiras.",
+     "p": "troca",
+     "w": "Isso impede concluir quando se afirma uma das partes, não quando se nega. Negada uma, a outra se confirma."
+    },
+    {
+     "t": "O processo está no gabinete do relator.",
+     "p": "correta",
+     "w": "Na disjunção, ao menos uma parte é verdadeira. Eliminada uma delas, a outra é necessariamente verdadeira."
+    },
+    {
+     "t": "O processo está no gabinete e também no arquivo.",
+     "p": "calculo",
+     "w": "Ignora a informação de que o processo não está no arquivo."
+    }
+   ]
+  },
+  {
+   "id": "logica24",
+   "topic": "Afirmação do consequente",
+   "c": "Um comentarista esportivo argumentou: “Se o Paysandu vencer o jogo de hoje, irá à final. O Paysandu foi à final. Logo, venceu o jogo de hoje.”",
+   "q": "Como se classifica esse argumento?",
+   "a": 3,
+   "src": "Falácia da afirmação do consequente: p → q, q ⊬ p",
+   "o": [
+    {
+     "t": "Válido, por modus ponens.",
+     "p": "inversao",
+     "w": "Modus ponens afirma o antecedente. Aqui foi afirmado o consequente, o que inverte o esquema."
+    },
+    {
+     "t": "Inválido, porque nega o antecedente.",
+     "p": "troca",
+     "w": "O argumento é inválido, mas o vício é outro: ele afirma o consequente, não nega o antecedente."
+    },
+    {
+     "t": "Válido, porque todo argumento que repete parte das premissas na conclusão é válido.",
+     "p": "generalizacao",
+     "w": "Não existe essa regra. A validade depende da forma, e esta forma admite premissas verdadeiras com conclusão falsa."
+    },
+    {
+     "t": "Inválido, pois afirma o consequente: o time pode ter ido à final por outro resultado.",
+     "p": "correta",
+     "w": "Da condicional p → q e de q não se conclui p. Há uma linha com premissas verdadeiras e conclusão falsa."
+    }
+   ]
+  },
+  {
+   "id": "logica25",
+   "topic": "Diagramas: todo e nenhum",
+   "c": "Sobre o quadro de pessoal de uma autarquia em Belém, sabe-se que: “Todo médico da autarquia é servidor efetivo” e “Nenhum servidor efetivo é sócio-administrador de empresa”.",
+   "q": "Qual conclusão é necessariamente verdadeira?",
+   "a": 0,
+   "src": "Diagramas lógicos (Euler-Venn): todo A é B; nenhum B é C ⊢ nenhum A é C",
+   "o": [
+    {
+     "t": "Nenhum médico da autarquia é sócio-administrador de empresa.",
+     "p": "correta",
+     "w": "O conjunto dos médicos está dentro do dos efetivos, que não toca o dos sócios-administradores. Logo, médicos e sócios não se cruzam."
+    },
+    {
+     "t": "Todo servidor efetivo da autarquia é médico.",
+     "p": "inversao",
+     "w": "Inverte a primeira premissa. “Todo médico é efetivo” não garante que todo efetivo seja médico."
+    },
+    {
+     "t": "Algum médico da autarquia é sócio-administrador de empresa.",
+     "p": "troca",
+     "w": "Contradiz as premissas: se todo médico é efetivo e nenhum efetivo é sócio, nenhum médico pode ser sócio."
+    },
+    {
+     "t": "Ninguém que trabalha na autarquia é sócio-administrador de empresa.",
+     "p": "extrapolacao",
+     "w": "As premissas falam só dos servidores efetivos. Um comissionado ou terceirizado, por exemplo, não é alcançado por elas."
+    }
+   ]
+  },
+  {
+   "id": "logica26",
+   "topic": "Diagramas: algum",
+   "c": "Sobre o corpo docente de uma faculdade em Teresina, sabe-se que: “Algum professor é advogado” e “Todo advogado é inscrito na OAB”.",
+   "q": "Qual conclusão é necessariamente verdadeira?",
+   "a": 1,
+   "src": "Diagramas lógicos (Euler-Venn): algum A é B; todo B é C ⊢ algum A é C",
+   "o": [
+    {
+     "t": "Todo professor é inscrito na OAB.",
+     "p": "generalizacao",
+     "w": "As premissas só garantem um professor advogado. Os demais professores podem não ser inscritos."
+    },
+    {
+     "t": "Algum professor é inscrito na OAB.",
+     "p": "correta",
+     "w": "Há pelo menos um professor no conjunto dos advogados, que está inteiro dentro do conjunto dos inscritos. Esse professor é inscrito."
+    },
+    {
+     "t": "Todo inscrito na OAB é professor.",
+     "p": "inversao",
+     "w": "Inverte o sentido da inclusão. Os advogados estão dentro dos inscritos, não o contrário."
+    },
+    {
+     "t": "Algum advogado não é professor.",
+     "p": "extrapolacao",
+     "w": "As premissas não excluem a hipótese de todos os advogados serem professores. A conclusão não é necessária."
+    }
+   ]
+  },
+  {
+   "id": "logica27",
+   "topic": "Contradição",
+   "c": "Num exercício preparatório para o concurso da Polícia Civil do Ceará, Bruno precisava identificar qual frase é uma contradição.",
+   "q": "Qual das proposições é uma contradição?",
+   "a": 2,
+   "src": "Contradição: proposição composta falsa em todas as linhas da tabela-verdade",
+   "o": [
+    {
+     "t": "Carla é delegada ou Carla não é delegada.",
+     "p": "troca",
+     "w": "Tem a forma p ∨ ¬p, que é verdadeira em todas as linhas: é uma tautologia, o oposto da contradição."
+    },
+    {
+     "t": "Se Carla é delegada, então Carla não é delegada.",
+     "p": "calculo",
+     "w": "Parece impossível, mas p → ¬p é verdadeira quando p é falsa. Como tem linhas V e F, é contingência."
+    },
+    {
+     "t": "Carla é delegada e Carla não é delegada.",
+     "p": "correta",
+     "w": "Tem a forma p ∧ ¬p: p e ¬p nunca são verdadeiras ao mesmo tempo, então a conjunção é falsa em todas as linhas."
+    },
+    {
+     "t": "Carla não é delegada e não é escrivã.",
+     "p": "extrapolacao",
+     "w": "Ter negações não torna a frase contraditória. Ela é verdadeira se Carla não for nenhuma das duas coisas: é contingência."
+    }
+   ]
+  },
+  {
+   "id": "logica28",
+   "topic": "Contingência",
+   "c": "Ao revisar uma lista de exercícios para o concurso do Banco do Brasil, Juliana classificou proposições compostas montando suas tabelas-verdade.",
+   "q": "Qual das proposições é uma contingência?",
+   "a": 3,
+   "src": "Contingência: proposição com linhas V e linhas F na tabela-verdade",
+   "o": [
+    {
+     "t": "p ∨ ¬p",
+     "p": "troca",
+     "w": "É verdadeira em todas as linhas, pois p ou sua negação sempre vale: é tautologia."
+    },
+    {
+     "t": "p ∧ ¬p",
+     "p": "inversao",
+     "w": "É falsa em todas as linhas: é contradição, o extremo oposto da tautologia."
+    },
+    {
+     "t": "(p ∧ q) → p",
+     "p": "calculo",
+     "w": "Parece depender de q, mas é tautologia: quando p ∧ q é V, p também é V, então nunca ocorre V → F."
+    },
+    {
+     "t": "p → (p ∧ q)",
+     "p": "correta",
+     "w": "É falsa quando p é V e q é F (V → F) e verdadeira nas demais linhas. Como tem V e F, é contingência."
+    }
+   ]
+  },
+  {
+   "id": "logica29",
+   "topic": "Princípio da contagem",
+   "c": "Um condomínio em Florianópolis vai criar senhas para o portão com 2 letras, escolhidas entre as 26 do alfabeto, seguidas de 3 algarismos. Letras e algarismos podem se repetir.",
+   "q": "Quantas senhas diferentes podem ser criadas?",
+   "a": 0,
+   "src": "Princípio fundamental da contagem (princípio multiplicativo)",
+   "o": [
+    {
+     "t": "676.000",
+     "p": "correta",
+     "w": "São 5 posições independentes: 26 × 26 × 10 × 10 × 10 = 676 × 1.000 = 676.000."
+    },
+    {
+     "t": "468.000",
+     "p": "restricao",
+     "w": "Proibiu repetições (26 × 25 × 10 × 9 × 8), mas o enunciado permite repetir letras e algarismos."
+    },
+    {
+     "t": "1.676",
+     "p": "troca",
+     "w": "Somou 26² + 10³. Etapas sucessivas e independentes se multiplicam, não se somam."
+    },
+    {
+     "t": "60.466.176",
+     "p": "extrapolacao",
+     "w": "Calculou 36⁵, como se qualquer posição aceitasse letra ou algarismo. As posições de letras e de algarismos são fixas."
+    }
+   ]
+  },
+  {
+   "id": "logica30",
+   "topic": "Arranjo simples",
+   "c": "A associação de moradores de um bairro de São Luís tem 8 candidatos para os cargos de presidente, vice-presidente e tesoureiro. Cada pessoa pode ocupar no máximo um cargo.",
+   "q": "De quantas maneiras a diretoria pode ser formada?",
+   "a": 1,
+   "src": "Arranjo simples: A(n, p) = n! ÷ (n − p)!",
+   "o": [
+    {
+     "t": "56",
+     "p": "troca",
+     "w": "Calculou a combinação C(8, 3), que ignora a ordem. Aqui, trocar presidente e vice gera outra diretoria."
+    },
+    {
+     "t": "336",
+     "p": "correta",
+     "w": "A ordem importa, pois os cargos são diferentes: A(8, 3) = 8 × 7 × 6 = 336."
+    },
+    {
+     "t": "512",
+     "p": "calculo",
+     "w": "Fez 8³, permitindo que a mesma pessoa ocupe mais de um cargo, o que o enunciado proíbe."
+    },
+    {
+     "t": "6.720",
+     "p": "inversao",
+     "w": "Dividiu 8! por 3! em vez de por (8 − 3)! = 5!. O denominador correto é o fatorial dos que sobram."
+    }
+   ]
+  },
+  {
+   "id": "logica31",
+   "topic": "Pessoas sempre juntas",
+   "c": "Cinco amigos de Maceió vão tirar uma foto lado a lado, em fila. Dois deles, Ana e Beto, são namorados e querem ficar sempre um ao lado do outro.",
+   "q": "De quantas maneiras a fila pode ser formada?",
+   "a": 2,
+   "src": "Permutação simples com bloco: (n − 1)! × 2!",
+   "o": [
+    {
+     "t": "24",
+     "p": "calculo",
+     "w": "Esqueceu que Ana e Beto podem trocar de posição dentro do bloco, o que dobra o total."
+    },
+    {
+     "t": "120",
+     "p": "generalizacao",
+     "w": "Calculou 5!, ignorando a exigência de o casal ficar junto."
+    },
+    {
+     "t": "48",
+     "p": "correta",
+     "w": "Trata-se o casal como um bloco: 4 elementos permutam de 4! = 24 modos, e o casal troca de lugar entre si de 2 modos. 24 × 2 = 48."
+    },
+    {
+     "t": "240",
+     "p": "extrapolacao",
+     "w": "Multiplicou 5! por 2, como se o bloco fosse uma pessoa a mais na fila. Com o bloco, restam só 4 elementos."
+    }
+   ]
+  },
+  {
+   "id": "logica32",
+   "topic": "Anagramas com repetição",
+   "c": "Para uma brincadeira em um cursinho de Vitória, a professora pediu aos alunos que calculassem quantos anagramas tem a palavra CONCURSO.",
+   "q": "Quantos anagramas tem a palavra CONCURSO?",
+   "a": 3,
+   "src": "Permutação com repetição: n! ÷ (a! × b! × ...)",
+   "o": [
+    {
+     "t": "40.320",
+     "p": "calculo",
+     "w": "Calculou 8! sem descontar as letras repetidas, contando como diferentes anagramas que são iguais."
+    },
+    {
+     "t": "20.160",
+     "p": "restricao",
+     "w": "Descontou apenas uma das repetições (8! ÷ 2!). Tanto o C quanto o O aparecem duas vezes."
+    },
+    {
+     "t": "720",
+     "p": "troca",
+     "w": "Permutou só as 6 letras distintas (6!). Todas as 8 letras entram em cada anagrama."
+    },
+    {
+     "t": "10.080",
+     "p": "correta",
+     "w": "São 8 letras, com C e O repetidos duas vezes cada: 8! ÷ (2! × 2!) = 40.320 ÷ 4 = 10.080."
+    }
+   ]
+  },
+  {
+   "id": "logica33",
+   "topic": "Anagramas com restrição",
+   "c": "Uma escola de Aracaju fez uma gincana de palavras. Uma das tarefas era contar os anagramas da palavra PROVA que começam por vogal.",
+   "q": "Quantos anagramas de PROVA começam por vogal?",
+   "a": 0,
+   "src": "Princípio multiplicativo aplicado a anagramas",
+   "o": [
+    {
+     "t": "48",
+     "p": "correta",
+     "w": "Há 2 vogais (O, A) para a primeira posição, e as outras 4 letras permutam de 4! = 24 modos: 2 × 24 = 48."
+    },
+    {
+     "t": "24",
+     "p": "calculo",
+     "w": "Fixou apenas uma vogal no início. Tanto O quanto A podem ocupar a primeira posição."
+    },
+    {
+     "t": "120",
+     "p": "generalizacao",
+     "w": "É o total de anagramas (5!), sem a exigência de começar por vogal."
+    },
+    {
+     "t": "12",
+     "p": "restricao",
+     "w": "Exigiu também terminar por vogal (2 × 3! × 1). O enunciado só fixa a primeira letra."
+    }
+   ]
+  },
+  {
+   "id": "logica34",
+   "topic": "Combinação com grupos",
+   "c": "A direção de uma escola em Campo Grande vai formar uma comissão com 2 professores e 1 professora, escolhidos entre 5 professores e 4 professoras.",
+   "q": "Quantas comissões diferentes podem ser formadas?",
+   "a": 1,
+   "src": "Combinação simples: C(n, p) = n! ÷ [p! (n − p)!]",
+   "o": [
+    {
+     "t": "84",
+     "p": "troca",
+     "w": "Calculou C(9, 3), escolhendo 3 pessoas quaisquer e ignorando a exigência de 2 professores e 1 professora."
+    },
+    {
+     "t": "40",
+     "p": "correta",
+     "w": "A ordem não importa: C(5, 2) × C(4, 1) = 10 × 4 = 40."
+    },
+    {
+     "t": "80",
+     "p": "calculo",
+     "w": "Usou arranjo para os professores (5 × 4 = 20), como se a ordem importasse. Numa comissão sem cargos, ela não importa."
+    },
+    {
+     "t": "14",
+     "p": "inversao",
+     "w": "Somou 10 + 4. As escolhas são feitas em conjunto, então as possibilidades se multiplicam."
+    }
+   ]
+  },
+  {
+   "id": "logica35",
+   "topic": "Eventos independentes",
+   "c": "A previsão do tempo para Salvador indica 30% de chance de chuva no sábado e 40% no domingo. Considere os dois eventos independentes.",
+   "q": "Qual é a probabilidade de chover nos dois dias?",
+   "a": 2,
+   "src": "Probabilidade de eventos independentes: P(A ∩ B) = P(A) × P(B)",
+   "o": [
+    {
+     "t": "70%",
+     "p": "calculo",
+     "w": "Somou 30% + 40%. A soma não serve para “os dois acontecerem”; ela até superestima a chance de pelo menos um."
+    },
+    {
+     "t": "58%",
+     "p": "troca",
+     "w": "É a chance de chover em pelo menos um dos dias: 1 − 0,7 × 0,6 = 0,58. A pergunta pede os dois dias."
+    },
+    {
+     "t": "12%",
+     "p": "correta",
+     "w": "Para eventos independentes, multiplicam-se as probabilidades: 0,3 × 0,4 = 0,12 = 12%."
+    },
+    {
+     "t": "88%",
+     "p": "inversao",
+     "w": "É o complementar do resultado: a chance de não chover nos dois dias ao mesmo tempo (1 − 0,12)."
+    }
+   ]
+  },
+  {
+   "id": "logica36",
+   "topic": "Evento complementar",
+   "c": "Um aplicativo de entregas de Belo Horizonte dá cupom em sorteio a cada pedido, com chance de 1/4 por pedido, de forma independente. Tiago fará 3 pedidos.",
+   "q": "Qual é a probabilidade de Tiago ganhar pelo menos um cupom?",
+   "a": 3,
+   "src": "Probabilidade do complementar: P(pelo menos um) = 1 − P(nenhum)",
+   "o": [
+    {
+     "t": "3/4",
+     "p": "calculo",
+     "w": "Somou 1/4 três vezes. Isso conta em dobro os casos com mais de um cupom e falharia com mais pedidos."
+    },
+    {
+     "t": "1/64",
+     "p": "troca",
+     "w": "É a chance de ganhar cupom nos três pedidos, (1/4)³, e não em pelo menos um."
+    },
+    {
+     "t": "27/64",
+     "p": "inversao",
+     "w": "É a chance do evento contrário, não ganhar nenhum cupom. Falta subtrair de 1."
+    },
+    {
+     "t": "37/64",
+     "p": "correta",
+     "w": "P(nenhum cupom) = (3/4)³ = 27/64. Pelo complementar, P(pelo menos um) = 1 − 27/64 = 37/64."
+    }
+   ]
+  },
+  {
+   "id": "logica37",
+   "topic": "Probabilidade condicional",
+   "c": "Uma turma de cursinho em Natal tem 40 alunos: 25 se preparam para o INSS e 15 para o Banco do Brasil, cada um para um só concurso. Já foram aprovados em outro concurso 10 alunos do grupo do INSS e 5 do grupo do Banco do Brasil.",
+   "q": "Sorteado um aluno e sabendo que ele já foi aprovado antes, qual é a probabilidade de ser do grupo do INSS?",
+   "a": 0,
+   "src": "Probabilidade condicional: P(A | B) = P(A ∩ B) ÷ P(B)",
+   "o": [
+    {
+     "t": "2/3",
+     "p": "correta",
+     "w": "A condição reduz o espaço aos 15 já aprovados (10 + 5). Desses, 10 são do INSS: 10/15 = 2/3."
+    },
+    {
+     "t": "1/4",
+     "p": "troca",
+     "w": "Calculou 10/40, a chance de ser do INSS e aprovado ao mesmo tempo. A informação dada restringe o total a 15."
+    },
+    {
+     "t": "2/5",
+     "p": "inversao",
+     "w": "Calculou 10/25, a chance de ter sido aprovado sabendo que é do INSS. A condição foi invertida."
+    },
+    {
+     "t": "3/8",
+     "p": "calculo",
+     "w": "Calculou 15/40, a chance de um aluno qualquer já ter sido aprovado, sem olhar o grupo."
+    }
+   ]
+  },
+  {
+   "id": "logica38",
+   "topic": "Variação percentual",
+   "c": "Num mercado de Cuiabá, o quilo do feijão subiu de R$ 8,00 para R$ 10,00. Meses depois, o preço voltou para R$ 8,00.",
+   "q": "De quanto foi a redução percentual na volta ao preço antigo?",
+   "a": 1,
+   "src": "Variação percentual = (valor final − valor inicial) ÷ valor inicial",
+   "o": [
+    {
+     "t": "25%",
+     "p": "inversao",
+     "w": "Usou como base o preço de R$ 8,00. Esse foi o percentual do aumento; na redução, a base é R$ 10,00."
+    },
+    {
+     "t": "20%",
+     "p": "correta",
+     "w": "A redução de R$ 2,00 é calculada sobre o preço anterior a ela, R$ 10,00: 2 ÷ 10 = 0,20 = 20%."
+    },
+    {
+     "t": "2%",
+     "p": "calculo",
+     "w": "Tomou a diferença em reais como se fosse o percentual. É preciso dividir R$ 2,00 pelo preço-base."
+    },
+    {
+     "t": "80%",
+     "p": "troca",
+     "w": "80% é quanto o novo preço representa do antigo (8 ÷ 10). A redução é o que falta para 100%."
+    }
+   ]
+  },
+  {
+   "id": "logica39",
+   "topic": "Regra de três composta",
+   "c": "Na reforma de uma escola em Palmas, 4 pedreiros, trabalhando 6 horas por dia, levantam um muro em 12 dias. A prefeitura vai usar 6 pedreiros trabalhando 8 horas por dia, no mesmo ritmo.",
+   "q": "Em quantos dias farão um muro igual?",
+   "a": 2,
+   "src": "Regra de três composta: grandezas inversamente proporcionais",
+   "o": [
+    {
+     "t": "24 dias",
+     "p": "inversao",
+     "w": "Tratou as grandezas como diretamente proporcionais. Mais gente e mais horas diárias diminuem o prazo."
+    },
+    {
+     "t": "8 dias",
+     "p": "calculo",
+     "w": "Ajustou só pelo número de pedreiros (12 × 4/6) e esqueceu o aumento da jornada diária."
+    },
+    {
+     "t": "6 dias",
+     "p": "correta",
+     "w": "Mais pedreiros e mais horas por dia reduzem os dias (grandezas inversas): 12 × (4/6) × (6/8) = 6."
+    },
+    {
+     "t": "9 dias",
+     "p": "restricao",
+     "w": "Considerou apenas a mudança de jornada (12 × 6/8), como se o número de pedreiros fosse o mesmo."
+    }
+   ]
+  },
+  {
+   "id": "logica40",
+   "topic": "Sequência de letras",
+   "c": "Numa prova de raciocínio para um processo seletivo em Joinville, apareceu a sequência A, C, F, J, O, ... Considere o alfabeto de 26 letras, com K, W e Y.",
+   "q": "Qual letra continua a sequência?",
+   "a": 3,
+   "src": "Sequências com saltos crescentes no alfabeto de 26 letras",
+   "o": [
+    {
+     "t": "T",
+     "p": "calculo",
+     "w": "Repetiu o último salto (+5). O padrão é aumentar o salto a cada passo."
+    },
+    {
+     "t": "R",
+     "p": "troca",
+     "w": "Supôs salto constante de 3, olhando só o trecho de C para F."
+    },
+    {
+     "t": "V",
+     "p": "extrapolacao",
+     "w": "Somou 7, pulando um passo do padrão. Depois do salto +5 vem o salto +6."
+    },
+    {
+     "t": "U",
+     "p": "correta",
+     "w": "Os saltos crescem de 1 em 1: A(+2)C(+3)F(+4)J(+5)O(+6). Seis posições depois de O vem U."
+    }
+   ]
+  },
+  {
+   "id": "logica41",
+   "topic": "Sequência de diferenças",
+   "c": "Num teste de seleção de estagiários de um banco em Belo Horizonte, aparece a sequência 2, 3, 5, 9, 17, ...",
+   "q": "Qual é o próximo termo?",
+   "a": 0,
+   "src": "Sequências numéricas: diferenças em progressão geométrica",
+   "o": [
+    {
+     "t": "33",
+     "p": "correta",
+     "w": "As diferenças são 1, 2, 4, 8, dobrando a cada passo. A próxima é 16: 17 + 16 = 33."
+    },
+    {
+     "t": "34",
+     "p": "calculo",
+     "w": "Dobrou o último termo. A regra que funciona para todos os termos é “dobrar e subtrair 1” (2 × 17 − 1 = 33)."
+    },
+    {
+     "t": "26",
+     "p": "troca",
+     "w": "Somou os dois termos anteriores (17 + 9), como na sequência de Fibonacci, mas isso não gera 5 nem 9."
+    },
+    {
+     "t": "25",
+     "p": "restricao",
+     "w": "Repetiu a última diferença (+8). As diferenças dobram: 1, 2, 4, 8, 16."
+    }
+   ]
+  },
+  {
+   "id": "logica42",
+   "topic": "Honestos e mentirosos",
+   "c": "Num jogo de tabuleiro em um clube de Ouro Preto, cada jogador recebe secretamente o papel de honesto (sempre diz a verdade) ou mentiroso (sempre mente). Davi afirmou: “Eu e Elisa somos mentirosos.”",
+   "q": "O que se pode concluir sobre Davi e Elisa?",
+   "a": 1,
+   "src": "Lógica de verdades e mentiras: teste de hipóteses",
+   "o": [
+    {
+     "t": "Os dois são mentirosos.",
+     "p": "calculo",
+     "w": "Aceitou a frase como verdadeira. Mas, se Davi é mentiroso, sua frase é falsa, e os dois não podem ser mentirosos."
+    },
+    {
+     "t": "Davi é mentiroso e Elisa é honesta.",
+     "p": "correta",
+     "w": "Um honesto não diria que é mentiroso, então Davi mente. Logo, é falso que ambos mentem: Elisa é honesta."
+    },
+    {
+     "t": "Davi é honesto e Elisa é mentirosa.",
+     "p": "inversao",
+     "w": "Se Davi fosse honesto, a frase seria verdadeira e ele próprio seria mentiroso: contradição."
+    },
+    {
+     "t": "Não é possível determinar sem ouvir Elisa.",
+     "p": "restricao",
+     "w": "A frase de Davi basta: só uma distribuição de papéis é consistente com ela."
+    }
+   ]
+  },
+  {
+   "id": "logica43",
+   "topic": "Associação lógica",
+   "c": "Ana, Bia e Cris foram aprovadas num concurso federal e lotadas em Recife, Natal e Belém, uma em cada cidade, com cargos diferentes: analista, técnica e auditora. Sabe-se que: Ana não está em Recife e não é auditora; quem está em Natal é auditora; Bia é técnica.",
+   "q": "Qual é a cidade e o cargo de Ana?",
+   "a": 2,
+   "src": "Associação lógica: eliminação em tabela de possibilidades",
+   "o": [
+    {
+     "t": "Natal, auditora.",
+     "p": "inversao",
+     "w": "Contraria a pista: Ana não é auditora, e quem está em Natal é auditora."
+    },
+    {
+     "t": "Belém, técnica.",
+     "p": "calculo",
+     "w": "Acertou a cidade, mas esqueceu que o cargo de técnica já pertence a Bia."
+    },
+    {
+     "t": "Belém, analista.",
+     "p": "correta",
+     "w": "Ana não é auditora, então não está em Natal; também não está em Recife, logo está em Belém. Como Bia é técnica, o cargo de Ana é analista."
+    },
+    {
+     "t": "Recife, analista.",
+     "p": "restricao",
+     "w": "Ignora a pista de que Ana não está em Recife."
+    }
+   ]
+  },
+  {
+   "id": "logica44",
+   "topic": "União de conjuntos",
+   "c": "Numa pesquisa com 200 servidores da prefeitura de Londrina, 120 disseram ir ao trabalho de ônibus, 90 de bicicleta e 30 usam os dois meios, em dias diferentes.",
+   "q": "Quantos servidores não usam nenhum desses dois meios?",
+   "a": 3,
+   "src": "Princípio da inclusão-exclusão: n(A ∪ B) = n(A) + n(B) − n(A ∩ B)",
+   "o": [
+    {
+     "t": "Nenhum, pois 120 + 90 já passa de 200.",
+     "p": "calculo",
+     "w": "Somou os grupos sem descontar os 30 que estão nos dois e foram contados duas vezes."
+    },
+    {
+     "t": "50",
+     "p": "inversao",
+     "w": "Descontou a interseção duas vezes (210 − 60 = 150). Ela foi contada em dobro, então se retira uma vez só."
+    },
+    {
+     "t": "170",
+     "p": "troca",
+     "w": "Fez 200 − 30, usando só a interseção. É preciso tirar do total todos os que usam pelo menos um meio."
+    },
+    {
+     "t": "20",
+     "p": "correta",
+     "w": "n(ônibus ∪ bicicleta) = 120 + 90 − 30 = 180. Os que não usam nenhum são 200 − 180 = 20."
+    }
+   ]
+  },
+  {
+   "id": "logica45",
+   "topic": "Venn com três conjuntos",
+   "c": "Um tribunal em Ribeirão Preto pesquisou 100 servidores: 50 estudam inglês, 40 espanhol e 30 francês; 15 estudam inglês e espanhol, 10 inglês e francês, 8 espanhol e francês, e 5 estudam as três línguas.",
+   "q": "Quantos servidores não estudam nenhuma das três línguas?",
+   "a": 0,
+   "src": "Inclusão-exclusão: n(A∪B∪C) = ΣA − Σ(A∩B) + n(A∩B∩C)",
+   "o": [
+    {
+     "t": "8",
+     "p": "correta",
+     "w": "União = 50 + 40 + 30 − 15 − 10 − 8 + 5 = 92. Ficam fora de todos os conjuntos 100 − 92 = 8."
+    },
+    {
+     "t": "13",
+     "p": "calculo",
+     "w": "Esqueceu de somar de volta os 5 da interseção tripla, que foram retirados demais ao subtrair as interseções duplas."
+    },
+    {
+     "t": "18",
+     "p": "inversao",
+     "w": "Subtraiu a interseção tripla em vez de somá-la. Na inclusão-exclusão, o termo triplo entra com sinal positivo."
+    },
+    {
+     "t": "5",
+     "p": "troca",
+     "w": "Confundiu quem não estuda nenhuma língua com quem estuda as três."
+    }
+   ]
+  },
+  {
+   "id": "logica46",
+   "topic": "Apenas um conjunto",
+   "c": "Uma pesquisa em Porto Velho perguntou sobre três serviços de streaming, A, B e C: 40 assinam A, 35 assinam B e 30 assinam C; 12 assinam A e B, 10 assinam A e C, 8 assinam B e C, e 4 assinam os três.",
+   "q": "Quantos entrevistados assinam apenas um dos três serviços?",
+   "a": 1,
+   "src": "Diagrama de Venn: regiões exclusivas de cada conjunto",
+   "o": [
+    {
+     "t": "45",
+     "p": "calculo",
+     "w": "Subtraiu as interseções duplas sem devolver os 4 do centro, que foram retirados duas vezes de cada conjunto."
+    },
+    {
+     "t": "57",
+     "p": "correta",
+     "w": "Só A: 40 − 12 − 10 + 4 = 22; só B: 35 − 12 − 8 + 4 = 19; só C: 30 − 10 − 8 + 4 = 16. Total: 57."
+    },
+    {
+     "t": "79",
+     "p": "troca",
+     "w": "É o total de quem assina pelo menos um serviço (40 + 35 + 30 − 12 − 10 − 8 + 4), não apenas um."
+    },
+    {
+     "t": "18",
+     "p": "inversao",
+     "w": "Contou quem assina exatamente dois serviços: 8 + 6 + 4. A pergunta é sobre quem assina só um."
+    }
+   ]
+  },
+  {
+   "id": "logica47",
+   "topic": "Disjunção como condicional",
+   "c": "Na véspera da eleição, um servidor do TRE em Belém resumiu a regra de identificação: “O eleitor apresenta documento oficial com foto ou não vota.”",
+   "q": "Qual frase é logicamente equivalente à do servidor?",
+   "a": 2,
+   "src": "Equivalência: p ∨ q ≡ ¬p → q",
+   "o": [
+    {
+     "t": "Se o eleitor apresenta documento oficial com foto, então vota.",
+     "p": "inversao",
+     "w": "É p → q, que não equivale à frase. Ela proíbe votar sem documento, mas não garante voto a quem apresenta."
+    },
+    {
+     "t": "O eleitor apresenta documento oficial com foto e não vota.",
+     "p": "troca",
+     "w": "Trocou a disjunção por uma conjunção, que afirma as duas partes ao mesmo tempo."
+    },
+    {
+     "t": "Se o eleitor não apresenta documento oficial com foto, então não vota.",
+     "p": "correta",
+     "w": "Com p = apresenta documento e q = vota, a frase é p ∨ ¬q, que equivale a ¬p → ¬q: nega-se a primeira parte e troca-se “ou” por “se... então”."
+    },
+    {
+     "t": "Se o eleitor não apresenta documento oficial com foto, então vota.",
+     "p": "calculo",
+     "w": "Negou a primeira parte, mas também retirou o “não” da segunda. Na regra p ∨ q ≡ ¬p → q, a segunda parte fica como está."
+    }
+   ]
+  },
+  {
+   "id": "logica48",
+   "topic": "Negação do antecedente",
+   "c": "Um banco em Recife anuncia: “Se você tiver conta-salário, então terá isenção de tarifa.” Cláudia não tem conta-salário, e o atendente concluiu: “Logo, Cláudia não terá isenção.”",
+   "q": "Como se classifica o argumento do atendente?",
+   "a": 3,
+   "src": "Falácia da negação do antecedente: p → q, ¬p ⊬ ¬q",
+   "o": [
+    {
+     "t": "Válido, por modus tollens.",
+     "p": "troca",
+     "w": "O modus tollens nega o consequente para negar o antecedente. Aqui foi negado o antecedente."
+    },
+    {
+     "t": "Válido, pois a frase garante que só quem tem conta-salário tem isenção.",
+     "p": "inversao",
+     "w": "Lê o “se... então” como “somente se”. A condicional não exclui outras formas de obter isenção."
+    },
+    {
+     "t": "Inválido, porque afirma o consequente.",
+     "p": "calculo",
+     "w": "O argumento é inválido, mas o vício é outro: ele nega o antecedente, não afirma o consequente."
+    },
+    {
+     "t": "Inválido, pois nega o antecedente: Cláudia pode ter isenção por outro motivo.",
+     "p": "correta",
+     "w": "A condicional só diz o que ocorre com quem tem conta-salário. Negar o antecedente não permite negar o consequente."
+    }
+   ]
+  },
+  {
+   "id": "logica49",
+   "type": "ce",
+   "topic": "Condicional com antecedente falso",
+   "c": "Num simulado para o TJ-SP, o professor apresentou a frase: “Se 2 + 2 = 5, então Brasília é a capital do Brasil.”",
+   "q": "A frase apresentada pelo professor é uma proposição falsa.",
+   "a": 1,
+   "src": "Tabela-verdade da condicional: F → V é verdadeira",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar Certo confunde a condicional com a conjunção, em que basta uma parte falsa para o todo ser falso."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O antecedente (2 + 2 = 5) é falso e o consequente é verdadeiro. A condicional só é falsa em V → F; F → V é verdadeira."
+    }
+   ]
+  },
+  {
+   "id": "logica50",
+   "type": "ce",
+   "topic": "Disjunção inclusiva",
+   "c": "Pedro se formou em Medicina e, anos depois, em Engenharia, ambas pela Unicamp, e exerce as duas profissões.",
+   "q": "Nessa situação, a proposição “Pedro é médico ou engenheiro” é verdadeira.",
+   "a": 0,
+   "src": "Tabela-verdade da disjunção: p ∨ q é falsa só quando p e q são falsas",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "A disjunção simples (ou) é inclusiva: é verdadeira quando pelo menos uma parte é verdadeira, inclusive quando as duas são."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar Errado confunde o “ou” com o “ou... ou”, a disjunção exclusiva, que seria falsa com as duas partes verdadeiras."
+    }
+   ]
+  },
+  {
+   "id": "logica51",
+   "type": "ce",
+   "topic": "Negação existencial",
+   "c": "Um jornal de Belo Horizonte publicou: “Existe candidato aprovado no concurso da prefeitura que não fez cursinho.”",
+   "q": "A negação lógica da frase do jornal é “Nenhum candidato aprovado no concurso da prefeitura deixou de fazer cursinho”.",
+   "a": 0,
+   "src": "Lógica de quantificadores: ¬(∃x P(x)) ≡ ∀x ¬P(x)",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Negar “existe aprovado que não fez cursinho” é dizer que não há nenhum aprovado nessa condição, ou seja, todo aprovado fez cursinho."
+    },
+    {
+     "t": "Errado",
+     "p": "calculo",
+     "w": "Julgar Errado vem de achar que a negação seria “existe aprovado que fez cursinho”, mas essa frase pode ser verdadeira junto com a original."
+    }
+   ]
+  },
+  {
+   "id": "logica52",
+   "type": "ce",
+   "topic": "Validade e verdade",
+   "c": "Num curso preparatório em Brasília, o professor mostrou um argumento válido cujas premissas são todas verdadeiras.",
+   "q": "Nesse caso, a conclusão do argumento é necessariamente verdadeira.",
+   "a": 0,
+   "src": "Argumento válido: premissas verdadeiras garantem conclusão verdadeira",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Argumento válido é aquele em que é impossível ter premissas verdadeiras e conclusão falsa. Com premissas verdadeiras, a conclusão é verdadeira."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar Errado confunde as ideias: um argumento válido pode ter conclusão falsa, mas só quando alguma premissa é falsa."
+    }
+   ]
+  },
+  {
+   "id": "logica53",
+   "type": "ce",
+   "topic": "Silogismo inválido",
+   "c": "Num treino para a Receita Federal, foi apresentado o argumento: “Todo auditor fiscal é concursado. Marcos é concursado. Logo, Marcos é auditor fiscal.”",
+   "q": "O argumento apresentado é válido.",
+   "a": 1,
+   "src": "Silogismo categórico: todo A é B e x é B não implicam x é A",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "inversao",
+     "w": "Julgar Certo lê a primeira premissa ao contrário, como se todo concursado fosse auditor fiscal."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O conjunto dos auditores está dentro do dos concursados, mas Marcos pode estar na parte dos concursados que não são auditores. A conclusão não é necessária."
+    }
+   ]
+  },
+  {
+   "id": "logica54",
+   "type": "ce",
+   "topic": "Permutação circular",
+   "c": "Cinco diretores de uma empresa de Joinville vão se sentar ao redor de uma mesa redonda. Disposições que diferem apenas por rotação são consideradas iguais.",
+   "q": "Há 120 maneiras distintas de acomodar os diretores à mesa.",
+   "a": 1,
+   "src": "Permutação circular: PCₙ = (n − 1)!",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "calculo",
+     "w": "Julgar Certo aplica 5! = 120, a permutação em fila, sem descontar as 5 rotações de cada disposição."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Na mesa redonda, giros não criam disposições novas: PC₅ = (5 − 1)! = 4! = 24 maneiras."
+    }
+   ]
+  },
+  {
+   "id": "logica55",
+   "type": "ce",
+   "topic": "Números sem repetição",
+   "c": "Uma escola de Londrina vai numerar armários com códigos de três algarismos distintos, usando apenas os algarismos 1, 2, 3, 4 e 5.",
+   "q": "Podem ser formados 60 códigos diferentes.",
+   "a": 0,
+   "src": "Princípio multiplicativo: 5 × 4 × 3",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Há 5 opções para o primeiro algarismo, 4 para o segundo e 3 para o terceiro: 5 × 4 × 3 = 60."
+    },
+    {
+     "t": "Errado",
+     "p": "calculo",
+     "w": "Julgar Errado vem de contar 5 × 5 × 5 = 125, permitindo repetições que o enunciado proíbe."
+    }
+   ]
+  },
+  {
+   "id": "logica56",
+   "type": "ce",
+   "topic": "Soma de dois dados",
+   "c": "Num jogo de tabuleiro em uma escola de Petrópolis, um aluno lança dois dados comuns, não viciados, e avança se a soma for 7.",
+   "q": "A probabilidade de a soma ser 7 é de 1/6.",
+   "a": 0,
+   "src": "Probabilidade clássica: 36 resultados equiprováveis em dois dados",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "São 36 pares equiprováveis, e 6 dão soma 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Logo, 6/36 = 1/6."
+    },
+    {
+     "t": "Errado",
+     "p": "calculo",
+     "w": "Julgar Errado costuma vir de contar as 11 somas possíveis (2 a 12) como igualmente prováveis e obter 1/11."
+    }
+   ]
+  },
+  {
+   "id": "logica57",
+   "type": "ce",
+   "topic": "Máquinas e tempo",
+   "c": "Numa fábrica de Caxias do Sul, 6 máquinas iguais embalam um lote de produtos em 10 horas. Duas máquinas quebraram e o mesmo lote será embalado pelas 4 restantes, no mesmo ritmo.",
+   "q": "As 4 máquinas levarão 6 horas e 40 minutos para embalar o lote.",
+   "a": 1,
+   "src": "Grandezas inversamente proporcionais: produto constante",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "inversao",
+     "w": "Julgar Certo trata as grandezas como diretas (10 × 4/6). Menos máquinas exigem mais tempo, não menos."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Máquinas e tempo são inversamente proporcionais: 6 × 10 = 4 × t, logo t = 15 horas."
+    }
+   ]
+  },
+  {
+   "id": "logica58",
+   "type": "ce",
+   "topic": "Conclusão não necessária",
+   "c": "Sobre os moradores de um condomínio em Vitória, sabe-se que: “Todo síndico é proprietário” e “Algum proprietário é advogado”.",
+   "q": "Dessas premissas conclui-se necessariamente que algum síndico é advogado.",
+   "a": 1,
+   "src": "Diagramas lógicos: “algum B é C” não garante interseção entre A e C",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "extrapolacao",
+     "w": "Julgar Certo vai além das premissas: os advogados podem estar justamente na parte dos proprietários que não são síndicos."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "É possível desenhar os síndicos dentro dos proprietários sem tocar nos advogados. Como existe esse cenário, a conclusão não é necessária."
+    }
+   ]
+  },
+  {
+   "id": "logica59",
+   "type": "ce",
+   "topic": "Desconto e aumento",
+   "c": "Uma loja de Feira de Santana deu 20% de desconto numa geladeira e, um mês depois, aumentou o novo preço em 20%.",
+   "q": "Após as duas mudanças, a geladeira voltou ao preço original.",
+   "a": 1,
+   "src": "Porcentagens sucessivas: fatores multiplicativos (0,8 × 1,2 = 0,96)",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "calculo",
+     "w": "Julgar Certo supõe que −20% e +20% se anulam, mas as duas taxas incidem sobre bases diferentes."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O preço final é 0,8 × 1,2 = 0,96 do original: a geladeira ficou 4% mais barata do que antes."
+    }
+   ]
+  },
+  {
+   "id": "logica60",
+   "type": "ce",
+   "topic": "Sequência de quadrados",
+   "c": "Na prova de um processo seletivo em Campina Grande, apareceu a sequência 1, 4, 9, 16, 25, ...",
+   "q": "Mantido o padrão, o 10º termo da sequência é 100.",
+   "a": 0,
+   "src": "Sequências numéricas: termo geral aₙ = n²",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Cada termo é o quadrado da sua posição (aₙ = n²), então o 10º termo é 10² = 100."
+    },
+    {
+     "t": "Errado",
+     "p": "calculo",
+     "w": "Julgar Errado costuma vir de erro na contagem das posições, como tomar 9² = 81 pelo 10º termo. As diferenças ímpares (3, 5, 7, ...) confirmam que aₙ = n²."
+    }
+   ]
+  }
+ ]
+}

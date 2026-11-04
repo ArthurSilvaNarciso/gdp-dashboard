@@ -1,0 +1,1343 @@
+{
+  "id": "dadm",
+  "questions": [
+    {
+      "id": "dadm11",
+      "topic": "Princípio da eficiência",
+      "c": "Em uma aula de cursinho em Brasília, o professor conta que um dos princípios hoje listados no caput do art. 37 da CF não estava no texto promulgado em 1988 e só entrou com a reforma administrativa de 1998.",
+      "q": "Que princípio é esse?",
+      "a": 1,
+      "src": "CF/88, art. 37, caput (redação da EC 19/1998)",
+      "o": [
+        {
+          "t": "Publicidade, incluída para garantir a transparência dos atos oficiais.",
+          "p": "troca",
+          "w": "A publicidade consta do caput desde o texto original de 1988. O princípio acrescentado em 1998 foi a eficiência."
+        },
+        {
+          "t": "Eficiência, acrescentada ao caput do art. 37 pela Emenda Constitucional 19/1998.",
+          "p": "correta",
+          "w": "O texto original listava legalidade, impessoalidade, moralidade e publicidade. A EC 19/1998 incluiu a eficiência, completando o LIMPE."
+        },
+        {
+          "t": "Moralidade, que só passou a obrigar a Administração depois da Lei de Improbidade, de 1992.",
+          "p": "inversao",
+          "w": "A ordem é a inversa: a moralidade já estava no caput em 1988, e a Lei 8.429/92 veio depois para punir atos de improbidade."
+        },
+        {
+          "t": "Nenhum: todos os princípios do caput estão no texto desde a promulgação e nunca foram alterados.",
+          "p": "generalizacao",
+          "w": "O caput do art. 37 foi alterado pela EC 19/1998 justamente para incluir a eficiência."
+        }
+      ]
+    },
+    {
+      "id": "dadm12",
+      "topic": "Criação de autarquia",
+      "c": "O governador de um estado do Nordeste quer criar uma autarquia para administrar os parques estaduais e pretende fazer isso por decreto, para não depender da Assembleia Legislativa.",
+      "q": "Assinale a alternativa correta.",
+      "a": 2,
+      "src": "CF/88, art. 37, XIX; Decreto-Lei 200/67, art. 5º, I",
+      "o": [
+        {
+          "t": "É possível, pois criar entidades da administração indireta é ato privativo do chefe do Poder Executivo.",
+          "p": "troca",
+          "w": "Confunde iniciativa de lei com criação da entidade. O chefe do Executivo pode propor o projeto, mas a autarquia só nasce por lei específica."
+        },
+        {
+          "t": "É possível, desde que o decreto seja depois referendado pela Assembleia Legislativa.",
+          "p": "extrapolacao",
+          "w": "Não existe criação de autarquia por decreto sujeita a referendo posterior. A CF exige lei específica antes da criação."
+        },
+        {
+          "t": "Não é possível, pois autarquia só pode ser criada por lei específica.",
+          "p": "correta",
+          "w": "CF, art. 37, XIX: somente por lei específica poderá ser criada autarquia. Para empresa pública, sociedade de economia mista e fundação, a lei apenas autoriza a instituição."
+        },
+        {
+          "t": "Não é possível, pois a CF reserva à União a criação de autarquias.",
+          "p": "restricao",
+          "w": "Não há essa reserva. União, estados, DF e municípios podem criar autarquias, sempre por lei específica do respectivo ente."
+        }
+      ]
+    },
+    {
+      "id": "dadm13",
+      "topic": "Empresa pública e SEM",
+      "c": "A União vai instituir duas estatais federais. A primeira terá capital 100% da União e será organizada como sociedade limitada. A segunda terá acionistas privados, mas a União ficará com a maioria das ações com direito a voto.",
+      "q": "Como essas entidades se classificam, segundo o Decreto-Lei 200/67?",
+      "a": 3,
+      "src": "Decreto-Lei 200/67, art. 5º, II e III",
+      "o": [
+        {
+          "t": "Ambas são sociedades de economia mista, pois as duas têm capital público e exploram atividade econômica.",
+          "p": "generalizacao",
+          "w": "Ter capital público não basta. A sociedade de economia mista tem sócios privados; capital exclusivamente público caracteriza empresa pública."
+        },
+        {
+          "t": "A primeira é autarquia, por ter capital totalmente público; a segunda é empresa pública.",
+          "p": "troca",
+          "w": "Autarquia é pessoa jurídica de direito público criada por lei, não sociedade. E a presença de acionistas privados afasta a empresa pública."
+        },
+        {
+          "t": "A primeira é empresa pública, mas só poderia ser sociedade anônima; a segunda é sociedade de economia mista.",
+          "p": "restricao",
+          "w": "A empresa pública pode revestir-se de qualquer das formas admitidas em direito (art. 5º, II). Quem deve ser S.A. é a sociedade de economia mista."
+        },
+        {
+          "t": "A primeira é empresa pública, que admite qualquer forma societária; a segunda é sociedade de economia mista, que deve ser S.A.",
+          "p": "correta",
+          "w": "Art. 5º, II e III, do DL 200/67: a empresa pública tem capital exclusivo do ente e qualquer forma jurídica; a SEM é S.A. com a maioria das ações com voto do ente público."
+        }
+      ]
+    },
+    {
+      "id": "dadm14",
+      "type": "ce",
+      "topic": "Administração direta e indireta",
+      "src": "Decreto-Lei 200/67, art. 4º, I e II",
+      "c": "Estudando para um concurso em Porto Alegre, Henrique anotou que o Ministério da Saúde faz parte da administração indireta da União, porque tem orçamento próprio e uma estrutura enorme.",
+      "q": "Pelo Decreto-Lei 200/67, os ministérios integram a administração indireta, ao lado das autarquias, empresas públicas, sociedades de economia mista e fundações públicas.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo confunde órgão com entidade. Ministério é órgão sem personalidade jurídica própria e integra a administração direta."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "DL 200/67, art. 4º: a administração direta reúne os serviços integrados na estrutura da Presidência da República e dos Ministérios; a indireta é formada por entidades com personalidade jurídica própria."
+        }
+      ]
+    },
+    {
+      "id": "dadm15",
+      "topic": "Delegação de competência",
+      "c": "O secretário-executivo de um ministério, sobrecarregado, quer delegar a um coordenador-geral de sua equipe a competência para decidir os recursos administrativos interpostos contra decisões da própria secretaria.",
+      "q": "Pela Lei 9.784/99, essa delegação é válida?",
+      "a": 0,
+      "src": "Lei 9.784/99, arts. 12, 13 e 14, §2º",
+      "o": [
+        {
+          "t": "Não, pois a decisão de recursos administrativos não pode ser objeto de delegação.",
+          "p": "correta",
+          "w": "Art. 13: não podem ser delegados a edição de atos de caráter normativo, a decisão de recursos administrativos e as matérias de competência exclusiva."
+        },
+        {
+          "t": "Sim, pois toda competência administrativa pode ser delegada, desde que a um subordinado.",
+          "p": "generalizacao",
+          "w": "Há matérias indelegáveis (art. 13). Além disso, a delegação nem exige subordinação hierárquica (art. 12)."
+        },
+        {
+          "t": "Sim, desde que a delegação seja feita por prazo indeterminado e de forma irrevogável.",
+          "p": "inversao",
+          "w": "A lei diz o contrário: o ato de delegação é revogável a qualquer tempo pela autoridade delegante (art. 14, §2º). E a decisão de recurso continua indelegável."
+        },
+        {
+          "t": "Não, porque a Lei 9.784/99 proíbe qualquer delegação de competência dentro dos ministérios.",
+          "p": "extrapolacao",
+          "w": "A lei não proíbe a delegação em geral; ela a admite expressamente (art. 12), salvo nas hipóteses do art. 13."
+        }
+      ]
+    },
+    {
+      "id": "dadm16",
+      "type": "ce",
+      "topic": "Avocação de competência",
+      "src": "Lei 9.784/99, art. 15",
+      "c": "O superintendente regional de uma autarquia federal em Belo Horizonte decidiu, por simples preferência pessoal, assumir de forma permanente a competência para decidir pedidos que a lei atribui a uma divisão subordinada.",
+      "q": "Segundo a Lei 9.784/99, a avocação de competência de órgão inferior pode ser feita por simples conveniência da autoridade superior e em caráter permanente.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo trata a avocação como poder livre e ilimitado do superior hierárquico. A lei a cerca de requisitos."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 15: a avocação é permitida em caráter excepcional, por motivos relevantes devidamente justificados, e é sempre temporária."
+        }
+      ]
+    },
+    {
+      "id": "dadm17",
+      "topic": "Poder disciplinar",
+      "c": "Após processo disciplinar, a reitoria de uma universidade federal no Pará aplicou suspensão de 15 dias a um técnico administrativo que, já advertido antes, voltou a retirar processos da repartição sem autorização.",
+      "q": "Qual poder administrativo a universidade exerceu?",
+      "a": 2,
+      "src": "Lei 8.112/90, arts. 117, II, 127, II, e 130",
+      "o": [
+        {
+          "t": "Poder de polícia, porque a sanção limitou a liberdade do servidor em favor do interesse público.",
+          "p": "troca",
+          "w": "O poder de polícia recai sobre os particulares em geral. Punir quem tem vínculo especial com a Administração, como o servidor, é poder disciplinar."
+        },
+        {
+          "t": "Poder regulamentar, pois a punição decorreu de norma interna da universidade.",
+          "p": "extrapolacao",
+          "w": "Poder regulamentar é editar normas para a fiel execução das leis. Aplicar pena a um servidor é ato de punição, não de normatização."
+        },
+        {
+          "t": "Poder disciplinar, que permite apurar infrações e punir servidores e demais pessoas sujeitas à disciplina administrativa.",
+          "p": "correta",
+          "w": "A suspensão é penalidade disciplinar (art. 127, II), aplicada no caso de reincidência em falta punida com advertência (art. 130)."
+        },
+        {
+          "t": "Poder hierárquico, que permite ao superior punir subordinados já advertidos sem necessidade de processo.",
+          "p": "generalizacao",
+          "w": "O poder hierárquico fundamenta ordens e fiscalização, mas a punição é disciplinar e exige apuração com contraditório e ampla defesa (CF, art. 5º, LV)."
+        }
+      ]
+    },
+    {
+      "id": "dadm18",
+      "topic": "Decreto autônomo",
+      "c": "O Presidente da República editou decreto que extingue 200 cargos efetivos vagos de um ministério e reorganiza internamente suas coordenações, sem aumentar despesas nem criar ou extinguir órgãos públicos.",
+      "q": "Esse decreto é compatível com a Constituição?",
+      "a": 1,
+      "src": "CF/88, art. 84, VI, a e b, e parágrafo único",
+      "o": [
+        {
+          "t": "Não, porque extinguir cargos públicos sempre exige lei aprovada pelo Congresso Nacional.",
+          "p": "generalizacao",
+          "w": "A regra tem exceção: cargos e funções vagos podem ser extintos por decreto do Presidente (art. 84, VI, b)."
+        },
+        {
+          "t": "Sim, pois a CF permite decreto para organizar a administração federal sem aumento de despesa e para extinguir cargos vagos.",
+          "p": "correta",
+          "w": "Art. 84, VI: decreto sobre organização e funcionamento da administração federal, sem aumento de despesa nem criação ou extinção de órgãos (a), e extinção de funções ou cargos vagos (b)."
+        },
+        {
+          "t": "Sim, e o mesmo decreto poderia extinguir também cargos ocupados, pondo os servidores em disponibilidade.",
+          "p": "extrapolacao",
+          "w": "O art. 84, VI, b, só alcança cargos vagos. Extinguir cargo ocupado depende de lei (art. 48, X)."
+        },
+        {
+          "t": "Sim, desde que o Presidente delegue a edição do decreto a um Ministro de Estado, como a CF exige.",
+          "p": "restricao",
+          "w": "A delegação aos Ministros, ao PGR ou ao AGU é uma faculdade do Presidente (art. 84, parágrafo único), não uma exigência."
+        }
+      ]
+    },
+    {
+      "id": "dadm19",
+      "type": "ce",
+      "topic": "Sustação de regulamento",
+      "src": "CF/88, art. 49, V",
+      "c": "Um decreto regulamentar federal criou para as empresas de transporte uma obrigação que não está prevista na lei que ele deveria apenas regulamentar. Deputados querem reagir no próprio Legislativo.",
+      "q": "Compete exclusivamente ao Congresso Nacional sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "CF, art. 49, V: é da competência exclusiva do Congresso Nacional sustar os atos normativos do Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado supõe que esse controle caberia ao TCU ou apenas ao Judiciário. A CF dá ao Congresso o poder de sustar, sem prejuízo do controle judicial."
+        }
+      ]
+    },
+    {
+      "id": "dadm20",
+      "topic": "Taxa de polícia",
+      "c": "A prefeitura de Campinas cobra todo ano uma taxa de licença de localização e funcionamento dos estabelecimentos comerciais, que são vistoriados pelos fiscais municipais.",
+      "q": "Qual é o fundamento dessa cobrança no Código Tributário Nacional?",
+      "a": 3,
+      "src": "CTN (Lei 5.172/66), arts. 77 e 78",
+      "o": [
+        {
+          "t": "A prestação de serviço público específico e divisível, única hipótese em que o CTN admite taxa.",
+          "p": "restricao",
+          "w": "O art. 77 do CTN prevê dois fatos geradores de taxa: o exercício regular do poder de polícia e a utilização de serviço público específico e divisível."
+        },
+        {
+          "t": "O poder disciplinar do município sobre os comerciantes licenciados.",
+          "p": "troca",
+          "w": "Comerciantes não têm vínculo especial com a Administração. A fiscalização de atividades particulares é manifestação do poder de polícia."
+        },
+        {
+          "t": "O faturamento do estabelecimento, pois a taxa incide sobre a riqueza do contribuinte.",
+          "p": "inversao",
+          "w": "Inverte o foco: a taxa tem como fato gerador uma atuação do Estado. Tributar a riqueza do contribuinte, sem atuação estatal específica, é característica do imposto (CTN, art. 16)."
+        },
+        {
+          "t": "O exercício regular do poder de polícia, que o CTN prevê como fato gerador de taxa.",
+          "p": "correta",
+          "w": "CTN, art. 77: as taxas têm como fato gerador o exercício regular do poder de polícia ou a utilização de serviço público específico e divisível. O art. 78 define o poder de polícia."
+        }
+      ]
+    },
+    {
+      "id": "dadm21",
+      "type": "ce",
+      "topic": "Polícia regular",
+      "src": "CTN (Lei 5.172/66), art. 78, parágrafo único",
+      "c": "Um servidor da secretaria de obras de um município catarinense, sem competência legal para fiscalizar, interditou a reforma de uma loja sem instaurar nenhum procedimento nem notificar o proprietário.",
+      "q": "Pelo CTN, considera-se regular o exercício do poder de polícia quando desempenhado pelo órgão competente nos limites da lei aplicável, com observância do processo legal e, se a atividade for discricionária, sem abuso ou desvio de poder.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "É o texto do art. 78, parágrafo único, do CTN. No caso, faltaram competência e processo legal, de modo que o exercício foi irregular."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que bastaria a atuação de algum agente público. O CTN exige órgão competente, limites da lei, processo legal e, na discricionariedade, ausência de abuso ou desvio."
+        }
+      ]
+    },
+    {
+      "id": "dadm22",
+      "topic": "Vício de competência",
+      "c": "Um chefe de seção da prefeitura de Goiânia, sem qualquer delegação, assinou a cassação de um alvará que a lei municipal atribui exclusivamente ao secretário de Desenvolvimento Urbano.",
+      "q": "Qual elemento do ato administrativo está viciado?",
+      "a": 0,
+      "src": "Lei 4.717/65, art. 2º, a, e parágrafo único, a",
+      "o": [
+        {
+          "t": "A competência, pois o ato não se inclui nas atribuições legais do agente que o praticou.",
+          "p": "correta",
+          "w": "Lei 4.717/65, art. 2º, parágrafo único, a: a incompetência fica caracterizada quando o ato não se incluir nas atribuições legais do agente que o praticou."
+        },
+        {
+          "t": "A finalidade, pois todo ato praticado por agente incompetente busca, necessariamente, fim diverso do legal.",
+          "p": "generalizacao",
+          "w": "Desvio de finalidade é buscar fim diverso do previsto na regra de competência. O agente incompetente pode até visar o interesse público; o vício aqui é de sujeito."
+        },
+        {
+          "t": "O motivo, porque a cassação de alvará só é válida se precedida de laudo técnico.",
+          "p": "restricao",
+          "w": "O caso não indica falta de fundamento de fato ou de direito, e a lei citada não faz essa exigência. O problema é quem assinou o ato."
+        },
+        {
+          "t": "O objeto, porque o conteúdo do ato, a cassação de alvará, é proibido por lei.",
+          "p": "troca",
+          "w": "Cassar alvará é conteúdo lícito quando praticado por quem tem competência. Vício de objeto ocorre quando o resultado do ato importa violação de lei (art. 2º, parágrafo único, c)."
+        }
+      ]
+    },
+    {
+      "id": "dadm23",
+      "topic": "Desvio de finalidade",
+      "c": "O secretário de Saúde de um município baiano removeu de ofício uma enfermeira para um posto a 80 km de distância logo depois que ela denunciou irregularidades na compra de medicamentos. O posto de origem tinha falta de pessoal e o de destino, não.",
+      "q": "Qual vício do ato administrativo fica caracterizado?",
+      "a": 3,
+      "src": "Lei 4.717/65, art. 2º, e, e parágrafo único, e",
+      "o": [
+        {
+          "t": "Vício de forma, pois toda remoção de ofício exige a concordância expressa do servidor.",
+          "p": "restricao",
+          "w": "A remoção de ofício, no interesse da Administração, não depende da concordância do servidor. O problema está no fim buscado pelo ato."
+        },
+        {
+          "t": "Vício de competência, porque nenhum secretário municipal pode remover servidores.",
+          "p": "extrapolacao",
+          "w": "Nada no caso indica falta de atribuição do secretário. O vício está em usar a remoção para punir."
+        },
+        {
+          "t": "Nenhum, pois a remoção é ato discricionário e, por isso, sua finalidade não pode ser controlada.",
+          "p": "generalizacao",
+          "w": "Mesmo no ato discricionário, a finalidade é a prevista em lei. Usar a remoção como punição é desvio de finalidade, controlável pela Administração e pelo Judiciário."
+        },
+        {
+          "t": "Desvio de finalidade, pois a remoção foi usada como punição, fim diverso do previsto na regra de competência.",
+          "p": "correta",
+          "w": "Lei 4.717/65, art. 2º, parágrafo único, e: há desvio quando o agente pratica o ato visando a fim diverso daquele previsto, explícita ou implicitamente, na regra de competência. Remoção não é penalidade."
+        }
+      ]
+    },
+    {
+      "id": "dadm24",
+      "type": "ce",
+      "topic": "Motivação aliunde",
+      "src": "Lei 9.784/99, art. 50, §1º",
+      "c": "Ao indeferir o pedido de uma empresa de Manaus, o superintendente de uma autarquia federal escreveu apenas: \"Indefiro, nos termos do Parecer Jurídico nº 45/2025, cujos fundamentos adoto como razão de decidir\".",
+      "q": "Pela Lei 9.784/99, a motivação pode consistir em declaração de concordância com fundamentos de pareceres anteriores, que, nesse caso, passam a integrar o ato.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 50, §1º: a motivação deve ser explícita, clara e congruente, podendo consistir em declaração de concordância com fundamentos de anteriores pareceres, informações, decisões ou propostas, que serão parte integrante do ato."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que a autoridade teria de reescrever todos os fundamentos no próprio ato. A lei não faz essa exigência e admite a remissão ao parecer."
+        }
+      ]
+    },
+    {
+      "id": "dadm25",
+      "topic": "Decadência para anular",
+      "c": "Desde março de 2019, Ana, analista de um órgão federal em Curitiba, recebe todo mês uma gratificação concedida por erro de interpretação da própria Administração, sem nenhuma participação ou má-fé dela. O erro só foi percebido em setembro de 2025, e nenhuma medida havia sido tomada antes.",
+      "q": "Pela Lei 9.784/99, a Administração ainda pode anular a concessão da gratificação?",
+      "a": 1,
+      "src": "Lei 9.784/99, art. 54, caput e §1º",
+      "o": [
+        {
+          "t": "Sim, pois atos ilegais podem ser anulados a qualquer tempo, já que a ilegalidade nunca se convalida.",
+          "p": "generalizacao",
+          "w": "A autotutela tem limite no tempo. O art. 54 fixa prazo decadencial de cinco anos para anular atos favoráveis ao destinatário de boa-fé."
+        },
+        {
+          "t": "Não, pois decaiu o direito de anular: o prazo de cinco anos conta-se do primeiro pagamento, e não houve má-fé.",
+          "p": "correta",
+          "w": "Art. 54, caput e §1º: com efeitos patrimoniais contínuos, os cinco anos contam-se da percepção do primeiro pagamento (março de 2019) e terminaram em março de 2024."
+        },
+        {
+          "t": "Sim, porque o prazo de cinco anos só começa a correr quando a Administração descobre o erro.",
+          "p": "troca",
+          "w": "O termo inicial não é a descoberta do erro, e sim a data do ato ou, com efeitos patrimoniais contínuos, a do primeiro pagamento (art. 54, §1º)."
+        },
+        {
+          "t": "Não, pois o prazo para anular atos favoráveis é de dois anos, contados da publicação do ato.",
+          "p": "calculo",
+          "w": "O prazo legal é de cinco anos, não de dois, e, havendo pagamentos contínuos, conta-se do primeiro pagamento."
+        }
+      ]
+    },
+    {
+      "id": "dadm26",
+      "type": "ce",
+      "topic": "Má-fé e decadência",
+      "src": "Lei 9.784/99, art. 54, caput",
+      "c": "Em 2017, um servidor de uma autarquia federal em Recife apresentou diploma falso de mestrado para obter um adicional de qualificação. A fraude, comprovada em sindicância, só foi descoberta em 2025.",
+      "q": "Comprovada a má-fé do servidor, não se aplica o prazo decadencial de cinco anos previsto na Lei 9.784/99 para a anulação do ato que lhe concedeu o adicional.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 54: o direito de anular atos favoráveis decai em cinco anos, salvo comprovada má-fé. Com fraude documental comprovada, o beneficiário não se protege com esse prazo."
+        },
+        {
+          "t": "Errado",
+          "p": "generalizacao",
+          "w": "Julgar errado parte da ideia de que o prazo de cinco anos valeria em qualquer caso. A própria lei ressalva a comprovada má-fé."
+        }
+      ]
+    },
+    {
+      "id": "dadm27",
+      "type": "ce",
+      "topic": "Dever de anular",
+      "src": "Lei 9.784/99, art. 53",
+      "c": "Em uma autarquia federal em Salvador, a equipe descobre que concedeu uma autorização com vício de legalidade. O chefe afirma que anular é mera faculdade, enquanto revogar atos inconvenientes seria obrigatório.",
+      "q": "Segundo a Lei 9.784/99, a Administração pode anular seus próprios atos quando eivados de vício de legalidade e deve revogá-los por motivo de conveniência ou oportunidade.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "inversao",
+          "w": "Julgar certo aceita a troca dos verbos feita no item. A lei estabelece a lógica oposta."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 53: a Administração deve anular seus próprios atos, quando eivados de vício de legalidade, e pode revogá-los por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos."
+        }
+      ]
+    },
+    {
+      "id": "dadm28",
+      "topic": "Convalidação",
+      "c": "Uma autarquia federal em Florianópolis expediu uma autorização a um pescador com um defeito de forma considerado sanável. A análise mostrou que não há lesão ao interesse público nem prejuízo a terceiros.",
+      "q": "Segundo a Lei 9.784/99, o que a Administração pode fazer?",
+      "a": 2,
+      "src": "Lei 9.784/99, arts. 53 e 55",
+      "o": [
+        {
+          "t": "Deve obrigatoriamente anular o ato, pois qualquer vício impede sua manutenção.",
+          "p": "generalizacao",
+          "w": "Nem todo vício leva à anulação. Defeitos sanáveis admitem convalidação quando não há lesão ao interesse público nem prejuízo a terceiros (art. 55)."
+        },
+        {
+          "t": "Revogar o ato, já que a revogação é o meio próprio para corrigir ilegalidades.",
+          "p": "troca",
+          "w": "Revogação retira ato válido por conveniência ou oportunidade (art. 53). Para defeitos de legalidade, os caminhos são anular ou, se sanável, convalidar."
+        },
+        {
+          "t": "Convalidar o ato, pois o defeito é sanável e não há lesão ao interesse público nem prejuízo a terceiros.",
+          "p": "correta",
+          "w": "Art. 55: atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração, se não acarretarem lesão ao interesse público nem prejuízo a terceiros."
+        },
+        {
+          "t": "Convalidar o ato, mas apenas mediante prévia autorização judicial.",
+          "p": "restricao",
+          "w": "A convalidação é feita pela própria Administração, sem necessidade de autorização do Judiciário (art. 55)."
+        }
+      ]
+    },
+    {
+      "id": "dadm29",
+      "topic": "Prazo de recurso",
+      "c": "Em 10 de março, Carlos, empresário em Belém, tomou ciência da decisão de uma superintendência federal que indeferiu seu pedido. Aplica-se a Lei 9.784/99, e não há lei específica sobre o assunto.",
+      "q": "Como deve ser interposto o recurso administrativo?",
+      "a": 0,
+      "src": "Lei 9.784/99, arts. 56, §§1º e 2º, e 59, caput e §1º",
+      "o": [
+        {
+          "t": "Em até 10 dias, dirigido à autoridade que decidiu, que, se não reconsiderar em 5 dias, o encaminhará à autoridade superior.",
+          "p": "correta",
+          "w": "Art. 59: prazo de 10 dias, contado da ciência ou divulgação oficial. Art. 56, §1º: o recurso vai a quem decidiu, que pode reconsiderar em 5 dias antes de encaminhar."
+        },
+        {
+          "t": "Em até 15 dias, dirigido diretamente à autoridade superior, sem passar por quem decidiu.",
+          "p": "calculo",
+          "w": "O prazo é de 10 dias, e não de 15. E o recurso é dirigido a quem proferiu a decisão, que pode reconsiderá-la (art. 56, §1º)."
+        },
+        {
+          "t": "Em até 10 dias, desde que Carlos deposite previamente caução em dinheiro.",
+          "p": "restricao",
+          "w": "Salvo exceção prevista em lei, a interposição de recurso administrativo independe de caução (art. 56, §2º)."
+        },
+        {
+          "t": "Em até 30 dias, mesmo prazo que a Administração tem para decidir o recurso.",
+          "p": "troca",
+          "w": "Trinta dias é o prazo para decidir o recurso, contado do recebimento dos autos (art. 59, §1º). Para interpor, o prazo é de 10 dias."
+        }
+      ]
+    },
+    {
+      "id": "dadm30",
+      "type": "ce",
+      "topic": "Instâncias recursais",
+      "src": "Lei 9.784/99, art. 57",
+      "c": "Uma empresa de engenharia de Natal teve um pedido negado por uma autarquia federal, recorreu e perdeu de novo. Ela quer saber até onde pode levar o caso na via administrativa, e não há lei específica sobre a matéria.",
+      "q": "Salvo disposição legal diversa, o recurso administrativo tramita no máximo por três instâncias administrativas.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Lei 9.784/99, art. 57: o recurso administrativo tramitará no máximo por três instâncias administrativas, salvo disposição legal diversa."
+        },
+        {
+          "t": "Errado",
+          "p": "generalizacao",
+          "w": "Julgar errado supõe que o recurso poderia subir sem limite até a autoridade máxima do órgão. A lei fixa o teto de três instâncias."
+        }
+      ]
+    },
+    {
+      "id": "dadm31",
+      "type": "ce",
+      "topic": "Recurso sem caução",
+      "src": "Lei 9.784/99, art. 56, §2º",
+      "c": "Uma portaria de uma autarquia federal passou a exigir, como condição para conhecer qualquer recurso administrativo, o depósito prévio de 10% do valor discutido, sem que nenhuma lei preveja isso.",
+      "q": "Pela Lei 9.784/99, a interposição de recurso administrativo depende, em regra, de caução, que pode ser fixada por ato da própria autoridade.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "inversao",
+          "w": "Julgar certo inverte a regra geral da lei, que é a interposição do recurso sem garantia prévia."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 56, §2º: salvo exceção prevista em lei, a interposição de recurso administrativo independe de caução. Uma portaria não pode criar essa exigência."
+        }
+      ]
+    },
+    {
+      "id": "dadm32",
+      "topic": "Revisão sem agravamento",
+      "c": "Uma empresa de Cuiabá foi multada em processo sancionador de um órgão federal regido pela Lei 9.784/99. Dois anos depois, apresentou fatos novos e pediu revisão. Ao reexaminar o caso, o órgão concluiu que a infração foi mais grave e cogitou aumentar a multa.",
+      "q": "Como a Lei 9.784/99 trata essa situação?",
+      "a": 3,
+      "src": "Lei 9.784/99, arts. 64, parágrafo único, e 65",
+      "o": [
+        {
+          "t": "A revisão só seria possível em 10 dias contados da decisão, como ocorre com o recurso.",
+          "p": "restricao",
+          "w": "A revisão pode ocorrer a qualquer tempo, a pedido ou de ofício, quando surgirem fatos novos ou circunstâncias relevantes (art. 65)."
+        },
+        {
+          "t": "A multa pode ser aumentada, desde que a empresa seja intimada para se manifestar antes da decisão.",
+          "p": "troca",
+          "w": "Essa cientificação prévia vale para o recurso, em que o agravamento é possível (art. 64, parágrafo único). Na revisão, o agravamento é proibido."
+        },
+        {
+          "t": "A revisão permite rediscutir o caso livremente, inclusive para agravar a sanção, sem limites.",
+          "p": "generalizacao",
+          "w": "A revisão tem limite expresso: dela não poderá resultar agravamento da sanção (art. 65, parágrafo único)."
+        },
+        {
+          "t": "A revisão cabe a qualquer tempo diante de fatos novos, mas dela não pode resultar agravamento da sanção.",
+          "p": "correta",
+          "w": "Art. 65 e parágrafo único: processos de que resultem sanções podem ser revistos a qualquer tempo, a pedido ou de ofício, e da revisão não poderá resultar agravamento da sanção."
+        }
+      ]
+    },
+    {
+      "id": "dadm33",
+      "topic": "Impedimento",
+      "c": "Rafael, servidor de uma agência federal em Brasília, foi designado para instruir um processo administrativo de interesse de uma empresa contra a qual ele move uma ação judicial de indenização.",
+      "q": "Segundo a Lei 9.784/99, qual é a situação de Rafael?",
+      "a": 1,
+      "src": "Lei 9.784/99, arts. 18, III, e 19",
+      "o": [
+        {
+          "t": "Suspeição, que ele pode alegar ou não, a seu critério, sem nenhuma consequência.",
+          "p": "troca",
+          "w": "Litigar judicialmente com o interessado é causa de impedimento (art. 18, III), não de suspeição, e comunicar o fato é dever do servidor."
+        },
+        {
+          "t": "Impedimento, e ele deve comunicar o fato à autoridade competente, abstendo-se de atuar.",
+          "p": "correta",
+          "w": "Art. 18, III: é impedido quem esteja litigando judicial ou administrativamente com o interessado. Art. 19: deve comunicar o fato e abster-se de atuar; a omissão é falta grave para efeitos disciplinares."
+        },
+        {
+          "t": "Nenhuma, pois o impedimento só existe quando o servidor é parente do interessado.",
+          "p": "restricao",
+          "w": "O art. 18 prevê outras hipóteses além do parentesco, como o interesse na matéria e o litígio com o interessado."
+        },
+        {
+          "t": "Impedimento, e, se ele não o comunicar, todo o processo será automaticamente extinto.",
+          "p": "extrapolacao",
+          "w": "A lei não prevê extinção automática do processo. A omissão do dever de comunicar constitui falta grave, para efeitos disciplinares (art. 19, parágrafo único)."
+        }
+      ]
+    },
+    {
+      "id": "dadm34",
+      "type": "ce",
+      "topic": "Suspeição",
+      "src": "Lei 9.784/99, arts. 18 e 20",
+      "c": "Patrícia, servidora de um órgão federal em Fortaleza, deve decidir um pedido apresentado por Lúcia, sua amiga íntima desde a faculdade.",
+      "q": "Pela Lei 9.784/99, a amizade íntima com o interessado é causa de impedimento do servidor.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo confunde as duas figuras. Amizade íntima ou inimizade notória geram suspeição, e não impedimento."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 20: pode ser arguida a suspeição de autoridade ou servidor que tenha amizade íntima ou inimizade notória com algum dos interessados. As causas de impedimento estão no art. 18."
+        }
+      ]
+    },
+    {
+      "id": "dadm35",
+      "topic": "Reversão",
+      "c": "Jorge, técnico de um órgão federal em Porto Alegre, foi aposentado por invalidez em 2022. Em 2025, uma junta médica oficial declarou insubsistentes os motivos que levaram à aposentadoria.",
+      "q": "Qual forma de provimento permite o retorno de Jorge à atividade?",
+      "a": 2,
+      "src": "Lei 8.112/90, arts. 8º e 25, I",
+      "o": [
+        {
+          "t": "Reintegração, nome dado a todo retorno ao serviço público depois de um afastamento.",
+          "p": "generalizacao",
+          "w": "Reintegração é específica: reinvestidura do servidor estável quando invalidada sua demissão (art. 28). Retorno de aposentado tem outro nome."
+        },
+        {
+          "t": "Aproveitamento, que é o retorno do aposentado quando cessa a incapacidade.",
+          "p": "troca",
+          "w": "Aproveitamento é o retorno do servidor posto em disponibilidade (art. 30), e não do aposentado."
+        },
+        {
+          "t": "Reversão, retorno à atividade do aposentado por invalidez quando junta médica oficial declara insubsistentes os motivos.",
+          "p": "correta",
+          "w": "Art. 25, I, da Lei 8.112/90. A reversão está entre as formas de provimento do art. 8º."
+        },
+        {
+          "t": "Reversão, mas somente se Jorge apresentar requerimento escrito pedindo o retorno.",
+          "p": "restricao",
+          "w": "Na hipótese do inciso I, a reversão decorre da declaração da junta médica oficial e não depende de pedido do servidor."
+        }
+      ]
+    },
+    {
+      "id": "dadm36",
+      "topic": "Reintegração",
+      "c": "Sandra, servidora estável do INSS em Belo Horizonte, foi demitida após processo disciplinar. Três anos depois, a Justiça Federal anulou a demissão por cerceamento de defesa, em decisão definitiva.",
+      "q": "Qual é a consequência prevista na Lei 8.112/90?",
+      "a": 0,
+      "src": "Lei 8.112/90, art. 28",
+      "o": [
+        {
+          "t": "Reintegração no cargo anteriormente ocupado, com ressarcimento de todas as vantagens.",
+          "p": "correta",
+          "w": "Art. 28: reintegração é a reinvestidura do servidor estável no cargo anteriormente ocupado, quando invalidada sua demissão por decisão administrativa ou judicial, com ressarcimento de todas as vantagens."
+        },
+        {
+          "t": "Reintegração, mas sem direito a nenhum valor referente ao período em que ficou afastada.",
+          "p": "restricao",
+          "w": "A lei garante o ressarcimento de todas as vantagens do período (art. 28)."
+        },
+        {
+          "t": "Recondução, já que ela volta ao cargo de origem.",
+          "p": "troca",
+          "w": "Recondução é o retorno ao cargo anterior por inabilitação em estágio probatório de outro cargo ou por reintegração do anterior ocupante (art. 29)."
+        },
+        {
+          "t": "Nova nomeação, pois a demissão rompe o vínculo de forma definitiva, ainda que depois anulada.",
+          "p": "generalizacao",
+          "w": "Anulada a demissão, desaparece o fundamento do desligamento. A lei prevê a reintegração, e não nova nomeação."
+        }
+      ]
+    },
+    {
+      "id": "dadm37",
+      "type": "ce",
+      "topic": "Recondução",
+      "src": "Lei 8.112/90, arts. 20, §2º, e 29, I",
+      "c": "Tiago, servidor federal estável no cargo de técnico em Goiânia, tomou posse em outro cargo federal inacumulável, de analista, e foi considerado inabilitado no estágio probatório desse novo cargo.",
+      "q": "Nesse caso, a Lei 8.112/90 prevê a recondução de Tiago ao cargo de técnico anteriormente ocupado.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 29, I: recondução é o retorno do servidor estável ao cargo anteriormente ocupado e decorre de inabilitação em estágio probatório relativo a outro cargo. O art. 20, §2º, confirma a regra."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado costuma vir da confusão com a exoneração, que atinge quem não tem estabilidade em cargo anterior. Para o estável, a lei garante o retorno."
+        }
+      ]
+    },
+    {
+      "id": "dadm38",
+      "topic": "Posse e exercício",
+      "c": "Fernanda foi nomeada para cargo efetivo de um tribunal federal em Recife, com publicação do ato em 2 de junho. Por descuido, ela só procurou o setor de pessoal para tomar posse 40 dias depois.",
+      "q": "Segundo a Lei 8.112/90, o que acontece?",
+      "a": 3,
+      "src": "Lei 8.112/90, arts. 13, §§1º e 6º, e 15, §§1º e 2º",
+      "o": [
+        {
+          "t": "Ela será exonerada, pois deixou de entrar em exercício no prazo legal.",
+          "p": "troca",
+          "w": "A exoneração ocorre quando o empossado não entra em exercício em 15 dias (art. 15, §2º). Sem posse no prazo, o ato de provimento fica sem efeito."
+        },
+        {
+          "t": "Ela ainda pode tomar posse, pois o prazo é de 60 dias contados da publicação.",
+          "p": "calculo",
+          "w": "O prazo de posse é de 30 dias contados da publicação do ato de provimento (art. 13, §1º)."
+        },
+        {
+          "t": "Ela será demitida, pois perder o prazo de posse é infração disciplinar.",
+          "p": "extrapolacao",
+          "w": "Demissão é penalidade aplicada a servidor (art. 132). Quem não tomou posse nem chegou a ser servidor."
+        },
+        {
+          "t": "O ato de provimento será tornado sem efeito, pois a posse deve ocorrer em até 30 dias da publicação.",
+          "p": "correta",
+          "w": "Art. 13, §1º e §6º: a posse ocorre em 30 dias contados da publicação do ato de provimento; se não ocorrer, o ato será tornado sem efeito."
+        }
+      ]
+    },
+    {
+      "id": "dadm39",
+      "topic": "Reprovação no estágio",
+      "c": "Bruno, recém-empossado em cargo efetivo de uma universidade federal em Viçosa e sem nenhum vínculo anterior com o serviço público, foi reprovado na avaliação do estágio probatório por baixa produtividade e falta de assiduidade.",
+      "q": "Qual é a consequência prevista na Lei 8.112/90?",
+      "a": 1,
+      "src": "Lei 8.112/90, art. 20, caput e §2º",
+      "o": [
+        {
+          "t": "Demissão, penalidade aplicada a quem não cumpre os deveres do cargo.",
+          "p": "troca",
+          "w": "Demissão é penalidade disciplinar (art. 132). A reprovação no estágio probatório leva à exoneração, que não é punição."
+        },
+        {
+          "t": "Exoneração, pois o servidor não aprovado no estágio probatório será exonerado ou, se estável, reconduzido.",
+          "p": "correta",
+          "w": "Art. 20, §2º. Como Bruno não tinha cargo anterior, não há para onde reconduzi-lo: ele é exonerado."
+        },
+        {
+          "t": "Recondução ao cargo anterior, garantida a todo servidor reprovado no estágio.",
+          "p": "generalizacao",
+          "w": "Recondução só cabe ao servidor estável que tinha cargo anterior (art. 29, I). Bruno não tinha outro vínculo."
+        },
+        {
+          "t": "Exoneração, mas somente se houver também falta disciplinar grave, apurada em processo disciplinar.",
+          "p": "restricao",
+          "w": "A lei não exige falta disciplinar. Basta a reprovação nos fatores do art. 20, entre eles assiduidade e produtividade."
+        }
+      ]
+    },
+    {
+      "id": "dadm40",
+      "type": "ce",
+      "topic": "Licença sem remuneração",
+      "src": "Lei 8.112/90, arts. 20, §4º, e 91",
+      "c": "Débora, servidora federal em Campo Grande, está no primeiro ano de estágio probatório e quer se afastar para cuidar de um negócio da família.",
+      "q": "A Lei 8.112/90 permite conceder a Débora licença para tratar de interesses particulares, sem remuneração, por até três anos consecutivos.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "extrapolacao",
+          "w": "Julgar certo estende a licença a quem a lei exclui. O prazo e a falta de remuneração estão corretos, mas o servidor em estágio probatório não pode obtê-la."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 91: a licença para trato de assuntos particulares, por até três anos consecutivos e sem remuneração, pode ser concedida ao ocupante de cargo efetivo desde que não esteja em estágio probatório."
+        }
+      ]
+    },
+    {
+      "id": "dadm41",
+      "topic": "Vacância",
+      "c": "No setor de pessoal de um órgão federal em São Luís, a equipe revisa os eventos do mês: uma exoneração, uma promoção, uma aposentadoria e a reintegração de um servidor demitido ilegalmente.",
+      "q": "Qual desses eventos NÃO é forma de vacância prevista no art. 33 da Lei 8.112/90?",
+      "a": 2,
+      "src": "Lei 8.112/90, arts. 8º e 33",
+      "o": [
+        {
+          "t": "A promoção, que apenas preenche o novo cargo.",
+          "p": "troca",
+          "w": "A promoção é, ao mesmo tempo, forma de provimento do novo cargo e de vacância do anterior (arts. 8º, II, e 33, III)."
+        },
+        {
+          "t": "A aposentadoria, porque o aposentado mantém vínculo com a Administração.",
+          "p": "extrapolacao",
+          "w": "A aposentadoria está expressamente listada como forma de vacância (art. 33, VII)."
+        },
+        {
+          "t": "A reintegração, que é forma de provimento, e não de vacância.",
+          "p": "correta",
+          "w": "Art. 33: vacância decorre de exoneração, demissão, promoção, readaptação, aposentadoria, posse em outro cargo inacumulável e falecimento. A reintegração é forma de provimento (art. 8º)."
+        },
+        {
+          "t": "A exoneração, pois só a demissão gera vacância do cargo.",
+          "p": "restricao",
+          "w": "A exoneração é a primeira hipótese de vacância do art. 33 (inciso I), ao lado da demissão."
+        }
+      ]
+    },
+    {
+      "id": "dadm42",
+      "topic": "Licença para capacitação",
+      "c": "Helena é servidora efetiva de uma agência reguladora em Brasília há cinco anos e quer fazer um curso de capacitação profissional de dois meses, ligado às suas atribuições.",
+      "q": "O que prevê a Lei 8.112/90 sobre a licença para capacitação?",
+      "a": 0,
+      "src": "Lei 8.112/90, art. 87",
+      "o": [
+        {
+          "t": "Após cada quinquênio de efetivo exercício, o servidor pode, no interesse da Administração, afastar-se com remuneração por até três meses.",
+          "p": "correta",
+          "w": "Art. 87: após cada quinquênio de efetivo exercício, o servidor poderá, no interesse da Administração, afastar-se do cargo efetivo, com a respectiva remuneração, por até três meses, para curso de capacitação."
+        },
+        {
+          "t": "A licença é de até seis meses e, se não for usada, acumula com a do quinquênio seguinte.",
+          "p": "extrapolacao",
+          "w": "O limite é de três meses por quinquênio, e os períodos não são acumuláveis (art. 87, parágrafo único)."
+        },
+        {
+          "t": "A licença é direito do servidor, que pode usá-la quando quiser, independentemente do interesse da Administração.",
+          "p": "generalizacao",
+          "w": "A lei condiciona o afastamento ao interesse da Administração (art. 87, caput)."
+        },
+        {
+          "t": "A licença é concedida sem remuneração, por atender a interesse do próprio servidor.",
+          "p": "troca",
+          "w": "Confunde com a licença para tratar de interesses particulares (art. 91). A licença para capacitação é remunerada."
+        }
+      ]
+    },
+    {
+      "id": "dadm43",
+      "topic": "Suspensão disciplinar",
+      "c": "Após processo disciplinar, um órgão federal em Aracaju decidiu aplicar suspensão a um servidor reincidente em faltas punidas com advertência. A autoridade cogita fixar a suspensão em 120 dias.",
+      "q": "Assinale a alternativa correta segundo a Lei 8.112/90.",
+      "a": 3,
+      "src": "Lei 8.112/90, art. 130, caput e §2º",
+      "o": [
+        {
+          "t": "A suspensão de 120 dias é válida, pois a lei não fixa limite para essa penalidade.",
+          "p": "generalizacao",
+          "w": "A suspensão não pode exceder 90 dias (art. 130, caput)."
+        },
+        {
+          "t": "A suspensão só pode ser convertida em multa se o servidor concordar com a conversão.",
+          "p": "restricao",
+          "w": "A conversão depende da conveniência para o serviço, avaliada pela Administração, e não da concordância do servidor (art. 130, §2º)."
+        },
+        {
+          "t": "Por ser reincidente, o servidor deve ser demitido, pois a reincidência sempre gera demissão.",
+          "p": "extrapolacao",
+          "w": "A reincidência em faltas punidas com advertência leva à suspensão (art. 130), e não automaticamente à demissão."
+        },
+        {
+          "t": "A suspensão não pode passar de 90 dias e, por conveniência do serviço, pode virar multa de 50% por dia, com o servidor em serviço.",
+          "p": "correta",
+          "w": "Art. 130, caput e §2º: suspensão de até 90 dias, que pode ser convertida em multa de 50% por dia de vencimento ou remuneração, ficando o servidor obrigado a permanecer em serviço."
+        }
+      ]
+    },
+    {
+      "id": "dadm44",
+      "topic": "Prescrição disciplinar",
+      "c": "Em fevereiro de 2023, a chefia de um órgão federal em Vitória tomou conhecimento de uma falta punível com suspensão, cometida por um servidor. Nada foi feito até abril de 2025, quando se cogitou instaurar processo disciplinar.",
+      "q": "Pela Lei 8.112/90, a ação disciplinar ainda é possível?",
+      "a": 1,
+      "src": "Lei 8.112/90, art. 142, I a III, §§1º e 3º",
+      "o": [
+        {
+          "t": "Sim, pois a ação disciplinar prescreve em cinco anos para qualquer penalidade.",
+          "p": "generalizacao",
+          "w": "Cinco anos é o prazo para demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão. Para suspensão, o prazo é de dois anos (art. 142, II)."
+        },
+        {
+          "t": "Não, pois prescreveu: para suspensão, o prazo é de dois anos, contados da data em que o fato se tornou conhecido.",
+          "p": "correta",
+          "w": "Art. 142, II e §1º: o prazo correu de fevereiro de 2023 a fevereiro de 2025, sem sindicância ou PAD que o interrompesse (§3º)."
+        },
+        {
+          "t": "Sim, pois o prazo de dois anos só começa a correr na data da instauração do processo disciplinar.",
+          "p": "inversao",
+          "w": "A instauração do PAD interrompe a prescrição (art. 142, §3º); o prazo começa a correr da data em que o fato se tornou conhecido (§1º)."
+        },
+        {
+          "t": "Não, pois a falta punível com suspensão prescreve em 180 dias.",
+          "p": "troca",
+          "w": "Cento e oitenta dias é o prazo para a advertência (art. 142, III). Para suspensão, são dois anos."
+        }
+      ]
+    },
+    {
+      "id": "dadm45",
+      "topic": "Sanções por enriquecimento",
+      "c": "Em 2023, um fiscal de obras de uma prefeitura de Sergipe recebeu dolosamente R$ 50 mil de uma construtora para deixar de apontar irregularidades em uma obra que ela executava.",
+      "q": "Pela Lei 8.429/92, com a redação da Lei 14.230/2021, qual é o limite máximo de suspensão dos direitos políticos para esse ato?",
+      "a": 2,
+      "src": "Lei 8.429/92, arts. 9º, I, 12, I e II, e 21, I (redação da Lei 14.230/2021)",
+      "o": [
+        {
+          "t": "Até 12 anos, por se tratar de ato que causa prejuízo ao erário.",
+          "p": "troca",
+          "w": "Doze anos é o limite para o art. 10 (lesão ao erário). Receber vantagem indevida é enriquecimento ilícito (art. 9º), punido com suspensão de até 14 anos."
+        },
+        {
+          "t": "Até 14 anos, mas somente se o fiscal também tiver causado dano efetivo ao erário.",
+          "p": "restricao",
+          "w": "O enriquecimento ilícito não depende de dano ao erário. As sanções se aplicam independentemente de dano, salvo quanto ao ressarcimento e às condutas do art. 10 (art. 21, I)."
+        },
+        {
+          "t": "Até 14 anos, pois o ato importa enriquecimento ilícito.",
+          "p": "correta",
+          "w": "Arts. 9º, I, e 12, I: além da suspensão dos direitos políticos até 14 anos, cabem perda dos bens acrescidos, perda da função, multa equivalente ao acréscimo e proibição de contratar por até 14 anos."
+        },
+        {
+          "t": "Não há suspensão de direitos políticos, pois a Lei 14.230/2021 extinguiu essa sanção.",
+          "p": "extrapolacao",
+          "w": "A Lei 14.230/2021 manteve a suspensão dos direitos políticos para os atos dos arts. 9º e 10; ela não existe apenas para o art. 11."
+        }
+      ]
+    },
+    {
+      "id": "dadm46",
+      "type": "ce",
+      "topic": "Sanções do art. 11",
+      "src": "Lei 8.429/92, arts. 11, VII, e 12, III (redação da Lei 14.230/2021)",
+      "c": "Em 2024, uma servidora da secretaria da Fazenda do Rio Grande do Norte revelou dolosamente a um empresário, antes da divulgação oficial, o teor de uma medida econômica capaz de afetar o preço de mercadorias. Não houve enriquecimento nem dano ao erário comprovados.",
+      "q": "Para essa hipótese, a Lei 8.429/92 prevê multa civil de até 24 vezes o valor da remuneração do agente e proibição de contratar com o poder público por até 4 anos.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "A conduta está no art. 11, VII. O art. 12, III, com a redação da Lei 14.230/2021, prevê multa civil de até 24 vezes a remuneração e proibição de contratar ou receber benefícios por prazo não superior a 4 anos."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado costuma vir da redação antiga da lei, que previa sanções diferentes para o art. 11. A Lei 14.230/2021 fixou exatamente essas."
+        }
+      ]
+    },
+    {
+      "id": "dadm47",
+      "type": "ce",
+      "topic": "Efetivação das sanções",
+      "src": "Lei 8.429/92, art. 20, caput",
+      "c": "Um secretário municipal de Rondônia foi condenado em primeira instância por improbidade administrativa, com perda da função pública e suspensão dos direitos políticos. Ele recorreu, e o recurso ainda não foi julgado.",
+      "q": "Pela Lei 8.429/92, a perda da função pública e a suspensão dos direitos políticos só se efetivam com o trânsito em julgado da sentença condenatória.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 20, caput, da Lei 8.429/92: a perda da função pública e a suspensão dos direitos políticos só se efetivam com o trânsito em julgado da sentença condenatória."
+        },
+        {
+          "t": "Errado",
+          "p": "generalizacao",
+          "w": "Julgar errado supõe que toda sanção poderia ser executada logo após a sentença de primeiro grau. Para essas duas, a lei exige o trânsito em julgado."
+        }
+      ]
+    },
+    {
+      "id": "dadm48",
+      "topic": "Prescrição da improbidade",
+      "c": "Em junho de 2022, um servidor da prefeitura de Juiz de Fora praticou, com dolo, ato de improbidade que causou dano ao erário. O fato não é infração permanente.",
+      "q": "Pela Lei 8.429/92, com a redação da Lei 14.230/2021, em quanto tempo prescreve a ação para aplicação das sanções?",
+      "a": 0,
+      "src": "Lei 8.429/92, art. 23, caput (redação da Lei 14.230/2021); CF/88, art. 37, §5º",
+      "o": [
+        {
+          "t": "Em 8 anos, contados a partir da ocorrência do fato.",
+          "p": "correta",
+          "w": "Art. 23, caput: a ação para aplicação das sanções prescreve em 8 anos, contados da ocorrência do fato ou, nas infrações permanentes, do dia em que cessou a permanência."
+        },
+        {
+          "t": "Em 5 anos, contados do término do mandato, do cargo em comissão ou da função de confiança.",
+          "p": "troca",
+          "w": "Essa era a regra da redação original do art. 23. Após a Lei 14.230/2021, o prazo é de 8 anos, contados do fato."
+        },
+        {
+          "t": "Nunca, pois toda pretensão ligada à improbidade é imprescritível.",
+          "p": "generalizacao",
+          "w": "A ação para aplicar as sanções prescreve em 8 anos. A ressalva da CF (art. 37, §5º) alcança apenas as ações de ressarcimento."
+        },
+        {
+          "t": "Em 8 anos, contados da data em que o fato chegou ao conhecimento do Ministério Público.",
+          "p": "inversao",
+          "w": "O termo inicial é a ocorrência do fato, e não a ciência do Ministério Público (art. 23, caput)."
+        }
+      ]
+    },
+    {
+      "id": "dadm49",
+      "topic": "Diálogo competitivo",
+      "c": "Um tribunal de justiça quer contratar uma solução inovadora para integrar seus sistemas aos de outros órgãos. Nenhum produto pronto atende sem adaptação, e a equipe não consegue definir as especificações técnicas com precisão sem conversar com o mercado.",
+      "q": "Qual modalidade da Lei 14.133/2021 é a adequada?",
+      "a": 3,
+      "src": "Lei 14.133/2021, arts. 6º, XLII, 28 e 32, I",
+      "o": [
+        {
+          "t": "Tomada de preços, indicada para objetos de valor intermediário e especificação complexa.",
+          "p": "troca",
+          "w": "A tomada de preços não existe na Lei 14.133/2021, cujas modalidades são pregão, concorrência, concurso, leilão e diálogo competitivo (art. 28)."
+        },
+        {
+          "t": "Pregão, obrigatório para qualquer contratação de tecnologia da informação.",
+          "p": "generalizacao",
+          "w": "O pregão serve para bens e serviços comuns, cujos padrões podem ser objetivamente definidos no edital. Aqui as especificações nem sequer podem ser definidas."
+        },
+        {
+          "t": "Diálogo competitivo, mas apenas se o objeto for uma obra de engenharia.",
+          "p": "restricao",
+          "w": "O diálogo competitivo serve para contratação de obras, serviços e compras (art. 6º, XLII). Não há essa limitação."
+        },
+        {
+          "t": "Diálogo competitivo, cabível quando há inovação e a Administração não consegue definir as especificações com precisão suficiente.",
+          "p": "correta",
+          "w": "Art. 32, I: objeto com inovação tecnológica ou técnica, necessidade de adaptar soluções do mercado e impossibilidade de definir as especificações técnicas com precisão suficiente."
+        }
+      ]
+    },
+    {
+      "id": "dadm50",
+      "topic": "Leilão",
+      "c": "A prefeitura de Ribeirão Preto quer vender 40 veículos inservíveis da frota municipal e alguns bens móveis legalmente apreendidos.",
+      "q": "Qual modalidade e qual critério de julgamento a Lei 14.133/2021 prevê para essa venda?",
+      "a": 1,
+      "src": "Lei 14.133/2021, arts. 6º, XL, 28 e 33, VI",
+      "o": [
+        {
+          "t": "Concorrência, com critério de menor preço.",
+          "p": "inversao",
+          "w": "Na venda de bens, a Administração busca receber o maior valor, e não pagar o menor preço. A modalidade própria é o leilão (art. 6º, XL)."
+        },
+        {
+          "t": "Leilão, com critério de maior lance.",
+          "p": "correta",
+          "w": "Art. 6º, XL: leilão é a modalidade para alienação de bens imóveis ou de bens móveis inservíveis ou legalmente apreendidos a quem oferecer o maior lance (art. 33, VI)."
+        },
+        {
+          "t": "Convite, por se tratar de bens de pequeno valor.",
+          "p": "troca",
+          "w": "O convite não existe na Lei 14.133/2021 (art. 28). Era modalidade da antiga Lei 8.666/93."
+        },
+        {
+          "t": "Pregão, modalidade usada para todo bem comum, inclusive nas vendas.",
+          "p": "generalizacao",
+          "w": "O pregão destina-se à aquisição de bens e serviços comuns (art. 6º, XLI). A venda de bens inservíveis ou apreendidos é feita por leilão."
+        }
+      ]
+    },
+    {
+      "id": "dadm51",
+      "type": "ce",
+      "topic": "Pregão e obras",
+      "src": "Lei 14.133/2021, art. 29, parágrafo único",
+      "c": "Um município do Tocantins quer construir uma nova escola de ensino fundamental e pretende licitar a obra por pregão, por considerá-lo mais rápido.",
+      "q": "Pela Lei 14.133/2021, o pregão pode ser adotado para a contratação de obras de engenharia, como a construção de uma escola.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo trata o pregão como modalidade universal. A lei o exclui expressamente para obras."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 29, parágrafo único: o pregão não se aplica às contratações de serviços técnicos especializados de natureza predominantemente intelectual e de obras e serviços de engenharia, salvo os serviços comuns de engenharia."
+        }
+      ]
+    },
+    {
+      "id": "dadm52",
+      "topic": "Inexigibilidade",
+      "c": "Para a festa de aniversário da cidade, a prefeitura de Caruaru quer contratar um cantor de forró consagrado pela crítica e pelo público, por meio de seu empresário exclusivo.",
+      "q": "Como a Lei 14.133/2021 enquadra essa contratação?",
+      "a": 2,
+      "src": "Lei 14.133/2021, art. 74, II e §2º",
+      "o": [
+        {
+          "t": "Dispensa de licitação, pois a lei lista os shows artísticos entre as contratações de baixo valor.",
+          "p": "troca",
+          "w": "Dispensa (art. 75) ocorre quando a competição seria possível, mas a lei permite não licitar. Aqui a competição é inviável, o que caracteriza inexigibilidade."
+        },
+        {
+          "t": "Concurso, modalidade própria para a contratação de qualquer trabalho artístico.",
+          "p": "extrapolacao",
+          "w": "O concurso escolhe trabalho técnico, científico ou artístico mediante prêmio ou remuneração (art. 6º, XXXIX). Contratar a apresentação de artista consagrado é caso de inexigibilidade."
+        },
+        {
+          "t": "Inexigibilidade, pois há inviabilidade de competição na contratação de artista consagrado por meio de empresário exclusivo.",
+          "p": "correta",
+          "w": "Art. 74, II: é inexigível a licitação para contratar profissional do setor artístico, diretamente ou por empresário exclusivo, desde que consagrado pela crítica especializada ou pela opinião pública."
+        },
+        {
+          "t": "Inexigibilidade, válida para qualquer artista, ainda que contratado por um intermediário só para aquele evento.",
+          "p": "generalizacao",
+          "w": "A lei exige consagração pela crítica ou pela opinião pública e afasta a inexigibilidade por empresário com representação restrita a evento ou local específico (art. 74, §2º)."
+        }
+      ]
+    },
+    {
+      "id": "dadm53",
+      "topic": "Dispensa emergencial",
+      "c": "Após enchentes que destruíram pontes em um município gaúcho, com decretação de estado de calamidade pública, a prefeitura precisa contratar com urgência a reconstrução de duas pontes.",
+      "q": "Como a Lei 14.133/2021 disciplina a contratação direta nesse caso?",
+      "a": 0,
+      "src": "Lei 14.133/2021, arts. 74 e 75, VIII",
+      "o": [
+        {
+          "t": "Cabe dispensa para parcelas concluídas em até 1 ano da ocorrência, vedadas a prorrogação e a recontratação da empresa por essa hipótese.",
+          "p": "correta",
+          "w": "Art. 75, VIII: dispensa em emergência ou calamidade para bens e parcelas de obras e serviços concluídas em até 1 ano da ocorrência, vedadas a prorrogação e a recontratação de empresa já contratada com base nesse inciso."
+        },
+        {
+          "t": "Cabe inexigibilidade, pois a urgência torna a competição inviável.",
+          "p": "troca",
+          "w": "Emergência é hipótese de dispensa (art. 75, VIII). Inexigibilidade (art. 74) pressupõe inviabilidade de competição, que não decorre da mera urgência."
+        },
+        {
+          "t": "Cabe dispensa, e o contrato pode ser prorrogado livremente até a conclusão total das obras, ainda que leve anos.",
+          "p": "extrapolacao",
+          "w": "O prazo máximo é de 1 ano, contado da ocorrência da emergência ou da calamidade, e a prorrogação é vedada (art. 75, VIII)."
+        },
+        {
+          "t": "Não cabe contratação direta, pois obras de engenharia sempre exigem concorrência.",
+          "p": "generalizacao",
+          "w": "A lei admite dispensa em emergência ou calamidade pública, inclusive para parcelas de obras (art. 75, VIII)."
+        }
+      ]
+    },
+    {
+      "id": "dadm54",
+      "topic": "Maior retorno econômico",
+      "c": "Um órgão federal em Brasília quer contratar uma empresa para reduzir o consumo de energia de seus prédios, pagando a ela um percentual da economia efetivamente gerada, no modelo de contrato de eficiência.",
+      "q": "Qual critério de julgamento a Lei 14.133/2021 determina para essa licitação?",
+      "a": 3,
+      "src": "Lei 14.133/2021, arts. 6º, LIII, 33, V, e 39",
+      "o": [
+        {
+          "t": "Menor preço, critério obrigatório em todas as licitações.",
+          "p": "generalizacao",
+          "w": "O art. 33 prevê seis critérios de julgamento. O menor preço é um deles, e não regra para todos os casos."
+        },
+        {
+          "t": "Maior lance, porque a empresa remunera a Administração pela economia obtida.",
+          "p": "inversao",
+          "w": "Inverte quem paga: no contrato de eficiência, a Administração remunera a empresa com base na economia. Maior lance é o critério do leilão (art. 33, VI)."
+        },
+        {
+          "t": "Técnica e preço, único critério admitido para serviços que envolvem engenharia.",
+          "p": "restricao",
+          "w": "Técnica e preço é um dos critérios do art. 33, sem exclusividade para engenharia. Para contrato de eficiência, a lei fixa o maior retorno econômico."
+        },
+        {
+          "t": "Maior retorno econômico, utilizado exclusivamente para a celebração de contrato de eficiência.",
+          "p": "correta",
+          "w": "Art. 39: o julgamento por maior retorno econômico é utilizado exclusivamente para contrato de eficiência e considera a maior economia para a Administração."
+        }
+      ]
+    },
+    {
+      "id": "dadm55",
+      "type": "ce",
+      "topic": "Direito de regresso",
+      "src": "CF/88, art. 37, §6º",
+      "c": "Um carro oficial da Secretaria de Educação do Piauí colidiu com uma moto em Teresina. O Estado indenizou o motociclista e agora quer cobrar o valor do motorista, sem demonstrar que ele agiu com dolo ou culpa.",
+      "q": "A Constituição assegura ao Estado o direito de regresso contra o agente causador do dano, independentemente de dolo ou culpa.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo estende ao agente a responsabilidade objetiva que a CF impõe ao Estado. Perante o Estado, o agente responde apenas se agiu com dolo ou culpa."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "CF, art. 37, §6º: o Estado responde objetivamente perante a vítima, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."
+        }
+      ]
+    },
+    {
+      "id": "dadm56",
+      "topic": "Prescrição contra a Fazenda",
+      "c": "Em março de 2019, o carro de Marta foi atingido por uma árvore de uma praça municipal de Belém, que caiu por falta de manutenção. Ela só decidiu cobrar a indenização do município em agosto de 2025, sem ter feito nenhum pedido antes.",
+      "q": "Pelo Decreto 20.910/32, qual é o prazo para Marta cobrar a indenização do município?",
+      "a": 1,
+      "src": "Decreto 20.910/32, art. 1º",
+      "o": [
+        {
+          "t": "Três anos, prazo de reparação civil do Código Civil, aplicável a qualquer devedor.",
+          "p": "troca",
+          "w": "O prazo trienal do Código Civil (art. 206, §3º, V) é a regra geral. Contra a Fazenda Pública vale o prazo especial de cinco anos do Decreto 20.910/32."
+        },
+        {
+          "t": "Cinco anos, contados da data do fato, de modo que a pretensão de Marta já prescreveu.",
+          "p": "correta",
+          "w": "Decreto 20.910/32, art. 1º: as dívidas passivas dos municípios e qualquer ação contra a Fazenda prescrevem em cinco anos, contados da data do ato ou fato de que se originarem. O prazo terminou em março de 2024."
+        },
+        {
+          "t": "Dez anos, prazo geral do Código Civil, por não existir lei específica sobre a Fazenda.",
+          "p": "extrapolacao",
+          "w": "Existe lei específica: o Decreto 20.910/32 fixa cinco anos para as pretensões contra a Fazenda Pública."
+        },
+        {
+          "t": "Não há prazo, pois o dever do Estado de indenizar é imprescritível.",
+          "p": "generalizacao",
+          "w": "A pretensão de indenização contra a Fazenda prescreve, em regra, em cinco anos (Decreto 20.910/32, art. 1º)."
+        }
+      ]
+    },
+    {
+      "id": "dadm57",
+      "topic": "Contas do Presidente",
+      "c": "O Presidente da República prestou ao Congresso as contas do exercício anterior. Em entrevista, um deputado afirmou que o TCU vai julgá-las e que caberá ao Congresso apenas homologar a decisão do tribunal.",
+      "q": "Assinale a alternativa correta.",
+      "a": 2,
+      "src": "CF/88, arts. 49, IX, e 71, I e II",
+      "o": [
+        {
+          "t": "O deputado está certo: o TCU julga as contas do Presidente, e o Congresso apenas homologa a decisão.",
+          "p": "inversao",
+          "w": "É o contrário: o TCU emite parecer prévio, e o julgamento cabe ao Congresso Nacional (arts. 49, IX, e 71, I)."
+        },
+        {
+          "t": "O Senado Federal julga sozinho as contas do Presidente, sem participação do TCU.",
+          "p": "troca",
+          "w": "A competência é do Congresso Nacional, e não só do Senado, e o TCU participa com o parecer prévio."
+        },
+        {
+          "t": "O Congresso Nacional julga as contas, e o TCU as aprecia mediante parecer prévio, elaborado em 60 dias do recebimento.",
+          "p": "correta",
+          "w": "Art. 49, IX: compete exclusivamente ao Congresso julgar anualmente as contas do Presidente. Art. 71, I: o TCU as aprecia mediante parecer prévio, a ser elaborado em 60 dias a contar de seu recebimento."
+        },
+        {
+          "t": "O TCU julga as contas de todos os administradores, e as do Presidente seguem exatamente o mesmo rito.",
+          "p": "generalizacao",
+          "w": "O TCU julga as contas dos administradores (art. 71, II), mas as contas anuais do Presidente seguem regime próprio: parecer prévio do TCU e julgamento pelo Congresso."
+        }
+      ]
+    },
+    {
+      "id": "dadm58",
+      "type": "ce",
+      "topic": "Decisões do TCU",
+      "src": "CF/88, art. 71, §3º",
+      "c": "O TCU condenou o ex-gestor de um convênio federal em Alagoas a devolver R$ 300 mil e a pagar multa. O valor não foi pago no prazo, e a cobrança será feita na Justiça.",
+      "q": "As decisões do TCU de que resulte imputação de débito ou multa têm eficácia de título executivo.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "CF, art. 71, §3º: as decisões do Tribunal de que resulte imputação de débito ou multa terão eficácia de título executivo."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que seria preciso uma ação judicial de conhecimento para formar o título. A própria CF dá força executiva à decisão do TCU."
+        }
+      ]
+    },
+    {
+      "id": "dadm59",
+      "topic": "Classificação dos bens",
+      "c": "A prefeitura de Londrina tem, entre seus bens, o prédio de uma escola municipal em funcionamento, a praça central da cidade e um terreno vazio, sem nenhuma destinação pública.",
+      "q": "Como o Código Civil classifica esses bens, na ordem citada?",
+      "a": 0,
+      "src": "Código Civil, arts. 99, 100 e 101",
+      "o": [
+        {
+          "t": "Uso especial, uso comum do povo e dominical.",
+          "p": "correta",
+          "w": "Art. 99: edifícios destinados a serviço ou estabelecimento da Administração são de uso especial; praças são de uso comum do povo; bens sem destinação pública, que integram o patrimônio da pessoa jurídica de direito público, são dominicais."
+        },
+        {
+          "t": "Uso comum do povo, uso especial e dominical.",
+          "p": "inversao",
+          "w": "Inverte as duas primeiras categorias. A praça é de uso comum do povo, e o prédio da escola é de uso especial (art. 99, I e II)."
+        },
+        {
+          "t": "Uso especial, uso comum do povo e uso especial, pois todo imóvel da prefeitura serve a um fim público.",
+          "p": "generalizacao",
+          "w": "O terreno sem destinação pública é bem dominical (art. 99, III), que pode ser alienado, observadas as exigências da lei (art. 101)."
+        },
+        {
+          "t": "Dominical, uso comum do povo e dominical, pois os prédios públicos podem ser vendidos a qualquer tempo.",
+          "p": "extrapolacao",
+          "w": "Bens de uso especial são inalienáveis enquanto conservarem essa qualificação (art. 100). Só os dominicais podem ser alienados, na forma da lei (art. 101)."
+        }
+      ]
+    },
+    {
+      "id": "dadm60",
+      "type": "ce",
+      "topic": "Usucapião de bem público",
+      "src": "Código Civil, art. 102; CF/88, arts. 183, §3º, e 191, parágrafo único",
+      "c": "Uma família ocupa há mais de 20 anos, de forma mansa e pacífica, um terreno dominical do Estado do Ceará em Fortaleza e quer adquiri-lo por usucapião.",
+      "q": "Pelo Código Civil, os bens públicos, inclusive os dominicais, não estão sujeitos a usucapião.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "CC, art. 102: os bens públicos não estão sujeitos a usucapião, sem distinção de categoria. A CF repete a regra para imóveis públicos urbanos e rurais (arts. 183, §3º, e 191, parágrafo único)."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que a vedação alcançaria só os bens de uso comum e de uso especial. A lei não faz essa distinção."
+        }
+      ]
+    }
+  ]
+}

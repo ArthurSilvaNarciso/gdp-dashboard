@@ -1,0 +1,313 @@
+{
+  "id": "neuro",
+  "questions": [
+    {
+      "id": "neuro13", "topic": "Teste versus releitura",
+      "c": "Um cursinho de Campinas repetiu o desenho de um estudo clássico: o grupo A leu um texto duas vezes; o grupo B leu uma vez e depois escreveu tudo o que lembrava, sem consultar e sem receber correção. Os dois grupos fizeram um teste final 5 minutos depois e outro uma semana depois.",
+      "q": "Que padrão de resultados Roediger & Karpicke (2006) encontraram nesse tipo de comparação?", "a": 2, "src": "Roediger & Karpicke (2006), Psychological Science",
+      "o": [
+        { "t": "O grupo do teste foi melhor após 5 minutos, mas o da releitura venceu após uma semana.", "p": "inversao", "w": "Inverte o resultado. A releitura levou pequena vantagem no teste imediato; a vantagem do teste apareceu nos testes atrasados." },
+        { "t": "O grupo da releitura foi melhor nos dois momentos, porque viu o texto completo duas vezes.", "p": "generalizacao", "w": "Vale só para o teste imediato. Com dias de intervalo, quem praticou a recuperação lembrou mais, mesmo tendo visto o texto menos vezes." },
+        { "t": "A releitura levou pequena vantagem após 5 minutos, mas, após uma semana, o grupo que fez o teste lembrou mais.", "p": "correta", "w": "É o efeito de teste: recuperar a informação fortalece a memória de longo prazo, embora a releitura pareça melhor no curtíssimo prazo." },
+        { "t": "O teste só trouxe vantagem porque os alunos receberam a correção das respostas.", "p": "restricao", "w": "No estudo, não houve correção depois do teste. A vantagem veio do próprio esforço de recuperar." }
+      ]
+    },
+    {
+      "id": "neuro14", "topic": "Intervalo entre revisões",
+      "c": "Ana fará a prova da OAB daqui a 10 dias. Bruno, concurseiro em Brasília, terá sua prova daqui a oito meses. Os dois querem programar revisões espaçadas do mesmo conteúdo.",
+      "q": "O que a pesquisa sobre prática distribuída indica sobre o intervalo entre as revisões?", "a": 0, "src": "Cepeda et al. (2006), Psychological Bulletin; Cepeda et al. (2008), Psychological Science",
+      "o": [
+        { "t": "O intervalo mais eficaz cresce com o tempo até a prova: Bruno pode espaçar mais as revisões do que Ana.", "p": "correta", "w": "Na meta-análise de Cepeda et al. (2006), o intervalo ideal entre sessões aumentou conforme aumentava o intervalo de retenção." },
+        { "t": "Existe um intervalo ideal fixo, de 24 horas, que vale para qualquer prazo.", "p": "generalizacao", "w": "Não há um número mágico. O intervalo mais eficaz depende de quanto tempo a informação precisa ser lembrada." },
+        { "t": "Quanto mais distante a prova, mais próximas umas das outras devem ser as revisões.", "p": "inversao", "w": "Inverte a relação. Para reter por mais tempo, os intervalos entre as sessões tendem a ser maiores." },
+        { "t": "O espaçamento só funciona para prazos longos; Ana deve estudar tudo em uma única sessão.", "p": "restricao", "w": "O benefício do espaçamento aparece também em prazos curtos. Mesmo em 10 dias, distribuir o estudo supera concentrá-lo." }
+      ]
+    },
+    {
+      "id": "neuro15", "topic": "Intercalação de categorias",
+      "c": "Para uma prova de História da Arte na UFMG, Letícia precisa reconhecer o estilo de vários pintores em quadros que nunca viu. Ela pode estudar os quadros agrupados por pintor ou misturados entre pintores.",
+      "q": "O que Kornell & Bjork (2008) encontraram em um experimento com esse formato?", "a": 3, "src": "Kornell & Bjork (2008), Psychological Science",
+      "o": [
+        { "t": "O estudo agrupado por pintor foi melhor, e os participantes perceberam isso.", "p": "inversao", "w": "Inverte o resultado. A apresentação misturada levou a mais acertos com quadros novos." },
+        { "t": "A mistura foi melhor só porque aumentou o tempo total de estudo.", "p": "troca", "w": "O tempo de estudo era equivalente. A vantagem veio de comparar estilos diferentes lado a lado." },
+        { "t": "A mistura só ajudou com pintores muito famosos.", "p": "restricao", "w": "Acrescenta uma condição que o estudo não mostrou. O efeito apareceu na classificação de quadros novos dos pintores estudados." },
+        { "t": "A mistura levou a classificar melhor quadros novos, embora a maioria dos participantes julgasse o estudo agrupado igual ou melhor.", "p": "correta", "w": "Intercalar ajuda a perceber o que distingue uma categoria da outra. E a intuição dos alunos apontou na direção errada." }
+      ]
+    },
+    {
+      "id": "neuro16", "topic": "Técnicas de alta utilidade",
+      "c": "Dunlosky e colegas (2013) revisaram dez técnicas de estudo populares e classificaram cada uma como de utilidade alta, moderada ou baixa. Uma coordenadora pedagógica em Goiânia quer usar a revisão para orientar os alunos.",
+      "q": "Quais técnicas receberam a classificação de alta utilidade?", "a": 1, "src": "Dunlosky et al. (2013), Psychological Science in the Public Interest",
+      "o": [
+        { "t": "Interrogação elaborativa e autoexplicação.", "p": "troca", "w": "As duas são úteis, mas foram classificadas como de utilidade moderada, ao lado da prática intercalada." },
+        { "t": "Testes práticos e prática distribuída.", "p": "correta", "w": "Foram as únicas de alta utilidade: funcionam para alunos de várias idades, com diferentes materiais e por intervalos longos." },
+        { "t": "Grifar e reler o material.", "p": "inversao", "w": "É o oposto: grifar e reler estão entre as técnicas de baixa utilidade, apesar de muito populares." },
+        { "t": "Todas as dez, desde que usadas com disciplina.", "p": "generalizacao", "w": "A revisão diferenciou claramente as técnicas. Disciplina não transforma uma técnica de baixa utilidade em alta." }
+      ]
+    },
+    {
+      "id": "neuro17", "topic": "Grifar o texto",
+      "c": "Beatriz, estudante de Direito em Fortaleza, grifa a apostila inteira com quatro cores diferentes. Ao terminar, sente que estudou bastante.",
+      "q": "Segundo Dunlosky et al. (2013), o que se sabe sobre grifar?", "a": 1, "src": "Dunlosky et al. (2013), Psychological Science in the Public Interest",
+      "o": [
+        { "t": "Tem alta utilidade, porque destaca as ideias principais do texto.", "p": "inversao", "w": "Inverte a classificação. A revisão considerou grifar de baixa utilidade." },
+        { "t": "Tem baixa utilidade: sozinho, traz pouco benefício em comparação com técnicas como a autotestagem.", "p": "correta", "w": "Grifar é fácil e dá sensação de trabalho feito, mas exige pouco processamento. Recuperar o conteúdo sem olhar rende muito mais." },
+        { "t": "Só tem baixa utilidade quando se usa mais de uma cor.", "p": "restricao", "w": "O número de cores não foi o critério. A baixa utilidade se refere à técnica em si." },
+        { "t": "Sempre prejudica a memória e deve ser evitado em qualquer situação.", "p": "generalizacao", "w": "Exagera. Os autores apontam pouco benefício e, em alguns estudos, prejuízo em tarefas de inferência, mas não um dano universal." }
+      ]
+    },
+    {
+      "id": "neuro18", "topic": "Interrogação elaborativa",
+      "c": "Estudando Biologia para o ENEM em Porto Alegre, Caio lê que mamíferos de regiões frias tendem a ter orelhas menores. Em vez de seguir adiante, ele se pergunta: \"Por que isso faria sentido?\" e responde que orelhas menores perdem menos calor.",
+      "q": "Que estratégia Caio usou e como Dunlosky et al. (2013) a classificaram?", "a": 3, "src": "Dunlosky et al. (2013), Psychological Science in the Public Interest",
+      "o": [
+        { "t": "Prática de recuperação, porque ele lembrou um conteúdo estudado antes.", "p": "troca", "w": "Ele não tentou lembrar o texto sem olhar. Ele buscou uma explicação para um fato novo, o que é outra estratégia." },
+        { "t": "Interrogação elaborativa, que funciona igualmente bem para qualquer aluno, com ou sem conhecimento prévio.", "p": "generalizacao", "w": "A revisão aponta que a técnica tende a funcionar melhor quando o aluno já tem algum conhecimento do assunto." },
+        { "t": "Interrogação elaborativa, mas ela só tem efeito se as respostas forem escritas à mão.", "p": "restricao", "w": "Inventa uma condição. O núcleo da técnica é gerar a explicação, não o meio em que ela é registrada." },
+        { "t": "Interrogação elaborativa, classificada como de utilidade moderada.", "p": "correta", "w": "Perguntar \"por quê?\" liga o fato novo ao que o aluno já sabe. A revisão a considerou promissora, de utilidade moderada." }
+      ]
+    },
+    {
+      "id": "neuro19", "topic": "Autoexplicação",
+      "c": "Chi e colegas (1994) pediram a um grupo de estudantes que, ao ler um texto sobre o sistema circulatório, explicasse para si mesmo o que cada trecho significava. Outro grupo leu o mesmo texto duas vezes.",
+      "q": "Qual foi o resultado principal?", "a": 0, "src": "Chi, De Leeuw, Chiu & LaVancher (1994), Cognitive Science; Dunlosky et al. (2013)",
+      "o": [
+        { "t": "O grupo que se autoexplicou compreendeu melhor o funcionamento do sistema do que o grupo que leu duas vezes.", "p": "correta", "w": "Explicar para si mesmo obriga a integrar as informações e a perceber lacunas. Por isso a autoexplicação aparece como técnica de utilidade moderada." },
+        { "t": "O grupo que leu duas vezes compreendeu melhor, por ter mais contato com o texto.", "p": "inversao", "w": "Inverte o resultado. Mais contato com o texto não superou o processamento ativo da autoexplicação." },
+        { "t": "A autoexplicação só funcionou porque o pesquisador corrigia cada explicação.", "p": "restricao", "w": "Os alunos eram apenas estimulados a explicar, sem correção de cada resposta. O benefício veio do próprio ato de explicar." },
+        { "t": "A autoexplicação dispensa outras estratégias, como testes e revisões espaçadas.", "p": "extrapolacao", "w": "O estudo não comparou nem descartou outras técnicas. A autoexplicação pode ser combinada com testes e espaçamento." }
+      ]
+    },
+    {
+      "id": "neuro20", "topic": "Exemplos resolvidos",
+      "c": "A professora Sandra, de um cursinho popular em Belém, vai ensinar equações a uma turma que nunca viu o assunto. Ela pode dar dez problemas para os alunos resolverem sozinhos ou alternar exemplos resolvidos com problemas parecidos.",
+      "q": "O que a pesquisa sobre exemplos resolvidos recomenda para essa turma?", "a": 2, "src": "Sweller & Cooper (1985), Cognition and Instruction; Kalyuga et al. (2003), Educational Psychologist",
+      "o": [
+        { "t": "Só resolver problemas, porque qualquer esforço a mais é uma dificuldade desejável.", "p": "troca", "w": "Confunde dificuldade desejável com sobrecarga. Para iniciantes, buscar a solução às cegas consome a memória de trabalho e deixa pouco para aprender o método." },
+        { "t": "Exemplos resolvidos são a melhor estratégia em qualquer fase, inclusive para quem já domina o assunto.", "p": "generalizacao", "w": "Para alunos experientes, o benefício diminui e pode até se inverter, o chamado efeito de reversão pela expertise." },
+        { "t": "Alternar exemplos resolvidos com problemas parecidos, porque iniciantes aprendem com mais eficiência estudando soluções prontas.", "p": "correta", "w": "É o efeito do exemplo resolvido: Sweller & Cooper (1985) mostraram que iniciantes aprendem mais rápido estudando soluções do que só resolvendo problemas." },
+        { "t": "Exemplos resolvidos só ajudam se o aluno copiar a solução à mão.", "p": "restricao", "w": "Acrescenta uma exigência inexistente. O benefício vem de estudar a lógica da solução, não de copiá-la." }
+      ]
+    },
+    {
+      "id": "neuro21", "topic": "Atenção dividida",
+      "c": "A apostila de um curso técnico em eletrotécnica em Contagem traz o diagrama de um circuito em uma página e a explicação de cada componente na página seguinte. Os alunos vivem folheando para frente e para trás.",
+      "q": "Segundo a teoria da carga cognitiva, que mudança tende a ajudar os alunos iniciantes?", "a": 3, "src": "Chandler & Sweller (1991), Cognition and Instruction; Sweller (1988), Cognitive Science",
+      "o": [
+        { "t": "Mover as explicações para um anexo no fim da apostila, deixando o diagrama limpo.", "p": "inversao", "w": "Inverte a solução: aumenta a distância entre texto e figura e piora o vaivém que sobrecarrega a memória de trabalho." },
+        { "t": "Acrescentar mais textos e curiosidades, porque mais informação sempre ajuda.", "p": "generalizacao", "w": "A memória de trabalho é limitada. Informação extra que não ajuda a entender o circuito aumenta a carga desnecessária." },
+        { "t": "Integrar as explicações só para alunos experientes, que leem mais rápido.", "p": "restricao", "w": "O benefício da integração é maior justamente para iniciantes. Para experientes, o texto pode até ser dispensável." },
+        { "t": "Colocar cada explicação junto do componente no próprio diagrama, para o aluno não ter de alternar entre as páginas.", "p": "correta", "w": "É o efeito da atenção dividida: integrar fontes que só fazem sentido juntas reduz a carga cognitiva desnecessária e melhora a aprendizagem." }
+      ]
+    },
+    {
+      "id": "neuro22", "topic": "Dificuldade desejável",
+      "c": "O coordenador de um cursinho em Recife propõe imprimir as apostilas em fonte difícil de ler e retirar todas as explicações, para \"criar dificuldades desejáveis\", conceito que ouviu numa palestra.",
+      "q": "Qual avaliação está de acordo com o conceito proposto por Bjork?", "a": 1, "src": "Bjork (1994), em Metcalfe & Shimamura (orgs.), Metacognition; Bjork & Bjork (2011)",
+      "o": [
+        { "t": "A proposta é correta, porque qualquer dificuldade melhora a aprendizagem.", "p": "generalizacao", "w": "Nem toda dificuldade é desejável. Uma dificuldade que o aluno não consegue superar só atrapalha." },
+        { "t": "Nem toda dificuldade é desejável: ajudam as que exigem processamento útil, como recuperar, espaçar e intercalar, e que o aluno consegue superar.", "p": "correta", "w": "Bjork descreve dificuldades desejáveis como as que desaceleram o desempenho no treino, mas fortalecem a aprendizagem. Tirar as explicações impede o aluno de responder." },
+        { "t": "A proposta é boa porque dificuldades desejáveis aumentam os acertos durante o próprio estudo.", "p": "inversao", "w": "É o contrário: elas costumam reduzir o desempenho no treino. O ganho aparece na retenção e na transferência posteriores." },
+        { "t": "A proposta só valeria para alunos que já acertam mais de 70% dos simulados.", "p": "restricao", "w": "O conceito não traz esse limiar. O critério é o tipo de dificuldade e a possibilidade de superá-la." }
+      ]
+    },
+    {
+      "id": "neuro23", "topic": "Desempenho versus aprendizagem",
+      "c": "Ao trocar listas em bloco por listas intercaladas, Henrique, que estuda para o concurso da Receita Federal, passou a acertar menos durante os treinos. Ele concluiu que está aprendendo menos e quer voltar ao método anterior.",
+      "q": "Qual conceito ajuda a corrigir o raciocínio de Henrique?", "a": 0, "src": "Soderstrom & Bjork (2015), Perspectives on Psychological Science",
+      "o": [
+        { "t": "O desempenho durante o treino nem sempre reflete a aprendizagem duradoura; estratégias que reduzem acertos no treino podem melhorar a retenção.", "p": "correta", "w": "Soderstrom & Bjork (2015) revisam a distinção entre desempenho momentâneo e aprendizagem. Intercalar costuma derrubar acertos no treino e elevar o resultado posterior." },
+        { "t": "Mais acertos no treino sempre indicam mais aprendizagem.", "p": "generalizacao", "w": "É justamente a ideia que a pesquisa contesta. Acertos no treino podem refletir facilidade momentânea, não retenção." },
+        { "t": "É o efeito de geração: errar mais no treino significa gerar mais respostas.", "p": "troca", "w": "Usa um conceito vizinho no lugar. O efeito de geração trata de produzir a informação, não da diferença entre treino e aprendizagem." },
+        { "t": "Essa diferença entre treino e aprendizagem só existe em disciplinas de exatas.", "p": "restricao", "w": "A distinção aparece em tarefas motoras e verbais, não só em exatas." }
+      ]
+    },
+    {
+      "id": "neuro24", "topic": "Efeito Dunning-Kruger",
+      "c": "Depois de um simulado da OAB, um cursinho de Curitiba pede que cada aluno estime sua posição em relação à turma, antes de ver a nota. O professor quer comparar com o estudo original de Kruger & Dunning (1999).",
+      "q": "O que esse estudo encontrou?", "a": 2, "src": "Kruger & Dunning (1999), Journal of Personality and Social Psychology",
+      "o": [
+        { "t": "Os de pior desempenho se subestimaram, e os de melhor desempenho se superestimaram.", "p": "inversao", "w": "Inverte o resultado. Os de pior desempenho se superestimaram; os melhores tenderam a se subestimar um pouco." },
+        { "t": "Quem sabe pouco sobre um assunto sempre se considera especialista nele, em qualquer área.", "p": "generalizacao", "w": "O estudo mostra uma tendência média em tarefas específicas, não uma regra para todas as pessoas e áreas." },
+        { "t": "Os participantes com pior desempenho superestimaram bastante sua posição em relação aos colegas.", "p": "correta", "w": "Foi o achado central. Há debate sobre quanto do efeito se deve a artefatos estatísticos, por isso convém citá-lo com cuidado." },
+        { "t": "O estudo provou que quanto mais confiante a pessoa, menos inteligente ela é.", "p": "extrapolacao", "w": "Vai muito além dos dados. O estudo mediu autoavaliação em tarefas específicas, não inteligência geral." }
+      ]
+    },
+    {
+      "id": "neuro25", "topic": "Julgamento tardio",
+      "c": "Fernanda, concurseira em Salvador, estuda com flashcards e marca como \"já sei\" os cartões que acredita dominar, para não revisá-los mais. Ela costuma decidir logo depois de ler a resposta no verso.",
+      "q": "Quando o julgamento \"já sei\" tende a ser mais preciso?", "a": 0, "src": "Nelson & Dunlosky (1991), Psychological Science",
+      "o": [
+        { "t": "Depois de algum tempo, tentando lembrar a resposta sem olhar, e não logo após ler o verso.", "p": "correta", "w": "É o efeito do julgamento tardio: avaliações feitas após um intervalo preveem muito melhor a lembrança futura do que as feitas imediatamente." },
+        { "t": "Logo após ler a resposta, quando a informação está mais clara na cabeça.", "p": "inversao", "w": "Inverte o achado. Logo após a leitura, a resposta ainda está ativa na memória de curto prazo, o que gera excesso de confiança." },
+        { "t": "Em qualquer momento, porque a sensação de saber é sempre confiável.", "p": "generalizacao", "w": "A sensação de saber é muitas vezes enganosa, como na ilusão de competência. O momento do julgamento muda bastante sua precisão." },
+        { "t": "Somente no dia seguinte, já que intervalos de minutos não fazem diferença.", "p": "restricao", "w": "No estudo, o atraso era curto, com outros itens estudados no meio, e já bastou para melhorar muito a precisão." }
+      ]
+    },
+    {
+      "id": "neuro26", "topic": "Sono antes de aprender",
+      "c": "Rafaela, técnica de enfermagem em Manaus, sai de um plantão noturno sem ter dormido e vai direto para uma aula de cursinho, de manhã, com um conteúdo totalmente novo.",
+      "q": "O que a pesquisa sobre sono e memória prevê para essa aula?", "a": 2, "src": "Yoo, Hu, Gujar, Jolesz & Walker (2007), Nature Neuroscience",
+      "o": [
+        { "t": "Ela tende a reter mais, porque a mente está \"vazia\" depois de uma noite sem dormir.", "p": "inversao", "w": "Inverte o efeito. A privação de sono reduz, e não aumenta, a capacidade de registrar informações novas." },
+        { "t": "O sono só importa depois de estudar, para consolidar; antes da aula, não faz diferença.", "p": "restricao", "w": "Limita o papel do sono à consolidação. Ele também prepara o cérebro para formar novas memórias." },
+        { "t": "A privação de sono prejudica a formação de novas memórias, e ela tende a reter menos do que se tivesse dormido.", "p": "correta", "w": "Yoo et al. (2007) mostraram que uma noite sem sono reduziu a capacidade de memorizar informações novas e a atividade do hipocampo durante o aprendizado." },
+        { "t": "Uma noite sem dormir apaga as memórias já consolidadas da semana anterior.", "p": "extrapolacao", "w": "Vai além dos dados. O estudo trata da formação de memórias novas, não do apagamento das antigas." }
+      ]
+    },
+    {
+      "id": "neuro27", "topic": "Exercício físico",
+      "c": "Gabriel, 24 anos, estuda dez horas por dia para um concurso em Belo Horizonte. Para ganhar tempo, pensa em abandonar a corrida que faz três vezes por semana.",
+      "q": "O que a pesquisa sobre exercício e cognição sugere?", "a": 1, "src": "Hillman, Erickson & Kramer (2008), Nature Reviews Neuroscience; Erickson et al. (2011), PNAS",
+      "o": [
+        { "t": "Que o exercício cansa o cérebro e reduz a capacidade de estudar, então cortá-lo aumenta o rendimento.", "p": "inversao", "w": "Inverte a evidência. Atividade aeróbica regular está associada a benefícios para a cognição e a saúde do cérebro." },
+        { "t": "Que manter atividade aeróbica regular tende a favorecer a cognição e a saúde do cérebro, complementando o estudo, e não o substituindo.", "p": "correta", "w": "Revisões associam exercício aeróbico a melhor função cognitiva. Em Erickson et al. (2011), um ano de caminhadas aumentou o volume do hipocampo em idosos." },
+        { "t": "Que a corrida pode substituir parte das revisões, porque o exercício grava o conteúdo na memória.", "p": "extrapolacao", "w": "Vai além da evidência. O exercício pode favorecer o funcionamento cognitivo, mas não coloca conteúdo na memória." },
+        { "t": "Que só treinos diários de altíssima intensidade trazem algum benefício cognitivo.", "p": "restricao", "w": "Acrescenta uma exigência que a pesquisa não faz. Benefícios aparecem com atividade aeróbica moderada, como caminhadas." }
+      ]
+    },
+    {
+      "id": "neuro28", "topic": "Descanso após estudar",
+      "c": "Logo depois de assistir a uma videoaula de Direito Penal, Marina, que mora em Juiz de Fora, tem dez minutos livres. Ela pode descansar de olhos fechados, sem fazer nada, ou começar outra tarefa que exige atenção.",
+      "q": "O que Dewar et al. (2012) encontraram em um experimento com essa comparação?", "a": 3, "src": "Dewar, Alber, Butler, Cowan & Della Sala (2012), Psychological Science",
+      "o": [
+        { "t": "Começar outra tarefa logo depois fixa melhor, porque mantém o cérebro ativo.", "p": "inversao", "w": "Inverte o resultado. A tarefa que ocupava a mente levou a lembrar menos do que o descanso." },
+        { "t": "Qualquer pausa tem o mesmo efeito, inclusive uma atividade que exige concentração.", "p": "generalizacao", "w": "O estudo comparou justamente os dois tipos de pausa, e eles não tiveram o mesmo efeito." },
+        { "t": "O benefício só apareceu nos participantes que dormiram durante a pausa.", "p": "restricao", "w": "Os participantes ficaram acordados. O efeito vem do descanso em vigília, sem nova informação competindo." },
+        { "t": "Um breve descanso tranquilo logo após aprender melhorou a retenção, inclusive uma semana depois, em comparação com uma tarefa que ocupava a mente.", "p": "correta", "w": "Os autores interpretam que o descanso, sem informação nova, favorece a consolidação inicial da memória." }
+      ]
+    },
+    {
+      "id": "neuro29", "topic": "Técnica Pomodoro",
+      "c": "Um influenciador de estudos afirma em vídeo: \"A ciência comprovou que a atenção humana dura exatamente 25 minutos. Por isso o Pomodoro funciona, e estudar mais que isso é inútil\".",
+      "q": "Qual afirmação sobre a técnica Pomodoro está correta?", "a": 2, "src": "Cirillo, The Pomodoro Technique (2018)",
+      "o": [
+        { "t": "Os 25 minutos correspondem ao limite de atenção de qualquer pessoa, demonstrado em estudos.", "p": "generalizacao", "w": "Não existe um limite universal de 25 minutos comprovado. A duração da atenção varia com a pessoa, a tarefa e o contexto." },
+        { "t": "A técnica foi criada a partir dos experimentos de Ebbinghaus sobre a curva do esquecimento.", "p": "troca", "w": "Confunde origens. Ebbinghaus estudou o esquecimento no século XIX; o Pomodoro é um método de gestão do tempo criado por Cirillo." },
+        { "t": "É um método de gestão do tempo criado por Francesco Cirillo; os 25 minutos são uma convenção do método, não um limite de atenção comprovado.", "p": "correta", "w": "O método organiza blocos de foco com pausas planejadas. Pode ajudar a começar e a manter o ritmo, mas a duração não é uma lei da neurociência." },
+        { "t": "Por ter pausas, o Pomodoro equivale à repetição espaçada e dispensa as revisões.", "p": "extrapolacao", "w": "Pausas dentro de uma sessão não são revisões espaçadas ao longo de dias. Uma coisa não substitui a outra." }
+      ]
+    },
+    {
+      "id": "neuro30", "topic": "Estilos de aprendizagem",
+      "c": "Uma escola em Campinas aplica um questionário para classificar cada aluno como visual, auditivo ou cinestésico e pretende separar as turmas para ensinar cada grupo no seu estilo.",
+      "q": "O que concluiu a revisão de Pashler et al. (2008) sobre essa prática?", "a": 0, "src": "Pashler, McDaniel, Rohrer & Bjork (2008), Psychological Science in the Public Interest",
+      "o": [
+        { "t": "Que não há evidência adequada de que adaptar o ensino ao estilo declarado do aluno melhore a aprendizagem.", "p": "correta", "w": "Os autores explicaram que seria preciso mostrar que cada grupo aprende melhor no próprio estilo, e quase nenhum estudo com esse desenho confirmou a hipótese." },
+        { "t": "Que alunos aprendem comprovadamente mais quando ensinados no estilo indicado pelo questionário.", "p": "inversao", "w": "É a crença que a revisão contestou. Os estudos com o desenho adequado não sustentaram essa ideia." },
+        { "t": "Que a adaptação funciona apenas para alunos visuais.", "p": "restricao", "w": "Não houve evidência de benefício para nenhum dos estilos, inclusive o visual." },
+        { "t": "Que as pessoas não têm nenhuma preferência sobre como receber informações.", "p": "extrapolacao", "w": "Vai além da revisão. As pessoas podem ter preferências; o que faltou foi evidência de que ensinar segundo elas melhora o aprendizado." }
+      ]
+    },
+    {
+      "id": "neuro31", "topic": "Mito dos 10%",
+      "c": "Em uma palestra motivacional em Fortaleza, o palestrante promete: \"Usamos só 10% do cérebro. Com o meu método, você vai destravar os outros 90% e passar em qualquer concurso\".",
+      "q": "O que a neurociência diz sobre essa afirmação?", "a": 3, "src": "Beyerstein (1999), em Della Sala (org.), Mind Myths; Dekker et al. (2012), Frontiers in Psychology",
+      "o": [
+        { "t": "É verdade para a maioria das pessoas, mas os gênios usam uma parte maior do cérebro.", "p": "restricao", "w": "Mantém o mito com uma exceção inventada. Todas as pessoas usam o cérebro inteiro, em diferentes momentos e tarefas." },
+        { "t": "É falsa porque todos os neurônios ficam ativos ao mesmo tempo, o tempo todo.", "p": "extrapolacao", "w": "Corrige um erro com outro. Diferentes regiões são mais ou menos ativas conforme a tarefa; o que não existe são áreas sem uso." },
+        { "t": "É verdade, porque 90% das células do cérebro são glia, que não têm função.", "p": "troca", "w": "As células da glia têm funções essenciais, como sustentar e proteger os neurônios. Elas não são um cérebro \"desligado\"." },
+        { "t": "É um mito: exames de imagem mostram atividade em praticamente todas as regiões ao longo do dia, e lesões em quase qualquer área causam prejuízos.", "p": "correta", "w": "Não há uma reserva de 90% sem uso. O mito é um dos mais difundidos entre educadores, como mostraram Dekker et al. (2012)." }
+      ]
+    },
+    {
+      "id": "neuro32", "topic": "Ensinar para aprender",
+      "c": "Pedro, de um grupo de estudos para concurso em Recife, ficou responsável por explicar controle de constitucionalidade aos colegas. Ele quer que a tarefa também o ajude a aprender o conteúdo.",
+      "q": "Segundo Koh, Lee & Lim (2018), que forma de ensinar traz mais benefício para quem ensina?", "a": 1, "src": "Koh, Lee & Lim (2018), Applied Cognitive Psychology",
+      "o": [
+        { "t": "Ler os slides em voz alta, porque o ganho vem de falar para uma plateia.", "p": "troca", "w": "Troca o mecanismo. Ler em voz alta não exige buscar o conteúdo na memória, que é o que gera o benefício." },
+        { "t": "Explicar sem consultar anotações, o que o obriga a recuperar o conteúdo da memória.", "p": "correta", "w": "No estudo, ensinar sem anotações superou ensinar com anotações, o que sugere que boa parte do benefício de ensinar vem da prática de recuperação." },
+        { "t": "Explicar com o roteiro completo em mãos, para não errar, o que maximiza o aprendizado.", "p": "inversao", "w": "Inverte o achado. Quem ensinou consultando anotações não teve a vantagem de quem ensinou de memória." },
+        { "t": "Qualquer forma de ensinar gera o mesmo ganho, pois o efeito vem só de ter uma plateia.", "p": "generalizacao", "w": "O estudo mostrou diferença justamente entre formas de ensinar. Ter plateia, por si só, não garante o benefício." }
+      ]
+    },
+    {
+      "id": "neuro33", "topic": "Mapa conceitual de memória",
+      "c": "Júlia, estudante de Geografia em Londrina, faz mapas conceituais caprichados copiando a estrutura do livro aberto ao lado. Ela quer saber como tirar mais proveito dos mapas.",
+      "q": "Com base em Blunt & Karpicke (2014), qual é a melhor forma de usar os mapas?", "a": 1, "src": "Blunt & Karpicke (2014), Journal of Educational Psychology; Karpicke & Blunt (2011), Science",
+      "o": [
+        { "t": "Fazer o mapa no computador, pois só assim ele tem efeito.", "p": "restricao", "w": "O meio não foi o que importou. O ganho depende de construir o mapa a partir da memória." },
+        { "t": "Montar o mapa com o livro fechado, de memória, e depois conferir e completar com o material.", "p": "correta", "w": "Construir o mapa sem consultar transforma a atividade em prática de recuperação, que superou estudar o material de novo." },
+        { "t": "Qualquer mapa tem o mesmo efeito, porque o que importa é organizar o conteúdo visualmente.", "p": "generalizacao", "w": "A forma de construir faz diferença: copiar com o livro aberto exige pouco esforço de memória." },
+        { "t": "Trocar os mapas por grifos coloridos no livro, que produzem o mesmo resultado.", "p": "troca", "w": "Grifar é de baixa utilidade segundo Dunlosky et al. (2013). Não substitui a recuperação." }
+      ]
+    },
+    {
+      "id": "neuro34", "topic": "Ler, recitar, revisar",
+      "c": "Débora, estudante de Enfermagem em Natal, lê os capítulos de Fisiologia sublinhando e relendo. Uma professora sugere a estratégia \"ler, recitar, revisar\" (3R), testada por McDaniel, Howard & Einstein (2009).",
+      "q": "Como funciona essa estratégia e o que o estudo encontrou?", "a": 3, "src": "McDaniel, Howard & Einstein (2009), Psychological Science",
+      "o": [
+        { "t": "Ler o mesmo trecho três vezes seguidas; superou qualquer outra técnica.", "p": "troca", "w": "Confunde 3R com três leituras. E ler repetidamente é justamente o que o estudo usou como comparação." },
+        { "t": "Ler, recitar e revisar, mas a recitação só funciona por escrito, nunca em voz alta.", "p": "restricao", "w": "No estudo, os alunos recitavam em voz alta. A condição inventada não tem base." },
+        { "t": "Ler, recitar e revisar; supera qualquer técnica, inclusive testes espaçados ao longo de semanas.", "p": "generalizacao", "w": "O estudo não comparou o 3R com testes espaçados ao longo de semanas; a comparação central foi com a releitura." },
+        { "t": "Ler um trecho, fechar o texto e dizer em voz alta o que lembra, depois reler para conferir; superou a releitura em testes de memória.", "p": "correta", "w": "A etapa de recitar é uma prática de recuperação, e a revisão funciona como feedback. Por isso o 3R superou a simples releitura." }
+      ]
+    },
+    {
+      "id": "neuro35", "topic": "Intenção de implementação",
+      "c": "Matheus, estudante do 3º ano em João Pessoa, decidiu que vai \"estudar mais Matemática para o ENEM\". Um professor sugere transformar essa decisão em uma intenção de implementação.",
+      "q": "Qual plano corresponde a uma intenção de implementação, segundo Gollwitzer (1999)?", "a": 0, "src": "Gollwitzer (1999), American Psychologist; Gollwitzer & Sheeran (2006), Advances in Experimental Social Psychology",
+      "o": [
+        { "t": "\"Se for segunda, quarta ou sexta, às 19h, depois do jantar, então vou me sentar à mesa da sala e resolver 20 questões de Matemática.\"", "p": "correta", "w": "A intenção de implementação liga uma situação específica (quando e onde) a uma ação concreta, no formato \"se... então\". Isso facilita começar sem depender de motivação." },
+        { "t": "\"Meu objetivo é passar em Medicina na UFPB.\"", "p": "troca", "w": "É uma intenção de meta: diz o que se quer alcançar, mas não quando, onde e como agir." },
+        { "t": "\"Vou estudar Matemática sempre que tiver vontade.\"", "p": "inversao", "w": "Inverte a lógica: deixa a ação depender da vontade, justamente o que o plano \"se... então\" busca evitar." },
+        { "t": "\"Basta escrever um 'se... então' uma vez e o hábito se forma sozinho, sem nenhum esforço.\"", "p": "extrapolacao", "w": "Vai além da evidência. A técnica tem efeito médio a grande nas meta-análises, mas não garante a ação nem dispensa esforço." }
+      ]
+    },
+    {
+      "id": "neuro36", "topic": "Falácia do planejamento",
+      "c": "Aline, concluinte de Agronomia em Viçosa, estima que vai terminar o TCC em três semanas. Nos últimos trabalhos longos que fez, ela sempre levou bem mais tempo do que tinha previsto.",
+      "q": "O que a pesquisa sobre a falácia do planejamento sugere?", "a": 2, "src": "Buehler, Griffin & Ross (1994), Journal of Personality and Social Psychology",
+      "o": [
+        { "t": "As pessoas tendem a superestimar o tempo das tarefas, então ela deveria reduzir a previsão.", "p": "inversao", "w": "Inverte o viés. O comum é subestimar o tempo necessário, como o próprio histórico de Aline mostra." },
+        { "t": "É o efeito Dunning-Kruger: ela não tem competência para fazer o TCC.", "p": "troca", "w": "Usa um conceito vizinho no lugar. O viés é de previsão de tempo, não de avaliação da própria competência." },
+        { "t": "As pessoas tendem a subestimar o tempo das próprias tarefas; basear a estimativa no tempo que trabalhos parecidos realmente levaram ajuda a corrigir.", "p": "correta", "w": "Buehler, Griffin & Ross (1994) mostraram que estudantes subestimaram o prazo de seus trabalhos, mesmo lembrando de atrasos anteriores. Usar o histórico na estimativa reduz o viés." },
+        { "t": "Esse viés só afeta quem costuma procrastinar.", "p": "restricao", "w": "Acrescenta uma condição que não existe. O viés aparece de forma ampla, inclusive em pessoas organizadas." }
+      ]
+    },
+    {
+      "id": "neuro37", "topic": "Notebook na aula",
+      "c": "Em uma faculdade de São Luís, Caio assiste às aulas com o notebook aberto e alterna entre as anotações e as redes sociais. Bianca, sentada atrás dele, consegue ver a tela durante toda a aula.",
+      "q": "O que Sana, Weston & Cepeda (2013) encontraram em situações como essa?", "a": 2, "src": "Sana, Weston & Cepeda (2013), Computers & Education",
+      "o": [
+        { "t": "Só quem usava o notebook foi prejudicado; os colegas próximos, não.", "p": "restricao", "w": "Limita o efeito a quem fazia a multitarefa. O estudo mostrou prejuízo também para quem via a tela." },
+        { "t": "Os colegas que viam a tela aprenderam mais, por contraste, ficando mais atentos.", "p": "inversao", "w": "Inverte o resultado. Ver a tela de outra pessoa distraiu e reduziu a compreensão da aula." },
+        { "t": "Quem fazia multitarefa no notebook compreendeu pior a aula, e os colegas com visão da tela também.", "p": "correta", "w": "A multitarefa prejudicou o próprio usuário e quem estava por perto, mostrando que a distração digital tem efeito coletivo." },
+        { "t": "O estudo concluiu que notebooks devem ser proibidos em qualquer aula.", "p": "extrapolacao", "w": "Vai além do estudo, que mediu o efeito da multitarefa, não o uso do notebook para anotar nem políticas de proibição." }
+      ]
+    },
+    {
+      "id": "neuro38", "topic": "Celular por perto",
+      "c": "Teresa estuda com o celular no silencioso, virado para baixo sobre a mesa. Ela viu um vídeo dizendo que \"a simples presença do celular reduz sua inteligência, segundo a ciência\".",
+      "q": "Qual é a avaliação mais fiel às evidências?", "a": 0, "src": "Ward, Duke, Gneezy & Bos (2017), Journal of the Association for Consumer Research",
+      "o": [
+        { "t": "Um estudo de 2017 sugeriu esse efeito, mas as replicações tiveram resultados mistos; ainda assim, deixar o celular em outro cômodo evita interrupções.", "p": "correta", "w": "Ward et al. (2017) relataram o efeito, mas trabalhos posteriores nem sempre o reproduziram. Afastar o celular é uma precaução simples, que não depende de o efeito ser forte." },
+        { "t": "Está comprovado que o celular por perto sempre reduz a inteligência, mesmo desligado.", "p": "generalizacao", "w": "Transforma um achado contestado em regra absoluta. E testes de tarefas específicas não medem a inteligência de forma ampla." },
+        { "t": "O celular por perto melhora a concentração, porque reduz a ansiedade de ficar sem ele.", "p": "inversao", "w": "Inverte o sentido sem base nas evidências. Nenhum desses estudos mostrou benefício de manter o celular por perto." },
+        { "t": "O celular só atrapalha quando toca; em silêncio, nenhum estudo encontrou efeito.", "p": "restricao", "w": "O estudo de 2017 justamente relatou efeito com o aparelho em silêncio. O ponto é que as replicações divergem." }
+      ]
+    },
+    {
+      "id": "neuro39", "topic": "Metas específicas",
+      "c": "Priscila, que se prepara para o concurso do INSS, definiu como meta \"fazer o melhor possível\". O coordenador do cursinho sugere trocá-la por \"resolver 40 questões por dia e chegar a 70% de acertos em Português até março\".",
+      "q": "O que a teoria do estabelecimento de metas de Locke & Latham indica?", "a": 3, "src": "Locke & Latham (2002), American Psychologist",
+      "o": [
+        { "t": "Metas vagas funcionam melhor, porque não geram pressão.", "p": "inversao", "w": "Inverte o achado. Metas do tipo \"fazer o melhor\" levaram a desempenho inferior ao de metas específicas e desafiadoras." },
+        { "t": "Quanto mais difícil a meta, melhor, mesmo que esteja muito além do alcance da pessoa.", "p": "generalizacao", "w": "O desempenho cresce com a dificuldade da meta até o limite da capacidade e depende de compromisso com ela. Meta impossível tende a desanimar." },
+        { "t": "Metas específicas só funcionam quando há recompensa em dinheiro.", "p": "restricao", "w": "Acrescenta uma condição inexistente. O efeito aparece sem recompensa financeira." },
+        { "t": "Metas específicas e desafiadoras tendem a gerar desempenho maior do que a orientação vaga de \"fazer o melhor possível\".", "p": "correta", "w": "É o achado central de décadas de pesquisa resumidas por Locke & Latham (2002), especialmente quando há compromisso com a meta e feedback sobre o progresso." }
+      ]
+    },
+    {
+      "id": "neuro40", "topic": "Pré-teste",
+      "c": "Antes da aula sobre a Revolução Francesa, um professor de cursinho em Belém aplica perguntas que os alunos ainda não sabem responder e mostra a resposta certa logo depois. Alguns reclamam que errar é perda de tempo.",
+      "q": "O que a pesquisa indica sobre essa prática?", "a": 1, "src": "Kornell, Hays & Bjork (2009), Journal of Experimental Psychology: LMC; Richland, Kornell & Kao (2009)",
+      "o": [
+        { "t": "Errar no pré-teste fixa o erro e prejudica a aprendizagem.", "p": "inversao", "w": "Inverte o achado. Com a resposta correta mostrada em seguida, a tentativa malsucedida ajudou a aprender." },
+        { "t": "Tentar responder antes, mesmo errando, e depois ver a resposta correta pode melhorar a aprendizagem em relação a apenas estudar pelo mesmo tempo.", "p": "correta", "w": "Kornell, Hays & Bjork (2009) mostraram que tentativas de recuperação malsucedidas, seguidas de feedback, melhoram a aprendizagem posterior." },
+        { "t": "O benefício só existe se o aluno acertar a maioria das perguntas.", "p": "restricao", "w": "O efeito estudado é justamente o de tentativas que falham. Acertar não é condição." },
+        { "t": "O benefício vem do intervalo de dias entre o pré-teste e a aula.", "p": "troca", "w": "Confunde com o espaçamento. No estudo, a resposta correta aparecia logo após a tentativa, sem intervalo de dias." }
+      ]
+    }
+  ]
+}

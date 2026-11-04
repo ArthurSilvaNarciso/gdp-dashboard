@@ -1,0 +1,1283 @@
+{
+ "id": "dconst",
+ "questions": [
+  {
+   "id": "dconst13",
+   "topic": "Fundamentos da República",
+   "c": "A Câmara Municipal de Londrina vai instalar no plenário uma placa com os fundamentos da República previstos no art. 1º da Constituição. Um assessor revisa o texto antes da gravação.",
+   "q": "Assinale a afirmação correta.",
+   "a": 2,
+   "src": "CF/88, art. 1º, I a V",
+   "o": [
+    {
+     "t": "Erradicar a pobreza e a marginalização é um dos fundamentos listados no art. 1º.",
+     "p": "troca",
+     "w": "Erradicar a pobreza e a marginalização é objetivo fundamental (art. 3º, III), não fundamento. Fundamentos são a base do Estado; objetivos, metas a alcançar."
+    },
+    {
+     "t": "Só os valores sociais do trabalho são fundamento; a livre iniciativa aparece apenas na ordem econômica.",
+     "p": "restricao",
+     "w": "Corta o inciso pela metade. O art. 1º, IV, menciona expressamente “os valores sociais do trabalho e da livre iniciativa”."
+    },
+    {
+     "t": "O pluralismo político é um dos fundamentos, ao lado da soberania, da cidadania e da dignidade da pessoa humana.",
+     "p": "correta",
+     "w": "O art. 1º lista cinco fundamentos: soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa e pluralismo político."
+    },
+    {
+     "t": "Fundamentos (art. 1º) e objetivos (art. 3º) são sinônimos, e a Constituição usa os dois termos indistintamente.",
+     "p": "generalizacao",
+     "w": "A Constituição separa as duas listas: o art. 1º traz os fundamentos e o art. 3º, os objetivos fundamentais, com conteúdos diferentes."
+    }
+   ]
+  },
+  {
+   "id": "dconst14",
+   "topic": "Objetivos fundamentais",
+   "c": "Um vereador de São Luís defende um programa municipal de transferência de renda afirmando que ele concretiza um dos objetivos fundamentais da República.",
+   "q": "Qual dos itens abaixo é objetivo fundamental da República, segundo o art. 3º?",
+   "a": 0,
+   "src": "CF/88, art. 3º, I a IV",
+   "o": [
+    {
+     "t": "Erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais.",
+     "p": "correta",
+     "w": "É o texto do art. 3º, III. Os demais objetivos são construir sociedade livre, justa e solidária, garantir o desenvolvimento nacional e promover o bem de todos, sem preconceitos."
+    },
+    {
+     "t": "O pluralismo político.",
+     "p": "troca",
+     "w": "O pluralismo político é fundamento da República (art. 1º, V), não objetivo fundamental."
+    },
+    {
+     "t": "Erradicar a pobreza, desde que com recursos exclusivos da União.",
+     "p": "restricao",
+     "w": "O art. 3º não condiciona o objetivo a nenhuma fonte de recursos; ele vincula a República como um todo, inclusive estados e municípios."
+    },
+    {
+     "t": "Garantir igualdade absoluta de renda entre todos os brasileiros.",
+     "p": "extrapolacao",
+     "w": "A Constituição fala em “reduzir as desigualdades sociais e regionais”, não em igualar a renda de todos. A alternativa vai além do texto."
+    }
+   ]
+  },
+  {
+   "id": "dconst15",
+   "topic": "Relações internacionais",
+   "c": "Um jornalista estrangeiro, perseguido pelo governo de seu país por suas reportagens, chega a Brasília e pede proteção ao governo brasileiro.",
+   "q": "Qual princípio das relações internacionais, previsto no art. 4º, ampara a concessão dessa proteção?",
+   "a": 3,
+   "src": "CF/88, art. 4º, X",
+   "o": [
+    {
+     "t": "Não intervenção, que obriga o Brasil a recusar o pedido para não interferir em outro país.",
+     "p": "inversao",
+     "w": "A não intervenção (art. 4º, IV) convive com o asilo político (art. 4º, X); a Constituição não a usa para impedir a proteção a perseguidos."
+    },
+    {
+     "t": "Soberania, fundamento do art. 1º que trata especificamente da proteção a estrangeiros.",
+     "p": "troca",
+     "w": "A soberania é fundamento da República (art. 1º, I) e não trata de proteção a estrangeiros. O princípio específico é a concessão de asilo político."
+    },
+    {
+     "t": "Asilo político, mas só para nacionais de países que integram o Mercosul.",
+     "p": "restricao",
+     "w": "O art. 4º, X, não limita o asilo político a nacionais de nenhum bloco ou região. A restrição não existe no texto."
+    },
+    {
+     "t": "Concessão de asilo político.",
+     "p": "correta",
+     "w": "O art. 4º, X, inclui a concessão de asilo político entre os princípios que regem o Brasil nas relações internacionais."
+    }
+   ]
+  },
+  {
+   "id": "dconst16",
+   "topic": "Direito de certidão",
+   "c": "Dona Rosa, aposentada em Campina Grande, pediu à prefeitura uma certidão de tempo de serviço para defender seus direitos num processo previdenciário. O setor cobrou uma taxa de emissão.",
+   "q": "O que diz a Constituição sobre essa cobrança?",
+   "a": 1,
+   "src": "CF/88, art. 5º, XXXIV, b",
+   "o": [
+    {
+     "t": "A taxa é válida, porque só o direito de petição é gratuito.",
+     "p": "restricao",
+     "w": "O art. 5º, XXXIV, assegura independentemente de taxas tanto o direito de petição (alínea a) quanto a obtenção de certidões (alínea b)."
+    },
+    {
+     "t": "A obtenção de certidões em repartições públicas, para defesa de direitos, é assegurada independentemente do pagamento de taxas.",
+     "p": "correta",
+     "w": "É o texto do art. 5º, XXXIV, b: a certidão para defesa de direitos e esclarecimento de situações de interesse pessoal não depende do pagamento de taxas."
+    },
+    {
+     "t": "A gratuidade só vale se Rosa comprovar insuficiência de recursos.",
+     "p": "troca",
+     "w": "Confunde com a assistência jurídica integral e gratuita (art. 5º, LXXIV). A gratuidade da certidão não depende de prova de pobreza."
+    },
+    {
+     "t": "Qualquer certidão, para qualquer finalidade, inclusive comercial, deve ser emitida sem custo.",
+     "p": "generalizacao",
+     "w": "A Constituição garante a gratuidade das certidões para defesa de direitos e esclarecimento de situações de interesse pessoal, não para qualquer finalidade."
+    }
+   ]
+  },
+  {
+   "id": "dconst17",
+   "topic": "Tribunal do júri",
+   "c": "Em Cuiabá, um homem é acusado de ter matado o vizinho a tiros depois de uma discussão. A defesa quer saber como será o julgamento.",
+   "q": "Segundo a Constituição, assinale a afirmação correta.",
+   "a": 3,
+   "src": "CF/88, art. 5º, XXXVIII",
+   "o": [
+    {
+     "t": "O júri também julgará homicídios culposos, como os de trânsito sem intenção de matar.",
+     "p": "extrapolacao",
+     "w": "A competência constitucional do júri é para os crimes dolosos contra a vida. Os culposos ficam fora dela."
+    },
+    {
+     "t": "Ele será julgado pelo júri, cujas votações são públicas para garantir a transparência.",
+     "p": "inversao",
+     "w": "A Constituição assegura o contrário: o sigilo das votações (art. 5º, XXXVIII, b)."
+    },
+    {
+     "t": "Ele será julgado por juiz singular, pois o júri só julga crimes cometidos por agentes públicos.",
+     "p": "restricao",
+     "w": "A Constituição não restringe o júri a crimes de agentes públicos; o critério é a natureza do crime: doloso contra a vida."
+    },
+    {
+     "t": "Ele será julgado pelo tribunal do júri, competente para os crimes dolosos contra a vida, com sigilo das votações.",
+     "p": "correta",
+     "w": "O art. 5º, XXXVIII, reconhece o júri e assegura plenitude de defesa, sigilo das votações, soberania dos veredictos e competência para os crimes dolosos contra a vida."
+    }
+   ]
+  },
+  {
+   "id": "dconst18",
+   "topic": "Extradição",
+   "c": "Andrés, naturalizado brasileiro em 2015 e morador de Foz do Iguaçu, é procurado pela Justiça de outro país por um roubo que cometeu lá em 2010, antes da naturalização.",
+   "q": "Segundo a Constituição, ele pode ser extraditado?",
+   "a": 1,
+   "src": "CF/88, art. 5º, LI e LII",
+   "o": [
+    {
+     "t": "Não, porque nenhum brasileiro, nato ou naturalizado, pode ser extraditado.",
+     "p": "generalizacao",
+     "w": "A proibição absoluta vale só para o brasileiro nato. O naturalizado pode ser extraditado nas hipóteses do art. 5º, LI."
+    },
+    {
+     "t": "Sim, porque o naturalizado pode ser extraditado por crime comum praticado antes da naturalização.",
+     "p": "correta",
+     "w": "O art. 5º, LI, permite extraditar o naturalizado em caso de crime comum praticado antes da naturalização ou de comprovado envolvimento em tráfico de drogas, na forma da lei."
+    },
+    {
+     "t": "Sim, e o mesmo valeria para um brasileiro nato na mesma situação.",
+     "p": "extrapolacao",
+     "w": "O brasileiro nato nunca será extraditado. A exceção do art. 5º, LI, atinge apenas o naturalizado."
+    },
+    {
+     "t": "Não, porque o naturalizado só pode ser extraditado por crime político ou de opinião.",
+     "p": "inversao",
+     "w": "Inverte a regra: crime político ou de opinião é justamente o que impede a extradição de estrangeiro (art. 5º, LII)."
+    }
+   ]
+  },
+  {
+   "id": "dconst19",
+   "topic": "Requisição administrativa",
+   "c": "Durante uma enchente em Porto Alegre, a Defesa Civil ocupou o galpão de uma transportadora para abrigar famílias desalojadas, sem autorização do dono.",
+   "q": "O que a Constituição prevê para essa situação?",
+   "a": 0,
+   "src": "CF/88, art. 5º, XXV",
+   "o": [
+    {
+     "t": "Em caso de iminente perigo público, a autoridade pode usar a propriedade particular, com indenização ulterior se houver dano.",
+     "p": "correta",
+     "w": "É a requisição prevista no art. 5º, XXV: o uso é imediato e a indenização, posterior, só existe se houver dano."
+    },
+    {
+     "t": "O uso do galpão depende de prévia e justa indenização em dinheiro.",
+     "p": "troca",
+     "w": "Confunde a requisição com a desapropriação (art. 5º, XXIV), que exige indenização prévia. Na requisição, a indenização é ulterior e só se houver dano."
+    },
+    {
+     "t": "A autoridade pode usar o galpão, mas deverá sempre indenizar o dono, haja ou não dano.",
+     "p": "generalizacao",
+     "w": "A Constituição assegura indenização ulterior apenas “se houver dano”. Sem dano, não há o que indenizar."
+    },
+    {
+     "t": "O uso do galpão só é válido se houver ordem judicial prévia.",
+     "p": "restricao",
+     "w": "O art. 5º, XXV, não exige ordem judicial. A urgência do iminente perigo público autoriza a própria autoridade competente a agir."
+    }
+   ]
+  },
+  {
+   "id": "dconst20",
+   "topic": "Direitos do preso",
+   "c": "Lucas foi preso em flagrante durante a madrugada, em Vitória. Na delegacia, pediu que a mãe fosse avisada e disse que só falaria na presença de um advogado.",
+   "q": "Assinale a afirmação de acordo com a Constituição.",
+   "a": 2,
+   "src": "CF/88, art. 5º, LXI, LXII e LXIII",
+   "o": [
+    {
+     "t": "A comunicação à família só é obrigatória quando o preso tem menos de 18 anos.",
+     "p": "restricao",
+     "w": "A Constituição não faz distinção de idade: a prisão de qualquer pessoa deve ser comunicada à família do preso ou à pessoa por ele indicada."
+    },
+    {
+     "t": "Lucas não poderia ser preso sem ordem escrita de um juiz em nenhuma hipótese.",
+     "p": "generalizacao",
+     "w": "O art. 5º, LXI, admite a prisão em flagrante delito sem ordem judicial, além das hipóteses de transgressão militar e crime propriamente militar."
+    },
+    {
+     "t": "A prisão e o local onde Lucas se encontra devem ser comunicados imediatamente ao juiz competente e à família ou à pessoa que ele indicar.",
+     "p": "correta",
+     "w": "É o texto do art. 5º, LXII. O inciso LXIII acrescenta o direito de permanecer calado e a assistência da família e de advogado."
+    },
+    {
+     "t": "A prisão deve ser comunicada ao Ministério Público, que decide se avisa ou não a família.",
+     "p": "troca",
+     "w": "A comunicação imediata é ao juiz competente e à família ou à pessoa indicada. Não cabe ao Ministério Público decidir se a família será avisada."
+    }
+   ]
+  },
+  {
+   "id": "dconst21",
+   "topic": "Tratados de direitos humanos",
+   "c": "O Congresso Nacional vai analisar um tratado internacional sobre os direitos das pessoas idosas e quer que ele tenha a mesma hierarquia de uma emenda constitucional.",
+   "q": "Que procedimento a Constituição exige para isso?",
+   "a": 1,
+   "src": "CF/88, art. 5º, § 3º",
+   "o": [
+    {
+     "t": "Aprovação por maioria absoluta, em turno único, em sessão conjunta do Congresso.",
+     "p": "troca",
+     "w": "Usa o rito de outras deliberações. O § 3º exige votação em cada Casa, separadamente, em dois turnos, por três quintos."
+    },
+    {
+     "t": "Aprovação em cada Casa do Congresso, em dois turnos, por três quintos dos votos dos respectivos membros.",
+     "p": "correta",
+     "w": "Pelo art. 5º, § 3º, tratados de direitos humanos aprovados com esse rito, o mesmo das emendas constitucionais, equivalem às emendas."
+    },
+    {
+     "t": "Aprovação em cada Casa, em dois turnos, por dois terços dos votos dos membros.",
+     "p": "calculo",
+     "w": "Erra o quórum: são três quintos, não dois terços, o mesmo exigido para as propostas de emenda constitucional (art. 60, § 2º)."
+    },
+    {
+     "t": "Nenhum: todo tratado de direitos humanos já ingressa como emenda, qualquer que seja a votação.",
+     "p": "generalizacao",
+     "w": "Só o tratado aprovado pelo rito do § 3º equivale a emenda constitucional. Não é efeito automático de todo tratado de direitos humanos."
+    }
+   ]
+  },
+  {
+   "id": "dconst22",
+   "topic": "Direitos do trabalhador",
+   "c": "Patrícia, empregada com carteira assinada numa empresa de logística em Contagem, revisa seus direitos constitucionais antes de negociar a escala de trabalho.",
+   "q": "Assinale o direito assegurado pelo art. 7º da Constituição.",
+   "a": 3,
+   "src": "CF/88, art. 7º, XIII, XIV, XVI e XVII",
+   "o": [
+    {
+     "t": "Jornada normal não superior a 8 horas diárias e 48 semanais.",
+     "p": "calculo",
+     "w": "Erra o limite semanal: o art. 7º, XIII, fixa 8 horas diárias e 44 semanais, facultadas a compensação e a redução mediante acordo ou convenção coletiva."
+    },
+    {
+     "t": "Férias anuais remuneradas com um terço a mais, apenas após dois anos de empresa.",
+     "p": "restricao",
+     "w": "O art. 7º, XVII, garante férias anuais com pelo menos um terço a mais do que o salário normal, sem a condição de dois anos de empresa."
+    },
+    {
+     "t": "Jornada de seis horas para todos os trabalhadores, em turnos de revezamento ou não.",
+     "p": "generalizacao",
+     "w": "A jornada de seis horas vale para o trabalho em turnos ininterruptos de revezamento, salvo negociação coletiva (art. 7º, XIV), não para todos."
+    },
+    {
+     "t": "Remuneração do serviço extraordinário superior, no mínimo, em 50% à do normal.",
+     "p": "correta",
+     "w": "É o texto do art. 7º, XVI: a hora extra vale pelo menos 50% a mais que a hora normal."
+    }
+   ]
+  },
+  {
+   "id": "dconst23",
+   "topic": "Trabalho do menor",
+   "c": "Uma padaria de Caruaru quer contratar Pedro, de 15 anos, para ajudar na produção de pães.",
+   "q": "Segundo a Constituição, assinale a afirmação correta.",
+   "a": 2,
+   "src": "CF/88, art. 7º, XXXIII",
+   "o": [
+    {
+     "t": "Pedro pode ser contratado como empregado comum, pois a proibição vale só para menores de 14 anos.",
+     "p": "calculo",
+     "w": "Erra a idade: o trabalho comum é proibido a menores de 16 anos. Entre 14 e 16, só como aprendiz."
+    },
+    {
+     "t": "Pedro pode trabalhar como aprendiz, inclusive na madrugada, quando os pães são assados.",
+     "p": "extrapolacao",
+     "w": "Vai além do permitido: o trabalho noturno, perigoso ou insalubre é proibido a menores de 18 anos, mesmo na condição de aprendiz."
+    },
+    {
+     "t": "Pedro só pode trabalhar na condição de aprendiz, permitida a partir dos 14 anos.",
+     "p": "correta",
+     "w": "O art. 7º, XXXIII, proíbe qualquer trabalho a menores de 16 anos, salvo na condição de aprendiz, a partir de 14."
+    },
+    {
+     "t": "Pedro não pode trabalhar de forma alguma até completar 18 anos.",
+     "p": "generalizacao",
+     "w": "Antes dos 18 anos, a proibição é só de trabalho noturno, perigoso ou insalubre. A partir dos 16 o trabalho comum é permitido, e dos 14 aos 16, como aprendiz."
+    }
+   ]
+  },
+  {
+   "id": "dconst24",
+   "topic": "Unicidade sindical",
+   "c": "Em Ribeirão Preto já existe um sindicato dos empregados no comércio com base no município. Um grupo de comerciários quer fundar outro sindicato da mesma categoria, com a mesma base territorial.",
+   "q": "O que diz a Constituição?",
+   "a": 0,
+   "src": "CF/88, art. 8º, I e II",
+   "o": [
+    {
+     "t": "É vedada mais de uma organização sindical da mesma categoria na mesma base territorial, que não pode ser inferior a um Município.",
+     "p": "correta",
+     "w": "É a unicidade sindical do art. 8º, II: um único sindicato por categoria na mesma base territorial, definida pelos interessados e não inferior à área de um Município."
+    },
+    {
+     "t": "A criação é livre, pois a liberdade sindical permite quantos sindicatos a categoria quiser na mesma base.",
+     "p": "generalizacao",
+     "w": "A liberdade de associação sindical tem limite expresso: a vedação de mais de uma organização da mesma categoria na mesma base territorial."
+    },
+    {
+     "t": "O novo sindicato pode ser criado se sua base territorial for apenas um bairro da cidade.",
+     "p": "extrapolacao",
+     "w": "A base territorial não pode ser inferior à área de um Município. Um bairro não serve como base para novo sindicato."
+    },
+    {
+     "t": "A criação depende de autorização prévia do Estado, que avalia a conveniência do novo sindicato.",
+     "p": "inversao",
+     "w": "O art. 8º, I, diz o contrário: a lei não pode exigir autorização do Estado para fundar sindicato, ressalvado o registro no órgão competente."
+    }
+   ]
+  },
+  {
+   "id": "dconst25",
+   "topic": "Naturalização ordinária",
+   "c": "Manuel, português, mora em Santos há um ano e meio, sem interrupção, e tem idoneidade moral. Ele quer se naturalizar brasileiro.",
+   "q": "Segundo a Constituição, assinale a afirmação correta.",
+   "a": 2,
+   "src": "CF/88, art. 12, II, a e b",
+   "o": [
+    {
+     "t": "Ele precisa residir no Brasil há mais de 15 anos ininterruptos para se naturalizar.",
+     "p": "troca",
+     "w": "Os 15 anos ininterruptos, sem condenação penal, são a regra do art. 12, II, b, para estrangeiros de qualquer nacionalidade. Para Manuel vale a alínea a."
+    },
+    {
+     "t": "Ele já é brasileiro nato, por ser originário de país de língua portuguesa.",
+     "p": "extrapolacao",
+     "w": "Ser originário de país lusófono só facilita a naturalização. As hipóteses de brasileiro nato estão no art. 12, I, e não incluem esse caso."
+    },
+    {
+     "t": "Ele pode se naturalizar: de originários de países de língua portuguesa se exigem só residência por um ano ininterrupto e idoneidade moral.",
+     "p": "correta",
+     "w": "É o art. 12, II, a: na forma da lei, são naturalizados os que adquirem a nacionalidade, exigidas dos originários de países de língua portuguesa apenas essas duas condições."
+    },
+    {
+     "t": "Ele pode se naturalizar, mas ficará proibido de votar e de ser votado.",
+     "p": "restricao",
+     "w": "O naturalizado pode alistar-se, votar e ser votado. As distinções em relação ao nato são só as previstas na Constituição, como os cargos do art. 12, § 3º."
+    }
+   ]
+  },
+  {
+   "id": "dconst26",
+   "topic": "Cargos privativos de nato",
+   "c": "Carla, brasileira naturalizada, foi eleita deputada federal por São Paulo. No início do mandato, colegas sugerem que ela dispute cargos de destaque.",
+   "q": "Qual destes cargos a Constituição reserva a brasileiros natos, impedindo Carla de ocupá-lo?",
+   "a": 0,
+   "src": "CF/88, art. 12, § 3º",
+   "o": [
+    {
+     "t": "Presidente da Câmara dos Deputados.",
+     "p": "correta",
+     "w": "O art. 12, § 3º, reserva a natos os cargos de Presidente e Vice da República, Presidente da Câmara e do Senado, Ministro do STF, carreira diplomática, oficial das Forças Armadas e Ministro da Defesa."
+    },
+    {
+     "t": "Líder do partido de Carla na Câmara dos Deputados.",
+     "p": "generalizacao",
+     "w": "Supõe que toda posição de comando seja privativa de nato. A liderança partidária não está no rol do art. 12, § 3º."
+    },
+    {
+     "t": "Presidente de uma comissão permanente da Câmara.",
+     "p": "extrapolacao",
+     "w": "Estende a regra além do texto: só a Presidência da Casa é privativa de nato, não a presidência de comissões."
+    },
+    {
+     "t": "Ministra do Superior Tribunal de Justiça, caso deixe o mandato e preencha os requisitos.",
+     "p": "troca",
+     "w": "Confunde STJ com STF. Apenas o cargo de Ministro do Supremo Tribunal Federal é privativo de brasileiro nato."
+    }
+   ]
+  },
+  {
+   "id": "dconst27",
+   "topic": "Idade mínima",
+   "c": "Rafael tem 27 anos, é vereador em Juazeiro do Norte e avalia a qual cargo poderia concorrer na próxima eleição.",
+   "q": "Para qual cargo ele já cumpre a idade mínima exigida pela Constituição?",
+   "a": 3,
+   "src": "CF/88, art. 14, § 3º, VI",
+   "o": [
+    {
+     "t": "Governador, que exige 25 anos.",
+     "p": "calculo",
+     "w": "Erra a idade: para governador e vice-governador, a Constituição exige 30 anos."
+    },
+    {
+     "t": "Senador, que exige a mesma idade de deputado federal.",
+     "p": "troca",
+     "w": "Para senador, a idade mínima é de 35 anos, a mesma de Presidente e Vice-Presidente da República."
+    },
+    {
+     "t": "Nenhum, pois só o cargo de vereador admite candidatos com menos de 30 anos.",
+     "p": "generalizacao",
+     "w": "Além de vereador (18 anos), vários cargos exigem só 21 anos, como deputado federal, deputado estadual e prefeito."
+    },
+    {
+     "t": "Deputado federal, que exige 21 anos.",
+     "p": "correta",
+     "w": "O art. 14, § 3º, VI, exige 21 anos para deputado federal, deputado estadual ou distrital, prefeito, vice-prefeito e juiz de paz."
+    }
+   ]
+  },
+  {
+   "id": "dconst28",
+   "topic": "Inelegibilidade reflexa",
+   "c": "Juliana é casada com o prefeito de Petrolina, que cumpre o primeiro mandato. Ela nunca exerceu mandato eletivo e quer se candidatar a vereadora no mesmo município.",
+   "q": "Segundo a Constituição, assinale a afirmação correta.",
+   "a": 1,
+   "src": "CF/88, art. 14, § 7º",
+   "o": [
+    {
+     "t": "Ela é elegível, pois a inelegibilidade reflexa atinge só parentes consanguíneos, não o cônjuge.",
+     "p": "restricao",
+     "w": "O § 7º menciona expressamente o cônjuge, além dos parentes consanguíneos ou afins, até o segundo grau ou por adoção."
+    },
+    {
+     "t": "Ela é inelegível no território de jurisdição do marido; a exceção vale só para quem já tem mandato e concorre à reeleição.",
+     "p": "correta",
+     "w": "O art. 14, § 7º, torna inelegíveis, no território de jurisdição do titular, o cônjuge e os parentes até o segundo grau do prefeito, salvo se já titulares de mandato e candidatos à reeleição."
+    },
+    {
+     "t": "Ela fica inelegível em qualquer município do país enquanto o marido for prefeito.",
+     "p": "generalizacao",
+     "w": "A inelegibilidade reflexa vale só “no território de jurisdição do titular”, ou seja, em Petrolina."
+    },
+    {
+     "t": "Ela é elegível para vereadora, pois a restrição só alcança os cargos do Poder Executivo.",
+     "p": "troca",
+     "w": "A Constituição não limita a inelegibilidade reflexa a cargos do Executivo; ela alcança qualquer cargo eletivo no território de jurisdição do titular."
+    }
+   ]
+  },
+  {
+   "id": "dconst29",
+   "topic": "Alistamento facultativo",
+   "c": "Numa campanha do TRE do Amazonas em escolas de Manaus, uma servidora explica quem é obrigado a se alistar e votar e para quem isso é opcional.",
+   "q": "Para quem o alistamento eleitoral e o voto são facultativos, segundo a Constituição?",
+   "a": 3,
+   "src": "CF/88, art. 14, §§ 1º, 2º e 4º",
+   "o": [
+    {
+     "t": "Para os analfabetos, os maiores de 60 anos e os maiores de 16 e menores de 18 anos.",
+     "p": "calculo",
+     "w": "Erra a idade: o voto passa a ser facultativo para os maiores de 70 anos, não de 60."
+    },
+    {
+     "t": "Para os conscritos, durante o serviço militar obrigatório.",
+     "p": "troca",
+     "w": "Os conscritos, durante o serviço militar obrigatório, não podem se alistar (art. 14, § 2º). Não é caso de voto facultativo, e sim de inalistabilidade."
+    },
+    {
+     "t": "Para os analfabetos, que, por poderem votar, também podem ser eleitos.",
+     "p": "extrapolacao",
+     "w": "O analfabeto pode votar, mas o art. 14, § 4º, o declara inelegível. Votar não garante o direito de ser votado."
+    },
+    {
+     "t": "Para os analfabetos, os maiores de 70 anos e os maiores de 16 e menores de 18 anos.",
+     "p": "correta",
+     "w": "É o art. 14, § 1º, II. Para os demais brasileiros maiores de 18 anos, alistamento e voto são obrigatórios."
+    }
+   ]
+  },
+  {
+   "id": "dconst30",
+   "topic": "Suspensão de direitos políticos",
+   "c": "Marcelo, morador de Ponta Grossa, foi condenado criminalmente por sentença transitada em julgado e cumpre pena em regime aberto.",
+   "q": "Qual é a situação dos direitos políticos de Marcelo?",
+   "a": 1,
+   "src": "CF/88, art. 15, caput e III",
+   "o": [
+    {
+     "t": "São cassados definitivamente pela Justiça Eleitoral.",
+     "p": "troca",
+     "w": "O art. 15 veda a cassação de direitos políticos. Admite apenas perda ou suspensão, nos casos que enumera."
+    },
+    {
+     "t": "Ficam suspensos enquanto durarem os efeitos da condenação.",
+     "p": "correta",
+     "w": "O art. 15, III, prevê a suspensão dos direitos políticos em caso de condenação criminal transitada em julgado, enquanto durarem seus efeitos."
+    },
+    {
+     "t": "Ficam suspensos só se a pena for cumprida em regime fechado.",
+     "p": "restricao",
+     "w": "A Constituição não distingue o regime de cumprimento: basta a condenação criminal transitada em julgado."
+    },
+    {
+     "t": "Ficam suspensos desde o recebimento da denúncia, antes mesmo da condenação.",
+     "p": "extrapolacao",
+     "w": "A suspensão depende de condenação criminal transitada em julgado. O simples recebimento da denúncia não a provoca."
+    }
+   ]
+  },
+  {
+   "id": "dconst31",
+   "topic": "Competência privativa da União",
+   "c": "A Assembleia Legislativa de Santa Catarina aprovou uma lei estadual que cria novas infrações de trânsito e multas para quem usa o celular ao volante.",
+   "q": "Essa lei é compatível com a repartição de competências da Constituição?",
+   "a": 0,
+   "src": "CF/88, art. 22, XI e parágrafo único",
+   "o": [
+    {
+     "t": "Não, pois legislar sobre trânsito e transporte é competência privativa da União.",
+     "p": "correta",
+     "w": "O art. 22, XI, reserva à União legislar sobre trânsito e transporte. Os estados só poderiam tratar de questões específicas se autorizados por lei complementar (art. 22, parágrafo único)."
+    },
+    {
+     "t": "Sim, pois trânsito é matéria de competência legislativa concorrente entre União e estados.",
+     "p": "troca",
+     "w": "Trânsito e transporte não estão no art. 24 (competência concorrente), e sim no art. 22, entre as competências privativas da União."
+    },
+    {
+     "t": "Sim, pois os estados podem legislar sobre qualquer assunto de interesse da sua população.",
+     "p": "generalizacao",
+     "w": "A competência remanescente dos estados (art. 25, § 1º) não alcança as matérias que a Constituição reservou à União, como trânsito."
+    },
+    {
+     "t": "Sim, desde que a lei estadual tenha sido aprovada por maioria absoluta da Assembleia.",
+     "p": "restricao",
+     "w": "O quórum de aprovação não resolve o problema: o vício é de competência. A matéria pertence à União (art. 22, XI)."
+    }
+   ]
+  },
+  {
+   "id": "dconst32",
+   "topic": "Competência concorrente",
+   "c": "Não havia lei federal de normas gerais sobre certo tema de proteção ao consumidor, e o Espírito Santo editou lei completa sobre ele. Anos depois, a União editou lei de normas gerais com regras diferentes.",
+   "q": "O que acontece com a lei estadual?",
+   "a": 2,
+   "src": "CF/88, art. 24, §§ 1º a 4º",
+   "o": [
+    {
+     "t": "É revogada integralmente pela lei federal.",
+     "p": "troca",
+     "w": "A Constituição fala em suspensão de eficácia, e só no que for contrário, não em revogação integral. Entes diferentes não revogam as leis uns dos outros."
+    },
+    {
+     "t": "Continua plenamente eficaz, por ter sido editada antes da lei federal.",
+     "p": "inversao",
+     "w": "Inverte a regra do § 4º: a superveniência da lei federal de normas gerais suspende a eficácia da lei estadual no que lhe for contrário."
+    },
+    {
+     "t": "Sua eficácia fica suspensa no que for contrário à lei federal superveniente.",
+     "p": "correta",
+     "w": "Inexistindo lei federal, o estado exerce competência plena (art. 24, § 3º). A lei federal posterior suspende a eficácia da estadual no que lhe for contrário (§ 4º)."
+    },
+    {
+     "t": "Só perde eficácia se o Senado Federal suspender sua execução.",
+     "p": "restricao",
+     "w": "A suspensão decorre diretamente do art. 24, § 4º, sem depender de ato do Senado. O art. 52, X, trata de outra situação."
+    }
+   ]
+  },
+  {
+   "id": "dconst33",
+   "topic": "Competência dos municípios",
+   "c": "A Câmara Municipal de Sorocaba discute como organizar o serviço de ônibus urbano, cujas linhas circulam apenas dentro da cidade.",
+   "q": "Segundo a Constituição, a quem compete organizar e prestar esse serviço?",
+   "a": 1,
+   "src": "CF/88, art. 30, V",
+   "o": [
+    {
+     "t": "Ao Estado, porque todo transporte coletivo de passageiros é de competência estadual.",
+     "p": "generalizacao",
+     "w": "O transporte coletivo dentro do município é de interesse local. O estado cuida do transporte intermunicipal, não de todo transporte coletivo."
+    },
+    {
+     "t": "Ao Município, diretamente ou sob concessão ou permissão, por ser serviço de interesse local de caráter essencial.",
+     "p": "correta",
+     "w": "O art. 30, V, atribui ao Município organizar e prestar os serviços públicos de interesse local, incluído o transporte coletivo, que tem caráter essencial."
+    },
+    {
+     "t": "À União, porque legislar sobre trânsito e transporte é competência privativa dela.",
+     "p": "troca",
+     "w": "Confunde legislar com prestar o serviço. A União edita as normas sobre trânsito e transporte, mas o serviço local de ônibus cabe ao Município."
+    },
+    {
+     "t": "Ao Município, mas apenas diretamente, sendo vedadas a concessão e a permissão.",
+     "p": "restricao",
+     "w": "O art. 30, V, permite expressamente prestar o serviço “diretamente ou sob regime de concessão ou permissão”."
+    }
+   ]
+  },
+  {
+   "id": "dconst34",
+   "topic": "Criação de municípios",
+   "c": "Moradores de um distrito de Itapipoca, no Ceará, querem emancipá-lo e transformá-lo em município.",
+   "q": "O que a Constituição exige para a criação do novo município?",
+   "a": 3,
+   "src": "CF/88, art. 18, § 4º",
+   "o": [
+    {
+     "t": "Lei complementar federal específica, aprovada pelo Congresso Nacional para cada novo município.",
+     "p": "troca",
+     "w": "A lei complementar federal fixa o período em que as criações podem ocorrer, mas quem cria o município é a lei estadual."
+    },
+    {
+     "t": "Lei estadual, dispensada qualquer consulta à população.",
+     "p": "inversao",
+     "w": "Inverte a exigência: a consulta prévia, por plebiscito, às populações dos municípios envolvidos é obrigatória."
+    },
+    {
+     "t": "Apenas plebiscito: aprovada pelos moradores, a emancipação é automática.",
+     "p": "extrapolacao",
+     "w": "O plebiscito é requisito, mas não cria o município sozinho. A criação depende de lei estadual, no período fixado por lei complementar federal."
+    },
+    {
+     "t": "Lei estadual, no período fixado por lei complementar federal, após estudos de viabilidade e plebiscito nos municípios envolvidos.",
+     "p": "correta",
+     "w": "É o art. 18, § 4º: lei estadual, dentro do período determinado por lei complementar federal, com plebiscito das populações envolvidas após divulgação dos Estudos de Viabilidade Municipal."
+    }
+   ]
+  },
+  {
+   "id": "dconst35",
+   "topic": "Validade do concurso",
+   "c": "O concurso para agente administrativo da Prefeitura de Uberaba foi homologado com validade de dois anos. Ainda nesse prazo, a prefeitura quer abrir novo concurso para o mesmo cargo.",
+   "q": "Segundo a Constituição, assinale a afirmação correta.",
+   "a": 2,
+   "src": "CF/88, art. 37, III e IV",
+   "o": [
+    {
+     "t": "A validade pode ser prorrogada quantas vezes a prefeitura quiser, por até dois anos de cada vez.",
+     "p": "generalizacao",
+     "w": "O art. 37, III, permite uma única prorrogação, por igual período ao da validade original."
+    },
+    {
+     "t": "A validade do concurso pode ser de até quatro anos, prorrogável uma vez por igual período.",
+     "p": "calculo",
+     "w": "Erra o prazo: a validade é de até dois anos, prorrogável uma vez por igual período."
+    },
+    {
+     "t": "Durante o prazo previsto no edital, os aprovados no concurso anterior serão convocados com prioridade sobre os novos concursados.",
+     "p": "correta",
+     "w": "O art. 37, IV, assegura prioridade, durante o prazo improrrogável previsto no edital, aos aprovados no concurso anterior sobre os novos concursados."
+    },
+    {
+     "t": "É proibido abrir novo concurso enquanto houver aprovados no anterior dentro do prazo de validade.",
+     "p": "extrapolacao",
+     "w": "A Constituição não proíbe o novo concurso; garante apenas que os aprovados no anterior sejam convocados com prioridade."
+    }
+   ]
+  },
+  {
+   "id": "dconst36",
+   "topic": "Servidor e mandato eletivo",
+   "c": "Edson, servidor efetivo da Secretaria de Agricultura de Mato Grosso, foi eleito vereador em Sinop. Os horários da Câmara Municipal são compatíveis com os do seu cargo.",
+   "q": "Segundo a Constituição, qual é a situação de Edson?",
+   "a": 0,
+   "src": "CF/88, art. 38, II e III",
+   "o": [
+    {
+     "t": "Pode exercer os dois, recebendo as vantagens do cargo sem prejuízo da remuneração do cargo eletivo.",
+     "p": "correta",
+     "w": "O art. 38, III, permite ao vereador, havendo compatibilidade de horários, acumular cargo e mandato, com as duas remunerações."
+    },
+    {
+     "t": "Deve se afastar do cargo e optar por uma das remunerações, como ocorre com o prefeito.",
+     "p": "troca",
+     "w": "Essa é a regra do mandato de prefeito (art. 38, II), aplicada ao vereador só quando não há compatibilidade de horários."
+    },
+    {
+     "t": "Deve se afastar do cargo efetivo, pois todo mandato eletivo exige afastamento.",
+     "p": "generalizacao",
+     "w": "O mandato de vereador com horários compatíveis é justamente a exceção: não exige afastamento do cargo efetivo."
+    },
+    {
+     "t": "Pode exercer os dois, mas só recebe a remuneração do cargo efetivo.",
+     "p": "restricao",
+     "w": "O art. 38, III, garante as vantagens do cargo “sem prejuízo da remuneração do cargo eletivo”: ele recebe as duas."
+    }
+   ]
+  },
+  {
+   "id": "dconst37",
+   "topic": "Prisão de parlamentar",
+   "c": "Um deputado federal eleito por Alagoas foi diplomado em dezembro. Em fevereiro, foi preso em flagrante por crime inafiançável.",
+   "q": "Segundo a Constituição, o que deve acontecer?",
+   "a": 2,
+   "src": "CF/88, art. 53, § 2º",
+   "o": [
+    {
+     "t": "A prisão é ilegal, pois desde a diplomação o parlamentar não pode ser preso em nenhuma hipótese.",
+     "p": "generalizacao",
+     "w": "A imunidade prisional tem exceção expressa: o flagrante de crime inafiançável."
+    },
+    {
+     "t": "Os autos vão à Câmara, que decide sobre a prisão pelo voto de dois terços de seus membros.",
+     "p": "calculo",
+     "w": "Erra o quórum: a Constituição exige o voto da maioria dos membros da Casa, não dois terços."
+    },
+    {
+     "t": "Os autos devem ir em 24 horas à Câmara dos Deputados, que, pelo voto da maioria de seus membros, resolverá sobre a prisão.",
+     "p": "correta",
+     "w": "Desde a diplomação, o parlamentar só pode ser preso em flagrante de crime inafiançável, e a Casa decide sobre a prisão pela maioria de seus membros (art. 53, § 2º)."
+    },
+    {
+     "t": "Os autos devem ir ao Supremo Tribunal Federal, que decidirá sobre a manutenção da prisão.",
+     "p": "troca",
+     "w": "Quem resolve sobre a prisão é a Casa a que pertence o parlamentar, no caso a Câmara dos Deputados, e não o STF."
+    }
+   ]
+  },
+  {
+   "id": "dconst38",
+   "topic": "Limites da medida provisória",
+   "c": "Diante de uma enchente de grandes proporções no Sul do país, a Presidência da República avalia editar medidas provisórias sobre diversos temas.",
+   "q": "Sobre qual matéria a Constituição admite a edição de medida provisória?",
+   "a": 0,
+   "src": "CF/88, art. 62, § 1º, I e III; art. 167, § 3º",
+   "o": [
+    {
+     "t": "Abertura de crédito extraordinário para despesas imprevisíveis e urgentes, como as de calamidade pública.",
+     "p": "correta",
+     "w": "O art. 62, § 1º, I, d, veda MP sobre orçamento e créditos adicionais e suplementares, mas ressalva o crédito extraordinário do art. 167, § 3º."
+    },
+    {
+     "t": "Qualquer matéria, desde que haja relevância e urgência.",
+     "p": "generalizacao",
+     "w": "Relevância e urgência são pressupostos, mas não bastam: o art. 62, § 1º, lista matérias em que a MP é vedada mesmo nessas condições."
+    },
+    {
+     "t": "Direito penal, para criar um crime de aumento abusivo de preços durante a calamidade.",
+     "p": "extrapolacao",
+     "w": "A MP é vedada em matéria de direito penal, processual penal e processual civil (art. 62, § 1º, I, b)."
+    },
+    {
+     "t": "Matéria reservada a lei complementar, desde que a MP seja aprovada depois por maioria absoluta.",
+     "p": "restricao",
+     "w": "O art. 62, § 1º, III, veda MP sobre matéria reservada a lei complementar, sem prever exceção pelo quórum de conversão."
+    }
+   ]
+  },
+  {
+   "id": "dconst39",
+   "topic": "Proposta de emenda",
+   "c": "Um grupo de deputados federais do Rio Grande do Sul quer apresentar uma proposta de emenda à Constituição sobre segurança pública.",
+   "q": "Segundo a Constituição, assinale a afirmação correta.",
+   "a": 3,
+   "src": "CF/88, art. 60, I, §§ 2º e 3º",
+   "o": [
+    {
+     "t": "Aprovada pelo Congresso, a emenda vai à sanção do Presidente da República.",
+     "p": "extrapolacao",
+     "w": "Emenda constitucional não passa por sanção nem veto: é promulgada pelas Mesas da Câmara e do Senado (art. 60, § 3º)."
+    },
+    {
+     "t": "Basta a assinatura de um deputado, como ocorre com os projetos de lei ordinária.",
+     "p": "generalizacao",
+     "w": "A iniciativa de PEC é restrita: um terço dos membros de uma das Casas, o Presidente da República ou mais da metade das Assembleias Legislativas."
+    },
+    {
+     "t": "A aprovação exige dois terços dos votos, em turno único, em sessão conjunta do Congresso.",
+     "p": "calculo",
+     "w": "Erra o procedimento: são dois turnos em cada Casa, separadamente, com três quintos dos votos dos respectivos membros."
+    },
+    {
+     "t": "A proposta precisa de pelo menos um terço dos deputados e de aprovação em cada Casa, em dois turnos, por três quintos.",
+     "p": "correta",
+     "w": "O art. 60, I, exige iniciativa de no mínimo um terço da Câmara ou do Senado, e o § 2º, aprovação em dois turnos, em cada Casa, por três quintos dos membros."
+    }
+   ]
+  },
+  {
+   "id": "dconst40",
+   "topic": "Dupla vacância presidencial",
+   "c": "Num cenário hipotético, o Presidente e o Vice-Presidente da República deixam os cargos definitivamente no segundo ano do mandato.",
+   "q": "Segundo a Constituição, como serão escolhidos os novos ocupantes?",
+   "a": 1,
+   "src": "CF/88, art. 81, caput e §§ 1º e 2º",
+   "o": [
+    {
+     "t": "Por eleição indireta, feita pelo Congresso Nacional trinta dias depois da última vaga.",
+     "p": "troca",
+     "w": "A eleição pelo Congresso em trinta dias vale só quando a vacância ocorre nos últimos dois anos do período presidencial (art. 81, § 1º)."
+    },
+    {
+     "t": "Por eleição realizada noventa dias depois de aberta a última vaga, e os eleitos completarão o período dos antecessores.",
+     "p": "correta",
+     "w": "Fora dos dois últimos anos do mandato, aplica-se o caput do art. 81: eleição noventa dias após a última vaga. Pelo § 2º, os eleitos completam o período."
+    },
+    {
+     "t": "Não haverá eleição: o Presidente da Câmara assume e governa até o fim do mandato.",
+     "p": "extrapolacao",
+     "w": "O Presidente da Câmara é chamado ao exercício temporariamente (art. 80). A Constituição exige nova eleição para os dois cargos."
+    },
+    {
+     "t": "Por eleição direta, e os eleitos cumprirão um novo mandato completo de quatro anos.",
+     "p": "inversao",
+     "w": "O § 2º do art. 81 determina que, em qualquer dos casos, os eleitos apenas completem o período de seus antecessores."
+    }
+   ]
+  },
+  {
+   "id": "dconst41",
+   "topic": "Processo contra o Presidente",
+   "c": "Num cenário hipotético, o Presidente da República é acusado de crime comum relacionado ao exercício de suas funções.",
+   "q": "Segundo a Constituição, assinale a afirmação correta.",
+   "a": 3,
+   "src": "CF/88, art. 86, caput e §§ 1º e 2º",
+   "o": [
+    {
+     "t": "Admitida a acusação por dois terços da Câmara, ele será julgado pelo Senado Federal.",
+     "p": "troca",
+     "w": "O Senado julga o Presidente nos crimes de responsabilidade. Nas infrações penais comuns, o julgamento cabe ao STF."
+    },
+    {
+     "t": "Admitida a acusação pela maioria absoluta da Câmara, ele será julgado pelo STF.",
+     "p": "calculo",
+     "w": "Erra o quórum: a admissão da acusação contra o Presidente exige dois terços da Câmara dos Deputados."
+    },
+    {
+     "t": "Recebida a denúncia pelo STF, ele ficará afastado das funções por prazo indeterminado, até o julgamento.",
+     "p": "extrapolacao",
+     "w": "O afastamento tem limite: se o julgamento não terminar em 180 dias, cessa o afastamento, sem prejuízo do processo (art. 86, § 2º)."
+    },
+    {
+     "t": "Admitida a acusação por dois terços da Câmara dos Deputados, ele será julgado pelo Supremo Tribunal Federal.",
+     "p": "correta",
+     "w": "Pelo art. 86, admitida a acusação por dois terços da Câmara, o Presidente é julgado pelo STF nas infrações penais comuns e pelo Senado nos crimes de responsabilidade."
+    }
+   ]
+  },
+  {
+   "id": "dconst42",
+   "topic": "Vedações do Ministério Público",
+   "c": "Uma promotora de Justiça do Ministério Público de Minas Gerais, com 12 anos de carreira, recebeu convite para se filiar a um partido e disputar a prefeitura de sua cidade.",
+   "q": "Segundo a Constituição, assinale a afirmação correta.",
+   "a": 1,
+   "src": "CF/88, art. 128, § 5º, II, e",
+   "o": [
+    {
+     "t": "Ela pode se filiar e concorrer, desde que se licencie do cargo durante a campanha.",
+     "p": "restricao",
+     "w": "A Constituição não prevê licença como forma de contornar a vedação; a proibição de atividade político-partidária vale enquanto ela integrar a carreira."
+    },
+    {
+     "t": "Enquanto for membro do Ministério Público, ela não pode exercer atividade político-partidária.",
+     "p": "correta",
+     "w": "O art. 128, § 5º, II, e, veda expressamente aos membros do Ministério Público o exercício de atividade político-partidária."
+    },
+    {
+     "t": "Ela pode concorrer, pois a vedação de atividade político-partidária atinge só os juízes.",
+     "p": "troca",
+     "w": "A vedação existe para os juízes (art. 95, parágrafo único, III) e também para os membros do Ministério Público (art. 128, § 5º, II, e)."
+    },
+    {
+     "t": "Ela pode concorrer, pois a independência funcional do MP garante liberdade político-partidária aos membros.",
+     "p": "extrapolacao",
+     "w": "A independência funcional (art. 127, § 1º) protege a atuação do membro nos processos; não autoriza atividade político-partidária."
+    }
+   ]
+  },
+  {
+   "id": "dconst43",
+   "type": "ce",
+   "topic": "Soberania popular",
+   "src": "CF/88, art. 1º, parágrafo único",
+   "c": "Num debate numa escola estadual de Palmas, um aluno afirma que, no Brasil, o povo só exerce o poder quando vota em seus representantes.",
+   "q": "Segundo a Constituição, todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos da Constituição.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. É o texto do art. 1º, parágrafo único, que combina democracia representativa e participação direta, como plebiscito, referendo e iniciativa popular (art. 14)."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado é restringir o exercício do poder ao voto em representantes, como fez o aluno. A Constituição prevê também o exercício direto."
+    }
+   ]
+  },
+  {
+   "id": "dconst44",
+   "type": "ce",
+   "topic": "Separação dos Poderes",
+   "src": "CF/88, art. 2º",
+   "c": "Numa palestra para estagiários do Tribunal de Justiça de Sergipe, um palestrante apresentou a organização dos Poderes no Brasil.",
+   "q": "São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo, o Judiciário e o Ministério Público.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "extrapolacao",
+     "w": "Julgar certo é ampliar a lista do art. 2º. O Ministério Público tem autonomia, mas é função essencial à justiça, não Poder da União."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. O art. 2º menciona apenas três Poderes: Legislativo, Executivo e Judiciário. O Ministério Público está entre as funções essenciais à justiça (art. 127)."
+    }
+   ]
+  },
+  {
+   "id": "dconst45",
+   "type": "ce",
+   "topic": "Identificação criminal",
+   "src": "CF/88, art. 5º, LVIII",
+   "c": "Ana apresentou um documento de identidade válido ao ser autuada numa delegacia de Ribeirão Preto. Mesmo assim, o delegado determinou a coleta de suas impressões digitais, invocando uma hipótese prevista em lei.",
+   "q": "O civilmente identificado não será submetido a identificação criminal em nenhuma hipótese.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo é transformar a regra em absoluta. O próprio inciso LVIII ressalva as hipóteses previstas em lei."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. O art. 5º, LVIII, diz que o civilmente identificado não será submetido a identificação criminal, “salvo nas hipóteses previstas em lei”."
+    }
+   ]
+  },
+  {
+   "id": "dconst46",
+   "type": "ce",
+   "topic": "Intranscendência da pena",
+   "src": "CF/88, art. 5º, XLV",
+   "c": "Um empresário de Londrina foi condenado por desviar recursos de uma fundação e morreu antes de reparar o dano. Seus filhos herdaram um imóvel.",
+   "q": "Nenhuma pena passará da pessoa do condenado, mas a obrigação de reparar o dano pode ser estendida aos sucessores, até o limite do valor do patrimônio transferido.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. É o art. 5º, XLV: a pena não passa da pessoa do condenado, mas a reparação do dano e o perdimento de bens alcançam os sucessores até o limite da herança."
+    },
+    {
+     "t": "Errado",
+     "p": "generalizacao",
+     "w": "Julgar errado é estender a intranscendência à obrigação de reparar o dano. Ela vale para a pena; a reparação pode ser cobrada dos herdeiros, até o valor herdado."
+    }
+   ]
+  },
+  {
+   "id": "dconst47",
+   "type": "ce",
+   "topic": "Rol de direitos sociais",
+   "src": "CF/88, art. 6º",
+   "c": "Uma associação de usuários de ônibus de Goiânia afirma, em audiência pública, que o transporte é direito social garantido pela Constituição.",
+   "q": "O transporte está expressamente previsto no art. 6º da Constituição como direito social, ao lado de educação, saúde, alimentação, trabalho e moradia.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. O art. 6º inclui o transporte entre os direitos sociais, com educação, saúde, alimentação, trabalho, moradia, lazer, segurança e previdência, entre outros."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado é supor que o rol se limite aos direitos da redação original de 1988. O transporte foi incluído no art. 6º por emenda constitucional e hoje consta expressamente do texto."
+    }
+   ]
+  },
+  {
+   "id": "dconst48",
+   "type": "ce",
+   "topic": "Aviso prévio",
+   "src": "CF/88, art. 7º, XXI",
+   "c": "Gustavo foi dispensado sem justa causa por uma rede de farmácias de Maceió, onde trabalhou por oito meses.",
+   "q": "A Constituição assegura aos trabalhadores aviso prévio proporcional ao tempo de serviço, sendo no mínimo de quinze dias.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "calculo",
+     "w": "Julgar certo é aceitar um número errado. O mínimo constitucional do aviso prévio não é de quinze dias."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. O art. 7º, XXI, garante aviso prévio proporcional ao tempo de serviço, sendo no mínimo de trinta dias, nos termos da lei."
+    }
+   ]
+  },
+  {
+   "id": "dconst49",
+   "type": "ce",
+   "topic": "Nato e naturalizado",
+   "src": "CF/88, art. 12, § 2º",
+   "c": "Um deputado federal do Paraná apresentou projeto de lei ordinária para proibir brasileiros naturalizados de ocupar cargos de direção em agências reguladoras.",
+   "q": "Lei ordinária pode estabelecer distinções entre brasileiros natos e naturalizados além das previstas na Constituição.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "extrapolacao",
+     "w": "Julgar certo é dar à lei um poder que a Constituição negou. As distinções entre natos e naturalizados são só as que o próprio texto constitucional prevê."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. Pelo art. 12, § 2º, a lei não poderá estabelecer distinção entre brasileiros natos e naturalizados, salvo nos casos previstos na Constituição."
+    }
+   ]
+  },
+  {
+   "id": "dconst50",
+   "type": "ce",
+   "topic": "Analfabeto e elegibilidade",
+   "src": "CF/88, art. 14, § 1º, II, a, e § 4º",
+   "c": "Seu Raimundo, de 45 anos, morador de Juazeiro, na Bahia, não sabe ler nem escrever. Ele vota em todas as eleições e agora quer se candidatar a vereador.",
+   "q": "Raimundo pode alistar-se e votar, mas é inelegível, pois a Constituição declara inelegíveis os inalistáveis e os analfabetos.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. Para o analfabeto, alistamento e voto são facultativos (art. 14, § 1º, II, a), mas o § 4º o declara inelegível."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado é confundir capacidade de votar com capacidade de ser votado. O analfabeto tem a primeira, mas não a segunda."
+    }
+   ]
+  },
+  {
+   "id": "dconst51",
+   "type": "ce",
+   "topic": "Recursos de partidos",
+   "src": "CF/88, art. 17, II",
+   "c": "Um partido político com sede em Brasília recebeu uma oferta de financiamento de um governo estrangeiro para suas atividades de formação política.",
+   "q": "Partidos políticos podem receber recursos financeiros de governo estrangeiro, desde que declarem os valores à Justiça Eleitoral.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo é aceitar uma condição que a Constituição não prevê. Não há declaração que torne lícito esse recebimento."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. O art. 17, II, impõe aos partidos a proibição de receber recursos financeiros de entidade ou governo estrangeiros ou de se subordinar a eles."
+    }
+   ]
+  },
+  {
+   "id": "dconst52",
+   "type": "ce",
+   "topic": "Distrito Federal",
+   "src": "CF/88, art. 32, caput",
+   "c": "Numa aula para servidores da Câmara Legislativa do Distrito Federal, a professora compara o DF com os estados e os municípios.",
+   "q": "O Distrito Federal não pode ser dividido em municípios e rege-se por lei orgânica, votada em dois turnos e aprovada por dois terços da Câmara Legislativa.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. É o art. 32, caput: vedada a divisão em municípios, o DF se rege por lei orgânica, votada em dois turnos, com interstício mínimo de dez dias, e aprovada por dois terços."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado é tratar o DF como estado, que se organiza por constituição estadual e se divide em municípios. O DF tem lei orgânica e não pode ser dividido em municípios."
+    }
+   ]
+  },
+  {
+   "id": "dconst53",
+   "type": "ce",
+   "topic": "Estrangeiro em cargo público",
+   "src": "CF/88, art. 37, I",
+   "c": "Uma universidade federal em Viçosa quer contratar como professor um pesquisador argentino, com base em lei que regula o ingresso de estrangeiros na carreira.",
+   "q": "Pela Constituição, os cargos públicos são acessíveis apenas a brasileiros, e estrangeiros não podem ocupá-los em nenhuma hipótese.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo é fechar o acesso de forma absoluta. A Constituição admite estrangeiros em cargos públicos, desde que na forma da lei."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. O art. 37, I, torna os cargos, empregos e funções públicas acessíveis aos brasileiros que preencham os requisitos legais, assim como aos estrangeiros, na forma da lei."
+    }
+   ]
+  },
+  {
+   "id": "dconst54",
+   "type": "ce",
+   "topic": "Publicidade oficial",
+   "src": "CF/88, art. 37, § 1º",
+   "c": "A Prefeitura de Caxias do Sul lançou uma campanha de vacinação com cartazes que trazem a foto e o nome do prefeito em destaque.",
+   "q": "A publicidade dos órgãos públicos deve ter caráter educativo, informativo ou de orientação social, sem nomes, símbolos ou imagens que caracterizem promoção pessoal.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. É o art. 37, § 1º, que proíbe na publicidade oficial nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado é supor que a proibição só valha em período eleitoral ou só para símbolos partidários. O § 1º vale para toda publicidade oficial, a qualquer tempo."
+    }
+   ]
+  },
+  {
+   "id": "dconst55",
+   "type": "ce",
+   "topic": "Sigilo da fonte parlamentar",
+   "src": "CF/88, art. 53, § 6º",
+   "c": "Uma senadora por Roraima recebeu de um servidor, em razão do mandato, documentos sobre irregularidades num contrato e foi intimada a revelar quem os entregou.",
+   "q": "Deputados e senadores não são obrigados a testemunhar sobre informações recebidas ou prestadas em razão do mandato, nem sobre quem lhes confiou essas informações.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. É o art. 53, § 6º, que protege as informações ligadas ao exercício do mandato e as pessoas que as confiaram ao parlamentar ou delas as receberam."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado é limitar as garantias parlamentares à inviolabilidade por opiniões, palavras e votos. O § 6º acrescenta essa proteção específica ao testemunho."
+    }
+   ]
+  },
+  {
+   "id": "dconst56",
+   "type": "ce",
+   "topic": "Rejeição do veto",
+   "src": "CF/88, art. 66, § 4º",
+   "c": "O Presidente da República vetou parte de um projeto de lei sobre saneamento básico, e os parlamentares querem derrubar o veto.",
+   "q": "O veto será apreciado em sessão conjunta e só poderá ser rejeitado pelo voto de dois terços dos deputados e senadores.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "calculo",
+     "w": "Julgar certo é aceitar o quórum errado. Dois terços não é o número exigido para derrubar veto."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. Pelo art. 66, § 4º, o veto é apreciado em sessão conjunta, dentro de trinta dias, e só pode ser rejeitado pelo voto da maioria absoluta dos deputados e senadores."
+    }
+   ]
+  },
+  {
+   "id": "dconst57",
+   "type": "ce",
+   "topic": "Quórum da lei complementar",
+   "src": "CF/88, art. 69",
+   "c": "A Câmara dos Deputados vota um projeto de lei complementar sobre normas gerais de finanças públicas, com 400 deputados presentes à sessão.",
+   "q": "As leis complementares são aprovadas por maioria absoluta.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. É o texto do art. 69. Maioria absoluta é a maioria dos membros da Casa (na Câmara, 257 de 513), e não dos presentes."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado é confundir com a lei ordinária, aprovada por maioria simples dos presentes, desde que presente a maioria absoluta dos membros (art. 47)."
+    }
+   ]
+  },
+  {
+   "id": "dconst58",
+   "type": "ce",
+   "topic": "Ministro de Estado",
+   "src": "CF/88, art. 87, caput",
+   "c": "O Presidente da República quer nomear para o Ministério da Cultura uma produtora cultural de 28 anos, brasileira nata e no pleno gozo dos direitos políticos.",
+   "q": "Os Ministros de Estado devem ser escolhidos dentre brasileiros maiores de trinta e cinco anos, no exercício dos direitos políticos.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo é usar a idade exigida para Presidente da República. Para Ministro de Estado, a idade mínima é outra."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. O art. 87 exige brasileiros maiores de vinte e um anos e no exercício dos direitos políticos. A produtora de 28 anos pode ser nomeada."
+    }
+   ]
+  },
+  {
+   "id": "dconst59",
+   "type": "ce",
+   "topic": "Quarentena do juiz",
+   "src": "CF/88, art. 95, parágrafo único, V",
+   "c": "Roberto, juiz de direito em Campo Grande, aposentou-se e quer abrir um escritório para advogar perante o Tribunal de Justiça de Mato Grosso do Sul, ao qual era vinculado.",
+   "q": "É vedado a Roberto exercer a advocacia no juízo ou tribunal do qual se afastou antes de decorridos três anos do afastamento por aposentadoria.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. O art. 95, parágrafo único, V, proíbe o juiz de advogar no juízo ou tribunal do qual se afastou antes de três anos do afastamento por aposentadoria ou exoneração."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado é supor que a quarentena valha só para quem pede exoneração. A Constituição a aplica também ao afastamento por aposentadoria."
+    }
+   ]
+  },
+  {
+   "id": "dconst60",
+   "type": "ce",
+   "topic": "Procurador-Geral da República",
+   "src": "CF/88, art. 128, § 1º",
+   "c": "Ao fim do mandato de um Procurador-Geral da República, o Presidente da República pretende indicá-lo novamente ao cargo.",
+   "q": "O Procurador-Geral da República é nomeado pelo Presidente da República para mandato de dois anos, vedada a recondução.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "inversao",
+     "w": "Julgar certo é inverter o texto constitucional, que admite expressamente a recondução do PGR."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. O art. 128, § 1º, prevê a nomeação, após aprovação pela maioria absoluta do Senado, para mandato de dois anos, “permitida a recondução”."
+    }
+   ]
+  }
+ ]
+}

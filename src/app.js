@@ -306,7 +306,7 @@ function showToast() {
 const toast = notify;
 
 /* ================= Sessões ================= */
-function startCycle({ decks = [], ids = null, size = 10, title = 'Ciclo', reviewOnly = false, mode = 'learn', unit = null }) {
+function startCycle({ decks = [], ids = null, size = 10, title = 'Ciclo', reviewOnly = false, mode = 'learn', unit = null, diag = false }) {
   let list;
   const now = Date.now();
   if (ids) list = ids.slice(0, size);
@@ -322,7 +322,7 @@ function startCycle({ decks = [], ids = null, size = 10, title = 'Ciclo', review
   }
   if (!list.length) { render(); toast(reviewOnly ? 'Nenhuma revisão pendente agora.' : 'Não há questões para este ciclo.'); return; }
   const dueSet = new Set(list.filter((id) => S.cards[id] && S.cards[id].due <= now));
-  ui.session = { mode, title, params: { decks, ids, size, title, reviewOnly, mode, unit }, queue: list, i: 0, results: [], requeued: {}, xp: 0, dueSet, added: 0, combo: 0, maxCombo: 0, coins: 0, streak0: S.streak.last === dayKey() ? -1 : S.streak.count };
+  ui.session = { mode, title, params: { decks, ids, size, title, reviewOnly, mode, unit, diag }, queue: list, i: 0, results: [], requeued: {}, xp: 0, dueSet, added: 0, combo: 0, maxCombo: 0, coins: 0, streak0: S.streak.last === dayKey() ? -1 : S.streak.count };
   if (mode === 'sim') { ui.session.answers = {}; ui.session.start = now; ui.session.deadline = now + list.length * 90e3; startSimTimer(); }
   setupQuestion();
   render();
@@ -331,7 +331,7 @@ function startCycle({ decks = [], ids = null, size = 10, title = 'Ciclo', review
 function setupQuestion() {
   const s = ui.session; const q = QINDEX[s.queue[s.i]].q;
   s.phase = s.mode === 'sim' ? 'sim' : (S.user.retrieval ? 'desafio' : 'esforco');
-  s.pick = null; s.conf = null; s.order = shuffle(q.o.map((_, i) => i)); s.t0 = Date.now();
+  s.pick = null; s.conf = null; s.order = q.type === 'ce' ? [0, 1] : shuffle(q.o.map((_, i) => i)); s.t0 = Date.now();
   s.tutor = { msgs: [], busy: false, live: '', err: '' }; s.train = { busy: false, done: 0, err: '' };
   clearInterval(s.tick);
   if (s.phase === 'desafio') s.tick = setInterval(() => { const el = document.getElementById('recall-timer'); if (el) el.textContent = Math.round((Date.now() - s.t0) / 1000) + 's pensando'; }, 1000);
@@ -531,7 +531,7 @@ function render() {
   else if (ui.session) { tabbar.hidden = true; v.innerHTML = viewSession(); navyTop = ui.session.phase === 'summary'; }
   else {
     tabbar.hidden = ui.tab === 'avatar'; tabbar.innerHTML = viewTabbar();
-    const views = { home: viewHome, trilhas: viewTrilhas, importar: viewImport, progresso: viewProgress, perfil: viewProfile, conta: viewConta, turmas: viewTurmas, admin: viewAdmin, avatar: viewAvatar };
+    const views = { home: viewHome, trilhas: viewTrilhas, importar: viewImport, progresso: viewProgress, perfil: viewProfile, conta: viewConta, turmas: viewTurmas, admin: viewAdmin, avatar: viewAvatar, liga: viewLiga };
     v.innerHTML = (views[ui.tab] || viewHome)();
     navyTop = ui.tab === 'home';
   }
@@ -568,7 +568,7 @@ document.addEventListener('keydown', (e) => {
 });
 new MutationObserver(() => { if (!document.querySelector('.scrim') && renderSheet.back && document.contains(renderSheet.back)) { try { renderSheet.back.focus({ preventScroll: true }); } catch (e) { /* ok */ } renderSheet.back = null; } }).observe(document.getElementById('app'), { childList: true });
 function viewTabbar() {
-  const cur = ui.tab === 'importar' ? 'trilhas' : ui.tab === 'conta' || ui.tab === 'turmas' || ui.tab === 'admin' || ui.tab === 'avatar' ? 'perfil' : ui.tab;
+  const cur = ui.tab === 'importar' ? 'trilhas' : ui.tab === 'liga' ? 'progresso' : ui.tab === 'conta' || ui.tab === 'turmas' || ui.tab === 'admin' || ui.tab === 'avatar' ? 'perfil' : ui.tab;
   const t = (id, label, icon) => `<button class="tab" data-act="tab" data-tab="${id}" ${cur === id ? 'aria-current="page"' : ''}><span class="pip">${ico(icon)}</span><span>${label}</span></button>`;
   return t('home', 'Início', 'home') + t('trilhas', 'Trilhas', 'decks') + t('progresso', 'Progresso', 'chart') + t('perfil', 'Perfil', 'user');
 }
@@ -629,6 +629,7 @@ function viewHome() {
       ${examCard()}
       ${!S.user.avatar && !S.user.avSeen ? `<div class="avnudge"><span class="av md">${avatarSVG(avatarConfig())}</span><div><b>Monte seu personagem</b><span>Escolha rosto, cabelo, roupa e estilo. Ele aparece no ranking da turma.</span></div><div class="avnudge-act"><button class="btn btn-orange btn-sm" data-act="av-open">Montar</button><button class="icon-btn flat" data-act="av-later" aria-label="Agora não">${ico('close')}</button></div></div>` : ''}
       ${weekStrip()}
+      ${homeLeagueCard()}
       <div class="blk"><div class="sec"><h2>Continue estudando</h2><button class="link" data-act="tab" data-tab="trilhas">Ver todas</button></div>
         <div class="hscroll">${decks.map(deckCard).join('')}</div></div>
       ${homeClassBlock()}
@@ -684,6 +685,7 @@ function viewDeck(d) {
         <button class="btn btn-orange btn-block" data-act="${st.due ? 'review-deck' : 'cycle-deck'}" data-id="${esc(d.id)}">${st.due ? 'Revisar ' + plural(st.due, 'questão', 'questões') : 'Estudar agora · ' + Math.min(10, st.t) + ' questões'}</button>
         <div class="duo">${st.due ? `<button class="btn btn-soft btn-sm" data-act="cycle-deck" data-id="${esc(d.id)}">Ciclo completo</button>` : `<button class="btn btn-soft btn-sm" data-act="quick-deck" data-id="${esc(d.id)}">3 rápidas</button>`}
           <button class="btn btn-soft btn-sm" data-act="sim-deck" data-id="${esc(d.id)}">Simulado · ${Math.round(simN * 1.5)} min</button></div>
+        ${(() => { const n = d.questions.filter((q) => q.type === 'ce').length; return n >= 4 ? `<button class="btn btn-ghost btn-sm btn-block ce-btn" data-act="ce-deck" data-id="${esc(d.id)}"><b>C</b><b>E</b> Treino Certo ou Errado · ${n} itens</button>` : ''; })()}
       </div>
       ${journeyHTML(d)}
       <div class="blk"><div class="sec"><h2>Conteúdo</h2><div class="legend"><span><i class="dot m"></i>Firme</span><span><i class="dot l"></i>Aprendendo</span></div></div>
@@ -701,16 +703,17 @@ function viewDeck(d) {
 /* ---------- Sessão ---------- */
 function viewSession() {
   const s = ui.session;
-  if (s.phase === 'summary') return s.mode === 'sim' ? viewSimSummary() : viewSummary();
+  if (s.phase === 'summary') return s.mode === 'sim' ? viewSimSummary() : s.params && s.params.diag ? viewDiagSummary() : viewSummary();
   const id = s.queue[s.i]; const { q, deck } = QINDEX[id];
   const pct = (s.i / s.queue.length) * 100;
   const back = s.requeued[id] && s.results.some((r) => r.id === id) && s.phase !== 'feedback' && s.phase !== 'consol';
   const L = lookOf(deck);
   const head = `<div class="qmeta"><span class="tag ${TAG_COLOR[deck.tag] || 'c-blue'}">${esc(q.topic)}</span><span>${esc(deck.title)}</span>${back ? '<span class="tag c-peach">De volta para fixar</span>' : ''}</div>
     <div class="case"><span class="tile c-${L.pal === 'navy' ? 'blue' : L.pal}">${ico('file')}</span><span>${esc(q.c)}</span></div>
-    <h2 class="qtext">${esc(q.q)}</h2>`;
+    ${q.type === 'ce' ? `<span class="ce-lbl">Julgue o item · Certo ou Errado</span><h2 class="qtext ce">${esc(q.q)}</h2>` : `<h2 class="qtext">${esc(q.q)}</h2>`}`;
+  const Lt = (di) => (q.type === 'ce' ? (di ? 'E' : 'C') : LETTERS[di]);
   const top = (extra) => `<div class="sess-head"><div class="r"><button class="icon-btn" data-act="quit" aria-label="Sair">${ico('close')}</button><div class="pline" role="progressbar" aria-label="Progresso do ciclo" aria-valuemin="1" aria-valuenow="${s.i + 1}" aria-valuemax="${s.queue.length}"><i style="width:${Math.max(4, pct)}%"></i></div><span class="d num" style="font-weight:600;font-size:14px;min-width:40px;text-align:right">${s.i + 1}/${s.queue.length}</span></div>${extra}</div>`;
-  const opts = (fb) => `<div class="opts${!fb && s.justRevealed ? ' in' : ''}">${s.order.map((oi, di) => fb ? `<button class="opt ${oi === q.a ? 'right' : oi === s.pick ? 'wrong' : 'dim'}" disabled><span class="L">${LETTERS[di]}</span><span>${esc(q.o[oi].t)}</span></button>` : `<button class="opt" data-act="pick" data-i="${oi}" aria-pressed="${s.pick === oi}"><span class="L">${LETTERS[di]}</span><span>${esc(q.o[oi].t)}</span></button>`).join('')}</div>`;
+  const opts = (fb) => `<div class="opts${q.type === 'ce' ? ' ce' : ''}${!fb && s.justRevealed ? ' in' : ''}">${s.order.map((oi, di) => fb ? `<button class="opt ${oi === q.a ? 'right' : oi === s.pick ? 'wrong' : 'dim'}" disabled><span class="L">${Lt(di)}</span><span>${esc(q.o[oi].t)}</span></button>` : `<button class="opt" data-act="pick" data-i="${oi}" aria-pressed="${s.pick === oi}"><span class="L">${Lt(di)}</span><span>${esc(q.o[oi].t)}</span></button>`).join('')}</div>`;
   if (s.mode === 'sim') {
     return `<div class="sess">${top(`<div class="r" style="justify-content:space-between;padding-left:6px"><span class="tag c-blue">Simulado · gabarito no final</span><span class="timer-chip" id="sim-timer">${mmss(s.deadline - Date.now())}</span></div>`)}
       <div class="sess-body">${head}${opts(false)}</div>
@@ -720,8 +723,8 @@ function viewSession() {
   const pi = phases.indexOf(s.phase);
   let body = '', dock = '';
   if (s.phase === 'desafio') {
-    body = head + `<div class="think"><b>Responda de cabeça primeiro</b><p>Formule a resposta antes de ver as opções. Esse esforço é o que fixa o conteúdo.</p><span class="timer" id="recall-timer">0s pensando</span></div>`;
-    dock = `<button class="btn btn-primary btn-block" data-act="reveal">Ver alternativas</button>`;
+    body = head + `<div class="think"><b>${q.type === 'ce' ? 'Certo ou errado? Decida antes' : 'Responda de cabeça primeiro'}</b><p>${q.type === 'ce' ? 'Procure a palavra que pode tornar o item errado e diga para você mesmo o porquê.' : 'Formule a resposta antes de ver as opções. Esse esforço é o que fixa o conteúdo.'}</p><span class="timer" id="recall-timer">0s pensando</span></div>`;
+    dock = `<button class="btn btn-primary btn-block" data-act="reveal">${q.type === 'ce' ? 'Julgar o item' : 'Ver alternativas'}</button>`;
   } else if (s.phase === 'esforco') {
     body = head + opts(false);
     dock = s.pick == null ? `<p class="hint">Escolha uma alternativa</p>` :
@@ -733,15 +736,15 @@ function viewSession() {
       `<button class="btn btn-orange btn-block" data-act="consol">Entender o erro</button>`;
   } else {
     const trap = s.correct ? null : q.o[s.pick].p;
-    body = `<div class="blk" style="gap:4px"><span class="tiny" style="font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--orange-ink)">Engenharia reversa</span><h2 style="font-size:20px">Por que cada alternativa está certa ou errada</h2></div>
+    body = `<div class="blk" style="gap:4px"><span class="tiny" style="font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--orange-ink)">Engenharia reversa</span><h2 style="font-size:20px">${q.type === 'ce' ? 'Por que o item está certo ou errado' : 'Por que cada alternativa está certa ou errada'}</h2></div>
       ${trap ? `<div class="callout" style="background:var(--t-peach)"><span class="tile" style="background:var(--orange);color:#fff">${ico('alert')}</span><div><b>O que te pegou: ${PATTERNS[trap].l}</b><p>${PATTERNS[trap].d}</p></div></div>` : ''}
       <div class="alts">${s.order.map((oi, di) => { const o = q.o[oi]; const isR = oi === q.a, isP = oi === s.pick && !isR;
-        return `<div class="alt ${isR ? 'is-right' : ''} ${isP ? 'is-picked' : ''}"><div class="hd"><span class="L">${LETTERS[di]}</span><span class="tag ${isR ? 'c-mint' : isP ? 'c-pink' : 'c-blue'}">${PATTERNS[o.p] ? PATTERNS[o.p].l : 'Incorreta'}</span>${isP ? '<span class="tiny" style="font-weight:700;color:var(--bad)">sua resposta</span>' : ''}</div><span class="t">${esc(o.t)}</span><span class="w">${esc(o.w)}</span></div>`; }).join('')}</div>
+        return `<div class="alt ${isR ? 'is-right' : ''} ${isP ? 'is-picked' : ''}"><div class="hd"><span class="L">${q.type === 'ce' ? (di ? 'E' : 'C') : LETTERS[di]}</span><span class="tag ${isR ? 'c-mint' : isP ? 'c-pink' : 'c-blue'}">${PATTERNS[o.p] ? PATTERNS[o.p].l : 'Incorreta'}</span>${isP ? '<span class="tiny" style="font-weight:700;color:var(--bad)">sua resposta</span>' : ''}</div><span class="t">${esc(o.t)}</span><span class="w">${esc(o.w)}</span></div>`; }).join('')}</div>
       ${q.src ? `<p class="tiny">Fonte: ${esc(q.src)}</p>` : ''}${viewTrain(s)}${viewTutor(s)}`;
     dock = `<button class="btn btn-primary btn-block" data-act="next">${s.i + 1 >= s.queue.length ? 'Ver resultado' : 'Próxima questão'}</button>`;
   }
   return `<div class="sess">${top(`<div class="steps4" aria-hidden="true">${labels.map((l, i) => `<span class="${i === pi ? 'on' : i < pi ? 'past' : ''}">${l}</span>`).join('')}</div>`)}
-    <div class="sess-body">${body}</div><div class="dock">${dock}</div></div>`;
+    <div class="sess-body">${body}${s.phase === 'feedback' || s.phase === 'consol' ? reportLink() : ''}</div><div class="dock">${dock}</div></div>`;
 }
 function viewTrain(s) {
   if (!aiReady() || s.correct) return '';
@@ -881,6 +884,7 @@ function viewProgress() {
   return `<div class="page">
     <div class="sec" style="padding-top:6px"><h1 style="font-size:26px">Progresso</h1><span class="tag c-peach" style="align-self:center">Nível ${lv}</span></div>
     ${weekReportHTML()}
+    ${homeLeagueCard()}
     <div class="kgrid">
       <div class="kcard c-peach"><span class="tile" style="background:var(--surface)">${ico('flame')}</span><b class="num">${cnt(streakNow())}</b><span>dias seguidos</span></div>
       <div class="kcard c-blue"><span class="tile" style="background:var(--surface)">${ico('layers')}</span><b class="num">${cnt(total)}</b><span>questões respondidas</span></div>
@@ -934,7 +938,7 @@ function viewProfile() {
     <div class="blk"><div class="sec"><h2>Preferências</h2></div><div class="list">
       ${sw('retrieval', 'Recuperação ativa', 'Pensar antes de ver as alternativas', 'c-blue', 'recall')}
       ${sw('fx', 'Som e vibração', 'Sinal de acerto e erro', 'c-peach', 'bolt')}
-      <button class="item" data-act="remind-open"><span class="tile round c-lilac">${ico('clock')}</span><div class="main"><b>Lembrete diário</b><span>${S.user.remind ? 'Todo dia às ' + esc(S.user.remind) : 'Um alerta no calendário do celular'}</span></div>${chev()}</button>
+      <button class="item" data-act="${serverReady() ? 'push-open' : 'remind-open'}"><span class="tile round c-lilac">${ico(serverReady() ? 'bell' : 'clock')}</span><div class="main"><b>Lembrete diário</b><span>${S.user.push ? 'Notificação no celular ativada' : S.user.remind ? 'Todo dia às ' + esc(S.user.remind) : serverReady() ? 'Notificação no celular quando não estudar' : 'Um alerta no calendário do celular'}</span></div>${chev()}</button>
       <button class="item" data-act="exam-open"><span class="tile round c-blue">${ico('exam')}</span><div class="main"><b>Objetivo e data da prova</b><span>${examInfo() ? esc(examInfo().name) + ' · ' + new Date(examInfo().at).toLocaleDateString('pt-BR') : 'Ainda não definido'}</span></div>${chev()}</button>
       <div class="item"><span class="tile round c-mint">${ico('shield')}</span><div class="main"><b>Seus dados</b><span>${loggedIn() ? 'Na sua conta Memory, sincronizados' : cloud.status === 'cloud' ? 'Salvos na sua conta e sincronizados' : 'Salvos neste aparelho'}</span></div></div>
     </div></div>
@@ -944,10 +948,14 @@ function viewProfile() {
       ${acc('c-lilac', 'chart', 'Memória estimada', '<p>O Memory usa um modelo inspirado no FSRS, o algoritmo do Anki. Cada questão tem uma estabilidade e uma dificuldade, e o app agenda a revisão quando a chance de lembrar cai abaixo da sua meta.</p><p>“Chutei” conta como acerto difícil e “tenho certeza” como acerto fácil.</p>')}
       ${acc('c-yellow', 'book', 'Base científica', '<p>Karpicke & Blunt (2011), Science: a prática de recuperação supera a leitura e o mapeamento conceitual.</p><p>Lu, Sales & Heffernan (2021): o feedback imediato favorece a aquisição conceitual.</p><p>Thorndike e Skinner: a consequência imediata de uma ação molda o comportamento.</p>')}
     </div></div>
+    <div class="blk"><div class="sec"><h2>Privacidade</h2></div><div class="list">
+      <button class="item" data-act="legal" data-doc="privacidade"><span class="tile round c-mint">${ico('shield')}</span><div class="main"><b>Política de privacidade</b><span>Quais dados usamos e seus direitos (LGPD)</span></div>${chev()}</button>
+      <button class="item" data-act="legal" data-doc="termos"><span class="tile round c-blue">${ico('file')}</span><div class="main"><b>Termos de uso</b><span>Regras para usar o Memory</span></div>${chev()}</button>
+    </div></div>
     <div class="list">${ui.confirmReset ?
       `<div class="item noicon"><div class="main"><b>Zerar todo o progresso?</b><span>Respostas, XP, sequência e revisões serão apagados. Suas trilhas continuam.</span></div></div><div class="item noicon" style="gap:10px"><button class="btn btn-ghost btn-sm" style="flex:1" data-act="cancel-reset">Cancelar</button><button class="btn btn-danger btn-sm" style="flex:1" data-act="do-reset">Zerar</button></div>` :
       `<button class="item noicon" data-act="ask-reset" style="justify-content:center;color:var(--bad);font-weight:700">Zerar progresso</button>`}</div>
-    <p class="tiny" style="text-align:center">Memory 5.4${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
+    <p class="tiny" style="text-align:center">Memory 6.0${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
   </div>`;
 }
 
@@ -963,13 +971,14 @@ const ACT = {
   'cat': (d) => { ui.cat = d.id; document.querySelectorAll('.fchip').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.id === d.id))); const g = document.getElementById('deck-grid'); if (g) g.innerHTML = deckGrid(); },
   'edit-name': () => { const n = document.getElementById('pf-name'); if (n) { n.focus(); n.select(); } },
   'onb-next': () => { const n = document.getElementById('onb-name'); if (n) S.user.name = n.value.trim(); ui.onb++; render(); $('#view').scrollTop = 0; },
-  'onb-finish': () => { S.user.onboarded = true; persist(); ui.tab = 'home'; render(); if (!S.user.exam) setTimeout(examSheet, REDUCED ? 0 : 500); },
+  'onb-finish': () => { S.user.onboarded = true; persist(); ui.tab = 'home'; render(); setTimeout(diagOffer, REDUCED ? 0 : 450); },
   'persona': (d) => { const n = document.getElementById('onb-name') || document.getElementById('pf-name'); if (n) S.user.name = n.value.trim(); S.user.persona = d.id; if (S.user.onboarded) persist(); render(); },
   'goal': (d) => { S.user.goal = Number(d.n); if (S.user.onboarded) persist(); render(); },
   'retention': (d) => { S.user.retention = Number(d.r); persist(); render(); },
   'toggle': (d) => { S.user[d.key] = !S.user[d.key]; persist(); render(); },
   'quick': () => startCycle({ decks: personaDecks(), size: 3, title: 'Destravar' }),
   'quick-deck': (d) => startCycle({ decks: [d.id], size: 3, title: 'Destravar' }),
+  'ce-deck': (d) => { const dk = deckById(d.id); if (!dk) return; const ids = shuffle(dk.questions.filter((q) => q.type === 'ce').map((q) => q.id)).sort((a, b) => ((S.cards[a] && S.cards[a].s ? retr(S.cards[a]) : -1) - (S.cards[b] && S.cards[b].s ? retr(S.cards[b]) : -1))); startCycle({ ids: ids.slice(0, 10), size: Math.min(10, ids.length), title: 'Certo ou Errado' }); },
   'cycle-all': () => startCycle({ decks: personaDecks(), size: Math.max(5, Math.min(10, S.user.goal)), title: 'Sessão' }),
   'review-all': () => startCycle({ ids: dueIds(), size: 20, title: 'Revisão' }),
   'errors': () => startCycle({ ids: errorIds(), size: 15, title: 'Caderno de erros' }),
@@ -1237,8 +1246,9 @@ document.addEventListener('change', (e) => { if (e.target.id === 'imp-file' && e
 document.addEventListener('keydown', (e) => {
   if (!ui.session || e.target.closest('input,textarea,button')) return;
   const s = ui.session;
-  if ((s.phase === 'esforco' || s.phase === 'sim') && /^[1-4a-dA-D]$/.test(e.key)) {
-    const idx = /\d/.test(e.key) ? Number(e.key) - 1 : 'abcd'.indexOf(e.key.toLowerCase());
+  if ((s.phase === 'esforco' || s.phase === 'sim') && /^[1-4a-eA-E]$/.test(e.key)) {
+    const ce = QINDEX[s.queue[s.i]].q.type === 'ce';
+    const idx = /\d/.test(e.key) ? Number(e.key) - 1 : ce ? 'ce'.indexOf(e.key.toLowerCase()) : 'abcd'.indexOf(e.key.toLowerCase());
     if (s.order[idx] != null) ACT.pick({ i: s.order[idx] });
   } else if (e.key === 'Enter') { const b = document.querySelector('.dock .btn-primary:not([disabled]), .dock .btn-orange'); if (b) b.click(); }
 });

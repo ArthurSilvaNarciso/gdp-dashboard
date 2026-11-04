@@ -29,6 +29,7 @@ const shot = (p, f) => p.screenshot({ path: SHOT + f });
 const toastText = (p) => p.evaluate(() => (document.querySelector('.toast') || {}).textContent || '');
 async function onboard(p, name) {
   await p.click('[data-act=onb-next]'); await p.fill('#onb-name', name); await p.click('[data-act=persona][data-id=concurso]'); await p.click('[data-act=onb-next]'); await p.click('[data-act=goal][data-n="5"]'); await p.click('[data-act=onb-finish]');
+  await p.waitForSelector('[data-act=diag-skip]', { timeout: 3000 }).catch(() => {}); if (await p.locator('[data-act=diag-skip]').count()) await p.click('[data-act=diag-skip]');
   await p.waitForSelector('form[data-form=exam]', { timeout: 3000 }).catch(() => {}); await p.waitForTimeout(250);
   if (await p.locator('form[data-form=exam]').count()) { await p.click('.sheet [data-act=sheet-close]'); await p.waitForTimeout(300); }
 }
@@ -84,9 +85,17 @@ try {
   await A.click('[data-act=auth-eye]');
   ok('mostrar senha', await A.getAttribute('#au-pass', 'type') === 'text');
   await A.fill('#au-pass', 'estudo-ativo-2026'); await shot(A, 'e3-signup.png');
+  await A.click('.sheet button[type=submit]'); await A.waitForTimeout(150);
+  ok('cadastro exige aceite dos termos', (await A.locator('.notice.err').textContent().catch(() => '')).includes('Termos'));
+  await A.click('.terms-row [data-doc=privacidade]'); await A.waitForTimeout(150);
+  ok('política de privacidade abre do cadastro', (await A.locator('.legal h2').textContent()) === 'Política de privacidade');
+  await A.click('[data-act=legal-back]'); await A.waitForTimeout(150);
+  ok('volta ao cadastro sem perder dados', await A.inputValue('#au-email') === 'ruth@memory.app');
+  await A.check('#au-terms'); await A.fill('#au-pass', 'estudo-ativo-2026');
   await A.click('.sheet button[type=submit]');
   await A.waitForFunction(() => API.user && API.sync === 'saved', null, { timeout: 8000 });
   ok('conta criada e progresso enviado', await A.evaluate(async () => { const r = await (await fetch('/api/state')).json(); return Object.keys(r.state.cards).length === 3 && r.state.user.name === 'Ruth'; }));
+  await A.waitForSelector('.page >> text=ruth@memory.app', { timeout: 4000 }).catch(() => {});
   ok('perfil mostra e-mail e sincronização', (await A.locator('.page >> text=ruth@memory.app').count()) === 1);
 
   /* ---------- Aparelho B: entra na mesma conta ---------- */
@@ -134,7 +143,7 @@ try {
   const D = await device('D');
   await D.goto(URL0 + '?turma=' + tcode); await D.waitForTimeout(900);
   ok('link de turma abre cadastro com aviso', (await D.locator('.sheet >> text=participar da turma').count()) === 1);
-  await D.fill('#au-name', 'Duda Lima'); await D.fill('#au-email', 'duda@memory.app'); await D.fill('#au-pass', 'turma-forte-2026'); await D.click('.sheet button[type=submit]');
+  await D.fill('#au-name', 'Duda Lima'); await D.fill('#au-email', 'duda@memory.app'); await D.fill('#au-pass', 'turma-forte-2026'); await D.check('#au-terms'); await D.click('.sheet button[type=submit]');
   await D.waitForFunction(() => API.user && API.classes.length === 1, null, { timeout: 8000 });
   ok('aluno entrou na turma pelo link', await D.evaluate(() => API.classes[0].name === 'Turma Concurso TRT' && API.classes[0].role === 'student'));
   await onboard(D, 'Duda');
@@ -166,7 +175,7 @@ try {
   await flush(D);
   // E entra pelo campo de código
   const E = await device('E');
-  await E.click('[data-act=auth-open][data-m=login]'); await E.click('[data-act=auth-mode][data-m=signup]'); await E.fill('#au-name', 'Enzo Prado'); await E.fill('#au-email', 'enzo@memory.app'); await E.fill('#au-pass', 'turma-forte-2027'); await E.click('.sheet button[type=submit]');
+  await E.click('[data-act=auth-open][data-m=login]'); await E.click('[data-act=auth-mode][data-m=signup]'); await E.fill('#au-name', 'Enzo Prado'); await E.fill('#au-email', 'enzo@memory.app'); await E.fill('#au-pass', 'turma-forte-2027'); await E.check('#au-terms'); await E.click('.sheet button[type=submit]');
   await E.waitForFunction(() => API.user, null, { timeout: 8000 }); await onboard(E, 'Enzo');
   await E.click('[data-tab=perfil]'); await E.click('.list [data-act=tab][data-tab=turmas]');
   await E.fill('#cls-code', tcode.toLowerCase()); await E.click('[data-act=cls-join]');
@@ -256,6 +265,27 @@ try {
   const anon = await device('anon'); await onboard(anon, 'Visitante');
   await anon.click('[data-tab=trilhas]'); await anon.click('[data-act=tab][data-tab=importar]');
   ok('sem conta: IA pede login', (await anon.locator('.notice >> text=Entre na sua conta').count()) === 1);
+
+  /* ---------- Reportar questão, liga, amigos e notificações ---------- */
+  await A.click('[data-tab=home]').catch(() => {}); await A.waitForTimeout(200);
+  await A.evaluate(() => startCycle({ decks: ['port'], size: 2, title: 'Rep' })); await A.click('[data-act=reveal]'); await A.click('.opt >> nth=0'); await A.click('[data-act=conf][data-c=acho]');
+  await A.click('[data-act=report-open]'); await A.click('[data-act=report-kind][data-k=gabarito]'); await A.fill('#rp-note', 'Teste de reporte.'); await A.click('form[data-form=report] [type=submit]'); await A.waitForTimeout(500);
+  ok('reportar problema na questão', (await toastText(A)).includes('Obrigado'));
+  await A.evaluate(() => ACT.end()); await A.evaluate(() => { ui.tab = 'admin'; render(); }); await A.waitForSelector('[data-act=adm-rep]', { timeout: 5000 }).catch(() => {});
+  ok('admin vê o reporte', (await A.locator('[data-act=adm-rep][data-s=resolved]').count()) >= 1);
+  await A.click('[data-act=adm-rep][data-s=resolved]'); await A.waitForTimeout(500);
+  ok('admin marca como corrigida', (await A.locator('[data-act=adm-rep]').count()) === 0);
+  await A.evaluate(() => { ui.tab = 'liga'; render(); }); await A.waitForSelector('.lg-row', { timeout: 5000 }).catch(() => {});
+  ok('liga semanal mostra ranking', (await A.locator('.lg-row.me').count()) === 1 && (await A.locator('.lg-head h2').textContent()).includes('Bronze'));
+  await shot(A, 'e10-liga.png');
+  await A.click('[data-act=league-tab][data-t=amigos]'); const fcode = await A.locator('.code-box .num').textContent();
+  ok('código de convite', /^[A-Z0-9]{6}$/.test(fcode));
+  await D.goto(URL0 + '?amigo=' + fcode); await D.waitForTimeout(1500);
+  await D.evaluate(() => { ui.tab = 'liga'; LG.tab = 'amigos'; render(); }); await D.waitForTimeout(800);
+  ok('convite por link adiciona amigo', await D.evaluate(() => !!(LG.friends && LG.friends.friends.some((f) => f.name === 'Ruth'))));
+  await A.evaluate(() => { ui.tab = 'perfil'; render(); }); await A.click('[data-act=push-open]'); await A.waitForTimeout(200);
+  ok('folha de notificações no celular', (await A.locator('.sheet [data-push-sheet] h2').textContent()) === 'Lembrete no celular');
+  await A.keyboard.press('Escape'); await A.waitForTimeout(200);
 
   /* ---------- Segurança da conta ---------- */
   await A.click('[data-tab=perfil]'); await A.click('.list [data-act=tab][data-tab=conta]');

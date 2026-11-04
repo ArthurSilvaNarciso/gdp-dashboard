@@ -54,6 +54,7 @@ function nextUnit() {
   let best = null, bestAt = -1;
   for (const d of decks) {
     let last = 0; for (const q of d.questions) { const c = S.cards[q.id]; if (c && c.last > last) last = c.last; }
+    const dg = S.user.diag; if (dg && dg.start === d.id && last <= dg.at) last = dg.at + 1; // depois do diagnóstico, começa pela trilha mais fraca
     const u = units(d).find((x) => x.state === 'current');
     if (u && last > bestAt) { best = { d, u }; bestAt = last; }
   }

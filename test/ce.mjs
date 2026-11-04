@@ -1,0 +1,15 @@
+import { createRequire } from 'node:module';
+import { start } from '../dev/server.mjs';
+const { chromium } = createRequire(import.meta.url)('playwright');
+const OUT = '/tmp/claude-0/-home-claude/bb4201d1-86ae-53d3-b9e7-0bd93a0ff471/scratchpad/tour/ce-';
+const srv = await start(3966); const b = await chromium.launch();
+const c = await b.newContext({ viewport: { width: 390, height: 844 } }); const p = await c.newPage();
+const errs = []; p.on('pageerror', (e) => errs.push(e.message));
+await p.goto('http://localhost:3966/'); await p.waitForTimeout(500);
+await p.click('[data-act=onb-next]'); await p.fill('#onb-name', 'Ruth'); await p.click('[data-act=persona][data-id=concurso]'); await p.click('[data-act=onb-next]'); await p.click('[data-act=onb-finish]'); await p.waitForTimeout(500); await p.keyboard.press('Escape');
+await p.evaluate(() => { const d = deckById('dconst'); d.questions.push({ id: 'dconst999', type: 'ce', topic: 'Mandado de segurança', src: 'CF/88, art. 5º, LXIX', c: 'Um servidor teve negado, sem motivação, o acesso a certidão sobre sua própria vida funcional.', q: 'O mandado de segurança protege direito líquido e certo amparado por habeas corpus ou habeas data.', a: 1, o: [{ t: 'Certo', p: 'troca', w: 'O MS é residual: só cabe quando o direito não é amparado por habeas corpus ou habeas data.' }, { t: 'Errado', p: 'correta', w: 'O art. 5º, LXIX, diz “não amparado por habeas corpus ou habeas data”. O item inverteu a regra.' }] }); reindex(); startCycle({ ids: ['dconst999'], size: 1, title: 'CE' }); });
+await p.waitForTimeout(400); await p.screenshot({ path: OUT + '1.png' });
+await p.click('[data-act=reveal]'); await p.waitForTimeout(400); await p.keyboard.press('c'); await p.waitForTimeout(200); await p.screenshot({ path: OUT + '2.png' });
+await p.click('[data-act=conf][data-c=certeza]'); await p.waitForTimeout(400); await p.screenshot({ path: OUT + '3.png' });
+await p.click('.dock [data-act=consol]'); await p.waitForTimeout(400); await p.screenshot({ path: OUT + '4.png' });
+console.log(errs.join('\n') || 'sem erros'); await b.close(); srv.close(); process.exit(0);

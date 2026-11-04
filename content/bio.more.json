@@ -1,0 +1,1505 @@
+{
+  "id": "bio",
+  "questions": [
+    {
+      "id": "bio11",
+      "topic": "Enzimas e temperatura",
+      "c": "Durante uma gripe, Pedro, estudante de Fortaleza, teve febre de 41 °C. O médico explicou que febres muito altas são perigosas, entre outros motivos, porque afetam as proteínas que aceleram as reações do metabolismo.",
+      "q": "Por que temperaturas muito altas prejudicam a ação das enzimas humanas?",
+      "a": 2,
+      "src": "Enzimas: temperatura ótima e desnaturação (Amabis & Martho, Biologia Moderna, v. 1)",
+      "o": [
+        {
+          "t": "Porque o calor acelera indefinidamente as reações: quanto maior a temperatura, maior a atividade de qualquer enzima.",
+          "p": "generalizacao",
+          "w": "A atividade enzimática aumenta com a temperatura só até um ponto ótimo, perto de 37 °C nas enzimas humanas. Acima dele, a enzima começa a perder sua forma e a atividade cai."
+        },
+        {
+          "t": "Porque o calor faz as enzimas serem consumidas na reação, já que cada enzima só pode ser usada uma vez.",
+          "p": "troca",
+          "w": "Confunde catalisador com reagente. Enzimas não são consumidas e podem ser reutilizadas muitas vezes; o problema do calor excessivo é a alteração da sua forma."
+        },
+        {
+          "t": "Porque o calor excessivo altera a estrutura tridimensional da enzima (desnaturação) e deforma o sítio ativo onde o substrato se encaixa.",
+          "p": "correta",
+          "w": "A função da enzima depende de sua forma. A desnaturação muda o sítio ativo, o substrato deixa de se encaixar e a catálise diminui ou para."
+        },
+        {
+          "t": "Porque o calor só desnatura enzimas quando o pH do sangue também está alterado.",
+          "p": "restricao",
+          "w": "A temperatura elevada pode desnaturar proteínas por si só, sem depender de outra condição. O pH é outro fator que afeta as enzimas, de forma independente."
+        }
+      ]
+    },
+    {
+      "id": "bio12",
+      "topic": "Polissacarídeos",
+      "c": "Em uma aula de nutrição de uma escola técnica em Curitiba, a professora comparou o amido da batata, o glicogênio do fígado de boi e a celulose do bagaço de cana. Os três são formados por moléculas de glicose.",
+      "q": "Qual afirmação sobre esses polissacarídeos está correta?",
+      "a": 0,
+      "src": "Carboidratos: polissacarídeos (Linhares & Gewandsznajder, Biologia Hoje, v. 1)",
+      "o": [
+        {
+          "t": "O amido é reserva energética das plantas, o glicogênio é reserva dos animais e a celulose forma a parede celular vegetal.",
+          "p": "correta",
+          "w": "Os três são polímeros de glicose com funções diferentes: dois de reserva (amido nas plantas, glicogênio nos animais e fungos) e um estrutural (celulose)."
+        },
+        {
+          "t": "O glicogênio é a reserva das plantas, e o amido é a reserva acumulada no fígado e nos músculos dos animais.",
+          "p": "inversao",
+          "w": "Inverte os papéis. O amido é a reserva vegetal; o glicogênio fica armazenado no fígado e nos músculos dos animais."
+        },
+        {
+          "t": "Como os três são formados por glicose, o ser humano digere igualmente bem amido, glicogênio e celulose.",
+          "p": "generalizacao",
+          "w": "Os seres humanos não produzem celulase, a enzima que quebra a celulose. Por isso ela passa pelo intestino sem ser digerida e funciona como fibra alimentar."
+        },
+        {
+          "t": "A celulose é a principal reserva de energia das plantas e fica armazenada em tubérculos como a batata.",
+          "p": "troca",
+          "w": "O que fica armazenado na batata é o amido. A celulose tem função estrutural: forma a parede das células vegetais."
+        }
+      ]
+    },
+    {
+      "id": "bio13",
+      "topic": "Funções dos lipídios",
+      "c": "Um documentário sobre a Antártida, exibido em uma aula de Biologia em Porto Alegre, mostrou que baleias e pinguins têm uma espessa camada de gordura sob a pele.",
+      "q": "Qual função dos lipídios essa camada ilustra melhor?",
+      "a": 3,
+      "src": "Lipídios: triglicerídeos e tecido adiposo (Amabis & Martho, Biologia Moderna, v. 1)",
+      "o": [
+        {
+          "t": "Catalisar as reações químicas do metabolismo, função típica dos lipídios.",
+          "p": "troca",
+          "w": "A catálise biológica é feita pelas enzimas, que em geral são proteínas. Lipídios não atuam como catalisadores."
+        },
+        {
+          "t": "Fornecer energia de uso imediato, já que os lipídios são sempre a primeira fonte de energia usada pelas células.",
+          "p": "generalizacao",
+          "w": "As células usam preferencialmente carboidratos, como a glicose, como fonte rápida. As gorduras são reserva de longo prazo, mobilizada sobretudo quando faltam carboidratos."
+        },
+        {
+          "t": "Impedir toda a perda de calor, de modo que esses animais não precisam produzir calor pelo metabolismo.",
+          "p": "extrapolacao",
+          "w": "A gordura reduz a perda de calor, mas não a elimina. Aves e mamíferos continuam produzindo calor pelo metabolismo para manter a temperatura do corpo."
+        },
+        {
+          "t": "Isolamento térmico e reserva de energia, pois a gordura conduz mal o calor e armazena muita energia em pouco espaço.",
+          "p": "correta",
+          "w": "Os triglicerídeos do tecido adiposo são bons isolantes térmicos e a forma mais concentrada de reserva energética do corpo, com cerca de 9 kcal por grama."
+        }
+      ]
+    },
+    {
+      "id": "bio14",
+      "topic": "Aminoácidos essenciais",
+      "c": "Uma nutricionista de uma Unidade Básica de Saúde em Belém explica a uma família que a combinação de arroz com feijão é nutritiva porque os dois alimentos se completam em aminoácidos.",
+      "q": "O que são aminoácidos essenciais e por que a combinação ajuda?",
+      "a": 1,
+      "src": "Proteínas e aminoácidos essenciais (Linhares & Gewandsznajder, Biologia Hoje, v. 1)",
+      "o": [
+        {
+          "t": "São aminoácidos que o corpo produz em excesso; a combinação serve para reduzir a quantidade deles na dieta.",
+          "p": "inversao",
+          "w": "Inverte o conceito. Essenciais são justamente os aminoácidos que o organismo humano não consegue produzir e precisa obter dos alimentos."
+        },
+        {
+          "t": "São aminoácidos que o corpo humano não produz; o arroz é pobre em lisina e o feijão, em metionina, e juntos fornecem os dois.",
+          "p": "correta",
+          "w": "Os aminoácidos essenciais vêm obrigatoriamente da dieta. As proteínas do arroz e do feijão têm deficiências diferentes e se complementam na mesma refeição."
+        },
+        {
+          "t": "São os açúcares simples que formam as proteínas, e arroz e feijão fornecem glicose suficiente para montá-las.",
+          "p": "troca",
+          "w": "Proteínas são formadas por aminoácidos, não por açúcares. A glicose é um carboidrato e não substitui os aminoácidos na síntese de proteínas."
+        },
+        {
+          "t": "São aminoácidos encontrados só em carnes, por isso arroz e feijão só ajudam se forem servidos com carne.",
+          "p": "restricao",
+          "w": "Alimentos vegetais também têm aminoácidos essenciais. A combinação de um cereal com uma leguminosa fornece todos eles, mesmo sem carne."
+        }
+      ]
+    },
+    {
+      "id": "bio15",
+      "topic": "DNA e RNA",
+      "c": "Em uma feira de ciências em Campina Grande (PB), um grupo montou dois cartazes, um sobre o DNA e outro sobre o RNA. A professora pediu que conferissem as diferenças químicas entre as duas moléculas.",
+      "q": "Qual comparação está correta?",
+      "a": 0,
+      "src": "Ácidos nucleicos: estrutura do DNA e do RNA (Amabis & Martho, Biologia Moderna, v. 1)",
+      "o": [
+        {
+          "t": "O DNA tem desoxirribose e timina; o RNA tem ribose e uracila e geralmente é formado por uma única fita.",
+          "p": "correta",
+          "w": "São as diferenças clássicas: o açúcar (desoxirribose x ribose), a base exclusiva (timina x uracila) e o número de fitas (em geral dupla x simples)."
+        },
+        {
+          "t": "O DNA tem ribose e uracila; o RNA tem desoxirribose e timina.",
+          "p": "inversao",
+          "w": "Inverte as moléculas. A desoxirribose e a timina são do DNA; a ribose e a uracila são do RNA."
+        },
+        {
+          "t": "O RNA só existe no núcleo, e o DNA só existe no citoplasma.",
+          "p": "restricao",
+          "w": "O DNA fica principalmente no núcleo, além de mitocôndrias e cloroplastos. O RNA é produzido no núcleo e atua também no citoplasma, como o RNA mensageiro nos ribossomos."
+        },
+        {
+          "t": "Por serem ácidos nucleicos, DNA e RNA têm sempre exatamente as mesmas quatro bases nitrogenadas.",
+          "p": "generalizacao",
+          "w": "Os dois compartilham adenina, guanina e citosina, mas a quarta base é diferente: timina no DNA e uracila no RNA."
+        }
+      ]
+    },
+    {
+      "id": "bio16",
+      "topic": "Regra de Chargaff",
+      "c": "Em um laboratório de biologia molecular em Ribeirão Preto (SP), a análise de uma amostra de DNA de fita dupla mostrou que 30% das bases nitrogenadas eram adenina.",
+      "q": "Quais são as porcentagens esperadas de timina, citosina e guanina?",
+      "a": 2,
+      "src": "Regras de Chargaff e pareamento de bases (Watson & Crick, Nature, 1953)",
+      "o": [
+        {
+          "t": "Timina 30%, citosina 35% e guanina 35%, porque citosina e guanina somam 100% menos 30%.",
+          "p": "calculo",
+          "w": "O erro foi descontar só a adenina. Adenina e timina somam 60%, então citosina e guanina dividem os 40% restantes: 20% cada."
+        },
+        {
+          "t": "Guanina 30%, porque a adenina pareia com a guanina; timina e citosina ficam com 20% cada.",
+          "p": "troca",
+          "w": "No DNA, a adenina pareia com a timina, e a citosina com a guanina. Por isso a quantidade de timina é igual à de adenina."
+        },
+        {
+          "t": "Timina 30%, citosina 20% e guanina 20%.",
+          "p": "correta",
+          "w": "Pela complementaridade, A = T = 30%, somando 60%. Os 40% restantes se dividem igualmente entre C e G, com 20% cada."
+        },
+        {
+          "t": "As quatro bases têm sempre 25% cada em qualquer DNA, então o resultado de 30% indica erro na análise.",
+          "p": "generalizacao",
+          "w": "A proporção de cada base varia de uma espécie para outra. A regra só garante que A = T e C = G no DNA de fita dupla."
+        }
+      ]
+    },
+    {
+      "id": "bio17",
+      "topic": "Complexo golgiense",
+      "c": "Uma pesquisadora em Botucatu (SP) observa ao microscópio eletrônico células do pâncreas que produzem e exportam enzimas digestivas. Elas têm muito retículo endoplasmático granuloso e um complexo golgiense bem desenvolvido.",
+      "q": "Qual é o papel do complexo golgiense nessas células?",
+      "a": 1,
+      "src": "Citologia: retículo endoplasmático e complexo golgiense (Amabis & Martho, Biologia Moderna, v. 1)",
+      "o": [
+        {
+          "t": "Produzir energia na forma de ATP por meio da respiração celular.",
+          "p": "troca",
+          "w": "Essa é a função das mitocôndrias. O complexo golgiense não realiza respiração celular."
+        },
+        {
+          "t": "Modificar, armazenar e empacotar em vesículas as proteínas vindas do retículo, que depois são secretadas.",
+          "p": "correta",
+          "w": "As proteínas são produzidas nos ribossomos do retículo granuloso e seguem para o complexo golgiense, que as processa e as envia em vesículas de secreção."
+        },
+        {
+          "t": "Produzir as proteínas e enviá-las ao retículo endoplasmático, que as empacota para exportação.",
+          "p": "inversao",
+          "w": "Inverte a ordem do percurso. A síntese ocorre nos ribossomos do retículo granuloso, e o empacotamento é feito no complexo golgiense."
+        },
+        {
+          "t": "Existir apenas em células secretoras; as demais células humanas não têm complexo golgiense.",
+          "p": "restricao",
+          "w": "O complexo golgiense está presente em praticamente todas as células eucarióticas. Nas células secretoras ele é apenas mais desenvolvido."
+        }
+      ]
+    },
+    {
+      "id": "bio18",
+      "topic": "Osmose",
+      "c": "Ao temperar uma salada de alface com sal uma hora antes do almoço, o cozinheiro de um restaurante em Florianópolis notou que as folhas murcharam e soltaram água no fundo da travessa.",
+      "q": "Qual processo explica o murchamento das folhas?",
+      "a": 3,
+      "src": "Membrana plasmática: osmose e plasmólise (Linhares & Gewandsznajder, Biologia Hoje, v. 1)",
+      "o": [
+        {
+          "t": "A água do tempero entrou nas células por osmose, e elas incharam até se romper.",
+          "p": "inversao",
+          "w": "O sentido está invertido. O meio com sal é mais concentrado (hipertônico), então a água sai das células, e não entra."
+        },
+        {
+          "t": "Transporte ativo de água para fora das células, com gasto de ATP.",
+          "p": "troca",
+          "w": "A saída de água nesse caso é passiva. A osmose não gasta energia e ocorre a favor da diferença de concentração."
+        },
+        {
+          "t": "Qualquer líquido usado no tempero, até água pura, faria as células perderem água da mesma forma.",
+          "p": "generalizacao",
+          "w": "Em água pura (meio hipotônico), as células vegetais ganham água e ficam túrgidas. Só um meio mais concentrado que o interior da célula retira água."
+        },
+        {
+          "t": "Osmose: o sal tornou o meio externo hipertônico, e a água saiu das células para o meio mais concentrado.",
+          "p": "correta",
+          "w": "Na osmose, a água passa pela membrana do meio menos concentrado para o mais concentrado em soluto. As células perderam água e murcharam (plasmólise)."
+        }
+      ]
+    },
+    {
+      "id": "bio19",
+      "topic": "Bomba de sódio-potássio",
+      "c": "Em um curso de Enfermagem em Natal, o professor explicou que os neurônios mantêm muito mais potássio dentro da célula e muito mais sódio fora dela, embora os íons tendam a se espalhar.",
+      "q": "Como a célula mantém essa diferença de concentração?",
+      "a": 3,
+      "src": "Transporte ativo: bomba de sódio e potássio (Amabis & Martho, Biologia Moderna, v. 1)",
+      "o": [
+        {
+          "t": "Por osmose, que leva os íons do meio menos concentrado para o mais concentrado.",
+          "p": "troca",
+          "w": "Osmose é o movimento de água através da membrana, não de íons. Manter a diferença de íons depende de transporte ativo."
+        },
+        {
+          "t": "Pela bomba de sódio e potássio, que leva potássio para fora e sódio para dentro da célula.",
+          "p": "inversao",
+          "w": "Inverte o sentido. A bomba expulsa sódio e traz potássio para dentro: 3 Na+ saem e 2 K+ entram a cada ciclo."
+        },
+        {
+          "t": "Por difusão simples, sem gasto de energia, desde que a célula esteja em repouso.",
+          "p": "restricao",
+          "w": "A difusão ocorre sempre a favor do gradiente e tenderia a igualar as concentrações. Manter a diferença exige transporte ativo, com gasto de ATP."
+        },
+        {
+          "t": "Por transporte ativo: a bomba de sódio e potássio usa ATP para expulsar sódio e trazer potássio contra o gradiente.",
+          "p": "correta",
+          "w": "O transporte ativo move íons contra o gradiente de concentração e consome energia. A cada ATP, a bomba retira 3 Na+ e coloca 2 K+ na célula."
+        }
+      ]
+    },
+    {
+      "id": "bio20",
+      "topic": "Etapas da respiração",
+      "c": "Uma atleta de Belo Horizonte quer entender como as células usam a glicose. No cursinho, ela aprende que a respiração celular aeróbia ocorre em etapas, parte no citosol e parte nas mitocôndrias.",
+      "q": "Qual afirmação sobre a respiração celular aeróbia está correta?",
+      "a": 0,
+      "src": "Respiração celular: glicólise, ciclo de Krebs e cadeia respiratória (Amabis & Martho, Biologia Moderna, v. 1)",
+      "o": [
+        {
+          "t": "A glicólise ocorre no citosol; o ciclo de Krebs e a cadeia respiratória ocorrem na mitocôndria, onde o O2 é o aceptor final de elétrons.",
+          "p": "correta",
+          "w": "A glicólise quebra a glicose em piruvato no citosol. Na mitocôndria, o ciclo de Krebs libera CO2, e a cadeia respiratória usa O2, forma água e produz a maior parte do ATP."
+        },
+        {
+          "t": "O O2 é produzido na cadeia respiratória, e o CO2 é consumido no ciclo de Krebs.",
+          "p": "inversao",
+          "w": "Inverte os gases. Na respiração, o O2 é consumido no fim da cadeia respiratória, formando água, e o CO2 é liberado no ciclo de Krebs."
+        },
+        {
+          "t": "A glicólise é a etapa que gera mais ATP, cerca de 30 moléculas por glicose.",
+          "p": "calculo",
+          "w": "A glicólise tem saldo de apenas 2 ATP por glicose. A maior parte do ATP vem da cadeia respiratória (fosforilação oxidativa)."
+        },
+        {
+          "t": "Todas as etapas usam oxigênio diretamente, inclusive a glicólise.",
+          "p": "generalizacao",
+          "w": "A glicólise não usa O2 e ocorre também na fermentação. O oxigênio participa diretamente apenas no fim da cadeia respiratória."
+        }
+      ]
+    },
+    {
+      "id": "bio21",
+      "topic": "Fermentação alcoólica",
+      "c": "Em uma padaria de Juiz de Fora (MG), o padeiro mistura fermento biológico, a levedura Saccharomyces cerevisiae, à massa e a deixa descansar. Horas depois, a massa cresceu e ficou cheia de bolhas.",
+      "q": "O que provoca o crescimento da massa?",
+      "a": 2,
+      "src": "Fermentação alcoólica (Linhares & Gewandsznajder, Biologia Hoje, v. 1)",
+      "o": [
+        {
+          "t": "O oxigênio liberado pela fotossíntese das leveduras.",
+          "p": "troca",
+          "w": "Leveduras são fungos e não fazem fotossíntese. O gás que forma as bolhas é o CO2 liberado na fermentação."
+        },
+        {
+          "t": "As leveduras consomem o gás carbônico do ar e liberam açúcar, que expande a massa.",
+          "p": "inversao",
+          "w": "Inverte reagentes e produtos. Na fermentação, as leveduras consomem açúcar e liberam CO2 e etanol."
+        },
+        {
+          "t": "A fermentação alcoólica: as leveduras quebram açúcares e liberam gás carbônico, que forma as bolhas, e etanol.",
+          "p": "correta",
+          "w": "Na fermentação alcoólica, a glicose é convertida em etanol e CO2. O gás fica preso na rede de glúten e faz a massa crescer; o etanol evapora no forno."
+        },
+        {
+          "t": "A fermentação alcoólica, e por isso o pão assado mantém o mesmo teor de álcool de uma cerveja.",
+          "p": "extrapolacao",
+          "w": "Tira uma conclusão que o processo não sustenta. Quase todo o etanol produzido evapora durante o cozimento em alta temperatura."
+        }
+      ]
+    },
+    {
+      "id": "bio22",
+      "topic": "Fotólise da água",
+      "c": "Em uma olimpíada de Biologia em São Paulo, os estudantes leram sobre um experimento clássico: algas receberam água marcada com o isótopo oxigênio-18 e CO2 com oxigênio comum. O O2 liberado saiu marcado.",
+      "q": "Que conclusão esse experimento sustenta?",
+      "a": 1,
+      "src": "Ruben et al. (1941), J. Am. Chem. Soc.; fase clara da fotossíntese",
+      "o": [
+        {
+          "t": "O oxigênio liberado na fotossíntese vem do gás carbônico absorvido.",
+          "p": "inversao",
+          "w": "Se viesse do CO2, o O2 liberado sairia sem marcação. O resultado mostra que a origem do oxigênio é a água."
+        },
+        {
+          "t": "O oxigênio liberado na fotossíntese vem da quebra da água (fotólise), na etapa que depende de luz.",
+          "p": "correta",
+          "w": "Na fase clara, a energia luminosa leva à quebra da água, que libera O2, elétrons e íons H+. O carbono do CO2 é incorporado depois, na formação da glicose."
+        },
+        {
+          "t": "A água fornece o oxigênio só nas algas; nas plantas terrestres, o O2 liberado vem do solo.",
+          "p": "restricao",
+          "w": "A fotólise da água ocorre em todos os organismos que fazem fotossíntese com liberação de O2, inclusive as plantas terrestres."
+        },
+        {
+          "t": "Como o O2 vem da água, todos os átomos da glicose também vêm da água, e o CO2 é dispensável.",
+          "p": "extrapolacao",
+          "w": "O experimento trata só da origem do O2. O carbono da glicose vem do CO2, fixado no ciclo de Calvin; sem ele não há produção de açúcar."
+        }
+      ]
+    },
+    {
+      "id": "bio23",
+      "topic": "Câncer e mitose",
+      "c": "Dona Lúcia, de Teresina, começou a quimioterapia contra um tumor. A oncologista avisou que ela poderia perder cabelo, pois muitos quimioterápicos atacam células que se dividem com rapidez.",
+      "q": "Qual afirmação relaciona corretamente câncer e divisão celular?",
+      "a": 1,
+      "src": "Ciclo celular e câncer (INCA/Ministério da Saúde; Amabis & Martho, Biologia Moderna, v. 1)",
+      "o": [
+        {
+          "t": "Todo tumor é maligno e se espalha para outros órgãos, por isso sempre exige quimioterapia.",
+          "p": "generalizacao",
+          "w": "Existem tumores benignos, que não invadem tecidos vizinhos nem formam metástases. O tratamento depende do tipo e do estágio do tumor."
+        },
+        {
+          "t": "O câncer resulta de mutações que fazem células escaparem do controle do ciclo celular e se dividirem por mitose sem parar.",
+          "p": "correta",
+          "w": "Falhas nos genes que regulam o ciclo celular levam à proliferação descontrolada. Como as células dos folículos capilares também se dividem rápido, o tratamento as atinge."
+        },
+        {
+          "t": "O câncer é causado por meiose descontrolada, que produz células com metade dos cromossomos.",
+          "p": "troca",
+          "w": "As células tumorais dos tecidos do corpo se multiplicam por mitose. No corpo humano, a meiose ocorre só na formação dos gametas."
+        },
+        {
+          "t": "As células cancerosas param de se dividir, e o tumor cresce porque elas aumentam muito de tamanho.",
+          "p": "inversao",
+          "w": "Inverte o mecanismo. O tumor cresce porque as células se dividem demais, e não porque deixam de se dividir."
+        }
+      ]
+    },
+    {
+      "id": "bio24",
+      "topic": "Síndrome de Down",
+      "c": "O cariótipo de um bebê nascido em uma maternidade de Goiânia mostrou 47 cromossomos, com três cópias do cromossomo 21.",
+      "q": "Qual é a explicação mais provável para esse cariótipo?",
+      "a": 3,
+      "src": "Aberrações cromossômicas numéricas: trissomia do 21 (Linhares & Gewandsznajder, Biologia Hoje, v. 3)",
+      "o": [
+        {
+          "t": "Uma mutação em um único gene do cromossomo 21, sem alteração no número de cromossomos.",
+          "p": "troca",
+          "w": "Mutação gênica altera a sequência de um gene, não o número de cromossomos. Um cariótipo com 47 indica alteração cromossômica numérica (aneuploidia)."
+        },
+        {
+          "t": "Um gameta com 23 cromossomos fecundou outro com 23, o que resultou em 47.",
+          "p": "calculo",
+          "w": "A conta está errada: 23 + 23 = 46. Para formar um zigoto com 47, um dos gametas precisa ter 24 cromossomos, com dois cromossomos 21."
+        },
+        {
+          "t": "A não disjunção só pode ocorrer na meiose do pai, porque os óvulos nunca têm erros de separação.",
+          "p": "restricao",
+          "w": "A não disjunção pode ocorrer na meiose da mãe ou do pai. Na maioria dos casos o cromossomo extra tem origem materna, e o risco aumenta com a idade da mãe."
+        },
+        {
+          "t": "Não disjunção do par 21 na meiose de um dos pais, gerando um gameta com 24 cromossomos que se uniu a um gameta normal.",
+          "p": "correta",
+          "w": "Na não disjunção, cromossomos homólogos ou cromátides-irmãs não se separam. O gameta com dois cromossomos 21, unido a um gameta normal, forma um zigoto com trissomia do 21."
+        }
+      ]
+    },
+    {
+      "id": "bio25",
+      "topic": "Segunda Lei de Mendel",
+      "c": "Em uma aula prática em Viçosa (MG), a turma cruza ervilhas duplo-heterozigotas para cor amarela (V, dominante sobre verde) e semente lisa (R, dominante sobre rugosa). Os dois genes estão em cromossomos diferentes.",
+      "q": "Que fração dos descendentes de VvRr x VvRr deve ter sementes verdes e rugosas?",
+      "a": 0,
+      "src": "Segunda Lei de Mendel: segregação independente e proporção 9:3:3:1",
+      "o": [
+        {
+          "t": "1/16, porque é preciso ser vv (1/4) e rr (1/4) ao mesmo tempo: 1/4 x 1/4.",
+          "p": "correta",
+          "w": "Pela segunda lei, os genes segregam de forma independente. A proporção fenotípica é 9:3:3:1, e o duplo recessivo corresponde a 1 em 16."
+        },
+        {
+          "t": "1/2, somando a probabilidade de ser vv (1/4) com a de ser rr (1/4).",
+          "p": "calculo",
+          "w": "Eventos que precisam ocorrer juntos têm as probabilidades multiplicadas, não somadas: 1/4 x 1/4 = 1/16."
+        },
+        {
+          "t": "9/16, pois a maior classe da proporção 9:3:3:1 corresponde aos dois caracteres recessivos.",
+          "p": "inversao",
+          "w": "Inverte a proporção. Os 9/16 têm os dois caracteres dominantes (amarelas e lisas); o duplo recessivo é a menor classe, 1/16."
+        },
+        {
+          "t": "Zero, pois sementes verdes e rugosas só surgem se um dos pais também for verde e rugoso.",
+          "p": "restricao",
+          "w": "Pais heterozigotos carregam os alelos recessivos e podem transmiti-los juntos. Por isso o duplo recessivo aparece mesmo com os dois pais amarelos e lisos."
+        }
+      ]
+    },
+    {
+      "id": "bio26",
+      "topic": "Eritroblastose fetal",
+      "c": "Mariana, de Manaus, tem sangue Rh negativo e está grávida do segundo filho. O primeiro, Rh positivo como o pai, nasceu há dois anos, e ela não recebeu nenhuma injeção após aquele parto.",
+      "q": "Qual é o risco para o segundo bebê, se ele também for Rh positivo?",
+      "a": 2,
+      "src": "Doença hemolítica do recém-nascido por fator Rh e profilaxia com imunoglobulina anti-D (Ministério da Saúde)",
+      "o": [
+        {
+          "t": "Nenhum, porque o problema ocorre quando a mãe é Rh positivo e o bebê é Rh negativo.",
+          "p": "inversao",
+          "w": "Inverte a combinação. A doença ocorre quando a mãe é Rh negativo e o feto é Rh positivo."
+        },
+        {
+          "t": "Só haveria risco se o bebê também tivesse tipo sanguíneo ABO diferente do da mãe.",
+          "p": "restricao",
+          "w": "Acrescenta uma condição que não existe. A incompatibilidade Rh, por si só, já cria o risco de eritroblastose fetal."
+        },
+        {
+          "t": "Há risco de eritroblastose fetal: no primeiro parto a mãe pode ter produzido anticorpos anti-Rh, que destroem hemácias do feto.",
+          "p": "correta",
+          "w": "O contato com hemácias Rh positivo do primeiro filho, sobretudo no parto, sensibiliza a mãe. Na gestação seguinte, os anticorpos anti-Rh atravessam a placenta e atacam as hemácias de um feto Rh positivo."
+        },
+        {
+          "t": "O bebê certamente nascerá doente, e não há forma de prevenir o problema em gestações futuras.",
+          "p": "extrapolacao",
+          "w": "O risco existe, mas não é certeza: depende de ter havido sensibilização. A prevenção é feita com imunoglobulina anti-D aplicada na mãe Rh negativo, por exemplo até 72 horas após o parto."
+        }
+      ]
+    },
+    {
+      "id": "bio27",
+      "topic": "Herança ABO",
+      "c": "Um casal de Salvador fez exames de rotina: a mulher tem sangue tipo A e o homem, tipo B. Cada um deles tem um dos pais com sangue tipo O.",
+      "q": "Quais tipos sanguíneos os filhos do casal podem ter?",
+      "a": 2,
+      "src": "Sistema ABO: alelos múltiplos e codominância (Amabis & Martho, Biologia Moderna, v. 3)",
+      "o": [
+        {
+          "t": "Apenas A ou B, porque cada filho herda o tipo sanguíneo de um dos pais.",
+          "p": "restricao",
+          "w": "Os filhos não precisam repetir o tipo de um dos pais. Como os dois são heterozigotos (IAi e IBi), surgem também os tipos AB e O."
+        },
+        {
+          "t": "Apenas AB, porque IA e IB são codominantes e, por isso, aparecem juntos em todos os filhos.",
+          "p": "extrapolacao",
+          "w": "Codominância significa que IA e IB se expressam quando estão juntos. Isso não obriga todos os filhos a herdar os dois alelos."
+        },
+        {
+          "t": "A, B, AB ou O, cada um com probabilidade de 1/4.",
+          "p": "correta",
+          "w": "Os pais são IAi e IBi, pois cada um recebeu um alelo i de um pai tipo O. O cruzamento gera IAIB, IAi, IBi e ii, cada genótipo com 1/4 de chance."
+        },
+        {
+          "t": "A, B, AB ou O, mas O com probabilidade de 1/2, porque os dois pais carregam o alelo i.",
+          "p": "calculo",
+          "w": "Cada pai transmite i com chance de 1/2, e o filho só é O se receber i dos dois: 1/2 x 1/2 = 1/4."
+        }
+      ]
+    },
+    {
+      "id": "bio28",
+      "topic": "Daltonismo",
+      "c": "Rafael, de Vitória, é daltônico, e seus pais têm visão normal para cores. O tipo mais comum de daltonismo é condicionado por um alelo recessivo ligado ao cromossomo X.",
+      "q": "Qual é a probabilidade de uma nova criança desse casal ser um menino daltônico?",
+      "a": 1,
+      "src": "Herança ligada ao cromossomo X: daltonismo (Linhares & Gewandsznajder, Biologia Hoje, v. 3)",
+      "o": [
+        {
+          "t": "1/2, porque metade dos filhos homens do casal deve ser daltônica.",
+          "p": "calculo",
+          "w": "Metade dos meninos deve ser daltônica, mas a pergunta é sobre qualquer nova criança. A chance de ser menino (1/2) vezes a de ser daltônico (1/2) dá 1/4."
+        },
+        {
+          "t": "1/4: a mãe é portadora, e a criança precisa ser menino (1/2) e receber dela o X com o alelo do daltonismo (1/2).",
+          "p": "correta",
+          "w": "Como o pai tem visão normal, Rafael recebeu o alelo da mãe, que é portadora. O menino recebe o Y do pai, e seu fenótipo depende só do X materno."
+        },
+        {
+          "t": "Zero, porque o daltonismo é transmitido pelo cromossomo Y e o pai não é daltônico.",
+          "p": "troca",
+          "w": "O gene está no cromossomo X, não no Y. O pai passa o Y aos filhos homens, e o alelo de Rafael veio da mãe."
+        },
+        {
+          "t": "1/2, porque a herança ligada ao X atinge igualmente meninos e meninas.",
+          "p": "generalizacao",
+          "w": "Meninas precisam de dois alelos recessivos para serem daltônicas; meninos, de apenas um. Como o pai tem visão normal, nenhuma filha deste casal será daltônica."
+        }
+      ]
+    },
+    {
+      "id": "bio29",
+      "topic": "Hemofilia",
+      "c": "João, de Belo Horizonte, tem hemofilia A, doença recessiva ligada ao cromossomo X. Ele se casou com Carla, que não tem o alelo da hemofilia, e o casal planeja ter filhos.",
+      "q": "O que se espera para os filhos do casal?",
+      "a": 3,
+      "src": "Herança ligada ao X: hemofilia A (Amabis & Martho, Biologia Moderna, v. 3)",
+      "o": [
+        {
+          "t": "Todos os filhos, meninos e meninas, terão hemofilia, porque o pai é hemofílico.",
+          "p": "generalizacao",
+          "w": "A mãe não tem o alelo, então todos os filhos recebem dela um X normal. Isso basta para que ninguém manifeste a doença."
+        },
+        {
+          "t": "Os meninos herdarão a hemofilia do pai, e as meninas serão normais e não portadoras.",
+          "p": "inversao",
+          "w": "Inverte a transmissão. O pai passa o Y aos filhos homens e o X com o alelo da hemofilia às filhas."
+        },
+        {
+          "t": "Metade das filhas será portadora e metade dos filhos será hemofílica.",
+          "p": "calculo",
+          "w": "O pai tem um só X, que vai para todas as filhas; assim, 100% delas serão portadoras. Os filhos recebem o Y do pai e um X normal da mãe."
+        },
+        {
+          "t": "Nenhum filho terá hemofilia, mas todas as filhas serão portadoras do alelo.",
+          "p": "correta",
+          "w": "As filhas recebem obrigatoriamente o X com o alelo do pai e um X normal da mãe, e são portadoras. Os filhos recebem o Y do pai e um X normal da mãe."
+        }
+      ]
+    },
+    {
+      "id": "bio30",
+      "topic": "Heredograma dominante",
+      "c": "Um geneticista de Porto Alegre descreve uma família: pai e mãe têm a mesma doença hereditária, mas a primeira filha do casal não é afetada. Os outros dois filhos, um menino e uma menina, são afetados.",
+      "q": "Qual tipo de herança explica esse heredograma?",
+      "a": 0,
+      "src": "Análise de heredogramas (Linhares & Gewandsznajder, Biologia Hoje, v. 3)",
+      "o": [
+        {
+          "t": "Autossômica dominante: os pais são heterozigotos (Aa), e a filha não afetada é aa.",
+          "p": "correta",
+          "w": "Se a doença fosse recessiva, pais afetados (aa) só teriam filhos afetados. Também não é dominante ligada ao X, pois o pai afetado passaria seu X a todas as filhas."
+        },
+        {
+          "t": "Autossômica recessiva, porque pais afetados tiveram uma filha não afetada.",
+          "p": "inversao",
+          "w": "É o raciocínio ao contrário. Pais afetados com filho não afetado indicam herança dominante; pais não afetados com filho afetado indicam recessiva."
+        },
+        {
+          "t": "Dominante ligada ao cromossomo X, porque meninos e meninas são afetados.",
+          "p": "troca",
+          "w": "Nessa herança, o pai afetado transmitiria o X com o alelo a todas as filhas. Como uma filha não é afetada, a hipótese é descartada."
+        },
+        {
+          "t": "Nenhuma herança genética, porque toda doença hereditária pula uma geração.",
+          "p": "generalizacao",
+          "w": "Pular gerações é comum na herança recessiva, mas não é regra para toda doença hereditária. Na dominante, a característica costuma aparecer em todas as gerações."
+        }
+      ]
+    },
+    {
+      "id": "bio31",
+      "topic": "Insulina recombinante",
+      "c": "Uma reportagem sobre diabetes explicou que, desde os anos 1980, boa parte da insulina usada por pacientes no Brasil e no mundo é produzida por bactérias ou leveduras modificadas em laboratório.",
+      "q": "Como essa insulina é obtida?",
+      "a": 3,
+      "src": "DNA recombinante: insulina humana produzida em bactérias, aprovada em 1982 (Amabis & Martho, Biologia Moderna, v. 3)",
+      "o": [
+        {
+          "t": "Por clonagem: as bactérias são cópias de células do pâncreas humano.",
+          "p": "troca",
+          "w": "Clonagem reprodutiva gera indivíduos geneticamente idênticos a outro. Aqui só um gene humano é inserido em microrganismos, o que é técnica de DNA recombinante."
+        },
+        {
+          "t": "Extraindo-se a insulina de qualquer bactéria, já que todos os seres vivos produzem insulina humana.",
+          "p": "generalizacao",
+          "w": "Bactérias não produzem insulina humana naturalmente. Elas só passam a fabricá-la depois de receber o gene humano da insulina."
+        },
+        {
+          "t": "Inserindo-se genes de bactérias no pâncreas dos pacientes para que eles produzam mais insulina.",
+          "p": "inversao",
+          "w": "Inverte o sentido da transferência. O gene humano é que é inserido no microrganismo, que passa a produzir a proteína humana."
+        },
+        {
+          "t": "O gene humano da insulina é inserido no DNA do microrganismo, que passa a produzir a proteína humana: é um organismo transgênico.",
+          "p": "correta",
+          "w": "Com enzimas de restrição e vetores, como plasmídeos, o gene é transferido. Como o código genético é universal, o microrganismo traduz o gene e produz insulina humana."
+        }
+      ]
+    },
+    {
+      "id": "bio32",
+      "topic": "PCR e diagnóstico",
+      "c": "Durante a pandemia de covid-19, um laboratório do Recife fazia exames de RT-PCR em amostras colhidas do nariz de pacientes. A técnica detecta o material genético do vírus mesmo quando há pouquíssimas cópias dele.",
+      "q": "Qual é o princípio da PCR?",
+      "a": 1,
+      "src": "Reação em cadeia da polimerase (Kary Mullis, Nobel de Química de 1993)",
+      "o": [
+        {
+          "t": "Detectar os anticorpos que o paciente produziu contra o vírus.",
+          "p": "troca",
+          "w": "Isso descreve os testes sorológicos. A PCR detecta o material genético do próprio agente, e não a resposta imune do paciente."
+        },
+        {
+          "t": "Copiar repetidamente um trecho específico de DNA em ciclos de temperatura, multiplicando-o até ser detectável.",
+          "p": "correta",
+          "w": "Cada ciclo de separação das fitas, ligação dos primers e extensão pela DNA polimerase duplica o trecho-alvo. No RT-PCR, o RNA do vírus é antes convertido em DNA pela transcriptase reversa."
+        },
+        {
+          "t": "Copiar o material genético, e por isso um resultado positivo prova que a pessoa está transmitindo vírus vivos naquele momento.",
+          "p": "extrapolacao",
+          "w": "A PCR detecta material genético, que pode estar presente mesmo sem vírus capazes de infectar. O positivo indica a presença desse material, não prova transmissão."
+        },
+        {
+          "t": "Copiar o DNA de forma linear: depois de 30 ciclos, há 30 cópias do trecho original.",
+          "p": "calculo",
+          "w": "A quantidade dobra a cada ciclo, em crescimento exponencial. Em 30 ciclos, uma molécula pode gerar cerca de 2 elevado a 30, mais de 1 bilhão de cópias."
+        }
+      ]
+    },
+    {
+      "id": "bio33",
+      "topic": "Clonagem da Dolly",
+      "c": "Um painel de museu de ciências em São Paulo conta a história da ovelha Dolly (1996): o núcleo de uma célula mamária da ovelha A foi posto em um óvulo sem núcleo da ovelha B, e o embrião se desenvolveu no útero da ovelha C.",
+      "q": "Com qual ovelha Dolly é geneticamente idêntica quanto ao DNA do núcleo?",
+      "a": 0,
+      "src": "Wilmut et al. (1997), Nature: clonagem por transferência nuclear",
+      "o": [
+        {
+          "t": "Com a ovelha A, doadora do núcleo da célula mamária.",
+          "p": "correta",
+          "w": "Quase todo o material genético fica no núcleo. Por isso o clone é idêntico à doadora do núcleo; o óvulo de B contribui apenas com o DNA das mitocôndrias."
+        },
+        {
+          "t": "Com a ovelha B, doadora do óvulo, porque o óvulo é o gameta feminino.",
+          "p": "troca",
+          "w": "O núcleo do óvulo foi retirado antes da transferência. A ovelha B forneceu o citoplasma, com mitocôndrias, mas não o DNA nuclear."
+        },
+        {
+          "t": "Com a ovelha C, porque a mãe que gesta transmite seus genes ao filhote durante a gravidez.",
+          "p": "extrapolacao",
+          "w": "A ovelha que gesta oferece o ambiente para o desenvolvimento do embrião, mas não transfere genes a ele."
+        },
+        {
+          "t": "Com nenhuma delas, porque todo clone recebe metade dos genes de cada ovelha envolvida.",
+          "p": "generalizacao",
+          "w": "Receber metade dos genes de cada genitor é próprio da reprodução sexuada. Na transferência nuclear não há fecundação, e o núcleo vem inteiro de um único indivíduo."
+        }
+      ]
+    },
+    {
+      "id": "bio34",
+      "topic": "Vacinas de mRNA",
+      "c": "Em um grupo de mensagens da família, em Londrina (PR), alguém afirmou que as vacinas de RNA mensageiro contra a covid-19 alteram o DNA de quem as recebe. A neta, estudante do 3º ano, resolveu explicar como elas funcionam.",
+      "q": "Qual explicação está correta?",
+      "a": 3,
+      "src": "Ministério da Saúde e Anvisa: vacinas de mRNA contra a covid-19; dogma central da biologia molecular",
+      "o": [
+        {
+          "t": "O mRNA da vacina é convertido em DNA, que se integra ao genoma e passa a produzir anticorpos.",
+          "p": "inversao",
+          "w": "Inverte o fluxo da informação. A célula usa o mRNA como molde para fazer proteína; ele não é convertido em DNA nem altera o genoma."
+        },
+        {
+          "t": "A vacina contém anticorpos prontos, que neutralizam o vírus logo após a aplicação.",
+          "p": "troca",
+          "w": "Anticorpos prontos caracterizam os soros, que dão imunidade passiva. A vacina induz o próprio corpo a produzir anticorpos e células de memória."
+        },
+        {
+          "t": "Como usa material genético do vírus, a vacina contém o vírus completo e pode causar a doença.",
+          "p": "extrapolacao",
+          "w": "A vacina tem só o mRNA de uma proteína do vírus, sem o restante do genoma. Uma única proteína não forma vírus nem causa covid-19."
+        },
+        {
+          "t": "O mRNA é traduzido nos ribossomos em uma proteína do vírus, a espícula, que estimula a resposta imune; depois ele é degradado.",
+          "p": "correta",
+          "w": "O mRNA atua no citoplasma, não entra no núcleo e é degradado em pouco tempo. A proteína produzida funciona como antígeno e gera anticorpos e memória imunológica."
+        }
+      ]
+    },
+    {
+      "id": "bio35",
+      "topic": "Resistência a antibióticos",
+      "c": "A comissão de controle de infecção de um hospital de Cuiabá registrou, ao longo de alguns anos, aumento de bactérias resistentes a um antibiótico muito usado em suas UTIs.",
+      "q": "Como a teoria da seleção natural explica esse aumento?",
+      "a": 2,
+      "src": "Seleção natural e resistência bacteriana (Darwin, A Origem das Espécies, 1859; Anvisa: resistência microbiana)",
+      "o": [
+        {
+          "t": "As bactérias se acostumaram ao antibiótico e desenvolveram resistência para sobreviver, transmitindo-a aos descendentes.",
+          "p": "troca",
+          "w": "Usa uma explicação de tipo lamarckista no lugar da seleção natural. O antibiótico não cria a resistência: ele seleciona as bactérias que já a tinham."
+        },
+        {
+          "t": "O antibiótico sempre mata todas as bactérias expostas, e as resistentes vêm de fora do hospital.",
+          "p": "generalizacao",
+          "w": "O antibiótico não elimina necessariamente todas as bactérias; as que têm genes de resistência sobrevivem e se multiplicam no próprio ambiente de uso."
+        },
+        {
+          "t": "Já existiam bactérias resistentes por mutação; o antibiótico eliminou as sensíveis, e as resistentes se multiplicaram.",
+          "p": "correta",
+          "w": "A variabilidade surge antes, por mutações e troca de genes entre bactérias. O antibiótico atua como agente seletivo, e a frequência das resistentes aumenta a cada geração."
+        },
+        {
+          "t": "Os pacientes se tornam resistentes ao antibiótico, e por isso o remédio deixa de agir sobre as bactérias.",
+          "p": "inversao",
+          "w": "Inverte o alvo. Quem se torna resistente é a população de bactérias, e não o organismo do paciente."
+        }
+      ]
+    },
+    {
+      "id": "bio36",
+      "topic": "Especiação alopátrica",
+      "c": "Em um exemplo discutido em aula em Manaus, uma população de pequenos roedores foi dividida pela mudança de curso de um rio. Após muitas gerações, indivíduos das duas margens, reunidos, já não geram descendentes férteis.",
+      "q": "Como se chama esse processo e o que o caracteriza?",
+      "a": 2,
+      "src": "Especiação alopátrica e conceito biológico de espécie (Mayr; Amabis & Martho, Biologia Moderna, v. 3)",
+      "o": [
+        {
+          "t": "Seleção artificial, porque o rio escolheu quais indivíduos poderiam se reproduzir.",
+          "p": "troca",
+          "w": "Seleção artificial é feita pelo ser humano ao escolher os reprodutores. Aqui houve isolamento geográfico seguido de evolução independente."
+        },
+        {
+          "t": "Especiação alopátrica: primeiro surgiu o isolamento reprodutivo, e depois a população se separou geograficamente.",
+          "p": "inversao",
+          "w": "Inverte a ordem. Na especiação alopátrica, a barreira geográfica vem primeiro; o isolamento reprodutivo surge depois, com o acúmulo de diferenças."
+        },
+        {
+          "t": "Especiação alopátrica: a barreira geográfica impediu o fluxo gênico, e mutações e seleção diferentes levaram ao isolamento reprodutivo.",
+          "p": "correta",
+          "w": "Separadas, as populações acumulam diferenças genéticas de forma independente. Quando, mesmo juntas, não geram descendentes férteis, passam a ser espécies diferentes."
+        },
+        {
+          "t": "Especiação alopátrica, que faz as duas novas espécies terem características idênticas, já que vieram do mesmo ancestral.",
+          "p": "extrapolacao",
+          "w": "A origem comum não impede diferenças. É justamente a evolução independente de cada população que produz características distintas."
+        }
+      ]
+    },
+    {
+      "id": "bio37",
+      "topic": "Homologia e analogia",
+      "c": "No Museu de Zoologia da USP, em São Paulo, uma visitante observou lado a lado o esqueleto da asa de um morcego, o do braço humano e a asa de uma borboleta.",
+      "q": "Como essas estruturas se classificam?",
+      "a": 1,
+      "src": "Evidências da evolução: homologia e analogia (Linhares & Gewandsznajder, Biologia Hoje, v. 3)",
+      "o": [
+        {
+          "t": "A asa do morcego e o braço humano são análogos; a asa do morcego e a da borboleta são homólogas.",
+          "p": "inversao",
+          "w": "Inverte os conceitos. Morcego e ser humano têm os mesmos ossos por ancestralidade comum (homologia); morcego e borboleta só compartilham a função de voar (analogia)."
+        },
+        {
+          "t": "Asa do morcego e braço humano são homólogos (mesma origem embrionária); asa do morcego e asa da borboleta são análogas (mesma função).",
+          "p": "correta",
+          "w": "Estruturas homólogas indicam ancestral comum, mesmo com funções diferentes. Estruturas análogas resultam de convergência adaptativa entre grupos sem parentesco próximo."
+        },
+        {
+          "t": "Todas as estruturas usadas para voar são homólogas, pois indicam parentesco próximo.",
+          "p": "generalizacao",
+          "w": "Função semelhante não indica parentesco. As asas de insetos e as de morcegos surgiram de forma independente."
+        },
+        {
+          "t": "São exemplos de órgãos vestigiais, que perderam a função ao longo da evolução.",
+          "p": "troca",
+          "w": "Órgãos vestigiais são reduzidos e têm pouca ou nenhuma função, como o cóccix humano. As estruturas citadas são plenamente funcionais."
+        }
+      ]
+    },
+    {
+      "id": "bio38",
+      "topic": "Magnificação trófica",
+      "c": "Estudos na bacia do rio Tapajós (PA) encontraram mercúrio, usado em garimpos de ouro, em peixes e em moradores ribeirinhos. Peixes carnívoros, como o tucunaré, tinham concentrações maiores que os herbívoros.",
+      "q": "Por que os peixes carnívoros acumulam mais mercúrio?",
+      "a": 0,
+      "src": "Magnificação trófica de metais pesados (Linhares & Gewandsznajder, Biologia Hoje, v. 3)",
+      "o": [
+        {
+          "t": "Porque o mercúrio é pouco eliminado pelo organismo e se acumula ao longo da cadeia, concentrando-se nos níveis tróficos mais altos.",
+          "p": "correta",
+          "w": "É a magnificação trófica: cada predador ingere muitas presas contaminadas e retém o metal. A concentração aumenta a cada nível, e quem come esses peixes também fica exposto."
+        },
+        {
+          "t": "Porque a concentração de mercúrio é maior nos produtores e diminui a cada nível trófico, como acontece com a energia.",
+          "p": "inversao",
+          "w": "Confunde o fluxo de energia com o de poluentes persistentes. A energia disponível diminui a cada nível, mas a concentração de mercúrio aumenta."
+        },
+        {
+          "t": "Porque o mercúrio é um nutriente essencial que os carnívoros precisam acumular para crescer.",
+          "p": "troca",
+          "w": "O mercúrio não é nutriente; é um metal tóxico que afeta o sistema nervoso. Ele se acumula justamente porque o organismo tem dificuldade de eliminá-lo."
+        },
+        {
+          "t": "Porque só os peixes carnívoros absorvem mercúrio; herbívoros e plantas aquáticas não têm contato com ele.",
+          "p": "restricao",
+          "w": "O mercúrio entra na cadeia desde a base. Todos os níveis podem contê-lo; a diferença está na concentração, maior nos níveis mais altos."
+        }
+      ]
+    },
+    {
+      "id": "bio39",
+      "topic": "Pirâmide de números",
+      "c": "Em um trabalho de campo em uma praça de Campinas (SP), alunos contaram, em uma única mangueira, centenas de lagartas e alguns pássaros que se alimentavam delas.",
+      "q": "Como fica a pirâmide de números da cadeia mangueira, lagartas e pássaros?",
+      "a": 3,
+      "src": "Pirâmides ecológicas de números e de energia (Odum, Fundamentos de Ecologia)",
+      "o": [
+        {
+          "t": "Com a base mais larga, porque toda pirâmide ecológica tem sempre o formato de pirâmide.",
+          "p": "generalizacao",
+          "w": "A pirâmide de energia nunca é invertida, mas a de números pode ser. Um único produtor de grande porte sustenta muitos consumidores."
+        },
+        {
+          "t": "Invertida na base, e por isso a pirâmide de energia dessa cadeia também fica invertida.",
+          "p": "extrapolacao",
+          "w": "A pirâmide de energia nunca se inverte, porque parte da energia se perde a cada nível. A inversão vale apenas para a contagem de indivíduos."
+        },
+        {
+          "t": "Invertida no topo, com mais pássaros do que lagartas.",
+          "p": "inversao",
+          "w": "Os dados mostram o contrário: há centenas de lagartas e poucos pássaros. A inversão está na base, que tem um único produtor."
+        },
+        {
+          "t": "Parcialmente invertida: a base, com uma só árvore, é mais estreita que o nível das lagartas, e os pássaros formam um topo estreito.",
+          "p": "correta",
+          "w": "A pirâmide de números conta indivíduos, sem considerar seu tamanho. Um produtor grande sustenta muitos herbívoros pequenos, o que inverte a base."
+        }
+      ]
+    },
+    {
+      "id": "bio40",
+      "topic": "Fixação de nitrogênio",
+      "c": "Um agricultor de Rio Verde (GO) cultiva soja sem aplicar adubo nitrogenado. O agrônomo explica que as raízes da soja têm nódulos com bactérias do gênero Bradyrhizobium.",
+      "q": "Qual papel essas bactérias desempenham?",
+      "a": 0,
+      "src": "Ciclo do nitrogênio: fixação biológica em leguminosas (Embrapa Soja)",
+      "o": [
+        {
+          "t": "Fixam o nitrogênio do ar (N2) e o transformam em compostos, como a amônia, que a planta usa para fazer proteínas e ácidos nucleicos.",
+          "p": "correta",
+          "w": "A planta não aproveita diretamente o N2 do ar. As bactérias dos nódulos o convertem em formas assimiláveis e recebem açúcares da planta, numa relação de mutualismo."
+        },
+        {
+          "t": "Fazem a desnitrificação, transformando os nitratos do solo em N2, o que aumenta a fertilidade.",
+          "p": "troca",
+          "w": "A desnitrificação devolve nitrogênio à atmosfera e reduz os nitratos do solo. As bactérias dos nódulos fazem o processo oposto, a fixação."
+        },
+        {
+          "t": "Permitem que a soja absorva o N2 diretamente pelas folhas, como fazem todas as plantas.",
+          "p": "generalizacao",
+          "w": "Nenhuma planta assimila diretamente o N2 do ar. Elas dependem de formas como amônio e nitrato, vindas da fixação biológica, industrial ou atmosférica."
+        },
+        {
+          "t": "Retiram nitrogênio da planta e o liberam no ar, por isso a soja não precisa de adubo.",
+          "p": "inversao",
+          "w": "Inverte o sentido do fluxo. As bactérias fornecem nitrogênio à planta, em vez de retirá-lo dela."
+        }
+      ]
+    },
+    {
+      "id": "bio41",
+      "topic": "Ciclo do carbono",
+      "c": "Dados do SEEG, sistema de estimativas de emissões do Observatório do Clima, mostram que o desmatamento e as queimadas estão entre as maiores fontes de gás carbônico emitido pelo Brasil.",
+      "q": "Como as queimadas interferem no ciclo do carbono?",
+      "a": 2,
+      "src": "Ciclo do carbono; SEEG/Observatório do Clima: emissões por mudança de uso da terra",
+      "o": [
+        {
+          "t": "Liberam principalmente gás oxigênio, que retém calor na atmosfera.",
+          "p": "troca",
+          "w": "A combustão consome O2 e libera CO2. O gás que intensifica o efeito estufa é o CO2, não o O2."
+        },
+        {
+          "t": "Retiram CO2 da atmosfera, porque o fogo transforma o gás em cinzas que ficam no solo.",
+          "p": "inversao",
+          "w": "Inverte o processo. A combustão devolve à atmosfera, na forma de CO2, o carbono que estava armazenado na biomassa."
+        },
+        {
+          "t": "Liberam rapidamente, como CO2, o carbono armazenado na biomassa e reduzem a vegetação que o retiraria do ar pela fotossíntese.",
+          "p": "correta",
+          "w": "A vegetação é um reservatório de carbono. A queima devolve esse carbono à atmosfera e diminui a absorção de CO2 pela fotossíntese."
+        },
+        {
+          "t": "Só alteram o ciclo do carbono quando atingem florestas tropicais; queimar pastagens não libera CO2.",
+          "p": "restricao",
+          "w": "Toda combustão de matéria orgânica libera CO2. A quantidade varia com a biomassa queimada, mas qualquer queimada participa do ciclo."
+        }
+      ]
+    },
+    {
+      "id": "bio42",
+      "topic": "Mutualismo",
+      "c": "Em uma trilha da Serra do Cipó (MG), a professora mostra manchas coloridas sobre as rochas e explica que são liquens, associações entre fungos e algas ou cianobactérias.",
+      "q": "Que relação ecológica ocorre no líquen?",
+      "a": 1,
+      "src": "Relações ecológicas: mutualismo nos liquens (Amabis & Martho, Biologia Moderna, v. 3)",
+      "o": [
+        {
+          "t": "Parasitismo, porque o fungo vive sobre a alga e a prejudica.",
+          "p": "troca",
+          "w": "No líquen os dois se beneficiam: a alga fornece matéria orgânica, e o fungo oferece proteção e retém água e sais. Não há o prejuízo típico do parasitismo."
+        },
+        {
+          "t": "Mutualismo: a alga faz fotossíntese e fornece alimento ao fungo, que a protege e retém água e sais minerais.",
+          "p": "correta",
+          "w": "É uma relação entre espécies diferentes em que as duas se beneficiam e dependem uma da outra para viver naquele ambiente."
+        },
+        {
+          "t": "Comensalismo, em que o benefício fica restrito ao fungo e a alga não é afetada.",
+          "p": "restricao",
+          "w": "Limita o benefício a um dos lados. No líquen, os dois ganham: há troca de alimento por proteção, água e sais."
+        },
+        {
+          "t": "Mutualismo, e por isso os liquens só sobrevivem em áreas de solo fértil.",
+          "p": "extrapolacao",
+          "w": "Os liquens vivem até sobre rochas nuas e são pioneiros na sucessão ecológica. A associação permite justamente sobreviver em ambientes pobres."
+        }
+      ]
+    },
+    {
+      "id": "bio43",
+      "topic": "Sucessão ecológica",
+      "c": "Uma pastagem abandonada perto de Ilhéus (BA), na Mata Atlântica, foi cercada para recuperação. Primeiro surgiram capins e arbustos; anos depois, árvores de crescimento rápido; mais tarde, espécies típicas de floresta madura.",
+      "q": "Qual afirmação sobre esse processo está correta?",
+      "a": 2,
+      "src": "Sucessão ecológica primária e secundária (Odum, Fundamentos de Ecologia)",
+      "o": [
+        {
+          "t": "As espécies de floresta madura chegam primeiro e criam condições para os capins se instalarem.",
+          "p": "inversao",
+          "w": "Inverte a ordem. As espécies pioneiras, como capins e arbustos, chegam primeiro e modificam o ambiente para as espécies seguintes."
+        },
+        {
+          "t": "É uma sucessão primária, pois começa em um local que nunca teve seres vivos.",
+          "p": "troca",
+          "w": "A sucessão primária começa em ambiente sem vida anterior, como rocha nua. Uma pastagem abandonada tem solo e sementes, então a sucessão é secundária."
+        },
+        {
+          "t": "É uma sucessão secundária, em que a biodiversidade e a biomassa tendem a aumentar até uma comunidade estável (clímax).",
+          "p": "correta",
+          "w": "A área já tinha solo e vida, por isso a sucessão é secundária. Ao longo dela, aumentam a diversidade, a complexidade das teias alimentares e a biomassa."
+        },
+        {
+          "t": "Em qualquer sucessão, a comunidade final será sempre idêntica à que existia antes do desmatamento.",
+          "p": "generalizacao",
+          "w": "A comunidade final depende do clima, do solo e das espécies disponíveis hoje, e pode ser diferente da original. A recuperação não garante a mesma composição."
+        }
+      ]
+    },
+    {
+      "id": "bio44",
+      "topic": "Caatinga",
+      "c": "Um estudante de São Paulo visitou o sertão de Pernambuco em outubro, na seca, e viu árvores sem folhas e cactos como o mandacaru. Voltou em março, depois das chuvas, e encontrou a mata verde.",
+      "q": "Qual característica da Caatinga explica essa mudança?",
+      "a": 3,
+      "src": "Biomas brasileiros: Caatinga (Ministério do Meio Ambiente; IBGE, Biomas do Brasil)",
+      "o": [
+        {
+          "t": "É uma floresta tropical úmida com chuvas o ano todo, e a queda das folhas é causada por pragas.",
+          "p": "troca",
+          "w": "Isso descreve biomas como a Amazônia. A Caatinga tem clima semiárido, com chuvas escassas e irregulares."
+        },
+        {
+          "t": "Só os cactos se adaptaram à seca; as demais plantas morrem todo ano e renascem de sementes.",
+          "p": "restricao",
+          "w": "Muitas árvores e arbustos sobrevivem à seca perdendo as folhas e voltando a brotar com as chuvas. Os cactos são apenas uma das formas de adaptação."
+        },
+        {
+          "t": "A perda das folhas indica que a vegetação morreu e que o bioma está virando deserto.",
+          "p": "extrapolacao",
+          "w": "A queda das folhas é uma adaptação que reduz a perda de água, e as plantas continuam vivas. A desertificação é outro processo, ligado sobretudo à degradação humana."
+        },
+        {
+          "t": "Clima semiárido com chuvas irregulares; muitas plantas são caducifólias e perdem as folhas na seca, o que reduz a perda de água.",
+          "p": "correta",
+          "w": "Caatinga significa “mata branca” em tupi, pelo aspecto acinzentado na seca. Folhas caducas, espinhos e caules que armazenam água são adaptações à escassez hídrica."
+        }
+      ]
+    },
+    {
+      "id": "bio45",
+      "topic": "Eutrofização",
+      "c": "Depois de anos recebendo esgoto doméstico sem tratamento, uma lagoa urbana de Belo Horizonte ficou com a água verde, coberta de algas, e houve mortandade de peixes.",
+      "q": "Qual sequência explica a morte dos peixes?",
+      "a": 0,
+      "src": "Eutrofização de corpos d'água (Linhares & Gewandsznajder, Biologia Hoje, v. 3)",
+      "o": [
+        {
+          "t": "Excesso de nutrientes, proliferação de algas, morte das algas, decomposição por bactérias aeróbias e queda do oxigênio dissolvido.",
+          "p": "correta",
+          "w": "É a eutrofização. O esgoto traz fósforo e nitrogênio, as algas se multiplicam e, quando morrem, sua decomposição consome o O2 da água."
+        },
+        {
+          "t": "A falta de nutrientes no esgoto faz as algas morrerem, e os peixes morrem de fome.",
+          "p": "inversao",
+          "w": "Inverte a causa. O esgoto traz excesso de nutrientes, e não falta, o que provoca a proliferação das algas."
+        },
+        {
+          "t": "Os peixes morrem por falta de gás carbônico, consumido pelas algas na fotossíntese.",
+          "p": "troca",
+          "w": "Peixes respiram oxigênio, não gás carbônico. A causa é a queda do O2, consumido na decomposição da matéria orgânica."
+        },
+        {
+          "t": "Qualquer quantidade de algas mata os peixes, porque todas as algas produzem toxinas.",
+          "p": "generalizacao",
+          "w": "Algas são produtoras e formam a base das cadeias aquáticas, e nem todas produzem toxinas. O problema é a proliferação excessiva e a decomposição que vem depois."
+        }
+      ]
+    },
+    {
+      "id": "bio46",
+      "topic": "Bile e gorduras",
+      "c": "Seu Antônio, de Aracaju, retirou a vesícula biliar por causa de cálculos. O médico o orientou a evitar refeições muito gordurosas nas primeiras semanas.",
+      "q": "Qual é o papel da bile na digestão?",
+      "a": 1,
+      "src": "Sistema digestório: bile e emulsificação de gorduras (Amabis & Martho, Biologia Moderna, v. 2)",
+      "o": [
+        {
+          "t": "A bile é uma enzima que quebra as gorduras em ácidos graxos e glicerol.",
+          "p": "troca",
+          "w": "A bile não é enzima e não quebra ligações químicas. A digestão química das gorduras é feita pelas lipases, sobretudo a pancreática."
+        },
+        {
+          "t": "A bile emulsiona as gorduras, separando-as em gotículas, o que aumenta a superfície de ação das lipases.",
+          "p": "correta",
+          "w": "Os sais biliares agem como detergentes. A bile é produzida no fígado e só armazenada na vesícula; sem ela, continua chegando ao intestino, de forma contínua e menos concentrada."
+        },
+        {
+          "t": "A bile é produzida na vesícula e armazenada no fígado, por isso a cirurgia acaba com sua produção.",
+          "p": "inversao",
+          "w": "Inverte os órgãos. O fígado produz a bile e a vesícula apenas a armazena; após a retirada da vesícula, a produção continua."
+        },
+        {
+          "t": "Sem a vesícula, a pessoa deixa de digerir qualquer gordura pelo resto da vida.",
+          "p": "extrapolacao",
+          "w": "A bile continua sendo produzida pelo fígado e lançada no duodeno. Em geral o organismo se adapta, e a digestão de gorduras continua, com cuidados na dieta."
+        }
+      ]
+    },
+    {
+      "id": "bio47",
+      "topic": "Circulação pulmonar",
+      "c": "Em uma aula de anatomia em um cursinho de Fortaleza, o professor afirmou: “Nem toda artéria leva sangue rico em oxigênio.” Os alunos estranharam.",
+      "q": "Qual exemplo confirma a afirmação do professor?",
+      "a": 2,
+      "src": "Sistema cardiovascular: pequena e grande circulação (Amabis & Martho, Biologia Moderna, v. 2)",
+      "o": [
+        {
+          "t": "Nenhum, porque artérias sempre transportam sangue arterial, e veias sempre transportam sangue venoso.",
+          "p": "generalizacao",
+          "w": "As artérias pulmonares levam sangue pobre em O2 aos pulmões, e as veias pulmonares trazem sangue oxigenado. Artéria e veia se definem pelo sentido do fluxo, não pelo teor de O2."
+        },
+        {
+          "t": "As veias pulmonares, que levam sangue pobre em oxigênio do coração aos pulmões.",
+          "p": "inversao",
+          "w": "Inverte o sentido. As veias pulmonares trazem sangue já oxigenado dos pulmões ao átrio esquerdo."
+        },
+        {
+          "t": "As artérias pulmonares, que saem do ventrículo direito levando sangue pobre em oxigênio aos pulmões.",
+          "p": "correta",
+          "w": "Artérias levam sangue do coração para os órgãos, qualquer que seja o teor de O2. Na pequena circulação, o sangue venoso segue pelas artérias pulmonares até os pulmões, onde ocorre a hematose."
+        },
+        {
+          "t": "A artéria aorta, que sai do ventrículo direito levando sangue venoso para o corpo.",
+          "p": "troca",
+          "w": "A aorta sai do ventrículo esquerdo e leva sangue rico em oxigênio para o corpo, na grande circulação."
+        }
+      ]
+    },
+    {
+      "id": "bio48",
+      "topic": "Controle da respiração",
+      "c": "Em uma competição de apneia em uma piscina de Niterói (RJ), um atleta conta que, depois de certo tempo sem respirar, sente uma vontade incontrolável de puxar o ar.",
+      "q": "Qual mecanismo provoca essa vontade?",
+      "a": 0,
+      "src": "Controle da respiração: bulbo e quimiorreceptores (Guyton & Hall, Tratado de Fisiologia Médica)",
+      "o": [
+        {
+          "t": "O aumento de CO2 no sangue, que acidifica o plasma e é detectado por quimiorreceptores; o bulbo então estimula os músculos respiratórios.",
+          "p": "correta",
+          "w": "O principal estímulo da respiração é o excesso de CO2, que baixa o pH do sangue. O centro respiratório do bulbo aumenta a frequência e a profundidade dos movimentos respiratórios."
+        },
+        {
+          "t": "O cerebelo, que comanda a respiração e é estimulado pelo excesso de oxigênio.",
+          "p": "troca",
+          "w": "O centro respiratório fica no bulbo; o cerebelo coordena equilíbrio e movimentos. Além disso, o estímulo é o excesso de CO2, não de O2."
+        },
+        {
+          "t": "A queda de CO2 no sangue, que torna o plasma ácido e estimula o bulbo.",
+          "p": "inversao",
+          "w": "Inverte a variação. É o aumento de CO2 que acidifica o sangue; a queda de CO2 o torna menos ácido."
+        },
+        {
+          "t": "A vontade de respirar só aparece quando o oxigênio do sangue chega a zero.",
+          "p": "restricao",
+          "w": "O impulso surge muito antes, pelo acúmulo de CO2. O organismo não espera o oxigênio acabar para reagir."
+        }
+      ]
+    },
+    {
+      "id": "bio49",
+      "topic": "Hormônio antidiurético",
+      "c": "Depois de uma festa em Ouro Preto (MG), estudantes notaram que, ao beber cerveja, urinavam com muito mais frequência e acordavam com sede.",
+      "q": "Qual mecanismo explica esse efeito do álcool?",
+      "a": 3,
+      "src": "Sistema excretor e hormônio antidiurético (Guyton & Hall, Tratado de Fisiologia Médica)",
+      "o": [
+        {
+          "t": "O álcool estimula a liberação de insulina, que faz os rins eliminarem mais água.",
+          "p": "troca",
+          "w": "A insulina regula a glicemia, não a reabsorção de água nos rins. O hormônio envolvido é o antidiurético (ADH)."
+        },
+        {
+          "t": "O álcool aumenta a liberação de ADH, e esse hormônio faz os rins reabsorverem menos água.",
+          "p": "inversao",
+          "w": "Inverte os dois efeitos. O álcool reduz a liberação de ADH, e o ADH aumenta, e não diminui, a reabsorção de água."
+        },
+        {
+          "t": "O álcool destrói os néfrons já na primeira dose, e os rins deixam de filtrar o sangue.",
+          "p": "extrapolacao",
+          "w": "O efeito descrito é hormonal e passageiro, não uma destruição dos rins. A filtração continua; o que muda é a reabsorção de água."
+        },
+        {
+          "t": "O álcool inibe a liberação do hormônio antidiurético (ADH); com menos ADH, os rins reabsorvem menos água e o volume de urina aumenta.",
+          "p": "correta",
+          "w": "O ADH, liberado pela neuro-hipófise, aumenta a reabsorção de água nos túbulos renais. Com menos ADH, mais água sai na urina, o que favorece a desidratação e a sede."
+        }
+      ]
+    },
+    {
+      "id": "bio50",
+      "topic": "Arco reflexo",
+      "c": "Ao encostar a mão em uma panela quente, Júlia, de Belém, puxou o braço antes mesmo de sentir dor.",
+      "q": "Como se explica essa reação tão rápida?",
+      "a": 1,
+      "src": "Sistema nervoso: arco reflexo medular (Amabis & Martho, Biologia Moderna, v. 2)",
+      "o": [
+        {
+          "t": "O cérebro analisou a situação e decidiu o movimento, pois reflexos só ocorrem quando a pessoa presta atenção.",
+          "p": "restricao",
+          "w": "No reflexo, a resposta não depende de decisão consciente nem de atenção. A dor é percebida pelo cérebro logo depois, quando a mão já se afastou."
+        },
+        {
+          "t": "É um arco reflexo: o impulso vai pelo neurônio sensitivo até a medula espinal, que envia a resposta pelo neurônio motor ao músculo.",
+          "p": "correta",
+          "w": "O circuito passa pela medula sem depender do processamento no encéfalo, o que encurta o tempo de resposta. A sensação de dor chega ao cérebro em seguida."
+        },
+        {
+          "t": "O impulso sai do músculo pelo neurônio sensitivo e chega à pele pelo neurônio motor.",
+          "p": "inversao",
+          "w": "Inverte o caminho. O receptor da pele envia o impulso pelo neurônio sensitivo, e o neurônio motor leva a resposta ao músculo."
+        },
+        {
+          "t": "É uma resposta do sistema endócrino: a adrenalina liberada no sangue contraiu o músculo do braço.",
+          "p": "troca",
+          "w": "Respostas hormonais são mais lentas, pois dependem da circulação. O movimento rápido é comandado pelo sistema nervoso, por meio da medula espinal."
+        }
+      ]
+    },
+    {
+      "id": "bio51",
+      "topic": "Insulina e diabetes",
+      "c": "Lucas, de 12 anos, morador de Campo Grande (MS), foi diagnosticado com diabetes tipo 1 e precisa aplicar insulina todos os dias.",
+      "q": "Qual afirmação sobre o caso está correta?",
+      "a": 1,
+      "src": "Ministério da Saúde: diabetes mellitus tipo 1; sistema endócrino (Amabis & Martho, Biologia Moderna, v. 2)",
+      "o": [
+        {
+          "t": "A insulina eleva a glicemia ao liberar glicose do fígado, e Lucas precisa dela porque tem pouco açúcar no sangue.",
+          "p": "inversao",
+          "w": "Essa é a ação do glucagon. A insulina reduz a glicemia, pois facilita a entrada de glicose nas células."
+        },
+        {
+          "t": "No diabetes tipo 1, o pâncreas produz pouca ou nenhuma insulina, hormônio que facilita a entrada de glicose nas células e reduz a glicemia.",
+          "p": "correta",
+          "w": "No tipo 1, as células beta das ilhotas pancreáticas são destruídas, em geral por reação autoimune. Sem insulina, a glicose se acumula no sangue."
+        },
+        {
+          "t": "O hormônio que falta é produzido pela tireoide, glândula que regula a glicose no sangue.",
+          "p": "troca",
+          "w": "A insulina é produzida pelas células beta das ilhotas do pâncreas. A tireoide produz T3 e T4, ligados ao metabolismo geral."
+        },
+        {
+          "t": "Todo diabetes é causado por excesso de açúcar na dieta e é tratado apenas com mudança na alimentação.",
+          "p": "generalizacao",
+          "w": "O diabetes tipo 1 não é causado pela dieta: resulta da destruição das células que produzem insulina e exige a aplicação do hormônio. A dieta ajuda, mas não substitui a insulina."
+        }
+      ]
+    },
+    {
+      "id": "bio52",
+      "topic": "HIV e linfócitos",
+      "c": "Em uma campanha de prevenção em Porto Alegre, um infectologista explicou por que pessoas com aids sem tratamento ficam vulneráveis a infecções que raramente afetam pessoas saudáveis, como certas pneumonias.",
+      "q": "Qual é a explicação correta?",
+      "a": 0,
+      "src": "Ministério da Saúde: HIV, aids e infecções oportunistas",
+      "o": [
+        {
+          "t": "O HIV infecta e destrói linfócitos T auxiliares (CD4), que coordenam a resposta imune, e o organismo fica sem defesa adequada.",
+          "p": "correta",
+          "w": "Com a queda dos linfócitos CD4, a resposta imune enfraquece e surgem as infecções oportunistas. O tratamento antirretroviral controla o vírus e evita essa queda."
+        },
+        {
+          "t": "O HIV é uma bactéria que destrói as hemácias e reduz o transporte de oxigênio.",
+          "p": "troca",
+          "w": "O HIV é um vírus (retrovírus), não uma bactéria. Seu alvo principal são os linfócitos T CD4, células de defesa, e não as hemácias."
+        },
+        {
+          "t": "Qualquer pessoa infectada pelo HIV desenvolve aids, mesmo que faça o tratamento antirretroviral.",
+          "p": "generalizacao",
+          "w": "Com tratamento antirretroviral adequado, a carga viral é controlada e a pessoa pode nunca desenvolver aids. HIV e aids não são sinônimos."
+        },
+        {
+          "t": "O HIV estimula demais o sistema imune, que passa a atacar o próprio pulmão.",
+          "p": "inversao",
+          "w": "Inverte o efeito. O HIV enfraquece a imunidade ao destruir linfócitos CD4; ele não provoca excesso de resposta contra o pulmão."
+        }
+      ]
+    },
+    {
+      "id": "bio53",
+      "topic": "Doença de Chagas",
+      "c": "Em 2005, um surto de doença de Chagas em Santa Catarina foi ligado ao consumo de caldo de cana contaminado. No Pará, casos semelhantes são associados ao açaí processado sem os cuidados adequados.",
+      "q": "Qual afirmação sobre a doença de Chagas está correta?",
+      "a": 3,
+      "src": "Ministério da Saúde: doença de Chagas (transmissão vetorial e oral)",
+      "o": [
+        {
+          "t": "É causada por um vírus transmitido pela picada do mosquito Aedes aegypti.",
+          "p": "troca",
+          "w": "Isso descreve doenças como dengue e zika. A doença de Chagas é causada pelo protozoário Trypanosoma cruzi."
+        },
+        {
+          "t": "Só é transmitida pela picada do barbeiro, por isso a via oral citada é impossível.",
+          "p": "restricao",
+          "w": "Além da via vetorial, há transmissão oral (alimentos contaminados com o barbeiro ou suas fezes), por transfusão, transplante e da mãe para o bebê."
+        },
+        {
+          "t": "O barbeiro transmite o parasita pela saliva ao picar, e as fezes do inseto não oferecem risco.",
+          "p": "inversao",
+          "w": "Inverte a forma de transmissão. O T. cruzi sai nas fezes do barbeiro, depositadas perto da picada, e entra pela pele lesionada ou pelas mucosas."
+        },
+        {
+          "t": "É causada pelo protozoário Trypanosoma cruzi, que pode chegar ao ser humano pelas fezes do barbeiro ou por alimentos contaminados.",
+          "p": "correta",
+          "w": "O barbeiro (triatomíneo) elimina o parasita nas fezes. Alimentos moídos com insetos infectados, como caldo de cana ou açaí, também transmitem a doença."
+        }
+      ]
+    },
+    {
+      "id": "bio54",
+      "topic": "Malária",
+      "c": "Um turista de São Paulo voltou de uma pescaria no interior do Amazonas com febre alta em acessos, calafrios e suor intenso. O exame de sangue (gota espessa) confirmou malária.",
+      "q": "Qual afirmação sobre a doença está correta?",
+      "a": 2,
+      "src": "Ministério da Saúde: malária (Plasmodium e Anopheles)",
+      "o": [
+        {
+          "t": "É causada por uma bactéria transmitida pelo mosquito Aedes aegypti.",
+          "p": "troca",
+          "w": "O agente é um protozoário do gênero Plasmodium, e o vetor é o mosquito Anopheles, não o Aedes."
+        },
+        {
+          "t": "É transmitida pela picada de qualquer mosquito, macho ou fêmea, em qualquer região do Brasil.",
+          "p": "generalizacao",
+          "w": "Só as fêmeas de mosquitos do gênero Anopheles transmitem a malária. No Brasil, a grande maioria dos casos ocorre na região amazônica."
+        },
+        {
+          "t": "É causada pelo protozoário Plasmodium, transmitido pela picada da fêmea do mosquito Anopheles, o mosquito-prego.",
+          "p": "correta",
+          "w": "O parasita se multiplica no fígado e nas hemácias, e a ruptura das hemácias explica os acessos de febre. A doença se concentra na Amazônia Legal."
+        },
+        {
+          "t": "Por ser causada por um protozoário, a malária não tem tratamento e é sempre fatal.",
+          "p": "extrapolacao",
+          "w": "A malária tem tratamento com antimaláricos, oferecido gratuitamente pelo SUS. O diagnóstico e o tratamento rápidos evitam as formas graves."
+        }
+      ]
+    },
+    {
+      "id": "bio55",
+      "topic": "Esquistossomose",
+      "c": "Em um povoado de Alagoas, moradores que costumavam tomar banho em um açude apresentaram barriga inchada. Agentes de saúde encontraram caramujos do gênero Biomphalaria na água.",
+      "q": "Como ocorre a transmissão da esquistossomose nesse caso?",
+      "a": 0,
+      "src": "Ministério da Saúde: esquistossomose mansoni",
+      "o": [
+        {
+          "t": "Larvas do Schistosoma mansoni (cercárias), liberadas pelo caramujo, penetram ativamente pela pele de quem entra na água contaminada.",
+          "p": "correta",
+          "w": "Os ovos saem nas fezes de pessoas infectadas e, na água, liberam larvas que se desenvolvem no caramujo. O saneamento básico interrompe esse ciclo."
+        },
+        {
+          "t": "Pela ingestão de carne de porco malcozida com cisticercos.",
+          "p": "troca",
+          "w": "Isso descreve a teníase. Na esquistossomose, a infecção ocorre pelo contato da pele com água que contém cercárias."
+        },
+        {
+          "t": "O caramujo é o hospedeiro definitivo, onde o verme adulto se reproduz, e o ser humano é o hospedeiro intermediário.",
+          "p": "inversao",
+          "w": "Inverte os hospedeiros. O verme adulto vive nas veias do ser humano (hospedeiro definitivo); o caramujo é o hospedeiro intermediário."
+        },
+        {
+          "t": "Só ocorre se a pessoa beber a água do açude; tomar banho nele não traz risco.",
+          "p": "restricao",
+          "w": "A principal via é a penetração das cercárias pela pele, durante banhos, pesca ou lavagem de roupa. Não é preciso ingerir a água."
+        }
+      ]
+    },
+    {
+      "id": "bio56",
+      "topic": "Leishmaniose visceral",
+      "c": "A vigilância em saúde de Araçatuba (SP) examina cães e orienta os moradores a limpar quintais com folhas e matéria orgânica acumuladas, para combater a leishmaniose visceral.",
+      "q": "Qual afirmação sobre essa doença está correta?",
+      "a": 1,
+      "src": "Ministério da Saúde: leishmaniose visceral",
+      "o": [
+        {
+          "t": "É causada por um vírus transmitido pelo Aedes aegypti, que se cria em água parada.",
+          "p": "troca",
+          "w": "O agente é o protozoário Leishmania, e o vetor é o flebotomíneo (mosquito-palha), que se cria em matéria orgânica úmida, e não em água parada."
+        },
+        {
+          "t": "É causada pelo protozoário Leishmania, transmitido pela picada do flebotomíneo (mosquito-palha); o cão é o principal reservatório urbano.",
+          "p": "correta",
+          "w": "O mosquito-palha se reproduz em locais com matéria orgânica, como folhas e fezes de animais. Por isso a limpeza dos quintais e o controle nos cães fazem parte da prevenção."
+        },
+        {
+          "t": "O cão transmite a doença ao ser humano pela mordida, e o inseto serve apenas de reservatório.",
+          "p": "inversao",
+          "w": "Inverte os papéis. A transmissão ocorre pela picada do flebotomíneo; o cão infectado é o reservatório que fornece o parasita ao inseto."
+        },
+        {
+          "t": "Toda leishmaniose provoca apenas feridas na pele, que cicatrizam sozinhas.",
+          "p": "generalizacao",
+          "w": "A forma visceral atinge órgãos como fígado, baço e medula óssea e pode ser fatal sem tratamento. As feridas na pele caracterizam a leishmaniose tegumentar."
+        }
+      ]
+    },
+    {
+      "id": "bio57",
+      "topic": "Tuberculose",
+      "c": "Um morador de Manaus tosse há mais de três semanas, perdeu peso e tem febre no fim da tarde. Na Unidade Básica de Saúde, o exame de escarro confirmou tuberculose.",
+      "q": "Qual afirmação sobre a doença está correta?",
+      "a": 3,
+      "src": "Ministério da Saúde: tuberculose (transmissão, vacina BCG e tratamento)",
+      "o": [
+        {
+          "t": "É causada por um vírus, e por isso o tratamento é feito apenas com repouso.",
+          "p": "troca",
+          "w": "A tuberculose é causada pela bactéria Mycobacterium tuberculosis (bacilo de Koch) e tratada com antibióticos específicos, gratuitos no SUS."
+        },
+        {
+          "t": "O tratamento pode ser interrompido assim que a tosse passar, pois isso indica cura.",
+          "p": "extrapolacao",
+          "w": "O tratamento dura no mínimo seis meses. Interrompê-lo quando os sintomas melhoram favorece a volta da doença e o surgimento de bacilos resistentes."
+        },
+        {
+          "t": "A vacina BCG impede qualquer forma de tuberculose em todas as idades, por isso adultos vacinados não adoecem.",
+          "p": "generalizacao",
+          "w": "A BCG, aplicada ao nascer, protege sobretudo contra as formas graves na infância, como a meníngea e a miliar. Adultos vacinados podem ter tuberculose pulmonar."
+        },
+        {
+          "t": "É causada pela bactéria Mycobacterium tuberculosis, transmitida pelo ar ao tossir, espirrar ou falar, e o tratamento dura pelo menos seis meses.",
+          "p": "correta",
+          "w": "A transmissão ocorre a partir de pessoas com a forma pulmonar ativa. O tratamento completo, gratuito no SUS, cura a doença e interrompe a transmissão."
+        }
+      ]
+    },
+    {
+      "id": "bio58",
+      "topic": "Grupos vegetais",
+      "c": "Em uma visita ao Jardim Botânico do Rio de Janeiro, a professora mostrou um musgo, uma samambaia, um pinheiro e uma mangueira e pediu que os alunos os relacionassem às novidades evolutivas das plantas.",
+      "q": "Qual relação está correta?",
+      "a": 2,
+      "src": "Botânica: briófitas, pteridófitas, gimnospermas e angiospermas (Linhares & Gewandsznajder, Biologia Hoje, v. 2)",
+      "o": [
+        {
+          "t": "Todas as plantas têm flores e frutos, mas em algumas eles são pequenos demais para serem vistos.",
+          "p": "generalizacao",
+          "w": "Flores e frutos são exclusivos das angiospermas, como a mangueira. Musgos e samambaias não têm sementes, e o pinheiro tem sementes nuas, sem fruto."
+        },
+        {
+          "t": "O pinheiro produz frutos e, por isso, é uma angiosperma.",
+          "p": "troca",
+          "w": "O pinheiro é uma gimnosperma: tem sementes nuas, sem fruto que as envolva. O fruto é exclusivo das angiospermas."
+        },
+        {
+          "t": "O musgo não tem vasos; a samambaia tem vasos, mas não sementes; o pinheiro tem sementes nuas; a mangueira tem flores e frutos.",
+          "p": "correta",
+          "w": "Briófitas são avasculares; pteridófitas têm vasos condutores sem sementes; gimnospermas têm sementes sem fruto; angiospermas têm flores e frutos."
+        },
+        {
+          "t": "A samambaia é avascular, e o musgo tem vasos condutores, o que explica seu porte maior.",
+          "p": "inversao",
+          "w": "Inverte os grupos. O musgo (briófita) é avascular e de pequeno porte; a samambaia (pteridófita) tem vasos condutores e pode ser maior."
+        }
+      ]
+    },
+    {
+      "id": "bio59",
+      "topic": "Etileno",
+      "c": "Uma feirante de Belo Horizonte ensina um truque: para amadurecer abacates verdes mais rápido, basta guardá-los em um saco de papel fechado junto com uma banana madura.",
+      "q": "O que explica o truque?",
+      "a": 0,
+      "src": "Hormônios vegetais: etileno e amadurecimento de frutos (Amabis & Martho, Biologia Moderna, v. 2)",
+      "o": [
+        {
+          "t": "A banana madura libera etileno, hormônio vegetal gasoso que acelera o amadurecimento dos frutos, e o saco fechado o concentra.",
+          "p": "correta",
+          "w": "O etileno é um gás produzido pelos frutos durante o amadurecimento e estimula outros frutos próximos. O saco fechado impede que ele se disperse."
+        },
+        {
+          "t": "A banana libera auxina pela casca, e esse hormônio faz o abacate amadurecer.",
+          "p": "troca",
+          "w": "As auxinas atuam sobretudo no crescimento e alongamento das células, como no fototropismo. O hormônio ligado ao amadurecimento é o etileno."
+        },
+        {
+          "t": "O saco retira o etileno do ar, e a falta desse hormônio acelera o amadurecimento.",
+          "p": "inversao",
+          "w": "Inverte o efeito. O etileno acelera o amadurecimento, e o saco fechado acumula o gás em vez de retirá-lo."
+        },
+        {
+          "t": "Qualquer objeto guardado com o abacate, até uma pedra, teria o mesmo efeito, pois o que importa é o escuro.",
+          "p": "generalizacao",
+          "w": "O efeito depende do etileno liberado pelo fruto maduro. Um objeto que não produz o gás não acelera o amadurecimento."
+        }
+      ]
+    },
+    {
+      "id": "bio60",
+      "topic": "Ovo amniótico",
+      "c": "Em uma exposição sobre a evolução dos vertebrados em um museu de Belo Horizonte, um painel informa que os répteis, ao contrário dos anfíbios, se reproduzem totalmente fora da água.",
+      "q": "Qual novidade evolutiva tornou isso possível?",
+      "a": 1,
+      "src": "Zoologia dos vertebrados: ovo amniótico (Linhares & Gewandsznajder, Biologia Hoje, v. 2)",
+      "o": [
+        {
+          "t": "As brânquias, que permitiram respirar o oxigênio do ar.",
+          "p": "troca",
+          "w": "Brânquias são estruturas de respiração aquática. Os répteis respiram por pulmões, e a novidade ligada à reprodução em terra é o ovo amniótico."
+        },
+        {
+          "t": "O ovo com casca e anexos embrionários, como o âmnio, que protege o embrião da desidratação e dispensa a água no desenvolvimento.",
+          "p": "correta",
+          "w": "O âmnio envolve o embrião em líquido, o alantoide armazena excretas e participa das trocas gasosas, e o saco vitelino guarda alimento. Assim, não há fase larval aquática."
+        },
+        {
+          "t": "A fecundação externa, que dispensou o encontro entre macho e fêmea.",
+          "p": "inversao",
+          "w": "Inverte o que ocorreu. Os répteis têm fecundação interna, necessária porque o ovo recebe casca antes de ser posto."
+        },
+        {
+          "t": "A presença de pulmões, já que todo vertebrado com pulmão se reproduz fora da água.",
+          "p": "generalizacao",
+          "w": "Anfíbios têm pulmões e ainda dependem da água para se reproduzir, com ovos sem casca e larvas aquáticas. O que libertou os répteis foi o ovo amniótico."
+        }
+      ]
+    }
+  ]
+}

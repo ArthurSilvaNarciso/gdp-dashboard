@@ -23,6 +23,7 @@ Object.assign(I, {
   bolt: '<path d="M13.4 3 5.6 13.3h6.1l-1 7.7 7.9-10.4h-6.2z"/>',
   alert: '<circle cx="12" cy="12" r="8.6"/><path d="M12 7.6v5.2"/><circle class="a" cx="12" cy="16.3" r="1.35"/>',
   file: '<path d="M14 3.6H7a2 2 0 0 0-2 2v12.8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8.6z"/><path d="M14 3.6v5h5"/><path d="M8.6 13h6.8M8.6 16.4h4.2"/>',
+  bell: '<path d="M6.2 16.6V11a5.8 5.8 0 0 1 11.6 0v5.6l1.6 1.8H4.6Z"/><path d="M10 20.6a2.2 2.2 0 0 0 4 0"/><circle class="a" cx="17.6" cy="5.6" r="2"/>',
   clock: '<circle cx="12" cy="13" r="7.8"/><path d="M12 9v4l2.7 1.7M9.6 2.9h4.8"/><circle class="a" cx="18.6" cy="6.2" r="1.5"/>',
   book: '<path d="M6.2 3.6h10.6a1.6 1.6 0 0 1 1.6 1.6v13.6a1.6 1.6 0 0 1-1.6 1.6H6.2z"/><path d="M6.2 3.6v16.8M3.9 7.6h2.3M3.9 12h2.3M3.9 16.4h2.3M10.2 8.4h4.6"/><circle class="a" cx="14.8" cy="14.6" r="1.7"/>',
   send: '<path d="M20.4 3.6 3.6 10.4l6.6 2.8 2.8 6.6z"/><path d="m10.2 13.2 4.4-4.4"/>',

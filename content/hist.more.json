@@ -1,0 +1,1505 @@
+{
+  "id": "hist",
+  "questions": [
+    {
+      "id": "hist11",
+      "topic": "Capitanias hereditárias",
+      "c": "Em 1534, o rei D. João III dividiu a América portuguesa em grandes lotes de terra entregues a donatários, como Duarte Coelho, que recebeu Pernambuco.",
+      "q": "Qual característica desse sistema está correta?",
+      "a": 1,
+      "src": "Cartas de doação e forais das capitanias (1534); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Todas as capitanias prosperaram, graças aos recursos enviados pela Coroa.",
+          "p": "generalizacao",
+          "w": "A maioria fracassou, por falta de recursos, conflitos com indígenas e distância da metrópole. Pernambuco e São Vicente foram as principais exceções."
+        },
+        {
+          "t": "Os donatários recebiam a posse hereditária da capitania, não a propriedade, e deviam povoá-la e explorá-la com recursos próprios.",
+          "p": "correta",
+          "w": "As regras estavam na carta de doação e no foral. O donatário transmitia a capitania aos herdeiros, mas não podia vendê-la, e a Coroa mantinha parte dos tributos."
+        },
+        {
+          "t": "A Coroa financiava a colonização, e os donatários apenas fiscalizavam os gastos do rei.",
+          "p": "inversao",
+          "w": "Inverte a lógica do sistema. A Coroa transferia os custos a particulares; eram os donatários que investiam na colonização."
+        },
+        {
+          "t": "O sistema acabou em 1548, com a extinção imediata de todas as capitanias pelo governo-geral.",
+          "p": "extrapolacao",
+          "w": "O governo-geral centralizou a administração, mas as capitanias continuaram existindo. As capitanias hereditárias só foram extintas no século XVIII, no período pombalino."
+        }
+      ]
+    },
+    {
+      "id": "hist12",
+      "topic": "Governo-geral",
+      "c": "Em 1549, Tomé de Sousa desembarcou na Bahia com soldados, funcionários e os primeiros jesuítas, liderados por Manuel da Nóbrega, e fundou Salvador.",
+      "q": "Qual era o objetivo principal da criação do governo-geral?",
+      "a": 3,
+      "src": "Regimento de Tomé de Sousa (1548); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Dar mais autonomia aos donatários, reduzindo a presença da Coroa na colônia.",
+          "p": "inversao",
+          "w": "Inverte o objetivo. O governo-geral aumentou a presença da Coroa e centralizou a administração colonial."
+        },
+        {
+          "t": "Transferir a capital da colônia para o Rio de Janeiro, por causa da mineração.",
+          "p": "troca",
+          "w": "A transferência para o Rio ocorreu só em 1763, no contexto do ouro de Minas. Em 1549, Salvador foi fundada para ser a sede do governo-geral."
+        },
+        {
+          "t": "Cuidar apenas da catequese dos indígenas, sem funções militares ou administrativas.",
+          "p": "restricao",
+          "w": "A catequese era uma das frentes, mas o governo-geral tinha também funções militares, fiscais e judiciais, com cargos como os de ouvidor-mor e provedor-mor."
+        },
+        {
+          "t": "Centralizar a administração colonial, coordenar a defesa e apoiar as capitanias, sem extingui-las.",
+          "p": "correta",
+          "w": "Diante do fracasso de várias capitanias e das ameaças estrangeiras, a Coroa criou, pelo Regimento de 1548, um poder central na colônia, sediado em Salvador."
+        }
+      ]
+    },
+    {
+      "id": "hist13",
+      "topic": "Exclusivo metropolitano",
+      "c": "Em uma aula sobre o sistema colonial em uma escola de São Luís, o professor apresentou a regra segundo a qual o açúcar produzido no Brasil só podia ser vendido a comerciantes autorizados por Portugal.",
+      "q": "Que princípio da política colonial essa regra expressa?",
+      "a": 0,
+      "src": "Fernando Novais, Portugal e Brasil na crise do antigo sistema colonial; Alvará de 5 de janeiro de 1785",
+      "o": [
+        {
+          "t": "O exclusivo metropolitano (pacto colonial): a colônia só podia comerciar com a metrópole, que lucrava comprando barato e vendendo caro.",
+          "p": "correta",
+          "w": "Era a aplicação do mercantilismo às colônias. O monopólio garantia à metrópole o controle do comércio e os lucros da intermediação."
+        },
+        {
+          "t": "O livre-comércio: a colônia podia vender a qualquer país, e Portugal comprava apenas o que sobrava.",
+          "p": "inversao",
+          "w": "Inverte a política. A liberdade de comércio só veio com a abertura dos portos, em 1808; antes, vigorava o monopólio metropolitano."
+        },
+        {
+          "t": "A substituição de importações, que estimulava a criação de indústrias na colônia.",
+          "p": "troca",
+          "w": "A substituição de importações é uma política do século XX. Portugal chegou a proibir manufaturas na colônia, como no alvará de 1785."
+        },
+        {
+          "t": "Uma regra que valia só para o Brasil, pois nenhuma outra colônia europeia sofria restrições comerciais.",
+          "p": "restricao",
+          "w": "O exclusivo era prática comum das metrópoles europeias da época, como Espanha, Inglaterra e França, em suas colônias."
+        }
+      ]
+    },
+    {
+      "id": "hist14",
+      "topic": "Brasil holandês",
+      "c": "No Instituto Ricardo Brennand, no Recife, visitantes observam paisagens de Frans Post, pintor que veio a Pernambuco com Maurício de Nassau durante o domínio holandês no Nordeste (1630-1654).",
+      "q": "Qual afirmação sobre esse período está correta?",
+      "a": 2,
+      "src": "Evaldo Cabral de Mello, Olinda Restaurada; Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Os holandeses vieram atraídos pelo ouro de Minas Gerais, descoberto no início do século XVII.",
+          "p": "troca",
+          "w": "O ouro de Minas só foi descoberto no fim do século XVII. O interesse holandês era o açúcar do Nordeste, cujo comércio eles já financiavam."
+        },
+        {
+          "t": "Após a expulsão, em 1654, os holandeses abandonaram o açúcar, e o Brasil passou a ter o monopólio mundial do produto.",
+          "p": "extrapolacao",
+          "w": "Ocorreu o contrário: os holandeses levaram técnicas e capitais para as Antilhas, e essa concorrência contribuiu para a crise do açúcar brasileiro."
+        },
+        {
+          "t": "A ocupação se ligou à União Ibérica: a Espanha, em guerra com os Países Baixos, cortou o acesso holandês ao açúcar do Brasil.",
+          "p": "correta",
+          "w": "Com Portugal e Espanha sob o mesmo rei (1580-1640), os holandeses perderam o acesso ao açúcar que financiavam e refinavam. A Companhia das Índias Ocidentais então ocupou o Nordeste."
+        },
+        {
+          "t": "Nassau governou de forma intolerante, proibindo outras religiões e destruindo o Recife.",
+          "p": "inversao",
+          "w": "Inverte a imagem do governo de Nassau, conhecido pela relativa tolerância religiosa e por obras urbanas no Recife, como pontes e palácios."
+        }
+      ]
+    },
+    {
+      "id": "hist15",
+      "topic": "Quilombo dos Palmares",
+      "c": "Todo 20 de novembro, escolas de Alagoas visitam o Parque Memorial Quilombo dos Palmares, na Serra da Barriga, em União dos Palmares.",
+      "q": "Por que essa data foi escolhida e o que foi Palmares?",
+      "a": 2,
+      "src": "Lei 12.519/2011 e Lei 14.759/2023 (Dia Nacional de Zumbi e da Consciência Negra); Flávio Gomes, Palmares",
+      "o": [
+        {
+          "t": "É a data da Lei Áurea, que libertou os moradores de Palmares.",
+          "p": "troca",
+          "w": "A Lei Áurea é de 13 de maio de 1888, quase dois séculos depois do fim de Palmares. O 20 de novembro lembra a morte de Zumbi."
+        },
+        {
+          "t": "Palmares foi um pequeno quilombo de poucos anos, formado só por africanos fugidos de um único engenho.",
+          "p": "restricao",
+          "w": "Palmares resistiu por quase um século e reuniu milhares de pessoas: africanos e descendentes, além de indígenas e brancos pobres."
+        },
+        {
+          "t": "Lembra a morte de Zumbi, em 1695; Palmares foi o maior quilombo da colônia e é símbolo da resistência à escravidão.",
+          "p": "correta",
+          "w": "Palmares foi destruído em 1694 por tropas comandadas pelo bandeirante Domingos Jorge Velho. Zumbi foi morto em 20 de novembro de 1695, data do Dia Nacional de Zumbi e da Consciência Negra."
+        },
+        {
+          "t": "Palmares foi o único quilombo da história do Brasil, o que mostra que a resistência à escravidão foi rara.",
+          "p": "generalizacao",
+          "w": "Houve centenas de quilombos em todo o país, além de fugas, revoltas e outras formas de resistência. Palmares foi o maior, não o único."
+        }
+      ]
+    },
+    {
+      "id": "hist16",
+      "topic": "Bandeirantes",
+      "c": "No Museu do Ipiranga, em São Paulo, estátuas de bandeirantes como Fernão Dias e Raposo Tavares decoram o saguão de entrada. Uma professora pede que a turma vá além da imagem heroica e descreva o que faziam as bandeiras.",
+      "q": "Qual descrição das bandeiras está correta?",
+      "a": 0,
+      "src": "John Monteiro, Negros da Terra (1994); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Expedições que saíam de São Paulo para capturar indígenas e escravizá-los, buscar metais preciosos e que ampliaram o território além de Tordesilhas.",
+          "p": "correta",
+          "w": "O apresamento indígena e a busca de ouro motivaram as bandeiras. Elas destruíram aldeias e missões jesuíticas e, no fim do século XVII, encontraram ouro em Minas Gerais."
+        },
+        {
+          "t": "Expedições organizadas pelos jesuítas para proteger os indígenas da escravização.",
+          "p": "inversao",
+          "w": "Inverte o papel. Os bandeirantes atacavam missões jesuíticas, como as do Guairá, para capturar indígenas já aldeados."
+        },
+        {
+          "t": "Expedições que atuavam apenas no litoral de São Paulo, sem penetrar no interior.",
+          "p": "restricao",
+          "w": "As bandeiras percorreram o interior até as áreas que hoje formam Minas Gerais, Goiás, Mato Grosso e o Sul do país."
+        },
+        {
+          "t": "Expedições oficiais enviadas por Portugal para fundar as capitanias hereditárias.",
+          "p": "troca",
+          "w": "As capitanias foram criadas em 1534 por doação da Coroa. As bandeiras eram, em geral, iniciativas de particulares paulistas, sobretudo nos séculos XVII e XVIII."
+        }
+      ]
+    },
+    {
+      "id": "hist17",
+      "topic": "Tratado de Madri",
+      "c": "Em uma exposição de mapas antigos na Biblioteca Nacional, no Rio de Janeiro, visitantes comparam a linha de Tordesilhas (1494) com as fronteiras definidas entre Portugal e Espanha em 1750.",
+      "q": "Que princípio do Tratado de Madri explica a expansão das fronteiras?",
+      "a": 3,
+      "src": "Tratado de Madri (1750); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "A autodeterminação dos povos indígenas, que escolheram ficar sob domínio português.",
+          "p": "troca",
+          "w": "Esse é um princípio do direito internacional contemporâneo. O Tratado de Madri se baseou na ocupação efetiva do território."
+        },
+        {
+          "t": "A confirmação da linha de Tordesilhas, que voltou a valer em todo o território.",
+          "p": "inversao",
+          "w": "Inverte o efeito. O tratado substituiu Tordesilhas e reconheceu a Portugal terras a oeste da antiga linha."
+        },
+        {
+          "t": "O direito de Portugal a toda a América do Sul, já que a Espanha abriu mão de suas colônias.",
+          "p": "generalizacao",
+          "w": "A Espanha manteve a maior parte de suas colônias. O tratado apenas redefiniu os limites entre os domínios dos dois reinos."
+        },
+        {
+          "t": "O uti possidetis: a terra pertencia a quem a ocupava de fato, o que favoreceu Portugal no interior ocupado por bandeirantes e colonos.",
+          "p": "correta",
+          "w": "Defendido pelo diplomata Alexandre de Gusmão, o princípio legitimou a ocupação portuguesa além de Tordesilhas e aproximou o contorno do Brasil do atual."
+        }
+      ]
+    },
+    {
+      "id": "hist18",
+      "topic": "Revolta de Beckman",
+      "c": "Em 1684, em São Luís, senhores de terras e comerciantes liderados por Manuel Beckman se rebelaram contra a Companhia de Comércio do Estado do Maranhão e contra os jesuítas.",
+      "q": "Qual foi a principal motivação dessa revolta?",
+      "a": 1,
+      "src": "Revolta de Beckman (1684); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "A cobrança da derrama sobre o ouro extraído no Maranhão.",
+          "p": "troca",
+          "w": "A derrama se ligava à mineração em Minas Gerais, no século XVIII. No Maranhão de 1684, o problema era o monopólio comercial e a mão de obra."
+        },
+        {
+          "t": "O monopólio da Companhia, que abastecia mal a região de escravizados africanos e produtos, e as restrições jesuítas à escravização indígena.",
+          "p": "correta",
+          "w": "A Companhia, criada em 1682, cobrava caro e não cumpria o abastecimento prometido. A revolta foi derrotada e Beckman foi enforcado, mas a Companhia acabou extinta."
+        },
+        {
+          "t": "O desejo de tornar o Maranhão uma república independente de Portugal.",
+          "p": "extrapolacao",
+          "w": "A revolta tinha caráter nativista: atacava abusos locais, não o domínio português. Projetos de independência só aparecem no fim do século XVIII."
+        },
+        {
+          "t": "A defesa do monopólio comercial, que os colonos queriam manter contra a concorrência.",
+          "p": "inversao",
+          "w": "Inverte o sentido. Os colonos se rebelaram contra o monopólio da Companhia, e não em sua defesa."
+        }
+      ]
+    },
+    {
+      "id": "hist19",
+      "topic": "Guerra dos Emboabas",
+      "c": "No início do século XVIII, na região das minas, paulistas que haviam descoberto ouro entraram em conflito com recém-chegados, que chamavam de emboabas. O conflito durou de 1707 a 1709.",
+      "q": "Quem eram os emboabas e qual foi um resultado do conflito?",
+      "a": 3,
+      "src": "Guerra dos Emboabas (1707-1709); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Eram os paulistas pioneiros, que venceram os forasteiros e obtiveram o monopólio das minas.",
+          "p": "inversao",
+          "w": "Inverte os grupos e o resultado. Emboabas eram os forasteiros, e foram eles que prevaleceram; muitos paulistas deixaram a região."
+        },
+        {
+          "t": "Eram indígenas que expulsaram os portugueses e criaram um quilombo nas minas.",
+          "p": "troca",
+          "w": "O conflito foi entre colonos, pelo controle das jazidas. Emboaba era o nome dado pelos paulistas aos forasteiros, sobretudo portugueses."
+        },
+        {
+          "t": "Eram portugueses que, ao vencer, proclamaram a independência de Minas Gerais.",
+          "p": "extrapolacao",
+          "w": "O conflito não teve caráter separatista. Ao final, a Coroa reforçou seu controle sobre a região."
+        },
+        {
+          "t": "Eram forasteiros, sobretudo portugueses; após o conflito, a Coroa criou a capitania de São Paulo e Minas do Ouro (1709).",
+          "p": "correta",
+          "w": "Derrotados, muitos paulistas partiram e encontraram ouro em Mato Grosso e Goiás. A Coroa aproveitou o conflito para ampliar sua presença administrativa nas minas."
+        }
+      ]
+    },
+    {
+      "id": "hist20",
+      "topic": "Guerra dos Mascates",
+      "c": "Entre 1710 e 1711, Pernambuco viveu um conflito armado entre senhores de engenho de Olinda e comerciantes portugueses do Recife, chamados pejorativamente de mascates.",
+      "q": "O que estava em jogo nesse conflito?",
+      "a": 1,
+      "src": "Guerra dos Mascates (1710-1711); Evaldo Cabral de Mello, A Fronda dos Mazombos",
+      "o": [
+        {
+          "t": "A independência de Pernambuco, proclamada pelos comerciantes do Recife.",
+          "p": "extrapolacao",
+          "w": "O conflito era local e não buscava a separação de Portugal. Foi uma revolta nativista, ligada a disputas de poder e a dívidas."
+        },
+        {
+          "t": "A elevação do Recife à condição de vila, que o tornava autônomo em relação a Olinda, em meio às dívidas dos senhores de engenho com os comerciantes.",
+          "p": "correta",
+          "w": "Com a crise do açúcar, os senhores de Olinda estavam endividados com os comerciantes do Recife. A autonomia política do Recife acirrou a rivalidade."
+        },
+        {
+          "t": "Os comerciantes do Recife deviam dinheiro aos senhores de Olinda, que exigiam o pagamento.",
+          "p": "inversao",
+          "w": "Inverte a relação. Eram os senhores de engenho de Olinda que estavam endividados com os comerciantes do Recife."
+        },
+        {
+          "t": "A disputa pelas minas de ouro entre paulistas e forasteiros.",
+          "p": "troca",
+          "w": "Isso descreve a Guerra dos Emboabas (1707-1709), ocorrida na região das minas, e não em Pernambuco."
+        }
+      ]
+    },
+    {
+      "id": "hist21",
+      "topic": "Revolta de Vila Rica",
+      "c": "Em 1720, em Vila Rica, mineradores se rebelaram contra a criação das casas de fundição, onde todo o ouro deveria ser fundido em barras e ter o quinto da Coroa retirado.",
+      "q": "Qual afirmação sobre essa revolta está correta?",
+      "a": 2,
+      "src": "Revolta de Vila Rica (1720); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Foi liderada por Tiradentes e tinha como objetivo proclamar uma república.",
+          "p": "troca",
+          "w": "Isso se refere à Inconfidência Mineira, de 1789. A revolta de 1720 é associada a Filipe dos Santos."
+        },
+        {
+          "t": "Foi vitoriosa, e a Coroa desistiu para sempre das casas de fundição.",
+          "p": "extrapolacao",
+          "w": "A revolta foi reprimida, e as casas de fundição acabaram sendo instaladas poucos anos depois."
+        },
+        {
+          "t": "Foi reprimida, Filipe dos Santos foi executado, e a Coroa separou Minas Gerais de São Paulo, criando uma nova capitania.",
+          "p": "correta",
+          "w": "A revolta mostrou a tensão causada pelo controle fiscal do ouro. Em resposta, a Coroa reforçou sua presença e criou a capitania de Minas Gerais, em 1720."
+        },
+        {
+          "t": "Os mineradores exigiam a criação das casas de fundição para aumentar a arrecadação da Coroa.",
+          "p": "inversao",
+          "w": "Inverte a reivindicação. Os revoltosos eram contra as casas de fundição, que tornavam a cobrança do quinto mais rigorosa."
+        }
+      ]
+    },
+    {
+      "id": "hist22",
+      "topic": "Quinto do ouro",
+      "c": "Em uma visita à Casa dos Contos, em Ouro Preto, o guia explica como a Coroa portuguesa tributava o ouro extraído em Minas Gerais no século XVIII.",
+      "q": "O que era o quinto?",
+      "a": 0,
+      "src": "Fiscalidade do ouro no século XVIII; Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Um imposto que destinava à Coroa 20% do ouro extraído, cobrado sobretudo nas casas de fundição.",
+          "p": "correta",
+          "w": "Quinto significa a quinta parte, ou seja, 20%. Nas casas de fundição, o ouro em pó virava barras marcadas, e a parte do rei era retida."
+        },
+        {
+          "t": "Um imposto de 5% sobre o ouro, por isso o nome quinto.",
+          "p": "calculo",
+          "w": "Erro de conta: o quinto é a quinta parte, 1/5, o que corresponde a 20%, e não a 5%."
+        },
+        {
+          "t": "A cobrança forçada dos impostos atrasados, feita sobre toda a população quando a meta não era atingida.",
+          "p": "troca",
+          "w": "Isso é a derrama, cobrança extraordinária ligada à meta anual de arrecadação. O quinto era o imposto regular sobre o ouro."
+        },
+        {
+          "t": "Um imposto pago apenas pelos escravizados que trabalhavam nas minas.",
+          "p": "restricao",
+          "w": "O quinto incidia sobre o ouro extraído e era cobrado dos mineradores. Não era um tributo pessoal pago só pelos trabalhadores escravizados."
+        }
+      ]
+    },
+    {
+      "id": "hist23",
+      "topic": "Conjuração Baiana",
+      "c": "Em agosto de 1798, panfletos manuscritos apareceram em locais públicos de Salvador convocando o “povo bahiense” a uma revolução que traria liberdade, igualdade e o fim do domínio português.",
+      "q": "Qual afirmação sobre a Conjuração Baiana está correta?",
+      "a": 2,
+      "src": "Autos da Devassa da Conjuração Baiana (1798-1799); Schwarcz & Starling, Brasil: uma biografia",
+      "o": [
+        {
+          "t": "Foi um movimento da elite mineradora contra a derrama, liderado por Tiradentes.",
+          "p": "troca",
+          "w": "Isso descreve a Inconfidência Mineira (1789). A Conjuração Baiana ocorreu em Salvador e teve forte participação popular."
+        },
+        {
+          "t": "Os líderes enforcados eram ricos senhores de engenho, e os participantes pobres foram perdoados.",
+          "p": "inversao",
+          "w": "Inverte a punição. Os quatro executados, em 1799, eram homens livres pobres e pardos, como soldados e alfaiates; membros da elite tiveram penas leves ou foram absolvidos."
+        },
+        {
+          "t": "Teve grande participação de alfaiates, soldados e outros homens livres pobres, muitos negros e pardos, e defendia república e igualdade.",
+          "p": "correta",
+          "w": "Inspirada em ideias da Revolução Francesa, propunha república, igualdade e liberdade de comércio. A repressão executou quatro participantes de origem popular em 1799."
+        },
+        {
+          "t": "Conseguiu tomar Salvador e governou a Bahia como república por dois anos.",
+          "p": "extrapolacao",
+          "w": "O movimento foi descoberto e reprimido antes de qualquer tomada de poder. Não houve governo revolucionário na Bahia em 1798."
+        }
+      ]
+    },
+    {
+      "id": "hist24",
+      "topic": "Vinda da família real",
+      "c": "Em novembro de 1807, a família real portuguesa e milhares de membros da corte embarcaram às pressas em Lisboa, escoltados por navios britânicos, enquanto tropas francesas se aproximavam da cidade.",
+      "q": "O que motivou a transferência da corte para o Brasil?",
+      "a": 0,
+      "src": "Bloqueio Continental (Decreto de Berlim, 1806); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "A recusa de Portugal em aderir ao Bloqueio Continental, imposto por Napoleão contra a Inglaterra, e a consequente invasão francesa.",
+          "p": "correta",
+          "w": "Aliado comercial da Inglaterra, Portugal não fechou seus portos aos britânicos. Diante da invasão comandada por Junot, a corte partiu para o Brasil sob proteção inglesa."
+        },
+        {
+          "t": "A adesão de Portugal ao Bloqueio Continental, que levou a Inglaterra a invadir Lisboa.",
+          "p": "inversao",
+          "w": "Inverte os papéis. Portugal não aderiu ao bloqueio, e quem invadiu o país foi a França; a Inglaterra escoltou a corte."
+        },
+        {
+          "t": "A Independência do Brasil, que obrigou o rei a vir governar a nova nação.",
+          "p": "troca",
+          "w": "A independência ocorreu em 1822, quase 15 anos depois. A transferência da corte foi uma resposta às guerras napoleônicas na Europa."
+        },
+        {
+          "t": "A mudança de todos os portugueses para o Brasil, o que deixou Portugal sem governo e sem população.",
+          "p": "generalizacao",
+          "w": "Vieram a família real e milhares de membros da corte, não toda a população. Em Portugal ficou um conselho de regência, e o país resistiu à ocupação com apoio inglês."
+        }
+      ]
+    },
+    {
+      "id": "hist25",
+      "topic": "Reino Unido",
+      "c": "Em dezembro de 1815, uma carta de lei do príncipe regente D. João elevou o Brasil à condição de Reino Unido a Portugal e Algarves. Na Europa, o Congresso de Viena reorganizava o continente após a derrota de Napoleão.",
+      "q": "Qual foi o significado dessa medida?",
+      "a": 3,
+      "src": "Carta de Lei de 16 de dezembro de 1815; Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Foi a proclamação da Independência do Brasil, com D. João como primeiro imperador.",
+          "p": "troca",
+          "w": "A independência só veio em 1822, com D. Pedro I. Em 1815, o Brasil continuou unido a Portugal, sob o mesmo soberano."
+        },
+        {
+          "t": "Rebaixou o Brasil à condição de capitania, subordinada diretamente a Lisboa.",
+          "p": "inversao",
+          "w": "Inverte o sentido. A medida elevou o status do Brasil, que deixou de ser formalmente uma colônia."
+        },
+        {
+          "t": "Tornou o Brasil uma república federativa, com governo eleito pelas províncias.",
+          "p": "extrapolacao",
+          "w": "O Brasil seguiu sob a monarquia portuguesa. A república só seria proclamada em 1889."
+        },
+        {
+          "t": "O Brasil deixou de ser formalmente colônia e ganhou status igual ao de Portugal, o que legitimava a permanência da corte no Rio de Janeiro.",
+          "p": "correta",
+          "w": "Com a medida, o Rio de Janeiro passou a ser sede de um reino, o que justificava a permanência de D. João perante as potências europeias reunidas em Viena."
+        }
+      ]
+    },
+    {
+      "id": "hist26",
+      "topic": "Revolução do Porto",
+      "c": "Em 1820, comerciantes e militares da cidade do Porto iniciaram uma revolução liberal em Portugal e convocaram as Cortes. No ano seguinte, D. João VI voltou a Lisboa e deixou o filho Pedro como príncipe regente no Brasil.",
+      "q": "O que as Cortes portuguesas pretendiam em relação ao Brasil?",
+      "a": 1,
+      "src": "Revolução Liberal do Porto (1820); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Ampliar a autonomia do Brasil e transferir de vez a capital do reino para o Rio de Janeiro.",
+          "p": "inversao",
+          "w": "Inverte o objetivo. As Cortes queriam reduzir a autonomia conquistada pelo Brasil desde 1808 e reforçar a posição de Lisboa."
+        },
+        {
+          "t": "Limitar o poder do rei com uma constituição e reduzir a autonomia do Brasil, exigindo a volta de D. João VI e, depois, a de D. Pedro.",
+          "p": "correta",
+          "w": "O movimento era liberal em Portugal, mas buscava restabelecer a primazia de Lisboa. A pressão pela volta de D. Pedro levou ao Dia do Fico, em janeiro de 1822."
+        },
+        {
+          "t": "Abolir a escravidão no Brasil, atendendo às pressões inglesas.",
+          "p": "troca",
+          "w": "A abolição não estava entre os objetivos das Cortes. A escravidão só terminou no Brasil em 1888, com a Lei Áurea."
+        },
+        {
+          "t": "Conceder ao Brasil a independência imediata, como faziam todas as monarquias liberais com suas colônias.",
+          "p": "generalizacao",
+          "w": "As Cortes não pretendiam a independência do Brasil. A separação ocorreu justamente como reação às suas medidas."
+        }
+      ]
+    },
+    {
+      "id": "hist27",
+      "topic": "Constituição de 1824",
+      "c": "Em 1823, D. Pedro I dissolveu a Assembleia Constituinte. Em março de 1824, outorgou a primeira Constituição do Brasil, elaborada por um Conselho de Estado nomeado por ele.",
+      "q": "Qual característica dessa Constituição está correta?",
+      "a": 1,
+      "src": "Constituição Política do Império do Brasil (1824), arts. 5º, 10, 92 e 98",
+      "o": [
+        {
+          "t": "Garantiu o voto a todos os brasileiros adultos, inclusive mulheres e escravizados.",
+          "p": "generalizacao",
+          "w": "O voto era censitário, dependente de renda mínima. Mulheres e escravizados não votavam."
+        },
+        {
+          "t": "Criou o Poder Moderador, exercido pelo imperador, ao lado do Executivo, do Legislativo e do Judiciário, e adotou o voto censitário.",
+          "p": "correta",
+          "w": "O Poder Moderador permitia ao imperador, entre outras coisas, nomear senadores vitalícios e ministros e dissolver a Câmara. As eleições eram indiretas e o voto dependia de renda."
+        },
+        {
+          "t": "Foi promulgada por uma assembleia eleita pelo povo, como a Constituição de 1988.",
+          "p": "troca",
+          "w": "A Carta de 1824 foi outorgada, isto é, imposta pelo imperador depois que ele dissolveu a Constituinte."
+        },
+        {
+          "t": "Separou a Igreja do Estado e proibiu qualquer religião oficial.",
+          "p": "inversao",
+          "w": "Inverte a regra. A Constituição de 1824 fez do catolicismo a religião oficial do Império; a separação entre Igreja e Estado só veio com a República."
+        }
+      ]
+    },
+    {
+      "id": "hist28",
+      "topic": "Confederação do Equador",
+      "c": "Em 1824, no Recife, o frade carmelita Frei Caneca publicava no jornal Typhis Pernambucano críticas à Constituição outorgada por D. Pedro I. Meses depois, Pernambuco e outras províncias do Nordeste se rebelaram.",
+      "q": "Qual afirmação sobre a Confederação do Equador está correta?",
+      "a": 3,
+      "src": "Confederação do Equador (1824); Evaldo Cabral de Mello, A outra Independência",
+      "o": [
+        {
+          "t": "Foi uma revolta de escravizados muçulmanos em Salvador.",
+          "p": "troca",
+          "w": "Isso descreve a Revolta dos Malês (1835). A Confederação do Equador foi um movimento de 1824 contra a centralização do Império."
+        },
+        {
+          "t": "Defendia mais centralização do poder nas mãos do imperador e apoiava a Constituição de 1824.",
+          "p": "inversao",
+          "w": "Inverte a posição dos rebeldes. Eles eram contra a centralização e a Carta outorgada e defendiam autonomia provincial."
+        },
+        {
+          "t": "Venceu as tropas imperiais e deu origem ao país que hoje se chama Equador.",
+          "p": "extrapolacao",
+          "w": "Confunde o nome do movimento com o país sul-americano. A Confederação foi derrotada pelo governo imperial ainda em 1824."
+        },
+        {
+          "t": "Era republicana e federalista, reagia à centralização e à Carta outorgada e foi reprimida; Frei Caneca foi executado em 1825.",
+          "p": "correta",
+          "w": "Liderada por Manuel de Carvalho Pais de Andrade, a revolta propunha uma confederação republicana no Nordeste. Foi derrotada, e vários líderes foram condenados à morte."
+        }
+      ]
+    },
+    {
+      "id": "hist29",
+      "topic": "Abdicação de 1831",
+      "c": "Na madrugada de 7 de abril de 1831, depois de protestos no Rio de Janeiro, D. Pedro I abdicou do trono em favor do filho, que tinha 5 anos de idade.",
+      "q": "O que explica a abdicação e o que veio em seguida?",
+      "a": 0,
+      "src": "Abdicação de D. Pedro I (7 de abril de 1831); Constituição de 1824, arts. 121 e 122",
+      "o": [
+        {
+          "t": "Desgaste causado pelo autoritarismo, pela crise econômica e pela perda da Cisplatina; como o herdeiro era menor, o país passou a ser governado por regências.",
+          "p": "correta",
+          "w": "A Constituição de 1824 previa uma regência durante a menoridade do imperador. De 1831 a 1840, o Brasil teve regências trinas e, depois, unas."
+        },
+        {
+          "t": "A Proclamação da República, liderada pelo marechal Deodoro da Fonseca.",
+          "p": "troca",
+          "w": "A República só foi proclamada em 1889, contra D. Pedro II. Em 1831, a monarquia continuou, com o trono passando ao filho de D. Pedro I."
+        },
+        {
+          "t": "A abdicação devolveu o Brasil ao domínio de Portugal, que voltou a nomear os governantes.",
+          "p": "extrapolacao",
+          "w": "O Brasil continuou independente. D. Pedro I voltou à Europa para disputar a sucessão do trono português, mas o Império brasileiro seguiu com seu filho."
+        },
+        {
+          "t": "D. Pedro II assumiu o governo ao completar 18 anos, como previa a Constituição, em 1843.",
+          "p": "calculo",
+          "w": "D. Pedro II nasceu em 1825 e assumiu em 1840, aos 14 anos, com o Golpe da Maioridade, antes da idade prevista na Constituição."
+        }
+      ]
+    },
+    {
+      "id": "hist30",
+      "topic": "Ato Adicional de 1834",
+      "c": "Em 1834, durante o período regencial, o Ato Adicional reformou a Constituição de 1824, em uma vitória dos liberais moderados.",
+      "q": "Qual mudança o Ato Adicional trouxe?",
+      "a": 2,
+      "src": "Lei nº 16, de 12 de agosto de 1834 (Ato Adicional); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Extinguiu as assembleias provinciais e concentrou todo o poder no Rio de Janeiro.",
+          "p": "inversao",
+          "w": "Inverte o sentido. O Ato Adicional criou as Assembleias Legislativas Provinciais e deu mais autonomia às províncias."
+        },
+        {
+          "t": "Aboliu a escravidão em todas as províncias do Império.",
+          "p": "troca",
+          "w": "A escravidão só foi abolida em 1888, pela Lei Áurea. O Ato Adicional tratou da organização política do Império."
+        },
+        {
+          "t": "Criou as Assembleias Legislativas Provinciais e substituiu a Regência Trina pela Regência Una, eleita.",
+          "p": "correta",
+          "w": "A reforma deu mais autonomia às províncias e tornou a regência eletiva. Em 1840, a Lei de Interpretação do Ato Adicional reduziu essa autonomia."
+        },
+        {
+          "t": "Transformou o Brasil em república federativa e encerrou a monarquia.",
+          "p": "extrapolacao",
+          "w": "A monarquia continuou; o Ato apenas descentralizou parte do poder. A república federativa só veio em 1889."
+        }
+      ]
+    },
+    {
+      "id": "hist31",
+      "topic": "Cabanagem",
+      "c": "Em Belém, o Memorial da Cabanagem, projetado por Oscar Niemeyer, lembra a revolta de 1835 a 1840 em que rebeldes chegaram a tomar a capital da província do Grão-Pará.",
+      "q": "Qual afirmação sobre a Cabanagem está correta?",
+      "a": 0,
+      "src": "Cabanagem (1835-1840); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Teve ampla participação popular de indígenas, mestiços e negros pobres, os cabanos, e foi duramente reprimida, com milhares de mortos.",
+          "p": "correta",
+          "w": "O nome vem das cabanas onde vivia boa parte dos rebeldes. No início, a revolta uniu setores da elite local e camadas pobres, e terminou com violenta repressão do governo regencial."
+        },
+        {
+          "t": "Envolveu apenas a elite de Belém, sem participação das camadas pobres.",
+          "p": "restricao",
+          "w": "A Cabanagem foi uma das revoltas com maior participação popular do Império, com indígenas, mestiços e negros pobres."
+        },
+        {
+          "t": "Ocorreu no Rio Grande do Sul e foi motivada pelos impostos sobre o charque.",
+          "p": "troca",
+          "w": "Isso descreve a Revolução Farroupilha (1835-1845). A Cabanagem ocorreu no Grão-Pará, atual Pará."
+        },
+        {
+          "t": "Venceu o governo regencial e criou um país independente que durou até a Proclamação da República.",
+          "p": "extrapolacao",
+          "w": "Os cabanos chegaram a controlar Belém, mas foram derrotados pelas tropas regenciais. O Grão-Pará permaneceu no Império."
+        }
+      ]
+    },
+    {
+      "id": "hist32",
+      "topic": "Balaiada",
+      "c": "Em uma aula sobre o período regencial em Caxias (MA), o professor explica que a cidade foi palco de uma revolta popular entre 1838 e 1841, que deu origem a um título de nobreza famoso.",
+      "q": "Qual afirmação sobre a Balaiada está correta?",
+      "a": 3,
+      "src": "Balaiada (1838-1841); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Foi liderada por Frei Caneca e queria criar uma confederação republicana no Nordeste.",
+          "p": "troca",
+          "w": "Isso descreve a Confederação do Equador (1824). A Balaiada teve líderes populares como Raimundo Gomes, Manuel dos Anjos Ferreira, o Balaio, e Cosme Bento."
+        },
+        {
+          "t": "Foi uma revolta da elite agrária maranhense contra vaqueiros e escravizados.",
+          "p": "inversao",
+          "w": "Inverte os grupos. Vaqueiros, artesãos, pequenos lavradores e escravizados aquilombados formavam a base da revolta, voltada contra as elites e o governo."
+        },
+        {
+          "t": "Foi a única revolta regencial com participação de escravizados.",
+          "p": "generalizacao",
+          "w": "Escravizados participaram de outras revoltas do período, e a dos Malês (1835) foi organizada por eles. A participação não foi exclusiva da Balaiada."
+        },
+        {
+          "t": "Reuniu vaqueiros, lavradores pobres e escravizados no Maranhão e foi reprimida por Luís Alves de Lima e Silva, que recebeu o título de barão de Caxias.",
+          "p": "correta",
+          "w": "Os rebeldes tomaram a cidade de Caxias em 1839. A repressão projetou Lima e Silva, futuro duque de Caxias e patrono do Exército."
+        }
+      ]
+    },
+    {
+      "id": "hist33",
+      "topic": "Sabinada",
+      "c": "Em novembro de 1837, militares e setores médios urbanos de Salvador, liderados pelo médico Francisco Sabino Vieira, tomaram o poder na capital baiana.",
+      "q": "Qual afirmação sobre a Sabinada está correta?",
+      "a": 1,
+      "src": "Sabinada (1837-1838); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Pretendia separar a Bahia do Brasil para sempre, rompendo qualquer ligação com a monarquia.",
+          "p": "extrapolacao",
+          "w": "Os rebeldes declararam uma república provisória, que duraria só até a maioridade de D. Pedro II. A ideia não era uma separação definitiva."
+        },
+        {
+          "t": "Proclamou a República Bahiense, que deveria durar até a maioridade de D. Pedro II, e foi derrotada pelas forças regenciais em 1838.",
+          "p": "correta",
+          "w": "A revolta reagia à centralização e ao recrutamento militar imposto pelo governo regencial. Salvador foi retomada em março de 1838, com muitos mortos."
+        },
+        {
+          "t": "Foi uma revolta de africanos muçulmanos escravizados e libertos.",
+          "p": "troca",
+          "w": "Isso descreve a Revolta dos Malês, também em Salvador, mas em 1835. A Sabinada foi liderada por militares e camadas médias urbanas."
+        },
+        {
+          "t": "Ficou restrita ao interior da Bahia e não chegou a atingir Salvador.",
+          "p": "restricao",
+          "w": "A Sabinada foi um movimento urbano: os rebeldes controlaram Salvador por cerca de quatro meses."
+        }
+      ]
+    },
+    {
+      "id": "hist34",
+      "topic": "Revolução Farroupilha",
+      "c": "Em uma visita ao Museu Júlio de Castilhos, em Porto Alegre, estudantes veem objetos ligados à guerra que, entre 1835 e 1845, opôs estancieiros gaúchos ao governo central.",
+      "q": "Qual afirmação sobre a Revolução Farroupilha está correta?",
+      "a": 2,
+      "src": "Revolução Farroupilha (1835-1845); Tratado de Ponche Verde (1845)",
+      "o": [
+        {
+          "t": "Os farrapos queriam aumentar os impostos sobre o charque gaúcho para favorecer o produto platino.",
+          "p": "inversao",
+          "w": "Inverte a reivindicação. Os estancieiros reclamavam que o charque platino entrava com tarifas menores e prejudicava o produto gaúcho."
+        },
+        {
+          "t": "Terminou com a independência definitiva do Rio Grande do Sul, que só voltou ao Brasil com a República.",
+          "p": "extrapolacao",
+          "w": "A guerra terminou em 1845 com o acordo de Ponche Verde, e a província permaneceu no Império."
+        },
+        {
+          "t": "Foi a mais longa revolta do Império, criou a República Rio-Grandense e terminou em 1845 com um acordo de paz que anistiou os rebeldes.",
+          "p": "correta",
+          "w": "Liderados por Bento Gonçalves, os farrapos protestavam contra impostos e contra a concorrência do charque platino. A paz de Ponche Verde, negociada por Caxias, concedeu anistia e incorporou oficiais ao Exército."
+        },
+        {
+          "t": "Foi uma revolta popular de vaqueiros e escravizados contra os grandes proprietários.",
+          "p": "troca",
+          "w": "Isso se aproxima da Balaiada. A Farroupilha foi liderada por estancieiros e charqueadores, a elite da província."
+        }
+      ]
+    },
+    {
+      "id": "hist35",
+      "topic": "Revolta dos Malês",
+      "c": "Na madrugada de 25 de janeiro de 1835, em Salvador, centenas de africanos escravizados e libertos saíram às ruas. Com os presos, a polícia encontrou amuletos e papéis escritos em árabe.",
+      "q": "Qual afirmação sobre a Revolta dos Malês está correta?",
+      "a": 3,
+      "src": "João José Reis, Rebelião escrava no Brasil: a história do levante dos malês em 1835",
+      "o": [
+        {
+          "t": "Foi organizada por militares e camadas médias que queriam uma república provisória na Bahia.",
+          "p": "troca",
+          "w": "Isso descreve a Sabinada (1837-1838). A Revolta dos Malês foi organizada por africanos, muitos deles muçulmanos."
+        },
+        {
+          "t": "Envolveu apenas escravizados nascidos no Brasil, sem participação de libertos.",
+          "p": "restricao",
+          "w": "A revolta reuniu africanos escravizados e libertos, sobretudo nagôs (iorubás). Os nascidos no Brasil praticamente não participaram."
+        },
+        {
+          "t": "Venceu as tropas do governo e aboliu a escravidão na Bahia em 1835.",
+          "p": "extrapolacao",
+          "w": "A revolta foi derrotada em poucas horas. Seguiram-se prisões, execuções, açoites e deportações de africanos libertos."
+        },
+        {
+          "t": "Foi uma revolta de africanos escravizados e libertos, muitos deles muçulmanos (malês), duramente reprimida e seguida de maior controle sobre os africanos.",
+          "p": "correta",
+          "w": "Malê vem de imale, termo iorubá para muçulmano. Após a derrota, o governo baiano aumentou a vigilância e deportou africanos libertos."
+        }
+      ]
+    },
+    {
+      "id": "hist36",
+      "topic": "Golpe da Maioridade",
+      "c": "Em julho de 1840, o Parlamento declarou D. Pedro II maior de idade, embora ele tivesse apenas 14 anos. A campanha pela antecipação foi liderada pelos liberais.",
+      "q": "Qual era o objetivo principal dessa antecipação?",
+      "a": 1,
+      "src": "Golpe da Maioridade (23 de julho de 1840); Constituição de 1824, art. 121",
+      "o": [
+        {
+          "t": "Prolongar o período regencial, que os liberais consideravam estável.",
+          "p": "inversao",
+          "w": "Inverte o objetivo. A antecipação encerrou o período regencial, marcado por revoltas e instabilidade."
+        },
+        {
+          "t": "Encerrar a instabilidade do período regencial, marcado por revoltas, e fortalecer a unidade em torno do imperador, levando os liberais ao poder.",
+          "p": "correta",
+          "w": "A Constituição fixava a maioridade aos 18 anos. Os liberais anteciparam a posse para conter a crise e ocupar o governo, então controlado pelos conservadores (regressistas)."
+        },
+        {
+          "t": "Proclamar a República, já que o imperador ainda era menor de idade.",
+          "p": "troca",
+          "w": "A medida fortaleceu a monarquia, em vez de extingui-la. A República só seria proclamada em 1889."
+        },
+        {
+          "t": "Dar a D. Pedro II poderes absolutos, acima da Constituição de 1824.",
+          "p": "extrapolacao",
+          "w": "D. Pedro II governou dentro da Constituição de 1824, exercendo o Poder Moderador. A antecipação não lhe deu poderes absolutos."
+        }
+      ]
+    },
+    {
+      "id": "hist37",
+      "topic": "Expansão do café",
+      "c": "Em Vassouras (RJ), casarões de antigas fazendas lembram a riqueza dos barões do café no século XIX. Décadas depois, o centro da produção se deslocou para o oeste paulista, em cidades como Campinas e Ribeirão Preto.",
+      "q": "Qual diferença entre essas duas regiões cafeeiras está correta?",
+      "a": 0,
+      "src": "Expansão cafeeira no século XIX; Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "O Vale do Paraíba dependia sobretudo de escravizados; o oeste paulista, mais tarde, recorreu cada vez mais a imigrantes europeus e ferrovias.",
+          "p": "correta",
+          "w": "O Vale do Paraíba declinou com o desgaste do solo e o fim do tráfico. O oeste paulista, com terra roxa e ferrovias, atraiu imigrantes, sobretudo italianos, a partir da década de 1880."
+        },
+        {
+          "t": "O Vale do Paraíba usou imigrantes assalariados, e o oeste paulista dependia exclusivamente de escravizados.",
+          "p": "inversao",
+          "w": "Inverte as regiões. A imigração em massa se concentrou no oeste paulista, sobretudo nas últimas décadas do século XIX."
+        },
+        {
+          "t": "Nas duas regiões o produto principal era o açúcar, exportado para Portugal.",
+          "p": "troca",
+          "w": "O açúcar marcou o Nordeste colonial. No século XIX, o café era o principal produto de exportação do Brasil, vendido sobretudo aos Estados Unidos e à Europa."
+        },
+        {
+          "t": "O café só era plantado no Rio de Janeiro; São Paulo nunca teve fazendas de café.",
+          "p": "restricao",
+          "w": "São Paulo se tornou o maior produtor de café do país no fim do século XIX, especialmente no oeste paulista."
+        }
+      ]
+    },
+    {
+      "id": "hist38",
+      "topic": "Lei Eusébio de Queirós",
+      "c": "Em 1850, sob forte pressão da Inglaterra, cujos navios apreendiam embarcações negreiras desde o Bill Aberdeen (1845), o Parlamento brasileiro aprovou uma nova lei sobre o tráfico de africanos.",
+      "q": "O que determinou a Lei Eusébio de Queirós?",
+      "a": 2,
+      "src": "Lei nº 581, de 4 de setembro de 1850 (Lei Eusébio de Queirós)",
+      "o": [
+        {
+          "t": "A libertação de todos os escravizados com mais de 60 anos.",
+          "p": "troca",
+          "w": "Isso é a Lei dos Sexagenários, de 1885. A lei de 1850 tratava do tráfico negreiro."
+        },
+        {
+          "t": "O fim imediato da escravidão no Brasil.",
+          "p": "generalizacao",
+          "w": "A lei proibiu a entrada de novos africanos escravizados, mas a escravidão continuou legal até 1888."
+        },
+        {
+          "t": "A proibição efetiva do tráfico atlântico de africanos escravizados para o Brasil, o que liberou capitais para outras atividades.",
+          "p": "correta",
+          "w": "A repressão reduziu rapidamente o tráfico. Os capitais antes aplicados no comércio de pessoas foram para ferrovias, bancos e indústrias, e cresceu o tráfico interprovincial."
+        },
+        {
+          "t": "A ampliação do tráfico, para compensar a falta de mão de obra nos cafezais.",
+          "p": "inversao",
+          "w": "Inverte o sentido. A lei reprimiu o tráfico; a falta de mão de obra passou a ser suprida pelo tráfico interno e, depois, pela imigração."
+        }
+      ]
+    },
+    {
+      "id": "hist39",
+      "topic": "Lei de Terras",
+      "c": "Duas semanas depois da Lei Eusébio de Queirós, em setembro de 1850, o Império aprovou a Lei nº 601, que regulava o acesso às terras públicas, chamadas de devolutas.",
+      "q": "Qual foi o efeito principal da Lei de Terras?",
+      "a": 0,
+      "src": "Lei nº 601, de 18 de setembro de 1850 (Lei de Terras), art. 1º",
+      "o": [
+        {
+          "t": "Determinou que as terras devolutas só poderiam ser adquiridas por compra, o que dificultou o acesso à terra para pobres, libertos e imigrantes.",
+          "p": "correta",
+          "w": "Ao proibir a aquisição por simples posse ou doação, a lei transformou a terra em mercadoria cara. Com o fim do tráfico, isso ajudava a manter trabalhadores disponíveis para as fazendas."
+        },
+        {
+          "t": "Distribuiu gratuitamente terras aos escravizados libertos e aos imigrantes.",
+          "p": "inversao",
+          "w": "Inverte o efeito. A lei impediu a distribuição gratuita; as terras públicas passaram a ser vendidas."
+        },
+        {
+          "t": "Fez a reforma agrária no Brasil e acabou com os latifúndios.",
+          "p": "extrapolacao",
+          "w": "A lei reforçou a concentração fundiária, pois só quem tinha capital podia comprar terras. O latifúndio continuou dominante."
+        },
+        {
+          "t": "Proibiu o tráfico negreiro, por pressão da Inglaterra.",
+          "p": "troca",
+          "w": "Isso foi feito pela Lei Eusébio de Queirós (Lei nº 581/1850). A Lei nº 601 tratava da propriedade da terra."
+        }
+      ]
+    },
+    {
+      "id": "hist40",
+      "topic": "Lei dos Sexagenários",
+      "c": "Em 1885, o Parlamento aprovou a Lei Saraiva-Cotegipe. Abolicionistas a criticaram, lembrando que poucos escravizados chegavam a essa idade e que a lei protegia os interesses dos senhores.",
+      "q": "O que a Lei dos Sexagenários determinava?",
+      "a": 2,
+      "src": "Lei nº 3.270, de 28 de setembro de 1885 (Lei Saraiva-Cotegipe), art. 3º",
+      "o": [
+        {
+          "t": "A liberdade dos filhos de mulheres escravizadas nascidos a partir daquela data.",
+          "p": "troca",
+          "w": "Isso é a Lei do Ventre Livre, de 1871. A lei de 1885 tratava dos escravizados idosos."
+        },
+        {
+          "t": "A obrigação de os senhores indenizarem os escravizados idosos pelos anos de trabalho.",
+          "p": "inversao",
+          "w": "Inverte a indenização. Era o liberto que devia prestar serviços ao antigo senhor, como compensação a este."
+        },
+        {
+          "t": "A libertação dos escravizados com 60 anos ou mais, que ainda deviam servir ao senhor por até três anos ou até os 65, como indenização.",
+          "p": "correta",
+          "w": "A lei tinha alcance limitado e favorecia os proprietários, que se livravam de trabalhadores idosos e ainda recebiam serviços. A abolição só veio em 1888."
+        },
+        {
+          "t": "A abolição completa da escravidão em todo o Império.",
+          "p": "generalizacao",
+          "w": "A abolição completa só veio com a Lei Áurea, em 1888. A Lei dos Sexagenários atingia apenas os escravizados idosos."
+        }
+      ]
+    },
+    {
+      "id": "hist41",
+      "topic": "Lei Áurea",
+      "c": "No dia 13 de maio de 1888, a princesa Isabel, regente do Império, assinou uma lei de apenas dois artigos. Multidões comemoraram nas ruas do Rio de Janeiro.",
+      "q": "Qual afirmação sobre a Lei Áurea está correta?",
+      "a": 3,
+      "src": "Lei nº 3.353, de 13 de maio de 1888 (Lei Áurea)",
+      "o": [
+        {
+          "t": "Previu terras, escolas e indenizações para os libertos, garantindo sua integração social.",
+          "p": "extrapolacao",
+          "w": "A lei não previu nenhuma política de integração dos libertos, como acesso a terra, educação ou trabalho, o que marcou a desigualdade no pós-abolição."
+        },
+        {
+          "t": "Libertou apenas os escravizados das fazendas de café, mantendo a escravidão doméstica.",
+          "p": "restricao",
+          "w": "A lei declarou extinta a escravidão no Brasil, sem exceções, no campo e nas cidades."
+        },
+        {
+          "t": "Proibiu o tráfico negreiro, que até então era permitido.",
+          "p": "troca",
+          "w": "O tráfico atlântico foi proibido em 1850 pela Lei Eusébio de Queirós. A Lei Áurea extinguiu a própria escravidão."
+        },
+        {
+          "t": "Declarou extinta a escravidão no Brasil, sem indenizar os senhores e sem prever políticas de integração dos libertos.",
+          "p": "correta",
+          "w": "O primeiro artigo declara extinta a escravidão, e o segundo revoga as disposições em contrário. A abolição resultou também da luta de escravizados e abolicionistas."
+        }
+      ]
+    },
+    {
+      "id": "hist42",
+      "topic": "Guerra do Paraguai",
+      "c": "No Museu Nacional de Belas Artes, no Rio de Janeiro, a tela “Batalha do Avaí”, de Pedro Américo, retrata um combate da guerra que, entre 1864 e 1870, opôs o Paraguai a Brasil, Argentina e Uruguai.",
+      "q": "Qual afirmação sobre esse conflito está correta?",
+      "a": 1,
+      "src": "Francisco Doratioto, Maldita Guerra (2002); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "O Paraguai saiu vitorioso e anexou parte do território brasileiro.",
+          "p": "inversao",
+          "w": "Inverte o resultado. O Paraguai foi derrotado, perdeu territórios e grande parte da população, e Solano López morreu em 1870."
+        },
+        {
+          "t": "O Paraguai foi derrotado pela Tríplice Aliança, e no Brasil a guerra fortaleceu o Exército e aumentou o endividamento do Império.",
+          "p": "correta",
+          "w": "O Exército saiu da guerra mais organizado e com maior peso político, o que pesou na crise da monarquia. Os gastos foram cobertos em parte com empréstimos externos."
+        },
+        {
+          "t": "Só soldados brancos e livres lutaram pelo Brasil, pois escravizados eram proibidos de servir.",
+          "p": "restricao",
+          "w": "Muitos escravizados foram libertados para lutar ou enviados no lugar de seus senhores, e negros livres e libertos integraram os Voluntários da Pátria."
+        },
+        {
+          "t": "Foi uma guerra pela posse do Acre, resolvida com o Tratado de Petrópolis.",
+          "p": "troca",
+          "w": "A questão do Acre envolveu a Bolívia e foi resolvida pelo Tratado de Petrópolis, em 1903. A Guerra do Paraguai teve origem em disputas na região do Prata."
+        }
+      ]
+    },
+    {
+      "id": "hist43",
+      "topic": "Café com leite",
+      "c": "Na República Velha, a maioria dos presidentes eleitos saiu de São Paulo ou de Minas Gerais, como Campos Sales, Rodrigues Alves e Afonso Pena. A imprensa falava em política do “café com leite”.",
+      "q": "O que caracterizava essa política?",
+      "a": 1,
+      "src": "Política dos governadores e política do café com leite; Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Todos os presidentes da República Velha foram, sem exceção, alternadamente paulistas e mineiros.",
+          "p": "generalizacao",
+          "w": "A alternância não foi rígida: houve presidentes de outros estados, como Hermes da Fonseca (RS) e Epitácio Pessoa (PB). O que havia era o predomínio das duas oligarquias."
+        },
+        {
+          "t": "O predomínio das oligarquias de São Paulo, maior produtor de café, e de Minas Gerais, maior colégio eleitoral, na escolha dos presidentes.",
+          "p": "correta",
+          "w": "Os dois estados mais ricos e populosos articulavam as candidaturas. A política dos governadores, de Campos Sales, garantia o apoio das oligarquias estaduais ao governo federal."
+        },
+        {
+          "t": "Um programa de distribuição de café e leite às famílias pobres, criado pelo governo federal.",
+          "p": "troca",
+          "w": "A expressão é uma metáfora para a aliança entre paulistas (café) e mineiros (associados à pecuária leiteira), não um programa social."
+        },
+        {
+          "t": "O fortalecimento do voto secreto, que impedia as fraudes eleitorais.",
+          "p": "inversao",
+          "w": "Inverte a realidade da época. O voto era aberto, o que favorecia o controle dos coronéis e as fraudes; o voto secreto só veio com o Código Eleitoral de 1932."
+        }
+      ]
+    },
+    {
+      "id": "hist44",
+      "topic": "Coronelismo",
+      "c": "Em “Coronelismo, Enxada e Voto” (1949), o jurista Victor Nunes Leal analisou a relação entre os chefes políticos locais e o poder estadual na Primeira República.",
+      "q": "Qual prática era característica do coronelismo?",
+      "a": 0,
+      "src": "Victor Nunes Leal, Coronelismo, Enxada e Voto (1949)",
+      "o": [
+        {
+          "t": "O voto de cabresto: o coronel controlava os votos de seus dependentes, favorecido pelo voto aberto, com favores e ameaças.",
+          "p": "correta",
+          "w": "Com o voto aberto, o coronel sabia em quem cada eleitor votava. Os votos do “curral eleitoral” eram trocados por apoio e cargos do governo estadual."
+        },
+        {
+          "t": "Os coronéis eram eleitos pelos trabalhadores rurais para defendê-los dos grandes proprietários.",
+          "p": "inversao",
+          "w": "Inverte a relação. Os coronéis eram, em geral, grandes proprietários que dominavam os trabalhadores e usavam esse poder nas eleições."
+        },
+        {
+          "t": "Os coronéis eram oficiais do Exército que governavam os estados por nomeação militar.",
+          "p": "troca",
+          "w": "O título vinha da antiga Guarda Nacional e não indicava posto no Exército. Os coronéis eram chefes políticos locais, em geral fazendeiros."
+        },
+        {
+          "t": "A prática existia apenas em São Paulo, onde estavam as fazendas de café.",
+          "p": "restricao",
+          "w": "O coronelismo existiu em todo o país, sobretudo nas áreas rurais do interior, e era a base do sistema político da Primeira República."
+        }
+      ]
+    },
+    {
+      "id": "hist45",
+      "topic": "Guerra de Canudos",
+      "c": "Em “Os Sertões” (1902), Euclides da Cunha, que acompanhou a última expedição como correspondente de jornal, narrou a destruição do arraial de Belo Monte, no sertão da Bahia, em 1897.",
+      "q": "Qual afirmação sobre a Guerra de Canudos está correta?",
+      "a": 3,
+      "src": "Euclides da Cunha, Os Sertões (1902); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Foi uma revolta de marinheiros contra os castigos físicos na Marinha.",
+          "p": "troca",
+          "w": "Isso descreve a Revolta da Chibata (1910). Canudos foi uma comunidade de sertanejos no interior baiano."
+        },
+        {
+          "t": "O arraial era um quartel monarquista financiado por potências estrangeiras para derrubar a República.",
+          "p": "extrapolacao",
+          "w": "Essa acusação foi usada pela imprensa e pelo governo para justificar o ataque, mas nunca se comprovou. Canudos era uma comunidade de sertanejos pobres em torno de um líder religioso."
+        },
+        {
+          "t": "O Exército venceu logo na primeira expedição, sem grande resistência.",
+          "p": "inversao",
+          "w": "Inverte o curso da guerra. Os sertanejos derrotaram três expedições, e o arraial só caiu na quarta, em outubro de 1897."
+        },
+        {
+          "t": "Reuniu milhares de sertanejos pobres em torno do líder religioso Antônio Conselheiro e foi destruída pelo Exército após quatro expedições.",
+          "p": "correta",
+          "w": "Canudos atraiu pessoas que fugiam da seca, da miséria e do poder dos coronéis. A repressão matou a maior parte dos moradores do arraial."
+        }
+      ]
+    },
+    {
+      "id": "hist46",
+      "topic": "Guerra do Contestado",
+      "c": "Entre 1912 e 1916, na região disputada por Paraná e Santa Catarina, milhares de camponeses seguiram líderes religiosos, os chamados monges, e enfrentaram tropas federais e estaduais.",
+      "q": "Qual fator contribuiu para o conflito?",
+      "a": 2,
+      "src": "Guerra do Contestado (1912-1916); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "A cobrança do quinto sobre o ouro extraído na região.",
+          "p": "troca",
+          "w": "O quinto foi um imposto colonial sobre o ouro, do século XVIII. O Contestado ocorreu no século XX e envolveu terras e uma ferrovia."
+        },
+        {
+          "t": "A guerra envolveu apenas fazendeiros ricos, que disputavam os limites de suas propriedades.",
+          "p": "restricao",
+          "w": "A base do movimento eram camponeses pobres expulsos das terras, unidos por uma religiosidade popular de caráter messiânico."
+        },
+        {
+          "t": "A expulsão de camponeses de suas terras pela construção da ferrovia São Paulo-Rio Grande e pela ação de uma madeireira estrangeira.",
+          "p": "correta",
+          "w": "A empresa ferroviária, de capital estrangeiro, recebeu terras ao longo da linha, e a madeireira Southern Brazil Lumber explorou a região. Desalojados e desempregados formaram a base do movimento."
+        },
+        {
+          "t": "Os camponeses lutavam pela construção da ferrovia, que o governo se recusava a fazer.",
+          "p": "inversao",
+          "w": "Inverte a posição. A ferrovia já estava sendo construída e foi uma das causas da expulsão dos camponeses."
+        }
+      ]
+    },
+    {
+      "id": "hist47",
+      "topic": "Revolta da Vacina",
+      "c": "Em novembro de 1904, no Rio de Janeiro, a lei que tornava obrigatória a vacinação contra a varíola, defendida pelo sanitarista Oswaldo Cruz, desencadeou dias de conflitos nas ruas.",
+      "q": "Qual fator ajuda a explicar a revolta?",
+      "a": 2,
+      "src": "Lei nº 1.261, de 31 de outubro de 1904 (vacinação obrigatória); Nicolau Sevcenko, A Revolta da Vacina",
+      "o": [
+        {
+          "t": "A proibição do uso de vacinas, imposta pelo governo contra a vontade da população.",
+          "p": "inversao",
+          "w": "Inverte a medida. O governo tornou a vacinação obrigatória, e foi essa obrigatoriedade que gerou a revolta."
+        },
+        {
+          "t": "Apenas o medo da vacina, sem relação com outras medidas do governo.",
+          "p": "restricao",
+          "w": "Além da desconfiança da vacina, pesaram a forma autoritária da campanha e as demolições de cortiços na reforma urbana, que expulsaram a população pobre do centro."
+        },
+        {
+          "t": "A forma autoritária da campanha, com invasão de casas, somada à reforma urbana que demoliu cortiços e expulsou a população pobre do centro.",
+          "p": "correta",
+          "w": "No governo Rodrigues Alves, o prefeito Pereira Passos promoveu o “bota-abaixo” no centro do Rio. Após a revolta, o governo suspendeu a obrigatoriedade da vacina."
+        },
+        {
+          "t": "A reação de marinheiros aos castigos físicos aplicados pelos oficiais.",
+          "p": "troca",
+          "w": "Isso descreve a Revolta da Chibata (1910). A Revolta da Vacina mobilizou a população urbana do Rio contra a vacinação obrigatória."
+        }
+      ]
+    },
+    {
+      "id": "hist48",
+      "topic": "Revolta da Chibata",
+      "c": "Em novembro de 1910, marinheiros tomaram navios de guerra ancorados na Baía de Guanabara, como o encouraçado Minas Geraes, e apontaram os canhões para o Rio de Janeiro. O líder, João Cândido, ficou conhecido como Almirante Negro.",
+      "q": "O que os marinheiros reivindicavam?",
+      "a": 0,
+      "src": "Revolta da Chibata (novembro de 1910); Schwarcz & Starling, Brasil: uma biografia",
+      "o": [
+        {
+          "t": "O fim dos castigos corporais, como as chibatadas, e melhores condições de trabalho na Marinha.",
+          "p": "correta",
+          "w": "Os marinheiros, em sua maioria negros e pobres, eram punidos com chibatadas. O governo aprovou a anistia e o fim dos castigos, mas depois muitos revoltosos foram presos ou expulsos."
+        },
+        {
+          "t": "O fim da vacinação obrigatória contra a varíola.",
+          "p": "troca",
+          "w": "Isso se refere à Revolta da Vacina (1904). Os marinheiros de 1910 protestavam contra os castigos físicos."
+        },
+        {
+          "t": "A derrubada da República e a volta da monarquia.",
+          "p": "extrapolacao",
+          "w": "O movimento tinha reivindicações ligadas ao trabalho e à dignidade dos marinheiros, não um projeto de restauração monárquica."
+        },
+        {
+          "t": "Apenas aumento de salário, sem questionar a disciplina aplicada na Marinha.",
+          "p": "restricao",
+          "w": "A principal reivindicação era justamente o fim das chibatadas. Melhores condições de trabalho também estavam entre as demandas."
+        }
+      ]
+    },
+    {
+      "id": "hist49",
+      "topic": "Semana de 1922",
+      "c": "Em fevereiro de 1922, ano do centenário da Independência, o Theatro Municipal de São Paulo recebeu exposições, leituras e concertos de artistas como Mário de Andrade, Oswald de Andrade, Anita Malfatti, Di Cavalcanti e Villa-Lobos.",
+      "q": "Qual afirmação sobre a Semana de Arte Moderna está correta?",
+      "a": 3,
+      "src": "Semana de Arte Moderna (13, 15 e 17 de fevereiro de 1922); Alfredo Bosi, História Concisa da Literatura Brasileira",
+      "o": [
+        {
+          "t": "Nela, Tarsila do Amaral apresentou o quadro “Abaporu”, marco do movimento.",
+          "p": "troca",
+          "w": "Tarsila não participou da Semana, pois estava na Europa, e o “Abaporu” é de 1928. O quadro inspirou o Manifesto Antropófago, de Oswald de Andrade."
+        },
+        {
+          "t": "Defendia a volta rigorosa aos padrões acadêmicos e ao Parnasianismo.",
+          "p": "inversao",
+          "w": "Inverte o objetivo. Os modernistas criticavam o academicismo e o Parnasianismo e buscavam liberdade formal."
+        },
+        {
+          "t": "Foi recebida com aplauso unânime do público e da crítica.",
+          "p": "generalizacao",
+          "w": "Houve vaias e reações hostis, e parte da crítica atacou os modernistas. A importância da Semana foi reconhecida sobretudo depois."
+        },
+        {
+          "t": "Propôs romper com os padrões acadêmicos e buscar uma arte moderna, ligada à realidade brasileira, e tornou-se marco do Modernismo.",
+          "p": "correta",
+          "w": "A Semana reuniu artistas que defendiam a renovação das artes e a valorização de temas nacionais. Seus desdobramentos marcaram a cultura brasileira nas décadas seguintes."
+        }
+      ]
+    },
+    {
+      "id": "hist50",
+      "topic": "Tenentismo",
+      "c": "Em julho de 1922, militares se rebelaram no Forte de Copacabana, no episódio conhecido como Revolta dos 18 do Forte. Entre 1925 e 1927, a Coluna Prestes percorreu cerca de 25 mil quilômetros pelo interior do país.",
+      "q": "O que caracterizava o tenentismo?",
+      "a": 1,
+      "src": "Tenentismo (1922-1927); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Era um movimento de operários anarquistas que organizavam greves nas fábricas de São Paulo.",
+          "p": "troca",
+          "w": "O anarquismo marcou o movimento operário, como na greve geral de 1917. O tenentismo foi um movimento de jovens oficiais do Exército."
+        },
+        {
+          "t": "Movimento de jovens oficiais do Exército que criticavam as oligarquias e a corrupção eleitoral e defendiam reformas como o voto secreto.",
+          "p": "correta",
+          "w": "Os tenentes queriam moralizar a política e fortalecer o Estado central, mas agiam de forma armada e sem amplo apoio popular. Muitos apoiaram a Revolução de 1930."
+        },
+        {
+          "t": "Era um movimento das oligarquias cafeeiras para manter a política do café com leite.",
+          "p": "inversao",
+          "w": "Inverte a posição. Os tenentes se opunham às oligarquias que dominavam a Primeira República."
+        },
+        {
+          "t": "Tomou o poder em 1922 e governou o Brasil até 1930.",
+          "p": "extrapolacao",
+          "w": "As revoltas tenentistas de 1922 e 1924 foram derrotadas. Os tenentes só chegaram ao poder como aliados de Vargas, na Revolução de 1930."
+        }
+      ]
+    },
+    {
+      "id": "hist51",
+      "topic": "Revolução de 1930",
+      "c": "Nas eleições de março de 1930, o paulista Júlio Prestes, apoiado pelo presidente Washington Luís, venceu Getúlio Vargas, candidato da Aliança Liberal. Em outubro, um movimento armado partiu do Rio Grande do Sul, de Minas Gerais e da Paraíba.",
+      "q": "Qual foi o desfecho desse processo?",
+      "a": 3,
+      "src": "Revolução de 1930; Boris Fausto, A Revolução de 1930: historiografia e história",
+      "o": [
+        {
+          "t": "O movimento ficou restrito ao Rio Grande do Sul, e Washington Luís completou o mandato.",
+          "p": "restricao",
+          "w": "O movimento teve apoio de Minas Gerais, da Paraíba e de tropas em vários estados. Washington Luís foi deposto em 24 de outubro de 1930, antes do fim do mandato."
+        },
+        {
+          "t": "Foi proclamada a República, o que encerrou a monarquia.",
+          "p": "troca",
+          "w": "A República existia desde 1889. A Revolução de 1930 encerrou a Primeira República, também chamada de República Velha."
+        },
+        {
+          "t": "Os revolucionários mantiveram a política do café com leite e deram posse ao paulista eleito.",
+          "p": "inversao",
+          "w": "Inverte o resultado. A revolução impediu a posse de Júlio Prestes e encerrou o predomínio das oligarquias paulista e mineira."
+        },
+        {
+          "t": "Washington Luís foi deposto, Júlio Prestes não tomou posse e Getúlio Vargas assumiu o Governo Provisório, encerrando a Primeira República.",
+          "p": "correta",
+          "w": "A crise de 1929, a ruptura do acordo entre SP e MG e o assassinato de João Pessoa, vice na chapa de Vargas, alimentaram o movimento. Vargas assumiu o governo em 3 de novembro de 1930."
+        }
+      ]
+    },
+    {
+      "id": "hist52",
+      "topic": "Constituição de 1934",
+      "c": "Depois da Revolução Constitucionalista de 1932, em São Paulo, uma Assembleia Constituinte se reuniu e, em julho de 1934, promulgou uma nova Constituição. Entre os constituintes estava Carlota Pereira de Queirós, primeira deputada federal do Brasil.",
+      "q": "Qual inovação está associada à Constituição de 1934?",
+      "a": 2,
+      "src": "Constituição de 1934, arts. 108, 121 e 122; Código Eleitoral de 1932 (Decreto nº 21.076)",
+      "o": [
+        {
+          "t": "A criação do Poder Moderador, exercido pelo presidente da República.",
+          "p": "troca",
+          "w": "O Poder Moderador foi criado pela Constituição de 1824 e era exercido pelo imperador. A Carta de 1934 manteve a separação entre os três poderes."
+        },
+        {
+          "t": "A proibição do voto feminino e o retorno do voto aberto.",
+          "p": "inversao",
+          "w": "Inverte as conquistas. A Constituição de 1934 incorporou o voto secreto e o voto feminino, já previstos no Código Eleitoral de 1932."
+        },
+        {
+          "t": "A incorporação do voto secreto e do voto feminino, de direitos trabalhistas como o salário mínimo e a criação da Justiça do Trabalho.",
+          "p": "correta",
+          "w": "A Carta de 1934 consolidou mudanças do Código Eleitoral de 1932 e trouxe direitos sociais. Teve vida curta: foi substituída pela Constituição do Estado Novo, em 1937."
+        },
+        {
+          "t": "A eleição de Vargas pelo voto popular direto, que o manteve no poder sem interrupção até 1954.",
+          "p": "extrapolacao",
+          "w": "Em 1934, Vargas foi eleito de forma indireta pela própria Constituinte. Ele deixou o poder em 1945 e só voltou, eleito pelo voto direto, em 1951."
+        }
+      ]
+    },
+    {
+      "id": "hist53",
+      "topic": "Estado Novo",
+      "c": "Em setembro de 1937, o governo divulgou o Plano Cohen, um suposto plano comunista para tomar o poder. Em 10 de novembro, Vargas fechou o Congresso e anunciou uma nova Constituição pelo rádio.",
+      "q": "Qual afirmação sobre o Estado Novo está correta?",
+      "a": 0,
+      "src": "Constituição de 1937; Decreto-Lei nº 1.915/1939 (DIP); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Foi uma ditadura: a Constituição de 1937 foi outorgada, o Congresso foi fechado, e o DIP controlava a propaganda e censurava a imprensa.",
+          "p": "correta",
+          "w": "O Plano Cohen era um documento falso, usado para justificar o golpe. O regime durou até 1945 e combinou autoritarismo, centralização e legislação trabalhista."
+        },
+        {
+          "t": "O Plano Cohen era verdadeiro, e o golpe impediu uma revolução comunista em curso.",
+          "p": "inversao",
+          "w": "Inverte o que se comprovou. O Plano Cohen foi forjado e usado como pretexto para o golpe."
+        },
+        {
+          "t": "Foi o período em que Vargas governou com a Constituição de 1934, promulgada por uma Constituinte.",
+          "p": "troca",
+          "w": "A Constituição de 1934 foi substituída em 1937 por uma Carta outorgada, apelidada de “Polaca” por se inspirar na constituição autoritária da Polônia."
+        },
+        {
+          "t": "A censura atingia apenas jornais estrangeiros, e a imprensa nacional era livre.",
+          "p": "restricao",
+          "w": "O DIP, criado em 1939, censurava a imprensa, o rádio, o cinema e outras manifestações culturais em todo o país."
+        }
+      ]
+    },
+    {
+      "id": "hist54",
+      "topic": "Governo JK",
+      "c": "Em 21 de abril de 1960, Juscelino Kubitschek inaugurou Brasília, projetada por Lúcio Costa e Oscar Niemeyer. O lema de seu governo era “50 anos em 5”.",
+      "q": "Qual característica do governo JK está correta?",
+      "a": 1,
+      "src": "Plano de Metas (1956-1961); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "Criou a CLT e instituiu o salário mínimo.",
+          "p": "troca",
+          "w": "Essas medidas são da Era Vargas: o salário mínimo foi instituído em 1940, e a CLT, em 1943."
+        },
+        {
+          "t": "O Plano de Metas acelerou a industrialização, com destaque para a indústria automobilística e o capital estrangeiro, mas elevou a inflação e a dívida externa.",
+          "p": "correta",
+          "w": "O governo investiu em energia, transportes e indústria de base e atraiu montadoras estrangeiras. O crescimento foi alto, mas deixou inflação e endividamento."
+        },
+        {
+          "t": "Fechou o país ao capital estrangeiro e estatizou as montadoras de automóveis.",
+          "p": "inversao",
+          "w": "Inverte a política. JK atraiu capital estrangeiro, e montadoras multinacionais se instalaram sobretudo no ABC paulista."
+        },
+        {
+          "t": "Governou por meio de atos institucionais, depois de fechar o Congresso.",
+          "p": "extrapolacao",
+          "w": "JK foi eleito pelo voto direto e governou de 1956 a 1961 com o Congresso funcionando. Atos institucionais são da ditadura militar, a partir de 1964."
+        }
+      ]
+    },
+    {
+      "id": "hist55",
+      "topic": "Reformas de base",
+      "c": "Em 13 de março de 1964, no Comício da Central do Brasil, no Rio de Janeiro, o presidente João Goulart discursou para uma multidão e anunciou medidas como a desapropriação de terras às margens de rodovias e ferrovias federais.",
+      "q": "O que eram as reformas de base defendidas por Jango?",
+      "a": 3,
+      "src": "Comício da Central do Brasil (13 de março de 1964); Jorge Ferreira, João Goulart: uma biografia",
+      "o": [
+        {
+          "t": "O conjunto de medidas econômicas do Plano Real, que criou uma nova moeda.",
+          "p": "troca",
+          "w": "O Plano Real é de 1994. As reformas de base foram propostas no início dos anos 1960, no governo Goulart."
+        },
+        {
+          "t": "Um programa para privatizar empresas estatais e reduzir os direitos trabalhistas.",
+          "p": "inversao",
+          "w": "Inverte o sentido das propostas, que ampliavam a atuação do Estado e buscavam reduzir desigualdades sociais."
+        },
+        {
+          "t": "Reformas que já tinham sido aprovadas pelo Congresso e implantadas por completo antes de 1964.",
+          "p": "extrapolacao",
+          "w": "A maior parte das reformas não chegou a ser aprovada. A resistência a elas foi um dos fatores que levaram ao golpe de 1964."
+        },
+        {
+          "t": "Propostas de reforma agrária, urbana, educacional, bancária e eleitoral, como a extensão do voto aos analfabetos.",
+          "p": "correta",
+          "w": "As reformas visavam reduzir desigualdades e ampliar a participação política. Sofreram forte oposição de setores conservadores, empresariais e militares."
+        }
+      ]
+    },
+    {
+      "id": "hist56",
+      "topic": "Golpe de 1964",
+      "c": "Entre 31 de março e 1º de abril de 1964, tropas se movimentaram, e João Goulart deixou Brasília. Dias depois, foi editado o Ato Institucional nº 1, e o Congresso elegeu o marechal Castelo Branco presidente.",
+      "q": "Qual afirmação sobre o golpe de 1964 está correta?",
+      "a": 0,
+      "src": "Ato Institucional nº 1 (9 de abril de 1964); Schwarcz & Starling, Brasil: uma biografia",
+      "o": [
+        {
+          "t": "Foi um golpe que derrubou um presidente constitucional, liderado por militares e apoiado por setores empresariais, políticos, da imprensa e de parte da Igreja.",
+          "p": "correta",
+          "w": "Além dos militares, setores civis apoiaram a deposição de Goulart, como governadores, parte da imprensa e grupos que organizaram as Marchas da Família com Deus pela Liberdade."
+        },
+        {
+          "t": "Foi uma revolução popular que restabeleceu as eleições diretas para presidente.",
+          "p": "inversao",
+          "w": "Inverte o efeito. O regime instaurado cassou direitos políticos e, a partir de 1965, tornou indiretas as eleições para presidente."
+        },
+        {
+          "t": "Envolveu apenas militares, sem qualquer apoio de civis.",
+          "p": "restricao",
+          "w": "O golpe teve apoio de setores civis importantes, como governadores, empresários, parte da imprensa e parte da Igreja."
+        },
+        {
+          "t": "Derrubou Getúlio Vargas, que se suicidou em seguida.",
+          "p": "troca",
+          "w": "Vargas morreu em 1954, dez anos antes. O presidente deposto em 1964 foi João Goulart, que se exilou no Uruguai."
+        }
+      ]
+    },
+    {
+      "id": "hist57",
+      "topic": "Bipartidarismo",
+      "c": "Nas eleições legislativas da década de 1970, os eleitores só podiam escolher candidatos de dois partidos: a Arena e o MDB.",
+      "q": "Como surgiu essa situação?",
+      "a": 2,
+      "src": "Ato Institucional nº 2 (27 de outubro de 1965); Ato Complementar nº 4 (1965); Lei nº 6.767/1979",
+      "o": [
+        {
+          "t": "Os eleitores rejeitaram os demais partidos nas urnas, e só dois sobreviveram.",
+          "p": "inversao",
+          "w": "O bipartidarismo não resultou do voto. Foi imposto pelo regime, que extinguiu os partidos existentes por ato institucional."
+        },
+        {
+          "t": "Foi determinada pela Constituição de 1988, que permite apenas dois partidos.",
+          "p": "troca",
+          "w": "A Constituição de 1988 garante o pluripartidarismo. O bipartidarismo foi imposto pela ditadura em 1965."
+        },
+        {
+          "t": "O AI-2 (1965) extinguiu os partidos existentes, e o regime passou a admitir só a Arena, governista, e o MDB, oposição consentida.",
+          "p": "correta",
+          "w": "O Ato Complementar nº 4 regulamentou a criação das novas agremiações. O bipartidarismo durou até 1979, quando a reforma partidária permitiu novos partidos."
+        },
+        {
+          "t": "O MDB era um partido de fachada, que sempre votou com o governo e nunca venceu eleições.",
+          "p": "generalizacao",
+          "w": "O MDB foi a oposição permitida e teve vitórias expressivas, como nas eleições para o Senado em 1974."
+        }
+      ]
+    },
+    {
+      "id": "hist58",
+      "topic": "Milagre econômico",
+      "c": "Entre 1968 e 1973, durante a ditadura militar, o PIB brasileiro cresceu em média mais de 10% ao ano, com grandes obras como a Ponte Rio-Niterói e a Rodovia Transamazônica.",
+      "q": "Qual afirmação sobre o milagre econômico está correta?",
+      "a": 1,
+      "src": "Milagre econômico (1968-1973); Boris Fausto, História do Brasil",
+      "o": [
+        {
+          "t": "O crescimento beneficiou igualmente todos os brasileiros e reduziu a desigualdade de renda.",
+          "p": "generalizacao",
+          "w": "A concentração de renda aumentou no período, e o salário mínimo real perdeu valor. O crescimento não foi distribuído de forma igual."
+        },
+        {
+          "t": "Combinou alto crescimento com aumento da concentração de renda e da dívida externa e perdeu força com a crise do petróleo de 1973.",
+          "p": "correta",
+          "w": "O crescimento se apoiou em crédito externo, investimentos estatais e expansão industrial. O choque do petróleo encareceu as importações e expôs a dependência do endividamento."
+        },
+        {
+          "t": "Foi um período de recessão e queda da produção industrial.",
+          "p": "inversao",
+          "w": "Inverte o quadro. O período teve as maiores taxas de crescimento da história recente do país, puxadas pela indústria."
+        },
+        {
+          "t": "Foi resultado do Plano Real, que acabou com a hiperinflação.",
+          "p": "troca",
+          "w": "O Plano Real é de 1994, já na democracia. O milagre econômico ocorreu entre 1968 e 1973, durante a ditadura."
+        }
+      ]
+    },
+    {
+      "id": "hist59",
+      "topic": "Lei da Anistia",
+      "c": "Entre setembro e outubro de 1979, exilados como Leonel Brizola, Miguel Arraes e Luís Carlos Prestes voltaram ao Brasil. Semanas antes, o presidente João Figueiredo havia sancionado a Lei nº 6.683.",
+      "q": "Qual afirmação sobre a Lei da Anistia está correta?",
+      "a": 2,
+      "src": "Lei nº 6.683, de 28 de agosto de 1979, art. 1º, § 2º; STF, ADPF 153 (2010)",
+      "o": [
+        {
+          "t": "Proibiu a volta dos exilados e ampliou as cassações de direitos políticos.",
+          "p": "inversao",
+          "w": "Inverte o efeito. A lei permitiu o retorno de exilados e a recuperação de direitos políticos por muitos opositores."
+        },
+        {
+          "t": "Foi ampla, geral e irrestrita, sem nenhuma exceção, como pedia o movimento pela anistia.",
+          "p": "generalizacao",
+          "w": "Esse era o lema da campanha, mas a lei excluiu os condenados por terrorismo, assalto, sequestro e atentado pessoal."
+        },
+        {
+          "t": "Permitiu a volta de exilados e beneficiou perseguidos políticos, mas excluiu os condenados por terrorismo, assalto, sequestro e atentado pessoal.",
+          "p": "correta",
+          "w": "A lei fez parte da abertura “lenta, gradual e segura”. Ela também abrangeu crimes “conexos”, e o STF, na ADPF 153 (2010), entendeu que alcança agentes do Estado."
+        },
+        {
+          "t": "Marcou o fim da ditadura, com a posse de um presidente civil eleito diretamente.",
+          "p": "troca",
+          "w": "O regime militar só terminou em 1985, com a posse de José Sarney após eleição indireta. A primeira eleição direta para presidente depois de 1960 ocorreu em 1989."
+        }
+      ]
+    },
+    {
+      "id": "hist60",
+      "topic": "Plano Real",
+      "c": "Em 1º de julho de 1994, os brasileiros trocaram cruzeiros reais pela nova moeda, o real. Desde março, os preços vinham sendo expressos também em URV, a Unidade Real de Valor.",
+      "q": "Qual afirmação sobre o Plano Real está correta?",
+      "a": 0,
+      "src": "Lei nº 8.880/1994 (URV) e Lei nº 9.069/1995 (Plano Real)",
+      "o": [
+        {
+          "t": "Foi lançado no governo Itamar Franco, elaborado na gestão de Fernando Henrique Cardoso no Ministério da Fazenda, e controlou a hiperinflação.",
+          "p": "correta",
+          "w": "A URV serviu de transição: os preços foram convertidos para uma unidade estável antes da nova moeda. A inflação, que passava de 40% ao mês, caiu de forma duradoura."
+        },
+        {
+          "t": "Foi criado pelo governo militar para enfrentar a crise do petróleo de 1973.",
+          "p": "troca",
+          "w": "O Plano Real é de 1993-1994, em plena democracia. A crise do petróleo de 1973 marcou o fim do milagre econômico."
+        },
+        {
+          "t": "Na conversão, cada real valia 1 cruzeiro real, por isso os preços não mudaram de número.",
+          "p": "calculo",
+          "w": "A conversão foi de 2.750 cruzeiros reais para cada real, valor da URV em 30 de junho de 1994. Os preços em cruzeiros reais foram divididos por 2.750."
+        },
+        {
+          "t": "Acabou com qualquer inflação no Brasil, que desde então ficou sempre em zero.",
+          "p": "generalizacao",
+          "w": "O plano controlou a hiperinflação, mas a inflação continuou existindo, em níveis muito menores. Desde 1999, o regime de metas orienta seu controle."
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 // Service worker do Memory: abre offline e carrega rápido. A API nunca é guardada em cache.
-const VERSION = 'memory-v5.9';
+const VERSION = 'memory-v6.0';
 const SHELL = ['/', '/manifest.webmanifest', '/img/hero.webp', '/img/icon-192.png'];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)));
@@ -25,4 +25,14 @@ self.addEventListener('fetch', (e) => {
     const net = fetch(req).then((r) => { if (r.ok || r.type === 'opaque') { const copy = r.clone(); caches.open(VERSION).then((c) => c.put(req, copy)); } return r; }).catch(() => hit);
     return hit || net;
   }));
+});
+
+// Notificações push: lembrete diário enviado pela rotina do servidor.
+self.addEventListener('push', (e) => {
+  let d = {}; try { d = e.data ? e.data.json() : {}; } catch (x) { d = { title: 'Memory', body: e.data ? e.data.text() : '' }; }
+  e.waitUntil(self.registration.showNotification(d.title || 'Memory', { body: d.body || 'Hora do seu ciclo de estudo.', icon: '/img/icon-192.png', badge: '/img/icon-192.png', tag: d.tag || 'memory', renotify: false, data: { url: d.url || '/' } }));
+});
+self.addEventListener('notificationclick', (e) => {
+  e.notification.close(); const url = (e.notification.data && e.notification.data.url) || '/';
+  e.waitUntil(self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then((list) => { for (const c of list) if ('focus' in c) return c.focus(); return self.clients.openWindow(url); }));
 });

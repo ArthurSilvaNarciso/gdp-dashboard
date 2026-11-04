@@ -1,0 +1,1370 @@
+{
+  "id": "info",
+  "questions": [
+    {
+      "id": "info11",
+      "topic": "Hierarquia de memória",
+      "c": "Em uma capacitação para técnicos da prefeitura de Joinville, o instrutor pede que a turma ordene, da mais rápida para a mais lenta, as memórias de um computador comum.",
+      "q": "Qual é a ordem correta?",
+      "a": 2,
+      "src": "Tanenbaum, Organização Estruturada de Computadores: hierarquia de memória",
+      "o": [
+        {
+          "t": "RAM, cache, registradores, SSD e HD.",
+          "p": "inversao",
+          "w": "Inverte o topo da pirâmide: registradores e cache, dentro do processador ou junto dele, são mais rápidos que a RAM."
+        },
+        {
+          "t": "HD, SSD, RAM, cache e registradores, pois memórias maiores são sempre mais rápidas.",
+          "p": "generalizacao",
+          "w": "É o contrário: quanto mais perto do processador, menor e mais rápida a memória. Os discos são os maiores e os mais lentos."
+        },
+        {
+          "t": "Registradores, cache, RAM, SSD e HD.",
+          "p": "correta",
+          "w": "Registradores e cache ficam no processador ou junto dele; depois vem a RAM; por fim, o armazenamento secundário, em que o SSD supera o HD por não ter partes mecânicas."
+        },
+        {
+          "t": "Cache, registradores, RAM, HD e SSD, já que o HD é a memória principal do computador.",
+          "p": "troca",
+          "w": "Memória principal é a RAM; o HD é armazenamento secundário. Além disso, o SSD é mais rápido que o HD."
+        }
+      ]
+    },
+    {
+      "id": "info12",
+      "topic": "Memória volátil",
+      "c": "Durante uma queda de energia no fórum de Juazeiro do Norte, a servidora Clara perdeu o texto que digitava e ainda não tinha salvado. Quando a luz voltou, o computador ligou normalmente, carregando o firmware de inicialização.",
+      "q": "Qual afirmação explica o que aconteceu?",
+      "a": 0,
+      "src": "Arquitetura de computadores: memória volátil (RAM) e não volátil (ROM/flash)",
+      "o": [
+        {
+          "t": "O texto estava na RAM, memória volátil que perde o conteúdo sem energia; o firmware fica em memória não volátil, do tipo ROM/flash.",
+          "p": "correta",
+          "w": "A RAM só mantém dados enquanto recebe energia. O firmware de inicialização (BIOS/UEFI) fica gravado em memória não volátil da placa-mãe."
+        },
+        {
+          "t": "O texto estava na ROM, que é apagada sempre que o computador desliga.",
+          "p": "troca",
+          "w": "A ROM é não volátil e guarda o firmware. Quem perde o conteúdo sem energia é a RAM."
+        },
+        {
+          "t": "O texto estava no SSD, que, como a RAM, perde os dados quando falta energia.",
+          "p": "extrapolacao",
+          "w": "O SSD é armazenamento não volátil. O texto não salvo nunca chegou ao SSD; estava apenas na RAM."
+        },
+        {
+          "t": "Toda memória do computador é volátil; o firmware é baixado da internet a cada inicialização.",
+          "p": "generalizacao",
+          "w": "Nem toda memória é volátil. O firmware fica gravado na placa-mãe e não depende da internet para carregar."
+        }
+      ]
+    },
+    {
+      "id": "info13",
+      "type": "ce",
+      "topic": "SSD e HD",
+      "src": "Arquitetura de computadores: armazenamento secundário (HD e SSD)",
+      "c": "O almoxarifado de uma universidade estadual em Ponta Grossa vai trocar os HDs dos notebooks dos fiscais de campo, que sofrem com quedas e trepidação nas estradas, por SSDs.",
+      "q": "Diferentemente do HD, o SSD armazena dados em memória flash e não tem partes mecânicas móveis, o que o torna mais rápido e mais resistente a impactos.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O SSD usa memória flash, sem discos girando nem cabeças de leitura. Sem peças móveis, acessa dados mais rápido e tolera melhor quedas e vibração."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado vem de atribuir ao SSD o funcionamento do HD, que grava em discos magnéticos giratórios lidos por uma cabeça móvel."
+        }
+      ]
+    },
+    {
+      "id": "info14",
+      "topic": "Gerenciador de Tarefas",
+      "c": "O sistema de protocolo de uma câmara municipal em Uberlândia travou e não responde aos cliques. O técnico quer abrir diretamente a ferramenta do Windows que mostra os programas em execução e permite encerrá-los.",
+      "q": "Qual atalho abre diretamente o Gerenciador de Tarefas?",
+      "a": 3,
+      "src": "Microsoft: atalhos de teclado do Windows",
+      "o": [
+        {
+          "t": "Ctrl + Alt + Del, que abre o Gerenciador de Tarefas sem nenhuma tela intermediária.",
+          "p": "extrapolacao",
+          "w": "Ctrl + Alt + Del abre uma tela de opções (bloquear, trocar usuário, sair, Gerenciador de Tarefas). Não abre o Gerenciador diretamente."
+        },
+        {
+          "t": "Win + E.",
+          "p": "troca",
+          "w": "Win + E abre o Explorador de Arquivos."
+        },
+        {
+          "t": "Alt + Tab, que serve para qualquer gerenciamento de janelas, inclusive encerrar programas.",
+          "p": "generalizacao",
+          "w": "Alt + Tab apenas alterna entre as janelas abertas; não encerra programas."
+        },
+        {
+          "t": "Ctrl + Shift + Esc.",
+          "p": "correta",
+          "w": "Ctrl + Shift + Esc abre diretamente o Gerenciador de Tarefas, onde se seleciona o programa e se usa Finalizar tarefa."
+        }
+      ]
+    },
+    {
+      "id": "info15",
+      "topic": "Abrir o Explorador",
+      "c": "Rogério, assistente de um cartório em Petrópolis, precisa abrir rapidamente as pastas da rede para localizar um documento digitalizado, sem usar o mouse.",
+      "q": "Qual atalho do Windows abre o Explorador de Arquivos?",
+      "a": 1,
+      "src": "Microsoft: atalhos de teclado do Windows",
+      "o": [
+        {
+          "t": "Win + D.",
+          "p": "troca",
+          "w": "Win + D mostra e oculta a área de trabalho."
+        },
+        {
+          "t": "Win + E.",
+          "p": "correta",
+          "w": "Win + E abre o Explorador de Arquivos no Windows 10 e no Windows 11."
+        },
+        {
+          "t": "Win + L, que abre o Explorador já na pasta do usuário conectado.",
+          "p": "extrapolacao",
+          "w": "Win + L bloqueia a sessão do Windows. Não tem relação com o Explorador."
+        },
+        {
+          "t": "Ctrl + E, que abre o Explorador a partir de qualquer programa.",
+          "p": "generalizacao",
+          "w": "Ctrl + E não é atalho global para abrir o Explorador; sua função varia conforme o programa em uso. O atalho correto é Win + E."
+        }
+      ]
+    },
+    {
+      "id": "info16",
+      "type": "ce",
+      "topic": "Renomear com F2",
+      "src": "Microsoft: atalhos de teclado do Windows (Explorador de Arquivos)",
+      "c": "Na pasta de contratos de uma autarquia em Teresina, a analista Joana selecionou no Explorador de Arquivos o arquivo \"scan001.pdf\" e quer trocar o nome para \"contrato_2025.pdf\".",
+      "q": "No Explorador de Arquivos do Windows, a tecla F2 ativa a edição do nome do item selecionado, permitindo renomeá-lo.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "F2 renomeia o arquivo ou a pasta selecionada no Explorador; basta digitar o novo nome e pressionar Enter."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado costuma vir da confusão com outras teclas de função, como F5, que atualiza a janela."
+        }
+      ]
+    },
+    {
+      "id": "info17",
+      "topic": "Exclusão permanente",
+      "c": "Wagner, técnico de uma secretaria de Fazenda em Cuiabá, precisa apagar do disco do computador um arquivo grande de backup antigo, sem que ele passe pela Lixeira.",
+      "q": "Qual procedimento faz isso no Windows?",
+      "a": 2,
+      "src": "Microsoft: atalhos de teclado do Windows; Lixeira do Windows",
+      "o": [
+        {
+          "t": "Selecionar o arquivo e pressionar Delete, que sempre exclui de forma definitiva.",
+          "p": "generalizacao",
+          "w": "Em um disco local, Delete envia o arquivo para a Lixeira, de onde ele pode ser restaurado."
+        },
+        {
+          "t": "Selecionar o arquivo e pressionar Ctrl + Z.",
+          "p": "troca",
+          "w": "Ctrl + Z desfaz a última ação; não exclui arquivos."
+        },
+        {
+          "t": "Selecionar o arquivo e pressionar Shift + Delete, confirmando a exclusão permanente.",
+          "p": "correta",
+          "w": "Shift + Delete exclui o item sem enviá-lo à Lixeira. O Windows pede confirmação antes."
+        },
+        {
+          "t": "Mover o arquivo para a Lixeira, pois o que vai para ela já está excluído definitivamente.",
+          "p": "inversao",
+          "w": "Itens na Lixeira continuam ocupando espaço e podem ser restaurados. Só deixam de existir quando a Lixeira é esvaziada ou o item é excluído dela."
+        }
+      ]
+    },
+    {
+      "id": "info18",
+      "type": "ce",
+      "topic": "Lixeira e pen drive",
+      "src": "Microsoft: Lixeira do Windows (unidades removíveis e de rede)",
+      "c": "Sem querer, Priscila, servidora de uma escola estadual em Santarém, apagou com a tecla Delete uma pasta de provas gravada em seu pen drive. Ela confia que vai recuperá-la na Lixeira.",
+      "q": "No Windows, arquivos excluídos de um pen drive com a tecla Delete vão para a Lixeira, de onde podem ser restaurados.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo estende a qualquer unidade o comportamento dos discos locais. A Lixeira não cobre pen drives."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Na configuração padrão do Windows, itens excluídos de unidades removíveis, como pen drives, e de pastas de rede são apagados permanentemente, sem passar pela Lixeira."
+        }
+      ]
+    },
+    {
+      "id": "info19",
+      "topic": "Captura de tela",
+      "c": "Lívia, do suporte de TI de um tribunal em Belo Horizonte, quer recortar apenas a parte da tela com uma mensagem de erro para anexá-la a um chamado.",
+      "q": "Qual atalho do Windows 10/11 abre a ferramenta para capturar uma área da tela?",
+      "a": 0,
+      "src": "Microsoft: atalhos de teclado do Windows; Ferramenta de Captura",
+      "o": [
+        {
+          "t": "Win + Shift + S.",
+          "p": "correta",
+          "w": "Win + Shift + S abre a barra de recorte, que captura retângulo, forma livre, janela ou tela inteira e copia a imagem para a área de transferência."
+        },
+        {
+          "t": "Win + S, que abre a captura da tela inteira.",
+          "p": "troca",
+          "w": "Win + S abre a pesquisa do Windows."
+        },
+        {
+          "t": "Ctrl + Shift + S, que funciona como atalho de captura em todos os programas.",
+          "p": "generalizacao",
+          "w": "Ctrl + Shift + S não é atalho do Windows para capturar a tela. O atalho da ferramenta de recorte usa a tecla Windows: Win + Shift + S."
+        },
+        {
+          "t": "Win + Shift + S, mas apenas no Windows 11; no Windows 10 o atalho não existe.",
+          "p": "restricao",
+          "w": "O atalho Win + Shift + S também funciona no Windows 10."
+        }
+      ]
+    },
+    {
+      "id": "info20",
+      "topic": "Comando pwd",
+      "c": "Diego, técnico de um instituto federal em Pelotas, está no terminal de um servidor Linux e, depois de vários comandos cd, não sabe mais em qual diretório está.",
+      "q": "Qual comando mostra o caminho completo do diretório atual?",
+      "a": 3,
+      "src": "GNU Coreutils: pwd e ls; manual do Bash: cd",
+      "o": [
+        {
+          "t": "ls, que exibe o caminho do diretório atual.",
+          "p": "troca",
+          "w": "ls lista o conteúdo do diretório (arquivos e subdiretórios), e não o caminho em que o usuário está."
+        },
+        {
+          "t": "cd, que, digitado sem argumentos, imprime o diretório atual.",
+          "p": "extrapolacao",
+          "w": "No Linux, cd sem argumentos leva o usuário ao seu diretório pessoal (home); não exibe o caminho atual."
+        },
+        {
+          "t": "Qualquer comando, pois todos exibem o diretório atual quando executados sem argumentos.",
+          "p": "generalizacao",
+          "w": "Não é assim: ls lista conteúdo, cd sem argumento vai para o home e mkdir sem argumento acusa erro. O comando específico é pwd."
+        },
+        {
+          "t": "pwd.",
+          "p": "correta",
+          "w": "pwd (print working directory) exibe o caminho absoluto do diretório de trabalho, como /home/diego/relatorios."
+        }
+      ]
+    },
+    {
+      "id": "info21",
+      "topic": "Permissões numéricas",
+      "c": "O administrador de sistemas de uma prefeitura em Chapecó quer que o script backup.sh possa ser lido, gravado e executado pelo dono; lido e executado pelo grupo; e apenas lido pelos demais usuários.",
+      "q": "Qual comando aplica exatamente essas permissões?",
+      "a": 1,
+      "src": "GNU Coreutils: chmod (modo numérico)",
+      "o": [
+        {
+          "t": "chmod 751 backup.sh",
+          "p": "calculo",
+          "w": "O último dígito 1 dá aos demais apenas execução. Para somente leitura, o valor é 4 (r = 4)."
+        },
+        {
+          "t": "chmod 754 backup.sh",
+          "p": "correta",
+          "w": "Com r = 4, w = 2 e x = 1: dono rwx = 7, grupo r-x = 5 e demais r-- = 4."
+        },
+        {
+          "t": "chmod 457 backup.sh",
+          "p": "inversao",
+          "w": "Inverte a ordem dos dígitos. O primeiro corresponde ao dono, o segundo ao grupo e o terceiro aos demais."
+        },
+        {
+          "t": "chmod 777 backup.sh",
+          "p": "generalizacao",
+          "w": "777 dá leitura, gravação e execução a todos, inclusive aos demais usuários, o que vai além do pedido e é inseguro."
+        }
+      ]
+    },
+    {
+      "id": "info22",
+      "type": "ce",
+      "topic": "Leitura de permissões",
+      "src": "GNU Coreutils: ls -l e modos de permissão",
+      "c": "Ao rodar ls -l em um servidor Linux de uma universidade em Lavras, a analista vê a linha: -rw-r--r-- 1 marta ti 2048 mar 3 10:15 relatorio.txt",
+      "q": "Essas permissões indicam que a dona do arquivo pode ler e gravar, enquanto o grupo e os demais usuários podem apenas ler.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O primeiro caractere (-) indica arquivo comum. Em seguida vêm rw- para a dona (marta), r-- para o grupo (ti) e r-- para os demais."
+        },
+        {
+          "t": "Errado",
+          "p": "inversao",
+          "w": "Julgar errado costuma vir de ler os trios na ordem inversa. Depois do caractere de tipo, a ordem é dono, grupo e outros."
+        }
+      ]
+    },
+    {
+      "id": "info23",
+      "topic": "Navegação com cd",
+      "c": "No terminal Linux de uma secretaria de Saúde em Macapá, o técnico está no diretório /home/ana/documentos/2025 e digita o comando cd ..",
+      "q": "Em qual diretório ele passa a estar?",
+      "a": 2,
+      "src": "Manual do Bash: cd; convenção POSIX dos diretórios . e ..",
+      "o": [
+        {
+          "t": "/ (raiz do sistema).",
+          "p": "extrapolacao",
+          "w": "cd .. sobe apenas um nível. Para ir à raiz, o comando seria cd /."
+        },
+        {
+          "t": "/home/ana, o diretório pessoal da usuária.",
+          "p": "calculo",
+          "w": "Esse seria o resultado de subir dois níveis (cd ../..). Com cd .., sobe-se só um."
+        },
+        {
+          "t": "/home/ana/documentos.",
+          "p": "correta",
+          "w": "Os dois pontos (..) representam o diretório pai. A partir de /home/ana/documentos/2025, cd .. leva a /home/ana/documentos."
+        },
+        {
+          "t": "Continua em /home/ana/documentos/2025, pois .. representa o diretório atual.",
+          "p": "troca",
+          "w": "Quem representa o diretório atual é um ponto só (.). Dois pontos (..) indicam o diretório pai."
+        }
+      ]
+    },
+    {
+      "id": "info24",
+      "type": "ce",
+      "topic": "Maiúsculas no Linux",
+      "src": "Linux: sistemas de arquivos ext4 (nomes sensíveis a maiúsculas e minúsculas)",
+      "c": "Em um servidor Linux de um tribunal em Porto Velho, existem na mesma pasta os arquivos Relatorio.txt e relatorio.txt. Um estagiário acha que se trata de um erro de exibição.",
+      "q": "Os sistemas Linux não diferenciam letras maiúsculas de minúsculas nos nomes de arquivos, de modo que Relatorio.txt e relatorio.txt são o mesmo arquivo.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo transporta para o Linux o comportamento padrão do Windows, que não diferencia maiúsculas de minúsculas nos nomes de arquivos."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Os sistemas de arquivos usados no Linux, como o ext4, diferenciam maiúsculas de minúsculas. Relatorio.txt e relatorio.txt são arquivos distintos e podem coexistir na mesma pasta."
+        }
+      ]
+    },
+    {
+      "id": "info25",
+      "topic": "LAN e WAN",
+      "c": "Uma rede de farmácias tem, em cada loja de Goiânia, computadores e impressora ligados por cabos e Wi-Fi. As lojas também se comunicam com a matriz, em São Paulo, por links contratados de uma operadora.",
+      "q": "Como se classificam essas redes?",
+      "a": 0,
+      "src": "Tanenbaum, Redes de Computadores: classificação das redes por abrangência",
+      "o": [
+        {
+          "t": "A rede de cada loja é uma LAN; a ligação entre as lojas e a matriz, em cidades diferentes, forma uma WAN.",
+          "p": "correta",
+          "w": "LAN (rede local) cobre uma área restrita, como um prédio. WAN (rede de longa distância) interliga redes em cidades, estados ou países."
+        },
+        {
+          "t": "Todas são LANs, porque usam cabos e Wi-Fi.",
+          "p": "generalizacao",
+          "w": "O meio físico não define a classificação; o que conta é a abrangência geográfica. A ligação entre cidades é WAN."
+        },
+        {
+          "t": "A rede de cada loja é uma WAN, e a ligação com a matriz é uma LAN.",
+          "p": "inversao",
+          "w": "Inverte os conceitos: a rede da loja é local (LAN), e a ligação entre cidades é de longa distância (WAN)."
+        },
+        {
+          "t": "A ligação com a matriz é uma MAN, pois toda rede entre empresas é metropolitana.",
+          "p": "troca",
+          "w": "MAN abrange uma cidade ou região metropolitana. A ligação entre Goiânia e São Paulo é de longa distância, ou seja, WAN."
+        }
+      ]
+    },
+    {
+      "id": "info26",
+      "topic": "Porta do SSH",
+      "c": "O firewall do data center de uma universidade federal em Recife bloqueou o acesso remoto seguro, por linha de comando, aos servidores Linux. O analista precisa liberar a porta padrão desse serviço.",
+      "q": "Qual é a porta TCP padrão do SSH?",
+      "a": 3,
+      "src": "IANA Service Name and Port Number Registry; RFC 4253 (SSH)",
+      "o": [
+        {
+          "t": "21.",
+          "p": "troca",
+          "w": "A porta 21 é a padrão do FTP (canal de controle)."
+        },
+        {
+          "t": "23, a mesma do Telnet, pois o SSH é apenas o Telnet com senha.",
+          "p": "extrapolacao",
+          "w": "A porta 23 é do Telnet, que transmite tudo sem criptografia. O SSH é outro protocolo, cifrado, e usa a porta 22."
+        },
+        {
+          "t": "443, pois toda conexão segura usa a porta do HTTPS.",
+          "p": "generalizacao",
+          "w": "443 é a porta padrão do HTTPS. Cada protocolo seguro tem sua própria porta padrão."
+        },
+        {
+          "t": "22.",
+          "p": "correta",
+          "w": "O SSH (Secure Shell) usa por padrão a porta TCP 22, conforme o registro de portas da IANA."
+        }
+      ]
+    },
+    {
+      "id": "info27",
+      "topic": "Portas HTTP e HTTPS",
+      "c": "Uma empresa de Florianópolis hospeda o portal de serviços de um município. O analista de redes precisa liberar no firewall o acesso web comum e o acesso web protegido por TLS.",
+      "q": "Quais são as portas padrão desses dois serviços?",
+      "a": 1,
+      "src": "RFC 9110, seções 4.2.1 e 4.2.2; IANA Service Name and Port Number Registry",
+      "o": [
+        {
+          "t": "HTTP na porta 8080 e HTTPS na 8443, as únicas permitidas para sites públicos.",
+          "p": "restricao",
+          "w": "8080 e 8443 são portas alternativas usadas por alguns sistemas. As portas padrão são 80 e 443."
+        },
+        {
+          "t": "HTTP na porta 80 e HTTPS na porta 443.",
+          "p": "correta",
+          "w": "O HTTP usa por padrão a porta 80, e o HTTPS (HTTP sobre TLS) usa a 443."
+        },
+        {
+          "t": "HTTP na porta 443 e HTTPS na porta 80.",
+          "p": "inversao",
+          "w": "Inverte as portas: 80 é a do HTTP, e 443 é a do HTTPS."
+        },
+        {
+          "t": "Ambos na porta 53, a porta usada pela navegação na web.",
+          "p": "troca",
+          "w": "A porta 53 é a do DNS, que resolve nomes, mas não transporta as páginas."
+        }
+      ]
+    },
+    {
+      "id": "info28",
+      "type": "ce",
+      "topic": "Porta do DNS",
+      "src": "RFC 1035 (DNS); IANA: porta 53",
+      "c": "Depois de uma mudança no firewall de uma prefeitura em Sorocaba, os computadores passaram a abrir sites apenas quando se digita o endereço IP; pelos nomes, como www.gov.br, nada carrega.",
+      "q": "O sintoma é compatível com o bloqueio da porta 53, usada por padrão pelo serviço de DNS.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O DNS usa a porta 53 (UDP e TCP) para traduzir nomes em endereços IP. Com ela bloqueada, o acesso por nome falha, mas o acesso direto por IP continua funcionando."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado costuma vir de culpar as portas web (80 e 443), que seguem abertas, já que o acesso pelo IP funciona."
+        }
+      ]
+    },
+    {
+      "id": "info29",
+      "type": "ce",
+      "topic": "Portas POP3 e IMAP",
+      "src": "RFC 1939 (POP3); RFC 3501 (IMAP); IANA",
+      "c": "Ao configurar manualmente o cliente de e-mail de uma clínica em Juiz de Fora, a recepcionista precisa informar as portas padrão, sem criptografia, dos protocolos de recebimento.",
+      "q": "Por padrão, o POP3 usa a porta 143, e o IMAP usa a porta 110.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "inversao",
+          "w": "Julgar certo aceita a troca das portas entre os dois protocolos feita no item."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "É o inverso: o POP3 usa a porta 110, e o IMAP usa a 143. Nas versões com TLS implícito, as portas são 995 e 993, respectivamente."
+        }
+      ]
+    },
+    {
+      "id": "info30",
+      "topic": "TCP e UDP",
+      "c": "Uma empresa de Campinas desenvolve dois sistemas: um transfere arquivos de processos judiciais e não pode perder nenhum dado; o outro faz chamadas de voz em tempo real, em que atrasos incomodam mais do que pequenas perdas.",
+      "q": "Qual protocolo de transporte combina melhor com cada sistema?",
+      "a": 2,
+      "src": "RFC 9293 (TCP); RFC 768 (UDP)",
+      "o": [
+        {
+          "t": "UDP para os arquivos e TCP para a voz.",
+          "p": "inversao",
+          "w": "Inverte os papéis: quem garante entrega completa e ordenada é o TCP; o UDP, mais leve, atende melhor à voz em tempo real."
+        },
+        {
+          "t": "TCP para ambos, pois o TCP é sempre a melhor opção por ser confiável.",
+          "p": "generalizacao",
+          "w": "Confiabilidade tem custo: confirmações e retransmissões aumentam o atraso, o que prejudica a voz em tempo real."
+        },
+        {
+          "t": "TCP para os arquivos e UDP para a voz.",
+          "p": "correta",
+          "w": "O TCP é orientado à conexão e garante entrega e ordem, com retransmissão. O UDP não estabelece conexão nem retransmite, o que reduz o atraso."
+        },
+        {
+          "t": "UDP para ambos, pois o UDP também garante a entrega com confirmação de recebimento.",
+          "p": "troca",
+          "w": "Confirmação de recebimento e retransmissão são características do TCP. O UDP não confirma nem retransmite."
+        }
+      ]
+    },
+    {
+      "id": "info31",
+      "topic": "IPv4 e IPv6",
+      "c": "Um provedor de internet de Rio Branco explica aos clientes que está migrando para o IPv6 porque os endereços IPv4 disponíveis se esgotaram.",
+      "q": "Qual é o tamanho dos endereços em cada versão?",
+      "a": 0,
+      "src": "RFC 791 (IPv4); RFC 8200 e RFC 4291 (IPv6)",
+      "o": [
+        {
+          "t": "IPv4 tem 32 bits, e IPv6 tem 128 bits.",
+          "p": "correta",
+          "w": "O IPv4 usa endereços de 32 bits, cerca de 4,3 bilhões de combinações. O IPv6 usa 128 bits, um espaço imensamente maior."
+        },
+        {
+          "t": "IPv4 tem 32 bits, e IPv6 tem 64 bits, o dobro.",
+          "p": "calculo",
+          "w": "O IPv6 não dobra o tamanho do endereço, ele o quadruplica: são 128 bits."
+        },
+        {
+          "t": "IPv4 tem 128 bits, e IPv6 tem 32 bits.",
+          "p": "inversao",
+          "w": "Inverte os tamanhos. O IPv6 foi criado justamente para ter endereços maiores."
+        },
+        {
+          "t": "Ambos têm 32 bits; o IPv6 só muda a forma de escrever, em hexadecimal.",
+          "p": "troca",
+          "w": "Confunde notação com tamanho. O IPv6 é escrito em hexadecimal, mas a mudança principal é o endereço de 128 bits."
+        }
+      ]
+    },
+    {
+      "id": "info32",
+      "topic": "Função do DNS",
+      "c": "Ao digitar www.ibge.gov.br no navegador, um servidor de uma secretaria em Palmas abre a página do IBGE, embora os computadores se comuniquem na internet por endereços IP.",
+      "q": "Que serviço traduz o nome digitado para o endereço IP do servidor do site?",
+      "a": 3,
+      "src": "RFC 1034 e RFC 1035 (DNS)",
+      "o": [
+        {
+          "t": "DHCP.",
+          "p": "troca",
+          "w": "O DHCP atribui automaticamente endereço IP e outras configurações aos dispositivos da rede; não resolve nomes."
+        },
+        {
+          "t": "HTTP, que localiza o servidor e transfere a página.",
+          "p": "extrapolacao",
+          "w": "O HTTP transfere o conteúdo depois que o endereço do servidor já é conhecido. A tradução do nome é feita antes, pelo DNS."
+        },
+        {
+          "t": "O próprio navegador, que guarda os endereços IP de todos os sites da internet.",
+          "p": "generalizacao",
+          "w": "O navegador pode guardar em cache resultados recentes, mas não tem os endereços de todos os sites. Ele consulta o DNS."
+        },
+        {
+          "t": "DNS.",
+          "p": "correta",
+          "w": "O DNS (Domain Name System) é um sistema hierárquico e distribuído que traduz nomes de domínio em endereços IP."
+        }
+      ]
+    },
+    {
+      "id": "info33",
+      "topic": "Cookies",
+      "c": "Ao entrar no site de um supermercado de Salvador, Vanessa escolhe ver as ofertas da sua região. Dias depois, ao voltar ao site no mesmo navegador, a preferência continua lá, e o carrinho mantém os itens que ela tinha deixado.",
+      "q": "O que, em geral, permite ao site lembrar essas informações?",
+      "a": 1,
+      "src": "Cartilha de Segurança para Internet (CERT.br): cookies; RFC 6265",
+      "o": [
+        {
+          "t": "O cache do navegador, que guarda as preferências de cada usuário.",
+          "p": "troca",
+          "w": "O cache armazena cópias de páginas, imagens e scripts para carregar mais rápido. Preferências e sessões costumam ficar em cookies."
+        },
+        {
+          "t": "Cookies, pequenos arquivos de texto que o site grava no navegador para guardar preferências e dados de sessão.",
+          "p": "correta",
+          "w": "Cookies são enviados pelo site, armazenados pelo navegador e devolvidos nas visitas seguintes. Servem a preferências, sessões e também a rastreamento."
+        },
+        {
+          "t": "Um vírus instalado pelo site, já que todo cookie é um programa malicioso.",
+          "p": "generalizacao",
+          "w": "Cookies são arquivos de dados, não programas. Podem afetar a privacidade, mas não são malware por natureza."
+        },
+        {
+          "t": "O histórico de navegação, que registra as escolhas feitas dentro de cada página.",
+          "p": "extrapolacao",
+          "w": "O histórico guarda os endereços visitados, e não as preferências e o carrinho escolhidos no site."
+        }
+      ]
+    },
+    {
+      "id": "info34",
+      "type": "ce",
+      "topic": "Navegação anônima",
+      "src": "Ajuda do Google Chrome (modo anônimo) e do Microsoft Edge (InPrivate)",
+      "c": "Ricardo, servidor de uma autarquia em Vitória, usa a janela anônima do navegador no computador do trabalho, convencido de que, assim, nem a equipe de TI nem o provedor saberão quais sites ele visitou.",
+      "q": "A navegação anônima impede que o provedor de internet e a rede da instituição identifiquem os sites acessados pelo usuário.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "extrapolacao",
+          "w": "Julgar certo atribui ao modo anônimo um efeito que ele não tem. Ele só evita registros no próprio navegador."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O modo anônimo evita que histórico, cookies e dados de formulários fiquem salvos no navegador depois que a janela é fechada. A rede da instituição e o provedor ainda podem registrar os acessos."
+        }
+      ]
+    },
+    {
+      "id": "info35",
+      "topic": "Cache do navegador",
+      "c": "Depois que a página da intranet de uma prefeitura em Londrina foi atualizada, o servidor Alexandre continua vendo o banner antigo, enquanto os colegas, em outros computadores, já veem o novo.",
+      "q": "Qual é a causa mais provável e a solução adequada?",
+      "a": 2,
+      "src": "Ajuda do Google Chrome e do Microsoft Edge: limpar cache e dados de navegação",
+      "o": [
+        {
+          "t": "Cookies antigos guardam as imagens da página; é preciso apagar o histórico de downloads.",
+          "p": "troca",
+          "w": "Cópias de imagens e arquivos das páginas ficam no cache, e não nos cookies. O histórico de downloads também não guarda essas cópias."
+        },
+        {
+          "t": "Falha no DNS, que precisa ser trocado no roteador.",
+          "p": "extrapolacao",
+          "w": "Se o DNS falhasse, a página nem abriria. Ela abre, só que com conteúdo antigo, sinal de cópia local desatualizada."
+        },
+        {
+          "t": "O navegador exibe uma cópia guardada no cache; limpar o cache ou forçar o recarregamento resolve.",
+          "p": "correta",
+          "w": "O cache guarda cópias de imagens e páginas para acelerar a navegação. Quando o conteúdo muda no servidor, a cópia local pode ficar desatualizada até ser renovada."
+        },
+        {
+          "t": "O computador tem pouca RAM, e o cache só se atualiza em máquinas com mais memória.",
+          "p": "restricao",
+          "w": "A atualização do cache não depende da quantidade de RAM. O banner antigo indica cópia local desatualizada."
+        }
+      ]
+    },
+    {
+      "id": "info36",
+      "topic": "Cadeado do HTTPS",
+      "c": "Seu Antônio, aposentado em Natal, recebeu por SMS um link para \"atualizar o cadastro\" do banco. A página que abriu mostrava o cadeado e o endereço começando com https, e ele concluiu que era confiável.",
+      "q": "O que o cadeado e o https realmente indicam?",
+      "a": 0,
+      "src": "Cartilha de Segurança para Internet (CERT.br): conexões seguras e golpes na internet",
+      "o": [
+        {
+          "t": "Que a conexão entre o navegador e aquele site é criptografada, o que não garante que o site seja legítimo.",
+          "p": "correta",
+          "w": "O HTTPS protege os dados em trânsito. Golpistas também obtêm certificados para seus sites; é preciso conferir o endereço e desconfiar de links recebidos."
+        },
+        {
+          "t": "Que o site foi verificado pelo banco e pelas autoridades e, por isso, é necessariamente legítimo.",
+          "p": "extrapolacao",
+          "w": "O cadeado não atesta a idoneidade de quem mantém o site. Páginas de phishing também usam HTTPS."
+        },
+        {
+          "t": "Que o computador do usuário está livre de vírus durante a navegação.",
+          "p": "troca",
+          "w": "O cadeado diz respeito à conexão com o site, e não à situação do computador, que depende de antivírus e atualizações."
+        },
+        {
+          "t": "Que todos os sites com https pertencem a órgãos públicos ou bancos.",
+          "p": "generalizacao",
+          "w": "Qualquer site pode usar HTTPS, inclusive os montados para golpes."
+        }
+      ]
+    },
+    {
+      "id": "info37",
+      "topic": "SMTP no envio",
+      "c": "Ao configurar o e-mail institucional de uma universidade em Santa Maria em um cliente de e-mail, o técnico precisa informar o servidor de saída, usado para enviar as mensagens.",
+      "q": "Qual protocolo é usado nesse servidor de saída?",
+      "a": 3,
+      "src": "RFC 5321 (SMTP); RFC 6409 (submissão de mensagens, porta 587)",
+      "o": [
+        {
+          "t": "IMAP, protocolo responsável tanto pelo envio quanto pelo recebimento.",
+          "p": "extrapolacao",
+          "w": "O IMAP dá acesso às mensagens guardadas no servidor (recebimento). O envio é feito por SMTP."
+        },
+        {
+          "t": "POP3, na porta 110.",
+          "p": "troca",
+          "w": "O POP3, na porta 110, serve para baixar mensagens do servidor, ou seja, para o recebimento."
+        },
+        {
+          "t": "HTTP, pois todo e-mail é enviado por meio do navegador.",
+          "p": "generalizacao",
+          "w": "O webmail usa o navegador, mas o envio a partir de clientes de e-mail e entre servidores é feito por SMTP."
+        },
+        {
+          "t": "SMTP, que usa a porta 587 para a submissão pelos clientes e a 25 entre servidores.",
+          "p": "correta",
+          "w": "O SMTP é o protocolo de envio. A porta 25 é usada na transferência entre servidores, e a 587 na submissão de mensagens pelos clientes."
+        }
+      ]
+    },
+    {
+      "id": "info38",
+      "type": "ce",
+      "topic": "Destinatários em Cco",
+      "src": "RFC 5322, seção 3.6.3 (campos To, Cc e Bcc)",
+      "c": "Kátia, da ouvidoria de uma prefeitura em Maceió, envia uma resposta com o cidadão no campo Para, o chefe dela em Cc e a corregedoria em Cco.",
+      "q": "Nessa mensagem, a corregedoria vê os endereços do cidadão e do chefe, mas o cidadão e o chefe não veem o endereço da corregedoria.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Os endereços em Cco são omitidos das cópias entregues aos demais. Quem está em Cco recebe a mensagem com os campos Para e Cc visíveis."
+        },
+        {
+          "t": "Errado",
+          "p": "inversao",
+          "w": "Julgar errado costuma vir da ideia de que o Cco esconde também dos ocultos os demais destinatários. O sigilo recai só sobre quem está em Cco."
+        }
+      ]
+    },
+    {
+      "id": "info39",
+      "topic": "Vírus e worm",
+      "c": "Na rede de um hospital em Campina Grande, um código malicioso passou a se espalhar sozinho de computador em computador, explorando uma falha do sistema, sem que ninguém abrisse arquivos ou executasse programas.",
+      "q": "Segundo a Cartilha do CERT.br, que tipo de malware tem esse comportamento?",
+      "a": 1,
+      "src": "Cartilha de Segurança para Internet (CERT.br): códigos maliciosos",
+      "o": [
+        {
+          "t": "Vírus, que se propaga sozinho pela rede, sem precisar de nenhum hospedeiro.",
+          "p": "troca",
+          "w": "O vírus se propaga inserindo cópias de si em outros programas ou arquivos e depende da execução do hospedeiro."
+        },
+        {
+          "t": "Worm, que se propaga automaticamente, enviando cópias de si mesmo e explorando vulnerabilidades.",
+          "p": "correta",
+          "w": "Pela Cartilha do CERT.br, o worm envia cópias de si de computador para computador e, diferentemente do vírus, não precisa ser executado nem se embutir em outros arquivos."
+        },
+        {
+          "t": "Spyware, cuja principal função é se multiplicar pela rede.",
+          "p": "extrapolacao",
+          "w": "Spyware monitora as atividades do sistema e envia as informações a terceiros; sua finalidade não é se replicar."
+        },
+        {
+          "t": "Phishing, já que todo ataque em rede é uma forma de phishing.",
+          "p": "generalizacao",
+          "w": "Phishing é fraude que usa engenharia social para obter dados. Não é código que se autopropaga."
+        }
+      ]
+    },
+    {
+      "id": "info40",
+      "type": "ce",
+      "topic": "Cavalo de troia",
+      "src": "Cartilha de Segurança para Internet (CERT.br): códigos maliciosos",
+      "c": "Sílvio, contador em Divinópolis, baixou de um site desconhecido um \"cartão virtual\". O programa exibiu uma animação e, sem que ele soubesse, instalou outros códigos maliciosos no computador.",
+      "q": "O cavalo de troia caracteriza-se por criar cópias de si mesmo e se propagar automaticamente para outros computadores da rede.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo atribui ao cavalo de troia a característica típica do worm."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Pela Cartilha do CERT.br, cavalo de troia é o programa que, além das funções aparentes, executa outras, maliciosas, sem o conhecimento do usuário. Ele precisa ser executado e não se replica sozinho."
+        }
+      ]
+    },
+    {
+      "id": "info41",
+      "topic": "Keylogger",
+      "c": "Depois de usar um computador de lan house em Teresina para acessar o internet banking, Mateus teve a senha roubada. A perícia encontrou na máquina um programa que gravava tudo o que era digitado no teclado.",
+      "q": "Que tipo de programa é esse?",
+      "a": 2,
+      "src": "Cartilha de Segurança para Internet (CERT.br): spyware e keylogger",
+      "o": [
+        {
+          "t": "Ransomware, que grava as teclas para depois sequestrar os arquivos.",
+          "p": "troca",
+          "w": "Ransomware torna os dados inacessíveis, geralmente com criptografia, e exige resgate. Gravar teclas é função do keylogger."
+        },
+        {
+          "t": "Worm, pois todo programa que captura dados se espalha pela rede.",
+          "p": "generalizacao",
+          "w": "Capturar dados não implica autopropagação. O worm se espalha sozinho; o keylogger registra o que é digitado."
+        },
+        {
+          "t": "Keylogger, tipo de spyware que captura e armazena as teclas digitadas pelo usuário.",
+          "p": "correta",
+          "w": "Pela Cartilha do CERT.br, keylogger é um tipo específico de spyware capaz de capturar e armazenar as teclas digitadas no teclado."
+        },
+        {
+          "t": "Adware, que captura senhas ao exibir propagandas.",
+          "p": "extrapolacao",
+          "w": "Adware é projetado para apresentar propagandas. A captura do que é digitado é característica do keylogger."
+        }
+      ]
+    },
+    {
+      "id": "info42",
+      "type": "ce",
+      "topic": "Conceito de phishing",
+      "src": "Cartilha de Segurança para Internet (CERT.br): golpes na internet (phishing)",
+      "c": "Em uma capacitação de servidores em Aracaju, um participante afirma que só cai em phishing quem tem o computador infectado, porque o phishing seria um vírus que se espalha pelos arquivos.",
+      "q": "Phishing é um tipo de vírus que se replica inserindo cópias de si mesmo em outros arquivos do computador.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo confunde phishing com vírus. Phishing é golpe, e não código que se replica."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Pela Cartilha do CERT.br, phishing é a fraude por meio da qual o golpista tenta obter dados pessoais e financeiros da vítima, combinando meios técnicos e engenharia social, como mensagens e sites falsos."
+        }
+      ]
+    },
+    {
+      "id": "info43",
+      "topic": "Função do firewall",
+      "c": "Uma prefeitura em Bauru instalou um firewall entre sua rede interna e a internet. O secretário acredita que, com isso, não precisa mais de antivírus nos computadores.",
+      "q": "Qual afirmação descreve corretamente o papel do firewall?",
+      "a": 0,
+      "src": "Cartilha de Segurança para Internet (CERT.br): mecanismos de segurança (firewall)",
+      "o": [
+        {
+          "t": "Ele controla o tráfego entre redes, permitindo ou bloqueando conexões conforme regras, e não substitui o antivírus.",
+          "p": "correta",
+          "w": "O firewall filtra comunicações por regras, como portas e endereços. Malware que chega por e-mail, pen drive ou site permitido continua exigindo antivírus e atualizações."
+        },
+        {
+          "t": "Ele remove vírus de arquivos já infectados nos computadores da rede.",
+          "p": "troca",
+          "w": "Remover vírus de arquivos é função do antivírus. O firewall atua sobre o tráfego de rede."
+        },
+        {
+          "t": "Ele bloqueia qualquer ameaça, inclusive um golpe aberto pelo usuário em um site permitido.",
+          "p": "generalizacao",
+          "w": "Se o tráfego é permitido pelas regras, o firewall não impede golpes que dependem da ação do usuário, como o phishing."
+        },
+        {
+          "t": "Ele só funciona se for instalado em cada computador, nunca entre a rede e a internet.",
+          "p": "restricao",
+          "w": "Há firewalls pessoais, instalados no computador, e firewalls de rede, instalados entre a rede interna e a internet."
+        }
+      ]
+    },
+    {
+      "id": "info44",
+      "topic": "Backup incremental",
+      "c": "Uma clínica em Caxias do Sul faz backup completo aos domingos e backups incrementais de segunda a sábado. Na quinta de manhã, o servidor falha, e é preciso recuperar os dados como estavam na quarta à noite.",
+      "q": "O que precisa ser restaurado?",
+      "a": 3,
+      "src": "Cartilha de Segurança para Internet (CERT.br): backups; tipos de backup",
+      "o": [
+        {
+          "t": "Apenas o incremental de quarta, que contém todas as alterações desde domingo.",
+          "p": "troca",
+          "w": "Essa é a lógica do backup diferencial. O incremental de quarta só contém o que mudou desde o backup de terça."
+        },
+        {
+          "t": "O completo de domingo e apenas o incremental de quarta.",
+          "p": "calculo",
+          "w": "Faltariam as alterações de segunda e terça, que estão apenas nos incrementais desses dias."
+        },
+        {
+          "t": "Apenas o completo de domingo, pois backups incrementais não podem ser restaurados.",
+          "p": "extrapolacao",
+          "w": "Os incrementais existem justamente para recuperar as mudanças posteriores ao completo. Só o completo devolveria os dados de domingo."
+        },
+        {
+          "t": "O completo de domingo e, em ordem, os incrementais de segunda, terça e quarta.",
+          "p": "correta",
+          "w": "Cada incremental copia só o que mudou desde o backup anterior, de qualquer tipo. A restauração exige o último completo e todos os incrementais seguintes, em ordem."
+        }
+      ]
+    },
+    {
+      "id": "info45",
+      "topic": "Criptografia simétrica",
+      "c": "Dois analistas de um tribunal em Belém combinam, pessoalmente, uma única chave secreta. Com ela, um cifra os arquivos que envia, e o outro usa a mesma chave para decifrá-los.",
+      "q": "Que tipo de criptografia é esse?",
+      "a": 1,
+      "src": "Cartilha de Segurança para Internet (CERT.br): criptografia de chave simétrica e de chaves assimétricas",
+      "o": [
+        {
+          "t": "Assimétrica, pois envolve duas pessoas diferentes.",
+          "p": "troca",
+          "w": "O que define a assimétrica é o par de chaves (pública e privada), e não o número de pessoas. Aqui há uma só chave compartilhada."
+        },
+        {
+          "t": "Simétrica, em que a mesma chave secreta é usada para cifrar e decifrar.",
+          "p": "correta",
+          "w": "Na criptografia simétrica, remetente e destinatário usam a mesma chave secreta. O AES é um exemplo de algoritmo simétrico."
+        },
+        {
+          "t": "Simétrica, que dispensa cuidados com a troca da chave, por ser sempre segura.",
+          "p": "generalizacao",
+          "w": "O ponto fraco da criptografia simétrica é justamente a distribuição da chave: quem a obtiver decifra tudo."
+        },
+        {
+          "t": "Assinatura digital, pois a chave combinada comprova quem enviou cada arquivo.",
+          "p": "extrapolacao",
+          "w": "Assinatura digital usa a chave privada do signatário, em criptografia assimétrica. Uma chave compartilhada não indica qual dos dois cifrou o arquivo."
+        }
+      ]
+    },
+    {
+      "id": "info46",
+      "topic": "Chave pública e privada",
+      "c": "Bianca, auditora em Brasília, quer receber de um fornecedor um relatório que somente ela possa ler. Eles usam criptografia assimétrica, e cada um tem o seu par de chaves.",
+      "q": "Com qual chave o fornecedor deve cifrar o relatório?",
+      "a": 2,
+      "src": "Cartilha de Segurança para Internet (CERT.br): criptografia de chaves assimétricas",
+      "o": [
+        {
+          "t": "Com a chave privada do próprio fornecedor.",
+          "p": "troca",
+          "w": "Cifrar com a chave privada do remetente é o mecanismo da assinatura: qualquer um com a chave pública dele decifraria. Não haveria sigilo."
+        },
+        {
+          "t": "Com a chave privada de Bianca, que ela deve enviar antes ao fornecedor.",
+          "p": "inversao",
+          "w": "Inverte o uso das chaves. A chave privada nunca é compartilhada; o fornecedor usa a chave pública de Bianca."
+        },
+        {
+          "t": "Com a chave pública de Bianca, pois só a chave privada dela poderá decifrá-lo.",
+          "p": "correta",
+          "w": "O que é cifrado com a chave pública de alguém só é decifrado com a chave privada correspondente, o que garante a confidencialidade."
+        },
+        {
+          "t": "Com qualquer uma das quatro chaves, pois todas decifram o relatório.",
+          "p": "generalizacao",
+          "w": "Cada chave tem papel específico. Só o par de chaves de Bianca garante que apenas ela leia o relatório."
+        }
+      ]
+    },
+    {
+      "id": "info47",
+      "topic": "Assinatura digital",
+      "c": "Uma advogada de Curitiba assina digitalmente uma petição com seu certificado ICP-Brasil antes de protocolá-la no sistema eletrônico do tribunal.",
+      "q": "O que a assinatura digital garante?",
+      "a": 0,
+      "src": "Cartilha de Segurança para Internet (CERT.br): assinatura digital; MP 2.200-2/2001, art. 10",
+      "o": [
+        {
+          "t": "Autenticidade, integridade e não repúdio, mas não a confidencialidade do documento.",
+          "p": "correta",
+          "w": "Feita com a chave privada da signatária e verificada com sua chave pública, a assinatura comprova a autoria e que o documento não foi alterado. Ela não cifra o conteúdo."
+        },
+        {
+          "t": "Confidencialidade, pois o documento assinado só pode ser lido pelo juiz.",
+          "p": "troca",
+          "w": "Sigilo exige cifrar o conteúdo com a chave pública do destinatário. A assinatura não esconde o texto."
+        },
+        {
+          "t": "Apenas integridade, sem identificar quem assinou.",
+          "p": "restricao",
+          "w": "A assinatura também identifica a signatária (autenticidade) e impede que ela negue a autoria (não repúdio)."
+        },
+        {
+          "t": "Que o documento nunca poderá ser alterado por ninguém, nem mesmo em cópias.",
+          "p": "extrapolacao",
+          "w": "A assinatura não impede alterações; ela permite detectá-las, porque qualquer mudança invalida a verificação."
+        }
+      ]
+    },
+    {
+      "id": "info48",
+      "topic": "Certificado digital",
+      "c": "Um contador de Ribeirão Preto comprou um certificado e-CPF ICP-Brasil gravado em token. Um cliente pergunta o que, afinal, esse certificado contém.",
+      "q": "Assinale a alternativa correta sobre o certificado digital.",
+      "a": 3,
+      "src": "ITI: certificado digital ICP-Brasil; Cartilha de Segurança para Internet (CERT.br): certificado digital",
+      "o": [
+        {
+          "t": "Ele contém a chave privada do titular, para que qualquer pessoa possa verificar suas assinaturas.",
+          "p": "inversao",
+          "w": "Inverte as chaves: a verificação usa a chave pública, que vai no certificado. A chave privada fica protegida com o titular, no token ou cartão."
+        },
+        {
+          "t": "Ele é emitido pelo próprio titular, que atesta a sua identidade.",
+          "p": "troca",
+          "w": "Quem emite o certificado é uma Autoridade Certificadora, que confere a identidade do titular e assina digitalmente o certificado."
+        },
+        {
+          "t": "Ele vale para sempre, pois certificados digitais não têm data de validade.",
+          "p": "generalizacao",
+          "w": "Todo certificado tem prazo de validade e pode ser revogado antes do vencimento."
+        },
+        {
+          "t": "Ele vincula a chave pública do titular a seus dados de identificação e é assinado por uma Autoridade Certificadora.",
+          "p": "correta",
+          "w": "O certificado funciona como identidade eletrônica: reúne dados do titular, sua chave pública, a validade e a assinatura digital da AC que o emitiu."
+        }
+      ]
+    },
+    {
+      "id": "info49",
+      "type": "ce",
+      "topic": "AC Raiz da ICP-Brasil",
+      "src": "MP 2.200-2/2001, arts. 5º, parágrafo único, e 13",
+      "c": "Uma empresa de Fortaleza precisa de um certificado ICP-Brasil para emitir notas fiscais e decide pedi-lo diretamente ao ITI, por ser a autoridade no topo da cadeia.",
+      "q": "O ITI, como Autoridade Certificadora Raiz da ICP-Brasil, emite certificados diretamente para usuários finais, como pessoas e empresas.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "extrapolacao",
+          "w": "Julgar certo estende à AC Raiz uma tarefa das ACs credenciadas. Estar no topo da cadeia não significa atender o usuário final."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O ITI é a AC Raiz (art. 13), que emite certificados para as ACs do nível seguinte e está proibida de emitir certificados para o usuário final (art. 5º, parágrafo único). Pessoas e empresas recorrem a ACs credenciadas."
+        }
+      ]
+    },
+    {
+      "id": "info50",
+      "topic": "MÉDIA e células vazias",
+      "c": "Na planilha de notas de uma escola estadual em Manaus, as células B2, B3, B4 e B5 contêm, respectivamente, 8, 6, nada (célula vazia) e 10. A professora digita em B6 a fórmula =MÉDIA(B2:B5).",
+      "q": "Qual valor aparece em B6?",
+      "a": 1,
+      "src": "Microsoft Support: função MÉDIA",
+      "o": [
+        {
+          "t": "6, pois a célula vazia é contada como zero.",
+          "p": "calculo",
+          "w": "Esse resultado viria de dividir 24 por 4. A função MÉDIA ignora células vazias no intervalo."
+        },
+        {
+          "t": "8, pois a média considera apenas as três células com números.",
+          "p": "correta",
+          "w": "MÉDIA soma 8 + 6 + 10 = 24 e divide por 3, ignorando a célula vazia. Se B4 tivesse 0, ele entraria na conta, e o resultado seria 6."
+        },
+        {
+          "t": "24, pois a função MÉDIA soma os valores do intervalo.",
+          "p": "troca",
+          "w": "24 é o resultado de =SOMA(B2:B5). A MÉDIA divide a soma pela quantidade de números."
+        },
+        {
+          "t": "#DIV/0!, porque a célula vazia impede o cálculo.",
+          "p": "extrapolacao",
+          "w": "O erro #DIV/0! surgiria se não houvesse nenhum número no intervalo. Aqui há três valores numéricos."
+        }
+      ]
+    },
+    {
+      "id": "info51",
+      "topic": "Função SE",
+      "c": "Na planilha de um curso de capacitação de uma prefeitura em Natal, a célula C2 tem a fórmula =SE(B2>=7;\"Aprovado\";\"Recuperação\"). O servidor Paulo tirou exatamente 7, valor registrado em B2.",
+      "q": "O que aparece em C2?",
+      "a": 2,
+      "src": "Microsoft Support: função SE",
+      "o": [
+        {
+          "t": "Recuperação, pois o operador >= exige nota maior que 7.",
+          "p": "troca",
+          "w": "Confunde >= (maior ou igual) com > (maior). Como 7 >= 7, o teste é verdadeiro."
+        },
+        {
+          "t": "VERDADEIRO, pois a função SE sempre devolve o resultado lógico do teste.",
+          "p": "generalizacao",
+          "w": "A função SE devolve o segundo argumento se o teste for verdadeiro e o terceiro se for falso, e não o valor lógico do teste."
+        },
+        {
+          "t": "Aprovado.",
+          "p": "correta",
+          "w": "O teste B2>=7 é verdadeiro, pois 7 é maior ou igual a 7. A função retorna o valor_se_verdadeiro, \"Aprovado\"."
+        },
+        {
+          "t": "Um erro, pois a função SE não aceita textos como resultado.",
+          "p": "restricao",
+          "w": "A função SE aceita textos entre aspas como resultados. A fórmula está correta."
+        }
+      ]
+    },
+    {
+      "id": "info52",
+      "topic": "Argumentos do PROCV",
+      "c": "Na planilha do almoxarifado de um tribunal em Goiânia, a tabela A2:D100 tem código (coluna A), descrição (B), unidade (C) e preço (D). Em G2, o técnico digita um código e quer trazer o preço exato daquele item.",
+      "q": "Qual fórmula retorna o preço corretamente?",
+      "a": 0,
+      "src": "Microsoft Support: função PROCV",
+      "o": [
+        {
+          "t": "=PROCV(G2;A2:D100;4;FALSO)",
+          "p": "correta",
+          "w": "PROCV procura G2 na primeira coluna da tabela e retorna a 4ª coluna (preço). FALSO exige correspondência exata do código."
+        },
+        {
+          "t": "=PROCV(G2;A2:D100;4;VERDADEIRO), que garante a correspondência exata.",
+          "p": "inversao",
+          "w": "VERDADEIRO pede correspondência aproximada, que exige a primeira coluna em ordem crescente e pode trazer o item errado. Para correspondência exata, usa-se FALSO."
+        },
+        {
+          "t": "=PROCV(G2;A2:D100;D;FALSO)",
+          "p": "troca",
+          "w": "O terceiro argumento é o número da coluna dentro da tabela (4), e não a letra da coluna da planilha."
+        },
+        {
+          "t": "=PROCV(G2;D2:D100;1;FALSO)",
+          "p": "calculo",
+          "w": "A tabela precisa começar pela coluna onde está o código procurado. Com D2:D100, o PROCV procuraria o código entre os preços."
+        }
+      ]
+    },
+    {
+      "id": "info53",
+      "topic": "Referência absoluta",
+      "c": "Na planilha de diárias de uma secretaria em Recife, o valor da diária está em E1. Em C2, o técnico digitou =B2*$E$1 (dias vezes o valor da diária) e copiou a fórmula para as células C3 até C10.",
+      "q": "Qual fórmula aparece em C5?",
+      "a": 3,
+      "src": "Microsoft Support: alternar entre referências relativas, absolutas e mistas",
+      "o": [
+        {
+          "t": "=B2*$E$1, pois a fórmula inteira fica fixa ao ser copiada.",
+          "p": "generalizacao",
+          "w": "Só a referência com cifrões fica fixa. B2 é relativa e se ajusta à nova linha."
+        },
+        {
+          "t": "=C5*$E$1, pois a coluna também se desloca na cópia.",
+          "p": "calculo",
+          "w": "A cópia foi feita na mesma coluna, apenas para baixo. Só a linha de B2 muda; a coluna continua B."
+        },
+        {
+          "t": "=B5*E4",
+          "p": "troca",
+          "w": "Trata a referência absoluta como relativa. Os cifrões de $E$1 impedem qualquer ajuste."
+        },
+        {
+          "t": "=B5*$E$1",
+          "p": "correta",
+          "w": "De C2 para C5 são três linhas abaixo: B2 vira B5. $E$1 é absoluta, e os cifrões fixam coluna e linha."
+        }
+      ]
+    },
+    {
+      "id": "info54",
+      "type": "ce",
+      "topic": "Intervalo e argumentos",
+      "src": "Microsoft Support: função SOMA; operadores de referência",
+      "c": "Na planilha de despesas de uma câmara municipal em Pelotas, A1, A2 e A3 contêm 100, 200 e 300. A estagiária digita =SOMA(A1:A3) em B1 e =SOMA(A1;A3) em B2, no Excel em português.",
+      "q": "B1 exibirá 600, e B2 exibirá 400.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Os dois-pontos indicam intervalo: A1, A2 e A3 somam 600. O ponto e vírgula separa argumentos, e a soma fica só com A1 e A3: 100 + 300 = 400."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado costuma vir de achar que o ponto e vírgula também indica intervalo. Ele apenas separa argumentos individuais."
+        }
+      ]
+    },
+    {
+      "id": "info55",
+      "topic": "Precedência de operadores",
+      "c": "Na planilha do setor financeiro de uma autarquia em Campo Grande, um analista digita a fórmula =2+3*2^2 em uma célula do Excel.",
+      "q": "Qual resultado o Excel exibe?",
+      "a": 1,
+      "src": "Microsoft Support: operadores de cálculo e precedência no Excel",
+      "o": [
+        {
+          "t": "100, pois o Excel calcula da esquerda para a direita: 2+3, vezes 2, elevado ao quadrado.",
+          "p": "inversao",
+          "w": "O Excel não calcula simplesmente da esquerda para a direita. A potência vem primeiro, depois a multiplicação e, por fim, a adição."
+        },
+        {
+          "t": "14.",
+          "p": "correta",
+          "w": "Primeiro 2^2 = 4; depois 3*4 = 12; por fim 2+12 = 14."
+        },
+        {
+          "t": "38, pois a multiplicação é feita antes da potência.",
+          "p": "calculo",
+          "w": "Calcular 3*2 = 6 e depois 6^2 = 36, somando 2, inverte a prioridade entre potência e multiplicação."
+        },
+        {
+          "t": "20, pois a adição tem a mesma prioridade da multiplicação e vem antes, por estar à esquerda.",
+          "p": "troca",
+          "w": "Resultado de (2+3)*4. A adição tem prioridade menor que a multiplicação e só é feita no fim."
+        }
+      ]
+    },
+    {
+      "id": "info56",
+      "topic": "Negrito no Word",
+      "c": "Rosana, secretária de uma escola municipal em Uberaba, usa o Microsoft Word em português e quer aplicar negrito a um título selecionado sem usar o mouse.",
+      "q": "Qual atalho faz isso no Word em português do Brasil?",
+      "a": 2,
+      "src": "Microsoft Support: atalhos de teclado do Word (versão em português)",
+      "o": [
+        {
+          "t": "Ctrl + B.",
+          "p": "troca",
+          "w": "No Word em português, Ctrl + B salva o documento. Ctrl + B para negrito é o atalho do Word em inglês (Bold)."
+        },
+        {
+          "t": "Ctrl + I, que aplica itálico e negrito ao mesmo tempo.",
+          "p": "extrapolacao",
+          "w": "Ctrl + I aplica apenas itálico."
+        },
+        {
+          "t": "Ctrl + N.",
+          "p": "correta",
+          "w": "No Word em português, Ctrl + N aplica negrito, Ctrl + I aplica itálico e Ctrl + S aplica sublinhado."
+        },
+        {
+          "t": "Ctrl + N, que aplica negrito em qualquer programa, inclusive no navegador.",
+          "p": "generalizacao",
+          "w": "O mesmo atalho muda de função conforme o programa. No navegador, por exemplo, Ctrl + N abre uma nova janela."
+        }
+      ]
+    },
+    {
+      "id": "info57",
+      "topic": "Iniciar apresentação",
+      "c": "Minutos antes de uma audiência pública em Pouso Alegre, o assessor abre a apresentação no PowerPoint e precisa iniciá-la a partir do primeiro slide, em tela cheia, sem procurar o botão.",
+      "q": "Qual tecla faz isso?",
+      "a": 0,
+      "src": "Microsoft Support: atalhos de teclado do PowerPoint",
+      "o": [
+        {
+          "t": "F5.",
+          "p": "correta",
+          "w": "No PowerPoint, F5 inicia a apresentação a partir do primeiro slide. Shift + F5 inicia a partir do slide atual."
+        },
+        {
+          "t": "Shift + F5, que sempre inicia pelo primeiro slide.",
+          "p": "inversao",
+          "w": "Inverte os atalhos: Shift + F5 começa do slide atual, e F5 começa do primeiro."
+        },
+        {
+          "t": "F2, que inicia a apresentação em tela cheia.",
+          "p": "troca",
+          "w": "F2 não inicia a apresentação de slides. O atalho para começar do primeiro slide é F5."
+        },
+        {
+          "t": "Esc, que serve tanto para iniciar quanto para encerrar a apresentação.",
+          "p": "extrapolacao",
+          "w": "Esc apenas encerra a apresentação em andamento; não a inicia."
+        }
+      ]
+    },
+    {
+      "id": "info58",
+      "type": "ce",
+      "topic": "Slide mestre",
+      "src": "Microsoft Support: o que é um slide mestre?",
+      "c": "Na prefeitura de Joinville, a equipe de comunicação precisa trocar a fonte e inserir o novo brasão em todos os 60 slides de uma apresentação padrão, de uma só vez.",
+      "q": "No PowerPoint, as alterações feitas no slide mestre afetam apenas o slide que estiver selecionado no momento.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "restricao",
+          "w": "Julgar certo limita o slide mestre ao efeito de uma formatação comum. Ele existe justamente para alterar o padrão de todo o conjunto."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O slide mestre guarda tema, fontes, cores, planos de fundo e elementos fixos, como logotipos. O que se muda nele é aplicado aos slides baseados nos seus layouts."
+        }
+      ]
+    },
+    {
+      "id": "info59",
+      "topic": "IaaS",
+      "c": "Uma universidade estadual em Maringá contratou, de um provedor de nuvem, máquinas virtuais, armazenamento e rede. A equipe de TI da universidade instala e mantém o sistema operacional e os programas.",
+      "q": "Qual modelo de serviço em nuvem foi contratado?",
+      "a": 3,
+      "src": "NIST SP 800-145: definição de computação em nuvem",
+      "o": [
+        {
+          "t": "SaaS, pois tudo roda na nuvem.",
+          "p": "generalizacao",
+          "w": "Rodar na nuvem não define o modelo. No SaaS, o fornecedor entrega o software pronto; aqui a universidade gerencia o sistema operacional."
+        },
+        {
+          "t": "PaaS, em que o cliente administra o sistema operacional das máquinas.",
+          "p": "inversao",
+          "w": "No PaaS é o contrário: o fornecedor gerencia a infraestrutura e o sistema operacional, e o cliente cuida das aplicações que implanta."
+        },
+        {
+          "t": "Nuvem híbrida, modelo de serviço que fica entre o IaaS e o SaaS.",
+          "p": "troca",
+          "w": "Nuvem híbrida é modelo de implantação, como a pública e a privada, e não modelo de serviço."
+        },
+        {
+          "t": "IaaS, em que o provedor fornece a infraestrutura e o cliente gerencia o sistema operacional e as aplicações.",
+          "p": "correta",
+          "w": "NIST SP 800-145: no IaaS, o consumidor recebe processamento, armazenamento e rede e controla sistemas operacionais e aplicações, sem gerenciar a infraestrutura física."
+        }
+      ]
+    },
+    {
+      "id": "info60",
+      "type": "ce",
+      "topic": "PaaS",
+      "src": "NIST SP 800-145: definição de computação em nuvem",
+      "c": "Uma startup de Recife desenvolve um aplicativo de agendamento para clínicas e o publica em uma plataforma de nuvem que já oferece ambiente de execução e banco de dados, sem que a equipe administre servidores ou sistema operacional.",
+      "q": "Esse cenário corresponde ao modelo PaaS, em que o cliente controla as aplicações que implanta, mas não gerencia a infraestrutura subjacente, como servidores e sistema operacional.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "NIST SP 800-145: no PaaS, o consumidor implanta aplicações próprias com linguagens, bibliotecas e ferramentas do provedor, sem gerenciar rede, servidores, sistema operacional ou armazenamento."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado costuma vir da confusão com o IaaS, em que o próprio cliente gerencia o sistema operacional."
+        }
+      ]
+    }
+  ]
+}

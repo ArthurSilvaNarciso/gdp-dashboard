@@ -10,7 +10,7 @@ API = {
   classes: (() => { try { return JSON.parse(lsGet(LS_CLASSES) || '[]'); } catch (e) { return []; } })(),
   cls: null, clsLoading: false, clsErr: '', member: null, confirm: null
 };
-const auth = { mode: 'signup', name: '', email: '', pass: '', err: '', busy: false, show: false, note: '', after: null };
+const auth = { mode: 'signup', name: '', email: '', pass: '', terms: false, err: '', busy: false, show: false, note: '', after: null };
 const acct = { pwOpen: false, pwErr: '', delOpen: false, delErr: '', busy: false };
 
 async function api(method, path, body, opts = {}) {
@@ -183,6 +183,7 @@ function authSheet() {
     ${su ? `<div class="field"><label for="au-name">Nome</label><input id="au-name" name="name" class="input" autocomplete="name" maxlength="60" placeholder="Como quer ser chamado" value="${esc(auth.name)}"></div>` : ''}
     <div class="field"><label for="au-email">E-mail</label><input id="au-email" name="email" type="email" class="input" autocomplete="${su ? 'email' : 'username'}" inputmode="email" autocapitalize="off" spellcheck="false" maxlength="254" placeholder="voce@email.com" value="${esc(auth.email)}"></div>
     <div class="field"><label for="au-pass">Senha</label><div class="pw"><input id="au-pass" name="password" type="${auth.show ? 'text' : 'password'}" class="input" autocomplete="${su ? 'new-password' : 'current-password'}" maxlength="72" placeholder="${su ? 'Mínimo de 8 caracteres' : 'Sua senha'}" value="${esc(auth.pass)}"><button type="button" class="pw-eye" data-act="auth-eye" aria-label="${auth.show ? 'Esconder senha' : 'Mostrar senha'}" aria-pressed="${auth.show}">${ico('eye')}</button></div></div>
+    ${su ? `<label class="terms-row"><input type="checkbox" id="au-terms" ${auth.terms ? 'checked' : ''}><span>Li e aceito os <button type="button" class="link" data-act="legal" data-doc="termos">Termos de uso</button> e a <button type="button" class="link" data-act="legal" data-doc="privacidade">Política de privacidade</button>.</span></label>` : ''}
     <div id="au-err">${auth.err ? `<div class="notice err" role="alert">${esc(auth.err)}</div>` : ''}</div>
     <button class="btn btn-orange btn-block" type="submit" ${auth.busy ? 'disabled' : ''}>${auth.busy ? 'Aguarde...' : su ? 'Criar conta' : 'Entrar'}</button>
     ${su && hasLocal ? '<p class="tiny" style="text-align:center;margin-top:-4px">O progresso deste aparelho vai junto para a conta.</p>' : ''}
@@ -192,6 +193,7 @@ function authSheet() {
 function readAuth() {
   const n = document.getElementById('au-name'), e = document.getElementById('au-email'), p = document.getElementById('au-pass');
   if (n) auth.name = n.value; if (e) auth.email = e.value; if (p) auth.pass = p.value;
+  const t = document.getElementById('au-terms'); if (t) auth.terms = t.checked;
 }
 function paintAuth(focus) {
   const sh = document.querySelector('.sheet');
@@ -212,9 +214,10 @@ async function submitAuth() {
   if (su && !auth.name.trim()) { auth.err = 'Informe seu nome.'; return paintAuth('au-name'); }
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { auth.err = 'Informe um e-mail válido.'; return paintAuth('au-email'); }
   if (auth.pass.length < (su ? 8 : 1)) { auth.err = su ? 'A senha precisa ter pelo menos 8 caracteres.' : 'Informe sua senha.'; return paintAuth('au-pass'); }
+  if (su && !auth.terms) { auth.err = 'Para criar a conta, aceite os Termos de uso e a Política de privacidade.'; return paintAuth('au-terms'); }
   auth.busy = true; auth.err = ''; paintAuth();
   try {
-    const r = await api('POST', su ? 'auth/signup' : 'auth/login', su ? { name: auth.name.trim(), email, password: auth.pass } : { email, password: auth.pass });
+    const r = await api('POST', su ? 'auth/signup' : 'auth/login', su ? { name: auth.name.trim(), email, password: auth.pass, terms: true } : { email, password: auth.pass });
     API.user = r.user;
     if (su && !S.user.name) S.user.name = r.user.name.split(' ')[0];
     const after = auth.after;
@@ -657,6 +660,7 @@ function viewAdmin() {
       <div class="item"><span class="tile c-lilac">${ico('tutor')}</span><div class="main"><b>IA ${d.ai.enabled ? 'ativa' : 'desligada'}</b><span>${d.ai.enabled ? 'Hoje: ' + plural(d.ai.users, 'pessoa', 'pessoas') + ' · ' + d.ai.units + ' unidades' : 'Configure ANTHROPIC_API_KEY na Vercel'}</span></div></div>
       ${d.traps.length ? `<div class="item"><span class="tile c-pink">${ico('alert')}</span><div class="main"><b>Pegadinhas que mais derrubam</b><span>${d.traps.map(([k, v]) => esc(TRAP(k)) + ' (' + v + ')').join(' · ')}</span></div></div>` : ''}
     </div>
+    ${adminReportsHTML()}
     <div class="blk"><div class="sec"><h2>Usuários</h2><span class="tiny num">${(ADM.users || []).length}</span></div>
       <label class="search">${ico('search')}<input id="adm-q" placeholder="Buscar por nome ou e-mail" value="${esc(ADM.q)}" autocomplete="off" aria-label="Buscar usuário"></label>
       <div class="list">${(ADM.users || []).map((u) => `<div class="item"><span class="avatar sm">${esc(ini2(u.name))}</span><div class="main"><b>${esc(u.name)}</b><span style="overflow-wrap:anywhere">${esc(u.email)} · visto ${rel(u.lastSeen)}</span><span>${u.answered} respostas · ${u.week} na semana${u.accuracy != null ? ' · ' + u.accuracy + '%' : ''}${u.owned ? ' · professor(a) de ' + u.owned : ''}${u.joined ? ' · aluno(a) em ' + u.joined : ''}</span></div><button class="icon-btn flat" data-act="adm-reset" data-id="${u.id}" data-n="${esc(u.name)}" aria-label="Gerar link para redefinir a senha de ${esc(u.name)}">${ico('key')}</button></div>`).join('') || '<div class="empty">Nenhum usuário encontrado.</div>'}</div></div>
@@ -689,7 +693,7 @@ Object.assign(ACT, {
       renderSheet();
     } catch (e) { notify(e.message); }
   },
-  'adm-refresh': () => loadAdmin(),
+  'adm-refresh': () => { loadAdmin(); if (typeof loadAdminReports === 'function') loadAdminReports(); },
   'adm-action': (d) => { ADM.action = d.a || ''; loadAdmin('audit'); },
   'cls-report': async (d, el) => { const c = API.cls; if (!c) return; el.disabled = true; try { await downloadFile('classes/' + c.id + '/report', 'relatorio-turma.csv'); notify('Relatório baixado. Abre direto no Excel.'); } catch (e) { notify(e.message); } el.disabled = false; },
   'pwa-install': async () => {
@@ -708,6 +712,7 @@ async function handleShortcut() {
   if (!S.user.onboarded) return;
   if (a === 'revisar') { const ids = dueIds(); if (ids.length) startCycle({ ids, size: 20, title: 'Revisão' }); else notify('Nenhuma revisão pendente agora. Que tal uma sessão nova?'); }
   else if (a === 'turmas') { ui.tab = 'turmas'; API.cls = null; render(); }
+  else if (a === 'liga') { if (loggedIn()) { ui.tab = 'liga'; render(); } else ACT['league-join'](); }
 }
 
 /* ---------- Inicialização do servidor ---------- */
@@ -726,6 +731,7 @@ async function initServer() {
     else if (API.classes.length) { API.classes = []; saveClassesCache(); refreshClassDecks(); }
   }
   await handleLinks();
+  await socialInit();
   await handleShortcut();
   await handleReset();
   registerSW();

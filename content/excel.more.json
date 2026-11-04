@@ -1,0 +1,1445 @@
+{
+  "id": "excel",
+  "questions": [
+    {
+      "id": "excel13",
+      "topic": "Separador ponto e vírgula",
+      "c": "Na planilha de despesas de uma padaria de Belo Horizonte, B2:B5 tem os gastos de janeiro a abril: 1.200, 850, 430 e 1.520. Um estagiário escreveu =SOMA(B2;B5) para obter o total do quadrimestre.",
+      "q": "Qual resultado essa fórmula mostra?",
+      "a": 3,
+      "src": "suporte.microsoft.com: Função SOMA",
+      "o": [
+        {
+          "t": "4.000, porque o ponto e vírgula indica o intervalo de B2 até B5.",
+          "p": "troca",
+          "w": "Quem indica intervalo são os dois-pontos (B2:B5). Com ponto e vírgula, B2 e B5 são dois argumentos separados."
+        },
+        {
+          "t": "1.280, porque a fórmula soma só as células que ficam entre B2 e B5.",
+          "p": "calculo",
+          "w": "1.280 é B3 + B4. O ponto e vírgula não seleciona as células do meio; ele soma exatamente as células citadas."
+        },
+        {
+          "t": "#VALOR!, porque a SOMA não aceita células separadas por ponto e vírgula.",
+          "p": "restricao",
+          "w": "A SOMA aceita vários argumentos separados por ponto e vírgula, sejam células, intervalos ou números. Não há erro."
+        },
+        {
+          "t": "2.720, porque o ponto e vírgula separa argumentos e a fórmula soma apenas B2 e B5.",
+          "p": "correta",
+          "w": "No Excel em português, o ponto e vírgula separa argumentos: 1.200 + 1.520 = 2.720. Para somar o intervalo inteiro, o certo é =SOMA(B2:B5), que dá 4.000."
+        }
+      ]
+    },
+    {
+      "id": "excel14",
+      "topic": "MÉDIA com células vazias",
+      "c": "Uma rede de lojas de Salvador registra em B2:B6 o número de reclamações do mês por loja: 8, vazio (a loja ainda não enviou), 6, 0 e 10. A analista usa =MÉDIA(B2:B6).",
+      "q": "Qual resultado aparece?",
+      "a": 1,
+      "src": "suporte.microsoft.com: Função MÉDIA",
+      "o": [
+        {
+          "t": "4,8, porque a célula vazia entra na conta como zero.",
+          "p": "calculo",
+          "w": "Dividir 24 por 5 trata a célula vazia como 0. A MÉDIA ignora células vazias, então divide por 4."
+        },
+        {
+          "t": "6, porque a MÉDIA ignora a célula vazia, mas conta o zero.",
+          "p": "correta",
+          "w": "A MÉDIA despreza células vazias e considera o 0 um valor válido: (8 + 6 + 0 + 10) / 4 = 6."
+        },
+        {
+          "t": "8, porque a MÉDIA ignora tanto as células vazias quanto as que têm zero.",
+          "p": "generalizacao",
+          "w": "Só a célula vazia é ignorada. O 0 digitado é um número e entra na média, que fica 24 / 4 = 6."
+        },
+        {
+          "t": "#DIV/0!, porque a MÉDIA só funciona com o intervalo todo preenchido.",
+          "p": "restricao",
+          "w": "A MÉDIA aceita intervalos com células vazias. O #DIV/0! só aparece se não houver nenhum número no intervalo."
+        }
+      ]
+    },
+    {
+      "id": "excel15",
+      "topic": "MÁXIMO e MÍNIMO",
+      "c": "O setor de compras de uma construtora de Goiânia recebeu cinco cotações de cimento em B2:B6: 1.890, 2.150, 1.745, 2.030 e 1.980. O gestor quer ver a diferença entre a cotação mais cara e a mais barata.",
+      "q": "Qual fórmula entrega essa diferença?",
+      "a": 2,
+      "src": "suporte.microsoft.com: Funções MÁXIMO e MÍNIMO",
+      "o": [
+        {
+          "t": "=MÍNIMO(B2:B6)-MÁXIMO(B2:B6)",
+          "p": "inversao",
+          "w": "A ordem da subtração está invertida: o resultado seria -405, um valor negativo que não representa a diferença pedida."
+        },
+        {
+          "t": "=B6-B2",
+          "p": "calculo",
+          "w": "Subtrai a última cotação da primeira (1.980 - 1.890 = 90). Isso só daria certo se os valores estivessem em ordem crescente."
+        },
+        {
+          "t": "=MÁXIMO(B2:B6)-MÍNIMO(B2:B6)",
+          "p": "correta",
+          "w": "MÁXIMO devolve 2.150 e MÍNIMO devolve 1.745. A diferença é 405, independentemente da ordem em que as cotações foram digitadas."
+        },
+        {
+          "t": "=MÁXIMO(B2:B6;MÍNIMO(B2:B6))",
+          "p": "troca",
+          "w": "Aqui o MÍNIMO vira só mais um argumento do MÁXIMO. A fórmula devolve 2.150, a maior cotação, e não a diferença."
+        }
+      ]
+    },
+    {
+      "id": "excel16",
+      "topic": "CONT.VALORES",
+      "c": "Na planilha da confraternização de uma empresa de Fortaleza, C2:C81 traz a resposta de cada um dos 80 convidados: \"Sim\", \"Não\" ou vazio para quem ainda não respondeu. C1 tem o cabeçalho.",
+      "q": "Qual fórmula conta quantos convidados já responderam, qualquer que seja a resposta?",
+      "a": 3,
+      "src": "suporte.microsoft.com: Função CONT.VALORES",
+      "o": [
+        {
+          "t": "=CONT.NÚM(C2:C81)",
+          "p": "troca",
+          "w": "CONT.NÚM conta apenas células com números. Como as respostas são texto, o resultado seria 0."
+        },
+        {
+          "t": "=CONT.SE(C2:C81;\"Sim\")",
+          "p": "restricao",
+          "w": "Conta só quem respondeu Sim. O pedido inclui também quem respondeu Não."
+        },
+        {
+          "t": "=CONT.VALORES(C1:C81)",
+          "p": "calculo",
+          "w": "Incluiu o cabeçalho em C1, que não está vazio. O total ficaria com uma resposta a mais."
+        },
+        {
+          "t": "=CONT.VALORES(C2:C81)",
+          "p": "correta",
+          "w": "CONT.VALORES conta as células não vazias, com texto ou número. Cada \"Sim\" ou \"Não\" conta como uma resposta."
+        }
+      ]
+    },
+    {
+      "id": "excel17",
+      "topic": "CONT.SE com operador",
+      "c": "O financeiro de uma distribuidora de Ribeirão Preto tem os valores das notas fiscais do mês em D2:D300. A diretora quer saber quantas notas têm valor de R$ 5.000 ou mais.",
+      "q": "Qual fórmula faz essa contagem?",
+      "a": 2,
+      "src": "suporte.microsoft.com: Função CONT.SE",
+      "o": [
+        {
+          "t": "=CONT.SE(D2:D300;\">5000\")",
+          "p": "calculo",
+          "w": "O sinal > deixa de fora as notas de exatamente R$ 5.000, que o pedido inclui."
+        },
+        {
+          "t": "=SOMASE(D2:D300;\">=5000\")",
+          "p": "troca",
+          "w": "SOMASE soma os valores das notas que atendem ao critério. O pedido é a quantidade de notas, não o total em reais."
+        },
+        {
+          "t": "=CONT.SE(D2:D300;\">=5000\")",
+          "p": "correta",
+          "w": "O critério com operador vai entre aspas. \">=5000\" conta as notas de exatamente R$ 5.000 e as acima disso."
+        },
+        {
+          "t": "=CONT.SE(\">=5000\";D2:D300)",
+          "p": "inversao",
+          "w": "Os argumentos estão invertidos. Primeiro vem o intervalo; depois, o critério."
+        }
+      ]
+    },
+    {
+      "id": "excel18",
+      "topic": "SOMASE com curinga",
+      "c": "Na planilha de compras de um hospital de Porto Alegre, A2:A500 traz o nome do fornecedor e C2:C500 o valor pago. Vários fornecedores têm nomes que começam com \"Distribuidora\", como \"Distribuidora Sul\" e \"Distribuidora Pampa\".",
+      "q": "Qual fórmula soma o valor pago a todos os fornecedores cujo nome começa com \"Distribuidora\"?",
+      "a": 2,
+      "src": "suporte.microsoft.com: Função SOMASE",
+      "o": [
+        {
+          "t": "=SOMASE(A2:A500;\"Distribuidora\";C2:C500)",
+          "p": "restricao",
+          "w": "Sem o asterisco, o critério exige o nome exatamente igual a \"Distribuidora\". Nomes como \"Distribuidora Sul\" ficariam de fora."
+        },
+        {
+          "t": "=SOMASE(C2:C500;\"Distribuidora*\";A2:A500)",
+          "p": "inversao",
+          "w": "Os intervalos estão trocados. No SOMASE, o primeiro argumento é onde se testa o critério (nomes) e o terceiro é o que se soma (valores)."
+        },
+        {
+          "t": "=SOMASE(A2:A500;\"Distribuidora*\";C2:C500)",
+          "p": "correta",
+          "w": "O asterisco é curinga para qualquer sequência de caracteres. O critério pega todo nome que começa com \"Distribuidora\" e soma os valores da coluna C."
+        },
+        {
+          "t": "=CONT.SE(A2:A500;\"Distribuidora*\")",
+          "p": "troca",
+          "w": "CONT.SE conta quantas compras atendem ao critério. O pedido é a soma dos valores pagos."
+        }
+      ]
+    },
+    {
+      "id": "excel19",
+      "topic": "SOMASES por período",
+      "c": "No controle de vendas de uma loja de Florianópolis, a coluna A tem a data e a coluna C tem o valor. A gerente digita a data inicial em F1 e a data final em F2 e quer o total vendido no período, incluindo os dois dias das pontas.",
+      "q": "Qual fórmula atende ao pedido?",
+      "a": 3,
+      "src": "suporte.microsoft.com: Função SOMASES",
+      "o": [
+        {
+          "t": "=SOMASES(C:C;A:A;\">=F1\";A:A;\"<=F2\")",
+          "p": "calculo",
+          "w": "Dentro das aspas, F1 e F2 viram texto literal. O Excel compara as datas com a palavra \"F1\", e não com o conteúdo da célula."
+        },
+        {
+          "t": "=SOMASE(A:A;\">=\"&F1;C:C)",
+          "p": "extrapolacao",
+          "w": "Aplica só a data inicial. Somaria também as vendas posteriores a F2, indo além do período pedido."
+        },
+        {
+          "t": "=SOMASES(A:A;C:C;\">=\"&F1;C:C;\"<=\"&F2)",
+          "p": "inversao",
+          "w": "Inverteu os intervalos. No SOMASES, o primeiro argumento é o intervalo a somar (C); os critérios de data se aplicam à coluna A."
+        },
+        {
+          "t": "=SOMASES(C:C;A:A;\">=\"&F1;A:A;\"<=\"&F2)",
+          "p": "correta",
+          "w": "O & junta o operador ao conteúdo da célula. A fórmula soma C quando a data é maior ou igual a F1 e menor ou igual a F2."
+        }
+      ]
+    },
+    {
+      "id": "excel20",
+      "topic": "MÉDIASE",
+      "c": "Uma rede de cafeterias de Curitiba anotou cinco vendas: A2:A6 traz a loja (Centro, Shopping, Centro, Centro, Shopping) e C2:C6 traz o valor (120, 200, 90, 150, 260).",
+      "q": "Qual é o resultado de =MÉDIASE(A2:A6;\"Centro\";C2:C6)?",
+      "a": 0,
+      "src": "suporte.microsoft.com: Função MÉDIASE",
+      "o": [
+        {
+          "t": "120",
+          "p": "correta",
+          "w": "Entram só as vendas do Centro: (120 + 90 + 150) / 3 = 120."
+        },
+        {
+          "t": "164",
+          "p": "generalizacao",
+          "w": "164 é a média de todas as cinco vendas. A MÉDIASE considera apenas as linhas que atendem ao critério."
+        },
+        {
+          "t": "360",
+          "p": "troca",
+          "w": "360 é a soma das vendas do Centro, que seria o resultado de SOMASE. A MÉDIASE divide essa soma pela quantidade de vendas da loja."
+        },
+        {
+          "t": "72",
+          "p": "calculo",
+          "w": "72 é 360 dividido por 5. A média deve dividir pelo número de linhas que atendem ao critério, que são 3."
+        }
+      ]
+    },
+    {
+      "id": "excel21",
+      "topic": "Validação: número inteiro",
+      "c": "No formulário de pedidos de material de escritório de uma prefeitura do interior paulista, a coluna D recebe a quantidade de cada item. A regra interna permite pedir de 1 a 50 unidades, sem frações.",
+      "q": "Qual recurso impede a digitação de valores fora dessa regra?",
+      "a": 3,
+      "src": "suporte.microsoft.com: Aplicar validação de dados a células",
+      "o": [
+        {
+          "t": "Validação de Dados permitindo Decimal entre 1 e 50.",
+          "p": "troca",
+          "w": "O tipo Decimal aceita frações, como 2,5. A regra pede quantidades inteiras."
+        },
+        {
+          "t": "Formatação condicional que pinta de vermelho valores acima de 50.",
+          "p": "extrapolacao",
+          "w": "A formatação condicional só destaca. Ela não impede que o valor errado seja digitado e salvo."
+        },
+        {
+          "t": "Formatar a coluna D como Número, sem casas decimais.",
+          "p": "calculo",
+          "w": "A formatação só muda a exibição: 2,5 apareceria como 3, mas o valor guardado continuaria 2,5, e 80 seria aceito normalmente."
+        },
+        {
+          "t": "Validação de Dados permitindo Número inteiro entre 1 e 50.",
+          "p": "correta",
+          "w": "A validação recusa, no momento da digitação, qualquer valor que não seja inteiro ou que fique fora do intervalo de 1 a 50."
+        }
+      ]
+    },
+    {
+      "id": "excel22",
+      "topic": "SE com E",
+      "c": "Na planilha de bônus de uma rede de supermercados de Campinas, B2 tem as vendas do funcionário (48.000), C2 tem a meta (50.000) e D2 tem as faltas no mês (0). A fórmula é =SE(E(B2>=C2;D2=0);\"Bônus\";\"Sem bônus\").",
+      "q": "Qual resultado aparece e por quê?",
+      "a": 0,
+      "src": "suporte.microsoft.com: Função E",
+      "o": [
+        {
+          "t": "\"Sem bônus\", porque a função E exige que as duas condições sejam verdadeiras e a meta não foi atingida.",
+          "p": "correta",
+          "w": "D2=0 é verdadeiro, mas B2>=C2 é falso (48.000 < 50.000). Basta uma condição falsa para E retornar FALSO e o SE mostrar \"Sem bônus\"."
+        },
+        {
+          "t": "\"Bônus\", porque basta uma das duas condições ser verdadeira.",
+          "p": "troca",
+          "w": "Esse é o comportamento da função OU. A função E só retorna VERDADEIRO se todas as condições forem verdadeiras."
+        },
+        {
+          "t": "FALSO, porque a função E só devolve VERDADEIRO ou FALSO.",
+          "p": "calculo",
+          "w": "O E devolve FALSO, mas ele está dentro do SE, que transforma esse FALSO no texto \"Sem bônus\"."
+        },
+        {
+          "t": "\"Sem bônus\", porque D2=0 indica que o funcionário faltou.",
+          "p": "inversao",
+          "w": "O resultado está certo, mas o motivo está invertido: D2=0 significa nenhuma falta, e essa condição é verdadeira. O que falhou foi a meta."
+        }
+      ]
+    },
+    {
+      "id": "excel23",
+      "topic": "SE com OU",
+      "c": "Um e-commerce de Belém dá frete grátis quando o pedido é de R$ 300 ou mais ou quando o cliente é VIP. B2 tem o valor do pedido e C2 tem \"Sim\" para clientes VIP.",
+      "q": "Qual fórmula aplica essa regra?",
+      "a": 0,
+      "src": "suporte.microsoft.com: Função OU",
+      "o": [
+        {
+          "t": "=SE(OU(B2>=300;C2=\"Sim\");\"Grátis\";\"Cobrar\")",
+          "p": "correta",
+          "w": "OU retorna VERDADEIRO se pelo menos uma condição for verdadeira, que é exatamente a regra: valor alto ou cliente VIP."
+        },
+        {
+          "t": "=SE(E(B2>=300;C2=\"Sim\");\"Grátis\";\"Cobrar\")",
+          "p": "troca",
+          "w": "Com E, só teria frete grátis quem fosse VIP e comprasse R$ 300 ou mais ao mesmo tempo. A regra exige só uma das condições."
+        },
+        {
+          "t": "=SE(OU(B2>=300;C2=\"Sim\");\"Cobrar\";\"Grátis\")",
+          "p": "inversao",
+          "w": "Os resultados estão trocados: quem cumpre a regra seria cobrado, e quem não cumpre ganharia o frete."
+        },
+        {
+          "t": "=SE(OU(B2>300;C2=\"Sim\");\"Grátis\";\"Cobrar\")",
+          "p": "calculo",
+          "w": "Com > em vez de >=, um pedido de exatamente R$ 300 de cliente não VIP seria cobrado, contrariando a regra."
+        }
+      ]
+    },
+    {
+      "id": "excel24",
+      "topic": "Faixas com SE",
+      "c": "Uma imobiliária de Natal paga comissão com a fórmula =SE(B2>50000;5%;SE(B2>20000;3%;1%)). Neste mês, o corretor Rafael vendeu exatamente R$ 50.000, valor que está em B2.",
+      "q": "Qual percentual a fórmula retorna para Rafael?",
+      "a": 2,
+      "src": "suporte.microsoft.com: Função SE",
+      "o": [
+        {
+          "t": "5%",
+          "p": "calculo",
+          "w": "Seria 5% se o teste fosse B2>=50000. Com o sinal >, o valor exato da fronteira não entra na faixa mais alta."
+        },
+        {
+          "t": "8%",
+          "p": "extrapolacao",
+          "w": "O SE aninhado não acumula faixas. Ele devolve o resultado do primeiro teste verdadeiro e para."
+        },
+        {
+          "t": "3%",
+          "p": "correta",
+          "w": "50.000 não é maior que 50.000, então o primeiro teste é falso. No segundo, 50.000 > 20.000 é verdadeiro, e a fórmula retorna 3%."
+        },
+        {
+          "t": "#VALOR!, porque percentuais precisam estar entre aspas.",
+          "p": "restricao",
+          "w": "5%, 3% e 1% são números válidos no Excel. Entre aspas virariam texto, e a comissão não poderia ser usada em contas."
+        }
+      ]
+    },
+    {
+      "id": "excel25",
+      "topic": "SEERRO com PROCV",
+      "c": "Na central de atendimento de uma operadora de Vitória, a fórmula =PROCV(A2;Clientes!A:D;2;FALSO) busca o nome do cliente pelo código. Quando o código não está cadastrado, aparece #N/D, e a supervisora quer ver \"Não cadastrado\" no lugar.",
+      "q": "Qual fórmula atende ao pedido?",
+      "a": 0,
+      "src": "suporte.microsoft.com: Função SEERRO",
+      "o": [
+        {
+          "t": "=SEERRO(PROCV(A2;Clientes!A:D;2;FALSO);\"Não cadastrado\")",
+          "p": "correta",
+          "w": "O SEERRO envolve o PROCV: se a busca der erro, mostra o texto; se não, mostra o nome encontrado."
+        },
+        {
+          "t": "=PROCV(SEERRO(A2;\"Não cadastrado\");Clientes!A:D;2;FALSO)",
+          "p": "inversao",
+          "w": "O aninhamento está invertido. O SEERRO testa A2, que não tem erro, e o #N/D do PROCV continua aparecendo."
+        },
+        {
+          "t": "=SE(PROCV(A2;Clientes!A:D;2;FALSO)=\"\";\"Não cadastrado\";PROCV(A2;Clientes!A:D;2;FALSO))",
+          "p": "troca",
+          "w": "#N/D não é uma célula vazia. O teste =\"\" também resulta em erro, e o #N/D continua aparecendo."
+        },
+        {
+          "t": "=SEERRO(PROCV(A2;Clientes!A:D;2;VERDADEIRO);\"Não cadastrado\")",
+          "p": "calculo",
+          "w": "Com VERDADEIRO, a busca é aproximada: um código inexistente pode trazer o nome de outro cliente, sem erro nenhum para o SEERRO tratar."
+        }
+      ]
+    },
+    {
+      "id": "excel26",
+      "topic": "PROCV sem o FALSO",
+      "c": "Um analista de uma rede de autopeças de Joinville escreveu =PROCV(A2;Precos!A:C;3) para trazer o preço de cada peça. A tabela de preços não está em ordem de código.",
+      "q": "Qual é o risco dessa fórmula?",
+      "a": 0,
+      "src": "suporte.microsoft.com: Função PROCV",
+      "o": [
+        {
+          "t": "Sem o quarto argumento, o PROCV faz correspondência aproximada e pode trazer o preço de outra peça sem mostrar erro.",
+          "p": "correta",
+          "w": "Omitido, o argumento procurar_intervalo vale VERDADEIRO, que exige a primeira coluna em ordem crescente. Para códigos, use FALSO (ou 0)."
+        },
+        {
+          "t": "Nenhum: sem o quarto argumento, o PROCV assume FALSO e faz correspondência exata.",
+          "p": "inversao",
+          "w": "É o contrário. O padrão do PROCV é VERDADEIRO, a correspondência aproximada."
+        },
+        {
+          "t": "A fórmula não é aceita, porque o quarto argumento é obrigatório.",
+          "p": "restricao",
+          "w": "O quarto argumento é opcional. A fórmula é aceita e calcula, o que torna o erro mais perigoso, porque passa despercebido."
+        },
+        {
+          "t": "O PROCV passa a procurar o código em todas as colunas da matriz.",
+          "p": "extrapolacao",
+          "w": "O PROCV sempre procura na primeira coluna da matriz, com ou sem o quarto argumento."
+        }
+      ]
+    },
+    {
+      "id": "excel27",
+      "topic": "Índice de coluna",
+      "c": "No cadastro de produtos de uma papelaria de Londrina, os dados estão em B2:F500: B tem o código, C a descrição, D a categoria, E o preço e F o estoque. A fórmula em I2 é =PROCV(H2;B2:F500;?;FALSO).",
+      "q": "Qual número deve substituir o ponto de interrogação para retornar o preço?",
+      "a": 0,
+      "src": "suporte.microsoft.com: Função PROCV",
+      "o": [
+        {
+          "t": "4",
+          "p": "correta",
+          "w": "O índice conta as colunas da matriz a partir da primeira: B = 1, C = 2, D = 3, E = 4."
+        },
+        {
+          "t": "5",
+          "p": "calculo",
+          "w": "E é a 5ª coluna da planilha, mas o PROCV conta a partir da primeira coluna da matriz, que é B."
+        },
+        {
+          "t": "3",
+          "p": "troca",
+          "w": "Contou quantas colunas ficam depois de B. A própria coluna B é a coluna 1 da matriz."
+        },
+        {
+          "t": "\"E\"",
+          "p": "restricao",
+          "w": "O índice precisa ser um número. A letra da coluna não é aceita e a fórmula retorna erro."
+        }
+      ]
+    },
+    {
+      "id": "excel28",
+      "topic": "PROCX: se não encontrado",
+      "c": "No controle de estoque de uma farmácia de Teresina, A2:A800 tem o código e D2:D800 tem a quantidade em estoque, que pode ser zero. Em H2 o atendente digita um código e quer ver \"Não encontrado\" quando o código não existir.",
+      "q": "Qual fórmula atende ao pedido?",
+      "a": 2,
+      "src": "suporte.microsoft.com: Função PROCX",
+      "o": [
+        {
+          "t": "=PROCX(H2;D2:D800;A2:A800;\"Não encontrado\")",
+          "p": "inversao",
+          "w": "Inverteu as matrizes: procuraria o código na coluna de estoque e devolveria um código."
+        },
+        {
+          "t": "=PROCX(H2;A2:A800;D2:D800;0)",
+          "p": "calculo",
+          "w": "Mostraria 0 para código inexistente, que se confunde com um produto de estoque zerado."
+        },
+        {
+          "t": "=PROCX(H2;A2:A800;D2:D800;\"Não encontrado\")",
+          "p": "correta",
+          "w": "O quarto argumento do PROCX define o que mostrar quando não há correspondência, sem precisar de SEERRO."
+        },
+        {
+          "t": "=PROCV(H2;A2:D800;4;\"Não encontrado\")",
+          "p": "troca",
+          "w": "No PROCV, o quarto argumento é o tipo de correspondência (VERDADEIRO ou FALSO), e não um valor para quando a busca falha."
+        }
+      ]
+    },
+    {
+      "id": "excel29",
+      "topic": "ÍNDICE: linha e coluna",
+      "c": "Uma indústria de Manaus montou um quadro de vendas: A2:A5 tem as regiões (Norte, Nordeste, Sul, Sudeste) e B1:E1 os trimestres (T1 a T4). Em B2:E5 estão os valores: Norte 110, 125, 140, 150; Nordeste 210, 230, 220, 260; Sul 300, 315, 290, 330; Sudeste 520, 540, 560, 600.",
+      "q": "Qual é o resultado de =ÍNDICE(B2:E5;3;2)?",
+      "a": 3,
+      "src": "suporte.microsoft.com: Função ÍNDICE",
+      "o": [
+        {
+          "t": "220",
+          "p": "inversao",
+          "w": "Trocou linha e coluna: 220 está na linha 2 (Nordeste) e na coluna 3 (T3). No ÍNDICE, primeiro vem a linha."
+        },
+        {
+          "t": "230",
+          "p": "calculo",
+          "w": "Contou a linha 3 da planilha, que é a do Nordeste. O ÍNDICE conta as linhas a partir do início do intervalo, que começa na linha 2."
+        },
+        {
+          "t": "#REF!, porque o ÍNDICE só aceita intervalos de uma coluna.",
+          "p": "restricao",
+          "w": "O ÍNDICE trabalha com intervalos de várias linhas e colunas. O erro #REF! só apareceria se a linha ou a coluna estivessem fora do intervalo."
+        },
+        {
+          "t": "315",
+          "p": "correta",
+          "w": "Dentro de B2:E5, a linha 3 é a do Sul e a coluna 2 é a do T2. O valor é 315."
+        }
+      ]
+    },
+    {
+      "id": "excel30",
+      "topic": "CORRESP retorna posição",
+      "c": "Na planilha de metas de uma cooperativa de Chapecó, A1 tem o cabeçalho \"Mês\" e A2:A13 tem os meses de Janeiro a Dezembro. Uma analista escreveu =CORRESP(\"Março\";A1:A13;0).",
+      "q": "Qual resultado a fórmula mostra?",
+      "a": 0,
+      "src": "suporte.microsoft.com: Função CORRESP",
+      "o": [
+        {
+          "t": "4",
+          "p": "correta",
+          "w": "CORRESP devolve a posição dentro do intervalo informado. Como A1:A13 começa no cabeçalho, Março é o 4º item."
+        },
+        {
+          "t": "3",
+          "p": "calculo",
+          "w": "3 seria a posição se o intervalo começasse em A2. Como começa em A1, o cabeçalho ocupa a posição 1."
+        },
+        {
+          "t": "\"Março\"",
+          "p": "troca",
+          "w": "O CORRESP não devolve o conteúdo encontrado, e sim a posição dele. Quem devolve conteúdo é o ÍNDICE."
+        },
+        {
+          "t": "#N/D, porque o intervalo inclui o cabeçalho.",
+          "p": "restricao",
+          "w": "Não há regra que proíba o cabeçalho no intervalo. O #N/D só aparece quando o valor procurado não existe."
+        }
+      ]
+    },
+    {
+      "id": "excel31",
+      "topic": "ESQUERDA",
+      "c": "Uma rede de academias identifica cada unidade com códigos como \"SP-CAMPINAS-014\" e \"MG-UBERABA-007\", sempre começando pela sigla do estado com duas letras.",
+      "q": "Qual fórmula extrai a sigla do estado do código em A2?",
+      "a": 1,
+      "src": "suporte.microsoft.com: Funções ESQUERDA e ESQUERDAB",
+      "o": [
+        {
+          "t": "=DIREITA(A2;2)",
+          "p": "inversao",
+          "w": "DIREITA pega os últimos caracteres. Retornaria \"14\" ou \"07\", o fim do código."
+        },
+        {
+          "t": "=ESQUERDA(A2;2)",
+          "p": "correta",
+          "w": "ESQUERDA devolve os primeiros caracteres do texto. Com 2, retorna \"SP\" ou \"MG\"."
+        },
+        {
+          "t": "=ESQUERDA(A2;3)",
+          "p": "calculo",
+          "w": "Três caracteres incluem o hífen: o resultado seria \"SP-\"."
+        },
+        {
+          "t": "=EXT.TEXTO(A2;2)",
+          "p": "troca",
+          "w": "EXT.TEXTO exige três argumentos: o texto, a posição inicial e a quantidade de caracteres. Com dois, a fórmula não é aceita."
+        }
+      ]
+    },
+    {
+      "id": "excel32",
+      "topic": "DIREITA",
+      "c": "O fiscal de uma empresa de logística de Cuiabá recebe números de nota no formato \"NF-2026-000873\" e precisa dos seis últimos caracteres, com os zeros à esquerda, para conferir no sistema.",
+      "q": "Qual é o resultado de =DIREITA(\"NF-2026-000873\";6)?",
+      "a": 0,
+      "src": "suporte.microsoft.com: Funções DIREITA e DIREITAB",
+      "o": [
+        {
+          "t": "\"000873\"",
+          "p": "correta",
+          "w": "DIREITA devolve os últimos caracteres como texto. Os seis últimos são 000873, com os zeros preservados."
+        },
+        {
+          "t": "873",
+          "p": "extrapolacao",
+          "w": "DIREITA retorna texto e não converte o resultado em número. Os zeros à esquerda são mantidos."
+        },
+        {
+          "t": "\"NF-202\"",
+          "p": "inversao",
+          "w": "Esses são os seis primeiros caracteres, que seriam o resultado de ESQUERDA."
+        },
+        {
+          "t": "\"00873\"",
+          "p": "calculo",
+          "w": "Esses são apenas cinco caracteres. Contando a partir do fim, os seis últimos são 000873."
+        }
+      ]
+    },
+    {
+      "id": "excel33",
+      "topic": "EXT.TEXTO",
+      "c": "Os produtos de uma fábrica de eletrodomésticos de Caxias do Sul têm códigos como \"BR2026-ELE-0042\", em que os três caracteres das posições 8 a 10 indicam a linha do produto (ELE, COZ, LAV).",
+      "q": "Qual fórmula extrai a linha do produto do código em A2?",
+      "a": 1,
+      "src": "suporte.microsoft.com: Funções EXT.TEXTO e EXT.TEXTOB",
+      "o": [
+        {
+          "t": "=EXT.TEXTO(A2;3;8)",
+          "p": "inversao",
+          "w": "Inverteu os números: começaria no 3º caractere e pegaria 8, retornando \"2026-ELE\"."
+        },
+        {
+          "t": "=EXT.TEXTO(A2;8;3)",
+          "p": "correta",
+          "w": "EXT.TEXTO(texto; posição inicial; quantidade): começa no 8º caractere e pega 3, retornando \"ELE\"."
+        },
+        {
+          "t": "=EXT.TEXTO(A2;7;3)",
+          "p": "calculo",
+          "w": "A posição 7 é o hífen. O resultado seria \"-EL\"."
+        },
+        {
+          "t": "=ESQUERDA(A2;10)",
+          "p": "troca",
+          "w": "ESQUERDA sempre começa do primeiro caractere. Retornaria \"BR2026-ELE\", e não só a linha."
+        }
+      ]
+    },
+    {
+      "id": "excel34",
+      "topic": "CONCAT com espaço",
+      "c": "No cadastro de alunos de uma escola de idiomas de Recife, A2 tem o nome \"Mariana\" e B2 tem o sobrenome \"Souza\". A secretária quer o nome completo \"Mariana Souza\" em C2.",
+      "q": "Qual fórmula produz esse resultado?",
+      "a": 3,
+      "src": "suporte.microsoft.com: Função CONCAT",
+      "o": [
+        {
+          "t": "=CONCAT(A2;B2)",
+          "p": "calculo",
+          "w": "Faltou o espaço como argumento. O resultado seria \"MarianaSouza\"."
+        },
+        {
+          "t": "=CONCAT(B2;\" \";A2)",
+          "p": "inversao",
+          "w": "A ordem está invertida. O resultado seria \"Souza Mariana\"."
+        },
+        {
+          "t": "=SOMA(A2;B2)",
+          "p": "troca",
+          "w": "SOMA trabalha com números e ignora textos de células. O resultado seria 0, e não o nome."
+        },
+        {
+          "t": "=CONCAT(A2;\" \";B2)",
+          "p": "correta",
+          "w": "CONCAT junta os textos na ordem dada. O \" \" entre as células insere o espaço entre nome e sobrenome."
+        }
+      ]
+    },
+    {
+      "id": "excel35",
+      "topic": "UNIRTEXTO",
+      "c": "Para enviar um comunicado, a analista de RH de uma empresa de Campo Grande precisa juntar em uma célula os e-mails de A2:A30, separados por \"; \". Algumas células da lista estão vazias.",
+      "q": "Qual fórmula monta a lista sem separadores sobrando?",
+      "a": 1,
+      "src": "suporte.microsoft.com: Função UNIRTEXTO",
+      "o": [
+        {
+          "t": "=UNIRTEXTO(\"; \";FALSO;A2:A30)",
+          "p": "calculo",
+          "w": "Com FALSO, as células vazias entram na junção e aparecem separadores repetidos, como \"; ; \"."
+        },
+        {
+          "t": "=UNIRTEXTO(\"; \";VERDADEIRO;A2:A30)",
+          "p": "correta",
+          "w": "UNIRTEXTO(delimitador; ignorar_vazio; textos): com VERDADEIRO, as células vazias são puladas e não geram \"; ;\"."
+        },
+        {
+          "t": "=UNIRTEXTO(A2:A30;VERDADEIRO;\"; \")",
+          "p": "inversao",
+          "w": "Os argumentos estão fora de ordem. O delimitador vem primeiro e o intervalo de textos vem por último."
+        },
+        {
+          "t": "=CONCAT(A2:A30)",
+          "p": "troca",
+          "w": "CONCAT junta os textos sem colocar delimitador. Os e-mails ficariam colados uns nos outros."
+        }
+      ]
+    },
+    {
+      "id": "excel36",
+      "topic": "ARRUMAR espaços",
+      "c": "Um relatório exportado do sistema de uma transportadora de Uberlândia trouxe nomes com espaços sobrando, como \"  Ana   Paula Lima \" (dois espaços no início, três entre Ana e Paula e um no fim), e o PROCV não encontra esses nomes.",
+      "q": "Qual é o resultado de =ARRUMAR(A2) para esse texto?",
+      "a": 2,
+      "src": "suporte.microsoft.com: Função ARRUMAR",
+      "o": [
+        {
+          "t": "\"AnaPaulaLima\"",
+          "p": "generalizacao",
+          "w": "ARRUMAR não remove todos os espaços. Ela mantém um espaço simples entre as palavras."
+        },
+        {
+          "t": "\"Ana   Paula Lima\"",
+          "p": "restricao",
+          "w": "ARRUMAR não se limita às pontas do texto. Os espaços repetidos entre as palavras também viram um só."
+        },
+        {
+          "t": "\"Ana Paula Lima\"",
+          "p": "correta",
+          "w": "ARRUMAR remove os espaços do início e do fim e deixa apenas um espaço simples entre as palavras."
+        },
+        {
+          "t": "\"ANA PAULA LIMA\"",
+          "p": "troca",
+          "w": "Passar o texto para maiúsculas é o papel da função MAIÚSCULA. ARRUMAR só trata os espaços."
+        }
+      ]
+    },
+    {
+      "id": "excel37",
+      "topic": "MAIÚSCULA com ARRUMAR",
+      "c": "Na base de clientes de uma corretora de seguros de Aracaju, a coluna A traz a sigla do estado digitada de vários jeitos: \" sp\", \"Sp \", \"sp\". O gerente quer padronizar tudo como \"SP\", sem espaços.",
+      "q": "Qual fórmula padroniza a sigla de A2?",
+      "a": 2,
+      "src": "suporte.microsoft.com: Funções MAIÚSCULA e ARRUMAR",
+      "o": [
+        {
+          "t": "=MAIÚSCULA(A2)",
+          "p": "calculo",
+          "w": "Converte as letras, mas mantém os espaços: \" sp\" viraria \" SP\", que continua diferente de \"SP\"."
+        },
+        {
+          "t": "=PRI.MAIÚSCULA(ARRUMAR(A2))",
+          "p": "troca",
+          "w": "PRI.MAIÚSCULA deixa só a primeira letra em maiúscula. O resultado seria \"Sp\"."
+        },
+        {
+          "t": "=MAIÚSCULA(ARRUMAR(A2))",
+          "p": "correta",
+          "w": "ARRUMAR tira os espaços das pontas e MAIÚSCULA converte as letras. Juntas, transformam \" sp\" e \"Sp \" em \"SP\"."
+        },
+        {
+          "t": "=MINÚSCULA(ARRUMAR(A2))",
+          "p": "inversao",
+          "w": "Faz a conversão no sentido contrário. O resultado seria \"sp\", e não \"SP\"."
+        }
+      ]
+    },
+    {
+      "id": "excel38",
+      "topic": "HOJE ou Ctrl+;",
+      "c": "Na planilha de contratos de uma agência de publicidade de Brasília, a assistente registrou a data de assinatura com =HOJE(). No dia seguinte, todas as datas de assinatura tinham mudado para a nova data.",
+      "q": "Como registrar a data de assinatura de forma que ela não mude mais?",
+      "a": 1,
+      "src": "suporte.microsoft.com: Inserir a data e a hora atuais em uma célula",
+      "o": [
+        {
+          "t": "Trocar =HOJE() por =AGORA(), que grava data e hora fixas.",
+          "p": "troca",
+          "w": "AGORA() também é recalculada, assim como HOJE(). A diferença é que ela inclui a hora, mas continua mudando."
+        },
+        {
+          "t": "Pressionar Ctrl+; na célula, que insere a data atual como valor fixo.",
+          "p": "correta",
+          "w": "HOJE() é recalculada sempre que a planilha abre ou recalcula. O atalho Ctrl+; grava a data do dia como valor, que não muda depois."
+        },
+        {
+          "t": "Formatar a célula com =HOJE() como Data abreviada, o que congela o valor.",
+          "p": "extrapolacao",
+          "w": "A formatação só muda a aparência. A fórmula continua lá e será recalculada no dia seguinte."
+        },
+        {
+          "t": "Manter =HOJE() e salvar o arquivo, pois depois de salvo a data não muda.",
+          "p": "restricao",
+          "w": "Salvar não congela a fórmula. Ao reabrir o arquivo em outro dia, HOJE() mostra a nova data."
+        }
+      ]
+    },
+    {
+      "id": "excel39",
+      "topic": "DIATRABALHOTOTAL",
+      "c": "O RH de uma empresa de Belo Horizonte calcula os dias úteis de um treinamento. A2 tem 16/11/2026 (segunda-feira), B2 tem 27/11/2026 (sexta-feira) e H2 tem o feriado de 20/11/2026 (sexta-feira).",
+      "q": "Qual é o resultado de =DIATRABALHOTOTAL(A2;B2;H2)?",
+      "a": 3,
+      "src": "suporte.microsoft.com: Função DIATRABALHOTOTAL",
+      "o": [
+        {
+          "t": "10",
+          "p": "calculo",
+          "w": "10 é a contagem sem descontar o feriado. O terceiro argumento informa os feriados, e o de 20/11 cai em dia útil."
+        },
+        {
+          "t": "8",
+          "p": "restricao",
+          "w": "A função não exclui o dia inicial. As datas inicial e final entram na contagem quando são dias úteis."
+        },
+        {
+          "t": "12",
+          "p": "troca",
+          "w": "12 são os dias corridos de 16 a 27/11, com sábados e domingos. DIATRABALHOTOTAL exclui fins de semana e feriados."
+        },
+        {
+          "t": "9",
+          "p": "correta",
+          "w": "A função conta os dias de segunda a sexta entre as duas datas, incluindo as duas pontas: são 10 dias úteis, menos o feriado de 20/11, o que dá 9."
+        }
+      ]
+    },
+    {
+      "id": "excel40",
+      "topic": "DATADIF em anos",
+      "c": "No relatório de tempo de casa de uma indústria de Sorocaba, B2 tem a data de admissão de um funcionário (15/03/2019) e C2 tem a data de referência (10/03/2026). A fórmula usada é =DATADIF(B2;C2;\"Y\").",
+      "q": "Qual resultado aparece?",
+      "a": 1,
+      "src": "suporte.microsoft.com: Função DATADIF",
+      "o": [
+        {
+          "t": "7",
+          "p": "calculo",
+          "w": "7 é só a subtração dos anos (2026 - 2019). DATADIF com \"Y\" conta anos completos, e o 7º só se completa em 15/03/2026."
+        },
+        {
+          "t": "6",
+          "p": "correta",
+          "w": "\"Y\" retorna os anos completos. Em 10/03/2026 faltavam cinco dias para completar 7 anos, então o resultado é 6."
+        },
+        {
+          "t": "6,99, porque o DATADIF devolve os anos com a fração do ano incompleto.",
+          "p": "extrapolacao",
+          "w": "Com \"Y\", o DATADIF devolve um número inteiro de anos completos, sem fração."
+        },
+        {
+          "t": "#NÚM!, porque a data inicial precisa ser maior que a data final.",
+          "p": "inversao",
+          "w": "É o contrário: o #NÚM! aparece quando a data inicial é maior que a final. Aqui a admissão vem antes da referência."
+        }
+      ]
+    },
+    {
+      "id": "excel41",
+      "topic": "FIMMÊS",
+      "c": "Uma distribuidora de Maringá vence as faturas no último dia do mês seguinte ao da compra. A2 tem a data da compra, 15/01/2026, e a fórmula de vencimento é =FIMMÊS(A2;1).",
+      "q": "Qual data a fórmula retorna?",
+      "a": 2,
+      "src": "suporte.microsoft.com: Função FIMMÊS",
+      "o": [
+        {
+          "t": "31/01/2026",
+          "p": "calculo",
+          "w": "Esse seria o resultado de =FIMMÊS(A2;0), o fim do próprio mês da compra."
+        },
+        {
+          "t": "15/02/2026",
+          "p": "troca",
+          "w": "Esse é o resultado de DATAM(A2;1), que avança um mês e mantém o dia. FIMMÊS vai para o último dia do mês."
+        },
+        {
+          "t": "28/02/2026",
+          "p": "correta",
+          "w": "FIMMÊS avança 1 mês a partir de janeiro e devolve o último dia desse mês. Em 2026, fevereiro termina no dia 28."
+        },
+        {
+          "t": "14/02/2026",
+          "p": "generalizacao",
+          "w": "Somar 30 dias parte da ideia de que todo mês tem 30 dias. FIMMÊS não soma dias; vai ao fim do mês indicado."
+        }
+      ]
+    },
+    {
+      "id": "excel42",
+      "topic": "ARRED com dígitos negativos",
+      "c": "No orçamento anual de uma ONG de Olinda, a coordenadora quer apresentar o valor de B2, R$ 18.749, arredondado para o milhar mais próximo. Ela usa =ARRED(B2;-3).",
+      "q": "Qual resultado aparece?",
+      "a": 3,
+      "src": "suporte.microsoft.com: Função ARRED",
+      "o": [
+        {
+          "t": "18.000",
+          "p": "troca",
+          "w": "18.000 corta as casas sem arredondar, como faria ARREDONDAR.PARA.BAIXO. Como 749 é mais de meio milhar, o ARRED sobe."
+        },
+        {
+          "t": "18.700",
+          "p": "calculo",
+          "w": "18.700 é o resultado com -2, que arredonda para a centena. Para o milhar, são -3."
+        },
+        {
+          "t": "18.749,000",
+          "p": "inversao",
+          "w": "Inverteu o sentido do argumento. Três casas decimais seriam ARRED(B2;3); o sinal negativo arredonda à esquerda da vírgula."
+        },
+        {
+          "t": "19.000",
+          "p": "correta",
+          "w": "Com núm_dígitos negativo, o ARRED arredonda à esquerda da vírgula. -3 leva ao milhar mais próximo: 18.749 fica mais perto de 19.000."
+        }
+      ]
+    },
+    {
+      "id": "excel43",
+      "topic": "ARRED ou formatação",
+      "c": "Na planilha de notas fiscais de uma gráfica de Pelotas, a coluna D calcula o imposto com =B2*C2 e está formatada com duas casas. O total da coluna difere em R$ 0,01 da soma feita na calculadora com os valores exibidos.",
+      "q": "Qual é a causa e como resolver?",
+      "a": 0,
+      "src": "suporte.microsoft.com: Função ARRED",
+      "o": [
+        {
+          "t": "A formatação só muda a exibição; a soma usa os valores completos. Use =ARRED(B2*C2;2) em cada linha.",
+          "p": "correta",
+          "w": "Por padrão, o Excel calcula com o valor guardado, não com o exibido. Com ARRED na fórmula, o valor guardado passa a ter duas casas."
+        },
+        {
+          "t": "A formatação com duas casas já arredonda o valor guardado, então o erro está na função SOMA.",
+          "p": "inversao",
+          "w": "É o contrário: a formatação não altera o valor guardado. A SOMA está certa; ela soma os valores com todas as casas."
+        },
+        {
+          "t": "Aumentar as casas decimais na formatação corrige o valor do total.",
+          "p": "extrapolacao",
+          "w": "Mais casas só mostram melhor o valor completo. A diferença em relação aos valores arredondados continua."
+        },
+        {
+          "t": "Trocar a SOMA por SOMASE elimina a diferença de centavos.",
+          "p": "troca",
+          "w": "SOMASE soma com critério, mas usa os mesmos valores completos. A diferença continua."
+        }
+      ]
+    },
+    {
+      "id": "excel44",
+      "topic": "Referência relativa",
+      "c": "Na planilha de pedidos de uma loja de materiais de construção de Feira de Santana, D2 tem =B2*C2 (quantidade vezes preço). O vendedor copia D2 e cola em D7.",
+      "q": "Qual fórmula fica em D7?",
+      "a": 2,
+      "src": "suporte.microsoft.com: Alternar entre referências relativas, absolutas e mistas",
+      "o": [
+        {
+          "t": "=B2*C2",
+          "p": "generalizacao",
+          "w": "Sem $, as referências não ficam presas. A fórmula colada se ajusta à linha de destino."
+        },
+        {
+          "t": "=B7*C2",
+          "p": "calculo",
+          "w": "Não há motivo para só a primeira referência mudar. Sem $, as duas se deslocam 5 linhas."
+        },
+        {
+          "t": "=B7*C7",
+          "p": "correta",
+          "w": "Referências relativas se ajustam à nova posição. Colar 5 linhas abaixo faz B2 e C2 virarem B7 e C7."
+        },
+        {
+          "t": "=G2*H2",
+          "p": "inversao",
+          "w": "Copiar para baixo desloca as linhas, não as colunas. As colunas só mudariam se a fórmula fosse colada à direita."
+        }
+      ]
+    },
+    {
+      "id": "excel45",
+      "topic": "Referência mista em tabela",
+      "c": "O RH de uma empresa de Campinas simula reajustes: A3:A10 tem os salários e B2:F2 tem os percentuais (2%, 4%, 6%, 8% e 10%). A fórmula escrita em B3 será copiada para todo o bloco B3:F10.",
+      "q": "Qual fórmula deve ser escrita em B3?",
+      "a": 3,
+      "src": "suporte.microsoft.com: Alternar entre referências relativas, absolutas e mistas",
+      "o": [
+        {
+          "t": "=A3*(1+B2)",
+          "p": "calculo",
+          "w": "Sem $, ao copiar para a direita o salário sairia da coluna A, e ao copiar para baixo o percentual sairia da linha 2."
+        },
+        {
+          "t": "=$A$3*(1+$B$2)",
+          "p": "generalizacao",
+          "w": "Travou tudo: todas as células do bloco calculariam o mesmo salário com o mesmo percentual."
+        },
+        {
+          "t": "=A$3*(1+$B2)",
+          "p": "inversao",
+          "w": "As travas estão trocadas: fixa a linha do salário e a coluna do percentual, o contrário do necessário."
+        },
+        {
+          "t": "=$A3*(1+B$2)",
+          "p": "correta",
+          "w": "$A3 trava a coluna dos salários e deixa a linha variar; B$2 trava a linha dos percentuais e deixa a coluna variar."
+        }
+      ]
+    },
+    {
+      "id": "excel46",
+      "topic": "F4 nas referências",
+      "c": "Um analista de uma cooperativa de crédito de Cascavel está editando uma fórmula, com o cursor sobre a referência A1. Ele pressiona F4 duas vezes seguidas.",
+      "q": "Como a referência fica?",
+      "a": 1,
+      "src": "suporte.microsoft.com: Alternar entre referências relativas, absolutas e mistas",
+      "o": [
+        {
+          "t": "$A$1",
+          "p": "calculo",
+          "w": "Esse é o resultado de apertar F4 uma vez só. A segunda vez passa para A$1."
+        },
+        {
+          "t": "A$1",
+          "p": "correta",
+          "w": "O F4 alterna na ordem A1, $A$1, A$1, $A1 e volta a A1. Na segunda vez, só a linha fica travada."
+        },
+        {
+          "t": "$A1",
+          "p": "inversao",
+          "w": "$A1, com a coluna travada, só aparece na terceira vez. A ordem é: absoluta, linha travada, coluna travada."
+        },
+        {
+          "t": "A1, porque o F4 alterna só entre relativa e absoluta.",
+          "p": "restricao",
+          "w": "O F4 também passa pelas duas formas mistas antes de voltar à relativa."
+        }
+      ]
+    },
+    {
+      "id": "excel47",
+      "topic": "Formatar como Tabela",
+      "c": "A base de vendas de uma loja de Juiz de Fora recebe novas linhas toda semana, e os gráficos e fórmulas do relatório precisam sempre ser ajustados à mão. A analista seleciona uma célula da base e usa Página Inicial > Formatar como Tabela.",
+      "q": "Qual vantagem da tabela resolve esse problema?",
+      "a": 2,
+      "src": "suporte.microsoft.com: Visão geral de tabelas do Excel",
+      "o": [
+        {
+          "t": "A tabela protege a base contra edições de outros usuários.",
+          "p": "troca",
+          "w": "Criar uma tabela não protege nada. Para restringir edições, usa-se a proteção de planilha."
+        },
+        {
+          "t": "A tabela remove automaticamente as linhas duplicadas da base.",
+          "p": "extrapolacao",
+          "w": "A tabela não apaga duplicatas sozinha. Para isso existe o comando Remover Duplicatas."
+        },
+        {
+          "t": "A tabela se expande quando uma linha é digitada logo abaixo, e fórmulas e gráficos que usam a tabela passam a incluí-la.",
+          "p": "correta",
+          "w": "Tabelas crescem automaticamente com novas linhas adjacentes, e as referências à tabela acompanham esse crescimento."
+        },
+        {
+          "t": "A tabela só funciona em bases com menos de mil linhas.",
+          "p": "restricao",
+          "w": "Não existe esse limite. Tabelas funcionam com bases grandes, até o limite de linhas da planilha."
+        }
+      ]
+    },
+    {
+      "id": "excel48",
+      "topic": "Fonte da tabela dinâmica",
+      "c": "Uma tabela dinâmica de uma rede de pet shops de Santos foi criada sobre o intervalo fixo A1:F1200. A analista colou as vendas de março nas linhas 1201 a 1500, clicou em Atualizar, e março não apareceu.",
+      "q": "O que resolve o problema?",
+      "a": 1,
+      "src": "suporte.microsoft.com: Alterar a fonte de dados de uma tabela dinâmica",
+      "o": [
+        {
+          "t": "Clicar em Atualizar de novo, pois a tabela dinâmica sempre lê a planilha inteira.",
+          "p": "generalizacao",
+          "w": "A tabela dinâmica lê só o intervalo definido como fonte. Atualizar quantas vezes for não inclui linhas fora dele."
+        },
+        {
+          "t": "Alterar a fonte de dados para incluir as novas linhas e atualizar; transformar a base em tabela evita que isso se repita.",
+          "p": "correta",
+          "w": "Atualizar relê só o intervalo de origem. Como ele termina na linha 1200, é preciso ampliá-lo; com uma tabela, a origem cresce sozinha."
+        },
+        {
+          "t": "Ligar o filtro na base com Ctrl+Shift+L para a tabela dinâmica enxergar as novas linhas.",
+          "p": "troca",
+          "w": "O filtro da base não altera o intervalo de origem da tabela dinâmica."
+        },
+        {
+          "t": "Classificar a base por data, porque a tabela dinâmica só lê dados em ordem.",
+          "p": "restricao",
+          "w": "A tabela dinâmica não exige dados ordenados. O problema é o intervalo de origem."
+        }
+      ]
+    },
+    {
+      "id": "excel49",
+      "topic": "Classificar sem desalinhar",
+      "c": "Na planilha de vendas de uma concessionária de Ribeirão Preto, A tem o nome do vendedor e C tem o valor vendido. Um analista selecionou só a coluna C, classificou do maior para o menor e escolheu \"Continuar com a seleção atual\". Agora os valores não batem com os nomes.",
+      "q": "O que aconteceu e como evitar?",
+      "a": 0,
+      "src": "suporte.microsoft.com: Classificar dados em um intervalo ou tabela",
+      "o": [
+        {
+          "t": "Só a coluna C foi reordenada e as linhas se desalinharam; é preciso expandir a seleção para classificar as linhas inteiras.",
+          "p": "correta",
+          "w": "Ao classificar uma coluna isolada, as demais ficam paradas. Expandindo a seleção, cada valor leva junto o nome e os dados da mesma linha."
+        },
+        {
+          "t": "A classificação do maior para o menor sempre desalinha os dados; use apenas a ordem crescente.",
+          "p": "generalizacao",
+          "w": "A ordem não é o problema. Com a seleção expandida, as duas ordens mantêm as linhas íntegras."
+        },
+        {
+          "t": "O Excel só classifica corretamente quando o filtro está ligado.",
+          "p": "restricao",
+          "w": "A classificação funciona com ou sem filtro. O que importa é classificar o intervalo inteiro."
+        },
+        {
+          "t": "A coluna C está com formato de moeda; convertê-la para texto antes de classificar resolve.",
+          "p": "troca",
+          "w": "O formato não causa o desalinhamento. Converter em texto ainda faria os valores serem ordenados como texto."
+        }
+      ]
+    },
+    {
+      "id": "excel50",
+      "topic": "Remover duplicatas por CPF",
+      "c": "A lista de inscritos em um congresso em Fortaleza tem 2.000 linhas com Nome, CPF e Data de inscrição. Algumas pessoas se inscreveram duas vezes, em datas diferentes, e a organização quer manter só uma linha por CPF.",
+      "q": "Como usar Dados > Remover Duplicatas nesse caso?",
+      "a": 3,
+      "src": "suporte.microsoft.com: Filtrar valores exclusivos ou remover valores duplicados",
+      "o": [
+        {
+          "t": "Marcar todas as colunas, para garantir que nenhum dado seja perdido.",
+          "p": "calculo",
+          "w": "Com todas as colunas, só linhas idênticas em tudo são duplicatas. Como as datas diferem, nenhuma inscrição repetida seria removida."
+        },
+        {
+          "t": "Marcar a coluna CPF, sabendo que todas as linhas do CPF repetido serão excluídas, inclusive a primeira.",
+          "p": "generalizacao",
+          "w": "O recurso não apaga todas as ocorrências. Ele preserva a primeira e remove apenas as repetições."
+        },
+        {
+          "t": "Classificar pela coluna CPF, o que já elimina os registros repetidos.",
+          "p": "troca",
+          "w": "Classificar só muda a ordem das linhas. Os repetidos ficam lado a lado, mas continuam lá."
+        },
+        {
+          "t": "Marcar apenas a coluna CPF; o Excel mantém a primeira ocorrência de cada CPF e exclui as demais linhas.",
+          "p": "correta",
+          "w": "A comparação é feita só nas colunas marcadas. Com CPF, as inscrições repetidas são removidas e a primeira de cada pessoa permanece."
+        }
+      ]
+    },
+    {
+      "id": "excel51",
+      "topic": "Congelar painéis",
+      "c": "Na planilha de frequência de uma escola técnica de Joinville, a linha 1 tem as datas das aulas e a coluna A tem os nomes dos alunos. A coordenadora quer rolar a planilha para baixo e para a direita sem perder de vista a linha 1 e a coluna A.",
+      "q": "O que ela deve fazer?",
+      "a": 1,
+      "src": "suporte.microsoft.com: Congelar painéis para bloquear linhas e colunas",
+      "o": [
+        {
+          "t": "Usar Exibir > Congelar Painéis > Congelar Linha Superior.",
+          "p": "restricao",
+          "w": "Essa opção fixa apenas a linha 1. A coluna A sumiria ao rolar para a direita."
+        },
+        {
+          "t": "Selecionar a célula B2 e usar Exibir > Congelar Painéis > Congelar Painéis.",
+          "p": "correta",
+          "w": "O Excel congela as linhas acima e as colunas à esquerda da célula selecionada. Com B2, ficam fixas a linha 1 e a coluna A."
+        },
+        {
+          "t": "Selecionar a célula A1 e usar Congelar Painéis.",
+          "p": "calculo",
+          "w": "Não há linhas acima nem colunas à esquerda de A1, então nada fica fixo como o pedido exige."
+        },
+        {
+          "t": "Selecionar a célula C3 e usar Congelar Painéis.",
+          "p": "extrapolacao",
+          "w": "Com C3, ficariam fixas as linhas 1 e 2 e as colunas A e B, mais do que o necessário, ocupando espaço da tela."
+        }
+      ]
+    },
+    {
+      "id": "excel52",
+      "topic": "Gráfico de linhas",
+      "c": "O diretor de uma rede de hotéis de Gramado quer ver, em um slide, como o faturamento mensal evoluiu nos últimos 24 meses e se há sazonalidade.",
+      "q": "Qual tipo de gráfico é o mais adequado?",
+      "a": 3,
+      "src": "suporte.microsoft.com: Tipos de gráficos disponíveis no Office",
+      "o": [
+        {
+          "t": "Gráfico de pizza, com uma fatia para cada mês.",
+          "p": "troca",
+          "w": "A pizza mostra partes de um todo. Com 24 fatias, a evolução no tempo fica impossível de ler."
+        },
+        {
+          "t": "Qualquer tipo de gráfico, pois todos mostram os mesmos números.",
+          "p": "generalizacao",
+          "w": "Cada tipo destaca um aspecto dos dados. Para evolução no tempo, a linha comunica muito melhor do que outros formatos."
+        },
+        {
+          "t": "Gráfico de dispersão, porque é o único que aceita datas.",
+          "p": "extrapolacao",
+          "w": "Outros gráficos, como o de linhas, aceitam datas no eixo. A dispersão serve para relacionar duas variáveis numéricas."
+        },
+        {
+          "t": "Gráfico de linhas, com os meses no eixo horizontal.",
+          "p": "correta",
+          "w": "Gráficos de linhas mostram dados contínuos ao longo do tempo em intervalos iguais, ideais para ver tendência e sazonalidade."
+        }
+      ]
+    },
+    {
+      "id": "excel53",
+      "topic": "Gráfico de barras",
+      "c": "A gerente comercial de uma distribuidora de Goiânia quer comparar o total vendido no ano por 15 vendedores, identificados pelo nome completo, em um gráfico fácil de ler.",
+      "q": "Qual tipo de gráfico é o mais adequado?",
+      "a": 2,
+      "src": "suporte.microsoft.com: Tipos de gráficos disponíveis no Office",
+      "o": [
+        {
+          "t": "Gráfico de pizza, com uma fatia para cada vendedor.",
+          "p": "troca",
+          "w": "A Microsoft recomenda pizza para poucas categorias, até sete, que formem partes de um todo. Com 15 fatias, a comparação fica difícil."
+        },
+        {
+          "t": "Gráfico de linhas, ligando um vendedor ao outro.",
+          "p": "extrapolacao",
+          "w": "A linha sugere uma sequência ou tendência entre os pontos, o que não existe entre vendedores diferentes."
+        },
+        {
+          "t": "Gráfico de barras horizontais, de preferência ordenado do maior para o menor.",
+          "p": "correta",
+          "w": "Barras comparam valores entre categorias e acomodam bem rótulos longos, como nomes completos."
+        },
+        {
+          "t": "Qualquer gráfico, desde que tenha legenda.",
+          "p": "generalizacao",
+          "w": "A legenda não corrige a escolha do tipo. Para comparar categorias com nomes longos, as barras são as mais legíveis."
+        }
+      ]
+    },
+    {
+      "id": "excel54",
+      "topic": "Destacar duplicados",
+      "c": "No cadastro de fornecedores de uma prefeitura de Petrolina, a coluna B tem o CNPJ. A auditora quer ver quais CNPJs aparecem mais de uma vez, sem apagar nenhuma linha, para analisar caso a caso.",
+      "q": "Qual recurso atende ao pedido?",
+      "a": 2,
+      "src": "suporte.microsoft.com: Usar formatação condicional para realçar informações",
+      "o": [
+        {
+          "t": "Dados > Remover Duplicatas na coluna B.",
+          "p": "troca",
+          "w": "Remover Duplicatas apaga as repetições. A auditora quer apenas identificar os casos, sem excluir nada."
+        },
+        {
+          "t": "Classificar a coluna B, pois o Excel pinta os valores repetidos ao classificar.",
+          "p": "extrapolacao",
+          "w": "Classificar só muda a ordem. Os repetidos ficam próximos, mas nada é destacado automaticamente."
+        },
+        {
+          "t": "Formatação Condicional > Realçar Regras das Células > Valores Duplicados.",
+          "p": "correta",
+          "w": "A regra pinta todas as células cujo valor se repete na seleção, sem alterar nem excluir nenhuma linha."
+        },
+        {
+          "t": "Formatação Condicional > Valores Duplicados, escolhendo a opção Exclusivos.",
+          "p": "inversao",
+          "w": "A opção Exclusivos pinta os CNPJs que aparecem uma única vez, o contrário do que se quer."
+        }
+      ]
+    },
+    {
+      "id": "excel55",
+      "topic": "Atalho Ctrl+Shift+L",
+      "c": "Um assistente financeiro de uma rede de óticas de Natal seleciona uma célula do cabeçalho da base de contas a pagar e pressiona Ctrl+Shift+L.",
+      "q": "O que acontece?",
+      "a": 0,
+      "src": "suporte.microsoft.com: Atalhos de teclado no Excel",
+      "o": [
+        {
+          "t": "O Excel liga ou desliga os botões de filtro no cabeçalho da base.",
+          "p": "correta",
+          "w": "Ctrl+Shift+L aplica ou remove o Filtro, que coloca setas no cabeçalho para filtrar e classificar cada coluna."
+        },
+        {
+          "t": "O Excel classifica a coluna selecionada de A a Z.",
+          "p": "troca",
+          "w": "Classificar é outro comando. O atalho apenas liga ou desliga os botões de filtro."
+        },
+        {
+          "t": "O Excel exclui da planilha as linhas que estiverem ocultas.",
+          "p": "extrapolacao",
+          "w": "O filtro só oculta linhas temporariamente. Nenhum atalho de filtro exclui dados."
+        },
+        {
+          "t": "Nada, porque o atalho só funciona em bases formatadas como tabela.",
+          "p": "restricao",
+          "w": "O atalho funciona em intervalos comuns também. Em tabelas, ele liga ou desliga os botões de filtro da mesma forma."
+        }
+      ]
+    },
+    {
+      "id": "excel56",
+      "topic": "Atalho Ctrl+seta",
+      "c": "Uma base de clientes de uma operadora de internet de Londrina tem cabeçalho em A1 e dados em A2:A1203. A célula A1204 está vazia e a lista continua de A1205 até A30001. Com o cursor em A1, a analista pressiona Ctrl+seta para baixo.",
+      "q": "Em qual célula o cursor para?",
+      "a": 3,
+      "src": "suporte.microsoft.com: Atalhos de teclado no Excel",
+      "o": [
+        {
+          "t": "A30001",
+          "p": "generalizacao",
+          "w": "O atalho não pula células vazias. Ele para na borda do bloco atual; seria preciso repetir o atalho para seguir adiante."
+        },
+        {
+          "t": "A1204",
+          "p": "calculo",
+          "w": "A1204 é a célula vazia. O cursor para na última célula preenchida antes dela."
+        },
+        {
+          "t": "A1048576",
+          "p": "extrapolacao",
+          "w": "O cursor só vai até a última linha da planilha quando não há mais dados abaixo dele na coluna."
+        },
+        {
+          "t": "A1203",
+          "p": "correta",
+          "w": "Ctrl+seta leva até a borda da região de dados atual. O cursor para na última célula preenchida antes da primeira célula vazia."
+        }
+      ]
+    },
+    {
+      "id": "excel57",
+      "topic": "AutoSoma com Alt+=",
+      "c": "Na planilha de despesas de uma clínica veterinária de São Luís, B1 tem o cabeçalho e B2:B13 tem os gastos de cada mês. A recepcionista seleciona B14 e pressiona Alt+=.",
+      "q": "O que acontece?",
+      "a": 1,
+      "src": "suporte.microsoft.com: Usar a AutoSoma para somar números",
+      "o": [
+        {
+          "t": "O Excel insere =MÉDIA(B2:B13).",
+          "p": "troca",
+          "w": "A média está no menu da AutoSoma, mas o atalho Alt+= insere a SOMA."
+        },
+        {
+          "t": "O Excel insere =SOMA(B2:B13), sugerindo o intervalo acima, e ela confirma com Enter.",
+          "p": "correta",
+          "w": "Alt+= é o atalho da AutoSoma: insere a função SOMA com o intervalo numérico adjacente, que pode ser ajustado antes de confirmar."
+        },
+        {
+          "t": "O Excel grava o total como valor fixo, sem fórmula.",
+          "p": "extrapolacao",
+          "w": "A AutoSoma cria uma fórmula, que se atualiza se algum gasto mudar."
+        },
+        {
+          "t": "Nada, porque o atalho só funciona dentro de bases formatadas como tabela.",
+          "p": "restricao",
+          "w": "A AutoSoma funciona em qualquer intervalo, não apenas em tabelas."
+        }
+      ]
+    },
+    {
+      "id": "excel58",
+      "topic": "Erro #REF!",
+      "c": "Na planilha de folha de uma empresa de limpeza de Belo Horizonte, D2:D50 tem =B2*C2 (horas vezes valor da hora). Um assistente excluiu a coluna C inteira, achando que ela não era mais usada.",
+      "q": "O que passa a aparecer nas fórmulas e por quê?",
+      "a": 1,
+      "src": "suporte.microsoft.com: Como corrigir um erro #REF!",
+      "o": [
+        {
+          "t": "#N/D, porque o valor da hora não está mais disponível.",
+          "p": "troca",
+          "w": "#N/D indica valor não encontrado em funções de busca, como PROCV. Referência excluída gera #REF!."
+        },
+        {
+          "t": "#REF!, porque as fórmulas apontam para células que deixaram de existir.",
+          "p": "correta",
+          "w": "Ao excluir a coluna referenciada, a fórmula perde a referência e vira =B2*#REF!. Desfazer a exclusão (Ctrl+Z) recupera as fórmulas."
+        },
+        {
+          "t": "#VALOR!, porque a coluna excluída tinha números e texto misturados.",
+          "p": "calculo",
+          "w": "#VALOR! aparece quando um tipo de dado errado entra na conta. Aqui o problema é a referência que sumiu."
+        },
+        {
+          "t": "0, porque as células excluídas passam a valer zero.",
+          "p": "extrapolacao",
+          "w": "O Excel não substitui a referência perdida por zero. Ele mostra o erro para avisar que a fórmula está quebrada."
+        }
+      ]
+    },
+    {
+      "id": "excel59",
+      "topic": "Erro #VALOR!",
+      "c": "Na planilha de comissões de uma imobiliária de Vitória, D2 tem =B2*C2. Em C2, em vez do percentual, alguém digitou a palavra \"isento\".",
+      "q": "O que aparece em D2?",
+      "a": 1,
+      "src": "suporte.microsoft.com: Como corrigir um erro #VALOR!",
+      "o": [
+        {
+          "t": "0, porque texto vale zero em contas.",
+          "p": "generalizacao",
+          "w": "Algumas funções, como SOMA, ignoram texto em intervalos. Mas o operador * com texto gera erro, e não zero."
+        },
+        {
+          "t": "#VALOR!",
+          "p": "correta",
+          "w": "Operações matemáticas com texto que não representa número geram #VALOR!. \"isento\" não pode ser multiplicado."
+        },
+        {
+          "t": "#NOME?",
+          "p": "troca",
+          "w": "#NOME? aparece quando o Excel não reconhece um nome, como uma função digitada errado. Aqui o texto está dentro de uma célula."
+        },
+        {
+          "t": "#DIV/0!",
+          "p": "calculo",
+          "w": "#DIV/0! surge em divisões por zero ou por célula vazia. A fórmula é uma multiplicação."
+        }
+      ]
+    },
+    {
+      "id": "excel60",
+      "topic": "Erro #NOME?",
+      "c": "Um analista de uma multinacional em Campinas, acostumado ao Excel em inglês, digitou no Excel em português a fórmula =SUMIF(A:A;\"Sul\";C:C) e confirmou com Enter.",
+      "q": "O que acontece?",
+      "a": 0,
+      "src": "suporte.microsoft.com: Como corrigir um erro #NOME?",
+      "o": [
+        {
+          "t": "Aparece #NOME?, porque o Excel em português não reconhece o nome digitado em inglês; o correto é SOMASE.",
+          "p": "correta",
+          "w": "O nome da função precisa estar no idioma do Excel. Um nome não reconhecido gera #NOME?."
+        },
+        {
+          "t": "O Excel traduz o nome para SOMASE automaticamente ao confirmar.",
+          "p": "extrapolacao",
+          "w": "Funções de arquivos criados em outro idioma são traduzidas ao abrir, mas o que se digita precisa estar em português."
+        },
+        {
+          "t": "Aparece #VALOR!, porque os argumentos estão separados por ponto e vírgula.",
+          "p": "troca",
+          "w": "O ponto e vírgula é o separador certo no Excel em português. O problema é o nome da função."
+        },
+        {
+          "t": "Aparece #REF!, porque a fórmula usa colunas inteiras.",
+          "p": "restricao",
+          "w": "Colunas inteiras, como A:A, são referências válidas. #REF! indica referência inexistente."
+        }
+      ]
+    }
+  ]
+}
