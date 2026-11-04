@@ -60,7 +60,7 @@ try {
     await onboard(p, 'Local'); await p.click('[data-act=quick]'); await playSession(p);
     await p.click('[data-tab=perfil]');
     await p.evaluate(() => ACT['open-deck']({ id: 'port' })); await p.waitForTimeout(300);
-    ok('jornada da trilha em etapas', (await p.locator('.journey .jn-btn[data-act=unit-start]').count()) === Math.ceil((await p.evaluate(() => deckById('port').questions.length)) / 4));
+    ok('jornada da trilha em etapas', (await p.locator('.jmodule').count()) === Math.ceil(Math.ceil((await p.evaluate(() => deckById('port').questions.length)) / 4) / 5) && (await p.locator('.journey .jn-btn[data-act=unit-start]').count()) === 5);
     await p.click('.jn.current .jn-btn'); await p.waitForTimeout(200);
     ok('etapa abre um ciclo com as questões dela', await p.evaluate(() => ui.session && ui.session.params.unit && ui.session.queue.every((id) => id.startsWith('port'))));
     await p.evaluate(() => ACT.end());
@@ -265,6 +265,20 @@ try {
   const anon = await device('anon'); await onboard(anon, 'Visitante');
   await anon.click('[data-tab=trilhas]'); await anon.click('[data-act=tab][data-tab=importar]');
   ok('sem conta: IA pede login', (await anon.locator('.notice >> text=Entre na sua conta').count()) === 1);
+
+  /* ---------- Simulado Cebraspe, módulos da jornada e filtros ---------- */
+  await A.evaluate(() => ACT['sim-cespe']({ id: 'dconst' })); await A.waitForTimeout(200);
+  ok('simulado Cebraspe abre só com Certo/Errado', await A.evaluate(() => ui.session.params.cespe && ui.session.queue.every((id) => QINDEX[id].q.type === 'ce')));
+  await A.click('.opt >> nth=0'); await A.click('[data-act=sim-next]'); await A.click('[data-act=sim-skip]');
+  await A.evaluate(() => { const s = ui.session; while (s.i + 1 < s.queue.length) nextQuestion(); }); await A.click('[data-act=sim-skip]'); await A.waitForTimeout(400);
+  if (await A.locator('.scrim').count()) { await A.keyboard.press('Escape'); await A.waitForTimeout(300); }
+  ok('nota líquida do Cebraspe', await A.evaluate(() => /Simulado Cebraspe/.test(document.querySelector('.result .lbl').textContent)));
+  await A.evaluate(() => ACT.end()); await A.evaluate(() => ACT['open-deck']({ id: 'port' })); await A.waitForTimeout(200);
+  ok('jornada em módulos', (await A.locator('.jmodule').count()) === 3 && (await A.locator('.jmodule .jn').count()) <= 6);
+  await A.click('.jmod >> nth=2'); ok('abrir outro módulo', (await A.locator('.jmodule .jn').count()) > 6);
+  ok('lista de questões limitada com ver todas', (await A.locator('[data-act=study-one]').count()) === 12 && (await A.locator('[data-act=qmore]').count()) === 1);
+  await A.click('[data-act=qf][data-f=ce]'); ok('filtro Certo/Errado', (await A.locator('[data-act=study-one]').count()) === 12);
+  await A.click('[data-act=qf][data-f=todas]');
 
   /* ---------- Reportar questão, liga, amigos e notificações ---------- */
   await A.click('[data-tab=home]').catch(() => {}); await A.waitForTimeout(200);

@@ -157,7 +157,7 @@
       "c": "Em um laboratório de biologia molecular em Ribeirão Preto (SP), a análise de uma amostra de DNA de fita dupla mostrou que 30% das bases nitrogenadas eram adenina.",
       "q": "Quais são as porcentagens esperadas de timina, citosina e guanina?",
       "a": 2,
-      "src": "Regras de Chargaff e pareamento de bases (Watson & Crick, Nature, 1953)",
+      "src": "Regras de Chargaff (Chargaff, 1950) e pareamento de bases (Watson & Crick, Nature, 1953)",
       "o": [
         {
           "t": "Timina 30%, citosina 35% e guanina 35%, porque citosina e guanina somam 100% menos 30%.",

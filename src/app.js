@@ -306,7 +306,7 @@ function showToast() {
 const toast = notify;
 
 /* ================= Sessões ================= */
-function startCycle({ decks = [], ids = null, size = 10, title = 'Ciclo', reviewOnly = false, mode = 'learn', unit = null, diag = false }) {
+function startCycle({ decks = [], ids = null, size = 10, title = 'Ciclo', reviewOnly = false, mode = 'learn', unit = null, diag = false, cespe = false }) {
   let list;
   const now = Date.now();
   if (ids) list = ids.slice(0, size);
@@ -322,8 +322,8 @@ function startCycle({ decks = [], ids = null, size = 10, title = 'Ciclo', review
   }
   if (!list.length) { render(); toast(reviewOnly ? 'Nenhuma revisão pendente agora.' : 'Não há questões para este ciclo.'); return; }
   const dueSet = new Set(list.filter((id) => S.cards[id] && S.cards[id].due <= now));
-  ui.session = { mode, title, params: { decks, ids, size, title, reviewOnly, mode, unit, diag }, queue: list, i: 0, results: [], requeued: {}, xp: 0, dueSet, added: 0, combo: 0, maxCombo: 0, coins: 0, streak0: S.streak.last === dayKey() ? -1 : S.streak.count };
-  if (mode === 'sim') { ui.session.answers = {}; ui.session.start = now; ui.session.deadline = now + list.length * 90e3; startSimTimer(); }
+  ui.session = { mode, title, params: { decks, ids, size, title, reviewOnly, mode, unit, diag, cespe }, queue: list, i: 0, results: [], requeued: {}, xp: 0, dueSet, added: 0, combo: 0, maxCombo: 0, coins: 0, streak0: S.streak.last === dayKey() ? -1 : S.streak.count };
+  if (mode === 'sim') { ui.session.answers = {}; ui.session.start = now; ui.session.deadline = now + list.length * (cespe ? 60e3 : 90e3); startSimTimer(); }
   setupQuestion();
   render();
   $('#view').scrollTop = 0;
@@ -400,11 +400,12 @@ function finishSim() {
     const q = QINDEX[id].q; const a = s.answers[id];
     const correct = a != null && a === q.a;
     if (correct) ok++;
-    schedule(id, correct ? 3 : 1);
+    schedule(id, correct ? 3 : a == null && s.params.cespe ? 2 : 1);
     if (a != null) { L.n++; if (correct) L.ok++; if (!correct) { const p = q.o[a].p; S.traps[p] = (S.traps[p] || 0) + 1; } }
     s.results.push({ id, correct, pick: a, time: 0 });
   });
-  const score = Math.round((ok / s.queue.length) * 100);
+  const blankN = s.queue.filter((id) => s.answers[id] == null).length;
+  const score = s.params.cespe ? Math.max(0, Math.round(((ok - (s.queue.length - ok - blankN)) / s.queue.length) * 100)) : Math.round((ok / s.queue.length) * 100);
   s.score = score; s.used = Date.now() - s.start;
   const gain = ok * 10; S.xp += gain; s.xp = gain;
   S.sims = (S.sims || []).concat([{ at: Date.now(), title: s.title, score, n: s.queue.length }]).slice(-20);
@@ -685,15 +686,26 @@ function viewDeck(d) {
         <button class="btn btn-orange btn-block" data-act="${st.due ? 'review-deck' : 'cycle-deck'}" data-id="${esc(d.id)}">${st.due ? 'Revisar ' + plural(st.due, 'questão', 'questões') : 'Estudar agora · ' + Math.min(10, st.t) + ' questões'}</button>
         <div class="duo">${st.due ? `<button class="btn btn-soft btn-sm" data-act="cycle-deck" data-id="${esc(d.id)}">Ciclo completo</button>` : `<button class="btn btn-soft btn-sm" data-act="quick-deck" data-id="${esc(d.id)}">3 rápidas</button>`}
           <button class="btn btn-soft btn-sm" data-act="sim-deck" data-id="${esc(d.id)}">Simulado · ${Math.round(simN * 1.5)} min</button></div>
-        ${(() => { const n = d.questions.filter((q) => q.type === 'ce').length; return n >= 4 ? `<button class="btn btn-ghost btn-sm btn-block ce-btn" data-act="ce-deck" data-id="${esc(d.id)}"><b>C</b><b>E</b> Treino Certo ou Errado · ${n} itens</button>` : ''; })()}
+        ${(() => { const n = d.questions.filter((q) => q.type === 'ce').length; return n >= 4 ? `<div class="duo ce-duo"><button class="btn btn-ghost btn-sm ce-btn" data-act="ce-deck" data-id="${esc(d.id)}"><b>C</b><b>E</b> Treino · ${n}</button>${n >= 10 ? `<button class="btn btn-ghost btn-sm" data-act="sim-cespe" data-id="${esc(d.id)}">Simulado Cebraspe</button>` : ''}</div>` : ''; })()}
       </div>
       ${journeyHTML(d)}
       <div class="blk"><div class="sec"><h2>Conteúdo</h2><div class="legend"><span><i class="dot m"></i>Firme</span><span><i class="dot l"></i>Aprendendo</span></div></div>
-        <div class="list">${d.questions.map((q, i) => {
+        ${(() => {
+          const f = ui.qf || 'todas'; const ceN = d.questions.filter((q) => q.type === 'ce').length;
+          const weak = new Set(weakCards().filter((x) => x.deck.id === d.id).map((x) => x.id));
+          const pass = (q) => { const c = cardOf(q.id); return f === 'todas' ? true : f === 'revisar' ? c && c.s && c.due <= now : f === 'fracas' ? weak.has(q.id) : f === 'novas' ? !c || !c.s : f === 'ce' ? q.type === 'ce' : true; };
+          const all = d.questions.map((q, i) => [q, i]).filter(([q]) => pass(q)); const lim = ui.qmore === d.id ? all.length : 12;
+          const chip = (k, l, n) => (n === 0 && k !== 'todas' ? '' : `<button class="fchip" data-act="qf" data-f="${k}" aria-pressed="${f === k}">${l}${n != null ? ' · ' + n : ''}</button>`);
+          const nRev = d.questions.filter((q) => { const c = cardOf(q.id); return c && c.s && c.due <= now; }).length;
+          const nNew = d.questions.filter((q) => { const c = cardOf(q.id); return !c || !c.s; }).length;
+          return `<div class="chips qfilters" role="group" aria-label="Filtrar questões">${chip('todas', 'Todas', d.questions.length)}${chip('revisar', 'Revisar agora', nRev)}${chip('fracas', 'Fracas', weak.size)}${chip('novas', 'Novas', nNew)}${chip('ce', 'Certo/Errado', ceN)}</div>
+          <div class="list">${all.slice(0, lim).map(([q, i]) => {
           const c = cardOf(q.id); const cls = !c || !c.s ? '' : c.s >= FIRM && c.g > 1 ? 'm' : 'l';
           const info = !c || !c.s ? 'Nova' : Math.round(retr(c) * 100) + '%';
-          return `<div class="item"><span class="tile ${i % 2 ? 'c-blue' : 'c-peach'} num" style="width:36px;height:36px;border-radius:12px;font-size:13px">${pad(i + 1)}</span><div class="main"><b>${esc(q.topic)}</b><span>${!c || !c.s ? 'Ainda não estudada' : c.due <= now ? 'Revisar agora' : 'Revisão ' + whenText(c.due)}</span></div><span class="end num"><i class="dot ${cls}"></i>${info}</span></div>`;
-        }).join('')}</div></div>
+          return `<button class="item" data-act="study-one" data-id="${esc(q.id)}"><span class="tile ${i % 2 ? 'c-blue' : 'c-peach'} num" style="width:36px;height:36px;border-radius:12px;font-size:13px">${pad(i + 1)}</span><div class="main"><b>${esc(q.topic)}</b><span>${!c || !c.s ? 'Ainda não estudada' : c.due <= now ? 'Revisar agora' : 'Revisão ' + whenText(c.due)}</span></div><span class="end num"><i class="dot ${cls}"></i>${info}</span></button>`;
+        }).join('') || '<div class="item noicon"><div class="main"><span>Nenhuma questão neste filtro.</span></div></div>'}</div>
+          ${all.length > lim ? `<button class="btn btn-ghost btn-sm btn-block" data-act="qmore" data-id="${esc(d.id)}">Ver todas as ${all.length} questões</button>` : ''}`;
+        })()}</div>
       ${d.custom ? `<div class="list">${ui.confirmDelete ? `<div class="item noicon"><div class="main"><b>Excluir esta trilha?</b><span>As questões e o progresso serão apagados.</span></div></div><div class="item noicon" style="gap:10px"><button class="btn btn-ghost btn-sm" style="flex:1" data-act="cancel-delete">Cancelar</button><button class="btn btn-danger btn-sm" style="flex:1" data-act="delete-deck" data-id="${esc(d.id)}">Excluir</button></div>` :
         `<button class="item noicon" data-act="ask-delete" style="justify-content:center;color:var(--bad);font-weight:700">Excluir trilha</button>`}</div>` : ''}
       ${d.source ? `<p class="tiny">Criada a partir de ${esc(d.source)} em ${new Date(d.createdAt).toLocaleDateString('pt-BR')}.</p>` : ''}
@@ -715,9 +727,9 @@ function viewSession() {
   const top = (extra) => `<div class="sess-head"><div class="r"><button class="icon-btn" data-act="quit" aria-label="Sair">${ico('close')}</button><div class="pline" role="progressbar" aria-label="Progresso do ciclo" aria-valuemin="1" aria-valuenow="${s.i + 1}" aria-valuemax="${s.queue.length}"><i style="width:${Math.max(4, pct)}%"></i></div><span class="d num" style="font-weight:600;font-size:14px;min-width:40px;text-align:right">${s.i + 1}/${s.queue.length}</span></div>${extra}</div>`;
   const opts = (fb) => `<div class="opts${q.type === 'ce' ? ' ce' : ''}${!fb && s.justRevealed ? ' in' : ''}">${s.order.map((oi, di) => fb ? `<button class="opt ${oi === q.a ? 'right' : oi === s.pick ? 'wrong' : 'dim'}" disabled><span class="L">${Lt(di)}</span><span>${esc(q.o[oi].t)}</span></button>` : `<button class="opt" data-act="pick" data-i="${oi}" aria-pressed="${s.pick === oi}"><span class="L">${Lt(di)}</span><span>${esc(q.o[oi].t)}</span></button>`).join('')}</div>`;
   if (s.mode === 'sim') {
-    return `<div class="sess">${top(`<div class="r" style="justify-content:space-between;padding-left:6px"><span class="tag c-blue">Simulado · gabarito no final</span><span class="timer-chip" id="sim-timer">${mmss(s.deadline - Date.now())}</span></div>`)}
+    return `<div class="sess">${top(`<div class="r" style="justify-content:space-between;padding-left:6px"><span class="tag c-blue">${s.params.cespe ? 'Cebraspe · certo +1, errado −1' : 'Simulado · gabarito no final'}</span><span class="timer-chip" id="sim-timer">${mmss(s.deadline - Date.now())}</span></div>`)}
       <div class="sess-body">${head}${opts(false)}</div>
-      <div class="dock"><div class="duo"><button class="btn btn-ghost" data-act="sim-skip">Pular</button><button class="btn btn-primary" data-act="sim-next" ${s.pick == null ? 'disabled' : ''}>${s.i + 1 >= s.queue.length ? 'Entregar' : 'Confirmar'}</button></div></div></div>`;
+      <div class="dock"><div class="duo"><button class="btn btn-ghost" data-act="sim-skip">${s.params.cespe ? 'Em branco' : 'Pular'}</button><button class="btn btn-primary" data-act="sim-next" ${s.pick == null ? 'disabled' : ''}>${s.i + 1 >= s.queue.length ? 'Entregar' : 'Confirmar'}</button></div></div></div>`;
   }
   const phases = ['desafio', 'esforco', 'feedback', 'consol'], labels = ['Desafio', 'Esforço', 'Recompensa', 'Porquê'];
   const pi = phases.indexOf(s.phase);
@@ -803,6 +815,7 @@ function viewSummary() {
 function viewSimSummary() {
   const s = ui.session;
   const ok = s.results.filter((x) => x.correct).length, blank = s.results.filter((x) => x.pick == null).length;
+  if (s.params.cespe) return viewCespeSummary(s, ok, blank);
   const vt = s.score >= 70 ? 'Desempenho de aprovação.' : s.score >= 50 ? 'No caminho. Revise os erros abaixo.' : 'Base ainda frágil. Os erros já entraram nas suas revisões.';
   return `<div class="sess"><div class="result"><span class="lbl">Simulado · ${esc(s.title)}</span><div class="big num">${cnt(s.score, '%')}</div><p>${vt}</p></div>
     <div class="rstats"><div class="card"><b class="num" style="color:var(--ok)">${ok}</b><span>certas</span></div><div class="card"><b class="num" style="color:var(--bad)">${s.queue.length - ok - blank}</b><span>erradas</span></div><div class="card"><b class="num">${mmss(s.used)}</b><span>tempo</span></div></div>
@@ -813,6 +826,21 @@ function viewSimSummary() {
         <p><b style="color:var(--ok)">Correta:</b> ${esc(q.o[q.a].t)} ${esc(q.o[q.a].w)}</p></div></details>`; }).join('')}</div></div>
       <button class="btn btn-primary btn-block" data-act="end">Voltar ao início</button></div></div>`;
 }
+
+function viewCespeSummary(s, ok, blank) {
+  const n = s.queue.length, bad = n - ok - blank, net = ok - bad;
+  const vt = net >= n * 0.6 ? 'Nota líquida de aprovação. Continue nesse ritmo.' : net > 0 ? 'Nota positiva. Agora é reduzir os erros: na Cebraspe, cada erro apaga um acerto.' : 'Nota líquida negativa ou zero: os erros anularam os acertos. Na dúvida, deixe em branco.';
+  const tip = bad > 0 ? `Se tivesse deixado em branco os ${bad} ${bad === 1 ? 'item que errou' : 'itens que errou'}, sua nota seria <span class="hl">${ok}</span> em vez de <span class="hl">${net}</span>.` : blank ? `Nenhum erro: deixar em branco quando não sabia foi a estratégia certa.` : 'Gabarito perfeito.';
+  return `<div class="sess"><div class="result"><span class="lbl">Simulado Cebraspe · ${esc(s.title)}</span><div class="big num">${net > 0 ? '+' : ''}${cnt(net)}<small> /${n}</small></div><p>${vt}</p></div>
+    <div class="rstats"><div class="card"><b class="num" style="color:var(--ok)">${ok}</b><span>certos</span></div><div class="card"><b class="num" style="color:var(--bad)">${bad}</b><span>errados</span></div><div class="card"><b class="num">${blank}</b><span>em branco</span></div></div>
+    <div class="page" style="padding-top:18px"><div class="callout" style="background:var(--t-blue)"><span class="tile" style="background:var(--navy);color:#fff">${ico('target')}</span><div><b>Estratégia</b><p>${tip}</p></div></div>
+      <div class="blk"><div class="sec"><h2>Gabarito comentado</h2></div>
+      <div class="list">${s.results.map((r, i) => { const q = QINDEX[r.id].q; const ans = q.a === 0 ? 'Certo' : 'Errado'; return `<details class="gab"><summary><span class="gi ${r.correct ? 'ok' : r.pick == null ? '' : 'bad'}">${ico(r.correct ? 'check' : r.pick == null ? 'clock' : 'x')}</span><span style="flex:1;min-width:0">${i + 1}. ${esc(q.topic)}</span><span class="tag ${q.a === 0 ? 'c-mint' : 'c-pink'}">${ans}</span>${chev()}</summary><div class="body">
+        <p style="color:var(--ink);font-weight:700">${esc(q.q)}</p>
+        <p>${r.pick == null ? '<b>Em branco.</b> ' : r.correct ? '<b style="color:var(--ok)">Você acertou.</b> ' : '<b style="color:var(--bad)">Você errou (−1).</b> '}${esc(q.o[q.a].w)}</p></div></details>`; }).join('')}</div></div>
+      <button class="btn btn-primary btn-block" data-act="end">Voltar ao início</button></div></div>`;
+}
+function cespeIds(deckIds) { return shuffle(deckIds.map(deckById).filter(Boolean).flatMap((d) => d.questions.filter((q) => q.type === 'ce').map((q) => q.id))); }
 
 /* ---------- Criar ---------- */
 function viewImport() {
@@ -963,6 +991,7 @@ function viewProfile() {
 function simSheet(decks) {
   ui.sheet = `<div class="blk" style="gap:6px"><h2>Simulado</h2><p class="muted small">Até 10 questões sorteadas, 90 segundos por questão e gabarito só no final.</p></div>
     <div class="list">${decks.map((d) => { const lk = PAL[lookOf(d).pal]; return `<button class="item" data-act="sim-deck" data-id="${esc(d.id)}"><span class="tile" style="background:${lk.bg};color:${lk.fg}">${ico('clock')}</span><div class="main"><b>${esc(d.title)}</b><span>${Math.min(10, d.questions.length)} questões · ${Math.round(Math.min(10, d.questions.length) * 1.5)} min</span></div>${chev()}</button>`; }).join('')}
+    ${cespeIds(personaDecks()).length >= 10 ? `<button class="item" data-act="sim-cespe"><span class="tile c-lilac"><b style="font-size:13px">C/E</b></span><div class="main"><b>Simulado Cebraspe</b><span>${Math.min(20, cespeIds(personaDecks()).length)} itens Certo/Errado · certo +1, errado −1</span></div>${chev()}</button>` : ''}
     <button class="item" data-act="sim-mix"><span class="tile c-peach">${ico('shuffle')}</span><div class="main"><b>Misto das suas trilhas</b><span>10 questões · 15 min</span></div>${chev()}</button></div>`;
   renderSheet();
 }
@@ -982,12 +1011,16 @@ const ACT = {
   'cycle-all': () => startCycle({ decks: personaDecks(), size: Math.max(5, Math.min(10, S.user.goal)), title: 'Sessão' }),
   'review-all': () => startCycle({ ids: dueIds(), size: 20, title: 'Revisão' }),
   'errors': () => startCycle({ ids: errorIds(), size: 15, title: 'Caderno de erros' }),
-  'open-deck': (d) => { ui.sheet = null; ui.tab = 'trilhas'; ui.deck = d.id; ui.confirmDelete = false; render(); $('#view').scrollTop = 0; },
+  'open-deck': (d) => { ui.sheet = null; ui.tab = 'trilhas'; ui.deck = d.id; ui.confirmDelete = false; ui.qf = 'todas'; ui.qmore = null; render(); $('#view').scrollTop = 0; },
+  'qf': (d) => { ui.qf = d.f; ui.qmore = null; rerender(); },
+  'qmore': (d) => { ui.qmore = d.id; rerender(); },
+  'study-one': (d) => { const x = QINDEX[d.id]; if (x) startCycle({ ids: [d.id], size: 1, title: x.q.topic }); },
   'close-deck': () => { ui.deck = null; render(); },
   'cycle-deck': (d) => { const dk = deckById(d.id); startCycle({ decks: [d.id], size: 10, title: dk ? dk.title : 'Ciclo' }); },
   'review-deck': (d) => startCycle({ decks: [d.id], size: 20, title: 'Revisão', reviewOnly: true }),
   'sim-pick': () => simSheet(personaDecks().map(deckById).filter(Boolean)),
   'sim-deck': (d) => { ui.sheet = null; const dk = deckById(d.id); startCycle({ decks: [d.id], size: 10, title: dk ? dk.title : 'Simulado', mode: 'sim' }); },
+  'sim-cespe': (d) => { ui.sheet = null; const ids = cespeIds(d && d.id ? [d.id] : personaDecks()).slice(0, 20); if (ids.length) startCycle({ ids, size: ids.length, title: d && d.id ? deckById(d.id).title : 'Certo ou Errado', mode: 'sim', cespe: true }); },
   'sim-mix': () => { ui.sheet = null; startCycle({ decks: personaDecks(), size: 10, title: 'Misto', mode: 'sim' }); },
   'sim-next': () => { const s = ui.session; if (s.pick == null) return; s.answers[s.queue[s.i]] = s.pick; if (s.i + 1 >= s.queue.length) finishSim(); else nextQuestion(); },
   'sim-skip': () => { const s = ui.session; if (s.i + 1 >= s.queue.length) finishSim(); else nextQuestion(); },
@@ -1034,7 +1067,7 @@ const ACT = {
   'sim-end': () => { ui.sheet = null; finishSim(); },
   'sheet-close': () => {
     const sc = document.querySelector('.scrim');
-    if (sc && !REDUCED && !sc.classList.contains('closing')) { sc.classList.add('closing'); setTimeout(() => { ui.sheet = null; renderSheet(); }, 190); }
+    if (sc && !REDUCED && !sc.classList.contains('closing')) { sc.classList.add('closing'); setTimeout(() => { if (document.querySelector('.scrim') === sc) { ui.sheet = null; renderSheet(); } }, 190); }
     else { ui.sheet = null; renderSheet(); }
   },
   'end': () => { if (ui.session) { clearInterval(ui.session.tick); clearInterval(ui.session.simTick); } ui.session = null; ui.sheet = null; ui.tab = 'home'; render(); $('#view').scrollTop = 0; },

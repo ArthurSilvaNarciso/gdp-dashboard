@@ -1,0 +1,22 @@
+import { createRequire } from 'node:module';
+import { start } from '../dev/server.mjs';
+const { chromium } = createRequire(import.meta.url)('playwright');
+const OUT = '/tmp/claude-0/-home-claude/bb4201d1-86ae-53d3-b9e7-0bd93a0ff471/scratchpad/tour/ce2-';
+const srv = await start(3971); const b = await chromium.launch();
+const c = await b.newContext({ viewport: { width: 390, height: 844 } }); const p = await c.newPage();
+const errs = []; p.on('pageerror', (e) => errs.push(e.message));
+await p.goto('http://localhost:3971/'); await p.waitForTimeout(500);
+await p.click('[data-act=onb-next]'); await p.fill('#onb-name', 'Ruth'); await p.click('[data-act=persona][data-id=concurso]'); await p.click('[data-act=onb-next]'); await p.click('[data-act=onb-finish]'); await p.waitForTimeout(600); await p.keyboard.press('Escape');
+await p.evaluate(() => ACT['sim-pick']()); await p.waitForTimeout(400); await p.screenshot({ path: OUT + '1-sheet.png' });
+await p.click('[data-act=sim-cespe]'); await p.waitForTimeout(400); await p.screenshot({ path: OUT + '2-item.png' });
+for (let i = 0; i < 20; i++) {
+  const st = await p.evaluate(() => ui.session && ui.session.phase); if (st !== 'sim') break;
+  if (i % 5 === 4) await p.click('[data-act=sim-skip]');
+  else { const k = await p.evaluate((ii) => { const s = ui.session; const q = QINDEX[s.queue[s.i]].q; return ii % 3 ? q.a : 1 - q.a; }, i); await p.click(`.opt >> nth=${k}`); await p.click('[data-act=sim-next]'); }
+  await p.waitForTimeout(60);
+}
+await p.waitForTimeout(700); if (await p.locator('.scrim').count()) { await p.keyboard.press('Escape'); await p.waitForTimeout(300); }
+const h = await p.evaluate(() => document.querySelector('.sess').scrollHeight); await p.setViewportSize({ width: 390, height: Math.min(1700, h) }); await p.waitForTimeout(300);
+await p.screenshot({ path: OUT + '3-result.png' });
+console.log(await p.evaluate(() => ui.session && [ui.session.score, ui.session.results.length]), errs.join('\n') || 'sem erros');
+await b.close(); srv.close(); process.exit(0);

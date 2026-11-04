@@ -3,7 +3,7 @@
   "questions": [
     {
       "id": "neuro13", "topic": "Teste versus releitura",
-      "c": "Um cursinho de Campinas repetiu o desenho de um estudo clássico: o grupo A leu um texto duas vezes; o grupo B leu uma vez e depois escreveu tudo o que lembrava, sem consultar e sem receber correção. Os dois grupos fizeram um teste final 5 minutos depois e outro uma semana depois.",
+      "c": "Um cursinho de Campinas repetiu o desenho de um estudo clássico: o grupo A leu um texto duas vezes; o grupo B leu uma vez e depois escreveu tudo o que lembrava, sem consultar e sem receber correção. Metade de cada grupo fez o teste final 5 minutos depois; a outra metade, uma semana depois.",
       "q": "Que padrão de resultados Roediger & Karpicke (2006) encontraram nesse tipo de comparação?", "a": 2, "src": "Roediger & Karpicke (2006), Psychological Science",
       "o": [
         { "t": "O grupo do teste foi melhor após 5 minutos, mas o da releitura venceu após uma semana.", "p": "inversao", "w": "Inverte o resultado. A releitura levou pequena vantagem no teste imediato; a vantagem do teste apareceu nos testes atrasados." },

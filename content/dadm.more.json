@@ -1051,7 +1051,7 @@
       "c": "A prefeitura de Ribeirão Preto quer vender 40 veículos inservíveis da frota municipal e alguns bens móveis legalmente apreendidos.",
       "q": "Qual modalidade e qual critério de julgamento a Lei 14.133/2021 prevê para essa venda?",
       "a": 1,
-      "src": "Lei 14.133/2021, arts. 6º, XL, 28 e 33, VI",
+      "src": "Lei 14.133/2021, arts. 6º, XL, 28 e 33, V",
       "o": [
         {
           "t": "Concorrência, com critério de menor preço.",
@@ -1061,7 +1061,7 @@
         {
           "t": "Leilão, com critério de maior lance.",
           "p": "correta",
-          "w": "Art. 6º, XL: leilão é a modalidade para alienação de bens imóveis ou de bens móveis inservíveis ou legalmente apreendidos a quem oferecer o maior lance (art. 33, VI)."
+          "w": "Art. 6º, XL: leilão é a modalidade para alienação de bens imóveis ou de bens móveis inservíveis ou legalmente apreendidos a quem oferecer o maior lance (art. 33, V)."
         },
         {
           "t": "Convite, por se tratar de bens de pequeno valor.",
@@ -1162,7 +1162,7 @@
       "c": "Um órgão federal em Brasília quer contratar uma empresa para reduzir o consumo de energia de seus prédios, pagando a ela um percentual da economia efetivamente gerada, no modelo de contrato de eficiência.",
       "q": "Qual critério de julgamento a Lei 14.133/2021 determina para essa licitação?",
       "a": 3,
-      "src": "Lei 14.133/2021, arts. 6º, LIII, 33, V, e 39",
+      "src": "Lei 14.133/2021, arts. 6º, LIII, 33, VI, e 39",
       "o": [
         {
           "t": "Menor preço, critério obrigatório em todas as licitações.",
@@ -1172,7 +1172,7 @@
         {
           "t": "Maior lance, porque a empresa remunera a Administração pela economia obtida.",
           "p": "inversao",
-          "w": "Inverte quem paga: no contrato de eficiência, a Administração remunera a empresa com base na economia. Maior lance é o critério do leilão (art. 33, VI)."
+          "w": "Inverte quem paga: no contrato de eficiência, a Administração remunera a empresa com base na economia. Maior lance é o critério do leilão (art. 33, V)."
         },
         {
           "t": "Técnica e preço, único critério admitido para serviços que envolvem engenharia.",

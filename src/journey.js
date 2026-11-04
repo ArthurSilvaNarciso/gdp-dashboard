@@ -16,24 +16,42 @@ function units(d) {
   out.forEach((u, i) => { u.state = u.done ? 'done' : i === cur ? 'current' : 'todo'; });
   return out;
 }
+const MOD = 5;
 function journeyHTML(d) {
   const us = units(d); if (us.length < 2) return '';
   const X = [0, 54, 78, 54, 0, -54, -78, -54];
   const doneN = us.filter((u) => u.done).length;
   const star = (on) => `<svg viewBox="0 0 24 24" class="jstar ${on ? 'on' : ''}" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg>`;
-  const nodes = us.map((u, i) => {
+  const node = (u, i) => {
     const label = u.state === 'done' ? `Etapa ${u.n} concluída, ${u.stars} de 3 estrelas` : u.state === 'current' ? `Etapa ${u.n}, próxima etapa` : `Etapa ${u.n}`;
-    const inner = u.state === 'done' ? ico('check') : u.state === 'current' ? `<b class="num">${u.n}</b>` : `<b class="num">${u.n}</b>`;
+    const inner = u.state === 'done' ? ico('check') : `<b class="num">${u.n}</b>`;
     return `<div class="jn ${u.state}" style="--x:${X[i % X.length]}px">
       ${u.state === 'current' ? `<span class="jn-tip">${u.seen ? 'Continuar' : 'Começar'}</span>` : ''}
       <button class="jn-btn" data-act="unit-start" data-id="${esc(d.id)}" data-n="${u.n}" aria-label="${label}">${inner}</button>
       ${u.state === 'done' ? `<span class="jn-stars">${star(u.stars >= 1)}${star(u.stars >= 2)}${star(u.stars >= 3)}</span>` : `<span class="jn-cap">${esc(u.topics[0])}</span>`}
     </div>`;
-  }).join('');
-  return `<div class="blk"><div class="sec"><h2>Sua jornada</h2><span class="tiny num" style="font-weight:700">${doneN}/${us.length} etapas</span></div>
-    <div class="journey">${nodes}<div class="jn trophy ${doneN === us.length ? 'done' : ''}" style="--x:0px"><span class="jn-btn">${ico('trophy')}</span><span class="jn-cap">${doneN === us.length ? 'Trilha dominada' : 'Fim da trilha'}</span></div></div></div>`;
+  };
+  const trophy = `<div class="jn trophy ${doneN === us.length ? 'done' : ''}" style="--x:0px"><span class="jn-btn">${ico('trophy')}</span><span class="jn-cap">${doneN === us.length ? 'Trilha dominada' : 'Fim da trilha'}</span></div>`;
+  let body;
+  if (us.length <= MOD + 1) body = `<div class="journey">${us.map(node).join('')}${trophy}</div>`;
+  else {
+    const mods = []; for (let i = 0; i < us.length; i += MOD) mods.push(us.slice(i, i + MOD));
+    const cur = Math.max(0, mods.findIndex((m) => m.some((u) => !u.done))); const curIdx = cur < 0 ? mods.length - 1 : cur;
+    const open = (ui.jopen && ui.jopen[d.id]) || { [curIdx]: true };
+    body = mods.map((m, k) => {
+      const dn = m.filter((u) => u.done).length; const st = m.reduce((a, u) => a + u.stars, 0); const isOpen = !!open[k];
+      const state = dn === m.length ? 'done' : k === curIdx ? 'cur' : 'todo';
+      const head = `<button class="jmod ${state}" data-act="jmod" data-id="${esc(d.id)}" data-k="${k}" aria-expanded="${isOpen}">
+        <span class="jm-n">${state === 'done' ? ico('check') : `<b class="num">${k + 1}</b>`}</span>
+        <span class="jm-t"><b>Módulo ${k + 1}</b><span>${esc(m[0].topics[0])}${m.length > 1 ? ' → ' + esc(m[m.length - 1].topics[0]) : ''}</span></span>
+        <span class="jm-p num">${dn === m.length ? `${star(true)} ${st}/${m.length * 3}` : `${dn}/${m.length}`}</span><span class="jm-c${isOpen ? ' open' : ''}">${chev()}</span></button>`;
+      return `<div class="jmodule ${state}">${head}${isOpen ? `<div class="journey">${m.map((u, i) => node(u, k * MOD + i)).join('')}${k === mods.length - 1 ? trophy : ''}</div>` : ''}</div>`;
+    }).join('');
+  }
+  return `<div class="blk"><div class="sec"><h2>Sua jornada</h2><span class="tiny num" style="font-weight:700">${doneN}/${us.length} etapas</span></div>${body}</div>`;
 }
 Object.assign(ACT, {
+  'jmod': (d) => { ui.jopen = ui.jopen || {}; const units_ = units(deckById(d.id)); const mods = Math.ceil(units_.length / MOD); const cur = Math.floor(Math.max(0, units_.findIndex((u) => !u.done)) / MOD); const o = ui.jopen[d.id] || { [Math.min(cur, mods - 1)]: true }; o[d.k] = !o[d.k]; ui.jopen[d.id] = o; rerender(); },
   'unit-start': (d) => {
     const dk = deckById(d.id); if (!dk) return;
     const u = units(dk)[Number(d.n) - 1]; if (!u) return;
