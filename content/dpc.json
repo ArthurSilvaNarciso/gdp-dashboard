@@ -1,0 +1,1101 @@
+{
+  "id": "dpc",
+  "title": "Processo Civil",
+  "subtitle": "CPC/2015 do pedido à sentença",
+  "tag": "Concursos",
+  "blurb": "Prazos, competência, tutelas, procedimento comum, cumprimento e recursos em casos práticos, com o artigo exato do CPC/2015.",
+  "questions": [
+    {
+      "id": "dpc1",
+      "topic": "Decisão surpresa",
+      "c": "Ao sentenciar uma ação de cobrança em Recife, a juíza percebe que a pretensão pode estar prescrita, ponto que nenhuma das partes levantou durante o processo.",
+      "q": "Como a juíza deve proceder?",
+      "a": 2,
+      "src": "CPC, arts. 10 e 487, parágrafo único",
+      "o": [
+        {
+          "t": "Reconhecer a prescrição imediatamente, pois matérias que o juiz conhece de ofício dispensam manifestação das partes.",
+          "p": "generalizacao",
+          "w": "Poder conhecer de ofício não autoriza decidir sem ouvir as partes. É exatamente a decisão surpresa que o art. 10 veda."
+        },
+        {
+          "t": "Ouvir as partes apenas se o autor tiver requerido expressamente o contraditório sobre a prescrição.",
+          "p": "restricao",
+          "w": "O dever de ouvir as partes não depende de requerimento. O art. 10 impõe ao juiz que dê a oportunidade de manifestação por iniciativa própria."
+        },
+        {
+          "t": "Intimar as partes para se manifestarem sobre a prescrição antes de decidir, ainda que possa reconhecê-la de ofício.",
+          "p": "correta",
+          "w": "O art. 10 proíbe decidir com base em fundamento sobre o qual as partes não puderam se manifestar, mesmo em matéria conhecível de ofício; o art. 487, parágrafo único, repete a regra para prescrição e decadência."
+        },
+        {
+          "t": "Ignorar a prescrição, porque ela só pode ser examinada se o réu a alegar na contestação.",
+          "p": "troca",
+          "w": "Confunde a prescrição com matérias que dependem de alegação da parte, como a incompetência relativa. A prescrição pode ser reconhecida de ofício (art. 487, II), desde que ouvidas as partes."
+        }
+      ]
+    },
+    {
+      "id": "dpc2",
+      "topic": "Contraditório e liminar",
+      "c": "Uma operadora de plano de saúde negou cobertura para cirurgia urgente de um paciente em Belo Horizonte. O advogado ajuizou ação e pediu tutela de urgência antes mesmo da citação da operadora.",
+      "q": "O juiz pode conceder a medida sem ouvir antes a operadora?",
+      "a": 0,
+      "src": "CPC, art. 9º, parágrafo único, I",
+      "o": [
+        {
+          "t": "Sim, pois a tutela provisória de urgência é exceção expressa à regra de oitiva prévia da parte contrária.",
+          "p": "correta",
+          "w": "O art. 9º proíbe decisão contra a parte sem ouvi-la previamente, mas o parágrafo único, I, ressalva a tutela provisória de urgência. O contraditório é exercido depois."
+        },
+        {
+          "t": "Não, pois nenhuma decisão pode ser proferida contra uma das partes sem que ela seja previamente ouvida.",
+          "p": "generalizacao",
+          "w": "Transforma a regra do art. 9º em absoluta. O próprio artigo traz exceções: tutela de urgência, tutela da evidência do art. 311, II e III, e a decisão do art. 701."
+        },
+        {
+          "t": "Sim, mas somente se o autor prestar caução, requisito indispensável para qualquer liminar.",
+          "p": "restricao",
+          "w": "A caução é faculdade do juiz e pode ser dispensada se a parte for economicamente hipossuficiente (art. 300, § 1º). Não é requisito de toda liminar."
+        },
+        {
+          "t": "Sim, e a decisão dispensa o contraditório também depois, tornando-se definitiva com a concessão.",
+          "p": "extrapolacao",
+          "w": "A liminar apenas adia o contraditório. A operadora será citada, poderá se defender e a tutela pode ser revogada ou modificada a qualquer tempo (art. 296)."
+        }
+      ]
+    },
+    {
+      "id": "dpc3",
+      "topic": "Ordem cronológica",
+      "c": "Numa vara cível de Curitiba, a lista de processos conclusos para sentença segue a ordem cronológica de conclusão. A juíza quer sentenciar antes um processo em que as partes acabaram de apresentar acordo.",
+      "q": "Essa sentença precisa respeitar a ordem cronológica?",
+      "a": 3,
+      "src": "CPC, art. 12, caput e § 2º, I",
+      "o": [
+        {
+          "t": "Sim, pois a ordem cronológica é absoluta e não admite exceção para nenhum tipo de sentença.",
+          "p": "generalizacao",
+          "w": "Desde a Lei 13.256/2016, o caput diz que a ordem será atendida preferencialmente, e o § 2º traz um rol de exceções."
+        },
+        {
+          "t": "Não, porque a ordem cronológica vale apenas para os tribunais, e não para juízes de primeiro grau.",
+          "p": "restricao",
+          "w": "O art. 12 se dirige expressamente a juízes e tribunais, para proferir sentença ou acórdão."
+        },
+        {
+          "t": "Não, porque a ordem cronológica se aplica só aos atos do cartório, e não às sentenças do juiz.",
+          "p": "troca",
+          "w": "Confunde o art. 12, que trata das sentenças e acórdãos, com a ordem de cumprimento dos atos pelo escrivão ou chefe de secretaria, regulada em outro dispositivo (art. 153)."
+        },
+        {
+          "t": "Não, pois as sentenças homologatórias de acordo estão entre as exceções expressas à ordem cronológica.",
+          "p": "correta",
+          "w": "O art. 12 manda atender preferencialmente à ordem cronológica de conclusão, e o § 2º, I, exclui as sentenças proferidas em audiência, homologatórias de acordo ou de improcedência liminar."
+        }
+      ]
+    },
+    {
+      "id": "dpc4",
+      "topic": "Intimação pelo DJe",
+      "c": "A intimação de uma advogada de Salvador foi disponibilizada no Diário da Justiça eletrônico numa segunda-feira, em semana sem feriados nem suspensão de expediente.",
+      "q": "Em que dia começa a correr o prazo?",
+      "a": 1,
+      "src": "CPC, art. 224, §§ 2º e 3º",
+      "o": [
+        {
+          "t": "Na terça-feira, primeiro dia útil após a disponibilização.",
+          "p": "calculo",
+          "w": "Terça é a data da publicação, não o início do prazo. O dia da publicação é excluído, e a contagem começa no dia útil seguinte."
+        },
+        {
+          "t": "Na quarta-feira, pois a publicação se considera feita na terça e a contagem começa no primeiro dia útil seguinte.",
+          "p": "correta",
+          "w": "O § 2º do art. 224 considera publicação o primeiro dia útil seguinte à disponibilização (terça), e o § 3º inicia a contagem no primeiro dia útil seguinte à publicação (quarta)."
+        },
+        {
+          "t": "Na própria segunda-feira, pois o dia da disponibilização já entra na contagem.",
+          "p": "inversao",
+          "w": "Inverte a regra do art. 224, que exclui o dia do começo e inclui o do vencimento. A disponibilização nem sequer é a data da publicação."
+        },
+        {
+          "t": "Somente depois de 10 dias corridos da disponibilização, prazo que o advogado tem para consultar a intimação.",
+          "p": "troca",
+          "w": "Confunde a publicação no Diário eletrônico com a intimação feita em portal próprio, em que há prazo de consulta. Para o DJe vale a regra do art. 224, §§ 2º e 3º."
+        }
+      ]
+    },
+    {
+      "id": "dpc5",
+      "topic": "Prazo da Fazenda",
+      "c": "O Município de Londrina foi citado em uma ação de indenização que segue o procedimento comum.",
+      "q": "Qual é o prazo do município para contestar?",
+      "a": 0,
+      "src": "CPC, arts. 183 e 335",
+      "o": [
+        {
+          "t": "30 dias úteis, porque o prazo de 15 dias da contestação é contado em dobro para a Fazenda Pública.",
+          "p": "correta",
+          "w": "O art. 183 dá à União, aos estados, ao DF, aos municípios e às suas autarquias e fundações de direito público prazo em dobro para todas as manifestações. Logo, 15 dias viram 30, contados em dias úteis (art. 219)."
+        },
+        {
+          "t": "60 dias, pois a Fazenda tem prazo em quádruplo para contestar e em dobro para recorrer.",
+          "p": "troca",
+          "w": "Essa era a regra do CPC/1973. No CPC/2015 o prazo é em dobro para todas as manifestações, inclusive a contestação."
+        },
+        {
+          "t": "15 dias úteis, pois o prazo em dobro da Fazenda vale apenas para recorrer.",
+          "p": "restricao",
+          "w": "O art. 183 fala em prazo em dobro para todas as suas manifestações processuais, sem limitar o benefício aos recursos."
+        },
+        {
+          "t": "30 dias corridos, pois os prazos da Fazenda Pública não são contados em dias úteis.",
+          "p": "extrapolacao",
+          "w": "Não existe essa exceção. A contagem em dias úteis do art. 219 vale para todos os prazos processuais, inclusive os da Fazenda."
+        }
+      ]
+    },
+    {
+      "id": "dpc6",
+      "topic": "Prática jurídica gratuita",
+      "c": "O núcleo de prática jurídica de uma faculdade de Direito reconhecida, em Fortaleza, patrocina gratuitamente uma moradora em ação de alimentos.",
+      "q": "O núcleo tem direito a prazo em dobro?",
+      "a": 2,
+      "src": "CPC, art. 186, caput e § 3º",
+      "o": [
+        {
+          "t": "Sim, mas apenas se a faculdade tiver convênio firmado com a Defensoria Pública.",
+          "p": "restricao",
+          "w": "O convênio é exigido das entidades de assistência jurídica gratuita, não dos escritórios de prática das faculdades reconhecidas, que têm o benefício diretamente."
+        },
+        {
+          "t": "Sim, pois qualquer advogado que atue sem cobrar honorários tem prazo em dobro.",
+          "p": "generalizacao",
+          "w": "Atuação gratuita, por si só, não gera prazo em dobro. O benefício alcança apenas os sujeitos listados no art. 186 e no seu § 3º."
+        },
+        {
+          "t": "Sim, pois o prazo em dobro da Defensoria se estende aos escritórios de prática jurídica das faculdades de Direito reconhecidas.",
+          "p": "correta",
+          "w": "O art. 186, § 3º, aplica o prazo em dobro da Defensoria aos escritórios de prática jurídica das faculdades reconhecidas na forma da lei e às entidades conveniadas com a Defensoria."
+        },
+        {
+          "t": "Não, mas a própria moradora terá prazo em dobro por ser beneficiária da gratuidade da justiça.",
+          "p": "troca",
+          "w": "Confunde gratuidade da justiça, que dispensa custas e despesas, com prazo em dobro. Ser beneficiário da gratuidade não dobra prazo algum."
+        }
+      ]
+    },
+    {
+      "id": "dpc7",
+      "topic": "Prazo supletivo",
+      "c": "Um juiz de Goiânia determinou que o autor juntasse comprovante de endereço atualizado, sem fixar prazo. Nenhuma lei prevê prazo específico para esse ato.",
+      "q": "Qual é o prazo para o autor cumprir a determinação?",
+      "a": 1,
+      "src": "CPC, art. 218, § 3º",
+      "o": [
+        {
+          "t": "15 dias, prazo geral para todos os atos processuais no CPC/2015.",
+          "p": "generalizacao",
+          "w": "Quinze dias é o prazo da contestação e da maioria dos recursos, não uma regra geral. Sem previsão legal ou judicial, vale o prazo de 5 dias."
+        },
+        {
+          "t": "5 dias, regra geral para ato processual a cargo da parte quando não há prazo legal nem fixado pelo juiz.",
+          "p": "correta",
+          "w": "O art. 218, § 3º, fixa 5 dias como prazo supletivo para atos a cargo da parte, contados em dias úteis (art. 219)."
+        },
+        {
+          "t": "Não há prazo: enquanto o juiz não fixar um, a parte pode praticar o ato a qualquer tempo.",
+          "p": "extrapolacao",
+          "w": "O CPC não deixa o ato sem prazo. Na falta de preceito legal ou de prazo judicial, incide automaticamente o prazo de 5 dias."
+        },
+        {
+          "t": "5 dias corridos, pois o prazo supletivo não se conta em dias úteis.",
+          "p": "restricao",
+          "w": "O prazo do art. 218, § 3º, é processual e, como tal, conta-se em dias úteis (art. 219)."
+        }
+      ]
+    },
+    {
+      "id": "dpc8",
+      "topic": "Foro do domicílio",
+      "c": "Paulo, que mora em Ribeirão Preto (SP), quer anular, por erro, a compra de um trator usado que fez de Rita, domiciliada em Uberaba (MG). Nenhuma regra especial de foro se aplica ao caso.",
+      "q": "Onde, como regra, a ação deve ser proposta?",
+      "a": 3,
+      "src": "CPC, art. 46",
+      "o": [
+        {
+          "t": "Em Ribeirão Preto, pois o foro do domicílio do autor é a regra geral do CPC.",
+          "p": "inversao",
+          "w": "Inverte a regra. O foro geral é o do domicílio do réu; o do autor aparece só em situações especiais, como quando o réu não tem domicílio no Brasil (art. 46, § 3º)."
+        },
+        {
+          "t": "No foro onde está o trator, pois ações sobre bens seguem o foro da situação da coisa.",
+          "p": "troca",
+          "w": "O foro da situação da coisa (art. 47) vale para ações fundadas em direito real sobre imóveis. Trator é bem móvel."
+        },
+        {
+          "t": "Em qualquer comarca do país, à livre escolha do autor, por ser relativa a competência territorial.",
+          "p": "generalizacao",
+          "w": "Ser relativa significa que a incompetência pode ser prorrogada se não alegada, e não que o autor escolha livremente o foro. A regra continua sendo o art. 46."
+        },
+        {
+          "t": "Em Uberaba, foro do domicílio da ré, regra geral para ações fundadas em direito pessoal ou real sobre bens móveis.",
+          "p": "correta",
+          "w": "O art. 46 fixa o domicílio do réu como foro geral para ações fundadas em direito pessoal e em direito real sobre bens móveis."
+        }
+      ]
+    },
+    {
+      "id": "dpc9",
+      "topic": "Incompetência relativa",
+      "c": "Uma ação foi proposta em Porto Alegre, onde mora o autor, embora o foro territorialmente competente fosse o de Pelotas, domicílio do réu. O réu contestou discutindo apenas o mérito, sem mencionar a incompetência.",
+      "q": "O que acontece com a competência?",
+      "a": 0,
+      "src": "CPC, arts. 64 e 65",
+      "o": [
+        {
+          "t": "Prorroga-se, e o juízo de Porto Alegre passa a ser competente, pois a incompetência relativa não foi alegada em preliminar de contestação.",
+          "p": "correta",
+          "w": "O art. 64 manda alegar a incompetência relativa como preliminar de contestação, e o art. 65 prorroga a competência se o réu não o fizer."
+        },
+        {
+          "t": "O juiz deve declarar a incompetência de ofício, a qualquer tempo, como ocorre com toda incompetência.",
+          "p": "troca",
+          "w": "Isso vale para a incompetência absoluta (art. 64, § 1º). A territorial é, em regra, relativa e não pode ser declarada de ofício, salvo exceções pontuais, como a cláusula de eleição de foro abusiva e o juízo aleatório (art. 63, §§ 3º e 5º)."
+        },
+        {
+          "t": "O réu ainda pode alegá-la até a sentença, por petição avulsa, desde que demonstre prejuízo.",
+          "p": "restricao",
+          "w": "O momento próprio é a preliminar de contestação. Passado esse momento, a competência relativa se prorroga, sem a ressalva inventada de prejuízo."
+        },
+        {
+          "t": "O processo deve ser extinto sem resolução do mérito, por ter sido proposto no foro errado.",
+          "p": "extrapolacao",
+          "w": "Nem a incompetência acolhida extingue o processo: os autos são remetidos ao juízo competente (art. 64, § 3º). E aqui ela nem foi alegada."
+        }
+      ]
+    },
+    {
+      "id": "dpc10",
+      "topic": "Competência absoluta",
+      "c": "Num contrato de prestação de serviços, duas empresas de Manaus pactuaram que eventual litígio seria julgado por uma vara de família, considerada mais rápida, em vez de uma vara cível.",
+      "q": "Essa cláusula é válida?",
+      "a": 2,
+      "src": "CPC, arts. 62 e 63",
+      "o": [
+        {
+          "t": "Sim, pois as partes podem modificar por contrato qualquer regra de competência.",
+          "p": "generalizacao",
+          "w": "A eleição de foro só alcança a competência em razão do valor e do território (art. 63). A competência material é absoluta."
+        },
+        {
+          "t": "Sim, pois inderrogável é apenas a competência territorial; a da matéria pode ser escolhida pelas partes.",
+          "p": "inversao",
+          "w": "Inverte a regra: a territorial é a que admite modificação pelas partes; a material é inderrogável (art. 62)."
+        },
+        {
+          "t": "Não, pois a competência em razão da matéria é absoluta e não pode ser alterada por convenção das partes.",
+          "p": "correta",
+          "w": "O art. 62 declara inderrogável por convenção a competência em razão da matéria, da pessoa ou da função. Só valor e território podem ser modificados (art. 63)."
+        },
+        {
+          "t": "Sim, desde que a cláusula conste de instrumento escrito e se refira expressamente a determinado negócio jurídico.",
+          "p": "troca",
+          "w": "Esses são requisitos de forma da cláusula de eleição de foro (art. 63, § 1º), que só pode tratar de valor e território. Não tornam válida a escolha de juízo por matéria."
+        }
+      ]
+    },
+    {
+      "id": "dpc11",
+      "topic": "Litisconsortes e prazo",
+      "c": "Dois réus de uma ação de indenização em Florianópolis são representados por advogados de escritórios diferentes. O processo tramita em autos eletrônicos.",
+      "q": "Os réus têm prazo em dobro para contestar?",
+      "a": 3,
+      "src": "CPC, art. 229, caput e § 2º",
+      "o": [
+        {
+          "t": "Sim, pois litisconsortes sempre têm prazo em dobro, em qualquer processo.",
+          "p": "generalizacao",
+          "w": "O benefício depende de procuradores de escritórios distintos e não vale em autos eletrônicos (art. 229, § 2º)."
+        },
+        {
+          "t": "Sim, desde que requeiram o benefício ao juiz antes de o prazo começar.",
+          "p": "restricao",
+          "w": "Nos autos físicos, o prazo em dobro decorre da lei, sem requerimento. Nos eletrônicos, como no caso, ele simplesmente não se aplica."
+        },
+        {
+          "t": "Não, pois o prazo em dobro só existe quando os litisconsortes têm o mesmo advogado.",
+          "p": "inversao",
+          "w": "Inverte o requisito: o art. 229 exige procuradores diferentes, de escritórios distintos, justamente porque o acesso aos autos físicos era disputado."
+        },
+        {
+          "t": "Não, porque o prazo em dobro de litisconsortes com procuradores distintos não se aplica a processos em autos eletrônicos.",
+          "p": "correta",
+          "w": "O art. 229 dá prazo em dobro a litisconsortes com procuradores de escritórios distintos, mas o § 2º afasta a regra nos processos em autos eletrônicos."
+        }
+      ]
+    },
+    {
+      "id": "dpc12",
+      "topic": "Consentimento do cônjuge",
+      "c": "Carlos, casado com Ana sob o regime da comunhão parcial de bens, em Vitória, quer propor ação reivindicatória de um apartamento.",
+      "q": "O que o CPC exige para que Carlos proponha a ação?",
+      "a": 1,
+      "src": "CPC, art. 73, caput",
+      "o": [
+        {
+          "t": "O consentimento de Ana para propor qualquer ação judicial, por serem casados.",
+          "p": "generalizacao",
+          "w": "A exigência do art. 73 é restrita às ações sobre direito real imobiliário, não a toda ação."
+        },
+        {
+          "t": "O consentimento de Ana, pois o cônjuge precisa da anuência do outro para propor ação sobre direito real imobiliário, salvo separação absoluta.",
+          "p": "correta",
+          "w": "O art. 73 exige o consentimento do outro cônjuge para propor ação que verse sobre direito real imobiliário, salvo no regime de separação absoluta de bens."
+        },
+        {
+          "t": "Nada, pois o consentimento só é exigido quando o casamento é sob separação absoluta de bens.",
+          "p": "inversao",
+          "w": "Inverte a ressalva: a separação absoluta é justamente o regime que dispensa o consentimento."
+        },
+        {
+          "t": "Que Ana figure obrigatoriamente como coautora, sob pena de nulidade, sem bastar o seu consentimento.",
+          "p": "extrapolacao",
+          "w": "No polo ativo, a lei pede consentimento, que pode até ser suprido judicialmente (art. 74). Citação obrigatória de ambos é regra do polo passivo (art. 73, § 1º)."
+        }
+      ]
+    },
+    {
+      "id": "dpc13",
+      "topic": "Denunciação da lide",
+      "c": "Mariana bateu o carro em outro veículo em Campo Grande e foi processada pela vítima. Ela tem seguro de responsabilidade civil e quer que a seguradora seja condenada, no mesmo processo, a reembolsá-la se perder.",
+      "q": "Qual intervenção de terceiro é adequada?",
+      "a": 2,
+      "src": "CPC, art. 125, II",
+      "o": [
+        {
+          "t": "Chamamento ao processo, figura própria para trazer quem deve reembolsar o réu em ação regressiva.",
+          "p": "troca",
+          "w": "O chamamento (art. 130) serve para trazer o afiançado, os demais fiadores e os devedores solidários. Regresso contratual é campo da denunciação."
+        },
+        {
+          "t": "Nenhuma: o direito de regresso contra a seguradora só pode ser exercido em ação autônoma.",
+          "p": "generalizacao",
+          "w": "A ação autônoma é caminho possível quando a denunciação é indeferida, não promovida ou não permitida (art. 125, § 1º), e não o único."
+        },
+        {
+          "t": "Denunciação da lide à seguradora, obrigada pelo contrato a indenizar, em ação regressiva, o prejuízo de quem for vencido.",
+          "p": "correta",
+          "w": "O art. 125, II, admite a denunciação àquele que estiver obrigado, por lei ou contrato, a indenizar em regresso o prejuízo do vencido. É o caso típico da seguradora."
+        },
+        {
+          "t": "Denunciação da lide, desde que a vítima concorde com o ingresso da seguradora.",
+          "p": "restricao",
+          "w": "A denunciação é promovida pela parte e não depende de concordância do adversário."
+        }
+      ]
+    },
+    {
+      "id": "dpc14",
+      "topic": "Chamamento ao processo",
+      "c": "O fiador de um contrato de locação em Natal foi processado sozinho pelo locador, em ação de cobrança pelo procedimento comum, para pagar aluguéis atrasados.",
+      "q": "Que providência o CPC oferece ao fiador para trazer o locatário ao processo?",
+      "a": 0,
+      "src": "CPC, art. 130, I",
+      "o": [
+        {
+          "t": "Chamamento ao processo do afiançado, para que ele também fique vinculado à condenação.",
+          "p": "correta",
+          "w": "O art. 130, I, admite o chamamento do afiançado na ação em que o fiador for réu. Se o fiador pagar, a sentença de procedência lhe servirá de título para cobrar a dívida do afiançado (art. 132)."
+        },
+        {
+          "t": "Denunciação da lide ao locatário, por ser o alienante imediato do imóvel.",
+          "p": "troca",
+          "w": "Denunciação ao alienante imediato (art. 125, I) serve para garantir os direitos da evicção. O locatário não alienou nada ao fiador."
+        },
+        {
+          "t": "Nenhuma, pois o fiador responde sozinho e só pode cobrar o locatário em ação autônoma.",
+          "p": "generalizacao",
+          "w": "O CPC prevê exatamente o chamamento para que o fiador traga o afiançado ao mesmo processo."
+        },
+        {
+          "t": "Chamamento ao processo, desde que o locador concorde expressamente com a inclusão do locatário.",
+          "p": "restricao",
+          "w": "O chamamento é requerido pelo réu na contestação (art. 131) e não depende da concordância do autor."
+        }
+      ]
+    },
+    {
+      "id": "dpc15",
+      "topic": "Desconsideração da personalidade",
+      "c": "No cumprimento de sentença contra uma empresa de Recife sem bens penhoráveis, o juiz nota indícios de confusão patrimonial com o sócio. O credor ainda não pediu nada a respeito.",
+      "q": "O juiz pode instaurar o incidente de desconsideração da personalidade jurídica?",
+      "a": 3,
+      "src": "CPC, arts. 133 e 134",
+      "o": [
+        {
+          "t": "Sim, pois o juiz pode instaurar de ofício qualquer incidente processual.",
+          "p": "generalizacao",
+          "w": "O art. 133 é expresso ao exigir requerimento da parte ou do Ministério Público."
+        },
+        {
+          "t": "Não, pois o incidente só cabe na fase de conhecimento, antes da sentença.",
+          "p": "restricao",
+          "w": "O art. 134 admite o incidente em todas as fases do processo de conhecimento, no cumprimento de sentença e na execução de título extrajudicial."
+        },
+        {
+          "t": "Sim, e pode desde logo penhorar bens do sócio antes de citá-lo, dispensando o incidente.",
+          "p": "extrapolacao",
+          "w": "O sócio deve ser citado para se manifestar e requerer provas em 15 dias (art. 135). O incidente existe justamente para garantir esse contraditório."
+        },
+        {
+          "t": "Não de ofício, pois o incidente é instaurado a pedido da parte ou do Ministério Público, quando lhe couber intervir.",
+          "p": "correta",
+          "w": "O art. 133 condiciona a instauração ao pedido da parte ou do MP. Feito o pedido, o incidente cabe também no cumprimento de sentença (art. 134)."
+        }
+      ]
+    },
+    {
+      "id": "dpc16",
+      "topic": "Comparecimento espontâneo",
+      "c": "A carta de citação de uma ação em Teresina foi enviada a um endereço antigo do réu. Mesmo assim, ele soube do processo e compareceu espontaneamente aos autos, por meio de advogado.",
+      "q": "Qual é a consequência desse comparecimento?",
+      "a": 1,
+      "src": "CPC, art. 239, § 1º",
+      "o": [
+        {
+          "t": "O processo é nulo desde o início e deve ser extinto, pois a falta de citação nunca pode ser suprida.",
+          "p": "generalizacao",
+          "w": "O vício é sanável. A finalidade da citação, que é dar ciência ao réu, foi alcançada com o comparecimento espontâneo."
+        },
+        {
+          "t": "Supre a falta de citação, e o prazo para contestar passa a fluir da data do comparecimento.",
+          "p": "correta",
+          "w": "O art. 239, § 1º, diz que o comparecimento espontâneo do réu supre a falta ou a nulidade da citação, fluindo a partir dessa data o prazo para contestação."
+        },
+        {
+          "t": "O prazo de contestação conta da data em que a carta foi enviada ao endereço antigo.",
+          "p": "calculo",
+          "w": "Uma citação inválida não dispara prazo algum. O termo inicial é a data do comparecimento espontâneo."
+        },
+        {
+          "t": "A falta só é suprida se o réu apresentar a contestação no mesmo ato do comparecimento.",
+          "p": "restricao",
+          "w": "A lei não exige contestação imediata. O comparecimento supre o vício, e o réu ainda dispõe do prazo integral a partir dele."
+        }
+      ]
+    },
+    {
+      "id": "dpc17",
+      "topic": "Tutela de urgência",
+      "c": "Um cliente teve o nome incluído em cadastro de inadimplentes por dívida que já pagou, com comprovante. Ele está prestes a assinar um financiamento imobiliário em Belém e pede tutela de urgência.",
+      "q": "Quais requisitos o juiz deve verificar para conceder a medida?",
+      "a": 0,
+      "src": "CPC, art. 300",
+      "o": [
+        {
+          "t": "Elementos que evidenciem a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo.",
+          "p": "correta",
+          "w": "São os requisitos do art. 300, caput, para qualquer tutela de urgência, cautelar ou antecipada."
+        },
+        {
+          "t": "Prova inequívoca e verossimilhança da alegação, exigidas sempre em conjunto com caução.",
+          "p": "troca",
+          "w": "Prova inequívoca e verossimilhança eram termos do CPC/1973. Hoje se fala em probabilidade do direito, e a caução é facultativa (art. 300, § 1º)."
+        },
+        {
+          "t": "Probabilidade do direito e perigo de dano, além da oitiva prévia obrigatória do réu.",
+          "p": "restricao",
+          "w": "A tutela de urgência pode ser concedida liminarmente ou após justificação prévia (art. 300, § 2º), sem oitiva obrigatória do réu (art. 9º, parágrafo único, I)."
+        },
+        {
+          "t": "Apenas a urgência, pois o perigo de dano dispensa qualquer exame sobre o direito alegado.",
+          "p": "extrapolacao",
+          "w": "Urgência sozinha não basta. O juiz precisa ver também elementos que evidenciem a probabilidade do direito."
+        }
+      ]
+    },
+    {
+      "id": "dpc18",
+      "topic": "Tutela da evidência",
+      "c": "Um autor de Maceió instruiu a petição inicial com prova documental dos fatos e invocou tese firmada pelo STJ em julgamento de recursos repetitivos. Ele pede tutela da evidência antes de o réu ser ouvido.",
+      "q": "O juiz pode conceder a medida liminarmente?",
+      "a": 2,
+      "src": "CPC, art. 311, II e parágrafo único",
+      "o": [
+        {
+          "t": "Sim, mas somente se o autor também demonstrar perigo de dano.",
+          "p": "restricao",
+          "w": "A tutela da evidência é concedida independentemente da demonstração de perigo de dano ou de risco ao resultado útil do processo (art. 311, caput)."
+        },
+        {
+          "t": "Não, pois a tutela da evidência nunca pode ser concedida antes da citação do réu.",
+          "p": "generalizacao",
+          "w": "O parágrafo único do art. 311 permite a decisão liminar nas hipóteses dos incisos II e III."
+        },
+        {
+          "t": "Sim, pois na hipótese de fatos provados documentalmente e tese de casos repetitivos a tutela da evidência pode ser liminar.",
+          "p": "correta",
+          "w": "O art. 311, II, prevê essa hipótese, e o parágrafo único autoriza decisão liminar nos incisos II e III."
+        },
+        {
+          "t": "Sim, porque fica caracterizado o abuso do direito de defesa do réu, hipótese que autoriza a liminar.",
+          "p": "troca",
+          "w": "Abuso do direito de defesa é o inciso I, que pressupõe defesa já apresentada e não admite liminar. O caso descrito é o do inciso II."
+        }
+      ]
+    },
+    {
+      "id": "dpc19",
+      "topic": "Estabilização da tutela",
+      "c": "Em Cuiabá, uma paciente obteve tutela antecipada requerida em caráter antecedente para que um hospital fizesse um exame. Intimado, o hospital não interpôs recurso nem se manifestou, e o processo foi extinto.",
+      "q": "Qual é a situação da decisão?",
+      "a": 3,
+      "src": "CPC, art. 304, §§ 5º e 6º",
+      "o": [
+        {
+          "t": "A decisão faz coisa julgada material e só pode ser desfeita por ação rescisória.",
+          "p": "troca",
+          "w": "Confunde estabilização com coisa julgada. O § 6º do art. 304 diz que a decisão que concede a tutela não fará coisa julgada."
+        },
+        {
+          "t": "A tutela perde a eficácia, pois toda tutela antecipada exige confirmação por sentença de mérito.",
+          "p": "generalizacao",
+          "w": "A tutela antecipada antecedente pode se estabilizar e conservar seus efeitos sem sentença de mérito, enquanto não revista em ação própria (art. 304, § 3º)."
+        },
+        {
+          "t": "Ela se estabiliza, e o direito de revê-la se extingue em 2 anos contados da concessão da liminar.",
+          "p": "calculo",
+          "w": "O prazo é de 2 anos, mas o termo inicial é a ciência da decisão que extinguiu o processo, e não a data da concessão (art. 304, § 5º)."
+        },
+        {
+          "t": "A tutela se estabiliza sem fazer coisa julgada, e as partes podem pedir sua revisão em ação própria em até 2 anos da ciência da extinção.",
+          "p": "correta",
+          "w": "Sem recurso, a tutela antecipada antecedente se estabiliza (art. 304). A decisão não faz coisa julgada (§ 6º), e o direito de revê-la se extingue em 2 anos contados da ciência da decisão que extinguiu o processo (§ 5º)."
+        }
+      ]
+    },
+    {
+      "id": "dpc20",
+      "topic": "Improcedência liminar",
+      "c": "Em Aracaju, um autor ajuizou ação cujo pedido contraria enunciado de súmula do STJ. A causa não exige produção de provas.",
+      "q": "O que o juiz pode fazer?",
+      "a": 1,
+      "src": "CPC, art. 332, I",
+      "o": [
+        {
+          "t": "Julgar liminarmente procedente o pedido, sem ouvir o réu.",
+          "p": "inversao",
+          "w": "Inverte o resultado. O julgamento liminar previsto no art. 332 é sempre de improcedência, nunca de procedência."
+        },
+        {
+          "t": "Julgar liminarmente improcedente o pedido, independentemente da citação do réu.",
+          "p": "correta",
+          "w": "O art. 332, I, autoriza a improcedência liminar, nas causas que dispensem fase instrutória, quando o pedido contrariar súmula do STF ou do STJ."
+        },
+        {
+          "t": "Julgar improcedente apenas depois de citar o réu e receber a contestação.",
+          "p": "restricao",
+          "w": "O art. 332 permite julgar independentemente da citação do réu, que só será intimado do trânsito em julgado se não houver apelação (§ 2º)."
+        },
+        {
+          "t": "Indeferir a petição inicial por inépcia e extinguir o processo sem resolução do mérito.",
+          "p": "troca",
+          "w": "Confunde improcedência liminar, que é sentença de mérito, com indeferimento da inicial (art. 330), que extingue o processo sem resolver o mérito."
+        }
+      ]
+    },
+    {
+      "id": "dpc21",
+      "topic": "Ausência à conciliação",
+      "c": "Foi designada audiência de conciliação numa ação em Porto Velho. O autor manifestou interesse no acordo, mas o réu, sem justificativa, não compareceu nem enviou representante.",
+      "q": "Qual é a consequência para o réu?",
+      "a": 2,
+      "src": "CPC, art. 334, § 8º",
+      "o": [
+        {
+          "t": "Torna-se revel, presumindo-se verdadeiros os fatos alegados pelo autor.",
+          "p": "troca",
+          "w": "Revelia decorre da falta de contestação (art. 344), não da ausência à audiência de conciliação."
+        },
+        {
+          "t": "Recebe multa de até 10% do valor da causa, revertida em favor do autor.",
+          "p": "calculo",
+          "w": "O teto é de 2%, e a multa é revertida em favor da União ou do Estado, não do autor."
+        },
+        {
+          "t": "Pratica ato atentatório à dignidade da justiça e pode ser multado em até 2% da vantagem econômica pretendida ou do valor da causa.",
+          "p": "correta",
+          "w": "O art. 334, § 8º, prevê essa sanção para o não comparecimento injustificado, com multa revertida em favor da União ou do Estado."
+        },
+        {
+          "t": "Nenhuma, pois a audiência de conciliação é facultativa e a ausência nunca gera sanção.",
+          "p": "generalizacao",
+          "w": "A audiência só deixa de ocorrer se ambas as partes manifestarem desinteresse ou se não couber autocomposição (art. 334, § 4º). Faltar sem justificativa gera multa."
+        }
+      ]
+    },
+    {
+      "id": "dpc22",
+      "topic": "Prazo da contestação",
+      "c": "Em Joinville, a audiência de conciliação terminou sem acordo, com autor e réu presentes.",
+      "q": "A partir de quando corre o prazo para o réu contestar?",
+      "a": 0,
+      "src": "CPC, art. 335, I",
+      "o": [
+        {
+          "t": "Da própria audiência em que não houve autocomposição, com 15 dias úteis para contestar.",
+          "p": "correta",
+          "w": "O art. 335, I, fixa como termo inicial a audiência de conciliação ou mediação, ou a última sessão, quando não houver autocomposição."
+        },
+        {
+          "t": "Da juntada aos autos do mandado de citação cumprido antes da audiência.",
+          "p": "troca",
+          "w": "A regra da juntada do mandado (art. 231) incide nos demais casos (art. 335, III). Havendo audiência sem acordo, o prazo começa dela."
+        },
+        {
+          "t": "Da audiência, mas com prazo de 15 dias corridos.",
+          "p": "calculo",
+          "w": "O termo inicial está certo, mas a contagem é em dias úteis, como todo prazo processual (art. 219)."
+        },
+        {
+          "t": "Da intimação da ata da audiência, que precisa ser publicada no Diário da Justiça.",
+          "p": "restricao",
+          "w": "O CPC não exige publicação da ata para iniciar o prazo. Quem estava presente já sabe do resultado, e o prazo flui da audiência."
+        }
+      ]
+    },
+    {
+      "id": "dpc23",
+      "topic": "Efeitos da revelia",
+      "c": "Numa ação em Brasília contra dois réus, um deles contestou negando o fato comum a ambos. O outro não apresentou contestação.",
+      "q": "A revelia do segundo réu gera presunção de veracidade desse fato?",
+      "a": 3,
+      "src": "CPC, art. 345, I",
+      "o": [
+        {
+          "t": "Sim, pois a revelia sempre gera presunção de veracidade dos fatos alegados pelo autor.",
+          "p": "generalizacao",
+          "w": "O art. 345 lista situações em que o efeito não se produz, como a contestação de um corréu e os direitos indisponíveis."
+        },
+        {
+          "t": "Sim, e o réu revel fica impedido de intervir no processo até a sentença.",
+          "p": "extrapolacao",
+          "w": "O revel pode intervir em qualquer fase, recebendo o processo no estado em que se encontrar (art. 346, parágrafo único)."
+        },
+        {
+          "t": "Não, porque a revelia só ocorre quando o réu falta à audiência de conciliação.",
+          "p": "troca",
+          "w": "Revel é quem não contesta (art. 344). A ausência à audiência gera outra consequência, a multa do art. 334, § 8º."
+        },
+        {
+          "t": "Não, pois havendo pluralidade de réus, a contestação de um deles afasta o efeito da revelia.",
+          "p": "correta",
+          "w": "O art. 345, I, impede a presunção de veracidade quando, havendo pluralidade de réus, algum deles contestar a ação. O fato comum foi impugnado pelo corréu."
+        }
+      ]
+    },
+    {
+      "id": "dpc24",
+      "topic": "Distribuição dinâmica da prova",
+      "c": "Numa ação de indenização entre duas empresas em Porto Alegre, os registros técnicos de manutenção de uma máquina estão apenas em poder da ré, e seria impossível ao autor obtê-los.",
+      "q": "Como o juiz pode atribuir o ônus da prova de modo diverso?",
+      "a": 1,
+      "src": "CPC, art. 373, §§ 1º e 2º",
+      "o": [
+        {
+          "t": "Não pode: o ônus da prova do fato constitutivo é sempre do autor, sem exceção.",
+          "p": "generalizacao",
+          "w": "A regra estática do art. 373, I e II, admite a distribuição dinâmica do § 1º."
+        },
+        {
+          "t": "Por decisão fundamentada, dando à ré a oportunidade de se desincumbir do ônus que lhe foi atribuído.",
+          "p": "correta",
+          "w": "O art. 373, § 1º, permite a distribuição diversa diante da impossibilidade ou excessiva dificuldade de cumprir o encargo, por decisão fundamentada e com oportunidade de a parte se desincumbir."
+        },
+        {
+          "t": "Pode, mas apenas na sentença, quando já conhecer toda a prova produzida.",
+          "p": "restricao",
+          "w": "Redistribuir o ônus na sentença impediria a ré de se desincumbir dele. A lei exige que se dê essa oportunidade."
+        },
+        {
+          "t": "Pode, ainda que isso torne impossível ou excessivamente difícil para a ré produzir a prova.",
+          "p": "extrapolacao",
+          "w": "O § 2º do art. 373 proíbe a distribuição que gere situação em que a desincumbência seja impossível ou excessivamente difícil."
+        }
+      ]
+    },
+    {
+      "id": "dpc25",
+      "topic": "Renúncia e desistência",
+      "c": "Em Ribeirão Preto, a autora de uma ação de cobrança declarou nos autos que renuncia à pretensão formulada na ação, e o juiz homologou a renúncia.",
+      "q": "Que tipo de sentença foi proferida?",
+      "a": 0,
+      "src": "CPC, arts. 485, VIII, e 487, III, c",
+      "o": [
+        {
+          "t": "Sentença com resolução do mérito, que impede a autora de propor de novo a mesma ação.",
+          "p": "correta",
+          "w": "Homologar a renúncia à pretensão é resolver o mérito (art. 487, III, c). Com o trânsito em julgado, forma-se coisa julgada material."
+        },
+        {
+          "t": "Sentença sem resolução do mérito, como a que homologa a desistência da ação.",
+          "p": "troca",
+          "w": "Confunde renúncia, que atinge o direito e gera sentença de mérito, com desistência da ação, que extingue o processo sem resolver o mérito (art. 485, VIII)."
+        },
+        {
+          "t": "Sentença de mérito, mas válida apenas se o réu concordar com a renúncia.",
+          "p": "restricao",
+          "w": "A concordância do réu é exigida para a desistência da ação depois da contestação (art. 485, § 4º), não para a renúncia."
+        },
+        {
+          "t": "Sentença de mérito que, além de encerrar o processo, condena a autora por litigância de má-fé.",
+          "p": "extrapolacao",
+          "w": "Renunciar é ato legítimo da parte. Nada no CPC transforma a renúncia, por si só, em litigância de má-fé."
+        }
+      ]
+    },
+    {
+      "id": "dpc26",
+      "topic": "Multa do cumprimento",
+      "c": "Em Curitiba, uma empresa condenada a pagar R$ 80.000,00 foi intimada no cumprimento definitivo de sentença e, nos 15 dias, pagou apenas R$ 30.000,00.",
+      "q": "Quanto passa a ser devido, sem contar custas e correção?",
+      "a": 3,
+      "src": "CPC, art. 523, §§ 1º e 2º",
+      "o": [
+        {
+          "t": "R$ 66.000,00: o saldo mais multa e honorários de 10% calculados sobre o valor total da condenação.",
+          "p": "calculo",
+          "w": "O § 2º do art. 523 manda calcular multa e honorários sobre o restante, e não sobre os R$ 80.000,00 originais."
+        },
+        {
+          "t": "R$ 55.000,00: o saldo mais apenas a multa de 10%, pois os honorários dependem de nova sentença.",
+          "p": "restricao",
+          "w": "Os honorários de 10% incidem automaticamente com a multa no cumprimento de sentença (art. 523, § 1º)."
+        },
+        {
+          "t": "R$ 50.000,00, pois o pagamento parcial afasta a multa e os honorários.",
+          "p": "inversao",
+          "w": "Inverte o § 2º do art. 523: o pagamento parcial não afasta os acréscimos, apenas faz com que incidam sobre o saldo."
+        },
+        {
+          "t": "R$ 60.000,00: o saldo de R$ 50.000,00 mais multa de 10% e honorários de 10% calculados sobre ele.",
+          "p": "correta",
+          "w": "Sem pagamento voluntário, incidem multa de 10% e honorários de 10% (art. 523, § 1º). No pagamento parcial, ambos incidem sobre o restante (§ 2º): 50.000 + 5.000 + 5.000."
+        }
+      ]
+    },
+    {
+      "id": "dpc27",
+      "topic": "Agravo de instrumento",
+      "c": "O juiz de uma vara cível de São Luís indeferiu o pedido de tutela de urgência formulado pelo autor na petição inicial.",
+      "q": "Qual recurso cabe contra essa decisão?",
+      "a": 2,
+      "src": "CPC, art. 1.015, I",
+      "o": [
+        {
+          "t": "Apelação, pois toda decisão que nega pedido do autor tem natureza de sentença.",
+          "p": "troca",
+          "w": "Sentença é o pronunciamento que põe fim à fase cognitiva ou à execução (art. 203, § 1º). Negar a tutela de urgência é decisão interlocutória."
+        },
+        {
+          "t": "Nenhum, pois as decisões interlocutórias nunca são recorríveis de imediato no CPC/2015.",
+          "p": "generalizacao",
+          "w": "O art. 1.015 enumera as interlocutórias impugnáveis por agravo de instrumento, e a tutela provisória é a primeira delas."
+        },
+        {
+          "t": "Agravo de instrumento, pois a decisão versa sobre tutela provisória.",
+          "p": "correta",
+          "w": "O art. 1.015, I, prevê agravo de instrumento contra decisões interlocutórias que versem sobre tutelas provisórias, concedendo-as ou não."
+        },
+        {
+          "t": "Agravo de instrumento, no prazo de 5 dias úteis.",
+          "p": "calculo",
+          "w": "O recurso está certo, mas o prazo é de 15 dias úteis (art. 1.003, § 5º). Cinco dias é o prazo dos embargos de declaração (art. 1.023)."
+        }
+      ]
+    },
+    {
+      "id": "dpc28",
+      "topic": "Efeitos da apelação",
+      "c": "Em Manaus, uma sentença condenou o pai a pagar pensão alimentícia ao filho. O pai interpôs apelação.",
+      "q": "Quando a sentença começa a produzir efeitos?",
+      "a": 1,
+      "src": "CPC, art. 1.012, § 1º, II",
+      "o": [
+        {
+          "t": "Só após o julgamento da apelação, pois toda apelação tem efeito suspensivo.",
+          "p": "generalizacao",
+          "w": "O efeito suspensivo é a regra, mas o § 1º do art. 1.012 traz exceções, e alimentos é uma delas."
+        },
+        {
+          "t": "Imediatamente após a publicação, pois a sentença que condena a pagar alimentos é exceção ao efeito suspensivo da apelação.",
+          "p": "correta",
+          "w": "A apelação tem efeito suspensivo como regra (art. 1.012), mas o § 1º, II, faz a sentença que condena a pagar alimentos produzir efeitos imediatamente."
+        },
+        {
+          "t": "Só após o trânsito em julgado, pois alimentos exigem decisão definitiva.",
+          "p": "restricao",
+          "w": "Ao contrário, pela urgência da verba alimentar, a lei afasta o efeito suspensivo e permite execução provisória imediata."
+        },
+        {
+          "t": "Imediatamente, porque no CPC/2015 a regra é a apelação sem efeito suspensivo, e a exceção é tê-lo.",
+          "p": "inversao",
+          "w": "Chega ao resultado certo com a regra invertida. No CPC/2015 a apelação tem efeito suspensivo como regra, e o § 1º lista as exceções."
+        }
+      ]
+    },
+    {
+      "id": "dpc29",
+      "type": "ce",
+      "topic": "Suspensão dos prazos",
+      "src": "CPC, art. 220, caput e § 2º",
+      "c": "Um advogado de Recife foi intimado em meados de dezembro para se manifestar em 15 dias e quer saber se o prazo corre durante as festas de fim de ano.",
+      "q": "Pelo CPC, suspende-se o curso dos prazos processuais nos dias compreendidos entre 20 de dezembro e 20 de janeiro, inclusive.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Item certo. É a literalidade do art. 220, caput. Nesse período também não se realizam audiências nem sessões de julgamento (§ 2º)."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado costuma vir da confusão com o recesso administrativo de fim de ano, que termina no início de janeiro. Para os prazos do CPC, a suspensão vai até 20 de janeiro, inclusive."
+        }
+      ]
+    },
+    {
+      "id": "dpc30",
+      "type": "ce",
+      "topic": "Prazo do Ministério Público",
+      "src": "CPC, art. 180, caput e § 2º",
+      "c": "Numa ação em que a lei especial fixa expressamente prazo próprio para o Ministério Público se manifestar, o promotor de Uberlândia pretende contá-lo em dobro.",
+      "q": "O Ministério Público goza de prazo em dobro para manifestar-se nos autos, contado da intimação pessoal, inclusive quando a lei estabelecer, de forma expressa, prazo próprio para o órgão.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo estende o benefício a todas as situações. O § 2º do art. 180 afasta o prazo em dobro quando a lei estabelecer prazo próprio para o MP."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Item errado. O art. 180 dá prazo em dobro ao MP, contado da intimação pessoal, mas o § 2º exclui o benefício quando a lei fixar, de forma expressa, prazo próprio."
+        }
+      ]
+    },
+    {
+      "id": "dpc31",
+      "type": "ce",
+      "topic": "Assistência simples",
+      "src": "CPC, art. 122",
+      "c": "Numa ação de despejo em Campinas, o sublocatário ingressou como assistente simples do locatário, que é o réu.",
+      "q": "Por ter ingressado como assistente simples, o sublocatário pode impedir que o locatário reconheça a procedência do pedido ou celebre acordo com o locador.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "extrapolacao",
+          "w": "Julgar certo dá ao assistente simples um poder de veto que a lei não prevê. Ele é auxiliar da parte principal (art. 121) e não controla a disposição do direito."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Item errado. O art. 122 diz que a assistência simples não obsta que a parte principal reconheça a procedência do pedido, desista da ação, renuncie ao direito ou transija."
+        }
+      ]
+    },
+    {
+      "id": "dpc32",
+      "type": "ce",
+      "topic": "Amicus curiae",
+      "src": "CPC, art. 138, §§ 1º e 3º",
+      "c": "Numa causa sobre fornecimento de medicamento de alto custo, uma associação nacional de pacientes foi admitida como amicus curiae.",
+      "q": "Admitida a associação, ela não pode, em regra, interpor recursos, ressalvadas a oposição de embargos de declaração e a decisão que julgar o incidente de resolução de demandas repetitivas.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Item certo. O art. 138, § 1º, veda recursos ao amicus curiae, salvo embargos de declaração e a hipótese do § 3º, que permite recorrer da decisão que julgar o IRDR."
+        },
+        {
+          "t": "Errado",
+          "p": "generalizacao",
+          "w": "Julgar errado supõe que o amicus curiae não pode recorrer de nada ou que pode recorrer de tudo. A lei veda em regra, com duas ressalvas expressas."
+        }
+      ]
+    },
+    {
+      "id": "dpc33",
+      "type": "ce",
+      "topic": "Reconvenção",
+      "src": "CPC, art. 343, caput e § 6º",
+      "c": "Processada por um cliente em Niterói, uma construtora quer cobrar dele, no mesmo processo, parcelas não pagas do contrato, mas não tem defesa a apresentar contra o pedido do autor.",
+      "q": "A construtora pode propor reconvenção ainda que não ofereça contestação.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Item certo. O art. 343, § 6º, permite ao réu propor reconvenção independentemente de oferecer contestação, desde que a pretensão seja conexa com a ação principal ou com o fundamento da defesa."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado acrescenta uma condição inexistente. Em regra a reconvenção vem na contestação, mas o § 6º do art. 343 admite reconvir sem contestar."
+        }
+      ]
+    },
+    {
+      "id": "dpc34",
+      "type": "ce",
+      "topic": "Emenda da inicial",
+      "src": "CPC, arts. 319, V, e 321",
+      "c": "A petição inicial de uma ação proposta em João Pessoa não indicou o valor da causa.",
+      "q": "Verificando o defeito, o juiz deve indeferir de imediato a petição inicial e extinguir o processo sem resolução do mérito.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "extrapolacao",
+          "w": "Julgar certo pula a etapa da emenda. O indeferimento só vem se o autor, intimado, não corrigir o vício (art. 321, parágrafo único)."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Item errado. O valor da causa é requisito da inicial (art. 319, V), mas o art. 321 manda o juiz determinar a emenda em 15 dias, indicando com precisão o que deve ser corrigido."
+        }
+      ]
+    },
+    {
+      "id": "dpc35",
+      "type": "ce",
+      "topic": "Limites da coisa julgada",
+      "src": "CPC, art. 504, II",
+      "c": "Transitou em julgado sentença que condenou uma transportadora de Goiânia a indenizar um cliente. O advogado da vítima quer usar, em outra ação, o atraso de 10 dias reconhecido na fundamentação como fato indiscutível.",
+      "q": "A verdade dos fatos, estabelecida como fundamento da sentença, faz coisa julgada e não pode ser rediscutida em outro processo.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "extrapolacao",
+          "w": "Julgar certo estende a coisa julgada à fundamentação. A imutabilidade atinge a decisão de mérito, não a verdade dos fatos que a embasou."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Item errado. O art. 504 diz que não fazem coisa julgada os motivos, ainda que importantes para o dispositivo (I), e a verdade dos fatos estabelecida como fundamento da sentença (II)."
+        }
+      ]
+    },
+    {
+      "id": "dpc36",
+      "type": "ce",
+      "topic": "Rol de recursos",
+      "src": "CPC, arts. 994 e 942",
+      "c": "Um estudante de Belo Horizonte montou fichas com os recursos cabíveis no processo civil para a prova de um tribunal.",
+      "q": "Estão no rol de recursos do CPC/2015 o agravo interno e os embargos de divergência, mas não os embargos infringentes, que deixaram de existir como recurso.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Item certo. O art. 994 lista apelação, agravo de instrumento, agravo interno, embargos de declaração, recurso ordinário, especial, extraordinário, agravo em RE ou REsp e embargos de divergência."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado vem de estudar pelo CPC/1973. Os embargos infringentes foram extintos; no lugar deles, o art. 942 criou uma técnica de ampliação do julgamento, que não é recurso."
+        }
+      ]
+    },
+    {
+      "id": "dpc37",
+      "type": "ce",
+      "topic": "Prazos recursais",
+      "src": "CPC, arts. 219, 1.003, § 5º, e 1.023",
+      "c": "Uma advogada de Palmas foi intimada da sentença e pretende opor embargos de declaração e, depois, apelar.",
+      "q": "O prazo para opor embargos de declaração é de 5 dias, e o prazo para apelar é de 15 dias, ambos contados em dias úteis.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Item certo. O art. 1.003, § 5º, fixa 15 dias para interpor e responder recursos, excetuados os embargos de declaração, que têm 5 dias (art. 1.023). Todos se contam em dias úteis (art. 219)."
+        },
+        {
+          "t": "Errado",
+          "p": "calculo",
+          "w": "Julgar errado costuma vir da troca dos prazos ou da contagem em dias corridos. No CPC/2015, todos os recursos têm 15 dias úteis, exceto os embargos de declaração, com 5."
+        }
+      ]
+    },
+    {
+      "id": "dpc38",
+      "type": "ce",
+      "topic": "Embargos de declaração",
+      "src": "CPC, art. 1.026, caput",
+      "c": "A sentença de uma ação em Vitória da Conquista ficou omissa sobre um dos pedidos, e o autor opôs embargos de declaração no quarto dia útil do prazo.",
+      "q": "A oposição de embargos de declaração suspende o prazo para a interposição de outros recursos, que volta a correr apenas pelo saldo restante.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo troca interrupção por suspensão. Na suspensão o prazo continua de onde parou; na interrupção ele recomeça por inteiro."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Item errado. O art. 1.026 diz que os embargos de declaração interrompem o prazo para a interposição de recurso. Decididos os embargos, o prazo recomeça integralmente."
+        }
+      ]
+    },
+    {
+      "id": "dpc39",
+      "type": "ce",
+      "topic": "Legitimidade na ACP",
+      "src": "Lei 7.347/85, art. 5º, V, a, e § 4º",
+      "c": "Uma associação de defesa do consumidor de Salvador, constituída há 8 meses, quer propor ação civil pública contra cobrança abusiva que atinge milhares de clientes de uma operadora de telefonia.",
+      "q": "O requisito de constituição da associação há pelo menos um ano pode ser dispensado pelo juiz quando houver manifesto interesse social evidenciado pela dimensão ou característica do dano.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Item certo. O art. 5º, V, a, exige pré-constituição há pelo menos 1 ano, mas o § 4º permite ao juiz dispensá-la diante de manifesto interesse social ou da relevância do bem jurídico protegido."
+        },
+        {
+          "t": "Errado",
+          "p": "generalizacao",
+          "w": "Julgar errado trata o prazo de 1 ano como requisito absoluto. A própria Lei 7.347/85 prevê a dispensa no § 4º do art. 5º."
+        }
+      ]
+    },
+    {
+      "id": "dpc40",
+      "type": "ce",
+      "topic": "Admissibilidade da apelação",
+      "src": "CPC, art. 1.010, § 3º",
+      "c": "Um juiz de Feira de Santana recebeu uma apelação que, pelos seus cálculos, foi interposta depois do prazo.",
+      "q": "Cabe ao juiz de primeiro grau, verificando a intempestividade, negar seguimento à apelação, sem remetê-la ao tribunal.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo aplica a lógica do CPC/1973, em que o juiz de origem fazia o primeiro juízo de admissibilidade da apelação."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Item errado. Pelo art. 1.010, § 3º, após as contrarrazões, os autos são remetidos ao tribunal pelo juiz, independentemente de juízo de admissibilidade. Quem examina a tempestividade é o tribunal."
+        }
+      ]
+    }
+  ]
+}

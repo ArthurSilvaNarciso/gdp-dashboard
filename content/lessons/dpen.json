@@ -1,0 +1,411 @@
+{
+  "id": "dpen",
+  "lessons": [
+    {
+      "id": "dpen-a1",
+      "title": "Lei penal no tempo, no espaço e o caminho do crime",
+      "mins": 7,
+      "qids": [
+        "dpen1",
+        "dpen2",
+        "dpen3",
+        "dpen4",
+        "dpen5",
+        "dpen6"
+      ],
+      "intro": "Ao fim desta aula, você resolve questões de legalidade, retroatividade, tempo e lugar do crime, tentativa, desistência e crime impossível sem confundir os arts. 1º a 17 do CP.",
+      "sections": [
+        {
+          "h": "Legalidade e anterioridade",
+          "p": [
+            "O art. 1º do CP e o art. 5º, XXXIX, da CF dizem a mesma coisa: não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal. Só lei em sentido estrito cria crime; medida provisória não pode tratar de direito penal (CF, art. 62, § 1º, I, b).",
+            "A lei incriminadora vale apenas para fatos posteriores à sua vigência. Quem praticou a conduta antes de ela virar crime não pode ser punido, como na perseguição encerrada antes da Lei 14.132/2021, que criou o art. 147-A."
+          ]
+        },
+        {
+          "h": "Retroatividade benéfica e abolitio criminis",
+          "p": [
+            "A lei penal não retroage, salvo para beneficiar o réu (CF, art. 5º, XL). Se a lei nova deixa de considerar o fato crime, cessam a execução e os efeitos penais da sentença condenatória (CP, art. 2º, caput); os efeitos civis, como o dever de indenizar, permanecem.",
+            "A lei posterior que de qualquer modo favorece o agente aplica-se aos fatos anteriores, ainda que já decididos por sentença transitada em julgado (art. 2º, parágrafo único)."
+          ],
+          "list": [
+            "Lei nova pior: não retroage.",
+            "Lei nova melhor: retroage, mesmo depois do trânsito em julgado.",
+            "Abolitio criminis: apaga os efeitos penais, não os civis."
+          ]
+        },
+        {
+          "h": "Tempo e lugar: o macete LUTA",
+          "p": [
+            "Para o tempo do crime, o CP adota a teoria da atividade: considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado (art. 4º). É isso que define, por exemplo, se o agente era menor de 18 anos e, portanto, inimputável (art. 27).",
+            "Para o lugar, vale a ubiquidade: lugar do crime é onde ocorreu a ação ou omissão, no todo ou em parte, e também onde se produziu ou deveria produzir-se o resultado (art. 6º). Memorize LUTA: Lugar, Ubiquidade; Tempo, Atividade."
+          ]
+        },
+        {
+          "h": "Consumação, tentativa e desistência",
+          "p": [
+            "O crime está consumado quando nele se reúnem todos os elementos da definição legal, e tentado quando, iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente (art. 14). Salvo disposição em contrário, a tentativa recebe a pena do consumado diminuída de um a dois terços.",
+            "Se o próprio agente para de executar (desistência voluntária) ou, terminada a execução, impede o resultado (arrependimento eficaz), ele só responde pelos atos já praticados (art. 15). A chave é quem impediu a consumação: na tentativa, algo alheio à vontade do agente; no art. 15, o próprio agente."
+          ]
+        },
+        {
+          "h": "Arrependimento posterior e crime impossível",
+          "p": [
+            "Consumado o crime sem violência ou grave ameaça à pessoa, quem repara o dano ou restitui a coisa até o recebimento da denúncia ou da queixa, por ato voluntário, tem a pena reduzida de um a dois terços (art. 16). Não há extinção da punibilidade.",
+            "Não se pune a tentativa quando, por ineficácia absoluta do meio ou absoluta impropriedade do objeto, é impossível consumar o crime (art. 17). Se a ineficácia for apenas relativa, como a arma carregada que falhou, há tentativa punível."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Em Manaus, Jefferson atira contra o vizinho para matá-lo e erra. Com a arma ainda carregada e a vítima ao alcance, decide ir embora sem atirar de novo.",
+        "q": "Jefferson responde por tentativa de homicídio?",
+        "a": "Não. Ele podia prosseguir e desistiu por vontade própria: é desistência voluntária (art. 15). Responde apenas pelos atos já praticados, se configurarem crime autônomo, e não por tentativa de homicídio."
+      },
+      "traps": [
+        "Medida provisória não cria crime nem pena: a CF proíbe MP sobre direito penal.",
+        "Ubiquidade é para o lugar; atividade é para o tempo. A banca adora inverter.",
+        "Tentativa reduz de um a dois terços; o erro de proibição evitável reduz de um sexto a um terço.",
+        "Arrependimento posterior reduz a pena, não extingue a punibilidade, e não vale para crime com violência ou grave ameaça à pessoa."
+      ],
+      "summary": [
+        "Lei incriminadora só alcança fatos posteriores; lei benéfica retroage até depois do trânsito em julgado.",
+        "Tempo do crime: atividade (art. 4º). Lugar do crime: ubiquidade (art. 6º).",
+        "Tentativa: a consumação falha por circunstância alheia à vontade; pena reduzida de 1/3 a 2/3.",
+        "Desistência voluntária e arrependimento eficaz: o agente responde só pelos atos já praticados."
+      ],
+      "src": "Código Penal, arts. 1º, 2º, 4º, 6º, 14 a 17 e 27; CF/88, art. 5º, XXXIX e XL, e art. 62, § 1º, I, b; Lei 14.132/2021."
+    },
+    {
+      "id": "dpen-a2",
+      "title": "Erro, excludentes de ilicitude e imputabilidade",
+      "mins": 7,
+      "qids": [
+        "dpen9",
+        "dpen10",
+        "dpen11",
+        "dpen12",
+        "dpen29",
+        "dpen13"
+      ],
+      "intro": "Ao fim desta aula, você distingue erro de tipo de erro de proibição, reconhece as quatro excludentes de ilicitude e sabe quando idade, doença mental ou embriaguez afastam a culpabilidade.",
+      "sections": [
+        {
+          "h": "Erro de tipo x erro de proibição",
+          "p": [
+            "No erro de tipo, o agente se engana sobre um elemento do fato descrito na lei, como achar que a mochila alheia é a sua. Ele exclui o dolo e só permite punição por culpa se houver crime culposo previsto em lei (art. 20).",
+            "No erro de proibição, o agente sabe o que faz, mas acredita que é permitido. Se inevitável, isenta de pena; se evitável, pode diminuí-la de um sexto a um terço (art. 21). O desconhecimento da lei, por si só, é inescusável."
+          ],
+          "list": [
+            "Erro sobre o fato: art. 20, afasta o dolo.",
+            "Erro sobre a proibição: art. 21, atinge a culpabilidade."
+          ]
+        },
+        {
+          "h": "As quatro excludentes do art. 23",
+          "p": [
+            "Não há crime quando o agente pratica o fato em estado de necessidade, em legítima defesa, em estrito cumprimento de dever legal ou no exercício regular de direito (art. 23). Em todas elas, o agente responde pelo excesso doloso ou culposo (parágrafo único).",
+            "Um exemplo separa as duas últimas: qualquer do povo pode prender quem esteja em flagrante, e a polícia deve fazê-lo (CPP, art. 301). O cidadão age em exercício regular de direito; o policial, em estrito cumprimento do dever legal, podendo usar a força indispensável em caso de resistência ou tentativa de fuga (CPP, art. 284)."
+          ]
+        },
+        {
+          "h": "Legítima defesa e estado de necessidade",
+          "p": [
+            "Legítima defesa é repelir injusta agressão, atual ou iminente, a direito seu ou de outrem, usando moderadamente os meios necessários (art. 25). A agressão vem de uma pessoa e é injusta, e é possível defender um terceiro.",
+            "Estado de necessidade é salvar de perigo atual, que o agente não provocou por sua vontade nem podia evitar de outro modo, direito próprio ou alheio cujo sacrifício não era razoável exigir (art. 24). Quem tem o dever legal de enfrentar o perigo, como o bombeiro, não pode alegá-lo (§ 1º)."
+          ]
+        },
+        {
+          "h": "Imputabilidade: idade, doença mental e embriaguez",
+          "p": [
+            "Menores de 18 anos são penalmente inimputáveis e ficam sujeitos à legislação especial (art. 27; CF, art. 228). É isento de pena quem, por doença mental ou desenvolvimento mental incompleto ou retardado, era inteiramente incapaz de entender o caráter ilícito do fato ou de se determinar de acordo com esse entendimento (art. 26).",
+            "Emoção e paixão não excluem a imputabilidade, nem a embriaguez voluntária ou culposa (art. 28, I e II). Só a embriaguez completa proveniente de caso fortuito ou força maior isenta de pena (art. 28, § 1º)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Durante um incêndio num prédio em Curitiba, um bombeiro militar foge para se proteger e deixa para trás uma moradora que poderia resgatar, enfrentando apenas o risco normal da profissão.",
+        "q": "Ele pode alegar estado de necessidade?",
+        "a": "Não. O art. 24, § 1º, nega a excludente a quem tinha o dever legal de enfrentar o perigo. Enfrentar o risco inerente à função é obrigação do bombeiro."
+      },
+      "traps": [
+        "Levar coisa alheia achando que é sua é erro de tipo, não de proibição; como não há furto culposo, o fato fica atípico.",
+        "Erro de proibição evitável não isenta de pena: apenas a reduz de 1/6 a 1/3.",
+        "Defender terceiro é legítima defesa; perigo que não vem de agressão humana injusta é estado de necessidade.",
+        "Embriaguez completa só isenta de pena se vier de caso fortuito ou força maior."
+      ],
+      "summary": [
+        "Erro de tipo afasta o dolo; erro de proibição inevitável isenta de pena, o evitável reduz.",
+        "Excludentes: estado de necessidade, legítima defesa, estrito cumprimento do dever legal e exercício regular de direito, sempre com punição do excesso.",
+        "Menor de 18 é inimputável; embriaguez voluntária, emoção e paixão não excluem a imputabilidade."
+      ],
+      "src": "Código Penal, arts. 20, 21 e 23 a 28; CPP, arts. 284 e 301; CF/88, art. 228."
+    },
+    {
+      "id": "dpen-a3",
+      "title": "Concurso de pessoas, penas e prescrição",
+      "mins": 8,
+      "qids": [
+        "dpen14",
+        "dpen15",
+        "dpen16",
+        "dpen17",
+        "dpen35",
+        "dpen36"
+      ],
+      "intro": "Ao fim desta aula, você define quem responde por quê no concurso de pessoas, fixa regime inicial, avalia a substituição da pena, aplica as frações do concurso de crimes e calcula a prescrição.",
+      "sections": [
+        {
+          "h": "Concurso de pessoas (art. 29)",
+          "p": [
+            "Quem, de qualquer modo, concorre para o crime incide nas penas a ele cominadas, na medida de sua culpabilidade (art. 29). Se a participação for de menor importância, a pena pode ser diminuída de um sexto a um terço (§ 1º).",
+            "Se algum concorrente quis participar de crime menos grave, aplica-se a ele a pena deste, aumentada até metade se o resultado mais grave era previsível (§ 2º). As circunstâncias e condições de caráter pessoal não se comunicam, salvo quando elementares do crime (art. 30)."
+          ]
+        },
+        {
+          "h": "Regime inicial",
+          "p": [
+            "O juiz fixa o regime inicial na sentença (art. 59, III), olhando a pena aplicada e a reincidência (art. 33, § 2º). Na pena de detenção, o início é no semiaberto ou no aberto, salvo necessidade de transferência ao fechado (art. 33, caput)."
+          ],
+          "list": [
+            "Mais de 8 anos: começa obrigatoriamente no fechado.",
+            "Mais de 4 e até 8 anos, não reincidente: pode começar no semiaberto.",
+            "Até 4 anos, não reincidente: pode começar no aberto."
+          ]
+        },
+        {
+          "h": "Substituição por restritivas de direitos",
+          "p": [
+            "O art. 44 exige três requisitos: pena privativa de liberdade não superior a 4 anos e crime sem violência ou grave ameaça à pessoa, ou crime culposo com qualquer pena; réu não reincidente em crime doloso; e culpabilidade, antecedentes, conduta social, personalidade, motivos e circunstâncias favoráveis.",
+            "Por isso uma tentativa de roubo com pena final de 4 anos não admite substituição, enquanto um homicídio culposo com pena maior pode admitir."
+          ]
+        },
+        {
+          "h": "Concurso material, formal e continuado",
+          "p": [
+            "Concurso material: mais de uma ação, dois ou mais crimes, penas somadas (art. 69). Concurso formal: uma só ação, dois ou mais crimes, aplica-se a pena mais grave, ou uma delas se iguais, aumentada de um sexto até metade; as penas se somam se a ação é dolosa e os crimes resultam de desígnios autônomos (art. 70).",
+            "Crime continuado: várias ações, crimes da mesma espécie, com condições semelhantes de tempo, lugar e maneira de execução; aplica-se a pena de um só, aumentada de um sexto a dois terços (art. 71)."
+          ]
+        },
+        {
+          "h": "Extinção da punibilidade e prescrição",
+          "p": [
+            "O art. 107 lista, entre outras causas, a morte do agente, anistia, graça ou indulto, abolitio criminis, prescrição, decadência ou perempção, renúncia ou perdão aceito nos crimes de ação privada, retratação nos casos admitidos e perdão judicial nos casos previstos em lei.",
+            "Antes da sentença, a prescrição regula-se pelo máximo da pena cominada (art. 109): por exemplo, 8 anos se o máximo é superior a 2 e não excede 4, e 12 anos se é superior a 4 e não excede 8. Os prazos caem pela metade se o agente era menor de 21 anos ao tempo do crime ou maior de 70 na data da sentença, salvo se o crime envolver violência sexual contra a mulher (art. 115, na redação da Lei 15.160/2025)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Joel, de 20 anos, cometeu estelionato, crime punido com reclusão de 1 a 5 anos. O processo ainda não tem sentença.",
+        "q": "Em quanto tempo prescreve a pretensão punitiva?",
+        "a": "O máximo de 5 anos está acima de 4 e não excede 8, o que dá 12 anos (art. 109, III). Como Joel tinha menos de 21 anos na data do fato, o prazo cai pela metade: 6 anos (art. 115)."
+      },
+      "traps": [
+        "Fechado obrigatório é só acima de 8 anos; entre 4 e 8, o não reincidente pode começar no semiaberto.",
+        "Pena de até 4 anos não basta para a substituição: crime com violência ou grave ameaça fica de fora, salvo se culposo.",
+        "Formal: 1/6 até metade. Continuado: 1/6 a 2/3. Material: soma.",
+        "A redução do art. 115 olha a idade na data do fato (menor de 21) ou na data da sentença (maior de 70)."
+      ],
+      "summary": [
+        "Cada concorrente responde na medida da sua culpabilidade; quem quis crime menos grave responde por ele.",
+        "Regime: mais de 8, fechado; mais de 4 até 8, semiaberto possível; até 4, aberto possível, se não reincidente.",
+        "Substituição: até 4 anos sem violência ou grave ameaça, ou qualquer pena em crime culposo.",
+        "Prescrição antes da sentença segue o máximo da pena (art. 109) e cai pela metade nos casos do art. 115."
+      ],
+      "src": "Código Penal, arts. 29, 30, 33, 44, 59, 69 a 71, 107, 109 e 115; Lei 15.160/2025."
+    },
+    {
+      "id": "dpen-a4",
+      "title": "Crimes contra a pessoa e o patrimônio",
+      "mins": 8,
+      "qids": [
+        "dpen18",
+        "dpen19",
+        "dpen20",
+        "dpen21",
+        "dpen22",
+        "dpen23"
+      ],
+      "intro": "Ao fim desta aula, você identifica as qualificadoras do homicídio, enquadra o feminicídio no art. 121-A, classifica lesões corporais e separa furto, roubo, extorsão, estelionato, apropriação indébita e receptação.",
+      "sections": [
+        {
+          "h": "Homicídio qualificado e feminicídio",
+          "p": [
+            "As qualificadoras do art. 121, § 2º, mais cobradas são: paga ou promessa de recompensa ou outro motivo torpe (I); motivo fútil (II); veneno, fogo, explosivo, asfixia, tortura ou outro meio insidioso ou cruel (III); e traição, emboscada, dissimulação ou outro recurso que dificulte ou torne impossível a defesa (IV). O homicídio qualificado é hediondo (Lei 8.072/90, art. 1º, I).",
+            "Desde a Lei 14.994/2024, o feminicídio deixou de ser qualificadora e virou crime autônomo: matar mulher por razões da condição do sexo feminino (art. 121-A). Essas razões existem quando o crime envolve violência doméstica e familiar ou menosprezo ou discriminação à condição de mulher (§ 1º)."
+          ]
+        },
+        {
+          "h": "Lesão corporal grave e gravíssima",
+          "p": [
+            "O art. 129 separa os resultados, e a diferença mais cobrada é entre o temporário e o permanente. A incapacidade por mais de 30 dias é grave; a incapacidade permanente para o trabalho é gravíssima."
+          ],
+          "list": [
+            "Grave (§ 1º): incapacidade para as ocupações habituais por mais de 30 dias, perigo de vida, debilidade permanente de membro, sentido ou função, aceleração de parto.",
+            "Gravíssima (§ 2º): incapacidade permanente para o trabalho, enfermidade incurável, perda ou inutilização de membro, sentido ou função, deformidade permanente, aborto."
+          ]
+        },
+        {
+          "h": "Furto, roubo e extorsão",
+          "p": [
+            "Furto é subtrair, para si ou para outrem, coisa alheia móvel (art. 155); roubo é a subtração mediante grave ameaça ou violência à pessoa (art. 157). Se a violência ou a grave ameaça vem logo depois da subtração, para assegurar a coisa ou a impunidade, há roubo impróprio (art. 157, § 1º).",
+            "Na extorsão, o agente constrange a vítima, com violência ou grave ameaça, a fazer, tolerar que se faça ou deixar de fazer algo, para obter vantagem econômica indevida (art. 158). É crime formal: consuma-se independentemente da obtenção da vantagem (Súmula 96 do STJ)."
+          ]
+        },
+        {
+          "h": "Estelionato, apropriação indébita e receptação",
+          "p": [
+            "No estelionato, a vítima, enganada por artifício, ardil ou outro meio fraudulento, entrega o bem por vontade própria (art. 171). Na apropriação indébita, a posse chega licitamente às mãos do agente, que depois passa a agir como dono (art. 168).",
+            "Receptação é adquirir, receber, transportar, conduzir ou ocultar, em proveito próprio ou alheio, coisa que sabe ser produto de crime (art. 180). Ela é punível ainda que desconhecido ou isento de pena o autor do crime de que proveio a coisa (§ 4º)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Em Natal, Vânia pegou emprestada a bicicleta da vizinha para ir ao trabalho e, uma semana depois, vendeu-a a um desconhecido.",
+        "q": "Qual crime Vânia praticou?",
+        "a": "Apropriação indébita (art. 168). Ela recebeu a posse licitamente e só depois passou a dispor da bicicleta como dona. Não houve subtração, o que afasta o furto, nem fraude inicial, o que afasta o estelionato."
+      },
+      "traps": [
+        "Matar por dinheiro é paga ou promessa de recompensa (inciso I), não motivo fútil.",
+        "Feminicídio não é mais qualificadora do art. 121: é crime autônomo do art. 121-A.",
+        "Mais de 30 dias de incapacidade é lesão grave; incapacidade permanente para o trabalho é gravíssima.",
+        "Extorsão se consuma sem o recebimento do dinheiro (Súmula 96 do STJ)."
+      ],
+      "summary": [
+        "Homicídio qualificado é hediondo; feminicídio está no art. 121-A desde a Lei 14.994/2024.",
+        "Lesão grave inclui a incapacidade temporária, o perigo de vida e a mera debilidade permanente; gravíssima, a perda, a inutilização e a incapacidade permanente.",
+        "Roubo exige violência ou grave ameaça, antes ou logo depois da subtração; na extorsão, a vítima é forçada a agir.",
+        "Estelionato: fraude desde o início; apropriação indébita: posse lícita depois invertida."
+      ],
+      "src": "Código Penal, arts. 121, § 2º, 121-A, 129, 155, 157, 158, 168, 171 e 180; Lei 8.072/90, art. 1º, I; Lei 14.994/2024; Súmula 96 do STJ."
+    },
+    {
+      "id": "dpen-a5",
+      "title": "Crimes contra a administração pública",
+      "mins": 7,
+      "qids": [
+        "dpen24",
+        "dpen30",
+        "dpen25",
+        "dpen32",
+        "dpen33",
+        "dpen34"
+      ],
+      "intro": "Ao fim desta aula, você reconhece quem é funcionário público para o direito penal e separa peculato, concussão, corrupção passiva e ativa, prevaricação, resistência, desobediência e desacato pelos verbos de cada tipo.",
+      "sections": [
+        {
+          "h": "Quem é funcionário público para o CP",
+          "p": [
+            "Considera-se funcionário público, para efeitos penais, quem, embora transitoriamente ou sem remuneração, exerce cargo, emprego ou função pública (art. 327). Equipara-se quem exerce cargo, emprego ou função em entidade paraestatal e quem trabalha para empresa contratada ou conveniada para executar atividade típica da Administração Pública (§ 1º)."
+          ]
+        },
+        {
+          "h": "Peculato: a apropriação indébita do funcionário",
+          "p": [
+            "Na apropriação indébita comum, o particular tem a posse lícita de coisa alheia e passa a agir como dono (art. 168). No peculato, o funcionário se apropria de dinheiro, valor ou bem móvel, público ou particular, de que tem a posse em razão do cargo, ou o desvia em proveito próprio ou alheio (art. 312); também comete peculato quem, sem ter a posse, subtrai valendo-se da facilidade do cargo (§ 1º).",
+            "No peculato culposo, o funcionário concorre culposamente para o crime de outrem (§ 2º). A reparação do dano antes da sentença irrecorrível extingue a punibilidade; depois dela, reduz de metade a pena imposta (§ 3º)."
+          ]
+        },
+        {
+          "h": "Concussão, corrupção passiva e corrupção ativa",
+          "p": [
+            "Os verbos decidem a questão. São crimes formais: a concussão se consuma com a exigência, e a corrupção ativa com a oferta, ainda que recusada."
+          ],
+          "list": [
+            "Concussão (art. 316): o funcionário exige vantagem indevida, em razão da função.",
+            "Corrupção passiva (art. 317): o funcionário solicita, recebe ou aceita promessa de vantagem indevida.",
+            "Corrupção ativa (art. 333): o particular oferece ou promete vantagem indevida para que o funcionário pratique, omita ou retarde ato de ofício.",
+            "Quem paga ao fiscal que exigiu a propina é vítima de concussão, não autor de corrupção ativa."
+          ]
+        },
+        {
+          "h": "Prevaricação, resistência, desobediência e desacato",
+          "p": [
+            "Prevaricação é retardar ou deixar de praticar, indevidamente, ato de ofício, ou praticá-lo contra disposição expressa de lei, para satisfazer interesse ou sentimento pessoal (art. 319). Se houver vantagem indevida solicitada, recebida ou prometida, o caso é de corrupção passiva.",
+            "Nos crimes praticados por particular contra a administração, resistência é opor-se a ato legal mediante violência ou ameaça ao funcionário competente (art. 329). Desobediência é apenas desobedecer a ordem legal de funcionário público (art. 330), e desacato é ofendê-lo no exercício da função ou em razão dela (art. 331)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Numa blitz em Teresina, um agente de trânsito pergunta a um motorista se ele “não quer resolver isso com R$ 300” para não ser multado.",
+        "q": "Que crime o agente pratica?",
+        "a": "Corrupção passiva (art. 317), pois solicitou vantagem indevida em razão da função. Se tivesse imposto o pagamento, a conduta seria exigir, e o crime, concussão (art. 316)."
+      },
+      "traps": [
+        "Exigir é concussão; solicitar é corrupção passiva.",
+        "A corrupção ativa se consuma com a oferta, mesmo que o funcionário recuse.",
+        "No peculato, só a forma culposa admite extinção da punibilidade pela reparação do dano.",
+        "Violência ou ameaça para impedir a prisão é resistência, não desobediência."
+      ],
+      "summary": [
+        "Funcionário público penal inclui quem exerce função pública de forma transitória ou sem remuneração.",
+        "Peculato é a apropriação ou o desvio pelo funcionário; o culposo admite extinção da punibilidade pela reparação antes da sentença irrecorrível.",
+        "Exigir, solicitar e oferecer separam concussão, corrupção passiva e corrupção ativa.",
+        "Prevaricação é movida por interesse ou sentimento pessoal, sem vantagem indevida."
+      ],
+      "src": "Código Penal, arts. 168, 312, 316, 317, 319, 327, 329 a 331 e 333."
+    },
+    {
+      "id": "dpen-a6",
+      "title": "Leis penais especiais mais cobradas",
+      "mins": 8,
+      "qids": [
+        "dpen26",
+        "dpen37",
+        "dpen38",
+        "dpen27",
+        "dpen39",
+        "dpen28"
+      ],
+      "intro": "Ao fim desta aula, você separa usuário de traficante, aplica as vedações dos crimes hediondos, reconhece a tortura, distingue posse de porte de arma e domina os conceitos da Maria da Penha e da Lei de Abuso de Autoridade.",
+      "sections": [
+        {
+          "h": "Drogas: usuário x traficante",
+          "p": [
+            "O art. 28 da Lei 11.343/06 pune quem adquire, guarda, tem em depósito, transporta ou traz consigo droga para consumo pessoal com advertência, prestação de serviços à comunidade ou medida educativa, sem prisão; nem a prisão em flagrante se impõe (art. 48, § 2º). O tráfico do art. 33 é punido com reclusão de 5 a 15 anos.",
+            "Para separar um do outro, o juiz atende à natureza e à quantidade da droga, ao local e às condições da ação, às circunstâncias sociais e pessoais e à conduta e aos antecedentes do agente (art. 28, § 2º). Oferecer droga eventualmente, sem objetivo de lucro, a pessoa de seu relacionamento para juntos consumirem é o crime menor do art. 33, § 3º."
+          ]
+        },
+        {
+          "h": "Hediondos e tortura",
+          "p": [
+            "Hediondos e equiparados (tortura, tráfico de drogas e terrorismo) são insuscetíveis de anistia, graça, indulto e fiança (Lei 8.072/90, art. 2º; CF, art. 5º, XLIII). A vedação legal é à fiança; o texto do art. 2º não proíbe a liberdade provisória sem fiança.",
+            "Tortura é crime comum: qualquer pessoa pode constranger alguém com violência ou grave ameaça, causando sofrimento físico ou mental, para obter informação, declaração ou confissão, provocar ação criminosa ou por discriminação racial ou religiosa (Lei 9.455/97, art. 1º, I). Ser agente público aumenta a pena (§ 4º, I), e a condenação acarreta a perda do cargo e a interdição para seu exercício pelo dobro do prazo da pena (§ 5º)."
+          ]
+        },
+        {
+          "h": "Desarmamento: posse x porte",
+          "p": [
+            "Posse irregular (Lei 10.826/03, art. 12) é manter arma de uso permitido, em desacordo com a lei, no interior da residência ou dependência dela, ou no local de trabalho de que o agente seja titular ou responsável legal. Fora desses lugares, a conduta é porte ilegal (art. 14), crime mais grave.",
+            "Regra prática: arma no guarda-roupa de casa é posse; arma no carro, na bolsa ou na cintura é porte. Para armas de uso restrito, o crime é o do art. 16, que reúne posse e porte."
+          ]
+        },
+        {
+          "h": "Maria da Penha e abuso de autoridade",
+          "p": [
+            "A Lei 11.340/06 alcança a violência baseada no gênero na unidade doméstica, na família e em qualquer relação íntima de afeto, independentemente de coabitação (art. 5º). O juiz pode impor ao agressor medidas como o afastamento do lar e a proibição de aproximação com distância mínima (art. 22), e a Lei 9.099/95 não se aplica a esses crimes (art. 41).",
+            "Na Lei 13.869/19, só há abuso com finalidade específica: prejudicar outrem, beneficiar a si ou a terceiro, ou mero capricho ou satisfação pessoal (art. 1º, § 1º). A divergência na interpretação de lei ou na avaliação de fatos e provas não configura crime (§ 2º), qualquer agente público pode ser sujeito ativo (art. 2º) e a ação penal é pública incondicionada (art. 3º)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Em Uberlândia, Jorge foi parado numa blitz com um revólver .38 de uso permitido, sem registro, no porta-luvas do carro.",
+        "q": "Trata-se de posse ou de porte?",
+        "a": "Porte ilegal de arma de fogo de uso permitido (Lei 10.826/03, art. 14). O carro não é residência nem local de trabalho de que Jorge seja titular, então não se aplica o art. 12."
+      },
+      "traps": [
+        "Quem porta droga para consumo pessoal não é preso em flagrante: lavra-se termo circunstanciado (Lei 11.343/06, art. 48, § 2º).",
+        "Para a maconha, o STF (RE 635.659, Tema 506) afastou a natureza penal do porte para consumo pessoal; para as demais drogas, o art. 28 segue como crime.",
+        "Hediondo é inafiançável e insuscetível de anistia, graça e indulto.",
+        "Tortura não exige agente público; a Maria da Penha não exige que vítima e agressor morem juntos.",
+        "Decisão reformada pelo tribunal não é, por si só, abuso de autoridade."
+      ],
+      "summary": [
+        "Usuário (art. 28): sem prisão; traficante (art. 33): reclusão de 5 a 15 anos; o juiz decide pelos critérios do art. 28, § 2º.",
+        "Hediondos e equiparados: sem anistia, graça, indulto e fiança.",
+        "Arma em casa ou no próprio estabelecimento é posse; em qualquer outro lugar, porte.",
+        "Maria da Penha dispensa coabitação; abuso de autoridade exige finalidade específica."
+      ],
+      "src": "Lei 11.343/06, arts. 28, 33 e 48; Lei 8.072/90, art. 2º; Lei 9.455/97, art. 1º; Lei 10.826/03, arts. 12, 14 e 16; Lei 11.340/06, arts. 5º, 22 e 41; Lei 13.869/19, arts. 1º a 3º; CF/88, art. 5º, XLIII."
+    }
+  ]
+}

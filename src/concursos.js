@@ -106,8 +106,10 @@ function viewConcurso() {
 /* ---------- Plano de estudo ---------- */
 const SUBJECT_MAP = [[/l[ií]ngua portuguesa|portugu[eê]s|reda[cç][aã]o oficial|interpreta[cç][aã]o de texto/i, 'port'], [/racioc[ií]nio|l[oó]gica|rlm/i, 'logica'], [/inform[aá]tica|no[cç][oõ]es de computa|tecnologia da informa/i, 'info'],
   [/direito constitucional|constitucional/i, 'dconst'], [/direito administrativo|administrativo/i, 'dadm'], [/^matem[aá]tica|matem[aá]tica (b[aá]sica|financeira|e)/i, 'mat'], [/lgpd|prote[cç][aã]o de dados/i, 'lgpd'],
+  [/processual penal|execu[cç][aã]o penal/i, 'dpp'], [/processual civil/i, 'dpc'], [/direito penal|legisla[cç][aã]o penal|penal especial/i, 'dpen'], [/direito civil/i, 'dciv'],
+  [/direitos humanos/i, 'dh'], [/(^|[^a-zà-ú])[ée]tica|integridade|improbidade/i, 'etica'], [/administra[cç][aã]o (p[uú]blica|geral)|no[cç][oõ]es de administra[cç][aã]o|gest[aã]o p[uú]blica|gest[aã]o governamental|gest[aã]o estrat[ée]gica/i, 'adm'], [/ingl[eê]s|l[ií]ngua inglesa/i, 'ingl'],
   [/seguran[cç]a da informa/i, 'seg'], [/hist[oó]ria do brasil/i, 'hist'], [/^biologia/i, 'bio'], [/excel|planilha/i, 'excel']];
-function subjectDeck(nome) { for (const [re, id] of SUBJECT_MAP) if (re.test(nome)) return id; return null; }
+function subjectDeck(nome) { for (const [re, id] of SUBJECT_MAP) if (re.test(nome)) return BUILTIN_DECKS.some((d) => d.id === id) ? id : null; return null; }
 const planDeckId = (cid, i) => ('uc_' + cid.replace(/[^a-z0-9]/g, '_').slice(0, 30) + '_' + i);
 function planBanner() {
   const p = S.user.plan; const ready = p.subjects.filter((x) => x.deck && deckById(x.deck)).length;

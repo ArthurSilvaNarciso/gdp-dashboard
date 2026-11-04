@@ -1,0 +1,413 @@
+{
+  "id": "adm",
+  "lessons": [
+    {
+      "id": "adm-a1",
+      "title": "Funções administrativas e planejamento",
+      "mins": 7,
+      "qids": [
+        "adm1",
+        "adm2",
+        "adm3",
+        "adm4",
+        "adm5",
+        "adm9"
+      ],
+      "intro": "Ao fim desta aula, você identifica cada função do PODC num caso concreto, classifica planos por nível e usa SWOT, BSC e os três “E” do desempenho sem confundir os conceitos.",
+      "sections": [
+        {
+          "h": "PODC: as quatro funções do administrador",
+          "p": [
+            "Fayol descreveu cinco funções (prever, organizar, comandar, coordenar e controlar); os neoclássicos as condensaram em quatro: planejar, organizar, dirigir e controlar. Juntas, formam o processo administrativo, que é cíclico: o controle realimenta o planejamento seguinte.",
+            "Para acertar a questão, procure o verbo do caso. Fixar objetivos e escolher caminhos é planejar; dividir o trabalho e alocar recursos é organizar; liderar, comunicar e motivar é dirigir; medir, comparar com o padrão e corrigir é controlar."
+          ],
+          "list": [
+            "Planejar: definir objetivos e como alcançá-los.",
+            "Organizar: dividir tarefas, agrupar atividades, alocar recursos e definir autoridade.",
+            "Dirigir: liderar, comunicar e motivar as pessoas.",
+            "Controlar: medir o desempenho, comparar com o padrão e corrigir desvios."
+          ]
+        },
+        {
+          "h": "Três níveis de planejamento",
+          "p": [
+            "O planejamento estratégico é feito pela alta administração, abrange a organização inteira e olha o longo prazo. O tático desdobra a estratégia para cada área ou departamento, em médio prazo, e cabe à gerência intermediária. O operacional detalha tarefas, rotinas e procedimentos de curto prazo.",
+            "A ordem importa: o estratégico vem primeiro e orienta o tático, que orienta o operacional. Prazo é só pista; o que decide é a abrangência do plano e quem o elabora."
+          ]
+        },
+        {
+          "h": "SWOT: dentro e fora do órgão",
+          "p": [
+            "A matriz SWOT cruza ambiente interno e externo. Forças (strengths) e fraquezas (weaknesses) são internas e estão sob controle da organização, como equipe qualificada ou sistema obsoleto.",
+            "Oportunidades (opportunities) e ameaças (threats) vêm de fora, como uma nova lei que facilita o serviço ou uma crise econômica. A pegadinha clássica é chamar de força algo bom que vem de fora: isso é oportunidade."
+          ]
+        },
+        {
+          "h": "Balanced Scorecard: quatro perspectivas",
+          "p": [
+            "Kaplan e Norton criaram o BSC para equilibrar os indicadores financeiros com outros que antecipam o desempenho futuro. As quatro perspectivas originais são financeira, clientes, processos internos e aprendizado e crescimento.",
+            "No setor público, o cidadão costuma ganhar destaque na perspectiva de clientes. Capacitação de servidores, sistemas de informação e clima ficam em aprendizado e crescimento, a base que sustenta as demais."
+          ]
+        },
+        {
+          "h": "Eficiência, eficácia e efetividade",
+          "p": [
+            "Eficiência olha os meios: fazer mais com menos, como o custo por atendimento. Eficácia olha o resultado: a meta foi atingida? Efetividade olha o impacto: a realidade da população mudou?",
+            "Uma campanha pode ser eficaz (vacinou 95% do público-alvo) sem ser eficiente (gastou o dobro do necessário). A efetividade aparece em indicadores como queda de internações ou de mortalidade."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Uma prefeitura bateu a meta de asfaltar 50 km de ruas no ano, gastando 10% menos que o orçado, e depois mediu a redução de acidentes nas vias recuperadas.",
+        "q": "Que dimensão cada informação revela?",
+        "a": "Bater a meta dos 50 km é eficácia; gastar menos que o orçado é eficiência; a redução de acidentes mede efetividade, o impacto na vida da população."
+      },
+      "traps": [
+        "Achar que reunião com a equipe é sempre planejamento: veja o verbo central do caso (orientar e motivar é direção).",
+        "Classificar como estratégico todo plano de mais de um ano: plano de uma área só, desdobrado da estratégia, é tático.",
+        "Chamar de força uma lei nova favorável: tudo o que vem do ambiente externo é oportunidade ou ameaça.",
+        "Trocar eficácia por efetividade: meta atingida é eficácia; impacto social é efetividade."
+      ],
+      "summary": [
+        "PODC: planejar, organizar, dirigir e controlar, num ciclo contínuo.",
+        "Estratégico (organização, longo prazo), tático (área, médio prazo), operacional (tarefas, curto prazo).",
+        "SWOT: forças e fraquezas internas; oportunidades e ameaças externas. BSC: financeira, clientes, processos internos, aprendizado e crescimento.",
+        "Eficiência = meios; eficácia = metas; efetividade = impacto."
+      ],
+      "src": "Chiavenato, Introdução à Teoria Geral da Administração; Chiavenato e Sapiro, Planejamento Estratégico; Kaplan e Norton, A Estratégia em Ação: Balanced Scorecard."
+    },
+    {
+      "id": "adm-a2",
+      "title": "Ferramentas de gestão e da qualidade",
+      "mins": 7,
+      "qids": [
+        "adm6",
+        "adm7",
+        "adm8",
+        "adm26",
+        "adm27",
+        "adm35"
+      ],
+      "intro": "Ao fim desta aula, você escolhe a ferramenta certa para cada situação e resolve as contas de GUT e Pareto que as bancas adoram cobrar.",
+      "sections": [
+        {
+          "h": "PDCA: o ciclo da melhoria contínua",
+          "p": [
+            "O ciclo PDCA, associado a Shewhart e difundido por Deming, tem quatro etapas: Plan (planejar metas e métodos), Do (executar, inclusive treinando quem executa), Check (verificar os resultados contra as metas) e Act (agir: padronizar o que deu certo ou corrigir o que falhou).",
+            "Depois do Act o ciclo recomeça, por isso se fala em melhoria contínua. Medir e comparar com a meta é sempre Check; padronizar ou corrigir é Act."
+          ]
+        },
+        {
+          "h": "5W2H e matriz GUT: planejar a ação e priorizar",
+          "p": [
+            "O 5W2H é um plano de ação com sete perguntas: What (o quê), Why (por quê), Where (onde), When (quando), Who (quem), How (como) e How much (quanto custa). Se a banca listar seis itens e perguntar o que falta, conte com calma: são cinco W e dois H.",
+            "A matriz GUT prioriza problemas dando notas de 1 a 5 para Gravidade, Urgência e Tendência e multiplicando as três. Quem tem o maior produto vem primeiro; somar as notas em vez de multiplicar é o erro de cálculo mais cobrado."
+          ]
+        },
+        {
+          "h": "Ishikawa e Pareto: causas e prioridades",
+          "p": [
+            "O diagrama de Ishikawa, também chamado de causa e efeito ou espinha de peixe, organiza as possíveis causas de um problema em categorias, como os 6M: método, máquina, mão de obra, material, medida e meio ambiente.",
+            "O gráfico de Pareto ordena as causas da mais frequente para a menos frequente e mostra o acumulado. A ideia, difundida por Juran, é que poucas causas vitais respondem pela maior parte dos problemas, a famosa proporção 80/20."
+          ]
+        },
+        {
+          "h": "Fluxograma: o processo desenhado",
+          "p": [
+            "O fluxograma representa graficamente a sequência de etapas de um processo, o que ajuda a enxergar gargalos, retrabalho e etapas sem valor. É a base do mapeamento de processos em órgãos públicos.",
+            "Na simbologia usual, o terminal oval marca início e fim, o retângulo indica uma atividade, o losango indica uma decisão (com saídas como sim e não) e as setas mostram o sentido do fluxo."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Na matriz GUT de um hospital estadual, o problema X recebeu G4, U2, T5 e o problema Y recebeu G5, U5, T1.",
+        "q": "Qual tem prioridade?",
+        "a": "X: 4 x 2 x 5 = 40; Y: 5 x 5 x 1 = 25. X vem primeiro. Pela soma, os dois empatariam em 11, o que mostra por que a GUT multiplica."
+      },
+      "traps": [
+        "Confundir Check com Act: medir é Check; padronizar ou corrigir é Act.",
+        "Somar as notas da GUT: a prioridade sai do produto G x U x T.",
+        "Usar Pareto para organizar causas por categorias: isso é Ishikawa; Pareto ordena por frequência.",
+        "Achar que os poucos vitais são as causas raras: são as mais frequentes."
+      ],
+      "summary": [
+        "PDCA: planejar, executar, verificar e agir, em ciclo.",
+        "5W2H tem sete itens; GUT multiplica gravidade, urgência e tendência.",
+        "Ishikawa organiza causas (6M); Pareto prioriza as poucas causas vitais (80/20).",
+        "Fluxograma: retângulo é atividade, losango é decisão."
+      ],
+      "src": "Campos, TQC: Controle da Qualidade Total; Ishikawa, Controle de Qualidade Total à Maneira Japonesa; Kepner e Tregoe (matriz GUT); Juran (princípio de Pareto)."
+    },
+    {
+      "id": "adm-a3",
+      "title": "Estrutura e cultura organizacional",
+      "mins": 7,
+      "qids": [
+        "adm10",
+        "adm11",
+        "adm12",
+        "adm13",
+        "adm37",
+        "adm32"
+      ],
+      "intro": "Ao fim desta aula, você reconhece o tipo de estrutura de um órgão, o critério de departamentalização usado e distingue centralização, amplitude de controle, clima e cultura.",
+      "sections": [
+        {
+          "h": "Tipos de estrutura",
+          "p": [
+            "Na estrutura linear, cada um tem um só chefe (unidade de comando) e a autoridade desce em linha direta. Na linha-staff, os órgãos de linha comandam a execução e os de staff assessoram com conhecimento especializado, sem dar ordens à linha.",
+            "Na estrutura matricial, a organização funcional convive com a de projetos: o servidor responde ao chefe da sua área e ao gerente do projeto, a chamada dupla subordinação. A divisional agrupa unidades semiautônomas por produto, serviço ou região."
+          ]
+        },
+        {
+          "h": "Departamentalização: os critérios",
+          "p": [
+            "Departamentalizar é agrupar atividades em unidades. O critério mostra a lógica do agrupamento, e a banca quer que você o identifique pelo caso."
+          ],
+          "list": [
+            "Funcional: por especialidade (finanças, pessoal, compras).",
+            "Geográfica ou territorial: por região (superintendências regionais).",
+            "Por clientela: pelo público atendido (idosos, crianças, pessoas com deficiência).",
+            "Por produtos ou serviços: pelo que se entrega.",
+            "Por processo: pelas etapas de uma sequência de trabalho.",
+            "Por projetos: equipes temporárias em torno de um projeto."
+          ]
+        },
+        {
+          "h": "Centralização, descentralização e amplitude de controle",
+          "p": [
+            "Na teoria administrativa, centralizar é concentrar as decisões no topo; descentralizar é delegá-las aos níveis mais baixos. A descentralização dá agilidade e aproxima a decisão dos fatos, mas pode reduzir a uniformidade e a coordenação.",
+            "Cuidado com o Direito Administrativo, em que descentralizar é transferir atividade a outra pessoa jurídica. Já a amplitude de controle é o número de subordinados por chefe: amplitude maior gera estruturas achatadas, com menos níveis; amplitude menor gera estruturas altas."
+          ]
+        },
+        {
+          "h": "Cultura e clima",
+          "p": [
+            "Cultura organizacional é o conjunto de valores, crenças e pressupostos compartilhados que orienta o comportamento. Schein a descreve em três níveis: artefatos visíveis, valores declarados e pressupostos básicos, estes os mais profundos e difíceis de mudar.",
+            "Clima organizacional é a percepção dos membros sobre o ambiente de trabalho, ligada à motivação. Ele oscila com fatos como troca de chefia ou corte de benefícios, enquanto a cultura muda devagar."
+          ]
+        }
+      ],
+      "example": {
+        "c": "A Receita de um estado manteve o mesmo quadro de pessoal, reduziu de cinco para três os níveis hierárquicos e deu aos delegados regionais o poder de decidir sobre parcelamentos, antes reservado à sede.",
+        "q": "O que mudou na estrutura?",
+        "a": "Com menos níveis, cada chefe passa a ter mais subordinados: a amplitude de controle aumentou e a estrutura ficou mais achatada. Delegar o poder de decidir às regionais é descentralização no sentido administrativo."
+      },
+      "traps": [
+        "Chamar de staff quem dirige a equipe: staff assessora; quem comanda é linha.",
+        "Confundir departamentalização geográfica com por clientela: território versus tipo de público.",
+        "Ligar amplitude maior a estrutura mais alta: é o contrário, fica mais achatada.",
+        "Tratar clima e cultura como sinônimos: clima é percepção e muda rápido; cultura é valor compartilhado e muda devagar."
+      ],
+      "summary": [
+        "Linear: um só chefe; linha-staff: staff assessora sem comandar; matricial: dupla subordinação.",
+        "Departamentalização: funcional, geográfica, clientela, produtos, processo e projetos.",
+        "Descentralizar é delegar decisões; amplitude é o número de subordinados por chefe.",
+        "Cultura é profunda e estável; clima é percepção e varia mais."
+      ],
+      "src": "Chiavenato, Introdução à Teoria Geral da Administração e Administração: Teoria, Processo e Prática; Schein, Cultura Organizacional e Liderança."
+    },
+    {
+      "id": "adm-a4",
+      "title": "Do patrimonialismo à governança pública",
+      "mins": 8,
+      "qids": [
+        "adm14",
+        "adm15",
+        "adm16",
+        "adm17",
+        "adm18",
+        "adm19"
+      ],
+      "intro": "Ao fim desta aula, você reconhece os modelos patrimonialista, burocrático e gerencial, entende a reforma de 1995 e distingue Novo Serviço Público e governança pública.",
+      "sections": [
+        {
+          "h": "Patrimonialismo e burocracia",
+          "p": [
+            "No modelo patrimonialista, o Estado funciona como extensão do patrimônio do governante: público e privado se confundem, e nepotismo e corrupção são inerentes. A burocracia surgiu como reação, com base no tipo ideal de Max Weber.",
+            "A burocracia weberiana se apoia em normas legais, formalismo, impessoalidade, hierarquia, profissionalização e mérito. No Brasil, foi implantada no governo Vargas, com o DASP, criado em 1938, concursos e carreiras."
+          ]
+        },
+        {
+          "h": "As disfunções apontadas por Merton",
+          "p": [
+            "Robert Merton mostrou que a burocracia real gera efeitos indesejados. O principal é o apego aos regulamentos: a norma deixa de ser meio e vira fim em si mesma.",
+            "Daí vêm excesso de formalismo e papelório, resistência a mudanças, despersonalização do relacionamento e dificuldade no atendimento ao público. O controle rígido e a priori dos procedimentos acaba deixando o resultado em segundo plano."
+          ]
+        },
+        {
+          "h": "Modelo gerencial e Plano Diretor de 1995",
+          "p": [
+            "O Plano Diretor da Reforma do Aparelho do Estado, de 1995, elaborado pelo MARE sob Bresser-Pereira, propôs o modelo gerencial: foco no cidadão, controle de resultados a posteriori, metas, contratos de gestão e mais autonomia para o gestor. A EC 19/1998 levou essa lógica à Constituição e incluiu a eficiência no caput do art. 37.",
+            "O Plano dividiu o Estado em quatro setores, cada um com sua forma de propriedade e estratégia."
+          ],
+          "list": [
+            "Núcleo estratégico: define leis e políticas públicas.",
+            "Atividades exclusivas: exigem poder de Estado (regular, fiscalizar, fomentar); proposta de agências.",
+            "Serviços não exclusivos: hospitais, universidades, museus; propriedade pública não estatal e publicização (organizações sociais).",
+            "Produção para o mercado: empresas estatais; proposta de privatização."
+          ]
+        },
+        {
+          "h": "Novo Serviço Público e governança",
+          "p": [
+            "Denhardt e Denhardt criticam a visão do cidadão como cliente e propõem o Novo Serviço Público: servir cidadãos, e não consumidores, construir o interesse público pelo diálogo e servir em vez de dirigir. Orçamento participativo e conselhos são exemplos dessa lógica.",
+            "No plano federal, o Decreto 9.203/2017 define governança pública como mecanismos de liderança, estratégia e controle para avaliar, direcionar e monitorar a gestão. Seu art. 3º traz seis princípios: capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade e transparência."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Um servidor diz que o modelo gerencial acabou com a burocracia e com o controle de legalidade no serviço público brasileiro.",
+        "q": "A afirmação está correta?",
+        "a": "Não. O modelo gerencial manteve conquistas burocráticas, como concurso e carreiras, e deslocou a ênfase para os resultados. O controle de legalidade e os princípios do art. 37 continuam valendo."
+      },
+      "traps": [
+        "Dizer que a burocracia trouxe o nepotismo: ela nasceu para combatê-lo; nepotismo é traço patrimonialista.",
+        "Atribuir à burocracia o controle de resultados a posteriori: isso é gerencial; a burocracia controla procedimentos a priori.",
+        "Pôr hospitais e museus nas atividades exclusivas: são serviços não exclusivos, alvo da publicização.",
+        "Trocar princípios por mecanismos do Decreto 9.203: liderança, estratégia e controle são mecanismos (art. 5º)."
+      ],
+      "summary": [
+        "Patrimonialismo confunde público e privado; burocracia (Weber, DASP) traz impessoalidade e mérito.",
+        "Merton: disfunções como apego aos regulamentos e excesso de formalismo.",
+        "Gerencial (1995): resultados, metas e autonomia; EC 19/1998 incluiu a eficiência no art. 37.",
+        "Novo Serviço Público: cidadão, não cliente; Decreto 9.203/2017 fixa seis princípios de governança."
+      ],
+      "src": "Plano Diretor da Reforma do Aparelho do Estado (1995); Bresser-Pereira; Merton (1940); Denhardt e Denhardt, The New Public Service; Decreto 9.203/2017, arts. 2º, 3º e 5º; CF/88, art. 37."
+    },
+    {
+      "id": "adm-a5",
+      "title": "Motivação e liderança",
+      "mins": 7,
+      "qids": [
+        "adm20",
+        "adm21",
+        "adm22",
+        "adm23",
+        "adm29",
+        "adm30"
+      ],
+      "intro": "Ao fim desta aula, você aplica Maslow, Herzberg, McGregor e Vroom a casos de servidores e escolhe o estilo de liderança adequado a cada equipe.",
+      "sections": [
+        {
+          "h": "Maslow e Herzberg",
+          "p": [
+            "Maslow organiza as necessidades em hierarquia: fisiológicas, segurança, sociais, estima e autorrealização. Uma necessidade satisfeita deixa de motivar, e a pessoa passa a buscar o nível seguinte.",
+            "Herzberg separa dois grupos. Fatores higiênicos, do ambiente (salário, condições físicas, chefia, políticas), apenas evitam a insatisfação; fatores motivacionais, do conteúdo do cargo (reconhecimento, responsabilidade, crescimento), geram motivação."
+          ]
+        },
+        {
+          "h": "McGregor e Vroom",
+          "p": [
+            "McGregor contrapõe duas visões do ser humano. A Teoria X supõe que as pessoas evitam o trabalho e precisam ser controladas; a Teoria Y supõe que gostam de trabalhar, buscam responsabilidade e se autocontrolam quando comprometidas.",
+            "Vroom explica a motivação por três crenças: expectância (meu esforço leva ao desempenho), instrumentalidade (o desempenho leva à recompensa) e valência (eu valorizo a recompensa). Se qualquer uma for baixa, a motivação cai."
+          ]
+        },
+        {
+          "h": "Estilos clássicos de liderança",
+          "p": [
+            "Os estudos de White e Lippitt descrevem três estilos. No autocrático, o líder fixa diretrizes e tarefas sozinho; no democrático, as diretrizes são debatidas e decididas com o grupo; no liberal (laissez-faire), o líder quase não participa e o grupo decide com total liberdade.",
+            "Nenhum estilo é perfeito em qualquer situação, e é isso que as teorias situacionais exploram."
+          ]
+        },
+        {
+          "h": "Liderança situacional de Hersey e Blanchard",
+          "p": [
+            "O estilo do líder deve se ajustar à maturidade (prontidão) dos liderados, que combina capacidade e disposição para a tarefa. Quanto mais maduro o liderado, menos direção ele precisa."
+          ],
+          "list": [
+            "Maturidade baixa (incapaz e sem disposição): determinar.",
+            "Disposto, mas ainda pouco capaz: persuadir.",
+            "Capaz, mas inseguro ou pouco disposto: compartilhar.",
+            "Capaz e disposto: delegar."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Uma servidora recém-nomeada no INSS está empolgada, mas ainda não domina as regras de concessão de benefícios.",
+        "q": "Que estilo de Hersey e Blanchard a chefe deve usar?",
+        "a": "Persuadir: ela tem disposição, mas pouca capacidade. A chefe orienta a tarefa de perto e mantém alto apoio de relacionamento para preservar o entusiasmo."
+      },
+      "traps": [
+        "Achar que melhorar salário e condições físicas motiva: para Herzberg, são fatores higiênicos que só reduzem a insatisfação.",
+        "Trocar expectância por instrumentalidade: esforço-desempenho é expectância; desempenho-recompensa é instrumentalidade.",
+        "Confundir autocrático com liberal: no liberal o líder praticamente se omite.",
+        "Usar determinar com equipe madura: para capazes e dispostos, o estilo é delegar."
+      ],
+      "summary": [
+        "Maslow: fisiológicas, segurança, sociais, estima, autorrealização.",
+        "Herzberg: higiênicos evitam insatisfação; motivacionais motivam.",
+        "McGregor: X controla, Y confia; Vroom: expectância, instrumentalidade e valência.",
+        "Hersey e Blanchard: determinar, persuadir, compartilhar e delegar conforme a maturidade."
+      ],
+      "src": "Maslow (1943); Herzberg, The Motivation to Work (1959); McGregor, O Lado Humano da Empresa (1960); Vroom, Work and Motivation (1964); Hersey e Blanchard, Psicologia para Administradores; Robbins, Comportamento Organizacional."
+    },
+    {
+      "id": "adm-a6",
+      "title": "Gestão de pessoas e atendimento ao cidadão",
+      "mins": 8,
+      "qids": [
+        "adm24",
+        "adm33",
+        "adm34",
+        "adm25",
+        "adm28",
+        "adm40"
+      ],
+      "intro": "Ao fim desta aula, você distingue recrutamento de seleção e treinamento de desenvolvimento, reconhece erros de avaliação e aplica as regras da Lei 13.460/2017 ao atendimento.",
+      "sections": [
+        {
+          "h": "Recrutamento, seleção, treinamento e desenvolvimento",
+          "p": [
+            "Recrutar é atrair candidatos; selecionar é compará-los e escolher o mais adequado. O recrutamento interno busca quem já está no quadro, é mais rápido e valoriza a carreira; o externo traz gente e ideias novas.",
+            "Treinamento prepara para o cargo atual, com foco no curto prazo. Desenvolvimento prepara para cargos e desafios futuros, em prazo mais longo, como programas de formação de gestores."
+          ]
+        },
+        {
+          "h": "Avaliação de desempenho e seus erros",
+          "p": [
+            "Na avaliação 360 graus, o servidor recebe retorno de todos que interagem com ele: chefia, pares, subordinados, clientes internos e externos, além da autoavaliação. Ela amplia a visão, mas exige preparo para que o retorno seja útil.",
+            "Os erros mais cobrados são vieses do avaliador."
+          ],
+          "list": [
+            "Efeito halo: uma característica marcante contamina a nota de todos os fatores.",
+            "Tendência central: evitar notas extremas e pôr todos no meio da escala.",
+            "Recência: pesar demais os fatos mais recentes do período."
+          ]
+        },
+        {
+          "h": "Lei 13.460/2017: diretrizes e Carta de Serviços",
+          "p": [
+            "O Código de Defesa do Usuário do Serviço Público fixa diretrizes de atendimento no art. 5º, como urbanidade, respeito, acessibilidade e cortesia (I) e presunção de boa-fé do usuário (II). Também veda a imposição de exigências e sanções não previstas na legislação.",
+            "O art. 7º obriga órgãos e entidades a divulgar a Carta de Serviços ao Usuário, que informa os serviços prestados, as formas de acesso e os compromissos e padrões de qualidade de atendimento. Ela deve ser atualizada periodicamente e publicada na internet."
+          ]
+        },
+        {
+          "h": "Ouvidoria e manifestações",
+          "p": [
+            "Manifestações são reclamações, denúncias, sugestões, elogios e demais pronunciamentos dos usuários sobre os serviços (art. 2º, V). Elas são dirigidas à ouvidoria, e o art. 10 veda quaisquer exigências relativas aos motivos que levaram o usuário a se manifestar.",
+            "Pelo art. 16, a ouvidoria encaminha a decisão administrativa final ao usuário em 30 dias, prazo prorrogável de forma justificada uma única vez, por igual período. Não confunda com a Lei de Acesso à Informação, cujo prazo é de 20 dias, prorrogáveis por mais 10."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Num posto do Detran, a atendente pede que um cidadão prove, com testemunhas, que perdeu o documento, sem nenhum indício de fraude, e se recusa a informar onde ele pode reclamar.",
+        "q": "Que regras da Lei 13.460/2017 estão sendo ignoradas?",
+        "a": "A presunção de boa-fé do usuário (art. 5º, II) e o dever de informar os canais de manifestação, que devem constar da Carta de Serviços (art. 7º). A reclamação pode ser feita à ouvidoria, sem precisar justificar os motivos."
+      },
+      "traps": [
+        "Inverter recrutamento e seleção: primeiro se atraem candidatos, depois se escolhe.",
+        "Trocar treinamento por desenvolvimento: cargo atual e curto prazo é treinamento.",
+        "Reduzir a 360 graus à avaliação da chefia: ela envolve todos os que interagem com o avaliado.",
+        "Usar o prazo da LAI para a ouvidoria: na Lei 13.460 são 30 dias, prorrogáveis uma vez por igual período."
+      ],
+      "summary": [
+        "Recrutar atrai; selecionar escolhe. Treinamento olha o cargo atual; desenvolvimento, o futuro.",
+        "360 graus envolve todos os que interagem com o avaliado; halo generaliza um traço para todos os fatores.",
+        "Lei 13.460: boa-fé e cortesia no atendimento, Carta de Serviços publicada na internet.",
+        "Ouvidoria: sem exigir motivos e com decisão final em 30 dias, prorrogáveis uma vez."
+      ],
+      "src": "Chiavenato, Gestão de Pessoas; Lei 13.460/2017, arts. 2º, 5º, 7º, 10 e 16; Lei 12.527/2011, art. 11."
+    }
+  ]
+}

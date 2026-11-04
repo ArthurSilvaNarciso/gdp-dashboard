@@ -76,7 +76,15 @@ Object.assign(I, {"home":"<path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\"
   "warn":"<path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3\"/><path d=\"M12 9v4\"/><path d=\"M12 17h.01\"/>",
   "sum":"<path d=\"m3 10 2.5-2.5L3 5\"/><path d=\"m3 19 2.5-2.5L3 14\"/><path d=\"M10 6h11\"/><path d=\"M10 12h11\"/><path d=\"M10 18h11\"/>",
   "spark":"<path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"/><path d=\"M3 3v5h5\"/>",
-  "memory":"<path d=\"M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z\"/><path d=\"M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z\"/><path d=\"M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4\"/><path d=\"M17.599 6.5a3 3 0 0 0 .399-1.375\"/><path d=\"M6.003 5.125A3 3 0 0 0 6.401 6.5\"/><path d=\"M3.477 10.896a4 4 0 0 1 .585-.396\"/><path d=\"M19.938 10.5a4 4 0 0 1 .585.396\"/><path d=\"M6 18a4 4 0 0 1-1.967-.516\"/><path d=\"M19.967 17.484A4 4 0 0 1 18 18\"/>"});
+  "memory":"<path d=\"M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z\"/><path d=\"M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z\"/><path d=\"M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4\"/><path d=\"M17.599 6.5a3 3 0 0 0 .399-1.375\"/><path d=\"M6.003 5.125A3 3 0 0 0 6.401 6.5\"/><path d=\"M3.477 10.896a4 4 0 0 1 .585-.396\"/><path d=\"M19.938 10.5a4 4 0 0 1 .585.396\"/><path d=\"M6 18a4 4 0 0 1-1.967-.516\"/><path d=\"M19.967 17.484A4 4 0 0 1 18 18\"/>",
+  "humans":"<path d=\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"/><path d=\"M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66\"/><path d=\"m18 15-2-2\"/><path d=\"m15 18-2-2\"/>",
+  "gavel":"<path d=\"m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8\"/><path d=\"m16 16 6-6\"/><path d=\"m8 8 6-6\"/><path d=\"m9 7 8 8\"/><path d=\"m21 11-8-8\"/>",
+  "inquiry":"<path d=\"M14 2v4a2 2 0 0 0 2 2h4\"/><path d=\"M4.268 21a2 2 0 0 0 1.727 1H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3\"/><path d=\"m9 18-1.5-1.5\"/><circle cx=\"5\" cy=\"14\" r=\"3\"/>",
+  "signature":"<path d=\"m21 17-2.156-1.868A.5.5 0 0 0 18 15.5v.5a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1c0-2.545-3.991-3.97-8.5-4a1 1 0 0 0 0 5c4.153 0 4.745-11.295 5.708-13.5a2.5 2.5 0 1 1 3.31 3.284\"/><path d=\"M3 21h18\"/>",
+  "scale":"<path d=\"m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z\"/><path d=\"m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z\"/><path d=\"M7 21h10\"/><path d=\"M12 3v18\"/><path d=\"M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2\"/>",
+  "ethics":"<path d=\"m11 17 2 2a1 1 0 1 0 3-3\"/><path d=\"m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4\"/><path d=\"m21 3 1 11h-2\"/><path d=\"M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3\"/><path d=\"M3 4h8\"/>",
+  "org":"<path d=\"M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z\"/><path d=\"M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2\"/><path d=\"M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2\"/><path d=\"M10 6h4\"/><path d=\"M10 10h4\"/><path d=\"M10 14h4\"/><path d=\"M10 18h4\"/>",
+  "lang":"<path d=\"m5 8 6 6\"/><path d=\"m4 14 6-6 2-3\"/><path d=\"M2 5h12\"/><path d=\"M7 2h1\"/><path d=\"m22 22-5-10-5 10\"/><path d=\"M14 18h6\"/>"});
 DECK_LOOK.neuro = Object.assign({}, DECK_LOOK.neuro, { icon: 'mind' });
 
 /* ---------- Ilustrações de estado: ícone grande num disco suave, com o ponto laranja da marca ---------- */
@@ -84,20 +92,4 @@ const ILLO = { sync: ['cloud', 'blue'], class: ['school', 'mint'], search: ['sea
 function illo(name, cls = '') {
   const v = ILLO[name] || ILLO.empty;
   return `<span class="illo2 c-${v[1]} ${cls}" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24">${I[v[0]]}</svg><i></i></span>`;
-}
-
-/* ---------- Selos de conquista (SVG geométrico, sem ilustração gerada) ---------- */
-const MEDAL = {
-  first: { i: 'footprints', c: ['#F2A65A', '#D9822B'] }, streak3: { i: 'flame', c: ['#F2A65A', '#D9822B'], t: '3' },
-  streak7: { i: 'flame', c: ['#FFC24B', '#E8A317'], t: '7' }, streak30: { i: 'flame', c: ['#8E7BFF', '#5B45E0'], t: '30' },
-  q100: { i: 'target', c: ['#A9B4C8', '#7C889E'], t: '100' }, fixer: { i: 'wrench', c: ['#A9B4C8', '#7C889E'] },
-  calib: { i: 'gauge', c: ['#5FC9A0', '#2E9C74'] }, firm25: { i: 'mind', c: ['#FFC24B', '#E8A317'], t: '25' },
-  sim70: { i: 'clipboard', c: ['#FFC24B', '#E8A317'], t: '70%' }, import: { i: 'fileup', c: ['#6E8BFF', '#3F5BD9'] }
-};
-function medalSVG(id, cls = '') {
-  const m = MEDAL[id] || MEDAL.first; const g = 'mg-' + id;
-  return `<svg class="medal ${cls}" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="${g}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${m.c[0]}"/><stop offset="1" stop-color="${m.c[1]}"/></linearGradient></defs>
-    <path d="M32 2.5 57.5 17v30L32 61.5 6.5 47V17z" fill="url(#${g})"/><path d="M32 2.5 57.5 17v30L32 61.5z" fill="#000" opacity=".08"/>
-    <circle cx="32" cy="31" r="17" fill="#fff"/><g transform="translate(20 19)" fill="none" stroke="${m.c[1]}" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">${I[m.i]}</g>
-    ${m.t ? `<rect x="${32 - (m.t.length * 4 + 7)}" y="44" width="${m.t.length * 8 + 14}" height="14" rx="7" fill="#1F2A6B"/><text x="32" y="54.2" text-anchor="middle" font-family="Poppins, system-ui, sans-serif" font-weight="700" font-size="10" fill="#fff">${m.t}</text>` : ''}</svg>`;
 }

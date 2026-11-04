@@ -1,0 +1,1119 @@
+{
+ "id": "ingl",
+ "title": "Inglês para concursos",
+ "subtitle": "Leitura, vocabulário e gramática",
+ "tag": "Concursos",
+ "blurb": "Leia textos em inglês com segurança e domine falsos cognatos, conectivos, tempos verbais e modais do jeito que as bancas cobram.",
+ "questions": [
+  {
+   "id": "ingl1",
+   "topic": "Ideia principal",
+   "c": "Many Brazilian cities now publish their bus schedules as open data. As a result, independent developers have created free apps that show when the next bus will arrive. According to city officials, however, the greatest benefit is not the apps themselves but the public’s growing trust in government information.",
+   "q": "Qual é a ideia principal do trecho?",
+   "a": 1,
+   "src": "Grellet, Developing Reading Skills (Cambridge University Press, 1981)",
+   "o": [
+    {
+     "t": "Os aplicativos criados por desenvolvedores independentes levaram as prefeituras a divulgar os horários dos ônibus.",
+     "p": "inversao",
+     "w": "Inverte a relação de causa: “As a result” mostra que os apps são consequência da publicação dos dados, e não a causa dela."
+    },
+    {
+     "t": "A publicação dos horários como dados abertos gerou aplicativos, mas o maior ganho, segundo as prefeituras, é a confiança na informação pública.",
+     "p": "correta",
+     "w": "A ideia principal junta o fato e a avaliação final do texto: os dados abertos geraram apps, mas o maior benefício apontado é a confiança (“the greatest benefit is... the public’s growing trust”)."
+    },
+    {
+     "t": "Todas as cidades brasileiras já divulgam seus horários de ônibus como dados abertos.",
+     "p": "generalizacao",
+     "w": "O texto diz “Many Brazilian cities”, ou seja, muitas, e não todas. Transformar “many” em “all” é a generalização típica das bancas."
+    },
+    {
+     "t": "Segundo as autoridades, o principal benefício da medida são os aplicativos gratuitos para os passageiros.",
+     "p": "troca",
+     "w": "Troca a ideia central por um detalhe e ignora a estrutura “not the apps themselves but...”: o maior benefício citado é a confiança, não os apps."
+    }
+   ]
+  },
+  {
+   "id": "ingl2",
+   "topic": "Inferência",
+   "c": "Last year, the health clinic in a neighborhood of Manaus started opening at 7 a.m. instead of 9 a.m. Since then, the long line that used to form outside the building before opening time has almost disappeared.",
+   "q": "Que inferência o trecho autoriza?",
+   "a": 3,
+   "src": "Nuttall, Teaching Reading Skills in a Foreign Language, 3. ed. (Macmillan, 2005)",
+   "o": [
+    {
+     "t": "A clínica passou a atender o dobro de pacientes por dia depois da mudança de horário.",
+     "p": "extrapolacao",
+     "w": "O texto não fala em número de atendimentos. Acrescentar dados que o trecho não traz é extrapolação, a pegadinha mais comum em questões de inferência."
+    },
+    {
+     "t": "A clínica decidiu abrir mais cedo porque a fila na porta já tinha desaparecido.",
+     "p": "inversao",
+     "w": "Inverte a ordem dos fatos: a fila diminuiu depois da mudança de horário (“Since then”), e não antes dela."
+    },
+    {
+     "t": "Nenhum paciente precisa mais esperar para ser atendido na clínica.",
+     "p": "generalizacao",
+     "w": "“Almost disappeared” significa que quase desapareceu, e o texto trata só da fila antes da abertura. “Nenhum” transforma o dado em regra absoluta."
+    },
+    {
+     "t": "A abertura mais cedo provavelmente diminuiu a espera dos pacientes do lado de fora antes do início do atendimento.",
+     "p": "correta",
+     "w": "É a conclusão que o texto sustenta: o horário mudou e, desde então (“Since then”), a fila antes da abertura quase sumiu. Inferir é concluir o que o trecho permite, sem acrescentar dados."
+    }
+   ]
+  },
+  {
+   "id": "ingl3",
+   "topic": "Referência pronominal it",
+   "c": "Last year, a state government in southern Brazil replaced its paper forms with an online system. It runs on any smartphone and does not require a desktop computer.",
+   "q": "Na segunda frase, o pronome “It” retoma qual termo?",
+   "a": 0,
+   "src": "Halliday & Hasan, Cohesion in English (Longman, 1976), cap. 2",
+   "o": [
+    {
+     "t": "an online system",
+     "p": "correta",
+     "w": "“It” retoma um termo no singular capaz de “rodar em qualquer smartphone”: só o sistema on-line faz sentido. Teste trocando: “The online system runs on any smartphone”."
+    },
+    {
+     "t": "a state government",
+     "p": "troca",
+     "w": "O governo é o sujeito da frase anterior, por isso parece o candidato natural. Mas um governo não “runs on any smartphone”; o sentido descarta essa leitura."
+    },
+    {
+     "t": "its paper forms",
+     "p": "calculo",
+     "w": "Erro de procedimento: “forms” está no plural e seria retomado por “they”, não por “it”. Conferir o número do pronome elimina essa alternativa."
+    },
+    {
+     "t": "any smartphone",
+     "p": "inversao",
+     "w": "O smartphone é onde o sistema funciona, e não o que funciona. Além disso, o termo aparece depois do pronome, e não antes, como costuma ocorrer com o referente."
+    }
+   ]
+  },
+  {
+   "id": "ingl4",
+   "topic": "Referência: they e which",
+   "c": "Community health agents visit families in rural areas of Piauí every month. They record vaccination data on tablets, which are recharged at the health unit every night.",
+   "q": "A que termos se referem, respectivamente, “They” e “which”?",
+   "a": 2,
+   "src": "Halliday & Hasan, Cohesion in English (Longman, 1976), cap. 2",
+   "o": [
+    {
+     "t": "families; tablets",
+     "p": "troca",
+     "w": "“Families” é o substantivo plural mais próximo de “They”, mas quem registra os dados nos tablets são os agentes, que fazem as visitas."
+    },
+    {
+     "t": "community health agents; vaccination data",
+     "p": "inversao",
+     "w": "Dados não são recarregados; tablets são. Aqui “which” abre uma oração explicativa que comenta o substantivo imediatamente anterior, “tablets”."
+    },
+    {
+     "t": "community health agents; tablets",
+     "p": "correta",
+     "w": "Quem registra os dados de vacinação são os agentes de saúde, e o que é recarregado toda noite são os tablets. “Which” retoma o substantivo que vem logo antes da vírgula."
+    },
+    {
+     "t": "rural areas; the health unit",
+     "p": "calculo",
+     "w": "Erro de procedimento: o referente vem antes do pronome, e “the health unit” aparece depois de “which”. Áreas rurais também não registram dados."
+    }
+   ]
+  },
+  {
+   "id": "ingl5",
+   "topic": "Falso cognato actually",
+   "c": "Many residents believe that the new public library in Curitiba is only for university students. Actually, anyone with an ID card can borrow books there for free.",
+   "q": "Qual é a tradução adequada de “Actually” no trecho?",
+   "a": 2,
+   "src": "Cambridge Dictionary, verbete 'actually'",
+   "o": [
+    {
+     "t": "Atualmente",
+     "p": "troca",
+     "w": "É o falso cognato clássico. “Atualmente” corresponde a “currently” ou “nowadays”; “actually” introduz o que é verdade de fato."
+    },
+    {
+     "t": "Portanto",
+     "p": "inversao",
+     "w": "“Portanto” (therefore) indica conclusão, mas a segunda frase contradiz a primeira. O valor de “Actually” aqui é de correção, e não de consequência."
+    },
+    {
+     "t": "Na verdade",
+     "p": "correta",
+     "w": "“Actually” significa “na verdade, de fato” e aqui corrige a crença equivocada apresentada na frase anterior."
+    },
+    {
+     "t": "Além disso",
+     "p": "extrapolacao",
+     "w": "“Além disso” (moreover) somaria um argumento na mesma linha. O trecho faz o contrário: desmente a crença anterior."
+    }
+   ]
+  },
+  {
+   "id": "ingl6",
+   "topic": "College, library e lecture",
+   "c": "After finishing high school in Belo Horizonte, Marina enrolled in a college to study public administration. She spends her afternoons in the library and attends a lecture on public budgets every Tuesday.",
+   "q": "Qual tradução respeita o sentido do trecho?",
+   "a": 0,
+   "src": "Oxford Learner's Dictionaries, verbetes 'college', 'library', 'attend' e 'lecture'",
+   "o": [
+    {
+     "t": "Ela entrou numa faculdade, passa as tardes na biblioteca e assiste a uma palestra sobre orçamento público toda terça.",
+     "p": "correta",
+     "w": "“College” é instituição de ensino superior, “library” é biblioteca, “attend” é comparecer ou assistir e “lecture” é palestra ou aula expositiva."
+    },
+    {
+     "t": "Ela entrou num colégio, passa as tardes na biblioteca e assiste a uma palestra sobre orçamento público toda terça.",
+     "p": "troca",
+     "w": "“College” não é colégio de ensino básico: Marina já terminou o ensino médio (“After finishing high school”). Colégio, em inglês, é “school”."
+    },
+    {
+     "t": "Ela entrou numa faculdade, passa as tardes na livraria e assiste a uma palestra sobre orçamento público toda terça.",
+     "p": "inversao",
+     "w": "“Library” é biblioteca, onde se consultam e emprestam livros. Livraria, onde se compram livros, é “bookshop” ou “bookstore”."
+    },
+    {
+     "t": "Ela entrou numa faculdade, passa as tardes na biblioteca e atende a uma leitura sobre orçamento público toda terça.",
+     "p": "generalizacao",
+     "w": "Trata “attend” e “lecture” como cognatos perfeitos. “Attend” é comparecer, frequentar; “lecture” é palestra ou aula. Leitura, em inglês, é “reading”."
+    }
+   ]
+  },
+  {
+   "id": "ingl7",
+   "topic": "Push e pretend",
+   "c": "A sign on the main door of the city hall says “PUSH”. Even so, some visitors pretend not to see it and keep pulling the door.",
+   "q": "Qual é o sentido de “push” e “pretend” no trecho?",
+   "a": 3,
+   "src": "Cambridge Dictionary, verbetes 'push' e 'pretend'",
+   "o": [
+    {
+     "t": "push = puxar; pretend = fingir",
+     "p": "inversao",
+     "w": "Inverte o par: “pull” é puxar e “push” é empurrar. O próprio texto opõe a placa “PUSH” ao gesto de “pulling”."
+    },
+    {
+     "t": "push = empurrar; pretend = pretender",
+     "p": "troca",
+     "w": "“Pretend” é falso cognato e significa fingir. Pretender, no sentido de ter a intenção, é “intend” ou “plan”."
+    },
+    {
+     "t": "push = puxar; pretend = pretender",
+     "p": "generalizacao",
+     "w": "Supõe que toda palavra parecida com o português tem o mesmo sentido. Os dois termos enganam: significam empurrar e fingir."
+    },
+    {
+     "t": "push = empurrar; pretend = fingir",
+     "p": "correta",
+     "w": "“Push” é empurrar, o oposto de “pull” (puxar), e “pretend” é fingir: alguns visitantes fingem não ver a placa."
+    }
+   ]
+  },
+  {
+   "id": "ingl8",
+   "topic": "Eventually e realize",
+   "c": "At first, the mayor of a coastal city rejected the proposal for new bike lanes. Eventually, she realized that they could reduce traffic accidents, and the plan was approved.",
+   "q": "Qual é o sentido de “Eventually” e “realized” no trecho?",
+   "a": 1,
+   "src": "Cambridge Dictionary, verbetes 'eventually' e 'realize'",
+   "o": [
+    {
+     "t": "eventualmente; realizou",
+     "p": "generalizacao",
+     "w": "Trata os dois como cognatos. Eventualmente (ocasionalmente) é “occasionally”; realizar, no sentido de executar, é “carry out” ou “accomplish”."
+    },
+    {
+     "t": "por fim; percebeu",
+     "p": "correta",
+     "w": "“Eventually” indica o que acontece no fim de um processo (por fim, finalmente), e “realize” é perceber, dar-se conta. O texto narra a mudança de opinião da prefeita."
+    },
+    {
+     "t": "por fim; realizou",
+     "p": "troca",
+     "w": "Acerta “Eventually”, mas erra o falso cognato “realize”: ela percebeu que as ciclovias poderiam reduzir acidentes; não realizou nada."
+    },
+    {
+     "t": "às vezes; percebeu",
+     "p": "inversao",
+     "w": "“Às vezes” (sometimes) indica repetição ocasional, o oposto de um desfecho único. O par “At first... Eventually” marca o início e o fim de um processo."
+    }
+   ]
+  },
+  {
+   "id": "ingl9",
+   "topic": "Parents, assist e sensible",
+   "c": "During a meeting with parents at a public school in Recife, the principal asked teachers to assist students with learning difficulties after class. Most parents considered the proposal sensible.",
+   "q": "Assinale a tradução correta de “parents”, “assist” e “sensible” no trecho.",
+   "a": 0,
+   "src": "Oxford Learner's Dictionaries, verbetes 'parent', 'assist' e 'sensible'",
+   "o": [
+    {
+     "t": "pais; ajudar; sensata",
+     "p": "correta",
+     "w": "“Parents” são pai e mãe, “assist” é ajudar e “sensible” é sensato, razoável. A proposta foi considerada sensata pelos pais."
+    },
+    {
+     "t": "parentes; ajudar; sensata",
+     "p": "troca",
+     "w": "“Parents” não são parentes em geral, que em inglês são “relatives”. A reunião era com os pais dos alunos."
+    },
+    {
+     "t": "pais; assistir às aulas; sensata",
+     "p": "extrapolacao",
+     "w": "“Assist” é ajudar. Assistir, no sentido de ver ou estar presente, é “watch” ou “attend”; os professores vão ajudar os alunos depois da aula."
+    },
+    {
+     "t": "parentes; assistir; sensível",
+     "p": "generalizacao",
+     "w": "Toma os três termos como cognatos. Sensível, em inglês, é “sensitive”; “sensible” é sensato."
+    }
+   ]
+  },
+  {
+   "id": "ingl10",
+   "topic": "Policy e politics",
+   "c": "The city council approved a new data protection policy after months of debate. Several council members said they wanted to keep party politics out of the technical discussion.",
+   "q": "Qual é a diferença entre “policy” e “politics” no trecho?",
+   "a": 2,
+   "src": "Cambridge Dictionary, verbetes 'policy' e 'politics'",
+   "o": [
+    {
+     "t": "“Policy” é a disputa partidária de poder; “politics” é a norma de proteção de dados aprovada.",
+     "p": "inversao",
+     "w": "Inverte os sentidos. O que foi aprovado é um conjunto de regras, a “policy”; a disputa que os vereadores queriam afastar é a “politics”."
+    },
+    {
+     "t": "São sinônimos perfeitos e podem ser trocados em qualquer contexto sem mudar o sentido.",
+     "p": "generalizacao",
+     "w": "As duas se traduzem por “política”, mas não são intercambiáveis: “data protection politics” não designaria uma norma aprovada."
+    },
+    {
+     "t": "“Policy” é a diretriz ou norma adotada por uma instituição; “politics” é a atividade política, a disputa partidária de poder.",
+     "p": "correta",
+     "w": "Em português as duas viram “política”, mas o inglês separa: “policy” é plano ou regra de ação (public policy, privacy policy); “politics” é a atividade política."
+    },
+    {
+     "t": "“Policy” significa polícia, órgão que fiscalizará o uso dos dados; “politics” é a atividade política.",
+     "p": "troca",
+     "w": "Confunde “policy” com “police” (polícia). O conselho aprovou uma norma, e não criou um órgão policial."
+    }
+   ]
+  },
+  {
+   "id": "ingl11",
+   "topic": "Conectivo however",
+   "c": "The new subway line in Salvador was expected to open in March. However, heavy rains delayed the construction work, and the opening was postponed to June.",
+   "q": "Qual conectivo substitui “However” sem alterar o sentido do trecho?",
+   "a": 1,
+   "src": "Cambridge Dictionary, verbetes 'however' e 'nevertheless'",
+   "o": [
+    {
+     "t": "Therefore",
+     "p": "inversao",
+     "w": "“Therefore” introduz conclusão ou consequência. As chuvas não decorrem da previsão de abertura; elas a contrariam."
+    },
+    {
+     "t": "Nevertheless",
+     "p": "correta",
+     "w": "“However” e “nevertheless” expressam contraste: havia uma expectativa (abrir em março) e um fato que a contrariou (as chuvas)."
+    },
+    {
+     "t": "Moreover",
+     "p": "troca",
+     "w": "“Moreover” acrescenta informação na mesma direção (além disso), sem a ideia de oposição presente no trecho."
+    },
+    {
+     "t": "For instance",
+     "p": "extrapolacao",
+     "w": "“For instance” introduz um exemplo. O atraso causado pelas chuvas não exemplifica a frase anterior; ele a contraria."
+    }
+   ]
+  },
+  {
+   "id": "ingl12",
+   "topic": "Although e despite",
+   "c": "Although the regional hospital received new equipment, the waiting time for exams did not fall.",
+   "q": "Qual reescrita mantém o sentido e está gramaticalmente correta?",
+   "a": 3,
+   "src": "Cambridge Dictionary, verbetes 'although' e 'despite'",
+   "o": [
+    {
+     "t": "Despite the hospital received new equipment, the waiting time for exams did not fall.",
+     "p": "calculo",
+     "w": "Erro de construção: “despite” não introduz oração com verbo conjugado. Seria preciso escrever “Despite the fact that the hospital received...”."
+    },
+    {
+     "t": "Because the regional hospital received new equipment, the waiting time for exams did not fall.",
+     "p": "inversao",
+     "w": "“Because” transforma a concessão em causa, como se os equipamentos tivessem impedido a queda da espera. O sentido original é de expectativa frustrada."
+    },
+    {
+     "t": "Unless the regional hospital received new equipment, the waiting time for exams did not fall.",
+     "p": "troca",
+     "w": "“Unless” (a menos que) expressa condição, e não concessão. Além de mudar o sentido, a frase perde a lógica."
+    },
+    {
+     "t": "Despite the new equipment, the waiting time for exams at the regional hospital did not fall.",
+     "p": "correta",
+     "w": "“Despite” (como “in spite of”) é preposição e vem seguido de substantivo, pronome ou forma em -ing. O valor de concessão de “although” se mantém."
+    }
+   ]
+  },
+  {
+   "id": "ingl13",
+   "topic": "Conectivo whereas",
+   "c": "In large cities, most people get information about public services online, whereas in small towns many residents still rely on local radio stations.",
+   "q": "Que relação “whereas” estabelece no trecho?",
+   "a": 3,
+   "src": "Cambridge Dictionary, verbete 'whereas'",
+   "o": [
+    {
+     "t": "Causa: o rádio é usado nas cidades pequenas porque as cidades grandes usam a internet.",
+     "p": "troca",
+     "w": "Não há relação de causa entre os hábitos das cidades grandes e os das pequenas. Causa seria expressa por “because” ou “since”."
+    },
+    {
+     "t": "Consequência, como “therefore”: o uso da internet leva ao uso do rádio.",
+     "p": "inversao",
+     "w": "Transforma a comparação em consequência. “Therefore” introduz conclusão; “whereas” apenas opõe as duas realidades."
+    },
+    {
+     "t": "Condição: os moradores usam o rádio apenas se não tiverem acesso à internet.",
+     "p": "restricao",
+     "w": "Acrescenta uma condição que o texto não menciona. Condição seria expressa por “if” ou “unless”."
+    },
+    {
+     "t": "Contraste entre duas situações, com sentido próximo de “while” (enquanto).",
+     "p": "correta",
+     "w": "“Whereas” compara dois fatos opostos: nas cidades grandes, internet; nas pequenas, rádio. Equivale a “while” no sentido contrastivo."
+    }
+   ]
+  },
+  {
+   "id": "ingl14",
+   "topic": "Conectivo unless",
+   "c": "Unless the documents are submitted by Friday, the scholarship application will not be accepted.",
+   "q": "Qual frase tem o mesmo sentido do trecho?",
+   "a": 1,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidade 'unless, as long as, provided'",
+   "o": [
+    {
+     "t": "If the documents are submitted by Friday, the scholarship application will not be accepted.",
+     "p": "inversao",
+     "w": "Ignora a negação embutida em “unless” e inverte o sentido: entregar no prazo passaria a causar a recusa."
+    },
+    {
+     "t": "If the documents are not submitted by Friday, the scholarship application will not be accepted.",
+     "p": "correta",
+     "w": "“Unless” equivale a “if... not” (a menos que, a não ser que). Sem os documentos até sexta, o pedido não é aceito."
+    },
+    {
+     "t": "Although the documents are submitted by Friday, the scholarship application will not be accepted.",
+     "p": "troca",
+     "w": "“Although” expressa concessão (embora). “Unless” expressa condição negativa, que é outro valor."
+    },
+    {
+     "t": "The scholarship application will never be accepted, even if the documents are submitted by Friday.",
+     "p": "generalizacao",
+     "w": "Transforma a condição em recusa absoluta. O trecho apresenta a entrega até sexta justamente como a condição para a aceitação."
+    }
+   ]
+  },
+  {
+   "id": "ingl15",
+   "topic": "Moreover e thus",
+   "c": "The digital protocol system reduces paper use in public offices. Moreover, it allows citizens to track their requests online. Thus, the city government expects fewer complaints at its service counters.",
+   "q": "Que valores expressam “Moreover” e “Thus”, respectivamente?",
+   "a": 2,
+   "src": "Cambridge Dictionary, verbetes 'moreover' e 'thus'",
+   "o": [
+    {
+     "t": "Conclusão e adição",
+     "p": "inversao",
+     "w": "Inverte os valores: “moreover” equivale a “furthermore” ou “in addition”; “thus” equivale a “therefore”."
+    },
+    {
+     "t": "Contraste e conclusão",
+     "p": "troca",
+     "w": "“Moreover” não opõe ideias: as duas primeiras frases apresentam vantagens do sistema. Contraste seria “however” ou “nevertheless”."
+    },
+    {
+     "t": "Adição e conclusão",
+     "p": "correta",
+     "w": "“Moreover” acrescenta mais uma vantagem (além disso), e “Thus” introduz a conclusão tirada dessas vantagens (portanto, assim)."
+    },
+    {
+     "t": "Os dois expressam adição, pois ambos apenas somam informações.",
+     "p": "generalizacao",
+     "w": "Nem todo conectivo entre frases é aditivo. “Thus” apresenta o resultado esperado das vantagens, ou seja, uma conclusão."
+    }
+   ]
+  },
+  {
+   "id": "ingl16",
+   "topic": "Conectivo otherwise",
+   "c": "Taxpayers must update their e-mail address on the city’s website. Otherwise, they may not receive important notices about deadlines.",
+   "q": "Qual expressão tem o mesmo sentido de “Otherwise” no trecho?",
+   "a": 0,
+   "src": "Cambridge Dictionary, verbete 'otherwise'",
+   "o": [
+    {
+     "t": "Caso contrário",
+     "p": "correta",
+     "w": "“Otherwise” indica o que acontece se a orientação anterior não for cumprida: se não atualizarem o e-mail, podem não receber os avisos."
+    },
+    {
+     "t": "Por isso",
+     "p": "inversao",
+     "w": "“Por isso” (therefore) apresenta a consequência do que foi dito; “otherwise” apresenta a consequência do contrário do que foi dito."
+    },
+    {
+     "t": "Ainda assim",
+     "p": "troca",
+     "w": "“Ainda assim” (nevertheless) expressa contraste. O trecho não opõe ideias; mostra o risco de não seguir a orientação."
+    },
+    {
+     "t": "Além disso",
+     "p": "extrapolacao",
+     "w": "“Além disso” (furthermore) apenas somaria uma informação nova, sem a relação de consequência que o trecho estabelece."
+    }
+   ]
+  },
+  {
+   "id": "ingl17",
+   "topic": "Present perfect x past",
+   "c": "A transport report from a Brazilian state capital says: “The city ___ 120 electric buses since 2021. The first twenty ___ in March 2021.”",
+   "q": "Qual alternativa completa corretamente as lacunas?",
+   "a": 1,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidades 'Present perfect and past'",
+   "o": [
+    {
+     "t": "bought; have arrived",
+     "p": "inversao",
+     "w": "Inverte os tempos. Marcadores de tempo encerrado, como “in March 2021”, “yesterday” e “last month”, não combinam com o present perfect no inglês padrão."
+    },
+    {
+     "t": "has bought; arrived",
+     "p": "correta",
+     "w": "“Since 2021” liga o passado ao presente, contexto do present perfect (has bought). “In March 2021” indica tempo passado encerrado e pede simple past (arrived)."
+    },
+    {
+     "t": "has bought; have arrived",
+     "p": "generalizacao",
+     "w": "Usa o present perfect para tudo. Com tempo definido e terminado (“in March 2021”), o inglês padrão exige simple past."
+    },
+    {
+     "t": "is buying; were arriving",
+     "p": "troca",
+     "w": "Troca os tempos pelos contínuos. O total acumulado desde 2021 pede “has bought”, e o fato concluído em março de 2021 pede “arrived”."
+    }
+   ]
+  },
+  {
+   "id": "ingl18",
+   "topic": "Past continuous",
+   "c": "The power went out while the nurses were updating patient records. Fortunately, the system saved all the data automatically.",
+   "q": "O que o uso de “were updating” e “went out” indica?",
+   "a": 0,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidade 'Past continuous (I was doing)'",
+   "o": [
+    {
+     "t": "A atualização estava em andamento quando a queda de energia, um fato breve, a interrompeu.",
+     "p": "correta",
+     "w": "O past continuous (were updating) descreve ação em progresso no passado; o simple past (went out) marca o fato pontual que a interrompeu."
+    },
+    {
+     "t": "A queda de energia estava em andamento quando as enfermeiras começaram a atualizar os prontuários.",
+     "p": "inversao",
+     "w": "Inverte os papéis: o que estava em andamento era a atualização (were updating). A queda de energia é o evento pontual, no simple past."
+    },
+    {
+     "t": "As enfermeiras terminaram de atualizar os prontuários e, depois, a energia caiu.",
+     "p": "calculo",
+     "w": "Erro de leitura do tempo verbal: o past continuous indica ação ainda em curso naquele momento. A sequência seria expressa por “updated... and then the power went out”."
+    },
+    {
+     "t": "As enfermeiras atualizam prontuários sempre que falta energia no hospital.",
+     "p": "generalizacao",
+     "w": "Transforma um episódio único do passado em hábito. O trecho narra um fato específico, e não uma rotina."
+    }
+   ]
+  },
+  {
+   "id": "ingl19",
+   "topic": "Will e going to",
+   "c": "Two organizers are setting up an outdoor vaccination point in a public square. “Look at those dark clouds. It’s going to rain,” says Ana. “OK, I’ll get the tents from the truck,” answers Pedro.",
+   "q": "Por que se usa “going to” na fala de Ana e “will” (’ll) na de Pedro?",
+   "a": 3,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidade 'I will and I’m going to'",
+   "o": [
+    {
+     "t": "Ana toma uma decisão no momento da fala; Pedro faz uma previsão baseada em evidências.",
+     "p": "inversao",
+     "w": "Troca os usos. Ana não decide nada: prevê a chuva a partir das nuvens. Pedro é quem reage na hora com uma decisão."
+    },
+    {
+     "t": "“Will” e “going to” são sempre intercambiáveis, e a escolha é apenas de estilo.",
+     "p": "generalizacao",
+     "w": "Há contextos em que ambos cabem, mas não sempre. Para decisão tomada no ato da fala, “I’m going to get the tents” indicaria um plano já feito antes."
+    },
+    {
+     "t": "“Going to” só pode ser usado com verbos que indicam fenômenos naturais, como “rain”.",
+     "p": "restricao",
+     "w": "Cria uma restrição inexistente. “Going to” serve para qualquer verbo, em previsões com evidência e em planos já decididos."
+    },
+    {
+     "t": "Ana faz uma previsão baseada em evidência presente; Pedro toma uma decisão no momento da fala.",
+     "p": "correta",
+     "w": "“Going to” é usado para previsões apoiadas no que se vê agora (as nuvens), e “will”, para decisões tomadas no momento em que se fala."
+    }
+   ]
+  },
+  {
+   "id": "ingl20",
+   "topic": "Voz passiva",
+   "c": "A press release from a city hall reads: “The municipal government built three new schools in the eastern zone last year.”",
+   "q": "Qual é a voz passiva correta da frase?",
+   "a": 2,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidades 'Passive'",
+   "o": [
+    {
+     "t": "Three new schools was built in the eastern zone by the municipal government last year.",
+     "p": "calculo",
+     "w": "Erro de concordância: o sujeito da passiva, “three new schools”, está no plural e pede “were”."
+    },
+    {
+     "t": "Three new schools have been built in the eastern zone by the municipal government last year.",
+     "p": "troca",
+     "w": "Troca o tempo verbal: a ativa está no simple past, e “last year” não combina com o present perfect."
+    },
+    {
+     "t": "Three new schools were built in the eastern zone by the municipal government last year.",
+     "p": "correta",
+     "w": "Passiva = “be” no tempo da ativa + particípio. A ativa está no simple past (built), então a passiva usa “were built”, concordando com “schools”."
+    },
+    {
+     "t": "The municipal government was built three new schools in the eastern zone last year.",
+     "p": "inversao",
+     "w": "Mantém o agente como sujeito e põe o verbo na passiva. Na transformação, o objeto da ativa (three new schools) é que vira sujeito."
+    }
+   ]
+  },
+  {
+   "id": "ingl21",
+   "topic": "Must de dedução",
+   "c": "The lights in the IT department are still on at 11 p.m., and the system update is scheduled for tonight. The technicians must be working on it.",
+   "q": "Que valor tem “must” no trecho?",
+   "a": 2,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidade 'must and can’t'",
+   "o": [
+    {
+     "t": "Obrigação, pois “must” sempre indica dever ou ordem.",
+     "p": "generalizacao",
+     "w": "“Must” tem dois usos centrais: obrigação e dedução. Dizer que ele “sempre” indica dever ignora o uso de dedução, muito cobrado."
+    },
+    {
+     "t": "Dúvida: o falante acha pouco provável que os técnicos estejam trabalhando.",
+     "p": "inversao",
+     "w": "Inverte o grau de certeza: “must” de dedução indica alta probabilidade. Dúvida seria expressa por “might be working”."
+    },
+    {
+     "t": "Dedução: o falante conclui, com base em evidências, que os técnicos estão trabalhando.",
+     "p": "correta",
+     "w": "“Must be + -ing” expressa certeza deduzida das pistas (luzes acesas, atualização marcada). Não é ordem; é uma conclusão do falante."
+    },
+    {
+     "t": "Conselho: o falante recomenda que os técnicos trabalhem na atualização.",
+     "p": "troca",
+     "w": "Conselho é o valor de “should”. Aqui o falante não recomenda nada; ele conclui algo a partir do que observa."
+    }
+   ]
+  },
+  {
+   "id": "ingl22",
+   "topic": "Must, should e might",
+   "c": "A notice at a health unit in Goiânia says: “Visitors must wear a mask in the ICU. Patients with mild symptoms should drink plenty of water. Test results might take up to three days.”",
+   "q": "Que valores expressam “must”, “should” e “might”, respectivamente?",
+   "a": 3,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidades sobre modal verbs (must, should, may e might)",
+   "o": [
+    {
+     "t": "Conselho, obrigação e possibilidade",
+     "p": "inversao",
+     "w": "Inverte “must” e “should”. A máscara na UTI é exigência (must); beber água é recomendação (should)."
+    },
+    {
+     "t": "Obrigação, conselho e permissão",
+     "p": "troca",
+     "w": "“Might” aqui não autoriza nada; indica que algo pode acontecer. Permissão seria, por exemplo, “You may leave now”."
+    },
+    {
+     "t": "Os três indicam obrigação, porque todo modal em aviso oficial tem força de regra.",
+     "p": "generalizacao",
+     "w": "Cada modal mantém seu valor, mesmo em avisos oficiais. “Should” recomenda e “might” expressa possibilidade."
+    },
+    {
+     "t": "Obrigação, conselho e possibilidade",
+     "p": "correta",
+     "w": "“Must” impõe uma regra, “should” recomenda e “might” indica possibilidade: os resultados podem levar até três dias."
+    }
+   ]
+  },
+  {
+   "id": "ingl23",
+   "topic": "Second conditional",
+   "c": "A city councillor says: “If we had more money in the budget, we would build a new hospital in the northern zone.”",
+   "q": "O que a frase indica sobre a situação atual?",
+   "a": 0,
+   "src": "Cambridge Dictionary, English Grammar Today, verbete 'Conditionals'",
+   "o": [
+    {
+     "t": "Hoje não há verba suficiente; a construção é uma hipótese irreal no presente.",
+     "p": "correta",
+     "w": "O second conditional (if + past simple, would + verbo) trata de situação hipotética no presente. “Had” aqui não indica passado, e sim irrealidade."
+    },
+    {
+     "t": "Há verba suficiente, e o hospital será construído em breve.",
+     "p": "inversao",
+     "w": "Inverte a hipótese: o second conditional pressupõe que a condição não se cumpre agora."
+    },
+    {
+     "t": "A falta de verba ocorreu no passado, e por isso o hospital deixou de ser construído naquela época.",
+     "p": "calculo",
+     "w": "Erro de leitura do tempo: “had” na oração com “if” não marca passado. Hipótese sobre o passado exigiria “If we had had..., we would have built”."
+    },
+    {
+     "t": "O vereador garante que o hospital será construído quando o orçamento aumentar no próximo ano.",
+     "p": "extrapolacao",
+     "w": "O trecho não fala em próximo ano nem dá garantia. Possibilidade real no futuro usaria o first conditional: “If the budget increases, we will build”."
+    }
+   ]
+  },
+  {
+   "id": "ingl24",
+   "topic": "Third conditional",
+   "c": "“If the city had cleaned the drainage channels before the rainy season, the streets would not have flooded,” said the engineer.",
+   "q": "Qual interpretação está correta?",
+   "a": 1,
+   "src": "Cambridge Dictionary, English Grammar Today, verbete 'Conditionals'",
+   "o": [
+    {
+     "t": "Os canais foram limpos antes das chuvas, e por isso as ruas não alagaram.",
+     "p": "inversao",
+     "w": "Lê a hipótese como fato. O third conditional descreve justamente o que não aconteceu no passado."
+    },
+    {
+     "t": "Os canais não foram limpos antes das chuvas, e as ruas alagaram.",
+     "p": "correta",
+     "w": "O third conditional (if + past perfect, would have + particípio) fala de um passado irreal: o contrário aconteceu. Não houve limpeza, e houve alagamento."
+    },
+    {
+     "t": "A prefeitura ainda pode limpar os canais e evitar o alagamento desta estação.",
+     "p": "calculo",
+     "w": "Erro de leitura da estrutura: “would not have flooded” se refere a um passado encerrado. Possibilidade real futura usaria o first conditional."
+    },
+    {
+     "t": "Limpar os canais sempre impede qualquer alagamento, em qualquer cidade.",
+     "p": "generalizacao",
+     "w": "O engenheiro fala de um caso concreto. Uma verdade geral seria expressa pelo zero conditional, e o trecho não sustenta esse “sempre”."
+    }
+   ]
+  },
+  {
+   "id": "ingl25",
+   "topic": "Comparativos e superlativos",
+   "c": "According to a survey, the new online service is faster than the old system, but it is not as cheap as the paper version. It is also the most popular channel among young users.",
+   "q": "Qual alternativa está de acordo com o trecho?",
+   "a": 0,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidades sobre comparison e superlatives",
+   "o": [
+    {
+     "t": "O serviço on-line é mais rápido que o sistema antigo, porém mais caro que a versão em papel.",
+     "p": "correta",
+     "w": "“Faster than” é comparativo de superioridade; “not as cheap as” significa “não tão barato quanto”, ou seja, mais caro."
+    },
+    {
+     "t": "O serviço on-line é mais barato que a versão em papel.",
+     "p": "inversao",
+     "w": "“Not as cheap as” nega a igualdade: o serviço on-line custa mais que a versão em papel, e não menos."
+    },
+    {
+     "t": "O serviço on-line é o canal mais popular entre todos os usuários.",
+     "p": "generalizacao",
+     "w": "O superlativo “the most popular” está limitado por “among young users”. Estendê-lo a todos os usuários é generalização."
+    },
+    {
+     "t": "O serviço on-line é tão rápido quanto o sistema antigo.",
+     "p": "troca",
+     "w": "Troca o comparativo de superioridade (faster than) pelo de igualdade (as fast as)."
+    }
+   ]
+  },
+  {
+   "id": "ingl26",
+   "topic": "Carry out, look into",
+   "c": "The ombudsman’s office will look into the complaints about the water supply. A team was set up last week to carry out inspections in the affected neighborhoods.",
+   "q": "Qual é o sentido de “look into”, “set up” e “carry out” no trecho?",
+   "a": 1,
+   "src": "Cambridge Dictionary, verbetes 'look into', 'set up' e 'carry out'",
+   "o": [
+    {
+     "t": "olhar para dentro; montar; carregar para fora",
+     "p": "generalizacao",
+     "w": "Traduz cada partícula ao pé da letra. O sentido de um phrasal verb nem sempre é a soma de verbo e partícula: “carry out” é realizar."
+    },
+    {
+     "t": "investigar; criar; realizar",
+     "p": "correta",
+     "w": "“Look into” é investigar, examinar; “set up” é criar, montar, estabelecer; “carry out” é realizar, executar. São phrasal verbs frequentes em textos institucionais."
+    },
+    {
+     "t": "investigar; adiar; realizar",
+     "p": "troca",
+     "w": "Confunde “set up” com “put off” (adiar). A equipe foi criada na semana passada, e não adiada."
+    },
+    {
+     "t": "investigar; criar; descobrir",
+     "p": "extrapolacao",
+     "w": "“Descobrir” é “find out”. “Carry out inspections” é realizar inspeções; descobrir algo pode ser resultado delas, mas não é o sentido do verbo."
+    }
+   ]
+  },
+  {
+   "id": "ingl27",
+   "topic": "Turn down, put off",
+   "c": "The committee turned down the first proposal because it was too expensive. The vote on the second one was put off until next month, but the engineers have already come up with a cheaper solution.",
+   "q": "Qual alternativa interpreta corretamente o trecho?",
+   "a": 2,
+   "src": "Cambridge Dictionary, verbetes 'turn down', 'put off' e 'come up with'",
+   "o": [
+    {
+     "t": "A primeira proposta foi aprovada, a votação da segunda foi adiada e os engenheiros já criaram uma solução mais barata.",
+     "p": "inversao",
+     "w": "“Turn down” é rejeitar, o contrário de aprovar. O motivo dado (“too expensive”) confirma a recusa."
+    },
+    {
+     "t": "A primeira proposta foi rejeitada, a votação da segunda foi cancelada e os engenheiros já criaram uma solução mais barata.",
+     "p": "troca",
+     "w": "“Put off” é adiar, e não cancelar: a votação passou para o mês seguinte. Cancelar seria “call off”."
+    },
+    {
+     "t": "A primeira proposta foi rejeitada, a votação da segunda foi adiada e os engenheiros já criaram uma solução mais barata.",
+     "p": "correta",
+     "w": "“Turn down” é recusar, “put off” é adiar e “come up with” é ter ou propor uma ideia, solução ou plano."
+    },
+    {
+     "t": "A primeira proposta foi rejeitada, a votação da segunda foi adiada e a solução dos engenheiros já foi aprovada.",
+     "p": "extrapolacao",
+     "w": "O texto não diz que a nova solução foi aprovada; diz apenas que os engenheiros a propuseram (“come up with”)."
+    }
+   ]
+  },
+  {
+   "id": "ingl28",
+   "topic": "Relative pronouns",
+   "c": "A local newspaper reported: “The nurse ___ coordinated the vaccination campaign received an award. The clinic, ___ director is a pediatrician, opened a new wing for children.”",
+   "q": "Qual alternativa completa corretamente as lacunas?",
+   "a": 3,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidades sobre relative clauses",
+   "o": [
+    {
+     "t": "which; whose",
+     "p": "troca",
+     "w": "“Which” retoma coisas ou animais. Para pessoa, usa-se “who” (ou “that”, em oração restritiva)."
+    },
+    {
+     "t": "who; which",
+     "p": "calculo",
+     "w": "Erro de construção: “which director” não expressa posse. A ideia de “cujo” exige “whose”."
+    },
+    {
+     "t": "that; that",
+     "p": "generalizacao",
+     "w": "“That” pode substituir “who” e “which” em orações restritivas, mas não indica posse nem pode ser usado depois de vírgula, em oração explicativa."
+    },
+    {
+     "t": "who; whose",
+     "p": "correta",
+     "w": "“Who” retoma pessoa (the nurse) como sujeito da oração relativa. “Whose” indica posse: o diretor da clínica (the clinic’s director)."
+    }
+   ]
+  },
+  {
+   "id": "ingl29",
+   "topic": "Formação de palavras",
+   "c": "The report criticized the carelessness of some contractors and the useless delays in public works. However, it praised the helpful attitude of the new inspectors, who were never unkind to residents.",
+   "q": "Qual análise da formação de palavras está correta?",
+   "a": 0,
+   "src": "Oxford Learner's Dictionaries, verbetes '-less', '-ful', '-ness', 'un-' e 'mis-'",
+   "o": [
+    {
+     "t": "“-less” indica ausência (careless, useless), “-ful” indica presença da qualidade (helpful) e “un-” nega (unkind).",
+     "p": "correta",
+     "w": "“-less” = sem (useless, inútil); “-ful” = que tem a qualidade (helpful, prestativo); “-ness” forma substantivo (carelessness, descuido); “un-” nega o adjetivo."
+    },
+    {
+     "t": "“-less” indica presença da qualidade, e “-ful” indica sua ausência.",
+     "p": "inversao",
+     "w": "Inverte os sufixos: “useless” é inútil, sem utilidade, e “helpful” é prestativo, que ajuda."
+    },
+    {
+     "t": "“-ness” forma advérbios: “carelessness” significa “descuidadamente”.",
+     "p": "troca",
+     "w": "“-ness” forma substantivos abstratos a partir de adjetivos (careless → carelessness, descuido). O advérbio seria “carelessly”, com “-ly”."
+    },
+    {
+     "t": "“un-” e “mis-” têm o mesmo sentido e podem ser trocados em qualquer palavra, como em “miskind”.",
+     "p": "generalizacao",
+     "w": "“Un-” nega (unkind); “mis-” indica algo feito de forma errada ou equivocada (misunderstand, misuse). “Miskind” não existe."
+    }
+   ]
+  },
+  {
+   "id": "ingl30",
+   "topic": "Quantifiers few e little",
+   "c": "The new public school has few computers, so students share them in groups. Fortunately, a few volunteers offer coding classes, and the teachers have a little time to help after class.",
+   "q": "Qual interpretação está correta?",
+   "a": 3,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidade 'much, many, little, few, a lot, plenty'",
+   "o": [
+    {
+     "t": "A escola tem alguns computadores, o suficiente, mas quase nenhum voluntário.",
+     "p": "inversao",
+     "w": "Inverte “few” e “a few”: “few computers” indica escassez (por isso os alunos dividem as máquinas), e “a few volunteers” indica alguns."
+    },
+    {
+     "t": "“A little time” está errado, pois “time” exige “a few”.",
+     "p": "calculo",
+     "w": "Erro de classificação: “time”, no sentido de tempo disponível, é incontável e leva “little” ou “a little”. “Few” e “a few” acompanham contáveis no plural."
+    },
+    {
+     "t": "“Few” e “a few” têm o mesmo sentido; o artigo “a” é apenas enfático.",
+     "p": "generalizacao",
+     "w": "O artigo muda o sentido: “few” indica escassez, e “a few”, uma quantidade pequena mas positiva. A diferença é cobrada com frequência."
+    },
+    {
+     "t": "Há poucos computadores, quantidade insuficiente, mas existem alguns voluntários e um pouco de tempo disponível.",
+     "p": "correta",
+     "w": "“Few”, sem artigo, tem sentido negativo: poucos, quase nenhum. “A few” e “a little” têm sentido positivo: alguns, um pouco."
+    }
+   ]
+  },
+  {
+   "id": "ingl31",
+   "type": "ce",
+   "topic": "Falso cognato exquisite",
+   "src": "Cambridge Dictionary, verbete 'exquisite'",
+   "c": "The museum in Ouro Preto displays an exquisite collection of baroque sculptures, which attracts visitors from all over the world.",
+   "q": "A palavra “exquisite” indica que a coleção de esculturas é estranha ou esquisita.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo é cair no falso cognato. “Exquisite” significa requintado, primoroso, de grande beleza; esquisito, em inglês, é “strange” ou “weird”."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. “Exquisite” é elogio: a coleção é primorosa, o que combina com o fato de atrair visitantes do mundo todo."
+    }
+   ]
+  },
+  {
+   "id": "ingl32",
+   "type": "ce",
+   "topic": "Phrasal verb find out",
+   "src": "Cambridge Dictionary, verbete 'find out'",
+   "c": "During a routine audit, the inspectors found out that several contracts had been signed without a public bidding process.",
+   "q": "No trecho, “found out” equivale a “descobriram”, e o texto informa que vários contratos foram assinados sem licitação.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. “Find out” é descobrir, tomar conhecimento de um fato, e “had been signed without a public bidding process” indica contratos assinados sem licitação."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado seria confundir “find out” com “find” (encontrar algo) ou com “found” (fundar). No contexto de auditoria, o sentido é descobrir."
+    }
+   ]
+  },
+  {
+   "id": "ingl33",
+   "type": "ce",
+   "topic": "Zero conditional",
+   "src": "Cambridge Dictionary, English Grammar Today, verbete 'Conditionals'",
+   "c": "In a science class at a public school, the teacher wrote on the board: “If you heat water to 100 °C at sea level, it boils.”",
+   "q": "A frase escrita no quadro é um exemplo de zero conditional, que expressa verdades gerais e usa o presente simples nas duas orações.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. If + present simple na condição e present simple no resultado formam o zero conditional, usado para fatos científicos e situações que sempre se repetem."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado seria exigir “will” na oração principal, como no first conditional. Para verdades gerais, o inglês usa presente nas duas orações."
+    }
+   ]
+  },
+  {
+   "id": "ingl34",
+   "type": "ce",
+   "topic": "First conditional",
+   "src": "Cambridge Dictionary, English Grammar Today, verbete 'Conditionals'",
+   "c": "“If the bridge repairs finish on time, the bus route will return to normal next week,” said the transport secretary.",
+   "q": "A frase do secretário descreve uma situação hipotética e improvável no presente, típica do second conditional.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo é confundir first e second conditional. O second usaria if + past simple e would: “If the repairs finished..., the route would return...”."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. If + present simple e will + verbo formam o first conditional, usado para possibilidade real no futuro: a obra pode terminar no prazo."
+    }
+   ]
+  },
+  {
+   "id": "ingl35",
+   "type": "ce",
+   "topic": "Present perfect com since",
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidades sobre present perfect",
+   "c": "Since the new triage system started, the emergency room of the municipal hospital has reduced its average waiting time from four hours to ninety minutes.",
+   "q": "O emprego de “has reduced” indica que a redução ocorreu em um momento passado específico, já encerrado e sem relação com o presente.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "inversao",
+     "w": "Julgar certo inverte o valor do present perfect. Ação situada em momento passado encerrado pediria simple past; “has reduced”, com “since”, liga o passado ao presente."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. O present perfect com “since” indica um processo iniciado no passado cujo resultado vale até agora: a espera média atual é de noventa minutos."
+    }
+   ]
+  },
+  {
+   "id": "ingl36",
+   "type": "ce",
+   "topic": "Voz passiva no futuro",
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidades 'Passive'",
+   "c": "All applications will be analyzed by a committee of three professors. The final list is expected to be published in May.",
+   "q": "As duas frases empregam a voz passiva, e o agente da análise das inscrições é indicado pela expressão “by a committee of three professors”.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. “Will be analyzed” é passiva no futuro, com agente introduzido por “by”; “is expected to be published” também está na passiva, sem agente expresso."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado seria tomar “will be analyzed” por futuro na voz ativa. “Be” + particípio (analyzed, expected, published) forma a passiva, e “by” introduz o agente."
+    }
+   ]
+  },
+  {
+   "id": "ingl37",
+   "type": "ce",
+   "topic": "Can e could",
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidade 'can, could and (be) able to'",
+   "c": "Before the new ramp was built, wheelchair users could not enter the city library. Now they can visit all three floors without help.",
+   "q": "No trecho, “could not” expressa impossibilidade no passado, e “can” expressa possibilidade ou capacidade no presente.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. “Could” funciona como passado de “can” para capacidade ou possibilidade, e o contraste “Before... Now” confirma essa leitura."
+    },
+    {
+     "t": "Errado",
+     "p": "extrapolacao",
+     "w": "Julgar errado seria supor que “could” sempre indica pedido educado ou hipótese. Aqui, como passado de “can”, ele mostra que antes da rampa a entrada não era possível."
+    }
+   ]
+  },
+  {
+   "id": "ingl38",
+   "type": "ce",
+   "topic": "Much e information",
+   "src": "Cambridge Dictionary, verbete 'information'",
+   "c": "There isn’t much information about the new tax rules on the city’s website, so many citizens have called the help line.",
+   "q": "De acordo com a norma-padrão, seria correto substituir “much information” por “many informations”, pois a palavra se refere a vários dados.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo é aplicar ao inglês o plural do português. “Information” é incontável: não vai para o plural e é quantificado por “much” ou “a lot of”."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. “Much” acompanha incontáveis (information, money, time), e “many”, contáveis no plural (citizens). “Informations” não existe no inglês padrão."
+    }
+   ]
+  },
+  {
+   "id": "ingl39",
+   "type": "ce",
+   "topic": "Superlativos",
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidades sobre superlatives",
+   "c": "Among the five cities in the survey, the smallest one had the lowest unemployment rate, while the largest one had the highest.",
+   "q": "Segundo o trecho, a maior cidade da pesquisa apresentou a menor taxa de desemprego entre as cinco.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "inversao",
+     "w": "Julgar certo inverte os pares de superlativos: “the smallest” (a menor cidade) teve “the lowest” (a menor taxa); “the largest” teve “the highest”."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. A maior cidade (the largest one) teve a maior taxa (the highest); a menor taxa ficou com a menor cidade."
+    }
+   ]
+  },
+  {
+   "id": "ingl40",
+   "type": "ce",
+   "topic": "Inferência e causa",
+   "src": "Nuttall, Teaching Reading Skills in a Foreign Language, 3. ed. (Macmillan, 2005)",
+   "c": "Although online services have grown quickly, the city hall decided to keep its service counters open, since about one third of residents still do not have regular internet access.",
+   "q": "Infere-se do trecho que a prefeitura manteve o atendimento presencial para não deixar sem serviço os moradores sem acesso regular à internet.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. “Although” reconhece o avanço digital, e “since”, com valor de causa (já que), justifica a decisão: cerca de um terço dos moradores não tem internet regular."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado seria exigir que o texto declare a finalidade com todas as letras. “Since” aqui é causal, e não temporal, e liga a decisão aos moradores sem internet."
+    }
+   ]
+  }
+ ]
+}

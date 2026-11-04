@@ -1,0 +1,350 @@
+{
+  "id": "dh",
+  "lessons": [
+    {
+      "id": "dh-a1",
+      "title": "Fundamentos: características, dimensões e DUDH",
+      "mins": 7,
+      "qids": ["dh1", "dh2", "dh3", "dh29", "dh4", "dh30"],
+      "intro": "Ao fim desta aula, você reconhece cada característica dos direitos humanos num caso concreto, classifica direitos por dimensão e sabe o que é, juridicamente, a Declaração Universal.",
+      "sections": [
+        {
+          "h": "As características que as bancas cobram",
+          "p": [
+            "Direitos humanos são universais (pertencem a toda pessoa pela condição humana), inalienáveis e irrenunciáveis (o titular não pode vendê-los nem abrir mão deles) e imprescritíveis (não se perdem pelo tempo sem uso). São também históricos: foram reconhecidos aos poucos, em lutas sucessivas.",
+            "A Declaração e Programa de Ação de Viena (1993), § 5º, resume a fórmula: todos os direitos humanos são universais, indivisíveis, interdependentes e inter-relacionados. Por isso o Estado não cumpre os direitos humanos garantindo só eleições e esquecendo saúde e educação."
+          ],
+          "list": [
+            "Universalidade: vale para o migrante sem documentos (DUDH, art. 2º; Lei 13.445/2017, arts. 3º, I, e 4º).",
+            "Indivisibilidade e interdependência: civis, políticos, sociais e culturais formam um bloco só.",
+            "Inalienabilidade: cláusula contratual de 'renúncia' à integridade ou à privacidade é inválida."
+          ]
+        },
+        {
+          "h": "Vedação do retrocesso",
+          "p": [
+            "Também chamada de efeito cliquet, impede que o Estado suprima, sem alternativa equivalente, o nível de proteção já alcançado em um direito, sobretudo social. Liga-se à realização progressiva do PIDESC (art. 2º, § 1º): avançar é dever, voltar atrás sem justificativa é violação.",
+            "Cuidado: a vedação não congela a legislação. O legislador pode reformar políticas; o que não pode é esvaziar o núcleo já conquistado de um direito."
+          ]
+        },
+        {
+          "h": "Dimensões (gerações) dos direitos",
+          "p": [
+            "A classificação de Karel Vasak (1979) usa o lema da Revolução Francesa. Primeira dimensão, liberdade: direitos civis e políticos, que exigem abstenção do Estado (imprensa livre, voto, vida privada). Segunda, igualdade: direitos sociais, econômicos e culturais, que exigem prestações (saúde, educação, creche, trabalho).",
+            "Terceira dimensão, fraternidade ou solidariedade: direitos difusos, como meio ambiente equilibrado, paz e desenvolvimento. A doutrina prefere 'dimensões' porque uma não substitui a outra: elas se somam."
+          ]
+        },
+        {
+          "h": "DUDH e a Carta Internacional",
+          "p": [
+            "A Declaração Universal foi adotada pela Assembleia Geral da ONU em 10/12/1948, como Resolução 217 A (III). Não é tratado: não houve assinatura, aprovação no Congresso nem ratificação, mas é a base de todo o sistema global.",
+            "A força de tratado veio com os dois Pactos de 1966, o PIDCP e o PIDESC, promulgados no Brasil em 1992 (Decretos 592 e 591). DUDH mais os dois Pactos formam a chamada Carta Internacional de Direitos Humanos."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Uma prefeitura do interior do Ceará afirma que, por ter garantido eleições limpas, pode cortar a merenda escolar sem violar direitos humanos.",
+        "q": "Qual característica responde ao argumento?",
+        "a": "A indivisibilidade e a interdependência. Pela Declaração de Viena (§ 5º), os direitos civis e políticos não se realizam plenamente sem os sociais, e cumprir só uma parte não é cumprir os direitos humanos."
+      },
+      "traps": [
+        "Chamar a DUDH de tratado ratificado pelo Brasil. Ela é resolução de 1948; tratados são os Pactos de 1966.",
+        "Dizer que as gerações se substituem. Elas se acumulam, por isso a palavra 'dimensões'.",
+        "Confundir imprescritibilidade do direito (não se perde pelo tempo) com imprescritibilidade de crime, que a Constituição reserva a casos específicos."
+      ],
+      "summary": [
+        "Universais, indivisíveis, interdependentes, inalienáveis, imprescritíveis e históricos.",
+        "Primeira dimensão: liberdade; segunda: igualdade; terceira: solidariedade.",
+        "DUDH: resolução da ONU de 10/12/1948; Pactos: tratados de 1966, promulgados no Brasil em 1992."
+      ],
+      "src": "DUDH (1948), preâmbulo e art. 2º; Declaração e Programa de Ação de Viena (1993), § 5º; PIDESC, art. 2º, § 1º"
+    },
+    {
+      "id": "dh-a2",
+      "title": "Pactos de 1966 e a proibição da tortura",
+      "mins": 8,
+      "qids": ["dh5", "dh6", "dh31", "dh37", "dh26", "dh38"],
+      "intro": "Você vai distinguir as obrigações do PIDCP e do PIDESC, reconhecer os direitos que nunca podem ser suspensos e aplicar a Convenção da ONU e a Lei 9.455/1997 contra a tortura.",
+      "sections": [
+        {
+          "h": "PIDCP: direitos civis e políticos",
+          "p": [
+            "O Pacto Internacional sobre Direitos Civis e Políticos (Decreto 592/1992) protege vida, liberdade, devido processo e participação política. Seu órgão de monitoramento é o Comitê de Direitos Humanos (art. 28), que examina relatórios periódicos dos Estados.",
+            "O art. 11 é cobrado com frequência: ninguém poderá ser preso apenas por não poder cumprir uma obrigação contratual. Nem ordem de juiz autoriza prisão por dívida de contrato."
+          ]
+        },
+        {
+          "h": "Emergência e direitos inderrogáveis",
+          "p": [
+            "Em emergência pública que ameace a existência da nação, oficialmente proclamada, o Estado pode suspender algumas obrigações, na medida estritamente necessária (art. 4º, § 1º). A suspensão é comunicada aos demais Estados por meio do Secretário-Geral da ONU.",
+            "Alguns direitos nunca podem ser suspensos (art. 4º, § 2º)."
+          ],
+          "list": [
+            "Vida (art. 6) e proibição da tortura (art. 7).",
+            "Proibição da escravidão e da servidão (art. 8, §§ 1º e 2º).",
+            "Proibição de prisão por dívida contratual (art. 11) e legalidade penal (art. 15).",
+            "Personalidade jurídica (art. 16) e liberdade de pensamento, consciência e religião (art. 18)."
+          ]
+        },
+        {
+          "h": "PIDESC: realização progressiva",
+          "p": [
+            "O Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais (Decreto 591/1992) protege trabalho, saúde, educação, alimentação e moradia. Pelo art. 2º, § 1º, o Estado deve adotar medidas, até o máximo dos recursos disponíveis, para alcançar progressivamente a plena realização desses direitos.",
+            "Progressivo não quer dizer facultativo. A obrigação de agir é imediata; o que se admite é que a realização completa venha por etapas."
+          ]
+        },
+        {
+          "h": "Convenção da ONU e Lei 9.455/1997",
+          "p": [
+            "A Convenção contra a Tortura (Decreto 40/1991) define tortura como dor ou sofrimento agudo infligido intencionalmente por agente público, ou com sua instigação ou aquiescência (art. 1º). Nenhuma emergência, guerra ou ordem de superior a justifica (art. 2º, §§ 2º e 3º), e declarações obtidas sob tortura não podem ser usadas como prova, salvo contra o acusado de tortura, como prova de que a declaração foi prestada (art. 15).",
+            "A Lei 9.455/1997 foi além: no Brasil, tortura é crime comum, que qualquer pessoa pode praticar; ser agente público aumenta a pena de 1/6 a 1/3 (art. 1º, § 4º, I). A forma básica do art. 1º, I, 'a', é constranger com violência ou grave ameaça para obter informação, declaração ou confissão, com reclusão de 2 a 8 anos."
+          ],
+          "list": [
+            "Inafiançável e insuscetível de graça ou anistia (§ 6º), mas NÃO imprescritível.",
+            "A condenação gera perda do cargo e interdição pelo dobro do prazo da pena (§ 5º).",
+            "Quem se omite tendo o dever de evitar ou apurar responde com detenção de 1 a 4 anos (§ 2º)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Um segurança de shopping em Natal (RN) espanca um adolescente para que ele confesse onde escondeu um celular.",
+        "q": "A falta de cargo público afasta o crime de tortura?",
+        "a": "Não. A Lei 9.455/1997 tipifica a tortura como crime comum (art. 1º, I, 'a'). A exigência de agente público está no conceito da Convenção da ONU; aqui ela só aumentaria a pena, e a vítima adolescente também é causa de aumento (§ 4º, II)."
+      },
+      "traps": [
+        "Dizer que tortura é imprescritível no direito interno. A Constituição só torna imprescritíveis o racismo e a ação de grupos armados contra a ordem constitucional (art. 5º, XLII e XLIV).",
+        "Achar que o PIDESC permite ao Estado esperar 'sobra de orçamento'. A obrigação de adotar medidas é imediata.",
+        "Aceitar 'emergência' ou 'ordem superior' como justificativa para tortura. A proibição é absoluta."
+      ],
+      "summary": [
+        "PIDCP: direitos civis e políticos; tortura, escravidão e prisão por dívida contratual são inderrogáveis.",
+        "PIDESC: realização progressiva até o máximo dos recursos disponíveis.",
+        "Na lei brasileira, tortura é crime comum, inafiançável e sem graça ou anistia, mas prescritível."
+      ],
+      "src": "PIDCP, arts. 4º e 11; PIDESC, art. 2º, § 1º; Convenção contra a Tortura, arts. 1º, 2º e 15; Lei 9.455/1997, art. 1º"
+    },
+    {
+      "id": "dh-a3",
+      "title": "Sistema interamericano: Comissão e Corte",
+      "mins": 8,
+      "qids": ["dh7", "dh8", "dh9", "dh10", "dh11", "dh32"],
+      "intro": "Você vai traçar o caminho de um caso brasileiro até a Corte Interamericana e aplicar os artigos do Pacto de São José mais cobrados em prova.",
+      "sections": [
+        {
+          "h": "A Convenção Americana no Brasil",
+          "p": [
+            "A Convenção Americana sobre Direitos Humanos, o Pacto de São José da Costa Rica, é de 1969 e foi promulgada no Brasil pelo Decreto 678/1992. Seus órgãos de proteção são a Comissão e a Corte Interamericanas (art. 33).",
+            "Cada uma tem sete membros (arts. 34 e 52). A Comissão funciona em Washington, junto à OEA; a Corte tem sede em San José, na Costa Rica."
+          ]
+        },
+        {
+          "h": "O caminho da petição",
+          "p": [
+            "Qualquer pessoa, grupo de pessoas ou ONG legalmente reconhecida em um Estado-membro da OEA pode peticionar à Comissão (art. 44). Não é preciso ser a vítima.",
+            "A petição exige o esgotamento dos recursos internos e deve ser apresentada em até seis meses da notificação da decisão definitiva (art. 46.1). Há exceções quando falta devido processo, quando o acesso aos recursos é negado ou quando há demora injustificada (art. 46.2)."
+          ],
+          "list": [
+            "Só os Estados-partes e a Comissão podem submeter caso à Corte (art. 61.1).",
+            "A competência contenciosa da Corte depende de declaração do Estado (art. 62); o Brasil a reconheceu em 1998.",
+            "A sentença é definitiva e inapelável (art. 67), e a indenização pode ser executada pelo processo interno contra o Estado (art. 68.2)."
+          ]
+        },
+        {
+          "h": "Artigos materiais mais cobrados",
+          "p": [
+            "Art. 4º (vida): nos países que não aboliram a pena de morte, ela só cabe para os delitos mais graves e não pode ser estendida a delitos aos quais não se aplique atualmente; não se aplica por delito político, nem a menores de 18 anos, maiores de 70 ou gestantes. Art. 7.5: toda pessoa presa deve ser levada sem demora a um juiz, base da audiência de custódia, que o CPP fixa em até 24 horas (art. 310).",
+            "Art. 7.7: ninguém será detido por dívidas, salvo o inadimplemento de obrigação alimentar. Art. 13: liberdade de expressão sem censura prévia, com responsabilidade posterior, admitida a censura prévia de espetáculos públicos para proteger crianças e adolescentes."
+          ]
+        }
+      ],
+      "example": {
+        "c": "A família de um jovem morto em operação policial no Rio de Janeiro esgotou os recursos internos. A decisão definitiva foi notificada há quatro meses.",
+        "q": "Ainda dá para levar o caso ao sistema interamericano e por qual porta?",
+        "a": "Sim. Faltam dois meses para fechar o prazo de seis meses do art. 46.1, 'b'. A família ou uma ONG peticiona à Comissão (art. 44), e só a Comissão ou um Estado pode levar o caso à Corte (art. 61.1)."
+      },
+      "traps": [
+        "Dizer que a vítima pode acionar diretamente a Corte. No sistema interamericano, o indivíduo peticiona à Comissão.",
+        "Trocar as sedes: Comissão em Washington, Corte em San José.",
+        "Achar que a Comissão é instância recursal da Corte. A sentença da Corte é definitiva e inapelável."
+      ],
+      "summary": [
+        "Pacto de São José: 1969, promulgado pelo Decreto 678/1992.",
+        "Petição à Comissão: esgotar recursos internos e respeitar seis meses da decisão definitiva.",
+        "Corte: sete juízes, sede em San José, sentença definitiva e obrigatória para quem reconheceu sua competência."
+      ],
+      "src": "Convenção Americana (Decreto 678/1992), arts. 4º, 7º, 13, 33, 34, 44, 46, 52, 61, 62, 67 e 68; CPP, art. 310"
+    },
+    {
+      "id": "dh-a4",
+      "title": "Tratados de direitos humanos na Constituição",
+      "mins": 7,
+      "qids": ["dh12", "dh13", "dh14", "dh16", "dh33", "dh34"],
+      "intro": "Você vai descrever como um tratado entra no direito brasileiro, calcular o quórum do art. 5º, § 3º, e definir a hierarquia de cada tratado de direitos humanos.",
+      "sections": [
+        {
+          "h": "Do Itamaraty ao Diário Oficial",
+          "p": [
+            "O Presidente celebra o tratado, sujeito a referendo do Congresso (CF, art. 84, VIII). O Congresso Nacional resolve definitivamente sobre ele por decreto legislativo (art. 49, I).",
+            "Aprovado, o tratado é ratificado pelo Presidente no plano internacional e promulgado por decreto presidencial, que o publica no plano interno. Foi assim com o Pacto de São José: Decreto 678/1992."
+          ]
+        },
+        {
+          "h": "Os parágrafos do art. 5º",
+          "p": [
+            "O § 2º é a cláusula de abertura: os direitos da Constituição não excluem outros decorrentes dos tratados de que o Brasil seja parte. O § 3º, criado pela EC 45/2004, dá equivalência de emenda constitucional aos tratados de direitos humanos aprovados em cada Casa, em dois turnos, por três quintos dos votos dos respectivos membros.",
+            "Na prática: 308 dos 513 deputados e 49 dos 81 senadores, em cada turno. O § 4º, também da EC 45, submete o Brasil à jurisdição do Tribunal Penal Internacional a cuja criação tenha aderido."
+          ],
+          "list": [
+            "Aprovados pelo rito do § 3º: Convenção sobre os Direitos das Pessoas com Deficiência e seu Protocolo (Decreto 6.949/2009), Tratado de Marraqueche (Decreto 9.522/2018) e Convenção Interamericana contra o Racismo (Decreto 10.932/2022)."
+          ]
+        },
+        {
+          "h": "Três níveis de hierarquia",
+          "p": [
+            "Tratado de direitos humanos aprovado pelo rito do § 3º equivale a emenda constitucional. Tratado de direitos humanos aprovado pelo rito comum, como a Convenção Americana e os Pactos de 1966, tem status supralegal: abaixo da Constituição e acima das leis (STF, RE 466.343, de 2008).",
+            "Tratado que não versa sobre direitos humanos, como um acordo comercial, tem status de lei ordinária."
+          ]
+        },
+        {
+          "h": "Depositário infiel e devedor de alimentos",
+          "p": [
+            "O art. 5º, LXVII, da Constituição ainda menciona duas prisões civis: a do devedor de alimentos e a do depositário infiel. A Convenção Americana só admite a primeira (art. 7.7).",
+            "Por ser supralegal, a Convenção paralisou a legislação que regulava a prisão do depositário infiel. Daí a Súmula Vinculante 25: é ilícita a prisão civil de depositário infiel, qualquer que seja a modalidade do depósito."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Um juiz de Belém (PA) recebe pedido de prisão civil de um depositário judicial que vendeu bens penhorados sob sua guarda.",
+        "q": "A prisão civil é possível?",
+        "a": "Não. A Súmula Vinculante 25 vale para qualquer modalidade de depósito, inclusive o judicial. Pode haver responsabilização civil ou penal, mas não prisão civil."
+      },
+      "traps": [
+        "Dizer que todo tratado de direitos humanos tem status de emenda. Só os aprovados pelo rito do § 3º.",
+        "Usar maioria absoluta ou dois terços no § 3º. O quórum é de três quintos, em dois turnos, em cada Casa.",
+        "Achar que a SV 25 acabou com toda prisão civil. A do devedor de alimentos continua."
+      ],
+      "summary": [
+        "Celebração (art. 84, VIII), aprovação por decreto legislativo (art. 49, I), ratificação e promulgação.",
+        "Rito do § 3º: emenda; direitos humanos pelo rito comum: supralegal; demais tratados: lei ordinária.",
+        "SV 25: prisão do depositário infiel é ilícita; a do devedor de alimentos continua."
+      ],
+      "src": "CF/88, arts. 5º, §§ 2º a 4º, e LXVII, 49, I, e 84, VIII; STF, RE 466.343/SP; Súmula Vinculante 25"
+    },
+    {
+      "id": "dh-a5",
+      "title": "Igualdade: racismo, mulheres e pessoas com deficiência",
+      "mins": 8,
+      "qids": ["dh17", "dh18", "dh19", "dh20", "dh21", "dh22"],
+      "intro": "Você vai separar racismo de injúria racial, reconhecer quando uma diferenciação é ação afirmativa válida e aplicar o conceito e as garantias da pessoa com deficiência.",
+      "sections": [
+        {
+          "h": "Discriminação racial e ações afirmativas",
+          "p": [
+            "A Convenção sobre a Eliminação de Todas as Formas de Discriminação Racial (ONU, 1965; Decreto 65.810/1969) define discriminação como distinção, exclusão, restrição ou preferência baseada em raça, cor, descendência ou origem nacional ou étnica que anule ou restrinja direitos (art. 1º, § 1º).",
+            "O art. 1º, § 4º, ressalva as medidas especiais para o progresso de grupos raciais: não são discriminação, desde que não mantenham direitos separados e cessem quando atingidos os objetivos. É o fundamento internacional das cotas da Lei 12.711/2012."
+          ]
+        },
+        {
+          "h": "Racismo e injúria racial no Brasil",
+          "p": [
+            "A prática do racismo é crime inafiançável e imprescritível, sujeito a reclusão (CF, art. 5º, XLII). A Lei 7.716/1989 tipifica as condutas: por exemplo, recusar atendimento em restaurante (art. 8º) e praticar, induzir ou incitar discriminação ou preconceito (art. 20).",
+            "Desde a Lei 14.532/2023, injuriar alguém em razão de raça, cor, etnia ou procedência nacional é crime do art. 2º-A da Lei 7.716/1989, com reclusão de 2 a 5 anos e multa. O art. 140, § 3º, do Código Penal ficou para religião, idade e deficiência."
+          ]
+        },
+        {
+          "h": "Mulheres: CEDAW e Belém do Pará",
+          "p": [
+            "A CEDAW (Decreto 4.377/2002) combate a discriminação contra a mulher em todos os campos. Medidas temporárias para acelerar a igualdade de fato e medidas de proteção à maternidade não são discriminação (art. 4º), e os Estados devem proibir a demissão por gravidez ou licença-maternidade (art. 11, § 2º, 'a').",
+            "A Convenção de Belém do Pará (Decreto 1.973/1996) trata da violência contra a mulher na esfera pública e na privada (art. 1º), inclusive o assédio sexual no local de trabalho (art. 2º)."
+          ]
+        },
+        {
+          "h": "Pessoa com deficiência: modelo social",
+          "p": [
+            "A Convenção sobre os Direitos das Pessoas com Deficiência foi aprovada pelo rito do art. 5º, § 3º, e tem equivalência de emenda constitucional (Decreto 6.949/2009). Pessoa com deficiência é quem tem impedimento de longo prazo de natureza física, mental, intelectual ou sensorial que, em interação com barreiras, pode obstruir sua participação plena (art. 1º; Lei 13.146/2015, art. 2º).",
+            "A deficiência não afeta a plena capacidade civil, inclusive para casar e constituir união estável (LBI, art. 6º). A curatela é extraordinária e só alcança atos patrimoniais e negociais, nunca casamento, corpo ou voto (arts. 84 e 85)."
+          ],
+          "list": [
+            "Acessibilidade e desenho universal são conceitos do art. 3º da LBI; recusar adaptação razoável é discriminação (art. 4º, § 1º).",
+            "Escola privada não pode cobrar valor adicional pelas medidas de inclusão (art. 28, § 1º).",
+            "Estacionamentos: 2% das vagas reservadas, com no mínimo uma (art. 47, § 1º)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Uma construtora de Goiânia (GO) recusa contratar uma engenheira cadeirante alegando que o canteiro de obras não tem rampa.",
+        "q": "A recusa se justifica pela falta de rampa?",
+        "a": "Não. A falta de rampa é justamente a barreira que o modelo social manda remover. Recusar adaptação razoável é discriminação por motivo de deficiência (LBI, art. 4º, § 1º)."
+      },
+      "traps": [
+        "Dizer que toda distinção racial é proibida. Medidas especiais temporárias são expressamente permitidas.",
+        "Enquadrar ofensa racial a uma pessoa no art. 140, § 3º, do CP. Desde 2023, é o art. 2º-A da Lei 7.716/1989.",
+        "Tratar deficiência como sinônimo de laudo médico ou de incapacidade civil."
+      ],
+      "summary": [
+        "Racismo: inafiançável e imprescritível; injúria racial: art. 2º-A da Lei 7.716/1989.",
+        "Ações afirmativas temporárias não são discriminação (Convenção racial, art. 1º, § 4º; CEDAW, art. 4º).",
+        "CDPD tem status de emenda; deficiência resulta da interação entre impedimento e barreiras."
+      ],
+      "src": "CF/88, art. 5º, XLII; Decreto 65.810/1969; Lei 7.716/1989; CEDAW (Decreto 4.377/2002); CDPD (Decreto 6.949/2009); Lei 13.146/2015"
+    },
+    {
+      "id": "dh-a6",
+      "title": "Presos, federalização, Defensoria e ECA",
+      "mins": 8,
+      "qids": ["dh24", "dh27", "dh15", "dh28", "dh39", "dh40"],
+      "intro": "Você vai aplicar as Regras de Mandela a situações de presídio, explicar o incidente de deslocamento de competência e o papel da Defensoria, e usar a proteção integral do ECA.",
+      "sections": [
+        {
+          "h": "Regras de Mandela",
+          "p": [
+            "São as Regras Mínimas da ONU para o Tratamento de Presos, revistas em 2015 e batizadas em homenagem a Nelson Mandela. Todo preso deve ser tratado com respeito à dignidade inerente ao ser humano, e nenhum pode ser submetido a tortura ou tratamento cruel (regra 1).",
+            "Confinamento solitário é o de 22 horas ou mais por dia sem contato humano significativo; é prolongado quando passa de 15 dias consecutivos (regra 44). O prolongado e o indefinido são proibidos (regra 43.1); o comum só cabe como último recurso, pelo menor tempo possível (regra 45)."
+          ],
+          "list": [
+            "Proibidos também: cela escura ou constantemente iluminada, castigo corporal, redução de comida ou água e castigos coletivos (regra 43.1).",
+            "Proibir contato com a família não pode ser sanção disciplinar (regra 43.3).",
+            "Separação de categorias: homens e mulheres, provisórios e condenados, presos civis e criminais, jovens e adultos (regra 11)."
+          ]
+        },
+        {
+          "h": "Federalização de graves violações",
+          "p": [
+            "A EC 45/2004 criou o incidente de deslocamento de competência (CF, art. 109, V-A e § 5º). Em grave violação de direitos humanos, para assegurar o cumprimento de tratados, o Procurador-Geral da República pode pedir ao STJ que o caso passe à Justiça Federal.",
+            "Só o PGR suscita, só o STJ decide, e o pedido cabe em qualquer fase do inquérito ou do processo. É medida excepcional: a regra continua sendo a Justiça Estadual."
+          ]
+        },
+        {
+          "h": "Defensoria Pública",
+          "p": [
+            "Pelo art. 134 da Constituição, com a redação da EC 80/2014, a Defensoria é instituição permanente, essencial à função jurisdicional, expressão e instrumento do regime democrático. Incumbe-lhe a orientação jurídica, a promoção dos direitos humanos e a defesa, judicial e extrajudicial, de direitos individuais e coletivos dos necessitados.",
+            "As Defensorias têm autonomia funcional e administrativa e iniciativa de proposta orçamentária (§§ 2º e 3º). Seus princípios institucionais são unidade, indivisibilidade e independência funcional (§ 4º)."
+          ]
+        },
+        {
+          "h": "ECA: proteção integral e prioridade absoluta",
+          "p": [
+            "O ECA (Lei 8.069/1990) adota a doutrina da proteção integral (art. 1º): criança é a pessoa até 12 anos incompletos, e adolescente, de 12 a 18 anos (art. 2º). A Constituição (art. 227) e o ECA (art. 4º) impõem prioridade absoluta, que inclui socorro primeiro, atendimento preferencial, preferência nas políticas sociais e destinação privilegiada de recursos.",
+            "Suspeita ou confirmação de maus-tratos deve ser obrigatoriamente comunicada ao Conselho Tutelar (art. 13). Professor ou dirigente de escola que se omite comete infração administrativa (art. 245)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Agentes de uma penitenciária de Rondônia espancam presos e o diretor, ciente, não abre apuração. O caso fica parado no Estado por anos.",
+        "q": "Quais instrumentos desta aula entram em jogo?",
+        "a": "O diretor responde por omissão diante da tortura (Lei 9.455/1997, art. 1º, § 2º, detenção de 1 a 4 anos). Se houver inércia grave do Estado, o PGR pode pedir ao STJ a federalização (CF, art. 109, § 5º), e a Defensoria pode atuar coletivamente pelos presos (art. 134)."
+      },
+      "traps": [
+        "Dizer que o governador, o MP estadual ou a vítima podem pedir a federalização. Só o PGR, perante o STJ.",
+        "Achar que as Regras de Mandela proíbem qualquer isolamento. Proíbem o prolongado (mais de 15 dias) e o indefinido.",
+        "Supor que a escola só deve comunicar maus-tratos depois de confirmados. Basta a suspeita."
+      ],
+      "summary": [
+        "Mandela: solitário é 22 horas ou mais por dia; prolongado, mais de 15 dias, é proibido.",
+        "Federalização: PGR pede, STJ decide, em qualquer fase (art. 109, V-A e § 5º).",
+        "Defensoria promove direitos humanos e defende direitos individuais e coletivos; ECA impõe prioridade absoluta."
+      ],
+      "src": "Regras de Mandela (ONU, 2015), regras 1, 11, 43, 44 e 45; CF/88, arts. 109, V-A e § 5º, 134 e 227; ECA, arts. 1º, 2º, 4º, 13 e 245"
+    }
+  ]
+}

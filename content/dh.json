@@ -1,0 +1,557 @@
+{
+  "id": "dh",
+  "title": "Direitos Humanos",
+  "subtitle": "Teoria, tratados e proteção",
+  "tag": "Concursos",
+  "blurb": "Teoria geral, DUDH, Pactos, Pacto de São José, tratados na CF, tortura e inclusão em casos reais, do jeito que as bancas cobram.",
+  "questions": [
+    {
+      "id": "dh1",
+      "topic": "Indivisibilidade e interdependência",
+      "c": "Em audiência pública na Câmara Municipal de Caruaru (PE), um vereador defende cortar o orçamento da atenção básica de saúde. Segundo ele, o município 'já cumpre os direitos humanos' porque garante eleições livres e liberdade de imprensa.",
+      "q": "Qual característica dos direitos humanos desmonta esse argumento?",
+      "a": 1,
+      "src": "Declaração e Programa de Ação de Viena (ONU, 1993), § 5º",
+      "o": [
+        { "t": "A universalidade, pois os direitos humanos valem para todas as pessoas, independentemente de nacionalidade.", "p": "troca", "w": "A universalidade trata de quem é titular dos direitos, não da relação entre eles. O vereador separa direitos civis de direitos sociais, e o que impede isso é a indivisibilidade." },
+        { "t": "A indivisibilidade e a interdependência: direitos civis e políticos não se realizam plenamente sem os direitos sociais.", "p": "correta", "w": "A Declaração de Viena de 1993 (§ 5º) afirma que todos os direitos humanos são universais, indivisíveis, interdependentes e inter-relacionados. Cumprir só uma parte deles não é cumprir os direitos humanos." },
+        { "t": "A historicidade, que permite ao município escolher quais direitos priorizar conforme a época.", "p": "extrapolacao", "w": "Historicidade significa que os direitos foram reconhecidos aos poucos, ao longo da história. Isso não autoriza o Estado a abrir mão dos que já foram reconhecidos." },
+        { "t": "A indivisibilidade, que alcança apenas os direitos civis e políticos, protegidos como um bloco único.", "p": "restricao", "w": "A indivisibilidade abrange todos os direitos humanos, inclusive os econômicos, sociais e culturais. Limitá-la aos civis e políticos é criar uma restrição que não existe." }
+      ]
+    },
+    {
+      "id": "dh2",
+      "topic": "Inalienabilidade",
+      "c": "Uma empresa de vigilância de Contagem (MG) incluiu no contrato dos vigilantes uma cláusula pela qual eles 'renunciam ao direito à integridade física e à vida privada' durante o expediente, em troca de um bônus salarial.",
+      "q": "À luz da teoria geral dos direitos humanos, como avaliar essa cláusula?",
+      "a": 3,
+      "src": "DUDH (1948), preâmbulo; doutrina: inalienabilidade e irrenunciabilidade",
+      "o": [
+        { "t": "É válida, porque a inalienabilidade só impede que o Estado retire direitos, e não que o próprio titular abra mão deles.", "p": "restricao", "w": "A inalienabilidade protege o direito também contra o próprio titular. Ninguém pode vender, ceder ou renunciar à sua integridade ou à sua vida privada." },
+        { "t": "É válida, pois qualquer direito pode ser objeto de renúncia quando há contrapartida financeira.", "p": "generalizacao", "w": "Direitos humanos não têm conteúdo negociável. Transformar a contrapartida em dinheiro em regra geral de renúncia contraria a própria natureza desses direitos." },
+        { "t": "É inválida só quanto à integridade física; a renúncia à vida privada vale, por ser direito de segunda dimensão.", "p": "troca", "w": "A vida privada é liberdade clássica, de primeira dimensão, e também é inalienável. A alternativa confunde as dimensões e ainda admite uma renúncia proibida." },
+        { "t": "É inválida: direitos humanos são inalienáveis e irrenunciáveis, e o titular não pode abrir mão deles por contrato.", "p": "correta", "w": "A DUDH fala em 'direitos iguais e inalienáveis' já no preâmbulo. O titular pode deixar de exercer um direito em dado momento, mas não pode renunciar a ele nem negociá-lo." }
+      ]
+    },
+    {
+      "id": "dh3",
+      "topic": "Dimensões dos direitos",
+      "c": "Em ações civis públicas em Cuiabá (MT), a Defensoria pede proteção contra queimadas no Pantanal, vagas em creches municipais e o fim da censura imposta a um jornal local.",
+      "q": "Pela classificação em dimensões (gerações) dos direitos humanos, qual é a correspondência correta?",
+      "a": 0,
+      "src": "Karel Vasak (1979), gerações de direitos; CF/88, arts. 5º, IX; 208, IV; e 225",
+      "o": [
+        { "t": "Meio ambiente: terceira dimensão; creche: segunda dimensão; liberdade de imprensa: primeira dimensão.", "p": "correta", "w": "A primeira dimensão reúne as liberdades civis e políticas; a segunda, os direitos sociais que exigem prestações do Estado; a terceira, os direitos de solidariedade, como o meio ambiente equilibrado." },
+        { "t": "Meio ambiente: primeira dimensão; creche: segunda dimensão; liberdade de imprensa: terceira dimensão.", "p": "inversao", "w": "Inverte a primeira e a terceira dimensões. A liberdade de imprensa é uma liberdade clássica (primeira), e o meio ambiente é direito difuso de solidariedade (terceira)." },
+        { "t": "Meio ambiente: terceira dimensão; creche: primeira dimensão; liberdade de imprensa: segunda dimensão.", "p": "troca", "w": "Confunde direito social com liberdade. A creche exige prestação positiva do Estado (segunda dimensão); a imprensa livre exige abstenção do Estado (primeira)." },
+        { "t": "Os três são de terceira dimensão, porque todo pedido feito em ação coletiva se torna direito difuso.", "p": "extrapolacao", "w": "A dimensão depende da natureza do direito, não do instrumento processual usado. Creche continua sendo direito social, e imprensa livre continua sendo liberdade clássica." }
+      ]
+    },
+    {
+      "id": "dh4",
+      "topic": "Natureza da DUDH",
+      "c": "Em um seminário na Universidade Federal do Ceará, em Fortaleza, um estudante afirma que a Declaração Universal dos Direitos Humanos é um tratado que o Brasil ratificou em 1948, depois de aprovação no Congresso Nacional.",
+      "q": "Qual afirmação sobre a DUDH está correta?",
+      "a": 2,
+      "src": "DUDH, Resolução 217 A (III) da Assembleia Geral da ONU, de 10/12/1948",
+      "o": [
+        { "t": "É um tratado internacional aprovado pela Assembleia Geral da ONU e ratificado pelo Brasil por decreto legislativo.", "p": "troca", "w": "Confunde declaração com tratado. A DUDH não passou por assinatura, aprovação no Congresso e ratificação, como ocorre com os tratados." },
+        { "t": "Por não ser tratado, não tem nenhum valor jurídico e serve apenas como texto de inspiração moral.", "p": "generalizacao", "w": "Exagera. Mesmo sem ser tratado, a DUDH é a base do sistema global de proteção, inspirou os Pactos de 1966 e é referência constante na interpretação dos direitos humanos." },
+        { "t": "Foi adotada pela Assembleia Geral da ONU em 10/12/1948 como resolução, e não como tratado sujeito a ratificação.", "p": "correta", "w": "A DUDH é a Resolução 217 A (III) da Assembleia Geral. A forma de tratado, com obrigações ratificadas pelos Estados, veio com os Pactos Internacionais de 1966." },
+        { "t": "Só passou a valer no Brasil em 1988, quando a Constituição a incorporou expressamente no art. 5º.", "p": "extrapolacao", "w": "A Constituição não menciona a DUDH. Por ser resolução da ONU, ela nem sequer passa pelo rito de incorporação previsto para os tratados." }
+      ]
+    },
+    {
+      "id": "dh5",
+      "topic": "PIDCP e derrogações",
+      "c": "Depois de uma grave crise de segurança, um ministro sugere em entrevista que o Brasil suspenda temporariamente as obrigações do Pacto Internacional sobre Direitos Civis e Políticos, inclusive a proibição da tortura.",
+      "q": "O que o PIDCP dispõe sobre essa suspensão?",
+      "a": 2,
+      "src": "PIDCP (1966), art. 4º, §§ 1º e 2º; Decreto 592/1992",
+      "o": [
+        { "t": "Nenhuma obrigação do Pacto pode ser suspensa, em nenhuma circunstância, nem mesmo em emergência pública declarada.", "p": "generalizacao", "w": "O art. 4º, § 1º, permite suspender algumas obrigações em emergência pública que ameace a existência da nação, oficialmente proclamada, na medida estritamente necessária." },
+        { "t": "Em emergência oficialmente proclamada, o Estado pode suspender qualquer obrigação do Pacto, desde que comunique a ONU.", "p": "extrapolacao", "w": "A comunicação aos demais Estados existe, mas não libera tudo. O art. 4º, § 2º, lista direitos que não podem ser suspensos em hipótese alguma." },
+        { "t": "Em emergência oficialmente proclamada, algumas obrigações podem ser suspensas, mas a proibição da tortura (art. 7) nunca.", "p": "correta", "w": "O art. 4º, § 2º, torna inderrogáveis, entre outros, o direito à vida (art. 6), a proibição da tortura (art. 7), a proibição da escravidão (art. 8, §§ 1º e 2º) e a liberdade de pensamento e religião (art. 18)." },
+        { "t": "A proibição da tortura só pode ser suspensa com autorização prévia do Congresso Nacional e por prazo determinado.", "p": "restricao", "w": "Não há condição que autorize a tortura. A proibição do art. 7 é inderrogável, com ou sem aval do Parlamento." }
+      ]
+    },
+    {
+      "id": "dh6",
+      "topic": "PIDESC e progressividade",
+      "c": "Moradores de uma comunidade de Teresina (PI) cobram da prefeitura acesso a saneamento básico. O secretário responde que direitos sociais são 'promessas' e que o Estado só deve agir se e quando quiser.",
+      "q": "Segundo o PIDESC, qual é a natureza da obrigação do Estado nesse campo?",
+      "a": 0,
+      "src": "PIDESC (1966), art. 2º, § 1º; Decreto 591/1992",
+      "o": [
+        { "t": "Adotar medidas, até o máximo dos recursos disponíveis, para alcançar progressivamente a plena realização dos direitos.", "p": "correta", "w": "É o texto do art. 2º, § 1º. A realização é progressiva, mas a obrigação de agir é real e imediata: o Estado deve adotar medidas e usar o máximo dos recursos de que dispõe." },
+        { "t": "Garantir de imediato e por inteiro todos os direitos do Pacto, sem considerar os recursos disponíveis.", "p": "generalizacao", "w": "O Pacto reconhece a realização progressiva, condicionada ao máximo dos recursos disponíveis. Exigir tudo de imediato ignora o próprio texto do art. 2º, § 1º." },
+        { "t": "Agir só quando houver sobra no orçamento, pois o Pacto trata os direitos sociais como metas sem caráter obrigatório.", "p": "inversao", "w": "Inverte o sentido da norma. Progressividade não é faculdade: o Estado se obriga a adotar medidas e não pode simplesmente esperar sobras." },
+        { "t": "Abster-se de interferir na vida dos moradores, já que os direitos do PIDESC exigem apenas conduta negativa do Estado.", "p": "troca", "w": "Confunde direitos sociais com liberdades clássicas. Saneamento, saúde e moradia exigem prestações positivas do Estado." }
+      ]
+    },
+    {
+      "id": "dh7",
+      "topic": "Petição à Comissão IDH",
+      "c": "Uma ONG de Belém (PA) acompanha o caso de um trabalhador rural assassinado. Depois de esgotados os recursos internos sem resposta efetiva do Estado, ela quer levar o caso ao sistema interamericano.",
+      "q": "Qual é o caminho previsto na Convenção Americana sobre Direitos Humanos?",
+      "a": 3,
+      "src": "Convenção Americana (Decreto 678/1992), arts. 44 e 61.1",
+      "o": [
+        { "t": "Ajuizar a ação diretamente na Corte Interamericana, que recebe petições de qualquer pessoa ou ONG.", "p": "troca", "w": "Confunde Corte com Comissão. Pelo art. 61.1, só os Estados-partes e a Comissão podem submeter casos à Corte." },
+        { "t": "Peticionar à Comissão Interamericana, mas só se a vítima ou a família assinar, pois ONGs não têm legitimidade.", "p": "restricao", "w": "O art. 44 legitima qualquer pessoa, grupo de pessoas ou entidade não governamental reconhecida em um ou mais Estados-membros da OEA." },
+        { "t": "Peticionar ao Conselho de Direitos Humanos da ONU, que é a instância recursal da Comissão Interamericana.", "p": "extrapolacao", "w": "Não há hierarquia entre o sistema global e o interamericano. São sistemas distintos, e a ONU não revisa decisões da Comissão Interamericana." },
+        { "t": "Apresentar petição à Comissão Interamericana; só ela e os Estados-partes podem submeter o caso à Corte.", "p": "correta", "w": "A ONG pode peticionar à Comissão (art. 44). Se o caso não se resolver ali, cabe à Comissão ou a um Estado-parte levá-lo à Corte (art. 61.1)." }
+      ]
+    },
+    {
+      "id": "dh8",
+      "topic": "Admissibilidade da petição",
+      "c": "Joana, moradora de Fortaleza (CE), foi notificada em 10/03/2025 da decisão definitiva que encerrou seu processo no Brasil. Ela quer apresentar petição à Comissão Interamericana alegando violação do devido processo.",
+      "q": "Qual prazo e qual requisito o art. 46 da Convenção Americana exige?",
+      "a": 1,
+      "src": "Convenção Americana, art. 46.1, 'a' e 'b', e 46.2",
+      "o": [
+        { "t": "Prazo de dois anos, contado da notificação da decisão definitiva, após o esgotamento dos recursos internos.", "p": "calculo", "w": "Erra o prazo. O art. 46.1, 'b', fixa seis meses a partir da notificação da decisão definitiva; no caso de Joana, até 10/09/2025." },
+        { "t": "Prazo de seis meses, contado da notificação da decisão definitiva, após o esgotamento dos recursos internos.", "p": "correta", "w": "São os requisitos do art. 46.1, 'a' e 'b'. O sistema interamericano é subsidiário: primeiro o Estado tem a chance de reparar a violação." },
+        { "t": "Prazo de seis meses, e a exigência de esgotar os recursos internos nunca admite exceção.", "p": "generalizacao", "w": "O art. 46.2 traz exceções, como a falta de devido processo legal na legislação interna, a negativa de acesso aos recursos e a demora injustificada na decisão." },
+        { "t": "A petição deve ser apresentada antes de esgotados os recursos internos, para a Comissão acompanhar o processo.", "p": "inversao", "w": "Inverte a regra. O esgotamento dos recursos internos é requisito prévio de admissibilidade, pois a proteção internacional é complementar." }
+      ]
+    },
+    {
+      "id": "dh9",
+      "topic": "Audiência de custódia",
+      "c": "Rafael foi preso em flagrante por furto em Goiânia (GO) numa sexta-feira à noite. Ao lavrar o auto, o delegado disse que ele 'só verá um juiz quando o processo começar'.",
+      "q": "O que a Convenção Americana e o Código de Processo Penal garantem a Rafael?",
+      "a": 0,
+      "src": "Convenção Americana, art. 7.5; CPP, art. 310",
+      "o": [
+        { "t": "Ser conduzido sem demora à presença de um juiz, em audiência de custódia realizada em até 24 horas após a prisão.", "p": "correta", "w": "O art. 7.5 da Convenção exige a apresentação sem demora a um juiz. O art. 310 do CPP fixa a audiência de custódia em até 24 horas após a prisão, com MP e defesa presentes." },
+        { "t": "Ser apresentado a um juiz em até 72 horas, prazo que não corre em fins de semana e feriados.", "p": "calculo", "w": "Erra o prazo e cria uma suspensão inexistente. O CPP fixa 24 horas a partir da prisão, inclusive em plantão." },
+        { "t": "Ser ouvido pelo delegado na presença de advogado, o que substitui a apresentação ao juiz.", "p": "troca", "w": "Delegado não é autoridade judicial. A Convenção exige a presença de juiz ou de outra autoridade autorizada por lei a exercer funções judiciais." },
+        { "t": "Ser levado ao juiz sem demora apenas se o crime for hediondo ou equiparado.", "p": "restricao", "w": "A garantia vale para toda pessoa presa, qualquer que seja o crime. O art. 7.5 não faz distinção pela gravidade da infração." }
+      ]
+    },
+    {
+      "id": "dh10",
+      "topic": "Sentença da Corte IDH",
+      "c": "A Corte Interamericana condenou o Brasil em um caso de violência policial e fixou indenização às famílias das vítimas. Um assessor do governo sugere tentar reverter a condenação antes de cumpri-la.",
+      "q": "O que a Convenção Americana diz sobre essa sentença?",
+      "a": 2,
+      "src": "Convenção Americana, arts. 62, 67 e 68",
+      "o": [
+        { "t": "A sentença pode ser revista pela Comissão Interamericana, que funciona como instância recursal da Corte.", "p": "troca", "w": "A Comissão não revisa decisões da Corte. Ela investiga petições e pode levar casos à Corte, mas não é instância recursal." },
+        { "t": "A sentença só obriga o Brasil depois que o Congresso Nacional a aprovar por decreto legislativo.", "p": "restricao", "w": "Não há aprovação posterior. Ao reconhecer a competência da Corte (art. 62), o Estado se compromete a cumprir suas decisões (art. 68.1)." },
+        { "t": "A sentença é definitiva e inapelável, e a parte indenizatória pode ser executada no país pelo processo de execução contra o Estado.", "p": "correta", "w": "O art. 67 declara a sentença definitiva e inapelável; o art. 68.2 permite executar a indenização pelo processo interno de execução de sentenças contra o Estado." },
+        { "t": "Como toda decisão internacional, a sentença é mera recomendação, que o Estado cumpre se considerar conveniente.", "p": "generalizacao", "w": "Generaliza indevidamente. As sentenças da Corte são obrigatórias para o Estado que reconheceu sua competência contenciosa, como o Brasil." }
+      ]
+    },
+    {
+      "id": "dh11",
+      "topic": "Pena de morte",
+      "c": "Depois de um crime de grande repercussão em Manaus (AM), um deputado federal propõe estender a pena de morte, hoje admitida no Brasil só em caso de guerra declarada, aos condenados por latrocínio.",
+      "q": "Além dos limites da Constituição, o que a Convenção Americana dispõe sobre o tema?",
+      "a": 3,
+      "src": "Convenção Americana, art. 4º, §§ 2º e 4º; CF/88, art. 5º, XLVII, 'a'",
+      "o": [
+        { "t": "Proíbe a pena de morte em todos os Estados-partes, em qualquer situação, inclusive em caso de guerra.", "p": "generalizacao", "w": "A Convenção não abole a pena de morte de forma absoluta. Ela a limita: nos países que a mantêm, só para delitos gravíssimos, com garantias e sem ampliação." },
+        { "t": "Permite estender a pena de morte a novos crimes, desde que não seja aplicada a menores de 18 anos nem a maiores de 70.", "p": "extrapolacao", "w": "A idade é um limite de aplicação (art. 4.5), não uma autorização. O art. 4.2 proíbe estender a pena a delitos aos quais ela não se aplica atualmente." },
+        { "t": "Proíbe a pena de morte só para crimes políticos; para crimes comuns, cada Estado decide livremente.", "p": "restricao", "w": "A vedação para delitos políticos (art. 4.4) é apenas uma das limitações. Para crimes comuns, o art. 4.2 também impede a ampliação." },
+        { "t": "A pena de morte não pode ser estendida a delitos aos quais não se aplique atualmente, o que barra a proposta.", "p": "correta", "w": "O art. 4.2 proíbe ampliar a pena de morte a novos delitos. Como no Brasil ela só cabe em guerra declarada (CF, art. 5º, XLVII, 'a'), estendê-la ao latrocínio violaria a Convenção." }
+      ]
+    },
+    {
+      "id": "dh12",
+      "topic": "Quórum do § 3º",
+      "c": "O Brasil assinou um novo tratado de direitos humanos, e o governo quer que ele tenha força de emenda constitucional. A Câmara dos Deputados tem 513 membros e o Senado, 81.",
+      "q": "Qual votação mínima atende ao art. 5º, § 3º, da Constituição?",
+      "a": 1,
+      "src": "CF/88, art. 5º, § 3º (EC 45/2004)",
+      "o": [
+        { "t": "257 deputados e 41 senadores, em turno único em cada Casa.", "p": "calculo", "w": "Usa maioria absoluta e turno único. O § 3º exige três quintos dos membros, em dois turnos, em cada Casa." },
+        { "t": "308 deputados e 49 senadores, em dois turnos em cada Casa.", "p": "correta", "w": "Três quintos de 513 dão 307,8, ou seja, 308 deputados; três quintos de 81 dão 48,6, ou seja, 49 senadores. A votação ocorre em dois turnos em cada Casa." },
+        { "t": "342 deputados e 54 senadores, em dois turnos em cada Casa.", "p": "troca", "w": "Usa o quórum de dois terços, previsto para outras deliberações. O rito do § 3º é o mesmo das emendas: três quintos." },
+        { "t": "308 deputados e 49 senadores, em dois turnos, seguidos de referendo popular.", "p": "restricao", "w": "Acrescenta etapa que não existe. Aprovado pelo quórum do § 3º, o tratado equivale a emenda constitucional sem consulta popular." }
+      ]
+    },
+    {
+      "id": "dh13",
+      "topic": "Status supralegal",
+      "c": "Um juiz de Curitiba (PR) identifica conflito entre uma lei ordinária e a Convenção Americana sobre Direitos Humanos, incorporada em 1992, antes da EC 45/2004, sem o rito do art. 5º, § 3º.",
+      "q": "Segundo o entendimento firmado pelo STF, qual é a hierarquia da Convenção nesse caso?",
+      "a": 0,
+      "src": "STF, RE 466.343/SP (2008); CF/88, art. 5º, §§ 2º e 3º",
+      "o": [
+        { "t": "Supralegal: está abaixo da Constituição, mas acima da legislação ordinária, que perde eficácia no ponto em conflito.", "p": "correta", "w": "No RE 466.343 (2008), o STF fixou que tratados de direitos humanos não aprovados pelo rito do § 3º têm status supralegal. A lei ordinária contrária fica sem aplicação." },
+        { "t": "De lei ordinária: vale o critério cronológico, e a lei posterior revoga o tratado anterior.", "p": "troca", "w": "Esse era o entendimento antigo, aplicado aos tratados comuns. Para os tratados de direitos humanos, o STF adotou a tese da supralegalidade." },
+        { "t": "De emenda constitucional: todo tratado de direitos humanos tem status constitucional automático.", "p": "generalizacao", "w": "Só têm equivalência de emenda os tratados aprovados pelo rito do art. 5º, § 3º. A Convenção Americana não passou por esse rito." },
+        { "t": "Infralegal, abaixo das leis ordinárias, por ter sido aprovada por simples decreto legislativo.", "p": "inversao", "w": "Inverte a posição hierárquica. O tratado de direitos humanos fica acima das leis ordinárias, e não abaixo delas." }
+      ]
+    },
+    {
+      "id": "dh14",
+      "topic": "Depositário infiel",
+      "c": "Um banco de Porto Alegre (RS) pede ao juiz a prisão civil de um cliente que, em contrato de alienação fiduciária, não devolveu o carro financiado. O banco alega que ele é 'depositário infiel'.",
+      "q": "Como o juiz deve decidir?",
+      "a": 3,
+      "src": "Súmula Vinculante 25; Convenção Americana, art. 7.7; CF/88, art. 5º, LXVII",
+      "o": [
+        { "t": "Decretar a prisão, pois o art. 5º, LXVII, da Constituição ainda prevê expressamente a do depositário infiel.", "p": "troca", "w": "O texto constitucional ainda menciona o depositário infiel, mas a Súmula Vinculante 25 declara essa prisão ilícita, pois a Convenção Americana só admite prisão civil por alimentos." },
+        { "t": "Negar a prisão só porque se trata de alienação fiduciária; no depósito judicial, ela continua cabível.", "p": "restricao", "w": "A Súmula Vinculante 25 alcança 'qualquer que seja a modalidade do depósito', inclusive o judicial." },
+        { "t": "Negar, porque a Constituição e a Convenção Americana proíbem toda prisão civil, inclusive a do devedor de alimentos.", "p": "generalizacao", "w": "A prisão do devedor de alimentos continua admitida pela Constituição (art. 5º, LXVII) e pela Convenção (art. 7.7)." },
+        { "t": "Negar: é ilícita a prisão civil de depositário infiel, qualquer que seja a modalidade do depósito.", "p": "correta", "w": "É o texto da Súmula Vinculante 25. A Convenção Americana, de status supralegal, paralisou a legislação que regulava essa prisão." }
+      ]
+    },
+    {
+      "id": "dh15",
+      "topic": "Federalização de violações",
+      "c": "Uma chacina de trabalhadores sem-terra no sul do Pará segue há anos sem investigação efetiva, com indícios de omissão das autoridades estaduais. O governador e um promotor de justiça querem levar o caso à Justiça Federal.",
+      "q": "Como funciona o deslocamento de competência previsto na Constituição?",
+      "a": 2,
+      "src": "CF/88, art. 109, V-A e § 5º (EC 45/2004)",
+      "o": [
+        { "t": "O governador pode suscitá-lo perante o STF, que decide se o caso vai para a Justiça Federal.", "p": "troca", "w": "Troca o legitimado e o tribunal. Só o Procurador-Geral da República suscita o incidente, e quem julga é o STJ." },
+        { "t": "O PGR pode suscitá-lo no STJ, mas apenas depois da sentença de primeira instância.", "p": "restricao", "w": "O § 5º permite o pedido 'em qualquer fase do inquérito ou processo'. Não é preciso aguardar sentença." },
+        { "t": "Só o Procurador-Geral da República pode suscitá-lo, perante o STJ, em qualquer fase do inquérito ou do processo.", "p": "correta", "w": "O § 5º exige grave violação de direitos humanos e a finalidade de assegurar o cumprimento de tratados. O STJ decide, e o caso passa à Justiça Federal (art. 109, V-A)." },
+        { "t": "Todo crime contra direitos humanos passa automaticamente à Justiça Federal, sem necessidade de pedido.", "p": "generalizacao", "w": "O deslocamento é excepcional e depende de pedido do PGR e de decisão do STJ. A regra continua sendo a competência da Justiça Estadual." }
+      ]
+    },
+    {
+      "id": "dh16",
+      "topic": "Incorporação de tratados",
+      "c": "Em março, o Presidente da República assinou em Genebra uma convenção de direitos humanos. Uma servidora do Itamaraty precisa explicar a estagiários o caminho até que ela seja aplicada pelos juízes brasileiros.",
+      "q": "Qual sequência descreve o procedimento adotado no Brasil?",
+      "a": 1,
+      "src": "CF/88, arts. 49, I, e 84, VIII",
+      "o": [
+        { "t": "Promulgação por decreto presidencial e, só depois, aprovação pelo Congresso Nacional por decreto legislativo.", "p": "inversao", "w": "Inverte a ordem. O Congresso aprova primeiro (art. 49, I); a promulgação por decreto vem no fim, depois da ratificação." },
+        { "t": "Assinatura, aprovação pelo Congresso por decreto legislativo, ratificação e promulgação por decreto presidencial.", "p": "correta", "w": "O Presidente celebra o tratado sujeito a referendo do Congresso (art. 84, VIII), que resolve definitivamente sobre ele (art. 49, I). Depois vêm a ratificação e o decreto de promulgação." },
+        { "t": "Basta a assinatura do Presidente, porque todo tratado de direitos humanos obriga o Brasil desde que é assinado.", "p": "generalizacao", "w": "A assinatura não obriga o Estado. O tratado depende da aprovação do Congresso e da ratificação para vincular o Brasil." },
+        { "t": "Aprovação apenas pelo Senado, por resolução, e publicação do texto no Diário Oficial da União.", "p": "troca", "w": "Troca o órgão. Quem resolve definitivamente sobre tratados é o Congresso Nacional, as duas Casas, por decreto legislativo (art. 49, I)." }
+      ]
+    },
+    {
+      "id": "dh17",
+      "topic": "Ações afirmativas raciais",
+      "c": "Uma universidade federal em Salvador (BA) reserva vagas para estudantes pretos, pardos e indígenas, conforme a Lei 12.711/2012. Um candidato alega que a reserva é discriminação racial proibida por tratado.",
+      "q": "O que diz a Convenção sobre a Eliminação de Todas as Formas de Discriminação Racial?",
+      "a": 0,
+      "src": "Convenção sobre a Eliminação de Todas as Formas de Discriminação Racial (Decreto 65.810/1969), art. 1º, § 4º",
+      "o": [
+        { "t": "Medidas especiais para o progresso de grupos raciais não são discriminação, desde que temporárias e encerradas ao atingir seus objetivos.", "p": "correta", "w": "O art. 1º, § 4º, exclui do conceito de discriminação as medidas especiais destinadas a assegurar o progresso de grupos raciais, desde que não mantenham direitos separados nem durem além dos objetivos." },
+        { "t": "Toda distinção baseada em raça ou cor é discriminação proibida, ainda que vise promover a igualdade.", "p": "generalizacao", "w": "A Convenção ressalva expressamente as medidas especiais temporárias. Tratar toda distinção como proibida ignora o art. 1º, § 4º." },
+        { "t": "Medidas especiais só são admitidas no setor privado; o poder público deve tratar todos de forma idêntica.", "p": "restricao", "w": "Não há essa limitação. O art. 2º, § 2º, inclusive obriga os Estados a adotar medidas especiais quando as circunstâncias o exigirem." },
+        { "t": "Medidas especiais podem manter, de forma permanente, direitos separados para cada grupo racial.", "p": "extrapolacao", "w": "O art. 1º, § 4º, proíbe justamente a manutenção de direitos separados e exige que as medidas cessem quando alcançados os objetivos." }
+      ]
+    },
+    {
+      "id": "dh18",
+      "topic": "Racismo na Constituição",
+      "c": "Em Joinville (SC), o dono de um restaurante se recusou a atender uma família por causa da cor da pele. O caso só foi denunciado 15 anos depois, e a defesa alega prescrição e pede fiança.",
+      "q": "O que a Constituição estabelece sobre esse crime?",
+      "a": 3,
+      "src": "CF/88, art. 5º, XLII a XLIV; Lei 7.716/1989, art. 8º",
+      "o": [
+        { "t": "É inafiançável e insuscetível de graça ou anistia, mas prescreve normalmente, como a tortura.", "p": "troca", "w": "Mistura o inciso XLIII (tortura, tráfico, terrorismo e hediondos) com o XLII. O racismo é inafiançável e também imprescritível." },
+        { "t": "Todos os crimes graves previstos na Constituição, como racismo, tortura e tráfico, são imprescritíveis.", "p": "generalizacao", "w": "A Constituição torna imprescritíveis apenas o racismo (XLII) e a ação de grupos armados contra a ordem constitucional (XLIV). Tortura e tráfico prescrevem." },
+        { "t": "É imprescritível apenas quando praticado por meio de comunicação social ou redes sociais.", "p": "restricao", "w": "A imprescritibilidade vale para toda prática de racismo, qualquer que seja o meio. A Constituição não faz essa distinção." },
+        { "t": "A prática do racismo é crime inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei.", "p": "correta", "w": "É o texto do art. 5º, XLII. A recusa de atendimento em restaurante está tipificada no art. 8º da Lei 7.716/1989." }
+      ]
+    },
+    {
+      "id": "dh19",
+      "topic": "Injúria racial",
+      "c": "Em um supermercado de Belo Horizonte (MG), um cliente xingou a operadora de caixa com ofensas referentes à cor da pele dela. O delegado discute se aplica o Código Penal ou a Lei 7.716/1989.",
+      "q": "Qual é o enquadramento correto depois da Lei 14.532/2023?",
+      "a": 2,
+      "src": "Lei 7.716/1989, art. 2º-A (incluído pela Lei 14.532/2023); CP, art. 140, § 3º",
+      "o": [
+        { "t": "Injúria qualificada do art. 140, § 3º, do Código Penal, crime afiançável e prescritível.", "p": "troca", "w": "A Lei 14.532/2023 retirou raça, cor, etnia e procedência nacional do art. 140, § 3º, do CP, que hoje trata de religião, idade e deficiência." },
+        { "t": "Não há crime, porque a ofensa foi dirigida a uma única pessoa, e não a toda a coletividade negra.", "p": "restricao", "w": "A injúria racial é justamente a ofensa à dignidade ou ao decoro de uma pessoa determinada, em razão de raça, cor, etnia ou procedência nacional." },
+        { "t": "Injúria racial, prevista no art. 2º-A da Lei 7.716/1989, com pena de reclusão de 2 a 5 anos e multa.", "p": "correta", "w": "Desde a Lei 14.532/2023, injuriar alguém em razão de raça, cor, etnia ou procedência nacional é crime do art. 2º-A da Lei 7.716/1989, punido com reclusão de 2 a 5 anos e multa." },
+        { "t": "Crime do art. 20 da Lei 7.716/1989, pois toda ofensa racial a uma pessoa equivale a incitar a discriminação do grupo.", "p": "extrapolacao", "w": "O art. 20 pune praticar, induzir ou incitar discriminação ou preconceito. A ofensa dirigida a uma pessoa determinada tem tipo próprio: o art. 2º-A." }
+      ]
+    },
+    {
+      "id": "dh20",
+      "topic": "CEDAW e gravidez",
+      "c": "Uma indústria de Manaus (AM) dispensou uma operadora logo depois que ela comunicou a gravidez, alegando 'reestruturação'. O sindicato quer fundamentar a denúncia também em tratado internacional.",
+      "q": "O que prevê a Convenção sobre a Eliminação de Todas as Formas de Discriminação contra a Mulher (CEDAW)?",
+      "a": 1,
+      "src": "CEDAW (Decreto 4.377/2002), arts. 4º, § 2º, e 11, § 2º, 'a'; ADCT, art. 10, II, 'b'",
+      "o": [
+        { "t": "Proíbe a demissão por gravidez apenas no serviço público, deixando o setor privado para a lei de cada país.", "p": "restricao", "w": "O art. 11 trata da eliminação da discriminação no emprego em geral, sem limitar a proteção ao serviço público." },
+        { "t": "Os Estados devem proibir, sob sanções, a demissão por motivo de gravidez ou de licença-maternidade.", "p": "correta", "w": "É o art. 11, § 2º, 'a'. No Brasil, a gestante tem ainda estabilidade desde a confirmação da gravidez até cinco meses após o parto (ADCT, art. 10, II, 'b')." },
+        { "t": "Considera discriminatórias as medidas de proteção à maternidade, por darem tratamento diferente às mulheres.", "p": "inversao", "w": "Inverte a regra. O art. 4º, § 2º, diz que medidas especiais de proteção à maternidade não se consideram discriminatórias." },
+        { "t": "Trata apenas de violência doméstica, tema que deve ser discutido com base na Lei Maria da Penha.", "p": "troca", "w": "Confunde a CEDAW com a Convenção de Belém do Pará e a Lei 11.340/2006. A CEDAW cobre a discriminação contra a mulher em todos os campos, inclusive o trabalho." }
+      ]
+    },
+    {
+      "id": "dh21",
+      "topic": "Conceito de deficiência",
+      "c": "O edital de um concurso da prefeitura de Campinas (SP) exige do candidato com deficiência apenas um laudo com o código da doença (CID), sem análise das barreiras que ele enfrenta. Um candidato com baixa visão questiona o critério.",
+      "q": "Qual conceito de pessoa com deficiência adotam a Convenção da ONU e a Lei 13.146/2015?",
+      "a": 3,
+      "src": "Convenção sobre os Direitos das Pessoas com Deficiência (Decreto 6.949/2009), art. 1º; Lei 13.146/2015, art. 2º",
+      "o": [
+        { "t": "Modelo médico: a deficiência é a doença ou lesão atestada em laudo, independentemente do ambiente.", "p": "troca", "w": "A Convenção e a LBI abandonaram o modelo puramente médico. A deficiência resulta da interação entre o impedimento e as barreiras do ambiente." },
+        { "t": "Qualquer limitação, ainda que temporária, como uma perna quebrada, caracteriza deficiência.", "p": "generalizacao", "w": "O conceito exige impedimento de longo prazo. Uma limitação passageira não caracteriza deficiência." },
+        { "t": "Só tem deficiência quem possui impedimento físico ou sensorial; os impedimentos mental e intelectual ficam de fora.", "p": "restricao", "w": "O conceito inclui expressamente os impedimentos de natureza física, mental, intelectual e sensorial." },
+        { "t": "Quem tem impedimento de longo prazo físico, mental, intelectual ou sensorial que, diante de barreiras, pode obstruir sua participação plena.", "p": "correta", "w": "É o modelo social da Convenção (art. 1º) e da LBI (art. 2º). Quando necessária, a avaliação é biopsicossocial, feita por equipe multiprofissional (art. 2º, § 1º)." }
+      ]
+    },
+    {
+      "id": "dh22",
+      "topic": "Capacidade civil e LBI",
+      "c": "Lucas, 28 anos, tem síndrome de Down, trabalha em uma padaria no Recife (PE) e quer se casar com a namorada. O cartório exige autorização judicial, afirmando que pessoas com deficiência intelectual são incapazes.",
+      "q": "O que diz a Lei Brasileira de Inclusão (Lei 13.146/2015)?",
+      "a": 0,
+      "src": "Lei 13.146/2015, arts. 6º, I, 84 e 85, § 1º",
+      "o": [
+        { "t": "A deficiência não afeta a plena capacidade civil, inclusive para casar e constituir união estável; a exigência é indevida.", "p": "correta", "w": "É o art. 6º, I, da LBI. Mesmo quando há curatela, ela não alcança o direito ao matrimônio (art. 85, § 1º)." },
+        { "t": "Lucas pode casar, mas só com autorização de curador, nomeado obrigatoriamente para toda pessoa com deficiência intelectual.", "p": "restricao", "w": "A curatela não é obrigatória: é medida extraordinária, proporcional e pelo menor tempo possível (art. 84, § 3º). E não alcança o casamento." },
+        { "t": "A deficiência intelectual sempre gera incapacidade relativa, e o casamento depende de decisão judicial.", "p": "generalizacao", "w": "A LBI garante a plena capacidade civil da pessoa com deficiência. Não existe incapacidade automática decorrente da deficiência." },
+        { "t": "Se houver curatela, ela alcança todos os atos da vida civil, inclusive o casamento e o voto.", "p": "extrapolacao", "w": "A curatela afeta só atos de natureza patrimonial e negocial (art. 85). Não alcança corpo, sexualidade, matrimônio, privacidade, educação, saúde, trabalho e voto." }
+      ]
+    },
+    {
+      "id": "dh23",
+      "topic": "Escola privada inclusiva",
+      "c": "Uma escola particular de Brasília (DF) aceitou matricular um aluno autista, mas avisou que cobrará uma taxa mensal extra para custear o profissional de apoio escolar de que ele precisa.",
+      "q": "Segundo a Lei 13.146/2015, a cobrança é válida?",
+      "a": 2,
+      "src": "Lei 13.146/2015, art. 28, § 1º; Lei 12.764/2012, art. 1º, § 2º",
+      "o": [
+        { "t": "Sim, desde que a taxa seja informada por escrito antes da matrícula e tenha valor proporcional ao custo.", "p": "restricao", "w": "Nenhuma condição torna a cobrança válida. O art. 28, § 1º, veda valores adicionais de qualquer natureza." },
+        { "t": "Sim, pois a escola privada pode cobrar por todo serviço que não esteja previsto no contrato padrão.", "p": "generalizacao", "w": "A liberdade contratual não alcança as obrigações de inclusão, que a lei impõe às escolas privadas sem custo extra para a família." },
+        { "t": "Não: as escolas privadas devem cumprir as obrigações de inclusão, vedada a cobrança de valores adicionais de qualquer natureza.", "p": "correta", "w": "O art. 28, § 1º, aplica às escolas privadas as obrigações de inclusão e proíbe cobrança adicional em mensalidades, anuidades e matrículas. A pessoa com autismo é considerada pessoa com deficiência (Lei 12.764/2012)." },
+        { "t": "Não, e a escola também fica obrigada a conceder bolsa integral ao aluno com deficiência.", "p": "extrapolacao", "w": "A lei proíbe a cobrança adicional, mas não obriga a escola a dispensar a mensalidade normal. A alternativa vai além da regra." }
+      ]
+    },
+    {
+      "id": "dh24",
+      "topic": "Confinamento solitário",
+      "c": "Em uma penitenciária do interior de São Paulo, o diretor determinou que um preso que agrediu um agente fique sozinho na cela 23 horas por dia, sem contato humano significativo, por 40 dias seguidos.",
+      "q": "Como as Regras de Mandela classificam essa medida?",
+      "a": 1,
+      "src": "Regras de Mandela (ONU, 2015), regras 43.1, 44 e 45",
+      "o": [
+        { "t": "Como medida sempre proibida, pois as Regras vedam qualquer forma de isolamento de presos.", "p": "generalizacao", "w": "As Regras admitem o confinamento solitário em casos excepcionais, como último recurso e pelo menor tempo possível (regra 45). O que proíbem é o indefinido e o prolongado." },
+        { "t": "Como confinamento solitário prolongado, por passar de 15 dias consecutivos, o que é proibido.", "p": "correta", "w": "Pela regra 44, confinamento solitário é o de 22 horas ou mais por dia sem contato humano significativo; é prolongado quando passa de 15 dias consecutivos. A regra 43.1 o proíbe." },
+        { "t": "Como confinamento solitário comum, pois só é prolongado o que ultrapassa 60 dias consecutivos.", "p": "calculo", "w": "Erra o marco temporal. A regra 44 considera prolongado o confinamento por mais de 15 dias consecutivos." },
+        { "t": "Como medida válida, desde que o preso receba alimentação regular e banho de sol semanal.", "p": "restricao", "w": "Nenhuma condição legitima o confinamento solitário prolongado. Além disso, a regra 23 prevê pelo menos uma hora diária de exercício ao ar livre." }
+      ]
+    },
+    {
+      "id": "dh25",
+      "topic": "Separação de presos",
+      "c": "Em uma cadeia pública do interior do Maranhão, por falta de espaço, presos provisórios dividem cela com condenados, e um rapaz de 17 anos apreendido foi colocado junto com adultos.",
+      "q": "O que as Regras de Mandela determinam sobre a separação de categorias?",
+      "a": 3,
+      "src": "Regras de Mandela, regra 11, 'b' e 'd'; LEP (Lei 7.210/1984), art. 84; ECA, art. 123",
+      "o": [
+        { "t": "Só é obrigatória a separação entre homens e mulheres; as demais dependem da disponibilidade de vagas.", "p": "restricao", "w": "A regra 11 também exige separar presos preventivos de condenados, presos civis de criminais e jovens de adultos." },
+        { "t": "Presos provisórios devem ser soltos sempre que não houver cela separada da dos condenados.", "p": "extrapolacao", "w": "A regra manda separar, não soltar. A falta de vaga gera dever de adequação do Estado, e não liberdade automática." },
+        { "t": "A separação é feita por tipo de crime, com violentos em uma ala e patrimoniais em outra, sem distinção de idade.", "p": "troca", "w": "Troca o critério. A regra 11 separa por sexo, situação processual, natureza da prisão e idade." },
+        { "t": "Presos preventivos devem ficar separados dos condenados, e os jovens, separados dos adultos.", "p": "correta", "w": "É a regra 11, 'b' e 'd'. No Brasil, a LEP manda separar o provisório do condenado (art. 84), e o ECA exige entidade exclusiva para adolescentes (art. 123)." }
+      ]
+    },
+    {
+      "id": "dh26",
+      "topic": "Tortura por particular",
+      "c": "O dono de uma loja em Aracaju (SE) suspeitou que um funcionário furtava mercadorias. Trancou-o no depósito e aplicou choques elétricos até obter a confissão.",
+      "q": "Há crime de tortura, segundo a Lei 9.455/1997?",
+      "a": 0,
+      "src": "Lei 9.455/1997, art. 1º, I, 'a'; Convenção contra a Tortura (Decreto 40/1991), art. 1º",
+      "o": [
+        { "t": "Sim: a lei pune quem constrange alguém com violência, causando sofrimento, para obter confissão, e o crime pode ser praticado por particular.", "p": "correta", "w": "É o art. 1º, I, 'a', com pena de reclusão de 2 a 8 anos. Na lei brasileira, a tortura é crime comum; ser agente público só aumenta a pena (§ 4º, I)." },
+        { "t": "Não: tortura exige agente público, como define a Convenção da ONU; o fato é apenas lesão corporal.", "p": "troca", "w": "A Convenção exige a participação ou aquiescência de agente público, mas a Lei 9.455/1997 foi além e tipificou a tortura praticada por qualquer pessoa." },
+        { "t": "Só haveria tortura se a confissão fosse usada em processo judicial contra o funcionário.", "p": "restricao", "w": "Basta a finalidade de obter informação, declaração ou confissão. O uso posterior da confissão não é elemento do crime." },
+        { "t": "Sim, mas só na forma omissiva, punida com detenção, porque o patrão tinha o dever de apurar o furto.", "p": "extrapolacao", "w": "O patrão praticou a tortura diretamente. A forma omissiva (§ 2º) é de quem se omite diante da tortura quando tinha o dever de evitá-la ou apurá-la." }
+      ]
+    },
+    {
+      "id": "dh27",
+      "topic": "Omissão diante da tortura",
+      "c": "Em uma delegacia de Cuiabá (MT), o delegado plantonista ouviu presos sendo espancados por agentes para revelar onde estavam armas, mas não interveio nem mandou apurar o fato.",
+      "q": "Qual é a situação do delegado segundo a Lei 9.455/1997?",
+      "a": 1,
+      "src": "Lei 9.455/1997, art. 1º, caput e § 2º",
+      "o": [
+        { "t": "Responde com a mesma pena dos agentes, reclusão de 2 a 8 anos, porque toda omissão equivale à ação.", "p": "generalizacao", "w": "A lei criou figura própria e mais branda para a omissão (§ 2º). Não se aplica a pena da tortura praticada diretamente." },
+        { "t": "Responde por omissão, com detenção de 1 a 4 anos, porque tinha o dever de evitar ou apurar a tortura.", "p": "correta", "w": "É o art. 1º, § 2º. A lei pune a omissão com pena própria, mais branda que a da tortura praticada diretamente (reclusão de 2 a 8 anos)." },
+        { "t": "Só responde se ficar provado que recebeu vantagem dos agentes para se omitir.", "p": "restricao", "w": "A lei não exige vantagem. Basta omitir-se quando tinha o dever de evitar ou apurar as condutas." },
+        { "t": "Não comete crime, só falta disciplinar, porque não encostou nos presos.", "p": "inversao", "w": "Inverte a conclusão. A omissão de quem tinha o dever de evitar ou apurar a tortura é crime tipificado no § 2º." }
+      ]
+    },
+    {
+      "id": "dh28",
+      "topic": "Defensoria Pública",
+      "c": "A Defensoria Pública da Bahia ajuizou ação coletiva para garantir água potável aos presos de um presídio em Feira de Santana. O Estado alega que a Defensoria só pode atuar em processos individuais de pessoas pobres.",
+      "q": "O que diz o art. 134 da Constituição?",
+      "a": 2,
+      "src": "CF/88, art. 134, caput e § 2º; art. 5º, LXXIV",
+      "o": [
+        { "t": "A Defensoria atua apenas em juízo e em favor de indivíduos, cabendo ao Ministério Público as ações coletivas.", "p": "restricao", "w": "O art. 134 prevê defesa judicial e extrajudicial de direitos individuais e coletivos. A atuação coletiva não é exclusiva do MP." },
+        { "t": "A Defensoria é órgão subordinado ao governo estadual, que decide em quais casos ela pode atuar.", "p": "troca", "w": "As Defensorias Estaduais têm autonomia funcional e administrativa e iniciativa de sua proposta orçamentária (art. 134, § 2º)." },
+        { "t": "Incumbe à Defensoria a promoção dos direitos humanos e a defesa, judicial e extrajudicial, de direitos individuais e coletivos dos necessitados.", "p": "correta", "w": "É o caput do art. 134, com a redação da EC 80/2014. A Defensoria é instituição permanente, expressão e instrumento do regime democrático." },
+        { "t": "A Defensoria deve defender gratuitamente qualquer pessoa, independentemente da renda, em todos os processos.", "p": "generalizacao", "w": "A Defensoria atende os necessitados, na forma do art. 5º, LXXIV, que garante assistência jurídica a quem comprovar insuficiência de recursos." }
+      ]
+    },
+    {
+      "id": "dh29",
+      "type": "ce",
+      "topic": "Universalidade",
+      "src": "DUDH, art. 2º; Lei 13.445/2017 (Lei de Migração), arts. 3º, I, e 4º",
+      "c": "Um imigrante boliviano sem documentos foi agredido em uma oficina de costura em São Paulo. Ao registrar a ocorrência, um policial disse que, sem documentos, ele 'não tem direitos aqui'.",
+      "q": "Pela característica da universalidade, os direitos humanos pertencem a toda pessoa pela simples condição humana, sem distinção de nacionalidade ou de situação migratória.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O item está certo. A DUDH (art. 2º) garante os direitos sem distinção de origem nacional ou de qualquer outra condição, e a Lei de Migração assegura ao migrante igualdade com os nacionais (art. 4º)." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado é condicionar os direitos humanos à regularidade documental. A Lei de Migração adota a universalidade como princípio (art. 3º, I)." }
+      ]
+    },
+    {
+      "id": "dh30",
+      "type": "ce",
+      "topic": "Pactos de 1966",
+      "src": "PIDCP e PIDESC (1966); Decretos 591 e 592/1992",
+      "c": "Preparando-se para o concurso da Defensoria Pública, Marina monta em Florianópolis (SC) uma linha do tempo do sistema global de proteção dos direitos humanos.",
+      "q": "O Pacto Internacional sobre Direitos Civis e Políticos e o Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais foram adotados pela Assembleia Geral da ONU em 1966 e promulgados no Brasil em 1992.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O item está certo. Os dois Pactos são de 1966; no Brasil, o PIDESC foi promulgado pelo Decreto 591/1992 e o PIDCP pelo Decreto 592/1992." },
+        { "t": "Errado", "p": "troca", "w": "Julgar errado costuma vir da confusão com a DUDH, de 1948. Os Pactos vieram depois, em 1966, para dar forma de tratado aos direitos da Declaração." }
+      ]
+    },
+    {
+      "id": "dh31",
+      "type": "ce",
+      "topic": "Prisão por dívida contratual",
+      "src": "PIDCP, art. 11; Decreto 592/1992",
+      "c": "Uma loja de móveis de Londrina (PR) pede ao juiz a prisão de um cliente que deixou de pagar as parcelas de um contrato de compra e venda.",
+      "q": "O Pacto Internacional sobre Direitos Civis e Políticos admite a prisão de quem não pode cumprir obrigação contratual, desde que decretada por juiz.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "restricao", "w": "Julgar certo é aceitar que a ordem judicial legitimaria a prisão. O Pacto não abre essa exceção para o inadimplemento contratual." },
+        { "t": "Errado", "p": "correta", "w": "O item está errado. Pelo art. 11 do PIDCP, ninguém poderá ser preso apenas por não poder cumprir com uma obrigação contratual." }
+      ]
+    },
+    {
+      "id": "dh32",
+      "type": "ce",
+      "topic": "Sede da Corte IDH",
+      "src": "Convenção Americana, art. 52; Estatuto da Corte Interamericana, art. 3º",
+      "c": "Em uma aula sobre o sistema interamericano em Natal (RN), o professor projeta um mapa com as sedes dos órgãos de proteção.",
+      "q": "A Corte Interamericana de Direitos Humanos, composta de sete juízes, tem sede em Washington, nos Estados Unidos.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo é confundir a Corte com a Comissão Interamericana, que funciona em Washington, junto à sede da OEA." },
+        { "t": "Errado", "p": "correta", "w": "O item está errado. A Corte tem sete juízes (art. 52 da Convenção), mas sua sede é em San José, na Costa Rica (art. 3º do Estatuto)." }
+      ]
+    },
+    {
+      "id": "dh33",
+      "type": "ce",
+      "topic": "Prisão por alimentos",
+      "src": "Convenção Americana, art. 7.7; CF/88, art. 5º, LXVII",
+      "c": "Em Belo Horizonte (MG), um pai deixou de pagar três meses de pensão alimentícia ao filho, e a mãe pede a prisão civil dele.",
+      "q": "A Convenção Americana proíbe a detenção por dívidas, mas ressalva os mandados judiciais expedidos em razão de inadimplemento de obrigação alimentar.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O item está certo. É o art. 7.7 da Convenção, que convive com o art. 5º, LXVII, da Constituição: a prisão civil por alimentos continua admitida." },
+        { "t": "Errado", "p": "generalizacao", "w": "Julgar errado é supor que a Convenção proíbe toda prisão civil. Ela ressalva expressamente a obrigação alimentar." }
+      ]
+    },
+    {
+      "id": "dh34",
+      "type": "ce",
+      "topic": "Hierarquia dos tratados",
+      "src": "CF/88, art. 5º, § 3º; STF, RE 466.343/SP (2008)",
+      "c": "Em uma prova discursiva aplicada em Vitória (ES), um candidato afirmou que a Convenção Americana, promulgada pelo Decreto 678/1992, tem a mesma hierarquia de uma emenda constitucional.",
+      "q": "Todo tratado internacional de direitos humanos ratificado pelo Brasil tem hierarquia de emenda constitucional, independentemente do rito de aprovação no Congresso.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "generalizacao", "w": "Julgar certo é generalizar o § 3º. Só os tratados aprovados em cada Casa, em dois turnos, por três quintos dos votos, equivalem a emendas." },
+        { "t": "Errado", "p": "correta", "w": "O item está errado. Os tratados de direitos humanos aprovados pelo rito comum, como a Convenção Americana, têm status supralegal, segundo o STF." }
+      ]
+    },
+    {
+      "id": "dh35",
+      "type": "ce",
+      "topic": "Belém do Pará",
+      "src": "Convenção de Belém do Pará (Decreto 1.973/1996), arts. 1º e 2º",
+      "c": "Uma servidora de Porto Velho (RO) sofre assédio sexual reiterado do chefe no órgão onde trabalha. Um colega afirma que a Convenção de Belém do Pará não se aplica porque a violência não ocorreu em casa.",
+      "q": "Para a Convenção de Belém do Pará, violência contra a mulher é apenas a praticada no âmbito doméstico e familiar.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "restricao", "w": "Julgar certo é restringir o conceito ao lar. A Convenção alcança a violência na esfera pública e na privada." },
+        { "t": "Errado", "p": "correta", "w": "O item está errado. O art. 1º abrange a esfera pública e a privada, e o art. 2º cita expressamente o assédio sexual no local de trabalho." }
+      ]
+    },
+    {
+      "id": "dh36",
+      "type": "ce",
+      "topic": "Contato com a família",
+      "src": "Regras de Mandela (ONU, 2015), regra 43.3",
+      "c": "Depois de uma briga no pátio de uma penitenciária em Pernambuco, a direção quer punir os envolvidos com a proibição total de visitas de familiares por tempo indeterminado.",
+      "q": "Pelas Regras de Mandela, as sanções disciplinares não podem incluir a proibição de contato com a família, que só pode ser restringido por prazo limitado e quando estritamente necessário à segurança e à ordem.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O item está certo. É a regra 43.3: o contato familiar não é instrumento de punição e só admite restrição temporária e estritamente necessária." },
+        { "t": "Errado", "p": "extrapolacao", "w": "Julgar errado é supor que o poder disciplinar da direção permite qualquer sanção. As Regras excluem expressamente a proibição de contato com a família." }
+      ]
+    },
+    {
+      "id": "dh37",
+      "type": "ce",
+      "topic": "Tortura sem exceções",
+      "src": "Convenção contra a Tortura (Decreto 40/1991), art. 2º, §§ 2º e 3º",
+      "c": "Durante uma rebelião em um presídio de Roraima, um agente alegou que só sufocou um preso com saco plástico porque recebeu ordem do diretor e porque a situação era de emergência.",
+      "q": "Segundo a Convenção da ONU contra a Tortura, nem circunstâncias excepcionais, como emergência pública, nem a ordem de um superior podem ser invocadas para justificar a tortura.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O item está certo. O art. 2º, § 2º, afasta qualquer circunstância excepcional, e o § 3º afasta a ordem de superior ou de autoridade pública como justificativa." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado é admitir exceções que a Convenção nega. A proibição da tortura é absoluta." }
+      ]
+    },
+    {
+      "id": "dh38",
+      "type": "ce",
+      "topic": "Efeitos da condenação",
+      "src": "Lei 9.455/1997, art. 1º, §§ 5º e 6º; CF/88, art. 5º, XLII a XLIV",
+      "c": "Um policial de Campo Grande (MS) foi condenado por tortura. A defesa e o Ministério Público discutem quais efeitos a condenação produz.",
+      "q": "Segundo a Lei 9.455/1997, o crime de tortura é inafiançável, insuscetível de graça ou anistia e imprescritível, e a condenação acarreta a perda do cargo público.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo é transferir para a tortura a imprescritibilidade, que a Constituição reserva ao racismo e à ação de grupos armados." },
+        { "t": "Errado", "p": "correta", "w": "O item está errado. A tortura é inafiançável e insuscetível de graça ou anistia (§ 6º) e gera perda do cargo (§ 5º), mas não é imprescritível." }
+      ]
+    },
+    {
+      "id": "dh39",
+      "type": "ce",
+      "topic": "Prioridade absoluta",
+      "src": "ECA (Lei 8.069/1990), art. 4º, parágrafo único, 'c' e 'd'; CF/88, art. 227",
+      "c": "O prefeito de Juazeiro (BA) precisa escolher entre ampliar o programa municipal de acolhimento de crianças vítimas de violência e reformar a fachada da sede da prefeitura.",
+      "q": "Segundo o ECA, a garantia de prioridade absoluta compreende a preferência na formulação e na execução das políticas sociais públicas e a destinação privilegiada de recursos públicos às áreas de proteção à infância e à juventude.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O item está certo. São as alíneas 'c' e 'd' do parágrafo único do art. 4º, que concretizam a prioridade absoluta do art. 227 da Constituição." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado é reduzir a prioridade a precedência no atendimento. Ela alcança também as políticas públicas e o orçamento." }
+      ]
+    },
+    {
+      "id": "dh40",
+      "type": "ce",
+      "topic": "Comunicação de maus-tratos",
+      "src": "ECA (Lei 8.069/1990), arts. 13 e 245",
+      "c": "A coordenadora de uma escola municipal de Uberlândia (MG) notou marcas de agressão em um aluno de 8 anos e decidiu conversar com os pais antes de avisar qualquer órgão.",
+      "q": "Pelo ECA, diante de suspeita de maus-tratos contra criança, a comunicação ao Conselho Tutelar é facultativa e só se torna obrigatória quando houver confirmação da agressão.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "restricao", "w": "Julgar certo é condicionar o dever à confirmação. O ECA exige a comunicação já diante da suspeita." },
+        { "t": "Errado", "p": "correta", "w": "O item está errado. Pelo art. 13, os casos de suspeita ou confirmação serão obrigatoriamente comunicados ao Conselho Tutelar; a omissão de professor ou dirigente de escola é infração administrativa (art. 245)." }
+      ]
+    }
+  ]
+}

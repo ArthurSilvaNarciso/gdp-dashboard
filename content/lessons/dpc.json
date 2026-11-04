@@ -1,0 +1,397 @@
+{
+  "id": "dpc",
+  "lessons": [
+    {
+      "id": "dpc-a1",
+      "title": "Normas fundamentais, atos e nulidades",
+      "mins": 7,
+      "qids": [
+        "dpc1",
+        "dpc2",
+        "dpc3",
+        "dpc16",
+        "dpc34"
+      ],
+      "intro": "Ao fim desta aula, você reconhece a decisão surpresa, sabe quando o juiz pode decidir sem ouvir a parte e resolve questões sobre ordem cronológica, citação e emenda da inicial.",
+      "sections": [
+        {
+          "h": "Os arts. 1º a 12 são a lente de todo o CPC",
+          "p": [
+            "O processo civil é ordenado, disciplinado e interpretado conforme os valores e as normas fundamentais da Constituição (art. 1º). Ele começa por iniciativa da parte e se desenvolve por impulso oficial (art. 2º), e o Estado deve promover, sempre que possível, a solução consensual dos conflitos (art. 3º, § 2º).",
+            "As partes têm direito à solução integral do mérito em prazo razoável, incluída a atividade satisfativa (art. 4º). Todos os sujeitos do processo devem agir de boa-fé (art. 5º) e cooperar entre si para obter decisão de mérito justa e efetiva (art. 6º)."
+          ]
+        },
+        {
+          "h": "Contraditório: ouvir antes e não surpreender",
+          "p": [
+            "O art. 9º proíbe decisão contra uma parte sem que ela seja previamente ouvida. As exceções estão no parágrafo único: tutela provisória de urgência, tutela da evidência dos incisos II e III do art. 311 e a decisão que expede o mandado monitório (art. 701).",
+            "O art. 10 vai além: o juiz não pode decidir com fundamento sobre o qual as partes não tiveram oportunidade de se manifestar, ainda que a matéria seja conhecível de ofício. Prescrição e decadência, por exemplo, só são reconhecidas depois de ouvidas as partes (art. 487, parágrafo único)."
+          ]
+        },
+        {
+          "h": "Ordem cronológica: preferencial e com exceções",
+          "p": [
+            "Juízes e tribunais atenderão, preferencialmente, à ordem cronológica de conclusão para proferir sentença ou acórdão (art. 12). O advérbio entrou com a Lei 13.256/2016, antes mesmo de o código entrar em vigor.",
+            "A lista de processos aptos a julgamento fica disponível para consulta pública no cartório e na internet (§ 1º). O § 2º exclui da ordem, entre outros casos:"
+          ],
+          "list": [
+            "sentenças proferidas em audiência, homologatórias de acordo ou de improcedência liminar;",
+            "julgamento em bloco de casos repetitivos;",
+            "embargos de declaração e agravo interno;",
+            "preferências legais e metas do CNJ, processos criminais e causas com urgência reconhecida por decisão fundamentada."
+          ]
+        },
+        {
+          "h": "Nulidades: forma serve à finalidade",
+          "p": [
+            "Se a lei prescreve uma forma, o juiz considera válido o ato realizado de outro modo que alcance a finalidade (art. 277). A nulidade deve ser alegada na primeira oportunidade em que couber à parte falar nos autos, sob pena de preclusão, salvo as que o juiz deva decretar de ofício (art. 278).",
+            "O exemplo clássico é a citação: o comparecimento espontâneo do réu supre a sua falta ou nulidade, e o prazo para contestar flui dessa data (art. 239, § 1º). Na mesma linha, o juiz não extingue o processo por vício sanável sem antes dar à parte a chance de corrigi-lo (art. 317), como na emenda da inicial em 15 dias (art. 321)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Ao julgar uma ação de cobrança em Recife, a juíza percebe que a dívida pode estar prescrita, tema que ninguém havia levantado.",
+        "q": "Ela pode reconhecer a prescrição direto na sentença?",
+        "a": "Não. Embora possa conhecer da prescrição de ofício, deve antes intimar as partes para se manifestarem (arts. 10 e 487, parágrafo único). Decidir sem isso é decisão surpresa."
+      },
+      "traps": [
+        "Matéria conhecível de ofício não dispensa contraditório: o art. 10 vale justamente para ela.",
+        "A ordem cronológica não é absoluta: o caput diz preferencialmente, e o § 2º lista exceções como a homologação de acordo.",
+        "Liminar sem ouvir o réu não viola o art. 9º quando se trata de tutela de urgência: o contraditório é diferido, não suprimido.",
+        "Inicial com defeito sanável não se indefere de cara: primeiro vem a ordem de emenda em 15 dias, com indicação precisa do que corrigir."
+      ],
+      "summary": [
+        "Contraditório no CPC é prévio (art. 9º) e sem surpresas (art. 10).",
+        "A ordem cronológica do art. 12 é preferencial e tem exceções expressas.",
+        "Ato que atinge a finalidade é válido; comparecimento espontâneo supre a citação.",
+        "Vício sanável exige oportunidade de correção antes da extinção."
+      ],
+      "src": "CPC (Lei 13.105/2015), arts. 1º a 12, 239, § 1º, 277, 278, 317, 321 e 487, parágrafo único; Lei 13.256/2016."
+    },
+    {
+      "id": "dpc-a2",
+      "title": "Prazos: dias úteis, dobras e suspensão",
+      "mins": 7,
+      "qids": [
+        "dpc4",
+        "dpc5",
+        "dpc6",
+        "dpc7",
+        "dpc29",
+        "dpc30"
+      ],
+      "intro": "Ao fim desta aula, você conta qualquer prazo do CPC sem errar o dia de início e sabe quem tem prazo em dobro e quando o prazo fica suspenso.",
+      "sections": [
+        {
+          "h": "Dias úteis e o dia do começo",
+          "p": [
+            "Na contagem de prazo em dias, estabelecido por lei ou pelo juiz, computam-se somente os dias úteis (art. 219). A regra vale apenas para prazos processuais, e não para prazos de direito material, como a prescrição.",
+            "Exclui-se o dia do começo e inclui-se o do vencimento (art. 224). Na intimação pelo Diário da Justiça eletrônico, considera-se publicação o primeiro dia útil seguinte ao da disponibilização, e a contagem começa no primeiro dia útil seguinte ao da publicação (§§ 2º e 3º)."
+          ]
+        },
+        {
+          "h": "Quando a lei e o juiz se calam",
+          "p": [
+            "Sem preceito legal nem prazo fixado pelo juiz, o prazo para ato a cargo da parte é de 5 dias (art. 218, § 3º). Não confunda com os 15 dias da contestação e dos recursos, que são prazos específicos.",
+            "O ato praticado antes do termo inicial do prazo é tempestivo (art. 218, § 4º). Assim, o advogado que recorre antes da publicação oficial não perde o recurso por isso."
+          ]
+        },
+        {
+          "h": "Quem conta em dobro",
+          "p": [
+            "Têm prazo em dobro para todas as manifestações processuais: o Ministério Público (art. 180), a Fazenda Pública, isto é, União, estados, DF, municípios e suas autarquias e fundações de direito público (art. 183), e a Defensoria Pública (art. 186). Para os três, o prazo conta da intimação pessoal.",
+            "O benefício não se aplica quando a lei fixar, de forma expressa, prazo próprio para o ente (arts. 180, § 2º, e 183, § 2º). O prazo da Defensoria se estende aos escritórios de prática jurídica das faculdades de Direito reconhecidas e às entidades conveniadas com a Defensoria (art. 186, § 3º)."
+          ],
+          "list": [
+            "Contestação do município: 15 dias em dobro, 30 dias úteis.",
+            "Empresa pública e sociedade de economia mista não estão no art. 183 e, em regra, têm prazo simples.",
+            "Litisconsortes com advogados de escritórios distintos contam em dobro só em autos físicos (art. 229, § 2º)."
+          ]
+        },
+        {
+          "h": "A suspensão de fim de ano",
+          "p": [
+            "Suspende-se o curso do prazo processual nos dias compreendidos entre 20 de dezembro e 20 de janeiro, inclusive (art. 220). Nesse período não se realizam audiências nem sessões de julgamento (§ 2º), mas juízes, membros do MP, da Defensoria e da Advocacia Pública seguem exercendo suas atribuições (§ 1º).",
+            "Suspensão significa que o prazo para e depois continua do ponto em que parou, restituindo-se o tempo que faltava (art. 221). É diferente da interrupção, em que o prazo recomeça do zero."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Uma intimação é disponibilizada no DJe numa quinta-feira, e a sexta seguinte é feriado na comarca.",
+        "q": "Quando começa o prazo?",
+        "a": "A publicação se considera feita no primeiro dia útil seguinte à disponibilização, a segunda-feira; a contagem começa no primeiro dia útil seguinte, a terça-feira (art. 224, §§ 2º e 3º)."
+      },
+      "traps": [
+        "Disponibilização, publicação e início do prazo são três momentos distintos no DJe: não some apenas um dia.",
+        "A Fazenda não tem mais prazo em quádruplo para contestar: no CPC/2015 tudo é em dobro.",
+        "O prazo em dobro do MP e da Fazenda cai quando a lei fixa prazo próprio para eles.",
+        "Gratuidade da justiça não gera prazo em dobro; o que gera é a atuação da Defensoria ou de quem a lei equipara."
+      ],
+      "summary": [
+        "Prazos processuais correm só em dias úteis, excluído o dia do começo.",
+        "No silêncio da lei e do juiz, o prazo da parte é de 5 dias.",
+        "MP, Fazenda e Defensoria contam em dobro, salvo prazo próprio fixado em lei.",
+        "Entre 20/12 e 20/1, inclusive, os prazos ficam suspensos."
+      ],
+      "src": "CPC (Lei 13.105/2015), arts. 180, 183, 186, 218, §§ 3º e 4º, 219, 220, 221, 224 e 229."
+    },
+    {
+      "id": "dpc-a3",
+      "title": "Competência, partes e intervenção de terceiros",
+      "mins": 8,
+      "qids": [
+        "dpc8",
+        "dpc9",
+        "dpc11",
+        "dpc13",
+        "dpc14",
+        "dpc15"
+      ],
+      "intro": "Ao fim desta aula, você identifica o foro competente, sabe o que fazer com a incompetência relativa e escolhe a intervenção de terceiro certa para cada caso.",
+      "sections": [
+        {
+          "h": "Absoluta x relativa",
+          "p": [
+            "A competência em razão da matéria, da pessoa ou da função é absoluta e inderrogável por convenção das partes (art. 62). Já a competência em razão do valor e do território pode ser modificada pelas partes, por exemplo com cláusula de eleição de foro (art. 63).",
+            "As duas incompetências são alegadas como preliminar de contestação (art. 64). A absoluta pode ser alegada a qualquer tempo e grau de jurisdição e deve ser declarada de ofício (§ 1º); a relativa, se o réu não a alegar, prorroga-se, e o juízo passa a ser competente (art. 65)."
+          ]
+        },
+        {
+          "h": "Onde propor a ação",
+          "p": [
+            "A regra geral é o foro do domicílio do réu para ações fundadas em direito pessoal ou em direito real sobre bens móveis (art. 46). Havendo dois ou mais réus com domicílios diferentes, o autor escolhe qualquer deles (§ 4º).",
+            "Para ações fundadas em direito real sobre imóveis, o foro é o da situação da coisa (art. 47). Acolhida a incompetência, o processo não é extinto: os autos vão para o juízo competente (art. 64, § 3º)."
+          ]
+        },
+        {
+          "h": "Partes e litisconsórcio",
+          "p": [
+            "O litisconsórcio é necessário por disposição de lei ou quando a eficácia da sentença depender da citação de todos (art. 114), e unitário quando o juiz tiver de decidir o mérito de modo uniforme para todos (art. 116). Para propor ação sobre direito real imobiliário, o cônjuge precisa do consentimento do outro, salvo no regime de separação absoluta (art. 73).",
+            "Litisconsortes com procuradores de escritórios distintos têm prazos em dobro (art. 229), mas a regra não se aplica a processos em autos eletrônicos (§ 2º)."
+          ]
+        },
+        {
+          "h": "Intervenção de terceiros sem confusão",
+          "p": [
+            "Cada figura tem uma função própria, e as provas costumam trocá-las. Memorize a pergunta que cada uma responde:"
+          ],
+          "list": [
+            "Assistência (arts. 119 a 124): terceiro juridicamente interessado ajuda uma das partes; o simples não impede a parte de desistir, renunciar ou transigir (art. 122).",
+            "Denunciação da lide (art. 125): traz o alienante, para a evicção, ou quem deve indenizar em regresso por lei ou contrato, como a seguradora.",
+            "Chamamento ao processo (art. 130): o réu traz o afiançado, os demais fiadores ou os demais devedores solidários.",
+            "Desconsideração da personalidade jurídica (arts. 133 a 137): só a pedido da parte ou do MP, cabível em todas as fases, inclusive no cumprimento de sentença.",
+            "Amicus curiae (art. 138): admitido por decisão irrecorrível; em regra não recorre, salvo embargos de declaração e a decisão que julga o IRDR."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Um fiador de Natal é cobrado sozinho pelos aluguéis atrasados e quer que o locatário responda no mesmo processo.",
+        "q": "Qual intervenção ele deve usar?",
+        "a": "Chamamento ao processo do afiançado (art. 130, I), requerido na contestação. Denunciação da lide seria o caminho para trazer quem deve indenizar em regresso, como uma seguradora."
+      },
+      "traps": [
+        "Em regra, competência territorial não se declara de ofício: se o réu não alegar em preliminar de contestação, ela se prorroga. Exceções: cláusula de eleição de foro abusiva e juízo aleatório (art. 63, §§ 3º e 5º).",
+        "Situação da coisa é foro de imóvel; para bem móvel vale o domicílio do réu.",
+        "Prazo em dobro de litisconsortes não existe em autos eletrônicos.",
+        "O juiz não instaura de ofício o incidente de desconsideração: precisa de pedido da parte ou do MP."
+      ],
+      "summary": [
+        "Matéria, pessoa e função: absoluta. Valor e território: relativa e modificável.",
+        "Incompetência relativa não alegada em preliminar de contestação se prorroga.",
+        "Domicílio do réu é o foro geral; imóvel segue a situação da coisa.",
+        "Denunciação é regresso; chamamento é fiador ou devedor solidário."
+      ],
+      "src": "CPC (Lei 13.105/2015), arts. 46, 47, 62 a 65, 73, 114, 116, 119 a 138 e 229."
+    },
+    {
+      "id": "dpc-a4",
+      "title": "Tutelas provisórias: urgência e evidência",
+      "mins": 7,
+      "qids": [
+        "dpc17",
+        "dpc18",
+        "dpc19",
+        "dpc27",
+        "dpc28"
+      ],
+      "intro": "Ao fim desta aula, você distingue tutela de urgência e da evidência, sabe quando cabe liminar, entende a estabilização e escolhe o recurso contra a decisão.",
+      "sections": [
+        {
+          "h": "O mapa das tutelas provisórias",
+          "p": [
+            "A tutela provisória fundamenta-se em urgência ou evidência; a de urgência pode ser cautelar ou antecipada e pode ser concedida em caráter antecedente ou incidental (art. 294). Ela conserva a eficácia na pendência do processo, mas pode ser revogada ou modificada a qualquer tempo (art. 296).",
+            "A cautelar protege o resultado útil do processo, por exemplo com arresto, sequestro, arrolamento de bens ou registro de protesto contra alienação de bem (art. 301). A antecipada entrega desde logo, total ou parcialmente, o próprio bem da vida pedido."
+          ]
+        },
+        {
+          "h": "Urgência: probabilidade e perigo",
+          "p": [
+            "A tutela de urgência exige elementos que evidenciem a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo (art. 300). Pode ser concedida liminarmente ou após justificação prévia (§ 2º), e o juiz pode exigir caução, dispensada para a parte economicamente hipossuficiente (§ 1º).",
+            "A tutela antecipada não é concedida quando houver perigo de irreversibilidade dos efeitos da decisão (§ 3º)."
+          ]
+        },
+        {
+          "h": "Evidência: sem perigo, com prova forte",
+          "p": [
+            "A tutela da evidência dispensa a demonstração de perigo de dano (art. 311). Ela cabe em quatro situações, mas só duas admitem liminar (parágrafo único):"
+          ],
+          "list": [
+            "I: abuso do direito de defesa ou manifesto propósito protelatório (depende da defesa, sem liminar);",
+            "II: fatos comprovados só documentalmente e tese firmada em casos repetitivos ou súmula vinculante (admite liminar);",
+            "III: pedido reipersecutório fundado em prova documental de contrato de depósito (admite liminar);",
+            "IV: inicial com prova documental suficiente a que o réu não oponha prova capaz de gerar dúvida razoável (sem liminar)."
+          ]
+        },
+        {
+          "h": "Estabilização e recursos",
+          "p": [
+            "A tutela antecipada requerida em caráter antecedente se estabiliza se não for interposto recurso contra a decisão que a concede, e o processo é extinto (art. 304, § 1º). A decisão não faz coisa julgada (§ 6º), e qualquer parte pode pedir sua revisão em ação própria em até 2 anos, contados da ciência da decisão que extinguiu o processo (§ 5º).",
+            "Contra decisão interlocutória sobre tutela provisória cabe agravo de instrumento (art. 1.015, I), em 15 dias úteis. Se a tutela for concedida, confirmada ou revogada na sentença, ela produz efeitos imediatos, sem efeito suspensivo automático da apelação (art. 1.012, § 1º, V), assim como a sentença que condena a pagar alimentos (inciso II)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Um autor de Maceió prova os fatos só com documentos e invoca tese de recurso repetitivo do STJ, sem alegar urgência.",
+        "q": "Cabe tutela antes de ouvir o réu?",
+        "a": "Sim. É tutela da evidência do art. 311, II, que dispensa perigo de dano e, por expressa previsão do parágrafo único, pode ser concedida liminarmente."
+      },
+      "traps": [
+        "Prova inequívoca e verossimilhança são termos do CPC/1973; o CPC/2015 fala em probabilidade do direito.",
+        "Abuso do direito de defesa (art. 311, I) nunca autoriza liminar, porque pressupõe defesa já apresentada.",
+        "Estabilização não é coisa julgada, e o prazo de 2 anos conta da ciência da extinção, não da concessão.",
+        "Apelação tem efeito suspensivo como regra; alimentos e tutela provisória confirmada na sentença são exceções."
+      ],
+      "summary": [
+        "Urgência exige probabilidade do direito e perigo de dano ou risco ao resultado útil.",
+        "Evidência dispensa perigo; só os incisos II e III do art. 311 admitem liminar.",
+        "Antecipada antecedente sem recurso se estabiliza, sem coisa julgada, revisável em 2 anos.",
+        "Decisão sobre tutela provisória desafia agravo de instrumento."
+      ],
+      "src": "CPC (Lei 13.105/2015), arts. 294 a 311, 1.012, § 1º, e 1.015, I."
+    },
+    {
+      "id": "dpc-a5",
+      "title": "Procedimento comum: da inicial às provas",
+      "mins": 8,
+      "qids": [
+        "dpc20",
+        "dpc21",
+        "dpc22",
+        "dpc23",
+        "dpc24",
+        "dpc33"
+      ],
+      "intro": "Ao fim desta aula, você percorre o procedimento comum da petição inicial à fase de provas e resolve questões de improcedência liminar, audiência, contestação, revelia e ônus da prova.",
+      "sections": [
+        {
+          "h": "Petição inicial e improcedência liminar",
+          "p": [
+            "A inicial indica, entre outros requisitos, o juízo, as partes, os fatos e fundamentos jurídicos, o pedido, o valor da causa, as provas e a opção pela audiência de conciliação ou mediação (art. 319). Faltando algo sanável, o juiz manda emendar em 15 dias (art. 321).",
+            "Nas causas que dispensem fase instrutória, o juiz julga liminarmente improcedente, sem citar o réu, o pedido que contrariar súmula do STF ou do STJ, recurso repetitivo, IRDR ou assunção de competência, ou súmula de TJ sobre direito local (art. 332). Também pode fazê-lo ao verificar desde logo prescrição ou decadência (§ 1º)."
+          ]
+        },
+        {
+          "h": "Audiência de conciliação ou mediação",
+          "p": [
+            "A audiência é designada com antecedência mínima de 30 dias, e o réu deve ser citado pelo menos 20 dias antes (art. 334). Ela só deixa de ocorrer se ambas as partes manifestarem expressamente desinteresse ou se não se admitir autocomposição (§ 4º); o réu manifesta desinteresse por petição com 10 dias de antecedência (§ 5º).",
+            "Faltar sem justificativa é ato atentatório à dignidade da justiça, com multa de até 2% da vantagem econômica pretendida ou do valor da causa, revertida em favor da União ou do Estado (§ 8º)."
+          ]
+        },
+        {
+          "h": "Contestação, reconvenção e revelia",
+          "p": [
+            "O réu contesta em 15 dias, contados da audiência ou da última sessão sem acordo, do protocolo do pedido de cancelamento quando ambas as partes recusam a audiência, ou, nos demais casos, na forma do art. 231 (art. 335). Na contestação, pode reconvir com pretensão própria conexa com a ação ou com o fundamento da defesa, e pode reconvir até sem contestar (art. 343, § 6º).",
+            "Sem contestação, o réu é revel e presumem-se verdadeiras as alegações de fato do autor (art. 344). O efeito não ocorre se outro réu contestar, se o direito for indisponível, se faltar documento indispensável ou se as alegações forem inverossímeis ou contraditórias com a prova dos autos (art. 345)."
+          ]
+        },
+        {
+          "h": "Ônus da prova estático e dinâmico",
+          "p": [
+            "Cabe ao autor provar o fato constitutivo do seu direito, e ao réu, o fato impeditivo, modificativo ou extintivo (art. 373, I e II). Diante da impossibilidade ou excessiva dificuldade de cumprir o encargo, ou da maior facilidade de prova do fato contrário, o juiz pode distribuir o ônus de modo diverso (§ 1º).",
+            "Essa decisão deve ser fundamentada e dar à parte oportunidade de se desincumbir do ônus, sem gerar situação em que a prova seja impossível ou excessivamente difícil (§ 2º). Contra ela cabe agravo de instrumento (art. 1.015, XI)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Em Porto Velho, o réu falta sem justificativa à audiência de conciliação e depois apresenta contestação no prazo.",
+        "q": "Ele é revel?",
+        "a": "Não. Revelia é falta de contestação (art. 344). A ausência injustificada à audiência gera multa de até 2% por ato atentatório à dignidade da justiça (art. 334, § 8º)."
+      },
+      "traps": [
+        "Improcedência liminar é sempre de improcedência e é sentença de mérito; indeferimento da inicial é outra coisa.",
+        "Basta uma parte querer a audiência para que ela ocorra: a dispensa exige desinteresse expresso de ambas.",
+        "Audiência sem acordo com as partes presentes: o prazo de contestação corre da própria audiência.",
+        "Distribuição dinâmica do ônus não pode ser feita na sentença, sem dar chance de produzir a prova."
+      ],
+      "summary": [
+        "Inicial com vício sanável: emenda em 15 dias; pedido contra súmula: improcedência liminar.",
+        "Audiência marcada com 30 dias de antecedência; ausência injustificada gera multa de até 2%.",
+        "Contestação em 15 dias úteis; reconvenção cabe até sem contestar.",
+        "Revelia presume fatos verdadeiros, salvo nas hipóteses do art. 345."
+      ],
+      "src": "CPC (Lei 13.105/2015), arts. 319, 321, 332, 334, 335, 343 a 346 e 373."
+    },
+    {
+      "id": "dpc-a6",
+      "title": "Sentença, cumprimento, recursos e ACP",
+      "mins": 8,
+      "qids": [
+        "dpc25",
+        "dpc35",
+        "dpc26",
+        "dpc38",
+        "dpc40",
+        "dpc39"
+      ],
+      "intro": "Ao fim desta aula, você separa sentença com e sem mérito, calcula multa e honorários no cumprimento, domina prazos e efeitos dos recursos e identifica quem propõe ação civil pública.",
+      "sections": [
+        {
+          "h": "Sentença com ou sem mérito e coisa julgada",
+          "p": [
+            "O art. 485 lista as extinções sem mérito, como indeferimento da inicial, abandono, falta de legitimidade ou interesse, convenção de arbitragem e desistência. O art. 487 traz as de mérito: acolher ou rejeitar o pedido, decidir sobre prescrição ou decadência e homologar reconhecimento do pedido, transação ou renúncia à pretensão.",
+            "Coisa julgada material é a autoridade que torna imutável e indiscutível a decisão de mérito não mais sujeita a recurso (art. 502). Não fazem coisa julgada os motivos nem a verdade dos fatos estabelecida como fundamento da sentença (art. 504)."
+          ]
+        },
+        {
+          "h": "Cumprimento de sentença: 15 dias, 10% e 10%",
+          "p": [
+            "Condenado a pagar quantia certa, o executado é intimado para pagar em 15 dias (art. 523). Sem pagamento voluntário, o débito é acrescido de multa de 10% e de honorários de advogado de 10% (§ 1º); se o pagamento for parcial, ambos incidem sobre o restante (§ 2º).",
+            "Passado o prazo sem pagamento, começam os 15 dias para a impugnação, independentemente de penhora ou nova intimação (art. 525)."
+          ]
+        },
+        {
+          "h": "Recursos: rol, prazos e efeitos",
+          "p": [
+            "O art. 994 lista apelação, agravo de instrumento, agravo interno, embargos de declaração, recurso ordinário, especial, extraordinário, agravo em RE ou REsp e embargos de divergência. O prazo é de 15 dias úteis, salvo embargos de declaração, com 5 (arts. 1.003, § 5º, e 1.023), e os embargos de declaração interrompem o prazo dos demais recursos (art. 1.026).",
+            "A apelação é interposta no primeiro grau, mas o juiz a remete ao tribunal independentemente de juízo de admissibilidade (art. 1.010, § 3º). Interlocutórias fora do rol do art. 1.015 não precluem e são suscitadas em preliminar de apelação ou nas contrarrazões (art. 1.009, § 1º); o STJ admite agravo fora do rol em casos excepcionais de urgência (Tema 988)."
+          ]
+        },
+        {
+          "h": "Ação civil pública: quem pode propor",
+          "p": [
+            "Têm legitimidade o Ministério Público, a Defensoria Pública, a União, os estados, o DF e os municípios, autarquias, empresas públicas, fundações e sociedades de economia mista, e associações (Lei 7.347/85, art. 5º). O cidadão sozinho não propõe ACP; para ele existe a ação popular.",
+            "A associação precisa estar constituída há pelo menos 1 ano e ter entre suas finalidades a proteção do bem tutelado (inciso V). O juiz pode dispensar a pré-constituição quando houver manifesto interesse social, pela dimensão ou característica do dano ou pela relevância do bem jurídico (§ 4º)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Em Curitiba, a empresa condenada a pagar R$ 80.000,00 paga só R$ 30.000,00 no prazo do art. 523.",
+        "q": "Quanto ainda deve, sem custas e correção?",
+        "a": "R$ 60.000,00. Multa de 10% e honorários de 10% incidem sobre o saldo de R$ 50.000,00, somando R$ 10.000,00 (art. 523, §§ 1º e 2º)."
+      },
+      "traps": [
+        "Renúncia à pretensão é sentença de mérito; desistência da ação é extinção sem mérito.",
+        "Embargos de declaração interrompem, não suspendem, o prazo dos outros recursos.",
+        "Embargos infringentes e agravo retido não existem mais no CPC/2015.",
+        "O juiz de primeiro grau não faz juízo de admissibilidade da apelação."
+      ],
+      "summary": [
+        "Art. 485: sem mérito; art. 487: com mérito, inclusive homologação de renúncia.",
+        "Motivos e verdade dos fatos não fazem coisa julgada.",
+        "Cumprimento: 15 dias para pagar, depois multa de 10% e honorários de 10% sobre o saldo.",
+        "Recursos em 15 dias úteis, embargos de declaração em 5; ACP tem rol fechado de legitimados."
+      ],
+      "src": "CPC (Lei 13.105/2015), arts. 485, 487, 502, 504, 523, 525, 994, 1.003, § 5º, 1.009, § 1º, 1.010, § 3º, 1.015, 1.023 e 1.026; Lei 7.347/85, art. 5º; STJ, Tema 988."
+    }
+  ]
+}

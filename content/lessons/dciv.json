@@ -1,0 +1,393 @@
+{
+  "id": "dciv",
+  "lessons": [
+    {
+      "id": "dciv-a1",
+      "title": "LINDB: vigência, revogação e segurança jurídica",
+      "mins": 6,
+      "qids": ["dciv1", "dciv2", "dciv3", "dciv4", "dciv29"],
+      "intro": "Ao fim desta aula, você calcula quando uma lei entra em vigor, sabe se uma lei revogada volta a valer e reconhece as regras dos arts. 20 a 30 da LINDB que as bancas mais cobram.",
+      "sections": [
+        {
+          "h": "Vigência: 45 dias no Brasil, três meses no exterior",
+          "p": [
+            "Salvo disposição em contrário, a lei começa a vigorar em todo o país 45 dias depois de oficialmente publicada (LINDB, art. 1º). Esse intervalo é a vacatio legis; se a lei disser “entra em vigor na data de sua publicação”, não há vacatio.",
+            "Nos Estados estrangeiros, quando admitida, a obrigatoriedade da lei brasileira começa três meses depois da publicação oficial (art. 1º, § 1º). Três meses contam-se pelo calendário, e não como 90 dias.",
+            "Se, antes de a lei entrar em vigor, houver nova publicação do texto para correção, o prazo recomeça a partir da nova publicação (§ 3º). Correções feitas em lei já em vigor consideram-se lei nova (§ 4º)."
+          ]
+        },
+        {
+          "h": "Revogação e repristinação",
+          "p": [
+            "Não se destinando à vigência temporária, a lei vigora até que outra a modifique ou revogue (art. 2º). A lei posterior revoga a anterior quando expressamente o declare, quando seja com ela incompatível ou quando regule inteiramente a matéria de que tratava a anterior (§ 1º).",
+            "Lei nova com disposições gerais ou especiais a par das já existentes não revoga nem modifica a lei anterior (§ 2º). E, salvo disposição em contrário, a lei revogada não se restaura por ter a lei revogadora perdido a vigência (§ 3º): não há repristinação automática."
+          ],
+          "list": [
+            "Revogação expressa: a lei nova diz o que revoga.",
+            "Revogação tácita: incompatibilidade ou regulação inteira da matéria.",
+            "Repristinação: só quando a lei nova manda expressamente."
+          ]
+        },
+        {
+          "h": "Aplicação e integração",
+          "p": [
+            "Ninguém se escusa de cumprir a lei alegando que não a conhece (art. 3º). Quando a lei for omissa, o juiz decide de acordo com a analogia, os costumes e os princípios gerais de direito (art. 4º).",
+            "Na aplicação da lei, o juiz atende aos fins sociais a que ela se dirige e às exigências do bem comum (art. 5º). A lei em vigor tem efeito imediato e geral, respeitados o ato jurídico perfeito, o direito adquirido e a coisa julgada (art. 6º)."
+          ]
+        },
+        {
+          "h": "Arts. 20 a 30: segurança jurídica no direito público",
+          "p": [
+            "Incluídos pela Lei 13.655/2018, esses artigos valem para quem decide sobre direito público. Nas esferas administrativa, controladora e judicial, não se decide com base em valores jurídicos abstratos sem considerar as consequências práticas da decisão (art. 20).",
+            "Na interpretação de normas de gestão pública, consideram-se os obstáculos e as dificuldades reais do gestor (art. 22). O agente público responde pessoalmente por suas decisões ou opiniões técnicas apenas em caso de dolo ou erro grosseiro (art. 28), e as autoridades devem atuar para aumentar a segurança jurídica, inclusive por regulamentos, súmulas administrativas e respostas a consultas (art. 30)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "A Lei X revogou expressamente a Lei Y. Anos depois, a Lei Z revogou a Lei X, sem dizer nada sobre a Lei Y.",
+        "q": "A Lei Y volta a vigorar?",
+        "a": "Não. Sem disposição expressa na Lei Z, a lei revogada não se restaura (LINDB, art. 2º, § 3º). A repristinação existe, mas nunca é automática."
+      },
+      "traps": [
+        "Três meses é o prazo para o exterior; no Brasil, são 45 dias. A banca costuma trocar um pelo outro.",
+        "Repristinação não é proibida: é admitida quando a lei nova a determina expressamente. O que não existe é repristinação automática.",
+        "O art. 20 alcança as esferas administrativa, controladora e judicial, não só a administração.",
+        "O art. 28 exige dolo ou erro grosseiro. Item que fala em “qualquer culpa” ou em “responsabilidade objetiva do agente” está errado."
+      ],
+      "summary": [
+        "Sem cláusula, a lei vigora 45 dias após a publicação; no exterior, três meses.",
+        "Lei revogada não volta sozinha: repristinação só se for expressa.",
+        "Lei nova com disposições gerais ou especiais a par das existentes não revoga a anterior.",
+        "Decisões em direito público devem pesar consequências práticas; agente responde só por dolo ou erro grosseiro."
+      ],
+      "src": "Decreto-Lei 4.657/1942 (LINDB), arts. 1º a 6º, 20, 22, 28 e 30, com a redação da Lei 13.655/2018."
+    },
+    {
+      "id": "dciv-a2",
+      "title": "Pessoa natural: capacidade, ausência e domicílio",
+      "mins": 7,
+      "qids": ["dciv5", "dciv6", "dciv7", "dciv8", "dciv30", "dciv32"],
+      "intro": "Ao fim desta aula, você classifica qualquer pessoa como capaz, relativamente ou absolutamente incapaz, sabe como cessa a incapacidade e resolve questões de personalidade, ausência e domicílio.",
+      "sections": [
+        {
+          "h": "Personalidade e capacidade depois da Lei 13.146/2015",
+          "p": [
+            "Toda pessoa é capaz de direitos e deveres na ordem civil (art. 1º). A personalidade civil começa do nascimento com vida, mas a lei põe a salvo, desde a concepção, os direitos do nascituro (art. 2º).",
+            "Desde o Estatuto da Pessoa com Deficiência (Lei 13.146/2015), só os menores de 16 anos são absolutamente incapazes (art. 3º). O ato praticado por eles sem representação é nulo (art. 166, I). Já os relativamente incapazes estão no art. 4º:"
+          ],
+          "list": [
+            "Maiores de 16 e menores de 18 anos.",
+            "Ébrios habituais e viciados em tóxico.",
+            "Quem, por causa transitória ou permanente, não puder exprimir sua vontade.",
+            "Pródigos."
+          ]
+        },
+        {
+          "h": "Relativamente incapazes e fim da menoridade",
+          "p": [
+            "Os relativamente incapazes praticam atos assistidos, e o negócio celebrado sem assistência é anulável (art. 171, I). A capacidade dos indígenas é regulada por legislação especial (parágrafo único).",
+            "A menoridade cessa aos 18 anos completos (art. 5º). Antes disso, a incapacidade cessa pela emancipação: concessão dos pais, ou de um deles na falta do outro, por instrumento público, sem homologação judicial, se o menor tiver 16 anos; ou sentença do juiz, ouvido o tutor.",
+            "Também emancipam o casamento, o exercício de emprego público efetivo, a colação de grau em curso superior e o estabelecimento civil ou comercial ou a relação de emprego que deem ao menor com 16 anos economia própria (art. 5º, parágrafo único)."
+          ]
+        },
+        {
+          "h": "Direitos da personalidade",
+          "p": [
+            "Com exceção dos casos previstos em lei, os direitos da personalidade são intransmissíveis e irrenunciáveis, e seu exercício não pode sofrer limitação voluntária (art. 11). Salvo exigência médica, é defeso o ato de disposição do próprio corpo que importe diminuição permanente da integridade física ou contrarie os bons costumes (art. 13).",
+            "É válida a disposição gratuita do próprio corpo, no todo ou em parte, para depois da morte, com objetivo científico ou altruístico, e o ato pode ser livremente revogado a qualquer tempo (art. 14). Ninguém pode ser constrangido a se submeter, com risco de vida, a tratamento médico ou intervenção cirúrgica (art. 15)."
+          ]
+        },
+        {
+          "h": "Ausência e morte presumida",
+          "p": [
+            "Desaparecendo alguém do domicílio sem notícia e sem representante, o juiz declara a ausência e nomeia curador (art. 22). Decorrido um ano da arrecadação dos bens, ou três anos se o ausente deixou representante ou procurador, os interessados podem requerer a sucessão provisória (art. 26).",
+            "Dez anos depois do trânsito em julgado da sentença que concede a sucessão provisória, pode-se requerer a definitiva (art. 37); também cabe a definitiva provando-se que o ausente tem 80 anos e que de cinco anos datam suas últimas notícias (art. 38). Sem decretação de ausência, declara-se a morte presumida se for extremamente provável a morte de quem estava em perigo de vida, após esgotadas as buscas (art. 7º)."
+          ]
+        },
+        {
+          "h": "Domicílio",
+          "p": [
+            "O domicílio da pessoa natural é o lugar onde ela estabelece sua residência com ânimo definitivo (art. 70); com várias residências onde viva alternadamente, qualquer delas serve (art. 71). Para as relações profissionais, também é domicílio o lugar onde a profissão é exercida (art. 72).",
+            "Têm domicílio necessário o incapaz, o servidor público, o militar, o marítimo e o preso (art. 76). O servidor, no lugar em que exerce permanentemente suas funções; o preso, no lugar em que cumprir a sentença."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Bianca, de 17 anos, casou-se em Aracaju com autorização dos pais.",
+        "q": "Bianca continua relativamente incapaz?",
+        "a": "Não. O casamento é causa legal de cessação da incapacidade (art. 5º, parágrafo único, II). Ela passa a praticar sozinha os atos da vida civil."
+      },
+      "traps": [
+        "Quem não pode exprimir a vontade, mesmo por causa permanente, é relativamente incapaz desde 2015, e não absolutamente.",
+        "A emancipação pelos pais exige instrumento público, mas dispensa homologação judicial; a do tutelado é por sentença.",
+        "Sucessão provisória: um ano da arrecadação (sem procurador) ou três anos (com procurador). Dez anos é marco da definitiva.",
+        "Disposição do corpo para depois da morte é gratuita e revogável a qualquer tempo."
+      ],
+      "summary": [
+        "Absolutamente incapaz hoje é só o menor de 16 anos; ato dele sem representação é nulo.",
+        "Relativos do art. 4º praticam atos assistidos; sem assistência, o ato é anulável.",
+        "Emancipação voluntária: pais, instrumento público, 16 anos, sem juiz.",
+        "Ausência: curador, sucessão provisória e, depois, definitiva; preso e servidor têm domicílio necessário."
+      ],
+      "src": "Código Civil, arts. 1º a 7º, 11 a 15, 22, 26, 37, 38, 70 a 72 e 76; Lei 13.146/2015."
+    },
+    {
+      "id": "dciv-a3",
+      "title": "Pessoa jurídica, bens e defeitos do negócio",
+      "mins": 8,
+      "qids": ["dciv9", "dciv10", "dciv33", "dciv11", "dciv12", "dciv13"],
+      "intro": "Ao fim desta aula, você aplica a desconsideração da personalidade jurídica, classifica bens em concursos e identifica qual defeito torna um negócio jurídico anulável.",
+      "sections": [
+        {
+          "h": "Pessoa jurídica e desconsideração",
+          "p": [
+            "São pessoas jurídicas de direito público interno a União, os estados, o DF, os territórios, os municípios, as autarquias, inclusive as associações públicas, e as demais entidades de caráter público criadas por lei (art. 41). Entre as de direito privado estão as associações, as sociedades, as fundações, as organizações religiosas e os partidos políticos (art. 44).",
+            "Associação é a união de pessoas para fins não econômicos, sem direitos e obrigações recíprocos entre os associados (art. 53). Fundação nasce de dotação especial de bens livres, com fim especificado pelo instituidor (art. 62).",
+            "Pelo art. 50, com a redação da Lei 13.874/2019, o juiz pode desconsiderar a personalidade, a requerimento da parte ou do MP, quando houver abuso caracterizado por desvio de finalidade ou confusão patrimonial. A mera existência de grupo econômico não autoriza a medida (§ 4º)."
+          ]
+        },
+        {
+          "h": "Bens: as classificações que caem",
+          "p": [
+            "São imóveis o solo e tudo quanto se lhe incorporar natural ou artificialmente (art. 79). Para os efeitos legais, também são imóveis os direitos reais sobre imóveis e as ações que os asseguram, e o direito à sucessão aberta (art. 80); por isso a cessão de quinhão hereditário exige escritura pública (art. 1.793).",
+            "Principal é o bem que existe por si; acessório, aquele cuja existência supõe a do principal (art. 92). As pertenças, como um trator destinado ao serviço da fazenda, não são abrangidas pelos negócios sobre o bem principal, salvo se o contrário resultar da lei, da vontade ou das circunstâncias (art. 94)."
+          ]
+        },
+        {
+          "h": "Bens públicos",
+          "p": [
+            "Os bens públicos são de uso comum do povo (rios, mares, ruas, praças), de uso especial (edifícios destinados a serviço da administração) ou dominicais, que integram o patrimônio das pessoas de direito público sem destinação específica (art. 99).",
+            "Os de uso comum e especial são inalienáveis enquanto conservarem essa qualificação (art. 100); os dominicais podem ser alienados, observadas as exigências da lei (art. 101). Nenhum bem público está sujeito a usucapião (art. 102)."
+          ]
+        },
+        {
+          "h": "Validade e forma do negócio jurídico",
+          "p": [
+            "A validade requer agente capaz, objeto lícito, possível, determinado ou determinável, e forma prescrita ou não defesa em lei (art. 104). A regra é a liberdade de forma (art. 107).",
+            "Não dispondo a lei em contrário, a escritura pública é essencial aos negócios que visem à constituição, transferência, modificação ou renúncia de direitos reais sobre imóveis de valor superior a 30 vezes o maior salário mínimo vigente no país (art. 108). Sem a forma exigida, o negócio é nulo (art. 166, IV)."
+          ]
+        },
+        {
+          "h": "Defeitos: erro, dolo, coação, estado de perigo, lesão e fraude",
+          "p": [
+            "Erro substancial e dolo que seja a causa do negócio o tornam anulável (arts. 138 e 145). Coação é a ameaça de dano iminente e considerável à pessoa, à família ou aos bens; não a configuram a ameaça do exercício normal de um direito nem o simples temor reverencial (arts. 151 e 153).",
+            "Estado de perigo: assumir obrigação excessivamente onerosa para salvar a si ou a alguém da família de grave dano conhecido pela outra parte (art. 156). Lesão: obrigar-se, por premente necessidade ou inexperiência, a prestação manifestamente desproporcional (art. 157); não se anula o negócio se houver suplemento suficiente ou redução do proveito (§ 2º).",
+            "Fraude contra credores: transmissão gratuita de bens ou remissão de dívida por devedor insolvente, ainda que ele ignore a insolvência, anulável pelos credores quirografários que já o eram ao tempo do ato (art. 158). Todos esses defeitos geram anulabilidade (art. 171, II)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Uma idosa de Campina Grande, sem nenhuma experiência em negócios, vendeu por R$ 40 mil um terreno que valia R$ 200 mil a um corretor, que nada sabia de qualquer perigo e não ameaçou ninguém.",
+        "q": "Qual defeito pode ser alegado e como o comprador evita a anulação?",
+        "a": "Lesão: por inexperiência, ela se obrigou a prestação manifestamente desproporcional (art. 157). O comprador evita a anulação se oferecer suplemento suficiente do preço (art. 157, § 2º)."
+      },
+      "traps": [
+        "Insolvência, por si só, não autoriza desconsideração pelo Código Civil: é preciso desvio de finalidade ou confusão patrimonial.",
+        "Bem dominical pode ser vendido, mas nenhum bem público pode ser usucapido.",
+        "Estado de perigo e lesão se parecem: no estado de perigo há risco de grave dano à pessoa, conhecido pela outra parte.",
+        "Na fraude contra credores por doação, não importa se o devedor sabia da insolvência."
+      ],
+      "summary": [
+        "Desconsideração (art. 50): abuso por desvio de finalidade ou confusão patrimonial, a requerimento.",
+        "Direito à sucessão aberta é imóvel; pertença não segue o principal automaticamente.",
+        "Bens dominicais são alienáveis; nenhum bem público é usucapível.",
+        "Imóvel acima de 30 salários mínimos exige escritura; defeitos do negócio geram anulabilidade."
+      ],
+      "src": "Código Civil, arts. 41, 44, 50, 53, 62, 79, 80, 92, 94, 99 a 102, 104, 107, 108, 138, 145, 151, 153, 156 a 158, 166 e 171."
+    },
+    {
+      "id": "dciv-a4",
+      "title": "Invalidade, prescrição e decadência",
+      "mins": 8,
+      "qids": ["dciv14", "dciv15", "dciv16", "dciv17", "dciv34", "dciv35"],
+      "intro": "Ao fim desta aula, você distingue nulidade de anulabilidade, calcula os prazos mais cobrados e sabe quando a prescrição não corre, é suspensa ou é interrompida.",
+      "sections": [
+        {
+          "h": "Nulo x anulável",
+          "p": [
+            "É nulo o negócio celebrado por absolutamente incapaz, com objeto ilícito, impossível ou indeterminável, sem a forma prescrita em lei, com o objetivo de fraudar lei imperativa ou quando a lei o declarar nulo (art. 166). Também é nulo o negócio simulado, subsistindo o que se dissimulou, se válido na substância e na forma (art. 167).",
+            "A nulidade pode ser alegada por qualquer interessado ou pelo MP e deve ser pronunciada pelo juiz de ofício (art. 168). O negócio nulo não é suscetível de confirmação nem convalesce pelo decurso do tempo (art. 169).",
+            "É anulável o negócio por incapacidade relativa do agente ou por erro, dolo, coação, estado de perigo, lesão ou fraude contra credores (art. 171). Pode ser confirmado pelas partes (art. 172), e a anulabilidade não se pronuncia de ofício: só os interessados a alegam (art. 177)."
+          ]
+        },
+        {
+          "h": "O prazo de quatro anos do art. 178",
+          "p": [
+            "É de quatro anos o prazo decadencial para pleitear a anulação do negócio. Ele conta do dia em que cessar a coação; do dia em que se realizou o negócio, no erro, dolo, fraude contra credores, estado de perigo ou lesão; e do dia em que cessar a incapacidade, nos atos de incapazes.",
+            "Quando a lei disser que o ato é anulável sem fixar prazo, este será de dois anos, contados da conclusão do ato (art. 179)."
+          ]
+        },
+        {
+          "h": "Prescrição: prazos e regras gerais",
+          "p": [
+            "Violado o direito, nasce para o titular a pretensão, que se extingue pela prescrição (art. 189). A prescrição ocorre em dez anos quando a lei não fixar prazo menor (art. 205).",
+            "A renúncia à prescrição só vale depois de consumada e sem prejuízo de terceiro (art. 191), e os prazos prescricionais não podem ser alterados por acordo das partes (art. 192). A prescrição pode ser alegada em qualquer grau de jurisdição pela parte a quem aproveita (art. 193)."
+          ],
+          "list": [
+            "Três anos: aluguéis de prédios urbanos ou rústicos, enriquecimento sem causa e reparação civil (art. 206, § 3º, I, IV e V).",
+            "Cinco anos: cobrança de dívidas líquidas constantes de instrumento público ou particular (art. 206, § 5º, I).",
+            "Dez anos: regra geral (art. 205)."
+          ]
+        },
+        {
+          "h": "Impedir, suspender e interromper",
+          "p": [
+            "Não corre a prescrição entre cônjuges na constância da sociedade conjugal, entre ascendentes e descendentes durante o poder familiar e entre tutelados ou curatelados e seus tutores ou curadores (art. 197). Também não corre contra os absolutamente incapazes, contra os ausentes do país em serviço público da União, dos estados ou dos municípios e contra os que estiverem servindo nas Forças Armadas em tempo de guerra (art. 198).",
+            "A interrupção somente pode ocorrer uma vez (art. 202). Ela se dá, entre outros, pelo despacho do juiz que ordenar a citação, pelo protesto judicial ou cambial e por qualquer ato inequívoco, ainda que extrajudicial, que importe reconhecimento do direito pelo devedor; o prazo recomeça da data do ato que a interrompeu ou do último ato do processo (parágrafo único)."
+          ]
+        },
+        {
+          "h": "Decadência",
+          "p": [
+            "Salvo disposição legal em contrário, não se aplicam à decadência as normas que impedem, suspendem ou interrompem a prescrição (art. 207), mas ela também não corre contra os absolutamente incapazes (art. 208). É nula a renúncia à decadência fixada em lei (art. 209).",
+            "O juiz deve conhecer de ofício a decadência legal (art. 210). Se a decadência for convencional, a parte a quem aproveita pode alegá-la em qualquer grau de jurisdição, mas o juiz não pode suprir a alegação (art. 211)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Em 2024, um motorista de Londrina bateu no carro de Sílvia, de 30 anos. Ela quer ajuizar a ação de reparação em 2028.",
+        "q": "A pretensão ainda existe?",
+        "a": "Não. A reparação civil prescreve em três anos (art. 206, § 3º, V), salvo causa de impedimento, suspensão ou interrupção ocorrida no caminho. Sem ela, o prazo terminou em 2027."
+      },
+      "traps": [
+        "A simulação, no Código de 2002, gera nulidade, e não anulabilidade.",
+        "Na coação, os quatro anos contam de quando ela cessa; nos demais vícios, da celebração do negócio.",
+        "A prescrição não corre contra menor de 16 anos, mas corre normalmente contra o maior de 16.",
+        "Interrupção só uma vez; renúncia só depois de consumada; prazo prescricional não muda por contrato."
+      ],
+      "summary": [
+        "Nulo: de ofício, sem confirmação, não convalesce. Anulável: só a pedido, admite confirmação.",
+        "Anulação por vício: quatro anos de decadência (art. 178).",
+        "Prescrição geral de dez anos; reparação civil em três.",
+        "Absolutamente incapaz não sofre prescrição; interrupção ocorre uma única vez."
+      ],
+      "src": "Código Civil, arts. 166 a 179, 189 a 193, 197, 198, 202, 205, 206 e 207 a 211."
+    },
+    {
+      "id": "dciv-a5",
+      "title": "Obrigações e contratos",
+      "mins": 8,
+      "qids": ["dciv18", "dciv19", "dciv20", "dciv36", "dciv21", "dciv22"],
+      "intro": "Ao fim desta aula, você resolve questões de solidariedade, perda da coisa, mora e cláusula penal, e aplica as garantias de vícios redibitórios e evicção.",
+      "sections": [
+        {
+          "h": "Dar, fazer e não fazer",
+          "p": [
+            "Na obrigação de dar coisa certa, se a coisa se perder sem culpa do devedor antes da tradição, a obrigação se resolve para ambas as partes; havendo culpa, o devedor responde pelo equivalente e mais perdas e danos (art. 234). Na de dar coisa incerta, antes da escolha o devedor não pode alegar perda ou deterioração, ainda que por força maior ou caso fortuito (art. 246).",
+            "Quem recusa prestação de fazer que só ele pode executar responde por perdas e danos (art. 247). Na obrigação de não fazer, praticado o ato, o credor pode exigir que o devedor o desfaça, sob pena de desfazê-lo à sua custa, ressarcindo o culpado perdas e danos (art. 251)."
+          ]
+        },
+        {
+          "h": "Solidariedade",
+          "p": [
+            "A solidariedade não se presume: resulta da lei ou da vontade das partes (art. 265). Sem ela, a obrigação divisível com vários devedores se divide em tantas obrigações iguais e distintas quantos forem os devedores (art. 257).",
+            "Havendo solidariedade passiva, o credor pode exigir de um ou de alguns dos devedores, parcial ou totalmente, a dívida comum (art. 275). Quem paga tudo pode cobrar dos demais a quota de cada um (art. 283)."
+          ]
+        },
+        {
+          "h": "Pagamento, mora e cláusula penal",
+          "p": [
+            "O pagamento deve ser feito ao credor ou a quem o represente (art. 308), mas o pagamento feito de boa-fé ao credor putativo é válido (art. 309). Nas quotas periódicas, a quitação da última presume, até prova em contrário, o pagamento das anteriores (art. 322).",
+            "O inadimplemento da obrigação positiva e líquida no seu termo constitui de pleno direito o devedor em mora; sem termo, a mora depende de interpelação judicial ou extrajudicial (art. 397). Nas obrigações provenientes de ato ilícito, o devedor está em mora desde que o praticou (art. 398).",
+            "A cláusula penal não pode exceder o valor da obrigação principal (art. 412) e deve ser reduzida equitativamente pelo juiz se a obrigação foi cumprida em parte ou se o montante for manifestamente excessivo (art. 413). Para exigi-la, o credor não precisa alegar prejuízo (art. 416)."
+          ]
+        },
+        {
+          "h": "Formação, princípios e extinção dos contratos",
+          "p": [
+            "A liberdade contratual é exercida nos limites da função social do contrato, prevalecendo nas relações privadas a intervenção mínima e a excepcionalidade da revisão (art. 421). Os contratantes devem guardar probidade e boa-fé na conclusão e na execução (art. 422).",
+            "A proposta obriga o proponente (art. 427); aceitação fora do prazo, com adições, restrições ou modificações, vale como nova proposta (art. 431). No contrato bilateral, nenhum contratante pode exigir a prestação do outro antes de cumprir a sua (art. 476), e a onerosidade excessiva por fatos extraordinários e imprevisíveis permite pedir a resolução (art. 478).",
+            "Na compra e venda, é anulável a venda de ascendente a descendente sem o consentimento expresso dos outros descendentes e do cônjuge (art. 496). Na doação, é nula a de todos os bens sem reserva do suficiente para a subsistência do doador (art. 548) e a parte que exceder o que ele poderia dispor em testamento (art. 549)."
+          ]
+        },
+        {
+          "h": "Vícios redibitórios e evicção",
+          "p": [
+            "A coisa recebida em contrato comutativo pode ser rejeitada por vícios ou defeitos ocultos que a tornem imprópria ao uso ou lhe diminuam o valor (art. 441), ou o adquirente pode pedir abatimento no preço (art. 442). Se o alienante conhecia o vício, devolve o que recebeu com perdas e danos; se não conhecia, só o valor recebido e as despesas do contrato (art. 443).",
+            "O prazo é de 30 dias para móveis e de um ano para imóveis, contado da entrega efetiva (art. 445). Na evicção, o alienante responde nos contratos onerosos, inclusive em hasta pública (art. 447); as partes podem reforçar, diminuir ou excluir a garantia (art. 448), mas, mesmo excluída, o evicto recebe o preço se não soube do risco ou, informado, não o assumiu (art. 449)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Uma gráfica de Bauru contratou serviço de R$ 8 mil com cláusula penal de R$ 8 mil para o inadimplemento total. O fornecedor entregou 90% do serviço e parou.",
+        "q": "A gráfica pode cobrar os R$ 8 mil integrais da multa?",
+        "a": "Não necessariamente. Como a obrigação foi cumprida em parte, o juiz deve reduzir a penalidade equitativamente (art. 413). O valor fixado respeita o teto do art. 412, que é o da obrigação principal."
+      },
+      "traps": [
+        "Solidariedade nunca se presume. Vários devedores sem cláusula ou lei dividem a dívida.",
+        "Coisa certa perdida sem culpa antes da entrega: a obrigação se resolve, sem perdas e danos.",
+        "Com data certa, a mora é automática; interpelação só é exigida quando não há termo.",
+        "Cláusula de exclusão da evicção é válida, mas não tira do evicto desinformado o direito ao preço."
+      ],
+      "summary": [
+        "Solidariedade vem da lei ou do contrato; sem ela, cada devedor paga sua parte.",
+        "Mora ex re no vencimento; cláusula penal limitada ao valor da obrigação principal.",
+        "Contrato bilateral: quem não cumpriu não pode exigir; venda a descendente exige consentimento.",
+        "Vício oculto: rejeitar ou abater; evicção: preço garantido a quem não assumiu o risco."
+      ],
+      "src": "Código Civil, arts. 234, 246, 247, 251, 257, 265, 275, 283, 308, 309, 322, 397, 398, 412, 413, 416, 421, 422, 427, 431, 441 a 449, 476, 478, 496, 548 e 549."
+    },
+    {
+      "id": "dciv-a6",
+      "title": "Responsabilidade civil, posse e família",
+      "mins": 8,
+      "qids": ["dciv25", "dciv37", "dciv27", "dciv38", "dciv39", "dciv40"],
+      "intro": "Ao fim desta aula, você distingue responsabilidade subjetiva e objetiva, calcula os prazos de usucapião e resolve o núcleo estável de regime de bens e sucessão legítima.",
+      "sections": [
+        {
+          "h": "Ato ilícito e abuso de direito",
+          "p": [
+            "Comete ato ilícito quem, por ação ou omissão voluntária, negligência ou imprudência, viola direito e causa dano a outrem, ainda que exclusivamente moral (art. 186). Também comete ato ilícito o titular de um direito que, ao exercê-lo, excede manifestamente os limites impostos pelo seu fim econômico ou social, pela boa-fé ou pelos bons costumes (art. 187).",
+            "Não constituem atos ilícitos os praticados em legítima defesa ou no exercício regular de um direito reconhecido (art. 188, I). Quem causar dano por ato ilícito fica obrigado a repará-lo (art. 927), e a indenização mede-se pela extensão do dano (art. 944)."
+          ]
+        },
+        {
+          "h": "Objetiva x subjetiva e fato de terceiro",
+          "p": [
+            "A regra é a responsabilidade subjetiva, com culpa. Haverá obrigação de reparar independentemente de culpa nos casos especificados em lei ou quando a atividade normalmente desenvolvida pelo autor do dano implicar, por sua natureza, risco para os direitos de outrem (art. 927, parágrafo único).",
+            "Respondem por terceiros os pais pelos filhos menores sob sua autoridade e em sua companhia, o tutor e o curador pelos pupilos e curatelados, e o empregador pelos empregados no exercício do trabalho, entre outros (art. 932). Essas pessoas respondem ainda que não haja culpa de sua parte (art. 933).",
+            "Quem ressarcir o dano causado por outrem pode reaver o que pagou, salvo se o causador for descendente seu, absoluta ou relativamente incapaz (art. 934). O incapaz responde pelos prejuízos que causar se os responsáveis não tiverem obrigação de fazê-lo ou não dispuserem de meios suficientes (art. 928)."
+          ]
+        },
+        {
+          "h": "Posse, propriedade e usucapião",
+          "p": [
+            "Possuidor é quem tem de fato o exercício, pleno ou não, de algum dos poderes inerentes à propriedade (art. 1.196). Já a propriedade de imóvel se transfere entre vivos pelo registro do título no Registro de Imóveis (art. 1.245); a de móveis, pela tradição (art. 1.267)."
+          ],
+          "list": [
+            "Extraordinária: 15 anos, sem título nem boa-fé; 10 anos com moradia habitual ou obras produtivas (art. 1.238).",
+            "Ordinária: 10 anos, com justo título e boa-fé; 5 anos se adquirido onerosamente com base em registro depois cancelado, havendo moradia ou investimentos (art. 1.242).",
+            "Especial urbana: até 250 m², 5 anos, moradia, sem outro imóvel; reconhecida uma só vez (art. 1.240).",
+            "Especial rural: até 50 hectares, 5 anos, terra tornada produtiva pelo trabalho, com moradia, sem outro imóvel (art. 1.239)."
+          ]
+        },
+        {
+          "h": "Regime de bens e sucessão legítima",
+          "p": [
+            "Não havendo pacto antenupcial, ou sendo ele nulo ou ineficaz, vigora a comunhão parcial (art. 1.640). Nela se comunicam os bens que sobrevierem ao casal na constância do casamento (art. 1.658), excluídos os que cada um já tinha ao casar e os recebidos por doação ou sucessão, com os sub-rogados em seu lugar (art. 1.659, I).",
+            "A sucessão legítima segue a ordem do art. 1.829: descendentes, em concorrência com o cônjuge, conforme o regime de bens; ascendentes, em concorrência com o cônjuge; o cônjuge sozinho; e, por fim, os colaterais. Concorrendo com os dois pais do falecido, o cônjuge recebe um terço da herança (art. 1.837).",
+            "Herdeiros necessários são os descendentes, os ascendentes e o cônjuge (art. 1.845), e a eles pertence de pleno direito metade da herança, a legítima (art. 1.846). Para excluir os colaterais, basta que o testador disponha do patrimônio sem os contemplar (art. 1.850)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Gilberto, de Ponta Grossa, morreu sem testamento. Deixou dois filhos e um irmão; a esposa havia falecido antes dele.",
+        "q": "O irmão herda alguma parte?",
+        "a": "Não. Os descendentes ocupam a primeira classe da ordem de vocação (art. 1.829, I) e excluem as classes seguintes. Os colaterais só herdam na falta de descendentes, ascendentes e cônjuge (inciso IV)."
+      },
+      "traps": [
+        "Responsabilidade objetiva não depende só de lei específica: a atividade de risco também a gera (art. 927, parágrafo único).",
+        "O empregador responde sem culpa própria, mas só por atos do empregado no exercício do trabalho ou em razão dele.",
+        "Usucapião especial urbana: 250 m², não 300; rural: 50 hectares. Extraordinária com moradia: 10 anos.",
+        "Herança e doação não se comunicam na comunhão parcial; irmãos não são herdeiros necessários."
+      ],
+      "summary": [
+        "Ilícito: culpa (art. 186) ou abuso de direito (art. 187); objetiva nos casos de lei e de atividade de risco.",
+        "Pais, tutores, curadores e empregadores respondem por terceiros sem culpa própria (arts. 932 e 933).",
+        "Usucapião: 15/10 extraordinária, 10/5 ordinária, 5 anos nas especiais (250 m² urbana; 50 ha rural).",
+        "Sem pacto, comunhão parcial; herdeiros necessários são descendentes, ascendentes e cônjuge."
+      ],
+      "src": "Código Civil, arts. 186 a 188, 927, 928, 932 a 934, 944, 1.196, 1.238 a 1.240, 1.242, 1.245, 1.267, 1.640, 1.658, 1.659, 1.829, 1.837 e 1.845 a 1.850."
+    }
+  ]
+}

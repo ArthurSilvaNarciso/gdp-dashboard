@@ -1,0 +1,1101 @@
+{
+ "id": "dpen",
+ "title": "Direito Penal",
+ "subtitle": "Crime, pena e leis especiais",
+ "tag": "Concursos",
+ "blurb": "Da legalidade às leis especiais: teoria do crime, penas e os crimes que mais caem em concursos, em casos reais com o artigo exato.",
+ "questions": [
+  {
+   "id": "dpen1",
+   "topic": "Legalidade e anterioridade",
+   "c": "Em 2020, Rafael passou meses seguindo a ex-namorada e enviando mensagens insistentes a ela, em Curitiba, mas parou em dezembro daquele ano. O crime de perseguição (art. 147-A do CP) só foi criado pela Lei 14.132, de 2021.",
+   "q": "Rafael pode responder pelo crime de perseguição?",
+   "a": 1,
+   "src": "CP, art. 1º; CF/88, art. 5º, XXXIX e XL",
+   "o": [
+    {
+     "t": "Sim, porque a lei penal nova se aplica a fatos anteriores sempre que proteger a vítima.",
+     "p": "inversao",
+     "w": "A retroatividade só existe para a lei que beneficia o réu (CP, art. 2º, parágrafo único). Lei que cria crime nunca retroage."
+    },
+    {
+     "t": "Não, pois não há crime sem lei anterior que o defina, e a lei penal incriminadora não retroage.",
+     "p": "correta",
+     "w": "Art. 1º do CP e art. 5º, XXXIX e XL, da CF: a lei que cria um crime só alcança fatos praticados depois de sua vigência."
+    },
+    {
+     "t": "Sim, desde que a denúncia seja oferecida depois da entrada em vigor da lei nova.",
+     "p": "restricao",
+     "w": "O que importa é a data da conduta, não a do processo. Oferecer a denúncia depois da lei nova não torna crime um fato atípico ao tempo da ação."
+    },
+    {
+     "t": "Não pela lei de 2021, mas uma medida provisória poderia tipificar a conduta com efeito retroativo.",
+     "p": "extrapolacao",
+     "w": "Medida provisória não pode tratar de direito penal (CF, art. 62, § 1º, I, b), e nenhuma norma incriminadora retroage."
+    }
+   ]
+  },
+  {
+   "id": "dpen2",
+   "topic": "Abolitio criminis",
+   "c": "Mariana cumpre pena por um crime, com sentença já transitada em julgado, quando entra em vigor lei que deixa de considerar aquela conduta como crime. A vítima também tem sentença civil que obriga Mariana a indenizá-la.",
+   "q": "Qual é o efeito da lei nova sobre a situação de Mariana?",
+   "a": 3,
+   "src": "CP, art. 2º",
+   "o": [
+    {
+     "t": "Nada muda, pois a coisa julgada impede que a lei nova alcance quem já foi condenado.",
+     "p": "restricao",
+     "w": "A abolitio criminis alcança inclusive fatos já decididos por sentença transitada em julgado (CP, art. 2º)."
+    },
+    {
+     "t": "Cessam a pena e todos os efeitos da condenação, inclusive o dever de indenizar a vítima.",
+     "p": "extrapolacao",
+     "w": "O art. 2º fala em efeitos penais. A obrigação civil de reparar o dano continua valendo."
+    },
+    {
+     "t": "A lei nova só vale para fatos praticados depois de sua vigência, como toda lei penal.",
+     "p": "generalizacao",
+     "w": "A irretroatividade vale para a lei mais gravosa. A lei mais benéfica retroage (CF, art. 5º, XL; CP, art. 2º)."
+    },
+    {
+     "t": "Cessam a execução da pena e os efeitos penais da condenação, mas a obrigação civil de indenizar permanece.",
+     "p": "correta",
+     "w": "Art. 2º, caput, do CP: a abolitio criminis faz cessar a execução e os efeitos penais da sentença condenatória. Os efeitos civis não são atingidos."
+    }
+   ]
+  },
+  {
+   "id": "dpen3",
+   "topic": "Tempo do crime",
+   "c": "Lucas, com 17 anos e 11 meses, esfaqueou um rival em Salvador. A vítima ficou internada e morreu três semanas depois, quando Lucas já tinha completado 18 anos.",
+   "q": "Como se resolve a responsabilidade penal de Lucas?",
+   "a": 0,
+   "src": "CP, arts. 4º, 27 e 65, I",
+   "o": [
+    {
+     "t": "Ele é penalmente inimputável, pois o crime se considera praticado no momento da ação, e fica sujeito ao ECA.",
+     "p": "correta",
+     "w": "O CP adota a teoria da atividade (art. 4º). Como Lucas tinha menos de 18 anos ao agir, é inimputável (art. 27) e se sujeita à legislação especial."
+    },
+    {
+     "t": "Responde como adulto, pois o crime se considera praticado quando ocorre o resultado.",
+     "p": "inversao",
+     "w": "Essa é a teoria do resultado, que o CP não adota para o tempo do crime. O art. 4º considera o momento da ação, ainda que outro seja o do resultado."
+    },
+    {
+     "t": "Responde como adulto, com a pena reduzida pela metade por ser menor na data da ação.",
+     "p": "troca",
+     "w": "Não há essa redução: o menor de 18 é inimputável (art. 27). Ter menos de 21 anos na data do fato é só atenuante para quem já é imputável (art. 65, I)."
+    },
+    {
+     "t": "Aplica-se a ubiquidade: como o resultado ocorreu na maioridade, ele responde como adulto.",
+     "p": "extrapolacao",
+     "w": "A ubiquidade (art. 6º) define o lugar do crime, não o tempo. Para o tempo, vale a atividade (art. 4º)."
+    }
+   ]
+  },
+  {
+   "id": "dpen4",
+   "topic": "Lugar do crime",
+   "c": "De Pedro Juan Caballero, no Paraguai, um homem dispara contra um desafeto que está do outro lado da fronteira, em Ponta Porã (MS). A vítima morre no lado brasileiro.",
+   "q": "Segundo o Código Penal, onde se considera praticado o crime?",
+   "a": 2,
+   "src": "CP, arts. 5º e 6º",
+   "o": [
+    {
+     "t": "Apenas no Paraguai, onde o atirador estava, pois vale o lugar da ação.",
+     "p": "troca",
+     "w": "Confunde com a teoria da atividade, que o CP adota para o tempo do crime (art. 4º), não para o lugar."
+    },
+    {
+     "t": "Apenas no Brasil, pois só importa o lugar onde se produziu o resultado.",
+     "p": "restricao",
+     "w": "A ubiquidade não fica só com o resultado: o lugar da ação também é lugar do crime (art. 6º)."
+    },
+    {
+     "t": "Tanto no Paraguai quanto no Brasil, pois vale o lugar da ação e também o do resultado.",
+     "p": "correta",
+     "w": "O art. 6º adota a ubiquidade: lugar do crime é onde ocorreu a ação ou omissão, no todo ou em parte, e onde se produziu ou deveria produzir-se o resultado."
+    },
+    {
+     "t": "Em lugar nenhum para a lei brasileira, pois o atirador estava fora do território nacional.",
+     "p": "generalizacao",
+     "w": "Basta que a ação ou o resultado ocorra no Brasil para o crime ser considerado praticado aqui (art. 6º), atraindo a lei brasileira (art. 5º)."
+    }
+   ]
+  },
+  {
+   "id": "dpen5",
+   "topic": "Tentativa",
+   "c": "Em Manaus, Jefferson atirou três vezes contra um vizinho, querendo matá-lo. A vítima foi socorrida a tempo, passou por cirurgia e sobreviveu.",
+   "q": "Qual é o enquadramento correto da conduta de Jefferson?",
+   "a": 2,
+   "src": "CP, art. 14, II e parágrafo único",
+   "o": [
+    {
+     "t": "Lesão corporal grave, pois o que se pune é o resultado efetivamente produzido.",
+     "p": "troca",
+     "w": "O dolo era de matar. Quem age para matar e não consegue por circunstâncias alheias responde por tentativa de homicídio, não por lesão."
+    },
+    {
+     "t": "Tentativa de homicídio, com a pena diminuída de um sexto a um terço.",
+     "p": "calculo",
+     "w": "A fração da tentativa é de um a dois terços. De um sexto a um terço é a redução do erro de proibição evitável (art. 21)."
+    },
+    {
+     "t": "Tentativa de homicídio, punida com a pena do crime consumado diminuída de um a dois terços.",
+     "p": "correta",
+     "w": "Iniciada a execução, o crime não se consumou por circunstâncias alheias à vontade do agente (art. 14, II). A pena é a do consumado reduzida de 1/3 a 2/3."
+    },
+    {
+     "t": "Tentativa de homicídio com a mesma pena do consumado, já que a intenção era matar.",
+     "p": "extrapolacao",
+     "w": "Salvo disposição em contrário, a tentativa tem pena reduzida (art. 14, parágrafo único). A intenção não equipara a tentativa ao crime consumado."
+    }
+   ]
+  },
+  {
+   "id": "dpen6",
+   "topic": "Arrependimento eficaz",
+   "c": "Em Londrina, Sandra colocou veneno no café do marido para matá-lo. Ao vê-lo passar mal, arrependeu-se, levou-o ao hospital e contou aos médicos qual era a substância; ele sobreviveu com lesões leves.",
+   "q": "Por qual crime Sandra responde?",
+   "a": 0,
+   "src": "CP, art. 15",
+   "o": [
+    {
+     "t": "Apenas pelas lesões corporais já causadas, pois houve arrependimento eficaz.",
+     "p": "correta",
+     "w": "Quem voluntariamente impede que o resultado se produza só responde pelos atos já praticados (art. 15). Sandra evitou a morte e responde pela lesão produzida."
+    },
+    {
+     "t": "Tentativa de homicídio, pois a morte só não ocorreu por causa do socorro médico.",
+     "p": "troca",
+     "w": "Na tentativa, o resultado não ocorre por circunstâncias alheias à vontade. Aqui foi a própria Sandra que agiu para evitá-lo, o que afasta a tentativa."
+    },
+    {
+     "t": "Por nada, pois o arrependimento eficaz apaga também os atos já praticados.",
+     "p": "extrapolacao",
+     "w": "O art. 15 manda responder pelos atos já praticados. As lesões causadas pelo veneno continuam puníveis."
+    },
+    {
+     "t": "Tentativa de homicídio, pois o art. 15 só beneficia quem para antes de terminar a execução.",
+     "p": "restricao",
+     "w": "Isso descreve só a desistência voluntária. O art. 15 também beneficia quem, já encerrada a execução, impede o resultado."
+    }
+   ]
+  },
+  {
+   "id": "dpen7",
+   "topic": "Arrependimento posterior",
+   "c": "Em Florianópolis, Joana furtou o notebook de uma colega de trabalho. Antes do oferecimento da denúncia, arrependida, devolveu o aparelho intacto por iniciativa própria.",
+   "q": "Qual é a consequência jurídica da devolução?",
+   "a": 3,
+   "src": "CP, art. 16",
+   "o": [
+    {
+     "t": "Extingue-se a punibilidade, pois a vítima não teve prejuízo.",
+     "p": "extrapolacao",
+     "w": "O arrependimento posterior é causa de diminuição de pena, não de extinção da punibilidade. O furto já estava consumado."
+    },
+    {
+     "t": "Nenhuma, pois o benefício só vale se a restituição ocorrer antes da instauração do inquérito.",
+     "p": "restricao",
+     "w": "O marco do art. 16 é o recebimento da denúncia ou da queixa, e não a instauração do inquérito."
+    },
+    {
+     "t": "Joana responde apenas pelos atos já praticados, por arrependimento eficaz.",
+     "p": "troca",
+     "w": "O arrependimento eficaz (art. 15) impede a consumação. Aqui o furto já estava consumado; a devolução só reduz a pena (art. 16)."
+    },
+    {
+     "t": "A pena será reduzida de um a dois terços, por arrependimento posterior.",
+     "p": "correta",
+     "w": "Nos crimes sem violência ou grave ameaça, reparado o dano ou restituída a coisa até o recebimento da denúncia, por ato voluntário, a pena é reduzida de 1/3 a 2/3 (art. 16)."
+    }
+   ]
+  },
+  {
+   "id": "dpen8",
+   "topic": "Crime impossível",
+   "c": "Em Natal, Paulo invadiu a casa de um desafeto e o esfaqueou na cama, querendo matá-lo. A perícia provou que a vítima já estava morta havia horas, por infarto.",
+   "q": "Como deve ser tratada a conduta de Paulo quanto ao homicídio?",
+   "a": 1,
+   "src": "CP, art. 17",
+   "o": [
+    {
+     "t": "Tentativa de homicídio, pois o que importa é a intenção de matar demonstrada por Paulo.",
+     "p": "generalizacao",
+     "w": "A intenção, sozinha, não basta. Se o objeto é absolutamente impróprio, o art. 17 afasta a punição da tentativa."
+    },
+    {
+     "t": "Não há tentativa punível: é crime impossível por absoluta impropriedade do objeto.",
+     "p": "correta",
+     "w": "Art. 17: não se pune a tentativa quando, por ineficácia absoluta do meio ou absoluta impropriedade do objeto, é impossível consumar-se o crime. Não se mata quem já morreu."
+    },
+    {
+     "t": "Tentativa de homicídio, pois o crime impossível só existe quando o meio empregado é ineficaz.",
+     "p": "restricao",
+     "w": "O art. 17 prevê duas hipóteses: ineficácia absoluta do meio e absoluta impropriedade do objeto. O caso é da segunda."
+    },
+    {
+     "t": "Crime impossível, mas punido com a pena da tentativa reduzida à metade.",
+     "p": "extrapolacao",
+     "w": "No crime impossível não há pena a reduzir: a tentativa simplesmente não é punível (art. 17)."
+    }
+   ]
+  },
+  {
+   "id": "dpen9",
+   "topic": "Erro de tipo",
+   "c": "Ao sair de uma academia em Campinas, Bruna pegou no armário uma mochila idêntica à sua, certa de que era a dela. Era de outra aluna, que registrou ocorrência de furto.",
+   "q": "Qual é a situação jurídica de Bruna?",
+   "a": 3,
+   "src": "CP, arts. 20 e 155",
+   "o": [
+    {
+     "t": "Erro de proibição, que isenta de pena apenas se for inevitável.",
+     "p": "troca",
+     "w": "Bruna sabia que levar coisa alheia é proibido; ela errou sobre um fato, de quem era a mochila. Isso é erro de tipo, não erro sobre a ilicitude."
+    },
+    {
+     "t": "Responde por furto culposo, já que poderia ter conferido a mochila.",
+     "p": "extrapolacao",
+     "w": "O CP não prevê furto culposo. O erro de tipo evitável só gera punição se houver crime culposo previsto em lei (art. 20)."
+    },
+    {
+     "t": "Responde por furto doloso, pois o desconhecimento da lei é inescusável.",
+     "p": "generalizacao",
+     "w": "A regra do desconhecimento da lei (art. 21) não se aplica: Bruna conhecia a lei e errou sobre um fato, o que afasta o dolo."
+    },
+    {
+     "t": "Erro de tipo: exclui o dolo e, como não existe furto culposo, o fato é atípico.",
+     "p": "correta",
+     "w": "Bruna errou sobre a elementar coisa alheia. O erro de tipo exclui o dolo e só permite punir por culpa se houver previsão legal (art. 20); o furto não tem forma culposa."
+    }
+   ]
+  },
+  {
+   "id": "dpen10",
+   "topic": "Erro de proibição",
+   "c": "Seu Valdir, pedreiro em Teresina, achou na rua uma carteira com R$ 800 e documentos e gastou o dinheiro nas semanas seguintes, convicto de que “achado não é roubado”. Apurou-se que ele poderia facilmente saber que a conduta era proibida.",
+   "q": "Como o Código Penal trata o erro de Seu Valdir?",
+   "a": 1,
+   "src": "CP, arts. 21 e 169, parágrafo único, II",
+   "o": [
+    {
+     "t": "É erro de tipo, que exclui o dolo e torna o fato atípico.",
+     "p": "troca",
+     "w": "Valdir sabia que o dinheiro era de outra pessoa; errou sobre a proibição da conduta, não sobre um elemento do tipo."
+    },
+    {
+     "t": "É erro de proibição evitável: não afasta o crime, mas pode diminuir a pena de um sexto a um terço.",
+     "p": "correta",
+     "w": "Art. 21: o erro sobre a ilicitude do fato, se inevitável, isenta de pena; se evitável, pode diminuí-la de 1/6 a 1/3. O crime é a apropriação de coisa achada (art. 169, parágrafo único, II)."
+    },
+    {
+     "t": "Não tem nenhum efeito, pois o desconhecimento da lei é sempre inescusável.",
+     "p": "generalizacao",
+     "w": "O desconhecimento da lei é inescusável, mas o erro sobre a ilicitude do fato tem efeitos próprios no art. 21."
+    },
+    {
+     "t": "Isenta de pena, pois todo erro de proibição exclui a culpabilidade.",
+     "p": "inversao",
+     "w": "Só o erro inevitável isenta de pena. O evitável, como o de Valdir, apenas permite reduzir a pena (art. 21)."
+    }
+   ]
+  },
+  {
+   "id": "dpen11",
+   "topic": "Legítima defesa",
+   "c": "Num bar de Recife, Bruno viu um homem dar socos seguidos em seu amigo, que já estava caído. Bruno empurrou o agressor para afastá-lo; ele caiu e fraturou o braço.",
+   "q": "Assinale a alternativa correta sobre a conduta de Bruno.",
+   "a": 2,
+   "src": "CP, arts. 23, II e parágrafo único, e 25",
+   "o": [
+    {
+     "t": "Não há legítima defesa, pois ela só protege direito do próprio agredido.",
+     "p": "restricao",
+     "w": "O art. 25 protege direito seu ou de outrem. A defesa de terceiro é expressamente admitida."
+    },
+    {
+     "t": "Agiu em estado de necessidade, pois havia perigo atual ao amigo.",
+     "p": "troca",
+     "w": "Quando o perigo vem de agressão humana injusta, a excludente é a legítima defesa. O estado de necessidade (art. 24) é perigo que não constitui injusta agressão."
+    },
+    {
+     "t": "Agiu em legítima defesa de terceiro: repeliu injusta agressão atual usando moderadamente os meios necessários.",
+     "p": "correta",
+     "w": "Art. 25: está em legítima defesa quem, usando moderadamente dos meios necessários, repele injusta agressão, atual ou iminente, a direito seu ou de outrem."
+    },
+    {
+     "t": "Agiu em legítima defesa e, por isso, não responderia nem se seguisse batendo no agressor já dominado.",
+     "p": "extrapolacao",
+     "w": "A excludente exige moderação. Quem continua agredindo depois de cessada a agressão responde pelo excesso doloso ou culposo (art. 23, parágrafo único)."
+    }
+   ]
+  },
+  {
+   "id": "dpen12",
+   "topic": "Estado de necessidade",
+   "c": "Em Cuiabá, Lúcia viu uma criança desconhecida trancada num carro estacionado sob sol forte, chorando e com sinais de desidratação. Sem conseguir achar o dono, quebrou o vidro e retirou a criança.",
+   "q": "Sobre o dano causado ao carro, assinale a alternativa correta.",
+   "a": 0,
+   "src": "CP, art. 24, caput e §§ 1º e 2º",
+   "o": [
+    {
+     "t": "Não há crime: Lúcia agiu em estado de necessidade para salvar direito alheio de perigo atual que não provocou.",
+     "p": "correta",
+     "w": "Art. 24: age em estado de necessidade quem salva de perigo atual, que não provocou nem podia de outro modo evitar, direito próprio ou alheio cujo sacrifício não era razoável exigir."
+    },
+    {
+     "t": "Lúcia responde por dano, pois o estado de necessidade só protege direito próprio.",
+     "p": "restricao",
+     "w": "O art. 24 protege direito próprio ou alheio. Salvar a vida da criança está coberto."
+    },
+    {
+     "t": "Agiu em estado de necessidade, excludente que pode ser alegada até por quem tem o dever legal de enfrentar o perigo.",
+     "p": "generalizacao",
+     "w": "O art. 24, § 1º, nega a excludente a quem tinha o dever legal de enfrentar o perigo, como o bombeiro."
+    },
+    {
+     "t": "Há estado de necessidade, mas a pena pelo dano é apenas reduzida de um a dois terços.",
+     "p": "extrapolacao",
+     "w": "A redução do § 2º só vale quando era razoável exigir o sacrifício do direito ameaçado. Diante de uma vida, sacrificar um vidro afasta totalmente o crime."
+    }
+   ]
+  },
+  {
+   "id": "dpen13",
+   "topic": "Embriaguez e imputabilidade",
+   "c": "Diego bebeu por vontade própria numa festa em Porto Alegre, ficou completamente embriagado e quebrou o nariz de um convidado durante uma discussão. A defesa alega que ele não entendia o que fazia.",
+   "q": "A embriaguez de Diego afasta sua imputabilidade?",
+   "a": 0,
+   "src": "CP, art. 28, I e II, e § 1º",
+   "o": [
+    {
+     "t": "Não, pois a embriaguez voluntária ou culposa não exclui a imputabilidade penal.",
+     "p": "correta",
+     "w": "Art. 28, II, do CP. Só a embriaguez completa proveniente de caso fortuito ou força maior isenta de pena (art. 28, § 1º)."
+    },
+    {
+     "t": "Sim, porque a embriaguez completa sempre torna o agente inimputável.",
+     "p": "generalizacao",
+     "w": "A embriaguez completa só isenta de pena quando decorre de caso fortuito ou força maior (art. 28, § 1º), não quando é voluntária."
+    },
+    {
+     "t": "Sim, porque a embriaguez completa equivale à doença mental prevista no art. 26.",
+     "p": "troca",
+     "w": "O art. 26 trata de doença mental ou desenvolvimento mental incompleto ou retardado. A embriaguez tem regra própria no art. 28."
+    },
+    {
+     "t": "Sim, se a discussão envolveu forte emoção, pois emoção e paixão excluem a imputabilidade.",
+     "p": "extrapolacao",
+     "w": "Art. 28, I: a emoção e a paixão não excluem a imputabilidade penal."
+    }
+   ]
+  },
+  {
+   "id": "dpen14",
+   "topic": "Concurso de pessoas",
+   "c": "Em Belo Horizonte, Alan e Caio combinaram furtar uma casa que achavam vazia. Alan ficou do lado de fora vigiando; lá dentro, Caio encontrou a moradora e a ameaçou com uma faca para levar as joias, sem que Alan soubesse.",
+   "q": "Segundo o Código Penal, por qual crime Alan responde?",
+   "a": 2,
+   "src": "CP, art. 29, caput e §§ 1º e 2º",
+   "o": [
+    {
+     "t": "Por roubo, pois todo concorrente responde pelo crime efetivamente praticado.",
+     "p": "generalizacao",
+     "w": "O art. 29 manda considerar a culpabilidade de cada um, e o § 2º trata exatamente da cooperação dolosamente distinta."
+    },
+    {
+     "t": "Por nada, pois ficou do lado de fora e não praticou o verbo do tipo.",
+     "p": "restricao",
+     "w": "Quem de qualquer modo concorre para o crime incide nas penas a ele cominadas (art. 29, caput). Vigiar é participar do furto combinado."
+    },
+    {
+     "t": "Por furto, pois quis participar de crime menos grave; a pena aumenta até metade se o roubo era previsível.",
+     "p": "correta",
+     "w": "Art. 29, § 2º: se algum concorrente quis participar de crime menos grave, aplica-se-lhe a pena deste, aumentada até metade se previsível o resultado mais grave."
+    },
+    {
+     "t": "Por furto, com pena reduzida de um sexto a um terço por participação de menor importância.",
+     "p": "troca",
+     "w": "Essa redução é a do § 1º, para participação de menor importância. A divergência entre o que cada um quis é tratada no § 2º."
+    }
+   ]
+  },
+  {
+   "id": "dpen15",
+   "topic": "Regime inicial",
+   "c": "Rodrigo, réu primário, foi condenado em Vitória a 6 anos de reclusão por um crime doloso. As circunstâncias judiciais do art. 59 foram consideradas favoráveis.",
+   "q": "Qual regime inicial o juiz pode fixar na sentença?",
+   "a": 1,
+   "src": "CP, arts. 33, § 2º, e 59, III",
+   "o": [
+    {
+     "t": "Fechado, pois toda pena superior a 4 anos deve começar nesse regime.",
+     "p": "generalizacao",
+     "w": "O fechado obrigatório é para pena superior a 8 anos (art. 33, § 2º, a)."
+    },
+    {
+     "t": "Semiaberto, pois a pena é superior a 4 anos e não excede 8, e Rodrigo não é reincidente.",
+     "p": "correta",
+     "w": "Art. 33, § 2º, b: o condenado não reincidente cuja pena seja superior a 4 anos e não exceda a 8 poderá, desde o princípio, cumpri-la em regime semiaberto."
+    },
+    {
+     "t": "Aberto, pois basta o réu ser primário para iniciar nesse regime.",
+     "p": "extrapolacao",
+     "w": "O aberto exige, além de não ser reincidente, pena igual ou inferior a 4 anos (art. 33, § 2º, c)."
+    },
+    {
+     "t": "Nenhum: o regime inicial é escolhido pelo juiz da execução, depois da sentença.",
+     "p": "troca",
+     "w": "O regime inicial é fixado pelo juiz na sentença (art. 59, III). O juiz da execução cuida da progressão e da regressão."
+    }
+   ]
+  },
+  {
+   "id": "dpen16",
+   "topic": "Penas restritivas de direitos",
+   "c": "Em Goiânia, Henrique, primário, foi condenado a 4 anos de reclusão por tentativa de roubo praticada com grave ameaça. A defesa pediu a substituição da pena por restritivas de direitos.",
+   "q": "O pedido deve ser atendido?",
+   "a": 3,
+   "src": "CP, art. 44, I a III",
+   "o": [
+    {
+     "t": "Sim, pois a pena não ultrapassa 4 anos e o réu é primário.",
+     "p": "generalizacao",
+     "w": "O limite de 4 anos não basta. O art. 44, I, também exige que o crime não tenha sido cometido com violência ou grave ameaça."
+    },
+    {
+     "t": "Não, pois a substituição só cabe para penas de até 2 anos.",
+     "p": "calculo",
+     "w": "O limite do art. 44, I, é de 4 anos, não de 2."
+    },
+    {
+     "t": "Sim, pois a substituição cabe em qualquer crime, desde que o réu repare o dano.",
+     "p": "extrapolacao",
+     "w": "Reparar o dano não supera a vedação da grave ameaça. O art. 44 só admite qualquer quantidade de pena quando o crime é culposo."
+    },
+    {
+     "t": "Não, pois o crime foi cometido com grave ameaça à pessoa, o que impede a substituição.",
+     "p": "correta",
+     "w": "Art. 44, I: a substituição exige pena não superior a 4 anos e crime cometido sem violência ou grave ameaça à pessoa, salvo se o crime for culposo."
+    }
+   ]
+  },
+  {
+   "id": "dpen17",
+   "topic": "Concurso formal",
+   "c": "Em São Luís, um motorista avançou o sinal vermelho por desatenção e, numa única manobra, atropelou e matou dois pedestres. Ele responde por dois homicídios culposos na direção de veículo.",
+   "q": "Como se aplica a pena nesse concurso de crimes?",
+   "a": 1,
+   "src": "CP, arts. 69 a 71; CTB, art. 302",
+   "o": [
+    {
+     "t": "Somam-se as penas dos dois homicídios, por concurso material.",
+     "p": "troca",
+     "w": "Concurso material (art. 69) exige mais de uma ação ou omissão. Aqui houve uma única conduta."
+    },
+    {
+     "t": "Aplica-se uma só pena, aumentada de um sexto até a metade, por concurso formal.",
+     "p": "correta",
+     "w": "Art. 70: com uma só ação e dois ou mais crimes, aplica-se a pena mais grave ou, se iguais, só uma delas, aumentada de 1/6 até metade."
+    },
+    {
+     "t": "Aplica-se uma só pena, aumentada de um sexto a dois terços, por crime continuado.",
+     "p": "calculo",
+     "w": "De 1/6 a 2/3 é a fração do crime continuado (art. 71), que pressupõe várias condutas. No concurso formal, o aumento vai de 1/6 até metade."
+    },
+    {
+     "t": "Somam-se as penas, pois sempre que há mais de uma vítima as penas são cumulativas.",
+     "p": "generalizacao",
+     "w": "No concurso formal, a soma só ocorre quando a ação é dolosa e os crimes resultam de desígnios autônomos (art. 70, parte final). Crime culposo não tem desígnio."
+    }
+   ]
+  },
+  {
+   "id": "dpen18",
+   "topic": "Homicídio qualificado",
+   "c": "Em Feira de Santana, Wesley aceitou R$ 5 mil para matar um comerciante. Recebeu metade adiantada, cometeu o crime e nunca recebeu o restante.",
+   "q": "Como se classifica o homicídio praticado por Wesley?",
+   "a": 0,
+   "src": "CP, art. 121, § 2º, I; Lei 8.072/90, art. 1º, I",
+   "o": [
+    {
+     "t": "Homicídio qualificado mediante paga ou promessa de recompensa, que é crime hediondo.",
+     "p": "correta",
+     "w": "Art. 121, § 2º, I, do CP. A Lei 8.072/90, art. 1º, I, inclui o homicídio qualificado entre os crimes hediondos."
+    },
+    {
+     "t": "Homicídio qualificado por motivo fútil, inciso aplicável a todo crime cometido por dinheiro.",
+     "p": "troca",
+     "w": "Motivo fútil (inciso II) é o motivo insignificante, desproporcional. Matar por dinheiro tem previsão própria: paga ou promessa de recompensa (inciso I)."
+    },
+    {
+     "t": "Homicídio simples, pois a qualificadora exige que o agente receba todo o valor combinado.",
+     "p": "restricao",
+     "w": "O inciso I fala em paga ou promessa de recompensa: basta matar movido por ela, sem receber tudo."
+    },
+    {
+     "t": "Homicídio qualificado, mas não hediondo, pois só o homicídio de grupo de extermínio é hediondo.",
+     "p": "inversao",
+     "w": "A Lei 8.072/90, art. 1º, I, lista como hediondos tanto o homicídio de grupo de extermínio quanto o homicídio qualificado."
+    }
+   ]
+  },
+  {
+   "id": "dpen19",
+   "topic": "Feminicídio",
+   "c": "Em março de 2025, em Goiânia, Marcos, que tinha histórico de agressões contra a ex-companheira, matou-a a facadas porque ela se recusou a reatar o relacionamento.",
+   "q": "Qual é o enquadramento penal correto?",
+   "a": 3,
+   "src": "CP, art. 121-A, § 1º, I (Lei 14.994/2024)",
+   "o": [
+    {
+     "t": "Homicídio qualificado pelo feminicídio, qualificadora prevista no art. 121, § 2º.",
+     "p": "troca",
+     "w": "Esse era o modelo anterior. A Lei 14.994/2024 tirou o feminicídio do art. 121 e o transformou em crime autônomo, no art. 121-A."
+    },
+    {
+     "t": "Homicídio simples, pois o feminicídio exige que agressor e vítima ainda morem juntos.",
+     "p": "restricao",
+     "w": "Não se exige coabitação nem relação atual. A violência doméstica abrange relação íntima de afeto, independentemente de coabitação (Lei 11.340/06, art. 5º, III)."
+    },
+    {
+     "t": "Feminicídio, que se configura em todo homicídio cuja vítima seja mulher.",
+     "p": "generalizacao",
+     "w": "Não basta a vítima ser mulher: o crime deve ocorrer por razões da condição do sexo feminino, como violência doméstica ou menosprezo à condição de mulher."
+    },
+    {
+     "t": "Feminicídio, crime autônomo do art. 121-A do CP, por envolver violência doméstica e familiar.",
+     "p": "correta",
+     "w": "Desde a Lei 14.994/2024, o feminicídio é tipo autônomo: matar mulher por razões da condição do sexo feminino, o que inclui o contexto de violência doméstica e familiar (art. 121-A, § 1º, I)."
+    }
+   ]
+  },
+  {
+   "id": "dpen20",
+   "topic": "Lesão corporal grave",
+   "c": "Após uma briga de trânsito em Campo Grande, Rogério deu socos em outro motorista, que fraturou a mandíbula e ficou 45 dias sem poder trabalhar nem cuidar das tarefas do dia a dia. Não houve sequela permanente.",
+   "q": "Como se classifica a lesão corporal?",
+   "a": 2,
+   "src": "CP, art. 129, §§ 1º e 2º",
+   "o": [
+    {
+     "t": "Gravíssima, pois a incapacidade passou de 30 dias.",
+     "p": "troca",
+     "w": "Incapacidade para ocupações habituais por mais de 30 dias é lesão grave (§ 1º, I). Gravíssima é a incapacidade permanente para o trabalho (§ 2º, I)."
+    },
+    {
+     "t": "Leve, pois a lesão só é grave quando deixa sequela permanente.",
+     "p": "restricao",
+     "w": "O § 1º, I, qualifica a lesão pela incapacidade temporária superior a 30 dias, sem exigir sequela."
+    },
+    {
+     "t": "Grave, pela incapacidade para as ocupações habituais por mais de 30 dias.",
+     "p": "correta",
+     "w": "Art. 129, § 1º, I. A lesão grave não exige sequela permanente; resultados permanentes aparecem nas hipóteses de lesão gravíssima do § 2º."
+    },
+    {
+     "t": "Grave, pois qualquer fratura óssea torna a lesão grave.",
+     "p": "generalizacao",
+     "w": "Não há regra que classifique toda fratura como lesão grave. O que qualificou o caso foi a incapacidade por mais de 30 dias."
+    }
+   ]
+  },
+  {
+   "id": "dpen21",
+   "topic": "Roubo impróprio",
+   "c": "Em Belém, Igor pegou um celular deixado no banco de um carro aberto, sem que ninguém percebesse. Segundos depois, o dono o flagrou, e Igor lhe deu um soco para fugir com o aparelho.",
+   "q": "Qual crime Igor praticou?",
+   "a": 2,
+   "src": "CP, arts. 155, 157, § 1º, e 158",
+   "o": [
+    {
+     "t": "Furto, pois a violência só caracteriza roubo quando empregada antes da subtração.",
+     "p": "restricao",
+     "w": "O § 1º do art. 157 trata justamente da violência empregada logo depois da subtração."
+    },
+    {
+     "t": "Furto em concurso material com lesão corporal, pois houve duas ações distintas.",
+     "p": "troca",
+     "w": "A lei funde as condutas num só crime: a violência para garantir a coisa transforma o furto em roubo impróprio."
+    },
+    {
+     "t": "Roubo impróprio, pois empregou violência logo depois da subtração para assegurar a detenção da coisa.",
+     "p": "correta",
+     "w": "Art. 157, § 1º: incorre nas penas do roubo quem, logo depois de subtraída a coisa, emprega violência ou grave ameaça para assegurar a impunidade ou a detenção da coisa."
+    },
+    {
+     "t": "Extorsão, pois todo emprego de violência para obter vantagem econômica é extorsão.",
+     "p": "generalizacao",
+     "w": "Na extorsão (art. 158), a vítima é constrangida a fazer, tolerar ou deixar de fazer algo. Aqui Igor tomou a coisa por conta própria."
+    }
+   ]
+  },
+  {
+   "id": "dpen22",
+   "topic": "Extorsão",
+   "c": "Num bairro do Rio de Janeiro, um grupo armado passou a exigir de cada comerciante R$ 300 por mês como “taxa de segurança”, sob ameaça de incendiar as lojas. Um padeiro, intimidado, deixou o dinheiro no local indicado, mas a polícia prendeu o grupo antes que alguém o recolhesse.",
+   "q": "Assinale a alternativa correta sobre o crime cometido contra o padeiro.",
+   "a": 3,
+   "src": "CP, arts. 158 e 316; Súmula 96 do STJ",
+   "o": [
+    {
+     "t": "Tentativa de extorsão, pois o grupo não chegou a recolher a quantia.",
+     "p": "restricao",
+     "w": "A Súmula 96 do STJ dispensa o recebimento da vantagem para a consumação da extorsão."
+    },
+    {
+     "t": "Roubo, pois houve grave ameaça para obter vantagem econômica.",
+     "p": "troca",
+     "w": "No roubo, o agente subtrai a coisa. Na extorsão, a vítima é constrangida a fazer algo, como pagar a taxa (art. 158)."
+    },
+    {
+     "t": "Concussão, pois a cobrança imitava a de um tributo.",
+     "p": "extrapolacao",
+     "w": "Concussão (art. 316) é crime de funcionário público que exige vantagem em razão da função. Os criminosos não são funcionários públicos."
+    },
+    {
+     "t": "Extorsão consumada, pois a vítima cedeu à exigência, e o crime independe de o grupo obter a vantagem.",
+     "p": "correta",
+     "w": "Art. 158 do CP e Súmula 96 do STJ: a extorsão é crime formal. Consuma-se quando a vítima, constrangida, faz o que se exigiu, ainda que o agente não obtenha a vantagem indevida."
+    }
+   ]
+  },
+  {
+   "id": "dpen23",
+   "topic": "Estelionato",
+   "c": "Em Ribeirão Preto, um homem se apresentou como dono de um apartamento que não lhe pertencia, mostrou o imóvel vazio, que estava anunciado para aluguel, e recebeu R$ 20 mil de sinal de uma compradora. Depois, sumiu.",
+   "q": "Qual crime foi praticado?",
+   "a": 0,
+   "src": "CP, arts. 155, § 4º, II, 168 e 171",
+   "o": [
+    {
+     "t": "Estelionato, pois a vítima, enganada por meio fraudulento, entregou o dinheiro voluntariamente.",
+     "p": "correta",
+     "w": "Art. 171: obter vantagem ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro, mediante artifício, ardil ou qualquer outro meio fraudulento."
+    },
+    {
+     "t": "Furto mediante fraude, pois houve engano para obter o dinheiro.",
+     "p": "troca",
+     "w": "No furto mediante fraude, o engano reduz a vigilância e o agente subtrai a coisa. Aqui a própria vítima entregou o valor, o que caracteriza estelionato."
+    },
+    {
+     "t": "Apropriação indébita, pois o dinheiro foi entregue ao agente pela vítima.",
+     "p": "extrapolacao",
+     "w": "Na apropriação indébita, a posse é recebida licitamente e só depois o agente decide ficar com a coisa (art. 168). Aqui a fraude existia desde o início."
+    },
+    {
+     "t": "Nenhum, pois houve só descumprimento de contrato, matéria apenas civil.",
+     "p": "inversao",
+     "w": "O negócio foi o próprio instrumento da fraude: o homem não era dono do imóvel e enganou a vítima desde o início."
+    }
+   ]
+  },
+  {
+   "id": "dpen24",
+   "topic": "Peculato culposo",
+   "c": "Na prefeitura de Juiz de Fora, a tesoureira Márcia saiu e deixou o cofre aberto por descuido. Um colega aproveitou para subtrair R$ 12 mil, e Márcia passou a responder por peculato culposo.",
+   "q": "Se Márcia reparar o dano antes da sentença irrecorrível, qual será a consequência?",
+   "a": 1,
+   "src": "CP, art. 312, §§ 1º a 3º",
+   "o": [
+    {
+     "t": "A pena de Márcia será reduzida de metade.",
+     "p": "inversao",
+     "w": "A redução de metade vale para a reparação feita depois da sentença irrecorrível. Antes dela, extingue-se a punibilidade."
+    },
+    {
+     "t": "Extingue-se a punibilidade de Márcia.",
+     "p": "correta",
+     "w": "Art. 312, § 3º: no peculato culposo, a reparação do dano antes da sentença irrecorrível extingue a punibilidade; se posterior, reduz de metade a pena imposta."
+    },
+    {
+     "t": "Extingue-se a punibilidade também do colega que subtraiu o dinheiro.",
+     "p": "extrapolacao",
+     "w": "O § 3º beneficia só o peculato culposo. O colega praticou peculato doloso (art. 312, § 1º) e não se beneficia dessa regra."
+    },
+    {
+     "t": "Nenhuma, pois a reparação do dano não tem efeito nos crimes contra a administração.",
+     "p": "generalizacao",
+     "w": "O próprio art. 312, § 3º, dá efeito à reparação do dano no peculato culposo."
+    }
+   ]
+  },
+  {
+   "id": "dpen25",
+   "topic": "Concussão",
+   "c": "Em Maceió, um fiscal da vigilância sanitária municipal disse ao dono de um restaurante que só deixaria de interditar a cozinha se recebesse R$ 3 mil. O dono denunciou o caso antes de pagar.",
+   "q": "Qual crime o fiscal cometeu?",
+   "a": 3,
+   "src": "CP, arts. 316, 317 e 333",
+   "o": [
+    {
+     "t": "Corrupção passiva, pois pediu dinheiro em razão da função.",
+     "p": "troca",
+     "w": "Na corrupção passiva (art. 317), o funcionário solicita, recebe ou aceita promessa. Exigir, impondo o pagamento, é concussão."
+    },
+    {
+     "t": "Tentativa de concussão, pois o dono do restaurante não chegou a pagar.",
+     "p": "restricao",
+     "w": "A concussão se consuma com a exigência. O pagamento não é necessário para a consumação."
+    },
+    {
+     "t": "Concussão, e o dono do restaurante responderia por corrupção ativa se pagasse.",
+     "p": "extrapolacao",
+     "w": "Quem cede à exigência é vítima. A corrupção ativa (art. 333) pune quem oferece ou promete vantagem, não quem paga o que lhe foi exigido."
+    },
+    {
+     "t": "Concussão, já consumada com a exigência da vantagem indevida.",
+     "p": "correta",
+     "w": "Art. 316: exigir, para si ou para outrem, em razão da função, vantagem indevida. É crime formal: consuma-se com a exigência, e o recebimento é mero exaurimento."
+    }
+   ]
+  },
+  {
+   "id": "dpen26",
+   "topic": "Drogas: porte para consumo",
+   "c": "Em Belo Horizonte, Pedro foi abordado num show com dois papelotes de cocaína no bolso. Não havia balança, dinheiro fracionado nem outros indícios de venda, e ele declarou que a droga era para uso próprio.",
+   "q": "Reconhecido o porte para consumo pessoal, a que Pedro está sujeito?",
+   "a": 2,
+   "src": "Lei 11.343/06, arts. 28, 33, § 3º, e 48, § 2º",
+   "o": [
+    {
+     "t": "A detenção de 6 meses a 1 ano, como no uso compartilhado.",
+     "p": "troca",
+     "w": "Essa é a pena do art. 33, § 3º (oferecer droga, eventualmente e sem lucro, a pessoa de seu relacionamento para juntos consumirem), não a do art. 28."
+    },
+    {
+     "t": "A prisão em flagrante e, depois, às penas alternativas do art. 28.",
+     "p": "extrapolacao",
+     "w": "O art. 48, § 2º, proíbe a prisão em flagrante na conduta do art. 28. O autor é encaminhado ao juízo ou assume o compromisso de comparecer."
+    },
+    {
+     "t": "A advertência, prestação de serviços à comunidade ou medida educativa, sem pena de prisão.",
+     "p": "correta",
+     "w": "O art. 28 da Lei 11.343/06 prevê só essas penas, e o art. 48, § 2º, veda a prisão em flagrante nesse caso: lavra-se termo circunstanciado."
+    },
+    {
+     "t": "A nenhuma sanção, pois o porte de qualquer droga para uso próprio é mera infração administrativa.",
+     "p": "generalizacao",
+     "w": "Para a cocaína, a conduta segue tipificada no art. 28 da Lei 11.343/06, com advertência, serviços à comunidade ou medida educativa."
+    }
+   ]
+  },
+  {
+   "id": "dpen27",
+   "topic": "Posse x porte",
+   "c": "Em Uberlândia, a polícia cumpriu mandado de busca na casa de Jorge e achou, no guarda-roupa, um revólver calibre .38, de uso permitido, sem registro. Jorge nunca saía de casa com a arma.",
+   "q": "Qual crime Jorge cometeu?",
+   "a": 1,
+   "src": "Lei 10.826/03, arts. 12 e 14",
+   "o": [
+    {
+     "t": "Porte ilegal de arma de fogo, pois a arma não tinha registro.",
+     "p": "troca",
+     "w": "A falta de registro aparece nos dois crimes. O que separa a posse (art. 12) do porte (art. 14) é o local: dentro de casa ou fora dela."
+    },
+    {
+     "t": "Posse irregular de arma de fogo de uso permitido, pois a arma estava no interior da residência.",
+     "p": "correta",
+     "w": "Art. 12 da Lei 10.826/03: possuir ou manter sob guarda arma de uso permitido, em desacordo com a lei, no interior da residência ou dependência dela, ou no local de trabalho de que seja titular."
+    },
+    {
+     "t": "Nenhum, pois guardar arma dentro de casa só é crime se ela for de uso restrito.",
+     "p": "restricao",
+     "w": "O art. 12 pune justamente a posse irregular de arma de uso permitido dentro de casa."
+    },
+    {
+     "t": "Posse irregular, que vira porte se a arma for guardada no local de trabalho, mesmo sendo ele o dono do negócio.",
+     "p": "extrapolacao",
+     "w": "O art. 12 também alcança a arma mantida no local de trabalho quando o agente é titular ou responsável legal do estabelecimento."
+    }
+   ]
+  },
+  {
+   "id": "dpen28",
+   "topic": "Abuso de autoridade",
+   "c": "Em Aracaju, um juiz decretou prisão preventiva com base numa interpretação da lei processual que o tribunal depois considerou errada, revogando a prisão. O preso representou contra o juiz por abuso de autoridade.",
+   "q": "Assinale a alternativa correta à luz da Lei 13.869/19.",
+   "a": 0,
+   "src": "Lei 13.869/19, arts. 1º, §§ 1º e 2º, e 2º",
+   "o": [
+    {
+     "t": "Divergência na interpretação da lei não é abuso; o crime exige finalidade específica, como prejudicar outrem ou satisfação pessoal.",
+     "p": "correta",
+     "w": "O art. 1º, § 1º, exige a finalidade de prejudicar outrem ou beneficiar a si ou a terceiro, ou mero capricho ou satisfação pessoal; o § 2º exclui a divergência interpretativa."
+    },
+    {
+     "t": "Há crime, pois toda decisão reformada pelo tribunal configura abuso de autoridade.",
+     "p": "generalizacao",
+     "w": "A reforma da decisão não basta. A divergência na interpretação de lei ou na avaliação de fatos e provas não configura abuso (art. 1º, § 2º)."
+    },
+    {
+     "t": "Há crime na modalidade culposa, pois o juiz deveria ter interpretado a lei com mais cuidado.",
+     "p": "extrapolacao",
+     "w": "A lei não prevê forma culposa: exige dolo e a finalidade específica do art. 1º, § 1º."
+    },
+    {
+     "t": "Juízes não podem cometer esse crime, pois a lei só alcança servidores de cargo efetivo.",
+     "p": "restricao",
+     "w": "O art. 2º alcança qualquer agente público, servidor ou não, e cita expressamente os membros do Poder Judiciário (inciso IV)."
+    }
+   ]
+  },
+  {
+   "id": "dpen29",
+   "type": "ce",
+   "topic": "Estrito cumprimento do dever",
+   "src": "CP, art. 23, III e parágrafo único; CPP, art. 284",
+   "c": "Em Porto Velho, policiais civis cumpriam mandado de prisão contra um foragido, que tentou fugir pela janela. Os agentes o contiveram com a força necessária para algemá-lo.",
+   "q": "Os policiais agiram em estrito cumprimento do dever legal e responderiam pelo excesso doloso ou culposo se tivessem usado força além da necessária.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. O art. 23, III, exclui a ilicitude de quem age em estrito cumprimento do dever legal, e o parágrafo único pune o excesso doloso ou culposo em qualquer excludente."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado é supor que a excludente não alcança o uso de força ou que o excesso fica impune. O CPP admite a força indispensável na tentativa de fuga (art. 284), e o excesso é punível."
+    }
+   ]
+  },
+  {
+   "id": "dpen30",
+   "type": "ce",
+   "topic": "Apropriação indébita",
+   "src": "CP, art. 168",
+   "c": "Ana trabalhava em home office para uma empresa de Joinville, que lhe entregou um notebook para o serviço. Demitida, recusou-se a devolvê-lo e o vendeu pela internet.",
+   "q": "Ana praticou apropriação indébita, pois tinha a posse lícita do notebook e, depois, passou a dispor dele como se fosse dona.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. Art. 168: apropriar-se de coisa alheia móvel de que tem a posse ou a detenção. O traço marcante é a posse lícita anterior, depois invertida."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado é confundir com furto ou estelionato. Não houve subtração nem fraude inicial: a posse foi entregue licitamente pela própria empresa."
+    }
+   ]
+  },
+  {
+   "id": "dpen31",
+   "type": "ce",
+   "topic": "Receptação",
+   "src": "CP, art. 180, caput e § 4º",
+   "c": "Em Sorocaba, Luana comprou de um conhecido, por um preço baixo, uma moto que sabia ter sido furtada. A polícia nunca descobriu quem praticou o furto.",
+   "q": "Como o autor do furto não foi identificado, não é possível punir Luana por receptação.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo é acrescentar uma condição que a lei não exige. A identificação do autor do crime anterior não é requisito da receptação."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. Art. 180, § 4º: a receptação é punível ainda que desconhecido ou isento de pena o autor do crime de que proveio a coisa."
+    }
+   ]
+  },
+  {
+   "id": "dpen32",
+   "type": "ce",
+   "topic": "Corrupção ativa",
+   "src": "CP, art. 333",
+   "c": "Parado numa blitz em Teresina por dirigir com a CNH vencida, Fábio ofereceu R$ 200 ao policial militar para não ser autuado. O policial recusou a oferta e lavrou o auto de infração.",
+   "q": "Como o policial recusou a oferta, Fábio responde apenas por tentativa de corrupção ativa.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo é exigir a aceitação do funcionário para consumar o crime, condição que o art. 333 não prevê."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. A corrupção ativa (art. 333) se consuma com o simples oferecimento ou promessa de vantagem indevida, ainda que o funcionário recuse."
+    }
+   ]
+  },
+  {
+   "id": "dpen33",
+   "type": "ce",
+   "topic": "Prevaricação",
+   "src": "CP, arts. 317 e 319",
+   "c": "Um servidor do Detran de Pernambuco deixou, de propósito, de dar andamento ao processo de suspensão da CNH de um amigo de infância. Não recebeu nem lhe prometeram nada; quis apenas ajudar o amigo.",
+   "q": "A conduta caracteriza prevaricação, pois o servidor deixou de praticar ato de ofício para satisfazer sentimento pessoal.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. Art. 319: retardar ou deixar de praticar, indevidamente, ato de ofício, ou praticá-lo contra disposição expressa de lei, para satisfazer interesse ou sentimento pessoal."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado é enquadrar o caso como corrupção passiva (art. 317), que exige solicitar, receber ou aceitar promessa de vantagem. Sem vantagem e movido por amizade, o servidor prevaricou."
+    }
+   ]
+  },
+  {
+   "id": "dpen34",
+   "type": "ce",
+   "topic": "Resistência x desobediência",
+   "src": "CP, arts. 329 e 330",
+   "c": "Em Fortaleza, ao receber voz de prisão em flagrante, Renan empurrou os policiais e ameaçou matá-los para não ser algemado, mas acabou contido.",
+   "q": "Renan praticou apenas o crime de desobediência, pois deixou de cumprir a ordem legal de prisão.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo é confundir desobediência com resistência. Quando há violência ou ameaça para impedir ato legal, o crime é resistência (art. 329)."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. Art. 329: opor-se à execução de ato legal mediante violência ou ameaça a funcionário competente. A desobediência (art. 330) é o descumprimento sem violência ou ameaça."
+    }
+   ]
+  },
+  {
+   "id": "dpen35",
+   "type": "ce",
+   "topic": "Crime continuado",
+   "src": "CP, arts. 70 e 71",
+   "c": "Durante dez dias seguidos, Kátia, caixa de um supermercado em Londrina, retirou R$ 100 do caixa no fim do expediente, sempre do mesmo modo.",
+   "q": "Reconhecida a continuidade delitiva entre os furtos, aplica-se a pena de um só deles, aumentada de um sexto a dois terços.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. Art. 71: crimes da mesma espécie, com condições semelhantes de tempo, lugar e maneira de execução; aplica-se a pena de um só, se idênticas, aumentada de 1/6 a 2/3."
+    },
+    {
+     "t": "Errado",
+     "p": "calculo",
+     "w": "Julgar errado é trocar a fração pela do concurso formal (1/6 até metade, art. 70) ou imaginar soma de penas. No crime continuado, o aumento é de 1/6 a 2/3."
+    }
+   ]
+  },
+  {
+   "id": "dpen36",
+   "type": "ce",
+   "topic": "Prescrição",
+   "src": "CP, arts. 109, IV, 115 e 168",
+   "c": "Igor, que tinha 19 anos na data do fato, praticou apropriação indébita simples, punida com reclusão de 1 a 4 anos. Ainda não há sentença no processo.",
+   "q": "Antes da sentença, a prescrição regula-se pelo máximo da pena, 4 anos, e ocorre em 8 anos, prazo que não sofre redução pela idade de Igor.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "calculo",
+     "w": "Julgar certo é parar no meio da conta. O prazo de 8 anos (art. 109, IV) cai pela metade porque Igor era menor de 21 anos ao tempo do crime (art. 115)."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. Pena máxima de 4 anos prescreve em 8 anos (art. 109, IV), mas o art. 115 reduz o prazo à metade para quem era menor de 21 anos na data do fato: 4 anos."
+    }
+   ]
+  },
+  {
+   "id": "dpen37",
+   "type": "ce",
+   "topic": "Crimes hediondos",
+   "src": "Lei 8.072/90, arts. 1º, I, e 2º; CF/88, art. 5º, XLIII",
+   "c": "Em Caruaru, Everton foi preso em flagrante por homicídio qualificado por motivo torpe. A defesa pediu ao juiz o arbitramento de fiança.",
+   "q": "Por ser crime hediondo, o homicídio qualificado é insuscetível de anistia, graça e indulto, mas admite fiança.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo é encurtar a lista do art. 2º da Lei 8.072/90, que inclui também a fiança entre as vedações."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. Art. 2º, I e II, da Lei 8.072/90: hediondos e equiparados são insuscetíveis de anistia, graça, indulto e fiança (também CF, art. 5º, XLIII)."
+    }
+   ]
+  },
+  {
+   "id": "dpen38",
+   "type": "ce",
+   "topic": "Tortura",
+   "src": "Lei 9.455/97, art. 1º, I, a, e § 4º",
+   "c": "Em Campinas, dois seguranças particulares de um shopping trancaram numa sala um rapaz suspeito de furto e o espancaram para que confessasse onde escondera os produtos.",
+   "q": "Não houve crime de tortura, pois a Lei 9.455/97 só pune quem é agente público.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo é limitar o sujeito ativo a agentes públicos, restrição que o art. 1º, I, não faz."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. Constranger alguém com violência ou grave ameaça, causando sofrimento físico ou mental, para obter confissão é tortura (art. 1º, I, a), crime comum; ser agente público só aumenta a pena (§ 4º, I)."
+    }
+   ]
+  },
+  {
+   "id": "dpen39",
+   "type": "ce",
+   "topic": "Maria da Penha: âmbito",
+   "src": "Lei 11.340/06, art. 5º, III",
+   "c": "Em Palmas, Larissa namorou Felipe por dois anos, sem que nunca morassem juntos. Após o fim do namoro, ele passou a ameaçá-la e agredi-la.",
+   "q": "A Lei Maria da Penha se aplica ao caso, pois a violência ocorreu em relação íntima de afeto, independentemente de coabitação.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. Art. 5º, III, da Lei 11.340/06: há violência doméstica em qualquer relação íntima de afeto em que o agressor conviva ou tenha convivido com a ofendida, independentemente de coabitação."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado é exigir coabitação, requisito que o art. 5º, III, dispensa expressamente."
+    }
+   ]
+  },
+  {
+   "id": "dpen40",
+   "type": "ce",
+   "topic": "Medidas protetivas",
+   "src": "Lei 11.340/06, art. 22, II e III, a",
+   "c": "Em Rio Branco, depois de ser agredida pelo marido dentro de casa, Simone pediu medidas protetivas de urgência.",
+   "q": "Entre as medidas que obrigam o agressor, o juiz pode determinar o afastamento do lar e a proibição de aproximação da ofendida, com limite mínimo de distância.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. O art. 22, II e III, a, da Lei 11.340/06 prevê o afastamento do lar e a proibição de aproximação da ofendida, fixando limite mínimo de distância."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado é supor que essas medidas dependem de condenação ou de lei diversa. Elas estão no rol do art. 22 e são de urgência."
+    }
+   ]
+  }
+ ]
+}

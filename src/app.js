@@ -478,7 +478,7 @@ const chev = () => `<svg class="ico chev" viewBox="0 0 24 24" aria-hidden="true"
 const tickIco = () => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${I.tick}</svg>`;
 
 /* ---------- Imagens (arquivos publicados junto com o app) ---------- */
-const PHOTOS = { hero: 'img/hero.webp', neuro: 1, port: 1, dconst: 1, logica: 1, excel: 1, mat: 1, lgpd: 1, bio: 1, hist: 1, dadm: 1, info: 1, seg: 1 };
+const PHOTOS = { hero: 'img/hero.webp', neuro: 1, port: 1, dconst: 1, logica: 1, excel: 1, mat: 1, lgpd: 1, bio: 1, hist: 1, dadm: 1, info: 1, seg: 1, dh: 1, dpen: 1, dpp: 1, etica: 1, dciv: 1, adm: 1, dpc: 1, ingl: 1 };
 const REDUCED = (() => { try { return matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) { return false; } })();
 /* ---------- Capas ilustradas das trilhas ---------- */
 const PAL = {
@@ -1002,7 +1002,7 @@ function viewProfile() {
     <div class="list">${ui.confirmReset ?
       `<div class="item noicon"><div class="main"><b>Zerar todo o progresso?</b><span>Respostas, XP, sequência e revisões serão apagados. Suas trilhas continuam.</span></div></div><div class="item noicon" style="gap:10px"><button class="btn btn-ghost btn-sm" style="flex:1" data-act="cancel-reset">Cancelar</button><button class="btn btn-danger btn-sm" style="flex:1" data-act="do-reset">Zerar</button></div>` :
       `<button class="item noicon" data-act="ask-reset" style="justify-content:center;color:var(--bad);font-weight:700">Zerar progresso</button>`}</div>
-    <p class="tiny" style="text-align:center">Memory 7.0${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
+    <p class="tiny" style="text-align:center">Memory 7.1${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
   </div>`;
 }
 

@@ -1,5 +1,5 @@
 // Service worker do Memory: abre offline e carrega rápido. A API nunca é guardada em cache.
-const VERSION = 'memory-v7.0';
+const VERSION = 'memory-v7.1';
 const SHELL = ['/', '/manifest.webmanifest', '/img/hero.webp', '/img/icon-192.png'];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)));

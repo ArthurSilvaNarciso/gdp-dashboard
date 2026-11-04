@@ -1,0 +1,557 @@
+{
+  "id": "dpp",
+  "title": "Processo Penal",
+  "subtitle": "Inquérito, ação, provas e prisões",
+  "tag": "Concursos",
+  "blurb": "Inquérito, ação penal, ANPP, provas, prisões, recursos e execução em casos práticos, com o artigo exato do CPP já atualizado pelo Pacote Anticrime.",
+  "questions": [
+    {
+      "id": "dpp1",
+      "topic": "Prazos do inquérito",
+      "c": "Na delegacia de Londrina (PR), a delegada Helena conduz dois inquéritos por furto: no primeiro, o investigado foi preso em flagrante; no segundo, a investigada responde solta, sem fiança.",
+      "q": "Pela regra geral do CPP, em quanto tempo cada inquérito deve ser concluído?",
+      "a": 0,
+      "src": "CPP, art. 10, caput",
+      "o": [
+        { "t": "10 dias para o investigado preso, contados da execução da prisão, e 30 dias para a investigada solta.", "p": "correta", "w": "Art. 10 do CPP: 10 dias se o indiciado estiver preso em flagrante ou preventivamente, contados do dia em que se executar a prisão; 30 dias se estiver solto, com ou sem fiança." },
+        { "t": "30 dias para o investigado preso e 10 dias para a investigada solta.", "p": "inversao", "w": "Inverte a lógica da lei: o prazo é menor justamente para quem está preso, porque a privação de liberdade exige rapidez." },
+        { "t": "15 dias para o preso, prorrogáveis por mais 15, e 30 dias para a investigada solta.", "p": "troca", "w": "15 + 15 é o prazo do inquérito da Polícia Federal com indiciado preso (Lei 5.010/66, art. 66), não a regra geral do CPP." },
+        { "t": "30 dias nos dois casos, pois o CPP fixa um prazo único para qualquer inquérito.", "p": "generalizacao", "w": "O CPP diferencia o investigado preso (10 dias) do solto (30 dias); não existe prazo único." }
+      ]
+    },
+    {
+      "id": "dpp2",
+      "topic": "Arquivamento do inquérito",
+      "c": "Após três meses de investigação de um suposto estelionato em Goiânia (GO), o delegado Rafael concluiu que não havia indícios de autoria e assinou um despacho mandando arquivar o inquérito na própria delegacia.",
+      "q": "Assinale a alternativa correta sobre a conduta do delegado.",
+      "a": 1,
+      "src": "CPP, arts. 10, §1º, 17 e 28",
+      "o": [
+        { "t": "É válida, desde que o delegado comunique a vítima e o investigado do arquivamento.", "p": "restricao", "w": "A comunicação à vítima e ao investigado existe no art. 28, mas é ato do Ministério Público e não convalida arquivamento feito pela polícia." },
+        { "t": "É inválida, pois a autoridade policial não pode mandar arquivar inquérito; deve relatar e remeter os autos.", "p": "correta", "w": "Art. 17 do CPP: a autoridade policial não poderá mandar arquivar autos de inquérito. Ela faz o relatório (art. 10, §1º), e a manifestação pelo arquivamento cabe ao Ministério Público (art. 28)." },
+        { "t": "É inválida, porque só a vítima pode pedir o arquivamento, por meio de queixa-crime.", "p": "troca", "w": "Confunde arquivamento com ação penal privada. Em crime de ação pública, quem se manifesta pelo arquivamento é o Ministério Público (art. 28)." },
+        { "t": "É válida, pois quem preside o inquérito pode encerrá-lo a qualquer momento por falta de provas.", "p": "generalizacao", "w": "Presidir o inquérito não dá ao delegado poder de dispor dele: o inquérito é indisponível para a autoridade policial (art. 17)." }
+      ]
+    },
+    {
+      "id": "dpp3",
+      "topic": "Indiciamento",
+      "c": "Em Natal (RN), ao fim de um inquérito sobre fraude em contratos de uma autarquia municipal, o delegado Caio indiciou o diretor financeiro. O advogado do diretor afirma que o ato não poderia ter sido praticado sem ordem do juiz.",
+      "q": "Assinale a alternativa correta sobre o indiciamento.",
+      "a": 2,
+      "src": "Lei 12.830/2013, art. 2º, §6º",
+      "o": [
+        { "t": "Depende de requisição do Ministério Público, titular da ação penal, que decide quem será indiciado.", "p": "troca", "w": "Ser titular da ação penal não torna o MP responsável pelo indiciamento. A lei o define como ato privativo do delegado de polícia." },
+        { "t": "Só pode ocorrer depois que o juiz receber a denúncia contra o investigado.", "p": "restricao", "w": "O indiciamento é ato da fase de investigação, praticado no inquérito; não depende do recebimento da denúncia, que já é ato da ação penal." },
+        { "t": "É ato privativo do delegado de polícia, por decisão fundamentada que indique autoria, materialidade e circunstâncias.", "p": "correta", "w": "Lei 12.830/2013, art. 2º, §6º: o indiciamento, privativo do delegado, dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato, indicando autoria, materialidade e circunstâncias." },
+        { "t": "Dispensa qualquer fundamentação, por ser mero ato administrativo interno da delegacia.", "p": "generalizacao", "w": "A lei exige ato fundamentado, com análise técnico-jurídica do fato (Lei 12.830/2013, art. 2º, §6º)." }
+      ]
+    },
+    {
+      "id": "dpp4",
+      "topic": "Decadência da queixa",
+      "c": "Em 10 de janeiro, a empresária Juliana foi difamada em um grupo de mensagens da associação comercial de Joinville (SC), mas só em 20 de março descobriu quem era o autor das mensagens.",
+      "q": "Qual é o prazo para Juliana oferecer queixa-crime?",
+      "a": 3,
+      "src": "CPP, art. 38; CP, art. 145",
+      "o": [
+        { "t": "6 meses contados de 10 de janeiro, data do fato, ainda que ela não soubesse quem era o autor.", "p": "troca", "w": "Troca o termo inicial: a decadência corre do dia em que o ofendido vem a saber quem é o autor do crime, não da data do fato (art. 38)." },
+        { "t": "Não há prazo próprio: a queixa pode ser oferecida enquanto o crime não prescrever.", "p": "generalizacao", "w": "Há prazo decadencial específico de 6 meses (art. 38); se não for exercido, extingue-se a punibilidade, independentemente da prescrição." },
+        { "t": "6 meses a partir de 20 de março, desde que ela registre boletim de ocorrência antes disso.", "p": "restricao", "w": "O art. 38 não condiciona o prazo a boletim de ocorrência; o que conta é o conhecimento da autoria e o oferecimento da queixa dentro de 6 meses." },
+        { "t": "6 meses contados de 20 de março, dia em que ela soube quem é o autor do crime.", "p": "correta", "w": "Difamação entre particulares é crime de ação privada (CP, art. 145). Pelo art. 38 do CPP, o direito de queixa decai em 6 meses, contados do dia em que o ofendido vier a saber quem é o autor." }
+      ]
+    },
+    {
+      "id": "dpp5",
+      "topic": "Estelionato e representação",
+      "c": "Em junho de 2026, Seu Antônio, de 54 anos, morador de Juiz de Fora (MG), caiu em um golpe por telefone e transferiu R$ 8 mil a um falso funcionário do banco. Envergonhado, ele diz à polícia que não quer “processar ninguém”.",
+      "q": "Como se procede a ação penal nesse estelionato?",
+      "a": 0,
+      "src": "CP, arts. 100 e 171 (§5º revogado pela Lei 15.397/2026)",
+      "o": [
+        { "t": "Ação pública incondicionada, pois a Lei 15.397/2026 revogou a exigência de representação no estelionato.", "p": "correta", "w": "O §5º do art. 171, incluído pelo Pacote Anticrime, foi revogado pela Lei 15.397/2026. Sem exigência legal de representação, vale a regra do art. 100 do CP: ação pública incondicionada." },
+        { "t": "Ação pública condicionada à representação, pois todo estelionato depende da vontade da vítima.", "p": "generalizacao", "w": "A representação foi a regra do estelionato entre o Pacote Anticrime e a Lei 15.397/2026, que revogou o §5º do art. 171. Para fatos posteriores, a ação é incondicionada." },
+        { "t": "Ação penal privada, que depende de queixa-crime oferecida por advogado de Antônio.", "p": "troca", "w": "Estelionato não é crime de ação privada: a ação é pública e, desde a Lei 15.397/2026, incondicionada." },
+        { "t": "Ação pública incondicionada apenas se a vítima for maior de 70 anos ou incapaz.", "p": "restricao", "w": "Essa era uma das exceções do antigo §5º do art. 171. Com a revogação do parágrafo pela Lei 15.397/2026, a ação é incondicionada qualquer que seja a vítima." }
+      ]
+    },
+    {
+      "id": "dpp6",
+      "topic": "Renúncia e indivisibilidade",
+      "c": "Laura foi caluniada por dois colegas, Bruno e Diego, em um evento da empresa em Recife (PE). Ela fez as pazes com Bruno e declarou por escrito que renunciava ao direito de queixa contra ele, mas quer processar Diego.",
+      "q": "Qual é o efeito da renúncia em relação a Diego?",
+      "a": 1,
+      "src": "CPP, arts. 48, 49 e 51; CP, art. 145",
+      "o": [
+        { "t": "Nenhum, pois a renúncia só se estende aos demais autores se todos a aceitarem.", "p": "restricao", "w": "Renúncia é ato unilateral e não depende de aceitação. Quem exige aceitação é o perdão, que não aproveita a quem o recusa (art. 51)." },
+        { "t": "A renúncia em relação a Bruno se estende a Diego, e Laura não poderá processá-lo.", "p": "correta", "w": "Art. 49 do CPP: a renúncia ao direito de queixa em relação a um dos autores a todos se estenderá. É consequência da indivisibilidade da ação privada (art. 48)." },
+        { "t": "Laura pode processar só Diego, pois a oportunidade da ação privada permite escolher contra quem agir.", "p": "troca", "w": "A oportunidade permite decidir se haverá ação, não escolher o réu. A indivisibilidade obriga a processar todos os autores (art. 48)." },
+        { "t": "A renúncia extingue a punibilidade de Bruno e torna a ação contra Diego pública incondicionada.", "p": "extrapolacao", "w": "Nada na lei converte a ação privada em pública por causa da renúncia; ela apenas se estende a todos os autores (art. 49)." }
+      ]
+    },
+    {
+      "id": "dpp7",
+      "topic": "ANPP: requisitos",
+      "c": "Gustavo, primário e sem outros registros, confessou formal e circunstancialmente ao promotor que furtou ferramentas de uma obra em Campinas (SP) rompendo o cadeado do depósito, crime de furto qualificado, com pena de 2 a 8 anos.",
+      "q": "Em tese, cabe acordo de não persecução penal?",
+      "a": 2,
+      "src": "CPP, art. 28-A, caput e §1º",
+      "o": [
+        { "t": "Não, porque a pena máxima do crime passa de 4 anos.", "p": "troca", "w": "O critério do art. 28-A é a pena mínima inferior a 4 anos, não a máxima. No furto qualificado, a mínima é de 2 anos." },
+        { "t": "Sim, mas só depois do recebimento da denúncia, na audiência de instrução.", "p": "restricao", "w": "O ANPP é alternativa à denúncia: pressupõe que não seja caso de arquivamento e é celebrado antes da ação penal (art. 28-A, caput)." },
+        { "t": "Sim: há confissão formal e circunstanciada, não houve violência ou grave ameaça e a pena mínima é inferior a 4 anos.", "p": "correta", "w": "São os requisitos do art. 28-A, caput, desde que o acordo seja necessário e suficiente para reprovação e prevenção do crime e não incida vedação do §2º." },
+        { "t": "Não, pois crimes qualificados nunca admitem acordo de não persecução penal.", "p": "generalizacao", "w": "A lei não exclui crimes qualificados. Importam a pena mínima, com causas de aumento e diminuição (§1º), a ausência de violência e as vedações do §2º." }
+      ]
+    },
+    {
+      "id": "dpp8",
+      "topic": "Lugar da infração",
+      "c": "Um grupo tentou arrombar os caixas eletrônicos de uma agência de banco privado em Sorocaba (SP), mas foi surpreendido pela polícia durante o arrombamento. Os integrantes moram em Itu (SP), onde o plano foi combinado.",
+      "q": "Pela regra do CPP, qual foro é competente?",
+      "a": 3,
+      "src": "CPP, arts. 70 e 72",
+      "o": [
+        { "t": "Itu, domicílio dos réus, que é o critério principal de fixação da competência.", "p": "troca", "w": "O domicílio do réu é critério subsidiário, usado quando não se conhece o lugar da infração (art. 72)." },
+        { "t": "Itu, porque na tentativa vale o lugar onde o crime foi planejado.", "p": "extrapolacao", "w": "Atos preparatórios, como combinar o crime, não fixam competência. Na tentativa, conta o lugar do último ato de execução (art. 70)." },
+        { "t": "Qualquer das duas comarcas, à escolha do Ministério Público, como em toda infração com mais de um local.", "p": "generalizacao", "w": "Não há escolha livre de foro pela acusação: o art. 70 aponta um lugar certo." },
+        { "t": "Sorocaba, lugar em que foi praticado o último ato de execução.", "p": "correta", "w": "Art. 70 do CPP: a competência é do lugar em que se consumar a infração ou, no caso de tentativa, do lugar em que for praticado o último ato de execução." }
+      ]
+    },
+    {
+      "id": "dpp9",
+      "topic": "Prerrogativa de função",
+      "c": "Durante o mandato, o governador de um estado do Nordeste passa a ser investigado por desviar, em proveito próprio, recursos públicos de que tinha a posse em razão do cargo (peculato).",
+      "q": "Qual órgão é competente para processar e julgar o governador por esse crime comum?",
+      "a": 0,
+      "src": "CF/88, art. 105, I, a",
+      "o": [
+        { "t": "O Superior Tribunal de Justiça.", "p": "correta", "w": "CF/88, art. 105, I, a: compete ao STJ processar e julgar, originariamente, nos crimes comuns, os governadores dos estados e do Distrito Federal." },
+        { "t": "O Tribunal de Justiça do próprio estado.", "p": "troca", "w": "O Tribunal de Justiça julga prefeitos (CF/88, art. 29, X), não governadores." },
+        { "t": "O Supremo Tribunal Federal, que julga todos os chefes do Poder Executivo.", "p": "generalizacao", "w": "O STF julga o Presidente da República nos crimes comuns (CF/88, art. 102, I, b), não todos os chefes de Executivo." },
+        { "t": "O juiz de primeiro grau, pois o foro especial do governador só vale para crimes de responsabilidade.", "p": "restricao", "w": "É o contrário: o art. 105, I, a, da CF fixa o foro do STJ justamente para os crimes comuns do governador." }
+      ]
+    },
+    {
+      "id": "dpp10",
+      "topic": "Conexão e júri",
+      "c": "Em Feira de Santana (BA), Rogério matou um vizinho a tiros e, logo depois, para garantir a fuga, furtou uma moto estacionada na rua. Os dois crimes são conexos.",
+      "q": "Como ficam o processo e o julgamento dos dois crimes?",
+      "a": 1,
+      "src": "CPP, arts. 76, 77, 78, I, e 79",
+      "o": [
+        { "t": "Ambos vão ao juiz singular criminal, cuja competência prevalece sobre a do júri na conexão.", "p": "inversao", "w": "Inverte a regra: no concurso entre a competência do júri e a de outro órgão da jurisdição comum, prevalece a do júri (art. 78, I)." },
+        { "t": "Ambos serão julgados pelo Tribunal do Júri, cuja competência prevalece na conexão com crime comum.", "p": "correta", "w": "Art. 78, I: prevalece a competência do júri. E a conexão importa unidade de processo e julgamento (art. 79)." },
+        { "t": "Os crimes serão sempre processados separadamente, pois cada um tem competência própria.", "p": "generalizacao", "w": "A regra é o oposto: conexão e continência importam unidade de processo e julgamento (art. 79), salvo as exceções legais." },
+        { "t": "Há continência, e cada crime será julgado no foro em que se consumou.", "p": "troca", "w": "Continência ocorre quando duas ou mais pessoas são acusadas pela mesma infração ou no concurso formal (art. 77). Crimes distintos ligados entre si geram conexão (art. 76)." }
+      ]
+    },
+    {
+      "id": "dpp11",
+      "topic": "Juiz das garantias",
+      "c": "Em uma comarca de Santa Catarina já organizada com juiz das garantias, a delegada representou pela quebra do sigilo bancário de um investigado por estelionato, ainda durante o inquérito.",
+      "q": "Qual é o papel do juiz das garantias nesse momento?",
+      "a": 2,
+      "src": "CPP, art. 3º-B, caput e XI (Lei 13.964/2019); STF, ADIs 6.298, 6.299, 6.300 e 6.305",
+      "o": [
+        { "t": "Nenhum: na investigação, quem decide sobre medidas que restringem direitos é o próprio delegado.", "p": "troca", "w": "Medidas sujeitas a reserva de jurisdição, como a quebra de sigilo bancário, não podem ser decididas pela polícia; cabem ao juiz das garantias." },
+        { "t": "Julgar o mérito da futura ação penal, já que acompanhou toda a investigação.", "p": "extrapolacao", "w": "O juiz das garantias atua na fase de investigação; o julgamento do mérito cabe ao juiz da instrução e julgamento." },
+        { "t": "Controlar a legalidade da investigação e decidir medidas que dependem de autorização judicial prévia, como a quebra de sigilo.", "p": "correta", "w": "Art. 3º-B: o juiz das garantias é responsável pelo controle da legalidade da investigação e pela salvaguarda dos direitos individuais sujeitos a autorização judicial prévia; o inciso XI inclui o afastamento do sigilo bancário." },
+        { "t": "Autorizar qualquer medida pedida pela polícia, sem necessidade de fundamentação, por ser fase investigativa.", "p": "generalizacao", "w": "Toda decisão judicial deve ser fundamentada (CF/88, art. 93, IX), inclusive as tomadas na fase de investigação." }
+      ]
+    },
+    {
+      "id": "dpp12",
+      "topic": "Prova ilícita derivada",
+      "c": "Em Belém (PA), policiais grampearam o telefone de um suspeito de tráfico sem autorização judicial e, pelas conversas, descobriram onde ficava o depósito de drogas, que foi então revistado.",
+      "q": "Como fica a droga apreendida no depósito como prova?",
+      "a": 3,
+      "src": "CPP, art. 157, caput e §1º; Lei 9.296/96, art. 1º",
+      "o": [
+        { "t": "É válida, pois qualquer prova material é aproveitável, seja qual for a forma como foi descoberta.", "p": "generalizacao", "w": "A origem importa: são inadmissíveis as provas ilícitas e as delas derivadas (art. 157, caput e §1º)." },
+        { "t": "É inadmissível só se o suspeito provar que os policiais agiram de má-fé.", "p": "restricao", "w": "O art. 157 não exige prova de má-fé; basta a violação de norma constitucional ou legal e o nexo de causalidade com a prova derivada." },
+        { "t": "É válida, porque a interceptação sem ordem judicial gera apenas nulidade relativa, sanável.", "p": "troca", "w": "Prova ilícita não segue o regime das nulidades relativas: é inadmissível e deve ser desentranhada do processo (art. 157)." },
+        { "t": "É inadmissível, por derivar de prova ilícita, salvo se puder ser obtida por fonte independente.", "p": "correta", "w": "A interceptação exige ordem judicial (Lei 9.296/96, art. 1º). Pelo art. 157, §1º, as provas derivadas das ilícitas são inadmissíveis, salvo sem nexo causal ou quando obtidas por fonte independente." }
+      ]
+    },
+    {
+      "id": "dpp13",
+      "topic": "Cadeia de custódia",
+      "c": "Ao chegar a uma casa em Teresina (PI) onde houve um homicídio, o soldado Felipe viu uma faca com manchas de sangue no quintal, isolou a área e aguardou a perícia.",
+      "q": "À luz das regras de cadeia de custódia, assinale a alternativa correta.",
+      "a": 0,
+      "src": "CPP, arts. 158-A, §§1º e 2º, 158-B e 158-C",
+      "o": [
+        { "t": "Ao reconhecer a faca como de potencial interesse pericial, Felipe ficou responsável por sua preservação.", "p": "correta", "w": "Art. 158-A, §2º: o agente público que reconhecer um elemento como de potencial interesse para a prova pericial fica responsável por sua preservação. O reconhecimento é a primeira etapa (art. 158-B, I)." },
+        { "t": "A cadeia de custódia só começa quando o vestígio chega ao instituto de criminalística.", "p": "restricao", "w": "Ela começa com a preservação do local de crime ou com procedimentos policiais ou periciais em que se detecte o vestígio (art. 158-A, §1º)." },
+        { "t": "Felipe deveria recolher a faca e levá-la à delegacia, pois a coleta cabe ao primeiro policial no local.", "p": "troca", "w": "A coleta deve ser feita preferencialmente por perito oficial (art. 158-C), e é proibido remover vestígios antes da liberação pelo perito (§2º)." },
+        { "t": "A coleta deve vir antes do isolamento, para evitar que o vestígio se perca.", "p": "inversao", "w": "Inverte a ordem legal: reconhecimento, isolamento, fixação e só então coleta (art. 158-B, I a IV)." }
+      ]
+    },
+    {
+      "id": "dpp14",
+      "topic": "Corpo de delito",
+      "c": "Em Cuiabá (MT), Ricardo confessou ter quebrado o braço do cunhado durante uma briga. O exame de corpo de delito não foi feito, e o promotor sustenta que a confissão basta para provar a lesão.",
+      "q": "Assinale a alternativa correta.",
+      "a": 1,
+      "src": "CPP, arts. 158, 159 e 167",
+      "o": [
+        { "t": "A confissão supre o exame, pois é prova plena e dispensa qualquer outra.", "p": "generalizacao", "w": "O CPP afasta essa ideia: a confissão não supre o exame de corpo de delito (art. 158), e seu valor é aferido em confronto com as demais provas (art. 197)." },
+        { "t": "A confissão não supre o exame; se os vestígios desapareceram, a prova testemunhal pode suprir a falta.", "p": "correta", "w": "Art. 158: na infração que deixa vestígios, o exame de corpo de delito, direto ou indireto, é indispensável, e a confissão não o supre. Art. 167: desaparecidos os vestígios, a prova testemunhal pode suprir-lhe a falta." },
+        { "t": "O exame pode ser substituído por laudo assinado pelo delegado que presidiu o inquérito.", "p": "troca", "w": "O delegado não é perito. O exame é feito por perito oficial ou, na falta, por duas pessoas idôneas com diploma de curso superior (art. 159)." },
+        { "t": "O exame só é obrigatório em crimes punidos com reclusão superior a 4 anos.", "p": "restricao", "w": "A lei não faz essa distinção: o exame é indispensável sempre que a infração deixar vestígios (art. 158)." }
+      ]
+    },
+    {
+      "id": "dpp15",
+      "topic": "Interrogatório",
+      "c": "Na audiência de instrução de um processo por roubo em Porto Alegre (RS), o juiz quis começar pelo interrogatório do réu Leandro, que avisou que ficaria em silêncio.",
+      "q": "Assinale a alternativa correta.",
+      "a": 2,
+      "src": "CPP, arts. 186 e 400",
+      "o": [
+        { "t": "O interrogatório deve abrir a instrução, para que o réu fale antes das testemunhas.", "p": "inversao", "w": "É o contrário: no procedimento comum, o interrogatório é o último ato da instrução, depois de ofendido, testemunhas, peritos, acareações e reconhecimentos (art. 400)." },
+        { "t": "O silêncio pode ser valorado pelo juiz como indício de culpa na sentença.", "p": "extrapolacao", "w": "O silêncio não importa confissão e não pode ser interpretado em prejuízo da defesa (art. 186, parágrafo único)." },
+        { "t": "O interrogatório é o último ato da instrução, e o silêncio de Leandro não pode ser interpretado em prejuízo da defesa.", "p": "correta", "w": "Art. 400 fixa a ordem dos atos, com o interrogatório ao final. Art. 186, parágrafo único: o silêncio, que não importa confissão, não pode ser interpretado em prejuízo da defesa." },
+        { "t": "Leandro só pode ficar em silêncio se a defesa fizer pedido por escrito antes da audiência.", "p": "restricao", "w": "O direito ao silêncio não depende de requerimento: o juiz deve informar o acusado sobre ele antes de iniciar o interrogatório (art. 186, caput)." }
+      ]
+    },
+    {
+      "id": "dpp16",
+      "topic": "Testemunhas",
+      "c": "Em um processo por estelionato em Maceió (AL), a acusação arrolou como testemunhas a irmã do réu e o psicólogo que o atendia em terapia, para relatar o que ele contou nas sessões.",
+      "q": "Assinale a alternativa correta sobre essas testemunhas.",
+      "a": 3,
+      "src": "CPP, arts. 206 e 207",
+      "o": [
+        { "t": "Ambos são obrigados a depor, pois toda testemunha tem o dever de dizer o que sabe.", "p": "generalizacao", "w": "O dever de depor tem exceções: parentes próximos podem recusar-se (art. 206), e quem deve guardar sigilo profissional é proibido de depor (art. 207)." },
+        { "t": "A irmã é proibida de depor, e o psicólogo pode recusar-se se quiser.", "p": "inversao", "w": "Inverte as regras: o parente pode recusar-se (art. 206); quem deve guardar segredo em razão da profissão é que é proibido de depor (art. 207)." },
+        { "t": "A irmã pode recusar-se a depor apenas se morar com o réu.", "p": "restricao", "w": "O art. 206 não exige coabitação: o irmão do acusado pode recusar-se a depor, salvo quando não for possível obter a prova de outro modo." },
+        { "t": "A irmã pode recusar-se a depor; o psicólogo é proibido de depor sobre o que soube na profissão, salvo se desobrigado e quiser.", "p": "correta", "w": "Art. 206: ascendente, descendente, cônjuge, irmão e outros parentes podem recusar-se a depor. Art. 207: são proibidos de depor os que devem guardar segredo profissional, salvo se, desobrigados pela parte interessada, quiserem." }
+      ]
+    },
+    {
+      "id": "dpp17",
+      "topic": "Espécies de flagrante",
+      "c": "Em Uberlândia (MG), Tiago roubou um celular e fugiu correndo. A vítima e dois motoboys o perseguiram sem perdê-lo de vista e o detiveram dez minutos depois, a quatro quarteirões dali.",
+      "q": "Que espécie de flagrante ocorreu?",
+      "a": 0,
+      "src": "CPP, arts. 301 e 302",
+      "o": [
+        { "t": "Flagrante impróprio, ou quase flagrante, pois Tiago foi perseguido logo após o crime em situação que o fazia presumir autor.", "p": "correta", "w": "Art. 302, III: está em flagrante quem é perseguido, logo após, pela autoridade, pelo ofendido ou por qualquer pessoa, em situação que faça presumir ser autor da infração." },
+        { "t": "Flagrante presumido, pois Tiago foi encontrado com o celular roubado.", "p": "troca", "w": "O flagrante presumido (art. 302, IV) é o de quem é encontrado, logo depois, com objetos que façam presumir a autoria, sem perseguição. Aqui houve perseguição contínua." },
+        { "t": "Não houve flagrante, pois a perseguição só gera flagrante quando feita por policiais.", "p": "restricao", "w": "O art. 302, III, admite perseguição pelo ofendido ou por qualquer pessoa, e o art. 301 permite que qualquer do povo prenda quem está em flagrante." },
+        { "t": "Flagrante próprio, pois toda prisão feita no mesmo dia do crime é flagrante próprio.", "p": "generalizacao", "w": "Flagrante próprio é o de quem está cometendo a infração ou acaba de cometê-la (art. 302, I e II); o fato de ser no mesmo dia não define a espécie." }
+      ]
+    },
+    {
+      "id": "dpp18",
+      "topic": "Audiência de custódia",
+      "c": "Lucas foi preso em flagrante por receptação numa sexta-feira à noite em Vitória (ES). O auto de prisão foi lavrado e encaminhado ao juiz competente.",
+      "q": "Pelo art. 310 do CPP, o que deve ocorrer?",
+      "a": 1,
+      "src": "CPP, art. 310, caput e I a III",
+      "o": [
+        { "t": "Audiência de custódia em até 72 horas, contadas da lavratura do auto pelo delegado.", "p": "calculo", "w": "Erra o prazo e o termo inicial: a audiência ocorre no prazo máximo de até 24 horas após a realização da prisão (art. 310, caput)." },
+        { "t": "Audiência de custódia em até 24 horas da prisão, em que o juiz relaxa a prisão ilegal, converte em preventiva ou concede liberdade provisória.", "p": "correta", "w": "Art. 310, I a III: o juiz deve, fundamentadamente, relaxar a prisão ilegal, convertê-la em preventiva se presentes os requisitos do art. 312 e insuficientes as cautelares, ou conceder liberdade provisória, com ou sem fiança." },
+        { "t": "Audiência de custódia apenas se a defesa a requerer; sem pedido, o juiz decide só com base no auto.", "p": "restricao", "w": "A audiência não depende de requerimento: o juiz deverá promovê-la após receber o auto de prisão em flagrante (art. 310, caput)." },
+        { "t": "Manutenção da prisão até a sentença, pois o auto de flagrante já é título suficiente.", "p": "generalizacao", "w": "O flagrante é precário e precisa ser analisado pelo juiz, que só mantém a prisão convertendo-a, fundamentadamente, em preventiva (art. 310, II)." }
+      ]
+    },
+    {
+      "id": "dpp19",
+      "topic": "Preventiva de ofício",
+      "c": "Em uma ação penal por furto qualificado em Aracaju (SE), o juiz, sem pedido do Ministério Público, do assistente ou da polícia, decretou por conta própria a prisão preventiva do réu.",
+      "q": "Assinale a alternativa correta sobre a decisão.",
+      "a": 2,
+      "src": "CPP, arts. 282, §2º, e 311 (Lei 13.964/2019)",
+      "o": [
+        { "t": "É válida, pois o juiz pode decretar preventiva de ofício em qualquer fase da persecução penal.", "p": "generalizacao", "w": "Desde o Pacote Anticrime, a preventiva depende de requerimento do MP, do querelante ou do assistente, ou de representação da autoridade policial (art. 311)." },
+        { "t": "É válida apenas porque já existe ação penal; de ofício, o juiz só não pode decretá-la no inquérito.", "p": "restricao", "w": "Essa era a regra anterior à Lei 13.964/2019. A redação atual do art. 311 retirou a decretação de ofício em qualquer fase." },
+        { "t": "É ilegal, pois a preventiva depende de requerimento do MP, do querelante ou do assistente, ou de representação da polícia.", "p": "correta", "w": "Art. 311 do CPP, na redação da Lei 13.964/2019. O art. 282, §2º, segue a mesma lógica para as cautelares em geral: o juiz age a requerimento das partes ou por representação policial." },
+        { "t": "É ilegal, porque durante a ação penal só cabe prisão temporária, nunca a preventiva.", "p": "troca", "w": "É o oposto: a temporária é própria da investigação (Lei 7.960/89, art. 1º, I), e a preventiva cabe em qualquer fase da investigação ou do processo (art. 311)." }
+      ]
+    },
+    {
+      "id": "dpp20",
+      "topic": "Revisão da preventiva",
+      "c": "A juíza de uma vara criminal de Campo Grande (MS) decretou, a pedido do Ministério Público, a prisão preventiva de Vítor em fevereiro. Desde então, o processo seguiu sem nova decisão sobre a prisão.",
+      "q": "O que o CPP exige quanto à manutenção dessa prisão?",
+      "a": 3,
+      "src": "CPP, art. 316, parágrafo único",
+      "o": [
+        { "t": "Que a juíza reavalie a prisão somente se a defesa pedir a revogação.", "p": "restricao", "w": "A revisão é feita de ofício, sem depender de pedido da defesa (art. 316, parágrafo único)." },
+        { "t": "Que a necessidade da prisão seja revista a cada 180 dias, por decisão fundamentada.", "p": "calculo", "w": "O prazo legal de revisão é de 90 dias, e não de 180 (art. 316, parágrafo único)." },
+        { "t": "Que Vítor seja solto ao completar 90 dias de prisão, prazo máximo da preventiva.", "p": "extrapolacao", "w": "A lei não fixa prazo máximo para a preventiva; exige revisão periódica da sua necessidade, e a prisão pode ser mantida por decisão fundamentada." },
+        { "t": "Que o órgão que decretou a prisão revise sua necessidade a cada 90 dias, de ofício e por decisão fundamentada.", "p": "correta", "w": "Art. 316, parágrafo único: decretada a preventiva, o órgão emissor da decisão deve revisar a necessidade de sua manutenção a cada 90 dias, mediante decisão fundamentada, de ofício." }
+      ]
+    },
+    {
+      "id": "dpp21",
+      "topic": "Prisão temporária",
+      "c": "A Polícia Civil de Manaus (AM) investiga dois casos: um roubo cometido mediante grave ameaça, sem arma, e um estupro, que é crime hediondo. Em ambos, a delegada representará pela prisão temporária dos suspeitos.",
+      "q": "Quais são os prazos máximos dessas prisões temporárias?",
+      "a": 0,
+      "src": "Lei 7.960/89, art. 2º; Lei 8.072/90, art. 2º, §4º",
+      "o": [
+        { "t": "Roubo: 5 dias, prorrogáveis por mais 5; estupro: 30 dias, prorrogáveis por mais 30, havendo extrema e comprovada necessidade.", "p": "correta", "w": "Lei 7.960/89, art. 2º: 5 dias, prorrogáveis por igual período em caso de extrema e comprovada necessidade. Nos hediondos e equiparados, 30 + 30 (Lei 8.072/90, art. 2º, §4º)." },
+        { "t": "Roubo: 10 dias; estupro: 30 dias; ambos improrrogáveis.", "p": "calculo", "w": "Mistura prazos: 10 dias é o prazo do inquérito com indiciado preso (CPP, art. 10). A temporária é de 5 + 5 dias, ou 30 + 30 nos hediondos, e admite prorrogação." },
+        { "t": "5 dias, prorrogáveis por mais 5, nos dois casos, pois a Lei 7.960/89 fixa prazo único para qualquer crime.", "p": "generalizacao", "w": "A Lei 8.072/90 traz prazo próprio para hediondos e equiparados: 30 dias, prorrogáveis por igual período." },
+        { "t": "Ambas duram até a sentença, como a prisão preventiva.", "p": "troca", "w": "Confunde temporária com preventiva. A temporária tem prazo certo e, vencido, o preso deve ser solto independentemente de nova ordem, salvo prorrogação ou preventiva (Lei 7.960/89, art. 2º, §7º)." }
+      ]
+    },
+    {
+      "id": "dpp22",
+      "topic": "Cautelares diversas",
+      "c": "Em Ribeirão Preto (SP), Fernanda, acusada de ameaçar repetidamente a ex-sócia, tem residência e emprego fixos. O juiz entende que a prisão é desnecessária, mas quer afastá-la da vítima e controlar suas saídas à noite.",
+      "q": "Quais medidas do CPP atendem a esse objetivo?",
+      "a": 1,
+      "src": "CPP, arts. 282, §1º, 318 e 319, III e V",
+      "o": [
+        { "t": "Nenhuma, pois as cautelares diversas da prisão só se aplicam a quem já foi condenado.", "p": "restricao", "w": "As cautelares do art. 319 são medidas processuais, aplicáveis durante a investigação ou o processo, antes de qualquer condenação (art. 282)." },
+        { "t": "Proibição de manter contato com a vítima e recolhimento domiciliar no período noturno, cumulativamente.", "p": "correta", "w": "Art. 319, III e V: proibição de contato com pessoa determinada e recolhimento domiciliar noturno e nos dias de folga, para quem tem residência e trabalho fixos. O art. 282, §1º, admite aplicação isolada ou cumulativa." },
+        { "t": "Apenas uma delas, pois o juiz nunca pode cumular cautelares diversas da prisão.", "p": "generalizacao", "w": "O art. 282, §1º, permite aplicar as medidas cautelares isolada ou cumulativamente." },
+        { "t": "Prisão domiciliar, que é a cautelar prevista para quem tem residência fixa.", "p": "troca", "w": "A prisão domiciliar substitui a preventiva nas hipóteses do art. 318, como idade avançada, doença grave ou filhos pequenos; não é a medida para afastar alguém da vítima." }
+      ]
+    },
+    {
+      "id": "dpp23",
+      "topic": "Fiança policial",
+      "c": "Em uma delegacia de Florianópolis (SC), Rodrigo foi autuado em flagrante por apropriação indébita simples, crime com pena de 1 a 4 anos de reclusão. O advogado pede ao delegado que arbitre fiança imediatamente.",
+      "q": "O delegado pode conceder fiança?",
+      "a": 2,
+      "src": "CPP, arts. 322 e 323; CP, art. 168",
+      "o": [
+        { "t": "Sim, mas apenas se Rodrigo for primário e comprovar residência fixa.", "p": "restricao", "w": "O art. 322 não traz esses requisitos para a fiança policial; o critério é a pena máxima não superior a 4 anos, ressalvadas as vedações legais." },
+        { "t": "Não, porque a fiança é sempre decidida pelo juiz, na audiência de custódia.", "p": "generalizacao", "w": "A lei atribui ao delegado a fiança nas infrações com pena máxima de até 4 anos (art. 322); nos demais casos, ela é requerida ao juiz, que decide em 48 horas." },
+        { "t": "Sim, pois a pena máxima da apropriação indébita simples não é superior a 4 anos.", "p": "correta", "w": "Art. 322: a autoridade policial somente poderá conceder fiança nos casos de infração cuja pena privativa de liberdade máxima não seja superior a 4 anos. A apropriação indébita simples (CP, art. 168) não está entre os crimes inafiançáveis do art. 323." },
+        { "t": "Não, pois a fiança policial só cabe nas infrações de menor potencial ofensivo, com pena máxima de até 2 anos.", "p": "troca", "w": "Confunde com o conceito de menor potencial ofensivo (Lei 9.099/95, art. 61). O limite da fiança policial é a pena máxima não superior a 4 anos (art. 322)." }
+      ]
+    },
+    {
+      "id": "dpp24",
+      "topic": "Princípio do prejuízo",
+      "c": "Em um processo por furto em Petrolina (PE), o réu foi intimado da audiência de instrução por mandado com erro no endereço, mas soube da data pelo advogado, compareceu e participou de todo o ato.",
+      "q": "A defesa pode obter a anulação da audiência por esse vício?",
+      "a": 3,
+      "src": "CPP, arts. 563 e 570",
+      "o": [
+        { "t": "Sim, pois todo vício de intimação gera nulidade absoluta, que dispensa prova de prejuízo.", "p": "generalizacao", "w": "O CPP considera sanada a falta ou nulidade da intimação quando o interessado comparece (art. 570), e nenhum ato é anulado sem prejuízo (art. 563)." },
+        { "t": "Sim, desde que a defesa aponte o vício antes do trânsito em julgado da sentença.", "p": "restricao", "w": "Não basta arguir a tempo: o comparecimento sanou o vício (art. 570), e sem prejuízo não há nulidade (art. 563)." },
+        { "t": "Sim, e cabe ao Ministério Público provar que o réu não sofreu prejuízo.", "p": "inversao", "w": "Inverte a lógica do art. 563: a nulidade depende de prejuízo, e não há prejuízo a presumir quando o réu compareceu e participou do ato." },
+        { "t": "Não, pois o vício foi sanado com o comparecimento do réu e dele não resultou prejuízo à defesa.", "p": "correta", "w": "Art. 570: a falta ou nulidade da intimação fica sanada se o interessado comparece. Art. 563: nenhum ato será declarado nulo se da nulidade não resultar prejuízo para a acusação ou para a defesa." }
+      ]
+    },
+    {
+      "id": "dpp25",
+      "topic": "Recurso em sentido estrito",
+      "c": "Em São Luís (MA), o juiz rejeitou a denúncia oferecida pelo Ministério Público contra um acusado de apropriação indébita. A promotora quer recorrer.",
+      "q": "Qual recurso cabe e em que prazo?",
+      "a": 0,
+      "src": "CPP, arts. 581, I, e 586",
+      "o": [
+        { "t": "Recurso em sentido estrito, no prazo de 5 dias.", "p": "correta", "w": "Art. 581, I: cabe recurso em sentido estrito da decisão que não receber a denúncia ou a queixa. Art. 586: o prazo de interposição é de 5 dias." },
+        { "t": "Apelação, no prazo de 5 dias, por se tratar de decisão que encerra o processo.", "p": "troca", "w": "A apelação do art. 593, II, cabe nos casos não previstos para o RESE; a rejeição da denúncia tem recurso próprio no art. 581, I." },
+        { "t": "Recurso em sentido estrito, no prazo de 15 dias.", "p": "calculo", "w": "O prazo de interposição do recurso em sentido estrito é de 5 dias (art. 586)." },
+        { "t": "Nenhum, pois as decisões sobre o recebimento da denúncia são sempre irrecorríveis.", "p": "generalizacao", "w": "A decisão que rejeita a denúncia é expressamente impugnável por recurso em sentido estrito (art. 581, I)." }
+      ]
+    },
+    {
+      "id": "dpp26",
+      "topic": "Embargos de declaração",
+      "c": "A sentença que condenou Patrícia por estelionato em Brasília (DF) não analisou o pedido da defesa de substituição da pena por restritivas de direitos. O advogado quer que o próprio juiz supra a omissão.",
+      "q": "Qual é o meio adequado e o prazo?",
+      "a": 1,
+      "src": "CPP, art. 382; Lei 9.099/95, art. 83, §1º",
+      "o": [
+        { "t": "Embargos de declaração, no prazo de 5 dias.", "p": "calculo", "w": "No CPP, os embargos de declaração contra sentença são opostos em 2 dias (art. 382). O prazo de 5 dias é o dos Juizados Especiais Criminais (Lei 9.099/95, art. 83, §1º)." },
+        { "t": "Embargos de declaração, no prazo de 2 dias, para sanar a omissão.", "p": "correta", "w": "Art. 382: qualquer das partes pode, em 2 dias, pedir ao juiz que declare a sentença quando nela houver obscuridade, ambiguidade, contradição ou omissão." },
+        { "t": "Embargos infringentes, no prazo de 10 dias.", "p": "troca", "w": "Embargos infringentes cabem contra acórdão não unânime de segunda instância desfavorável ao réu (art. 609, parágrafo único), não contra sentença omissa." },
+        { "t": "Apenas apelação, pois a omissão da sentença não pode ser corrigida pelo próprio juiz.", "p": "restricao", "w": "O CPP prevê justamente que o juiz declare a sentença omissa, por meio dos embargos de declaração (art. 382); a apelação continua disponível depois." }
+      ]
+    },
+    {
+      "id": "dpp27",
+      "topic": "Habeas corpus",
+      "c": "Em Goiânia (GO), Sandra, que não é advogada, descobriu que o irmão continua preso além do prazo que a lei permite, sem que ninguém tenha pedido sua soltura.",
+      "q": "Assinale a alternativa correta.",
+      "a": 2,
+      "src": "CPP, arts. 648, II, e 654; CF/88, art. 5º, LXVIII e LXXVII",
+      "o": [
+        { "t": "Sandra só pode impetrar habeas corpus por meio de advogado constituído.", "p": "restricao", "w": "O HC pode ser impetrado por qualquer pessoa, em seu favor ou de outrem (art. 654), e sua impetração não é atividade privativa da advocacia (Lei 8.906/94, art. 1º, §1º)." },
+        { "t": "O meio adequado é o mandado de segurança, por haver direito líquido e certo à soltura.", "p": "troca", "w": "O mandado de segurança protege direito líquido e certo não amparado por habeas corpus (CF/88, art. 5º, LXIX). A liberdade de locomoção é tutelada pelo HC." },
+        { "t": "Sandra pode impetrar habeas corpus em favor do irmão, pois é coação ilegal manter alguém preso além do prazo legal.", "p": "correta", "w": "Art. 654: qualquer pessoa pode impetrar HC em favor de outrem. Art. 648, II: a coação é ilegal quando alguém estiver preso por mais tempo do que determina a lei." },
+        { "t": "Sandra pode impetrar habeas corpus, mas deve pagar custas, devolvidas se a ordem for concedida.", "p": "extrapolacao", "w": "As ações de habeas corpus são gratuitas por determinação constitucional (CF/88, art. 5º, LXXVII)." }
+      ]
+    },
+    {
+      "id": "dpp28",
+      "topic": "Remição da pena",
+      "c": "Na penitenciária de Chapecó (SC), Wellington, em regime fechado, trabalhou 90 dias na cozinha e, em outro período, frequentou 120 horas de aulas do ensino médio, distribuídas ao longo de vários dias.",
+      "q": "Quantos dias de pena ele pode remir?",
+      "a": 3,
+      "src": "Lei 7.210/84 (LEP), art. 126, caput e §1º",
+      "o": [
+        { "t": "30 dias, pois no regime fechado só o trabalho gera remição.", "p": "restricao", "w": "O estudo também gera remição no regime fechado (art. 126, caput e §1º, I): as 120 horas valem mais 10 dias." },
+        { "t": "60 dias: 30 pelo trabalho e 30 pelo estudo, à razão de 1 dia a cada 4 horas de aula.", "p": "calculo", "w": "Erra a conta do estudo: é 1 dia a cada 12 horas de frequência escolar (art. 126, §1º, I). 120 horas geram 10 dias, e não 30." },
+        { "t": "Nenhum, pois a remição por trabalho ou estudo é exclusiva do regime aberto.", "p": "inversao", "w": "É o contrário: o art. 126 assegura a remição por trabalho ou estudo a quem cumpre pena em regime fechado ou semiaberto." },
+        { "t": "40 dias: 30 pelo trabalho (1 a cada 3 dias) e 10 pelo estudo (1 a cada 12 horas).", "p": "correta", "w": "Art. 126, §1º: 1 dia de pena a cada 12 horas de frequência escolar, divididas no mínimo em 3 dias, e 1 dia a cada 3 dias de trabalho. 90 ÷ 3 = 30; 120 ÷ 12 = 10." }
+      ]
+    },
+    {
+      "id": "dpp29",
+      "type": "ce",
+      "topic": "Inquérito e representação",
+      "src": "CPP, art. 5º, §4º; CP, art. 147, §2º",
+      "c": "Em Pelotas (RS), Jorge foi ameaçado de morte pelo vizinho durante uma discussão sobre barulho. Na delegacia, contou o fato, mas disse que ainda não decidiu se quer ver o vizinho processado.",
+      "q": "Nesse caso, o delegado não pode instaurar inquérito policial enquanto Jorge não oferecer representação.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 5º, §4º: o inquérito, nos crimes em que a ação pública depender de representação, não poderá sem ela ser iniciado. A ameaça entre vizinhos depende de representação (CP, art. 147, §2º)." },
+        { "t": "Errado", "p": "generalizacao", "w": "Julgar errado supõe que o delegado sempre pode agir de ofício. Nos crimes de ação pública condicionada, a representação é condição até para iniciar o inquérito." }
+      ]
+    },
+    {
+      "id": "dpp30",
+      "type": "ce",
+      "topic": "Arquivamento e vítima",
+      "src": "CPP, art. 28, caput e §1º (Lei 13.964/2019)",
+      "c": "O Ministério Público de Curitiba (PR) decidiu arquivar o inquérito que apurava o furto na loja de Sílvia e a comunicou da decisão. Sílvia discorda e quer contestar o arquivamento.",
+      "q": "Pela redação vigente do CPP, Sílvia pode, no prazo de 30 dias do recebimento da comunicação, submeter a matéria à revisão da instância competente do órgão ministerial.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 28, §1º: se a vítima, ou seu representante legal, não concordar com o arquivamento, poderá, em 30 dias do recebimento da comunicação, submeter a matéria à revisão da instância competente do órgão ministerial." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado supõe que a vítima não teria meio de contestar o arquivamento. O art. 28, §1º, garante a ela esse pedido de revisão, no prazo de 30 dias." }
+      ]
+    },
+    {
+      "id": "dpp31",
+      "type": "ce",
+      "topic": "Retratação da representação",
+      "src": "CPP, art. 25; CP, art. 102",
+      "c": "Em Santos (SP), Otávio representou contra o colega que o ameaçou no trabalho. O promotor ofereceu a denúncia e, semanas depois, Otávio quis retirar a representação.",
+      "q": "A representação é retratável até a sentença de primeiro grau, de modo que a retratação de Otávio impede o prosseguimento da ação.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo troca o marco legal: a retratação só é possível até o oferecimento da denúncia, e não até a sentença." },
+        { "t": "Errado", "p": "correta", "w": "Art. 25 do CPP e art. 102 do CP: a representação é irretratável depois de oferecida a denúncia. Como a denúncia já foi oferecida, a ação prossegue." }
+      ]
+    },
+    {
+      "id": "dpp32",
+      "type": "ce",
+      "topic": "ANPP e pena mínima",
+      "src": "CPP, art. 28-A, caput; CP, art. 298",
+      "c": "Em Belo Horizonte (MG), Renato, primário, confessou formal e circunstancialmente ter falsificado um contrato particular, crime sem violência ou grave ameaça, com pena de 1 a 5 anos de reclusão.",
+      "q": "Como a pena máxima supera 4 anos, o Ministério Público não pode propor acordo de não persecução penal a Renato.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo troca o critério da lei: o art. 28-A considera a pena mínima inferior a 4 anos, e não a pena máxima." },
+        { "t": "Errado", "p": "correta", "w": "Art. 28-A, caput: cabe ANPP em infração sem violência ou grave ameaça com pena mínima inferior a 4 anos, havendo confissão formal e circunstanciada. Na falsificação de documento particular, a mínima é de 1 ano." }
+      ]
+    },
+    {
+      "id": "dpp33",
+      "type": "ce",
+      "topic": "Estelionato por PIX",
+      "src": "CPP, art. 70, §4º (Lei 14.155/2021)",
+      "c": "Moradora de Natal (RN), Beatriz caiu em um golpe de falso leilão e fez um PIX para uma conta aberta em São Paulo (SP), onde o golpista sacou o dinheiro.",
+      "q": "Nesse estelionato praticado mediante transferência de valores, a competência é definida pelo local do domicílio da vítima, ou seja, Natal.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 70, §4º: nos crimes do art. 171 do CP praticados mediante depósito, cheque sem fundos ou transferência de valores, a competência é do domicílio da vítima; havendo várias vítimas, firma-se pela prevenção." },
+        { "t": "Errado", "p": "generalizacao", "w": "Julgar errado aplica a todo caso a regra geral do lugar da consumação, mas a lei criou regra especial para esse tipo de estelionato." }
+      ]
+    },
+    {
+      "id": "dpp34",
+      "type": "ce",
+      "topic": "Valor do inquérito",
+      "src": "CPP, art. 155",
+      "c": "Em Ponta Grossa (PR), uma testemunha disse ao delegado ter visto Hugo arrombar um carro. Em juízo, ela não foi localizada, e nenhuma outra prova foi produzida sobre a autoria.",
+      "q": "O juiz pode condenar Hugo com base exclusivamente nesse depoimento colhido no inquérito, desde que o considere coerente e verossímil.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "extrapolacao", "w": "Julgar certo estende o valor dos elementos do inquérito além do que a lei permite: sozinhos, eles não sustentam condenação." },
+        { "t": "Errado", "p": "correta", "w": "Art. 155: o juiz forma sua convicção pela prova produzida em contraditório judicial e não pode fundamentar a decisão exclusivamente nos elementos informativos da investigação, ressalvadas as provas cautelares, não repetíveis e antecipadas." }
+      ]
+    },
+    {
+      "id": "dpp35",
+      "type": "ce",
+      "topic": "Remoção de vestígios",
+      "src": "CPP, art. 158-C, caput e §2º",
+      "c": "Em um local de crime em Salvador (BA), já isolado pela Polícia Militar, um investigador recolheu cápsulas de munição do chão e as levou para a delegacia antes de a perícia liberar o local.",
+      "q": "O CPP proíbe a remoção de vestígios de locais de crime antes da liberação pelo perito responsável e tipifica essa conduta como fraude processual.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 158-C, §2º: é proibida a entrada em locais isolados e a remoção de quaisquer vestígios antes da liberação pelo perito responsável, sendo tipificada como fraude processual a sua realização. A coleta cabe preferencialmente ao perito oficial (caput)." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado supõe que a proibição só alcançaria particulares, e não policiais. O art. 158-C, §2º, veda a remoção de quaisquer vestígios por qualquer pessoa antes da liberação pelo perito." }
+      ]
+    },
+    {
+      "id": "dpp36",
+      "type": "ce",
+      "topic": "Temporária de ofício",
+      "src": "Lei 7.960/89, art. 2º",
+      "c": "Durante o inquérito sobre uma extorsão mediante sequestro em Fortaleza (CE), o juiz, ao analisar um pedido de busca, decidiu por conta própria decretar também a prisão temporária do principal suspeito, sem pedido da polícia ou do MP.",
+      "q": "A prisão temporária pode ser decretada de ofício pelo juiz, desde que durante o inquérito policial.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "extrapolacao", "w": "Julgar certo atribui ao juiz um poder que a lei não lhe dá: a temporária depende de provocação da polícia ou do Ministério Público." },
+        { "t": "Errado", "p": "correta", "w": "Lei 7.960/89, art. 2º: a prisão temporária é decretada pelo juiz em face de representação da autoridade policial ou de requerimento do Ministério Público. Não há decretação de ofício." }
+      ]
+    },
+    {
+      "id": "dpp37",
+      "type": "ce",
+      "topic": "Crimes inafiançáveis",
+      "src": "CPP, art. 323, I e II; CF/88, art. 5º, XLII e XLIII",
+      "c": "Em Palmas (TO), três presos em flagrante aguardam decisão judicial: um por tráfico de drogas, outro por tortura e o terceiro por crime de racismo.",
+      "q": "Pelo CPP, os três crimes são inafiançáveis, de modo que nenhum dos presos pode obter liberdade mediante fiança.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 323, I e II: não será concedida fiança nos crimes de racismo, tortura, tráfico ilícito de entorpecentes, terrorismo e hediondos, em linha com a CF/88, art. 5º, XLII e XLIII. Vedada é a fiança; a liberdade provisória sem fiança segue o art. 321." },
+        { "t": "Errado", "p": "troca", "w": "Julgar errado ignora o rol expresso do art. 323, que inclui racismo, tortura e tráfico entre os crimes inafiançáveis." }
+      ]
+    },
+    {
+      "id": "dpp38",
+      "type": "ce",
+      "topic": "Defesa deficiente",
+      "src": "STF, Súmula 523; CPP, art. 563",
+      "c": "Em Rio Branco (AC), Edson foi condenado por roubo. No recurso, alega que o defensor dativo apresentou alegações finais curtas e genéricas, mas não aponta qual prejuízo isso lhe causou.",
+      "q": "No processo penal, a deficiência da defesa técnica gera nulidade absoluta, que dispensa a demonstração de prejuízo ao réu.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo confunde falta de defesa, que gera nulidade absoluta, com defesa deficiente, que só anula o processo se houver prova de prejuízo." },
+        { "t": "Errado", "p": "correta", "w": "Súmula 523 do STF: no processo penal, a falta da defesa constitui nulidade absoluta, mas a sua deficiência só o anulará se houver prova de prejuízo para o réu, em linha com o art. 563 do CPP." }
+      ]
+    },
+    {
+      "id": "dpp39",
+      "type": "ce",
+      "topic": "Apelação no júri",
+      "src": "CPP, art. 593, III, d, e §3º; CF/88, art. 5º, XXXVIII, c",
+      "c": "Em Caruaru (PE), o Conselho de Sentença condenou Rui por homicídio, embora as provas mostrassem que ele estava em outra cidade no dia do crime. A defesa apelou alegando decisão manifestamente contrária à prova dos autos, e o tribunal deu provimento.",
+      "q": "Nesse caso, Rui será submetido a novo julgamento pelo júri, e não se admite, pelo mesmo motivo, segunda apelação.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 593, III, d, e §3º: se a decisão dos jurados for manifestamente contrária à prova dos autos, o tribunal dá provimento para sujeitar o réu a novo julgamento; não se admite, pelo mesmo motivo, segunda apelação." },
+        { "t": "Errado", "p": "troca", "w": "Julgar errado supõe que o tribunal poderia absolver Rui diretamente. Pela soberania dos veredictos, ele apenas manda o réu a novo júri, e a segunda apelação pelo mesmo motivo é vedada." }
+      ]
+    },
+    {
+      "id": "dpp40",
+      "type": "ce",
+      "topic": "Falta grave e remição",
+      "src": "Lei 7.210/84 (LEP), art. 127",
+      "c": "Em Montes Claros (MG), Alan tinha 60 dias de pena remidos pelo trabalho quando foi punido por falta grave, reconhecida em procedimento disciplinar.",
+      "q": "Pela LEP, a falta grave obriga o juiz a revogar a totalidade dos 60 dias remidos.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "generalizacao", "w": "Julgar certo transforma em perda total e obrigatória o que a lei limita a até 1/3 do tempo remido." },
+        { "t": "Errado", "p": "correta", "w": "LEP, art. 127: em caso de falta grave, o juiz poderá revogar até 1/3 do tempo remido, recomeçando a contagem a partir da data da infração disciplinar. No caso, a perda máxima é de 20 dias." }
+      ]
+    }
+  ]
+}

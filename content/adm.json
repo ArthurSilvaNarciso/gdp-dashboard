@@ -1,0 +1,1101 @@
+{
+  "id": "adm",
+  "title": "Administração Pública",
+  "subtitle": "Gestão, planejamento, pessoas e atendimento",
+  "tag": "Concursos",
+  "blurb": "PODC, planejamento, BSC, modelos de gestão pública, motivação, liderança e atendimento ao cidadão em casos reais de órgãos públicos.",
+  "questions": [
+    {
+      "id": "adm1",
+      "topic": "PODC: controle",
+      "c": "Na Secretaria Municipal de Saúde de Campinas, a coordenadora compara todo mês o número de consultas realizadas com a meta do plano anual e, quando há desvio, determina ajustes na escala das unidades.",
+      "q": "Essa atividade corresponde a qual função administrativa?",
+      "a": 0,
+      "src": "Chiavenato, Introdução à Teoria Geral da Administração (processo administrativo: PODC)",
+      "o": [
+        {
+          "t": "Controle, que mede o desempenho, compara com os padrões fixados e corrige os desvios.",
+          "p": "correta",
+          "w": "No processo administrativo (PODC), controlar é acompanhar os resultados, compará-los com o planejado e agir para corrigir os desvios."
+        },
+        {
+          "t": "Planejamento, porque a meta de consultas foi definida no plano anual.",
+          "p": "troca",
+          "w": "A meta nasceu no planejamento, mas a atividade descrita é medir o realizado e corrigir desvios, o que caracteriza o controle."
+        },
+        {
+          "t": "Organização, pois qualquer ajuste de escala de pessoal é sempre tarefa de organizar.",
+          "p": "generalizacao",
+          "w": "Organizar é estruturar tarefas, recursos e autoridade. Aqui o ajuste decorre da comparação entre realizado e meta, típica do controle."
+        },
+        {
+          "t": "Direção, porque quem determina ajustes exerce liderança e, por isso, não está controlando.",
+          "p": "extrapolacao",
+          "w": "Dar orientações pode ocorrer em várias funções. O núcleo da atividade, comparar resultado com padrão e corrigir, é o controle."
+        }
+      ]
+    },
+    {
+      "id": "adm2",
+      "topic": "PODC: direção",
+      "c": "Ao assumir a chefia de uma agência do INSS em Recife, Paula passou a reunir a equipe toda semana, explicar as prioridades, orientar os servidores novos e reconhecer publicamente os bons resultados.",
+      "q": "Essas ações caracterizam principalmente qual função administrativa?",
+      "a": 2,
+      "src": "Chiavenato, Introdução à Teoria Geral da Administração (funções administrativas: direção)",
+      "o": [
+        {
+          "t": "Organização, que consiste em motivar e orientar as pessoas no dia a dia do trabalho.",
+          "p": "troca",
+          "w": "Organizar é dividir o trabalho, agrupar atividades e alocar recursos. Motivar e orientar pessoas é próprio da direção."
+        },
+        {
+          "t": "Planejamento, pois toda reunião com a equipe é atividade de planejamento.",
+          "p": "generalizacao",
+          "w": "Reuniões podem servir a qualquer função. Aqui o foco é orientar, comunicar e motivar, o que é direção."
+        },
+        {
+          "t": "Direção, que envolve liderar, comunicar, orientar e motivar as pessoas para executar o planejado.",
+          "p": "correta",
+          "w": "Dirigir é a função de conduzir as pessoas: comunicar, liderar e motivar para que o planejado aconteça."
+        },
+        {
+          "t": "Direção, mas só quando exercida pela alta administração, e não por chefias de unidade.",
+          "p": "restricao",
+          "w": "A direção ocorre em todos os níveis: na alta administração, na gerência intermediária e na supervisão das equipes operacionais."
+        }
+      ]
+    },
+    {
+      "id": "adm3",
+      "topic": "Níveis de planejamento",
+      "c": "O Tribunal Regional Eleitoral da Bahia aprovou seu plano estratégico de seis anos. A partir dele, a Secretaria de Gestão de Pessoas elaborou um plano de dois anos para a sua área, com metas de capacitação e de redistribuição de servidores.",
+      "q": "O plano da Secretaria de Gestão de Pessoas é de que nível?",
+      "a": 1,
+      "src": "Chiavenato, Administração: Teoria, Processo e Prática (níveis de planejamento)",
+      "o": [
+        {
+          "t": "Estratégico, porque qualquer plano com prazo superior a um ano é estratégico.",
+          "p": "generalizacao",
+          "w": "O prazo é só um indício. O plano estratégico abrange a organização inteira e é definido pela alta administração; este cobre uma área."
+        },
+        {
+          "t": "Tático, pois desdobra a estratégia para uma área específica, em médio prazo, sob responsabilidade do nível intermediário.",
+          "p": "correta",
+          "w": "O planejamento tático traduz o estratégico para cada departamento ou área, em prazo médio, e cabe à gerência intermediária."
+        },
+        {
+          "t": "Operacional, pois detalha as tarefas e rotinas diárias de cada servidor da secretaria.",
+          "p": "troca",
+          "w": "O operacional é de curto prazo e detalha tarefas e procedimentos. O plano descrito fixa metas de uma área para dois anos."
+        },
+        {
+          "t": "Tático, que é elaborado antes do estratégico e serve de base para ele.",
+          "p": "inversao",
+          "w": "A ordem é a inversa: o tático desdobra o estratégico, que vem primeiro e orienta os demais níveis."
+        }
+      ]
+    },
+    {
+      "id": "adm4",
+      "topic": "Análise SWOT",
+      "c": "Na análise SWOT da Junta Comercial do Paraná, a equipe listou: equipe de TI qualificada, sistema de protocolo antigo e lento, nova lei federal que facilita o registro digital de empresas e crise econômica que reduz a abertura de empresas no estado.",
+      "q": "Assinale a classificação correta.",
+      "a": 3,
+      "src": "Chiavenato e Sapiro, Planejamento Estratégico: Fundamentos e Aplicações (matriz SWOT)",
+      "o": [
+        {
+          "t": "A nova lei é uma força, pois beneficia diretamente o órgão.",
+          "p": "troca",
+          "w": "Força é característica interna. A lei vem do ambiente externo e, por favorecer o órgão, é oportunidade."
+        },
+        {
+          "t": "O sistema lento é uma ameaça e a crise econômica é uma fraqueza.",
+          "p": "inversao",
+          "w": "Inverte as dimensões: o sistema é interno (fraqueza) e a crise é externa (ameaça)."
+        },
+        {
+          "t": "Os quatro itens são internos, pois qualquer fator que afeta o órgão integra o ambiente interno.",
+          "p": "generalizacao",
+          "w": "A SWOT separa ambiente interno (forças e fraquezas) de externo (oportunidades e ameaças). Lei e crise econômica são externas."
+        },
+        {
+          "t": "Equipe de TI é força; sistema lento é fraqueza; nova lei é oportunidade; crise econômica é ameaça.",
+          "p": "correta",
+          "w": "Forças e fraquezas são internas, sob controle do órgão; oportunidades e ameaças vêm do ambiente externo, favorável ou desfavorável."
+        }
+      ]
+    },
+    {
+      "id": "adm5",
+      "topic": "Balanced Scorecard",
+      "c": "A Receita Estadual do Rio Grande do Sul montou seu Balanced Scorecard e incluiu o indicador “horas de capacitação por servidor ao ano”, ao lado de metas de arrecadação, satisfação do contribuinte e tempo de análise de processos.",
+      "q": "Na formulação original de Kaplan e Norton, esse indicador pertence a qual perspectiva?",
+      "a": 1,
+      "src": "Kaplan e Norton, A Estratégia em Ação: Balanced Scorecard (1997)",
+      "o": [
+        {
+          "t": "Processos internos, porque a capacitação acontece dentro do órgão.",
+          "p": "troca",
+          "w": "Processos internos medem as operações, como o tempo de análise. Capacitação de pessoas pertence ao aprendizado e crescimento."
+        },
+        {
+          "t": "Aprendizado e crescimento, que trata de pessoas, sistemas e capacidade de inovar.",
+          "p": "correta",
+          "w": "O BSC tem quatro perspectivas: financeira, clientes, processos internos e aprendizado e crescimento. Capacitação de pessoas é a base desta última."
+        },
+        {
+          "t": "Nenhuma, pois o BSC só admite indicadores financeiros e de clientes.",
+          "p": "restricao",
+          "w": "O BSC nasceu para equilibrar indicadores financeiros com outros três grupos: clientes, processos internos e aprendizado e crescimento."
+        },
+        {
+          "t": "Clientes, pois todo investimento em servidor acaba melhorando o atendimento ao contribuinte.",
+          "p": "extrapolacao",
+          "w": "Pode até haver esse efeito, mas a perspectiva de clientes mede satisfação e resultados para o público. Capacitação é aprendizado e crescimento."
+        }
+      ]
+    },
+    {
+      "id": "adm6",
+      "topic": "Ciclo PDCA",
+      "c": "Uma unidade do Poupatempo em Sorocaba implantou uma nova triagem para reduzir filas. Após um mês, a equipe mediu o tempo médio de espera e o comparou com a meta de 20 minutos definida no planejamento.",
+      "q": "A medição e a comparação correspondem a qual etapa do ciclo PDCA?",
+      "a": 0,
+      "src": "Ciclo PDCA (Shewhart e Deming): Plan, Do, Check, Act",
+      "o": [
+        {
+          "t": "Check (verificar), em que se comparam os resultados obtidos com as metas planejadas.",
+          "p": "correta",
+          "w": "Depois de planejar (Plan) e executar (Do), verifica-se (Check) se o resultado atingiu a meta, para então agir (Act)."
+        },
+        {
+          "t": "Act (agir), etapa em que se mede o resultado e se compara com a meta.",
+          "p": "troca",
+          "w": "No Act se padroniza o que deu certo ou se corrigem as falhas encontradas. Medir e comparar é o Check."
+        },
+        {
+          "t": "Do (executar), porque a verificação ocorre antes da execução da mudança.",
+          "p": "inversao",
+          "w": "A ordem é planejar, executar, verificar e agir. A verificação vem depois da execução, nunca antes."
+        },
+        {
+          "t": "Plan (planejar), pois tudo o que envolve metas pertence sempre ao planejamento.",
+          "p": "generalizacao",
+          "w": "A meta foi fixada no Plan, mas comparar o realizado com ela é tarefa do Check."
+        }
+      ]
+    },
+    {
+      "id": "adm7",
+      "topic": "Ferramenta 5W2H",
+      "c": "A Defensoria Pública do Ceará elaborou um plano de ação para digitalizar processos antigos. O documento define o que será feito, por que, onde, quando, quem fará e como, mas a chefia o devolveu dizendo que falta um item do 5W2H.",
+      "q": "Qual item está faltando?",
+      "a": 3,
+      "src": "Ferramenta 5W2H (plano de ação): What, Why, Where, When, Who, How, How much",
+      "o": [
+        {
+          "t": "Who: quem será o responsável pela ação.",
+          "p": "troca",
+          "w": "O responsável já está no plano (“quem fará”). O item que falta é o custo, o How much."
+        },
+        {
+          "t": "Nenhum, pois o 5W2H tem seis itens e todos já estão no plano.",
+          "p": "calculo",
+          "w": "Erro de contagem: são cinco W e dois H, sete itens. O plano tem seis e falta o How much."
+        },
+        {
+          "t": "Uma análise de riscos e um indicador de resultado, exigidos pelo 5W2H.",
+          "p": "extrapolacao",
+          "w": "O 5W2H não inclui análise de riscos nem indicadores. Seus sete itens respondem às perguntas básicas do plano, e falta o custo."
+        },
+        {
+          "t": "How much: quanto a ação vai custar.",
+          "p": "correta",
+          "w": "O 5W2H reúne What, Why, Where, When, Who, How e How much. Com os seis primeiros presentes, falta o custo."
+        }
+      ]
+    },
+    {
+      "id": "adm8",
+      "topic": "Matriz GUT",
+      "c": "A ouvidoria de uma prefeitura em Goiás usou a matriz GUT, com notas de 1 a 5, para priorizar três problemas. A: G5, U5, T1. B: G3, U3, T4. C: G2, U4, T4.",
+      "q": "Qual problema deve ser tratado primeiro?",
+      "a": 2,
+      "src": "Matriz GUT (Kepner e Tregoe): prioridade = Gravidade x Urgência x Tendência",
+      "o": [
+        {
+          "t": "A, porque a soma das notas (11) é a maior.",
+          "p": "calculo",
+          "w": "A matriz GUT multiplica as notas, não as soma. Pelo produto, A fica com 25, abaixo de B (36) e C (32)."
+        },
+        {
+          "t": "A, pois o problema com gravidade máxima sempre vem primeiro.",
+          "p": "generalizacao",
+          "w": "Nenhum critério decide sozinho. A prioridade sai do produto G x U x T, e B tem o maior valor."
+        },
+        {
+          "t": "B, com 36 pontos, o maior produto entre os três.",
+          "p": "correta",
+          "w": "Na GUT multiplicam-se as notas: A = 5 x 5 x 1 = 25; B = 3 x 3 x 4 = 36; C = 2 x 4 x 4 = 32. B tem prioridade."
+        },
+        {
+          "t": "C, porque na GUT a urgência tem peso dobrado em relação às demais notas.",
+          "p": "restricao",
+          "w": "Os três critérios têm o mesmo peso. Sem pesos, C fica com 32 pontos, menos que os 36 de B."
+        }
+      ]
+    },
+    {
+      "id": "adm9",
+      "topic": "Eficiência, eficácia, efetividade",
+      "c": "A Secretaria de Saúde de Pernambuco avaliou a campanha de vacinação contra a gripe com três indicadores: custo por dose aplicada, percentual da meta de vacinados atingido e redução das internações por síndrome respiratória na população.",
+      "q": "O indicador de redução das internações mede principalmente qual dimensão do desempenho?",
+      "a": 2,
+      "src": "Chiavenato, Introdução à TGA; Ministério do Planejamento, Guia Referencial para Medição de Desempenho (2009)",
+      "o": [
+        {
+          "t": "Eficácia, pois mede o impacto da campanha sobre a saúde da população.",
+          "p": "troca",
+          "w": "Eficácia é atingir a meta proposta, como o percentual de vacinados. O impacto na sociedade é efetividade."
+        },
+        {
+          "t": "Eficiência, que mede os resultados finais na sociedade, enquanto a efetividade mede o custo por dose.",
+          "p": "inversao",
+          "w": "Inverte os conceitos: eficiência é a relação entre recursos e produtos, como o custo por dose; efetividade é o impacto social."
+        },
+        {
+          "t": "Efetividade, pois avalia o impacto da ação sobre a realidade da população.",
+          "p": "correta",
+          "w": "Efetividade é o impacto, a transformação produzida na sociedade. O custo por dose mede eficiência e o percentual da meta mede eficácia."
+        },
+        {
+          "t": "Os três indicadores medem a mesma coisa, pois os três termos são sinônimos na gestão pública.",
+          "p": "generalizacao",
+          "w": "São dimensões distintas: eficiência olha os meios, eficácia o alcance das metas e efetividade o impacto."
+        }
+      ]
+    },
+    {
+      "id": "adm10",
+      "topic": "Estrutura matricial",
+      "c": "Para implantar um novo sistema de licenciamento, o Detran de Santa Catarina montou uma equipe com servidores de TI, do jurídico e do atendimento. Eles respondem ao gerente do projeto nas tarefas do sistema, mas continuam subordinados aos chefes de seus departamentos.",
+      "q": "Que tipo de estrutura o Detran adotou?",
+      "a": 1,
+      "src": "Chiavenato, Administração: Teoria, Processo e Prática (estrutura matricial)",
+      "o": [
+        {
+          "t": "Linha e staff, porque o gerente do projeto atua como assessor dos departamentos.",
+          "p": "troca",
+          "w": "Staff é assessoria sem comando. Aqui o gerente dirige o trabalho da equipe e os servidores têm dois chefes, traço da matricial."
+        },
+        {
+          "t": "Matricial, que combina a departamentalização funcional com a de projetos e gera dupla subordinação.",
+          "p": "correta",
+          "w": "Na matricial, o servidor responde ao chefe da sua área funcional e ao gerente do projeto ao mesmo tempo."
+        },
+        {
+          "t": "Funcional pura, pois todo servidor que tem chefe de departamento integra estrutura funcional.",
+          "p": "generalizacao",
+          "w": "Na funcional pura cada um responde apenas à sua área. A dupla subordinação a projeto e departamento caracteriza a matricial."
+        },
+        {
+          "t": "Matricial, e por isso os chefes de departamento perdem toda autoridade sobre esses servidores.",
+          "p": "extrapolacao",
+          "w": "Na matricial a autoridade é compartilhada: o chefe funcional continua responsável pelo servidor, ao lado do gerente do projeto."
+        }
+      ]
+    },
+    {
+      "id": "adm11",
+      "topic": "Linha e staff",
+      "c": "Na Prefeitura de Belém, a assessoria de planejamento do gabinete recomendou reorganizar as rotas da coleta de lixo. O secretário de Serviços Urbanos analisou o estudo, discordou e manteve as rotas atuais.",
+      "q": "À luz da estrutura linha-staff, assinale a alternativa correta.",
+      "a": 0,
+      "src": "Chiavenato, Introdução à Teoria Geral da Administração (organização linha-staff)",
+      "o": [
+        {
+          "t": "A assessoria é órgão de staff: estuda e recomenda, mas a decisão cabe ao órgão de linha.",
+          "p": "correta",
+          "w": "Na linha-staff, a linha tem autoridade de comando sobre a execução; o staff presta assessoria especializada, sem dar ordens à linha."
+        },
+        {
+          "t": "A assessoria é órgão de linha e a secretaria é staff; por isso, o secretário deveria acatar a recomendação.",
+          "p": "inversao",
+          "w": "Inverte os papéis: a secretaria executa e decide sobre sua atividade (linha); a assessoria aconselha (staff)."
+        },
+        {
+          "t": "Recomendações do staff são sempre obrigatórias, pois vêm de especialistas.",
+          "p": "generalizacao",
+          "w": "O staff não tem autoridade de comando sobre a linha. Suas recomendações podem ou não ser acolhidas por quem decide."
+        },
+        {
+          "t": "A situação revela estrutura matricial, com dupla subordinação dos servidores da secretaria.",
+          "p": "troca",
+          "w": "Não há dupla subordinação no caso. Há um órgão que aconselha e outro que decide, típico da linha-staff."
+        }
+      ]
+    },
+    {
+      "id": "adm12",
+      "topic": "Departamentalização por clientela",
+      "c": "A Secretaria de Assistência Social de Salvador reorganizou suas unidades em três diretorias: atenção à criança e ao adolescente, atenção à pessoa idosa e atenção à pessoa com deficiência.",
+      "q": "Qual critério de departamentalização foi adotado?",
+      "a": 3,
+      "src": "Chiavenato, Administração: Teoria, Processo e Prática (tipos de departamentalização)",
+      "o": [
+        {
+          "t": "Geográfico, já que cada diretoria atende uma parte da população da cidade.",
+          "p": "troca",
+          "w": "A departamentalização geográfica agrupa por território, como regiões ou bairros. Aqui o critério é o tipo de público."
+        },
+        {
+          "t": "Por clientela, mas esse critério só pode ser usado por empresas privadas que vendem serviços.",
+          "p": "restricao",
+          "w": "Qualquer organização pode agrupar unidades pelo público atendido. Órgãos de assistência social fazem isso com frequência."
+        },
+        {
+          "t": "Funcional, pois toda secretaria pública se organiza sempre por funções.",
+          "p": "generalizacao",
+          "w": "Não há regra absoluta. A secretaria escolheu agrupar pelo público atendido, o que é departamentalização por clientela."
+        },
+        {
+          "t": "Por clientela, pois as unidades se agrupam conforme o público atendido.",
+          "p": "correta",
+          "w": "Departamentalizar por clientela é organizar as unidades em torno dos tipos de público, o que facilita atender necessidades específicas."
+        }
+      ]
+    },
+    {
+      "id": "adm13",
+      "topic": "Amplitude de controle",
+      "c": "Na reestruturação de um instituto estadual de previdência em Minas Gerais, cada coordenador passou de 5 para 12 subordinados diretos, e o número de níveis hierárquicos caiu de seis para quatro.",
+      "q": "O que ocorreu com a amplitude de controle e com a estrutura?",
+      "a": 3,
+      "src": "Chiavenato, Introdução à Teoria Geral da Administração (amplitude administrativa ou de controle)",
+      "o": [
+        {
+          "t": "A amplitude diminuiu e a estrutura ficou mais alta, com mais níveis hierárquicos.",
+          "p": "inversao",
+          "w": "É o oposto: mais subordinados por chefe significa amplitude maior e, em regra, menos níveis e estrutura mais achatada."
+        },
+        {
+          "t": "Houve centralização, pois amplitude de controle é o grau de concentração das decisões no topo.",
+          "p": "troca",
+          "w": "Confunde conceitos. Amplitude de controle é o número de subordinados por chefe; centralização trata de onde se tomam as decisões."
+        },
+        {
+          "t": "A amplitude aumentou, o que garante automaticamente decisões melhores e mais rápidas.",
+          "p": "extrapolacao",
+          "w": "Amplitude maior reduz níveis e pode agilizar a comunicação, mas não garante decisões melhores e ainda sobrecarrega a supervisão."
+        },
+        {
+          "t": "A amplitude aumentou e a estrutura ficou mais achatada, com menos níveis hierárquicos.",
+          "p": "correta",
+          "w": "Amplitude de controle é o número de subordinados por chefe. Quanto maior, menos níveis são necessários, e a estrutura fica mais achatada."
+        }
+      ]
+    },
+    {
+      "id": "adm14",
+      "topic": "Patrimonialismo",
+      "c": "Em uma cidade do interior do Maranhão, o prefeito nomeia parentes para cargos na prefeitura, usa veículos oficiais em viagens da família e trata a máquina pública como extensão de seus bens.",
+      "q": "Essas práticas são características de qual modelo de administração pública?",
+      "a": 0,
+      "src": "Plano Diretor da Reforma do Aparelho do Estado (1995): administração pública patrimonialista",
+      "o": [
+        {
+          "t": "Patrimonialista, marcado pela confusão entre o patrimônio público e o privado.",
+          "p": "correta",
+          "w": "No patrimonialismo o aparelho do Estado funciona como extensão do poder do governante; nepotismo e corrupção são inerentes a esse modelo."
+        },
+        {
+          "t": "Burocrático, que tem como traço central o nepotismo e o clientelismo.",
+          "p": "troca",
+          "w": "A burocracia weberiana surgiu justamente para combater essas práticas, com impessoalidade, mérito e separação entre público e privado."
+        },
+        {
+          "t": "Gerencial, já que o gestor tem liberdade ampla para usar os recursos públicos como achar melhor.",
+          "p": "extrapolacao",
+          "w": "O modelo gerencial dá mais autonomia ao gestor, mas com metas e controle de resultados, nunca o uso privado da coisa pública."
+        },
+        {
+          "t": "Nenhum, pois o patrimonialismo foi totalmente eliminado com a reforma burocrática dos anos 1930.",
+          "p": "generalizacao",
+          "w": "A reforma burocrática combateu o patrimonialismo, mas não o eliminou; práticas como o nepotismo persistem e ainda são combatidas."
+        }
+      ]
+    },
+    {
+      "id": "adm15",
+      "topic": "Disfunções da burocracia",
+      "c": "Num posto de atendimento do Detran de Mato Grosso, o servidor exige que o cidadão preencha de novo um formulário de três páginas, já correto e legível, porque foi usada caneta azul e o manual interno pede caneta preta.",
+      "q": "Segundo Robert Merton, essa conduta ilustra o quê?",
+      "a": 1,
+      "src": "Merton, Estrutura burocrática e personalidade (1940); Chiavenato, Introdução à TGA (disfunções da burocracia)",
+      "o": [
+        {
+          "t": "A impessoalidade weberiana funcionando como previsto, sem nenhuma distorção.",
+          "p": "troca",
+          "w": "Impessoalidade é tratar todos pela regra, não exigir o inútil. Seguir a norma a ponto de perder seu objetivo é disfunção apontada por Merton."
+        },
+        {
+          "t": "Uma disfunção da burocracia: o apego aos regulamentos, que transforma a norma de meio em fim.",
+          "p": "correta",
+          "w": "Merton mostrou que o excesso de formalismo e o apego às regras levam o servidor a perder de vista o objetivo que a norma deveria atender."
+        },
+        {
+          "t": "Uma característica do modelo gerencial, que privilegia procedimentos em vez de resultados.",
+          "p": "inversao",
+          "w": "É o contrário: o modelo gerencial foca resultados. O apego excessivo a procedimentos é típico das disfunções burocráticas."
+        },
+        {
+          "t": "Uma prova de que qualquer norma escrita é sempre prejudicial ao atendimento.",
+          "p": "generalizacao",
+          "w": "Normas escritas e formalização são virtudes da burocracia. O problema é o excesso: o apego que ignora a finalidade."
+        }
+      ]
+    },
+    {
+      "id": "adm16",
+      "topic": "Modelo gerencial",
+      "c": "Um hospital estadual em São Paulo passou a receber recursos mediante contrato com metas de atendimento e de satisfação dos pacientes. O gestor ganhou flexibilidade para organizar o trabalho e é avaliado pelos resultados alcançados.",
+      "q": "Esse arranjo é típico de qual modelo de administração pública?",
+      "a": 1,
+      "src": "Plano Diretor da Reforma do Aparelho do Estado (MARE, 1995); Bresser-Pereira",
+      "o": [
+        {
+          "t": "Burocrático, cujo foco é avaliar o gestor pelos resultados alcançados.",
+          "p": "troca",
+          "w": "A burocracia controla processos a priori. Avaliação por resultados e autonomia de gestão são marcas do modelo gerencial."
+        },
+        {
+          "t": "Gerencial, que privilegia o controle de resultados a posteriori e a autonomia do gestor.",
+          "p": "correta",
+          "w": "O Plano Diretor de 1995 propôs passar do controle rígido de procedimentos para o controle de resultados, com metas e mais autonomia."
+        },
+        {
+          "t": "Patrimonialista, pois qualquer autonomia do gestor caracteriza uso privado da coisa pública.",
+          "p": "generalizacao",
+          "w": "Autonomia com metas e prestação de contas não é patrimonialismo, que se define pela confusão entre público e privado."
+        },
+        {
+          "t": "Gerencial, que elimina qualquer controle de legalidade sobre os atos do gestor.",
+          "p": "extrapolacao",
+          "w": "O modelo gerencial desloca a ênfase para os resultados, mas não afasta o controle de legalidade nem os princípios do art. 37 da CF."
+        }
+      ]
+    },
+    {
+      "id": "adm17",
+      "topic": "Plano Diretor de 1995",
+      "c": "Num curso de formação da Enap, em Brasília, servidores analisam como o Plano Diretor da Reforma do Aparelho do Estado classificou atividades como hospitais, universidades, centros de pesquisa e museus.",
+      "q": "Segundo o Plano, qual era o setor dessas atividades e a estratégia proposta?",
+      "a": 3,
+      "src": "Plano Diretor da Reforma do Aparelho do Estado (1995): setores do Estado e formas de propriedade",
+      "o": [
+        {
+          "t": "Atividades exclusivas do Estado, a serem transferidas a agências reguladoras.",
+          "p": "troca",
+          "w": "Atividades exclusivas envolvem poder de Estado, como regulamentar, fiscalizar e fomentar. Hospitais e museus são serviços não exclusivos."
+        },
+        {
+          "t": "Produção para o mercado, pois todo serviço que o setor privado presta deve ser privatizado.",
+          "p": "generalizacao",
+          "w": "A privatização foi proposta para as estatais do setor de produção de bens e serviços para o mercado. Para serviços sociais, a proposta era a publicização."
+        },
+        {
+          "t": "Núcleo estratégico, já que só podem ser prestados por servidores estatutários.",
+          "p": "restricao",
+          "w": "O núcleo estratégico é o que define leis e políticas públicas. Serviços sociais podem ser prestados por entidades públicas não estatais."
+        },
+        {
+          "t": "Serviços não exclusivos, com propriedade pública não estatal e publicização por meio de organizações sociais.",
+          "p": "correta",
+          "w": "O Plano previa que serviços sociais e científicos fossem prestados por entidades públicas não estatais, como as organizações sociais, a chamada publicização."
+        }
+      ]
+    },
+    {
+      "id": "adm18",
+      "topic": "Novo Serviço Público",
+      "c": "A Prefeitura de Porto Alegre define prioridades de investimento em assembleias abertas, nas quais os moradores debatem e votam o que será feito em cada região, em vez de apenas avaliar serviços como consumidores.",
+      "q": "Essa postura está mais alinhada a qual abordagem?",
+      "a": 2,
+      "src": "Denhardt e Denhardt, The New Public Service: Serving, not Steering (2003)",
+      "o": [
+        {
+          "t": "Nova Gestão Pública, cuja premissa central é tratar o cidadão como cocriador das políticas.",
+          "p": "troca",
+          "w": "A Nova Gestão Pública enfatiza resultados e vê o cidadão como cliente. A participação democrática é a marca do Novo Serviço Público."
+        },
+        {
+          "t": "Novo Serviço Público, que só se aplica à esfera federal, e não aos municípios.",
+          "p": "restricao",
+          "w": "A abordagem de Denhardt e Denhardt é um modelo teórico de gestão pública, aplicável a qualquer esfera de governo."
+        },
+        {
+          "t": "Novo Serviço Público, que trata as pessoas como cidadãos e propõe servir em vez de dirigir.",
+          "p": "correta",
+          "w": "Denhardt e Denhardt defendem servir cidadãos, e não clientes, e construir o interesse público por meio do diálogo e da participação democrática."
+        },
+        {
+          "t": "Modelo gerencial, pois toda iniciativa de ouvir a população é sempre gerencial.",
+          "p": "generalizacao",
+          "w": "Ouvir usuários existe no modelo gerencial, mas como clientes. Decidir junto com os cidadãos é o núcleo do Novo Serviço Público."
+        }
+      ]
+    },
+    {
+      "id": "adm19",
+      "topic": "Governança pública",
+      "c": "O comitê interno de governança de uma autarquia federal em Brasília revisa sua política com base no Decreto 9.203/2017 e precisa listar corretamente os princípios da governança pública.",
+      "q": "Qual alternativa traz apenas princípios previstos no art. 3º do decreto?",
+      "a": 0,
+      "src": "Decreto 9.203/2017, arts. 3º e 5º",
+      "o": [
+        {
+          "t": "Capacidade de resposta, integridade, confiabilidade e transparência.",
+          "p": "correta",
+          "w": "O art. 3º lista seis princípios: capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade e transparência."
+        },
+        {
+          "t": "Liderança, estratégia e controle.",
+          "p": "troca",
+          "w": "Esses são os mecanismos para o exercício da governança, previstos no art. 5º, e não os princípios do art. 3º."
+        },
+        {
+          "t": "Integridade, transparência, lucratividade e estabilidade dos dirigentes.",
+          "p": "extrapolacao",
+          "w": "O decreto não traz lucratividade nem estabilidade dos dirigentes como princípios. Dos itens, só integridade e transparência estão no art. 3º."
+        },
+        {
+          "t": "Somente transparência e prestação de contas, únicos princípios aplicáveis às autarquias.",
+          "p": "restricao",
+          "w": "O art. 3º traz seis princípios, que valem para toda a administração federal direta, autárquica e fundacional."
+        }
+      ]
+    },
+    {
+      "id": "adm20",
+      "topic": "Hierarquia de Maslow",
+      "c": "Carlos, técnico concursado do IBGE em Natal, tem salário estável, sente-se seguro no cargo e se dá bem com a equipe. Mesmo assim, diz que está desmotivado porque seu trabalho nunca é reconhecido pela chefia.",
+      "q": "Pela hierarquia de Maslow, qual necessidade está em foco?",
+      "a": 2,
+      "src": "Maslow, A Theory of Human Motivation (1943)",
+      "o": [
+        {
+          "t": "Sociais, pois reconhecimento depende de outras pessoas.",
+          "p": "troca",
+          "w": "Necessidades sociais envolvem pertencer e se relacionar, e Carlos já se dá bem com a equipe. Reconhecimento é necessidade de estima."
+        },
+        {
+          "t": "Segurança, que só aparece depois que as necessidades de estima estão satisfeitas.",
+          "p": "inversao",
+          "w": "Inverte a hierarquia: segurança é a segunda necessidade, abaixo das sociais e da estima, e Carlos já a tem atendida."
+        },
+        {
+          "t": "Estima, ligada a reconhecimento, prestígio e status.",
+          "p": "correta",
+          "w": "Com as necessidades fisiológicas, de segurança e sociais atendidas, a carência de Carlos está no nível da estima: ser reconhecido e valorizado."
+        },
+        {
+          "t": "Autorrealização, porque, satisfeitas as fisiológicas, todo servidor busca sempre o topo da pirâmide.",
+          "p": "generalizacao",
+          "w": "Pela lógica de Maslow, a pessoa sobe por níveis. Com fisiológicas, segurança e sociais atendidas, a carência agora é de estima."
+        }
+      ]
+    },
+    {
+      "id": "adm21",
+      "topic": "Herzberg: dois fatores",
+      "c": "A Superintendência da Polícia Federal no Amazonas trocou o mobiliário, instalou ar-condicionado novo e melhorou o refeitório. Uma pesquisa interna mostrou queda nas reclamações, mas nenhum aumento na motivação dos servidores.",
+      "q": "Como Herzberg explica esse resultado?",
+      "a": 3,
+      "src": "Herzberg, The Motivation to Work (1959): teoria dos dois fatores",
+      "o": [
+        {
+          "t": "As melhorias são fatores motivacionais, e a pesquisa provavelmente foi mal aplicada.",
+          "p": "troca",
+          "w": "Condições físicas e benefícios são fatores higiênicos, extrínsecos. Os motivacionais estão no conteúdo do trabalho."
+        },
+        {
+          "t": "Para Herzberg, satisfação e insatisfação são extremos de uma única escala; reduzir uma aumenta a outra.",
+          "p": "inversao",
+          "w": "Herzberg afirma o contrário: o oposto da satisfação é a ausência de satisfação, e o oposto da insatisfação é a ausência de insatisfação."
+        },
+        {
+          "t": "Os fatores higiênicos são irrelevantes, e o órgão poderia ter deixado de investir neles.",
+          "p": "extrapolacao",
+          "w": "Não são irrelevantes: sem eles surge a insatisfação. Apenas não bastam para motivar."
+        },
+        {
+          "t": "As melhorias são fatores higiênicos: reduzem a insatisfação, mas não geram motivação.",
+          "p": "correta",
+          "w": "Para Herzberg, fatores do ambiente evitam a insatisfação; a motivação vem do conteúdo do cargo, como reconhecimento, responsabilidade e crescimento."
+        }
+      ]
+    },
+    {
+      "id": "adm22",
+      "topic": "Teoria da expectativa",
+      "c": "Na Secretaria da Fazenda de Goiás, os auditores sabem que conseguem cumprir as metas e valorizam muito o bônus de desempenho. Porém, desconfiam que, mesmo batendo as metas, o bônus não será pago, como já ocorreu antes.",
+      "q": "Pela teoria da expectativa de Vroom, qual componente está comprometido?",
+      "a": 1,
+      "src": "Vroom, Work and Motivation (1964); Robbins, Comportamento Organizacional (teoria da expectativa)",
+      "o": [
+        {
+          "t": "Expectância: a crença de que o desempenho levará à recompensa prometida.",
+          "p": "troca",
+          "w": "Expectância é a crença de que o esforço levará ao desempenho, e os auditores acreditam nisso. A ligação desempenho-recompensa é a instrumentalidade."
+        },
+        {
+          "t": "Instrumentalidade: a crença de que o desempenho levará à recompensa.",
+          "p": "correta",
+          "w": "Vroom liga esforço a desempenho (expectância), desempenho a recompensa (instrumentalidade) e o valor da recompensa (valência). O elo quebrado é o segundo."
+        },
+        {
+          "t": "Nenhum, pois, valorizando o bônus, os auditores ficarão sempre motivados.",
+          "p": "generalizacao",
+          "w": "Para Vroom a motivação depende dos três componentes juntos. Se um deles é baixo, a motivação cai."
+        },
+        {
+          "t": "Valência, já que Vroom considera apenas o valor atribuído à recompensa.",
+          "p": "restricao",
+          "w": "A teoria tem três componentes. A valência está alta no caso; o problema é a descrença no pagamento, ou seja, a instrumentalidade."
+        }
+      ]
+    },
+    {
+      "id": "adm23",
+      "topic": "Liderança situacional",
+      "c": "Joana chefia uma equipe da Secretaria de Controle e Transparência do Espírito Santo formada por auditores experientes, competentes e muito comprometidos, que conduzem as auditorias com autonomia.",
+      "q": "Pela liderança situacional de Hersey e Blanchard, qual estilo é o mais adequado?",
+      "a": 0,
+      "src": "Hersey e Blanchard, Psicologia para Administradores (liderança situacional)",
+      "o": [
+        {
+          "t": "Delegar, com baixo comportamento de tarefa e baixo comportamento de relacionamento.",
+          "p": "correta",
+          "w": "Para liderados de maturidade alta, capazes e dispostos, o líder transfere a eles a responsabilidade pelas decisões e pela execução."
+        },
+        {
+          "t": "Determinar, com alta orientação para a tarefa, indicado para liderados muito maduros.",
+          "p": "inversao",
+          "w": "Determinar é para quem tem baixa maturidade, pouca capacidade e pouca disposição. Para equipes maduras, o estilo é delegar."
+        },
+        {
+          "t": "Democrático, pois a participação é sempre o melhor estilo, qualquer que seja a equipe.",
+          "p": "generalizacao",
+          "w": "A essência da teoria situacional é que não há estilo único: ele varia conforme a maturidade dos liderados."
+        },
+        {
+          "t": "Persuadir, indicado quando os liderados são capazes e comprometidos.",
+          "p": "troca",
+          "w": "Persuadir serve para liderados dispostos, mas ainda pouco capazes. Para capazes e comprometidos, o estilo é delegar."
+        }
+      ]
+    },
+    {
+      "id": "adm24",
+      "topic": "Recrutamento e seleção",
+      "c": "O Tribunal de Justiça do Paraná divulgou na intranet um aviso convidando servidores efetivos interessados a se candidatar a uma função de chefia. Depois, os inscritos passaram por análise de currículo e entrevista.",
+      "q": "Como se classificam essas duas etapas?",
+      "a": 2,
+      "src": "Chiavenato, Gestão de Pessoas (recrutamento e seleção); CF/88, art. 37, V",
+      "o": [
+        {
+          "t": "O aviso é seleção e as entrevistas são recrutamento, pois recrutar é escolher entre candidatos.",
+          "p": "inversao",
+          "w": "Inverte as etapas: recrutar é atrair candidatos; selecionar é compará-los e escolher o mais adequado."
+        },
+        {
+          "t": "O aviso é recrutamento externo, pois foi divulgado em meio eletrônico.",
+          "p": "troca",
+          "w": "O que define o tipo é o público-alvo, não o meio. Convidar quem já é do quadro é recrutamento interno."
+        },
+        {
+          "t": "O aviso é recrutamento interno; a análise de currículo e a entrevista são seleção.",
+          "p": "correta",
+          "w": "Recrutar é atrair candidatos, aqui os do próprio quadro; selecionar é comparar os candidatos e escolher o mais adequado ao cargo."
+        },
+        {
+          "t": "Ambas as etapas são seleção, e o recrutamento interno é proibido no serviço público.",
+          "p": "extrapolacao",
+          "w": "Recrutamento interno é comum para funções de confiança, exclusivas de servidores efetivos (CF, art. 37, V). O aviso é recrutamento."
+        }
+      ]
+    },
+    {
+      "id": "adm25",
+      "topic": "Efeito halo",
+      "c": "No Ministério Público de Santa Catarina, um chefe deu nota máxima a Bruno em todos os quesitos, inclusive pontualidade e cumprimento de prazos, porque ele redige pareceres excelentes. Na prática, Bruno costuma atrasar entregas.",
+      "q": "Qual erro de avaliação ocorreu?",
+      "a": 3,
+      "src": "Chiavenato, Gestão de Pessoas (erros na avaliação de desempenho: efeito halo)",
+      "o": [
+        {
+          "t": "Tendência central: o avaliador evita notas extremas e concentra todos no meio da escala.",
+          "p": "troca",
+          "w": "Na tendência central as notas ficam no meio. Aqui o chefe deu notas máximas por causa de um único ponto forte: efeito halo."
+        },
+        {
+          "t": "Efeito halo, que só ocorre em avaliações feitas por subordinados, nunca pela chefia.",
+          "p": "restricao",
+          "w": "O halo pode ocorrer com qualquer avaliador, inclusive o chefe, sempre que um traço marcante contamina os demais fatores."
+        },
+        {
+          "t": "Efeito de recência, pelo qual o avaliador valoriza fatos antigos e ignora os recentes.",
+          "p": "inversao",
+          "w": "Recência é o oposto: pesar demais os fatos mais recentes. O erro do caso é generalizar um ponto forte para todos os quesitos."
+        },
+        {
+          "t": "Efeito halo: uma característica marcante contamina a avaliação de todos os outros fatores.",
+          "p": "correta",
+          "w": "O avaliador generalizou o ponto forte de Bruno, a redação, para quesitos em que o desempenho real é fraco."
+        }
+      ]
+    },
+    {
+      "id": "adm26",
+      "topic": "Diagrama de Ishikawa",
+      "c": "Um hospital universitário federal em Belo Horizonte registrou aumento de cirurgias canceladas. A equipe de qualidade se reuniu para levantar as causas possíveis e organizá-las em categorias como método, mão de obra, material, máquina, medida e meio ambiente.",
+      "q": "Qual ferramenta é a mais adequada para organizar essas causas?",
+      "a": 1,
+      "src": "Ishikawa, diagrama de causa e efeito (6M); Campos, TQC: Controle da Qualidade Total",
+      "o": [
+        {
+          "t": "Gráfico de Pareto, que agrupa as causas nas categorias dos 6M.",
+          "p": "troca",
+          "w": "O Pareto ordena causas pela frequência para achar as poucas vitais. Organizar causas por categorias (6M) é próprio do Ishikawa."
+        },
+        {
+          "t": "Diagrama de Ishikawa, também chamado de causa e efeito ou espinha de peixe.",
+          "p": "correta",
+          "w": "O Ishikawa coloca o efeito na “cabeça do peixe” e distribui as possíveis causas nas espinhas, agrupadas em categorias como os 6M."
+        },
+        {
+          "t": "Matriz GUT, que identifica e organiza todas as causas de um problema.",
+          "p": "extrapolacao",
+          "w": "A GUT prioriza problemas já identificados por gravidade, urgência e tendência; ela não levanta nem organiza causas."
+        },
+        {
+          "t": "Qualquer ferramenta da qualidade, pois todas têm exatamente a mesma finalidade.",
+          "p": "generalizacao",
+          "w": "Cada ferramenta tem uma função. Para estruturar as possíveis causas de um efeito em categorias, usa-se o diagrama de Ishikawa."
+        }
+      ]
+    },
+    {
+      "id": "adm27",
+      "topic": "Princípio de Pareto",
+      "c": "A ouvidoria do Detran do Rio Grande do Norte classificou 1.000 reclamações do semestre: 480 sobre agendamento, 320 sobre emissão de CNH, 90 sobre multas, 60 sobre vistoria e 50 sobre outros assuntos.",
+      "q": "Pelo princípio de Pareto, onde o órgão deve concentrar o esforço primeiro?",
+      "a": 2,
+      "src": "Princípio de Pareto (Juran): poucos vitais e muitos triviais; gráfico de Pareto",
+      "o": [
+        {
+          "t": "Em agendamento, multas e vistoria, que somam 80% das reclamações.",
+          "p": "calculo",
+          "w": "Conta errada: essas três somam 630 reclamações, 63% do total. Agendamento e CNH somam 800, ou 80%."
+        },
+        {
+          "t": "Nas três categorias menos frequentes, pois são os poucos problemas vitais.",
+          "p": "inversao",
+          "w": "Inverte o princípio: os poucos vitais são as categorias mais frequentes; as menos frequentes são os muitos triviais."
+        },
+        {
+          "t": "Em agendamento e emissão de CNH, que somam 80% das reclamações.",
+          "p": "correta",
+          "w": "480 + 320 = 800 reclamações, 80% do total. São os poucos problemas vitais que concentram a maior parte das queixas."
+        },
+        {
+          "t": "Em todas as categorias igualmente, pois o Pareto exige tratar todas as causas ao mesmo tempo.",
+          "p": "generalizacao",
+          "w": "O Pareto serve justamente para priorizar: focar as poucas causas que respondem pela maior parte dos problemas."
+        }
+      ]
+    },
+    {
+      "id": "adm28",
+      "topic": "Ouvidoria: Lei 13.460",
+      "c": "Dona Lúcia registrou na ouvidoria de uma universidade federal em Fortaleza uma reclamação sobre a demora na emissão de diplomas. O servidor exigiu que ela explicasse por que estava reclamando e disse que a resposta não tinha prazo.",
+      "q": "Pela Lei 13.460/2017, assinale a alternativa correta.",
+      "a": 0,
+      "src": "Lei 13.460/2017, arts. 5º, II, 10 e 16",
+      "o": [
+        {
+          "t": "Não se podem exigir os motivos da manifestação, e a decisão final sai em 30 dias, prorrogáveis uma vez por igual período.",
+          "p": "correta",
+          "w": "O art. 10 veda exigências relativas aos motivos determinantes da manifestação, e o art. 16 fixa 30 dias, prorrogáveis de forma justificada uma única vez."
+        },
+        {
+          "t": "Não se podem exigir os motivos, e a resposta sai em 20 dias, prorrogáveis por mais 10, como na Lei de Acesso à Informação.",
+          "p": "troca",
+          "w": "Os 20 dias mais 10 são o prazo do pedido de acesso da Lei 12.527/2011. Na Lei 13.460, a decisão final da ouvidoria sai em 30 dias, prorrogáveis uma vez."
+        },
+        {
+          "t": "A ouvidoria só precisa responder se a reclamação vier acompanhada de documentos que comprovem a demora.",
+          "p": "restricao",
+          "w": "A lei não condiciona a resposta a provas. Ela presume a boa-fé do usuário (art. 5º, II) e impõe decisão em 30 dias (art. 16)."
+        },
+        {
+          "t": "O servidor agiu bem, pois toda manifestação deve sempre trazer justificativa dos seus motivos.",
+          "p": "generalizacao",
+          "w": "É o contrário: o art. 10 da Lei 13.460 veda quaisquer exigências relativas aos motivos determinantes da manifestação."
+        }
+      ]
+    },
+    {
+      "id": "adm29",
+      "type": "ce",
+      "topic": "Teorias X e Y",
+      "src": "McGregor, O Lado Humano da Empresa (1960): Teorias X e Y",
+      "c": "Numa agência reguladora federal em Brasília, o coordenador Marcos aboliu o controle minucioso de tarefas, passou a negociar metas com a equipe e deixa os servidores organizarem o próprio trabalho, por acreditar que eles buscam responsabilidade quando comprometidos com os objetivos.",
+      "q": "A postura de Marcos reflete as premissas da Teoria Y de McGregor.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "A Teoria Y supõe que as pessoas gostam de trabalhar, aceitam e buscam responsabilidade e exercem autocontrole quando comprometidas com os objetivos, o que justifica delegar."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado confunde com a Teoria X, que parte da ideia de que as pessoas evitam o trabalho e precisam ser controladas, o oposto do caso."
+        }
+      ]
+    },
+    {
+      "id": "adm30",
+      "type": "ce",
+      "topic": "Estilos de liderança",
+      "src": "White e Lippitt (1939), estilos de liderança; Chiavenato, Introdução à TGA",
+      "c": "No setor de compras de uma prefeitura em Londrina, o chefe fixa sozinho todas as diretrizes, determina as tarefas de cada servidor e com quem cada um vai trabalhar, sem consultar a equipe.",
+      "q": "Segundo a clássica classificação de White e Lippitt, o caso descreve a liderança liberal (laissez-faire).",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo troca os estilos. Na liderança liberal o líder quase não participa e o grupo decide com total liberdade, o oposto do caso."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O caso descreve a liderança autocrática: o líder fixa as diretrizes e determina as tarefas e os companheiros de trabalho, sem participação do grupo."
+        }
+      ]
+    },
+    {
+      "id": "adm31",
+      "type": "ce",
+      "topic": "Princípio da eficiência",
+      "src": "CF/88, art. 37, caput (redação dada pela EC 19/1998)",
+      "c": "No curso de formação da Escola de Governo de Minas Gerais, a instrutora explicou que a reforma gerencial dos anos 1990 também deixou marcas no texto da Constituição.",
+      "q": "A Emenda Constitucional 19/1998 incluiu a eficiência entre os princípios expressos no caput do art. 37 da Constituição Federal.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "A EC 19/1998, conhecida como Reforma Administrativa, acrescentou a eficiência aos princípios da legalidade, impessoalidade, moralidade e publicidade."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado supõe que a eficiência estava no texto original de 1988, que trazia apenas legalidade, impessoalidade, moralidade e publicidade."
+        }
+      ]
+    },
+    {
+      "id": "adm32",
+      "type": "ce",
+      "topic": "Clima e cultura",
+      "src": "Chiavenato, Gestão de Pessoas (clima organizacional); Schein, Cultura Organizacional e Liderança",
+      "c": "Uma pesquisa da Secretaria de Educação do Amazonas mostrou que, após a troca de gestão, os servidores passaram a perceber o ambiente de trabalho como tenso e desmotivador, embora os valores e as tradições do órgão continuem os mesmos.",
+      "q": "O resultado retrata o clima organizacional, que reflete a percepção dos membros sobre o ambiente de trabalho e tende a mudar mais rapidamente que a cultura organizacional.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Clima é a percepção coletiva do ambiente, ligada à motivação, e oscila com fatos como a troca de chefia. Cultura reúne valores e pressupostos compartilhados, mais profundos e estáveis."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado confunde clima com cultura. A cultura, feita de valores e crenças profundas, muda devagar; a percepção do ambiente é o clima."
+        }
+      ]
+    },
+    {
+      "id": "adm33",
+      "type": "ce",
+      "topic": "Treinamento e desenvolvimento",
+      "src": "Chiavenato, Gestão de Pessoas (treinamento e desenvolvimento de pessoas)",
+      "c": "O Tribunal de Contas do Estado de Pernambuco ofereceu dois programas: um curso de três dias sobre o novo sistema de processo eletrônico, para uso imediato, e um programa de dois anos para preparar futuros gestores.",
+      "q": "O curso sobre o sistema eletrônico é exemplo de desenvolvimento de pessoas, enquanto o programa de dois anos para futuros gestores é exemplo de treinamento.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "inversao",
+          "w": "Julgar certo inverte os conceitos. Treinamento foca o cargo atual e o curto prazo; desenvolvimento prepara para cargos futuros, no longo prazo."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "É o contrário: o curso do sistema é treinamento (cargo atual, uso imediato) e o programa para futuros gestores é desenvolvimento (futuro, longo prazo)."
+        }
+      ]
+    },
+    {
+      "id": "adm34",
+      "type": "ce",
+      "topic": "Avaliação 360 graus",
+      "src": "Chiavenato, Gestão de Pessoas (avaliação de desempenho 360 graus)",
+      "c": "A Agência de Defesa Agropecuária do Tocantins implantou a avaliação 360 graus para os fiscais, e um servidor recém-chegado perguntou quem participaria da sua avaliação.",
+      "q": "Nesse método, o servidor é avaliado exclusivamente pelo superior imediato, sem participação de colegas, subordinados ou usuários do serviço.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "restricao",
+          "w": "Julgar certo restringe o método. A avaliação 360 graus reúne a visão de todos que interagem com o avaliado."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Na avaliação 360 graus participam a chefia, os pares, os subordinados, os clientes internos e externos e o próprio avaliado, por autoavaliação."
+        }
+      ]
+    },
+    {
+      "id": "adm35",
+      "type": "ce",
+      "topic": "Fluxograma",
+      "src": "Fluxograma: simbologia padrão ANSI (retângulo = atividade; losango = decisão)",
+      "c": "Para mapear o processo de concessão de alvará, a Secretaria de Urbanismo de Florianópolis desenhou um fluxograma. Num ponto, o fluxo se divide conforme a resposta à pergunta “a documentação está completa?”.",
+      "q": "Na simbologia usual do fluxograma, esse ponto de decisão é representado por um losango, do qual saem caminhos alternativos.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "No fluxograma, o retângulo indica atividade, o losango indica decisão, com saídas como “sim” e “não”, e o terminal oval marca início e fim."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado troca os símbolos: o retângulo representa uma atividade, e a decisão, com caminhos alternativos, é o losango."
+        }
+      ]
+    },
+    {
+      "id": "adm36",
+      "type": "ce",
+      "topic": "Carta de Serviços",
+      "src": "Lei 13.460/2017, art. 7º",
+      "c": "Um município do Paraná elaborou sua Carta de Serviços ao Usuário, mas a guardou apenas em versão impressa na sala da diretoria, para consulta dos servidores.",
+      "q": "Pela Lei 13.460/2017, a Carta de Serviços ao Usuário é documento de uso interno, destinado a orientar os servidores, sem obrigação de divulgação ao público.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "restricao",
+          "w": "Julgar certo restringe a finalidade da Carta. Ela existe para informar o usuário e deve ter divulgação permanente."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O art. 7º manda divulgar a Carta para informar o usuário sobre os serviços, as formas de acesso e os padrões de qualidade, com atualização periódica e publicação na internet."
+        }
+      ]
+    },
+    {
+      "id": "adm37",
+      "type": "ce",
+      "topic": "Centralização e descentralização",
+      "src": "Chiavenato, Introdução à Teoria Geral da Administração (centralização x descentralização)",
+      "c": "A Secretaria de Educação de Pernambuco transferiu aos diretores das escolas a decisão sobre pequenas compras e reparos, antes concentrada na sede, no Recife.",
+      "q": "No sentido da teoria administrativa, houve descentralização, que tende a agilizar as decisões, aproximando-as dos fatos, mas pode reduzir a uniformidade de procedimentos.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Descentralizar é delegar poder de decisão aos níveis mais baixos. Ganha-se rapidez e adequação local, com risco de perda de uniformidade e de coordenação."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado aplica o sentido do Direito Administrativo, em que descentralizar é transferir a outra pessoa jurídica. Na teoria administrativa, é delegar decisões a níveis inferiores."
+        }
+      ]
+    },
+    {
+      "id": "adm38",
+      "type": "ce",
+      "topic": "Modelo burocrático",
+      "src": "Plano Diretor da Reforma do Aparelho do Estado (1995): administração burocrática; Decreto-Lei 579/1938 (DASP)",
+      "c": "Em material de formação da Enap, uma linha do tempo destaca a criação do DASP, em 1938, no governo Vargas, para profissionalizar o serviço público federal com concurso e carreiras.",
+      "q": "O modelo burocrático implantado nessa época tinha como foco o controle de resultados a posteriori, deixando os procedimentos a critério do gestor.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "inversao",
+          "w": "Julgar certo inverte os modelos. Controle de resultados a posteriori com autonomia do gestor é a proposta gerencial do Plano Diretor de 1995."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "A burocracia weberiana adotada com o DASP controla rigidamente os procedimentos, a priori, com base em normas, hierarquia e formalismo."
+        }
+      ]
+    },
+    {
+      "id": "adm39",
+      "type": "ce",
+      "topic": "Conflito organizacional",
+      "src": "Robbins, Comportamento Organizacional (visões sobre o conflito)",
+      "c": "Na Secretaria de Planejamento do Piauí, duas equipes discordaram sobre a metodologia de um indicador. O debate, conduzido pela coordenação, levou a uma solução melhor que as duas propostas iniciais.",
+      "q": "Segundo a visão interacionista apresentada por Robbins, todo conflito é disfuncional e deve ser eliminado pela gerência.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo transforma em regra absoluta a visão tradicional. Para a visão interacionista, o conflito funcional, como o do caso, pode melhorar o desempenho."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "A visão tradicional via todo conflito como negativo. A interacionista distingue conflitos funcionais, que melhoram o desempenho do grupo, de conflitos disfuncionais."
+        }
+      ]
+    },
+    {
+      "id": "adm40",
+      "type": "ce",
+      "topic": "Diretrizes de atendimento",
+      "src": "Lei 13.460/2017, art. 5º, I e II",
+      "c": "Depois de reclamações sobre o tratamento dado aos usuários, a ouvidoria da Prefeitura de Campo Grande preparou um treinamento de atendimento com base no Código de Defesa do Usuário do Serviço Público.",
+      "q": "A Lei 13.460/2017 inclui, entre as diretrizes que os agentes públicos devem observar no atendimento, a presunção de boa-fé do usuário e a urbanidade, o respeito e a cortesia.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O art. 5º prevê, entre outras diretrizes, urbanidade, respeito, acessibilidade e cortesia no atendimento (inciso I) e presunção de boa-fé do usuário (inciso II)."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado supõe que a boa-fé é tema só do direito privado. A Lei 13.460 a prevê expressamente como diretriz do atendimento ao usuário (art. 5º, II)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1101 @@
+{
+  "id": "etica",
+  "title": "Ética no Serviço Público",
+  "subtitle": "Código de Ética, improbidade e integridade",
+  "tag": "Concursos",
+  "blurb": "Código de Ética, Lei 8.112, improbidade, anticorrupção, conflito de interesses e LAI em casos reais de prova, com o inciso exato de cada regra.",
+  "questions": [
+    {
+      "id": "etica1",
+      "topic": "Impessoalidade no atendimento",
+      "c": "Na agência do INSS em Campina Grande, o servidor Cláudio chamou para atendimento imediato um vizinho que acabara de chegar, passando-o à frente de dez pessoas que aguardavam com senha.",
+      "q": "Qual princípio do art. 37, caput, da Constituição a conduta ofende mais diretamente?",
+      "a": 2,
+      "src": "CF/88, art. 37, caput; Decreto 1.171/94, Anexo, XV, f",
+      "o": [
+        {
+          "t": "Eficiência, pois o único problema é o aumento do tempo médio de espera na agência.",
+          "p": "troca",
+          "w": "O tempo total de atendimento não muda. O vício está no favorecimento pessoal, que é a marca da ofensa à impessoalidade."
+        },
+        {
+          "t": "Nenhum, pois o servidor tem liberdade para definir a ordem de atendimento em qualquer situação.",
+          "p": "generalizacao",
+          "w": "A ordem de atendimento segue critérios objetivos, como senha e prioridades legais. Escolher por amizade não é liberdade, é favorecimento."
+        },
+        {
+          "t": "Impessoalidade, pois o atendimento deve tratar todos de forma igual, sem favorecimento por relações pessoais.",
+          "p": "correta",
+          "w": "A impessoalidade proíbe favoritismos e perseguições: o critério é a ordem das senhas e as prioridades legais, não a amizade. O Código de Ética também veda que simpatias interfiram no trato com o público (XV, f)."
+        },
+        {
+          "t": "Nenhum, porque os princípios do art. 37 só se aplicam a atos formais escritos, e não ao atendimento ao público.",
+          "p": "restricao",
+          "w": "O art. 37 rege toda a atuação administrativa, inclusive o atendimento presencial ao cidadão."
+        }
+      ]
+    },
+    {
+      "id": "etica2",
+      "topic": "Nepotismo",
+      "c": "O diretor-presidente de uma autarquia estadual de trânsito em Goiás nomeou o sobrinho, filho de sua irmã, para um cargo em comissão de assessor técnico na mesma autarquia.",
+      "q": "Segundo a Súmula Vinculante 13 do STF, essa nomeação é válida?",
+      "a": 0,
+      "src": "STF, Súmula Vinculante 13; CF/88, art. 37, caput",
+      "o": [
+        {
+          "t": "Não, pois a vedação alcança parentes em linha colateral até o terceiro grau, inclusive, da autoridade nomeante.",
+          "p": "correta",
+          "w": "Sobrinho é parente colateral de terceiro grau. A SV 13 proíbe a nomeação para cargo em comissão, de confiança ou função gratificada, concretizando a moralidade e a impessoalidade."
+        },
+        {
+          "t": "Sim, pois a proibição de nepotismo alcança apenas parentes até o segundo grau, como irmãos e netos.",
+          "p": "troca",
+          "w": "Confunde com o art. 117, VIII, da Lei 8.112/90, que fala em segundo grau e chefia imediata. A SV 13 vai até o terceiro grau, inclusive."
+        },
+        {
+          "t": "Sim, porque o nepotismo só é vedado quando o parente não tem qualificação técnica para o cargo.",
+          "p": "restricao",
+          "w": "A SV 13 não abre exceção para parente qualificado: a vedação decorre do parentesco com a autoridade nomeante."
+        },
+        {
+          "t": "Não, e a nomeação gera a perda automática do cargo do diretor-presidente, sem necessidade de processo.",
+          "p": "extrapolacao",
+          "w": "A súmula torna a nomeação inválida, mas não prevê perda automática do cargo da autoridade, que dependeria do devido processo."
+        }
+      ]
+    },
+    {
+      "id": "etica3",
+      "topic": "Honesto versus desonesto",
+      "c": "Um servidor do Ibama em Manaus percebeu que pode, sem violar nenhuma norma expressa, deixar para o último dia do prazo a análise do pedido de uma empresa cujo dono ele detesta.",
+      "q": "À luz das regras deontológicas do Código de Ética (Decreto 1.171/94), como o servidor deve decidir?",
+      "a": 1,
+      "src": "Decreto 1.171/94, Anexo, II",
+      "o": [
+        {
+          "t": "Basta respeitar o prazo legal, pois tudo o que a lei não proíbe é permitido ao servidor.",
+          "p": "generalizacao",
+          "w": "Essa é a lógica da legalidade para o particular. O Código diz que o servidor jamais pode desprezar o elemento ético da conduta, mesmo dentro da lei."
+        },
+        {
+          "t": "Deve ir além do legal e do ilegal e decidir, principalmente, entre o honesto e o desonesto.",
+          "p": "correta",
+          "w": "O inciso II diz que o servidor não decide só entre o legal e o ilegal, o justo e o injusto, o conveniente e o inconveniente, mas principalmente entre o honesto e o desonesto."
+        },
+        {
+          "t": "Deve decidir apenas pela conveniência e oportunidade, que são o núcleo do juízo ético do servidor.",
+          "p": "troca",
+          "w": "Conveniência e oportunidade são critérios de mérito administrativo. O Código manda ir além deles e decidir principalmente entre o honesto e o desonesto."
+        },
+        {
+          "t": "O Código só passa a valer para o caso se o empresário apresentar denúncia formal contra o servidor.",
+          "p": "restricao",
+          "w": "O dever ético existe independentemente de denúncia. A denúncia apenas provoca a apuração pela Comissão de Ética."
+        }
+      ]
+    },
+    {
+      "id": "etica4",
+      "topic": "Conduta fora do serviço",
+      "c": "Fora do expediente, um servidor da Polícia Rodoviária Federal em Londrina é visto habitualmente embriagado provocando confusão em bares, sempre se apresentando como servidor do órgão.",
+      "q": "Pelo Código de Ética, essa conduta fora do trabalho tem relevância?",
+      "a": 3,
+      "src": "Decreto 1.171/94, Anexo, I, VI e XV, n",
+      "o": [
+        {
+          "t": "Não, pois o Código de Ética só alcança condutas praticadas na repartição e no horário de expediente.",
+          "p": "restricao",
+          "w": "O inciso I fala em dignidade e decoro no exercício do cargo ou fora dele, e o VI liga expressamente a vida privada à funcional."
+        },
+        {
+          "t": "Sim, e a embriaguez habitual fora do serviço leva, pelo próprio Código, à demissão do servidor.",
+          "p": "extrapolacao",
+          "w": "A Comissão de Ética aplica apenas a censura (inciso XXII). Demissão é penalidade da Lei 8.112/90 e depende de PAD."
+        },
+        {
+          "t": "Não, pois a intimidade do servidor impede qualquer avaliação ética de sua vida privada.",
+          "p": "generalizacao",
+          "w": "A intimidade é protegida, mas o Código deixa claro que fatos da vida privada podem repercutir no conceito funcional (inciso VI)."
+        },
+        {
+          "t": "Sim, pois a função pública se integra na vida particular, e os atos da vida privada podem acrescer ou diminuir o bom conceito funcional.",
+          "p": "correta",
+          "w": "É o inciso VI. O inciso I estende os deveres de decoro ao servidor dentro ou fora do cargo, e o XV, n, veda apresentar-se embriagado no serviço ou fora dele habitualmente."
+        }
+      ]
+    },
+    {
+      "id": "etica5",
+      "topic": "Publicidade e sigilo",
+      "c": "Um cidadão pediu a uma superintendência regional do Dnit em Belo Horizonte cópia do relatório de fiscalização de uma obra já concluída. O chefe do setor negou, dizendo que documento interno não é para o público, embora o processo nunca tenha sido declarado sigiloso.",
+      "q": "Segundo o Código de Ética, como avaliar a negativa?",
+      "a": 0,
+      "src": "Decreto 1.171/94, Anexo, VII",
+      "o": [
+        {
+          "t": "É comprometimento ético, pois a publicidade é requisito de eficácia e moralidade, salvo sigilo previamente declarado nos termos da lei.",
+          "p": "correta",
+          "w": "O inciso VII só admite reserva em casos de segurança nacional, investigações policiais ou interesse superior do Estado, em processo previamente declarado sigiloso. A omissão é imputável a quem negar a publicidade."
+        },
+        {
+          "t": "É legítima, pois todo documento de uso interno da administração é sigiloso por natureza.",
+          "p": "generalizacao",
+          "w": "Sigilo é exceção e depende de declaração prévia nos termos da lei. Documento interno, por si só, não é sigiloso."
+        },
+        {
+          "t": "Só seria antiética se o cidadão demonstrasse interesse pessoal e direto no relatório.",
+          "p": "restricao",
+          "w": "O Código não condiciona a publicidade a interesse pessoal. A LAI, aliás, proíbe exigir os motivos do pedido de informação de interesse público (art. 10, §3º)."
+        },
+        {
+          "t": "A falta ética é da Comissão de Ética do órgão, e não do chefe, que apenas seguiu a rotina do setor.",
+          "p": "troca",
+          "w": "O inciso VII imputa o comprometimento ético a quem nega a publicidade, ou seja, ao próprio chefe que recusou o acesso."
+        }
+      ]
+    },
+    {
+      "id": "etica6",
+      "topic": "Filas e dano moral",
+      "c": "Na unidade de atendimento da Receita Federal no Recife, uma servidora fecha o guichê 40 minutos antes do horário para organizar papéis pessoais, e forma-se uma longa fila de contribuintes.",
+      "q": "Como o Código de Ética qualifica esse atraso na prestação do serviço?",
+      "a": 2,
+      "src": "Decreto 1.171/94, Anexo, X e XIV, b",
+      "o": [
+        {
+          "t": "Só é falta ética se algum contribuinte registrar reclamação formal na ouvidoria do órgão.",
+          "p": "restricao",
+          "w": "O Código não exige reclamação para caracterizar a falta: deixar o usuário à espera já é, por si, grave dano moral."
+        },
+        {
+          "t": "É crime de prevaricação, que a Comissão de Ética deve julgar e punir com pena de prisão.",
+          "p": "extrapolacao",
+          "w": "Comissão de Ética não julga crimes nem aplica pena criminal. Sua sanção é a censura (inciso XXII)."
+        },
+        {
+          "t": "Além de atitude contra a ética, causa grave dano moral aos usuários dos serviços públicos.",
+          "p": "correta",
+          "w": "É o texto do inciso X. O XIV, b, completa: é dever resolver prioritariamente situações procrastinatórias, principalmente diante de filas."
+        },
+        {
+          "t": "É apenas questão de eficiência gerencial, sem relevância ética, pois o atendimento acabou sendo feito.",
+          "p": "troca",
+          "w": "O inciso X afirma o contrário: o atraso não é só ineficiência, é atitude antiética e grave dano moral ao usuário."
+        }
+      ]
+    },
+    {
+      "id": "etica7",
+      "topic": "Vantagens indevidas",
+      "c": "Depois de ter seu processo de licença analisado, o sócio de uma mineradora de Itabira ofereceu ao analista de um órgão federal uma comissão de R$ 5 mil, depositada na conta da esposa do servidor, como agradecimento pela agilidade.",
+      "q": "Pelo Código de Ética, o servidor pode aceitar?",
+      "a": 3,
+      "src": "Decreto 1.171/94, Anexo, XV, g",
+      "o": [
+        {
+          "t": "Pode, pois a vedação alcança apenas valores pagos ao próprio servidor, e não a seus parentes.",
+          "p": "restricao",
+          "w": "A alínea g inclui expressamente vantagens para familiares ou qualquer pessoa."
+        },
+        {
+          "t": "Pode, desde que informe o valor à Comissão de Ética, que autoriza presentes de agradecimento.",
+          "p": "troca",
+          "w": "A Comissão de Ética orienta e apura condutas; não tem poder de autorizar comissão paga por particular pelo cumprimento do dever."
+        },
+        {
+          "t": "Não, porque o servidor está proibido de receber qualquer valor além do vencimento, inclusive gratificações legais.",
+          "p": "generalizacao",
+          "w": "Gratificações previstas em lei são lícitas. O que se veda é a vantagem oferecida por terceiros em razão da missão do servidor."
+        },
+        {
+          "t": "Não, pois é vedado receber qualquer vantagem, para si, familiares ou qualquer pessoa, pelo cumprimento da sua missão.",
+          "p": "correta",
+          "w": "A alínea g do inciso XV veda pleitear, solicitar, provocar, sugerir ou receber ajuda financeira, gratificação, prêmio, comissão, doação ou vantagem de qualquer espécie, inclusive para familiares."
+        }
+      ]
+    },
+    {
+      "id": "etica8",
+      "topic": "Pena de censura",
+      "c": "A Comissão de Ética de um ministério concluiu que um servidor tratou contribuintes com grosseria reiterada, violando o dever de cortesia e urbanidade do Código de Ética.",
+      "q": "Qual penalidade a própria Comissão de Ética pode aplicar?",
+      "a": 1,
+      "src": "Decreto 1.171/94, Anexo, XXII",
+      "o": [
+        {
+          "t": "Advertência por escrito, aplicada pela comissão nos termos do regime disciplinar da Lei 8.112/90.",
+          "p": "troca",
+          "w": "Advertência é penalidade disciplinar da Lei 8.112/90 (art. 127, I), aplicada pela autoridade competente, e não pela Comissão de Ética."
+        },
+        {
+          "t": "Censura, com fundamentação em parecer assinado por todos os integrantes da comissão e ciência do faltoso.",
+          "p": "correta",
+          "w": "O inciso XXII diz que a pena aplicável pela Comissão de Ética é a censura, fundamentada em parecer assinado por todos os integrantes, com ciência do faltoso."
+        },
+        {
+          "t": "Suspensão de até 90 dias, que pode ser convertida em multa se houver conveniência para o serviço.",
+          "p": "extrapolacao",
+          "w": "Suspensão é penalidade da Lei 8.112/90 (art. 130), imposta pela autoridade competente. A Comissão de Ética só aplica a censura."
+        },
+        {
+          "t": "Qualquer penalidade disciplinar, inclusive demissão, conforme a gravidade da falta ética.",
+          "p": "generalizacao",
+          "w": "A Comissão de Ética não tem poder disciplinar amplo. Se houver também infração disciplinar, a apuração segue a Lei 8.112/90."
+        }
+      ]
+    },
+    {
+      "id": "etica9",
+      "topic": "Quem é servidor",
+      "c": "Lucas atua como voluntário, sem remuneração, em um programa temporário de um hospital universitário federal em Uberaba e foi acusado de usar dados de pacientes para oferecer planos de saúde.",
+      "q": "Para fins de apuração ética pelo Decreto 1.171/94, Lucas é considerado servidor público?",
+      "a": 0,
+      "src": "Decreto 1.171/94, Anexo, XXIV",
+      "o": [
+        {
+          "t": "Sim, pois o conceito alcança quem presta serviço permanente, temporário ou excepcional, ainda que sem retribuição financeira.",
+          "p": "correta",
+          "w": "O inciso XXIV considera servidor todo aquele que, por lei, contrato ou qualquer ato jurídico, preste serviços ligados a órgão do poder estatal, ainda que sem retribuição financeira."
+        },
+        {
+          "t": "Não, pois para o Código só é servidor quem ocupa cargo efetivo provido por concurso público.",
+          "p": "restricao",
+          "w": "O conceito do inciso XXIV é amplo e não exige cargo efetivo nem concurso."
+        },
+        {
+          "t": "Sim, e por isso passa a ter os direitos do regime da Lei 8.112/90, como a estabilidade.",
+          "p": "extrapolacao",
+          "w": "O conceito amplo vale para fins de apuração ética. Não transforma o voluntário em servidor estatutário com direitos de carreira."
+        },
+        {
+          "t": "Não; ele responde apenas pela Lei Anticorrupção, que é a lei aplicável a particulares.",
+          "p": "troca",
+          "w": "A Lei 12.846/2013 trata da responsabilização de pessoas jurídicas, e não de voluntários pessoas físicas."
+        }
+      ]
+    },
+    {
+      "id": "etica10",
+      "topic": "Comissão de Ética Pública",
+      "c": "A Casa Civil prepara os atos de designação de novos membros da Comissão de Ética Pública (CEP), que integra o Sistema de Gestão da Ética do Poder Executivo Federal.",
+      "q": "Pelo Decreto 6.029/2007, como é composta a CEP?",
+      "a": 2,
+      "src": "Decreto 6.029/2007, art. 3º, caput e §1º",
+      "o": [
+        {
+          "t": "Três servidores efetivos de cada órgão, com mandatos não coincidentes de três anos.",
+          "p": "troca",
+          "w": "Essa é a lógica das comissões de ética setoriais (três titulares e três suplentes, art. 5º), não da CEP."
+        },
+        {
+          "t": "Sete membros com mandato de três anos, permitidas reconduções sucessivas sem limite.",
+          "p": "generalizacao",
+          "w": "O art. 3º permite uma única recondução."
+        },
+        {
+          "t": "Sete brasileiros de idoneidade moral, reputação ilibada e notória experiência em administração pública, com mandatos de três anos.",
+          "p": "correta",
+          "w": "O art. 3º prevê sete membros designados pelo Presidente da República, para mandatos de três anos, não coincidentes, permitida uma única recondução."
+        },
+        {
+          "t": "Sete membros remunerados por sessão, já que o trabalho é considerado relevante serviço público.",
+          "p": "extrapolacao",
+          "w": "O §1º do art. 3º diz que a atuação na CEP não enseja qualquer remuneração; o trabalho é considerado prestação de relevante serviço público."
+        }
+      ]
+    },
+    {
+      "id": "etica11",
+      "topic": "Ordem manifestamente ilegal",
+      "c": "O chefe do setor de compras de uma universidade federal em Natal mandou um servidor atestar o recebimento de 200 computadores que ainda não foram entregues, para não perder o empenho.",
+      "q": "Qual é o dever do servidor, segundo a Lei 8.112/90?",
+      "a": 3,
+      "src": "Lei 8.112/90, art. 116, IV e XII, e parágrafo único",
+      "o": [
+        {
+          "t": "Cumprir, pois o dever de obediência hierárquica obriga o servidor em qualquer situação.",
+          "p": "generalizacao",
+          "w": "A obediência não é absoluta: o art. 116, IV, ressalva as ordens manifestamente ilegais."
+        },
+        {
+          "t": "Cumprir, desde que a ordem seja dada por escrito, o que transfere toda a responsabilidade ao chefe.",
+          "p": "restricao",
+          "w": "Ordem escrita não torna lícito atestar entrega inexistente. Cumprir ordem manifestamente ilegal também gera responsabilidade."
+        },
+        {
+          "t": "Recusar e levar o caso diretamente à imprensa, que é a via própria da representação.",
+          "p": "troca",
+          "w": "A representação segue a via hierárquica e é apreciada pela autoridade superior àquela contra a qual é formulada (art. 116, parágrafo único)."
+        },
+        {
+          "t": "Não cumprir a ordem, que é manifestamente ilegal, e representar contra a ilegalidade.",
+          "p": "correta",
+          "w": "O art. 116, IV, manda cumprir ordens superiores, exceto quando manifestamente ilegais, e o XII impõe representar contra ilegalidade, omissão ou abuso de poder."
+        }
+      ]
+    },
+    {
+      "id": "etica12",
+      "topic": "Parente sob chefia",
+      "c": "Em uma superintendência federal em Cuiabá, o chefe da divisão de pessoal designou a própria irmã, servidora efetiva do órgão, para uma função de confiança sob sua chefia imediata.",
+      "q": "A conduta viola a Lei 8.112/90?",
+      "a": 1,
+      "src": "Lei 8.112/90, arts. 117, VIII, e 129",
+      "o": [
+        {
+          "t": "Não, pois a irmã é servidora efetiva, e a proibição vale apenas para quem não tem vínculo com o órgão.",
+          "p": "restricao",
+          "w": "O art. 117, VIII, não faz essa distinção: o que importa é o parentesco e a chefia imediata em cargo ou função de confiança."
+        },
+        {
+          "t": "Sim, pois é proibido manter sob chefia imediata, em cargo ou função de confiança, cônjuge, companheiro ou parente até o segundo grau civil.",
+          "p": "correta",
+          "w": "É a proibição do art. 117, VIII. Irmão é parente colateral de segundo grau, e a violação é punida com advertência, salvo se couber pena mais grave (art. 129)."
+        },
+        {
+          "t": "Não, porque irmão é parente de terceiro grau e fica fora do alcance da proibição.",
+          "p": "calculo",
+          "w": "Na linha colateral, conta-se subindo até o ascendente comum e descendo: o irmão é parente de segundo grau, dentro da proibição."
+        },
+        {
+          "t": "Sim, e a lei determina a demissão imediata do chefe, sem necessidade de processo disciplinar.",
+          "p": "extrapolacao",
+          "w": "A violação do art. 117, VIII, é punida com advertência (art. 129), e qualquer penalidade exige apuração com ampla defesa."
+        }
+      ]
+    },
+    {
+      "id": "etica13",
+      "topic": "Sócio cotista",
+      "c": "Juliana, analista de um ministério em Brasília, herdou cotas de um restaurante da família e quer continuar como cotista, sem participar da gerência, que ficará com o irmão.",
+      "q": "Pela Lei 8.112/90, Juliana pode manter a participação?",
+      "a": 0,
+      "src": "Lei 8.112/90, art. 117, X, e parágrafo único",
+      "o": [
+        {
+          "t": "Pode, pois a lei proíbe gerência, administração e comércio, mas ressalva a condição de acionista, cotista ou comanditário.",
+          "p": "correta",
+          "w": "O art. 117, X, proíbe participar de gerência ou administração de sociedade privada e exercer o comércio, exceto na qualidade de acionista, cotista ou comanditário."
+        },
+        {
+          "t": "Não pode, pois o servidor federal está proibido de participar de qualquer sociedade privada.",
+          "p": "generalizacao",
+          "w": "A proibição atinge a gerência, a administração e o comércio, não a mera participação como cotista."
+        },
+        {
+          "t": "Pode, mas somente se estiver em licença para tratar de interesses particulares.",
+          "p": "restricao",
+          "w": "A licença do art. 91 é exceção para a gerência (parágrafo único, II). Para ser apenas cotista, não é necessária."
+        },
+        {
+          "t": "Pode e poderia também assumir a gerência, desde que o fizesse fora do horário de expediente.",
+          "p": "extrapolacao",
+          "w": "A gerência é proibida independentemente do horário, salvo as exceções do parágrafo único, como a licença para interesses particulares."
+        }
+      ]
+    },
+    {
+      "id": "etica14",
+      "topic": "Atuar como procurador",
+      "c": "Ricardo, servidor do Ministério da Saúde em Salvador, quer ser procurador da mãe em um pedido de aposentadoria no INSS. Um amigo também lhe pediu que o representasse num pedido de alvará na prefeitura.",
+      "q": "Pela Lei 8.112/90, o que Ricardo pode fazer?",
+      "a": 2,
+      "src": "Lei 8.112/90, art. 117, XI",
+      "o": [
+        {
+          "t": "Não pode atuar como procurador em nenhum caso, nem mesmo para a própria mãe.",
+          "p": "generalizacao",
+          "w": "A lei ressalva os benefícios previdenciários ou assistenciais de parentes até o segundo grau, e a mãe é parente de primeiro grau."
+        },
+        {
+          "t": "Pode atuar pela mãe, mas apenas se estiver de férias, pois a lei veda a atuação durante o exercício do cargo.",
+          "p": "restricao",
+          "w": "A exceção do art. 117, XI, não depende de férias ou afastamento."
+        },
+        {
+          "t": "Pode ser procurador da mãe no pedido previdenciário, mas não do amigo na prefeitura.",
+          "p": "correta",
+          "w": "O art. 117, XI, proíbe atuar como procurador ou intermediário junto a repartições públicas, salvo em benefícios previdenciários ou assistenciais de parentes até o segundo grau e de cônjuge ou companheiro."
+        },
+        {
+          "t": "Pode atuar pelos dois, desde que não cobre honorários de nenhum deles.",
+          "p": "extrapolacao",
+          "w": "A gratuidade não afasta a proibição. Fora da exceção previdenciária ou assistencial familiar, a atuação é vedada."
+        }
+      ]
+    },
+    {
+      "id": "etica15",
+      "topic": "Valer-se do cargo",
+      "c": "Paulo, técnico de um órgão federal de fiscalização em Porto Alegre, usou o cargo para obter, junto a uma empresa fiscalizada, emprego para o filho, em detrimento da dignidade da função pública.",
+      "q": "Comprovada a infração em PAD, qual penalidade a Lei 8.112/90 prevê?",
+      "a": 3,
+      "src": "Lei 8.112/90, arts. 117, IX, 127 e 132, XIII",
+      "o": [
+        {
+          "t": "Advertência, por ser uma das proibições dos incisos I a VIII do art. 117.",
+          "p": "troca",
+          "w": "O inciso IX não está entre os punidos com advertência (art. 129). Sua violação gera demissão."
+        },
+        {
+          "t": "Suspensão, pois a primeira infração deve sempre receber a pena mais branda.",
+          "p": "generalizacao",
+          "w": "Não há gradação obrigatória: a lei fixa a pena conforme a infração, e a do art. 117, IX, é demissão desde a primeira vez."
+        },
+        {
+          "t": "Demissão, mas só se o filho tiver recebido salário acima do valor de mercado.",
+          "p": "restricao",
+          "w": "A lei não exige esse requisito: basta valer-se do cargo para obter proveito em detrimento da dignidade da função."
+        },
+        {
+          "t": "Demissão, pois valer-se do cargo para lograr proveito pessoal ou de outrem está entre as infrações punidas com demissão.",
+          "p": "correta",
+          "w": "A conduta é a do art. 117, IX, e o art. 132, XIII, determina demissão para a transgressão dos incisos IX a XVI do art. 117."
+        }
+      ]
+    },
+    {
+      "id": "etica16",
+      "topic": "Resultados da sindicância",
+      "c": "Uma sindicância em um instituto federal de Juiz de Fora concluiu que um servidor descumpriu prazos internos de forma reiterada, falta que a comissão considera merecer suspensão de 15 dias.",
+      "q": "Pela Lei 8.112/90, essa penalidade pode resultar da própria sindicância?",
+      "a": 1,
+      "src": "Lei 8.112/90, art. 145",
+      "o": [
+        {
+          "t": "Não, pois a sindicância é sempre meramente investigativa e nunca resulta em penalidade.",
+          "p": "generalizacao",
+          "w": "O art. 145, II, admite a aplicação de advertência ou suspensão de até 30 dias como resultado da sindicância."
+        },
+        {
+          "t": "Sim, pois da sindicância pode resultar advertência ou suspensão de até 30 dias, assegurada a ampla defesa.",
+          "p": "correta",
+          "w": "O art. 145 prevê como resultados o arquivamento, a advertência ou suspensão de até 30 dias, ou a instauração de PAD. A sindicância deve terminar em até 30 dias, prorrogáveis por igual período."
+        },
+        {
+          "t": "Não, pois a sindicância só permite advertência; qualquer suspensão exige PAD.",
+          "p": "restricao",
+          "w": "O PAD é obrigatório para suspensão superior a 30 dias (art. 146). Até 30 dias, a sindicância basta."
+        },
+        {
+          "t": "Sim, e a sindicância poderia aplicar até demissão, desde que concluída em 30 dias.",
+          "p": "extrapolacao",
+          "w": "Demissão sempre exige PAD (art. 146). O prazo da sindicância não altera essa regra."
+        }
+      ]
+    },
+    {
+      "id": "etica17",
+      "topic": "PAD obrigatório",
+      "c": "Em um órgão federal em Belém, apurou-se que uma servidora estável teria se valido do cargo para obter vantagem, falta punível com demissão. O dirigente quer resolver por sindicância, com comissão de dois servidores.",
+      "q": "Assinale a alternativa correta segundo a Lei 8.112/90.",
+      "a": 0,
+      "src": "Lei 8.112/90, arts. 146 e 149",
+      "o": [
+        {
+          "t": "É obrigatório instaurar PAD, conduzido por comissão de três servidores estáveis.",
+          "p": "correta",
+          "w": "O art. 146 exige PAD quando a pena puder ser suspensão acima de 30 dias, demissão, cassação ou destituição. O art. 149 exige comissão de três servidores estáveis."
+        },
+        {
+          "t": "A sindicância basta, pois o PAD só é exigido quando a pena for suspensão superior a 90 dias.",
+          "p": "troca",
+          "w": "Noventa dias é o limite máximo da suspensão (art. 130). O PAD é obrigatório a partir de suspensão superior a 30 dias e para demissão."
+        },
+        {
+          "t": "O PAD é obrigatório, mas a comissão pode ter dois membros, desde que o presidente seja estável.",
+          "p": "restricao",
+          "w": "O art. 149 exige três servidores estáveis, não apenas um presidente estável."
+        },
+        {
+          "t": "A autoridade escolhe livremente entre sindicância e PAD em qualquer caso, conforme a conveniência.",
+          "p": "generalizacao",
+          "w": "Não há livre escolha quando a pena possível é demissão: o PAD é obrigatório (art. 146)."
+        }
+      ]
+    },
+    {
+      "id": "etica18",
+      "topic": "Enriquecimento ilícito",
+      "c": "O secretário de obras de um município do interior de Pernambuco usou, dolosamente, uma retroescavadeira da prefeitura e três operadores contratados pelo município para fazer a terraplanagem do seu sítio.",
+      "q": "Pela Lei 8.429/92, com a redação da Lei 14.230/2021, como se enquadra o ato?",
+      "a": 2,
+      "src": "Lei 8.429/92, art. 9º, IV (redação da Lei 14.230/2021)",
+      "o": [
+        {
+          "t": "Apenas violação de princípios (art. 11), pois nenhum dinheiro foi transferido ao secretário.",
+          "p": "troca",
+          "w": "A vantagem patrimonial não precisa ser em dinheiro. A conduta está descrita expressamente no art. 9º, IV."
+        },
+        {
+          "t": "Não é improbidade, pois a máquina voltou intacta à prefeitura ao fim do serviço.",
+          "p": "restricao",
+          "w": "A devolução do bem não apaga a vantagem obtida com o uso da máquina e dos operadores em proveito próprio."
+        },
+        {
+          "t": "Enriquecimento ilícito, por usar em obra particular bem móvel e trabalho de pessoal contratado pelo município.",
+          "p": "correta",
+          "w": "O art. 9º, IV, tipifica utilizar em obra ou serviço particular bem móvel das entidades públicas e o trabalho de servidores, empregados ou terceiros contratados por elas. A vantagem é o serviço que ele não pagou."
+        },
+        {
+          "t": "Lesão ao erário na forma culposa, já que houve desgaste da máquina, com ou sem dolo.",
+          "p": "generalizacao",
+          "w": "Desde a Lei 14.230/2021 não existe improbidade culposa; e o uso doloso em obra particular está no art. 9º, IV."
+        }
+      ]
+    },
+    {
+      "id": "etica19",
+      "topic": "Lesão ao erário",
+      "c": "Em uma prefeitura do Maranhão, o pregoeiro, em conluio com uma fornecedora, direcionou dolosamente a licitação da merenda escolar. A perícia comprovou sobrepreço de R$ 300 mil pago à empresa, sem prova de que ele tenha recebido valores.",
+      "q": "Pela Lei 8.429/92 (redação da Lei 14.230/2021), como se enquadra a conduta do pregoeiro?",
+      "a": 1,
+      "src": "Lei 8.429/92, art. 10, caput e VIII (redação da Lei 14.230/2021)",
+      "o": [
+        {
+          "t": "Enriquecimento ilícito, pois toda fraude em licitação presume que o agente recebeu propina.",
+          "p": "troca",
+          "w": "O art. 9º exige vantagem patrimonial indevida do agente, que não foi provada. O dano comprovado aos cofres enquadra o caso no art. 10."
+        },
+        {
+          "t": "Ato que causa lesão ao erário, pois a conduta dolosa gerou perda patrimonial efetiva e comprovada.",
+          "p": "correta",
+          "w": "O art. 10 exige ação ou omissão dolosa que enseje, efetiva e comprovadamente, perda patrimonial. O inciso VIII trata de frustrar a licitude do processo licitatório com perda patrimonial efetiva."
+        },
+        {
+          "t": "Nenhuma, pois a improbidade exige que o próprio agente público tenha enriquecido.",
+          "p": "restricao",
+          "w": "O art. 10 não exige enriquecimento do agente: basta a perda patrimonial dolosa, inclusive em benefício de terceiro."
+        },
+        {
+          "t": "Lesão ao erário, mesmo que não houvesse sobrepreço, porque o dano em licitação é sempre presumido.",
+          "p": "generalizacao",
+          "w": "A Lei 14.230/2021 exige perda patrimonial efetiva e comprovada; dano presumido não basta para o art. 10."
+        }
+      ]
+    },
+    {
+      "id": "etica20",
+      "topic": "Fraude em concurso",
+      "c": "A servidora responsável pela organização de um concurso de uma câmara municipal paulista repassou dolosamente o conteúdo da prova a um amigo candidato, para beneficiá-lo. Ela nada recebeu, e não houve prejuízo aos cofres públicos.",
+      "q": "Pela Lei 8.429/92, com a redação da Lei 14.230/2021, como se enquadra a conduta?",
+      "a": 3,
+      "src": "Lei 8.429/92, art. 11, V (redação da Lei 14.230/2021)",
+      "o": [
+        {
+          "t": "Lesão ao erário, pois todo concurso fraudado gera prejuízo presumido aos cofres públicos.",
+          "p": "troca",
+          "w": "O art. 10 exige perda patrimonial efetiva e comprovada, o que não houve. A conduta está descrita no art. 11, V."
+        },
+        {
+          "t": "Nenhuma, porque esse inciso do art. 11 alcança apenas licitações, e não concursos públicos.",
+          "p": "restricao",
+          "w": "O art. 11, V, menciona expressamente o concurso público, ao lado do chamamento e do procedimento licitatório."
+        },
+        {
+          "t": "Enriquecimento ilícito, já que o amigo, se aprovado, passará a receber vencimentos públicos.",
+          "p": "extrapolacao",
+          "w": "O art. 9º exige vantagem patrimonial indevida auferida em razão do cargo. Vencimentos futuros de terceiro não configuram enriquecimento da servidora."
+        },
+        {
+          "t": "Violação de princípios, por frustrar, em ofensa à imparcialidade, o caráter concorrencial do concurso para beneficiar terceiro.",
+          "p": "correta",
+          "w": "O art. 11, V, tipifica frustrar, em ofensa à imparcialidade, o caráter concorrencial de concurso público, de chamamento ou de licitação, para benefício próprio ou de terceiros."
+        }
+      ]
+    },
+    {
+      "id": "etica21",
+      "topic": "Terceiro na improbidade",
+      "c": "Um empresário de Campinas convenceu um servidor municipal a dispensar indevidamente uma licitação, e sua empresa foi contratada com superfaturamento. Ambos agiram com dolo.",
+      "q": "O empresário, que não é agente público, pode responder pela Lei 8.429/92?",
+      "a": 0,
+      "src": "Lei 8.429/92, art. 3º (redação da Lei 14.230/2021)",
+      "o": [
+        {
+          "t": "Sim, pois a lei se aplica, no que couber, a quem induza ou concorra dolosamente para a prática do ato de improbidade.",
+          "p": "correta",
+          "w": "O art. 3º estende as disposições da lei a quem, mesmo não sendo agente público, induza ou concorra dolosamente para o ato."
+        },
+        {
+          "t": "Não, pois a Lei de Improbidade alcança exclusivamente agentes públicos.",
+          "p": "restricao",
+          "w": "O art. 3º alcança também o particular que induz ou concorre dolosamente para o ato."
+        },
+        {
+          "t": "Sim, e ele responde mesmo sem dolo, pois o particular responde objetivamente na improbidade.",
+          "p": "generalizacao",
+          "w": "O art. 3º exige que o particular induza ou concorra dolosamente. Responsabilidade objetiva é a da pessoa jurídica na Lei 12.846/2013."
+        },
+        {
+          "t": "Não pela Lei 8.429/92; ele responde só pela Lei 12.846/2013, que trata de pessoas físicas.",
+          "p": "troca",
+          "w": "A Lei 12.846/2013 responsabiliza pessoas jurídicas. A pessoa física que concorre dolosamente responde pela Lei 8.429/92."
+        }
+      ]
+    },
+    {
+      "id": "etica22",
+      "topic": "Responsabilidade objetiva",
+      "c": "A Construtora Alfa, de Curitiba, foi acusada de pagar propina a um fiscal federal por meio de um gerente regional. Em defesa, alega que a diretoria não sabia e que o gerente agiu sozinho, embora o contrato tenha beneficiado a empresa.",
+      "q": "Pela Lei 12.846/2013, essa defesa afasta a responsabilidade da empresa?",
+      "a": 2,
+      "src": "Lei 12.846/2013, arts. 1º, 2º e 3º",
+      "o": [
+        {
+          "t": "Sim, pois a empresa só responde se ficar provada a culpa de seus diretores estatutários.",
+          "p": "restricao",
+          "w": "A responsabilidade da pessoa jurídica independe de culpa e da responsabilização individual das pessoas naturais (arts. 2º e 3º, §1º)."
+        },
+        {
+          "t": "Sim, pois a responsabilidade da pessoa jurídica é subjetiva, como a do agente na Lei de Improbidade.",
+          "p": "troca",
+          "w": "A Lei 12.846/2013 adota responsabilidade objetiva para a pessoa jurídica; o dolo é exigência da Lei 8.429/92 para o agente."
+        },
+        {
+          "t": "Não, pois a pessoa jurídica responde objetivamente pelos atos lesivos praticados em seu interesse ou benefício, exclusivo ou não.",
+          "p": "correta",
+          "w": "O art. 2º prevê responsabilidade objetiva, administrativa e civil, da pessoa jurídica. Não é preciso provar culpa da diretoria."
+        },
+        {
+          "t": "Não, e a lei também responsabiliza objetivamente o gerente, sem necessidade de provar sua culpa.",
+          "p": "extrapolacao",
+          "w": "Objetiva é apenas a responsabilidade da pessoa jurídica (art. 2º). O gerente pode responder individualmente (art. 3º, caput), mas conforme a sua própria culpa, como o §2º prevê para dirigentes e administradores."
+        }
+      ]
+    },
+    {
+      "id": "etica23",
+      "topic": "Acordo de leniência",
+      "c": "A Beta Engenharia, investigada pela CGU por fraude em licitações federais, foi a primeira a manifestar interesse em cooperar, admitiu a participação, cessou o envolvimento e ajudou a identificar os demais envolvidos. Firmou-se acordo de leniência.",
+      "q": "Quais efeitos o acordo pode produzir, segundo a Lei 12.846/2013?",
+      "a": 3,
+      "src": "Lei 12.846/2013, art. 16, §§1º a 3º",
+      "o": [
+        {
+          "t": "Isentar a empresa de todas as sanções, inclusive da obrigação de reparar o dano.",
+          "p": "generalizacao",
+          "w": "O acordo não exime a pessoa jurídica de reparar integralmente o dano (art. 16, §3º)."
+        },
+        {
+          "t": "Reduzir a multa em até 1/3, mantendo a obrigação de publicar a decisão condenatória.",
+          "p": "calculo",
+          "w": "A redução é de até 2/3, e a publicação extraordinária é uma das sanções afastadas pelo acordo (art. 16, §2º)."
+        },
+        {
+          "t": "Extinguir a responsabilidade criminal dos diretores, como ocorre na colaboração premiada.",
+          "p": "troca",
+          "w": "A leniência da Lei 12.846/2013 trata das sanções administrativas e civis da pessoa jurídica; não se confunde com a colaboração premiada penal."
+        },
+        {
+          "t": "Reduzir a multa em até 2/3 e isentar a publicação extraordinária da decisão, sem eximir a reparação integral do dano.",
+          "p": "correta",
+          "w": "O art. 16, §2º, isenta a publicação extraordinária e a proibição de receber incentivos e reduz a multa em até 2/3. O §3º mantém a obrigação de reparar integralmente o dano."
+        }
+      ]
+    },
+    {
+      "id": "etica24",
+      "topic": "Quarentena",
+      "c": "Marina deixou em março de 2026 um cargo de natureza especial em um ministério. Em junho, uma mineradora com a qual ela tratou de processos relevantes no cargo ofereceu-lhe uma vaga de conselheira.",
+      "q": "Pela Lei 12.813/2013, Marina pode aceitar?",
+      "a": 1,
+      "src": "Lei 12.813/2013, art. 6º, II, b",
+      "o": [
+        {
+          "t": "Pode, pois a quarentena da Lei 12.813/2013 é de três meses, já cumpridos.",
+          "p": "calculo",
+          "w": "O prazo é de seis meses, contado da dispensa, exoneração, destituição, demissão ou aposentadoria."
+        },
+        {
+          "t": "Não sem autorização da CEP ou da CGU, pois ainda está no período de seis meses após o desligamento.",
+          "p": "correta",
+          "w": "O art. 6º, II, configura conflito de interesses, nos seis meses seguintes ao desligamento, aceitar cargo de conselheiro em empresa ligada à área do cargo, salvo autorização da CEP ou da CGU."
+        },
+        {
+          "t": "Não pode jamais, pois a vedação de trabalhar para empresas do setor é perpétua.",
+          "p": "generalizacao",
+          "w": "A vedação perpétua é apenas a de divulgar ou usar informação privilegiada (art. 6º, I). O vínculo profissional é restrito por seis meses."
+        },
+        {
+          "t": "Pode, porque a lei só proíbe vínculo com empresas que tenham contrato vigente com o governo federal.",
+          "p": "restricao",
+          "w": "O art. 6º, II, não exige contrato vigente: basta relacionamento relevante ou atividade ligada à área de competência do cargo."
+        }
+      ]
+    },
+    {
+      "id": "etica25",
+      "topic": "Prazo de resposta",
+      "c": "Em 2 de março, uma jornalista de Fortaleza pediu a uma universidade federal, pelo sistema eletrônico de acesso à informação, dados sobre gastos com diárias. A informação não estava disponível para entrega imediata.",
+      "q": "Pela Lei 12.527/2011, qual é o prazo para a resposta?",
+      "a": 0,
+      "src": "Lei 12.527/2011, art. 11, §§1º e 2º",
+      "o": [
+        {
+          "t": "Até 20 dias, prorrogáveis por mais 10, mediante justificativa expressa comunicada à requerente.",
+          "p": "correta",
+          "w": "Não sendo possível o acesso imediato, o órgão tem até 20 dias (art. 11, §1º), prorrogáveis por mais 10, com justificativa expressa da qual o requerente será cientificado (§2º)."
+        },
+        {
+          "t": "Até 10 dias, prorrogáveis por mais 20, mediante justificativa.",
+          "p": "calculo",
+          "w": "Os números estão invertidos: o prazo inicial é de 20 dias, e a prorrogação, de 10."
+        },
+        {
+          "t": "Até 30 dias, prorrogáveis por igual período, como no prazo de decisão da Lei 9.784/99.",
+          "p": "troca",
+          "w": "A LAI tem prazo próprio de 20 dias mais 10. O prazo de 30 dias para decidir é do processo administrativo geral (Lei 9.784/99, art. 49)."
+        },
+        {
+          "t": "Até 20 dias, mas só se a jornalista comprovar o interesse jornalístico do pedido.",
+          "p": "restricao",
+          "w": "São vedadas exigências relativas aos motivos do pedido de informação de interesse público (art. 10, §3º)."
+        }
+      ]
+    },
+    {
+      "id": "etica26",
+      "topic": "Classificação de sigilo",
+      "c": "Em 2026, um ministério classificou como secreto um estudo estratégico sobre a defesa de fronteiras, sem vincular o fim do sigilo a nenhum evento.",
+      "q": "Pela Lei 12.527/2011, qual é o prazo máximo de restrição e o que ocorre depois dele?",
+      "a": 3,
+      "src": "Lei 12.527/2011, art. 24, §§1º e 4º",
+      "o": [
+        {
+          "t": "Até 25 anos, que é o prazo máximo previsto para a informação secreta.",
+          "p": "calculo",
+          "w": "Vinte e cinco anos é o prazo da informação ultrassecreta. A secreta tem prazo máximo de 15 anos."
+        },
+        {
+          "t": "Até 15 anos; depois, o sigilo é renovado automaticamente, salvo decisão em contrário.",
+          "p": "inversao",
+          "w": "É o contrário: vencido o prazo, a informação passa automaticamente a ser de acesso público (art. 24, §4º)."
+        },
+        {
+          "t": "Por prazo indeterminado, pois assuntos de defesa nacional não se sujeitam a prazo de sigilo.",
+          "p": "generalizacao",
+          "w": "Toda classificação tem prazo máximo na LAI, inclusive as que envolvem defesa nacional."
+        },
+        {
+          "t": "Até 15 anos; depois, a informação torna-se automaticamente de acesso público.",
+          "p": "correta",
+          "w": "O art. 24, §1º, fixa 25 anos para ultrassecreta, 15 para secreta e 5 para reservada. Transcorrido o prazo, a informação se torna automaticamente pública (§4º)."
+        }
+      ]
+    },
+    {
+      "id": "etica27",
+      "topic": "Integridade em contratações",
+      "c": "O Ministério dos Transportes vai licitar uma obra de grande vulto, a duplicação de um trecho de rodovia federal no Paraná, e a equipe redige o edital.",
+      "q": "Pela Lei 14.133/2021, o que o edital deve prever sobre programa de integridade?",
+      "a": 2,
+      "src": "Lei 14.133/2021, art. 25, §4º",
+      "o": [
+        {
+          "t": "Que só podem participar empresas que já tenham programa de integridade implantado antes da licitação.",
+          "p": "restricao",
+          "w": "A lei não restringe a participação: a obrigação recai sobre o vencedor, depois da assinatura do contrato."
+        },
+        {
+          "t": "A obrigação de implantar o programa em até doze meses da assinatura do contrato.",
+          "p": "calculo",
+          "w": "O prazo do art. 25, §4º, é de seis meses contados da celebração do contrato."
+        },
+        {
+          "t": "A obrigação de o vencedor implantar programa de integridade em até seis meses da celebração do contrato.",
+          "p": "correta",
+          "w": "O art. 25, §4º, determina que, nas contratações de grande vulto, o edital preveja a implantação do programa de integridade pelo licitante vencedor no prazo de seis meses da celebração do contrato."
+        },
+        {
+          "t": "Nada, pois o programa de integridade é sempre facultativo nas contratações públicas.",
+          "p": "generalizacao",
+          "w": "Nas contratações de grande vulto, a lei torna a implantação obrigatória para o vencedor."
+        }
+      ]
+    },
+    {
+      "id": "etica28",
+      "topic": "Programa de integridade",
+      "c": "Em processo administrativo de responsabilização conduzido pela CGU, a Gama Logística comprovou que, antes do ato lesivo praticado por um empregado, já mantinha canal de denúncias, código de conduta aplicado e auditoria interna.",
+      "q": "Pela Lei 12.846/2013, qual é o efeito desse programa de integridade?",
+      "a": 1,
+      "src": "Lei 12.846/2013, art. 7º, VIII",
+      "o": [
+        {
+          "t": "Exclui a responsabilidade, pois prova que a empresa não teve culpa no ato do empregado.",
+          "p": "troca",
+          "w": "A responsabilidade da pessoa jurídica é objetiva (art. 2º); ausência de culpa não a afasta. O programa só pesa na dosimetria."
+        },
+        {
+          "t": "É levado em consideração na aplicação das sanções, mas não afasta a responsabilidade da empresa.",
+          "p": "correta",
+          "w": "O art. 7º, VIII, manda considerar, na dosimetria, os mecanismos internos de integridade, auditoria e incentivo à denúncia. Como a responsabilidade é objetiva, o programa não a exclui."
+        },
+        {
+          "t": "Garante à empresa o direito a firmar acordo de leniência com isenção total da multa.",
+          "p": "extrapolacao",
+          "w": "Leniência depende dos requisitos do art. 16 e reduz a multa em até 2/3; não há isenção total nem direito automático."
+        },
+        {
+          "t": "Só pode ser considerado se tiver sido certificado pela CGU antes da assinatura do contrato.",
+          "p": "restricao",
+          "w": "O art. 7º, VIII, não exige certificação prévia; o que se avalia é a existência e a aplicação efetiva dos mecanismos."
+        }
+      ]
+    },
+    {
+      "id": "etica29",
+      "type": "ce",
+      "topic": "Moralidade e finalidade",
+      "src": "Decreto 1.171/94, Anexo, III",
+      "c": "Ao defender a compra de carros de luxo para a diretoria de uma fundação federal em Florianópolis, com respaldo formal em norma interna, um gestor argumentou que, se o ato é legal, também é moral.",
+      "q": "Segundo o Código de Ética, a moralidade do ato administrativo se consolida pelo equilíbrio entre a legalidade e a finalidade, sendo o fim sempre o bem comum.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Inciso III: a moralidade não se limita à distinção entre o bem e o mal; o fim é sempre o bem comum, e o equilíbrio entre legalidade e finalidade consolida a moralidade do ato."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado é confundir moralidade com mera legalidade, como fez o gestor. O inciso III exige também finalidade voltada ao bem comum."
+        }
+      ]
+    },
+    {
+      "id": "etica30",
+      "type": "ce",
+      "topic": "Hierarquia e representação",
+      "src": "Decreto 1.171/94, Anexo, XIV, h e i",
+      "c": "Um servidor do Ibama em Porto Velho percebe que o superintendente pressiona a equipe para arquivar autos de infração contra uma madeireira, mas hesita em agir por receio de quebrar a hierarquia.",
+      "q": "Pelo Código de Ética, o respeito à hierarquia impede o servidor de representar contra o superior, cabendo-lhe apenas obedecer.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo transforma o respeito à hierarquia em obediência absoluta, o que o Código não prevê."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O XIV, h, manda respeitar a hierarquia, porém sem nenhum temor de representar contra comprometimento indevido; o XIV, i, manda resistir a pressões de superiores e denunciá-las."
+        }
+      ]
+    },
+    {
+      "id": "etica31",
+      "type": "ce",
+      "topic": "Quem provoca a comissão",
+      "src": "Decreto 6.029/2007, arts. 10, II, e 11",
+      "c": "Uma moradora de Teresina, sem vínculo com o serviço público, quer levar à Comissão de Ética de um órgão federal a conduta de um servidor que a atendeu com ofensas, mas teme represálias.",
+      "q": "Pelo Decreto 6.029/2007, ela pode provocar a atuação da Comissão de Ética, e sua identidade deve ser mantida sob reserva, se assim desejar.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O art. 11 permite que qualquer cidadão provoque a CEP ou a Comissão de Ética, e o art. 10, II, protege a identidade do denunciante, mantida sob reserva se ele desejar."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que só agentes públicos possam provocar a comissão ou que o denunciante deva se expor, restrições que o decreto não faz."
+        }
+      ]
+    },
+    {
+      "id": "etica32",
+      "type": "ce",
+      "topic": "Registros éticos na carreira",
+      "src": "Decreto 1.171/94, Anexo, XVIII",
+      "c": "Uma servidora de um ministério recebeu censura da Comissão de Ética e, meses depois, passou a concorrer a uma promoção na carreira.",
+      "q": "A Comissão de Ética deve fornecer aos órgãos encarregados da carreira os registros sobre a conduta ética do servidor, para instruir e fundamentar promoções.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "É o inciso XVIII: os registros sobre a conduta ética servem para instruir e fundamentar promoções e demais procedimentos da carreira."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que os registros éticos fiquem restritos à comissão, o que contraria o inciso XVIII."
+        }
+      ]
+    },
+    {
+      "id": "etica33",
+      "type": "ce",
+      "topic": "Prescrição e crime",
+      "src": "Lei 8.112/90, art. 142, §2º",
+      "c": "Um servidor federal em Goiânia se apropriou de equipamentos da repartição, fato que é punível com demissão e configura também o crime de peculato.",
+      "q": "Nesse caso, aplicam-se à ação disciplinar os prazos de prescrição previstos na lei penal, por se tratar de infração também capitulada como crime.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O art. 142, §2º, determina que os prazos de prescrição da lei penal se aplicam às infrações disciplinares também capituladas como crime."
+        },
+        {
+          "t": "Errado",
+          "p": "generalizacao",
+          "w": "Julgar errado supõe que o prazo de cinco anos do art. 142, I, valha em qualquer caso, ignorando a regra especial do §2º."
+        }
+      ]
+    },
+    {
+      "id": "etica34",
+      "type": "ce",
+      "topic": "Afastamento preventivo",
+      "src": "Lei 8.112/90, art. 147",
+      "c": "Para evitar que um servidor investigado em PAD destrua provas em um órgão federal de Belo Horizonte, a autoridade instauradora decidiu afastá-lo do cargo.",
+      "q": "A Lei 8.112/90 permite esse afastamento preventivo por até 60 dias, prorrogável por igual prazo, com suspensão da remuneração durante o período.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "inversao",
+          "w": "Julgar certo inverte a garantia legal: o afastamento preventivo é medida cautelar, não punição, e por isso não corta a remuneração."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O art. 147 prevê afastamento de até 60 dias, prorrogável por igual prazo, mas sem prejuízo da remuneração."
+        }
+      ]
+    },
+    {
+      "id": "etica35",
+      "type": "ce",
+      "topic": "Rol taxativo",
+      "src": "Lei 8.429/92, art. 11, caput (redação da Lei 14.230/2021)",
+      "c": "O Ministério Público ajuizou ação de improbidade contra um prefeito por ofensa genérica ao princípio da moralidade, sem enquadrar a conduta em nenhum dos incisos do art. 11 da Lei 8.429/92.",
+      "q": "Com a redação dada pela Lei 14.230/2021, o rol do art. 11 é exemplificativo, de modo que basta demonstrar ofensa genérica a princípio da administração.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo repete a redação antiga, que usava o termo \"notadamente\". A Lei 14.230/2021 fechou o rol."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O caput do art. 11 passou a exigir conduta \"caracterizada por uma das seguintes condutas\", tornando o rol taxativo; ofensa genérica a princípio não basta."
+        }
+      ]
+    },
+    {
+      "id": "etica36",
+      "type": "ce",
+      "topic": "Patrimônio desproporcional",
+      "src": "Lei 8.429/92, art. 9º, VII (redação da Lei 14.230/2021)",
+      "c": "Um fiscal tributário de Mato Grosso, com renda mensal de R$ 15 mil, adquiriu em dois anos, no exercício do cargo, três imóveis de alto padrão em valor muito superior à sua renda.",
+      "q": "A Lei 8.429/92 prevê como enriquecimento ilícito a aquisição de bens desproporcionais à renda em razão do cargo, assegurada ao agente a demonstração da licitude da origem dessa evolução.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O art. 9º, VII, descreve a aquisição de bens desproporcionais à evolução do patrimônio ou à renda e assegura ao agente demonstrar a licitude da origem dessa evolução."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que a lei negue ao agente a chance de provar a origem lícita dos bens, garantia que o inciso VII prevê expressamente."
+        }
+      ]
+    },
+    {
+      "id": "etica37",
+      "type": "ce",
+      "topic": "Independência das responsabilidades",
+      "src": "Lei 12.846/2013, art. 3º, §1º",
+      "c": "A CGU instaurou processo de responsabilização contra a Delta Serviços, de Manaus, por fraude em contrato federal. A empresa pediu a suspensão do processo até que seus diretores fossem julgados na esfera criminal.",
+      "q": "Pela Lei 12.846/2013, a responsabilização da pessoa jurídica depende da prévia condenação das pessoas naturais envolvidas.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "restricao",
+          "w": "Julgar certo acrescenta uma condição que a lei não prevê."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O art. 3º, §1º, diz que a pessoa jurídica será responsabilizada independentemente da responsabilização individual das pessoas naturais."
+        }
+      ]
+    },
+    {
+      "id": "etica38",
+      "type": "ce",
+      "topic": "Informação privilegiada",
+      "src": "Lei 12.813/2013, art. 6º, I",
+      "c": "Sete meses depois de deixar um cargo na área econômica de um ministério, um ex-servidor usou dados sigilosos sobre uma futura mudança tributária, obtidos no cargo, para orientar investimentos de clientes.",
+      "q": "Como já se passaram os seis meses da quarentena, o uso dessa informação privilegiada não configura conflito de interesses pela Lei 12.813/2013.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "restricao",
+          "w": "Julgar certo aplica a todas as condutas o limite de seis meses, que vale só para as hipóteses do art. 6º, II."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Pelo art. 6º, I, divulgar ou usar informação privilegiada obtida no cargo configura conflito de interesses a qualquer tempo."
+        }
+      ]
+    },
+    {
+      "id": "etica39",
+      "type": "ce",
+      "topic": "Direitos humanos e sigilo",
+      "src": "Lei 12.527/2011, art. 21, parágrafo único",
+      "c": "Familiares de presos pedem acesso a documentos sobre torturas praticadas por agentes de um presídio federal, que o órgão havia classificado como reservados.",
+      "q": "Pela Lei 12.527/2011, informações sobre condutas que impliquem violação dos direitos humanos praticada por agentes públicos não podem ser objeto de restrição de acesso.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "É o texto do art. 21, parágrafo único. O caput ainda garante acesso à informação necessária à tutela de direitos fundamentais."
+        },
+        {
+          "t": "Errado",
+          "p": "generalizacao",
+          "w": "Julgar errado supõe que a classificação de sigilo prevaleça em qualquer caso, ignorando a exceção expressa do art. 21, parágrafo único."
+        }
+      ]
+    },
+    {
+      "id": "etica40",
+      "type": "ce",
+      "topic": "Motivos do pedido",
+      "src": "Lei 12.527/2011, art. 10, §3º",
+      "c": "Ao pedir a uma autarquia federal a lista de contratos de limpeza, um estudante de Campina Grande recebeu resposta exigindo que explicasse para que usaria os dados.",
+      "q": "A exigência é válida, pois a Lei 12.527/2011 permite ao órgão condicionar o acesso à exposição dos motivos do pedido.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "inversao",
+          "w": "Julgar certo inverte a regra da LAI, que tem a publicidade como preceito geral e o sigilo como exceção."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O art. 10, §3º, veda quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público."
+        }
+      ]
+    }
+  ]
+}

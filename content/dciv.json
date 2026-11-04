@@ -1,0 +1,557 @@
+{
+  "id": "dciv",
+  "title": "Direito Civil",
+  "subtitle": "LINDB, parte geral, contratos e responsabilidade",
+  "tag": "Concursos",
+  "blurb": "LINDB, capacidade, negócio jurídico, prescrição, contratos, responsabilidade civil e usucapião em casos práticos, com o artigo exato do Código Civil.",
+  "questions": [
+    {
+      "id": "dciv1",
+      "topic": "Vacatio legis",
+      "c": "Uma lei federal que altera regras do cadastro de imóveis rurais foi publicada no Diário Oficial da União sem nenhuma cláusula sobre o início de sua vigência. Um cartório de Goiânia precisa saber a partir de quando aplicá-la.",
+      "q": "Quando a lei começa a vigorar no país?",
+      "a": 0,
+      "src": "LINDB, art. 1º, caput",
+      "o": [
+        { "t": "Quarenta e cinco dias depois de oficialmente publicada, por falta de disposição em contrário.", "p": "correta", "w": "Art. 1º da LINDB: salvo disposição contrária, a lei começa a vigorar em todo o país 45 dias depois de oficialmente publicada." },
+        { "t": "Na data da publicação, porque toda lei entra em vigor assim que é publicada.", "p": "generalizacao", "w": "Vigência imediata depende de cláusula expressa, como “entra em vigor na data de sua publicação”. No silêncio, aplica-se a vacatio de 45 dias." },
+        { "t": "Três meses depois de publicada, prazo que a LINDB fixa para a vigência no território nacional.", "p": "troca", "w": "Três meses é o prazo para a obrigatoriedade da lei brasileira nos Estados estrangeiros, quando admitida (art. 1º, § 1º). No país, o prazo é de 45 dias." },
+        { "t": "Somente depois de regulamentada por decreto do Presidente da República.", "p": "restricao", "w": "A LINDB não condiciona a vigência à regulamentação. Sem cláusula expressa, a lei vigora 45 dias após a publicação oficial." }
+      ]
+    },
+    {
+      "id": "dciv2",
+      "topic": "Vigência no exterior",
+      "c": "Uma lei federal publicada sem cláusula de vigência trata de documentos emitidos por repartições consulares brasileiras. O consulado do Brasil em Lisboa quer saber quando a nova regra passa a ser obrigatória ali.",
+      "q": "Nos Estados estrangeiros, quando admitida, a obrigatoriedade da lei brasileira começa em que momento?",
+      "a": 1,
+      "src": "LINDB, art. 1º, § 1º",
+      "o": [
+        { "t": "Quarenta e cinco dias depois de oficialmente publicada, o mesmo prazo aplicado no território nacional.", "p": "troca", "w": "Quarenta e cinco dias é o prazo para o país (art. 1º, caput). Para os Estados estrangeiros, a LINDB fixa prazo próprio, maior." },
+        { "t": "Três meses depois de oficialmente publicada.", "p": "correta", "w": "Art. 1º, § 1º: nos Estados estrangeiros, a obrigatoriedade da lei brasileira, quando admitida, se inicia três meses depois de oficialmente publicada." },
+        { "t": "Noventa dias depois de publicada, já que três meses equivalem sempre a noventa dias na contagem legal.", "p": "calculo", "w": "A LINDB fala em três meses, contados pelo calendário, e não em 90 dias. Prazos em meses expiram no dia de igual número do de início (CC, art. 132, § 3º)." },
+        { "t": "Apenas depois que o Ministério das Relações Exteriores publicar ato fixando a data em cada país.", "p": "restricao", "w": "A LINDB não exige ato do Itamaraty: ela própria fixa o prazo de três meses no art. 1º, § 1º." }
+      ]
+    },
+    {
+      "id": "dciv3",
+      "topic": "Repristinação",
+      "c": "A Lei A regulava um cadastro federal. A Lei B revogou a Lei A. Anos depois, a Lei C revogou a Lei B, sem dizer nada sobre a Lei A. Um analista do INSS em Recife precisa saber qual norma aplicar.",
+      "q": "A Lei A volta a vigorar?",
+      "a": 2,
+      "src": "LINDB, art. 2º, § 3º",
+      "o": [
+        { "t": "Sim, porque a revogação da lei revogadora sempre restaura automaticamente a lei revogada.", "p": "generalizacao", "w": "A LINDB adota a regra oposta: não há repristinação automática. A lei revogada só volta se a lei nova disser isso expressamente." },
+        { "t": "Sim, desde que a Lei C tenha sido aprovada com o mesmo quórum exigido para a Lei A.", "p": "restricao", "w": "A LINDB não condiciona nada a quórum. A restauração da lei revogada depende apenas de disposição expressa da lei nova." },
+        { "t": "Não, salvo se a Lei C dispuser expressamente que a Lei A volta a vigorar.", "p": "correta", "w": "Art. 2º, § 3º: salvo disposição em contrário, a lei revogada não se restaura por ter a lei revogadora perdido a vigência." },
+        { "t": "Não, e a LINDB proíbe que uma lei nova restaure expressamente uma lei já revogada.", "p": "extrapolacao", "w": "A LINDB admite a repristinação expressa (“salvo disposição em contrário”). O que ela afasta é a repristinação automática, no silêncio da lei nova." }
+      ]
+    },
+    {
+      "id": "dciv4",
+      "topic": "Erro grosseiro do agente",
+      "c": "Um engenheiro da prefeitura de Campinas deu parecer técnico favorável a uma obra, com base em interpretação razoável das normas da época. Depois, o Tribunal de Contas adotou entendimento diferente e quer responsabilizá-lo pessoalmente.",
+      "q": "Segundo a LINDB, quando o agente público responde pessoalmente por suas decisões ou opiniões técnicas?",
+      "a": 3,
+      "src": "LINDB, art. 28 (Lei 13.655/2018)",
+      "o": [
+        { "t": "Sempre que a decisão ou opinião for considerada errada pelo órgão de controle.", "p": "generalizacao", "w": "A LINDB não pune qualquer divergência de interpretação. O art. 28 exige dolo ou erro grosseiro." },
+        { "t": "Apenas em caso de dolo; o erro, por mais grave que seja, nunca gera responsabilidade pessoal.", "p": "restricao", "w": "O art. 28 inclui o erro grosseiro ao lado do dolo. Erro grave e inescusável também gera responsabilidade pessoal." },
+        { "t": "Independentemente de dolo ou culpa, pois a responsabilidade do agente público é objetiva.", "p": "troca", "w": "Objetiva é a responsabilidade do Estado perante a vítima (CF, art. 37, § 6º). O agente, pela LINDB, só responde por dolo ou erro grosseiro." },
+        { "t": "Em caso de dolo ou erro grosseiro.", "p": "correta", "w": "Art. 28 da LINDB, incluído pela Lei 13.655/2018: o agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro." }
+      ]
+    },
+    {
+      "id": "dciv5",
+      "topic": "Incapacidade absoluta",
+      "c": "Lucas, de 15 anos, morador de Belo Horizonte, vendeu sozinho a um vizinho adulto o notebook que ganhou dos avós, sem nenhuma participação dos pais.",
+      "q": "Qual é a situação jurídica dessa venda?",
+      "a": 1,
+      "src": "CC, arts. 3º e 166, I",
+      "o": [
+        { "t": "É anulável, porque Lucas é relativamente incapaz e agiu sem assistência.", "p": "troca", "w": "Relativamente incapazes são os maiores de 16 e menores de 18 anos (art. 4º, I). Com 15 anos, Lucas é absolutamente incapaz." },
+        { "t": "É nula, porque Lucas, menor de 16 anos, é absolutamente incapaz e não foi representado.", "p": "correta", "w": "Art. 3º: são absolutamente incapazes os menores de 16 anos. O negócio celebrado por absolutamente incapaz é nulo (art. 166, I)." },
+        { "t": "É válida, pois maiores de 14 anos podem vender sozinhos bens de pequeno valor.", "p": "extrapolacao", "w": "O Código Civil não traz essa exceção. Abaixo dos 16 anos, a pessoa precisa ser representada para os atos da vida civil." },
+        { "t": "É nula, porque somente os maiores de 21 anos têm plena capacidade civil.", "p": "restricao", "w": "A menoridade cessa aos 18 anos completos (art. 5º). A idade de 21 anos era a do Código Civil de 1916." }
+      ]
+    },
+    {
+      "id": "dciv6",
+      "topic": "Incapacidade relativa",
+      "c": "Após um AVC, o aposentado Antônio, de 70 anos, morador de Curitiba, ficou permanentemente sem conseguir exprimir sua vontade. A família quer saber como o Código Civil o classifica hoje.",
+      "q": "Como o Código Civil vigente classifica Antônio?",
+      "a": 0,
+      "src": "CC, arts. 3º e 4º, III (Lei 13.146/2015)",
+      "o": [
+        { "t": "Relativamente incapaz, pois não pode exprimir sua vontade por causa permanente.", "p": "correta", "w": "Desde a Lei 13.146/2015, quem, por causa transitória ou permanente, não pode exprimir sua vontade é relativamente incapaz (art. 4º, III)." },
+        { "t": "Absolutamente incapaz, por não poder exprimir sua vontade.", "p": "troca", "w": "Essa era a regra antiga do art. 3º, III. Após a Lei 13.146/2015, a incapacidade absoluta ficou restrita aos menores de 16 anos." },
+        { "t": "Plenamente capaz, porque nenhuma condição de saúde afeta a capacidade civil de quem tem mais de 18 anos.", "p": "generalizacao", "w": "A deficiência, por si só, não afeta a capacidade, mas quem não consegue exprimir a vontade está expressamente no art. 4º, III, como relativamente incapaz." },
+        { "t": "Relativamente incapaz apenas se a causa fosse transitória; sendo permanente, é absolutamente incapaz.", "p": "restricao", "w": "O art. 4º, III, abrange expressamente causa transitória ou permanente. Nos dois casos, a incapacidade é relativa." }
+      ]
+    },
+    {
+      "id": "dciv7",
+      "topic": "Emancipação voluntária",
+      "c": "Os pais de Mariana, que acabou de completar 16 anos, moram em Salvador e querem emancipá-la para que ela possa assinar sozinha os contratos do pequeno negócio de doces que abriu.",
+      "q": "Como os pais podem fazer a emancipação?",
+      "a": 3,
+      "src": "CC, art. 5º, parágrafo único, I",
+      "o": [
+        { "t": "Por instrumento público, mas a emancipação só produz efeitos após homologação judicial.", "p": "restricao", "w": "O art. 5º, parágrafo único, I, dispensa expressamente a homologação judicial na emancipação concedida pelos pais." },
+        { "t": "Por sentença judicial, ouvido o tutor, que é a forma prevista para a emancipação concedida pelos pais.", "p": "troca", "w": "Sentença judicial, ouvido o tutor, é a via para o menor sob tutela. Com os pais no exercício do poder familiar, basta o instrumento público." },
+        { "t": "Por qualquer documento, ou mesmo verbalmente, porque a emancipação não exige forma especial.", "p": "generalizacao", "w": "A lei exige instrumento público para a emancipação voluntária. Acordo verbal ou documento particular não bastam." },
+        { "t": "Por instrumento público, concedido pelos pais, ou por um deles na falta do outro, sem homologação judicial.", "p": "correta", "w": "Art. 5º, parágrafo único, I: cessa a incapacidade pela concessão dos pais, ou de um deles na falta do outro, mediante instrumento público, independentemente de homologação judicial, se o menor tiver 16 anos completos." }
+      ]
+    },
+    {
+      "id": "dciv8",
+      "topic": "Sucessão provisória",
+      "c": "Roberto, de Porto Velho, desapareceu do domicílio sem deixar notícias nem procurador para administrar seus bens. A pedido da irmã, o juiz declarou a ausência, nomeou curador e mandou arrecadar os bens.",
+      "q": "A partir de quando os interessados podem requerer a abertura da sucessão provisória?",
+      "a": 2,
+      "src": "CC, arts. 22, 26 e 37",
+      "o": [
+        { "t": "Dez anos depois do trânsito em julgado da sentença que declarou a ausência.", "p": "troca", "w": "Dez anos após o trânsito em julgado da sentença que concede a abertura da sucessão provisória é o marco da sucessão definitiva (art. 37), não da provisória." },
+        { "t": "Três anos depois da arrecadação, prazo aplicável a quem desaparece sem deixar procurador.", "p": "inversao", "w": "Três anos é o prazo quando o ausente deixou representante ou procurador. Sem procurador, como no caso, o prazo é de um ano (art. 26)." },
+        { "t": "Decorrido um ano da arrecadação dos bens do ausente.", "p": "correta", "w": "Art. 26: decorrido um ano da arrecadação dos bens do ausente, ou três anos, se ele deixou representante ou procurador, os interessados podem requerer a abertura da sucessão provisória." },
+        { "t": "Imediatamente, pois a declaração de ausência já equivale à morte para todos os efeitos.", "p": "extrapolacao", "w": "A declaração de ausência não abre a sucessão de imediato. O Código prevê etapas: curadoria, sucessão provisória e, só depois, sucessão definitiva." }
+      ]
+    },
+    {
+      "id": "dciv9",
+      "topic": "Desconsideração da personalidade",
+      "c": "A Construtora Alfa Ltda., de Natal, deve R$ 300 mil a um fornecedor e não tem bens penhoráveis. O fornecedor pede que a dívida seja cobrada dos sócios, alegando apenas que a empresa ficou insolvente.",
+      "q": "Pelo Código Civil, a desconsideração da personalidade jurídica é cabível só com esse fundamento?",
+      "a": 2,
+      "src": "CC, art. 50 (redação da Lei 13.874/2019)",
+      "o": [
+        { "t": "Sim, porque a simples insolvência da empresa autoriza atingir os bens de qualquer sócio.", "p": "generalizacao", "w": "O art. 50 exige abuso da personalidade jurídica. A mera insolvência não basta no regime do Código Civil." },
+        { "t": "Sim, porque o Código Civil adota a teoria menor, que dispensa a prova de abuso.", "p": "troca", "w": "A teoria menor, que dispensa abuso, aparece em leis especiais, como o CDC. O Código Civil adota a teoria maior: exige desvio de finalidade ou confusão patrimonial." },
+        { "t": "Não: é preciso demonstrar abuso da personalidade, por desvio de finalidade ou confusão patrimonial.", "p": "correta", "w": "Art. 50: em caso de abuso caracterizado por desvio de finalidade ou confusão patrimonial, o juiz pode, a requerimento da parte ou do MP, estender os efeitos aos bens dos sócios ou administradores beneficiados direta ou indiretamente." },
+        { "t": "Não, porque na sociedade limitada a responsabilidade restrita ao capital impede qualquer desconsideração.", "p": "extrapolacao", "w": "A limitação de responsabilidade é justamente o que a desconsideração afasta em caso de abuso. O art. 50 se aplica às sociedades limitadas." }
+      ]
+    },
+    {
+      "id": "dciv10",
+      "topic": "Bens públicos dominicais",
+      "c": "O município de Londrina tem um terreno vazio, sem nenhuma destinação pública, que integra seu patrimônio. A prefeitura quer vendê-lo para custear a construção de uma creche em outro bairro.",
+      "q": "Assinale a alternativa correta sobre esse terreno.",
+      "a": 3,
+      "src": "CC, arts. 99 a 102",
+      "o": [
+        { "t": "Não pode ser vendido, porque todos os bens públicos são inalienáveis.", "p": "generalizacao", "w": "A inalienabilidade alcança os bens de uso comum do povo e de uso especial, enquanto conservarem essa qualificação (art. 100). Os dominicais podem ser alienados (art. 101)." },
+        { "t": "É bem de uso especial, por pertencer ao município, e só pode ser vendido após desafetação.", "p": "troca", "w": "Uso especial é o bem destinado a serviço ou estabelecimento da administração, como o prédio de uma secretaria. Terreno sem destinação é dominical (art. 99, III)." },
+        { "t": "Por ser dominical, pode ser vendido e também adquirido por usucapião por quem o ocupar por 15 anos.", "p": "extrapolacao", "w": "Os bens públicos, inclusive os dominicais, não estão sujeitos a usucapião (art. 102)." },
+        { "t": "É bem dominical e pode ser alienado, observadas as exigências da lei.", "p": "correta", "w": "Art. 99, III, e art. 101: os bens dominicais integram o patrimônio das pessoas jurídicas de direito público e podem ser alienados, observadas as exigências da lei." }
+      ]
+    },
+    {
+      "id": "dciv11",
+      "topic": "Escritura pública",
+      "c": "Em Ribeirão Preto, Cláudia comprou de Sérgio uma casa de R$ 400 mil, valor muito acima de 30 salários mínimos. Para economizar, fizeram apenas um contrato particular de compra e venda com firma reconhecida.",
+      "q": "Qual é a consequência dessa escolha para a compra e venda?",
+      "a": 0,
+      "src": "CC, arts. 108 e 166, IV",
+      "o": [
+        { "t": "O negócio é nulo, por não observar a escritura pública, forma essencial nesse caso.", "p": "correta", "w": "Art. 108: a escritura pública é essencial aos negócios que visem à transferência de direitos reais sobre imóveis de valor superior a 30 vezes o maior salário mínimo. Sem a forma prescrita, o negócio é nulo (art. 166, IV)." },
+        { "t": "O negócio é válido, pois a firma reconhecida supre a escritura em qualquer compra de imóvel.", "p": "generalizacao", "w": "Reconhecimento de firma não substitui escritura pública. Acima de 30 salários mínimos, a escritura é da substância do ato." },
+        { "t": "O negócio é anulável, e Cláudia tem quatro anos para pedir a anulação.", "p": "troca", "w": "A falta da forma prescrita em lei gera nulidade, não anulabilidade (art. 166, IV). O prazo de quatro anos do art. 178 é para negócios anuláveis." },
+        { "t": "A escritura só seria essencial se o imóvel valesse menos de 30 salários mínimos.", "p": "inversao", "w": "É o contrário: o art. 108 exige escritura para imóveis de valor superior a 30 salários mínimos. Abaixo disso, vale a liberdade de forma do art. 107." }
+      ]
+    },
+    {
+      "id": "dciv12",
+      "topic": "Estado de perigo",
+      "c": "Para internar o filho em estado grave, Renata foi obrigada por um hospital particular de Manaus a assinar confissão de dívida de valor muito acima do normal. O hospital sabia da urgência.",
+      "q": "Qual defeito do negócio jurídico se configura?",
+      "a": 1,
+      "src": "CC, arts. 156 e 171, II",
+      "o": [
+        { "t": "Lesão, porque basta haver desproporção entre as prestações.", "p": "troca", "w": "Na lesão (art. 157) a pessoa se obriga por premente necessidade ou inexperiência. Quando a obrigação excessiva é assumida para salvar a si ou alguém da família de grave dano conhecido pela outra parte, o defeito é estado de perigo." },
+        { "t": "Estado de perigo: ela assumiu obrigação excessivamente onerosa para salvar o filho de grave dano conhecido pelo hospital.", "p": "correta", "w": "Art. 156: há estado de perigo quando alguém, premido da necessidade de salvar-se, ou a pessoa de sua família, de grave dano conhecido pela outra parte, assume obrigação excessivamente onerosa. O negócio é anulável (art. 171, II)." },
+        { "t": "Coação, porque toda pressão sofrida pelo contratante configura coação.", "p": "generalizacao", "w": "Coação exige ameaça de dano iminente e considerável incutida pela outra parte ou por terceiro (art. 151). Aqui o perigo vem da doença, não de ameaça." },
+        { "t": "Nenhum, porque o hospital não causou o perigo à saúde do filho e apenas cobrou seu preço.", "p": "restricao", "w": "O art. 156 não exige que a outra parte tenha causado o perigo. Basta que o conheça e que a obrigação assumida seja excessivamente onerosa." }
+      ]
+    },
+    {
+      "id": "dciv13",
+      "topic": "Fraude contra credores",
+      "c": "Já devendo a vários fornecedores e sem patrimônio para pagá-los, o comerciante Jairo, de Uberlândia, doou seu único apartamento ao irmão. Ele alega que nem sabia estar insolvente.",
+      "q": "Os credores quirografários que já o eram antes da doação podem pedir a anulação?",
+      "a": 3,
+      "src": "CC, art. 158, caput e § 2º",
+      "o": [
+        { "t": "Não, porque a fraude contra credores exige que o devedor saiba que está insolvente.", "p": "restricao", "w": "Nas transmissões gratuitas, o art. 158 permite a anulação ainda que o devedor ignore a insolvência." },
+        { "t": "Sim, e também podem pedi-la os credores que só passaram a sê-lo depois da doação.", "p": "extrapolacao", "w": "Só os credores que já o eram ao tempo do ato podem pleitear a anulação (art. 158, § 2º)." },
+        { "t": "Não, porque a doação seria nula por simulação, e não anulável por fraude.", "p": "troca", "w": "Não há simulação: a doação foi real e quis produzir efeitos. O caso é de fraude contra credores, que torna o negócio anulável (art. 171, II)." },
+        { "t": "Sim, pois a doação feita por devedor já insolvente pode ser anulada, ainda que ele ignore a insolvência.", "p": "correta", "w": "Art. 158: os negócios de transmissão gratuita de bens praticados por devedor já insolvente, ou por eles reduzido à insolvência, ainda quando o ignore, podem ser anulados pelos credores quirografários." }
+      ]
+    },
+    {
+      "id": "dciv14",
+      "topic": "Simulação e nulidade",
+      "c": "Em Florianópolis, Paulo simulou a venda de um terreno a um amigo, que nada pagou, só para tirá-lo do alcance da ex-mulher. Em ação sobre o imóvel, o juiz constata a simulação, que nenhuma das partes alegou.",
+      "q": "O que o juiz deve fazer?",
+      "a": 2,
+      "src": "CC, arts. 167, 168 e 169",
+      "o": [
+        { "t": "Nada de ofício, porque a simulação torna o negócio apenas anulável, a depender de pedido do interessado.", "p": "troca", "w": "No Código de 2002 a simulação gera nulidade (art. 167). A anulabilidade é que não se pronuncia de ofício (art. 177)." },
+        { "t": "Nada, porque o negócio nulo convalesce se ninguém o impugnar em quatro anos.", "p": "inversao", "w": "É o oposto: o negócio nulo não é suscetível de confirmação nem convalesce pelo decurso do tempo (art. 169)." },
+        { "t": "Pronunciar a nulidade de ofício, pois o negócio simulado é nulo.", "p": "correta", "w": "Art. 167: é nulo o negócio jurídico simulado. Art. 168, parágrafo único: as nulidades devem ser pronunciadas pelo juiz quando conhecer do negócio ou de seus efeitos e as encontrar provadas." },
+        { "t": "Declarar a nulidade somente se o amigo confirmar, em depoimento, que não pagou o preço.", "p": "restricao", "w": "Não há essa exigência. Provada a simulação, o juiz deve pronunciar a nulidade, sem poder supri-la nem a requerimento das partes (art. 168, parágrafo único)." }
+      ]
+    },
+    {
+      "id": "dciv15",
+      "topic": "Prazo para anular",
+      "c": "Durante meses, Fábio, de Cuiabá, foi ameaçado por um credor violento e, sob essa pressão, vendeu-lhe a moto pela metade do valor. A ameaça só cessou quando o credor foi preso, em março de 2024.",
+      "q": "Qual é o prazo para Fábio pedir a anulação da venda?",
+      "a": 1,
+      "src": "CC, arts. 171, II, e 178, I e II",
+      "o": [
+        { "t": "Quatro anos, contados do dia em que a venda foi celebrada.", "p": "inversao", "w": "A contagem a partir da celebração vale para erro, dolo, fraude contra credores, estado de perigo e lesão (art. 178, II). Na coação, conta-se do dia em que ela cessar." },
+        { "t": "Quatro anos, de decadência, contados do dia em que a coação cessou.", "p": "correta", "w": "Art. 178, I: é de quatro anos o prazo de decadência para pleitear a anulação do negócio jurídico, contado, no caso de coação, do dia em que ela cessar." },
+        { "t": "Dez anos, porque se aplica o prazo geral do art. 205 do Código Civil.", "p": "generalizacao", "w": "O art. 205 trata de prescrição e só incide sem prazo específico. Para anular negócio por coação, há prazo decadencial próprio de quatro anos (art. 178)." },
+        { "t": "Não há prazo, porque o negócio celebrado sob coação é nulo e pode ser atacado a qualquer tempo.", "p": "troca", "w": "A coação torna o negócio anulável (art. 171, II), sujeito ao prazo decadencial de quatro anos, e não nulo." }
+      ]
+    },
+    {
+      "id": "dciv16",
+      "topic": "Prescrição e menor",
+      "c": "Em 2025, Davi, então com 14 anos, foi atropelado em Teresina e sofreu danos materiais e morais. Ele completará 16 anos em 2027.",
+      "q": "Como corre o prazo prescricional da pretensão de reparação civil de Davi?",
+      "a": 0,
+      "src": "CC, arts. 3º, 198, I, e 206, § 3º, V",
+      "o": [
+        { "t": "Não corre enquanto ele for absolutamente incapaz; a partir dos 16 anos, corre o prazo de três anos.", "p": "correta", "w": "Art. 198, I: não corre prescrição contra os absolutamente incapazes, que são os menores de 16 anos (art. 3º). Depois, aplica-se o prazo de três anos da reparação civil (art. 206, § 3º, V)." },
+        { "t": "Não corre até ele completar 18 anos; só então começa o prazo de três anos.", "p": "extrapolacao", "w": "A causa impeditiva protege apenas os absolutamente incapazes. Contra o relativamente incapaz, entre 16 e 18 anos, a prescrição corre normalmente." },
+        { "t": "Corre desde o acidente, porque a idade da vítima não interfere na prescrição.", "p": "inversao", "w": "O Código protege o absolutamente incapaz: o art. 198, I, impede o curso da prescrição contra ele." },
+        { "t": "Não corre enquanto ele for absolutamente incapaz; depois, corre o prazo geral de dez anos.", "p": "troca", "w": "Dez anos é o prazo residual do art. 205. Para a reparação civil, há prazo específico de três anos (art. 206, § 3º, V)." }
+      ]
+    },
+    {
+      "id": "dciv17",
+      "topic": "Interrupção da prescrição",
+      "c": "A Distribuidora Sol, de Belém, protestou em 2023 um título de crédito vencido de um cliente, interrompendo a prescrição. Em 2025, protestou o mesmo título de novo, achando que ganharia mais prazo.",
+      "q": "O segundo protesto interrompe novamente a prescrição?",
+      "a": 0,
+      "src": "CC, art. 202, caput e III",
+      "o": [
+        { "t": "Não, porque a interrupção da prescrição somente pode ocorrer uma vez.", "p": "correta", "w": "Art. 202, caput: a interrupção da prescrição, que somente poderá ocorrer uma vez, dar-se-á, entre outras hipóteses, por protesto cambial (inciso III)." },
+        { "t": "Sim, porque cada protesto reinicia o prazo, sem limite de vezes.", "p": "generalizacao", "w": "O caput do art. 202 limita a interrupção a uma única vez, qualquer que seja a causa usada." },
+        { "t": "Não, porque o protesto cambial é causa de suspensão, e não de interrupção.", "p": "troca", "w": "O protesto cambial está no rol das causas interruptivas (art. 202, III). O problema do segundo protesto é a regra da interrupção única." },
+        { "t": "Sim, desde que o segundo protesto seja feito em cartório de outra cidade.", "p": "restricao", "w": "A lei não abre exceção pelo local do cartório. A interrupção ocorre uma única vez." }
+      ]
+    },
+    {
+      "id": "dciv18",
+      "topic": "Solidariedade passiva",
+      "c": "Três amigos de Vitória tomaram juntos um empréstimo de R$ 30 mil com um conhecido, em contrato que não menciona solidariedade. No vencimento, o credor quer cobrar tudo de Bruno, o único com dinheiro.",
+      "q": "O credor pode exigir de Bruno os R$ 30 mil?",
+      "a": 2,
+      "src": "CC, arts. 257 e 265",
+      "o": [
+        { "t": "Sim, porque, havendo mais de um devedor, a solidariedade é presumida.", "p": "inversao", "w": "Art. 265: a solidariedade não se presume; resulta da lei ou da vontade das partes." },
+        { "t": "Sim, desde que antes tente cobrar dos outros dois e eles não paguem.", "p": "restricao", "w": "Sem solidariedade, Bruno nunca responde pela parte dos outros. E, mesmo havendo solidariedade, o credor não precisa cobrar antes os demais (art. 275)." },
+        { "t": "Não: sem previsão em lei ou no contrato, a dívida divisível se divide em partes iguais, e Bruno deve R$ 10 mil.", "p": "correta", "w": "Art. 265: a solidariedade não se presume. Art. 257: havendo mais de um devedor em obrigação divisível, ela se presume dividida em tantas obrigações, iguais e distintas, quantos os devedores." },
+        { "t": "Não, e a lei proíbe estipular solidariedade em empréstimos entre particulares.", "p": "extrapolacao", "w": "A solidariedade pode resultar da vontade das partes (art. 265). Bastaria uma cláusula expressa no contrato." }
+      ]
+    },
+    {
+      "id": "dciv19",
+      "topic": "Perda da coisa certa",
+      "c": "Em Campo Grande, o fazendeiro Otávio vendeu um cavalo de raça a Lúcia, com entrega marcada para a semana seguinte. Antes da entrega, um raio matou o animal, sem nenhuma culpa de Otávio.",
+      "q": "Qual é a consequência?",
+      "a": 1,
+      "src": "CC, arts. 234 e 492",
+      "o": [
+        { "t": "Lúcia deve pagar o preço, porque o risco passou a ela com a assinatura do contrato.", "p": "inversao", "w": "Até a tradição, os riscos da coisa correm por conta do vendedor (art. 492). Se ela perece sem culpa antes da entrega, a obrigação se resolve." },
+        { "t": "A obrigação fica resolvida para ambas as partes, sem perdas e danos.", "p": "correta", "w": "Art. 234: se a coisa se perder, sem culpa do devedor, antes da tradição, fica resolvida a obrigação para ambas as partes. Otávio devolve o que tiver recebido, sem indenização." },
+        { "t": "Otávio deve pagar o equivalente em dinheiro e mais perdas e danos.", "p": "troca", "w": "Equivalente mais perdas e danos é a consequência quando a coisa se perde por culpa do devedor (art. 234, parte final), o que não ocorreu." },
+        { "t": "Otávio deve entregar outro cavalo da mesma raça, porque a obrigação continua até a entrega.", "p": "extrapolacao", "w": "Na obrigação de dar coisa certa, o objeto é individualizado; não se transforma em obrigação de entregar outro animal. Perdida a coisa sem culpa, a obrigação se resolve." }
+      ]
+    },
+    {
+      "id": "dciv20",
+      "topic": "Mora do devedor",
+      "c": "Uma confecção de Blumenau deveria pagar R$ 50 mil a um fornecedor, por transferência bancária, em 10 de junho, data fixada no contrato. Não pagou, e o fornecedor não enviou nenhuma notificação.",
+      "q": "Desde quando a confecção está em mora?",
+      "a": 3,
+      "src": "CC, art. 397",
+      "o": [
+        { "t": "Somente depois de notificada judicial ou extrajudicialmente pelo fornecedor.", "p": "restricao", "w": "A interpelação só é necessária quando a obrigação não tem termo (art. 397, parágrafo único). Com data certa, a mora é automática." },
+        { "t": "Somente a partir da citação em ação de cobrança, que é sempre o marco da mora.", "p": "generalizacao", "w": "A citação não é marco universal da mora. Na obrigação positiva e líquida com termo, a mora surge no próprio vencimento." },
+        { "t": "Desde 10 de julho, pois a lei concede 30 dias de tolerância após o vencimento.", "p": "extrapolacao", "w": "Não existe prazo legal de tolerância. O inadimplemento da obrigação positiva e líquida, no seu termo, já constitui o devedor em mora." },
+        { "t": "Desde 10 de junho, porque a obrigação positiva e líquida não paga no termo constitui de pleno direito o devedor em mora.", "p": "correta", "w": "Art. 397, caput: o inadimplemento da obrigação, positiva e líquida, no seu termo, constitui de pleno direito em mora o devedor. É a mora ex re." }
+      ]
+    },
+    {
+      "id": "dciv21",
+      "topic": "Vícios redibitórios",
+      "c": "Eduardo, de Maringá, comprou um carro usado de um particular. Dias depois da entrega, descobriu um defeito oculto no câmbio, anterior à venda, que diminui bastante o valor do veículo. O vendedor não sabia do problema.",
+      "q": "Assinale a alternativa correta sobre os direitos de Eduardo.",
+      "a": 1,
+      "src": "CC, arts. 441, 442 e 443",
+      "o": [
+        { "t": "Ele só pode devolver o carro; pedir abatimento do preço depende de cláusula no contrato.", "p": "restricao", "w": "Art. 442: em vez de rejeitar a coisa, o adquirente pode reclamar abatimento no preço, sem necessidade de cláusula." },
+        { "t": "Pode rejeitar o carro ou pedir abatimento do preço; como o vendedor ignorava o vício, não responde por perdas e danos.", "p": "correta", "w": "Arts. 441 a 443: o adquirente escolhe entre rejeitar a coisa e pedir abatimento. Se o alienante não conhecia o vício, restitui o valor recebido e as despesas do contrato; se conhecia, responde também por perdas e danos." },
+        { "t": "Não tem direito algum, porque o vendedor agiu de boa-fé e desconhecia o defeito.", "p": "inversao", "w": "A ignorância do vício pelo alienante não o exime da responsabilidade; apenas afasta as perdas e danos (art. 443)." },
+        { "t": "Tem direito à garantia contra a evicção, por ter perdido parte do valor do bem.", "p": "troca", "w": "Evicção é a perda da coisa para terceiro que tinha direito anterior sobre ela. Defeito oculto que diminui o valor é vício redibitório (art. 441)." }
+      ]
+    },
+    {
+      "id": "dciv22",
+      "topic": "Evicção",
+      "c": "Em Juiz de Fora, Henrique comprou um terreno com cláusula que excluía a responsabilidade do vendedor pela evicção, sem ser informado de nenhum risco. Meses depois, perdeu o imóvel para um terceiro que provou ser o verdadeiro dono.",
+      "q": "Henrique tem direito a alguma coisa?",
+      "a": 3,
+      "src": "CC, arts. 447, 448 e 449",
+      "o": [
+        { "t": "Não, porque a cláusula de exclusão afasta, em qualquer caso, toda responsabilidade do vendedor.", "p": "generalizacao", "w": "Mesmo com a cláusula, o art. 449 garante ao evicto o preço pago, se ele não soube do risco ou, informado, não o assumiu." },
+        { "t": "Sim, ao preço e a todas as perdas e danos, porque a cláusula que exclui a evicção é nula.", "p": "extrapolacao", "w": "A cláusula é válida: as partes podem reforçar, diminuir ou excluir a garantia (art. 448). Ela não afasta, porém, o direito ao preço previsto no art. 449." },
+        { "t": "Sim, mas só se tivesse comprado o terreno em hasta pública.", "p": "restricao", "w": "A garantia subsiste também nas aquisições em hasta pública (art. 447), mas não depende delas: vale para os contratos onerosos em geral." },
+        { "t": "Sim, ele tem direito a receber o preço que pagou, pois não soube do risco da evicção.", "p": "correta", "w": "Art. 449: não obstante a cláusula que exclui a garantia, se a evicção se der, o evicto tem direito a receber o preço que pagou, se não soube do risco ou, dele informado, não o assumiu." }
+      ]
+    },
+    {
+      "id": "dciv23",
+      "topic": "Venda a descendente",
+      "c": "Seu Joaquim, de Aracaju, casado no regime da comunhão parcial e pai de três filhos, quer vender um apartamento ao filho mais novo, pelo preço de mercado.",
+      "q": "O que o Código Civil exige para essa venda?",
+      "a": 0,
+      "src": "CC, art. 496",
+      "o": [
+        { "t": "O consentimento expresso dos outros filhos e da esposa; sem ele, a venda é anulável.", "p": "correta", "w": "Art. 496: é anulável a venda de ascendente a descendente, salvo se os outros descendentes e o cônjuge do alienante expressamente houverem consentido. O cônjuge só é dispensado na separação obrigatória." },
+        { "t": "Nada, porque a venda pelo preço de mercado afasta qualquer exigência legal.", "p": "extrapolacao", "w": "O art. 496 não traz exceção para preço justo. O consentimento é exigido em qualquer venda de ascendente a descendente." },
+        { "t": "O consentimento dos outros filhos e da esposa; sem ele, a venda é nula de pleno direito.", "p": "troca", "w": "A consequência é a anulabilidade, não a nulidade: o art. 496 diz expressamente que a venda é anulável." },
+        { "t": "Autorização judicial, sempre necessária nas vendas entre parentes em linha reta.", "p": "generalizacao", "w": "A lei não exige autorização judicial. Exige o consentimento expresso dos demais descendentes e do cônjuge (art. 496)." }
+      ]
+    },
+    {
+      "id": "dciv24",
+      "topic": "Contrato não cumprido",
+      "c": "Uma escola de Caxias do Sul contratou uma empresa para reformar o ginásio, com pagamento após a entrega da obra. A empresa abandonou a reforma pela metade e, mesmo assim, cobra o preço integral.",
+      "q": "A escola pode recusar o pagamento?",
+      "a": 2,
+      "src": "CC, arts. 474, 476 e 478",
+      "o": [
+        { "t": "Não, porque o contratante nunca pode deixar de pagar sem decisão judicial prévia.", "p": "generalizacao", "w": "O art. 476 permite a recusa sem decisão judicial prévia: no contrato bilateral, um contratante não pode exigir a prestação do outro antes de cumprir a sua." },
+        { "t": "Sim, com base na teoria da imprevisão, porque a obra se tornou excessivamente onerosa.", "p": "troca", "w": "A resolução por onerosidade excessiva (art. 478) exige acontecimentos extraordinários e imprevisíveis. O caso é de inadimplemento da empresa." },
+        { "t": "Sim, porque, no contrato bilateral, um contratante não pode exigir a prestação do outro antes de cumprir a sua.", "p": "correta", "w": "Art. 476: nos contratos bilaterais, nenhum dos contratantes, antes de cumprida a sua obrigação, pode exigir o implemento da do outro. É a exceção do contrato não cumprido." },
+        { "t": "Sim, mas somente se o contrato tiver cláusula resolutiva expressa.", "p": "restricao", "w": "A exceção do contrato não cumprido decorre da lei e não depende de cláusula. A cláusula resolutiva expressa opera de pleno direito; a tácita depende de interpelação judicial (art. 474)." }
+      ]
+    },
+    {
+      "id": "dciv25",
+      "topic": "Responsabilidade do empregador",
+      "c": "Um motorista da transportadora Rota Sul, de Pelotas, atropelou um ciclista durante uma entrega. A empresa alega que selecionou e fiscalizou o empregado com todo o cuidado.",
+      "q": "Como responde a transportadora perante o ciclista?",
+      "a": 3,
+      "src": "CC, arts. 932, III, e 933",
+      "o": [
+        { "t": "Só responde se a vítima provar culpa da empresa na escolha ou na fiscalização do motorista.", "p": "troca", "w": "A culpa na escolha ou na vigilância era exigida no regime anterior. O art. 933 dispensa a culpa do empregador." },
+        { "t": "Responde por qualquer ato do empregado, mesmo fora do trabalho e sem relação com ele.", "p": "generalizacao", "w": "O art. 932, III, alcança os atos praticados pelo empregado no exercício do trabalho que lhe competir, ou em razão dele." },
+        { "t": "Não responde; só o motorista, autor direto do dano, deve indenizar.", "p": "inversao", "w": "O art. 932, III, torna o empregador responsável pela reparação civil dos danos causados por seus empregados no exercício do trabalho." },
+        { "t": "Responde ainda que não haja culpa sua, porque o dano foi causado pelo empregado no exercício do trabalho.", "p": "correta", "w": "Art. 932, III, e art. 933: o empregador responde pelos atos dos empregados no exercício do trabalho, ainda que não haja culpa de sua parte." }
+      ]
+    },
+    {
+      "id": "dciv26",
+      "topic": "Abuso de direito",
+      "c": "Em Petrópolis, depois de uma briga, um morador ergueu no seu terreno uma estrutura alta e sem nenhuma utilidade, com o único objetivo de bloquear a luz e a vista da casa do vizinho.",
+      "q": "Como o Código Civil qualifica essa conduta?",
+      "a": 0,
+      "src": "CC, arts. 187 e 188, I",
+      "o": [
+        { "t": "Ato ilícito por abuso de direito, pois o titular excede manifestamente os limites do fim econômico ou social do direito.", "p": "correta", "w": "Art. 187: também comete ato ilícito o titular de um direito que, ao exercê-lo, excede manifestamente os limites impostos pelo seu fim econômico ou social, pela boa-fé ou pelos bons costumes." },
+        { "t": "Ato lícito, porque o proprietário pode fazer qualquer coisa dentro do seu terreno.", "p": "generalizacao", "w": "O direito de propriedade tem limites. Exercê-lo só para prejudicar o vizinho, sem utilidade, excede seu fim econômico e social (art. 187)." },
+        { "t": "Só seria ilícito se houvesse lei específica proibindo esse tipo de construção.", "p": "restricao", "w": "O art. 187 é cláusula geral: dispensa proibição específica e alcança o exercício abusivo de qualquer direito." },
+        { "t": "Exercício regular de direito, que o art. 188 declara não constituir ato ilícito.", "p": "troca", "w": "O art. 188, I, protege o exercício regular de um direito. O exercício que excede manifestamente seus limites é abusivo e ilícito (art. 187)." }
+      ]
+    },
+    {
+      "id": "dciv27",
+      "topic": "Usucapião extraordinária",
+      "c": "Desde 2014, Dona Zilda ocupa, sem oposição, um terreno urbano abandonado de 600 m² em Mossoró, onde construiu sua casa e mora com a família. Ela não tem justo título nem sabe quem é o dono.",
+      "q": "Em 2026, Zilda já preenche o prazo para a usucapião?",
+      "a": 2,
+      "src": "CC, arts. 1.238, 1.240 e 1.242",
+      "o": [
+        { "t": "Não, porque a usucapião extraordinária exige sempre 15 anos de posse.", "p": "generalizacao", "w": "O parágrafo único do art. 1.238 reduz o prazo a dez anos se o possuidor estabeleceu no imóvel sua moradia habitual ou nele realizou obras ou serviços de caráter produtivo." },
+        { "t": "Não, porque sem justo título e boa-fé nenhuma modalidade de usucapião é possível.", "p": "troca", "w": "Justo título e boa-fé são requisitos da usucapião ordinária (art. 1.242). A extraordinária os dispensa expressamente (art. 1.238)." },
+        { "t": "Sim, pois a usucapião extraordinária se reduz a dez anos quando o possuidor estabelece no imóvel sua moradia habitual.", "p": "correta", "w": "Art. 1.238: quem possuir como seu um imóvel por 15 anos, sem interrupção nem oposição, adquire-lhe a propriedade, independentemente de título e boa-fé. O prazo cai para dez anos com moradia habitual ou obras produtivas." },
+        { "t": "Sim, pela usucapião especial urbana, que vale para terreno de qualquer tamanho após cinco anos.", "p": "extrapolacao", "w": "A usucapião especial urbana é limitada a área de até 250 m² (art. 1.240). O terreno de Zilda tem 600 m²." }
+      ]
+    },
+    {
+      "id": "dciv28",
+      "topic": "Registro e propriedade",
+      "c": "Em Sorocaba, Gustavo comprou um apartamento por escritura pública, pagou o preço e recebeu as chaves, mas nunca levou a escritura ao Registro de Imóveis.",
+      "q": "Pelo Código Civil, Gustavo já é proprietário do apartamento?",
+      "a": 1,
+      "src": "CC, arts. 1.196, 1.245 e 1.267",
+      "o": [
+        { "t": "Sim, porque a propriedade imóvel se transfere pela tradição, com a entrega das chaves.", "p": "troca", "w": "A tradição transfere a propriedade de bens móveis (art. 1.267). Para imóveis, a transferência entre vivos ocorre com o registro do título (art. 1.245)." },
+        { "t": "Ainda não: entre vivos, a propriedade imóvel se transfere com o registro do título no Registro de Imóveis.", "p": "correta", "w": "Art. 1.245: transfere-se entre vivos a propriedade mediante o registro do título translativo no Registro de Imóveis. Enquanto não se registrar, o alienante continua a ser havido como dono (§ 1º)." },
+        { "t": "Sim, porque a escritura pública basta, por si só, para transferir qualquer direito real.", "p": "generalizacao", "w": "A escritura é o título; a transferência do domínio do imóvel depende do seu registro (art. 1.245, § 1º)." },
+        { "t": "Não, e ele também não é possuidor, porque só o proprietário pode ter a posse.", "p": "extrapolacao", "w": "Posse e propriedade são distintas: possuidor é quem tem de fato o exercício, pleno ou não, de algum dos poderes inerentes à propriedade (art. 1.196). Gustavo já tem a posse." }
+      ]
+    },
+    {
+      "id": "dciv29",
+      "type": "ce",
+      "topic": "Consequências práticas",
+      "src": "LINDB, art. 20 (Lei 13.655/2018)",
+      "c": "Estudando para analista de tribunal em Brasília, Júlia leu que a LINDB passou a exigir atenção às consequências práticas de decisões baseadas em valores abertos, como “interesse público”.",
+      "q": "Segundo a LINDB, a vedação de decidir com base em valores jurídicos abstratos sem considerar as consequências práticas da decisão aplica-se apenas à esfera administrativa, não alcançando as decisões judiciais.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "restricao", "w": "Julgar certo aceita uma restrição que a lei não faz. O art. 20 menciona expressamente as esferas administrativa, controladora e judicial." },
+        { "t": "Errado", "p": "correta", "w": "Art. 20 da LINDB: nas esferas administrativa, controladora e judicial, não se decidirá com base em valores jurídicos abstratos sem que sejam consideradas as consequências práticas da decisão." }
+      ]
+    },
+    {
+      "id": "dciv30",
+      "type": "ce",
+      "topic": "Disposição do corpo",
+      "src": "CC, art. 14 e parágrafo único",
+      "c": "Marta, professora em Londrina, assinou documento dispondo gratuitamente do próprio corpo, para depois da morte, em favor do laboratório de anatomia de uma faculdade de medicina. Anos depois, mudou de ideia.",
+      "q": "A disposição gratuita do próprio corpo para depois da morte, com objetivo científico, é válida e pode ser livremente revogada por Marta a qualquer tempo.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 14: é válida, com objetivo científico ou altruístico, a disposição gratuita do próprio corpo, no todo ou em parte, para depois da morte. O parágrafo único permite revogar o ato livremente, a qualquer tempo." },
+        { "t": "Errado", "p": "inversao", "w": "Julgar errado supõe que o ato seria irrevogável depois de assinado. O parágrafo único do art. 14 diz o contrário: ele pode ser livremente revogado a qualquer tempo." }
+      ]
+    },
+    {
+      "id": "dciv31",
+      "type": "ce",
+      "topic": "Ordem de vocação hereditária",
+      "src": "CC, arts. 1.829, II, e 1.837",
+      "c": "Carlos, de Joinville, morreu sem deixar testamento, filhos ou netos. Deixou a esposa, com quem vivia casado, e os pais, ambos vivos.",
+      "q": "Nesse caso, a herança de Carlos será deferida aos ascendentes, em concorrência com o cônjuge sobrevivente.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 1.829, II: na falta de descendentes, a sucessão é deferida aos ascendentes, em concorrência com o cônjuge. Concorrendo com o pai e a mãe, o cônjuge recebe um terço da herança (art. 1.837)." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado imagina que o cônjuge só herda na falta de ascendentes. Ele herda sozinho nessa hipótese (inciso III), mas, havendo ascendentes, concorre com eles (inciso II)." }
+      ]
+    },
+    {
+      "id": "dciv32",
+      "type": "ce",
+      "topic": "Domicílio do preso",
+      "src": "CC, art. 76, parágrafo único",
+      "c": "Tiago morava em Uberaba, foi condenado e cumpre pena em uma penitenciária de Uberlândia. Um credor precisa saber qual é o domicílio dele para tomar providências.",
+      "q": "O domicílio do preso continua sendo o lugar onde ele residia antes da condenação, pois o domicílio só se altera por vontade da própria pessoa.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "generalizacao", "w": "Julgar certo ignora o domicílio necessário. Para o preso, a lei fixa o domicílio no lugar em que cumprir a sentença, independentemente de sua vontade." },
+        { "t": "Errado", "p": "correta", "w": "Art. 76: o preso tem domicílio necessário, que é o lugar em que cumprir a sentença (parágrafo único). No caso, Uberlândia." }
+      ]
+    },
+    {
+      "id": "dciv33",
+      "type": "ce",
+      "topic": "Sucessão aberta é imóvel",
+      "src": "CC, arts. 80, II, e 1.793",
+      "c": "Após a morte da mãe, Renan, de Santos, quer ceder ao irmão, por um valor combinado, sua parte na herança ainda não partilhada, composta apenas de dinheiro em conta bancária.",
+      "q": "Mesmo que a herança seja composta só de dinheiro, o direito à sucessão aberta é considerado bem imóvel, e a cessão do quinhão hereditário deve ser feita por escritura pública.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 80, II: considera-se imóvel, para os efeitos legais, o direito à sucessão aberta. Por isso, o art. 1.793 exige escritura pública para a cessão do direito à sucessão aberta ou do quinhão do coerdeiro." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado condiciona a natureza imóvel à composição da herança. A lei não faz essa distinção: o direito à sucessão aberta é imóvel por determinação legal." }
+      ]
+    },
+    {
+      "id": "dciv34",
+      "type": "ce",
+      "topic": "Prazo geral prescricional",
+      "src": "CC, art. 205",
+      "c": "Estudando para um concurso em Goiânia, Larissa montou um quadro com os prazos de prescrição e precisava preencher a linha das pretensões para as quais a lei não fixa prazo específico.",
+      "q": "A prescrição ocorre em dez anos quando a lei não lhe haja fixado prazo menor.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "É a literalidade do art. 205 do Código Civil: prazo geral de dez anos, aplicado quando não houver prazo menor, como os do art. 206." },
+        { "t": "Errado", "p": "troca", "w": "Julgar errado costuma vir da confusão com o prazo de 20 anos do Código de 1916 ou com o de três anos da reparação civil (art. 206, § 3º, V). O prazo geral atual é de dez anos." }
+      ]
+    },
+    {
+      "id": "dciv35",
+      "type": "ce",
+      "topic": "Renúncia à prescrição",
+      "src": "CC, arts. 191 e 192",
+      "c": "Em contrato de empréstimo firmado em Fortaleza, um banco incluiu cláusula pela qual o cliente renuncia, desde já, a alegar a prescrição de qualquer parcela que venha a ficar em atraso.",
+      "q": "A renúncia à prescrição pode ser feita antecipadamente, no próprio contrato, antes de o prazo se consumar.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "extrapolacao", "w": "Julgar certo estende a renúncia a um momento que a lei não admite. Só vale a renúncia feita depois de consumada a prescrição." },
+        { "t": "Errado", "p": "correta", "w": "Art. 191: a renúncia da prescrição, expressa ou tácita, só valerá sendo feita, sem prejuízo de terceiro, depois que a prescrição se consumar. E os prazos prescricionais não podem ser alterados por acordo das partes (art. 192)." }
+      ]
+    },
+    {
+      "id": "dciv36",
+      "type": "ce",
+      "topic": "Limite da cláusula penal",
+      "src": "CC, arts. 412 e 413",
+      "c": "Duas empresas de Ilhéus firmaram contrato de fornecimento no valor de R$ 10 mil, com cláusula penal de R$ 15 mil para o caso de inadimplemento total.",
+      "q": "Como as partes concordaram livremente, a cláusula penal vale pelo valor integral, ainda que supere o da obrigação principal.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "generalizacao", "w": "Julgar certo trata a autonomia da vontade como ilimitada. O art. 412 proíbe que a cominação imposta na cláusula penal exceda o valor da obrigação principal." },
+        { "t": "Errado", "p": "correta", "w": "Art. 412: o valor da cominação imposta na cláusula penal não pode exceder o da obrigação principal. Além disso, o juiz deve reduzi-la equitativamente se o montante for manifestamente excessivo (art. 413)." }
+      ]
+    },
+    {
+      "id": "dciv37",
+      "type": "ce",
+      "topic": "Atividade de risco",
+      "src": "CC, art. 927, parágrafo único",
+      "c": "Uma empresa de Paulínia que armazena produtos inflamáveis teve um tanque explodido, e a explosão danificou casas vizinhas. A empresa alega que adotou todas as cautelas possíveis.",
+      "q": "Haverá obrigação de reparar o dano, independentemente de culpa, quando a atividade normalmente desenvolvida pelo autor do dano implicar, por sua natureza, risco para os direitos de outrem.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "É o texto do art. 927, parágrafo único: além dos casos especificados em lei, a obrigação de reparar independe de culpa quando a atividade normalmente desenvolvida implicar, por sua natureza, risco para os direitos de outrem." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado supõe que a responsabilidade objetiva só existe quando uma lei específica a prevê. O Código Civil também a impõe às atividades de risco." }
+      ]
+    },
+    {
+      "id": "dciv38",
+      "type": "ce",
+      "topic": "Usucapião especial urbana",
+      "src": "CC, art. 1.240",
+      "c": "Há seis anos, sem oposição, Valdir mora com a família em um lote urbano de 300 m² em Feira de Santana. Ele não é proprietário de nenhum outro imóvel.",
+      "q": "Valdir pode adquirir o lote por usucapião especial urbana, que alcança áreas urbanas de até 300 m² possuídas por cinco anos para moradia.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "extrapolacao", "w": "Julgar certo amplia o limite legal. A usucapião especial urbana alcança área de até 250 m² (art. 1.240); o lote de 300 m² fica fora dessa modalidade." },
+        { "t": "Errado", "p": "correta", "w": "Art. 1.240: adquire o domínio quem possuir como sua área urbana de até 250 m², por cinco anos ininterruptos e sem oposição, usando-a para moradia própria ou da família, desde que não seja proprietário de outro imóvel urbano ou rural." }
+      ]
+    },
+    {
+      "id": "dciv39",
+      "type": "ce",
+      "topic": "Herança na comunhão parcial",
+      "src": "CC, arts. 1.640 e 1.659, I",
+      "c": "Em 2015, Patrícia e Rafael, ambos com 28 anos, casaram-se em Campinas sem pacto antenupcial e sem nenhuma hipótese de separação obrigatória de bens. Durante o casamento, Patrícia herdou do pai uma casa em Valinhos.",
+      "q": "Como o casal não fez pacto antenupcial, vigora a comunhão parcial, e a casa herdada por Patrícia não se comunica com Rafael.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 1.640: não havendo convenção, vigora a comunhão parcial. Art. 1.659, I: excluem-se da comunhão os bens que sobrevierem a cada cônjuge, na constância do casamento, por doação ou sucessão." },
+        { "t": "Errado", "p": "generalizacao", "w": "Julgar errado parte da ideia de que tudo o que se adquire durante o casamento se comunica. Na comunhão parcial, bens recebidos por herança ou doação ficam fora da comunhão." }
+      ]
+    },
+    {
+      "id": "dciv40",
+      "type": "ce",
+      "topic": "Herdeiros necessários",
+      "src": "CC, arts. 1.845 e 1.850",
+      "c": "Solteiro e sem filhos, Augusto, de Bagé, tem os pais já falecidos e dois irmãos. Ele quer deixar, em testamento, todo o patrimônio para uma instituição de caridade.",
+      "q": "Augusto só pode dispor por testamento de metade do patrimônio, porque os irmãos são herdeiros necessários.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo confunde herdeiros legítimos com herdeiros necessários. Irmãos são colaterais: herdam na falta de testamento, mas não têm direito à legítima." },
+        { "t": "Errado", "p": "correta", "w": "Art. 1.845: são herdeiros necessários os descendentes, os ascendentes e o cônjuge. Para excluir os colaterais, basta que o testador disponha do patrimônio sem os contemplar (art. 1.850)." }
+      ]
+    }
+  ]
+}
