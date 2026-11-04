@@ -109,3 +109,20 @@ Object.assign(ACT, {
   },
   'share-week-go': async () => { const f = ACT['share-week'].file; if (!f) return; try { await navigator.share({ files: [f], title: 'Minha semana no Memory' }); } catch (e) { /* cancelado */ } }
 });
+
+/* ---------- Ouvir a questão (leitura em voz alta, pt-BR) ---------- */
+function ttsStop() { try { speechSynthesis.cancel(); } catch (e) { /* sem voz */ } ui.tts = false; }
+function ttsText() {
+  const s = ui.session; if (!s) return ''; const q = QINDEX[s.queue[s.i]].q;
+  let t = q.c + '. ' + (q.type === 'ce' ? 'Julgue o item: ' : '') + q.q;
+  if (s.phase === 'esforco' || s.phase === 'sim') t += ' ' + (q.type === 'ce' ? 'Certo ou errado?' : s.order.map((oi, di) => 'Alternativa ' + LETTERS[di] + ': ' + q.o[oi].t).join('. '));
+  if (s.phase === 'feedback' || s.phase === 'consol') t += '. Resposta correta: ' + q.o[q.a].t + '. ' + q.o[q.a].w;
+  return t;
+}
+ACT.tts = () => {
+  if (ui.tts) { ttsStop(); rerender(); return; }
+  const u = new SpeechSynthesisUtterance(ttsText()); u.lang = 'pt-BR'; u.rate = 1.02;
+  const v = speechSynthesis.getVoices().find((x) => /^pt(-|_)BR/i.test(x.lang)); if (v) u.voice = v;
+  u.onend = u.onerror = () => { ui.tts = false; const b = document.querySelector('[data-act=tts]'); if (b) b.setAttribute('aria-pressed', 'false'); };
+  ttsStop(); ui.tts = true; speechSynthesis.speak(u); rerender();
+};

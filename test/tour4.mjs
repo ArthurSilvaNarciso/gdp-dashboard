@@ -1,0 +1,24 @@
+import { createRequire } from 'node:module';
+import { start } from '../dev/server.mjs';
+const { chromium } = createRequire(import.meta.url)('playwright');
+const OUT = '/tmp/claude-0/-home-claude/bb4201d1-86ae-53d3-b9e7-0bd93a0ff471/scratchpad/tour/t4-';
+const srv = await start(3974); const b = await chromium.launch();
+const c = await b.newContext({ viewport: { width: 390, height: 844 }, colorScheme: 'dark' }); const p = await c.newPage();
+const errs = []; p.on('pageerror', (e) => errs.push(e.message));
+const shot = async (n) => { await p.waitForTimeout(450); await p.screenshot({ path: OUT + n + '.png' }); };
+await p.goto('http://localhost:3974/'); await p.waitForFunction(() => window.API && API.on); await p.waitForTimeout(300);
+await p.click('[data-act=onb-next]'); await p.fill('#onb-name', 'Ruth'); await p.click('[data-act=persona][data-id=concurso]'); await p.click('[data-act=onb-next]'); await p.click('[data-act=onb-finish]');
+await p.waitForSelector('[data-act=diag-start]'); await shot('01-diag');
+await p.click('[data-act=diag-skip]'); await p.waitForTimeout(400); await p.keyboard.press('Escape'); await p.waitForTimeout(300);
+await p.evaluate(() => { const now = Date.now(); deckById('port').questions.slice(0, 22).forEach((q, i) => { S.cards[q.id] = { n: 2, ok: 1, lapses: 0, s: 20 + i, d: 5, last: now - 864e5, g: i % 4 ? 4 : 2, due: now + (i % 3 ? 9e8 : -1) }; }); persist(); render(); });
+await shot('02-home');
+await p.click('[data-tab=trilhas]'); await p.fill('#deck-q', 'crase'); await p.waitForTimeout(300); await shot('03-busca');
+await p.fill('#deck-q', ''); await p.evaluate(() => ACT['open-deck']({ id: 'port' })); await p.evaluate(() => document.querySelector('.jmodule').scrollIntoView({ block: 'start' })); await shot('04-modulos');
+await p.evaluate(() => ACT['study-one']({ id: 'port20' })); await p.click('[data-act=reveal]'); await shot('05-questao-tts');
+await p.evaluate(() => ACT.end()); await p.evaluate(() => ACT['sim-cespe']({ id: 'dconst' }));
+for (let i = 0; i < 18; i++) { const st = await p.evaluate(() => ui.session && ui.session.phase); if (st !== 'sim') break; if (i % 4 === 3) await p.click('[data-act=sim-skip]'); else { const k = await p.evaluate((ii) => { const s = ui.session; const q = QINDEX[s.queue[s.i]].q; return ii % 3 ? q.a : 1 - q.a; }, i); await p.click(`.opt >> nth=${k}`); await p.click('[data-act=sim-next]'); } }
+await p.waitForTimeout(600); if (await p.locator('.scrim').count()) { await p.keyboard.press('Escape'); await p.waitForTimeout(300); } await shot('06-cespe');
+await p.evaluate(() => ACT.end()); await p.evaluate(() => { ui.tab = 'perfil'; render(); }); await p.click('.promo [data-act=auth-open][data-m=signup]'); await p.fill('#au-email', 'dk@x.com'); await p.fill('#au-pass', 'senha-forte-123'); await p.check('#au-terms'); await shot('07-signup'); await p.click('.sheet button[type=submit]'); await p.waitForTimeout(1500);
+await p.evaluate(() => { ui.tab = 'liga'; render(); }); await p.waitForTimeout(1200); await shot('08-liga');
+await p.evaluate(() => { ui.tab = 'progresso'; render(); }); await p.waitForTimeout(800); await shot('09-progresso');
+console.log(errs.join('\n') || 'sem erros'); await b.close(); srv.close(); process.exit(0);

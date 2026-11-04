@@ -279,6 +279,9 @@ try {
   ok('lista de questões limitada com ver todas', (await A.locator('[data-act=study-one]').count()) === 12 && (await A.locator('[data-act=qmore]').count()) === 1);
   await A.click('[data-act=qf][data-f=ce]'); ok('filtro Certo/Errado', (await A.locator('[data-act=study-one]').count()) === 12);
   await A.click('[data-act=qf][data-f=todas]');
+  await A.evaluate(() => { ui.deck = null; ui.tab = 'trilhas'; render(); }); await A.fill('#deck-q', 'regencia verbal'); await A.waitForTimeout(200);
+  ok('busca por assunto sem acento', (await A.locator('#deck-grid [data-act=study-one]').count()) >= 1);
+  await A.fill('#deck-q', ''); await A.waitForTimeout(100);
 
   /* ---------- Reportar questão, liga, amigos e notificações ---------- */
   await A.click('[data-tab=home]').catch(() => {}); await A.waitForTimeout(200);

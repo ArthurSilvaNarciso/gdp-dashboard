@@ -365,6 +365,7 @@ function answer(conf) {
   persist(); tone(correct); render();
 }
 function nextQuestion() {
+  if (ui.tts) ttsStop();
   const s = ui.session;
   s.i++;
   if (s.i >= s.queue.length) finishCycle();
@@ -469,6 +470,7 @@ document.body.insertAdjacentHTML('afterbegin', '<svg width="0" height="0" style=
 I.chev = '<path d="m9 6 6 6-6 6"/>';
 I.tick = '<path d="m5 12.5 4.5 4.5L19 7.5"/>';
 I.search = '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>';
+I.sound = '<path d="M4 9.5h3.2L12 5.6v12.8l-4.8-3.9H4z"/><path d="M15.6 9a4.2 4.2 0 0 1 0 6"/><path class="a" d="M18.2 6.4a8 8 0 0 1 0 11.2"/>';
 I.edit = '<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13.5 6.5 4 4"/>';
 I.layers = I.decks;
 I.gear = '<circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/>';
@@ -653,13 +655,28 @@ function filteredDecks() {
   const tids = cat === 'turma' && API ? classDeckIds() : [];
   return allDecks().filter((d) => (cat === 'all' || (cat === 'turma' ? tids.includes(d.id) : cat === 'mine' ? d.custom : d.tag === cat || (cat === 'Concursos' && d.tag === 'Recomendado'))) && (!q || (d.title + ' ' + d.subtitle + ' ' + (d.blurb || '')).toLowerCase().includes(q)));
 }
-function deckGrid() { const list = filteredDecks(); return list.length ? `<div class="grid2">${list.map(deckCard).join('')}</div>` : `<div class="empty-illo">${illo('search')}<b>Nenhuma trilha encontrada</b><span>Tente outra palavra ou crie uma trilha com o seu PDF.</span></div>`; }
+const norm = (t) => String(t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+function topicHits(q) {
+  const k = norm(q).trim(); if (k.length < 3) return [];
+  const words = k.split(/\s+/).filter(Boolean); const out = [];
+  for (const d of allDecks()) for (const x of d.questions) {
+    const t = norm(x.topic), body = norm(x.q + ' ' + (x.c || ''));
+    if (!words.every((w) => t.includes(w) || body.includes(w))) continue;
+    out.push({ d, x, score: words.every((w) => t.includes(w)) ? 2 : 1 });
+  }
+  return out.sort((a, b) => b.score - a.score).slice(0, 8);
+}
+function topicResults() {
+  const hits = topicHits(ui.q || ''); if (!hits.length) return '';
+  return `<div class="blk" style="margin-top:6px"><div class="sec"><h2>Assuntos</h2><span class="tiny num">${hits.length === 8 ? '8+' : hits.length} ${hits.length === 1 ? 'questão' : 'questões'}</span></div><div class="list">${hits.map(({ d, x }) => { const c = cardOf(x.id); return `<button class="item" data-act="study-one" data-id="${esc(x.id)}"><span class="tile ${x.type === 'ce' ? 'c-lilac' : 'c-blue'}" style="font-size:12px;font-weight:800">${x.type === 'ce' ? 'C/E' : ico('book')}</span><div class="main"><b>${esc(x.topic)}</b><span>${esc(d.title)}${c && c.s ? ' · memória ' + Math.round(retr(c) * 100) + '%' : ' · nova'}</span></div>${chev()}</button>`; }).join('')}</div></div>`;
+}
+function deckGrid() { const list = filteredDecks(); const tr = topicResults(); if (tr && !list.length) return tr; return (list.length ? `<div class="grid2">${list.map(deckCard).join('')}</div>` : `<div class="empty-illo">${illo('search')}<b>Nenhuma trilha encontrada</b><span>Tente outra palavra ou crie uma trilha com o seu PDF.</span></div>`) + tr; }
 function viewTrilhas() {
   if (ui.deck) return viewDeck(deckById(ui.deck));
   const errs = errorIds().length;
   return `<div class="page">
     <div class="sec" style="padding-top:6px"><h1 style="font-size:26px">Trilhas</h1><button class="icon-btn" data-act="tab" data-tab="importar" aria-label="Criar trilha">${ico('plus')}</button></div>
-    <label class="search">${ico('search')}<input id="deck-q" placeholder="Buscar trilha" value="${esc(ui.q || '')}" autocomplete="off" aria-label="Buscar trilha"></label>
+    <label class="search">${ico('search')}<input id="deck-q" placeholder="Buscar trilha ou assunto" value="${esc(ui.q || '')}" autocomplete="off" aria-label="Buscar trilha ou assunto"></label>
     <div class="chips" role="group" aria-label="Categorias">${catsNow().map(([id, l]) => `<button class="fchip" data-act="cat" data-id="${id}" aria-pressed="${(ui.cat || 'all') === id}">${l}</button>`).join('')}</div>
     <div class="list">
       <button class="item" data-act="tab" data-tab="importar"><span class="tile c-peach">${ico('upload')}</span><div class="main"><b>Criar trilha com seu PDF</b><span>Apostila, edital, manual ou código</span></div>${chev()}</button>
@@ -720,7 +737,7 @@ function viewSession() {
   const pct = (s.i / s.queue.length) * 100;
   const back = s.requeued[id] && s.results.some((r) => r.id === id) && s.phase !== 'feedback' && s.phase !== 'consol';
   const L = lookOf(deck);
-  const head = `<div class="qmeta"><span class="tag ${TAG_COLOR[deck.tag] || 'c-blue'}">${esc(q.topic)}</span><span>${esc(deck.title)}</span>${back ? '<span class="tag c-peach">De volta para fixar</span>' : ''}</div>
+  const head = `<div class="qmeta"><span class="tag ${TAG_COLOR[deck.tag] || 'c-blue'}">${esc(q.topic)}</span><span>${esc(deck.title)}</span>${back ? '<span class="tag c-peach">De volta para fixar</span>' : ''}${'speechSynthesis' in window ? `<button class="icon-btn flat sm tts" data-act="tts" aria-label="${ui.tts ? 'Parar leitura' : 'Ouvir a questão'}" aria-pressed="${!!ui.tts}">${ico('sound')}</button>` : ''}</div>
     <div class="case"><span class="tile c-${L.pal === 'navy' ? 'blue' : L.pal}">${ico('file')}</span><span>${esc(q.c)}</span></div>
     ${q.type === 'ce' ? `<span class="ce-lbl">Julgue o item · Certo ou Errado</span><h2 class="qtext ce">${esc(q.q)}</h2>` : `<h2 class="qtext">${esc(q.q)}</h2>`}`;
   const Lt = (di) => (q.type === 'ce' ? (di ? 'E' : 'C') : LETTERS[di]);
@@ -983,7 +1000,7 @@ function viewProfile() {
     <div class="list">${ui.confirmReset ?
       `<div class="item noicon"><div class="main"><b>Zerar todo o progresso?</b><span>Respostas, XP, sequência e revisões serão apagados. Suas trilhas continuam.</span></div></div><div class="item noicon" style="gap:10px"><button class="btn btn-ghost btn-sm" style="flex:1" data-act="cancel-reset">Cancelar</button><button class="btn btn-danger btn-sm" style="flex:1" data-act="do-reset">Zerar</button></div>` :
       `<button class="item noicon" data-act="ask-reset" style="justify-content:center;color:var(--bad);font-weight:700">Zerar progresso</button>`}</div>
-    <p class="tiny" style="text-align:center">Memory 6.1${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
+    <p class="tiny" style="text-align:center">Memory 6.2${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
   </div>`;
 }
 
@@ -1070,7 +1087,7 @@ const ACT = {
     if (sc && !REDUCED && !sc.classList.contains('closing')) { sc.classList.add('closing'); setTimeout(() => { if (document.querySelector('.scrim') === sc) { ui.sheet = null; renderSheet(); } }, 190); }
     else { ui.sheet = null; renderSheet(); }
   },
-  'end': () => { if (ui.session) { clearInterval(ui.session.tick); clearInterval(ui.session.simTick); } ui.session = null; ui.sheet = null; ui.tab = 'home'; render(); $('#view').scrollTop = 0; },
+  'end': () => { if (ui.tts) ttsStop(); if (ui.session) { clearInterval(ui.session.tick); clearInterval(ui.session.simTick); } ui.session = null; ui.sheet = null; ui.tab = 'home'; render(); $('#view').scrollTop = 0; },
   'again': () => { const p = ui.session.params; ui.session = null; startCycle(p.ids ? { decks: personaDecks(), size: 10, title: 'Sessão' } : p.reviewOnly ? Object.assign({}, p, { reviewOnly: false, title: 'Sessão' }) : p); },
   'imp-qty': (d) => { syncImportFields(); imp.qty = Number(d.n); render(); },
   'imp-clear-file': () => { imp.file = null; imp.text = ''; imp.pages = 0; imp.error = ''; render(); },

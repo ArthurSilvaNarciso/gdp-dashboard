@@ -113,6 +113,11 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: -0.0
 .memrow b { font-family: var(--display); font-size: 22px; font-weight: 600; line-height: 1.2; }
 .memrow span { font-size: 12px; color: rgba(255,255,255,.75); }
 .cta-float { margin-top: -40px; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); position: relative; z-index: 2; }
+/* Ouvir a questão e tela de abertura */
+.qmeta .tts { margin-left: auto; color: var(--ink-2); } .qmeta .tts[aria-pressed="true"] { color: var(--orange-ink); background: var(--t-peach); }
+.splash { min-height: 70vh; display: grid; place-content: center; justify-items: center; gap: 14px; color: var(--ink); }
+.splash-logo { display: flex; } .splash-logo i { width: 34px; height: 34px; border-radius: 50%; background: #4A5BD6; display: block; } .splash-logo i + i { background: var(--orange); margin-left: -10px; opacity: .92; }
+.splash b { font-family: var(--display); font-size: 26px; font-weight: 700; letter-spacing: -.01em; }
 /* Jornada em módulos e filtros de questões */
 .jmodule { background: var(--surface); border-radius: 20px; box-shadow: var(--shadow); overflow: hidden; }
 .jmodule + .jmodule { margin-top: 10px; }
@@ -955,6 +960,6 @@ details.acc.plain .body { padding: 0 16px 16px; }
       <svg width="27" height="13" viewBox="0 0 27 13" fill="none"><rect x=".5" y=".5" width="23" height="12" rx="3.5" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="20" height="9" rx="2" fill="currentColor"/><path d="M25 4.5v4a2 2 0 0 0 0-4Z" fill="currentColor" opacity=".4"/></svg>
     </span>
   </div>
-  <main id="view" aria-live="polite"></main>
+  <main id="view" aria-live="polite"><div class="splash" aria-label="Carregando o Memory"><span class="splash-logo"><i></i><i></i></span><b>Memory</b><span class="spin"></span></div></main>
   <nav id="tabbar" aria-label="Navegação principal"></nav>
 </div>
