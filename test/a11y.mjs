@@ -13,6 +13,7 @@ for (const dark of [false, true]) {
   await p.click('[data-act=onb-next]'); await p.fill('#onb-name', 'Ruth'); await p.click('[data-act=persona][data-id=concurso]'); await run('onb1');
   await p.click('[data-act=onb-next]'); await p.click('[data-act=onb-finish]'); await p.waitForTimeout(500); await run('exam'); await p.keyboard.press('Escape');
   await run('home');
+  await p.evaluate(() => { const now = Date.now(); deckById('port').questions.slice(0, 6).forEach((q, i) => { S.cards[q.id] = { n: 2, ok: 1, lapses: 1, s: 2, d: 5, last: now - 3 * 864e5, g: i % 2 ? 2 : 1, due: now }; }); [5, 9, 0, 12].forEach((n, i) => { S.log[dayKey(new Date(now - i * 864e5))] = Object.assign(LOG0(), { n, ok: n - 1 }); }); persist(); });
   for (const t of ['trilhas', 'progresso', 'perfil']) { await p.click(`[data-tab=${t}]`); await run(t); }
   await p.evaluate(() => { ui.tab = 'avatar'; render(); }); await run('avatar');
   await p.evaluate(() => { ui.tab = 'trilhas'; ui.deck = 'port'; render(); }); await run('deck');

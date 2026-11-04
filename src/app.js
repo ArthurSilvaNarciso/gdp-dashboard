@@ -880,6 +880,7 @@ function viewProgress() {
   const nb = Object.keys(S.badges || {}).length; const bcol = ['c-peach', 'c-blue', 'c-mint', 'c-lilac', 'c-yellow', 'c-pink'];
   return `<div class="page">
     <div class="sec" style="padding-top:6px"><h1 style="font-size:26px">Progresso</h1><span class="tag c-peach" style="align-self:center">Nível ${lv}</span></div>
+    ${weekReportHTML()}
     <div class="kgrid">
       <div class="kcard c-peach"><span class="tile" style="background:var(--surface)">${ico('flame')}</span><b class="num">${cnt(streakNow())}</b><span>dias seguidos</span></div>
       <div class="kcard c-blue"><span class="tile" style="background:var(--surface)">${ico('layers')}</span><b class="num">${cnt(total)}</b><span>questões respondidas</span></div>
@@ -893,6 +894,7 @@ function viewProgress() {
     <div class="card pad"><div class="sec"><h2>Calibração</h2><span class="tiny" style="font-weight:700">confiança × acerto</span></div>
       ${cal.map(([k, l, c]) => { const x = S.calib[k]; const p = x.n ? Math.round((x.ok / x.n) * 100) : 0; return `<div class="cal"><span>${l}</span><div class="bar"><i class="${c}" style="width:${p}%"></i></div><span class="num tiny" style="text-align:right;font-weight:700">${x.n ? p + '%' : '–'}</span></div>`; }).join('')}
       <p class="small muted">${ill !== null ? `Índice de ilusão: <b style="color:var(--ink)">${ill}%</b> das respostas “tenho certeza” estavam erradas.` : 'Quem estuda bem acerta mais quando diz ter certeza.'}</p></div>
+    ${weakHTML()}
     ${studied.length ? `<div class="blk"><div class="sec"><h2>Domínio por trilha</h2></div><div class="list">${studied.map((d) => { const st = deckStats(d); const lk = PAL[lookOf(d).pal]; return `<div class="item"><span class="tile" style="background:${lk.bg};color:${lk.fg}">${lookOf(d).icon ? ico(lookOf(d).icon) : esc(lookOf(d).glyph.slice(0, 3))}</span><div class="main"><b>${esc(d.title)}</b><span>${st.m} de ${st.t} firmes · memória ${st.mem}%</span><div class="bar" style="margin-top:6px"><i class="n" style="width:${(st.m / st.t) * 100}%"></i><i class="o" style="width:${(st.l / st.t) * 100}%;border-radius:0"></i></div></div></div>`; }).join('')}</div></div>` : ''}
     ${traps.length ? `<div class="blk"><div class="sec"><h2>Pegadinhas que mais te pegam</h2></div><div class="list">${traps.slice(0, 4).map(([k, n], i) => `<div class="item"><span class="tile ${bcol[i]}">${ico('alert')}</span><div class="main"><b>${PATTERNS[k].l}</b><span>${PATTERNS[k].d}</span></div><span class="end num">${n}×</span></div>`).join('')}</div></div>` : ''}
     ${sims.length ? `<div class="blk"><div class="sec"><h2>Simulados</h2></div><div class="list">${sims.map((x) => `<div class="item"><span class="tile c-blue">${ico('clock')}</span><div class="main"><b>${esc(x.title)}</b><span>${new Date(x.at).toLocaleDateString('pt-BR')} · ${x.n} questões</span></div><span class="end num" style="color:var(--ink);font-family:var(--display)">${x.score}%</span></div>`).join('')}</div></div>` : ''}

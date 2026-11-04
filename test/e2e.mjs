@@ -145,6 +145,13 @@ try {
   ok('moedas ganhas ao estudar', await D.evaluate(() => coinsBal() >= 4 + 5));
   await D.evaluate(() => startCycle({ decks: ['neuro'], size: 3, title: 'Sessão' })); await playSession(D);
   await D.click('[data-tab=home]').catch(() => {}); await D.waitForTimeout(300);
+  await D.click('[data-tab=progresso]'); await D.waitForTimeout(200);
+  ok('resumo da semana no progresso', (await D.locator('.wreport .wb').count()) === 7);
+  await D.click('[data-act=share-week]'); await D.waitForSelector('.share-prev img', { timeout: 8000 }).catch(() => {});
+  ok('cartão da semana gera imagem', await D.evaluate(() => { const i = document.querySelector('.share-prev img'); return !!(i && i.naturalWidth === 1080); }));
+  await D.click('.sheet [data-act=sheet-close]'); await D.waitForTimeout(200);
+  if (await D.locator('[data-act=weak-train]').count()) { await D.click('[data-act=weak-train]'); ok('treino de pontos fracos abre ciclo', await D.evaluate(() => !!ui.session && ui.session.title === 'Pontos fracos')); await D.evaluate(() => ACT.end()); }
+  await D.click('[data-tab=home]'); await D.waitForTimeout(200);
   ok('plano de hoje com passos e progresso', (await D.locator('.plan .ps').count()) >= 2 && (await D.locator('.plan-ring').count()) === 1);
   ok('baú do dia aparece ao bater a meta', (await D.locator('[data-act=chest-open]').count()) === 1);
   const c0 = await D.evaluate(() => coinsBal()); await D.click('[data-act=chest-open]'); await D.waitForSelector('.reward');

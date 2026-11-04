@@ -113,6 +113,46 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: -0.0
 .memrow b { font-family: var(--display); font-size: 22px; font-weight: 600; line-height: 1.2; }
 .memrow span { font-size: 12px; color: rgba(255,255,255,.75); }
 .cta-float { margin-top: -40px; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); position: relative; z-index: 2; }
+/* Relatório da semana */
+.wreport { background: var(--navy); color: #fff; border-radius: 24px; padding: 16px; display: flex; flex-direction: column; gap: 14px; position: relative; overflow: hidden; box-shadow: var(--shadow); }
+.wreport::after { content: ""; position: absolute; width: 150px; height: 150px; border-radius: 50%; background: var(--orange); right: -70px; top: -80px; opacity: .95; }
+.wreport > * { position: relative; z-index: 1; }
+.wr-h { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.wr-h small { display: block; font-size: 11.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: rgba(255,255,255,.72); }
+.wr-h b { display: block; font-family: var(--display); font-weight: 700; font-size: 17px; line-height: 1.3; margin-top: 2px; max-width: 220px; }
+.wr-h .btn { flex: none; background: #fff; color: var(--navy); gap: 6px; }
+.wr-h .btn svg { width: 16px; height: 16px; }
+.wr-body { display: grid; grid-template-columns: 1fr 1.15fr; gap: 14px; align-items: end; }
+.wr-nums { display: flex; flex-direction: column; gap: 8px; }
+.wr-nums > div { display: flex; align-items: baseline; gap: 8px; }
+.wr-nums b { font-family: var(--display); font-weight: 700; font-size: 22px; min-width: 54px; }
+.wr-nums span { font-size: 12.5px; color: rgba(255,255,255,.75); display: flex; align-items: center; gap: 6px; }
+.wr-nums em { white-space: nowrap; font-style: normal; font-weight: 800; font-size: 11.5px; padding: 2px 6px; border-radius: 99px; }
+.wr-nums em.up { background: rgba(60,203,136,.22); color: #7FE7B5; } .wr-nums em.down { background: rgba(255,255,255,.12); color: rgba(255,255,255,.8); }
+.wr-bars { position: relative; height: 112px; display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; align-items: end; }
+.wb { height: 100%; display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 0; }
+.wb .col { flex: 1; width: 100%; display: flex; align-items: flex-end; justify-content: center; }
+.wb i { display: block; width: 100%; max-width: 22px; border-radius: 6px; background: #7C8BF0; }
+.wb i.z { background: rgba(255,255,255,.16); }
+.wb.hit i { background: var(--orange); }
+.wb small { font-size: 11px; font-weight: 700; color: rgba(255,255,255,.65); line-height: 12px; }
+.wb.today small { color: #fff; }
+.wr-goal { position: absolute; left: 0; right: 0; border-top: 1.5px dashed rgba(255,255,255,.35); pointer-events: none; }
+/* Pontos fracos */
+.card.weak { padding: 6px 14px 14px; gap: 0; }
+.wk { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.wk .main { flex: 1; min-width: 0; } .wk .main b { display: block; font-size: 14.5px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .wk .main span { font-size: 12.5px; color: var(--ink-2); }
+.wk-m { display: flex; align-items: center; gap: 8px; flex: none; width: 112px; } .wk-m .bar { flex: 1; } .wk-m .num { font-size: 12.5px; font-weight: 800; width: 34px; text-align: right; }
+.card.weak > p { margin: 12px 0 10px; }
+.bar i.r { background: var(--bad); }
+/* Compartilhar */
+.share-sheet { display: flex; flex-direction: column; gap: 12px; }
+.share-sheet h2 { font-size: 19px; }
+.share-sheet a.btn { text-decoration: none; }
+.share-prev { display: grid; place-items: center; min-height: 200px; }
+.share-prev img { width: auto; max-width: 100%; height: min(52vh, 440px); border-radius: 18px; box-shadow: var(--shadow); }
+.spin { width: 28px; height: 28px; border-radius: 50%; border: 3px solid var(--line); border-top-color: var(--orange); animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
 /* Plano de hoje */
 .plan { background: var(--surface); border-radius: 22px; box-shadow: var(--shadow); padding: 14px 14px 8px; }
 .plan-h { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 2px 4px 10px; border-bottom: 1px solid var(--line); }

@@ -10,7 +10,7 @@ if (!shared.includes('return {')) throw new Error('export de shared.js não enco
 const app = R('src/app.js');
 const mark = '/* ================= Inicialização ================= */';
 const i = app.indexOf(mark); if (i < 0) throw new Error('marcador de inicialização não encontrado');
-const js = [R('src/data.js'), R('src/data2.js'), contentJS(), 'const SH = (() => {\n' + shared + '\n})();', app.slice(0, i), R('src/glyphs.js'), R('src/icons.js'), R('src/avatar.js'), R('src/engage.js'), R('src/journey.js'), R('src/server.js'), app.slice(i)].join('\n');
+const js = [R('src/data.js'), R('src/data2.js'), contentJS(), 'const SH = (() => {\n' + shared + '\n})();', app.slice(0, i), R('src/glyphs.js'), R('src/icons.js'), R('src/avatar.js'), R('src/engage.js'), R('src/journey.js'), R('src/report.js'), R('src/server.js'), app.slice(i)].join('\n');
 const script = '<script>\n' + js + '\n</script>\n';
 fs.mkdirSync('dist', { recursive: true });
 fs.writeFileSync('index.html', R('dev/preamble.html') + headPart + '\n</head>\n<body>' + bodyPart + script + '</body>\n</html>\n');
