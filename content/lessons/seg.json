@@ -1,0 +1,405 @@
+{
+ "id": "seg",
+ "lessons": [
+  {
+   "id": "seg-a1",
+   "title": "Phishing: reconheça a isca antes de clicar",
+   "mins": 6,
+   "qids": [
+    "seg1",
+    "seg8",
+    "seg11",
+    "seg57",
+    "seg50",
+    "seg47"
+   ],
+   "intro": "Ao fim desta aula você vai reconhecer um phishing pelos sinais e pelo endereço, e saber exatamente o que fazer se receber ou se cair em um.",
+   "sections": [
+    {
+     "h": "Os gatilhos de todo golpe",
+     "p": [
+      "Phishing é a mensagem que imita alguém confiável para fazer você clicar, digitar a senha ou pagar. Chega por e-mail, SMS (smishing), WhatsApp ou rede social, e quase sempre combina os mesmos gatilhos."
+     ],
+     "list": [
+      "Urgência: \"em 24 horas\", \"até hoje\", \"em até 2 horas\".",
+      "Ameaça ou prêmio: conta bloqueada, CNH suspensa, encomenda retida, reajuste salarial.",
+      "Pedido de ação: clicar, fazer login, pagar uma taxa pequena, baixar um anexo.",
+      "Remetente fora do lugar: \"Equipe de TI\" escrevendo de domínio externo, SMS com link, endereço parecido com o real."
+     ]
+    },
+    {
+     "h": "Leia o endereço pelo final",
+     "p": [
+      "Quem controla um endereço é o final do nome do servidor, logo antes da primeira barra. Em https://detran-sp.gov.br.regulariza-cnh.com/pagar, o dono é regulariza-cnh.com; o \"detran-sp.gov.br\" do começo é só um subdomínio criado pelo golpista.",
+      "Desconfie também de letras trocadas, como rn no lugar de m, e de domínios parecidos com o da empresa, como empresa-holding.com no lugar de empresa.com."
+     ]
+    },
+    {
+     "h": "Cadeado não é selo de confiança",
+     "p": [
+      "O cadeado e o https indicam que a conexão com aquele endereço é criptografada. Golpistas também obtêm certificados, então a página falsa pode ter cadeado: seus dados chegam cifrados, só que direto ao criminoso.",
+      "A defesa que funciona é não usar o link recebido. Digite o endereço oficial, use o aplicativo oficial ou um favorito que você mesmo salvou."
+     ]
+    },
+    {
+     "h": "Recebeu ou caiu: o que fazer",
+     "p": [
+      "Recebeu: não clique, não responda e reporte pelo canal oficial da empresa, como o botão de denúncia de phishing ou o chamado para a TI. Um único aviso permite bloquear a mensagem para todos os colegas.",
+      "Caiu: troque a senha imediatamente, pelo endereço oficial, e avise a equipe de segurança informando o link e o horário. Quanto antes, menor a janela para o golpista usar o acesso."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Funcionários recebem um e-mail com o assunto \"Reajuste salarial: atualize seus dados até hoje\", com o logotipo da empresa e um botão para o \"portal do colaborador\". O remetente usa um domínio diferente do da empresa.",
+    "q": "Como o funcionário deve agir?",
+    "a": "Não usar o link: abrir o portal pelo endereço que já conhece ou pela intranet, confirmar com o RH por canal interno e reportar o e-mail. Prazo curto, assunto atraente, pedido de login e domínio estranho somam quatro sinais clássicos."
+   },
+   "traps": [
+    "Logotipo, assinatura e layout corretos não provam nada: copiar é fácil.",
+    "O nome que aparece no começo da URL não diz quem é o dono do site.",
+    "Cadeado e https não garantem que o site é legítimo.",
+    "Apagar a mensagem sem reportar deixa os colegas expostos ao mesmo golpe."
+   ],
+   "summary": [
+    "Urgência, ameaça ou prêmio e pedido de login ou pagamento são a assinatura do phishing.",
+    "O dono do endereço é o final do nome do servidor, antes da primeira barra.",
+    "Cadeado indica conexão cifrada, não site confiável.",
+    "Recebeu, reporte; caiu, troque a senha e avise a segurança na hora."
+   ],
+   "src": "Cartilha de Segurança para Internet (CERT.br): golpes na internet e uso seguro da internet."
+  },
+  {
+   "id": "seg-a2",
+   "title": "Golpes por voz e mensagem: confirme pelo seu canal",
+   "mins": 6,
+   "qids": [
+    "seg2",
+    "seg3",
+    "seg12",
+    "seg13",
+    "seg14",
+    "seg48"
+   ],
+   "intro": "Ao fim desta aula você vai desarmar golpes de falso chefe, falsa central e falso suporte com uma única regra, aplicada sem constrangimento.",
+   "sections": [
+    {
+     "h": "Engenharia social: o ataque é na pessoa",
+     "p": [
+      "Engenharia social é convencer alguém a fazer o que o golpista quer: passar a senha, pagar, instalar algo. Funciona com autoridade (o chefe, o banco, a TI), urgência e isolamento (\"não comente com ninguém\").",
+      "Nenhuma dessas pressões é tecnológica, então a defesa também não é. É um procedimento que você segue mesmo quando a história parece convincente."
+     ]
+    },
+    {
+     "h": "A regra de ouro: quem liga não escolhe o canal",
+     "p": [
+      "Pedido de dinheiro, senha ou código por mensagem ou ligação? Encerre e confirme por um canal que você mesmo inicia: o número antigo do chefe, o telefone impresso no verso do cartão, o ramal oficial da TI.",
+      "O número que aparece no visor pode ser falsificado, inclusive com o número do banco. Ao retornar, prefira outro aparelho, porque a linha do golpista pode continuar aberta."
+     ]
+    },
+    {
+     "h": "Os golpes mais comuns no trabalho",
+     "p": [
+      "Os enredos mudam, mas o roteiro se repete: alguém com autoridade, uma urgência e um pedido fora do processo normal."
+     ],
+     "list": [
+      "Falso chefe: número novo com a foto do diretor e pedido de Pix urgente \"porque estou em reunião\".",
+      "Falso suporte: ligação pedindo login e senha para \"corrigir o servidor\", ou janela no navegador mandando ligar para um suposto suporte da Microsoft.",
+      "Falsa central do banco: \"seu cartão foi clonado\", pede a senha no teclado do telefone e manda um motoboy buscar o cartão.",
+      "Deepfake de voz: a voz do diretor, imitada por IA a partir de áudios curtos, pedindo transferência fora do fluxo."
+     ]
+    },
+    {
+     "h": "O que nunca acontece",
+     "p": [
+      "Banco não pede senha por telefone nem manda buscar cartão em casa. Suporte legítimo não pede a sua senha, e empresa de software não exibe alerta com telefone para você ligar.",
+      "Se a regra da empresa exige duas aprovações para transferências, ela vale também quando o pedido vem do presidente. É justamente nessa hora que ela protege."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Juliana, do financeiro, recebe uma ligação de número desconhecido com a voz idêntica à do diretor-geral. Ele pede uma transferência urgente para fechar um contrato e diz que não dá tempo de seguir o fluxo normal.",
+    "q": "Qual é a conduta segura?",
+    "a": "Desligar e ligar para o diretor em um número já conhecido, e seguir o fluxo normal de aprovação. Voz idêntica não prova identidade, porque ferramentas de IA imitam vozes a partir de poucos áudios."
+   },
+   "traps": [
+    "Foto de perfil e nome certos não provam identidade.",
+    "O número do banco no visor não prova que é o banco ligando.",
+    "Retornar no número que ligou para você mantém a conversa no canal do golpista.",
+    "Pedido de sigilo vindo do \"chefe\" é sinal de golpe, não motivo para pular a aprovação."
+   ],
+   "summary": [
+    "Engenharia social explora autoridade, urgência e isolamento.",
+    "Confirme sempre por um canal que você mesmo inicia, de preferência de outro aparelho.",
+    "Banco, suporte e fabricante de software não pedem senha nem mandam ligar para alertas na tela.",
+    "O fluxo de aprovação vale para todos, inclusive para pedidos da diretoria."
+   ],
+   "src": "Cartilha de Segurança para Internet (CERT.br): golpes na internet; Febraban: alertas de golpes (falsa central e golpe do motoboy); FBI IC3: alertas sobre vozes geradas por IA."
+  },
+  {
+   "id": "seg-a3",
+   "title": "Fraudes de pagamento: boleto, conta trocada e Pix",
+   "mins": 7,
+   "qids": [
+    "seg15",
+    "seg16",
+    "seg17",
+    "seg18",
+    "seg19",
+    "seg20"
+   ],
+   "intro": "Ao fim desta aula você vai aplicar os controles que barram boleto adulterado, troca de conta bancária, comprovante falso e QR code trocado.",
+   "sections": [
+    {
+     "h": "Boleto: confira o beneficiário",
+     "p": [
+      "O boleto adulterado tem o visual do original, mas a linha digitável leva o dinheiro para outra conta. O controle que pega o golpe é a tela do banco antes de confirmar: nome e CNPJ do beneficiário devem ser os do fornecedor.",
+      "Divergência? Não pague e confirme com o fornecedor por um telefone já cadastrado, nunca pelo contato que veio no próprio e-mail. Avise também a equipe de segurança."
+     ]
+    },
+    {
+     "h": "\"Mudamos de banco\": a fraude do e-mail corporativo",
+     "p": [
+      "Na fraude de e-mail corporativo, o golpista invade ou imita a caixa do fornecedor e manda o aviso de conta nova, às vezes no meio de uma conversa verdadeira. Como chega do endereço de sempre, parece legítimo.",
+      "O controle é de processo: dado bancário só muda depois de confirmação por telefone já registrado no cadastro e com aprovação de uma segunda pessoa. A fraude do CEO segue a mesma lógica, com o \"presidente\" pedindo transferência sigilosa e urgente."
+     ]
+    },
+    {
+     "h": "Pix: o que vale é o extrato",
+     "p": [
+      "Comprovante é imagem, e imagem se edita. Só libere a mercadoria depois de ver o crédito no extrato ou no aplicativo do banco.",
+      "Recebeu um Pix \"por engano\" e o pagador pede a devolução para outra chave? Devolva só pela função de devolução do próprio Pix recebido, que retorna o valor à conta de origem."
+     ]
+    },
+    {
+     "h": "QR code: leia o nome antes de pagar",
+     "p": [
+      "Adesivo com QR code colado por cima do original é golpe comum em estacionamentos, cardápios e cobranças. Antes de confirmar qualquer Pix por QR code, leia o nome do recebedor na tela.",
+      "Se o nome não é o do estabelecimento, não pague e use o caixa, a maquininha ou o aplicativo oficial."
+     ]
+    }
+   ],
+   "example": {
+    "c": "O contas a pagar recebe, do e-mail de sempre de uma transportadora, a fatura do mês com o aviso: \"Mudamos de banco. A partir desta fatura, depositem na nova conta abaixo\".",
+    "q": "O que fazer antes de pagar?",
+    "a": "Não alterar nada com base no e-mail. Ligar para o telefone que já está no cadastro do fornecedor, confirmar com alguém conhecido e só então atualizar a conta, com aprovação de um segundo responsável."
+   },
+   "traps": [
+    "E-mail vindo do endereço verdadeiro do fornecedor pode ter sido enviado por quem invadiu a conta dele.",
+    "Comprovante de Pix mandado por WhatsApp não é prova de pagamento.",
+    "Devolver um Pix para outra chave, a pedido de quem diz ter errado, é armadilha.",
+    "O telefone de contato que veio no e-mail suspeito pertence ao golpista."
+   ],
+   "summary": [
+    "Antes de pagar, confira nome e CNPJ do beneficiário na tela do banco.",
+    "Troca de dados bancários só com confirmação por telefone já cadastrado e dupla aprovação.",
+    "Pagamento confirmado é crédito no extrato, não imagem de comprovante.",
+    "Pix recebido por engano volta pela função de devolução; QR code só depois de ler o recebedor."
+   ],
+   "src": "Febraban: alertas de golpes (boleto falso e comprovante falso); Banco Central do Brasil: regulamento do Pix (devolução); FBI IC3: Business Email Compromise; Cartilha de Segurança para Internet (CERT.br): golpes."
+  },
+  {
+   "id": "seg-a4",
+   "title": "Senhas que funcionam: comprimento e gerenciador",
+   "mins": 7,
+   "qids": [
+    "seg4",
+    "seg21",
+    "seg22",
+    "seg23",
+    "seg24",
+    "seg59"
+   ],
+   "intro": "Ao fim desta aula você vai criar senhas fortes de verdade, saber o que a norma mais citada do mundo manda e agir certo quando uma senha vazar.",
+   "sections": [
+    {
+     "h": "Comprimento vence complexidade",
+     "p": [
+      "Brasil@2024 tem maiúscula, símbolo e número e mesmo assim é fraca: segue o padrão que todo mundo usa (palavra, símbolo, ano) e está nas listas que os atacantes testam primeiro. O que torna a senha difícil de adivinhar é o comprimento e a imprevisibilidade.",
+      "A frase-senha é o caminho prático: quatro ou mais palavras sem relação entre si, como \"cadeira lua pimenta trombone\", são longas e fáceis de lembrar. Citações famosas e trechos de música não servem, porque também estão nas listas."
+     ]
+    },
+    {
+     "h": "O que diz o NIST SP 800-63B (revisão 4, 2025)",
+     "p": [
+      "A troca obrigatória a cada 30 dias gera Contab01, Contab02, Contab03: quem descobre uma senha adivinha a próxima. Por isso a norma mudou o foco para comprimento, listas de bloqueio e troca só quando há motivo."
+     ],
+     "list": [
+      "Senha usada como único fator: mínimo de 15 caracteres; com segundo fator, mínimo de 8.",
+      "Permitir senhas de pelo menos 64 caracteres, inclusive com espaços.",
+      "Não impor regras de composição, como exigir maiúscula, número e símbolo.",
+      "Não exigir troca periódica; exigir a troca quando houver indício de comprometimento.",
+      "Comparar a senha nova com uma lista de senhas comuns, previsíveis ou vazadas.",
+      "Permitir gerenciadores de senha e o preenchimento automático; não usar dicas nem perguntas secretas."
+     ]
+    },
+    {
+     "h": "Uma senha por serviço, todas no gerenciador",
+     "p": [
+      "Reutilizar senha transforma um vazamento em vários: quem obtém a senha do site de compras testa a mesma no e-mail corporativo. Se uma senha vazou, troque-a em todos os lugares onde era usada e avise a TI se houver conta da empresa entre eles.",
+      "O gerenciador de senhas gera e guarda senhas longas e únicas, e você só memoriza a senha mestra. Ela precisa ser longa, exclusiva e protegida por verificação em duas etapas, porque abre todas as outras."
+     ]
+    },
+    {
+     "h": "Senha é pessoal",
+     "p": [
+      "Compartilhar senha apaga o registro de quem fez o quê: no sistema, a aprovação feita pela colega aparece como sua. Para cobrir férias, peça à TI ou ao gestor uma delegação ou acesso próprio e temporário.",
+      "Pelo mesmo motivo, nenhum suporte legítimo pede a sua senha."
+     ]
+    }
+   ],
+   "example": {
+    "c": "O sistema de uma cooperativa exige senha de 8 caracteres com maiúscula, número e símbolo e obriga a troca a cada 30 dias. A TI quer alinhar a política ao NIST SP 800-63B.",
+    "q": "O que deve mudar?",
+    "a": "Exigir comprimento maior (15 caracteres se a senha for o único fator), aceitar frases longas, abolir as regras de composição e a troca periódica, bloquear senhas comuns ou vazadas e exigir troca só diante de indício de comprometimento."
+   },
+   "traps": [
+    "Símbolos e números não compensam uma senha curta ou previsível.",
+    "Troca periódica obrigatória piora as senhas; o NIST manda trocar quando há comprometimento.",
+    "Senha vazada em um site deve ser trocada em todos os serviços em que foi reutilizada.",
+    "Senha mestra repetida em outro serviço coloca o cofre inteiro em risco."
+   ],
+   "summary": [
+    "Comprimento e imprevisibilidade valem mais que símbolos.",
+    "NIST: sem regras de composição, sem troca periódica, com lista de senhas vazadas.",
+    "Uma senha única por serviço, guardada em gerenciador com senha mestra forte e segundo fator.",
+    "Senha não se compartilha; acesso extra se pede à TI."
+   ],
+   "src": "NIST SP 800-63B-4 (2025), seção 3.1.1.2; Cartilha de Segurança para Internet (CERT.br): senhas."
+  },
+  {
+   "id": "seg-a5",
+   "title": "Dois fatores: do SMS à chave física",
+   "mins": 6,
+   "qids": [
+    "seg5",
+    "seg25",
+    "seg26",
+    "seg27",
+    "seg28"
+   ],
+   "intro": "Ao fim desta aula você vai entender por que o segundo fator salva a conta, comparar SMS, aplicativo e chave física e reconhecer os ataques que tentam contorná-lo.",
+   "sections": [
+    {
+     "h": "Por que o segundo fator salva a conta",
+     "p": [
+      "Os fatores são de três tipos: algo que você sabe (senha), algo que você tem (celular, chave física) e algo que você é (digital, rosto). A verificação em duas etapas combina tipos diferentes, então a senha vazada sozinha não abre a conta.",
+      "Senha mais pergunta secreta não é autenticação de dois fatores, porque as duas são algo que você sabe."
+     ]
+    },
+    {
+     "h": "Nem todo segundo fator é igual",
+     "p": [
+      "Use o melhor que o serviço oferecer; qualquer um deles é melhor do que nenhum."
+     ],
+     "list": [
+      "SMS: protege mais que só a senha, mas é vulnerável à troca fraudulenta de chip e a golpes que pedem o código. O NIST o classifica como autenticador restrito.",
+      "Aplicativo autenticador: gera o código no próprio aparelho, sem depender da operadora, mas o código ainda pode ser digitado numa página falsa.",
+      "Notificação de aprovação: prática, mas sujeita ao ataque de fadiga; o pareamento de números reduz o risco.",
+      "Chave física FIDO2 e passkeys: resistentes a phishing, porque a resposta fica vinculada ao domínio verdadeiro."
+     ]
+    },
+    {
+     "h": "Fadiga de notificações: não aprove para fazer parar",
+     "p": [
+      "Dezenas de pedidos de \"Aprovar login?\" sem você tentar entrar significam que alguém já tem a sua senha. O ataque aposta no cansaço: basta uma aprovação por engano.",
+      "Negue todos, avise a segurança e troque a senha. A CISA recomenda o pareamento de números, em que é preciso digitar no celular o número exibido na tela de login."
+     ]
+    },
+    {
+     "h": "Código não se repassa",
+     "p": [
+      "Código de verificação, como o de seis dígitos do WhatsApp, é a chave da conta naquele momento. Quem pede esse código, seja \"parceiro\", \"suporte\" ou \"promoção\", está tentando sequestrar a conta.",
+      "No WhatsApp, ative a confirmação em duas etapas, com PIN. Mesmo com o código de registro, o golpista esbarra no PIN."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Um funcionário da equipe financeira cai em uma página falsa idêntica à do sistema da empresa e digita a senha. O segundo fator dele é uma chave física FIDO2.",
+    "q": "O golpista consegue entrar na conta?",
+    "a": "Não. A chave verifica o domínio e só responde ao endereço verdadeiro em que foi cadastrada; na página falsa, não gera resposta válida. Com código por SMS ou aplicativo, a vítima poderia digitar o código no site falso e entregá-lo ao golpista."
+   },
+   "traps": [
+    "SMS não é inútil: é melhor que só senha, mas inferior a aplicativo e chave física.",
+    "Pergunta secreta não é segundo fator.",
+    "Pedido de aprovação que você não fez indica senha comprometida.",
+    "Código digitado em página falsa pode ser usado pelo golpista em tempo real; chave física e passkey resistem a isso."
+   ],
+   "summary": [
+    "Dois fatores combinam tipos diferentes: saber, ter, ser.",
+    "Ordem de força: chave física ou passkey, aplicativo, SMS.",
+    "Notificações em série significam senha vazada: negue, avise e troque.",
+    "Código de verificação nunca se repassa; ative o PIN do WhatsApp."
+   ],
+   "src": "NIST SP 800-63B-4 (2025): autenticadores restritos e resistência a phishing; CISA: Implementing Number Matching in MFA Applications; Cartilha de Segurança para Internet (CERT.br): verificação em duas etapas; Central de Ajuda do WhatsApp."
+  },
+  {
+   "id": "seg-a6",
+   "title": "Ransomware e backup que funciona",
+   "mins": 7,
+   "qids": [
+    "seg7",
+    "seg9",
+    "seg31",
+    "seg32",
+    "seg33",
+    "seg34"
+   ],
+   "intro": "Ao fim desta aula você vai saber reduzir a chance de um ransomware, montar um backup que sobrevive a ele e agir certo nos primeiros minutos do ataque.",
+   "sections": [
+    {
+     "h": "Como o ransomware chega e o que faz",
+     "p": [
+      "Ransomware torna os arquivos inacessíveis, geralmente por criptografia, e exige resgate, muitas vezes em criptomoeda. Entra por anexo, link, macro, senha vazada de acesso remoto ou falha não corrigida.",
+      "Ele cifra tudo o que consegue alcançar: disco local, pastas de rede e qualquer HD externo conectado. Muitos grupos também copiam os dados antes, para ameaçar vazá-los."
+     ]
+    },
+    {
+     "h": "Atualizar fecha a porta",
+     "p": [
+      "Quando o fabricante publica uma correção, a falha fica conhecida, e os atacantes passam a mirar justamente quem não atualizou. Adiar a atualização porque o computador está funcionando bem deixa a porta aberta.",
+      "Sistema sem suporte é pior: as falhas descobertas daqui em diante nunca serão corrigidas, e antivírus não compensa isso."
+     ]
+    },
+    {
+     "h": "Regra 3-2-1 e uma cópia fora do alcance",
+     "p": [
+      "Mantenha três cópias dos dados (a original e mais duas), em dois tipos de mídia diferentes, com uma delas fora do local. Assim, incêndio, furto ou ataque no escritório não leva tudo.",
+      "Contra ransomware, ao menos uma cópia precisa estar desconectada ou ser imutável. O HD externo sempre ligado ao computador é cifrado junto; ligue a mídia só durante a cópia ou use armazenamento que impeça alterar e apagar por um período."
+     ]
+    },
+    {
+     "h": "Backup que nunca foi restaurado é aposta",
+     "p": [
+      "Relatório de \"concluído com sucesso\" não prova que os arquivos voltam. Teste a restauração periodicamente: escolha arquivos, restaure, abra e meça quanto tempo leva.",
+      "Sem esse teste, a empresa descobre que a cópia está incompleta ou corrompida justamente no dia em que mais precisa dela."
+     ]
+    },
+    {
+     "h": "Na hora do ataque",
+     "p": [
+      "Percebeu arquivos mudando de nome ou um aviso de resgate? Desconecte o computador da rede, sem apagar nada, e acione imediatamente a TI ou a segurança. Isolar limita o avanço para outras pastas; preservar permite investigar.",
+      "Pagar o resgate não garante a devolução dos dados e financia o crime. Quem tem backup isolado e testado restaura sem negociar."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Uma loja faz backup diário em um HD externo que fica sempre ligado ao computador do caixa. Um ransomware cifra o computador e também o HD.",
+    "q": "Que mudança teria preservado os dados?",
+    "a": "Manter ao menos uma cópia fora do alcance do ataque: HD conectado só durante o backup e guardado depois, ou nuvem com versões imutáveis. Somando a regra 3-2-1 e testes de restauração, a loja voltaria a funcionar sem pagar nada."
+   },
+   "traps": [
+    "Backup sempre conectado não protege contra ransomware.",
+    "Pasta sincronizada na nuvem não é backup: o arquivo cifrado também é sincronizado, a menos que haja histórico de versões.",
+    "\"Concluído com sucesso\" não substitui o teste de restauração.",
+    "Desconectar da rede não é apagar ou formatar: as evidências importam para a investigação."
+   ],
+   "summary": [
+    "Ransomware cifra tudo o que alcança e costuma entrar por e-mail, senha vazada ou falha sem correção.",
+    "Atualizações fecham falhas conhecidas; sistema sem suporte fica exposto para sempre.",
+    "3-2-1: três cópias, duas mídias, uma fora do local, e ao menos uma desconectada ou imutável.",
+    "Teste a restauração e, no ataque, isole a máquina e acione a TI."
+   ],
+   "src": "Cartilha de Segurança para Internet (CERT.br): códigos maliciosos, backup e atualizações; US-CERT: Data Backup Options (2012); CISA: #StopRansomware Guide."
+  }
+ ]
+}

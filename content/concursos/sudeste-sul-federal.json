@@ -1,0 +1,1979 @@
+{
+  "updated": "2026-11-04",
+  "items": [
+    {
+      "id": "cgu-auditor-2026",
+      "orgao": "Controladoria-Geral da União",
+      "sigla": "CGU",
+      "titulo": "Auditor Federal de Finanças e Controle",
+      "esfera": "federal",
+      "uf": "BR",
+      "local": "Brasília (DF) e AC, AP, MT, RO, RR (Auditoria)",
+      "area": "Controle",
+      "banca": "Cebraspe",
+      "escolaridade": [
+        "superior"
+      ],
+      "vagas": 60,
+      "cr": true,
+      "salario": 20000,
+      "inscricoes": {
+        "inicio": "2026-10-10",
+        "fim": "2026-11-04"
+      },
+      "prova": "2026-12-13",
+      "taxa": 170,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "AFFC - Auditoria",
+          "escolaridade": "superior",
+          "vagas": 30,
+          "salario": 20000
+        },
+        {
+          "nome": "AFFC - Ciência de Dados",
+          "escolaridade": "superior",
+          "vagas": 10,
+          "salario": 20000
+        },
+        {
+          "nome": "AFFC - Infraestrutura de TI",
+          "escolaridade": "superior",
+          "vagas": 10,
+          "salario": 20000
+        },
+        {
+          "nome": "AFFC - Desenvolvimento de Sistemas",
+          "escolaridade": "superior",
+          "vagas": 10,
+          "salario": 20000
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Conhecimentos Gerais",
+          "topicos": [
+            "Estado, democracia, direitos e ciência política",
+            "Sociedade brasileira, desigualdade e desenvolvimento",
+            "Ética pública",
+            "Administração pública e políticas públicas"
+          ]
+        },
+        {
+          "nome": "Conhecimentos Complementares",
+          "topicos": [
+            "Governança, riscos e integridade",
+            "Transparência, ouvidoria e participação social",
+            "Direito público e accountability",
+            "Dados e inteligência artificial",
+            "Auditoria governamental"
+          ]
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": [
+            "Auditoria governamental",
+            "Finanças públicas, orçamento e contabilidade pública",
+            "Avaliação de políticas públicas",
+            "Auditoria de licitações e transferências"
+          ]
+        }
+      ],
+      "edital": "https://www.cebraspe.org.br/concursos/cgu_26_affc",
+      "fonte": "https://folha.qconcursos.com/n/concurso-cgu-controladoria-geral-da-uniao"
+    },
+    {
+      "id": "camara-deputados-analista-2026",
+      "orgao": "Câmara dos Deputados",
+      "sigla": "CD",
+      "titulo": "Analista Legislativo (11 especialidades)",
+      "esfera": "federal",
+      "uf": "DF",
+      "local": "Brasília (DF)",
+      "area": "Legislativo",
+      "banca": "Cebraspe",
+      "escolaridade": [
+        "superior"
+      ],
+      "vagas": 66,
+      "cr": true,
+      "salario": 32070.88,
+      "inscricoes": {
+        "inicio": "2026-10-15",
+        "fim": "2026-11-17"
+      },
+      "prova": "2027-01-17",
+      "taxa": 130,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Analista Legislativo - Registro e Redação",
+          "escolaridade": "superior",
+          "vagas": 25,
+          "salario": 32070.88
+        },
+        {
+          "nome": "Analista Legislativo - Jornalismo",
+          "escolaridade": "superior",
+          "vagas": 12,
+          "salario": 32070.88
+        },
+        {
+          "nome": "Analista Legislativo - Arquivologia",
+          "escolaridade": "superior",
+          "vagas": 7,
+          "salario": 32070.88
+        },
+        {
+          "nome": "Analista Legislativo - Biblioteconomia",
+          "escolaridade": "superior",
+          "vagas": 7,
+          "salario": 32070.88
+        },
+        {
+          "nome": "Analista Legislativo - Divulgação Institucional",
+          "escolaridade": "superior",
+          "vagas": 4,
+          "salario": 32070.88
+        },
+        {
+          "nome": "Analista Legislativo - Relações Públicas",
+          "escolaridade": "superior",
+          "vagas": 4,
+          "salario": 32070.88
+        },
+        {
+          "nome": "Analista Legislativo - Engenharias e Museologia",
+          "escolaridade": "superior",
+          "vagas": 7,
+          "salario": 32070.88
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Língua Inglesa",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Administrativo",
+          "topicos": [
+            "Noções de Direito Administrativo",
+            "Administração Pública"
+          ]
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": [
+            "Regimento Interno da Câmara dos Deputados"
+          ]
+        },
+        {
+          "nome": "Informática",
+          "topicos": [
+            "Tecnologia da Informação e Dados"
+          ]
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://www.cebraspe.org.br/concursos/cd_26_analista",
+      "fonte": "https://blog.grancursosonline.com.br/concurso-camara-dos-deputados/"
+    },
+    {
+      "id": "abdi-analista-2026",
+      "orgao": "Agência Brasileira de Desenvolvimento Industrial",
+      "sigla": "ABDI",
+      "titulo": "Analista de Produtividade e Inovação",
+      "esfera": "federal",
+      "uf": "DF",
+      "local": "Brasília (DF)",
+      "area": "Desenvolvimento e Inovação",
+      "banca": "FGV",
+      "escolaridade": [
+        "superior"
+      ],
+      "vagas": 20,
+      "cr": true,
+      "salario": 16034.7,
+      "inscricoes": {
+        "inicio": "2026-10-20",
+        "fim": "2026-11-10"
+      },
+      "prova": "2026-12-20",
+      "taxa": 100,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "API - Produtividade Industrial",
+          "escolaridade": "superior",
+          "vagas": 6,
+          "salario": 16034.7
+        },
+        {
+          "nome": "API - Contabilidade, Administrativo, Dados, TI, Jurídico",
+          "escolaridade": "superior",
+          "vagas": 12,
+          "salario": 16034.7
+        },
+        {
+          "nome": "API - Gestão de Pessoas, Comunicação e Marketing",
+          "escolaridade": "superior",
+          "vagas": 2,
+          "salario": 16034.7
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": []
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": [
+            "Natureza dos serviços sociais autônomos",
+            "Lei de criação, decreto e estatuto da ABDI",
+            "Licitações, contratos e convênios",
+            "Ética, conduta e missão institucional"
+          ]
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://conhecimento.fgv.br/concursos/psabdi",
+      "fonte": "https://folha.qconcursos.com/n/concurso-abdi-2026-edital"
+    },
+    {
+      "id": "inb-2026",
+      "orgao": "Indústrias Nucleares do Brasil",
+      "sigla": "INB",
+      "titulo": "Níveis médio, técnico e superior (55 cargos)",
+      "esfera": "federal",
+      "uf": "RJ",
+      "local": "Resende e Rio de Janeiro (RJ), Caldas (MG) e Caetité (BA)",
+      "area": "Empresas Estatais",
+      "banca": "FGV",
+      "escolaridade": [
+        "medio",
+        "superior"
+      ],
+      "vagas": 0,
+      "cr": true,
+      "salario": 8374,
+      "inscricoes": {
+        "inicio": "2026-10-13",
+        "fim": "2026-11-11"
+      },
+      "prova": "2027-01-10",
+      "taxa": 125,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Assistente Administrativo / Inspetor de Guarda / Operador de Processos",
+          "escolaridade": "medio",
+          "vagas": 0,
+          "salario": 3452
+        },
+        {
+          "nome": "Técnicos (20 especialidades)",
+          "escolaridade": "medio",
+          "vagas": 0,
+          "salario": 3452
+        },
+        {
+          "nome": "Administrador, Advogado, Analista de Sistemas, Contador",
+          "escolaridade": "superior",
+          "vagas": 0,
+          "salario": 7221
+        },
+        {
+          "nome": "Engenheiros, Físico, Geólogo, Químico",
+          "escolaridade": "superior",
+          "vagas": 0,
+          "salario": 8374
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": []
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": [
+            "Conhecimento de Normas"
+          ]
+        },
+        {
+          "nome": "Língua Inglesa",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://conhecimento.fgv.br/processoseletivo/inb2026",
+      "fonte": "https://folha.qconcursos.com/n/concurso-inb-edital-2026"
+    },
+    {
+      "id": "trf3-servidores-2026",
+      "orgao": "Tribunal Regional Federal da 3ª Região",
+      "sigla": "TRF-3",
+      "titulo": "Analista e Técnico Judiciário",
+      "esfera": "federal",
+      "uf": "SP",
+      "local": "São Paulo (SP) e Campo Grande (MS)",
+      "area": "Tribunais",
+      "banca": "Vunesp",
+      "escolaridade": [
+        "superior"
+      ],
+      "vagas": 11,
+      "cr": true,
+      "salario": 20013.11,
+      "inscricoes": {
+        "inicio": "2026-11-04",
+        "fim": "2026-11-23"
+      },
+      "prova": "2027-01-31",
+      "taxa": 160,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Técnico Judiciário - Desenvolvimento de Sistemas",
+          "escolaridade": "superior",
+          "vagas": 5,
+          "salario": 9776.73
+        },
+        {
+          "nome": "Técnico Judiciário - Suporte Técnico",
+          "escolaridade": "superior",
+          "vagas": 4,
+          "salario": 9776.73
+        },
+        {
+          "nome": "Analista Judiciário - Sistemas / Suporte em TI",
+          "escolaridade": "superior",
+          "vagas": 2,
+          "salario": 16040.87
+        },
+        {
+          "nome": "Analista Judiciário - Oficial de Justiça Avaliador Federal (CR)",
+          "escolaridade": "superior",
+          "vagas": 0,
+          "salario": 20013.11
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": [
+            "Raciocínio analítico"
+          ]
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": []
+        },
+        {
+          "nome": "Ética no Serviço Público",
+          "topicos": [
+            "Integridade"
+          ]
+        },
+        {
+          "nome": "Direitos Humanos",
+          "topicos": [
+            "Direitos fundamentais",
+            "Acessibilidade"
+          ]
+        },
+        {
+          "nome": "Informática",
+          "topicos": [
+            "Inteligência artificial",
+            "Inovação"
+          ]
+        },
+        {
+          "nome": "Conhecimentos Gerais",
+          "topicos": [
+            "Sustentabilidade e meio ambiente"
+          ]
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://www.vunesp.com.br/TRFT2601",
+      "fonte": "https://blog.grancursosonline.com.br/concurso-trf3/"
+    },
+    {
+      "id": "trt4-servidores-2026",
+      "orgao": "Tribunal Regional do Trabalho da 4ª Região",
+      "sigla": "TRT-4",
+      "titulo": "Analista e Técnico Judiciário",
+      "esfera": "federal",
+      "uf": "RS",
+      "local": "Rio Grande do Sul",
+      "area": "Tribunais",
+      "banca": "FCC",
+      "escolaridade": [
+        "superior"
+      ],
+      "vagas": 0,
+      "cr": true,
+      "salario": 16040.88,
+      "inscricoes": {
+        "inicio": "2026-10-26",
+        "fim": "2026-11-25"
+      },
+      "prova": "2027-01-31",
+      "taxa": 110,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Técnico Judiciário - Área Administrativa",
+          "escolaridade": "superior",
+          "vagas": 0,
+          "salario": 9776.71
+        },
+        {
+          "nome": "Técnico Judiciário - Agente da Polícia Judicial",
+          "escolaridade": "superior",
+          "vagas": 0,
+          "salario": 9776.71
+        },
+        {
+          "nome": "Analista Judiciário - Área Judiciária",
+          "escolaridade": "superior",
+          "vagas": 0,
+          "salario": 16040.88
+        },
+        {
+          "nome": "Analista Judiciário - Oficial de Justiça Avaliador Federal",
+          "escolaridade": "superior",
+          "vagas": 0,
+          "salario": 16040.88
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": [
+            "Matemática e raciocínio lógico"
+          ]
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": [
+            "Noções de legislação"
+          ]
+        },
+        {
+          "nome": "Direitos Humanos",
+          "topicos": []
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://www.concursosfcc.com.br",
+      "fonte": "https://blog.grancursosonline.com.br/concurso-trt-rs/"
+    },
+    {
+      "id": "trt8-servidores-2026",
+      "orgao": "Tribunal Regional do Trabalho da 8ª Região",
+      "sigla": "TRT-8",
+      "titulo": "Analista e Técnico Judiciário",
+      "esfera": "federal",
+      "uf": "PA",
+      "local": "Pará e Amapá",
+      "area": "Tribunais",
+      "banca": "FCC",
+      "escolaridade": [
+        "superior"
+      ],
+      "vagas": 0,
+      "cr": true,
+      "salario": 16040.88,
+      "inscricoes": {
+        "inicio": "2026-10-05",
+        "fim": "2026-11-05"
+      },
+      "prova": "2027-01-17",
+      "taxa": 110,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Técnico Judiciário - Área Administrativa",
+          "escolaridade": "superior",
+          "vagas": 0,
+          "salario": 9776.71
+        },
+        {
+          "nome": "Técnico Judiciário - Agente da Polícia Judicial",
+          "escolaridade": "superior",
+          "vagas": 0,
+          "salario": 9776.71
+        },
+        {
+          "nome": "Analista Judiciário - Área Judiciária",
+          "escolaridade": "superior",
+          "vagas": 0,
+          "salario": 16040.88
+        },
+        {
+          "nome": "Analista Judiciário - Oficial de Justiça Avaliador Federal",
+          "escolaridade": "superior",
+          "vagas": 0,
+          "salario": 16040.88
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": [
+            "Matemática e raciocínio lógico",
+            "Estatística"
+          ]
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": []
+        },
+        {
+          "nome": "Direitos Humanos",
+          "topicos": [
+            "Direitos das pessoas com deficiência"
+          ]
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://www.concursosfcc.com.br",
+      "fonte": "https://blog.grancursosonline.com.br/concurso-trt-8/"
+    },
+    {
+      "id": "curitiba-prefeitura-2026",
+      "orgao": "Prefeitura de Curitiba",
+      "sigla": "PMC",
+      "titulo": "Agente Administrativo, Fiscal, Analistas, Auditor Fiscal e Procurador",
+      "esfera": "municipal",
+      "uf": "PR",
+      "local": "Curitiba (PR)",
+      "area": "Prefeituras",
+      "banca": "Fafipa",
+      "escolaridade": [
+        "medio",
+        "superior"
+      ],
+      "vagas": 348,
+      "cr": true,
+      "salario": 38087.99,
+      "inscricoes": {
+        "inicio": "2026-10-07",
+        "fim": "2026-11-05"
+      },
+      "prova": "2026-12-06",
+      "taxa": 250,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Agente Administrativo",
+          "escolaridade": "medio",
+          "vagas": 250,
+          "salario": 3027.73
+        },
+        {
+          "nome": "Fiscal",
+          "escolaridade": "medio",
+          "vagas": 20,
+          "salario": 3652.27
+        },
+        {
+          "nome": "Fiscal de Obras e Posturas",
+          "escolaridade": "medio",
+          "vagas": 10,
+          "salario": 4993.27
+        },
+        {
+          "nome": "Nível superior (Analistas, Auditor Fiscal, Contador, Engenheiro Civil, Assistente Social)",
+          "escolaridade": "superior",
+          "vagas": 63,
+          "salario": null
+        },
+        {
+          "nome": "Procurador do Município",
+          "escolaridade": "superior",
+          "vagas": 5,
+          "salario": 38087.99
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": []
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://cpmc-fafipa.selecao.net.br",
+      "fonte": "https://www.direcaoconcursos.com.br/noticias/concurso-prefeitura-de-curitiba-inscricoes-abertas"
+    },
+    {
+      "id": "tjsc-juiz-2026",
+      "orgao": "Tribunal de Justiça de Santa Catarina",
+      "sigla": "TJ-SC",
+      "titulo": "Juiz Substituto",
+      "esfera": "estadual",
+      "uf": "SC",
+      "local": "Santa Catarina",
+      "area": "Tribunais",
+      "banca": "FGV",
+      "escolaridade": [
+        "superior"
+      ],
+      "vagas": 15,
+      "cr": true,
+      "salario": 35874.14,
+      "inscricoes": {
+        "inicio": "2026-10-19",
+        "fim": "2026-11-26"
+      },
+      "prova": "2027-01-31",
+      "taxa": 358,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Juiz Substituto",
+          "escolaridade": "superior",
+          "vagas": 15,
+          "salario": 35874.14
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Direito Civil",
+          "topicos": [
+            "Direito do Consumidor",
+            "Direito da Criança e do Adolescente"
+          ]
+        },
+        {
+          "nome": "Direito Processual Civil",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Penal",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Processual Penal",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Constitucional",
+          "topicos": [
+            "Direito Eleitoral"
+          ]
+        },
+        {
+          "nome": "Direito Administrativo",
+          "topicos": [
+            "Direito Ambiental"
+          ]
+        },
+        {
+          "nome": "Direito Empresarial",
+          "topicos": [
+            "Direito Tributário e Financeiro"
+          ]
+        },
+        {
+          "nome": "Direitos Humanos",
+          "topicos": [
+            "Noções gerais de Direito e formação humanística"
+          ]
+        }
+      ],
+      "edital": "https://conhecimento.fgv.br/concursos/tjscjuiz26",
+      "fonte": "https://folha.qconcursos.com/n/concurso-tj-sc-2026-edital-juiz"
+    },
+    {
+      "id": "idaf-es-2026",
+      "orgao": "Instituto de Defesa Agropecuária e Florestal do Espírito Santo",
+      "sigla": "IDAF-ES",
+      "titulo": "Técnico de Fiscalização e Fiscal Estadual Agropecuário",
+      "esfera": "estadual",
+      "uf": "ES",
+      "local": "Espírito Santo",
+      "area": "Fiscalização Agropecuária",
+      "banca": "IDCAP",
+      "escolaridade": [
+        "medio",
+        "superior"
+      ],
+      "vagas": 14,
+      "cr": true,
+      "salario": 8477.66,
+      "inscricoes": {
+        "inicio": "2026-11-06",
+        "fim": "2026-12-06"
+      },
+      "prova": "2027-01-24",
+      "taxa": 83,
+      "status": "em breve",
+      "cargos": [
+        {
+          "nome": "Técnico de Fiscalização e Desenvolvimento Agropecuário",
+          "escolaridade": "medio",
+          "vagas": 14,
+          "salario": 4698.45
+        },
+        {
+          "nome": "Fiscal Estadual Agropecuário (cadastro reserva)",
+          "escolaridade": "superior",
+          "vagas": 0,
+          "salario": 8477.66
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Constitucional",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Administrativo",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://idcap.selecao.net.br",
+      "fonte": "https://www.direcaoconcursos.com.br/noticias/edital-concurso-idaf-es-publicado"
+    },
+    {
+      "id": "ifsp-professor-ebtt-2026",
+      "orgao": "Instituto Federal de São Paulo",
+      "sigla": "IFSP",
+      "titulo": "Professor EBTT",
+      "esfera": "federal",
+      "uf": "SP",
+      "local": "Campi do IFSP (São Paulo)",
+      "area": "Educação",
+      "banca": "IFSP (comissão própria)",
+      "escolaridade": [
+        "superior"
+      ],
+      "vagas": 45,
+      "cr": false,
+      "salario": 13753.96,
+      "inscricoes": {
+        "inicio": "2026-10-06",
+        "fim": "2026-11-17"
+      },
+      "prova": "2026-12-13",
+      "taxa": 200,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Professor EBTT - Informática",
+          "escolaridade": "superior",
+          "vagas": 18,
+          "salario": 13753.96
+        },
+        {
+          "nome": "Professor EBTT - Pedagogia",
+          "escolaridade": "superior",
+          "vagas": 7,
+          "salario": 13753.96
+        },
+        {
+          "nome": "Professor EBTT - Eletrônica",
+          "escolaridade": "superior",
+          "vagas": 5,
+          "salario": 13753.96
+        },
+        {
+          "nome": "Professor EBTT - demais áreas",
+          "escolaridade": "superior",
+          "vagas": 15,
+          "salario": 13753.96
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Conhecimentos Pedagógicos",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://www.ifsp.edu.br",
+      "fonte": "https://www.acheconcursos.com.br/concursos-sao-paulo/concurso-ifsp-2026-edital-professores-93616"
+    },
+    {
+      "id": "sao-joao-del-rei-2026",
+      "orgao": "Prefeitura de São João del-Rei",
+      "sigla": "PMSJDR",
+      "titulo": "Saúde, Educação, Administração, Guarda Civil e DAMAE",
+      "esfera": "municipal",
+      "uf": "MG",
+      "local": "São João del-Rei (MG)",
+      "area": "Prefeituras",
+      "banca": "IBGP",
+      "escolaridade": [
+        "fundamental",
+        "medio",
+        "superior"
+      ],
+      "vagas": 256,
+      "cr": true,
+      "salario": 15164.56,
+      "inscricoes": {
+        "inicio": "2026-10-13",
+        "fim": "2026-11-12"
+      },
+      "prova": "2026-12-13",
+      "taxa": 100,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Agente Comunitário de Saúde",
+          "escolaridade": "medio",
+          "vagas": 66,
+          "salario": 3242
+        },
+        {
+          "nome": "Professor PEB I",
+          "escolaridade": "superior",
+          "vagas": 28,
+          "salario": 3078.32
+        },
+        {
+          "nome": "Guarda Civil Municipal",
+          "escolaridade": "medio",
+          "vagas": 10,
+          "salario": 2693.36
+        },
+        {
+          "nome": "Médico ESF",
+          "escolaridade": "superior",
+          "vagas": 10,
+          "salario": 14121.96
+        },
+        {
+          "nome": "Fiscal Tributário",
+          "escolaridade": "superior",
+          "vagas": 4,
+          "salario": 7343.42
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": []
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Gerais",
+          "topicos": []
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://www.ibgpconcursos.com.br",
+      "fonte": "https://www.apostilasopcao.com.br/blog/prefeitura-de-sao-joao-del-rei/"
+    },
+    {
+      "id": "conceicao-mato-dentro-2026",
+      "orgao": "Prefeitura de Conceição do Mato Dentro",
+      "sigla": "PMCMD",
+      "titulo": "Auxiliar de Creche, Professor PEB I, Pedagogo, Engenheiro e outros",
+      "esfera": "municipal",
+      "uf": "MG",
+      "local": "Conceição do Mato Dentro (MG)",
+      "area": "Prefeituras",
+      "banca": "Fundep",
+      "escolaridade": [
+        "medio",
+        "superior"
+      ],
+      "vagas": 264,
+      "cr": false,
+      "salario": 21138.26,
+      "inscricoes": {
+        "inicio": "2026-10-07",
+        "fim": "2026-11-06"
+      },
+      "prova": "2026-12-13",
+      "taxa": 125,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Auxiliar de Creche",
+          "escolaridade": "medio",
+          "vagas": 100,
+          "salario": 2242.3
+        },
+        {
+          "nome": "Professor da Educação Básica I",
+          "escolaridade": "medio",
+          "vagas": 100,
+          "salario": 4003.48
+        },
+        {
+          "nome": "Auxiliar de Administração",
+          "escolaridade": "medio",
+          "vagas": 20,
+          "salario": 2242.3
+        },
+        {
+          "nome": "Pedagogo",
+          "escolaridade": "superior",
+          "vagas": 15,
+          "salario": 6727.07
+        },
+        {
+          "nome": "Engenheiro Civil",
+          "escolaridade": "superior",
+          "vagas": 5,
+          "salario": 21138.26
+        },
+        {
+          "nome": "Advogado",
+          "escolaridade": "superior",
+          "vagas": 1,
+          "salario": 21138.26
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": [
+            "Matemática e raciocínio lógico"
+          ]
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Gerais",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://www.cmd.mg.gov.br/portal/editais/0/3/5325/",
+      "fonte": "https://www.editorasolucao.com.br/blog/concurso/prefeitura-de-conceicao-do-mato-dentro-mg"
+    },
+    {
+      "id": "santa-luzia-mg-2026",
+      "orgao": "Prefeitura de Santa Luzia",
+      "sigla": "PMSL",
+      "titulo": "Professor PEB II, Enfermeiro, Analista Administrativo e outros",
+      "esfera": "municipal",
+      "uf": "MG",
+      "local": "Santa Luzia (MG)",
+      "area": "Prefeituras",
+      "banca": "COTEC/Fadenor",
+      "escolaridade": [
+        "fundamental",
+        "medio",
+        "superior"
+      ],
+      "vagas": 454,
+      "cr": true,
+      "salario": 8628.87,
+      "inscricoes": {
+        "inicio": "2026-12-17",
+        "fim": "2027-01-15"
+      },
+      "prova": "2027-03-14",
+      "taxa": 175,
+      "status": "em breve",
+      "cargos": [
+        {
+          "nome": "Professor PEB II",
+          "escolaridade": "superior",
+          "vagas": 156,
+          "salario": 4578.84
+        },
+        {
+          "nome": "Enfermeiro",
+          "escolaridade": "superior",
+          "vagas": 50,
+          "salario": 5003.41
+        },
+        {
+          "nome": "Assistente Administrativo",
+          "escolaridade": "medio",
+          "vagas": 32,
+          "salario": 2405.14
+        },
+        {
+          "nome": "Analista Administrativo",
+          "escolaridade": "superior",
+          "vagas": 24,
+          "salario": 3809.85
+        },
+        {
+          "nome": "Médico do Trabalho",
+          "escolaridade": "superior",
+          "vagas": 1,
+          "salario": 8628.87
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": []
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": [
+            "Legislação municipal"
+          ]
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/09/30172629/Edital-Santa-Luzia-MG-2026.pdf",
+      "fonte": "https://blog.grancursosonline.com.br/concurso-santa-luzia-mg/"
+    },
+    {
+      "id": "birigui-prefeitura-2026",
+      "orgao": "Prefeitura de Birigui",
+      "sigla": "PMB",
+      "titulo": "Diversos cargos (80 cargos, todos os níveis)",
+      "esfera": "municipal",
+      "uf": "SP",
+      "local": "Birigui (SP)",
+      "area": "Prefeituras",
+      "banca": "Instituto Access",
+      "escolaridade": [
+        "fundamental",
+        "medio",
+        "superior"
+      ],
+      "vagas": 171,
+      "cr": true,
+      "salario": 13881.85,
+      "inscricoes": {
+        "inicio": "2026-10-22",
+        "fim": "2026-12-10"
+      },
+      "prova": "2027-02-14",
+      "taxa": 58,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Auxiliar de Serviços Gerais",
+          "escolaridade": "fundamental",
+          "vagas": 60,
+          "salario": 1621.05
+        },
+        {
+          "nome": "Enfermeiro ESF",
+          "escolaridade": "superior",
+          "vagas": 11,
+          "salario": 6486.36
+        },
+        {
+          "nome": "Técnico em Enfermagem ESF",
+          "escolaridade": "medio",
+          "vagas": 11,
+          "salario": 4430.24
+        },
+        {
+          "nome": "Oficial Administrativo",
+          "escolaridade": "medio",
+          "vagas": 4,
+          "salario": 3328.5
+        },
+        {
+          "nome": "Procurador Jurídico (cadastro reserva)",
+          "escolaridade": "superior",
+          "vagas": 0,
+          "salario": 13881.85
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": [
+            "Raciocínio lógico e matemático"
+          ]
+        },
+        {
+          "nome": "Conhecimentos Gerais",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://www.access.org.br",
+      "fonte": "https://blog.grancursosonline.com.br/concurso-birigui-sp/"
+    },
+    {
+      "id": "tijucas-educacao-2026",
+      "orgao": "Prefeitura de Tijucas - Secretaria de Educação",
+      "sigla": "SME Tijucas",
+      "titulo": "Professores, Auxiliar de Sala e Auxiliar de Vida Escolar",
+      "esfera": "municipal",
+      "uf": "SC",
+      "local": "Tijucas (SC)",
+      "area": "Educação",
+      "banca": "Univali",
+      "escolaridade": [
+        "medio",
+        "superior"
+      ],
+      "vagas": 250,
+      "cr": true,
+      "salario": 3847.97,
+      "inscricoes": {
+        "inicio": "2026-10-15",
+        "fim": "2026-11-13"
+      },
+      "prova": "2026-12-06",
+      "taxa": 160,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Professor Nível II (12 áreas)",
+          "escolaridade": "superior",
+          "vagas": 95,
+          "salario": 2873.16
+        },
+        {
+          "nome": "Auxiliar de Sala",
+          "escolaridade": "medio",
+          "vagas": 50,
+          "salario": 1776.81
+        },
+        {
+          "nome": "Auxiliar de Vida Escolar",
+          "escolaridade": "medio",
+          "vagas": 45,
+          "salario": 2370.36
+        },
+        {
+          "nome": "Professor Nível I - Creche",
+          "escolaridade": "medio",
+          "vagas": 40,
+          "salario": 3847.97
+        },
+        {
+          "nome": "Professor Nível I - Pré-escola",
+          "escolaridade": "medio",
+          "vagas": 20,
+          "salario": 2565.32
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": [
+            "Interpretação de texto",
+            "Coesão",
+            "Colocação pronominal",
+            "Pontuação",
+            "Regência",
+            "Crase",
+            "Concordância",
+            "Semântica"
+          ]
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": [
+            "Proposições e argumentos",
+            "Conjuntos",
+            "Análise combinatória",
+            "Probabilidade",
+            "Porcentagem",
+            "Regra de três",
+            "Gráficos e tabelas",
+            "Médias"
+          ]
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://www.tijucas.sc.gov.br/noticias/detalhe/concurso-publico-abre-250-vagas-para-a-area-da-educacao-em-tijucas",
+      "fonte": "https://blog.grancursosonline.com.br/concurso-sme-tijucas-sc/"
+    },
+    {
+      "id": "ijui-prefeitura-2026",
+      "orgao": "Prefeitura de Ijuí",
+      "sigla": "PMI",
+      "titulo": "Diversos cargos (fundamental a superior)",
+      "esfera": "municipal",
+      "uf": "RS",
+      "local": "Ijuí (RS)",
+      "area": "Prefeituras",
+      "banca": "Fundatec",
+      "escolaridade": [
+        "fundamental",
+        "medio",
+        "superior"
+      ],
+      "vagas": 154,
+      "cr": true,
+      "salario": 21312.22,
+      "inscricoes": {
+        "inicio": "2026-10-23",
+        "fim": "2026-11-19"
+      },
+      "prova": "2026-12-19",
+      "taxa": 267.23,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Assessor Administrativo",
+          "escolaridade": "medio",
+          "vagas": 10,
+          "salario": 3352.68
+        },
+        {
+          "nome": "Professor de Anos Iniciais",
+          "escolaridade": "medio",
+          "vagas": 5,
+          "salario": 2442.9
+        },
+        {
+          "nome": "Professor de Educação Física",
+          "escolaridade": "superior",
+          "vagas": 6,
+          "salario": 3420.06
+        },
+        {
+          "nome": "Médico Geral Comunitário",
+          "escolaridade": "superior",
+          "vagas": 6,
+          "salario": 18944.22
+        },
+        {
+          "nome": "Médico Plantonista",
+          "escolaridade": "superior",
+          "vagas": 2,
+          "salario": 21312.22
+        },
+        {
+          "nome": "Procurador",
+          "escolaridade": "superior",
+          "vagas": 2,
+          "salario": 7015.65
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Matemática",
+          "topicos": []
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        },
+        {
+          "nome": "Atualidades",
+          "topicos": []
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": [
+            "Legislação municipal"
+          ]
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://www.fundatec.org.br",
+      "fonte": "https://concursos.estrategia.com/portal/concurso-prefeitura-ijui/"
+    },
+    {
+      "id": "quedas-do-iguacu-2026",
+      "orgao": "Prefeitura de Quedas do Iguaçu",
+      "sigla": "PMQI",
+      "titulo": "Professores, Psicólogo, Assistente Social e outros",
+      "esfera": "municipal",
+      "uf": "PR",
+      "local": "Quedas do Iguaçu (PR)",
+      "area": "Prefeituras",
+      "banca": "Unioeste/Cogeps",
+      "escolaridade": [
+        "medio",
+        "superior"
+      ],
+      "vagas": 140,
+      "cr": true,
+      "salario": 11998.88,
+      "inscricoes": {
+        "inicio": "2026-10-24",
+        "fim": "2026-11-25"
+      },
+      "prova": "2026-12-13",
+      "taxa": 120,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Professor",
+          "escolaridade": "superior",
+          "vagas": 70,
+          "salario": 2100.71
+        },
+        {
+          "nome": "Professor de Educação Infantil",
+          "escolaridade": "superior",
+          "vagas": 40,
+          "salario": 3151.05
+        },
+        {
+          "nome": "Professor de Educação Física",
+          "escolaridade": "superior",
+          "vagas": 12,
+          "salario": 2541.84
+        },
+        {
+          "nome": "Psicólogo",
+          "escolaridade": "superior",
+          "vagas": 8,
+          "salario": 4574.56
+        },
+        {
+          "nome": "Médico Ginecologista e Obstetra (cadastro reserva)",
+          "escolaridade": "superior",
+          "vagas": 0,
+          "salario": 11998.88
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": [
+            "Matemática e raciocínio lógico"
+          ]
+        },
+        {
+          "nome": "Conhecimentos Gerais",
+          "topicos": [
+            "Atualidades"
+          ]
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/10/22120457/Edital-Quedas-do-Iguacu-PR-2026.pdf",
+      "fonte": "https://blog.grancursosonline.com.br/concurso-quedas-do-iguacu-pr/"
+    },
+    {
+      "id": "porto-alegre-educacao-2026",
+      "orgao": "Prefeitura de Porto Alegre - Educação",
+      "sigla": "PMPA",
+      "titulo": "Professor, Monitor, Bibliotecário e Técnico em Biblioteconomia",
+      "esfera": "municipal",
+      "uf": "RS",
+      "local": "Porto Alegre (RS)",
+      "area": "Educação",
+      "banca": "Fundação La Salle",
+      "escolaridade": [
+        "medio",
+        "superior"
+      ],
+      "vagas": 19,
+      "cr": true,
+      "salario": 9135.44,
+      "inscricoes": {
+        "inicio": "2026-10-13",
+        "fim": "2026-11-05"
+      },
+      "prova": "2026-12-20",
+      "taxa": 211.4,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Professor (12 áreas)",
+          "escolaridade": "superior",
+          "vagas": 12,
+          "salario": 7289.64
+        },
+        {
+          "nome": "Técnico em Biblioteconomia",
+          "escolaridade": "medio",
+          "vagas": 5,
+          "salario": 3821.41
+        },
+        {
+          "nome": "Monitor",
+          "escolaridade": "medio",
+          "vagas": 1,
+          "salario": 3330.19
+        },
+        {
+          "nome": "Bibliotecário",
+          "escolaridade": "superior",
+          "vagas": 1,
+          "salario": 9135.44
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Pedagógicos",
+          "topicos": []
+        },
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": []
+        }
+      ],
+      "edital": "https://dopaonlineupload.procempa.com.br/dopaonlineupload/6194_ce_631290_1.pdf",
+      "fonte": "https://concursossc.com.br/concurso-porto-alegre-2026-edital-oferece-19-vagas-e-remuneracao-de-ate-r-91-mil/"
+    },
+    {
+      "id": "mgs-processo-seletivo-2026",
+      "orgao": "MGS - Minas Gerais Administração e Serviços S.A.",
+      "sigla": "MGS",
+      "titulo": "Serviços Auxiliares, Técnicos e Administrativos (CLT)",
+      "esfera": "estadual",
+      "uf": "MG",
+      "local": "Belo Horizonte e região metropolitana, Contagem e Guaxupé (MG)",
+      "area": "Empresas Estatais",
+      "banca": "IBFC",
+      "escolaridade": [
+        "fundamental",
+        "medio"
+      ],
+      "vagas": 643,
+      "cr": true,
+      "salario": 3911.17,
+      "inscricoes": {
+        "inicio": "2026-10-19",
+        "fim": "2026-11-09"
+      },
+      "prova": "2026-12-13",
+      "taxa": 71.17,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Serviços Auxiliares - Limpeza",
+          "escolaridade": "fundamental",
+          "vagas": 520,
+          "salario": null
+        },
+        {
+          "nome": "Serviços Auxiliares - Alimentação",
+          "escolaridade": "fundamental",
+          "vagas": 77,
+          "salario": null
+        },
+        {
+          "nome": "Serviços Auxiliares - Coveiro",
+          "escolaridade": "fundamental",
+          "vagas": 22,
+          "salario": null
+        },
+        {
+          "nome": "Serviços Auxiliares - Logística",
+          "escolaridade": "fundamental",
+          "vagas": 20,
+          "salario": null
+        },
+        {
+          "nome": "Técnico Especializado em Edificação",
+          "escolaridade": "medio",
+          "vagas": 4,
+          "salario": null
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Matemática",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Gerais",
+          "topicos": []
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://www.ibfc.org.br",
+      "fonte": "https://www.editorasolucao.com.br/blog/concurso/mgs"
+    },
+    {
+      "id": "paraguacu-mg-2026",
+      "orgao": "Prefeitura de Paraguaçu",
+      "sigla": "PMP",
+      "titulo": "Médico ESF, Enfermeiro, Técnico de Enfermagem, Guarda Civil e outros",
+      "esfera": "municipal",
+      "uf": "MG",
+      "local": "Paraguaçu (MG)",
+      "area": "Prefeituras",
+      "banca": "IBDO Projetos",
+      "escolaridade": [
+        "fundamental",
+        "medio",
+        "superior"
+      ],
+      "vagas": 100,
+      "cr": true,
+      "salario": 20128.27,
+      "inscricoes": {
+        "inicio": "2026-12-21",
+        "fim": "2027-01-19"
+      },
+      "prova": "2027-02-28",
+      "taxa": 150,
+      "status": "em breve",
+      "cargos": [
+        {
+          "nome": "Técnico de Enfermagem ESF",
+          "escolaridade": "medio",
+          "vagas": 19,
+          "salario": null
+        },
+        {
+          "nome": "Monitor de Transporte Escolar",
+          "escolaridade": "fundamental",
+          "vagas": 15,
+          "salario": 1638.83
+        },
+        {
+          "nome": "Guarda Civil Municipal",
+          "escolaridade": "medio",
+          "vagas": 10,
+          "salario": null
+        },
+        {
+          "nome": "Médico ESF",
+          "escolaridade": "superior",
+          "vagas": 9,
+          "salario": 20128.27
+        },
+        {
+          "nome": "Enfermeiro ESF",
+          "escolaridade": "superior",
+          "vagas": 8,
+          "salario": 6480.69
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": [
+            "Raciocínio lógico-matemático"
+          ]
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": []
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://paraguacu.mg.gov.br/site/paraguacu_abre_concurso_publico_com_100_vagas",
+      "fonte": "https://www.direcaoconcursos.com.br/noticias/edital-concurso-prefeitura-de-paraguacu-mg-publicado"
+    },
+    {
+      "id": "suzano-educacao-saude-2026",
+      "orgao": "Prefeitura de Suzano",
+      "sigla": "PMS",
+      "titulo": "Professor PEB I, Agente Escolar, Médicos e outros",
+      "esfera": "municipal",
+      "uf": "SP",
+      "local": "Suzano (SP)",
+      "area": "Prefeituras",
+      "banca": "Instituto Nosso Rumo",
+      "escolaridade": [
+        "fundamental",
+        "medio",
+        "superior"
+      ],
+      "vagas": 73,
+      "cr": true,
+      "salario": 12062.91,
+      "inscricoes": {
+        "inicio": "2026-10-29",
+        "fim": "2026-11-25"
+      },
+      "prova": "2026-12-13",
+      "taxa": 106.62,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Professor de Educação Básica I",
+          "escolaridade": "superior",
+          "vagas": 30,
+          "salario": null
+        },
+        {
+          "nome": "Agente Escolar",
+          "escolaridade": "fundamental",
+          "vagas": 10,
+          "salario": 2105.38
+        },
+        {
+          "nome": "Cozinheiro Escolar",
+          "escolaridade": "fundamental",
+          "vagas": 10,
+          "salario": null
+        },
+        {
+          "nome": "Auxiliar de Secretaria / Auxiliar de Atividades Escolares",
+          "escolaridade": "medio",
+          "vagas": 12,
+          "salario": null
+        },
+        {
+          "nome": "Médico Pediatra Plantonista",
+          "escolaridade": "superior",
+          "vagas": 2,
+          "salario": 12062.91
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://nossorumo.org.br",
+      "fonte": "https://www.novaconcursos.com.br/portal/noticias/concurso-suzano-sp-edital-publicado/"
+    },
+    {
+      "id": "setec-campinas-2026",
+      "orgao": "Serviços Técnicos Gerais de Campinas",
+      "sigla": "SETEC",
+      "titulo": "Agente Administrativo, Agente de Fiscalização, Analista e Procurador",
+      "esfera": "municipal",
+      "uf": "SP",
+      "local": "Campinas (SP)",
+      "area": "Prefeituras",
+      "banca": "Indepac",
+      "escolaridade": [
+        "fundamental",
+        "medio",
+        "superior"
+      ],
+      "vagas": 40,
+      "cr": true,
+      "salario": 11427.98,
+      "inscricoes": {
+        "inicio": "2026-09-08",
+        "fim": "2026-12-04"
+      },
+      "prova": "2027-01-17",
+      "taxa": 78,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Agente Administrativo",
+          "escolaridade": "medio",
+          "vagas": 8,
+          "salario": 3714.09
+        },
+        {
+          "nome": "Agente de Fiscalização",
+          "escolaridade": "medio",
+          "vagas": 5,
+          "salario": 4285.47
+        },
+        {
+          "nome": "Agente de Suporte Técnico",
+          "escolaridade": "medio",
+          "vagas": 4,
+          "salario": 5142.61
+        },
+        {
+          "nome": "Analista Técnico (Informática)",
+          "escolaridade": "superior",
+          "vagas": 1,
+          "salario": 8285.32
+        },
+        {
+          "nome": "Procurador",
+          "escolaridade": "superior",
+          "vagas": 1,
+          "salario": 11427.98
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Matemática",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/28121148/Edital-01-SETEC-Campinas-SP-2026.pdf",
+      "fonte": "https://blog.grancursosonline.com.br/concurso-setec-campinas-sp/"
+    },
+    {
+      "id": "hospital-gil-alves-bocaiuva-2026",
+      "orgao": "Hospital Municipal Dr. Gil Alves (Bocaiúva)",
+      "sigla": "HMGA",
+      "titulo": "Enfermeiro, Técnicos, Administrativos e Médico",
+      "esfera": "municipal",
+      "uf": "MG",
+      "local": "Bocaiúva (MG)",
+      "area": "Saúde",
+      "banca": "COTEC/Fadenor",
+      "escolaridade": [
+        "fundamental",
+        "medio",
+        "superior"
+      ],
+      "vagas": 183,
+      "cr": false,
+      "salario": 7950,
+      "inscricoes": {
+        "inicio": "2026-11-27",
+        "fim": "2026-12-28"
+      },
+      "prova": "2027-01-31",
+      "taxa": 95,
+      "status": "em breve",
+      "cargos": [
+        {
+          "nome": "Médico Clínico Geral",
+          "escolaridade": "superior",
+          "vagas": null,
+          "salario": 7950
+        },
+        {
+          "nome": "Enfermeiro, Farmacêutico, Fisioterapeuta, Biomédico",
+          "escolaridade": "superior",
+          "vagas": null,
+          "salario": null
+        },
+        {
+          "nome": "Agente / Assistente Administrativo",
+          "escolaridade": "medio",
+          "vagas": null,
+          "salario": null
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Matemática",
+          "topicos": []
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Gerais",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://cotec-fadenor.selecao.net.br/informacoes/34/",
+      "fonte": "https://concursosnobrasil.com/concursos/mg/2026/09/30/concurso-hospital-municipal-dr-gil-alves-mg-abre-183-vagas-em-novo-edital"
+    },
+    {
+      "id": "ufrrj-professor-2026",
+      "orgao": "Universidade Federal Rural do Rio de Janeiro",
+      "sigla": "UFRRJ",
+      "titulo": "Professor do Magistério Superior",
+      "esfera": "federal",
+      "uf": "RJ",
+      "local": "Seropédica e demais campi (RJ)",
+      "area": "Educação",
+      "banca": "UFRRJ (comissão própria)",
+      "escolaridade": [
+        "superior"
+      ],
+      "vagas": 24,
+      "cr": false,
+      "salario": 13298.85,
+      "inscricoes": {
+        "inicio": "2026-10-26",
+        "fim": "2026-11-24"
+      },
+      "prova": null,
+      "taxa": 330,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Professor do Magistério Superior (24 áreas, dedicação exclusiva)",
+          "escolaridade": "superior",
+          "vagas": 24,
+          "salario": 13298.85
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://servicos.ufrrj.br/concursos/",
+      "fonte": "https://degraucultural.com.br/noticia/concurso-ufrrj-sai-edital-para-24-vagas-de-professor-ate-r13298"
+    }
+  ]
+}

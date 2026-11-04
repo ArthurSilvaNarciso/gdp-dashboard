@@ -371,3 +371,26 @@ test('liga semanal e amigos por convite', async () => {
   assert.equal((await b('DELETE', 'friends/' + liaId)).status, 200);
   assert.equal((await a('GET', 'friends')).data.friends.length, 1);
 });
+
+test('concursos: lista atualizada pela IA com busca e material por disciplina', async () => {
+  const fim = day(20), passado = day(-2);
+  assert.equal((await client()('GET', 'concursos')).status, 404, 'sem atualização usa a lista publicada');
+  globalThis.__MEMORY_FAKE_SEARCH = async (body) => {
+    assert.equal(body.tools[0].name, 'web_search');
+    return { content: [{ type: 'server_tool_use' }, { type: 'text', text: 'Segue:\n' + JSON.stringify([
+      { id: 'tj-teste-2026', orgao: 'Tribunal de Teste', sigla: 'TJT', titulo: 'Analista', esfera: 'estadual', uf: 'SP', banca: 'Vunesp', escolaridade: ['superior'], vagas: 30, salario: 9000, inscricoes: { inicio: day(-5), fim }, prova: null, status: 'abertas', disciplinas: [{ nome: 'Língua Portuguesa', topicos: ['Crase'] }], edital: 'https://exemplo.org/edital', fonte: 'https://exemplo.org' },
+      { id: 'velho-2026', orgao: 'Órgão Velho', titulo: 'Técnico', esfera: 'municipal', uf: 'RJ', banca: 'X', escolaridade: ['medio'], inscricoes: { fim: passado }, disciplinas: [{ nome: 'Português', topicos: [] }], edital: 'https://exemplo.org/v' },
+      { id: 'sem-link', orgao: 'Sem link', titulo: 'x', escolaridade: ['medio'], inscricoes: { fim }, edital: 'javascript:alert(1)' }
+    ]) }] };
+  };
+  const adm = client(); await adm('POST', 'auth/login', { email: 'chefe@ex.com', password: 'memoria-forte-c' });
+  assert.equal((await client()('POST', 'admin/concursos/refresh', {})).status, 401);
+  const r = await adm('POST', 'admin/concursos/refresh', {}); assert.equal(r.status, 200); assert.equal(r.data.added, 1);
+  const l = await client()('GET', 'concursos'); assert.equal(l.status, 200); assert.equal(l.data.items.length, 1); assert.equal(l.data.items[0].id, 'tj-teste-2026');
+  delete globalThis.__MEMORY_FAKE_SEARCH;
+  // Material da disciplina (IA de mentira)
+  const u = client(); await u('POST', 'auth/signup', { name: 'Caio Concurso', email: 'caio.concurso@ex.com', password: 'memoria-forte-k' });
+  assert.equal((await u('POST', 'ai/discipline', {})).data.error, 'invalid_discipline');
+  const g = await u('POST', 'ai/discipline', { concurso: 'TJT Analista', banca: 'Vunesp', disciplina: 'Língua Portuguesa', topicos: ['Crase'] });
+  assert.equal(g.status, 200);
+});

@@ -1,0 +1,386 @@
+{
+  "id": "port",
+  "lessons": [
+    {
+      "id": "port-a1",
+      "title": "Crase sem decoreba",
+      "mins": 7,
+      "qids": ["port1", "port13", "port14", "port15", "port46", "port10"],
+      "intro": "Ao fim desta aula, você decide se há crase com uma conta de duas peças e reconhece os casos proibidos e facultativos que as bancas mais cobram.",
+      "sections": [
+        {
+          "h": "A conta que define a crase",
+          "p": [
+            "Crase é a fusão da preposição “a”, exigida por um termo anterior, com o artigo feminino “a(s)” ou com o “a” inicial de aquele, aquela e aquilo. Sem as duas peças ao mesmo tempo, não existe acento grave.",
+            "Por isso a pergunta é sempre dupla: quem vem antes pede a preposição “a”? A palavra seguinte aceita o artigo “a”? Em “Refiro-me às normas”, quem se refere, refere-se a algo, e “as normas” tem artigo: a + as = às."
+          ]
+        },
+        {
+          "h": "Macetes de bolso",
+          "p": ["Estes testes resolvem a maioria das questões sem decorar listas enormes."],
+          "list": [
+            "Troque a palavra feminina por uma masculina: se aparecer “ao”, há crase. “Fui à reunião” vira “Fui ao encontro”.",
+            "Nome de lugar: “vou a, volto da, crase há; vou a, volto de, crase para quê?”. “Vou à Bahia” (volto da Bahia), mas “Vou a Curitiba” (volto de Curitiba).",
+            "Demonstrativos: se o termo anterior pede “a”, ele se funde com aquele, aquela e aquilo. “Encaminhe a resposta àquele servidor.”",
+            "Locuções adverbiais, prepositivas e conjuntivas femininas levam acento: às vezes, à noite, à custa de, à medida que."
+          ]
+        },
+        {
+          "h": "Onde a crase nunca entra",
+          "p": [
+            "Não há crase antes de palavra masculina, de verbo, de pronome pessoal e de pronomes de tratamento como Vossa Excelência, porque nenhum deles aceita o artigo “a”. Também não há em expressões com palavras repetidas (“cara a cara”, “gota a gota”).",
+            "Outro sinal seguro: “a” no singular diante de palavra no plural é só preposição. Em “Não respondo a perguntas anônimas”, se houvesse artigo, ele estaria no plural (“às perguntas”)."
+          ]
+        },
+        {
+          "h": "Horas, intervalos e tempo",
+          "p": [
+            "Hora determinada leva crase: “às 8h”, “à uma hora”. Em intervalos, vale o paralelismo: “das 8h às 17h” tem artigo nos dois termos; “de segunda a sexta” não tem artigo no primeiro, então o “a” do segundo é só preposição.",
+            "Tempo futuro usa a preposição sozinha: “daqui a três dias”, sem acento. Tempo passado usa o verbo haver: “há duas semanas”, equivalente a “faz duas semanas”."
+          ]
+        },
+        {
+          "h": "Os três casos facultativos",
+          "p": ["Nestes casos, com ou sem acento a frase está correta, e a banca adora dizer que um deles é obrigatório."],
+          "list": [
+            "Antes de pronome possessivo feminino no singular: “à minha coordenadora” ou “a minha coordenadora”.",
+            "Antes de nome próprio feminino de pessoa: “Entreguei o ofício à Juliana” ou “a Juliana”.",
+            "Depois da preposição “até”: “até às 17h” ou “até as 17h”."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Aviso de uma prefeitura: “O protocolo atende de segunda a sexta, das 8h às 14h; pedidos feitos à tarde serão respondidos daqui a dois dias.”",
+        "q": "Há algum acento grave errado ou faltando?",
+        "a": "Está tudo certo. “De segunda a sexta” não tem artigo no primeiro termo; “das 8h às 14h” tem artigo nos dois; “à tarde” é locução adverbial feminina; e “daqui a dois dias” indica futuro, só com preposição."
+      },
+      "traps": [
+        "“Assisti a uma palestra” não leva crase: antes do artigo indefinido “uma” não há artigo “a”. A exceção é a hora: “à uma hora”.",
+        "“Daqui há dois dias” está errado: futuro se marca com a preposição “a”; “há” fica para tempo já decorrido.",
+        "“Até as 17h” sem acento não é erro: depois de “até”, a crase é facultativa.",
+        "“Entreguei à Vossa Excelência” está errado: pronomes de tratamento desse tipo não admitem artigo. Só “senhora” e “senhorita” aceitam: “Entreguei à senhora”."
+      ],
+      "summary": [
+        "Crase = preposição “a” + artigo “a” (ou o “a” de aquele, aquela, aquilo).",
+        "Teste da troca pelo masculino: apareceu “ao”, tem crase.",
+        "Nunca antes de masculino, verbo, pronome pessoal ou Vossa Excelência; facultativa antes de possessivo feminino singular, nome de mulher e depois de “até”.",
+        "Intervalos seguem o paralelismo: “das… às” com crase, “de… a” sem crase."
+      ],
+      "src": "Evanildo Bechara, Moderna Gramática Portuguesa; Celso Cunha e Lindley Cintra, Nova Gramática do Português Contemporâneo (emprego do acento grave)."
+    },
+    {
+      "id": "port-a2",
+      "title": "Concordância verbal e nominal",
+      "mins": 8,
+      "qids": ["port2", "port11", "port47", "port17", "port16", "port7"],
+      "intro": "Ao fim desta aula, você acha o sujeito mesmo quando ele se esconde, sabe quando o verbo fica no singular e acerta as palavras de concordância nominal que mais caem.",
+      "sections": [
+        {
+          "h": "Ache o sujeito antes de tudo",
+          "p": [
+            "A regra geral é simples: o verbo concorda com o sujeito em número e pessoa. A dificuldade da prova está em achar esse sujeito quando ele vem depois do verbo, está longe dele ou simplesmente não existe.",
+            "Sujeito posposto continua mandando no verbo: “Ainda faltam trezentas carteiras”, “Chegaram os documentos”. Pergunte “o que falta?” e ponha a resposta antes do verbo para conferir: “trezentas carteiras faltam”."
+          ]
+        },
+        {
+          "h": "Verbos impessoais ficam no singular",
+          "p": [
+            "Haver no sentido de existir ou de tempo decorrido e fazer indicando tempo não têm sujeito, por isso ficam na 3ª pessoa do singular: “Houve muitos problemas”, “Faz dois anos que trabalho aqui”.",
+            "A impessoalidade passa para o verbo auxiliar da locução: “Deve haver soluções”, “Vai fazer dez anos”. Macete: troque haver por existir; se “existir” for ao plural, o “haver” continua no singular, porque só “existir” tem sujeito."
+          ]
+        },
+        {
+          "h": "O “se” que manda no verbo e o que não manda",
+          "p": [
+            "Com verbo transitivo direto, o “se” é partícula apassivadora, e o termo que acompanha o verbo é o sujeito: “Alugam-se salas” equivale a “salas são alugadas”. Com verbo que exige preposição, o “se” é índice de indeterminação do sujeito, e o verbo fica no singular: “Precisa-se de técnicos”, “Trata-se de casos isolados”.",
+            "Teste rápido: passe para a voz passiva analítica. Se “salas são alugadas” faz sentido, o verbo concorda; como não se diz “técnicos são precisados”, o verbo fica no singular."
+          ]
+        },
+        {
+          "h": "O verbo ser e outros casos frequentes",
+          "p": [
+            "Indicando horas, datas e distâncias, o verbo ser concorda com o numeral: “É uma hora”, “São duas horas”, “É meio-dia e meia”. Em “meio-dia e meia”, o “meia” concorda com “hora”, que está subentendida.",
+            "Com “mais de um”, o verbo fica normalmente no singular: “Mais de um candidato faltou”. Com “a maioria de” seguida de plural, a norma aceita os dois: “A maioria dos alunos votou” ou “votaram”."
+          ]
+        },
+        {
+          "h": "Concordância nominal: as palavras que a banca adora",
+          "p": ["Concordância nominal é o acordo entre o substantivo e as palavras que o acompanham. Estas são as campeãs de prova."],
+          "list": [
+            "Anexo, incluso, obrigado, quite e mesmo são adjetivos e concordam: “seguem anexas as planilhas”, “elas mesmas assinaram”. A locução “em anexo” é invariável.",
+            "Meio: advérbio (um pouco) é invariável, “meio preocupada”; numeral concorda, “meia hora”.",
+            "Bastante: antes de substantivo varia, “bastantes servidores”; ligado a verbo ou adjetivo não varia, “estudaram bastante”.",
+            "É proibido, é necessário, é bom: sem determinante ficam invariáveis, “É proibido entrada”; com artigo concordam, “É proibida a entrada”.",
+            "Menos é sempre invariável: “menos pessoas”, nunca “menas”."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Nota de uma secretaria: “Houveram falhas no sistema, mas já se corrigiu os erros. Seguem anexo os relatórios.”",
+        "q": "Quantos erros de concordância há e como corrigi-los?",
+        "a": "Três. “Houve falhas” (haver no sentido de existir é impessoal), “já se corrigiram os erros” (os erros são corrigidos, sujeito no plural) e “Seguem anexos os relatórios” (adjetivo concorda com o substantivo)."
+      },
+      "traps": [
+        "“Tratam-se de casos isolados” está errado: com preposição depois do verbo, o “se” indetermina o sujeito e o verbo fica no singular.",
+        "“Existe muitas dúvidas” está errado: existir, ao contrário de haver, tem sujeito e vai ao plural, “existem muitas dúvidas”.",
+        "“Devem haver vagas” está errado: o auxiliar herda a impessoalidade de haver, “deve haver vagas”.",
+        "“Elas estavam meias cansadas” está errado: “meio” com sentido de “um pouco” é advérbio e não varia."
+      ],
+      "summary": [
+        "O verbo concorda com o sujeito, esteja ele antes ou depois.",
+        "Haver (existir ou tempo) e fazer (tempo) ficam no singular, e o auxiliar também.",
+        "Verbo transitivo direto + se concorda com o termo; verbo com preposição + se fica no singular.",
+        "Anexo, obrigado e mesmo variam; meio e bastante dependem da função; “é proibido” varia só com artigo."
+      ],
+      "src": "Evanildo Bechara, Moderna Gramática Portuguesa; Celso Cunha e Lindley Cintra, Nova Gramática do Português Contemporâneo (concordância verbal e nominal)."
+    },
+    {
+      "id": "port-a3",
+      "title": "Regência sem sustos",
+      "mins": 7,
+      "qids": ["port3", "port18", "port48", "port25", "port24", "port9"],
+      "intro": "Ao fim desta aula, você escolhe a preposição certa para os verbos e nomes mais cobrados e encaixa corretamente os pronomes relativos com preposição.",
+      "sections": [
+        {
+          "h": "Regência é a preposição certa no lugar certo",
+          "p": [
+            "Regência é a relação entre um termo que pede complemento e esse complemento. Quando a exigência vem de um verbo, é regência verbal; quando vem de um substantivo, adjetivo ou advérbio, é regência nominal.",
+            "A banca cobra quase sempre os mesmos verbos, cujo sentido muda conforme a preposição. Dominar a lista curta abaixo resolve a maior parte das questões."
+          ]
+        },
+        {
+          "h": "Verbos que mais caem",
+          "p": ["Leia cada item pensando em um exemplo seu; é assim que a regência fixa."],
+          "list": [
+            "Assistir: ver ou presenciar pede “a” (assistir ao jogo); prestar assistência é direto (o médico assistiu o paciente); caber, competir pede “a” (o direito assiste ao réu).",
+            "Aspirar: desejar pede “a” (aspirar ao cargo); inalar é direto (aspirar o ar).",
+            "Obedecer e desobedecer pedem “a”: obedecer ao regulamento.",
+            "Preferir: prefere-se uma coisa a outra, sem “mais” e sem “do que”: prefiro café a chá.",
+            "Ir e chegar com destino pedem “a” na norma-padrão: chegou ao tribunal, foi à reunião.",
+            "Esquecer e lembrar: sem pronome são diretos (esqueci o prazo); com pronome pedem “de” (esqueci-me do prazo).",
+            "Pagar e perdoar: a coisa é objeto direto e a pessoa, indireto: pagou o salário ao funcionário."
+          ]
+        },
+        {
+          "h": "Regência nominal: o nome herda a preposição",
+          "p": [
+            "Muitos nomes mantêm a preposição do verbo da mesma família. Quem reside, reside em algum lugar; por isso “residente na Rua Laranjeiras”. Quem obedece, obedece a algo; logo “obediente às normas”.",
+            "Outros pares frequentes: compatível com, coerente com, favorável a, contrário a, apto a ou para, alheio a, situado em. Na dúvida, monte a frase com o verbo correspondente."
+          ]
+        },
+        {
+          "h": "Pronome relativo com preposição",
+          "p": [
+            "Quando o verbo da oração adjetiva pede preposição, ela vai para antes do relativo: o cargo a que aspirei, o filme a que assisti, a cidade em que moro, o projeto de que gosto. Para achá-la, reconstrua a frase: aspirei a o cargo, logo “a que”.",
+            "“Cujo” indica posse, concorda com a coisa possuída e nunca é seguido de artigo: “os condutores cujas habilitações foram suspensas”. Se o verbo pedir preposição, ela vem antes: “o autor de cuja obra gosto”."
+          ]
+        },
+        {
+          "h": "Onde, aonde e donde",
+          "p": [
+            "“Onde” indica lugar fixo e acompanha verbos de permanência: onde você mora? “Aonde” é a + onde e acompanha verbos de movimento que pedem “a”: aonde você vai? “Donde” é de + onde: donde vem esse recurso?",
+            "Na escrita formal, “onde” retoma apenas lugar, físico ou virtual, como “o site onde publicamos”. Para situação, época ou documento, prefira “em que”: “a reunião em que se decidiu o tema”."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Trecho de uma carta de apresentação: “O cargo que aspiro exige que eu assista as audiências e obedeça o regimento interno.”",
+        "q": "Como fica o trecho corrigido segundo a norma-padrão?",
+        "a": "“O cargo a que aspiro exige que eu assista às audiências e obedeça ao regimento interno.” Aspirar (desejar) e assistir (presenciar) pedem “a”, que se funde ao artigo de “as audiências”; obedecer também é transitivo indireto."
+      },
+      "traps": [
+        "“Prefiro mais estudar do que trabalhar” tem dois erros: preferir não aceita “mais” nem “do que”. O certo é “prefiro estudar a trabalhar”.",
+        "“Cujo o”, “cuja a”: nunca há artigo depois de cujo.",
+        "“O médico assistiu o paciente” está certo: no sentido de prestar assistência, o verbo é transitivo direto.",
+        "“Aonde você mora?” está errado: morar não indica movimento, então é “onde”."
+      ],
+      "summary": [
+        "Regência muda o sentido: assistir a (ver) é diferente de assistir (ajudar).",
+        "Nomes da mesma família do verbo herdam a preposição: residir em, residente em.",
+        "Preposição exigida pelo verbo vai antes do relativo: o cargo a que aspiro.",
+        "Cujo concorda com o possuído e não aceita artigo; aonde só com verbo de movimento."
+      ],
+      "src": "Celso Pedro Luft, Dicionário Prático de Regência Verbal e Dicionário Prático de Regência Nominal; Evanildo Bechara, Moderna Gramática Portuguesa."
+    },
+    {
+      "id": "port-a4",
+      "title": "Vírgula: onde pode e onde não pode",
+      "mins": 7,
+      "qids": ["port4", "port49", "port19", "port53", "port20"],
+      "intro": "Ao fim desta aula, você identifica a vírgula proibida entre sujeito e verbo, as vírgulas obrigatórias e a diferença de sentido entre oração adjetiva explicativa e restritiva.",
+      "sections": [
+        {
+          "h": "A regra de ouro: não separe o que a sintaxe une",
+          "p": [
+            "Na ordem direta (sujeito, verbo e complementos), não há vírgula entre esses termos. Separar sujeito de verbo ou verbo de complemento é erro, por mais longo que seja o sujeito.",
+            "Teste prático: reduza o sujeito a um pronome. “Os estudantes que se inscreveram até 10 de março, receberão a bolsa” vira “Eles, receberão a bolsa”, e o erro salta aos olhos."
+          ]
+        },
+        {
+          "h": "Quando a vírgula é obrigatória",
+          "p": ["Estes são os usos que a norma-padrão exige e que as bancas mais testam."],
+          "list": [
+            "Aposto explicativo: “Maria, a nova gerente, apresentou o plano.”",
+            "Vocativo: “Senhores, a sessão está aberta.”",
+            "Expressões explicativas e corretivas intercaladas: isto é, por exemplo, ou seja, aliás.",
+            "Enumeração sem conectivo: “Trouxe RG, CPF e comprovante de residência.”",
+            "Conjunção adversativa: “Estudou, mas não passou”; deslocada, “porém” fica entre vírgulas: “O prazo, porém, acabou.”",
+            "Oração adjetiva explicativa, sempre entre vírgulas."
+          ]
+        },
+        {
+          "h": "Explicativa ou restritiva: a vírgula muda o sentido",
+          "p": [
+            "A oração adjetiva explicativa vem entre vírgulas e vale para todo o grupo: “Os servidores do TRT, que concluíram o curso, receberão o certificado” afirma que todos concluíram. A restritiva vem sem vírgulas e recorta o grupo: “Os servidores que concluíram o curso receberão o certificado” fala só de uma parte.",
+            "Por isso a banca pergunta se pôr ou tirar as vírgulas “altera o sentido”. Em oração adjetiva, quase sempre altera, embora a frase continue gramaticalmente correta."
+          ]
+        },
+        {
+          "h": "Termos e orações deslocados",
+          "p": [
+            "Adjunto adverbial e oração adverbial fora do fim da frase costumam vir separados por vírgula: “Quando a manutenção terminar, o abastecimento será normalizado.” Intercalados, ficam entre duas vírgulas: “Os candidatos devem, no prazo de cinco dias, enviar os documentos.”",
+            "Se o adjunto adverbial deslocado for curto, a vírgula é facultativa: “Ontem o diretor chegou cedo” e “Ontem, o diretor chegou cedo” estão corretas. No fim da frase, a oração adverbial pode dispensar a vírgula: “O abastecimento será normalizado quando a manutenção terminar.”"
+          ]
+        }
+      ],
+      "example": {
+        "c": "Edital: “Os candidatos aprovados na primeira fase devem no prazo de cinco dias, enviar os documentos.”",
+        "q": "O que está errado na pontuação?",
+        "a": "O adjunto “no prazo de cinco dias” está intercalado e precisa de vírgula dos dois lados: “devem, no prazo de cinco dias, enviar”. Com uma vírgula só, o texto separa a locução verbal “devem enviar” do resto da estrutura."
+      },
+      "traps": [
+        "Vírgula antes de “e” não é proibida: com sujeitos diferentes, ela é aceita e até recomendada: “O juiz leu a sentença, e o réu chorou.”",
+        "Sujeito longo, ainda que contenha uma oração, não se separa do verbo por vírgula.",
+        "Tirar as vírgulas de uma oração explicativa não cria erro gramatical, mas transforma a oração em restritiva e muda o sentido.",
+        "Termo intercalado pede duas vírgulas; uma só costuma separar termos que deveriam ficar juntos."
+      ],
+      "summary": [
+        "Nunca separe sujeito de verbo nem verbo de complemento.",
+        "Aposto explicativo, vocativo, enumeração e adversativa pedem vírgula.",
+        "Adjetiva com vírgulas explica e vale para todos; sem vírgulas restringe.",
+        "Adjunto deslocado: vírgula recomendada; se for curto, facultativa."
+      ],
+      "src": "Evanildo Bechara, Moderna Gramática Portuguesa; Celso Cunha e Lindley Cintra, Nova Gramática do Português Contemporâneo (sinais de pontuação)."
+    },
+    {
+      "id": "port-a5",
+      "title": "Colocação pronominal na norma-padrão",
+      "mins": 6,
+      "qids": ["port5", "port21", "port22", "port50"],
+      "intro": "Ao fim desta aula, você sabe quando o pronome vai antes, depois ou no meio do verbo, a partir de uma única pergunta: existe palavra atrativa?",
+      "sections": [
+        {
+          "h": "Três posições, uma pergunta",
+          "p": [
+            "O pronome oblíquo átono (me, te, se, o, a, lhe, nos, vos) pode vir antes do verbo (próclise), depois (ênclise) ou no meio dele (mesóclise). Na norma-padrão, a pergunta decisiva é: há palavra atrativa antes do verbo?",
+            "Se houver, use próclise. Se não houver, use ênclise, salvo no futuro do presente e no futuro do pretérito, que pedem mesóclise."
+          ]
+        },
+        {
+          "h": "Palavras que puxam o pronome para antes",
+          "p": ["Estas são as atrações que a banca mais explora."],
+          "list": [
+            "Palavras negativas (não, nunca, ninguém, nada, jamais): “Ninguém me avisou.”",
+            "Advérbios sem vírgula depois: “Aqui se trabalha.” Com vírgula, a atração some: “Aqui, trabalha-se.”",
+            "Pronomes relativos, indefinidos e interrogativos: “o processo que se arquivou”, “Alguém me ligou”, “Quem te contou?”",
+            "Conjunções subordinativas: “quando se aposentou”, “embora o conheça”.",
+            "Orações que exprimem desejo: “Deus o abençoe.”"
+          ]
+        },
+        {
+          "h": "Ênclise: o padrão sem atração",
+          "p": [
+            "Na norma-padrão não se inicia período com pronome átono: “Envie-me o contrato”, e não “Me envie o contrato”. O imperativo afirmativo e o gerúndio sem preposição também pedem ênclise: “Fazendo-se a revisão, o erro apareceu.”",
+            "Com infinitivo não flexionado, a ênclise é regular, e o verbo terminado em r perde o r: orientar + o = orientá-lo; fazer + a = fazê-la. Com negação antes do infinitivo, as duas posições são aceitas: “para não o incomodar” ou “para não incomodá-lo”."
+          ]
+        },
+        {
+          "h": "Mesóclise e locuções com particípio",
+          "p": [
+            "Com futuro do presente ou do pretérito e sem palavra atrativa, usa-se mesóclise: “realizar-se-á”, “dir-se-ia”. Nunca há ênclise a verbo no futuro: “realizará-se” é erro.",
+            "Se houver atração, a próclise vence a mesóclise: “Não se realizará”. Em locução com particípio, o pronome se apoia no auxiliar, nunca no particípio: “Os documentos tinham-se perdido” ou “Os documentos não se tinham perdido”, jamais “tinham perdido-se”."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Edital: “Se informa que a prova realizará-se no domingo e que os candidatos que atrasarem-se serão eliminados.”",
+        "q": "Como corrigir a colocação dos pronomes?",
+        "a": "“Informa-se” (não se inicia período com pronome átono), “a prova realizar-se-á” (futuro sem atrativo pede mesóclise) e “os candidatos que se atrasarem” (o relativo “que” atrai o pronome)."
+      },
+      "traps": [
+        "Vírgula quebra a atração: “Hoje, entrega-se o relatório” está certo; sem vírgula, o certo é “Hoje se entrega”.",
+        "Futuro com palavra atrativa não usa mesóclise: “Não se realizará”, e não “Não realizar-se-á”.",
+        "“Me empresta a caneta?” é natural na fala brasileira, mas a prova cobra a norma-padrão, em que o período não começa com pronome átono.",
+        "Pronome depois de particípio é sempre erro: “tinha avisado-me” não existe na norma-padrão."
+      ],
+      "summary": [
+        "Palavra atrativa antes do verbo pede próclise.",
+        "Sem atração: ênclise, inclusive no início de período e no imperativo afirmativo.",
+        "Futuro sem atração pede mesóclise; com atração, próclise.",
+        "Em locução com particípio, o pronome fica junto do auxiliar."
+      ],
+      "src": "Evanildo Bechara, Moderna Gramática Portuguesa; Celso Cunha e Lindley Cintra, Nova Gramática do Português Contemporâneo (colocação dos pronomes átonos)."
+    },
+    {
+      "id": "port-a6",
+      "title": "Conectivos e relações entre orações",
+      "mins": 7,
+      "qids": ["port26", "port27", "port29", "port52", "port30", "port28"],
+      "intro": "Ao fim desta aula, você reconhece o valor de cada conectivo, sabe quais podem substituir quais sem mudar o sentido e classifica orações reduzidas e subjetivas.",
+      "sections": [
+        {
+          "h": "Por que os conectivos valem tantos pontos",
+          "p": [
+            "Questões de reescrita e de interpretação perguntam o tempo todo se uma conjunção pode ser trocada por outra “sem alterar o sentido”. Quem conhece o valor de cada conectivo responde em segundos.",
+            "O método é sempre o mesmo: identifique a relação (causa, concessão, condição, proporção, tempo) e só aceite substituto do mesmo grupo, ajustando o modo verbal quando preciso."
+          ]
+        },
+        {
+          "h": "A tabela que você precisa ter na cabeça",
+          "p": ["Memorize os grupos, não palavras soltas."],
+          "list": [
+            "Causa: porque, visto que, já que, uma vez que, como (no início do período).",
+            "Concessão: embora, conquanto, ainda que, mesmo que, se bem que, posto que (em regra com subjuntivo).",
+            "Condição: se, caso, desde que (com subjuntivo), contanto que, a menos que.",
+            "Proporção: à medida que, à proporção que, quanto mais… mais.",
+            "Conformidade: conforme, segundo, consoante, como (“como previsto no edital”).",
+            "Finalidade: para que, a fim de que.",
+            "Adversidade: mas, porém, contudo, todavia, entretanto, no entanto."
+          ]
+        },
+        {
+          "h": "Os conectivos camaleões",
+          "p": [
+            "“Como” pode ser causal (“Como a sessão atrasou, a votação ficou para amanhã”), conformativo (“como combinado”) ou comparativo (“trabalha como um relógio”). “Desde que” é condicional com subjuntivo (“desde que não seja programável”) e temporal com indicativo (“desde que chegou, não parou”).",
+            "“À medida que” é proporcional: as duas ações variam juntas. E “posto que”, apesar da aparência, é concessivo na norma-padrão, equivalente a “embora”, e não causal."
+          ]
+        },
+        {
+          "h": "Orações reduzidas e substantivas",
+          "p": [
+            "Oração reduzida não tem conectivo e traz o verbo no infinitivo, no gerúndio ou no particípio; para classificá-la, desenvolva-a. “Encerrada a votação, o presidente anunciou o resultado” vira “Depois que a votação foi encerrada”: valor temporal.",
+            "Em “É fundamental que os candidatos cheguem cedo”, a oração iniciada por “que” é o sujeito de “é fundamental”: substantiva subjetiva. Teste: troque a oração por “isso” e veja que “isso é fundamental”."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Frase original: “Embora o orçamento tenha sido aprovado, as obras não começaram.” Opções de reescrita: (1) “Porque o orçamento foi aprovado, as obras não começaram.” (2) “Apesar de o orçamento ter sido aprovado, as obras não começaram.”",
+        "q": "Qual reescrita mantém o sentido original?",
+        "a": "A (2). “Embora” é concessivo, e “apesar de” mantém a concessão com o verbo no infinitivo. A (1) transforma o fato em causa e muda o sentido."
+      },
+      "traps": [
+        "“Já que” e “uma vez que” com indicativo são causais; “desde que” com subjuntivo é condicional. Trocar um pelo outro costuma mudar o sentido.",
+        "Na reescrita com conectivo concessivo, observe o modo verbal: “Embora tenha chovido”, nunca “Embora choveu”.",
+        "“À medida em que” não existe na norma-padrão: a locução proporcional é “à medida que”.",
+        "“Posto que” não equivale a “porque”; na norma-padrão, é concessivo."
+      ],
+      "summary": [
+        "Identifique a relação lógica antes de aceitar qualquer substituição.",
+        "Concessivas admitem o contrário sem impedir a conclusão: embora, conquanto, ainda que.",
+        "“Como” e “desde que” mudam de valor conforme a posição e o modo verbal.",
+        "Reduzidas se classificam desenvolvendo-as; “É + adjetivo + que…” traz oração subjetiva."
+      ],
+      "src": "Evanildo Bechara, Moderna Gramática Portuguesa; Celso Cunha e Lindley Cintra, Nova Gramática do Português Contemporâneo (conjunções e orações subordinadas)."
+    }
+  ]
+}

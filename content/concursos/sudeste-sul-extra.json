@@ -1,0 +1,795 @@
+{
+  "updated": "2026-11-04",
+  "items": [
+    {
+      "id": "tjsp-escrevente-oficial-2026",
+      "orgao": "Tribunal de Justiça de São Paulo",
+      "sigla": "TJ-SP",
+      "titulo": "Escrevente Técnico Judiciário e Oficial de Justiça",
+      "esfera": "estadual",
+      "uf": "SP",
+      "local": "São Paulo (capital e interior, por RAJ)",
+      "area": "Tribunais",
+      "banca": "Vunesp",
+      "escolaridade": [
+        "medio",
+        "superior"
+      ],
+      "vagas": 132,
+      "cr": true,
+      "salario": 9856.95,
+      "inscricoes": {
+        "inicio": "2026-10-28",
+        "fim": "2026-12-10"
+      },
+      "prova": "2027-03-14",
+      "taxa": 96,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Escrevente Técnico Judiciário (cadastro reserva)",
+          "escolaridade": "medio",
+          "vagas": 0,
+          "salario": 6782.54
+        },
+        {
+          "nome": "Oficial de Justiça",
+          "escolaridade": "superior",
+          "vagas": 132,
+          "salario": 9856.95
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": [
+            "Lei 6.830/1980 (Execução Fiscal)",
+            "Resolução CNJ 354/2020",
+            "Lei 11.608/2003 (taxa judiciária)",
+            "Normas Judiciais da Corregedoria Geral da Justiça"
+          ]
+        },
+        {
+          "nome": "Atualidades",
+          "topicos": [
+            "Fatos políticos, econômicos, sociais e culturais a partir de 2026",
+            "Estatuto da Pessoa com Deficiência"
+          ]
+        },
+        {
+          "nome": "Matemática",
+          "topicos": [
+            "Números reais",
+            "MMC e MDC",
+            "Razão e proporção",
+            "Porcentagem",
+            "Regra de três simples e composta",
+            "Média aritmética simples e ponderada",
+            "Juros simples",
+            "Equações do 1º e 2º graus"
+          ]
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": [
+            "Estruturas lógicas",
+            "Lógica de argumentação",
+            "Diagramas lógicos",
+            "Sequências numéricas e figurais"
+          ]
+        },
+        {
+          "nome": "Informática",
+          "topicos": [
+            "Windows 10 ou superior",
+            "Word",
+            "Excel",
+            "Teams",
+            "OneDrive",
+            "Correio eletrônico",
+            "Internet"
+          ]
+        }
+      ],
+      "edital": "https://www.vunesp.com.br",
+      "fonte": "https://folha.qconcursos.com/n/concurso-tj-sp"
+    },
+    {
+      "id": "dpesp-defensor-2026",
+      "orgao": "Defensoria Pública do Estado de São Paulo",
+      "sigla": "DPE-SP",
+      "titulo": "Defensor Público",
+      "esfera": "estadual",
+      "uf": "SP",
+      "local": "São Paulo",
+      "area": "Defensoria",
+      "banca": "FCC",
+      "escolaridade": [
+        "superior"
+      ],
+      "vagas": 70,
+      "cr": false,
+      "salario": 29716,
+      "inscricoes": {
+        "inicio": "2026-10-13",
+        "fim": "2026-11-11"
+      },
+      "prova": "2027-01-10",
+      "taxa": 250,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Defensor Público (classe inicial)",
+          "escolaridade": "superior",
+          "vagas": 70,
+          "salario": 29716
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Direito Constitucional",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Administrativo",
+          "topicos": [
+            "Direito Tributário"
+          ]
+        },
+        {
+          "nome": "Direito Penal",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Processual Penal",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Civil",
+          "topicos": [
+            "Direito Empresarial"
+          ]
+        },
+        {
+          "nome": "Direito Processual Civil",
+          "topicos": []
+        },
+        {
+          "nome": "Direitos Humanos",
+          "topicos": [
+            "Direitos difusos e coletivos",
+            "Direito da Criança e do Adolescente"
+          ]
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": [
+            "Princípios e atribuições institucionais da Defensoria Pública",
+            "Filosofia do Direito e Sociologia Jurídica"
+          ]
+        }
+      ],
+      "edital": "https://www.concursosfcc.com.br",
+      "fonte": "https://blog.grancursosonline.com.br/concurso-dpe-sp-defensor/"
+    },
+    {
+      "id": "ipa-sp-pesquisador-2026",
+      "orgao": "Instituto de Pesquisas Ambientais de São Paulo",
+      "sigla": "IPA-SP",
+      "titulo": "Pesquisador Científico I",
+      "esfera": "estadual",
+      "uf": "SP",
+      "local": "São Paulo",
+      "area": "Pesquisa e Meio Ambiente",
+      "banca": "Vunesp",
+      "escolaridade": [
+        "superior"
+      ],
+      "vagas": 98,
+      "cr": false,
+      "salario": 9052.47,
+      "inscricoes": {
+        "inicio": "2026-11-18",
+        "fim": "2026-12-22"
+      },
+      "prova": "2027-02-14",
+      "taxa": 150,
+      "status": "em breve",
+      "cargos": [
+        {
+          "nome": "Pesquisador Científico I - Categoria A (45 áreas)",
+          "escolaridade": "superior",
+          "vagas": 98,
+          "salario": 9052.47
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        },
+        {
+          "nome": "Administração Pública",
+          "topicos": []
+        },
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": [
+            "Interpretação de texto"
+          ]
+        }
+      ],
+      "edital": "https://www.vunesp.com.br/SEAB2601",
+      "fonte": "https://blog.grancursosonline.com.br/concurso-ipa-sp/"
+    },
+    {
+      "id": "pmsc-soldado-2026",
+      "orgao": "Polícia Militar de Santa Catarina",
+      "sigla": "PM-SC",
+      "titulo": "Soldado",
+      "esfera": "estadual",
+      "uf": "SC",
+      "local": "Santa Catarina",
+      "area": "Segurança Pública",
+      "banca": "Instituto AOCP",
+      "escolaridade": [
+        "superior"
+      ],
+      "vagas": 500,
+      "cr": false,
+      "salario": 8505,
+      "inscricoes": {
+        "inicio": "2026-10-26",
+        "fim": "2026-11-16"
+      },
+      "prova": "2026-12-13",
+      "taxa": 200,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Soldado (QPPM)",
+          "escolaridade": "superior",
+          "vagas": 500,
+          "salario": 8505
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Legislação Específica",
+          "topicos": [
+            "Legislação institucional",
+            "Legislação especial",
+            "Legislação de trânsito"
+          ]
+        },
+        {
+          "nome": "Direito Constitucional",
+          "topicos": []
+        },
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Penal",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Processual Penal",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Penal Militar",
+          "topicos": []
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        }
+      ],
+      "edital": "https://noticias.institutoaocp.org.br/blog/concurso-publico-da-pmsc-oferta-500-vagas-para-soldado/",
+      "fonte": "https://blog.grancursosonline.com.br/concurso-pm-sc/"
+    },
+    {
+      "id": "banestes-tecnico-bancario-2026",
+      "orgao": "Banco do Estado do Espírito Santo",
+      "sigla": "Banestes",
+      "titulo": "Técnico Bancário",
+      "esfera": "estadual",
+      "uf": "ES",
+      "local": "Espírito Santo (34 polos)",
+      "area": "Bancos",
+      "banca": "FCC",
+      "escolaridade": [
+        "medio"
+      ],
+      "vagas": 0,
+      "cr": true,
+      "salario": 5618.71,
+      "inscricoes": {
+        "inicio": "2026-10-19",
+        "fim": "2026-11-17"
+      },
+      "prova": "2027-01-24",
+      "taxa": 67,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Técnico Bancário (866 em cadastro reserva)",
+          "escolaridade": "medio",
+          "vagas": 0,
+          "salario": 4552.43
+        },
+        {
+          "nome": "Técnico em Segurança do Trabalho (cadastro reserva)",
+          "escolaridade": "medio",
+          "vagas": 0,
+          "salario": null
+        },
+        {
+          "nome": "Assistente Securitário (cadastro reserva)",
+          "escolaridade": "medio",
+          "vagas": 0,
+          "salario": null
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": [
+            "Matemática",
+            "Raciocínio lógico e quantitativo"
+          ]
+        },
+        {
+          "nome": "Atualidades",
+          "topicos": [
+            "Atualidades do mercado financeiro"
+          ]
+        },
+        {
+          "nome": "Ética no Serviço Público",
+          "topicos": [
+            "Ética",
+            "Compliance",
+            "ESG"
+          ]
+        },
+        {
+          "nome": "Conhecimentos Bancários",
+          "topicos": []
+        },
+        {
+          "nome": "Matemática Financeira",
+          "topicos": []
+        },
+        {
+          "nome": "Estatística",
+          "topicos": [
+            "Noções de probabilidade e estatística"
+          ]
+        },
+        {
+          "nome": "Informática",
+          "topicos": [
+            "Comportamentos digitais"
+          ]
+        }
+      ],
+      "edital": "https://www.concursosfcc.com.br/concursos/banes126/index.html",
+      "fonte": "https://www.direcaoconcursos.com.br/noticias/edital-concurso-banestes-publicado"
+    },
+    {
+      "id": "pmmg-cfo-2027",
+      "orgao": "Polícia Militar de Minas Gerais",
+      "sigla": "PM-MG",
+      "titulo": "Cadete do Curso de Formação de Oficiais (CFO 2027)",
+      "esfera": "estadual",
+      "uf": "MG",
+      "local": "Minas Gerais",
+      "area": "Segurança Pública",
+      "banca": "PMMG (comissão própria)",
+      "escolaridade": [
+        "superior"
+      ],
+      "vagas": 90,
+      "cr": false,
+      "salario": 12170.61,
+      "inscricoes": {
+        "inicio": "2026-11-10",
+        "fim": "2026-12-10"
+      },
+      "prova": "2027-01-10",
+      "taxa": 243,
+      "status": "em breve",
+      "cargos": [
+        {
+          "nome": "Cadete CFO (bacharel em Direito)",
+          "escolaridade": "superior",
+          "vagas": 90,
+          "salario": 7912.17
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Língua Inglesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Constitucional",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Penal",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Processual Penal",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Administrativo",
+          "topicos": []
+        },
+        {
+          "nome": "Direito Civil",
+          "topicos": [
+            "Direito Processual Civil",
+            "Legislação extravagante e direitos humanos"
+          ]
+        }
+      ],
+      "edital": "https://arquivos.qconcursos.com/regulamento/arquivo/95443/pm-mg-2026-oficial-da-policia-militar-edital-n-11-edital.pdf",
+      "fonte": "https://folha.qconcursos.com/n/concurso-pm-mg-cfo-2027-edital"
+    },
+    {
+      "id": "contagem-mg-2026",
+      "orgao": "Prefeitura de Contagem",
+      "sigla": "PMC",
+      "titulo": "Assistente Administrativo, Fiscal, Engenheiro, Auditor e outros",
+      "esfera": "municipal",
+      "uf": "MG",
+      "local": "Contagem (MG)",
+      "area": "Prefeituras",
+      "banca": "IBGP",
+      "escolaridade": [
+        "medio",
+        "superior"
+      ],
+      "vagas": 272,
+      "cr": true,
+      "salario": 13305.57,
+      "inscricoes": {
+        "inicio": "2026-10-19",
+        "fim": "2026-11-17"
+      },
+      "prova": "2027-01-24",
+      "taxa": 100,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Assistente Administrativo",
+          "escolaridade": "medio",
+          "vagas": 150,
+          "salario": 2698.73
+        },
+        {
+          "nome": "Fiscal de Atividades Urbanas",
+          "escolaridade": "medio",
+          "vagas": 20,
+          "salario": 5155.36
+        },
+        {
+          "nome": "Engenheiro Civil",
+          "escolaridade": "superior",
+          "vagas": 18,
+          "salario": 10886.91
+        },
+        {
+          "nome": "Arquiteto",
+          "escolaridade": "superior",
+          "vagas": 14,
+          "salario": 10886.91
+        },
+        {
+          "nome": "Auditor de Controle Interno",
+          "escolaridade": "superior",
+          "vagas": 4,
+          "salario": 13305.57
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Gerais",
+          "topicos": [
+            "Conhecimentos gerais do município de Contagem"
+          ]
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://portal.contagem.mg.gov.br/portal/noticias/0/3/84877/inscricoes-para-o-concurso-da-prefeitura-de-contagem-abrem-na-segunda-feira-1910",
+      "fonte": "https://blog.grancursosonline.com.br/concurso-contagem-mg/"
+    },
+    {
+      "id": "gm-sao-goncalo-2026",
+      "orgao": "Prefeitura de São Gonçalo - Guarda Municipal",
+      "sigla": "GM São Gonçalo",
+      "titulo": "Guarda Municipal",
+      "esfera": "municipal",
+      "uf": "RJ",
+      "local": "São Gonçalo (RJ)",
+      "area": "Segurança Pública",
+      "banca": "Instituto Selecon",
+      "escolaridade": [
+        "medio"
+      ],
+      "vagas": 100,
+      "cr": true,
+      "salario": 3172.96,
+      "inscricoes": {
+        "inicio": "2026-09-28",
+        "fim": "2026-11-18"
+      },
+      "prova": "2027-01-24",
+      "taxa": 95.18,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Guarda Municipal Nível II",
+          "escolaridade": "medio",
+          "vagas": 100,
+          "salario": 3172.96
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": [
+            "Interpretação de texto",
+            "Ortografia",
+            "Concordância",
+            "Crase",
+            "Pontuação"
+          ]
+        },
+        {
+          "nome": "Direito Constitucional",
+          "topicos": [
+            "Noções de Direito Constitucional, Penal, Processual Penal e Administrativo"
+          ]
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": [
+            "Lei de Crimes Hediondos",
+            "Lei de Abuso de Autoridade",
+            "Lei Maria da Penha",
+            "Código de Trânsito Brasileiro",
+            "Lei do SUSP",
+            "Estatuto Geral das Guardas Municipais",
+            "Estatutos municipais de São Gonçalo"
+          ]
+        },
+        {
+          "nome": "Informática",
+          "topicos": [
+            "Sistemas operacionais",
+            "Pacote Office",
+            "Redes",
+            "Segurança da informação"
+          ]
+        }
+      ],
+      "edital": "https://selecon.selecao.net.br/informacoes/73/",
+      "fonte": "https://www.direcaoconcursos.com.br/noticias/edital-guarda-de-sao-goncalo-publicado"
+    },
+    {
+      "id": "creci-es-2026",
+      "orgao": "Conselho Regional de Corretores de Imóveis do Espírito Santo (13ª Região)",
+      "sigla": "CRECI-ES",
+      "titulo": "Assistente Administrativo, Agente Fiscal, Analista de TI e Especialistas",
+      "esfera": "federal",
+      "uf": "ES",
+      "local": "Espírito Santo",
+      "area": "Conselhos Profissionais",
+      "banca": "Quadrix",
+      "escolaridade": [
+        "medio",
+        "superior"
+      ],
+      "vagas": 24,
+      "cr": true,
+      "salario": 8250,
+      "inscricoes": {
+        "inicio": "2026-10-05",
+        "fim": "2026-11-10"
+      },
+      "prova": "2027-01-17",
+      "taxa": 68,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Assistente Administrativo",
+          "escolaridade": "medio",
+          "vagas": 7,
+          "salario": 2341.23
+        },
+        {
+          "nome": "Assistente de T.I.",
+          "escolaridade": "medio",
+          "vagas": 1,
+          "salario": 7012.5
+        },
+        {
+          "nome": "Agente Fiscal",
+          "escolaridade": "superior",
+          "vagas": 5,
+          "salario": 4500
+        },
+        {
+          "nome": "Analista de T.I.",
+          "escolaridade": "superior",
+          "vagas": 2,
+          "salario": 7792.5
+        },
+        {
+          "nome": "Especialista (Administrativo, Contas a Pagar, RH, Contábil, Jurídico)",
+          "escolaridade": "superior",
+          "vagas": 8,
+          "salario": 8250
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Língua Portuguesa",
+          "topicos": []
+        },
+        {
+          "nome": "Raciocínio Lógico",
+          "topicos": [
+            "Raciocínio lógico e matemática"
+          ]
+        },
+        {
+          "nome": "Informática",
+          "topicos": []
+        },
+        {
+          "nome": "Ética no Serviço Público",
+          "topicos": [
+            "Legislação e ética na Administração Pública",
+            "Improbidade administrativa",
+            "Processo administrativo",
+            "Lei de Acesso à Informação",
+            "LGPD"
+          ]
+        },
+        {
+          "nome": "Legislação Específica",
+          "topicos": [
+            "Sistema COFECI/CRECI",
+            "Lei nº 6.530/1978"
+          ]
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": [
+            "Administração",
+            "Comunicação organizacional",
+            "Atendimento ao público",
+            "Arquivologia"
+          ]
+        }
+      ],
+      "edital": "https://quadrix.org.br/informacoes/3049/",
+      "fonte": "https://www.direcaoconcursos.com.br/noticias/edital-concurso-creci-es-publicado"
+    },
+    {
+      "id": "leme-prefeitura-2026",
+      "orgao": "Prefeitura de Leme",
+      "sigla": "PML",
+      "titulo": "Diversos cargos (alfabetizado a superior)",
+      "esfera": "municipal",
+      "uf": "SP",
+      "local": "Leme (SP)",
+      "area": "Prefeituras",
+      "banca": "Indepac",
+      "escolaridade": [
+        "fundamental",
+        "medio",
+        "superior"
+      ],
+      "vagas": 29,
+      "cr": true,
+      "salario": 13359.44,
+      "inscricoes": {
+        "inicio": "2026-10-30",
+        "fim": "2026-11-30"
+      },
+      "prova": "2026-12-20",
+      "taxa": 80,
+      "status": "abertas",
+      "cargos": [
+        {
+          "nome": "Oficial de Manutenção e operadores",
+          "escolaridade": "fundamental",
+          "vagas": 13,
+          "salario": 2456.78
+        },
+        {
+          "nome": "Técnicos (Enfermagem, Segurança do Trabalho, Topógrafo)",
+          "escolaridade": "medio",
+          "vagas": 4,
+          "salario": 3819.72
+        },
+        {
+          "nome": "Analista de Tecnologia da Informação",
+          "escolaridade": "superior",
+          "vagas": 1,
+          "salario": 6309.34
+        },
+        {
+          "nome": "Fiscal de Rendas",
+          "escolaridade": "superior",
+          "vagas": 1,
+          "salario": 4312.17
+        },
+        {
+          "nome": "Médico Psiquiatra de CAPS",
+          "escolaridade": "superior",
+          "vagas": 1,
+          "salario": 13359.44
+        }
+      ],
+      "disciplinas": [
+        {
+          "nome": "Conhecimentos Gerais",
+          "topicos": [
+            "Conhecimentos básicos"
+          ]
+        },
+        {
+          "nome": "Conhecimentos Específicos",
+          "topicos": []
+        }
+      ],
+      "edital": "https://indepac.selecao.net.br/informacoes/121/",
+      "fonte": "https://concursos.estrategia.com/portal/concurso-prefeitura-leme/"
+    }
+  ]
+}

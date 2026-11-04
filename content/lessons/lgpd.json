@@ -1,0 +1,456 @@
+{
+ "id": "lgpd",
+ "lessons": [
+  {
+   "id": "lgpd-a1",
+   "title": "Dado pessoal, tratamento e quem é quem",
+   "mins": 7,
+   "qids": [
+    "lg1",
+    "lgpd13",
+    "lgpd15",
+    "lgpd16",
+    "lgpd7",
+    "lgpd52"
+   ],
+   "intro": "Ao fim desta aula você vai identificar dado pessoal e dado sensível, reconhecer o que conta como tratamento e separar controlador, operador e encarregado.",
+   "sections": [
+    {
+     "h": "Dado pessoal é mais do que nome e CPF",
+     "p": [
+      "Dado pessoal é a informação relacionada a pessoa natural identificada ou identificável (art. 5º, I). Matrícula, placa do carro, imagem de câmera e e-mail corporativo entram, desde que seja possível chegar à pessoa.",
+      "Dados de pessoa jurídica, como CNPJ, razão social e faturamento, não são dados pessoais. Já o nome, o e-mail e o celular do comprador da empresa cliente são, porque o titular é sempre pessoa natural (art. 5º, V)."
+     ]
+    },
+    {
+     "h": "Sensível: a lista fechada do art. 5º, II",
+     "p": [
+      "São sensíveis os dados sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, saúde, vida sexual e os dados genéticos ou biométricos, quando vinculados a uma pessoa natural. Eles só podem ser tratados nas hipóteses do art. 11.",
+      "CPF, endereço, salário e dados bancários são dados pessoais comuns, ainda que mereçam cuidado. Digital e reconhecimento facial são biométricos, portanto sensíveis."
+     ]
+    },
+    {
+     "h": "Tratamento é quase tudo",
+     "p": [
+      "O art. 5º, X, define tratamento como toda operação com dados pessoais: coleta, recepção, classificação, utilização, acesso, reprodução, transmissão, processamento, arquivamento, armazenamento e eliminação, entre outras. Apenas consultar e manter a ficha arquivada já é tratamento.",
+      "A lei não se aplica ao tratamento feito por pessoa natural para fins exclusivamente particulares e não econômicos, como a lista de aniversários no celular pessoal (art. 4º, I). O art. 4º também exclui, por exemplo, fins exclusivamente jornalísticos, artísticos e de segurança pública."
+     ]
+    },
+    {
+     "h": "Anonimizado e pseudonimizado",
+     "p": [
+      "Dado anonimizado não permite identificar o titular com meios técnicos razoáveis e, por isso, fica fora da LGPD, salvo se a anonimização puder ser revertida com esforços razoáveis (art. 12). A média salarial de um cargo com uma só ocupante não anonimiza nada: é o salário dela.",
+      "Na pseudonimização, o nome vira código e a tabela de correspondência fica guardada à parte (art. 13, § 4º). Como é possível reverter, o dado continua pessoal."
+     ]
+    },
+    {
+     "h": "Controlador, operador e encarregado",
+     "p": [
+      "O funcionário que lida com dados no dia a dia não é controlador nem operador: ele atua em nome da empresa, que é o agente de tratamento."
+     ],
+     "list": [
+      "Controlador: a quem competem as decisões sobre o tratamento (art. 5º, VI). Exemplo: a academia que decide quais dados dos alunos coletar e para quê.",
+      "Operador: realiza o tratamento em nome do controlador e segundo as instruções dele (art. 5º, VII, e art. 39). Exemplo: a empresa de software que hospeda o cadastro.",
+      "Encarregado: pessoa indicada para ser o canal de comunicação entre o controlador, os titulares e a ANPD (art. 5º, VIII)."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Uma metalúrgica publica no mural interno a lista de advertências só com o número de matrícula de cada funcionário. Qualquer colega com acesso ao sistema de RH descobre o nome a partir da matrícula.",
+    "q": "A matrícula, nesse caso, é dado pessoal?",
+    "a": "Sim. É informação relacionada a pessoa identificável, porque dá para chegar ao funcionário com meios razoáveis (art. 5º, I). Tirar o nome não anonimiza."
+   },
+   "traps": [
+    "Dado pessoal não é só o que identifica diretamente: basta a pessoa ser identificável.",
+    "CPF não é dado sensível; filiação a sindicato é.",
+    "Pseudonimizar não tira o dado da LGPD; anonimizar de forma irreversível tira.",
+    "CNPJ e faturamento não são dados pessoais, mas o contato do funcionário da empresa cliente é.",
+    "Consultar e arquivar também é tratamento, mesmo sem uso novo."
+   ],
+   "summary": [
+    "Dado pessoal: informação sobre pessoa natural identificada ou identificável.",
+    "Sensível é a lista fechada do art. 5º, II, que inclui saúde, biometria e filiação sindical.",
+    "Tratamento é qualquer operação com dados, até consultar e arquivar.",
+    "Controlador decide; operador executa em nome dele; encarregado é o canal com titulares e ANPD."
+   ],
+   "src": "Lei 13.709/2018 (LGPD), arts. 4º, 5º, 12, 13 e 39; ANPD, Guia Orientativo para Definições dos Agentes de Tratamento de Dados Pessoais e do Encarregado."
+  },
+  {
+   "id": "lgpd-a2",
+   "title": "Os princípios do art. 6º na prática",
+   "mins": 6,
+   "qids": [
+    "lgpd10",
+    "lgpd19",
+    "lgpd20",
+    "lgpd21",
+    "lgpd22",
+    "lgpd23"
+   ],
+   "intro": "Ao fim desta aula você vai reconhecer qual princípio da LGPD está em jogo em cada situação e usar o mais direto para responder às questões.",
+   "sections": [
+    {
+     "h": "Boa-fé e dez princípios",
+     "p": [
+      "O art. 6º manda observar a boa-fé e dez princípios em qualquer tratamento. Eles valem mesmo quando há base legal e servem de régua para a ANPD avaliar condutas."
+     ],
+     "list": [
+      "I. Finalidade: propósitos legítimos, específicos, explícitos e informados, sem tratamento posterior incompatível.",
+      "II. Adequação: compatibilidade do tratamento com as finalidades informadas.",
+      "III. Necessidade: o mínimo necessário, com dados pertinentes, proporcionais e não excessivos.",
+      "IV. Livre acesso: consulta facilitada e gratuita sobre a forma e a duração do tratamento e a integralidade dos dados.",
+      "V. Qualidade dos dados: exatidão, clareza, relevância e atualização.",
+      "VI. Transparência: informações claras, precisas e facilmente acessíveis sobre o tratamento e os agentes.",
+      "VII. Segurança: medidas técnicas e administrativas contra acessos não autorizados e situações acidentais ou ilícitas.",
+      "VIII. Prevenção: medidas para evitar danos.",
+      "IX. Não discriminação: proibido tratar para fins discriminatórios ilícitos ou abusivos.",
+      "X. Responsabilização e prestação de contas: demonstrar medidas eficazes e capazes de comprovar o cumprimento da lei."
+     ]
+    },
+    {
+     "h": "Finalidade e necessidade: para quê e quanto",
+     "p": [
+      "Finalidade pergunta para quê: o CPF coletado para emitir nota fiscal não pode virar perfil de consumo vendido a anunciantes. Necessidade pergunta quanto: para entregar um móvel, renda, estado civil e profissão são excessivos.",
+      "Teste prático para qualquer formulário: se este campo não serve à finalidade informada, por que ele está aqui?"
+     ]
+    },
+    {
+     "h": "Transparência e não discriminação",
+     "p": [
+      "Política de privacidade que fala só em \"parceiros\", escondida em um link difícil de achar, não é clara nem facilmente acessível. O titular precisa saber quem recebe os dados e para quê.",
+      "Usar dados de saúde do exame admissional para recusar candidato considerado apto é fim discriminatório ilícito, vedado pelo inciso IX. Ter acesso legítimo ao dado não autoriza qualquer uso."
+     ]
+    },
+    {
+     "h": "Segurança desde a concepção e prestação de contas",
+     "p": [
+      "As medidas de segurança devem ser observadas desde a fase de concepção do produto ou serviço até a sua execução (art. 46, § 2º). Aplicativo que só pensa em proteção depois do lançamento já nasce irregular.",
+      "Não basta cumprir: é preciso conseguir provar. \"Sempre agimos de boa-fé\", sem registros, políticas e evidências, não atende ao inciso X."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Uma rede de farmácias coleta o CPF dos clientes informando que é para emitir a nota fiscal. Meses depois, passa a usar esses CPFs para montar perfis de consumo e vendê-los a anunciantes.",
+    "q": "Qual princípio é violado de forma mais direta?",
+    "a": "Finalidade (art. 6º, I): o novo uso é tratamento posterior incompatível com o propósito informado na coleta. Adequação e transparência também sofrem, mas a questão pede o mais direto."
+   },
+   "traps": [
+    "Necessidade não significa dado indispensável à sobrevivência do negócio: é o mínimo para a finalidade informada.",
+    "Ter base legal não dispensa os princípios.",
+    "Livre acesso (IV) é o direito de consultar os próprios dados; transparência (VI) é a clareza das informações sobre o tratamento.",
+    "Prestação de contas exige demonstrar, não apenas afirmar boa-fé."
+   ],
+   "summary": [
+    "Finalidade: para quê; necessidade: quanto; adequação: se o uso combina com o que foi informado.",
+    "Transparência exige informação clara e fácil de achar, inclusive sobre quem recebe os dados.",
+    "Não discriminação proíbe usar dados para excluir ou prejudicar de forma ilícita ou abusiva.",
+    "Segurança desde a concepção (art. 46, § 2º) e prestação de contas: prevenir e provar."
+   ],
+   "src": "LGPD, art. 6º e art. 46, § 2º."
+  },
+  {
+   "id": "lgpd-a3",
+   "title": "Bases legais e consentimento válido",
+   "mins": 8,
+   "qids": [
+    "lg2",
+    "lgpd24",
+    "lgpd26",
+    "lgpd25",
+    "lgpd34",
+    "lgpd35"
+   ],
+   "intro": "Ao fim desta aula você vai escolher a base legal certa para cada tratamento e saber quando o consentimento vale, quando é nulo e como deve ser revogado.",
+   "sections": [
+    {
+     "h": "Dez bases, nenhuma hierarquia",
+     "p": [
+      "O art. 7º lista dez hipóteses que autorizam o tratamento de dados pessoais. O consentimento é só uma delas: a folha de pagamento, por exemplo, roda com base em obrigação legal e execução do contrato de trabalho, sem pedir autorização a ninguém."
+     ],
+     "list": [
+      "I. Consentimento do titular.",
+      "II. Cumprimento de obrigação legal ou regulatória.",
+      "III. Execução de políticas públicas pela administração pública.",
+      "IV. Estudos por órgão de pesquisa.",
+      "V. Execução de contrato ou de procedimentos preliminares, a pedido do titular.",
+      "VI. Exercício regular de direitos em processo judicial, administrativo ou arbitral.",
+      "VII. Proteção da vida ou da incolumidade física do titular ou de terceiro.",
+      "VIII. Tutela da saúde, por profissionais de saúde, serviços de saúde ou autoridade sanitária.",
+      "IX. Legítimo interesse do controlador ou de terceiro.",
+      "X. Proteção do crédito."
+     ]
+    },
+    {
+     "h": "Casos do dia a dia",
+     "p": [
+      "Entregar a compra usando endereço e telefone é execução de contrato (V). Consultar o CPF num birô antes do crediário é proteção do crédito (X). Usar registros de ponto para se defender numa ação trabalhista é exercício regular de direitos (VI).",
+      "O legítimo interesse (IX) cobre usos que o titular pode esperar, como ofertar novos planos a alunos ativos, desde que não prevaleçam os direitos e liberdades fundamentais dele. E só com os dados estritamente necessários (art. 10, § 1º): coletar renda e patrimônio para \"melhorar ofertas\" passa do limite."
+     ]
+    },
+    {
+     "h": "Quando a base é o consentimento",
+     "p": [
+      "Consentimento é a manifestação livre, informada e inequívoca para uma finalidade determinada (art. 5º, XII). Se dado por escrito, deve constar de cláusula destacada das demais (art. 8º, § 1º), e o ônus de provar que foi obtido corretamente é do controlador (art. 8º, § 2º).",
+      "Autorização genérica, do tipo \"para quaisquer fins que a empresa julgar convenientes\", é nula (art. 8º, § 4º). Para compartilhar os dados com outro controlador, é preciso consentimento específico para isso (art. 7º, § 5º)."
+     ]
+    },
+    {
+     "h": "Revogar tem que ser fácil",
+     "p": [
+      "O titular pode revogar o consentimento a qualquer momento, por procedimento gratuito e facilitado (art. 8º, § 5º). Carta registrada, taxa ou labirinto de telas contrariam a regra.",
+      "A revogação vale dali para a frente: o que foi feito antes, com consentimento válido, continua regular enquanto não houver pedido de eliminação."
+     ]
+    },
+    {
+     "h": "Dado público não é dado livre",
+     "p": [
+      "Dados tornados manifestamente públicos pelo titular dispensam o consentimento, mas os direitos dele e os princípios da lei continuam valendo (art. 7º, § 4º). Perfil aberto em rede profissional não autoriza qualquer finalidade."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Uma escola de idiomas tem o consentimento dos alunos adultos para enviar a própria newsletter. Agora quer repassar os e-mails a uma editora parceira, que vai usá-los em campanhas próprias.",
+    "q": "O consentimento atual permite o repasse?",
+    "a": "Não. O art. 7º, § 5º, exige consentimento específico para compartilhar com outro controlador, e o consentimento dado para a newsletter da escola não cobre esse uso."
+   },
+   "traps": [
+    "Consentimento não é exigido em todo tratamento: há outras nove bases.",
+    "Legítimo interesse não serve para dados sensíveis, que seguem o art. 11.",
+    "O ônus de provar o consentimento é do controlador, não do titular.",
+    "Autorização genérica é nula, mesmo marcada ou assinada pelo titular.",
+    "Proteção do crédito é base própria e independe de consentimento."
+   ],
+   "summary": [
+    "O art. 7º traz dez bases legais, sem hierarquia entre elas.",
+    "Contrato, obrigação legal, exercício de direitos e proteção do crédito dispensam consentimento.",
+    "Legítimo interesse só com dados estritamente necessários e sem prevalência dos direitos do titular.",
+    "Consentimento: livre, informado, inequívoco, para finalidade determinada, provado pelo controlador e revogável de graça."
+   ],
+   "src": "LGPD, art. 5º, XII; art. 7º, caput e §§ 4º e 5º; art. 8º; art. 10, § 1º."
+  },
+  {
+   "id": "lgpd-a4",
+   "title": "Dados sensíveis e dados de crianças",
+   "mins": 7,
+   "qids": [
+    "lgpd18",
+    "lgpd29",
+    "lgpd30",
+    "lgpd31",
+    "lgpd44",
+    "lgpd45"
+   ],
+   "intro": "Ao fim desta aula você vai saber em que hipóteses dados sensíveis podem ser tratados e quais cuidados extras a LGPD exige com dados de crianças.",
+   "sections": [
+    {
+     "h": "Art. 11: um rol próprio e mais estreito",
+     "p": [
+      "Dado sensível só pode ser tratado com consentimento específico e destacado, para finalidades específicas (art. 11, I). Sem consentimento, apenas quando for indispensável para uma das hipóteses do inciso II."
+     ],
+     "list": [
+      "a) cumprimento de obrigação legal ou regulatória;",
+      "b) tratamento compartilhado necessário à execução de políticas públicas pela administração pública;",
+      "c) estudos por órgão de pesquisa;",
+      "d) exercício regular de direitos, inclusive em contrato e em processo judicial, administrativo e arbitral;",
+      "e) proteção da vida ou da incolumidade física do titular ou de terceiro;",
+      "f) tutela da saúde, exclusivamente em procedimento de profissionais de saúde, serviços de saúde ou autoridade sanitária;",
+      "g) prevenção à fraude e segurança do titular, nos processos de identificação e autenticação de cadastro em sistemas eletrônicos."
+     ]
+    },
+    {
+     "h": "O que falta no art. 11",
+     "p": [
+      "Compare com o art. 7º: no art. 11 não há legítimo interesse nem proteção do crédito. O condomínio que troca o cartão pela digital não pode se apoiar no legítimo interesse, porque biometria é dado sensível.",
+      "A execução de contrato também não aparece como hipótese autônoma. O que existe é o exercício regular de direitos, inclusive em contrato (alínea d)."
+     ]
+    },
+    {
+     "h": "Saúde: socorro sim, seleção de risco não",
+     "p": [
+      "Informar ao SAMU as alergias e os medicamentos do funcionário que desmaiou é proteção da vida (alínea e), sem consentimento. O prontuário da clínica de fisioterapia é tutela da saúde (alínea f), porque o procedimento é feito por profissionais de saúde.",
+      "Já a operadora de plano de saúde não pode tratar dados de saúde para seleção de riscos na contratação de qualquer modalidade, nem na contratação e exclusão de beneficiários (art. 11, § 5º)."
+     ]
+    },
+    {
+     "h": "Crianças: melhor interesse acima de tudo",
+     "p": [
+      "O tratamento de dados de crianças e adolescentes deve ser feito no seu melhor interesse (art. 14, caput). A ANPD firmou que ele pode se apoiar nas bases dos arts. 7º e 11, desde que esse melhor interesse prevaleça (Enunciado CD/ANPD nº 1/2023).",
+      "Se a base for o consentimento, ele deve ser específico e em destaque, dado por pelo menos um dos pais ou pelo responsável legal (art. 14, § 1º). Sem esse consentimento, a coleta só é admitida para contatar os pais, com uso único e sem armazenamento, ou para a proteção da criança, e os dados nunca podem ser repassados a terceiros (art. 14, § 3º).",
+      "Jogos e aplicações de internet não podem condicionar a participação da criança ao fornecimento de dados além dos estritamente necessários (art. 14, § 4º)."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Uma criança de 9 anos se perdeu dos pais em um shopping. A equipe de segurança anota o nome e o telefone que ela informou para ligar para a mãe.",
+    "q": "Essa coleta precisa do consentimento prévio dos pais?",
+    "a": "Não. O art. 14, § 3º, permite coletar o dado sem consentimento para contatar os responsáveis, desde que usado uma única vez, sem armazenamento e sem repasse a terceiros. Depois do contato, a anotação deve ser descartada."
+   },
+   "traps": [
+    "Legítimo interesse e proteção do crédito não estão no art. 11.",
+    "Tutela da saúde exige procedimento por profissional, serviço de saúde ou autoridade sanitária; não é qualquer uso alegadamente \"para a saúde\".",
+    "O consentimento para dados de criança é de pelo menos um dos pais ou do responsável, não obrigatoriamente dos dois.",
+    "Criança, para a LGPD, segue o ECA: pessoa até 12 anos incompletos."
+   ],
+   "summary": [
+    "Dado sensível: consentimento específico e destacado ou uma das hipóteses do art. 11, II.",
+    "No art. 11 não há legítimo interesse nem proteção do crédito.",
+    "Operadoras de plano de saúde não podem usar dados de saúde para seleção de riscos.",
+    "Crianças: melhor interesse; se a base for consentimento, de pelo menos um dos pais, específico e em destaque."
+   ],
+   "src": "LGPD, art. 11 e art. 14; Lei 8.069/1990 (ECA), art. 2º; Enunciado CD/ANPD nº 1/2023."
+  },
+  {
+   "id": "lgpd-a5",
+   "title": "Direitos do titular e fim do tratamento",
+   "mins": 7,
+   "qids": [
+    "lg3",
+    "lgpd39",
+    "lgpd40",
+    "lgpd41",
+    "lgpd11",
+    "lgpd46"
+   ],
+   "intro": "Ao fim desta aula você vai saber atender a um pedido de titular dentro do prazo e decidir o que eliminar e o que guardar quando o tratamento termina.",
+   "sections": [
+    {
+     "h": "O cardápio do art. 18",
+     "p": [
+      "O titular pode pedir ao controlador, a qualquer momento e mediante requisição, os direitos do art. 18. O atendimento é sem custos para o titular (art. 18, § 5º)."
+     ],
+     "list": [
+      "I. Confirmação da existência de tratamento.",
+      "II. Acesso aos dados.",
+      "III. Correção de dados incompletos, inexatos ou desatualizados.",
+      "IV. Anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com a lei.",
+      "V. Portabilidade a outro fornecedor, mediante requisição expressa.",
+      "VI. Eliminação dos dados tratados com consentimento, salvo as exceções do art. 16.",
+      "VII. Informação sobre as entidades com as quais os dados foram compartilhados.",
+      "VIII. Informação sobre a possibilidade de não consentir e suas consequências.",
+      "IX. Revogação do consentimento."
+     ]
+    },
+    {
+     "h": "Prazos de confirmação e acesso",
+     "p": [
+      "Pelo art. 19, a confirmação ou o acesso são fornecidos em formato simplificado, imediatamente, ou por declaração clara e completa, com a origem dos dados, os critérios usados e a finalidade, em até 15 dias contados do requerimento.",
+      "Se o pedido chegar a quem não trata aqueles dados, a resposta é comunicar que não é agente de tratamento e indicar, sempre que possível, quem é (art. 18, § 4º, I)."
+     ]
+    },
+    {
+     "h": "Decisão automatizada e portabilidade",
+     "p": [
+      "Cartão negado por um sistema que decide sozinho? O titular pode pedir a revisão de decisões tomadas unicamente com base em tratamento automatizado que afetem seus interesses, inclusive as de crédito (art. 20). Quando solicitado, o controlador deve informar os critérios e procedimentos usados, respeitados os segredos comercial e industrial.",
+      "A portabilidade leva os dados a outro fornecedor de serviço ou produto, como o histórico de treinos para a nova academia. Depende de requisição expressa e segue a regulamentação da ANPD."
+     ]
+    },
+    {
+     "h": "Fim do tratamento: eliminar, salvo exceções",
+     "p": [
+      "O tratamento termina quando a finalidade é alcançada ou os dados deixam de ser necessários, quando acaba o período previsto, por comunicação do titular ou por determinação da ANPD (art. 15). Currículos de um processo seletivo encerrado, sem obrigação de guarda, devem ser eliminados.",
+      "O art. 16 autoriza conservar os dados para cumprimento de obrigação legal ou regulatória, estudo por órgão de pesquisa, transferência a terceiro respeitados os requisitos legais e uso exclusivo do controlador, vedado o acesso de terceiros e desde que anonimizados. Por isso a ex-funcionária não consegue apagar os registros trabalhistas que a lei manda guardar."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Um cliente de banco digital pede uma declaração completa com a origem dos seus dados, os critérios usados e a finalidade do tratamento.",
+    "q": "Qual o prazo para o banco responder?",
+    "a": "Até 15 dias, contados da data do requerimento (art. 19, II). Se ele pedisse só a confirmação em formato simplificado, a resposta deveria ser imediata (art. 19, I)."
+   },
+   "traps": [
+    "Eliminação não é absoluta: obrigação legal permite conservar o necessário.",
+    "Os 15 dias valem para a declaração completa; o formato simplificado é imediato.",
+    "Exercer direitos é gratuito para o titular.",
+    "Conservar para uso próprio exige anonimização e vedação de acesso a terceiros.",
+    "O art. 20 garante a revisão da decisão automatizada, não um resultado favorável."
+   ],
+   "summary": [
+    "O art. 18 traz nove direitos, exercidos sem custo.",
+    "Acesso: simplificado na hora ou declaração completa em até 15 dias.",
+    "Decisão só automatizada pode ser revista a pedido do titular.",
+    "Acabou a finalidade, elimina-se, salvo as hipóteses de conservação do art. 16."
+   ],
+   "src": "LGPD, arts. 15, 16, 18, 19 e 20."
+  },
+  {
+   "id": "lgpd-a6",
+   "title": "Encarregado, incidentes e sanções",
+   "mins": 8,
+   "qids": [
+    "lg5",
+    "lgpd54",
+    "lg4",
+    "lgpd32",
+    "lgpd56",
+    "lg6"
+   ],
+   "intro": "Ao fim desta aula você vai saber o papel do encarregado, como e em quanto tempo comunicar um incidente e quais sanções a ANPD pode aplicar.",
+   "sections": [
+    {
+     "h": "Encarregado: o canal, não o culpado",
+     "p": [
+      "O controlador indica o encarregado, canal de comunicação com os titulares e com a ANPD (art. 41). Ele recebe reclamações, presta esclarecimentos, atende às comunicações da ANPD e orienta funcionários e contratados (art. 41, § 2º).",
+      "Identidade e contato devem ser divulgados publicamente, de forma clara e objetiva, preferencialmente no site do controlador (art. 41, § 1º). Pela Resolução CD/ANPD nº 18/2024, o encarregado pode ser pessoa natural ou jurídica, de dentro ou de fora da empresa, não precisa de certificação e não responde pessoalmente pela conformidade do tratamento.",
+      "O agente de pequeno porte pode ser dispensado de indicar encarregado, mas precisa manter um canal de comunicação com o titular (Resolução CD/ANPD nº 2/2022, art. 11)."
+     ]
+    },
+    {
+     "h": "Incidente: quem comunica e em quanto tempo",
+     "p": [
+      "O controlador deve comunicar à ANPD e aos titulares o incidente de segurança que possa acarretar risco ou dano relevante (art. 48). Mesmo que o ataque tenha atingido o operador, como o provedor de nuvem, o dever de comunicar é do controlador.",
+      "Pelo Regulamento de Comunicação de Incidente de Segurança, o prazo é de três dias úteis, contados do conhecimento de que o incidente afetou dados pessoais (Resolução CD/ANPD nº 15/2024, art. 6º). Para agentes de pequeno porte, o prazo é contado em dobro.",
+      "Pelo regulamento, há risco ou dano relevante quando o incidente pode afetar significativamente os titulares e envolve, por exemplo, dados sensíveis, de crianças, adolescentes ou idosos, financeiros, de autenticação, protegidos por sigilo ou em larga escala."
+     ]
+    },
+    {
+     "h": "O que a comunicação deve conter",
+     "p": [
+      "O art. 48, § 1º, fixa o conteúdo mínimo da comunicação."
+     ],
+     "list": [
+      "A natureza dos dados pessoais afetados.",
+      "As informações sobre os titulares envolvidos.",
+      "As medidas técnicas e de segurança usadas para proteger os dados, observados os segredos comercial e industrial.",
+      "Os riscos relacionados ao incidente.",
+      "Os motivos da demora, se a comunicação não foi imediata.",
+      "As medidas adotadas ou que serão adotadas para reverter ou mitigar os efeitos."
+     ]
+    },
+    {
+     "h": "Sanções do art. 52",
+     "p": [
+      "Aplicadas pela ANPD depois de processo administrativo, vão de advertência à proibição total da atividade de tratamento. Órgãos e entidades públicos estão sujeitos a todas, exceto às multas (art. 52, § 3º)."
+     ],
+     "list": [
+      "Advertência, com prazo para medidas corretivas.",
+      "Multa simples de até 2% do faturamento da pessoa jurídica, grupo ou conglomerado no Brasil no último exercício, excluídos os tributos, limitada a R$ 50 milhões por infração.",
+      "Multa diária, respeitado o mesmo limite total.",
+      "Publicização da infração, depois de apurada e confirmada.",
+      "Bloqueio e eliminação dos dados a que se refere a infração.",
+      "Suspensão parcial do banco de dados ou da atividade de tratamento por até seis meses, prorrogáveis por igual período.",
+      "Proibição parcial ou total das atividades relacionadas a tratamento de dados."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Uma rede varejista faturou R$ 4 bilhões no Brasil no último exercício, excluídos os tributos, e cometeu uma infração à LGPD.",
+    "q": "Qual o valor máximo da multa simples por essa infração?",
+    "a": "R$ 50 milhões. Os 2% do faturamento dariam R$ 80 milhões, mas a multa simples é limitada a R$ 50 milhões por infração (art. 52, II)."
+   },
+   "traps": [
+    "Quem comunica o incidente é o controlador, mesmo quando a falha foi no operador.",
+    "O teto de R$ 50 milhões é por infração, e os 2% incidem sobre o faturamento no Brasil, não o mundial.",
+    "A publicização só vem depois de apurada e confirmada a infração.",
+    "Órgão público não leva multa da ANPD, mas está sujeito às demais sanções.",
+    "O encarregado não é fiscal da ANPD dentro da empresa."
+   ],
+   "summary": [
+    "O encarregado é o canal com titulares e ANPD, com contato divulgado publicamente.",
+    "Incidente com risco ou dano relevante: o controlador comunica ANPD e titulares em três dias úteis.",
+    "A comunicação segue o conteúdo mínimo do art. 48, § 1º.",
+    "Multa simples: até 2% do faturamento no Brasil, limitada a R$ 50 milhões por infração."
+   ],
+   "src": "LGPD, arts. 41, 48 e 52; Resoluções CD/ANPD nº 2/2022 (art. 11), nº 15/2024 (art. 6º) e nº 18/2024."
+  }
+ ]
+}

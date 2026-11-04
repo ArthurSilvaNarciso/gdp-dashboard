@@ -7,7 +7,8 @@ globalThis.__MEMORY_FAKE_AI = async ({ messages, system }) => {
   const prompt = messages[messages.length - 1].content;
   const q = (i) => ({ topic: 'Material', c: 'Caso ' + i + ': uma equipe aplica a regra no dia a dia.', q: 'Qual alternativa está de acordo com o material?', a: i % 4, src: 'p. ' + (i + 1), o: [0, 1, 2, 3].map((j) => ({ t: j === i % 4 ? 'A alternativa correta ' + i : 'Alternativa plausível ' + j, p: j === i % 4 ? 'correta' : ['troca', 'inversao', 'generalizacao', 'restricao'][j], w: 'Explicação ' + j })) });
   const n = prompt.includes('Crie 3 novas') ? 3 : (prompt.match(/crie (\d+) questões/) || [0, 5])[1] * 1;
-  const text = prompt.includes('array JSON') ? JSON.stringify(Array.from({ length: n }, (_, i) => q(i))) : 'Pense assim: **a regra vale com exceções**. Por isso a alternativa marcada exagera.';
+  const text = prompt.includes('objeto JSON') ? JSON.stringify({ aulas: [1, 2, 3, 4].map((k) => ({ title: 'Aula ' + k + ' de Material', mins: 5, intro: 'O que você vai dominar.', sections: [1, 2, 3].map((j) => ({ h: 'Parte ' + j, p: ['Texto da parte ' + j + '.'] })), example: { c: 'Caso', q: 'Pergunta?', a: 'Resposta.' }, traps: ['Pegadinha.'], summary: ['Ideia 1.', 'Ideia 2.'], src: 'Lei X' })), questoes: Array.from({ length: 12 }, (_, i) => q(i)) })
+    : prompt.includes('array JSON') ? JSON.stringify(Array.from({ length: n }, (_, i) => q(i))) : 'Pense assim: **a regra vale com exceções**. Por isso a alternativa marcada exagera.';
   const chunks = text.match(/.{1,12}/gs).map((t) => `data: ${JSON.stringify({ type: 'content_block_delta', delta: { type: 'text_delta', text: t } })}\n\n`);
   return new Response(new ReadableStream({ async start(c) { for (const ch of chunks) { c.enqueue(new TextEncoder().encode(ch)); await new Promise((r) => setTimeout(r, 2)); } c.close(); } }), { status: 200 });
 };
@@ -282,6 +283,27 @@ try {
   await A.evaluate(() => { ui.deck = null; ui.tab = 'trilhas'; render(); }); await A.fill('#deck-q', 'regencia verbal'); await A.waitForTimeout(200);
   ok('busca por assunto sem acento', (await A.locator('#deck-grid [data-act=study-one]').count()) >= 1);
   await A.fill('#deck-q', ''); await A.waitForTimeout(100);
+
+  /* ---------- Concursos, plano por edital e aulas ---------- */
+  await A.click('[data-tab=concursos]'); await A.waitForSelector('.cc-card', { timeout: 6000 }).catch(() => {});
+  ok('aba Concursos lista concursos abertos', (await A.locator('.cc-card').count()) >= 1);
+  await A.fill('#cc-q', 'zzzz-inexistente'); await A.waitForTimeout(150); ok('busca de concursos filtra', (await A.locator('.cc-card').count()) === 0);
+  await A.fill('#cc-q', ''); await A.waitForTimeout(150);
+  await A.click('.cc-card >> nth=0'); await A.waitForTimeout(200);
+  ok('detalhe do concurso com matérias', (await A.locator('.cc-subj').count()) >= 1 && (await A.locator('[data-act=cc-study]').count()) === 1);
+  await A.click('[data-act=cc-study]'); await A.waitForTimeout(300); if (await A.locator('.sheet [data-act=cc-study]').count()) { await A.click('.sheet [data-act=cc-study]'); await A.waitForTimeout(300); }
+  ok('plano de estudo criado', await A.evaluate(() => !!S.user.plan && ui.tab === 'plano'));
+  const pend = await A.locator('[data-act=plan-gen]').count();
+  if (pend) { await A.click('[data-act=plan-gen] >> nth=0'); await A.waitForFunction(() => S.user.plan.subjects.some((x) => x.deck && x.deck.startsWith('uc_')) || Object.values(GEN).some((v) => v && v !== 'run'), null, { timeout: 20000 }).catch(() => {});
+    ok('IA gera aulas e questões da matéria do edital', await A.evaluate(() => { const sj = S.user.plan.subjects.find((x) => x.deck && x.deck.startsWith('uc_')); const d = sj && deckById(sj.deck); return !!(d && d.questions.length === 12 && d.lessons.length === 4); })); }
+  ok('plano aparece no início', await A.evaluate(() => { ui.tab = 'home'; render(); return !!document.querySelector('.plan-banner'); }));
+  await A.evaluate(() => ACT['open-deck']({ id: 'neuro' })); await A.waitForSelector('.lesson-it', { timeout: 6000 }).catch(() => {});
+  ok('aulas na trilha', (await A.locator('.lesson-it').count()) >= 3);
+  await A.click('.lesson-it >> nth=0'); await A.waitForTimeout(200);
+  ok('leitor de aula', (await A.locator('.aula .ls-sec').count()) >= 3);
+  if (await A.locator('[data-act=aula-praticar]').count()) { await A.click('[data-act=aula-praticar]'); ok('praticar a aula abre ciclo', await A.evaluate(() => !!ui.session)); await A.evaluate(() => ACT.end()); }
+  ok('aula marcada como estudada', await A.evaluate(() => Object.keys(S.read || {}).length >= 1));
+  await A.evaluate(() => { ui.tab = 'home'; render(); });
 
   /* ---------- Reportar questão, liga, amigos e notificações ---------- */
   await A.click('[data-tab=home]').catch(() => {}); await A.waitForTimeout(200);

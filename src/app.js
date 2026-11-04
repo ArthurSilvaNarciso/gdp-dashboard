@@ -210,7 +210,7 @@ function peekToday() { return Object.assign(LOG0(), S.log[dayKey()] || {}); }
 const totalAnswered = () => Object.values(S.log).reduce((a, x) => a + (x.n || 0), 0);
 function level() { return Math.floor(Math.sqrt(S.xp / 40)) + 1; }
 function levelRange(lv) { return [40 * (lv - 1) ** 2, 40 * lv ** 2]; }
-function personaDecks() { const p = PERSONAS.find((x) => x.id === S.user.persona); return [...new Set([...CUSTOM.map((d) => d.id), ...(API ? classDeckIds() : []), ...(p ? p.decks : ['neuro'])])].filter((id) => deckById(id)); }
+function personaDecks() { const p = PERSONAS.find((x) => x.id === S.user.persona); const pl = S.user.plan ? S.user.plan.subjects.map((x) => x.deck).filter(Boolean) : []; return [...new Set([...pl, ...CUSTOM.map((d) => d.id), ...(API ? classDeckIds() : []), ...(p ? p.decks : ['neuro'])])].filter((id) => deckById(id)); }
 function whenText(ts) { if (ts <= Date.now()) return 'agora'; const d = Math.round((ts - Date.now()) / DAY); if (d <= 0) return 'hoje'; if (d === 1) return 'amanhã'; return 'em ' + d + ' dias'; }
 
 /* ---------- Sequência com protetor (inspirado no Duolingo) ---------- */
@@ -534,7 +534,7 @@ function render() {
   else if (ui.session) { tabbar.hidden = true; v.innerHTML = viewSession(); navyTop = ui.session.phase === 'summary'; }
   else {
     tabbar.hidden = ui.tab === 'avatar'; tabbar.innerHTML = viewTabbar();
-    const views = { home: viewHome, trilhas: viewTrilhas, importar: viewImport, progresso: viewProgress, perfil: viewProfile, conta: viewConta, turmas: viewTurmas, admin: viewAdmin, avatar: viewAvatar, liga: viewLiga };
+    const views = { home: viewHome, trilhas: viewTrilhas, importar: viewImport, progresso: viewProgress, perfil: viewProfile, conta: viewConta, turmas: viewTurmas, admin: viewAdmin, avatar: viewAvatar, liga: viewLiga, concursos: viewConcursos, concurso: viewConcurso, plano: viewPlano, aula: viewAula };
     v.innerHTML = (views[ui.tab] || viewHome)();
     navyTop = ui.tab === 'home';
   }
@@ -571,9 +571,9 @@ document.addEventListener('keydown', (e) => {
 });
 new MutationObserver(() => { if (!document.querySelector('.scrim') && renderSheet.back && document.contains(renderSheet.back)) { try { renderSheet.back.focus({ preventScroll: true }); } catch (e) { /* ok */ } renderSheet.back = null; } }).observe(document.getElementById('app'), { childList: true });
 function viewTabbar() {
-  const cur = ui.tab === 'importar' ? 'trilhas' : ui.tab === 'liga' ? 'progresso' : ui.tab === 'conta' || ui.tab === 'turmas' || ui.tab === 'admin' || ui.tab === 'avatar' ? 'perfil' : ui.tab;
+  const cur = ui.tab === 'importar' || ui.tab === 'aula' ? 'trilhas' : ui.tab === 'concurso' || ui.tab === 'plano' ? 'concursos' : ui.tab === 'liga' ? 'progresso' : ui.tab === 'conta' || ui.tab === 'turmas' || ui.tab === 'admin' || ui.tab === 'avatar' ? 'perfil' : ui.tab;
   const t = (id, label, icon) => `<button class="tab" data-act="tab" data-tab="${id}" ${cur === id ? 'aria-current="page"' : ''}><span class="pip">${ico(icon)}</span><span>${label}</span></button>`;
-  return t('home', 'Início', 'home') + t('trilhas', 'Trilhas', 'decks') + t('progresso', 'Progresso', 'chart') + t('perfil', 'Perfil', 'user');
+  return t('home', 'Início', 'home') + t('trilhas', 'Trilhas', 'decks') + t('concursos', 'Concursos', 'concursos') + t('progresso', 'Progresso', 'chart') + t('perfil', 'Perfil', 'user');
 }
 const initials = () => (S.user.name || 'M').trim().split(/\s+/).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
 
@@ -629,6 +629,7 @@ function viewHome() {
     </div>
     <div class="cta-float">${planCard()}</div>
     <div class="page" style="padding-top:22px">
+      ${S.user.plan ? planBanner() : ccPromo()}
       ${examCard()}
       ${!S.user.avatar && !S.user.avSeen ? `<div class="avnudge"><span class="av md">${avatarSVG(avatarConfig())}</span><div><b>Monte seu personagem</b><span>Escolha rosto, cabelo, roupa e estilo. Ele aparece no ranking da turma.</span></div><div class="avnudge-act"><button class="btn btn-orange btn-sm" data-act="av-open">Montar</button><button class="icon-btn flat" data-act="av-later" aria-label="Agora não">${ico('close')}</button></div></div>` : ''}
       ${weekStrip()}
@@ -705,6 +706,7 @@ function viewDeck(d) {
           <button class="btn btn-soft btn-sm" data-act="sim-deck" data-id="${esc(d.id)}">Simulado · ${Math.round(simN * 1.5)} min</button></div>
         ${(() => { const n = d.questions.filter((q) => q.type === 'ce').length; return n >= 4 ? `<div class="duo ce-duo"><button class="btn btn-ghost btn-sm ce-btn" data-act="ce-deck" data-id="${esc(d.id)}"><b>C</b><b>E</b> Treino · ${n}</button>${n >= 10 ? `<button class="btn btn-ghost btn-sm" data-act="sim-cespe" data-id="${esc(d.id)}">Simulado Cebraspe</button>` : ''}</div>` : ''; })()}
       </div>
+      ${lessonsBlock(d)}
       ${journeyHTML(d)}
       <div class="blk"><div class="sec"><h2>Conteúdo</h2><div class="legend"><span><i class="dot m"></i>Firme</span><span><i class="dot l"></i>Aprendendo</span></div></div>
         ${(() => {
@@ -948,7 +950,7 @@ function viewProgress() {
     ${traps.length ? `<div class="blk"><div class="sec"><h2>Pegadinhas que mais te pegam</h2></div><div class="list">${traps.slice(0, 4).map(([k, n], i) => `<div class="item"><span class="tile ${bcol[i]}">${ico('alert')}</span><div class="main"><b>${PATTERNS[k].l}</b><span>${PATTERNS[k].d}</span></div><span class="end num">${n}×</span></div>`).join('')}</div></div>` : ''}
     ${sims.length ? `<div class="blk"><div class="sec"><h2>Simulados</h2></div><div class="list">${sims.map((x) => `<div class="item"><span class="tile c-blue">${ico('clock')}</span><div class="main"><b>${esc(x.title)}</b><span>${new Date(x.at).toLocaleDateString('pt-BR')} · ${x.n} questões</span></div><span class="end num" style="color:var(--ink);font-family:var(--display)">${x.score}%</span></div>`).join('')}</div></div>` : ''}
     <div class="blk"><div class="sec"><h2>Conquistas</h2><span class="tiny num" style="font-weight:700">${nb} de ${BADGES.length}</span></div>
-      <div class="badges">${BADGES.map((b) => { const on = !!(S.badges && S.badges[b.id]); const pr = badgeProgress(b.id); return `<button class="badge ${on ? 'on' : ''}" data-act="badge" data-id="${b.id}" aria-label="${esc(b.l)}${on ? ', conquistada' : ', ' + pr.v + ' de ' + pr.t}"><img class="medal" src="img/badges/${b.id}.webp" width="56" height="56" alt="" loading="lazy" decoding="async"><b>${esc(b.l)}</b>${on ? '' : `<span class="bprog"><i style="width:${Math.round((Math.min(pr.v, pr.t) / pr.t) * 100)}%"></i></span>`}</button>`; }).join('')}</div></div>
+      <div class="badges">${BADGES.map((b) => { const on = !!(S.badges && S.badges[b.id]); const pr = badgeProgress(b.id); return `<button class="badge ${on ? 'on' : ''}" data-act="badge" data-id="${b.id}" aria-label="${esc(b.l)}${on ? ', conquistada' : ', ' + pr.v + ' de ' + pr.t}">${medalSVG(b.id)}<b>${esc(b.l)}</b>${on ? '' : `<span class="bprog"><i style="width:${Math.round((Math.min(pr.v, pr.t) / pr.t) * 100)}%"></i></span>`}</button>`; }).join('')}</div></div>
   </div>`;
 }
 
@@ -1000,7 +1002,7 @@ function viewProfile() {
     <div class="list">${ui.confirmReset ?
       `<div class="item noicon"><div class="main"><b>Zerar todo o progresso?</b><span>Respostas, XP, sequência e revisões serão apagados. Suas trilhas continuam.</span></div></div><div class="item noicon" style="gap:10px"><button class="btn btn-ghost btn-sm" style="flex:1" data-act="cancel-reset">Cancelar</button><button class="btn btn-danger btn-sm" style="flex:1" data-act="do-reset">Zerar</button></div>` :
       `<button class="item noicon" data-act="ask-reset" style="justify-content:center;color:var(--bad);font-weight:700">Zerar progresso</button>`}</div>
-    <p class="tiny" style="text-align:center">Memory 6.2${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
+    <p class="tiny" style="text-align:center">Memory 7.0${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
   </div>`;
 }
 

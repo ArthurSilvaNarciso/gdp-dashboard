@@ -1,0 +1,349 @@
+{
+  "id": "bio",
+  "lessons": [
+    {
+      "id": "bio-a1",
+      "title": "Célula: membrana, organelas e energia",
+      "mins": 8,
+      "qids": ["bio18", "bio19", "bio17", "bio2", "bio20", "bio21"],
+      "intro": "Você vai explicar como as substâncias atravessam a membrana, seguir a linha de produção das proteínas e distinguir fotossíntese, respiração e fermentação nas questões do ENEM.",
+      "sections": [
+        {
+          "h": "Membrana: passivo ou ativo",
+          "p": [
+            "No transporte passivo, a substância vai a favor do gradiente, do lado mais concentrado para o menos concentrado, sem gasto de ATP: difusão simples, difusão facilitada e osmose. No transporte ativo, ela vai contra o gradiente e a célula gasta ATP.",
+            "O exemplo clássico de transporte ativo é a bomba de sódio e potássio: a cada ATP, expulsa 3 Na⁺ e coloca 2 K⁺ na célula. É ela que mantém o potássio alto dentro e o sódio alto fora dos neurônios."
+          ]
+        },
+        {
+          "h": "Osmose: a água segue o soluto",
+          "p": [
+            "Na osmose, a água atravessa a membrana do meio menos concentrado em soluto (hipotônico) para o mais concentrado (hipertônico). Salada temperada com sal murcha porque a água sai das células para o meio salgado.",
+            "Hemácia em água pura incha e pode estourar (hemólise); em solução muito salgada, murcha. A célula vegetal não estoura em água pura porque a parede celular resiste, e fica túrgida."
+          ]
+        },
+        {
+          "h": "A linha de produção da célula",
+          "p": [
+            "Proteínas são produzidas nos ribossomos; as de exportação, nos ribossomos do retículo endoplasmático granuloso. Seguem para o complexo golgiense, que as modifica, armazena e empacota em vesículas de secreção.",
+            "Por isso células secretoras, como as do pâncreas, têm retículo granuloso e Golgi muito desenvolvidos. Lisossomos fazem a digestão intracelular, mitocôndrias fazem a respiração aeróbia e cloroplastos, a fotossíntese."
+          ]
+        },
+        {
+          "h": "Fotossíntese, respiração e fermentação",
+          "p": [
+            "A fotossíntese usa luz, CO₂ e água para produzir glicose e libera O₂, que vem da quebra da água na fase clara. A respiração celular ocorre dia e noite em todas as células vivas, inclusive nas das plantas, e libera CO₂.",
+            "Na respiração aeróbia, a glicólise ocorre no citosol; o ciclo de Krebs e a cadeia respiratória, na mitocôndria, onde o O₂ é o aceptor final de elétrons e forma água. O saldo é de cerca de 30 a 38 ATP por glicose, conforme o livro; a fermentação, sem O₂ e só no citosol, rende 2."
+          ],
+          "list": [
+            "Fermentação alcoólica (leveduras): produz etanol e CO₂; faz o pão crescer e a cerveja.",
+            "Fermentação lática (bactérias e músculos em esforço intenso): produz ácido lático, sem CO₂; faz o iogurte.",
+            "Na estufa fechada, o CO₂ cai de dia (fotossíntese maior que a respiração) e sobe à noite (só respiração)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "No sertão nordestino, a carne de sol e o charque são salgados para durar dias sem geladeira.",
+        "q": "Por que o sal ajuda a conservar a carne?",
+        "a": "O sal deixa o meio hipertônico em relação às células dos microrganismos. Por osmose, eles perdem água e não conseguem se multiplicar, o que retarda a decomposição."
+      },
+      "traps": [
+        "“Na osmose, o sal passa para dentro da célula.” Quem se move é a água, do meio hipotônico para o hipertônico.",
+        "“Plantas respiram só à noite.” Respiram o tempo todo; de dia a fotossíntese supera a respiração e mascara o CO₂ liberado.",
+        "“O Golgi produz as proteínas.” Quem produz são os ribossomos; o Golgi processa e empacota.",
+        "“Toda fermentação libera gás.” A lática não libera CO₂; a alcoólica libera."
+      ],
+      "summary": [
+        "Passivo vai a favor do gradiente sem ATP; ativo vai contra e gasta ATP.",
+        "Na osmose, a água vai do hipotônico para o hipertônico.",
+        "Ribossomos e retículo granuloso produzem proteínas; o Golgi empacota e secreta.",
+        "Respiração aeróbia: citosol e mitocôndria, muito ATP; fermentação: só citosol, 2 ATP."
+      ],
+      "src": "Amabis & Martho, Biologia Moderna, vol. 1; Alberts et al., Biologia Molecular da Célula; Matriz de Referência do Enem (Inep), Ciências da Natureza."
+    },
+    {
+      "id": "bio-a2",
+      "title": "DNA, divisão celular e biotecnologia",
+      "mins": 8,
+      "qids": ["bio15", "bio9", "bio1", "bio24", "bio31", "bio34"],
+      "intro": "Você vai comparar DNA e RNA, transcrever e traduzir um gene, diferenciar mitose de meiose e entender como funcionam a insulina transgênica e as vacinas de mRNA.",
+      "sections": [
+        {
+          "h": "DNA x RNA",
+          "p": [
+            "O DNA tem desoxirribose, as bases A, T, C e G e, em geral, fita dupla. O RNA tem ribose, troca a timina pela uracila (U) e costuma ter fita simples.",
+            "No DNA de fita dupla, A pareia com T e C com G (regra de Chargaff). Se 30% das bases são adenina, há 30% de timina, e os 40% restantes se dividem em 20% de citosina e 20% de guanina."
+          ]
+        },
+        {
+          "h": "Do gene à proteína",
+          "p": [
+            "Na transcrição, no núcleo, uma fita do DNA serve de molde para o RNA mensageiro: A vira U, T vira A, C vira G e G vira C. O RNAm vai ao citoplasma, onde os ribossomos fazem a tradução.",
+            "Cada trinca de bases do RNAm (códon) corresponde a um aminoácido, trazido pelo RNA transportador. O código genético é universal, o que permite a uma bactéria ler um gene humano, e degenerado, pois vários códons podem indicar o mesmo aminoácido."
+          ]
+        },
+        {
+          "h": "Mitose x meiose",
+          "p": [
+            "A mitose forma duas células idênticas à original, com o mesmo número de cromossomos: serve ao crescimento, à regeneração e à cicatrização. Em humanos, 46 viram 46 e 46.",
+            "A meiose forma quatro células com metade dos cromossomos (23 em humanos), os gametas, e gera variabilidade pelo crossing-over e pela segregação independente. Se um par não se separa (não disjunção), surge um gameta com 24 cromossomos; unido a um normal, forma um zigoto com 47, como na trissomia do 21 (síndrome de Down)."
+          ]
+        },
+        {
+          "h": "Biotecnologia que cai na prova",
+          "p": [
+            "Na insulina recombinante, o gene humano é cortado com enzimas de restrição, inserido em um plasmídeo e colocado em bactérias ou leveduras, que passam a fabricar a proteína humana. O organismo que recebe um gene de outra espécie é transgênico.",
+            "As vacinas de mRNA levam a receita de uma proteína do vírus; os ribossomos a produzem, o sistema imune aprende a reconhecê-la, e o mRNA é degradado. Ele não entra no núcleo e não altera o DNA de quem é vacinado."
+          ],
+          "list": [
+            "PCR: copia um trecho de DNA em ciclos de temperatura até ser detectável; no RT-PCR, o RNA viral vira DNA antes.",
+            "Clonagem (Dolly, 1996): o clone é geneticamente idêntico a quem doou o núcleo."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Um trecho da fita molde de DNA de um gene tem a sequência TAC AAA CGT.",
+        "q": "Qual é o RNAm transcrito e quantos aminoácidos ele codifica?",
+        "a": "O RNAm é AUG UUU GCA: T vira A, A vira U, C vira G e G vira C. São três códons, portanto três aminoácidos (metionina, fenilalanina e alanina); AUG é o códon de início."
+      },
+      "traps": [
+        "Colocar timina no RNA: no RNA, o par de A é U.",
+        "“A meiose forma duas células.” Forma quatro, com metade dos cromossomos.",
+        "“A mitose gera variabilidade.” Gera cópias; a variabilidade vem da meiose e das mutações.",
+        "“Vacina de mRNA modifica o DNA.” O mRNA fica no citoplasma e é degradado em pouco tempo."
+      ],
+      "summary": [
+        "DNA: desoxirribose, timina, fita dupla; RNA: ribose, uracila, fita simples.",
+        "Transcrição no núcleo, tradução nos ribossomos; cada códon tem três bases.",
+        "Mitose mantém o número de cromossomos; meiose reduz à metade e forma gametas.",
+        "Transgênicos usam a universalidade do código genético."
+      ],
+      "src": "Amabis & Martho, Biologia Moderna, vols. 1 e 3; Alberts et al., Biologia Molecular da Célula; Watson & Crick (1953), Nature, 171."
+    },
+    {
+      "id": "bio-a3",
+      "title": "Genética: Mendel, sangue e cromossomo X",
+      "mins": 8,
+      "qids": ["bio3", "bio25", "bio4", "bio26", "bio28", "bio29"],
+      "intro": "Você vai resolver cruzamentos monoíbridos e diíbridos, prever tipos sanguíneos e transfusões e calcular a chance de doenças ligadas ao cromossomo X.",
+      "sections": [
+        {
+          "h": "Primeira lei: Aa x Aa",
+          "p": [
+            "Cada característica é determinada por um par de alelos que se separa na formação dos gametas. Aa x Aa gera 1 AA : 2 Aa : 1 aa, ou 3 dominantes para 1 recessivo no fenótipo.",
+            "Pais normais com filho afetado indicam herança recessiva e pais Aa. A chance de outro filho afetado é 1/4; e, entre os filhos normais, a chance de ser portador é 2/3, pois aa já foi descartado."
+          ]
+        },
+        {
+          "h": "Segunda lei: multiplique as chances",
+          "p": [
+            "Genes em cromossomos diferentes segregam de forma independente. Em VvRr x VvRr, a proporção fenotípica é 9 : 3 : 3 : 1.",
+            "Não é preciso montar o quadro de 16 casas: calcule cada gene separado e multiplique. Verde e rugosa exige vv (1/4) e rr (1/4): 1/4 x 1/4 = 1/16."
+          ]
+        },
+        {
+          "h": "Sistema ABO e fator Rh",
+          "p": [
+            "Tipo A tem antígeno A nas hemácias e anticorpo anti-B no plasma; tipo B, o inverso; AB não tem anticorpos; O não tem antígenos e tem anti-A e anti-B. Por isso O é doador universal de hemácias e AB é receptor universal, e quem é O só recebe O.",
+            "Os alelos são Iᴬ e Iᴮ (codominantes) e i (recessivo); tipo O é ii. Na eritroblastose fetal, mãe Rh⁻ sensibilizada no parto de um filho Rh⁺ produz anti-Rh que atacam as hemácias de um próximo feto Rh⁺; a prevenção é a imunoglobulina anti-D aplicada na mãe logo após o parto."
+          ]
+        },
+        {
+          "h": "Herança ligada ao X",
+          "p": [
+            "Daltonismo e hemofilia A são recessivos ligados ao X. O homem (XY) tem um só X, então basta um alelo para ser afetado; a mulher precisa de dois.",
+            "O pai passa o X para todas as filhas e o Y para todos os filhos. Logo, filho homem afetado recebeu o alelo da mãe, e pai afetado com mãe normal (não portadora) tem todas as filhas portadoras e nenhum filho afetado."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Uma mulher de visão normal, cujo pai é daltônico, casa-se com um homem de visão normal.",
+        "q": "Qual a probabilidade de o casal ter uma criança daltônica do sexo masculino? E de um filho homem ser daltônico?",
+        "a": "A mulher é portadora (XᴰXᵈ), pois recebeu o Xᵈ do pai. Uma criança ser menino e daltônico: 1/2 x 1/2 = 1/4. Já sabendo que é menino, a chance é 1/2, porque só depende do X que vem da mãe."
+      },
+      "traps": [
+        "Confundir “criança do sexo masculino e afetada” (1/4) com “filho homem ser afetado” (1/2).",
+        "Esquecer que, entre filhos normais de Aa x Aa, a chance de ser portador é 2/3, não 1/2.",
+        "Dizer que O é receptor universal: O só recebe O; é doador universal de hemácias.",
+        "Achar que o filho herda daltonismo do pai: o pai passa o Y para os filhos homens."
+      ],
+      "summary": [
+        "Aa x Aa: 3 : 1 no fenótipo; 1/4 de recessivos.",
+        "Genes independentes: calcule separado e multiplique (9 : 3 : 3 : 1).",
+        "O doa hemácias para todos; AB recebe de todos; Rh⁻ sensibilizada gera eritroblastose.",
+        "No X, o homem precisa de um alelo e a mulher de dois; o pai passa o X só às filhas."
+      ],
+      "src": "Amabis & Martho, Biologia Moderna, vol. 3; Griffiths et al., Introdução à Genética; Mendel (1866), Versuche über Pflanzen-Hybriden."
+    },
+    {
+      "id": "bio-a4",
+      "title": "Evolução: de Lamarck à superbactéria",
+      "mins": 6,
+      "qids": ["bio8", "bio35", "bio36", "bio37"],
+      "intro": "Você vai diferenciar explicações lamarckistas e darwinistas, explicar a resistência a antibióticos pela seleção natural e reconhecer especiação, homologia e analogia.",
+      "sections": [
+        {
+          "h": "Lamarck x Darwin",
+          "p": [
+            "Lamarck, em Filosofia Zoológica (1809), propôs a lei do uso e desuso e a herança dos caracteres adquiridos: a girafa esticaria o pescoço e passaria isso aos filhotes. A segunda ideia foi refutada, pois o que o indivíduo adquire na vida não altera seus gametas.",
+            "Darwin, em A Origem das Espécies (1859), e Wallace propuseram a seleção natural: há variação prévia entre os indivíduos, nascem mais do que o ambiente sustenta, e os mais aptos sobrevivem e se reproduzem mais. A característica favorável fica mais frequente ao longo das gerações."
+          ]
+        },
+        {
+          "h": "A teoria sintética completa Darwin",
+          "p": [
+            "Darwin não sabia de onde vinha a variação. A teoria sintética (neodarwinismo), no século XX, juntou seleção natural e genética: mutações criam alelos novos, e a recombinação na reprodução sexuada os embaralha.",
+            "O ambiente não cria a característica; ele seleciona entre as que já existem. Evolução é mudança na frequência de alelos de uma população, não de um indivíduo."
+          ]
+        },
+        {
+          "h": "Resistência a antibióticos e inseticidas",
+          "p": [
+            "Numa população de bactérias, algumas já são resistentes por mutação ou por genes recebidos de outras bactérias, como em plasmídeos. O antibiótico mata as sensíveis, e as resistentes se multiplicam sem concorrência.",
+            "Uso sem receita e tratamento interrompido aceleram essa seleção. O mesmo raciocínio explica mosquitos resistentes a inseticidas e plantas daninhas resistentes a herbicidas."
+          ]
+        },
+        {
+          "h": "Especiação e evidências",
+          "p": [
+            "Na especiação alopátrica, uma barreira geográfica, como um rio, separa populações e interrompe o fluxo gênico. Com mutações e seleção diferentes, surge o isolamento reprodutivo: mesmo reunidas, não geram descendentes férteis.",
+            "Órgãos homólogos têm a mesma origem embrionária, mesmo com funções diferentes (braço humano, asa de morcego, nadadeira de baleia) e indicam ancestral comum. Órgãos análogos têm a mesma função e origens diferentes (asa de borboleta e asa de ave), resultado de convergência adaptativa."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Em um bairro de Fortaleza, o mesmo inseticida foi aplicado contra o Aedes aegypti por anos e foi perdendo eficácia.",
+        "q": "Como a seleção natural explica o fato, e qual seria a explicação lamarckista equivocada?",
+        "a": "Darwinista: já havia mosquitos resistentes por mutação; o inseticida eliminou os sensíveis, e os resistentes se reproduziram, aumentando sua frequência. Lamarckista (errada): os mosquitos “se acostumaram” ao veneno e passaram essa adaptação adquirida aos descendentes."
+      },
+      "traps": [
+        "“A bactéria ficou resistente porque precisou.” Isso é lamarckismo; a resistência já existia e foi selecionada.",
+        "“O antibiótico causa a mutação de resistência.” Ele seleciona; as mutações surgem ao acaso.",
+        "“Homólogo é o que tem a mesma função.” Homologia é mesma origem; mesma função é analogia.",
+        "“Quem evolui é o indivíduo.” Evolui a população, ao longo das gerações."
+      ],
+      "summary": [
+        "Lamarck: uso e desuso e herança do adquirido (refutada).",
+        "Darwin: variação prévia + seleção natural + reprodução diferencial.",
+        "Mutação e recombinação geram a variação; o ambiente seleciona.",
+        "Homologia indica ancestral comum; analogia indica convergência."
+      ],
+      "src": "Darwin (1859), On the Origin of Species; Lamarck (1809), Philosophie zoologique; Futuyma, Biologia Evolutiva; Amabis & Martho, Biologia Moderna, vol. 3."
+    },
+    {
+      "id": "bio-a5",
+      "title": "Ecologia: energia, ciclos e impactos",
+      "mins": 8,
+      "qids": ["bio5", "bio38", "bio40", "bio41", "bio45", "bio7"],
+      "intro": "Você vai explicar por que a energia diminui ao longo da cadeia alimentar, como poluentes se acumulam no topo e como desmatamento, esgoto e emissões alteram os ciclos da natureza.",
+      "sections": [
+        {
+          "h": "Energia flui, matéria circula",
+          "p": [
+            "A energia entra pela fotossíntese e passa de nível em nível em um só sentido; a cada passagem, boa parte se perde como calor na respiração. Em média, só cerca de 10% chega ao nível seguinte, por isso há muito mais capivaras do que onças.",
+            "Já a matéria (carbono, nitrogênio, água) é reciclada pelos decompositores e volta ao ambiente. A pirâmide de energia nunca é invertida; a de números pode ser, como uma árvore com centenas de lagartas."
+          ]
+        },
+        {
+          "h": "Magnificação trófica",
+          "p": [
+            "Substâncias pouco eliminadas pelo organismo, como mercúrio e o inseticida DDT, se acumulam nos tecidos. Como cada predador come muitas presas, a concentração aumenta a cada nível trófico.",
+            "Na bacia do Tapajós, o mercúrio dos garimpos chega em maior concentração aos peixes carnívoros, como o tucunaré, e aos ribeirinhos que os consomem."
+          ]
+        },
+        {
+          "h": "Ciclos do carbono e do nitrogênio",
+          "p": [
+            "A fotossíntese retira CO₂ do ar; respiração, decomposição e combustão o devolvem. Queimadas e combustíveis fósseis liberam rapidamente carbono que estava estocado, e o desmatamento ainda reduz quem o retiraria.",
+            "As plantas não aproveitam o N₂ do ar. Bactérias fixadoras, como Rhizobium e Bradyrhizobium nos nódulos de leguminosas (soja, feijão), o transformam em amônia; outras bactérias o convertem em nitrito e nitrato (nitrificação) e devolvem N₂ ao ar (desnitrificação)."
+          ]
+        },
+        {
+          "h": "Eutrofização, estufa e ozônio",
+          "p": [
+            "Esgoto e fertilizantes levam fósforo e nitrogênio à água, as algas proliferam, morrem, e bactérias aeróbias que as decompõem consomem o oxigênio. Os peixes morrem por falta de O₂.",
+            "O efeito estufa é natural e mantém a Terra habitável; o problema é sua intensificação por CO₂, metano e óxido nitroso, que causa o aquecimento global. A camada de ozônio filtra o ultravioleta e foi destruída sobretudo por CFCs, banidos pelo Protocolo de Montreal (1987): são fenômenos diferentes."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Um agricultor do Paraná alterna o plantio de milho com o de feijão na mesma área e gasta menos adubo nitrogenado.",
+        "q": "Qual a explicação biológica para a economia?",
+        "a": "O feijão é uma leguminosa com nódulos de bactérias fixadoras de nitrogênio, que convertem o N₂ do ar em compostos assimiláveis. Os restos da cultura enriquecem o solo com nitrogênio que o milho aproveita na safra seguinte."
+      },
+      "traps": [
+        "“A energia é reciclada no ecossistema.” A matéria circula; a energia flui em um só sentido e se dissipa como calor.",
+        "“O buraco na camada de ozônio causa o aquecimento global.” São problemas distintos, com causas distintas.",
+        "“Na eutrofização, os peixes morrem porque comem as algas.” Morrem pela queda do oxigênio consumido na decomposição.",
+        "“O efeito estufa é sempre nocivo.” Sem ele a Terra seria gelada; o problema é a intensificação."
+      ],
+      "summary": [
+        "Cerca de 10% da energia passa de um nível ao seguinte; o resto vira calor.",
+        "Poluentes persistentes se concentram no topo da cadeia.",
+        "Leguminosas com bactérias fixadoras enriquecem o solo com nitrogênio.",
+        "Eutrofização mata por falta de O₂; estufa e ozônio são fenômenos diferentes."
+      ],
+      "src": "Odum & Barrett, Fundamentos de Ecologia; Lindeman (1942), Ecology, 23; Protocolo de Montreal (1987); Amabis & Martho, Biologia Moderna, vol. 3."
+    },
+    {
+      "id": "bio-a6",
+      "title": "Imunidade e doenças do Brasil",
+      "mins": 8,
+      "qids": ["bio6", "bio52", "bio10", "bio53", "bio54", "bio55"],
+      "intro": "Você vai diferenciar vacina de soro, entender por que o HIV derruba a imunidade e associar as principais doenças brasileiras a seus agentes, vetores e formas de prevenção.",
+      "sections": [
+        {
+          "h": "Vacina x soro",
+          "p": [
+            "A vacina contém antígenos (vírus inativado ou atenuado, partes dele ou a receita de uma proteína) e faz o próprio corpo produzir anticorpos e células de memória. É imunização ativa: demora alguns dias ou semanas, mas dura, e serve para prevenir.",
+            "O soro traz anticorpos prontos, produzidos em outro animal. É imunização passiva: age na hora, mas dura pouco, e serve para tratar, como o soro antibotrópico contra picada de jararaca e o antitetânico."
+          ]
+        },
+        {
+          "h": "HIV e linfócitos T CD4",
+          "p": [
+            "O HIV é um retrovírus que infecta e destrói os linfócitos T auxiliares (CD4), que coordenam a resposta imune. Com poucos CD4, surgem infecções oportunistas, que caracterizam a aids.",
+            "A transmissão ocorre por relação sexual sem preservativo, sangue contaminado e da mãe para o bebê. O tratamento antirretroviral, gratuito no SUS, controla o vírus e, com carga viral indetectável, impede a transmissão sexual."
+          ]
+        },
+        {
+          "h": "Doenças com vetor",
+          "p": [
+            "Na prova, monte sempre a trinca agente, vetor e prevenção. Nos mosquitos, só a fêmea pica para obter sangue."
+          ],
+          "list": [
+            "Dengue: vírus; fêmea do Aedes aegypti; eliminar água parada (o mesmo mosquito transmite zika e chikungunya).",
+            "Malária: protozoário Plasmodium; fêmea do Anopheles (mosquito-prego); concentra-se na Amazônia; febre em acessos pela ruptura das hemácias.",
+            "Doença de Chagas: protozoário Trypanosoma cruzi; barbeiro, que elimina o parasita nas fezes, não na saliva; também por alimentos como caldo de cana e açaí contaminados.",
+            "Leishmaniose: protozoário Leishmania; flebotomíneo (mosquito-palha); cão é reservatório urbano da forma visceral."
+          ]
+        },
+        {
+          "h": "Doenças ligadas à água e ao saneamento",
+          "p": [
+            "Na esquistossomose, ovos do Schistosoma mansoni saem nas fezes, liberam larvas na água que infectam caramujos Biomphalaria, e estes liberam cercárias que penetram ativamente pela pele de quem entra na água. A prevenção central é saneamento básico.",
+            "Na ascaridíase, o contágio é por ingestão de ovos em água e alimentos contaminados; no amarelão (ancilostomose), a larva penetra pela pele dos pés descalços. Esgoto tratado, água limpa e calçados cortam esses ciclos."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Uma pessoa foi mordida no rosto por um cão de rua que não pôde ser observado. O protocolo indicou soro (ou imunoglobulina) antirrábico e vacina.",
+        "q": "Por que usar os dois?",
+        "a": "O soro dá anticorpos prontos e protege imediatamente, enquanto o corpo ainda não produziu os seus. A vacina induz anticorpos próprios e memória, que assumem a proteção de forma duradoura antes que o vírus chegue ao sistema nervoso."
+      },
+      "traps": [
+        "“O soro previne a doença por anos.” O soro é passivo e temporário; quem gera memória é a vacina.",
+        "“O barbeiro transmite Chagas pela picada.” O parasita está nas fezes do inseto, que entram pela ferida ou mucosas.",
+        "“Dengue é causada pelo mosquito.” O agente é um vírus; o mosquito é o vetor.",
+        "“Pega-se esquistossomose comendo caramujo.” A cercária entra pela pele na água contaminada."
+      ],
+      "summary": [
+        "Vacina: ativa, lenta, duradoura, prevenção. Soro: passivo, imediato, temporário, tratamento.",
+        "O HIV destrói linfócitos T CD4 e abre caminho para infecções oportunistas.",
+        "Para cada doença, saiba agente, vetor e prevenção.",
+        "Saneamento básico interrompe esquistossomose e verminoses."
+      ],
+      "src": "Ministério da Saúde, Guia de Vigilância em Saúde; Abbas, Lichtman & Pillai, Imunologia Celular e Molecular; Amabis & Martho, Biologia Moderna, vol. 2."
+    }
+  ]
+}

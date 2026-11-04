@@ -90,6 +90,14 @@ function todayPlan() {
   const nu = nextUnit();
   if (L.units) steps.push({ done: true, t: L.units > 1 ? L.units + ' etapas concluídas' : 'Etapa concluída', s: nu ? 'Próxima: etapa ' + nu.u.n + ' de ' + nu.d.title : 'Trilhas em dia' });
   else if (nu) steps.push({ done: false, t: 'Etapa ' + nu.u.n + ' · ' + nu.d.title, s: nu.u.topics.slice(0, 2).join(' e '), act: 'unit-start', ds: { id: nu.d.id, n: nu.u.n }, data: `data-id="${esc(nu.d.id)}" data-n="${nu.u.n}"`, cta: nu.u.seen ? 'Continuar' : 'Começar' });
+  // Aula do dia: a próxima aula não lida da trilha em foco (carregada sob demanda).
+  const ld = nu ? nu.d : null; const LL = ld && typeof lessonsOf === 'function' ? lessonsOf(ld) : null;
+  if (LL && LL.length) {
+    const readToday = Object.values(S.read || {}).some((t) => dayKey(new Date(t)) === dayKey());
+    const nl = LL.find((l) => !(S.read && S.read[l.id]));
+    if (readToday) steps.push({ done: true, t: 'Aula do dia lida', s: nl ? 'Próxima: ' + nl.title : 'Todas as aulas da trilha lidas' });
+    else if (nl) steps.push({ done: false, t: 'Aula: ' + nl.title, s: nl.mins + ' min de leitura · ' + ld.title, act: 'aula', ds: { d: ld.id, id: nl.id }, data: `data-d="${esc(ld.id)}" data-id="${esc(nl.id)}"`, cta: 'Ler' });
+  }
   const opened = S.chest === dayKey(), ready = chestReady(), n = Math.min(L.n, g);
   steps.push({ done: opened, chest: true, t: opened ? 'Baú do dia aberto' : ready ? 'Abrir o baú do dia' : 'Bater a meta e abrir o baú', s: opened ? 'Volte amanhã para um novo' : n + ' de ' + g + ' questões', bar: opened ? 0 : n / g, act: ready ? 'chest-open' : 'cycle-all', cta: ready ? 'Abrir' : 'Estudar', hot: ready });
   return steps;
@@ -117,7 +125,7 @@ function planCard() {
 function planNext() { const steps = todayPlan(); return { steps, done: steps.filter((x) => x.done).length, nx: steps.find((x) => !x.done && x.act) }; }
 function planSummaryHTML() {
   const { steps, done, nx } = planNext(); const n = steps.length;
-  const goLbl = !nx ? '' : nx.act === 'chest-open' ? 'Abrir o baú do dia' : nx.act === 'unit-start' ? (nx.cta === 'Continuar' ? 'Continuar a etapa ' : 'Começar a etapa ') + nx.ds.n : nx.act === 'review-all' ? 'Revisar o que falta' : 'Mais um ciclo';
+  const goLbl = !nx ? '' : nx.act === 'chest-open' ? 'Abrir o baú do dia' : nx.act === 'unit-start' ? (nx.cta === 'Continuar' ? 'Continuar a etapa ' : 'Começar a etapa ') + nx.ds.n : nx.act === 'review-all' ? 'Revisar o que falta' : nx.act === 'aula' ? 'Ler a aula do dia' : 'Mais um ciclo';
   const sub = !nx ? 'Plano de hoje completo' : nx.act === 'cycle-all' && nx.chest ? 'Faltam ' + plural(Math.max(0, S.user.goal - peekToday().n), 'questão', 'questões') + ' para abrir o baú' : 'Próximo: ' + nx.t;
   return `<div class="plan-mini"><span class="plan-ring" style="--p:${Math.round((done / n) * 100)}"><span class="num">${done}/${n}</span></span><div><small>Plano de hoje</small><b>${esc(sub)}</b></div></div>
     <div class="blk" style="gap:8px">${nx ? `<button class="btn btn-orange btn-block" data-act="plan-go">${esc(goLbl)}</button>${nx.act !== 'cycle-all' ? '<button class="btn btn-soft btn-block" data-act="again">Mais um ciclo</button>' : ''}` : '<button class="btn btn-orange btn-block" data-act="again">Mais um ciclo</button>'}<button class="btn btn-text btn-block" data-act="end">Voltar ao início</button></div>`;

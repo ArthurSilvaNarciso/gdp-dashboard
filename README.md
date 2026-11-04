@@ -8,6 +8,9 @@ App mobile-first de estudo em ciclos curtos (desafio → esforço → recompensa
 - **Turmas**: professor/empresa cria a turma, alunos entram por código de 6 caracteres ou link; painel com respostas da semana, acerto, memória estimada, pegadinhas da turma e progresso de cada aluno por trilha; ranking semanal para os alunos.
 - **Códigos curtos** para compartilhar trilhas (`/?t=CODIGO`) e convidar para turmas (`/?turma=CODIGO`).
 - **IA no servidor** (tutor, variações de erro e geração de questões a partir de PDF) com streaming e cota diária por usuário.
+- **Concursos abertos**: aba com os concursos com inscrições abertas no Brasil (lista pesquisada e conferida em `content/concursos/*.json`, publicada como `data/concursos.json`), busca, filtro por estado, nível e ordenação; o servidor atualiza a lista uma região por dia com a IA e busca na web (`/api/cron/daily`, `/api/admin/concursos/refresh`).
+- **Plano por edital**: "Estudar para este concurso" cria o plano até a prova; matérias que o Memory já tem viram trilhas prontas e as demais são geradas pela IA (`/api/ai/discipline`: 4 aulas + 12 questões no estilo da banca, Certo/Errado quando é Cebraspe).
+- **Aulas**: 72 aulas curtas nas 12 trilhas (`content/lessons/*.json`, carregadas sob demanda de `data/lessons/`), com exemplo resolvido, pegadinhas, resumo, ouvir em voz alta e "praticar" ligado às questões.
 - **Liga semanal e amigos**: ligas de até 30 pessoas por divisão (Bronze → Diamante), promoção/rebaixamento na segunda-feira, pontos = 10 por acerto + 2 por resposta; convite por link (`/?amigo=CODIGO`) e ranking de amigos.
 - **Notificações push**: Web Push com chaves VAPID geradas e guardadas no banco; rotina diária (`/api/cron/daily`, Vercel Cron às 19h de Brasília) só para quem ainda não estudou, mais a limpeza de registros prevista na política de privacidade.
 - **Reportar questão**: qualquer pessoa aponta gabarito errado, enunciado confuso etc.; a administração vê os reportes agrupados por questão e marca como corrigida.
@@ -15,6 +18,8 @@ App mobile-first de estudo em ciclos curtos (desafio → esforço → recompensa
 - **Segurança**: limite de tentativas, verificação de origem (CSRF), saneamento de tudo o que chega do cliente, cabeçalhos de segurança e trilha de auditoria.
 
 ## Conteúdo
+Formato das aulas em `content/LESSONS.md` (valide com `node dev/validate-lessons.mjs content/lessons/*.json`) e dos concursos em `content/CONCURSOS.md` (`node dev/validate-concursos.mjs content/concursos/*.json`). Ícones: Lucide (ISC), gerados por `dev/icons-lucide.mjs`.
+
 As trilhas nativas ficam em `src/data.js`, `src/data2.js`, `content/*.json` e `content/*.more.json` (inclui itens Certo/Errado, `"type": "ce"`) (formato e regras em `content/SPEC.md`; valide com `node dev/validate-content.mjs content/*.json`).
 
 ## Estrutura

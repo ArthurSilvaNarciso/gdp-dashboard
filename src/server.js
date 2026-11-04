@@ -439,7 +439,7 @@ Object.assign(ACT, {
   'badge': (d) => {
     const b = BADGES.find((x) => x.id === d.id); if (!b) return;
     const at = S.badges && S.badges[b.id]; const pr = badgeProgress(b.id);
-    ui.sheet = `<div class="medal-sheet"><img class="medal big ${at ? '' : 'locked'}" src="img/badges/${b.id}.webp" width="120" height="120" alt=""><h2>${esc(b.l)}</h2><p class="muted small">${esc(b.d)}</p>
+    ui.sheet = `<div class="medal-sheet">${medalSVG(b.id, 'big ' + (at ? '' : 'locked'))}<h2>${esc(b.l)}</h2><p class="muted small">${esc(b.d)}</p>
       ${at ? `<span class="tag c-mint">Conquistada em ${new Date(at).toLocaleDateString('pt-BR')}</span>` : `<div class="bprog lg"><i style="width:${Math.round((Math.min(pr.v, pr.t) / pr.t) * 100)}%"></i></div><span class="tiny num">${Math.min(pr.v, pr.t)} de ${pr.t}</span>`}</div>
       <button class="btn btn-primary btn-block" data-act="sheet-close">Fechar</button>`;
     renderSheet();

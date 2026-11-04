@@ -1,0 +1,360 @@
+{
+  "id": "mat",
+  "lessons": [
+    {
+      "id": "mat-a1",
+      "title": "Porcentagem: pense em fatores",
+      "mins": 6,
+      "qids": ["mt1", "mat17", "mat18", "mat49"],
+      "intro": "Você vai resolver aumentos, descontos e variações percentuais com um único truque, o fator multiplicativo, sem cair nas pegadinhas de somar porcentagens.",
+      "sections": [
+        {
+          "h": "Todo percentual vira um fator",
+          "p": [
+            "Aumentar p% é multiplicar por (1 + p/100); descontar p% é multiplicar por (1 − p/100). Assim, um aumento de 25% é ×1,25 e um desconto de 30% é ×0,70.",
+            "Esse fator resolve a conta em uma linha: uma conta de luz de R$ 180,00 com reajuste de 12% passa a 180 × 1,12 = R$ 201,60."
+          ],
+          "list": [
+            "Aumento de 10%: ×1,10. Aumento de 100%: ×2.",
+            "Desconto de 15%: ×0,85. Desconto de 50%: ×0,50.",
+            "Ficar com 15% de algo: ×0,15."
+          ]
+        },
+        {
+          "h": "Aumentos e descontos sucessivos se multiplicam",
+          "p": [
+            "Um tênis de R$ 200,00 sobe 10% e depois cai 10%: 200 × 1,10 × 0,90 = R$ 198,00. O fator total é 1,1 × 0,9 = 0,99, ou seja, 1% a menos, e não “voltou ao preço”.",
+            "Dois aumentos de 20% dão 1,2 × 1,2 = 1,44, isto é, 44%, e não 40%. Dois descontos de 20% e 10% dão 0,8 × 0,9 = 0,72, isto é, 28% de desconto total."
+          ]
+        },
+        {
+          "h": "Porcentagem de quê? Olhe a base",
+          "p": [
+            "A variação percentual é sempre (novo − antigo) ÷ antigo. Uma TV de R$ 2.400,00 vendida à vista por R$ 2.040,00 tem desconto de 360 ÷ 2.400 = 15%, e não 360 ÷ 2.040.",
+            "Em gráficos, o mesmo aumento absoluto vale menos em porcentagem quando a base é maior: subir de 200 para 250 é +25%, mas de 250 para 300 é +20%. Para voltar ao valor original, divida pelo fator: se o preço após aumento de 25% é R$ 500,00, o original é 500 ÷ 1,25 = R$ 400,00."
+          ]
+        },
+        {
+          "h": "Porcentagem de porcentagem",
+          "p": [
+            "Se 40% dos inscritos faltaram, compareceram 60%. Se 25% dos presentes passaram, os aprovados são 0,25 × 0,60 = 0,15, ou 15% do total de inscritos.",
+            "O segredo é multiplicar as frações na ordem em que os filtros acontecem. Quando a base muda no meio do enunciado (“dos que compareceram”), a conta é de multiplicação, nunca de subtração."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Uma loja de Natal aumentou em 25% o preço de uma cafeteira que custava R$ 80,00. Um mês depois, anunciou 20% de desconto sobre o novo preço.",
+        "q": "Qual é o preço final e qual foi a variação em relação ao preço original?",
+        "a": "80 × 1,25 = 100 e 100 × 0,80 = 80. O fator total é 1,25 × 0,80 = 1, então o preço voltou exatamente a R$ 80,00, variação de 0%, embora 25% e 20% sejam números diferentes."
+      },
+      "traps": [
+        "Somar percentuais sucessivos: +10% e −10% não se anulam; multiplique os fatores (1,1 × 0,9 = 0,99).",
+        "Calcular desconto sobre o preço final: a base da variação é sempre o valor antigo.",
+        "Desfazer um aumento de 25% com um desconto de 25%: o correto é dividir por 1,25, o que equivale a 20% de desconto.",
+        "Confundir pontos percentuais com porcentagem: uma taxa que passa de 10% para 12% subiu 2 pontos percentuais, ou seja, 20%."
+      ],
+      "summary": [
+        "Aumento de p% é ×(1 + p/100); desconto de p% é ×(1 − p/100).",
+        "Variações sucessivas se multiplicam, nunca se somam.",
+        "Variação percentual = (novo − antigo) ÷ antigo.",
+        "“p% de q%” é a multiplicação das duas frações."
+      ],
+      "src": "Matriz de Referência do Enem (Inep), Matemática e suas Tecnologias; Iezzi, Hazzan & Degenszajn, Fundamentos de Matemática Elementar, vol. 11 (Matemática Comercial)."
+    },
+    {
+      "id": "mat-a2",
+      "title": "Proporção, regra de três e escala",
+      "mins": 7,
+      "qids": ["mt2", "mat13", "mat14", "mat58", "mat10", "mat15"],
+      "intro": "Você vai identificar em segundos se duas grandezas são direta ou inversamente proporcionais e resolver regra de três, divisão proporcional e escala sem errar o sentido da conta.",
+      "sections": [
+        {
+          "h": "Direta ou inversa: o teste do dobro",
+          "p": [
+            "Pergunte: se uma grandeza dobrar, a outra dobra ou cai pela metade? Mais quilos de carne, mais dinheiro: direta. Mais pedreiros, menos dias: inversa.",
+            "Na direta, a razão é constante e você cruza os valores. Na inversa, o produto é constante: se 6 pedreiros fazem o muro em 10 dias, 6 × 10 = 15 × x, e 15 pedreiros levam x = 60 ÷ 15 = 4 dias."
+          ]
+        },
+        {
+          "h": "Razão em misturas: conte as partes",
+          "p": [
+            "Concentrado e água na razão 1 para 4 formam 5 partes iguais. Para 15 litros de suco, cada parte vale 15 ÷ 5 = 3 litros: 3 L de concentrado e 12 L de água.",
+            "O erro clássico é dividir 15 por 4. A razão compara as partes entre si; o total é a soma delas."
+          ]
+        },
+        {
+          "h": "Divisão direta e inversamente proporcional",
+          "p": [
+            "Na divisão diretamente proporcional, cada um recebe k vezes o seu valor. Se três sócias investiram 10, 15 e 25 mil e vão dividir R$ 12.000,00 de lucro, k = 12.000 ÷ 50.000 = 0,24, e quem investiu 25 mil recebe 0,24 × 25.000 = R$ 6.000,00.",
+            "Na inversa, cada um recebe k dividido pelo seu valor: quem tem mais faltas recebe menos. Faltas de 2 e 4 dias dão partes proporcionais a 1/2 e 1/4, isto é, 2 para 1; de R$ 9.000,00, quem faltou 4 dias leva 1/3, ou R$ 3.000,00."
+          ]
+        },
+        {
+          "h": "Escala: comprimento, área e volume",
+          "p": [
+            "Escala 1:500.000 significa que 1 cm no mapa vale 500.000 cm reais. Então 3 cm no mapa são 1.500.000 cm = 15.000 m = 15 km.",
+            "Para área, a escala vai ao quadrado; para volume, ao cubo. Numa maquete 1:100, 30 cm² viram 30 × 100² = 300.000 cm² = 30 m², e não 3.000 cm²."
+          ],
+          "list": [
+            "1 m = 100 cm; 1 km = 100.000 cm.",
+            "1 m² = 10.000 cm²; 1 km² = 1.000.000 m².",
+            "1 m³ = 1.000 L."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Três irmãos de 3, 4 e 6 anos vão dividir R$ 4.500,00 em partes inversamente proporcionais às idades, para que o mais novo receba mais.",
+        "q": "Quanto recebe cada um?",
+        "a": "As partes são proporcionais a 1/3, 1/4 e 1/6; multiplicando por 12, ficam 4, 3 e 2, que somam 9. Cada parte vale 4.500 ÷ 9 = 500, e os irmãos recebem R$ 2.000,00, R$ 1.500,00 e R$ 1.000,00."
+      },
+      "traps": [
+        "Tratar como direta uma relação inversa: mais trabalhadores ou mais velocidade significam menos tempo.",
+        "Na razão 1:4, dividir o total por 4: o total tem 1 + 4 = 5 partes.",
+        "Aplicar a escala linear a áreas: em área, eleve a escala ao quadrado.",
+        "Esquecer de converter centímetros em quilômetros: divida por 100.000."
+      ],
+      "summary": [
+        "Teste do dobro: se uma dobra e a outra também, é direta; se a outra cai à metade, é inversa.",
+        "Na inversa, o produto das grandezas é constante.",
+        "Divisão proporcional: some as partes, ache o valor de uma parte e multiplique.",
+        "Escala vale para comprimento; ao quadrado para área e ao cubo para volume."
+      ],
+      "src": "Matriz de Referência do Enem (Inep), Matemática e suas Tecnologias (variação de grandezas e escalas); Dante, Matemática: Contexto e Aplicações."
+    },
+    {
+      "id": "mat-a3",
+      "title": "Juros e crescimento exponencial",
+      "mins": 7,
+      "qids": ["mt4", "mat7", "mat19", "mat20", "mat26", "mat27"],
+      "intro": "Você vai distinguir juros simples de compostos, calcular montantes e prazos e reconhecer a mesma lógica em bactérias que dobram e remédios que se reduzem à metade.",
+      "sections": [
+        {
+          "h": "Juros simples: sempre sobre o capital inicial",
+          "p": [
+            "Nos juros simples, J = C × i × t, e os juros de cada período são iguais. R$ 1.000,00 a 2% ao mês por 6 meses rendem 1.000 × 0,02 × 6 = 120, e o montante é R$ 1.120,00.",
+            "Para achar o prazo, divida os juros totais pelos juros de um período. Se R$ 5.000,00 a 2% ao mês viraram R$ 6.200,00, os juros foram 1.200 e cada mês rendeu 100: t = 12 meses."
+          ]
+        },
+        {
+          "h": "Juros compostos: juros sobre juros",
+          "p": [
+            "Nos compostos, M = C × (1 + i)ᵗ: cada mês multiplica pelo mesmo fator. Com C = 1.000 e i = 10% ao mês, os simples dão 1.100, 1.200 e 1.300; os compostos dão 1.100, 1.210 e 1.331.",
+            "Por isso 10% ao mês por 3 meses não são 30%: 1,1³ = 1,331, ou 33,1%. No primeiro período os dois regimes coincidem; depois, os compostos sempre rendem mais."
+          ],
+          "list": [
+            "1,1² = 1,21 e 1,1³ = 1,331.",
+            "1,05² = 1,1025 e 1,05³ = 1,157625.",
+            "1,02² = 1,0404."
+          ]
+        },
+        {
+          "h": "Taxa e tempo na mesma unidade",
+          "p": [
+            "Taxa ao mês exige tempo em meses; taxa ao ano, tempo em anos. Dois anos a 1% ao mês são 24 meses, não 2.",
+            "Nos simples, taxas proporcionais se equivalem (1% ao mês = 12% ao ano). Nos compostos, não: 1% ao mês dá 1,01¹² ≈ 1,1268, cerca de 12,7% ao ano."
+          ]
+        },
+        {
+          "h": "Dobrar e cair à metade: a mesma conta",
+          "p": [
+            "Crescimento exponencial é juros compostos com outro nome: N = N₀ × 2^(t/T), em que T é o tempo para dobrar. Uma cultura de 500 bactérias que dobra a cada 3 horas, em 15 horas passa por 5 duplicações: 500 × 2⁵ = 16.000.",
+            "Na meia-vida, o fator é 1/2: Q = Q₀ × (1/2)^(t/T). Uma dose de 800 mg com meia-vida de 6 horas, depois de 24 horas, passa por 4 meias-vidas: 800 → 400 → 200 → 100 → 50 mg."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Rita deixou de pagar uma fatura de R$ 800,00. O banco cobra juros compostos de 5% ao mês, e ela vai quitar a dívida após 3 meses, sem outros encargos.",
+        "q": "Quanto ela pagará e quanto pagaria se os juros fossem simples?",
+        "a": "Compostos: 800 × 1,05³ = 800 × 1,157625 = R$ 926,10. Simples: 800 + 800 × 0,05 × 3 = R$ 920,00; a diferença de R$ 6,10 são os juros sobre juros."
+      },
+      "traps": [
+        "Somar as taxas nos juros compostos: 10% ao mês por 3 meses é 33,1%, não 30%.",
+        "Usar taxa mensal com tempo em anos, ou o contrário.",
+        "Responder os juros quando a pergunta pede o montante (capital + juros), e vice-versa.",
+        "Na meia-vida, subtrair metade da dose inicial a cada período: a cada período cai a metade do que restou."
+      ],
+      "summary": [
+        "Juros simples: J = C × i × t, crescimento linear.",
+        "Juros compostos: M = C × (1 + i)ᵗ, crescimento exponencial.",
+        "Taxa e tempo precisam estar na mesma unidade.",
+        "Dobrar e meia-vida são potências: conte quantos períodos se passaram."
+      ],
+      "src": "Iezzi, Hazzan & Degenszajn, Fundamentos de Matemática Elementar, vol. 11 (Matemática Comercial e Financeira); Matriz de Referência do Enem (Inep)."
+    },
+    {
+      "id": "mat-a4",
+      "title": "Funções: reta, parábola e máximo",
+      "mins": 8,
+      "qids": ["mat9", "mat22", "mat21", "mat23", "mat24", "mat25"],
+      "intro": "Você vai montar a função afim a partir de dois pontos, achar o ponto de equilíbrio e usar o vértice da parábola para responder perguntas de altura máxima e lucro máximo.",
+      "sections": [
+        {
+          "h": "Função afim: taxa e valor inicial",
+          "p": [
+            "Em f(x) = ax + b, o coeficiente a é a taxa de variação (quanto f muda quando x aumenta 1) e b é o valor quando x = 0, como a bandeirada do táxi ou a taxa fixa de um aluguel.",
+            "Com dois pontos, a = Δy ÷ Δx. Se 5 km custam R$ 25,00 e 12 km custam R$ 46,00, a = 21 ÷ 7 = 3; de 25 = 3 × 5 + b vem b = R$ 10,00."
+          ]
+        },
+        {
+          "h": "Ponto de equilíbrio: receita igual a custo",
+          "p": [
+            "Custo = fixo + variável × quantidade; receita = preço × quantidade. O lucro zera quando os dois se igualam.",
+            "Uma costureira com custo fixo de R$ 1.200,00, gasto de R$ 15,00 por peça e preço de R$ 45,00 resolve 45x = 1.200 + 15x, ou 30x = 1.200, e precisa de 40 peças. Cada peça deixa R$ 30,00 para pagar o fixo."
+          ]
+        },
+        {
+          "h": "Parábola: o vértice responde máximo e mínimo",
+          "p": [
+            "Em f(x) = ax² + bx + c, se a < 0 a parábola tem concavidade para baixo e o vértice é ponto de máximo. A abscissa do vértice é xᵥ = −b ÷ (2a), e o valor máximo é f(xᵥ).",
+            "Para h(t) = −5t² + 20t, tᵥ = −20 ÷ (−10) = 2 s e h(2) = −20 + 40 = 20 m. A pergunta “quando” pede xᵥ; a pergunta “quanto” pede f(xᵥ)."
+          ]
+        },
+        {
+          "h": "Raízes e simetria",
+          "p": [
+            "As raízes são os valores de x que zeram a função, como o instante em que o foguete volta ao chão. Em −5t² + 30t = 0, colocando t em evidência: t(−5t + 30) = 0, então t = 0 ou t = 6 s.",
+            "A parábola é simétrica: o vértice fica no meio das raízes. Com raízes 0 e 6, o máximo ocorre em t = 3, o que serve para conferir a conta do xᵥ."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Um grupo de teatro de Olinda estima que, cobrando x reais pelo ingresso, sua receita por sessão é R(x) = −10x² + 400x.",
+        "q": "Qual preço maximiza a receita e qual é essa receita máxima?",
+        "a": "xᵥ = −400 ÷ (2 × (−10)) = 20, então o ingresso deve custar R$ 20,00. A receita é R(20) = −10 × 400 + 400 × 20 = −4.000 + 8.000 = R$ 4.000,00."
+      },
+      "traps": [
+        "Responder xᵥ quando a pergunta pede o valor máximo (yᵥ), ou o contrário.",
+        "Trocar os papéis de a e b na afim: b é o valor fixo (x = 0), a é o que muda por unidade.",
+        "Esquecer o sinal em xᵥ = −b ÷ (2a): com a negativo, o denominador fica negativo.",
+        "No ponto de equilíbrio, dividir o custo fixo pelo preço de venda: divida pela margem (preço − custo variável)."
+      ],
+      "summary": [
+        "Afim: a = Δy ÷ Δx é a taxa; b é o valor inicial.",
+        "Ponto de equilíbrio: receita = custo; quantidade = fixo ÷ margem por unidade.",
+        "Vértice: xᵥ = −b ÷ (2a); máximo quando a < 0.",
+        "Raízes zeram a função, e o vértice fica no meio delas."
+      ],
+      "src": "Iezzi & Murakami, Fundamentos de Matemática Elementar, vol. 1 (Conjuntos e Funções); Matriz de Referência do Enem (Inep), Matemática e suas Tecnologias."
+    },
+    {
+      "id": "mat-a5",
+      "title": "Geometria: áreas, volumes e Pitágoras",
+      "mins": 7,
+      "qids": ["mt5", "mat36", "mat12", "mat11", "mat40", "mat41"],
+      "intro": "Você vai calcular as áreas e os volumes que mais caem no ENEM, usar o teorema de Pitágoras e converter metros cúbicos em litros sem tropeçar no raio.",
+      "sections": [
+        {
+          "h": "Áreas planas essenciais",
+          "p": [
+            "Quatro fórmulas resolvem a maior parte das questões de área do ENEM. Para área “com buraco”, calcule o todo e subtraia a parte retirada: terreno de 12 m × 8 m com canteiro circular de raio 3 m (π = 3) tem 96 − 27 = 69 m² de grama."
+          ],
+          "list": [
+            "Retângulo: base × altura.",
+            "Triângulo: base × altura ÷ 2.",
+            "Trapézio: (base maior + base menor) × altura ÷ 2.",
+            "Círculo: π × r²."
+          ]
+        },
+        {
+          "h": "Raio, diâmetro e comparação de áreas",
+          "p": [
+            "O enunciado quase sempre dá o diâmetro, e a fórmula usa o raio, que é a metade. Pizza de 40 cm de diâmetro tem raio 20 cm e área 3 × 400 = 1.200 cm².",
+            "Como a área depende de r², dobrar o raio quadruplica a área. Para comparar preços, divida o preço pela área: R$ 72,00 ÷ 1.200 cm² = R$ 0,06 por cm²."
+          ]
+        },
+        {
+          "h": "Teorema de Pitágoras",
+          "p": [
+            "No triângulo retângulo, hipotenusa² = cateto² + cateto². A hipotenusa é o lado oposto ao ângulo reto e sempre o maior.",
+            "Diagonais de paredes, escadas apoiadas e cabos esticados costumam formar ternos famosos. Uma parede de 6 m por 8 m tem diagonal √(36 + 64) = 10 m."
+          ],
+          "list": [
+            "3, 4, 5 e seus múltiplos (6, 8, 10; 9, 12, 15).",
+            "5, 12, 13.",
+            "8, 15, 17."
+          ]
+        },
+        {
+          "h": "Volumes e capacidade",
+          "p": [
+            "Prisma e cilindro: área da base × altura. Cone e pirâmide: um terço disso. Esfera: (4/3) × π × r³.",
+            "Converta no fim: 1 m³ = 1.000 L, 1 dm³ = 1 L e 1 cm³ = 1 mL. Uma caixa-d'água cilíndrica de 2 m de diâmetro e 1,5 m de altura (π = 3) tem 3 × 1² × 1,5 = 4,5 m³ = 4.500 L."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Uma fábrica de Itajaí produz latas cilíndricas de 10 cm de diâmetro e 12 cm de altura e quer lançar uma embalagem em forma de cone com a mesma base e a mesma altura. Use π = 3.",
+        "q": "Qual a capacidade de cada embalagem, em mililitros?",
+        "a": "Raio = 5 cm. Lata: 3 × 5² × 12 = 900 cm³ = 900 mL. Cone: um terço disso, 300 mL; com mesma base e altura, o cone sempre tem um terço do volume do cilindro."
+      },
+      "traps": [
+        "Usar o diâmetro no lugar do raio: em área e volume, o erro se multiplica por 4 ou por 8.",
+        "Esquecer o 1/3 no volume do cone e da pirâmide.",
+        "Converter m³ em litros multiplicando por 100: o fator é 1.000.",
+        "Somar os catetos para achar a hipotenusa: use a soma dos quadrados."
+      ],
+      "summary": [
+        "Áreas: retângulo bh, triângulo bh/2, trapézio (B + b)h/2, círculo πr².",
+        "Pitágoras: a² = b² + c²; memorize 3-4-5 e 5-12-13.",
+        "Volumes: base × altura; cone e pirâmide, um terço; esfera, (4/3)πr³.",
+        "1 m³ = 1.000 L e 1 cm³ = 1 mL."
+      ],
+      "src": "Dolce & Pompeo, Fundamentos de Matemática Elementar, vols. 9 e 10 (Geometria Plana e Geometria Espacial); Matriz de Referência do Enem (Inep)."
+    },
+    {
+      "id": "mat-a6",
+      "title": "Estatística e probabilidade",
+      "mins": 8,
+      "qids": ["mt3", "mt6", "mat47", "mat8", "mat51", "mat52"],
+      "intro": "Você vai escolher entre média, mediana e moda conforme a situação e calcular probabilidades com as regras do “e” e do “ou”, incluindo retiradas sem reposição.",
+      "sections": [
+        {
+          "h": "Média simples e ponderada",
+          "p": [
+            "A média aritmética é a soma dividida pela quantidade. Na ponderada, cada valor é multiplicado pelo seu peso, e a soma é dividida pela soma dos pesos.",
+            "Notas 6 (peso 2) e 8 (peso 3) dão (12 + 24) ÷ 5 = 7,2. Para descobrir a nota que falta, use a soma: média 7 em 4 notas exige soma 28."
+          ]
+        },
+        {
+          "h": "Mediana e moda",
+          "p": [
+            "A mediana é o valor central depois de ordenar os dados. Com quantidade ímpar, é o termo do meio; com quantidade par, é a média dos dois centrais.",
+            "A moda é o valor que mais se repete, útil para decidir o que repor no estoque. Quando há valores extremos, como um salário muito alto, a mediana representa melhor o “típico” do que a média."
+          ]
+        },
+        {
+          "h": "Probabilidade: casos favoráveis sobre possíveis",
+          "p": [
+            "Com resultados igualmente prováveis, P = favoráveis ÷ possíveis. Quem compra 8 de 200 bilhetes tem 8 ÷ 200 = 4% de chance.",
+            "Para “pelo menos um”, use o complementar: P = 1 − P(nenhum). A chance de sair pelo menos uma cara em 3 lançamentos de moeda é 1 − (1/2)³ = 7/8."
+          ]
+        },
+        {
+          "h": "Regras do “e” e do “ou”",
+          "p": [
+            "“E” (um evento depois do outro) multiplica. Sem reposição, o segundo sorteio muda: com 5 bolas vermelhas e 3 azuis, duas vermelhas seguidas têm P = 5/8 × 4/7 = 5/14.",
+            "“Ou” soma, descontando a interseção para não contar duas vezes. Se 18 de 40 alunos jogam futebol, 12 jogam vôlei e 6 jogam os dois, P = (18 + 12 − 6) ÷ 40 = 24/40 = 60%."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Os salários mensais dos seis funcionários de uma pequena empresa de Aracaju são R$ 1.500, R$ 1.500, R$ 1.800, R$ 2.000, R$ 2.200 e R$ 15.000 (o do dono).",
+        "q": "Calcule média, mediana e moda. Qual delas descreve melhor o salário típico?",
+        "a": "Média: 24.000 ÷ 6 = R$ 4.000; mediana: (1.800 + 2.000) ÷ 2 = R$ 1.900; moda: R$ 1.500. A mediana descreve melhor o típico, porque a média foi puxada pelo salário de R$ 15.000."
+      },
+      "traps": [
+        "Calcular a mediana sem ordenar os dados.",
+        "Na média ponderada, dividir pela quantidade de notas em vez da soma dos pesos.",
+        "Em retiradas sem reposição, manter o mesmo denominador no segundo sorteio.",
+        "No “ou”, somar as probabilidades sem descontar quem está nos dois grupos."
+      ],
+      "summary": [
+        "Média ponderada: Σ(valor × peso) ÷ Σ(pesos).",
+        "Mediana exige ordenar; com dados extremos, é melhor que a média.",
+        "“E” multiplica; “ou” soma e desconta a interseção.",
+        "“Pelo menos um” sai mais fácil pelo complementar."
+      ],
+      "src": "Iezzi, Hazzan & Degenszajn, Fundamentos de Matemática Elementar, vol. 11 (Estatística Descritiva); Hazzan, Fundamentos de Matemática Elementar, vol. 5 (Combinatória e Probabilidade); Matriz de Referência do Enem (Inep)."
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+ "id": "info",
+ "lessons": [
+  {
+   "id": "info-a1",
+   "title": "Memória, disco e nuvem: onde os dados ficam",
+   "mins": 6,
+   "qids": [
+    "info5",
+    "info11",
+    "info12",
+    "info13",
+    "info8",
+    "info59"
+   ],
+   "intro": "Ao fim desta aula você vai explicar por que o computador fica lento, o que se perde numa queda de energia e distinguir IaaS, PaaS e SaaS sem decoreba.",
+   "sections": [
+    {
+     "h": "A pirâmide da memória",
+     "p": [
+      "Quanto mais perto do processador, mais rápida, menor e mais cara é a memória. Da mais rápida para a mais lenta: registradores, cache, RAM e, por fim, o armazenamento, com o SSD à frente do HD.",
+      "A banca adora inverter a pirâmide. Lembre que a velocidade cresce para cima e a capacidade cresce para baixo: o HD guarda terabytes, mas é o mais lento da lista."
+     ],
+     "list": [
+      "Registradores: dentro do processador, guardam o dado da operação em curso.",
+      "Cache (L1, L2, L3): cópia do que o processador usa com mais frequência.",
+      "RAM: programas e arquivos abertos agora.",
+      "SSD e HD: tudo o que precisa continuar guardado depois que o computador desliga."
+     ]
+    },
+    {
+     "h": "RAM é volátil; o disco, não",
+     "p": [
+      "A RAM só mantém os dados enquanto recebe energia. Por isso o texto não salvo some numa queda de luz, enquanto o arquivo já salvo no SSD continua lá.",
+      "O firmware que liga a máquina (BIOS/UEFI) fica em memória não volátil, do tipo ROM/flash, na placa-mãe. É por isso que o computador volta a ligar normalmente depois da queda.",
+      "Quando a RAM enche, o sistema usa parte do disco como extensão dela (memória virtual ou arquivo de paginação). Como o disco é muito mais lento, tudo engasga: lentidão com muitos programas abertos se resolve com mais RAM, não com mais espaço em disco."
+     ]
+    },
+    {
+     "h": "SSD contra HD",
+     "p": [
+      "O HD grava em discos magnéticos que giram, lidos por uma cabeça que se move. O SSD usa memória flash e não tem partes mecânicas móveis.",
+      "Sem peças móveis, o SSD acessa os dados mais rápido, é silencioso e tolera melhor quedas e trepidação, o que importa em notebook de campo. O HD ainda vence no custo por gigabyte, por isso continua comum em backups e servidores de arquivos."
+     ]
+    },
+    {
+     "h": "Nuvem: quem cuida de quê",
+     "p": [
+      "O NIST SP 800-145 define três modelos de serviço. A pergunta que resolve qualquer questão é: o que o cliente ainda administra?",
+      "Público, privado, comunitário e híbrido são outra classificação, a dos modelos de implantação. Não confunda o que se contrata (serviço) com quem compartilha a infraestrutura (implantação)."
+     ],
+     "list": [
+      "IaaS (infraestrutura): o provedor entrega máquinas virtuais, rede e armazenamento; o cliente instala e mantém sistema operacional e programas.",
+      "PaaS (plataforma): o provedor entrega ambiente de execução, banco de dados e ferramentas; o cliente só implanta e controla a própria aplicação.",
+      "SaaS (software): o provedor entrega o programa pronto, geralmente pelo navegador, como e-mail e editores on-line; o cliente só usa."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Uma secretaria municipal aluga de um provedor servidores virtuais e instala neles o próprio sistema de protocolo. A equipe da secretaria cuida do sistema operacional e das atualizações.",
+    "q": "Qual modelo de serviço em nuvem foi contratado?",
+    "a": "IaaS. O provedor entregou só a infraestrutura; sistema operacional e aplicação continuam com a equipe da secretaria. Se o provedor também cuidasse do sistema operacional e do banco de dados, seria PaaS."
+   },
+   "traps": [
+    "Computador lento com SSD quase vazio não se resolve com disco maior: o gargalo é a RAM, que obriga o sistema a usar o disco como memória.",
+    "O cache da hierarquia é a memória rápida junto do processador; não confunda com o cache do navegador.",
+    "Volátil é a RAM. ROM e flash guardam o conteúdo sem energia.",
+    "SaaS não quer dizer gratuito nem só e-mail: é qualquer software entregue pronto como serviço."
+   ],
+   "summary": [
+    "Velocidade: registradores > cache > RAM > SSD > HD; a capacidade cresce no sentido inverso.",
+    "RAM é volátil; ROM/flash e discos guardam dados sem energia.",
+    "Pouca RAM obriga o uso do disco como memória virtual, e o computador fica lento.",
+    "IaaS: o cliente cuida do sistema operacional; PaaS: só da aplicação; SaaS: só usa."
+   ],
+   "src": "Tanenbaum, Organização Estruturada de Computadores (hierarquia de memória); NIST SP 800-145 (definição de computação em nuvem)."
+  },
+  {
+   "id": "info-a2",
+   "title": "Windows e Linux: atalhos, arquivos e permissões",
+   "mins": 7,
+   "qids": [
+    "info1",
+    "info14",
+    "info17",
+    "info18",
+    "info6",
+    "info21"
+   ],
+   "intro": "Ao fim desta aula você vai dominar os atalhos do Windows que mais caem, saber o que vai ou não para a Lixeira e calcular permissões do Linux de cabeça.",
+   "sections": [
+    {
+     "h": "Os atalhos do Windows que valem ponto",
+     "p": [
+      "Atalho com a tecla Windows (Win) é do sistema e funciona com qualquer programa aberto. Decore pelo verbo, não pela letra solta."
+     ],
+     "list": [
+      "Win + L: bloqueia a sessão; os programas continuam abertos.",
+      "Win + E: abre o Explorador de Arquivos.",
+      "Win + D: mostra a área de trabalho.",
+      "Win + Shift + S: recorta uma área da tela.",
+      "Ctrl + Shift + Esc: abre direto o Gerenciador de Tarefas; Ctrl + Alt + Del abre uma tela de opções que inclui o Gerenciador.",
+      "Alt + Tab: alterna entre janelas; Alt + F4 fecha a janela ativa.",
+      "F2: renomeia o item selecionado no Explorador."
+     ]
+    },
+    {
+     "h": "Lixeira: o que volta e o que some",
+     "p": [
+      "Delete manda o item do disco do computador para a Lixeira; Shift + Delete exclui direto, depois de pedir confirmação.",
+      "Na configuração padrão, o que se apaga de pen drive, cartão de memória ou pasta de rede não passa pela Lixeira: some de vez. Itens grandes demais para o espaço reservado à Lixeira também são excluídos permanentemente, com aviso."
+     ]
+    },
+    {
+     "h": "A extensão que vale é a última",
+     "p": [
+      "O Windows identifica o tipo do arquivo pelo que vem depois do último ponto. Em boleto_pagamento.pdf.exe, o arquivo é um executável; o .pdf é só parte do nome.",
+      "Por padrão, o Explorador esconde as extensões de tipos conhecidos, o que ajuda o golpe. Ative a exibição das extensões nas opções de exibição do Explorador para enxergar o final real."
+     ]
+    },
+    {
+     "h": "Linux: terminal e permissões",
+     "p": [
+      "No terminal, pwd mostra o caminho do diretório atual, cd .. sobe um nível e cd sozinho volta para a pasta pessoal. Linux diferencia maiúsculas de minúsculas: Relatorio.txt e relatorio.txt são arquivos distintos e podem coexistir.",
+      "Em ls -l, o primeiro caractere indica o tipo (- arquivo comum, d diretório) e os nove seguintes vêm em três trios: dono, grupo e outros. No chmod numérico, cada trio vira um dígito somando r = 4, w = 2 e x = 1."
+     ],
+     "list": [
+      "rwx = 4 + 2 + 1 = 7",
+      "r-x = 4 + 0 + 1 = 5",
+      "r-- = 4 e --- = 0",
+      "-rw-r--r-- equivale a 644; -rwxr-xr-- equivale a 754"
+     ]
+    }
+   ],
+   "example": {
+    "c": "O analista quer que o script relatorio.sh seja lido, gravado e executado pelo dono, lido e executado pelo grupo, e que os demais usuários não tenham acesso nenhum.",
+    "q": "Qual comando aplica essas permissões?",
+    "a": "chmod 750 relatorio.sh. Dono rwx = 7, grupo r-x = 5 e outros --- = 0, sempre nessa ordem."
+   },
+   "traps": [
+    "Win + L não faz logoff: bloqueia e mantém tudo aberto. Sair da conta é que fecha os programas.",
+    "Ctrl + Alt + Del não abre direto o Gerenciador de Tarefas; quem abre direto é Ctrl + Shift + Esc.",
+    "Arquivo apagado do pen drive com Delete não está na Lixeira.",
+    "No chmod numérico a ordem é dono, grupo, outros; trocar a ordem dos dígitos muda tudo.",
+    "Em ls -l, o primeiro caractere não é permissão: é o tipo do item."
+   ],
+   "summary": [
+    "Win + L bloqueia, Win + E abre o Explorador e Ctrl + Shift + Esc abre o Gerenciador de Tarefas.",
+    "Shift + Delete e itens de pen drive ou rede não passam pela Lixeira.",
+    "A extensão real é a que vem depois do último ponto.",
+    "Permissões no Linux: r = 4, w = 2, x = 1, na ordem dono, grupo, outros."
+   ],
+   "src": "Microsoft Support: atalhos de teclado do Windows e Lixeira; GNU Coreutils: chmod e ls; manual do Bash: cd."
+  },
+  {
+   "id": "info-a3",
+   "title": "Redes, portas e e-mail",
+   "mins": 8,
+   "qids": [
+    "info27",
+    "info28",
+    "info29",
+    "info30",
+    "info4",
+    "info38"
+   ],
+   "intro": "Ao fim desta aula você vai associar cada serviço à sua porta, distinguir TCP de UDP e configurar e endereçar e-mails sem cair nas pegadinhas de POP3, IMAP e Cco.",
+   "sections": [
+    {
+     "h": "Como o computador acha um site",
+     "p": [
+      "Na rede, os computadores se acham por endereço IP. O IPv4 tem 32 bits, escritos como 192.168.0.10; o IPv6 tem 128 bits, escritos em hexadecimal.",
+      "O DNS traduz o nome digitado, como www.gov.br, no IP do servidor. Se a porta 53 for bloqueada, o acesso por nome falha, mas o acesso direto pelo IP continua funcionando.",
+      "Na URL https://loja.exemplo.com.br/produtos, https é o protocolo, loja é o subdomínio, exemplo.com.br é o domínio e /produtos é o caminho. Quanto à abrangência, a rede de um prédio é LAN, e a que liga cidades é WAN."
+     ]
+    },
+    {
+     "h": "TCP ou UDP",
+     "p": [
+      "O TCP é orientado à conexão: confirma a entrega, reordena os pacotes e retransmite o que se perdeu. É a escolha para web, e-mail e transferência de arquivos, em que nenhum dado pode faltar.",
+      "O UDP não estabelece conexão nem retransmite, por isso é mais leve e tem menos atraso. Serve a voz, vídeo ao vivo e consultas DNS, em que chegar rápido importa mais que chegar tudo."
+     ]
+    },
+    {
+     "h": "As portas que mais caem",
+     "p": [
+      "Decore em pares: o serviço sem criptografia e a sua versão protegida por TLS."
+     ],
+     "list": [
+      "20 e 21: FTP (dados e controle).",
+      "22: SSH, acesso remoto seguro; 23: Telnet, sem criptografia.",
+      "25: SMTP entre servidores; 587: envio de mensagens pelo cliente de e-mail.",
+      "53: DNS (UDP e TCP).",
+      "80: HTTP; 443: HTTPS.",
+      "110: POP3; 995: POP3 com TLS.",
+      "143: IMAP; 993: IMAP com TLS.",
+      "3389: área de trabalho remota do Windows (RDP)."
+     ]
+    },
+    {
+     "h": "E-mail: quem envia, quem recebe",
+     "p": [
+      "O SMTP envia. POP3 e IMAP recebem, e a diferença entre eles é onde as mensagens ficam.",
+      "O POP3 foi feito para baixar as mensagens para um aparelho, tradicionalmente removendo-as do servidor. No IMAP, mensagens e pastas ficam no servidor, e todos os aparelhos enxergam o mesmo estado: lido no celular, lido no notebook.",
+      "Quem usa webmail acessa a caixa pelo navegador, via HTTPS. SMTP, POP3 e IMAP continuam existindo, mas rodam por trás, nos servidores."
+     ]
+    },
+    {
+     "h": "Para, Cc e Cco",
+     "p": [
+      "Endereços em Para e em Cc ficam visíveis para todos os destinatários. Quem está em Cco recebe a mensagem e vê quem está em Para e Cc, mas ninguém vê o endereço dele.",
+      "Comunicado para 150 pais de alunos vai com os endereços em Cco, para que ninguém veja o e-mail dos outros."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Juliana lê o e-mail institucional no notebook, no celular e no computador do escritório e quer que pastas e marcações de lido fiquem iguais em todos. O técnico vai configurar os servidores de entrada e de saída, com TLS.",
+    "q": "Que protocolos e portas ele deve usar?",
+    "a": "Entrada por IMAP na porta 993, que mantém tudo no servidor e sincroniza os aparelhos. Saída por SMTP na porta 587, a de envio pelo cliente; com POP3, cada aparelho ficaria com uma caixa diferente."
+   },
+   "traps": [
+    "POP3 é 110 e IMAP é 143; a banca adora inverter.",
+    "SMTP é protocolo de envio, nunca de recebimento.",
+    "DNS usa UDP e também TCP na porta 53.",
+    "Bloquear a porta 53 não derruba tudo: o acesso pelo IP continua.",
+    "Quem está em Cco vê os destinatários de Para e Cc; o oculto é ele."
+   ],
+   "summary": [
+    "O DNS traduz nomes em IPs, na porta 53; IPv4 tem 32 bits e IPv6, 128.",
+    "TCP garante a entrega; UDP prioriza a rapidez.",
+    "Portas-chave: 22 SSH, 25/587 SMTP, 53 DNS, 80/443 web, 110/995 POP3, 143/993 IMAP.",
+    "IMAP sincroniza os aparelhos; POP3 baixa para um só.",
+    "Cco esconde o endereço dos destinatários ocultos."
+   ],
+   "src": "IANA Service Name and Port Number Registry; RFC 1035 (DNS); RFC 9293 (TCP); RFC 768 (UDP); RFC 1939 (POP3); RFC 9051 (IMAP); RFC 6409 (submissão de e-mail); RFC 5322 (campos To, Cc e Bcc)."
+  },
+  {
+   "id": "info-a4",
+   "title": "Malware, firewall e backup",
+   "mins": 7,
+   "qids": [
+    "info39",
+    "info40",
+    "info41",
+    "info43",
+    "info7",
+    "info44"
+   ],
+   "intro": "Ao fim desta aula você vai diferenciar vírus, worm, cavalo de troia e spyware pelo comportamento, saber o que o firewall faz e montar a restauração de qualquer esquema de backup.",
+   "sections": [
+    {
+     "h": "Classifique o malware pelo comportamento",
+     "p": [
+      "A Cartilha do CERT.br, base da maioria das questões, separa os códigos maliciosos pela forma de propagação e pelo que fazem. Pergunte sempre: ele se espalha sozinho? Precisa ser executado?"
+     ],
+     "list": [
+      "Vírus: propaga-se inserindo cópias de si em outros programas e arquivos e depende da execução do hospedeiro.",
+      "Worm: propaga-se sozinho pela rede, enviando cópias de si e explorando vulnerabilidades, sem que ninguém execute nada.",
+      "Bot: propaga-se como o worm, mas pode ser controlado remotamente; várias máquinas assim formam uma botnet.",
+      "Cavalo de troia: além das funções aparentes, executa outras, maliciosas, sem o usuário saber; precisa ser executado e não se replica.",
+      "Spyware: monitora a atividade e envia informações a terceiros; o keylogger, um tipo de spyware, captura as teclas digitadas.",
+      "Ransomware: torna os dados inacessíveis, geralmente por criptografia, e exige resgate."
+     ]
+    },
+    {
+     "h": "Phishing é golpe, não vírus",
+     "p": [
+      "Phishing é a fraude em que o golpista tenta obter dados pessoais e financeiros combinando engenharia social e meios técnicos, como mensagens e páginas falsas. Não precisa infectar nada: basta a vítima digitar a senha no lugar errado.",
+      "O cadeado do HTTPS também não resolve: ele indica conexão criptografada, não site legítimo. Golpistas também têm certificado."
+     ]
+    },
+    {
+     "h": "Firewall filtra conexões, não arquivos",
+     "p": [
+      "O firewall fica entre redes, ou no próprio computador, e permite ou bloqueia conexões conforme regras, como portas e endereços. Ele impede, por exemplo, que alguém de fora alcance um serviço que não deveria estar exposto.",
+      "Ele não substitui o antivírus. Malware que chega por anexo, pen drive ou site permitido usa conexões autorizadas, e quem lida com ele é o antimalware, junto com as atualizações."
+     ]
+    },
+    {
+     "h": "Completo, incremental e diferencial",
+     "p": [
+      "O completo copia tudo. O incremental copia só o que mudou desde o último backup de qualquer tipo; o diferencial copia tudo o que mudou desde o último completo.",
+      "Daí a regra de restauração. Com incrementais, restaure o último completo e todos os incrementais seguintes, em ordem; com diferenciais, o completo e apenas o diferencial mais recente."
+     ],
+     "list": [
+      "Incremental: cópia diária mais rápida e menor; restauração mais trabalhosa, com mais peças.",
+      "Diferencial: cresce a cada dia até o próximo completo; restauração com só duas peças."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Um cartório faz backup completo no domingo e incrementais de segunda a sábado. Na sexta de manhã, o servidor queima e é preciso voltar à situação de quinta à noite.",
+    "q": "O que precisa ser restaurado?",
+    "a": "O completo de domingo e, em ordem, os incrementais de segunda, terça, quarta e quinta. Se a rotina fosse de diferenciais, bastariam o completo e o diferencial de quinta."
+   },
+   "traps": [
+    "Worm não precisa ser executado pelo usuário; vírus e cavalo de troia precisam.",
+    "Cavalo de troia não se replica sozinho.",
+    "Keylogger é tipo de spyware, não de vírus.",
+    "Firewall não dispensa antivírus nem atualizações.",
+    "Na rotina com diferenciais não se restauram todos os dias da semana, só o mais recente."
+   ],
+   "summary": [
+    "Worm se espalha sozinho; vírus depende do hospedeiro; cavalo de troia se disfarça e não se replica.",
+    "Phishing é fraude por engenharia social, não um tipo de vírus.",
+    "Firewall controla conexões por regras e não substitui o antivírus.",
+    "Incremental: completo + todos os incrementais; diferencial: completo + o último diferencial."
+   ],
+   "src": "Cartilha de Segurança para Internet (CERT.br): códigos maliciosos, golpes, firewall e backup."
+  },
+  {
+   "id": "info-a5",
+   "title": "Criptografia, assinatura e certificado digital",
+   "mins": 7,
+   "qids": [
+    "info45",
+    "info46",
+    "info47",
+    "info48",
+    "info49"
+   ],
+   "intro": "Ao fim desta aula você vai saber qual chave usar para cifrar e para assinar, o que a assinatura digital garante e como funciona a cadeia da ICP-Brasil.",
+   "sections": [
+    {
+     "h": "Simétrica e assimétrica",
+     "p": [
+      "Na criptografia simétrica, a mesma chave secreta cifra e decifra. É rápida, e o AES é o exemplo clássico, mas exige que as partes combinem a chave de forma segura.",
+      "Na assimétrica, cada pessoa tem um par de chaves: a pública, que pode ser distribuída, e a privada, que só o dono tem. O que uma chave do par cifra, só a outra decifra; o RSA é o exemplo clássico.",
+      "Na prática, os sistemas combinam as duas: a assimétrica protege a troca de uma chave simétrica, que então cifra os dados. É o que acontece numa conexão HTTPS."
+     ]
+    },
+    {
+     "h": "Qual chave usar",
+     "p": [
+      "Para sigilo, cifre com a chave pública do destinatário, porque só a privada dele abre. Para assinar, use a sua chave privada, e qualquer pessoa confere com a sua chave pública."
+     ],
+     "list": [
+      "Confidencialidade: cifrar com a chave pública do destinatário.",
+      "Assinatura: gerar com a chave privada de quem assina.",
+      "Verificação da assinatura: usar a chave pública de quem assinou."
+     ]
+    },
+    {
+     "h": "O que a assinatura digital garante",
+     "p": [
+      "A assinatura é gerada a partir de um resumo (hash) do documento, processado com a chave privada do signatário. Se uma vírgula do documento mudar, a verificação falha.",
+      "Por isso ela garante autenticidade (quem assinou), integridade (o conteúdo não foi alterado) e não repúdio (o signatário não pode negar a autoria). Não garante confidencialidade: o documento assinado continua legível por quem o tiver."
+     ]
+    },
+    {
+     "h": "Certificado digital e ICP-Brasil",
+     "p": [
+      "O certificado digital é a identidade eletrônica: vincula a chave pública do titular aos seus dados, tem prazo de validade e é assinado pela Autoridade Certificadora (AC) que o emitiu. Pode ficar em arquivo no computador ou em token e cartão.",
+      "Na ICP-Brasil, instituída pela MP 2.200-2/2001, o ITI é a AC Raiz (art. 13). Ela emite certificados para as ACs do nível imediatamente seguinte e é proibida de emitir para o usuário final (art. 5º, parágrafo único); pessoas e empresas obtêm e-CPF e e-CNPJ em ACs credenciadas.",
+      "Documentos eletrônicos assinados com certificado ICP-Brasil presumem-se verdadeiros em relação aos signatários (art. 10, § 1º)."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Uma auditora quer enviar ao tribunal um parecer que só o tribunal possa ler e que comprove ter sido ela a autora.",
+    "q": "Quais chaves entram em cada etapa?",
+    "a": "Ela assina com a própria chave privada e cifra com a chave pública do tribunal. O tribunal decifra com a sua chave privada e confere a assinatura com a chave pública da auditora."
+   },
+   "traps": [
+    "Assinatura digital não garante sigilo do conteúdo.",
+    "Cifrar com a própria chave privada não dá confidencialidade: qualquer um decifra com a pública.",
+    "O ITI não emite certificado para pessoas ou empresas; a AC Raiz não atende o usuário final.",
+    "Assinatura digital, feita com chave criptográfica, não é assinatura digitalizada, que é só a imagem da assinatura."
+   ],
+   "summary": [
+    "Simétrica: uma chave secreta; assimétrica: par de chaves pública e privada.",
+    "Sigilo: chave pública do destinatário; assinatura: chave privada do signatário.",
+    "Assinatura digital garante autenticidade, integridade e não repúdio, mas não confidencialidade.",
+    "Na ICP-Brasil, o ITI é a AC Raiz e não emite certificado para o usuário final."
+   ],
+   "src": "Cartilha de Segurança para Internet (CERT.br): criptografia e certificados; MP 2.200-2/2001, arts. 5º, 10 e 13; ITI."
+  },
+  {
+   "id": "info-a6",
+   "title": "Office e LibreOffice em português",
+   "mins": 8,
+   "qids": [
+    "info54",
+    "info55",
+    "info53",
+    "info50",
+    "info56",
+    "info58"
+   ],
+   "intro": "Ao fim desta aula você vai resolver as fórmulas de planilha que mais caem e não vai mais confundir os atalhos do Word, do Writer e do PowerPoint em português.",
+   "sections": [
+    {
+     "h": "Dois-pontos é intervalo; ponto e vírgula separa",
+     "p": [
+      "Em português, =SOMA(A1:A3) soma A1, A2 e A3, enquanto =SOMA(A1;A3) soma só A1 e A3. Com 100, 200 e 300 nas células, os resultados são 600 e 400.",
+      "As funções têm nome em português (SOMA, MÉDIA, SE, PROCV) tanto no Excel quanto no Calc. Uma diferença clássica: para citar outra planilha, o Excel usa exclamação (Planilha2!A1) e o Calc usa ponto (Planilha2.A1)."
+     ]
+    },
+    {
+     "h": "Ordem das operações",
+     "p": [
+      "O Excel resolve primeiro os parênteses, depois a potência (^), depois multiplicação e divisão e, por último, soma e subtração. Assim, =2+3*2^2 dá 14: 2^2 = 4, 3*4 = 12 e 2 + 12 = 14.",
+      "Com parênteses a conta muda: =(2+3)*2^2 dá 20. Na dúvida sobre a intenção da fórmula, os parênteses deixam tudo explícito."
+     ]
+    },
+    {
+     "h": "Referências: o cifrão trava",
+     "p": [
+      "Ao copiar, as referências relativas andam junto: de C2 para C5, B2 vira B5. O $ trava o que vem logo depois dele: $E$1 trava coluna e linha, A$1 só a linha e $A1 só a coluna.",
+      "Para descobrir a fórmula copiada, conte quantas colunas e linhas ela andou e aplique só no que não tem $. Exemplo: =A$1+$B2, copiada de C3 para D5 (uma coluna e duas linhas), vira =B$1+$B4."
+     ]
+    },
+    {
+     "h": "MÉDIA: vazio não é zero",
+     "p": [
+      "MÉDIA ignora células vazias e texto, mas conta o zero. Com 8, 6, vazio e 10, =MÉDIA(B2:B5) dá 8 (24 dividido por 3); se a célula vazia tivesse 0, daria 6 (24 dividido por 4)."
+     ]
+    },
+    {
+     "h": "Atalhos de texto e de slides",
+     "p": [
+      "No Word em português, Ctrl + N aplica negrito, Ctrl + I itálico e Ctrl + S sublinhado; salvar é Ctrl + B. No Writer do LibreOffice vale o padrão em inglês: Ctrl + B negrito, Ctrl + I itálico, Ctrl + U sublinhado e Ctrl + S salvar.",
+      "Nos dois editores, Ctrl + Enter insere quebra de página, que mantém o capítulo no início da página mesmo que o texto acima mude. No PowerPoint, F5 inicia a apresentação no primeiro slide e Shift + F5 no slide atual.",
+      "O slide mestre guarda tema, fontes, cores, fundo e elementos fixos, como o brasão. O que muda nele vale para todos os slides baseados nos seus layouts."
+     ]
+    }
+   ],
+   "example": {
+    "c": "Na planilha de diárias, E1 tem o valor da diária e B2:B10 têm os dias de cada servidor. O técnico escreveu =B2*$E$1 em C2 e copiou até C10.",
+    "q": "Que fórmula aparece em C7 e por quê?",
+    "a": "=B7*$E$1. B2 é relativa e andou cinco linhas; $E$1 é absoluta e continua apontando para a diária."
+   },
+   "traps": [
+    "=SOMA(A1;A3) não soma o intervalo, só as duas células citadas.",
+    "Ctrl + S no Word em português sublinha; no Writer, salva.",
+    "No Excel, =-2^2 dá 4, porque o sinal negativo é aplicado antes da potência.",
+    "Alteração no slide mestre não fica restrita ao slide selecionado.",
+    "MÉDIA não trata célula vazia como zero."
+   ],
+   "summary": [
+    "Dois-pontos indica intervalo; ponto e vírgula separa argumentos.",
+    "Precedência: parênteses, potência, multiplicação e divisão, soma e subtração.",
+    "O $ trava a coluna ou a linha que vem logo depois dele.",
+    "Word em português: Ctrl + N negrito e Ctrl + B salvar; Writer: Ctrl + B negrito e Ctrl + S salvar."
+   ],
+   "src": "Microsoft Support: operadores de cálculo e precedência, funções SOMA e MÉDIA, referências relativas e absolutas, atalhos do Word e do PowerPoint, slide mestre; Ajuda do LibreOffice: atalhos do Writer e referências no Calc."
+  }
+ ]
+}

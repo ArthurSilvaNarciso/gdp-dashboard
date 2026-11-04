@@ -1,67 +1,103 @@
-/* ================= Ícones próprios do Memory ================= */
-// Desenhados à mão numa grade de 24 px, traço 1.8 com pontas arredondadas.
-// A assinatura da marca: um único ponto ou forma laranja ("a") por ícone, eco dos dois círculos do logo.
-// Nada de faíscas ou estrelinhas: cada ícone representa uma ação concreta do estudo.
-Object.assign(I, {
-  home: '<path d="M4 10.4 12 4.2l8 6.2V19a1.2 1.2 0 0 1-1.2 1.2H15v-5.4H9v5.4H5.2A1.2 1.2 0 0 1 4 19z"/><circle class="a" cx="12" cy="10.6" r="1.7"/>',
-  decks: '<rect x="3.8" y="8.2" width="12.6" height="12" rx="2.4"/><path d="M7.6 4.8h10.2a2.4 2.4 0 0 1 2.4 2.4v9.6"/><circle class="a" cx="10.1" cy="14.2" r="2.1"/>',
-  plus: '<path d="M12 5.2v13.6M5.2 12h13.6"/>',
-  chart: '<path d="M5 20v-6.5M12 20V10M19 20v-3.5"/><circle class="a" cx="19" cy="10.6" r="2.1"/><path d="M3.5 20.2h17"/>',
-  user: '<circle cx="12" cy="8.6" r="3.9"/><path d="M4.6 20.2c1.3-3.7 4.2-5.6 7.4-5.6s6.1 1.9 7.4 5.6"/>',
-  users: '<circle cx="9" cy="8.6" r="3.4"/><path d="M2.8 19.8c.9-3.3 3.3-5.1 6.2-5.1s5.3 1.8 6.2 5.1"/><circle class="a" cx="17.4" cy="9.6" r="2.4"/><path d="M17.2 14.6c2.1.2 3.5 1.8 4.1 4.4"/>',
-  flame: '<path d="M12 3.4c.8 3.1 4.9 5 4.9 9.7a4.9 4.9 0 0 1-9.8 0c0-2.4 1.3-3.5 2-4.9.7 1.1 1.4 1.7 2.4 1.9.3-2.4-.2-4.5.5-6.7Z"/><path class="a" d="M12 20.4a2.1 2.1 0 0 1-2.1-2.1c0-1.3 1.1-1.9 2.1-3.3 1 1.4 2.1 2 2.1 3.3a2.1 2.1 0 0 1-2.1 2.1Z"/>',
-  shield: '<path d="M12 3.4 5.4 6v5.3c0 4.1 2.7 7.6 6.6 9.3 3.9-1.7 6.6-5.2 6.6-9.3V6z"/><path d="m9.1 12.1 2.1 2.1 3.9-4.1"/>',
-  close: '<path d="M6.6 6.6l10.8 10.8M17.4 6.6 6.6 17.4"/>',
-  x: '<path d="M7.2 7.2l9.6 9.6M16.8 7.2l-9.6 9.6"/>',
-  back: '<path d="M14.6 5.4 8 12l6.6 6.6"/>',
-  chev: '<path d="m9.6 6 6 6-6 6"/>',
-  tick: '<path d="m5.2 12.6 4.4 4.4 9.2-9.8"/>',
-  check: '<path d="m5 12.6 4.6 4.6L19 7.2"/>',
-  arrow: '<path d="M4.8 12h14.4m-5.4-5.4 5.4 5.4-5.4 5.4"/>',
-  upload: '<path d="M12 15.2V4.6M7.6 9 12 4.6 16.4 9"/><path d="M4.6 14.4V18a2 2 0 0 0 2 2h10.8a2 2 0 0 0 2-2v-3.6"/>',
-  download: '<path d="M12 4.6v10.6M7.6 10.8 12 15.2l4.4-4.4"/><path d="M4.6 14.4V18a2 2 0 0 0 2 2h10.8a2 2 0 0 0 2-2v-3.6"/>',
-  bolt: '<path d="M13.4 3 5.6 13.3h6.1l-1 7.7 7.9-10.4h-6.2z"/>',
-  alert: '<circle cx="12" cy="12" r="8.6"/><path d="M12 7.6v5.2"/><circle class="a" cx="12" cy="16.3" r="1.35"/>',
-  file: '<path d="M14 3.6H7a2 2 0 0 0-2 2v12.8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8.6z"/><path d="M14 3.6v5h5"/><path d="M8.6 13h6.8M8.6 16.4h4.2"/>',
-  bell: '<path d="M6.2 16.6V11a5.8 5.8 0 0 1 11.6 0v5.6l1.6 1.8H4.6Z"/><path d="M10 20.6a2.2 2.2 0 0 0 4 0"/><circle class="a" cx="17.6" cy="5.6" r="2"/>',
-  clock: '<circle cx="12" cy="13" r="7.8"/><path d="M12 9v4l2.7 1.7M9.6 2.9h4.8"/><circle class="a" cx="18.6" cy="6.2" r="1.5"/>',
-  book: '<path d="M6.2 3.6h10.6a1.6 1.6 0 0 1 1.6 1.6v13.6a1.6 1.6 0 0 1-1.6 1.6H6.2z"/><path d="M6.2 3.6v16.8M3.9 7.6h2.3M3.9 12h2.3M3.9 16.4h2.3M10.2 8.4h4.6"/><circle class="a" cx="14.8" cy="14.6" r="1.7"/>',
-  send: '<path d="M20.4 3.6 3.6 10.4l6.6 2.8 2.8 6.6z"/><path d="m10.2 13.2 4.4-4.4"/>',
-  share: '<circle cx="17.4" cy="5.6" r="2.5"/><circle class="a" cx="6.6" cy="12" r="2.6"/><circle cx="17.4" cy="18.4" r="2.5"/><path d="m8.8 10.7 6.4-3.8M8.8 13.3l6.4 3.8"/>',
-  target: '<circle cx="12" cy="12" r="8.6"/><circle cx="12" cy="12" r="4.6"/><circle class="a" cx="12" cy="12" r="1.7"/>',
-  trophy: '<path d="M8 4h8v4.8a4 4 0 0 1-8 0zM8 6H5.2v1a3 3 0 0 0 3 3M16 6h2.8v1a3 3 0 0 1-3 3M12 12.8v3.8M8.6 20.4h6.8M9.8 16.6h4.4"/><circle class="a" cx="12" cy="7.4" r="1.4"/>',
-  search: '<circle cx="10.8" cy="10.8" r="6.6"/><path d="m20 20-4.4-4.4"/>',
-  edit: '<path d="M4.4 19.6h4.1L19 9.1l-4.1-4.1L4.4 15.5z"/><path d="m13 6.9 4.1 4.1"/>',
-  gear: '<circle cx="12" cy="12" r="3"/><path d="M12 2.8v2.6M12 18.6v2.6M2.8 12h2.6M18.6 12h2.6M5.5 5.5l1.8 1.8M16.7 16.7l1.8 1.8M5.5 18.5l1.8-1.8M16.7 7.3l1.8-1.8"/>',
-  eye: '<path d="M2.4 12s3.5-6.6 9.6-6.6 9.6 6.6 9.6 6.6-3.5 6.6-9.6 6.6S2.4 12 2.4 12Z"/><circle class="a" cx="12" cy="12" r="2.8"/>',
-  cloud: '<path d="M7.2 18.2h9.9a3.9 3.9 0 0 0 .6-7.8 5.9 5.9 0 0 0-11.4-1 4.4 4.4 0 0 0 .9 8.8Z"/><path d="m9.6 13.6 1.8 1.8 3.2-3.4"/>',
-  copy: '<rect x="8.4" y="8.4" width="11.4" height="11.4" rx="2.2"/><path d="M15.6 8.4V6a1.8 1.8 0 0 0-1.8-1.8H6a1.8 1.8 0 0 0-1.8 1.8v7.8A1.8 1.8 0 0 0 6 15.6h2.4"/>',
-  logout: '<path d="M14.6 4.2h3.6a1.6 1.6 0 0 1 1.6 1.6v12.4a1.6 1.6 0 0 1-1.6 1.6h-3.6M10.2 16.2 6 12l4.2-4.2M6 12h9.8"/>',
-  key: '<circle cx="8" cy="15" r="3.9"/><path d="m10.8 12.2 8.6-8.6M16.8 6.2l2.6 2.6M14.4 8.6l1.8 1.8"/><circle class="a" cx="8" cy="15" r="1.3"/>',
-  refresh: '<path d="M19.6 12a7.6 7.6 0 1 1-2.2-5.4M19.8 4.4v4.8H15"/>',
-  // Ícones novos, no lugar das "faíscas" genéricas
-  mind: '<circle cx="9.2" cy="12" r="5.4"/><circle class="a" cx="14.8" cy="12" r="5.4"/>',
-  tutor: '<path d="M5 5.4h14a1.6 1.6 0 0 1 1.6 1.6v8.4A1.6 1.6 0 0 1 19 17h-6.6l-4.8 3.6V17H5a1.6 1.6 0 0 1-1.6-1.6V7A1.6 1.6 0 0 1 5 5.4Z"/><circle class="f" cx="9.6" cy="11.2" r="1.35"/><circle class="a" cx="14.4" cy="11.2" r="1.35"/>',
-  recall: '<path d="M19.4 12a7.4 7.4 0 1 1-2.2-5.3"/><path d="M17.6 3.6v3.6H14"/><circle class="a" cx="12" cy="12" r="2.2"/>',
-  school: '<path d="m2.8 9.2 9.2-4.4 9.2 4.4-9.2 4.4z"/><path d="M6.6 11.2v4.1c1.5 1.4 3.3 2.1 5.4 2.1s3.9-.7 5.4-2.1v-4.1M20.4 9.6v4.4"/><circle class="a" cx="20.4" cy="15.6" r="1.4"/>',
-  shuffle: '<path d="M3.8 7.6h3c2 0 3.2 1 4.3 2.7l1.8 3.2c1.1 1.8 2.3 2.7 4.3 2.7h2.6M3.8 16.2h3c1.3 0 2.2-.4 3-1.2M13.6 8.8c.8-.8 1.7-1.2 3-1.2h2.6"/><path d="m17.2 5 2.6 2.6-2.6 2.6M17.2 13.6l2.6 2.6-2.6 2.6"/>',
-  layers: null
-});
-I.layers = I.decks;
-I.memory = I.mind;
-I.spark = I.recall; // compatibilidade: qualquer uso antigo vira "recuperar"
+/* ================= Ícones do Memory =================
+   Lucide (licença ISC, lucide.dev): ícones de traço numa grade de 24 px, o mesmo padrão de produtos como Linear e Vercel.
+   Gerado por dev/icons-lucide.mjs — não editar à mão. */
+Object.assign(I, {"home":"<path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\"/><path d=\"M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/>",
+  "decks":"<circle cx=\"6\" cy=\"19\" r=\"3\"/><path d=\"M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15\"/><circle cx=\"18\" cy=\"5\" r=\"3\"/>",
+  "layers":"<path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\"/><path d=\"M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12\"/><path d=\"M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17\"/>",
+  "concursos":"<line x1=\"3\" x2=\"21\" y1=\"22\" y2=\"22\"/><line x1=\"6\" x2=\"6\" y1=\"18\" y2=\"11\"/><line x1=\"10\" x2=\"10\" y1=\"18\" y2=\"11\"/><line x1=\"14\" x2=\"14\" y1=\"18\" y2=\"11\"/><line x1=\"18\" x2=\"18\" y1=\"18\" y2=\"11\"/><polygon points=\"12 2 20 7 4 7\"/>",
+  "chart":"<line x1=\"18\" x2=\"18\" y1=\"20\" y2=\"10\"/><line x1=\"12\" x2=\"12\" y1=\"20\" y2=\"4\"/><line x1=\"6\" x2=\"6\" y1=\"20\" y2=\"14\"/>",
+  "user":"<path d=\"M18 20a6 6 0 0 0-12 0\"/><circle cx=\"12\" cy=\"10\" r=\"4\"/><circle cx=\"12\" cy=\"12\" r=\"10\"/>",
+  "users":"<path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/>",
+  "recall":"<path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"/><path d=\"M3 3v5h5\"/>",
+  "clock":"<circle cx=\"12\" cy=\"12\" r=\"10\"/><polyline points=\"12 6 12 12 16 14\"/>",
+  "book":"<path d=\"M12 7v14\"/><path d=\"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z\"/>",
+  "read":"<path d=\"M12 7v14\"/><path d=\"M16 12h2\"/><path d=\"M16 8h2\"/><path d=\"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z\"/><path d=\"M6 12h2\"/><path d=\"M6 8h2\"/>",
+  "lesson":"<path d=\"M2 6h4\"/><path d=\"M2 10h4\"/><path d=\"M2 14h4\"/><path d=\"M2 18h4\"/><rect width=\"16\" height=\"20\" x=\"4\" y=\"2\" rx=\"2\"/><path d=\"M9.5 8h5\"/><path d=\"M9.5 12H16\"/><path d=\"M9.5 16H14\"/>",
+  "tutor":"<path d=\"M7.9 20A9 9 0 1 0 4 16.1L2 22Z\"/><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"/><path d=\"M12 17h.01\"/>",
+  "mind":"<path d=\"M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z\"/><path d=\"M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z\"/><path d=\"M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4\"/><path d=\"M17.599 6.5a3 3 0 0 0 .399-1.375\"/><path d=\"M6.003 5.125A3 3 0 0 0 6.401 6.5\"/><path d=\"M3.477 10.896a4 4 0 0 1 .585-.396\"/><path d=\"M19.938 10.5a4 4 0 0 1 .585.396\"/><path d=\"M6 18a4 4 0 0 1-1.967-.516\"/><path d=\"M19.967 17.484A4 4 0 0 1 18 18\"/>",
+  "flame":"<path d=\"M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z\"/>",
+  "target":"<circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"6\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/>",
+  "trophy":"<path d=\"M6 9H4.5a2.5 2.5 0 0 1 0-5H6\"/><path d=\"M18 9h1.5a2.5 2.5 0 0 0 0-5H18\"/><path d=\"M4 22h16\"/><path d=\"M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22\"/><path d=\"M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22\"/><path d=\"M18 2H6v7a6 6 0 0 0 12 0V2Z\"/>",
+  "share":"<circle cx=\"18\" cy=\"5\" r=\"3\"/><circle cx=\"6\" cy=\"12\" r=\"3\"/><circle cx=\"18\" cy=\"19\" r=\"3\"/><line x1=\"8.59\" x2=\"15.42\" y1=\"13.51\" y2=\"17.49\"/><line x1=\"15.41\" x2=\"8.59\" y1=\"6.51\" y2=\"10.49\"/>",
+  "upload":"<path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><polyline points=\"17 8 12 3 7 8\"/><line x1=\"12\" x2=\"12\" y1=\"3\" y2=\"15\"/>",
+  "download":"<path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><polyline points=\"7 10 12 15 17 10\"/><line x1=\"12\" x2=\"12\" y1=\"15\" y2=\"3\"/>",
+  "cloud":"<path d=\"M12 13v8\"/><path d=\"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242\"/><path d=\"m8 17 4-4 4 4\"/>",
+  "shield":"<path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"/><path d=\"m9 12 2 2 4-4\"/>",
+  "shuffle":"<path d=\"m18 14 4 4-4 4\"/><path d=\"m18 2 4 4-4 4\"/><path d=\"M2 18h1.973a4 4 0 0 0 3.3-1.7l5.454-8.6a4 4 0 0 1 3.3-1.7H22\"/><path d=\"M2 6h1.972a4 4 0 0 1 3.6 2.2\"/><path d=\"M22 18h-6.041a4 4 0 0 1-3.3-1.8l-.359-.45\"/>",
+  "school":"<path d=\"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z\"/><path d=\"M22 10v6\"/><path d=\"M6 12.5V16a6 3 0 0 0 12 0v-3.5\"/>",
+  "exam":"<path d=\"M8 2v4\"/><path d=\"M16 2v4\"/><rect width=\"18\" height=\"18\" x=\"3\" y=\"4\" rx=\"2\"/><path d=\"M3 10h18\"/><path d=\"m9 16 2 2 4-4\"/>",
+  "work":"<path d=\"M12 12h.01\"/><path d=\"M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2\"/><path d=\"M22 13a18.15 18.15 0 0 1-20 0\"/><rect width=\"20\" height=\"14\" x=\"2\" y=\"6\" rx=\"2\"/>",
+  "gear":"<path d=\"M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "key":"<path d=\"M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z\"/><circle cx=\"16.5\" cy=\"7.5\" r=\".5\" fill=\"currentColor\"/>",
+  "plus":"<path d=\"M5 12h14\"/><path d=\"M12 5v14\"/>",
+  "close":"<path d=\"M18 6 6 18\"/><path d=\"m6 6 12 12\"/>",
+  "x":"<path d=\"M18 6 6 18\"/><path d=\"m6 6 12 12\"/>",
+  "back":"<path d=\"m15 18-6-6 6-6\"/>",
+  "chev":"<path d=\"m9 18 6-6-6-6\"/>",
+  "down":"<path d=\"m6 9 6 6 6-6\"/>",
+  "tick":"<path d=\"M20 6 9 17l-5-5\"/>",
+  "check":"<path d=\"M20 6 9 17l-5-5\"/>",
+  "arrow":"<path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/>",
+  "bolt":"<path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\"/>",
+  "alert":"<circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"12\" x2=\"12\" y1=\"8\" y2=\"12\"/><line x1=\"12\" x2=\"12.01\" y1=\"16\" y2=\"16\"/>",
+  "file":"<path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z\"/><path d=\"M14 2v4a2 2 0 0 0 2 2h4\"/><path d=\"M10 9H8\"/><path d=\"M16 13H8\"/><path d=\"M16 17H8\"/>",
+  "bell":"<path d=\"M10.268 21a2 2 0 0 0 3.464 0\"/><path d=\"M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326\"/>",
+  "send":"<path d=\"M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z\"/><path d=\"m21.854 2.147-10.94 10.939\"/>",
+  "search":"<circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/>",
+  "edit":"<path d=\"M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z\"/><path d=\"m15 5 4 4\"/>",
+  "eye":"<path d=\"M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "copy":"<rect width=\"14\" height=\"14\" x=\"8\" y=\"8\" rx=\"2\" ry=\"2\"/><path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\"/>",
+  "logout":"<path d=\"M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4\"/><polyline points=\"16 17 21 12 16 7\"/><line x1=\"21\" x2=\"9\" y1=\"12\" y2=\"12\"/>",
+  "refresh":"<path d=\"M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8\"/><path d=\"M21 3v5h-5\"/><path d=\"M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16\"/><path d=\"M8 16H3v5\"/>",
+  "sound":"<path d=\"M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z\"/><path d=\"M16 9a5 5 0 0 1 0 6\"/><path d=\"M19.364 18.364a9 9 0 0 0 0-12.728\"/>",
+  "map":"<path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/>",
+  "calendar":"<path d=\"M8 2v4\"/><path d=\"M16 2v4\"/><rect width=\"18\" height=\"18\" x=\"3\" y=\"4\" rx=\"2\"/><path d=\"M3 10h18\"/><path d=\"M8 14h.01\"/><path d=\"M12 14h.01\"/><path d=\"M16 14h.01\"/><path d=\"M8 18h.01\"/><path d=\"M12 18h.01\"/><path d=\"M16 18h.01\"/>",
+  "money":"<rect width=\"20\" height=\"12\" x=\"2\" y=\"6\" rx=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/><path d=\"M6 12h.01M18 12h.01\"/>",
+  "external":"<path d=\"M15 3h6v6\"/><path d=\"M10 14 21 3\"/><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/>",
+  "list":"<path d=\"m3 17 2 2 4-4\"/><path d=\"m3 7 2 2 4-4\"/><path d=\"M13 6h8\"/><path d=\"M13 12h8\"/><path d=\"M13 18h8\"/>",
+  "filter":"<line x1=\"21\" x2=\"14\" y1=\"4\" y2=\"4\"/><line x1=\"10\" x2=\"3\" y1=\"4\" y2=\"4\"/><line x1=\"21\" x2=\"12\" y1=\"12\" y2=\"12\"/><line x1=\"8\" x2=\"3\" y1=\"12\" y2=\"12\"/><line x1=\"21\" x2=\"16\" y1=\"20\" y2=\"20\"/><line x1=\"12\" x2=\"3\" y1=\"20\" y2=\"20\"/><line x1=\"14\" x2=\"14\" y1=\"2\" y2=\"6\"/><line x1=\"8\" x2=\"8\" y1=\"10\" y2=\"14\"/><line x1=\"16\" x2=\"16\" y1=\"18\" y2=\"22\"/>",
+  "build":"<path d=\"M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4\"/><path d=\"M2 6h4\"/><path d=\"M2 10h4\"/><path d=\"M2 14h4\"/><path d=\"M2 18h4\"/><path d=\"M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z\"/>",
+  "play":"<circle cx=\"12\" cy=\"12\" r=\"10\"/><polygon points=\"10 8 16 12 10 16 10 8\"/>",
+  "star":"<path d=\"M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z\"/>",
+  "medal":"<path d=\"M7.21 15 2.66 7.14a2 2 0 0 1 .13-2.2L4.4 2.8A2 2 0 0 1 6 2h12a2 2 0 0 1 1.6.8l1.6 2.14a2 2 0 0 1 .14 2.2L16.79 15\"/><path d=\"M11 12 5.12 2.2\"/><path d=\"m13 12 5.88-9.8\"/><path d=\"M8 7h8\"/><circle cx=\"12\" cy=\"17\" r=\"5\"/><path d=\"M12 18v-2h-.5\"/>",
+  "gauge":"<path d=\"m12 14 4-4\"/><path d=\"M3.34 19a10 10 0 1 1 17.32 0\"/>",
+  "wrench":"<path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z\"/>",
+  "footprints":"<path d=\"M4 16v-2.38C4 11.5 2.97 10.5 3 8c.03-2.72 1.49-6 4.5-6C9.37 2 10 3.8 10 5.5c0 3.11-2 5.66-2 8.68V16a2 2 0 1 1-4 0Z\"/><path d=\"M20 20v-2.38c0-2.12 1.03-3.12 1-5.62-.03-2.72-1.49-6-4.5-6C14.63 6 14 7.8 14 9.5c0 3.11 2 5.66 2 8.68V20a2 2 0 1 0 4 0Z\"/><path d=\"M16 17h4\"/><path d=\"M4 13h4\"/>",
+  "clipboard":"<rect width=\"8\" height=\"4\" x=\"8\" y=\"2\" rx=\"1\" ry=\"1\"/><path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\"/><path d=\"m9 14 2 2 4-4\"/>",
+  "fileup":"<path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z\"/><path d=\"M14 2v4a2 2 0 0 0 2 2h4\"/><path d=\"M12 12v6\"/><path d=\"m15 15-3-3-3 3\"/>",
+  "hundred":"<path d=\"M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z\"/><path d=\"m9 12 2 2 4-4\"/>",
+  "streak":"<path d=\"M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z\"/>",
+  "info":"<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 16v-4\"/><path d=\"M12 8h.01\"/>",
+  "lock":"<rect width=\"18\" height=\"11\" x=\"3\" y=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/>",
+  "globe":"<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\"/><path d=\"M2 12h20\"/>",
+  "pin":"<path d=\"M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0\"/><circle cx=\"12\" cy=\"8\" r=\"2\"/><path d=\"M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712\"/>",
+  "bookmark":"<path d=\"m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z\"/>",
+  "idea":"<path d=\"M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5\"/><path d=\"M9 18h6\"/><path d=\"M10 22h4\"/>",
+  "warn":"<path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3\"/><path d=\"M12 9v4\"/><path d=\"M12 17h.01\"/>",
+  "sum":"<path d=\"m3 10 2.5-2.5L3 5\"/><path d=\"m3 19 2.5-2.5L3 14\"/><path d=\"M10 6h11\"/><path d=\"M10 12h11\"/><path d=\"M10 18h11\"/>",
+  "spark":"<path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"/><path d=\"M3 3v5h5\"/>",
+  "memory":"<path d=\"M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z\"/><path d=\"M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z\"/><path d=\"M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4\"/><path d=\"M17.599 6.5a3 3 0 0 0 .399-1.375\"/><path d=\"M6.003 5.125A3 3 0 0 0 6.401 6.5\"/><path d=\"M3.477 10.896a4 4 0 0 1 .585-.396\"/><path d=\"M19.938 10.5a4 4 0 0 1 .585.396\"/><path d=\"M6 18a4 4 0 0 1-1.967-.516\"/><path d=\"M19.967 17.484A4 4 0 0 1 18 18\"/>"});
 DECK_LOOK.neuro = Object.assign({}, DECK_LOOK.neuro, { icon: 'mind' });
 
-/* ---------- Ícones ilustrados (sprite único: cada desenho existe uma vez no DOM) ---------- */
-(function mountGlyphs() {
-  const sym = Object.entries(GLYPHS).map(([k, v]) => `<symbol id="gi-${k}" viewBox="0 0 24 24">${v.n ? `<path class="gn" d="${v.n}"/>` : ''}${v.a ? `<path class="ga" d="${v.a}"/>` : ''}</symbol>`).join('');
-  document.body.insertAdjacentHTML('afterbegin', `<svg width="0" height="0" style="position:absolute" aria-hidden="true">${sym}</svg>`);
-  for (const k of Object.keys(GLYPHS)) I[k] = `<use href="#gi-${k}"/>`;
-  I.layers = I.decks; I.memory = I.mind; I.spark = I.recall;
-})();
-
-/* ---------- Ilustrações de estado (mesma linguagem dos ícones) ---------- */
+/* ---------- Ilustrações de estado: ícone grande num disco suave, com o ponto laranja da marca ---------- */
+const ILLO = { sync: ['cloud', 'blue'], class: ['school', 'mint'], search: ['search', 'lilac'], done: ['clipboard', 'peach'], empty: ['bookmark', 'blue'], lessons: ['lesson', 'mint'], concursos: ['concursos', 'blue'] };
 function illo(name, cls = '') {
-  const v = ILLOS[name]; if (!v) return '';
-  return `<svg class="illo ${cls}" viewBox="0 0 ${v.w} ${v.h}" role="img" aria-hidden="true">${v.n ? `<path class="gn" d="${v.n}"/>` : ''}${v.a ? `<path class="ga" d="${v.a}"/>` : ''}</svg>`;
+  const v = ILLO[name] || ILLO.empty;
+  return `<span class="illo2 c-${v[1]} ${cls}" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24">${I[v[0]]}</svg><i></i></span>`;
+}
+
+/* ---------- Selos de conquista (SVG geométrico, sem ilustração gerada) ---------- */
+const MEDAL = {
+  first: { i: 'footprints', c: ['#F2A65A', '#D9822B'] }, streak3: { i: 'flame', c: ['#F2A65A', '#D9822B'], t: '3' },
+  streak7: { i: 'flame', c: ['#FFC24B', '#E8A317'], t: '7' }, streak30: { i: 'flame', c: ['#8E7BFF', '#5B45E0'], t: '30' },
+  q100: { i: 'target', c: ['#A9B4C8', '#7C889E'], t: '100' }, fixer: { i: 'wrench', c: ['#A9B4C8', '#7C889E'] },
+  calib: { i: 'gauge', c: ['#5FC9A0', '#2E9C74'] }, firm25: { i: 'mind', c: ['#FFC24B', '#E8A317'], t: '25' },
+  sim70: { i: 'clipboard', c: ['#FFC24B', '#E8A317'], t: '70%' }, import: { i: 'fileup', c: ['#6E8BFF', '#3F5BD9'] }
+};
+function medalSVG(id, cls = '') {
+  const m = MEDAL[id] || MEDAL.first; const g = 'mg-' + id;
+  return `<svg class="medal ${cls}" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="${g}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${m.c[0]}"/><stop offset="1" stop-color="${m.c[1]}"/></linearGradient></defs>
+    <path d="M32 2.5 57.5 17v30L32 61.5 6.5 47V17z" fill="url(#${g})"/><path d="M32 2.5 57.5 17v30L32 61.5z" fill="#000" opacity=".08"/>
+    <circle cx="32" cy="31" r="17" fill="#fff"/><g transform="translate(20 19)" fill="none" stroke="${m.c[1]}" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">${I[m.i]}</g>
+    ${m.t ? `<rect x="${32 - (m.t.length * 4 + 7)}" y="44" width="${m.t.length * 8 + 14}" height="14" rx="7" fill="#1F2A6B"/><text x="32" y="54.2" text-anchor="middle" font-family="Poppins, system-ui, sans-serif" font-weight="700" font-size="10" fill="#fff">${m.t}</text>` : ''}</svg>`;
 }

@@ -1,0 +1,18 @@
+import { createRequire } from 'node:module';
+import { start } from '../dev/server.mjs';
+const { chromium } = createRequire(import.meta.url)('playwright');
+const OUT = '/tmp/claude-0/-home-claude/bb4201d1-86ae-53d3-b9e7-0bd93a0ff471/scratchpad/tour/t5-';
+const dark = process.argv[2] === 'dark';
+const srv = await start(3976); const b = await chromium.launch();
+const c = await b.newContext({ viewport: { width: 390, height: 844 }, colorScheme: dark ? 'dark' : 'light' }); const p = await c.newPage();
+const errs = []; p.on('pageerror', (e) => errs.push(e.message));
+const shot = async (n, full) => { await p.waitForTimeout(500); if (full) { const h = await p.evaluate(() => Math.max(document.getElementById('view').scrollHeight, 844)); await p.setViewportSize({ width: 390, height: Math.min(h, 2600) }); await p.waitForTimeout(250); } await p.screenshot({ path: OUT + (dark ? 'd-' : '') + n + '.png' }); if (full) await p.setViewportSize({ width: 390, height: 844 }); };
+await p.goto('http://localhost:3976/'); await p.waitForTimeout(500);
+await p.click('[data-act=onb-next]'); await p.fill('#onb-name', 'Ruth'); await p.click('[data-act=persona][data-id=concurso]'); await p.click('[data-act=onb-next]'); await p.click('[data-act=onb-finish]'); await p.waitForSelector('[data-act=diag-skip]'); await p.click('[data-act=diag-skip]'); await p.waitForTimeout(400); await p.keyboard.press('Escape'); await p.waitForTimeout(300);
+await shot('01-home');
+await p.click('[data-tab=concursos]'); await p.waitForSelector('.cc-card'); await shot('02-lista', true);
+await p.click('.cc-card >> nth=0'); await shot('03-detalhe', true);
+await p.click('[data-act=cc-study]'); await p.waitForTimeout(400); await shot('04-plano', true);
+await p.evaluate(() => ACT['open-deck']({ id: 'neuro' })); await p.waitForTimeout(800); await p.evaluate(() => document.querySelector('.lessons') && document.querySelector('.lessons').scrollIntoView({ block: 'center' })); await shot('05-deck-aulas');
+await p.click('.lesson-it >> nth=0'); await shot('06-aula', true);
+console.log(errs.join('\n') || 'sem erros'); await b.close(); srv.close(); process.exit(0);
