@@ -20,6 +20,8 @@ for (const f of process.argv.slice(2)) {
       const wp = q.o[1 - q.a] && q.o[1 - q.a].p; if (!PAT.includes(wp)) w('Certo/Errado: o julgamento errado precisa de um padrão válido');
       if (!/[.]$/.test(q.q.trim())) w('Certo/Errado: o item (q) deve ser uma afirmação terminada em ponto');
       q.o.forEach((o, j) => { if (!o.w || o.w.length < 20) w(`explicação ${j + 1} curta demais`); });
+      // Cada explicação defende o próprio julgamento: "Julgar certo…" só na opção Certo, "Julgar errado…" só na Errado.
+      q.o.forEach((o, j) => { const m = /^\s*julgar\s+(?:como\s+)?(certo|errado)/i.exec(o.w || ''); if (m && m[1].toLowerCase() !== o.t.toLowerCase()) w(`explicação da opção ${o.t} defende o julgamento oposto (trocada?)`); if (m && j === q.a) w(`explicação da opção correta começa como se fosse a errada ("Julgar ${m[1]}…")`); });
       ce[q.a]++; return;
     }
     if (q.type) w('type desconhecido: ' + q.type);

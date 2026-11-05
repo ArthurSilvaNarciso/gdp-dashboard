@@ -1,0 +1,1101 @@
+{
+ "id": "sus",
+ "title": "Legislação do SUS",
+ "subtitle": "CF, Leis 8.080 e 8.142 e Decreto 7.508",
+ "tag": "Concursos",
+ "blurb": "Constituição, Leis 8.080 e 8.142, Decreto 7.508 e LC 141 em casos reais: princípios, competências, controle social e pisos já atualizados.",
+ "questions": [
+  {
+   "id": "sus1",
+   "topic": "Direito à saúde",
+   "c": "Em Campina Grande (PB), Mariana, que tem plano de saúde pago pela empresa, foi à UBS do bairro tomar a vacina contra a gripe. A recepcionista recusou o atendimento, dizendo que o SUS é para quem não tem plano.",
+   "q": "À luz da Constituição, assinale a alternativa correta.",
+   "a": 0,
+   "src": "CF/88, art. 196",
+   "o": [
+    {
+     "t": "A recusa é indevida: a saúde é direito de todos e dever do Estado, com acesso universal e igualitário às ações e serviços.",
+     "p": "correta",
+     "w": "Art. 196 da CF: a saúde é direito de todos e dever do Estado, garantido o acesso universal e igualitário às ações de promoção, proteção e recuperação. Ter plano privado não retira esse direito."
+    },
+    {
+     "t": "A recusa é válida, pois o SUS atende prioritariamente quem contribui para a Previdência Social.",
+     "p": "troca",
+     "w": "Esse era o modelo do antigo INAMPS, vinculado à contribuição previdenciária. A CF/88 rompeu com ele ao universalizar o acesso (art. 196)."
+    },
+    {
+     "t": "A recusa é indevida só porque vacina é ação preventiva; consultas e cirurgias podem ser negadas a quem tem plano.",
+     "p": "restricao",
+     "w": "Cria uma condição que não existe: o acesso universal e igualitário vale para promoção, proteção e recuperação, sem distinguir quem tem plano."
+    },
+    {
+     "t": "A recusa é válida, porque o dever de garantir a saúde de quem tem plano passa a ser só da operadora.",
+     "p": "extrapolacao",
+     "w": "A saúde suplementar coexiste com o SUS, mas não afasta o dever do Estado nem o direito universal previsto no art. 196."
+    }
+   ]
+  },
+  {
+   "id": "sus2",
+   "topic": "Relevância pública",
+   "c": "Em Joinville (SC), um vereador afirmou na tribuna que, por serem de relevância pública, as ações de saúde só podem ser executadas diretamente pelo Poder Público, sendo inconstitucional uma clínica particular atender pacientes.",
+   "q": "Segundo o art. 197 da Constituição, a afirmação do vereador está correta?",
+   "a": 2,
+   "src": "CF/88, arts. 197 e 199, caput",
+   "o": [
+    {
+     "t": "Correta: por serem de relevância pública, as ações de saúde só podem ser executadas por órgãos estatais.",
+     "p": "generalizacao",
+     "w": "Relevância pública não significa monopólio estatal. O próprio art. 197 admite execução por terceiros e por particulares."
+    },
+    {
+     "t": "Errada, mas a atuação de particulares depende sempre de concessão de serviço público precedida de licitação.",
+     "p": "restricao",
+     "w": "A Constituição não exige concessão para a iniciativa privada atuar na saúde: a assistência à saúde é livre à iniciativa privada (art. 199, caput)."
+    },
+    {
+     "t": "Errada: as ações de saúde são de relevância pública, mas podem ser executadas diretamente, por terceiros ou por pessoa física ou jurídica privada.",
+     "p": "correta",
+     "w": "Art. 197: cabe ao Poder Público regulamentar, fiscalizar e controlar, e a execução pode ser direta, por terceiros ou por pessoa física ou jurídica de direito privado. O art. 199 diz que a assistência à saúde é livre à iniciativa privada."
+    },
+    {
+     "t": "Errada, porque a saúde não é de relevância pública, e sim atividade econômica comum, livre de controle estatal.",
+     "p": "inversao",
+     "w": "Inverte o texto: o art. 197 declara as ações e serviços de saúde de relevância pública e atribui ao Poder Público sua regulamentação, fiscalização e controle."
+    }
+   ]
+  },
+  {
+   "id": "sus3",
+   "topic": "Diretrizes do art. 198",
+   "c": "Na Conferência Municipal de Saúde de Caruaru (PE), um palestrante explicou que a Constituição organiza o SUS como rede regionalizada e hierarquizada e listou, nos incisos do art. 198, as diretrizes do sistema.",
+   "q": "Quais são essas diretrizes?",
+   "a": 1,
+   "src": "CF/88, art. 198, I a III",
+   "o": [
+    {
+     "t": "Universalidade, integralidade e equidade, que são as três diretrizes do art. 198.",
+     "p": "troca",
+     "w": "Esses são os chamados princípios doutrinários do SUS. Os incisos do art. 198 trazem descentralização, atendimento integral e participação da comunidade."
+    },
+    {
+     "t": "Descentralização com direção única em cada esfera, atendimento integral com prioridade para atividades preventivas e participação da comunidade.",
+     "p": "correta",
+     "w": "Art. 198: I – descentralização, com direção única em cada esfera de governo; II – atendimento integral, com prioridade para as atividades preventivas, sem prejuízo dos assistenciais; III – participação da comunidade."
+    },
+    {
+     "t": "Descentralização, atendimento integral com prioridade para os serviços assistenciais e participação da comunidade.",
+     "p": "inversao",
+     "w": "Inverte a prioridade: o art. 198, II, prioriza as atividades preventivas, sem prejuízo dos serviços assistenciais."
+    },
+    {
+     "t": "Descentralização, atendimento integral e participação da comunidade, exercida exclusivamente pelo Poder Legislativo.",
+     "p": "restricao",
+     "w": "A participação da comunidade se dá por Conferências e Conselhos de Saúde (Lei 8.142/90, art. 1º), sem prejuízo das funções do Legislativo; não é exclusiva dele."
+    }
+   ]
+  },
+  {
+   "id": "sus4",
+   "topic": "Iniciativa privada complementar",
+   "c": "Para ampliar leitos de UTI, a prefeitura de Petrolina (PE) recebeu propostas de uma Santa Casa filantrópica e de um hospital com fins lucrativos. O prefeito quer ainda dar auxílio financeiro a fundo perdido ao hospital lucrativo para reformar sua ala.",
+   "q": "Assinale a alternativa correta.",
+   "a": 3,
+   "src": "CF/88, art. 199, §§1º e 2º; Lei 8.080/90, arts. 24 e 25",
+   "o": [
+    {
+     "t": "A preferência legal é do hospital com fins lucrativos, por sua maior capacidade de investimento; o auxílio é vedado.",
+     "p": "inversao",
+     "w": "Inverte a preferência: a CF e a Lei 8.080 (art. 25) dão preferência às entidades filantrópicas e sem fins lucrativos."
+    },
+    {
+     "t": "A contratação só é possível se não houver nenhum leito público disponível em todo o estado.",
+     "p": "restricao",
+     "w": "A lei exige disponibilidade insuficiente para garantir a cobertura assistencial da população de uma área (Lei 8.080, art. 24), e não a inexistência total de leitos no estado."
+    },
+    {
+     "t": "Pode contratar os dois e conceder o auxílio, pois qualquer instituição que participe do SUS pode receber subvenção pública.",
+     "p": "generalizacao",
+     "w": "O art. 199, §2º, veda a destinação de recursos públicos para auxílios ou subvenções às instituições privadas com fins lucrativos."
+    },
+    {
+     "t": "A participação privada é complementar, por contrato de direito público ou convênio, com preferência à filantrópica; o auxílio ao hospital lucrativo é vedado.",
+     "p": "correta",
+     "w": "Art. 199, §1º: instituições privadas participam de forma complementar, por contrato de direito público ou convênio, com preferência às filantrópicas e sem fins lucrativos. O §2º veda auxílios ou subvenções a instituições com fins lucrativos."
+    }
+   ]
+  },
+  {
+   "id": "sus5",
+   "topic": "Atribuições do SUS",
+   "c": "Em Cuiabá (MT), a vigilância municipal coletou amostras de refeições servidas em escolas para analisar o teor de sódio e açúcar e verificou a potabilidade da água de poços usados por condomínios.",
+   "q": "Qual atribuição constitucional do SUS fundamenta essas ações?",
+   "a": 2,
+   "src": "CF/88, art. 200, VI",
+   "o": [
+    {
+     "t": "Executar com exclusividade todas as obras de saneamento básico do país.",
+     "p": "extrapolacao",
+     "w": "O art. 200, IV, diz que o SUS participa da formulação da política e da execução das ações de saneamento básico; não lhe dá exclusividade sobre as obras."
+    },
+    {
+     "t": "Colaborar na proteção do meio ambiente, excluído o do trabalho, que cabe apenas ao Ministério do Trabalho.",
+     "p": "restricao",
+     "w": "O art. 200, VIII, manda colaborar na proteção do meio ambiente, nele compreendido o do trabalho; não há essa exclusão."
+    },
+    {
+     "t": "Fiscalizar e inspecionar alimentos, inclusive o controle do teor nutricional, bem como bebidas e águas para consumo humano.",
+     "p": "correta",
+     "w": "É o texto do art. 200, VI, da CF. A fiscalização de alimentos, com o controle do teor nutricional, e de bebidas e águas para consumo humano é atribuição expressa do SUS."
+    },
+    {
+     "t": "Autorizar a abertura de cursos de Medicina, já que o SUS controla a formação profissional.",
+     "p": "troca",
+     "w": "O art. 200, III, fala em ordenar a formação de recursos humanos na área de saúde. Autorizar cursos superiores é atribuição do sistema de ensino, não do SUS."
+    }
+   ]
+  },
+  {
+   "id": "sus6",
+   "topic": "Dever do Estado",
+   "c": "Em Rio Branco (AC), uma empresa de transporte se recusou a adotar medidas de prevenção de doenças entre seus motoristas, alegando que garantir a saúde é dever exclusivo do Estado.",
+   "q": "Pela Lei 8.080/90, assinale a alternativa correta.",
+   "a": 0,
+   "src": "Lei 8.080/90, art. 2º, §2º",
+   "o": [
+    {
+     "t": "O dever do Estado de garantir a saúde não exclui o das pessoas, da família, das empresas e da sociedade.",
+     "p": "correta",
+     "w": "É o que diz o art. 2º, §2º, da Lei 8.080. A saúde é direito fundamental e dever do Estado, mas esse dever convive com o das pessoas, famílias, empresas e sociedade."
+    },
+    {
+     "t": "O dever das empresas substitui o do Estado em relação aos próprios empregados.",
+     "p": "inversao",
+     "w": "Os deveres coexistem: o das empresas não substitui o do Estado, que continua obrigado a garantir saúde a todos, inclusive aos empregados."
+    },
+    {
+     "t": "A empresa tem razão: a saúde é dever exclusivo do Estado, sem participação de terceiros.",
+     "p": "generalizacao",
+     "w": "O art. 2º, §2º, afasta essa exclusividade ao dizer que o dever do Estado não exclui o das pessoas, da família, das empresas e da sociedade."
+    },
+    {
+     "t": "Empresas só têm deveres de saúde quando contratadas pelo SUS em caráter complementar.",
+     "p": "restricao",
+     "w": "O dever das empresas não depende de contrato com o SUS; decorre diretamente do art. 2º, §2º, da Lei 8.080."
+    }
+   ]
+  },
+  {
+   "id": "sus7",
+   "topic": "Determinantes da saúde",
+   "c": "Em Teresina (PI), o plano municipal de saúde incluiu metas de incentivo à atividade física, lazer em praças e melhoria do transporte até as unidades. Um vereador disse que esses temas nada têm a ver com saúde.",
+   "q": "Segundo a Lei 8.080/90, assinale a alternativa correta.",
+   "a": 3,
+   "src": "Lei 8.080/90, art. 3º; LC 141/2012, art. 4º",
+   "o": [
+    {
+     "t": "Saúde é a ausência de doença, de modo que só a assistência prestada nas unidades integra a política de saúde.",
+     "p": "troca",
+     "w": "Troca o conceito ampliado de saúde da lei pelo conceito biomédico. O art. 3º reconhece fatores sociais e econômicos como determinantes e condicionantes."
+    },
+    {
+     "t": "Esses fatores só são considerados determinantes da saúde quando previstos em lei municipal específica.",
+     "p": "restricao",
+     "w": "O reconhecimento decorre da própria lei federal (art. 3º); não depende de lei municipal."
+    },
+    {
+     "t": "Por serem determinantes da saúde, gastos com transporte e lazer contam para o mínimo constitucional em saúde.",
+     "p": "extrapolacao",
+     "w": "Ser determinante não transforma o gasto em ação e serviço público de saúde. A LC 141/2012 (arts. 2º a 4º) define o que entra no mínimo, e esses gastos não entram."
+    },
+    {
+     "t": "Alimentação, moradia, saneamento, trabalho, renda, educação, atividade física, transporte e lazer estão entre os determinantes e condicionantes da saúde.",
+     "p": "correta",
+     "w": "O art. 3º da Lei 8.080 lista, entre outros, alimentação, moradia, saneamento básico, meio ambiente, trabalho, renda, educação, atividade física, transporte, lazer e acesso a bens e serviços essenciais."
+    }
+   ]
+  },
+  {
+   "id": "sus8",
+   "topic": "Vigilância sanitária",
+   "c": "Em Feira de Santana (BA), fiscais da prefeitura interditaram uma clínica de estética por falhas na esterilização de instrumentos e apreenderam cosméticos sem registro.",
+   "q": "Essa atuação corresponde a qual campo definido na Lei 8.080/90?",
+   "a": 1,
+   "src": "Lei 8.080/90, art. 6º, I, a, e §1º",
+   "o": [
+    {
+     "t": "Vigilância epidemiológica, que detecta mudanças nos determinantes da saúde para recomendar medidas de controle de doenças.",
+     "p": "troca",
+     "w": "Essa é a definição do §2º. Interditar estabelecimento e apreender produtos é controle de riscos de bens e serviços, típico da vigilância sanitária."
+    },
+    {
+     "t": "Vigilância sanitária: ações capazes de eliminar, diminuir ou prevenir riscos, incluindo o controle de bens de consumo e da prestação de serviços.",
+     "p": "correta",
+     "w": "Art. 6º, §1º: a vigilância sanitária intervém nos problemas sanitários do meio ambiente, da produção e circulação de bens e da prestação de serviços de interesse da saúde."
+    },
+    {
+     "t": "Vigilância sanitária, que alcança só os produtos, e não a prestação de serviços de saúde.",
+     "p": "restricao",
+     "w": "O §1º inclui expressamente o controle da prestação de serviços que se relacionam direta ou indiretamente com a saúde."
+    },
+    {
+     "t": "Saúde do trabalhador, pois toda fiscalização em estabelecimento com empregados se enquadra nesse campo.",
+     "p": "generalizacao",
+     "w": "Saúde do trabalhador cuida dos riscos à saúde de quem trabalha (§3º). Aqui o risco é aos clientes e consumidores, objeto da vigilância sanitária."
+    }
+   ]
+  },
+  {
+   "id": "sus9",
+   "topic": "Integralidade",
+   "c": "Em Natal (RN), José, diabético, recebeu na rede do SUS consulta, exames, insulina, orientação nutricional em grupo e encaminhamento ao oftalmologista, com retorno agendado na UBS.",
+   "q": "Qual princípio da Lei 8.080/90 melhor descreve esse cuidado?",
+   "a": 0,
+   "src": "Lei 8.080/90, art. 7º, II",
+   "o": [
+    {
+     "t": "Integralidade: conjunto articulado e contínuo de ações preventivas e curativas, individuais e coletivas, em todos os níveis de complexidade.",
+     "p": "correta",
+     "w": "É a definição do art. 7º, II. O cuidado de José combina prevenção, tratamento, ações coletivas e diferentes níveis do sistema, de forma contínua."
+    },
+    {
+     "t": "Universalidade, que garante acesso aos serviços de saúde em todos os níveis de assistência.",
+     "p": "troca",
+     "w": "Universalidade (art. 7º, I) responde a quem tem acesso: todos. O que descreve a completude e a articulação do cuidado é a integralidade."
+    },
+    {
+     "t": "Integralidade, que se limita aos serviços curativos individuais, sem incluir ações coletivas.",
+     "p": "restricao",
+     "w": "O art. 7º, II, inclui ações preventivas e curativas, individuais e coletivas."
+    },
+    {
+     "t": "Integralidade, que obriga o SUS a fornecer qualquer tratamento pedido, mesmo sem registro na Anvisa.",
+     "p": "extrapolacao",
+     "w": "A integralidade não alcança tudo: o art. 19-T da Lei 8.080 veda, no SUS, a dispensação de medicamento sem registro na Anvisa, salvo as exceções legais."
+    }
+   ]
+  },
+  {
+   "id": "sus10",
+   "topic": "Equidade",
+   "c": "Em Belém (PA), a secretaria decidiu instalar as novas equipes de Saúde da Família primeiro nos bairros de menor renda e maior vulnerabilidade social, em vez de distribuí-las igualmente por todos os bairros.",
+   "q": "Essa decisão expressa principalmente qual princípio do SUS?",
+   "a": 3,
+   "src": "Ministério da Saúde, ABC do SUS: doutrinas e princípios (1990); PNAB, Portaria GM/MS 2.436/2017, art. 3º, I; Lei 8.080/90, art. 7º, IV",
+   "o": [
+    {
+     "t": "Universalidade, porque todos os bairros acabarão recebendo as novas equipes.",
+     "p": "troca",
+     "w": "Universalidade trata do acesso de todos. Escolher por onde começar segundo a necessidade é a lógica da equidade."
+    },
+    {
+     "t": "Igualdade da assistência, que exige oferta idêntica em todos os bairros, sem considerar a necessidade.",
+     "p": "inversao",
+     "w": "A igualdade do art. 7º, IV, proíbe preconceitos e privilégios; não impede priorizar quem mais precisa. A decisão segue o raciocínio oposto ao da oferta idêntica."
+    },
+    {
+     "t": "Equidade, que só pode ser aplicada a populações indígenas, por previsão expressa da lei.",
+     "p": "restricao",
+     "w": "Não há essa restrição. A equidade orienta todo o sistema, e não apenas o Subsistema de Atenção à Saúde Indígena."
+    },
+    {
+     "t": "Equidade, princípio doutrinário do SUS: tratar desigualmente os desiguais, investindo mais onde a necessidade é maior.",
+     "p": "correta",
+     "w": "A equidade é um dos princípios doutrinários do SUS, ao lado da universalidade e da integralidade (ABC do SUS, 1990; a PNAB, art. 3º, I, lista os três como princípios). Busca reduzir desigualdades priorizando quem mais precisa."
+    }
+   ]
+  },
+  {
+   "id": "sus11",
+   "topic": "Direção única",
+   "c": "Num debate em Uberlândia (MG), um candidato a prefeito afirmou que o SUS tem direção única nacional, exercida pelo Ministério da Saúde, ao qual a secretaria municipal está hierarquicamente subordinada.",
+   "q": "Assinale a alternativa correta.",
+   "a": 3,
+   "src": "CF/88, art. 198, I; Lei 8.080/90, arts. 7º, IX, e 9º",
+   "o": [
+    {
+     "t": "O candidato está certo: direção única significa comando centralizado no Ministério da Saúde.",
+     "p": "inversao",
+     "w": "Inverte a diretriz: a CF fala em descentralização, com direção única em cada esfera de governo, e não em centralização nacional."
+    },
+    {
+     "t": "A direção é municipal só nos municípios com mais de 100 mil habitantes; nos demais, é estadual.",
+     "p": "restricao",
+     "w": "A lei não cria corte populacional: em todo município, a direção do SUS cabe à secretaria municipal de saúde ou órgão equivalente (art. 9º, III)."
+    },
+    {
+     "t": "A direção única em cada esfera é exercida pelos Conselhos de Saúde, e não pelas secretarias.",
+     "p": "troca",
+     "w": "Conselhos atuam na formulação de estratégias e no controle da execução (Lei 8.142, art. 1º, §2º). A direção é do Ministério e das secretarias (art. 9º)."
+    },
+    {
+     "t": "A direção é única em cada esfera: Ministério da Saúde na União e secretarias de saúde ou órgão equivalente nos estados, DF e municípios.",
+     "p": "correta",
+     "w": "Art. 9º da Lei 8.080 e art. 198, I, da CF: a direção é única em cada esfera de governo. Os entes são autônomos; não há subordinação hierárquica do município à União."
+    }
+   ]
+  },
+  {
+   "id": "sus12",
+   "topic": "Dirigente de contratada",
+   "c": "Em Ribeirão Preto (SP), o dono de um hospital privado contratado pelo SUS foi convidado pelo prefeito para assumir a diretoria de regulação da secretaria municipal de saúde.",
+   "q": "Pela Lei 8.080/90, ele pode assumir o cargo?",
+   "a": 1,
+   "src": "Lei 8.080/90, art. 26, §4º",
+   "o": [
+    {
+     "t": "Sim, desde que se afaste da administração do hospital durante o exercício do cargo.",
+     "p": "restricao",
+     "w": "A lei não prevê essa saída: a vedação atinge proprietários, administradores e dirigentes, e o afastamento da gestão não elimina a condição de proprietário."
+    },
+    {
+     "t": "Não: proprietários, administradores e dirigentes de entidades contratadas são proibidos de exercer cargo de chefia ou função de confiança no SUS.",
+     "p": "correta",
+     "w": "É a vedação do art. 26, §4º, da Lei 8.080, que evita conflito de interesses entre quem presta o serviço e quem o regula e paga."
+    },
+    {
+     "t": "Sim, pois qualquer cidadão pode ser nomeado para cargo em comissão no SUS.",
+     "p": "generalizacao",
+     "w": "Há vedação específica no art. 26, §4º, para proprietários, administradores e dirigentes de entidades ou serviços contratados."
+    },
+    {
+     "t": "Não, e o simples convite rescinde automaticamente o contrato do hospital com o SUS.",
+     "p": "extrapolacao",
+     "w": "A lei proíbe o exercício do cargo, mas não prevê rescisão automática do contrato por causa do convite."
+    }
+   ]
+  },
+  {
+   "id": "sus13",
+   "topic": "Competência sanitária",
+   "c": "Em Foz do Iguaçu (PR), surgiu dúvida sobre quem executa a vigilância sanitária no aeroporto internacional e quem fiscaliza os restaurantes do centro da cidade.",
+   "q": "Pela Lei 8.080/90, assinale a alternativa correta.",
+   "a": 0,
+   "src": "Lei 8.080/90, arts. 16, VII, e 18, IV, b",
+   "o": [
+    {
+     "t": "No aeroporto, a União normatiza e executa a vigilância sanitária, que pode ser complementada pelos demais entes; nos restaurantes, executa o município.",
+     "p": "correta",
+     "w": "Art. 16, VII: cabe à direção nacional estabelecer normas e executar a vigilância sanitária de portos, aeroportos e fronteiras, com possível complementação. Art. 18, IV, b: o município executa os serviços de vigilância sanitária."
+    },
+    {
+     "t": "No aeroporto, executa o município; nos restaurantes, a União, por meio da Anvisa.",
+     "p": "inversao",
+     "w": "Inverte as competências: portos, aeroportos e fronteiras são da União (art. 16, VII), e a vigilância sanitária local é executada pelo município (art. 18, IV, b)."
+    },
+    {
+     "t": "Nos dois casos a vigilância sanitária é exclusiva da União, por ser poder de polícia nacional.",
+     "p": "generalizacao",
+     "w": "Não há exclusividade federal: a lei distribui a vigilância sanitária entre as esferas, cabendo ao município executá-la no seu território."
+    },
+    {
+     "t": "Nos dois casos executa o Estado, pois a lei reserva a vigilância sanitária às secretarias estaduais.",
+     "p": "troca",
+     "w": "Ao Estado cabe coordenar e, em caráter complementar, executar a vigilância sanitária (art. 17, IV, b). A execução local é municipal."
+    }
+   ]
+  },
+  {
+   "id": "sus14",
+   "topic": "Papel do Estado",
+   "c": "Um pequeno município do interior do Tocantins não consegue executar as ações de vigilância epidemiológica por falta de técnicos capacitados.",
+   "q": "Pela Lei 8.080/90, qual é o papel da direção estadual do SUS?",
+   "a": 2,
+   "src": "Lei 8.080/90, art. 17, I, III e IV, a",
+   "o": [
+    {
+     "t": "Assumir definitivamente a gestão da saúde do município, que perde a direção do SUS local.",
+     "p": "extrapolacao",
+     "w": "A atuação estadual é supletiva e de apoio. A direção do SUS no município continua com a secretaria municipal (art. 9º, III)."
+    },
+    {
+     "t": "Nada, pois só a União pode executar vigilância epidemiológica fora do município.",
+     "p": "troca",
+     "w": "A União executa vigilância epidemiológica em circunstâncias especiais (art. 16, §1º). O apoio ao município cabe primeiro ao Estado (art. 17)."
+    },
+    {
+     "t": "Prestar apoio técnico e financeiro ao município, executar ações supletivamente e coordenar a vigilância, executando-a em caráter complementar.",
+     "p": "correta",
+     "w": "Art. 17: o Estado promove a descentralização para os municípios (I), presta apoio técnico e financeiro e executa supletivamente (III) e coordena e, em caráter complementar, executa a vigilância epidemiológica (IV, a)."
+    },
+    {
+     "t": "Apoiar o município só com recursos financeiros, sendo vedado o apoio técnico.",
+     "p": "restricao",
+     "w": "O art. 17, III, prevê apoio técnico e financeiro, além da execução supletiva de ações e serviços."
+    }
+   ]
+  },
+  {
+   "id": "sus15",
+   "topic": "Saúde indígena",
+   "c": "Em Dourados (MS), lideranças guarani-kaiowá querem saber quem financia o Subsistema de Atenção à Saúde Indígena e como ele se organiza no território.",
+   "q": "Pela Lei 8.080/90, assinale a alternativa correta.",
+   "a": 2,
+   "src": "Lei 8.080/90, arts. 19-C, 19-E e 19-G",
+   "o": [
+    {
+     "t": "Os municípios financiam o subsistema, que se apoia nas UBS urbanas mais próximas das aldeias.",
+     "p": "troca",
+     "w": "O financiamento é da União (art. 19-C), e a base territorial são os Distritos Sanitários Especiais Indígenas (art. 19-G, §1º)."
+    },
+    {
+     "t": "Estados e municípios são proibidos de atuar no custeio e na execução das ações de saúde indígena.",
+     "p": "inversao",
+     "w": "É o contrário: o art. 19-E permite que estados, municípios e outras instituições atuem complementarmente no custeio e na execução."
+    },
+    {
+     "t": "A União financia com recursos próprios; o subsistema tem como base os Distritos Sanitários Especiais Indígenas, e o SUS serve de retaguarda e referência.",
+     "p": "correta",
+     "w": "Art. 19-C: cabe à União financiar o subsistema com recursos próprios. Art. 19-G: ele é descentralizado, hierarquizado e regionalizado, com base nos DSEIs, e o SUS serve de retaguarda e referência (§2º)."
+    },
+    {
+     "t": "A União financia, mas os indígenas só podem ser atendidos nos DSEIs, sem acesso a hospitais do SUS.",
+     "p": "restricao",
+     "w": "O art. 19-G, §3º, garante acesso em âmbito local, regional e a centros especializados, nos níveis primário, secundário e terciário."
+    }
+   ]
+  },
+  {
+   "id": "sus16",
+   "topic": "Direito a acompanhante",
+   "c": "Em Aracaju (SE), Lúcia, de 34 anos, chegou a um laboratório particular para uma ultrassonografia acompanhada da irmã, de 25 anos. A atendente barrou a irmã porque Lúcia não avisou antes que levaria acompanhante.",
+   "q": "Pela Lei 8.080/90, assinale a alternativa correta.",
+   "a": 3,
+   "src": "Lei 8.080/90, art. 19-J, caput e §§1º, 2º-A e 4º (redação da Lei 14.737/2023)",
+   "o": [
+    {
+     "t": "O direito vale só nas unidades públicas do SUS; laboratórios privados podem fixar regras próprias.",
+     "p": "restricao",
+     "w": "O art. 19-J abrange expressamente unidades de saúde públicas ou privadas."
+    },
+    {
+     "t": "O acompanhante deve ser sempre um profissional de saúde indicado pela unidade.",
+     "p": "generalizacao",
+     "w": "Em regra, a paciente indica livremente o acompanhante (§1º). Só em centro cirúrgico ou UTI, com restrições justificadas, admite-se apenas profissional de saúde (§4º)."
+    },
+    {
+     "t": "A exigência é válida: a lei manda a paciente informar o acompanhante com 24 horas de antecedência.",
+     "p": "troca",
+     "w": "As 24 horas de antecedência se referem à renúncia ao direito, por escrito, em atendimento com sedação (§2º-A), e não à indicação do acompanhante."
+    },
+    {
+     "t": "A exigência é indevida: toda mulher pode ter acompanhante maior de idade em consultas, exames e procedimentos, públicos ou privados, sem aviso prévio.",
+     "p": "correta",
+     "w": "Art. 19-J, caput: em unidades públicas ou privadas, toda mulher pode fazer-se acompanhar por pessoa maior de idade durante todo o atendimento, independentemente de notificação prévia."
+    }
+   ]
+  },
+  {
+   "id": "sus17",
+   "topic": "Incorporação de tecnologias",
+   "c": "Uma associação de pacientes com câncer de Recife (PE) quer saber quem decide se um novo medicamento oncológico será oferecido pelo SUS e em quanto tempo o pedido deve ser concluído.",
+   "q": "Pela Lei 8.080/90, assinale a alternativa correta.",
+   "a": 0,
+   "src": "Lei 8.080/90, arts. 19-Q e 19-R, caput e §3º (incluído pela Lei 14.758/2023)",
+   "o": [
+    {
+     "t": "Cabe ao Ministério da Saúde, assessorado pela Conitec, em processo de até 180 dias, prorrogáveis por 90 dias corridos.",
+     "p": "correta",
+     "w": "Art. 19-Q: a incorporação, exclusão ou alteração de tecnologias é atribuição do Ministério da Saúde, assessorado pela Conitec. Art. 19-R: prazo de 180 dias, prorrogável por 90 dias corridos; se a tecnologia é para câncer, o processo tramita em regime prioritário (§3º), sem mudar o prazo."
+    },
+    {
+     "t": "Cabe ao Ministério da Saúde, assessorado pela Conitec, em até 90 dias, prorrogáveis por mais 180.",
+     "p": "inversao",
+     "w": "Inverte os números: o prazo é de 180 dias, prorrogável por 90 dias corridos (art. 19-R)."
+    },
+    {
+     "t": "Cabe à Anvisa, que incorpora o medicamento ao SUS no ato de conceder o registro sanitário.",
+     "p": "troca",
+     "w": "Registro na Anvisa é condição, mas não equivale a incorporação. Quem incorpora é o Ministério da Saúde, assessorado pela Conitec (art. 19-Q)."
+    },
+    {
+     "t": "Cabe ao Ministério da Saúde, assessorado pela Conitec, mas só depois de decisão judicial favorável a algum paciente.",
+     "p": "restricao",
+     "w": "A incorporação ocorre em processo administrativo conduzido pelo Ministério da Saúde com a Conitec (art. 19-R), sem depender de decisão judicial."
+    }
+   ]
+  },
+  {
+   "id": "sus18",
+   "topic": "Conferência de Saúde",
+   "c": "Em Sobral (CE), a última Conferência Municipal de Saúde foi realizada em 2023. O novo secretário quer saber quando deve ocorrer a próxima conferência ordinária e para que ela serve.",
+   "q": "Pela Lei 8.142/90, assinale a alternativa correta.",
+   "a": 3,
+   "src": "Lei 8.142/90, art. 1º, §1º",
+   "o": [
+    {
+     "t": "A cada quatro anos, portanto em 2026, para avaliar a situação de saúde e propor diretrizes.",
+     "p": "calculo",
+     "w": "Erro de conta: quatro anos depois de 2023 é 2027, e não 2026."
+    },
+    {
+     "t": "A cada quatro anos, em 2027, para atuar em caráter permanente no controle da execução da política.",
+     "p": "troca",
+     "w": "Atuação permanente e deliberativa no controle da execução é papel do Conselho de Saúde (art. 1º, §2º), e não da Conferência."
+    },
+    {
+     "t": "A cada quatro anos, em 2027, mas apenas se convocada pela Câmara Municipal.",
+     "p": "restricao",
+     "w": "A Conferência é convocada pelo Poder Executivo ou, extraordinariamente, pela própria Conferência ou pelo Conselho de Saúde. Não depende da Câmara."
+    },
+    {
+     "t": "A cada quatro anos, portanto em 2027, para avaliar a situação de saúde e propor diretrizes para a formulação da política de saúde.",
+     "p": "correta",
+     "w": "Art. 1º, §1º: a Conferência reúne-se a cada quatro anos, com representação dos vários segmentos sociais, para avaliar a situação de saúde e propor diretrizes. 2023 + 4 = 2027."
+    }
+   ]
+  },
+  {
+   "id": "sus19",
+   "topic": "Conselho de Saúde",
+   "c": "O Conselho Estadual de Saúde do Maranhão aprovou resolução sobre a aplicação de recursos da rede hospitalar. Um assessor da secretaria disse que o conselho é apenas consultivo e não pode tratar de dinheiro.",
+   "q": "Pela Lei 8.142/90, assinale a alternativa correta.",
+   "a": 2,
+   "src": "Lei 8.142/90, art. 1º, §2º",
+   "o": [
+    {
+     "t": "O assessor tem razão: o Conselho é consultivo e só se reúne durante as Conferências.",
+     "p": "inversao",
+     "w": "A lei diz o oposto: o Conselho é permanente e deliberativo. Quem se reúne periodicamente, a cada quatro anos, é a Conferência."
+    },
+    {
+     "t": "O Conselho é deliberativo, mas sua atuação não alcança os aspectos econômicos e financeiros.",
+     "p": "restricao",
+     "w": "O §2º inclui expressamente os aspectos econômicos e financeiros no controle exercido pelo Conselho."
+    },
+    {
+     "t": "O Conselho é permanente e deliberativo, atua inclusive nos aspectos econômicos e financeiros, e suas decisões são homologadas pelo chefe do poder.",
+     "p": "correta",
+     "w": "Art. 1º, §2º: o Conselho de Saúde, em caráter permanente e deliberativo, atua na formulação de estratégias e no controle da execução da política, inclusive nos aspectos econômicos e financeiros."
+    },
+    {
+     "t": "O Conselho é deliberativo, e suas decisões valem sem necessidade de homologação pelo governador.",
+     "p": "extrapolacao",
+     "w": "O §2º prevê que as decisões do Conselho serão homologadas pelo chefe do poder legalmente constituído em cada esfera de governo."
+    }
+   ]
+  },
+  {
+   "id": "sus20",
+   "topic": "Paridade no Conselho",
+   "c": "O Conselho Municipal de Saúde de Maringá (PR) será recomposto com 32 conselheiros titulares.",
+   "q": "Pela paridade da Lei 8.142/90, detalhada na Resolução CNS 453/2012, quantas vagas cabem a usuários e a trabalhadores da saúde?",
+   "a": 0,
+   "src": "Lei 8.142/90, art. 1º, §4º; Resolução CNS 453/2012, Terceira Diretriz, II",
+   "o": [
+    {
+     "t": "16 vagas para usuários e 8 para trabalhadores da saúde; as outras 8 ficam com governo e prestadores de serviço.",
+     "p": "correta",
+     "w": "Usuários têm 50% (paridade em relação ao conjunto dos demais segmentos): 16 de 32. Trabalhadores, 25% (8), e governo com prestadores, 25% (8)."
+    },
+    {
+     "t": "8 vagas para usuários e 8 para trabalhadores, pois cada um dos quatro segmentos recebe 25%.",
+     "p": "calculo",
+     "w": "Erro de procedimento: a paridade é dos usuários em relação ao conjunto dos demais segmentos, o que dá 50% para usuários, e não 25%."
+    },
+    {
+     "t": "16 vagas para trabalhadores e 8 para usuários, já que os profissionais formam metade do conselho.",
+     "p": "inversao",
+     "w": "Inverte os segmentos: metade das vagas é dos usuários; os trabalhadores ficam com 25%."
+    },
+    {
+     "t": "A divisão é livre, pois a paridade só vale para o Conselho Nacional de Saúde.",
+     "p": "restricao",
+     "w": "A paridade dos usuários vale para os Conselhos e Conferências de Saúde de todas as esferas (art. 1º, §4º)."
+    }
+   ]
+  },
+  {
+   "id": "sus21",
+   "topic": "Requisitos para recursos",
+   "c": "O município de Parintins (AM) nunca instituiu Fundo Municipal de Saúde nem apresenta relatórios de gestão. A secretaria estadual foi consultada sobre os repasses federais.",
+   "q": "Pela Lei 8.142/90, qual é a consequência?",
+   "a": 1,
+   "src": "Lei 8.142/90, art. 4º, I e IV, e parágrafo único",
+   "o": [
+    {
+     "t": "O município perde de forma definitiva qualquer recurso do SUS, inclusive os de anos anteriores.",
+     "p": "extrapolacao",
+     "w": "A lei não prevê perda definitiva nem retroativa: os recursos passam a ser administrados pelo Estado enquanto os requisitos não forem atendidos."
+    },
+    {
+     "t": "Os recursos federais correspondentes passam a ser administrados pelo Estado, pois o município não cumpre os requisitos legais.",
+     "p": "correta",
+     "w": "Art. 4º: para receber os repasses, o ente deve ter Fundo de Saúde, Conselho, plano, relatórios de gestão, contrapartida e comissão de PCCS. Pelo parágrafo único, se o município não cumpre, o Estado administra os recursos."
+    },
+    {
+     "t": "Os recursos passam a ser administrados pelo Conselho Municipal de Saúde até a criação do fundo.",
+     "p": "troca",
+     "w": "O Conselho delibera e fiscaliza, mas não administra recursos no lugar do ente. A lei transfere a administração ao Estado (parágrafo único)."
+    },
+    {
+     "t": "Nada muda, pois Fundo de Saúde e relatório de gestão são exigidos apenas dos estados.",
+     "p": "restricao",
+     "w": "O art. 4º exige esses requisitos de municípios, estados e Distrito Federal."
+    }
+   ]
+  },
+  {
+   "id": "sus22",
+   "topic": "Pisos da saúde",
+   "c": "Em audiência pública na Assembleia Legislativa de Minas Gerais, um debatedor foi convidado a resumir quanto cada ente deve aplicar, no mínimo, em ações e serviços públicos de saúde.",
+   "q": "Assinale a regra vigente.",
+   "a": 2,
+   "src": "CF/88, art. 198, §2º (EC 86/2015); LC 141/2012, arts. 6º e 7º; LC 200/2023",
+   "o": [
+    {
+     "t": "União, valor mínimo do ano anterior corrigido pelo IPCA; estados, 12%, e municípios, 15%.",
+     "p": "troca",
+     "w": "A correção pelo IPCA era a regra temporária da EC 95/2016 (art. 110 do ADCT), revogada com a sanção da LC 200/2023, conforme a EC 126/2022."
+    },
+    {
+     "t": "União, 15% da receita corrente líquida; estados, 15%, e municípios, 12%.",
+     "p": "inversao",
+     "w": "Inverte os percentuais: estados aplicam no mínimo 12% e municípios no mínimo 15% (LC 141/2012, arts. 6º e 7º)."
+    },
+    {
+     "t": "União, 15% da receita corrente líquida do exercício; estados, 12%, e municípios, 15% da arrecadação de impostos e transferências.",
+     "p": "correta",
+     "w": "Art. 198, §2º, I, da CF (EC 86/2015): União, 15% da RCL do respectivo exercício. LC 141/2012: estados, 12% (art. 6º), e municípios, 15% (art. 7º)."
+    },
+    {
+     "t": "Todos os entes aplicam o mesmo piso: 15% da receita corrente líquida.",
+     "p": "generalizacao",
+     "w": "Os pisos são diferentes: a RCL é a base só da União; estados e municípios aplicam 12% e 15% da arrecadação de impostos e transferências."
+    }
+   ]
+  },
+  {
+   "id": "sus23",
+   "topic": "Gastos fora do piso",
+   "c": "A prefeitura de Campos dos Goytacazes (RJ) quis computar no mínimo de 15% em saúde os gastos com merenda escolar, limpeza urbana e aposentadorias de ex-servidores da secretaria de saúde.",
+   "q": "Pela LC 141/2012, assinale a alternativa correta.",
+   "a": 3,
+   "src": "LC 141/2012, art. 4º, I, IV e VI",
+   "o": [
+    {
+     "t": "Só as aposentadorias contam, porque os ex-servidores trabalharam na área da saúde.",
+     "p": "extrapolacao",
+     "w": "O art. 4º, I, exclui aposentadorias e pensões inclusive dos servidores da saúde."
+    },
+    {
+     "t": "Todos contam, pois qualquer gasto que melhore as condições de vida afeta os determinantes da saúde.",
+     "p": "generalizacao",
+     "w": "A LC 141 separa determinantes da saúde de despesas computáveis: só entram ações de acesso universal, igualitário e gratuito, de responsabilidade específica da saúde (art. 2º)."
+    },
+    {
+     "t": "Todos contam, desde que aprovados pelo Conselho Municipal de Saúde.",
+     "p": "restricao",
+     "w": "A aprovação do Conselho não transforma em despesa de saúde o que a lei exclui expressamente no art. 4º."
+    },
+    {
+     "t": "Nenhum desses gastos pode ser computado: merenda, limpeza urbana e aposentadorias não são despesas com ações e serviços públicos de saúde.",
+     "p": "correta",
+     "w": "O art. 4º da LC 141 exclui do cômputo: aposentadorias e pensões, inclusive dos servidores da saúde (I), merenda escolar (IV) e limpeza urbana e remoção de resíduos (VI)."
+    }
+   ]
+  },
+  {
+   "id": "sus24",
+   "topic": "Região de Saúde",
+   "c": "O Estado da Bahia, em articulação com os municípios, quer instituir uma nova Região de Saúde em torno de Vitória da Conquista.",
+   "q": "Pelo Decreto 7.508/2011, quais ações e serviços a região deve conter, no mínimo?",
+   "a": 0,
+   "src": "Decreto 7.508/2011, arts. 4º e 5º",
+   "o": [
+    {
+     "t": "Atenção primária, urgência e emergência, atenção psicossocial, atenção ambulatorial especializada e hospitalar e vigilância em saúde.",
+     "p": "correta",
+     "w": "É a lista do art. 5º do Decreto 7.508/2011. A região é instituída pelo Estado, em articulação com os municípios (art. 4º)."
+    },
+    {
+     "t": "Apenas atenção primária e urgência e emergência; os demais serviços podem ficar fora da região.",
+     "p": "restricao",
+     "w": "O art. 5º exige também atenção psicossocial, atenção ambulatorial especializada e hospitalar e vigilância em saúde."
+    },
+    {
+     "t": "Atenção primária, urgência e emergência, atenção psicossocial e serviços especiais de acesso aberto.",
+     "p": "troca",
+     "w": "Essa é a lista das Portas de Entrada (art. 9º), e não do conteúdo mínimo da Região de Saúde (art. 5º)."
+    },
+    {
+     "t": "Todos os serviços de alta complexidade, inclusive transplantes, pois a região deve ser autossuficiente.",
+     "p": "extrapolacao",
+     "w": "O decreto fixa um conteúdo mínimo; não exige autossuficiência em alta complexidade, que se organiza em redes que podem abranger várias regiões (art. 7º)."
+    }
+   ]
+  },
+  {
+   "id": "sus25",
+   "topic": "Portas de entrada",
+   "c": "Em São Luís (MA), Dona Rita, com dor no joelho há meses, foi direto ao ambulatório de ortopedia do hospital estadual pedir consulta, sem encaminhamento.",
+   "q": "Pelo Decreto 7.508/2011, como se organiza o acesso nesse caso?",
+   "a": 1,
+   "src": "Decreto 7.508/2011, arts. 9º, 10 e 11",
+   "o": [
+    {
+     "t": "O ambulatório especializado é Porta de Entrada, ao lado da atenção primária, da urgência e da atenção psicossocial.",
+     "p": "troca",
+     "w": "O art. 9º lista atenção primária, urgência e emergência, atenção psicossocial e serviços especiais de acesso aberto. Ambulatório especializado é referenciado (art. 10)."
+    },
+    {
+     "t": "O acesso é ordenado pela atenção primária; ambulatórios especializados e hospitais são referenciados a partir das Portas de Entrada.",
+     "p": "correta",
+     "w": "Art. 11: o acesso universal e igualitário é ordenado pela atenção primária. Art. 10: serviços hospitalares e ambulatoriais especializados são referenciados pelas Portas de Entrada."
+    },
+    {
+     "t": "Qualquer serviço do SUS é Porta de Entrada, à livre escolha do usuário.",
+     "p": "generalizacao",
+     "w": "As Portas de Entrada são as listadas no art. 9º; outras só podem ser criadas mediante justificativa técnica e pactuação nas Comissões Intergestores."
+    },
+    {
+     "t": "A única Porta de Entrada é a atenção primária, sem exceção nem para urgências.",
+     "p": "restricao",
+     "w": "Urgência e emergência, atenção psicossocial e serviços especiais de acesso aberto também são Portas de Entrada (art. 9º)."
+    }
+   ]
+  },
+  {
+   "id": "sus26",
+   "topic": "Assistência farmacêutica",
+   "c": "Em Joinville (SC), a farmacêutica da secretaria municipal treina a equipe sobre os requisitos do Decreto 7.508/2011 para o acesso universal e igualitário à assistência farmacêutica.",
+   "q": "Quais são, cumulativamente, esses requisitos?",
+   "a": 2,
+   "src": "Decreto 7.508/2011, arts. 25, 26 e 28",
+   "o": [
+    {
+     "t": "Basta que o medicamento conste da RENAME, independentemente de quem prescreveu ou de onde é dispensado.",
+     "p": "generalizacao",
+     "w": "Constar da RENAME é só um dos elementos. O art. 28 exige, cumulativamente, assistência pelo SUS, prescrição no SUS e dispensação em unidade indicada."
+    },
+    {
+     "t": "Os requisitos do art. 28, além de comprovação de renda familiar inferior a três salários mínimos.",
+     "p": "restricao",
+     "w": "O decreto não exige comprovação de renda: o acesso é universal e igualitário."
+    },
+    {
+     "t": "Usuário assistido pelo SUS, prescrição de profissional do SUS conforme RENAME, PCDT ou relação complementar e dispensação em unidade indicada pelo SUS.",
+     "p": "correta",
+     "w": "São os quatro requisitos cumulativos do art. 28 do Decreto 7.508/2011. A RENAME é a relação nacional de medicamentos, atualizada pelo Ministério da Saúde a cada dois anos (art. 26)."
+    },
+    {
+     "t": "Prescrição conforme a lista de medicamentos registrados na Anvisa, que substitui a RENAME no SUS.",
+     "p": "troca",
+     "w": "Registro na Anvisa é condição para entrar na RENAME (art. 29), mas a referência para a prescrição no SUS é a RENAME, os PCDT ou a relação complementar."
+    }
+   ]
+  },
+  {
+   "id": "sus27",
+   "topic": "Comissões Intergestores",
+   "c": "Na Região de Saúde de Ji-Paraná (RO), os secretários municipais e o Estado precisam pactuar os fluxos de referência para cirurgias eletivas entre os municípios da região.",
+   "q": "Pelo Decreto 7.508/2011, qual é a instância de pactuação adequada?",
+   "a": 3,
+   "src": "Decreto 7.508/2011, arts. 30 e 32",
+   "o": [
+    {
+     "t": "O Conselho Municipal de Saúde do município-polo, que delibera em nome dos demais.",
+     "p": "troca",
+     "w": "Conselho de Saúde é instância de controle social de cada ente. A pactuação entre gestores ocorre nas Comissões Intergestores."
+    },
+    {
+     "t": "A CIT, vinculada ao Ministério da Saúde, que pactua todas as referências regionais do país.",
+     "p": "generalizacao",
+     "w": "A CIT atua no âmbito da União e pactua diretrizes nacionais; a pactuação regional cabe à CIR (art. 30)."
+    },
+    {
+     "t": "A CIR, vinculada ao Ministério da Saúde e superior à CIB, cujas diretrizes ela revisa.",
+     "p": "inversao",
+     "w": "Inverte a relação: a CIR é vinculada à Secretaria Estadual de Saúde e observa as diretrizes da CIB (art. 30, III)."
+    },
+    {
+     "t": "A CIR, no âmbito regional, vinculada à Secretaria Estadual de Saúde, que deve observar as diretrizes da CIB.",
+     "p": "correta",
+     "w": "Art. 30, III: a Comissão Intergestores Regional atua no âmbito regional, vinculada à Secretaria Estadual de Saúde, observadas as diretrizes da CIB. Pactuar referências regionais é matéria das Comissões (art. 32)."
+    }
+   ]
+  },
+  {
+   "id": "sus28",
+   "topic": "Atenção básica",
+   "c": "Em Curitiba (PR), uma equipe de Saúde da Família acompanha as famílias de um território definido, faz visitas domiciliares e, ao encaminhar pacientes a especialistas, mantém o acompanhamento deles.",
+   "q": "Segundo a Política Nacional de Atenção Básica, qual papel a atenção básica exerce?",
+   "a": 1,
+   "src": "PNAB, Portaria GM/MS 2.436/2017, arts. 2º, §1º, e 4º; Decreto 7.508/2011, arts. 9º e 11",
+   "o": [
+    {
+     "t": "Ao encaminhar ao especialista, a equipe transfere a responsabilidade e encerra o vínculo com o paciente.",
+     "p": "inversao",
+     "w": "É o oposto: coordenar o cuidado significa manter o acompanhamento do usuário ao longo da rede, mesmo quando ele é atendido em outros pontos."
+    },
+    {
+     "t": "É a principal porta de entrada da rede, coordenadora do cuidado e ordenadora das ações, com a Saúde da Família como estratégia prioritária.",
+     "p": "correta",
+     "w": "PNAB, art. 2º, §1º: a atenção básica é a principal porta de entrada, coordenadora do cuidado e ordenadora das ações e serviços da rede. Art. 4º: a Saúde da Família é a estratégia prioritária."
+    },
+    {
+     "t": "É o nível de alta complexidade do SUS, responsável por internações de longa permanência.",
+     "p": "troca",
+     "w": "Troca níveis de atenção: a atenção básica é o primeiro nível, próximo do território, e não a alta complexidade hospitalar."
+    },
+    {
+     "t": "É Porta de Entrada obrigatória para todo atendimento, inclusive para emergências.",
+     "p": "generalizacao",
+     "w": "Urgência e emergência também é Porta de Entrada (Decreto 7.508/2011, art. 9º). A atenção básica é a principal, e não a única."
+    }
+   ]
+  },
+  {
+   "id": "sus29",
+   "type": "ce",
+   "topic": "Capital estrangeiro",
+   "src": "CF/88, art. 199, §3º",
+   "c": "Um grupo hospitalar estrangeiro anunciou a intenção de comprar hospitais em Salvador (BA), e um jornalista consultou um professor de direito sanitário sobre o que diz a Constituição.",
+   "q": "A Constituição veda a participação direta ou indireta de empresas ou capitais estrangeiros na assistência à saúde no País, salvo nos casos previstos em lei.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Art. 199, §3º, da CF: a vedação existe, mas admite exceções nos casos previstos em lei. O item reproduz corretamente a regra e a ressalva."
+    },
+    {
+     "t": "Errado",
+     "p": "generalizacao",
+     "w": "Julgar errado supõe que a vedação seja absoluta ou inexistente. A CF proíbe a participação de capital estrangeiro, salvo nos casos previstos em lei."
+    }
+   ]
+  },
+  {
+   "id": "sus30",
+   "type": "ce",
+   "topic": "Saúde do trabalhador",
+   "src": "CF/88, art. 200, II",
+   "c": "Em Camaçari (BA), a secretaria municipal de saúde passou a investigar intoxicações de operários do polo petroquímico, e uma empresa alegou que o SUS não teria competência constitucional para isso.",
+   "q": "Pela Constituição, compete ao SUS executar as ações de vigilância sanitária e epidemiológica, mas as de saúde do trabalhador ficam fora de suas atribuições constitucionais.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo aceita uma exclusão que não existe: o art. 200, II, inclui as ações de saúde do trabalhador entre as atribuições do SUS."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Art. 200, II, da CF: compete ao SUS executar as ações de vigilância sanitária e epidemiológica, bem como as de saúde do trabalhador."
+    }
+   ]
+  },
+  {
+   "id": "sus31",
+   "type": "ce",
+   "topic": "Vigilância epidemiológica",
+   "src": "Lei 8.080/90, art. 6º, §2º",
+   "c": "Em Manaus (AM), a secretaria municipal percebeu aumento de casos notificados de dengue em um bairro, investigou os casos e recomendou ações de bloqueio e controle do vetor.",
+   "q": "A atuação descrita configura vigilância epidemiológica, nos termos da Lei 8.080/90.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Art. 6º, §2º: vigilância epidemiológica é o conjunto de ações que proporcionam o conhecimento, a detecção ou a prevenção de mudanças nos fatores determinantes e condicionantes, para recomendar e adotar medidas de controle das doenças."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado confunde o caso com vigilância sanitária, que controla riscos de bens, serviços e ambientes (§1º). Investigar casos e recomendar controle de doença é vigilância epidemiológica."
+    }
+   ]
+  },
+  {
+   "id": "sus32",
+   "type": "ce",
+   "topic": "Interdição pelo sindicato",
+   "src": "Lei 8.080/90, art. 6º, §3º, VIII",
+   "c": "Em Volta Redonda (RJ), depois de acidentes graves em uma siderúrgica, o sindicato dos metalúrgicos procurou a vigilância em saúde do trabalhador do município.",
+   "q": "A Lei 8.080/90 garante ao sindicato dos trabalhadores o direito de requerer ao órgão competente a interdição de máquina, setor ou ambiente de trabalho com risco iminente à vida ou à saúde.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Art. 6º, §3º, VIII: a saúde do trabalhador abrange a garantia ao sindicato de requerer a interdição de máquina, de setor de serviço ou de todo o ambiente de trabalho quando houver exposição a risco iminente."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado acrescenta uma restrição inexistente, como exigir que o pedido parta só do Ministério Público ou da empresa. A lei garante esse direito ao sindicato."
+    }
+   ]
+  },
+  {
+   "id": "sus33",
+   "type": "ce",
+   "topic": "Internação domiciliar",
+   "src": "Lei 8.080/90, art. 19-I, §3º",
+   "c": "Em Pelotas (RS), o médico da equipe indicou internação domiciliar para Seu Antônio, idoso acamado e lúcido, que concordou. A filha, com quem ele mora, discordou da medida.",
+   "q": "Indicada pelo médico, a internação domiciliar pode ser realizada, pois a Lei 8.080/90 exige apenas a concordância do paciente.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo ignora parte da exigência legal: a lei pede concordância expressa do paciente e também de sua família."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Art. 19-I, §3º: o atendimento e a internação domiciliares só podem ser realizados por indicação médica, com expressa concordância do paciente e de sua família."
+    }
+   ]
+  },
+  {
+   "id": "sus34",
+   "type": "ce",
+   "topic": "Equidade e igualdade",
+   "src": "Lei 8.080/90, art. 7º, I, II e IV",
+   "c": "Em um cursinho de Belo Horizonte (MG), um aluno afirmou que a Lei 8.080 escreve, com essas palavras, os três princípios doutrinários do SUS no art. 7º.",
+   "q": "O art. 7º da Lei 8.080/90 traz, em incisos expressos, a universalidade, a integralidade e a equidade.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo troca a doutrina pelo texto legal: a equidade é princípio doutrinário consagrado, mas o art. 7º usa a palavra igualdade da assistência (inciso IV)."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O art. 7º prevê universalidade de acesso (I), integralidade (II) e igualdade da assistência, sem preconceitos ou privilégios (IV). A equidade é princípio doutrinário, não inciso expresso."
+    }
+   ]
+  },
+  {
+   "id": "sus35",
+   "type": "ce",
+   "topic": "Municipalização",
+   "src": "Lei 8.080/90, art. 7º, IX, a e b",
+   "c": "A secretaria estadual de saúde do Ceará elaborou cartilha para novos gestores municipais sobre os princípios e diretrizes da Lei 8.080/90.",
+   "q": "Entre os princípios do art. 7º está a descentralização político-administrativa, com direção única em cada esfera de governo e ênfase na descentralização dos serviços para os municípios.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Art. 7º, IX: descentralização político-administrativa, com direção única em cada esfera de governo, com ênfase na descentralização dos serviços para os municípios (a) e na regionalização e hierarquização da rede (b)."
+    },
+    {
+     "t": "Errado",
+     "p": "inversao",
+     "w": "Julgar errado inverte a diretriz, como se a lei priorizasse a centralização na União ou nos estados. A ênfase legal é a municipalização."
+    }
+   ]
+  },
+  {
+   "id": "sus36",
+   "type": "ce",
+   "topic": "Repasse aos municípios",
+   "src": "Lei 8.142/90, art. 3º, §2º",
+   "c": "Técnicos do Fundo Nacional de Saúde explicaram a vereadores de Palmas (TO) como são divididos os recursos repassados de forma regular e automática a estados e municípios.",
+   "q": "Pela Lei 8.142/90, ao menos metade desses recursos deve ser destinada aos municípios, e o restante aos estados.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo aceita a troca do percentual: a lei fixa no mínimo setenta por cento para os municípios, e não metade."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Art. 3º, §2º, da Lei 8.142: os recursos são distribuídos ao menos em setenta por cento aos municípios, afetando-se o restante aos estados."
+    }
+   ]
+  },
+  {
+   "id": "sus37",
+   "type": "ce",
+   "topic": "Conass e Conasems",
+   "src": "Lei 8.142/90, art. 1º, §3º",
+   "c": "Em reunião do Conselho Nacional de Saúde em Brasília (DF), representantes dos secretários estaduais e municipais de saúde participaram da votação de uma resolução.",
+   "q": "O Conass e o Conasems têm representação no Conselho Nacional de Saúde.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Art. 1º, §3º, da Lei 8.142: o Conselho Nacional de Secretários de Saúde e o Conselho Nacional de Secretários Municipais de Saúde terão representação no Conselho Nacional de Saúde."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado supõe que Conass e Conasems atuem apenas nas Comissões Intergestores. A Lei 8.142 lhes garante representação também no Conselho Nacional de Saúde."
+    }
+   ]
+  },
+  {
+   "id": "sus38",
+   "type": "ce",
+   "topic": "Aplicação abaixo do piso",
+   "src": "LC 141/2012, art. 25",
+   "c": "A auditoria do tribunal de contas verificou que, em 2025, o município de Mossoró (RN) aplicou em ações e serviços públicos de saúde valor inferior ao mínimo legal.",
+   "q": "A diferença não aplicada deve ser acrescida ao montante mínimo do exercício seguinte, sem prejuízo das sanções cabíveis.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Art. 25 da LC 141/2012: eventual diferença que implique o não atendimento do mínimo deverá ser acrescida ao montante mínimo do exercício subsequente, sem prejuízo do mínimo daquele exercício e das sanções cabíveis."
+    },
+    {
+     "t": "Errado",
+     "p": "extrapolacao",
+     "w": "Julgar errado supõe que a diferença simplesmente se perde ou é substituída por multa. A LC 141 manda compensá-la no exercício seguinte, além de aplicar as sanções."
+    }
+   ]
+  },
+  {
+   "id": "sus39",
+   "type": "ce",
+   "topic": "COAP",
+   "src": "Decreto 7.508/2011, arts. 2º, II, 33 e 34",
+   "c": "Em Campinas (SP), um estagiário da secretaria de saúde preparou um parecer sobre o Contrato Organizativo da Ação Pública da Saúde para uma nova Região de Saúde.",
+   "q": "O COAP é o instrumento pelo qual o município contrata hospitais privados para complementar a rede do SUS.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo troca o COAP pelo contrato com prestadores privados (Lei 8.080, arts. 24 a 26). O COAP é acordo entre entes federativos."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Art. 2º, II, e art. 33 do Decreto 7.508/2011: o COAP é acordo de colaboração firmado entre entes federativos para organizar e integrar as ações e serviços de saúde na rede regionalizada e hierarquizada."
+    }
+   ]
+  },
+  {
+   "id": "sus40",
+   "type": "ce",
+   "topic": "Mapa da Saúde",
+   "src": "Decreto 7.508/2011, arts. 2º, V, 16 e 17",
+   "c": "No planejamento regional da saúde em Chapecó (SC), a equipe técnica montou o Mapa da Saúde da região e discutiu se incluiria as clínicas particulares.",
+   "q": "O Mapa da Saúde descreve geograficamente apenas os recursos e serviços públicos, excluídos os da iniciativa privada.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo restringe o Mapa ao setor público, o que o decreto não faz: ele inclui as ações e serviços ofertados pelo SUS e pela iniciativa privada."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Art. 2º, V: o Mapa da Saúde é a descrição geográfica da distribuição de recursos humanos e de ações e serviços ofertados pelo SUS e pela iniciativa privada. O art. 16 manda considerar a oferta privada no planejamento."
+    }
+   ]
+  }
+ ]
+}

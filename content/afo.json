@@ -1,0 +1,557 @@
+{
+  "id": "afo",
+  "title": "Orçamento Público (AFO)",
+  "subtitle": "PPA, LDO, LOA, receita, despesa e LRF",
+  "tag": "Concursos",
+  "blurb": "Princípios, PPA, LDO, LOA, créditos adicionais, receita, despesa e LRF em casos práticos, com o artigo exato e as contas refeitas passo a passo.",
+  "questions": [
+    {
+      "id": "afo1",
+      "topic": "Não afetação de impostos",
+      "c": "Em Uberlândia (MG), um vereador apresentou projeto de lei que destina 5% de toda a arrecadação do IPTU a um fundo municipal de esporte amador.",
+      "q": "À luz da Constituição, como se avalia o projeto?",
+      "a": 0,
+      "src": "CF/88, art. 167, IV",
+      "o": [
+        { "t": "É inconstitucional: vincular receita de impostos a fundo é vedado, e o esporte não está entre as ressalvas do art. 167, IV.", "p": "correta", "w": "O art. 167, IV, proíbe vincular receita de impostos a órgão, fundo ou despesa. As ressalvas são taxativas (repartição dos arts. 158 e 159, saúde, ensino, administração tributária, garantias de ARO e §4º), e o esporte não está entre elas." },
+        { "t": "É válido, porque a não afetação alcança apenas taxas e contribuições, e não os impostos.", "p": "troca", "w": "Inverte o alcance da regra: o art. 167, IV, trata justamente da receita de impostos. Taxas e contribuições, por natureza, podem ser vinculadas." },
+        { "t": "É válido, desde que a lei seja aprovada por maioria absoluta da Câmara Municipal.", "p": "restricao", "w": "Não existe quórum que salve a vinculação. A vedação constitucional não se afasta por lei, qualquer que seja a maioria." },
+        { "t": "É inconstitucional, porque a CF proíbe qualquer vinculação de receita de impostos, inclusive para saúde e educação.", "p": "generalizacao", "w": "Acerta a conclusão pelo motivo errado: saúde (art. 198, §2º) e manutenção e desenvolvimento do ensino (art. 212) são ressalvas expressas do art. 167, IV." }
+      ]
+    },
+    {
+      "id": "afo2",
+      "topic": "Princípio da exclusividade",
+      "c": "Em Natal (RN), o projeto de LOA municipal traz um artigo que autoriza o Executivo a abrir créditos suplementares até 10% da despesa fixada e outro que cria uma gratificação para os fiscais de tributos.",
+      "q": "Assinale a alternativa correta sobre os dois artigos.",
+      "a": 1,
+      "src": "CF/88, art. 165, §8º",
+      "o": [
+        { "t": "Os dois violam a exclusividade, pois a LOA só pode prever a receita e fixar a despesa.", "p": "generalizacao", "w": "O próprio art. 165, §8º, ressalva da proibição a autorização para abrir créditos suplementares e contratar operações de crédito, inclusive por antecipação de receita." },
+        { "t": "Só o artigo da gratificação viola a exclusividade; a autorização para créditos suplementares é exceção expressa do art. 165, §8º.", "p": "correta", "w": "Criar gratificação é matéria estranha à previsão da receita e à fixação da despesa e exige lei própria. Já a autorização para créditos suplementares é exceção expressa do §8º." },
+        { "t": "Só a autorização de créditos suplementares é vedada, pois depende de lei específica, separada da LOA.", "p": "inversao", "w": "Inverte a regra: a autorização para créditos suplementares pode constar da própria LOA (art. 165, §8º); a gratificação é que não pode." },
+        { "t": "Nenhum dos dois viola o princípio, porque a exclusividade só se aplica à LOA da União.", "p": "restricao", "w": "Os princípios orçamentários da CF valem para todos os entes: a LOA de Estados, DF e Municípios também não pode conter matéria estranha à receita e à despesa." }
+      ]
+    },
+    {
+      "id": "afo3",
+      "topic": "Princípio da universalidade",
+      "c": "Em Joinville (SC), uma fundação pública mantida pela prefeitura arrecada receitas com cursos de qualificação e pretende deixá-las fora da LOA municipal, alegando autonomia administrativa.",
+      "q": "Qual princípio orçamentário a pretensão contraria?",
+      "a": 2,
+      "src": "CF/88, art. 165, §5º, I; Lei 4.320/64, arts. 2º a 4º",
+      "o": [
+        { "t": "Exclusividade, pois a LOA não pode tratar de receitas de entidades da administração indireta.", "p": "troca", "w": "Exclusividade proíbe matéria estranha a receita e despesa na LOA. Receitas de fundação pública são exatamente o conteúdo próprio do orçamento." },
+        { "t": "Nenhum: por ter autonomia administrativa, a fundação pode manter orçamento próprio fora da LOA.", "p": "extrapolacao", "w": "Autonomia administrativa não retira a entidade do orçamento: o orçamento fiscal abrange as fundações instituídas e mantidas pelo poder público (CF, art. 165, §5º, I), e a LOA compreende todas as receitas (Lei 4.320/64, art. 3º)." },
+        { "t": "Universalidade: a LOA deve compreender todas as receitas e despesas, inclusive as das entidades mantidas pelo poder público.", "p": "correta", "w": "Pela universalidade (Lei 4.320/64, arts. 2º a 4º), todas as receitas e despesas constam da LOA. A CF, no art. 165, §5º, I, inclui no orçamento fiscal as fundações instituídas e mantidas pelo poder público." },
+        { "t": "Universalidade, mas só se as receitas dos cursos superarem os repasses que a fundação recebe da prefeitura.", "p": "restricao", "w": "Não há piso de valor: toda receita deve constar da LOA, seja qual for o seu montante em relação aos repasses." }
+      ]
+    },
+    {
+      "id": "afo4",
+      "topic": "Anualidade e reabertura",
+      "c": "Em 20 de outubro, foi promulgada lei do Estado de Goiás autorizando crédito especial para construir um hospital regional. Até 31 de dezembro, só parte do crédito foi empenhada.",
+      "q": "O que acontece com o saldo do crédito?",
+      "a": 3,
+      "src": "CF/88, art. 167, §2º; Lei 4.320/64, art. 45",
+      "o": [
+        { "t": "Extingue-se em 31 de dezembro, pois todo crédito adicional vale apenas no exercício em que foi aberto.", "p": "generalizacao", "w": "Ignora a exceção constitucional: créditos especiais e extraordinários autorizados nos últimos quatro meses do exercício podem ser reabertos no seguinte (art. 167, §2º)." },
+        { "t": "Pode ser reaberto no exercício seguinte, desde que a autorização tenha sido promulgada nos últimos seis meses do exercício.", "p": "troca", "w": "Troca o prazo: a CF fala nos últimos quatro meses do exercício, ou seja, a partir de 1º de setembro." },
+        { "t": "É reaberto automaticamente pelo valor integral originalmente autorizado, e não só pelo saldo.", "p": "extrapolacao", "w": "A reabertura se dá nos limites dos saldos (art. 167, §2º). O que já foi empenhado não volta a ser autorizado no ano seguinte." },
+        { "t": "Pode ser reaberto no exercício seguinte, nos limites do saldo, porque a autorização foi promulgada nos últimos quatro meses do exercício.", "p": "correta", "w": "Art. 167, §2º: créditos especiais e extraordinários vigoram no exercício em que autorizados, salvo se o ato for promulgado nos últimos quatro meses; nesse caso, reabertos nos limites de seus saldos, incorporam-se ao orçamento seguinte." }
+      ]
+    },
+    {
+      "id": "afo5",
+      "topic": "Antecipação de receita",
+      "c": "Em Campina Grande (PB), o contador da prefeitura quer incluir na previsão de receita da LOA o valor de uma operação de crédito por antecipação de receita (ARO) que será contratada em março para cobrir insuficiência de caixa.",
+      "q": "Como deve ser tratado esse ingresso?",
+      "a": 1,
+      "src": "Lei 4.320/64, art. 3º, parágrafo único",
+      "o": [
+        { "t": "Deve entrar na previsão, porque a universalidade exige que toda entrada de dinheiro conste da LOA.", "p": "generalizacao", "w": "A própria Lei 4.320/64 excepciona a ARO: ela não se considera receita orçamentária (art. 3º, parágrafo único)." },
+        { "t": "Não entra como receita orçamentária: a ARO é ingresso extraorçamentário, por exceção expressa do art. 3º, parágrafo único, da Lei 4.320/64.", "p": "correta", "w": "A ARO é dinheiro que entra para sair: será quitada com a própria receita do exercício. Por isso, a lei a exclui da receita orçamentária, como as demais entradas compensatórias no ativo e passivo financeiros." },
+        { "t": "Deve entrar como receita corrente, já que se destina a cobrir despesas do dia a dia.", "p": "troca", "w": "Mistura classificação com natureza do ingresso: a ARO nem chega a ser receita orçamentária, de modo que não cabe classificá-la como corrente ou de capital." },
+        { "t": "Não entra porque nenhuma operação de crédito pode constar da LOA.", "p": "extrapolacao", "w": "O caput do art. 3º manda incluir na LOA as operações de crédito autorizadas em lei. Só a ARO, e outras entradas compensatórias, ficam de fora." }
+      ]
+    },
+    {
+      "id": "afo6",
+      "topic": "Prazo e vigência PPA",
+      "c": "O Presidente da República eleito em 2026 tomou posse em janeiro de 2027. A equipe do Ministério do Planejamento prepara o projeto do plano plurianual do novo governo.",
+      "q": "Pela regra do ADCT, até quando o projeto deve ser enviado e qual período o plano cobre?",
+      "a": 3,
+      "src": "ADCT, art. 35, §2º, I; CF/88, art. 165, §1º",
+      "o": [
+        { "t": "Até 15 de abril de 2027, para vigorar de 2027 a 2030, coincidindo com o mandato.", "p": "troca", "w": "15 de abril é o prazo do projeto de LDO. E o PPA não coincide com o mandato: vai do segundo ano dele até o primeiro ano do mandato seguinte." },
+        { "t": "Até 31 de agosto de 2027, para vigorar de 2027 a 2030.", "p": "calculo", "w": "O prazo está certo, mas a contagem do período não: o PPA vigora até o final do primeiro exercício do mandato seguinte, logo de 2028 a 2031." },
+        { "t": "Até 31 de agosto de 2027, para vigorar por oito anos, como plano de longo prazo do governo.", "p": "extrapolacao", "w": "O PPA tem quatro anos de vigência, do segundo ano do mandato até o fim do primeiro exercício do mandato seguinte (ADCT, art. 35, §2º, I)." },
+        { "t": "Até 31 de agosto de 2027, quatro meses antes do fim do primeiro exercício, para vigorar de 2028 a 2031.", "p": "correta", "w": "ADCT, art. 35, §2º, I: o projeto do PPA é enviado até quatro meses antes do encerramento do primeiro exercício financeiro e vigora até o final do primeiro exercício do mandato presidencial subsequente." }
+      ]
+    },
+    {
+      "id": "afo7",
+      "topic": "Prazos da LDO",
+      "c": "Em 2026, o Executivo federal enviou o projeto da LDO para 2027 em 15 de abril. Em 17 de julho, o Congresso Nacional ainda não o havia votado.",
+      "q": "Assinale a alternativa correta.",
+      "a": 0,
+      "src": "ADCT, art. 35, §2º, II; CF/88, art. 57, caput e §2º",
+      "o": [
+        { "t": "O envio foi tempestivo, e a sessão legislativa não pode ser interrompida para o recesso sem a aprovação do projeto de LDO.", "p": "correta", "w": "O PLDO vai até oito meses e meio antes do fim do exercício, 15 de abril (ADCT, art. 35, §2º, II). E a sessão legislativa não será interrompida sem a aprovação do projeto de LDO (CF, art. 57, §2º)." },
+        { "t": "O envio foi intempestivo, pois o prazo do projeto de LDO termina em 31 de agosto.", "p": "troca", "w": "31 de agosto é o prazo dos projetos de LOA e de PPA. O da LDO é 15 de abril." },
+        { "t": "Sem aprovação até 17 de julho, o projeto enviado pelo Executivo passa a vigorar automaticamente.", "p": "extrapolacao", "w": "Não há promulgação automática do projeto de LDO. A consequência prevista é outra: o Congresso não entra em recesso enquanto não o aprovar." },
+        { "t": "O recesso ocorre normalmente, e a LDO só será votada depois da aprovação da LOA.", "p": "inversao", "w": "Inverte o ciclo: a LDO orienta a elaboração da LOA (CF, art. 165, §2º), por isso vem antes dela." }
+      ]
+    },
+    {
+      "id": "afo8",
+      "topic": "Orçamentos da LOA",
+      "c": "Em um curso de formação em Brasília, uma analista recém-empossada do Ministério do Planejamento precisa explicar a novos servidores como a LOA da União é estruturada.",
+      "q": "Quais orçamentos compõem a LOA da União?",
+      "a": 2,
+      "src": "CF/88, art. 165, §5º",
+      "o": [
+        { "t": "Fiscal, da seguridade social e de custeio das empresas estatais, incluídas suas despesas com pessoal.", "p": "troca", "w": "O terceiro orçamento é o de investimento das empresas controladas, e não de custeio. As despesas correntes dessas empresas não integram o orçamento de investimento." },
+        { "t": "Apenas o fiscal e o de investimento, pois a seguridade social tem orçamento aprovado em lei própria.", "p": "extrapolacao", "w": "O orçamento da seguridade social integra a própria LOA (art. 165, §5º, III). Não há lei orçamentária separada para ele." },
+        { "t": "Fiscal, de investimento das empresas em que a União detém a maioria do capital com direito a voto, e da seguridade social.", "p": "correta", "w": "É a literalidade do art. 165, §5º, I a III. Reunir os três em uma só lei é a forma atual do princípio da unidade, também chamado de totalidade." },
+        { "t": "Fiscal, de investimento de todas as empresas com qualquer participação da União, e da seguridade social.", "p": "generalizacao", "w": "O orçamento de investimento alcança só as empresas em que a União, direta ou indiretamente, detém a maioria do capital social com direito a voto." }
+      ]
+    },
+    {
+      "id": "afo9",
+      "topic": "Anexos da LDO",
+      "c": "Em Porto Alegre (RS), a Secretaria Municipal da Fazenda prepara o projeto de LDO e precisa avaliar o impacto possível de ações judiciais de servidores que podem gerar condenações milionárias.",
+      "q": "Em que parte da LDO essa avaliação deve constar?",
+      "a": 2,
+      "src": "LC 101/2000, art. 4º, §§1º e 3º",
+      "o": [
+        { "t": "No Anexo de Metas Fiscais, que fixa metas de receitas, despesas, resultados e dívida.", "p": "troca", "w": "O Anexo de Metas Fiscais (art. 4º, §1º) traz metas anuais de receitas, despesas, resultados nominal e primário e dívida, não a avaliação de passivos contingentes." },
+        { "t": "No PPA, pois riscos de médio prazo pertencem ao plano plurianual, e não à LDO.", "p": "extrapolacao", "w": "A LRF põe a avaliação de riscos fiscais na própria LDO (art. 4º, §3º). O PPA cuida de diretrizes, objetivos e metas de programas." },
+        { "t": "No Anexo de Riscos Fiscais, que avalia passivos contingentes e outros riscos capazes de afetar as contas públicas.", "p": "correta", "w": "Art. 4º, §3º, da LRF: a LDO conterá Anexo de Riscos Fiscais, com a avaliação dos passivos contingentes e de outros riscos e as providências a tomar se eles se concretizarem." },
+        { "t": "Em nenhuma: passivos contingentes só aparecem depois do trânsito em julgado das condenações.", "p": "restricao", "w": "O objetivo do anexo é justamente antecipar riscos ainda não concretizados. Esperar o trânsito em julgado contraria a ideia de planejamento da LRF." }
+      ]
+    },
+    {
+      "id": "afo10",
+      "topic": "Emendas ao PLOA",
+      "c": "Um deputado federal apresentou emenda ao projeto de LOA para construir uma ponte em Santarém (PA), indicando como fonte o cancelamento de parte da dotação destinada ao serviço da dívida pública.",
+      "q": "A emenda pode ser aprovada?",
+      "a": 0,
+      "src": "CF/88, art. 166, §3º",
+      "o": [
+        { "t": "Não: os recursos de emendas só vêm de anulação de despesa, excluídas as dotações do serviço da dívida.", "p": "correta", "w": "Art. 166, §3º, II: a emenda deve indicar recursos vindos de anulação de despesa, excluídas as dotações para pessoal e encargos, serviço da dívida e transferências tributárias constitucionais a Estados, Municípios e DF." },
+        { "t": "Sim, porque qualquer anulação de despesa é fonte válida para emenda ao projeto de LOA.", "p": "generalizacao", "w": "Nem toda anulação serve: pessoal e encargos, serviço da dívida e transferências tributárias constitucionais estão protegidos (art. 166, §3º, II, a a c)." },
+        { "t": "Sim, desde que a ponte esteja prevista na LDO, ainda que não conste do PPA.", "p": "restricao", "w": "A emenda precisa ser compatível com o PPA e com a LDO ao mesmo tempo (art. 166, §3º, I). E a fonte indicada continua vedada." },
+        { "t": "Não, porque o Legislativo não pode emendar o projeto de LOA, apenas aprová-lo ou rejeitá-lo.", "p": "extrapolacao", "w": "O Congresso pode emendar o projeto de LOA, desde que respeite as condições do art. 166, §3º. O erro da emenda está na fonte indicada." }
+      ]
+    },
+    {
+      "id": "afo11",
+      "topic": "Crédito extraordinário",
+      "c": "Em Petrópolis (RJ), chuvas fortes levaram à decretação de calamidade pública. A prefeitura precisa custear abrigos e alimentação para desalojados, despesa que não está prevista no orçamento.",
+      "q": "Qual crédito adicional cabe e como ele é aberto?",
+      "a": 3,
+      "src": "Lei 4.320/64, arts. 41, III, e 44; CF/88, art. 167, §3º",
+      "o": [
+        { "t": "Crédito especial, que dispensa autorização legislativa em situações de urgência.", "p": "troca", "w": "Crédito especial atende despesa sem dotação específica, mas sempre depende de autorização legislativa prévia (Lei 4.320/64, art. 42). Para urgência imprevisível, o instrumento é o extraordinário." },
+        { "t": "Crédito suplementar, porque toda despesa urgente é reforço de uma dotação que já existe.", "p": "generalizacao", "w": "Suplementar reforça dotação existente e insuficiente. Aqui a despesa é imprevisível e urgente, decorrente de calamidade: é o caso do extraordinário (art. 41, III)." },
+        { "t": "Crédito extraordinário, mas só depois de prévia autorização da Câmara e de indicação dos recursos.", "p": "restricao", "w": "O extraordinário não depende de autorização legislativa prévia nem de indicação de recursos: é aberto por decreto, com comunicação imediata ao Legislativo (art. 44)." },
+        { "t": "Crédito extraordinário, aberto por decreto do Executivo, que dará imediato conhecimento ao Legislativo.", "p": "correta", "w": "Lei 4.320/64, arts. 41, III, e 44: o extraordinário atende despesas urgentes e imprevistas, como calamidade pública, e é aberto por decreto, com imediato conhecimento ao Legislativo. Na União, usa-se medida provisória (CF, art. 167, §3º)." }
+      ]
+    },
+    {
+      "id": "afo12",
+      "topic": "Superávit financeiro",
+      "c": "Em Caxias do Sul (RS), o balanço patrimonial de 2025 mostra ativo financeiro de R$ 18 milhões e passivo financeiro de R$ 12,5 milhões, sem créditos adicionais reabertos nem operações de crédito vinculadas.",
+      "q": "Quanto a prefeitura pode usar, em 2026, como superávit financeiro para abrir créditos adicionais?",
+      "a": 1,
+      "src": "Lei 4.320/64, art. 43, §1º, I, e §2º",
+      "o": [
+        { "t": "R$ 30,5 milhões, soma do ativo e do passivo financeiros.", "p": "calculo", "w": "Superávit financeiro é diferença, não soma: ativo financeiro menos passivo financeiro (art. 43, §2º)." },
+        { "t": "R$ 5,5 milhões, diferença positiva entre o ativo financeiro e o passivo financeiro.", "p": "correta", "w": "R$ 18 milhões menos R$ 12,5 milhões = R$ 5,5 milhões. É a definição do art. 43, §2º, apurada no balanço patrimonial do exercício anterior." },
+        { "t": "R$ 18 milhões, pois todo o ativo financeiro está disponível para novos gastos.", "p": "extrapolacao", "w": "Parte do ativo financeiro já está comprometida com o passivo financeiro, como os restos a pagar. Só a sobra é fonte para créditos adicionais." },
+        { "t": "Nada, porque superávit financeiro só financia créditos suplementares, e não especiais.", "p": "restricao", "w": "O art. 43, §1º, lista o superávit financeiro como fonte para créditos suplementares e especiais, sem distinção." }
+      ]
+    },
+    {
+      "id": "afo13",
+      "topic": "Excesso de arrecadação",
+      "c": "Em Feira de Santana (BA), até setembro a receita prevista acumulada era de R$ 300 milhões e a realizada, de R$ 324 milhões, tendência que se confirma para o ano. No exercício, já foi aberto crédito extraordinário de R$ 6 milhões.",
+      "q": "Quanto há de excesso de arrecadação disponível para créditos suplementares ou especiais?",
+      "a": 0,
+      "src": "Lei 4.320/64, art. 43, §1º, II, e §§3º e 4º",
+      "o": [
+        { "t": "R$ 18 milhões: R$ 24 milhões de excesso menos R$ 6 milhões de créditos extraordinários abertos no exercício.", "p": "correta", "w": "Excesso = 324 − 300 = R$ 24 milhões (art. 43, §3º). O §4º manda deduzir a importância dos créditos extraordinários abertos no exercício: 24 − 6 = R$ 18 milhões." },
+        { "t": "R$ 24 milhões, pois os créditos extraordinários não interferem na apuração do excesso.", "p": "calculo", "w": "Esquece a dedução obrigatória do art. 43, §4º. Os créditos extraordinários já consumiram parte do excesso." },
+        { "t": "R$ 324 milhões, pois toda a receita arrecadada pode financiar créditos adicionais.", "p": "generalizacao", "w": "A receita prevista já financia as despesas fixadas na LOA. Só a diferença positiva entre o arrecadado e o previsto é excesso." },
+        { "t": "Nada: o excesso de arrecadação só pode ser apurado no balanço, ao final do exercício.", "p": "restricao", "w": "O excesso é o saldo positivo das diferenças acumuladas mês a mês, considerada a tendência do exercício (art. 43, §3º). Pode ser usado durante o ano." }
+      ]
+    },
+    {
+      "id": "afo14",
+      "topic": "Abertura de crédito especial",
+      "c": "Em Aracaju (SE), o prefeito criou um programa de bolsas sem dotação no orçamento e, sem lei autorizativa, abriu por decreto um crédito especial, indicando como fonte a anulação de outras dotações.",
+      "q": "Assinale a alternativa correta.",
+      "a": 2,
+      "src": "Lei 4.320/64, arts. 42 e 43, §1º, III; CF/88, art. 167, V",
+      "o": [
+        { "t": "O ato é regular, porque a indicação da fonte de recursos dispensa a autorização legislativa.", "p": "extrapolacao", "w": "A CF exige as duas coisas ao mesmo tempo: prévia autorização legislativa e indicação dos recursos (art. 167, V). Uma não substitui a outra." },
+        { "t": "O ato é regular, porque créditos especiais, como os extraordinários, são abertos por decreto independentemente de lei.", "p": "troca", "w": "Só o extraordinário dispensa autorização prévia. Suplementares e especiais são autorizados por lei e abertos por decreto (Lei 4.320/64, art. 42)." },
+        { "t": "O ato é irregular: o crédito especial depende de prévia autorização legislativa e só então é aberto por decreto.", "p": "correta", "w": "Lei 4.320/64, art. 42, e CF, art. 167, V: é vedada a abertura de crédito suplementar ou especial sem prévia autorização legislativa e sem indicação dos recursos." },
+        { "t": "O ato é irregular só porque a anulação de dotações não serve como fonte de crédito especial.", "p": "restricao", "w": "A anulação parcial ou total de dotações é fonte válida (art. 43, §1º, III). O vício está na falta de lei autorizativa." }
+      ]
+    },
+    {
+      "id": "afo15",
+      "topic": "Estágios da receita",
+      "c": "Em Londrina (PR), a prefeitura notificou o contribuinte do IPTU de 2026, identificando o imóvel, o devedor e o valor. Ele pagou o carnê no banco, que depois transferiu o dinheiro para a conta do Tesouro Municipal.",
+      "q": "Quais estágios da receita aparecem no caso, na ordem?",
+      "a": 1,
+      "src": "Lei 4.320/64, arts. 53 e 56; MCASP (STN), Parte I, etapas da receita orçamentária",
+      "o": [
+        { "t": "Previsão, arrecadação e recolhimento, pois o IPTU dispensa lançamento.", "p": "extrapolacao", "w": "O IPTU é tributo lançado de ofício: a notificação com imóvel, devedor e valor é exatamente o lançamento (Lei 4.320/64, art. 53)." },
+        { "t": "Lançamento, arrecadação e recolhimento.", "p": "correta", "w": "Lançamento é a verificação do crédito e do devedor (art. 53); arrecadação é o pagamento ao agente arrecadador, o banco; recolhimento é a transferência do valor à conta do Tesouro, sob o princípio da unidade de tesouraria (art. 56)." },
+        { "t": "Lançamento, recolhimento e arrecadação.", "p": "inversao", "w": "Inverte os dois últimos estágios: primeiro o contribuinte paga ao agente arrecadador (arrecadação), depois o agente repassa ao Tesouro (recolhimento)." },
+        { "t": "Empenho, liquidação e pagamento, estágios que valem para toda a execução orçamentária.", "p": "troca", "w": "Empenho, liquidação e pagamento são estágios da despesa (Lei 4.320/64, arts. 58 a 65), não da receita." }
+      ]
+    },
+    {
+      "id": "afo16",
+      "topic": "Receita corrente e capital",
+      "c": "Em 2026, o Município de Sobral (CE) recebeu: I) R$ 2 milhões pela venda de veículos usados; II) R$ 5 milhões do Estado para custear unidades de saúde; III) R$ 8 milhões de empréstimo para obras; IV) R$ 3 milhões de aluguel de imóveis municipais.",
+      "q": "Quais ingressos são receitas de capital?",
+      "a": 3,
+      "src": "Lei 4.320/64, art. 11, §§1º e 2º",
+      "o": [
+        { "t": "I, II e III, porque toda transferência recebida de outro ente é receita de capital.", "p": "generalizacao", "w": "Transferência destinada a despesas correntes, como custeio, é receita corrente (art. 11, §1º). A destinação é que define a categoria." },
+        { "t": "III e IV, porque o aluguel decorre da exploração do patrimônio público.", "p": "troca", "w": "Aluguel é receita patrimonial, que a lei classifica como corrente (art. 11, §1º). Não se confunde com alienação de bens, que é capital." },
+        { "t": "Apenas III, porque só as operações de crédito são receitas de capital.", "p": "restricao", "w": "O art. 11, §2º, também inclui a conversão em espécie de bens e direitos, como a venda de veículos, e as transferências destinadas a despesas de capital." },
+        { "t": "I e III.", "p": "correta", "w": "Art. 11, §2º: são receitas de capital a conversão em espécie de bens e direitos (venda dos veículos) e a constituição de dívidas (empréstimo). Transferência para custeio e aluguel são correntes (§1º)." }
+      ]
+    },
+    {
+      "id": "afo17",
+      "topic": "Dívida ativa",
+      "c": "Em Cuiabá (MT), o IPTU de 2025 de um imóvel comercial venceu e não foi pago. Em 2026, a Procuradoria do Município apurou a liquidez e a certeza do crédito e o inscreveu em registro próprio.",
+      "q": "Assinale a alternativa correta sobre esse crédito.",
+      "a": 2,
+      "src": "Lei 4.320/64, art. 39, §§1º e 2º",
+      "o": [
+        { "t": "É dívida ativa não tributária, porque a inscrição ocorreu em exercício posterior ao do vencimento.", "p": "troca", "w": "A natureza do crédito define a classificação, não a data da inscrição. Crédito de tributo é dívida ativa tributária (art. 39, §2º)." },
+        { "t": "Deixou de pertencer ao Município, pois créditos não pagos no exercício são cancelados em 31 de dezembro.", "p": "extrapolacao", "w": "Não há cancelamento automático. O crédito vencido e não pago é inscrito como dívida ativa e continua sendo cobrado (art. 39, §1º)." },
+        { "t": "É dívida ativa tributária, inscrita depois de apuradas sua liquidez e certeza.", "p": "correta", "w": "Art. 39, §1º: créditos exigíveis pelo fim do prazo de pagamento são inscritos como dívida ativa, em registro próprio, após apuradas liquidez e certeza. Sendo de tributo, é dívida ativa tributária (§2º)." },
+        { "t": "Só poderia ser inscrito se o contribuinte confessasse a dívida por escrito.", "p": "restricao", "w": "A inscrição depende de apuração de liquidez e certeza pela Fazenda, não de confissão do devedor." }
+      ]
+    },
+    {
+      "id": "afo18",
+      "topic": "Regime orçamentário da receita",
+      "c": "Em Maringá (PR), uma empresa prestou serviços em dezembro de 2025 e pagou o ISS correspondente em 15 de janeiro de 2026.",
+      "q": "Para fins orçamentários, a que exercício pertence essa receita?",
+      "a": 0,
+      "src": "Lei 4.320/64, art. 35, I",
+      "o": [
+        { "t": "Ao exercício de 2026, em que foi arrecadada.", "p": "correta", "w": "Art. 35, I: pertencem ao exercício financeiro as receitas nele arrecadadas. É o chamado regime de caixa da receita orçamentária." },
+        { "t": "Ao exercício de 2025, quando ocorreu o fato gerador, pois a receita orçamentária segue o regime de competência.", "p": "troca", "w": "Confunde o enfoque patrimonial, que segue a competência, com o orçamentário. Para o orçamento, vale a arrecadação (art. 35, I)." },
+        { "t": "Metade a cada exercício, na proporção dos dias de cada período.", "p": "calculo", "w": "Não há rateio de receita entre exercícios. O critério da lei é a data da arrecadação." },
+        { "t": "Ao exercício em que a Câmara Municipal aprovar as contas do prefeito.", "p": "extrapolacao", "w": "O julgamento das contas não define o exercício da receita. O critério é a arrecadação." }
+      ]
+    },
+    {
+      "id": "afo19",
+      "topic": "Liquidação da despesa",
+      "c": "Em Juiz de Fora (MG), a Secretaria de Educação recebeu 500 carteiras escolares. O fiscal do contrato conferiu o material com o contrato e a nota de empenho e atestou a entrega. A empresa quer receber no mesmo dia.",
+      "q": "Que estágio da despesa acaba de ocorrer e o que falta?",
+      "a": 3,
+      "src": "Lei 4.320/64, arts. 62, 63 e 64",
+      "o": [
+        { "t": "O empenho, pois a entrega do material cria a obrigação de pagamento para o Município.", "p": "troca", "w": "O empenho é anterior: é o ato que cria a obrigação de pagamento (art. 58). A verificação da entrega é a liquidação." },
+        { "t": "O pagamento, porque o atesto do fiscal equivale à quitação da despesa.", "p": "extrapolacao", "w": "Atestar a entrega não é pagar. O pagamento depende de ordem de pagamento e é feito pela tesouraria ou por banco credenciado (arts. 64 e 65)." },
+        { "t": "A liquidação; mas o pagamento poderia ter vindo antes dela se a empresa oferecesse garantia.", "p": "inversao", "w": "O pagamento só é feito depois da regular liquidação (art. 62). Garantia contratual não inverte essa ordem." },
+        { "t": "A liquidação, que verifica o direito do credor; falta o pagamento, após a ordem de pagamento.", "p": "correta", "w": "Art. 63: liquidação é a verificação do direito do credor com base no contrato, na nota de empenho e no comprovante de entrega. Depois vêm a ordem de pagamento (art. 64) e o pagamento (art. 62)." }
+      ]
+    },
+    {
+      "id": "afo20",
+      "topic": "Espécies de empenho",
+      "c": "Em Recife (PE), a Secretaria de Educação vai: I) pagar a energia elétrica das escolas, de valor variável; II) contratar vigilância por 12 meses, com parcelas mensais fixas; III) comprar um lote de impressoras com preço certo e pagamento único.",
+      "q": "Os empenhos adequados são, respectivamente:",
+      "a": 1,
+      "src": "Lei 4.320/64, art. 60, §§2º e 3º; MCASP (STN), Parte I, empenho",
+      "o": [
+        { "t": "Global, estimativo e ordinário.", "p": "inversao", "w": "Troca os dois primeiros: valor que não se pode determinar pede empenho estimativo; contrato com parcelas pede empenho global." },
+        { "t": "Estimativo, global e ordinário.", "p": "correta", "w": "Art. 60, §2º: empenho por estimativa quando o montante não se pode determinar (energia). §3º: empenho global para despesas contratuais sujeitas a parcelamento (vigilância). Valor certo e pagamento único: ordinário." },
+        { "t": "Ordinário nos três casos, porque todo empenho deve ter valor exato.", "p": "generalizacao", "w": "A Lei 4.320/64 admite expressamente o empenho por estimativa e o global (art. 60, §§2º e 3º)." },
+        { "t": "Estimativo, global e, para as impressoras, dispensa de empenho por ser pagamento à vista.", "p": "extrapolacao", "w": "É vedada a realização de despesa sem prévio empenho (art. 60, caput). Pagamento único não dispensa o empenho." }
+      ]
+    },
+    {
+      "id": "afo21",
+      "topic": "Restos a pagar",
+      "c": "Em 31 de dezembro de 2025, a Secretaria de Saúde de Belém (PA) tinha R$ 40 milhões empenhados, R$ 34 milhões liquidados e R$ 30 milhões pagos.",
+      "q": "Quanto será inscrito em restos a pagar?",
+      "a": 0,
+      "src": "Lei 4.320/64, art. 36",
+      "o": [
+        { "t": "R$ 4 milhões em restos a pagar processados e R$ 6 milhões em não processados.", "p": "correta", "w": "Processados: liquidados e não pagos = 34 − 30 = R$ 4 milhões. Não processados: empenhados e não liquidados = 40 − 34 = R$ 6 milhões. Total: R$ 10 milhões (art. 36)." },
+        { "t": "R$ 6 milhões em restos a pagar processados e R$ 4 milhões em não processados.", "p": "inversao", "w": "Inverte os conceitos: processado é o que já passou pela liquidação (R$ 4 milhões); não processado é o empenhado ainda não liquidado (R$ 6 milhões)." },
+        { "t": "R$ 10 milhões em restos a pagar processados, já que todo empenho não pago é processado.", "p": "generalizacao", "w": "O art. 36 manda distinguir processados de não processados. Os R$ 6 milhões ainda não liquidados são não processados." },
+        { "t": "R$ 4 milhões em restos a pagar processados e R$ 10 milhões em não processados.", "p": "calculo", "w": "Conta errada: os não processados são o empenhado menos o liquidado (40 − 34 = 6), não o empenhado menos o pago (40 − 30 = 10)." }
+      ]
+    },
+    {
+      "id": "afo22",
+      "topic": "Despesas de exercícios anteriores",
+      "c": "Em Vitória (ES), em março de 2026, a prefeitura reconheceu uma dívida com a empresa de limpeza urbana por serviços de novembro de 2025. Havia dotação suficiente em 2025, mas a despesa não foi empenhada na época.",
+      "q": "Como a dívida deve ser paga?",
+      "a": 2,
+      "src": "Lei 4.320/64, art. 37",
+      "o": [
+        { "t": "Inscrevendo o valor em restos a pagar de 2025, ainda que sem empenho.", "p": "troca", "w": "Restos a pagar pressupõem empenho no exercício (art. 36). Despesa não empenhada na época própria segue o regime do art. 37." },
+        { "t": "Direto pela tesouraria, sem empenho, por se tratar de dívida já reconhecida.", "p": "extrapolacao", "w": "É vedada despesa sem prévio empenho (art. 60). O reconhecimento da dívida não dispensa empenho na dotação própria." },
+        { "t": "Como despesa de exercícios anteriores, à conta de dotação específica do orçamento de 2026.", "p": "correta", "w": "Art. 37: despesas de exercícios encerrados, com saldo suficiente para atendê-las, que não se tenham processado na época própria podem ser pagas à conta de dotação específica, discriminada por elementos, obedecida, sempre que possível, a ordem cronológica." },
+        { "t": "Não pode ser paga: despesa não empenhada no exercício próprio fica definitivamente extinta.", "p": "generalizacao", "w": "A lei prevê justamente o caminho para pagá-la: a dotação de despesas de exercícios anteriores (art. 37). Negar o pagamento geraria enriquecimento sem causa da Administração." }
+      ]
+    },
+    {
+      "id": "afo23",
+      "topic": "Regime de adiantamento",
+      "c": "Em Teresina (PI), um servidor da Secretaria de Obras tem dois adiantamentos ainda pendentes de prestação de contas e pede um terceiro para pequenas despesas de manutenção.",
+      "q": "O pedido pode ser atendido?",
+      "a": 3,
+      "src": "Lei 4.320/64, arts. 65, 68 e 69",
+      "o": [
+        { "t": "Sim, porque o adiantamento dispensa empenho e pode ser concedido a qualquer momento.", "p": "extrapolacao", "w": "O adiantamento é sempre precedido de empenho na dotação própria (art. 68). E a lei impõe limites a quem pode recebê-lo (art. 69)." },
+        { "t": "Sim, desde que o servidor preste contas dos dois anteriores em até cinco dias após receber o terceiro.", "p": "restricao", "w": "A lei não prevê essa condição. A vedação do art. 69 é objetiva: quem já responde por dois adiantamentos não recebe outro." },
+        { "t": "Não, porque a Lei 4.320/64 proíbe qualquer pagamento por adiantamento.", "p": "generalizacao", "w": "O adiantamento é previsto em casos excepcionais (art. 65) e regulado no art. 68. O problema está na situação do servidor." },
+        { "t": "Não: é vedado adiantamento a servidor responsável por dois adiantamentos ou em alcance.", "p": "correta", "w": "Art. 69 da Lei 4.320/64: não se fará adiantamento a servidor em alcance nem a responsável por dois adiantamentos." }
+      ]
+    },
+    {
+      "id": "afo24",
+      "topic": "Limites de pessoal municipal",
+      "c": "O Município de Petrolina (PE) tem receita corrente líquida (RCL) de R$ 800 milhões. A Controladoria calcula os limites de despesa com pessoal do Poder Executivo.",
+      "q": "Quais são o limite máximo e o limite prudencial do Executivo?",
+      "a": 1,
+      "src": "LC 101/2000, arts. 19, III, 20, III, b, e 22, parágrafo único",
+      "o": [
+        { "t": "R$ 480 milhões de limite máximo e R$ 456 milhões de limite prudencial.", "p": "generalizacao", "w": "Usa o limite global do Município, 60% (art. 19, III), como se fosse só do Executivo. Pela repartição do art. 20, III, o Executivo fica com 54% e a Câmara, com 6%." },
+        { "t": "R$ 432 milhões de limite máximo e R$ 410,4 milhões de limite prudencial.", "p": "correta", "w": "Executivo municipal: 54% da RCL = 0,54 × 800 = R$ 432 milhões (art. 20, III, b). Prudencial: 95% desse limite = 0,95 × 432 = R$ 410,4 milhões (art. 22, parágrafo único)." },
+        { "t": "R$ 432 milhões de limite máximo e R$ 388,8 milhões de limite prudencial.", "p": "troca", "w": "R$ 388,8 milhões são 90% do limite, que é o ponto de alerta do Tribunal de Contas (art. 59, §1º, II), não o prudencial de 95%." },
+        { "t": "R$ 410,4 milhões de limite máximo e R$ 432 milhões de limite prudencial.", "p": "inversao", "w": "O prudencial é uma fração do limite máximo (95%), logo é sempre menor que ele." }
+      ]
+    },
+    {
+      "id": "afo25",
+      "topic": "Limite prudencial",
+      "c": "Em Mossoró (RN), a despesa com pessoal do Executivo chegou a 96% do seu limite. O prefeito quer nomear um professor para a vaga de outro que se aposentou e criar dez cargos de assessor no gabinete.",
+      "q": "O que a LRF permite?",
+      "a": 0,
+      "src": "LC 101/2000, art. 22, parágrafo único, II e IV",
+      "o": [
+        { "t": "Repor o professor aposentado, mas não criar os cargos de assessor.", "p": "correta", "w": "Acima de 95% do limite, é vedado criar cargo (art. 22, parágrafo único, II) e prover cargo, ressalvada a reposição por aposentadoria ou falecimento nas áreas de educação, saúde e segurança (inciso IV)." },
+        { "t": "Nenhuma das duas medidas, porque o limite prudencial veda qualquer provimento de cargo.", "p": "generalizacao", "w": "Ignora a ressalva do inciso IV: a reposição de servidores aposentados ou falecidos em educação, saúde e segurança continua permitida." },
+        { "t": "As duas medidas, porque as vedações só começam quando o limite máximo é ultrapassado.", "p": "troca", "w": "As vedações do art. 22, parágrafo único, começam no limite prudencial, ao passar de 95% do limite. Acima do limite máximo, somam-se as medidas do art. 23." },
+        { "t": "Criar os cargos de assessor, se ocupados por efetivos; a reposição do professor depende de lei específica.", "p": "inversao", "w": "Inverte a regra: a criação de cargo é vedada sem exceção no inciso II, enquanto a reposição na educação é a ressalva expressa do inciso IV." }
+      ]
+    },
+    {
+      "id": "afo26",
+      "topic": "Recondução ao limite",
+      "c": "Em Blumenau (SC), com a economia crescendo normalmente, a despesa com pessoal do Executivo chegou a 57% da RCL ao fim do segundo quadrimestre. O limite do Executivo municipal é de 54%.",
+      "q": "Como o excesso deve ser eliminado?",
+      "a": 2,
+      "src": "LC 101/2000, art. 23, caput",
+      "o": [
+        { "t": "Em três quadrimestres, com redução de 1 ponto percentual em cada um.", "p": "calculo", "w": "O prazo é de dois quadrimestres, e não três. A fração mínima de 1/3 vale só para o primeiro deles." },
+        { "t": "Pelo menos metade (1,5 ponto) no primeiro quadrimestre e o restante no segundo.", "p": "troca", "w": "A fração da lei é de pelo menos um terço no primeiro quadrimestre, e não metade." },
+        { "t": "Os 3 pontos excedentes nos dois quadrimestres seguintes, com pelo menos 1 ponto no primeiro.", "p": "correta", "w": "Art. 23: o excedente (57 − 54 = 3 pontos) deve ser eliminado nos dois quadrimestres seguintes, sendo pelo menos um terço (1 ponto) no primeiro. O prazo dobra só em caso de crescimento baixo do PIB (art. 66)." },
+        { "t": "Nada precisa ser feito até o fim do exercício, pois o limite é verificado só uma vez por ano.", "p": "extrapolacao", "w": "A verificação é quadrimestral, ao fim de cada quadrimestre (arts. 22 e 54), e a recondução começa no quadrimestre seguinte." }
+      ]
+    },
+    {
+      "id": "afo27",
+      "topic": "Despesa obrigatória continuada",
+      "c": "O governo de Minas Gerais enviou à Assembleia projeto de lei que cria um auxílio mensal permanente para agentes comunitários estaduais, despesa corrente sem prazo para acabar.",
+      "q": "O que a LRF exige para a criação dessa despesa?",
+      "a": 3,
+      "src": "LC 101/2000, arts. 16, I, e 17, §§1º a 3º",
+      "o": [
+        { "t": "Que a despesa seja registrada no Anexo de Riscos Fiscais da LDO.", "p": "troca", "w": "O Anexo de Riscos Fiscais trata de passivos contingentes (art. 4º, §3º). A despesa continuada segue o rito do art. 17." },
+        { "t": "Estimativa do impacto apenas no exercício de início e no seguinte.", "p": "calculo", "w": "A estimativa abrange o exercício em que a despesa começa e os dois subsequentes (art. 16, I, por remissão do art. 17, §1º)." },
+        { "t": "Compensação que pode vir de aumento temporário de receita, como a venda de imóveis do Estado.", "p": "extrapolacao", "w": "A compensação deve ser permanente: aumento permanente de receita, por elevação de alíquota, ampliação de base ou criação de tributo, ou redução permanente de despesa (art. 17, §§2º e 3º)." },
+        { "t": "Estimativa do impacto no exercício e nos dois seguintes, indicação da origem dos recursos e compensação permanente.", "p": "correta", "w": "Despesa corrente fixada em lei por mais de dois exercícios é obrigatória de caráter continuado (art. 17). Exige estimativa (art. 16, I), origem dos recursos (§1º) e compensação por aumento permanente de receita ou redução permanente de despesa (§2º)." }
+      ]
+    },
+    {
+      "id": "afo28",
+      "topic": "RREO e RGF",
+      "c": "A Controladoria-Geral de Ribeirão Preto (SP), município com mais de 700 mil habitantes, monta o calendário de publicação dos relatórios fiscais de 2027.",
+      "q": "Assinale a alternativa correta sobre o RREO e o RGF.",
+      "a": 1,
+      "src": "LC 101/2000, arts. 52, 54, 55, §2º, e 63, II; CF/88, art. 165, §3º",
+      "o": [
+        { "t": "O RREO é quadrimestral e o RGF é bimestral, ambos publicados em até 60 dias.", "p": "inversao", "w": "Inverte as periodicidades e erra o prazo: RREO é bimestral (art. 52) e RGF é quadrimestral (art. 54), ambos publicados em até 30 dias após o período." },
+        { "t": "O RREO é bimestral e o RGF é quadrimestral, ambos publicados até 30 dias após o fim do período.", "p": "correta", "w": "Art. 52: RREO publicado até 30 dias após o encerramento de cada bimestre. Arts. 54 e 55, §2º: RGF emitido ao fim de cada quadrimestre e publicado até 30 dias após o encerramento do período." },
+        { "t": "Ambos podem ser semestrais, porque todo município pode optar pela divulgação semestral.", "p": "generalizacao", "w": "A opção semestral do art. 63, II, vale só para municípios com menos de 50 mil habitantes, e não é o caso de Ribeirão Preto." },
+        { "t": "O RGF é emitido apenas pelo prefeito, que consolida nele os dados da Câmara Municipal.", "p": "troca", "w": "O RGF é emitido pelos titulares de cada Poder e órgão do art. 20 (art. 54). Quem abrange todos os Poderes e o MP é o RREO, publicado pelo Executivo (CF, art. 165, §3º; LRF, art. 52)." }
+      ]
+    },
+    {
+      "id": "afo29",
+      "type": "ce",
+      "topic": "Ressalvas da não afetação",
+      "src": "CF/88, arts. 167, IV, e 212",
+      "c": "A Assembleia Legislativa da Bahia discute projeto de lei que destina percentual da receita de impostos estaduais à manutenção e ao desenvolvimento do ensino, em cumprimento do mínimo constitucional.",
+      "q": "A destinação de receita de impostos à manutenção e ao desenvolvimento do ensino é ressalva expressa ao princípio da não afetação.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 167, IV, ressalva a destinação de recursos para manutenção e desenvolvimento do ensino, como determinado pelo art. 212, ao lado da saúde e da administração tributária." },
+        { "t": "Errado", "p": "generalizacao", "w": "Julgar errado parte da ideia de que nenhuma receita de impostos pode ser vinculada. A não afetação tem ressalvas expressas, e o ensino é uma delas." }
+      ]
+    },
+    {
+      "id": "afo30",
+      "type": "ce",
+      "topic": "Não afetação e taxas",
+      "src": "CF/88, art. 167, IV",
+      "c": "Em Sorocaba (SP), a lei municipal que instituiu a taxa de coleta de lixo determinou que toda a sua arrecadação custeie o próprio serviço de coleta.",
+      "q": "A vinculação viola o princípio da não afetação, que proíbe vincular a receita de qualquer tributo a órgão, fundo ou despesa.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo troca imposto por tributo. O art. 167, IV, veda a vinculação de receita de impostos; taxas, cobradas por serviço específico e divisível, podem custear o próprio serviço." },
+        { "t": "Errado", "p": "correta", "w": "A não afetação do art. 167, IV, alcança só a receita de impostos. A vinculação da taxa ao serviço que a justifica não ofende o princípio." }
+      ]
+    },
+    {
+      "id": "afo31",
+      "type": "ce",
+      "topic": "Prazos da LOA",
+      "src": "ADCT, art. 35, §2º, II e III",
+      "c": "Um servidor do Ministério do Planejamento monta o cronograma do projeto de LOA da União para o exercício seguinte.",
+      "q": "Pelo ADCT, o projeto de LOA da União deve ser enviado ao Congresso até 15 de abril e devolvido para sanção até o encerramento do primeiro período da sessão legislativa.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo troca os prazos da LOA pelos da LDO. O projeto de LDO é que vai até 15 de abril e volta até o fim do primeiro período da sessão legislativa." },
+        { "t": "Errado", "p": "correta", "w": "ADCT, art. 35, §2º, III: o projeto de LOA é enviado até quatro meses antes do fim do exercício (31 de agosto) e devolvido para sanção até o encerramento da sessão legislativa (22 de dezembro)." }
+      ]
+    },
+    {
+      "id": "afo32",
+      "type": "ce",
+      "topic": "Investimento plurianual",
+      "src": "CF/88, art. 167, §1º",
+      "c": "O governo do Tocantins pretende iniciar a duplicação de uma rodovia cuja execução levará três exercícios. A obra consta da LOA, mas não do PPA, e não há lei autorizando sua inclusão no plano.",
+      "q": "O investimento não pode ser iniciado sem prévia inclusão no PPA, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 167, §1º: nenhum investimento cuja execução ultrapasse um exercício financeiro poderá ser iniciado sem prévia inclusão no PPA, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado supõe que a previsão na LOA bastaria. Para investimentos que passam de um exercício, a CF exige também a inclusão no PPA." }
+      ]
+    },
+    {
+      "id": "afo33",
+      "type": "ce",
+      "topic": "Autorização na LOA",
+      "src": "CF/88, art. 165, §8º; Lei 4.320/64, arts. 7º, I, e 42",
+      "c": "A LOA de Londrina (PR) autoriza o prefeito a abrir créditos suplementares até 5% da despesa fixada. Em agosto, ele abriu por decreto um crédito suplementar dentro desse limite.",
+      "q": "A LOA pode conter autorização para abertura de créditos suplementares sem ofender a exclusividade, e o crédito assim autorizado é aberto por decreto do Executivo.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "A autorização para créditos suplementares é exceção expressa à exclusividade (CF, art. 165, §8º; Lei 4.320/64, art. 7º, I). Autorizados por lei, os suplementares são abertos por decreto (art. 42)." },
+        { "t": "Errado", "p": "generalizacao", "w": "Julgar errado trata a exclusividade como absoluta. A própria CF admite na LOA a autorização para créditos suplementares e para operações de crédito." }
+      ]
+    },
+    {
+      "id": "afo34",
+      "type": "ce",
+      "topic": "Fonte do crédito extraordinário",
+      "src": "CF/88, art. 167, V e §3º; Lei 4.320/64, arts. 43 e 44",
+      "c": "Após uma enchente em Porto Alegre (RS), a prefeitura abriu crédito extraordinário para atender os desabrigados.",
+      "q": "Como ocorre nos créditos suplementares e especiais, o decreto de abertura do crédito extraordinário deve obrigatoriamente indicar a fonte dos recursos correspondentes.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "generalizacao", "w": "Julgar certo estende ao extraordinário uma exigência que a CF e a Lei 4.320/64 fazem só para suplementares e especiais." },
+        { "t": "Errado", "p": "correta", "w": "A indicação prévia de recursos é exigida para créditos suplementares e especiais (CF, art. 167, V; Lei 4.320/64, art. 43). O extraordinário, por atender despesa imprevisível e urgente, é aberto sem essa exigência (art. 44)." }
+      ]
+    },
+    {
+      "id": "afo35",
+      "type": "ce",
+      "topic": "Superávit do orçamento corrente",
+      "src": "Lei 4.320/64, art. 11, §§2º e 3º",
+      "c": "No balanço do Município de Uberaba (MG), as receitas correntes do exercício superaram as despesas correntes em R$ 15 milhões, valor usado para financiar obras.",
+      "q": "O superávit do orçamento corrente é receita de capital e deve ser registrado como item de receita orçamentária na execução do orçamento.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "extrapolacao", "w": "Julgar certo vai além da lei: o superávit corrente é classificado como receita de capital, mas o §3º do art. 11 diz expressamente que ele não constitui item de receita orçamentária." },
+        { "t": "Errado", "p": "correta", "w": "Art. 11, §§2º e 3º: o superávit do orçamento corrente é receita de capital, mas não constituirá item de receita orçamentária, pois o dinheiro já foi registrado como receita corrente. Registrá-lo de novo seria contar duas vezes." }
+      ]
+    },
+    {
+      "id": "afo36",
+      "type": "ce",
+      "topic": "Empenho prévio e global",
+      "src": "Lei 4.320/64, art. 60, caput e §3º",
+      "c": "Em Florianópolis (SC), a prefeitura assinou contrato de manutenção de ar-condicionado com 12 parcelas mensais e emitiu uma única nota de empenho pelo valor anual do contrato.",
+      "q": "É vedada a realização de despesa sem prévio empenho, e é permitido o empenho global de despesas contratuais sujeitas a parcelamento.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 60 da Lei 4.320/64: é vedada a despesa sem prévio empenho (caput), e o §3º permite o empenho global de despesas contratuais e outras sujeitas a parcelamento." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado supõe que cada parcela exigiria um empenho próprio. A lei admite um único empenho global para despesa contratual parcelada." }
+      ]
+    },
+    {
+      "id": "afo37",
+      "type": "ce",
+      "topic": "Regra de ouro",
+      "src": "CF/88, art. 167, III",
+      "c": "Na elaboração do projeto de LOA da União, técnicos comparam o total de operações de crédito previsto com as despesas fixadas para verificar o cumprimento da regra de ouro.",
+      "q": "É vedada a realização de operações de crédito que excedam o montante das despesas correntes, ressalvadas as autorizadas por créditos suplementares ou especiais com finalidade precisa, aprovados por maioria absoluta.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo aceita a troca de despesas de capital por despesas correntes. A regra de ouro impede justamente que dívida financie gasto corrente." },
+        { "t": "Errado", "p": "correta", "w": "Art. 167, III: a referência é o montante das despesas de capital, e não das correntes. A ressalva dos créditos com finalidade precisa aprovados por maioria absoluta está correta." }
+      ]
+    },
+    {
+      "id": "afo38",
+      "type": "ce",
+      "topic": "Limites de pessoal estaduais",
+      "src": "LC 101/2000, art. 20, II",
+      "c": "O Estado do Paraná tem receita corrente líquida de R$ 50 bilhões e não possui Tribunal de Contas dos Municípios.",
+      "q": "Os limites máximos de despesa com pessoal do Ministério Público estadual e do Poder Judiciário estadual são, respectivamente, R$ 1 bilhão e R$ 3 bilhões.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 20, II: Ministério Público estadual, 2% da RCL (0,02 × 50 = R$ 1 bilhão); Judiciário, 6% (0,06 × 50 = R$ 3 bilhões)." },
+        { "t": "Errado", "p": "calculo", "w": "Julgar errado costuma vir de aplicar os percentuais da União (0,6% para o MPU) ou de confundir as frações do Executivo (49%) e do Legislativo (3%)." }
+      ]
+    },
+    {
+      "id": "afo39",
+      "type": "ce",
+      "topic": "Renúncia de receita",
+      "src": "LC 101/2000, art. 14, caput e §1º",
+      "c": "O governo de Pernambuco pretende conceder crédito presumido de ICMS a indústrias que se instalarem no interior do Estado.",
+      "q": "Por se tratar de renúncia de receita, basta estimar o impacto orçamentário-financeiro no exercício em que o benefício começar a vigorar e no exercício seguinte.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "restricao", "w": "Julgar certo encurta o período da estimativa e ignora as demais condições do art. 14." },
+        { "t": "Errado", "p": "correta", "w": "Art. 14 da LRF: o crédito presumido é renúncia (§1º), e a estimativa abrange o exercício de início e os dois seguintes. Além disso, é preciso atender à LDO e a uma das condições dos incisos I ou II: renúncia já considerada na LOA ou medidas de compensação." }
+      ]
+    },
+    {
+      "id": "afo40",
+      "type": "ce",
+      "topic": "Regime fiscal sustentável",
+      "src": "LC 200/2023, arts. 1º, 3º e 5º, §1º",
+      "c": "Na elaboração do projeto de LOA da União, a Secretaria de Orçamento Federal calcula os limites individualizados de despesa primária de cada Poder e órgão pelas regras do novo arcabouço fiscal.",
+      "q": "Pela LC 200/2023, o crescimento real anual desses limites não pode ser inferior a 0,6% nem superior a 2,5%.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "LC 200/2023, art. 5º, §1º: a variação real dos limites de despesa primária não será inferior a 0,6% nem superior a 2,5% ao ano. Dentro dessa faixa, vale 70% do crescimento real da receita primária, ou 50% se a meta de resultado primário não for cumprida." },
+        { "t": "Errado", "p": "troca", "w": "Julgar errado costuma vir da lembrança do antigo teto de gastos (EC 95/2016), que só corrigia os limites pela inflação. O regime da LC 200/2023 admite crescimento real dentro da faixa de 0,6% a 2,5%." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+// Carregamento sob demanda do texto das questões: o app abre sem ele e espera se o ciclo começar antes.
+import { createRequire } from 'node:module';
+import { start } from '../dev/server.mjs';
+const { chromium } = createRequire(import.meta.url)('playwright');
+const srv = await start(3963); const b = await chromium.launch(); let fail = 0;
+const ok = (n, c) => { console.log((c ? 'OK   ' : 'FAIL ') + n); if (!c) fail++; };
+const c = await b.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: 'block' }); const p = await c.newPage();
+const errs = []; p.on('pageerror', (e) => errs.push(e.message));
+let release; const gate = new Promise((r) => { release = r; });
+await p.route('**/data/questions.json*', async (r) => { await gate; r.continue(); });
+await p.goto('http://localhost:3963/'); await p.waitForSelector('#view [data-act]');
+ok('primeira tela aparece sem o texto das questões', await p.evaluate(() => !QB.ready));
+ok('índice leve tem todas as questões', await p.evaluate(() => Object.keys(QINDEX).length > 1000));
+await p.evaluate(() => { S.user.onboarded = true; S.user.name = 'Teste'; persist(); ui.tab = 'trilhas'; render(); });
+await p.evaluate(() => ACT['cycle-deck']({ id: 'dpen' }));
+await p.waitForTimeout(600);
+ok('ciclo espera o texto (aviso de carregando)', await p.evaluate(() => !ui.session && /Carregando/.test(document.body.innerText)));
+release(); await p.waitForFunction(() => ui.session && ui.session.queue && ui.session.queue.length > 0, null, { timeout: 8000 });
+ok('ciclo começa quando o texto chega', await p.evaluate(() => !!document.querySelector('.qtext') && QB.ready));
+ok('questão tem caso e alternativas', await p.evaluate(() => { const q = QINDEX[ui.session.queue[0]].q; return !!(q.c && q.q && q.o && q.o.length >= 2); }));
+ok('sem erros na página', errs.length === 0); if (errs.length) console.log(errs.join('\n'));
+await b.close(); srv.close(); console.log(fail ? fail + ' falha(s)' : 'tudo certo'); process.exit(fail ? 1 : 0);

@@ -115,6 +115,26 @@ var API = null, CLASS_DECKS = []; // definidos em server.js
 let S = loadState();
 let CUSTOM = loadDecks();
 let QINDEX = {};
+/* Texto das questões: no site chega de data/questions.json logo após a primeira tela; o HTML traz só o índice leve. */
+const QB = { ready: typeof Q_STUB === 'undefined' || !Q_STUB, p: null };
+function loadBodies() {
+  if (QB.ready) return Promise.resolve();
+  if (!QB.p) QB.p = loadJSONData('questions.json?v=' + Q_VER).then((m) => { for (const d of BUILTIN_DECKS) for (const q of d.questions) if (m[q.id]) Object.assign(q, m[q.id]); QB.ready = true; })
+    .catch((e) => { QB.p = null; throw e; });
+  return QB.p;
+}
+/* Salvar arquivo: no Claude usa o download oficial (com confirmação do usuário); no site, o download do navegador. */
+let DLNS;
+const inClaude = () => !!(window.claude && typeof window.claude.use === 'function');
+async function saveFile(name, blob) {
+  if (inClaude()) {
+    if (DLNS === undefined) { try { DLNS = await window.claude.use('downloads'); } catch (e) { DLNS = null; } }
+    if (!DLNS) return 'unavailable';
+    try { await DLNS.save({ filename: name, data: blob }); return 'saved'; } catch (e) { return e && e.code === 'declined' ? 'declined' : 'unavailable'; }
+  }
+  const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = name; document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 4000); return 'saved';
+}
 function reindex() { QINDEX = {}; for (const d of allDecks()) for (const q of d.questions) QINDEX[q.id] = { q, deck: d }; }
 const allDecks = () => [...CUSTOM, ...(CLASS_DECKS || []), ...BUILTIN_DECKS];
 const deckById = (id) => allDecks().find((d) => d.id === id);
@@ -306,7 +326,12 @@ function showToast() {
 const toast = notify;
 
 /* ================= Sessões ================= */
-function startCycle({ decks = [], ids = null, size = 10, title = 'Ciclo', reviewOnly = false, mode = 'learn', unit = null, diag = false, cespe = false }) {
+function startCycle(opts) {
+  if (QB.ready) return startCycle0(opts);
+  const tm = setTimeout(() => notify('Carregando as questões…'), 350);
+  loadBodies().then(() => { clearTimeout(tm); startCycle0(opts); }).catch(() => { clearTimeout(tm); notify('Sem conexão para carregar as questões. Tente de novo.'); });
+}
+function startCycle0({ decks = [], ids = null, size = 10, title = 'Ciclo', reviewOnly = false, mode = 'learn', unit = null, diag = false, cespe = false }) {
   let list;
   const now = Date.now();
   if (ids) list = ids.slice(0, size);
@@ -478,7 +503,7 @@ const chev = () => `<svg class="ico chev" viewBox="0 0 24 24" aria-hidden="true"
 const tickIco = () => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${I.tick}</svg>`;
 
 /* ---------- Imagens (arquivos publicados junto com o app) ---------- */
-const PHOTOS = { hero: 'img/hero.webp', neuro: 1, port: 1, dconst: 1, logica: 1, excel: 1, mat: 1, lgpd: 1, bio: 1, hist: 1, dadm: 1, info: 1, seg: 1, dh: 1, dpen: 1, dpp: 1, etica: 1, dciv: 1, adm: 1, dpc: 1, ingl: 1 };
+const PHOTOS = { hero: 'img/hero.webp', neuro: 1, port: 1, dconst: 1, logica: 1, excel: 1, mat: 1, lgpd: 1, bio: 1, hist: 1, dadm: 1, info: 1, seg: 1, dh: 1, dpen: 1, dpp: 1, etica: 1, dciv: 1, adm: 1, dpc: 1, ingl: 1, afo: 1, cont: 1, est: 1, dtrib: 1, dcons: 1, eca: 1, sus: 1, redof: 1, arq: 1 };
 const REDUCED = (() => { try { return matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) { return false; } })();
 /* ---------- Capas ilustradas das trilhas ---------- */
 const PAL = {
@@ -661,17 +686,29 @@ function topicHits(q) {
   const k = norm(q).trim(); if (k.length < 3) return [];
   const words = k.split(/\s+/).filter(Boolean); const out = [];
   for (const d of allDecks()) for (const x of d.questions) {
-    const t = norm(x.topic), body = norm(x.q + ' ' + (x.c || ''));
+    const t = norm(x.topic), body = x.q ? norm(x.q + ' ' + (x.c || '')) : '';
     if (!words.every((w) => t.includes(w) || body.includes(w))) continue;
     out.push({ d, x, score: words.every((w) => t.includes(w)) ? 2 : 1 });
   }
   return out.sort((a, b) => b.score - a.score).slice(0, 8);
 }
 function topicResults() {
+  if (!QB.ready) loadBodies().then(() => { if (ui.q) rerender(); }).catch(() => {});
   const hits = topicHits(ui.q || ''); if (!hits.length) return '';
   return `<div class="blk" style="margin-top:6px"><div class="sec"><h2>Assuntos</h2><span class="tiny num">${hits.length === 8 ? '8+' : hits.length} ${hits.length === 1 ? 'questão' : 'questões'}</span></div><div class="list">${hits.map(({ d, x }) => { const c = cardOf(x.id); return `<button class="item" data-act="study-one" data-id="${esc(x.id)}"><span class="tile ${x.type === 'ce' ? 'c-lilac' : 'c-blue'}" style="font-size:12px;font-weight:800">${x.type === 'ce' ? 'C/E' : ico('book')}</span><div class="main"><b>${esc(x.topic)}</b><span>${esc(d.title)}${c && c.s ? ' · memória ' + Math.round(retr(c) * 100) + '%' : ' · nova'}</span></div>${chev()}</button>`; }).join('')}</div></div>`;
 }
-function deckGrid() { const list = filteredDecks(); const tr = topicResults(); if (tr && !list.length) return tr; return (list.length ? `<div class="grid2">${list.map(deckCard).join('')}</div>` : `<div class="empty-illo">${illo('search')}<b>Nenhuma trilha encontrada</b><span>Tente outra palavra ou crie uma trilha com o seu PDF.</span></div>`) + tr; }
+// Seções da lista de trilhas (só quando não há busca e a lista é longa).
+const DECK_SEC = { port: 'Básicas', logica: 'Básicas', mat: 'Básicas', info: 'Básicas', neuro: 'Básicas', ingl: 'Idiomas', sus: 'Saúde',
+  dconst: 'Direito', dadm: 'Direito', dpen: 'Direito', dpp: 'Direito', dciv: 'Direito', dpc: 'Direito', dh: 'Direito', dtrib: 'Direito', dcons: 'Direito', eca: 'Direito', etica: 'Direito',
+  adm: 'Gestão e finanças', afo: 'Gestão e finanças', cont: 'Gestão e finanças', est: 'Gestão e finanças', arq: 'Gestão e finanças', redof: 'Gestão e finanças' };
+const SEC_ORDER = ['Suas trilhas', 'Básicas', 'Direito', 'Gestão e finanças', 'Saúde', 'Idiomas', 'Escola', 'Corporativo'];
+const secOf = (d) => d.custom || d.classDeck ? 'Suas trilhas' : DECK_SEC[d.id] || d.tag || 'Outras';
+function deckSections(list) {
+  const g = {}; for (const d of list) (g[secOf(d)] = g[secOf(d)] || []).push(d);
+  const keys = Object.keys(g).sort((a, b) => (SEC_ORDER.indexOf(a) + 1 || 99) - (SEC_ORDER.indexOf(b) + 1 || 99));
+  return keys.map((k) => `<div class="sec deck-sec"><h2>${esc(k)}</h2><span class="tiny num">${plural(g[k].length, 'trilha', 'trilhas')}</span></div><div class="grid2">${g[k].map(deckCard).join('')}</div>`).join('');
+}
+function deckGrid() { const list = filteredDecks(); const tr = topicResults(); if (tr && !list.length) return tr; if (list.length > 6 && !(ui.q || '').trim()) return deckSections(list) + (tr || ''); return (list.length ? `<div class="grid2">${list.map(deckCard).join('')}</div>` : `<div class="empty-illo">${illo('search')}<b>Nenhuma trilha encontrada</b><span>Tente outra palavra ou crie uma trilha com o seu PDF.</span></div>`) + tr; }
 function viewTrilhas() {
   if (ui.deck) return viewDeck(deckById(ui.deck));
   const errs = errorIds().length;
@@ -1002,7 +1039,7 @@ function viewProfile() {
     <div class="list">${ui.confirmReset ?
       `<div class="item noicon"><div class="main"><b>Zerar todo o progresso?</b><span>Respostas, XP, sequência e revisões serão apagados. Suas trilhas continuam.</span></div></div><div class="item noicon" style="gap:10px"><button class="btn btn-ghost btn-sm" style="flex:1" data-act="cancel-reset">Cancelar</button><button class="btn btn-danger btn-sm" style="flex:1" data-act="do-reset">Zerar</button></div>` :
       `<button class="item noicon" data-act="ask-reset" style="justify-content:center;color:var(--bad);font-weight:700">Zerar progresso</button>`}</div>
-    <p class="tiny" style="text-align:center">Memory 7.1${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
+    <p class="tiny" style="text-align:center">Memory 7.2${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
   </div>`;
 }
 
@@ -1307,6 +1344,7 @@ document.addEventListener('keydown', (e) => {
 
 /* ================= Inicialização ================= */
 render();
+loadBodies().catch(() => {});
 initCloud();
 initServer();
 (async () => {

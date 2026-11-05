@@ -459,9 +459,7 @@ Object.assign(ACT, {
   'acct-export': async () => {
     try {
       const data = await api('GET', 'export');
-      const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' }));
-      const a = document.createElement('a'); a.href = url; a.download = 'memory-meus-dados.json'; document.body.appendChild(a); a.click(); a.remove();
-      setTimeout(() => URL.revokeObjectURL(url), 4000); notify('Download iniciado.');
+      const r = await saveFile('memory-meus-dados.json', new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })); if (r === 'saved') notify('Download iniciado.');
     } catch (e) { notify(e.message); }
   },
   'cls-open': (d) => openClass(d.id),
@@ -678,9 +676,7 @@ async function downloadFile(path, fallbackName) {
   const r = await fetch('/api/' + path, { credentials: 'same-origin' });
   if (!r.ok) { let m = 'Não foi possível baixar agora.'; try { m = (await r.json()).message || m; } catch (e) { /* vazio */ } throw new Error(m); }
   const name = ((r.headers.get('content-disposition') || '').match(/filename="([^"]+)"/) || [])[1] || fallbackName;
-  const url = URL.createObjectURL(await r.blob());
-  const a = document.createElement('a'); a.href = url; a.download = name; document.body.appendChild(a); a.click(); a.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 4000);
+  await saveFile(name, await r.blob());
 }
 Object.assign(ACT, {
   'forgot-open': () => { readAuth(); ui.sheet = forgotSheet(false); renderSheet(); },

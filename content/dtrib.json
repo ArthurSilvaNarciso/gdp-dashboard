@@ -1,0 +1,1101 @@
+{
+ "id": "dtrib",
+ "title": "Direito Tributário",
+ "subtitle": "CTN, limitações ao poder de tributar e reforma",
+ "tag": "Concursos",
+ "blurb": "Tributo, competência, princípios, imunidades, responsabilidade e crédito tributário em casos reais, com o CTN atualizado e o essencial da reforma.",
+ "questions": [
+  {
+   "id": "dtrib1",
+   "topic": "Conceito de tributo",
+   "c": "Em Juiz de Fora (MG), a prefeitura multou uma construtora por obra sem alvará. Na defesa, a empresa alegou que a multa seria um tributo disfarçado e, por isso, deveria respeitar a anterioridade.",
+   "q": "Pelo conceito do CTN, por que a multa não é tributo?",
+   "a": 2,
+   "src": "CTN, art. 3º",
+   "o": [
+    {
+     "t": "Porque tributo só pode ser pago em dinheiro, e a multa pode ser quitada com a entrega de bens.",
+     "p": "troca",
+     "w": "Troca o critério: tributo e multa são prestações pecuniárias. O que separa os dois é a natureza de sanção da multa, não a forma de pagamento."
+    },
+    {
+     "t": "Porque só é tributo a prestação instituída por lei complementar, e a multa foi criada por lei ordinária municipal.",
+     "p": "restricao",
+     "w": "Acrescenta exigência inexistente: o art. 3º pede instituição em lei, e a regra é a lei ordinária; lei complementar só é exigida nos casos que a Constituição indica."
+    },
+    {
+     "t": "Porque tributo não constitui sanção de ato ilícito, e a multa é justamente a punição por uma infração.",
+     "p": "correta",
+     "w": "Art. 3º do CTN: tributo é prestação pecuniária compulsória que não constitui sanção de ato ilícito. A multa pune a infração; por isso não é tributo, embora também seja paga em dinheiro."
+    },
+    {
+     "t": "Porque o tributo é cobrado por atividade administrativa discricionária, e a multa, por atividade vinculada.",
+     "p": "inversao",
+     "w": "Inverte o art. 3º: o tributo é cobrado mediante atividade administrativa plenamente vinculada, sem espaço para conveniência do fiscal."
+    }
+   ]
+  },
+  {
+   "id": "dtrib2",
+   "topic": "Natureza jurídica específica",
+   "c": "Lei do Município de Petrolina (PE) criou a 'taxa de conservação urbana', cobrada todo ano de qualquer proprietário de imóvel com base no valor venal, sem serviço ou fiscalização dirigidos ao contribuinte.",
+   "q": "Como o CTN determina a natureza jurídica dessa cobrança?",
+   "a": 0,
+   "src": "CTN, arts. 4º e 16",
+   "o": [
+    {
+     "t": "Pelo fato gerador: como ele não depende de atividade estatal ligada ao contribuinte, a cobrança tem natureza de imposto, apesar do nome.",
+     "p": "correta",
+     "w": "Art. 4º do CTN: a natureza jurídica específica do tributo é dada pelo fato gerador, sendo irrelevantes a denominação e a destinação do produto. Fato gerador sem atividade estatal específica é próprio de imposto (art. 16)."
+    },
+    {
+     "t": "Pelo nome dado na lei: se o legislador a chamou de taxa, ela deve ser tratada como taxa.",
+     "p": "inversao",
+     "w": "Inverte a regra: o art. 4º, I, diz que a denominação adotada pela lei é irrelevante para qualificar o tributo."
+    },
+    {
+     "t": "Pela destinação da receita: se o dinheiro for aplicado na conservação urbana, a cobrança é taxa.",
+     "p": "troca",
+     "w": "Usa um critério que o CTN descarta: a destinação legal do produto da arrecadação é irrelevante para a natureza do tributo (art. 4º, II)."
+    },
+    {
+     "t": "Pelo fato gerador, mas só depois que o Senado Federal homologar a classificação feita pelo município.",
+     "p": "restricao",
+     "w": "Cria condição inexistente: o próprio art. 4º resolve a questão pelo fato gerador, sem homologação de nenhum órgão."
+    }
+   ]
+  },
+  {
+   "id": "dtrib3",
+   "topic": "Taxa por serviço potencial",
+   "c": "Em Uberlândia (MG), Rogério tem um apartamento fechado o ano todo e nunca coloca lixo na rua. Mesmo assim, recebeu a cobrança da taxa de coleta domiciliar de lixo, serviço compulsório e em efetivo funcionamento na sua rua.",
+   "q": "A cobrança é compatível com o CTN?",
+   "a": 1,
+   "src": "CTN, art. 79, I, b, II e III; CF/88, art. 145, II",
+   "o": [
+    {
+     "t": "Não, porque a taxa de serviço só pode ser cobrada de quem utiliza efetivamente o serviço.",
+     "p": "restricao",
+     "w": "Restringe a regra: a Constituição e o CTN admitem a taxa tanto pela utilização efetiva quanto pela potencial."
+    },
+    {
+     "t": "Sim, porque a taxa pode remunerar serviço de utilização compulsória posto à disposição do contribuinte, ainda que ele não o use.",
+     "p": "correta",
+     "w": "Art. 79, I, b, do CTN: o serviço é utilizado potencialmente quando, sendo compulsório, é posto à disposição mediante atividade administrativa em efetivo funcionamento. A CF admite taxa por uso efetivo ou potencial (art. 145, II)."
+    },
+    {
+     "t": "Sim, mas como contribuição de melhoria, já que a coleta regular valoriza o imóvel.",
+     "p": "troca",
+     "w": "Troca a espécie: contribuição de melhoria decorre de obra pública que valoriza o imóvel, não de serviço público prestado ou posto à disposição."
+    },
+    {
+     "t": "Sim, porque qualquer serviço público, mesmo geral e indivisível, pode ser remunerado por taxa.",
+     "p": "generalizacao",
+     "w": "Generaliza: só serviços específicos e divisíveis podem ser remunerados por taxa (art. 79, II e III); serviços gerais são custeados por impostos."
+    }
+   ]
+  },
+  {
+   "id": "dtrib4",
+   "topic": "Contribuição de melhoria",
+   "c": "O Município de Londrina (PR) asfaltou uma avenida ao custo total de R$ 1,2 milhão. Laudo técnico apontou que o terreno de Marta, na avenida, valorizou R$ 18 mil, mas a prefeitura rateou o custo e lançou R$ 25 mil para ela.",
+   "q": "Qual é o valor máximo que o município pode cobrar de Marta?",
+   "a": 3,
+   "src": "CTN, arts. 81 e 82; CF/88, art. 145, III",
+   "o": [
+    {
+     "t": "R$ 25 mil, porque o rateio do custo total da obra é o que fixa a cota de cada imóvel.",
+     "p": "calculo",
+     "w": "Erro de procedimento: o rateio do custo é usado, mas sem aplicar o teto individual, que é a valorização de cada imóvel."
+    },
+    {
+     "t": "Qualquer valor até R$ 1,2 milhão, porque o limite individual é a despesa total da obra.",
+     "p": "inversao",
+     "w": "Inverte os limites do art. 81: a despesa realizada é o teto global da arrecadação; o teto individual é a valorização do imóvel."
+    },
+    {
+     "t": "Nada, porque a contribuição de melhoria só pode ser cobrada se o proprietário autorizar a obra previamente.",
+     "p": "restricao",
+     "w": "Inventa requisito: a lei exige edital prévio com os elementos da obra e prazo para impugnação (art. 82), e não autorização de cada proprietário."
+    },
+    {
+     "t": "R$ 18 mil, porque o limite individual é o acréscimo de valor que a obra trouxe ao imóvel.",
+     "p": "correta",
+     "w": "Art. 81 do CTN: o limite total é a despesa realizada, e o limite individual é o acréscimo de valor que da obra resultar para cada imóvel. A cota de Marta não pode passar de R$ 18 mil."
+    }
+   ]
+  },
+  {
+   "id": "dtrib5",
+   "topic": "Empréstimo compulsório",
+   "c": "Diante de calamidade pública de grandes proporções em vários estados, o governo federal estuda criar um empréstimo compulsório para custear as despesas extraordinárias com socorro e reconstrução.",
+   "q": "Qual afirmação sobre esse tributo está correta?",
+   "a": 2,
+   "src": "CF/88, art. 148 e art. 150, § 1º",
+   "o": [
+    {
+     "t": "Pode ser instituído por medida provisória, pois a urgência da calamidade dispensa lei complementar.",
+     "p": "troca",
+     "w": "Troca o instrumento: a CF exige lei complementar, e medida provisória não pode tratar de matéria reservada a lei complementar (art. 62, § 1º, III)."
+    },
+    {
+     "t": "Os estados atingidos também podem instituí-lo, pois todo ente federado tem competência para empréstimos compulsórios.",
+     "p": "generalizacao",
+     "w": "Generaliza a competência: o empréstimo compulsório é privativo da União (art. 148)."
+    },
+    {
+     "t": "Só a União pode instituí-lo, por lei complementar, e ele pode ser cobrado sem aguardar a anterioridade anual nem a noventena.",
+     "p": "correta",
+     "w": "Art. 148, I: a União, mediante lei complementar, pode instituí-lo para despesas extraordinárias de calamidade pública, guerra externa ou sua iminência. O art. 150, § 1º, afasta as duas anterioridades nessa hipótese."
+    },
+    {
+     "t": "Os recursos arrecadados podem ser usados em qualquer despesa do orçamento federal, como os de qualquer tributo.",
+     "p": "extrapolacao",
+     "w": "Vai além da regra: a aplicação dos recursos é vinculada à despesa que fundamentou a instituição (art. 148, parágrafo único)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib6",
+   "topic": "Contribuições especiais",
+   "c": "A Assembleia Legislativa de Goiás analisa três projetos: uma contribuição de intervenção no domínio econômico sobre combustíveis, uma contribuição para o conselho de corretores de imóveis e uma contribuição dos servidores estaduais para o regime próprio de previdência.",
+   "q": "Qual delas o Estado de Goiás tem competência para instituir?",
+   "a": 0,
+   "src": "CF/88, art. 149, caput e § 1º",
+   "o": [
+    {
+     "t": "Apenas a contribuição dos servidores estaduais para o regime próprio de previdência.",
+     "p": "correta",
+     "w": "Art. 149, § 1º: União, Estados, DF e Municípios instituem contribuições para custeio do regime próprio de seus servidores. CIDE e contribuições de interesse das categorias profissionais são da União (art. 149, caput)."
+    },
+    {
+     "t": "As três, porque as contribuições especiais podem ser criadas por qualquer ente federado.",
+     "p": "generalizacao",
+     "w": "Generaliza: a regra do art. 149 é a competência exclusiva da União; a exceção dos entes subnacionais é só a contribuição previdenciária de seus servidores."
+    },
+    {
+     "t": "Apenas a CIDE sobre combustíveis, já que o ICMS sobre combustíveis também é estadual.",
+     "p": "troca",
+     "w": "Troca o ICMS, que é estadual, pela CIDE: contribuição de intervenção no domínio econômico é de competência exclusiva da União."
+    },
+    {
+     "t": "Apenas a contribuição ao conselho profissional, porque fiscalizar profissões é atribuição dos estados.",
+     "p": "inversao",
+     "w": "Inverte a competência: as contribuições de interesse das categorias profissionais cabem à União (art. 149), e legislar sobre o exercício de profissões também (art. 22, XVI)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib7",
+   "topic": "Capacidade tributária ativa",
+   "c": "O Município de Sorriso (MT) optou, na forma da lei, por fiscalizar e cobrar o ITR dos imóveis rurais situados em seu território, sem reduzir o imposto nem conceder renúncia fiscal.",
+   "q": "Como se explica essa situação à luz do CTN?",
+   "a": 3,
+   "src": "CTN, art. 7º; CF/88, art. 153, § 4º, III",
+   "o": [
+    {
+     "t": "A União delegou ao município a competência para instituir o ITR e ficou só com a função de fiscalizar.",
+     "p": "inversao",
+     "w": "Inverte os papéis: o que se transfere é a função de fiscalizar e cobrar; a competência para instituir o imposto continua da União e é indelegável."
+    },
+    {
+     "t": "A opção é inválida, porque nada pode ser transferido no direito tributário, nem mesmo arrecadar e fiscalizar.",
+     "p": "generalizacao",
+     "w": "Generaliza a indelegabilidade: o próprio art. 7º ressalva a atribuição das funções de arrecadar, fiscalizar e executar leis tributárias."
+    },
+    {
+     "t": "Com a opção, o município passa a poder alterar a alíquota do ITR por lei municipal.",
+     "p": "extrapolacao",
+     "w": "Vai além do que a regra permite: quem recebe a capacidade ativa arrecada e fiscaliza, mas não legisla; a alíquota do ITR segue dependendo de lei federal."
+    },
+    {
+     "t": "A União continua titular da competência; o município recebe apenas as funções de fiscalizar e cobrar, que são delegáveis.",
+     "p": "correta",
+     "w": "Art. 7º do CTN: a competência tributária é indelegável, salvo a atribuição das funções de arrecadar ou fiscalizar tributos (capacidade tributária ativa). A CF prevê esse arranjo para o ITR no art. 153, § 4º, III."
+    }
+   ]
+  },
+  {
+   "id": "dtrib8",
+   "topic": "Repartição de competências",
+   "c": "Em Recife (PE), Paulo herdou um apartamento do pai. No mesmo mês, comprou uma sala comercial também em Recife, pagando o preço ao vendedor.",
+   "q": "Quem tem competência para instituir os impostos sobre a herança e sobre a compra?",
+   "a": 1,
+   "src": "CF/88, art. 155, I e § 1º, I; art. 156, II e § 2º, II",
+   "o": [
+    {
+     "t": "O Município do Recife, para o imposto sobre a herança, e o Estado de Pernambuco, para o imposto sobre a compra.",
+     "p": "inversao",
+     "w": "Inverte as competências: herança é ITCMD estadual, e compra onerosa de imóvel entre vivos é ITBI municipal."
+    },
+    {
+     "t": "O Estado de Pernambuco, para o ITCMD sobre a herança, e o Município do Recife, para o ITBI sobre a compra.",
+     "p": "correta",
+     "w": "Art. 155, I: transmissão causa mortis é tributada pelo Estado, e, para imóveis, pelo Estado da situação do bem (§ 1º, I). Art. 156, II: a transmissão inter vivos onerosa de imóvel é do Município da situação do bem."
+    },
+    {
+     "t": "A União, nos dois casos, porque ambas as operações envolvem acréscimo patrimonial e, portanto, renda.",
+     "p": "troca",
+     "w": "Troca os impostos de transmissão pelo Imposto de Renda: a União pode tributar eventual ganho de capital, mas a transmissão em si é tributada por Estado e Município."
+    },
+    {
+     "t": "O Estado de Pernambuco nos dois casos, desde que o falecido tivesse domicílio no estado.",
+     "p": "restricao",
+     "w": "Acrescenta condição e erra a competência: para imóveis, o ITCMD cabe ao Estado da situação do bem, sem depender do domicílio, e a compra onerosa é fato gerador do ITBI municipal."
+    }
+   ]
+  },
+  {
+   "id": "dtrib9",
+   "topic": "Alteração de alíquotas",
+   "c": "Para conter a alta de preços, o Presidente da República editou decreto alterando alíquotas de impostos federais, dentro dos limites fixados em lei. Uma associação de contribuintes questiona o ato.",
+   "q": "Em qual destes impostos o Poder Executivo pode alterar alíquotas por decreto, atendidos os limites legais?",
+   "a": 0,
+   "src": "CF/88, art. 153, § 1º",
+   "o": [
+    {
+     "t": "IPI.",
+     "p": "correta",
+     "w": "Art. 153, § 1º: é facultado ao Executivo, atendidas as condições e os limites da lei, alterar as alíquotas do II, do IE, do IPI e do IOF. É exceção expressa à legalidade estrita."
+    },
+    {
+     "t": "Imposto de Renda.",
+     "p": "troca",
+     "w": "O IR não está entre as exceções do art. 153, § 1º (II, IE, IPI e IOF); sua alíquota só muda por lei."
+    },
+    {
+     "t": "ITR, por ser imposto com função extrafiscal sobre a terra improdutiva.",
+     "p": "extrapolacao",
+     "w": "Vai além do texto: a finalidade extrafiscal, sozinha, não autoriza decreto; a CF lista taxativamente os impostos cujas alíquotas o Executivo pode alterar."
+    },
+    {
+     "t": "Nenhum, porque alterar alíquota exige lei em qualquer caso, sem exceção constitucional.",
+     "p": "generalizacao",
+     "w": "Generaliza a legalidade: a própria CF abre exceção para II, IE, IPI e IOF no art. 153, § 1º."
+    }
+   ]
+  },
+  {
+   "id": "dtrib10",
+   "topic": "Anterioridade e noventena",
+   "c": "A Câmara de Vitória (ES) aprovou lei que aumenta a alíquota do IPTU, publicada em 15 de dezembro de 2025.",
+   "q": "A partir de quando o aumento pode ser exigido?",
+   "a": 2,
+   "src": "CF/88, art. 150, III, b e c, e § 1º",
+   "o": [
+    {
+     "t": "Em 1º de janeiro de 2026, porque basta respeitar a anterioridade anual.",
+     "p": "calculo",
+     "w": "Erro de procedimento: aplica só a anterioridade anual e esquece a noventena, que também incide sobre aumento de alíquota do IPTU."
+    },
+    {
+     "t": "Imediatamente, porque o IPTU é exceção às duas anterioridades.",
+     "p": "troca",
+     "w": "Troca a exceção: só a fixação da base de cálculo do IPTU escapa da noventena (art. 150, § 1º); aumento de alíquota respeita as duas regras."
+    },
+    {
+     "t": "Só depois de decorridos 90 dias da publicação, ou seja, a partir de meados de março de 2026.",
+     "p": "correta",
+     "w": "Aumento de alíquota do IPTU respeita a anterioridade anual (art. 150, III, b) e a noventena (III, c). Vale o prazo que termina por último: os 90 dias contados de 15/12/2025 se completam em 15/03/2026."
+    },
+    {
+     "t": "Só em 1º de janeiro de 2027, porque a lei publicada em dezembro deve esperar um exercício inteiro.",
+     "p": "extrapolacao",
+     "w": "Vai além da regra: a anterioridade anual só impede a cobrança no mesmo exercício da publicação; não exige um exercício completo de espera."
+    }
+   ]
+  },
+  {
+   "id": "dtrib11",
+   "topic": "Exceções à noventena",
+   "c": "Lei federal que aumenta alíquotas do Imposto de Renda foi publicada em 29 de dezembro de 2025. Uma contadora de Curitiba (PR) precisa orientar os clientes sobre quando o aumento passa a valer.",
+   "q": "Qual é a orientação correta?",
+   "a": 3,
+   "src": "CF/88, art. 150, III, b e c, e § 1º",
+   "o": [
+    {
+     "t": "Vale 90 dias após a publicação, pois o IR é exceção à anterioridade anual, mas respeita a noventena.",
+     "p": "inversao",
+     "w": "Inverte o regime: esse é o tratamento do IPI. O IR respeita a anterioridade anual e escapa da noventena."
+    },
+    {
+     "t": "Vale imediatamente, porque o IR, assim como o IOF, é exceção às duas anterioridades.",
+     "p": "troca",
+     "w": "Troca o IR pelo regime do II, IE e IOF, que escapam das duas regras; o IR só escapa da noventena."
+    },
+    {
+     "t": "Só depois de 90 dias, porque todo aumento de tributo respeita a noventena, sem exceção.",
+     "p": "generalizacao",
+     "w": "Generaliza: a CF lista exceções à noventena no art. 150, § 1º, e o IR é uma delas."
+    },
+    {
+     "t": "Vale para fatos geradores a partir de 1º de janeiro de 2026, pois o IR respeita a anterioridade anual, mas é exceção à noventena.",
+     "p": "correta",
+     "w": "O art. 150, § 1º, exclui o IR (art. 153, III) da noventena, mas não da anterioridade anual. Publicada a lei em 2025, o aumento alcança fatos geradores a partir de 2026."
+    }
+   ]
+  },
+  {
+   "id": "dtrib12",
+   "topic": "Retroatividade benigna",
+   "c": "Uma empresa de Belém (PA) foi autuada com multa por entregar declaração fora do prazo. Enquanto ela recorria no processo administrativo, nova lei estadual reduziu a multa prevista para essa infração.",
+   "q": "Qual multa deve prevalecer?",
+   "a": 1,
+   "src": "CTN, art. 106, II, c",
+   "o": [
+    {
+     "t": "A da lei antiga, porque a lei tributária nunca retroage.",
+     "p": "generalizacao",
+     "w": "Generaliza a irretroatividade: o art. 106 admite a retroação da lei interpretativa e da lei mais benéfica sobre infrações em atos não definitivamente julgados."
+    },
+    {
+     "t": "A multa menor da lei nova, porque o ato ainda não foi definitivamente julgado.",
+     "p": "correta",
+     "w": "Art. 106, II, c, do CTN: a lei aplica-se a ato pretérito não definitivamente julgado quando lhe comina penalidade menos severa que a prevista na lei vigente ao tempo da prática."
+    },
+    {
+     "t": "A da lei nova, e a empresa ainda pode pedir de volta multas idênticas pagas em processos encerrados há anos.",
+     "p": "extrapolacao",
+     "w": "Vai além da regra: a retroação benigna alcança atos não definitivamente julgados; casos já encerrados não são reabertos."
+    },
+    {
+     "t": "A da lei nova, mas só se ela disser expressamente que retroage.",
+     "p": "restricao",
+     "w": "Cria requisito inexistente: o art. 106, II, c, já manda aplicar a penalidade menos severa, sem necessidade de cláusula expressa."
+    }
+   ]
+  },
+  {
+   "id": "dtrib13",
+   "topic": "Imunidade recíproca",
+   "c": "A Prefeitura de Teresina (PI) enviou a uma autarquia federal, pelo prédio onde ela atende o público, o carnê do IPTU e a cobrança da taxa de coleta de lixo.",
+   "q": "O que a autarquia deve pagar?",
+   "a": 3,
+   "src": "CF/88, art. 150, VI, a, e § 2º; art. 145, II",
+   "o": [
+    {
+     "t": "Nada, porque a imunidade recíproca afasta qualquer tributo entre os entes.",
+     "p": "generalizacao",
+     "w": "Generaliza: as imunidades do art. 150, VI, alcançam impostos (e, por força do art. 149-B, parágrafo único, também a CBS), mas não taxas, que continuam devidas."
+    },
+    {
+     "t": "Só o IPTU, porque a imunidade recíproca protege as autarquias apenas contra taxas.",
+     "p": "inversao",
+     "w": "Inverte a regra: a imunidade afasta o imposto (IPTU) e não alcança a taxa."
+    },
+    {
+     "t": "Os dois, porque a imunidade recíproca protege só União, Estados, DF e Municípios, e não suas autarquias.",
+     "p": "restricao",
+     "w": "Restringe a norma: o § 2º do art. 150 estende a imunidade às autarquias e fundações públicas quanto às suas finalidades essenciais."
+    },
+    {
+     "t": "Só a taxa de coleta de lixo, porque a imunidade recíproca alcança impostos, não taxas.",
+     "p": "correta",
+     "w": "Art. 150, VI, a, e § 2º: a imunidade recíproca veda impostos sobre patrimônio, renda e serviços, e se estende às autarquias quanto ao que é vinculado às suas finalidades essenciais. Taxas não estão abrangidas."
+    }
+   ]
+  },
+  {
+   "id": "dtrib14",
+   "topic": "Imunidade dos livros",
+   "c": "Uma editora de Porto Alegre (RS) importa papel para imprimir seus livros, é dona do prédio onde funciona a sede e tem lucro com as vendas.",
+   "q": "O que a imunidade do art. 150, VI, d, alcança nesse cenário?",
+   "a": 0,
+   "src": "CF/88, art. 150, VI, d",
+   "o": [
+    {
+     "t": "Os impostos sobre os livros e sobre o papel destinado à sua impressão.",
+     "p": "correta",
+     "w": "A imunidade de livros, jornais, periódicos e do papel destinado à impressão é objetiva: protege esses bens, e não a pessoa da editora."
+    },
+    {
+     "t": "Também o IPTU do prédio da sede e o Imposto de Renda sobre o lucro da editora.",
+     "p": "extrapolacao",
+     "w": "Vai além da norma: imunidade objetiva não cobre patrimônio nem renda da empresa, que pagam IPTU e IR normalmente."
+    },
+    {
+     "t": "O patrimônio, a renda e os serviços da editora, como ocorre com as instituições de educação sem fins lucrativos.",
+     "p": "troca",
+     "w": "Troca a imunidade objetiva (alínea d) pela subjetiva das instituições de educação (alínea c), que protege a pessoa."
+    },
+    {
+     "t": "Todos os tributos ligados aos livros, inclusive taxas e contribuições sobre a atividade.",
+     "p": "generalizacao",
+     "w": "Generaliza: as imunidades do art. 150, VI, atingem impostos (e, por extensão do art. 149-B, parágrafo único, a CBS), não taxas nem as demais contribuições."
+    }
+   ]
+  },
+  {
+   "id": "dtrib15",
+   "topic": "Obrigação acessória",
+   "c": "Uma clínica de Manaus (AM), isenta de um imposto municipal, deixou de entregar a declaração mensal exigida pela legislação e foi multada. Ela alegou que, sendo isenta, não teria nenhuma obrigação com o fisco.",
+   "q": "Como o CTN resolve o caso?",
+   "a": 2,
+   "src": "CTN, art. 113, §§ 2º e 3º; art. 175, parágrafo único",
+   "o": [
+    {
+     "t": "A multa é obrigação acessória, e a entrega da declaração é a obrigação principal.",
+     "p": "inversao",
+     "w": "Inverte os conceitos: a principal tem por objeto pagar tributo ou multa; a acessória é a prestação de fazer ou não fazer, como declarar."
+    },
+    {
+     "t": "Quem é isento fica livre de qualquer dever perante o fisco, inclusive de declarações.",
+     "p": "generalizacao",
+     "w": "Generaliza o efeito da isenção: ela afasta o pagamento do tributo, mas não os deveres instrumentais (art. 175, parágrafo único)."
+    },
+    {
+     "t": "A isenção não dispensa as obrigações acessórias, e o descumprimento delas se converte em obrigação principal quanto à multa.",
+     "p": "correta",
+     "w": "Art. 175, parágrafo único: a exclusão do crédito não dispensa as obrigações acessórias. Art. 113, § 3º: a acessória descumprida converte-se em obrigação principal relativamente à penalidade pecuniária."
+    },
+    {
+     "t": "A declaração só seria exigível se houvesse imposto a pagar no mês.",
+     "p": "restricao",
+     "w": "Cria condição inexistente: a obrigação acessória decorre da legislação e existe no interesse da fiscalização, haja ou não tributo a pagar (art. 113, § 2º)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib16",
+   "topic": "Contribuinte e responsável",
+   "c": "A metalúrgica Alfa, de Joinville (SC), retém na fonte o Imposto de Renda devido pelos empregados sobre os salários e o recolhe à Receita Federal.",
+   "q": "Qual é a posição de cada um na obrigação tributária?",
+   "a": 1,
+   "src": "CTN, arts. 119, 121 e 128",
+   "o": [
+    {
+     "t": "A empresa é contribuinte, porque é quem efetivamente paga; o empregado é responsável.",
+     "p": "inversao",
+     "w": "Inverte os papéis: quem aufere a renda é o empregado; a empresa apenas retém e recolhe por imposição legal."
+    },
+    {
+     "t": "O empregado é contribuinte, por ter relação pessoal e direta com o fato gerador; a empresa é responsável, por determinação legal.",
+     "p": "correta",
+     "w": "Art. 121, parágrafo único: contribuinte tem relação pessoal e direta com o fato gerador; responsável é quem, sem ser contribuinte, tem a obrigação por disposição expressa de lei (art. 128)."
+    },
+    {
+     "t": "A empresa é sujeito ativo, porque arrecada o imposto em nome da União.",
+     "p": "troca",
+     "w": "Troca sujeito ativo e passivo: sujeito ativo é a pessoa jurídica de direito público titular da competência (art. 119); a empresa é sujeito passivo, como responsável."
+    },
+    {
+     "t": "Os dois são contribuintes, porque qualquer pessoa ligada ao fato gerador é contribuinte.",
+     "p": "generalizacao",
+     "w": "Generaliza: só é contribuinte quem tem relação pessoal e direta com o fato gerador; a vinculação indireta pode gerar responsabilidade, não a condição de contribuinte."
+    }
+   ]
+  },
+  {
+   "id": "dtrib17",
+   "topic": "Arrematação em hasta pública",
+   "c": "Em leilão judicial em Campo Grande (MS), Cláudia arrematou uma casa com IPTU atrasado de anos anteriores. Depois, a prefeitura passou a cobrar dela essa dívida.",
+   "q": "A cobrança contra Cláudia é correta?",
+   "a": 0,
+   "src": "CTN, art. 130, parágrafo único",
+   "o": [
+    {
+     "t": "Não, porque na arrematação em hasta pública a sub-rogação ocorre sobre o preço pago, e o débito deve ser satisfeito com ele.",
+     "p": "correta",
+     "w": "Art. 130, parágrafo único: no caso de arrematação em hasta pública, a sub-rogação dos créditos sobre o imóvel ocorre sobre o respectivo preço. O arrematante recebe o bem livre desses débitos."
+    },
+    {
+     "t": "Sim, porque o adquirente de imóvel sempre responde pelos impostos anteriores, qualquer que seja a forma de aquisição.",
+     "p": "generalizacao",
+     "w": "Generaliza o caput do art. 130: a regra da sub-rogação na pessoa do adquirente não se aplica à arrematação em hasta pública."
+    },
+    {
+     "t": "Sim, porque se aplica a regra da aquisição de fundo de comércio, com responsabilidade integral do adquirente.",
+     "p": "troca",
+     "w": "Troca o dispositivo: o art. 133 trata de aquisição de estabelecimento empresarial; a dívida de IPTU segue o art. 130."
+    },
+    {
+     "t": "Não, mas só porque ela não sabia da dívida no momento do leilão.",
+     "p": "restricao",
+     "w": "Acrescenta condição irrelevante: o que afasta a cobrança é a sub-rogação no preço, prevista em lei, e não a boa-fé ou o desconhecimento da arrematante."
+    }
+   ]
+  },
+  {
+   "id": "dtrib18",
+   "topic": "Aquisição de estabelecimento",
+   "c": "Joana comprou a padaria de Sérgio em Ribeirão Preto (SP) e continuou o mesmo negócio no local. Três meses após a venda, Sérgio abriu uma loja de roupas em outro bairro. A padaria tinha ICMS em atraso.",
+   "q": "Como Joana responde pelo ICMS anterior à compra?",
+   "a": 3,
+   "src": "CTN, arts. 132 e 133, I e II",
+   "o": [
+    {
+     "t": "Integralmente, porque Sérgio continuou exercendo atividade empresarial.",
+     "p": "inversao",
+     "w": "Inverte o art. 133: a responsabilidade é integral quando o alienante cessa a exploração (inciso I); se ele inicia nova atividade em até seis meses, é subsidiária."
+    },
+    {
+     "t": "Não responde, porque Sérgio abriu negócio de outro ramo.",
+     "p": "restricao",
+     "w": "Restringe a regra: o art. 133, II, vale para nova atividade no mesmo ou em outro ramo de comércio, indústria ou profissão."
+    },
+    {
+     "t": "Não responde, porque responsabilidade por sucessão empresarial só existe em fusão, incorporação ou transformação.",
+     "p": "troca",
+     "w": "Troca o art. 133 pelo art. 132: a aquisição de fundo de comércio ou estabelecimento tem regra própria de responsabilidade."
+    },
+    {
+     "t": "Subsidiariamente com Sérgio, porque ele iniciou nova atividade dentro de seis meses da alienação.",
+     "p": "correta",
+     "w": "Art. 133, II: o adquirente responde subsidiariamente com o alienante se este prosseguir na exploração ou iniciar, em seis meses, nova atividade no mesmo ou em outro ramo."
+    }
+   ]
+  },
+  {
+   "id": "dtrib19",
+   "topic": "Responsabilidade de administradores",
+   "c": "O diretor de uma distribuidora de Fortaleza (CE) usou a empresa para simular operações e reduzir o ICMS, em violação à lei e ao estatuto. Em outra empresa da cidade, a sócia-gerente apenas não conseguiu pagar o imposto por falta de caixa.",
+   "q": "Qual é a conclusão correta pelo CTN?",
+   "a": 2,
+   "src": "CTN, art. 135, III; STJ, Súmula 430",
+   "o": [
+    {
+     "t": "Os dois respondem pessoalmente, porque todo administrador responde por qualquer tributo não pago pela empresa.",
+     "p": "generalizacao",
+     "w": "Generaliza o art. 135: a responsabilidade pessoal exige ato com excesso de poderes ou infração de lei, contrato ou estatuto."
+    },
+    {
+     "t": "Só a sócia-gerente responde, pois a simulação feita pelo diretor é problema exclusivo da pessoa jurídica.",
+     "p": "inversao",
+     "w": "Inverte as situações: é justamente o ato com infração de lei que gera responsabilidade pessoal; o mero inadimplemento, não."
+    },
+    {
+     "t": "O diretor responde pessoalmente pelos créditos ligados aos atos ilícitos; o simples não pagamento não torna a sócia-gerente responsável.",
+     "p": "correta",
+     "w": "Art. 135, III: diretores, gerentes e representantes respondem pessoalmente por créditos resultantes de atos com excesso de poderes ou infração de lei, contrato social ou estatutos. O mero inadimplemento não basta (STJ, Súmula 430)."
+    },
+    {
+     "t": "O diretor responde apenas de forma subsidiária, como os pais e tutores do art. 134.",
+     "p": "troca",
+     "w": "Troca os dispositivos: o art. 134 trata de terceiros que respondem quando é impossível cobrar do contribuinte; o art. 135 prevê responsabilidade pessoal."
+    }
+   ]
+  },
+  {
+   "id": "dtrib20",
+   "topic": "Denúncia espontânea",
+   "c": "Uma transportadora de Cuiabá (MT) recebeu o termo de início de fiscalização sobre o ICMS de 2024. Dias depois, confessou um débito desse período e pagou o tributo com juros, pedindo a dispensa da multa.",
+   "q": "A empresa tem direito à exclusão da responsabilidade pela infração?",
+   "a": 1,
+   "src": "CTN, art. 138, caput e parágrafo único",
+   "o": [
+    {
+     "t": "Sim, porque a denúncia continua espontânea enquanto não for lavrado o auto de infração.",
+     "p": "extrapolacao",
+     "w": "Vai além do texto: o marco é o início de qualquer procedimento ou medida de fiscalização ligados à infração, e não a lavratura do auto."
+    },
+    {
+     "t": "Não, porque a denúncia apresentada após o início de fiscalização relacionada à infração não é espontânea.",
+     "p": "correta",
+     "w": "Art. 138, parágrafo único: não se considera espontânea a denúncia apresentada após o início de qualquer procedimento administrativo ou medida de fiscalização relacionados com a infração."
+    },
+    {
+     "t": "Sim, porque o pagamento com juros equivale a anistia, que exclui a multa.",
+     "p": "troca",
+     "w": "Troca institutos: anistia depende de lei que perdoe infrações (arts. 180 a 182); a denúncia espontânea é outro instituto e não vale depois de iniciada a fiscalização."
+    },
+    {
+     "t": "Não, porque a denúncia espontânea nunca afasta multas, apenas evita a cobrança de juros.",
+     "p": "generalizacao",
+     "w": "Generaliza ao contrário: feita a tempo, com pagamento do tributo e dos juros, a denúncia exclui a responsabilidade pela infração, inclusive quanto à multa de mora (art. 138, caput)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib21",
+   "topic": "Modalidades de lançamento",
+   "c": "Na mesma semana, uma moradora de São Luís (MA) recebeu o carnê do IPTU calculado pela prefeitura, e a empresa onde ela trabalha apurou e pagou o ICMS do mês sem exame prévio do fisco.",
+   "q": "Quais são as modalidades de lançamento nesses dois casos?",
+   "a": 3,
+   "src": "CTN, arts. 147, 149, I, e 150",
+   "o": [
+    {
+     "t": "IPTU: lançamento por homologação; ICMS: lançamento de ofício.",
+     "p": "inversao",
+     "w": "Inverte as modalidades: quem calcula o IPTU é o fisco, e quem apura e paga o ICMS antes de qualquer exame é o contribuinte."
+    },
+    {
+     "t": "IPTU: lançamento por declaração; ICMS: lançamento por homologação.",
+     "p": "troca",
+     "w": "Troca a modalidade do IPTU: no lançamento por declaração o fisco depende de informações prestadas pelo sujeito passivo (art. 147); o IPTU é lançado de ofício."
+    },
+    {
+     "t": "Ambos por homologação, porque hoje todo tributo é apurado pelo próprio contribuinte.",
+     "p": "generalizacao",
+     "w": "Generaliza: o CTN mantém três modalidades, e tributos como o IPTU continuam sendo lançados de ofício."
+    },
+    {
+     "t": "IPTU: lançamento de ofício; ICMS: lançamento por homologação.",
+     "p": "correta",
+     "w": "O IPTU é lançado pela própria administração com base no cadastro imobiliário (art. 149, I). No ICMS, o contribuinte apura e antecipa o pagamento sem prévio exame da autoridade, que depois homologa (art. 150)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib22",
+   "topic": "Decadência",
+   "c": "Em 2026, a Prefeitura de Aracaju (SE) descobriu uma casa construída em 2020 e nunca cadastrada. Ela quer lançar de ofício o IPTU do exercício de 2021, cujo lançamento poderia ter sido feito naquele mesmo ano.",
+   "q": "Quando começou a correr o prazo decadencial de cinco anos para lançar o IPTU de 2021?",
+   "a": 0,
+   "src": "CTN, art. 173, I",
+   "o": [
+    {
+     "t": "Em 1º de janeiro de 2022, primeiro dia do exercício seguinte àquele em que o lançamento poderia ter sido efetuado.",
+     "p": "correta",
+     "w": "Art. 173, I, do CTN: o direito de constituir o crédito extingue-se em cinco anos contados do primeiro dia do exercício seguinte àquele em que o lançamento poderia ter sido efetuado."
+    },
+    {
+     "t": "Da constituição definitiva do crédito, como ocorre com o prazo de cobrança.",
+     "p": "troca",
+     "w": "Troca decadência por prescrição: a constituição definitiva é o marco do prazo para cobrar (art. 174), e não do prazo para lançar."
+    },
+    {
+     "t": "Da data em que a prefeitura descobriu a construção, em 2026.",
+     "p": "extrapolacao",
+     "w": "Vai além da lei: o prazo não depende de o fisco conhecer o fato; ele corre do primeiro dia do exercício seguinte àquele em que o lançamento poderia ter sido feito."
+    },
+    {
+     "t": "Em 1º de janeiro de 2021, porque o exercício seguinte é contado a partir do próprio ano do imposto.",
+     "p": "calculo",
+     "w": "Erro de contagem: o exercício em que o lançamento poderia ter sido feito é 2021, e o seguinte começa em 1º de janeiro de 2022."
+    }
+   ]
+  },
+  {
+   "id": "dtrib23",
+   "topic": "Suspensão da exigibilidade",
+   "c": "Uma indústria de Caxias do Sul (RS) discorda de um auto de infração de ICMS já definitivo na esfera administrativa e vai ajuizar ação anulatória. Ela quer impedir a cobrança enquanto o processo tramita.",
+   "q": "Qual destas medidas suspende a exigibilidade do crédito tributário?",
+   "a": 2,
+   "src": "CTN, art. 151, II; art. 175, II",
+   "o": [
+    {
+     "t": "A concessão de anistia das multas pelo Estado.",
+     "p": "troca",
+     "w": "Troca as categorias: anistia é causa de exclusão do crédito (art. 175, II), não de suspensão."
+    },
+    {
+     "t": "O depósito apenas da parcela que a empresa reconhece como devida.",
+     "p": "calculo",
+     "w": "Erro de procedimento: para suspender, o depósito tem de ser do montante integral exigido pelo fisco, e não do valor que o contribuinte entende correto."
+    },
+    {
+     "t": "O depósito do montante integral do crédito discutido.",
+     "p": "correta",
+     "w": "Art. 151, II, do CTN: o depósito do montante integral suspende a exigibilidade do crédito tributário."
+    },
+    {
+     "t": "O simples ajuizamento da ação anulatória, já que toda ação judicial suspende a cobrança.",
+     "p": "generalizacao",
+     "w": "Generaliza: a ação, sozinha, não suspende; é preciso uma das hipóteses do art. 151, como depósito integral, liminar ou tutela provisória."
+    }
+   ]
+  },
+  {
+   "id": "dtrib24",
+   "topic": "Isenção e anistia",
+   "c": "A Assembleia do Ceará aprovou duas leis: uma dispensa do IPVA, a partir do ano seguinte, os veículos adaptados de pessoas com deficiência; outra perdoa as multas de quem atrasou o IPVA nos dois anos anteriores.",
+   "q": "Como o CTN classifica esses dois benefícios?",
+   "a": 1,
+   "src": "CTN, arts. 175, 176 e 180",
+   "o": [
+    {
+     "t": "O primeiro é imunidade e o segundo é anistia.",
+     "p": "troca",
+     "w": "Troca isenção por imunidade: imunidade está na Constituição e limita a competência; dispensa concedida por lei estadual é isenção."
+    },
+    {
+     "t": "O primeiro é isenção e o segundo é anistia; os dois são causas de exclusão do crédito tributário.",
+     "p": "correta",
+     "w": "Art. 175: excluem o crédito a isenção e a anistia. A isenção dispensa o tributo para o futuro, por lei (art. 176); a anistia perdoa infrações cometidas antes da lei que a concede (art. 180)."
+    },
+    {
+     "t": "O primeiro é anistia e o segundo é isenção.",
+     "p": "inversao",
+     "w": "Inverte os institutos: dispensa do tributo para o futuro é isenção; perdão de multas por infrações passadas é anistia."
+    },
+    {
+     "t": "Os dois são isenções, e o perdão das multas alcança inclusive infrações cometidas com fraude.",
+     "p": "extrapolacao",
+     "w": "Vai além da lei: perdão de multa é anistia, e ela não se aplica a atos praticados com dolo, fraude ou simulação (art. 180, I)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib25",
+   "topic": "Prescrição tributária",
+   "c": "Em Natal (RN), um crédito de ISS foi definitivamente constituído em 10 de março de 2021, ao fim do processo administrativo. Desde então, o município não praticou nenhum ato de cobrança, e o contribuinte não reconheceu a dívida.",
+   "q": "Qual é a situação do crédito em novembro de 2026?",
+   "a": 0,
+   "src": "CTN, art. 174, caput",
+   "o": [
+    {
+     "t": "Está prescrito, porque o prazo de cinco anos para a cobrança, contado da constituição definitiva, terminou em março de 2026.",
+     "p": "correta",
+     "w": "Art. 174 do CTN: a ação para a cobrança prescreve em cinco anos contados da constituição definitiva. Sem causa de interrupção, o prazo iniciado em março de 2021 acabou em março de 2026."
+    },
+    {
+     "t": "Ainda pode ser cobrado, porque o prazo só começa no primeiro dia do exercício seguinte, em 2022.",
+     "p": "troca",
+     "w": "Troca prescrição por decadência: o primeiro dia do exercício seguinte é o marco do art. 173, I, para lançar; para cobrar, conta-se da constituição definitiva."
+    },
+    {
+     "t": "Ainda pode ser cobrado, porque o crédito público é imprescritível.",
+     "p": "generalizacao",
+     "w": "Generaliza: o crédito tributário prescreve em cinco anos (art. 174), e a prescrição é causa de extinção do crédito (art. 156, V)."
+    },
+    {
+     "t": "Ainda pode ser cobrado, porque a prescrição só começa a correr depois da inscrição em dívida ativa.",
+     "p": "restricao",
+     "w": "Cria condição inexistente: o termo inicial é a constituição definitiva do crédito, e não a inscrição em dívida ativa."
+    }
+   ]
+  },
+  {
+   "id": "dtrib26",
+   "topic": "Preferência do crédito",
+   "c": "Fora de qualquer processo de falência, os bens de uma confecção de Blumenau (SC) foram penhorados por vários credores: um banco credor de empréstimo antigo, um fornecedor, a Fazenda estadual por ICMS e ex-empregados com créditos trabalhistas.",
+   "q": "Pela regra geral do CTN, qual desses créditos tem preferência sobre o crédito tributário?",
+   "a": 3,
+   "src": "CTN, art. 186, caput",
+   "o": [
+    {
+     "t": "Nenhum: o crédito tributário prefere a qualquer outro, sem ressalvas.",
+     "p": "generalizacao",
+     "w": "Generaliza: o próprio art. 186 ressalva os créditos decorrentes da legislação do trabalho e do acidente de trabalho."
+    },
+    {
+     "t": "O crédito do banco, porque foi constituído antes do ICMS.",
+     "p": "restricao",
+     "w": "Cria critério que a lei afasta: a preferência vale seja qual for o tempo de constituição do outro crédito."
+    },
+    {
+     "t": "O de quem penhorou primeiro, pela ordem cronológica das penhoras.",
+     "p": "troca",
+     "w": "Troca a regra: a ordem das penhoras não prevalece sobre a preferência legal do crédito tributário prevista no art. 186."
+    },
+    {
+     "t": "O crédito trabalhista dos ex-empregados.",
+     "p": "correta",
+     "w": "Art. 186 do CTN: o crédito tributário prefere a qualquer outro, seja qual for sua natureza ou o tempo de sua constituição, ressalvados os créditos da legislação do trabalho ou do acidente de trabalho."
+    }
+   ]
+  },
+  {
+   "id": "dtrib27",
+   "topic": "Certidões fiscais",
+   "c": "Uma construtora de Goiânia (GO) precisa de certidão de regularidade fiscal para participar de licitação. Ela tem um débito de ISS com exigibilidade suspensa por liminar em mandado de segurança.",
+   "q": "Que certidão o município deve fornecer?",
+   "a": 2,
+   "src": "CTN, arts. 151, IV, 205 e 206",
+   "o": [
+    {
+     "t": "Certidão positiva comum, porque qualquer débito registrado impede a regularidade fiscal.",
+     "p": "generalizacao",
+     "w": "Generaliza: o art. 206 dá efeitos de negativa à certidão quando o crédito está com a exigibilidade suspensa."
+    },
+    {
+     "t": "Certidão negativa, porque a liminar extinguiu o crédito tributário.",
+     "p": "extrapolacao",
+     "w": "Vai além do efeito da liminar: ela suspende a exigibilidade (art. 151, IV), mas não extingue o crédito; por isso a certidão é positiva com efeitos de negativa."
+    },
+    {
+     "t": "Certidão positiva com efeitos de negativa, porque o crédito está com a exigibilidade suspensa.",
+     "p": "correta",
+     "w": "Art. 206 do CTN: tem os mesmos efeitos da certidão negativa aquela que aponta créditos não vencidos, em cobrança executiva com penhora efetivada ou com exigibilidade suspensa, como na liminar em mandado de segurança (art. 151, IV)."
+    },
+    {
+     "t": "Certidão positiva com efeitos de negativa, mas só depois de a empresa oferecer penhora em execução fiscal.",
+     "p": "restricao",
+     "w": "Acrescenta exigência inexistente: penhora é uma das hipóteses do art. 206, mas a exigibilidade suspensa já basta sozinha."
+    }
+   ]
+  },
+  {
+   "id": "dtrib28",
+   "topic": "IBS, CBS e IS",
+   "c": "Em um curso para servidores fazendários em Salvador (BA), o professor pede que a turma identifique quem detém a competência sobre os novos tributos criados pela Emenda Constitucional 132/2023 e instituídos pela LC 214/2025.",
+   "q": "Qual associação está correta?",
+   "a": 1,
+   "src": "CF/88, arts. 153, VIII, 156-A e 195, V (EC 132/2023); LC 214/2025",
+   "o": [
+    {
+     "t": "CBS: competência de Estados, DF e Municípios; IBS e Imposto Seletivo: União.",
+     "p": "inversao",
+     "w": "Inverte IBS e CBS: o imposto compartilhado pelos entes subnacionais é o IBS; a contribuição federal é a CBS."
+    },
+    {
+     "t": "IBS: competência compartilhada entre Estados, DF e Municípios; CBS e Imposto Seletivo: União.",
+     "p": "correta",
+     "w": "Art. 156-A: o IBS é de competência compartilhada entre Estados, DF e Municípios. A CBS é contribuição da União (art. 195, V), e o Imposto Seletivo é imposto da União (art. 153, VIII)."
+    },
+    {
+     "t": "IBS: só dos Estados, no lugar do ICMS; CBS: só dos Municípios, no lugar do ISS.",
+     "p": "troca",
+     "w": "Troca a lógica da reforma: o IBS substitui ICMS e ISS e é compartilhado; a CBS é federal e substitui PIS e Cofins."
+    },
+    {
+     "t": "IBS: cada Estado e cada Município o institui com legislação própria e regras diferentes.",
+     "p": "extrapolacao",
+     "w": "Vai além da competência compartilhada: o IBS é instituído por lei complementar, com legislação única e uniforme; cada ente fixa apenas sua alíquota (art. 156-A)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib29",
+   "type": "ce",
+   "topic": "Isonomia tributária",
+   "src": "CF/88, art. 150, II",
+   "c": "Lei do Estado do Tocantins concedeu isenção de IPVA apenas aos veículos de magistrados e membros do Ministério Público estaduais, sem nenhum outro critério.",
+   "q": "A lei viola a isonomia tributária, que proíbe distinção entre contribuintes em razão de ocupação profissional ou função por eles exercida.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Art. 150, II, da CF: é vedado tratamento desigual entre contribuintes em situação equivalente, proibida qualquer distinção em razão de ocupação profissional ou função exercida. O benefício se baseia só no cargo."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado supõe que, por ser concedida em lei específica, a isenção escaparia da isonomia. A lei pode isentar, mas não com base apenas na função do contribuinte."
+    }
+   ]
+  },
+  {
+   "id": "dtrib30",
+   "type": "ce",
+   "topic": "Imunidade dos fonogramas",
+   "src": "CF/88, art. 150, VI, e",
+   "c": "Uma gravadora de Belo Horizonte (MG) produz CDs com obras de autores brasileiros interpretadas por artistas brasileiros e contrata uma fábrica para a replicação industrial das mídias.",
+   "q": "A imunidade dos fonogramas e videofonogramas musicais produzidos no Brasil alcança todas as etapas, inclusive a replicação industrial de mídias ópticas de leitura a laser.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo ignora a ressalva expressa da alínea e: a etapa de replicação industrial de mídias ópticas não é imune."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Art. 150, VI, e, da CF: a imunidade alcança fonogramas e videofonogramas musicais produzidos no Brasil, e seus suportes, salvo na etapa de replicação industrial de mídias ópticas de leitura a laser."
+    }
+   ]
+  },
+  {
+   "id": "dtrib31",
+   "type": "ce",
+   "topic": "Base do IPVA",
+   "src": "CF/88, art. 150, III, b e c, e § 1º",
+   "c": "Lei do Estado do Paraná publicada em 20 de dezembro alterou a tabela de valores venais que serve de base de cálculo do IPVA, sem mexer nas alíquotas.",
+   "q": "A nova base de cálculo pode ser aplicada a partir de 1º de janeiro do ano seguinte, pois a fixação da base de cálculo do IPVA é exceção à noventena, mas não à anterioridade anual.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Art. 150, § 1º: a noventena não se aplica à fixação da base de cálculo do IPVA (art. 155, III) e do IPTU (art. 156, I). A anterioridade anual continua valendo, por isso a lei de dezembro vale a partir de janeiro."
+    },
+    {
+     "t": "Errado",
+     "p": "generalizacao",
+     "w": "Julgar errado parte da ideia de que toda majoração respeita a noventena. A CF exclui dela, expressamente, a fixação da base do IPVA e do IPTU."
+    }
+   ]
+  },
+  {
+   "id": "dtrib32",
+   "type": "ce",
+   "topic": "Taxa com base própria",
+   "src": "CF/88, art. 145, § 2º; CTN, art. 77, parágrafo único",
+   "c": "O Município de Maceió (AL) criou taxa de fiscalização de estabelecimentos calculada sobre o valor venal do imóvel onde a empresa funciona, a mesma base de cálculo do IPTU.",
+   "q": "A taxa é válida, pois os municípios podem adotar para suas taxas a mesma base de cálculo de seus impostos.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "extrapolacao",
+     "w": "Julgar certo estende a liberdade do município além do permitido: a taxa deve medir o custo da atividade estatal, e não usar a base própria do IPTU."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Art. 145, § 2º, da CF: as taxas não podem ter base de cálculo própria de impostos. O CTN também veda taxa com base de cálculo ou fato gerador idênticos aos de imposto (art. 77, parágrafo único)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib33",
+   "type": "ce",
+   "topic": "Responsabilidade por infrações",
+   "src": "CTN, art. 136",
+   "c": "Um produtor rural de Rio Verde (GO) deixou de emitir nota fiscal em uma venda. Autuado, provou que agiu sem intenção de lesar o fisco, por erro de um funcionário.",
+   "q": "Como não houve intenção de fraudar, a responsabilidade pela infração fica afastada, pois o CTN exige dolo do agente para a aplicação de penalidade.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo acrescenta requisito que a regra geral não exige: a intenção só importa nos casos especiais de responsabilidade pessoal do agente (art. 137) ou quando a lei dispuser assim."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Art. 136 do CTN: salvo disposição de lei em contrário, a responsabilidade por infrações independe da intenção do agente ou do responsável e da efetividade, natureza e extensão dos efeitos do ato."
+    }
+   ]
+  },
+  {
+   "id": "dtrib34",
+   "type": "ce",
+   "topic": "Sucessão causa mortis",
+   "src": "CTN, art. 131, II",
+   "c": "Em Campinas (SP), Rui faleceu devendo IPTU. Na partilha, a filha Lívia recebeu quinhão de R$ 80 mil, e as dívidas tributárias do pai somavam R$ 120 mil.",
+   "q": "Lívia responde pessoalmente pelos tributos devidos pelo pai até a partilha, mas essa responsabilidade fica limitada ao montante do seu quinhão.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Art. 131, II, do CTN: o sucessor a qualquer título e o cônjuge meeiro são pessoalmente responsáveis pelos tributos do de cujus até a partilha ou adjudicação, limitada a responsabilidade ao montante do quinhão, legado ou meação."
+    },
+    {
+     "t": "Errado",
+     "p": "generalizacao",
+     "w": "Julgar errado supõe que o herdeiro responde pela dívida inteira do falecido. O art. 131, II, limita a responsabilidade ao que ele recebeu."
+    }
+   ]
+  },
+  {
+   "id": "dtrib35",
+   "type": "ce",
+   "topic": "Responsabilidade de terceiros",
+   "src": "CTN, art. 134, I, e parágrafo único",
+   "c": "Os pais de um adolescente de Vitória da Conquista (BA), dono de um imóvel herdado, deixaram de pagar o IPTU dele. Como o filho não tem recursos para quitar a dívida, o município cobrou os pais.",
+   "q": "Nesse caso, em matéria de penalidades, os pais só respondem pelas de caráter moratório.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Art. 134, I, e parágrafo único: os pais respondem pelos tributos dos filhos menores quando não for possível exigi-los do contribuinte, e, em matéria de penalidades, só pelas de caráter moratório."
+    },
+    {
+     "t": "Errado",
+     "p": "extrapolacao",
+     "w": "Julgar errado estende aos pais todas as multas, inclusive as punitivas. O parágrafo único do art. 134 limita a responsabilidade às penalidades moratórias."
+    }
+   ]
+  },
+  {
+   "id": "dtrib36",
+   "type": "ce",
+   "topic": "Suspensão e deveres acessórios",
+   "src": "CTN, art. 151, VI, e § 1º",
+   "c": "Um supermercado de Campina Grande (PB) obteve parcelamento de seus débitos de ICMS e passou a pagar as parcelas em dia.",
+   "q": "Enquanto o parcelamento suspende a exigibilidade do crédito, o supermercado fica dispensado de entregar as declarações e escriturações fiscais ligadas a esse imposto.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "extrapolacao",
+     "w": "Julgar certo estende o efeito da suspensão além da lei: ela atinge só a cobrança do crédito, não os deveres de declarar e escriturar."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O parcelamento suspende a exigibilidade (art. 151, VI), mas a suspensão não dispensa o cumprimento das obrigações acessórias dependentes da obrigação principal ou dela consequentes (art. 151, § 1º)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib37",
+   "type": "ce",
+   "topic": "Remissão e anistia",
+   "src": "CTN, arts. 156, IV, 172 e 175",
+   "c": "Lei do Município de Pelotas (RS) perdoou débitos de IPTU de pequeno valor, incluindo o próprio imposto, de contribuintes em situação econômica precária.",
+   "q": "Esse perdão do imposto é anistia, causa de exclusão do crédito tributário, assim como a isenção.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo troca remissão por anistia: a anistia alcança penalidades por infrações, e não o tributo em si."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Perdão do tributo já devido é remissão, causa de extinção do crédito (arts. 156, IV, e 172). Anistia perdoa infrações e, ao lado da isenção, forma as causas de exclusão (art. 175)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib38",
+   "type": "ce",
+   "topic": "Presunção da dívida ativa",
+   "src": "CTN, art. 204",
+   "c": "A Fazenda do Estado do Amazonas ajuizou execução fiscal contra uma empresa de Parintins (AM), instruída com certidão de dívida ativa regularmente inscrita.",
+   "q": "A dívida regularmente inscrita goza de presunção absoluta de certeza e liquidez, que não pode ser afastada por prova produzida pelo executado.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo transforma a presunção em absoluta. O parágrafo único do art. 204 admite prova em contrário."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Art. 204 do CTN: a presunção de certeza e liquidez é relativa e pode ser ilidida por prova inequívoca, a cargo do sujeito passivo ou do terceiro a quem aproveite."
+    }
+   ]
+  },
+  {
+   "id": "dtrib39",
+   "type": "ce",
+   "topic": "Fraude à execução fiscal",
+   "src": "CTN, art. 185",
+   "c": "Em Montes Claros (MG), um empresário com débito de ICMS já inscrito em dívida ativa vendeu seu único imóvel a um amigo, sem reservar outros bens ou rendas para pagar a dívida. A execução fiscal ainda não tinha sido ajuizada.",
+   "q": "A alienação presume-se fraudulenta, pois ocorreu depois da inscrição do crédito em dívida ativa e sem reserva de bens suficientes ao pagamento.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Art. 185 do CTN: presume-se fraudulenta a alienação de bens por sujeito passivo em débito com a Fazenda por crédito regularmente inscrito em dívida ativa, salvo se ele reservar bens ou rendas suficientes ao pagamento."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado exigiria execução ajuizada ou citação. O art. 185 exige apenas o crédito regularmente inscrito em dívida ativa."
+    }
+   ]
+  },
+  {
+   "id": "dtrib40",
+   "type": "ce",
+   "topic": "Transição da reforma",
+   "src": "ADCT, arts. 126 e 129 (incluídos pela EC 132/2023)",
+   "c": "Um escritório de contabilidade de Belo Horizonte (MG) monta para os clientes um calendário da reforma tributária do consumo, cuja transição vai de 2026 a 2033.",
+   "q": "Pelas regras constitucionais de transição, o ICMS e o ISS ficam extintos a partir de 2033.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O art. 129 do ADCT, incluído pela EC 132/2023, extingue a partir de 2033 o ICMS (art. 155, II) e o ISS (art. 156, III), que até lá convivem com o IBS em transição."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado costuma vir da confusão com 2027, ano em que a CBS passa a ser efetivamente cobrada, depois do teste de 2026, e PIS e Cofins são extintos (ADCT, art. 126). ICMS e ISS só se extinguem em 2033."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1101 @@
+{
+ "id": "redof",
+ "title": "Redação Oficial",
+ "subtitle": "Manual da Presidência: padrão ofício e pronomes",
+ "tag": "Concursos",
+ "blurb": "Pronomes de tratamento, vocativos, fechos e padrão ofício em casos de servidores reais, com o item exato do Manual da Presidência de 2018.",
+ "questions": [
+  {
+   "id": "redof1",
+   "topic": "Clareza e precisão",
+   "c": "Em Belém (PA), a analista Joana redige no Ibama um ofício com um único período de dez linhas, cheio de intercalações, e cita a sigla DILIC sem explicar o que significa.",
+   "q": "Segundo o Manual, que ajuste atende à clareza e à precisão?",
+   "a": 2,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), cap. I, 'Clareza e precisão'",
+   "o": [
+    {
+     "t": "Trocar as palavras simples por termos mais eruditos, porque a formalidade da comunicação oficial exige vocabulário elevado.",
+     "p": "troca",
+     "w": "Confunde formalidade com rebuscamento. A clareza pede palavras simples, usadas em seu sentido comum."
+    },
+    {
+     "t": "Eliminar todas as siglas do texto, pois o Manual proíbe o uso de siglas em comunicações oficiais.",
+     "p": "generalizacao",
+     "w": "O Manual não proíbe siglas: pede que não sejam usadas de forma indiscriminada e que sejam explicadas na primeira referência."
+    },
+    {
+     "t": "Dividir o período em frases curtas, em ordem direta, e explicitar o significado da sigla na primeira referência a ela.",
+     "p": "correta",
+     "w": "Correta. O Manual recomenda frases curtas em ordem direta, palavras em seu sentido comum e a explicitação da sigla na primeira vez em que aparece."
+    },
+    {
+     "t": "Manter o período longo, mas substituir a sigla por um termo estrangeiro consagrado, sem itálico.",
+     "p": "extrapolacao",
+     "w": "Estrangeirismo só se usa quando indispensável e, nesse caso, em itálico. Isso não resolve o período longo e confuso."
+    }
+   ]
+  },
+  {
+   "id": "redof2",
+   "topic": "Objetividade",
+   "c": "Na Superintendência do INSS em Recife (PE), o servidor Márcio escreve um ofício cujos três primeiros parágrafos contam a história do setor; o pedido de mais servidores só aparece no fim.",
+   "q": "Qual orientação do Manual sobre objetividade ele deveria seguir?",
+   "a": 0,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), cap. I, 'Objetividade'",
+   "o": [
+    {
+     "t": "Saber de antemão qual é a ideia principal e quais são as secundárias, ir direto ao assunto e dispensar o que nada acrescenta.",
+     "p": "correta",
+     "w": "Correta. Ser objetivo é ir diretamente ao assunto, e para isso o redator precisa identificar antes a ideia principal e as secundárias."
+    },
+    {
+     "t": "Basta reduzir o número de palavras de cada frase, porque objetividade e concisão são o mesmo atributo.",
+     "p": "troca",
+     "w": "São atributos distintos: concisão trata da economia de palavras; objetividade trata de ir direto à ideia principal."
+    },
+    {
+     "t": "Manter o histórico, pois a exigência de objetividade se aplica apenas a mensagens de correio eletrônico.",
+     "p": "restricao",
+     "w": "O Manual não limita a objetividade ao e-mail: é atributo de toda comunicação oficial."
+    },
+    {
+     "t": "Deixar o pedido para o último parágrafo, já que a ideia principal deve vir sempre na conclusão.",
+     "p": "inversao",
+     "w": "Inverte a lógica: a introdução apresenta o objetivo da comunicação, e o pedido não deve ficar escondido depois de rodeios."
+    }
+   ]
+  },
+  {
+   "id": "redof3",
+   "topic": "Concisão",
+   "c": "Em Curitiba (PR), um ofício da Receita Federal começa assim: \"Venho, por meio deste, informar a Vossa Senhoria que, conforme já informado anteriormente, o prazo foi prorrogado\".",
+   "q": "Como o Manual orienta a revisão desse trecho?",
+   "a": 3,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), cap. I, 'Concisão'",
+   "o": [
+    {
+     "t": "Manter a repetição, porque a redundância reforça a clareza do texto oficial.",
+     "p": "inversao",
+     "w": "Inverte o papel da redundância. O Manual manda eliminá-la, pois ela alonga o texto sem acrescentar informação."
+    },
+    {
+     "t": "Cortar inclusive o novo prazo e a fundamentação, para que o ofício caiba em poucas linhas.",
+     "p": "extrapolacao",
+     "w": "Vai além da regra: concisão não autoriza suprimir trechos substanciais só para reduzir o tamanho."
+    },
+    {
+     "t": "Substituir as expressões longas por siglas e abreviaturas criadas pelo próprio redator.",
+     "p": "troca",
+     "w": "Troca concisão por abreviação. Siglas devem restringir-se às formas existentes e consagradas."
+    },
+    {
+     "t": "Excluir palavras inúteis, redundâncias e passagens que nada acrescentam, sem cortar informação substancial.",
+     "p": "correta",
+     "w": "Correta. Concisão é transmitir o máximo de informações com o mínimo de palavras, mas não é economia de pensamento: o conteúdo essencial fica."
+    }
+   ]
+  },
+  {
+   "id": "redof4",
+   "topic": "Coesão e coerência",
+   "c": "Uma nota técnica do Ministério da Justiça, em Brasília, traz a frase: \"O decreto regulamenta os casos gerais; a portaria, os particulares.\"",
+   "q": "Que mecanismo de coesão aparece na segunda oração?",
+   "a": 1,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), cap. I, 'Coesão e coerência'",
+   "o": [
+    {
+     "t": "Substituição, pois a palavra \"portaria\" substitui a palavra \"decreto\".",
+     "p": "troca",
+     "w": "Na substituição, um termo retoma outro já citado (\"o Presidente\" e depois \"o Chefe do Poder Executivo\"). Portaria e decreto são atos diferentes."
+    },
+    {
+     "t": "Elipse, pois o verbo \"regulamenta\" fica subentendido depois de \"a portaria\".",
+     "p": "correta",
+     "w": "Correta. O Manual usa exatamente esse exemplo para ilustrar a elipse: a omissão de um termo que o leitor recupera pelo contexto."
+    },
+    {
+     "t": "Referência, pois \"os particulares\" retoma \"os casos gerais\" como se fossem o mesmo elemento.",
+     "p": "extrapolacao",
+     "w": "\"Os particulares\" não retoma \"os casos gerais\"; os dois se opõem. O recurso em jogo é a omissão do verbo."
+    },
+    {
+     "t": "Conjunção, pois todo sinal de pontuação entre orações funciona como conectivo.",
+     "p": "generalizacao",
+     "w": "Conjunção é o uso de conectivos como \"pois\" e \"porém\". O ponto e vírgula não é conjunção."
+    }
+   ]
+  },
+  {
+   "id": "redof5",
+   "topic": "Impessoalidade",
+   "c": "No campus do IFRN em Mossoró (RN), o servidor Caio escreve num ofício ao fornecedor: \"Eu, particularmente, sempre achei sua empresa pouco confiável\".",
+   "q": "À luz do Manual, o que há de errado no trecho?",
+   "a": 0,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), cap. I, 'Impessoalidade'",
+   "o": [
+    {
+     "t": "Fere a impessoalidade: a comunicação é feita em nome do serviço público e não deve trazer impressões individuais de quem escreve.",
+     "p": "correta",
+     "w": "Correta. O Manual aponta três aspectos: ausência de impressões individuais de quem comunica, impessoalidade de quem recebe e caráter impessoal do assunto."
+    },
+    {
+     "t": "Fere apenas a coesão, porque falta conectivo entre as ideias do trecho.",
+     "p": "troca",
+     "w": "O problema não é de encadeamento, e sim de opinião pessoal do redator num documento oficial."
+    },
+    {
+     "t": "Nada há de errado, pois a impessoalidade se refere apenas a quem recebe a comunicação.",
+     "p": "restricao",
+     "w": "A impessoalidade abrange também quem comunica e o assunto tratado, não só o destinatário."
+    },
+    {
+     "t": "Está errado porque a comunicação oficial proíbe qualquer verbo na primeira pessoa, inclusive \"Informo\" e \"Solicito\".",
+     "p": "generalizacao",
+     "w": "O próprio Manual recomenda formas diretas como \"Informo\" e \"Solicito\". O erro é a impressão pessoal, não a primeira pessoa."
+    }
+   ]
+  },
+  {
+   "id": "redof6",
+   "topic": "Formalidade e padronização",
+   "c": "A reitoria de uma universidade federal em Juiz de Fora (MG) recebe pedidos de cada faculdade para criar seu próprio modelo de ofício, com logotipo grande no topo e fonte à escolha.",
+   "q": "O que o Manual diz sobre essa ideia?",
+   "a": 2,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), cap. I, 'Formalidade e padronização'; item 5.1.1",
+   "o": [
+    {
+     "t": "Cada unidade pode criar seu modelo, pois a padronização vale só para os órgãos da Presidência da República.",
+     "p": "restricao",
+     "w": "Acrescenta uma limitação que o Manual não prevê: o padrão é pensado para toda a administração pública federal."
+    },
+    {
+     "t": "A formalidade exige linguagem rebuscada; o modelo gráfico é indiferente.",
+     "p": "troca",
+     "w": "Formalidade é civilidade no trato do assunto, não rebuscamento. E a apresentação gráfica também é padronizada."
+    },
+    {
+     "t": "Se a administração pública federal é una, as comunicações devem seguir o mesmo padrão, e marcas institucionais não devem se sobrepor ao Brasão.",
+     "p": "correta",
+     "w": "Correta. A padronização decorre da unidade da administração federal, e o cabeçalho traz o Brasão de Armas, sem marcas que se sobreponham a ele."
+    },
+    {
+     "t": "Padronizar significa usar o mesmo texto pronto em todos os ofícios, mudando só o destinatário.",
+     "p": "extrapolacao",
+     "w": "A padronização trata de forma e apresentação, não obriga o redator a repetir o mesmo conteúdo em todo documento."
+    }
+   ]
+  },
+  {
+   "id": "redof7",
+   "topic": "Norma padrão",
+   "c": "Em Goiânia (GO), um chefe de seção da Polícia Rodoviária Federal orienta a equipe a escrever ofícios com \"outrossim\", \"em sede de\" e \"no bojo do processo\", dizendo que essa é a linguagem oficial.",
+   "q": "Qual é a posição do Manual?",
+   "a": 1,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), cap. I, 'Formalidade e padronização'",
+   "o": [
+    {
+     "t": "Existe uma linguagem oficial própria, com expressões fixas que o servidor deve empregar em todo ofício.",
+     "p": "inversao",
+     "w": "Inverte a posição do Manual, que nega a existência de um padrão oficial de linguagem e condena o jargão."
+    },
+    {
+     "t": "Não existe um padrão oficial de linguagem; o que há é o uso da norma padrão, e o jargão burocrático deve ser evitado.",
+     "p": "correta",
+     "w": "Correta. O Manual afirma que não há uma linguagem oficial própria, e sim o uso da norma padrão nos atos e comunicações oficiais, sem jargão burocrático."
+    },
+    {
+     "t": "A norma padrão é obrigatória só nos atos normativos; nos ofícios vale o registro informal.",
+     "p": "restricao",
+     "w": "Cria uma exceção inexistente: a norma padrão vale para atos e para comunicações oficiais."
+    },
+    {
+     "t": "O Manual proíbe qualquer termo técnico, ainda que seja o único preciso para o assunto.",
+     "p": "generalizacao",
+     "w": "O alvo é o jargão burocrático, não a terminologia técnica necessária à precisão do texto."
+    }
+   ]
+  },
+  {
+   "id": "redof8",
+   "topic": "Excelência ou Senhoria",
+   "c": "No Ministério da Defesa, em Brasília, a assessora Lívia prepara dois ofícios: um para um general de brigada e outro para um coronel do Exército.",
+   "q": "Que pronome de tratamento cada um recebe no corpo do texto?",
+   "a": 3,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.1",
+   "o": [
+    {
+     "t": "Vossa Senhoria para o general de brigada e Vossa Excelência para o coronel.",
+     "p": "inversao",
+     "w": "Inverte a tabela: oficial-general recebe Excelência; os demais postos, Senhoria."
+    },
+    {
+     "t": "Vossa Excelência para os dois, pois todo oficial das Forças Armadas recebe Excelência.",
+     "p": "generalizacao",
+     "w": "Só os oficiais-generais recebem Excelência; o coronel, como outros postos militares, recebe Vossa Senhoria."
+    },
+    {
+     "t": "Vossa Excelência só para o general de quatro estrelas; general de brigada e coronel recebem Vossa Senhoria.",
+     "p": "restricao",
+     "w": "Acrescenta uma condição inexistente: general de brigada já é oficial-general e recebe Vossa Excelência."
+    },
+    {
+     "t": "Vossa Excelência para o general de brigada, que é oficial-general, e Vossa Senhoria para o coronel.",
+     "p": "correta",
+     "w": "Correta. A tabela do Manual dá Vossa Excelência aos oficiais-generais e Vossa Senhoria aos outros postos militares."
+    }
+   ]
+  },
+  {
+   "id": "redof9",
+   "topic": "Concordância com tratamento",
+   "c": "Em Florianópolis (SC), a assessora de uma superintendência federal escreve a uma deputada federal pedindo a indicação de um representante para uma audiência.",
+   "q": "Qual frase segue a concordância exigida pelo Manual?",
+   "a": 0,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.1.1",
+   "o": [
+    {
+     "t": "Solicito que Vossa Excelência indique seu representante para a audiência.",
+     "p": "correta",
+     "w": "Correta. Os pronomes de tratamento se referem à segunda pessoa, mas levam verbo e possessivo para a terceira pessoa."
+    },
+    {
+     "t": "Solicito que Vossa Excelência indiqueis vosso representante para a audiência.",
+     "p": "troca",
+     "w": "Usa a segunda pessoa do plural. O Manual manda a concordância para a terceira pessoa: \"indique\" e \"seu\"."
+    },
+    {
+     "t": "Solicito que Vossa Excelência indique vosso representante para a audiência.",
+     "p": "extrapolacao",
+     "w": "O possessivo também vai para a terceira pessoa (\"seu\"). O \"Vossa\" do pronome não leva o possessivo para a segunda pessoa."
+    },
+    {
+     "t": "Solicito que Sua Excelência indique seu representante para a audiência.",
+     "p": "inversao",
+     "w": "\"Sua Excelência\" serve para falar da autoridade, não com ela. Para se dirigir à deputada, usa-se \"Vossa Excelência\"."
+    }
+   ]
+  },
+  {
+   "id": "redof10",
+   "topic": "Gênero do adjetivo",
+   "c": "Em Brasília, o chefe de gabinete de uma secretaria redige ofício ao Ministro de Minas e Energia sobre um relatório já concluído.",
+   "q": "Qual frase está de acordo com o Manual?",
+   "a": 1,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.1.1",
+   "o": [
+    {
+     "t": "Vossa Excelência ficará satisfeita com o resultado.",
+     "p": "troca",
+     "w": "Faz o adjetivo concordar com a palavra \"Excelência\". A concordância é com o sexo da pessoa a quem se dirige."
+    },
+    {
+     "t": "Vossa Excelência ficará satisfeito com o resultado.",
+     "p": "correta",
+     "w": "Correta. Os adjetivos referidos ao pronome concordam com o sexo da pessoa tratada; como o destinatário é homem, usa-se o masculino."
+    },
+    {
+     "t": "Vossa Excelência ficareis satisfeito com o resultado.",
+     "p": "inversao",
+     "w": "O verbo vai para a terceira pessoa do singular (\"ficará\"), não para a segunda do plural."
+    },
+    {
+     "t": "Tanto \"satisfeito\" quanto \"satisfeita\" estão corretos, pois o pronome de tratamento não tem gênero.",
+     "p": "generalizacao",
+     "w": "O Manual dá a regra: o adjetivo concorda com o sexo da pessoa tratada. Há uma única forma correta aqui."
+    }
+   ]
+  },
+  {
+   "id": "redof11",
+   "topic": "Sua Excelência",
+   "c": "Em ofício ao Ministro do Turismo, o secretário de uma autarquia federal em Salvador (BA) precisa mencionar o pedido feito por uma senadora, que não é a destinatária.",
+   "q": "Como ele deve se referir à senadora no texto?",
+   "a": 2,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.1.1",
+   "o": [
+    {
+     "t": "Vossa Excelência a Senadora, pois senador recebe Excelência em qualquer situação.",
+     "p": "generalizacao",
+     "w": "A senadora tem direito ao tratamento de Excelência, mas, como não é a destinatária, usa-se a forma indireta \"Sua Excelência\"."
+    },
+    {
+     "t": "Sua Excelência para o Ministro e Vossa Excelência para a Senadora.",
+     "p": "inversao",
+     "w": "Inverte os papéis: com quem se fala (o Ministro) é \"Vossa\"; de quem se fala (a Senadora) é \"Sua\"."
+    },
+    {
+     "t": "Sua Excelência a Senadora, pois \"Sua Excelência\" serve para fazer referência indireta à autoridade.",
+     "p": "correta",
+     "w": "Correta. \"Vossa Excelência\" é para quem recebe a comunicação; \"Sua Excelência\" é para a autoridade de quem se fala."
+    },
+    {
+     "t": "Sua Senhoria a Senadora, pois quem não é destinatário perde o tratamento de Excelência.",
+     "p": "extrapolacao",
+     "w": "A autoridade não perde o tratamento por ser apenas citada; muda só a forma, de \"Vossa\" para \"Sua\"."
+    }
+   ]
+  },
+  {
+   "id": "redof12",
+   "topic": "Vocativo de Chefes",
+   "c": "Em Brasília, a Secretaria-Executiva de um ministério prepara ofício a ser dirigido ao Presidente do Supremo Tribunal Federal.",
+   "q": "Qual é o vocativo correto segundo o Manual?",
+   "a": 3,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.4",
+   "o": [
+    {
+     "t": "Senhor Presidente do Supremo Tribunal Federal,",
+     "p": "troca",
+     "w": "\"Senhor + cargo\" é o vocativo das demais autoridades. Os Chefes de Poder recebem \"Excelentíssimo Senhor\"."
+    },
+    {
+     "t": "Excelentíssimo e Digníssimo Senhor Presidente do Supremo Tribunal Federal,",
+     "p": "extrapolacao",
+     "w": "O Manual aboliu o \"Digníssimo\" nas comunicações oficiais; acrescentá-lo vai além da forma prevista."
+    },
+    {
+     "t": "Excelentíssimo Senhor Presidente do Supremo Tribunal Federal:",
+     "p": "calculo",
+     "w": "Erro de procedimento: nas comunicações oficiais, o vocativo é sempre seguido de vírgula, não de dois-pontos."
+    },
+    {
+     "t": "Excelentíssimo Senhor Presidente do Supremo Tribunal Federal,",
+     "p": "correta",
+     "w": "Correta. Os Chefes de Poder recebem \"Excelentíssimo Senhor\" seguido do cargo, e o vocativo é sempre seguido de vírgula."
+    }
+   ]
+  },
+  {
+   "id": "redof13",
+   "topic": "Vocativo Senhor + cargo",
+   "c": "Em Belo Horizonte (MG), o pró-reitor de uma universidade federal envia ofício ao Ministro da Educação pedindo recursos para obras.",
+   "q": "Qual vocativo o Manual indica?",
+   "a": 1,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.4",
+   "o": [
+    {
+     "t": "Excelentíssimo Senhor Ministro,",
+     "p": "generalizacao",
+     "w": "\"Excelentíssimo Senhor\" fica reservado aos Chefes de Poder; não se estende a todos que recebem Vossa Excelência."
+    },
+    {
+     "t": "Senhor Ministro,",
+     "p": "correta",
+     "w": "Correta. Fora os Chefes de Poder, as autoridades, inclusive as tratadas por Vossa Excelência, recebem \"Senhor\" seguido do cargo."
+    },
+    {
+     "t": "Ilustríssimo Senhor Ministro,",
+     "p": "troca",
+     "w": "O Manual aboliu o \"Ilustríssimo\" nas comunicações oficiais."
+    },
+    {
+     "t": "Prezado Senhor Ministro,",
+     "p": "extrapolacao",
+     "w": "\"Prezado Senhor\" é a forma indicada para particulares; para autoridade, o vocativo é \"Senhor\" mais o cargo."
+    }
+   ]
+  },
+  {
+   "id": "redof14",
+   "topic": "Digníssimo e Ilustríssimo",
+   "c": "Na Delegacia da Receita Federal em Londrina (PR), o modelo antigo de ofício ainda traz \"Ilmo. Sr.\" e \"DD. Delegado\".",
+   "q": "O que o Manual de 2018 determina sobre essas formas?",
+   "a": 0,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.4",
+   "o": [
+    {
+     "t": "Ambas estão abolidas nas comunicações oficiais; usa-se \"Senhor\" seguido do cargo, que já confere a formalidade desejada.",
+     "p": "correta",
+     "w": "Correta. O Manual declara abolido o uso de Digníssimo (DD) e de Ilustríssimo (Ilmo.) nas comunicações oficiais."
+    },
+    {
+     "t": "Só o Digníssimo foi abolido; o Ilustríssimo continua obrigatório para particulares.",
+     "p": "restricao",
+     "w": "O Manual abole as duas formas, sem exceção para particulares, a quem se pode dizer \"Prezado Senhor\"."
+    },
+    {
+     "t": "O Ilustríssimo foi substituído por \"Excelentíssimo\" para todas as autoridades.",
+     "p": "generalizacao",
+     "w": "\"Excelentíssimo\" é só para os Chefes de Poder; as demais autoridades recebem \"Senhor\" mais o cargo."
+    },
+    {
+     "t": "As duas formas continuam válidas, desde que abreviadas como DD. e Ilmo.",
+     "p": "extrapolacao",
+     "w": "A abreviatura não salva a forma: o uso está abolido, por extenso ou abreviado."
+    }
+   ]
+  },
+  {
+   "id": "redof15",
+   "topic": "Uso de doutor",
+   "c": "Na Defensoria Pública da União em Porto Alegre (RS), um servidor endereça ofício a um advogado particular como \"Ao Doutor\" e usa \"Doutor\" em todo o texto.",
+   "q": "O que diz o Manual sobre o uso de \"doutor\"?",
+   "a": 2,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.4",
+   "o": [
+    {
+     "t": "\"Doutor\" está abolido em qualquer hipótese, assim como Digníssimo e Ilustríssimo.",
+     "p": "extrapolacao",
+     "w": "O Manual não aboliu a palavra: só orienta a evitar o uso indiscriminado. Abolidos são Digníssimo e Ilustríssimo."
+    },
+    {
+     "t": "\"Doutor\" deve substituir \"Senhor\" no vocativo de qualquer autoridade tratada por Vossa Excelência.",
+     "p": "generalizacao",
+     "w": "O vocativo das autoridades é \"Senhor + cargo\"; \"doutor\" não é forma de tratamento prevista no Manual."
+    },
+    {
+     "t": "Deve-se evitar o uso indiscriminado de \"doutor\", pois o tratamento por \"Senhor\" já confere a formalidade desejada.",
+     "p": "correta",
+     "w": "Correta. O Manual pede que se evite \"doutor\" de forma indiscriminada; \"Senhor\" basta para a formalidade."
+    },
+    {
+     "t": "\"Doutor\" só pode ser usado em mensagens de correio eletrônico.",
+     "p": "restricao",
+     "w": "Cria uma restrição que não existe: a orientação de evitar o uso indiscriminado vale para qualquer comunicação."
+    }
+   ]
+  },
+  {
+   "id": "redof16",
+   "topic": "Fecho Respeitosamente",
+   "c": "Em João Pessoa (PB), a reitora de um instituto federal assina ofício ao Ministro da Educação solicitando a criação de cursos.",
+   "q": "Qual fecho ela deve usar?",
+   "a": 3,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.7",
+   "o": [
+    {
+     "t": "Atenciosamente, que é o fecho único para qualquer comunicação oficial.",
+     "p": "generalizacao",
+     "w": "Há dois fechos no Manual: \"Atenciosamente\" para mesma hierarquia ou inferior e \"Respeitosamente\" para superior."
+    },
+    {
+     "t": "Respeitosamente só se o ofício fosse dirigido ao Presidente da República.",
+     "p": "restricao",
+     "w": "O Presidente é apenas um dos casos: qualquer autoridade de hierarquia superior recebe \"Respeitosamente\"."
+    },
+    {
+     "t": "Cordialmente, por ser o fecho mais neutro entre órgãos da mesma área.",
+     "p": "troca",
+     "w": "\"Cordialmente\" não é um dos fechos do Manual, que prevê só \"Respeitosamente\" e \"Atenciosamente\"."
+    },
+    {
+     "t": "Respeitosamente, porque o destinatário é autoridade de hierarquia superior à da remetente.",
+     "p": "correta",
+     "w": "Correta. \"Respeitosamente\" é o fecho para autoridades de hierarquia superior à do remetente, inclusive o Presidente da República."
+    }
+   ]
+  },
+  {
+   "id": "redof17",
+   "topic": "Fecho Atenciosamente",
+   "c": "Em Fortaleza (CE), o superintendente regional de uma autarquia federal assina dois ofícios: um a outro superintendente do mesmo nível e outro a um cidadão que pediu informações.",
+   "q": "Qual fecho cabe em cada ofício?",
+   "a": 0,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.7",
+   "o": [
+    {
+     "t": "Atenciosamente nos dois, pois o fecho vale para a mesma hierarquia, para hierarquia inferior e para os demais casos.",
+     "p": "correta",
+     "w": "Correta. \"Atenciosamente\" é o fecho para autoridades de mesma hierarquia, de hierarquia inferior e para os demais casos."
+    },
+    {
+     "t": "Respeitosamente nos dois, porque todo ofício oficial exige o fecho mais formal.",
+     "p": "generalizacao",
+     "w": "\"Respeitosamente\" é só para hierarquia superior. Os dois destinatários não estão acima do remetente."
+    },
+    {
+     "t": "Respeitosamente ao outro superintendente e Atenciosamente ao cidadão.",
+     "p": "inversao",
+     "w": "O colega de mesmo nível não é hierarquia superior; por isso também recebe \"Atenciosamente\"."
+    },
+    {
+     "t": "Cordiais saudações nos dois, por ser a forma mais usada entre órgãos públicos.",
+     "p": "troca",
+     "w": "Não é fecho previsto no Manual. Os fechos oficiais são \"Respeitosamente\" e \"Atenciosamente\"."
+    }
+   ]
+  },
+  {
+   "id": "redof18",
+   "topic": "Fecho a autoridade estrangeira",
+   "c": "Em Brasília, a assessoria internacional do Ministério da Agricultura redige uma comunicação a um ministro de governo estrangeiro sobre exportação de carne.",
+   "q": "O que o Manual diz sobre o fecho nesse caso?",
+   "a": 1,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.7",
+   "o": [
+    {
+     "t": "Usa-se sempre Respeitosamente, porque toda autoridade estrangeira é tratada como superior.",
+     "p": "generalizacao",
+     "w": "O Manual não manda aplicar a fórmula: as comunicações a autoridades estrangeiras ficam excluídas dela."
+    },
+    {
+     "t": "A regra Respeitosamente/Atenciosamente não se aplica às comunicações a autoridades estrangeiras, que seguem rito e tradição próprios.",
+     "p": "correta",
+     "w": "Correta. O Manual exclui expressamente da fórmula de fechos as comunicações dirigidas a autoridades estrangeiras."
+    },
+    {
+     "t": "Usa-se Atenciosamente, porque autoridade estrangeira não está acima do remetente na hierarquia brasileira.",
+     "p": "extrapolacao",
+     "w": "Aplica a regra interna a um caso que o Manual excluiu dela."
+    },
+    {
+     "t": "A regra própria só vale se o documento for redigido em língua estrangeira.",
+     "p": "restricao",
+     "w": "O Manual não impõe essa condição: a exclusão vale para as comunicações dirigidas a autoridades estrangeiras."
+    }
+   ]
+  },
+  {
+   "id": "redof19",
+   "topic": "Partes do padrão ofício",
+   "c": "Em Campo Grande (MS), um estagiário da superintendência do Incra monta seu primeiro ofício e pergunta à chefe em que ordem vêm as partes do documento.",
+   "q": "Qual é a sequência prevista no Manual?",
+   "a": 2,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1",
+   "o": [
+    {
+     "t": "Cabeçalho, identificação do expediente, endereçamento, local e data, assunto, texto, fecho e identificação do signatário.",
+     "p": "inversao",
+     "w": "Inverte duas partes: local e data vêm antes do endereçamento."
+    },
+    {
+     "t": "A ordem é livre, desde que todas as partes estejam presentes no documento.",
+     "p": "generalizacao",
+     "w": "O padrão ofício tem ordem fixa, justamente para uniformizar as comunicações."
+    },
+    {
+     "t": "Cabeçalho, identificação do expediente, local e data, endereçamento, assunto, texto, fecho e identificação do signatário.",
+     "p": "correta",
+     "w": "Correta. É a ordem dos subitens 5.1.1 a 5.1.8 do Manual; a numeração das páginas vem a partir da segunda página."
+    },
+    {
+     "t": "Cabeçalho, identificação do expediente, local e data, endereçamento, assunto, texto e fecho, dispensando a identificação do signatário.",
+     "p": "extrapolacao",
+     "w": "A dispensa vale só para comunicações assinadas pelo Presidente da República; as demais identificam o signatário."
+    }
+   ]
+  },
+  {
+   "id": "redof20",
+   "topic": "Identificação do expediente",
+   "c": "A Coordenação-Geral de Gestão de Pessoas (CGGP), da Secretaria-Executiva (SE) do Ministério da Saúde (MS), em Brasília, expede seu ofício de número 214 em 2026.",
+   "q": "Como fica a identificação do expediente?",
+   "a": 3,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.2",
+   "o": [
+    {
+     "t": "OFÍCIO Nº 214/2026/MS/SE/CGGP",
+     "p": "inversao",
+     "w": "Inverte a ordem: as siglas vão da menor para a maior hierarquia, do setor que expede até o órgão."
+    },
+    {
+     "t": "MEMORANDO Nº 214/2026/CGGP/SE/MS",
+     "p": "troca",
+     "w": "Desde a 3ª edição, ofício, aviso e memorando foram unificados: o documento se chama ofício."
+    },
+    {
+     "t": "Ofício nº 214/26/CGGP/SE/MS",
+     "p": "calculo",
+     "w": "Erro de procedimento: o nome vai todo em maiúsculas, o número é indicado por \"Nº\" e o ano tem quatro dígitos."
+    },
+    {
+     "t": "OFÍCIO Nº 214/2026/CGGP/SE/MS",
+     "p": "correta",
+     "w": "Correta. Nome do documento em maiúsculas, \"Nº\", número, ano com quatro dígitos e siglas da menor para a maior hierarquia, separados por barra, à esquerda."
+    }
+   ]
+  },
+  {
+   "id": "redof21",
+   "topic": "Local e data",
+   "c": "Em Manaus (AM), a servidora Raquel, do Ibama, termina um ofício no primeiro dia de outubro de 2026 e precisa preencher local e data.",
+   "q": "Qual é a forma correta?",
+   "a": 0,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.3",
+   "o": [
+    {
+     "t": "Manaus, 1º de outubro de 2026.",
+     "p": "correta",
+     "w": "Correta. Sem sigla da UF, dia 1 em ordinal, mês com inicial minúscula, ponto-final e alinhamento à direita."
+    },
+    {
+     "t": "Manaus, 01 de outubro de 2026.",
+     "p": "calculo",
+     "w": "Erro de procedimento: não se usa zero à esquerda, e o primeiro dia do mês é escrito em ordinal (1º)."
+    },
+    {
+     "t": "Manaus/AM, 1º de outubro de 2026.",
+     "p": "restricao",
+     "w": "Acrescenta um elemento proibido: não se usa a sigla da unidade da federação depois do nome da cidade."
+    },
+    {
+     "t": "Manaus, 1º de Outubro de 2026",
+     "p": "troca",
+     "w": "Trata o mês como nome próprio. O mês tem inicial minúscula, e a data termina com ponto-final."
+    }
+   ]
+  },
+  {
+   "id": "redof22",
+   "topic": "Assunto",
+   "c": "No INSS em Recife (PE), o analista Diego escreve no campo de assunto: \"Solicitamos o envio dos dados do relatório de gestão de 2025\".",
+   "q": "Como o Manual manda grafar o assunto?",
+   "a": 1,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.5",
+   "o": [
+    {
+     "t": "Assunto: Solicitamos o envio do relatório de gestão de 2025. — em negrito, com o pedido já na forma verbal.",
+     "p": "troca",
+     "w": "Troca a frase nominal por uma oração: a descrição do assunto não deve usar verbos."
+    },
+    {
+     "t": "Assunto: Relatório de gestão de 2025. — tudo em negrito, inclusive a palavra \"Assunto\", sem verbos e com ponto-final.",
+     "p": "correta",
+     "w": "Correta. O título \"Assunto\" vem seguido de dois-pontos, a descrição não usa verbos (sugerem-se quatro a cinco palavras), tudo em negrito e com ponto-final."
+    },
+    {
+     "t": "Assunto: Relatório de gestão de 2025. — com negrito só na palavra \"Assunto\".",
+     "p": "restricao",
+     "w": "O destaque em negrito abrange todo o texto do assunto, inclusive o título, e não só a palavra inicial."
+    },
+    {
+     "t": "Assunto: Relatório de gestão de 2025 — em negrito e sem ponto, pois títulos nunca levam ponto-final.",
+     "p": "generalizacao",
+     "w": "O Manual prevê expressamente o ponto-final depois do assunto."
+    }
+   ]
+  },
+  {
+   "id": "redof23",
+   "topic": "Endereçamento",
+   "c": "Em Cuiabá (MT), a Superintendência do Incra envia ofício ao presidente de uma associação de produtores rurais, que é particular.",
+   "q": "Como começa o endereçamento?",
+   "a": 2,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.4",
+   "o": [
+    {
+     "t": "\"A Sua Senhoria o Senhor\", seguido do nome, do cargo e do endereço.",
+     "p": "troca",
+     "w": "O Manual diz expressamente que não se utiliza a expressão \"A Sua Senhoria o Senhor\"."
+    },
+    {
+     "t": "\"A Sua Excelência o Senhor\", pois todo destinatário de ofício recebe Excelência.",
+     "p": "generalizacao",
+     "w": "\"A Sua Excelência o Senhor\" é só para quem tem tratamento de Vossa Excelência."
+    },
+    {
+     "t": "\"Ao Senhor\", seguido do nome, do cargo e do endereço do destinatário.",
+     "p": "correta",
+     "w": "Correta. Quando o tratamento não é Vossa Excelência, o endereçamento é \"Ao Senhor\" ou \"À Senhora\"."
+    },
+    {
+     "t": "\"Ao Ilustríssimo Senhor\", forma reservada aos particulares.",
+     "p": "extrapolacao",
+     "w": "O Ilustríssimo foi abolido nas comunicações oficiais; não há forma especial com ele para particulares."
+    }
+   ]
+  },
+  {
+   "id": "redof24",
+   "topic": "Numeração dos parágrafos",
+   "c": "Em Teresina (PI), uma coordenadora da UFPI escreve ofício com vocativo, quatro parágrafos de texto e fecho.",
+   "q": "Como fica a numeração, segundo o Manual?",
+   "a": 3,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.6",
+   "o": [
+    {
+     "t": "Numeram-se todos os elementos do texto, inclusive vocativo e fecho.",
+     "p": "generalizacao",
+     "w": "Vocativo e fecho não recebem número; só os parágrafos do texto."
+    },
+    {
+     "t": "Numera-se a partir do segundo parágrafo, porque o primeiro é a introdução.",
+     "p": "restricao",
+     "w": "A numeração começa no primeiro parágrafo; a introdução também é numerada."
+    },
+    {
+     "t": "Não se numera, pois a numeração de parágrafos é exclusiva da exposição de motivos.",
+     "p": "troca",
+     "w": "A numeração vale para os documentos no padrão ofício, inclusive o ofício, quando houver três ou mais parágrafos."
+    },
+    {
+     "t": "Numeram-se os quatro parágrafos, a partir do primeiro; vocativo e fecho ficam sem número.",
+     "p": "correta",
+     "w": "Correta. Os parágrafos são numerados quando o documento tem três ou mais, desde o primeiro, e vocativo e fecho não são numerados."
+    }
+   ]
+  },
+  {
+   "id": "redof25",
+   "topic": "Fonte e tamanhos",
+   "c": "No Ministério do Trabalho, em Brasília, o servidor Paulo configura o modelo de ofício no editor de textos do computador e revisa a fonte usada.",
+   "q": "Qual configuração segue o Manual de 2018?",
+   "a": 0,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.6",
+   "o": [
+    {
+     "t": "Calibri ou Carlito; corpo 12 no texto, 11 nas citações recuadas e 10 nas notas de rodapé.",
+     "p": "correta",
+     "w": "Correta. A 3ª edição adota Calibri ou Carlito, com corpo 12 no texto, 11 nas citações recuadas e 10 nas notas."
+    },
+    {
+     "t": "Times New Roman, corpo 12 no texto, 11 nas citações e 10 nas notas de rodapé.",
+     "p": "troca",
+     "w": "Times New Roman era a fonte da edição anterior. A 3ª edição passou a usar Calibri ou Carlito."
+    },
+    {
+     "t": "Calibri, corpo 12 em todo o documento, inclusive citações e notas de rodapé.",
+     "p": "generalizacao",
+     "w": "O corpo 12 é do texto; citações recuadas usam 11 e notas de rodapé usam 10."
+    },
+    {
+     "t": "Somente Calibri, ficando vedado o uso de Carlito.",
+     "p": "restricao",
+     "w": "O Manual admite Calibri ou Carlito; não há vedação a nenhuma das duas."
+    }
+   ]
+  },
+  {
+   "id": "redof26",
+   "topic": "Margens do documento",
+   "c": "Em Vitória (ES), a secretária de um órgão federal ajusta as margens do modelo de ofício em papel A4.",
+   "q": "Quais medidas o Manual prevê?",
+   "a": 1,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.2",
+   "o": [
+    {
+     "t": "Esquerda de 1,5 cm, direita de no mínimo 3 cm, superior e inferior de 2 cm.",
+     "p": "inversao",
+     "w": "Inverte as laterais: a margem maior, de no mínimo 3 cm, é a esquerda."
+    },
+    {
+     "t": "Esquerda de no mínimo 3 cm, direita de 1,5 cm, superior e inferior de 2 cm; cabeçalho a 5 cm do topo na primeira página.",
+     "p": "correta",
+     "w": "Correta. São as medidas da forma de diagramação do padrão ofício, em papel A4."
+    },
+    {
+     "t": "Superior e esquerda de 3 cm, inferior e direita de 2 cm, como nos trabalhos acadêmicos.",
+     "p": "troca",
+     "w": "Usa o padrão dos trabalhos acadêmicos no lugar das medidas do Manual."
+    },
+    {
+     "t": "Todas as margens de 2,5 cm, para centralizar o texto na folha.",
+     "p": "calculo",
+     "w": "Medidas erradas: esquerda mínima de 3 cm, direita de 1,5 cm, superior e inferior de 2 cm."
+    }
+   ]
+  },
+  {
+   "id": "redof27",
+   "topic": "Ofício e memorando",
+   "c": "Em Belém (PA), a Coordenação de Logística de uma universidade federal precisa pedir dados à Pró-Reitoria de Planejamento da mesma instituição.",
+   "q": "Que expediente o Manual de 2018 indica?",
+   "a": 2,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5",
+   "o": [
+    {
+     "t": "Memorando, pois é comunicação entre unidades do mesmo órgão.",
+     "p": "troca",
+     "w": "Essa era a regra até a 2ª edição. Desde 2018, a comunicação interna também é ofício."
+    },
+    {
+     "t": "Aviso, pois as duas unidades têm a mesma hierarquia.",
+     "p": "extrapolacao",
+     "w": "O aviso era expedido só por Ministros de Estado a autoridades de mesma hierarquia, e hoje também foi unificado no ofício."
+    },
+    {
+     "t": "Ofício, pois a 3ª edição passou a usar o termo ofício para as hipóteses antes divididas entre aviso, ofício e memorando.",
+     "p": "correta",
+     "w": "Correta. O Manual aboliu a distinção e unificou os três expedientes sob o nome ofício, no padrão ofício."
+    },
+    {
+     "t": "Ofício só se a comunicação saísse da universidade; internamente, qualquer formato serve.",
+     "p": "restricao",
+     "w": "O Manual não restringe o ofício à comunicação externa: ele cobre também as comunicações entre unidades do mesmo órgão."
+    }
+   ]
+  },
+  {
+   "id": "redof28",
+   "topic": "Exposição de motivos",
+   "c": "A Ministra de Minas e Energia e o Ministro da Fazenda querem submeter ao Presidente da República um projeto de decreto preparado pelas duas pastas.",
+   "q": "Como deve ser o documento, segundo o Manual?",
+   "a": 3,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 6.2",
+   "o": [
+    {
+     "t": "Mensagem, assinada pelos dois ministros e dirigida ao Presidente da República.",
+     "p": "troca",
+     "w": "Mensagem é comunicação entre Chefes de Poder. De ministro para o Presidente, o documento é a exposição de motivos."
+    },
+    {
+     "t": "Exposição de motivos assinada só pelo ministro mais antigo, pois a EM admite um único signatário.",
+     "p": "restricao",
+     "w": "Quando há mais de um ministério envolvido, a EM é interministerial e assinada por todos os ministros envolvidos."
+    },
+    {
+     "t": "Exposição de motivos com fecho \"Atenciosamente,\", pois ministros e Presidente integram o mesmo Poder.",
+     "p": "inversao",
+     "w": "O Presidente é autoridade de hierarquia superior, e por isso o fecho é \"Respeitosamente\"."
+    },
+    {
+     "t": "Exposição de motivos interministerial, assinada pelos dois ministros, com vocativo \"Excelentíssimo Senhor Presidente da República,\" e fecho \"Respeitosamente,\".",
+     "p": "correta",
+     "w": "Correta. A EM é dirigida ao Presidente (ou ao Vice) por Ministro; com mais de um ministério, é interministerial e assinada por todos."
+    }
+   ]
+  },
+  {
+   "id": "redof29",
+   "type": "ce",
+   "topic": "Mensagem",
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 6.3",
+   "c": "O Presidente da República decide encaminhar ao Congresso Nacional um projeto de lei sobre o marco das ferrovias e, semanas depois, comunicar o veto parcial a outro projeto.",
+   "q": "Nesses dois casos, o documento usado é a mensagem, instrumento de comunicação oficial entre os Chefes dos Poderes Públicos.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Certo. A mensagem é o instrumento de comunicação entre os Chefes dos Poderes e serve, entre outros fins, para encaminhar projetos de lei e comunicar vetos."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado troca a mensagem pela exposição de motivos, que é o documento de Ministro para o Presidente, e não do Presidente para o Congresso."
+    }
+   ]
+  },
+  {
+   "id": "redof30",
+   "type": "ce",
+   "topic": "E-mail como documento",
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 6.4",
+   "c": "Em Natal (RN), o chefe de uma unidade da Funasa envia uma determinação por e-mail da sua caixa institucional, sem certificação digital.",
+   "q": "Por ter sido enviado de caixa institucional, o e-mail tem valor documental de original, independentemente de certificação digital.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "extrapolacao",
+     "w": "Julgar certo vai além do Manual: o domínio institucional não basta para dar valor documental à mensagem."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Errado. Para valer como documento original, o e-mail precisa de certificação digital que ateste a identidade do remetente, nos parâmetros da ICP-Brasil."
+    }
+   ]
+  },
+  {
+   "id": "redof31",
+   "type": "ce",
+   "topic": "Fecho do e-mail",
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 6.4",
+   "c": "Em Aracaju (SE), uma técnica de um órgão federal termina seus e-mails a outros órgãos com \"Att.\" ou \"Abraços\", por serem formas mais rápidas.",
+   "q": "Segundo o Manual, \"Att.\" é forma abreviada aceita do fecho oficial nas mensagens eletrônicas profissionais.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo transforma um hábito popular em regra oficial, o que o Manual expressamente rejeita."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Errado. \"Atenciosamente\" é o fecho padrão; \"Att.\" e \"Abraços\" não são fechos oficiais e não devem ser usados em e-mails profissionais."
+    }
+   ]
+  },
+  {
+   "id": "redof32",
+   "type": "ce",
+   "topic": "Assunto do e-mail",
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 6.4",
+   "c": "Em Porto Velho (RO), o servidor Henrique marca reunião com outro órgão por e-mail e pensa em escrever só \"Reunião\" no campo de assunto.",
+   "q": "O Manual recomenda que o assunto do e-mail seja o mais claro e específico possível, como \"Agendamento de reunião sobre o contrato de vigilância\".",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Certo. O Manual pede assunto claro e específico e dá como exemplo trocar \"Reunião\" por uma descrição do que será tratado."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado supõe uma restrição que o Manual não faz: a recomendação de assunto claro e específico vale para o correio eletrônico."
+    }
+   ]
+  },
+  {
+   "id": "redof33",
+   "type": "ce",
+   "topic": "Ofício de encaminhamento",
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.6",
+   "c": "Em Maceió (AL), uma coordenação do Iphan só precisa remeter o relatório de vistoria pedido por outro órgão, sem fazer comentários sobre ele.",
+   "q": "Nesse caso, o ofício começa com referência ao expediente que solicitou a remessa e não tem parágrafos de desenvolvimento.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Certo. No expediente de encaminhamento, a introdução faz referência ao pedido; sem comentários sobre o documento, não há parágrafos de desenvolvimento."
+    },
+    {
+     "t": "Errado",
+     "p": "generalizacao",
+     "w": "Julgar errado aplica a todo documento a estrutura completa de introdução, desenvolvimento e conclusão, o que o Manual dispensa no mero encaminhamento."
+    }
+   ]
+  },
+  {
+   "id": "redof34",
+   "type": "ce",
+   "topic": "Expressões a evitar",
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.6",
+   "c": "Em Campinas (SP), um servidor de um órgão federal abre todos os ofícios com \"Tenho a honra de comunicar a Vossa Senhoria que\".",
+   "q": "O Manual recomenda essa abertura, por demonstrar a cortesia que se espera da comunicação oficial.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "inversao",
+     "w": "Julgar certo inverte a orientação: o Manual lista essa fórmula entre as que devem ser evitadas."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Errado. O Manual pede que se evitem \"Tenho a honra de\", \"Tenho o prazer de\" e \"Cumpre-me informar que\", preferindo a forma direta, como \"Comunico\"."
+    }
+   ]
+  },
+  {
+   "id": "redof35",
+   "type": "ce",
+   "topic": "Siglas",
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), cap. I, 'Clareza e precisão'; item 10.6",
+   "c": "Em Palmas (TO), um relatório da superintendência do Dnit cita pela primeira vez o Departamento Nacional de Infraestrutura de Transportes.",
+   "q": "Conforme o Manual, convém explicitar o significado da sigla na primeira referência a ela, e o uso de siglas deve restringir-se às formas existentes e consagradas.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Certo. O Manual manda explicitar a sigla na primeira referência e restringir o uso às formas existentes e consagradas."
+    },
+    {
+     "t": "Errado",
+     "p": "extrapolacao",
+     "w": "Julgar errado vai além do Manual, como se ele proibisse siglas. Ele só pede uso não indiscriminado e explicação na primeira menção."
+    }
+   ]
+  },
+  {
+   "id": "redof36",
+   "type": "ce",
+   "topic": "Abreviatura de Excelência",
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.1",
+   "c": "No gabinete de um ministério, em Brasília, um assessor redige ofício ao Presidente da República e quer economizar espaço no corpo do texto.",
+   "q": "No corpo do texto dirigido ao Presidente da República, o tratamento Vossa Excelência pode ser abreviado como V. Exa., como ocorre com os ministros de Estado.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo estende ao Presidente a abreviatura que a tabela admite para outras autoridades."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Errado. Na tabela do Manual, o tratamento do Presidente da República e dos demais Chefes de Poder não é abreviado; V. Exa. aparece para as demais autoridades."
+    }
+   ]
+  },
+  {
+   "id": "redof37",
+   "type": "ce",
+   "topic": "Identificação do signatário",
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.8",
+   "c": "Em Brasília, a Coordenadora-Geral de Orçamento de um ministério assina ofício a outro órgão.",
+   "q": "Abaixo da assinatura, o nome da signatária deve vir em letras maiúsculas e em negrito, seguido do cargo.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo confunde a regra do signatário com a do assunto, que é que vai em negrito."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Errado. O nome vai em letras maiúsculas, mas sem negrito, com o cargo abaixo e a identificação centralizada."
+    }
+   ]
+  },
+  {
+   "id": "redof38",
+   "type": "ce",
+   "topic": "Numeração das páginas",
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.9",
+   "c": "Em Rio Branco (AC), um ofício do Ibama ficou com três páginas, e a servidora pergunta se a primeira também precisa ser numerada.",
+   "q": "Pelo Manual, a numeração das páginas é obrigatória apenas a partir da segunda página da comunicação.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Certo. O Manual torna a numeração obrigatória só a partir da segunda página, centralizada no rodapé."
+    },
+    {
+     "t": "Errado",
+     "p": "generalizacao",
+     "w": "Julgar errado supõe que toda página deva ser numerada, inclusive a primeira, o que o Manual não exige."
+    }
+   ]
+  },
+  {
+   "id": "redof39",
+   "type": "ce",
+   "topic": "Cabeçalho",
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.1",
+   "c": "Em Brasília, o Ministério do Meio Ambiente atualiza o modelo de ofício de uma de suas secretarias.",
+   "q": "O cabeçalho, com o Brasão de Armas da República e o nome do órgão do maior para o menor nível hierárquico, aparece centralizado e apenas na primeira página.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Certo. O cabeçalho fica só na primeira página, centralizado, com o Brasão e os nomes dos órgãos do maior para o menor nível hierárquico."
+    },
+    {
+     "t": "Errado",
+     "p": "inversao",
+     "w": "Julgar errado inverte a ordem do cabeçalho com a da identificação do expediente, em que as siglas vão da menor para a maior hierarquia."
+    }
+   ]
+  },
+  {
+   "id": "redof40",
+   "type": "ce",
+   "topic": "Sigla da UF",
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 5.1.3",
+   "c": "Em Natal (RN), um servidor da Polícia Federal fecha um ofício com a linha \"Natal/RN, 3 de março de 2026.\".",
+   "q": "A linha de local e data está correta, pois o Manual manda indicar a sigla da unidade da federação depois do nome da cidade.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo confunde local e data com o endereçamento, em que a UF aparece no endereço do destinatário."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Errado. No local e data, não se usa a sigla da unidade da federação depois da cidade: \"Natal, 3 de março de 2026.\"."
+    }
+   ]
+  }
+ ]
+}

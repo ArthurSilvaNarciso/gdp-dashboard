@@ -1,0 +1,557 @@
+{
+  "id": "eca",
+  "title": "ECA — Criança e Adolescente",
+  "subtitle": "Proteção integral, Conselho Tutelar e medidas",
+  "tag": "Concursos",
+  "blurb": "Família substituta, viagens, Conselho Tutelar, ato infracional e medidas socioeducativas em casos práticos, com o artigo do ECA na redação vigente.",
+  "questions": [
+    {
+      "id": "eca1",
+      "topic": "Criança ou adolescente",
+      "c": "Em Recife (PE), Davi completou 12 anos numa segunda-feira e, na quarta, foi flagrado pichando o muro de uma escola estadual. A mãe sustenta que ele ainda deveria ser tratado como criança.",
+      "q": "Como o ECA classifica Davi na data do fato?",
+      "a": 0,
+      "src": "ECA (Lei 8.069/1990), art. 2º",
+      "o": [
+        { "t": "Adolescente, porque o ECA considera criança a pessoa até 12 anos incompletos e adolescente a que tem entre 12 e 18 anos.", "p": "correta", "w": "Art. 2º do ECA: criança é a pessoa até doze anos de idade incompletos; adolescente, aquela entre doze e dezoito anos. Com 12 anos completos, Davi já é adolescente." },
+        { "t": "Criança, porque a adolescência só começa aos 13 anos, quando os 12 anos ficam completos.", "p": "calculo", "w": "Erro de contagem: 12 anos incompletos significa antes do 12º aniversário. No dia em que completa 12 anos, a pessoa já é adolescente." },
+        { "t": "Adolescente, mas apenas se laudo psicossocial atestar maturidade compatível com a idade.", "p": "restricao", "w": "O ECA adota critério puramente etário. Não há exigência de laudo para enquadrar alguém como criança ou adolescente." },
+        { "t": "Criança, pois o ECA segue a Convenção da ONU, que considera criança todo ser humano com menos de 18 anos.", "p": "troca", "w": "A Convenção sobre os Direitos da Criança usa esse conceito amplo, mas o ECA tem definição própria e distingue criança (até 12 incompletos) de adolescente (12 a 18)." }
+      ]
+    },
+    {
+      "id": "eca2",
+      "topic": "Idade no fato",
+      "c": "Em Manaus (AM), Kauã praticou um roubo com faca três semanas antes de completar 18 anos. Quando a representação do Ministério Público chegou ao juiz, ele já tinha 18 anos e 2 meses.",
+      "q": "Como deve ser tratado o caso?",
+      "a": 1,
+      "src": "ECA, arts. 2º, parágrafo único, e 104, parágrafo único",
+      "o": [
+        { "t": "Deve ser remetido à vara criminal, pois a idade relevante é a que o acusado tem na data da sentença.", "p": "troca", "w": "Troca o marco temporal. Para os efeitos do ECA, considera-se a idade do adolescente à data do fato (art. 104, parágrafo único)." },
+        { "t": "Segue no ECA, porque, para os efeitos da lei, considera-se a idade do adolescente na data do fato.", "p": "correta", "w": "Art. 104, parágrafo único: deve ser considerada a idade do adolescente à data do fato. Kauã tinha 17 anos ao praticar o roubo, então responde por ato infracional." },
+        { "t": "Deve ser arquivado, pois o ECA nunca se aplica a quem já completou 18 anos.", "p": "generalizacao", "w": "O art. 2º, parágrafo único, admite, nos casos expressos em lei, a aplicação excepcional do ECA a pessoas entre 18 e 21 anos, como na execução de medida socioeducativa." },
+        { "t": "Segue no ECA, mas apenas se o jovem concordar com a aplicação de medida socioeducativa.", "p": "restricao", "w": "A incidência do ECA não depende de concordância do jovem; decorre da idade na data do fato." }
+      ]
+    },
+    {
+      "id": "eca3",
+      "topic": "Prioridade absoluta",
+      "c": "Na UPA de Campina Grande (PB), chegam ao mesmo tempo um homem de 40 anos e uma menina de 9 anos, com quadros clínicos de mesma gravidade e sem risco imediato de morte. A enfermeira pergunta qual regra do ECA orienta a ordem de atendimento.",
+      "q": "O que a garantia de prioridade do ECA compreende nesse cenário?",
+      "a": 2,
+      "src": "ECA, art. 4º, caput e §1º, 'b' (antigo parágrafo único, renumerado pela Lei 15.240/2025); CF/88, art. 227",
+      "o": [
+        { "t": "Apenas a preferência na formulação de políticas sociais, sem efeito sobre o atendimento individual nos serviços públicos.", "p": "restricao", "w": "A preferência nas políticas sociais é só uma das alíneas. A garantia também compreende a precedência de atendimento nos serviços públicos (art. 4º, §1º, 'b')." },
+        { "t": "A destinação privilegiada de recursos, que obriga cada UPA a manter médico exclusivo para crianças.", "p": "extrapolacao", "w": "A destinação privilegiada de recursos (alínea 'd') é diretriz orçamentária das políticas públicas; não cria, por si, a obrigação de médico exclusivo em cada unidade." },
+        { "t": "A precedência de atendimento nos serviços públicos ou de relevância pública, uma das garantias da prioridade absoluta.", "p": "correta", "w": "Art. 4º, §1º, do ECA: a garantia de prioridade compreende, entre outras, a precedência de atendimento nos serviços públicos ou de relevância pública (alínea 'b')." },
+        { "t": "Nenhuma preferência, pois a prioridade absoluta obriga só a família e a comunidade, cabendo ao poder público apenas fiscalizar.", "p": "troca", "w": "O art. 4º, caput, impõe o dever à família, à comunidade, à sociedade em geral e ao poder público. O Estado também deve assegurar os direitos com absoluta prioridade." }
+      ]
+    },
+    {
+      "id": "eca4",
+      "topic": "Família extensa",
+      "c": "Em Joinville (SC), após a morte da mãe, Sofia, de 7 anos, passou a morar com a tia materna, com quem já convivia e tem forte vínculo afetivo. A assistente social precisa classificar esse núcleo no relatório.",
+      "q": "Como o ECA classifica a família formada por Sofia e a tia?",
+      "a": 3,
+      "src": "ECA, art. 25, caput e parágrafo único",
+      "o": [
+        { "t": "Família natural, porque a tia é parente consanguínea da criança.", "p": "troca", "w": "Família natural é a comunidade formada pelos pais ou qualquer deles e seus descendentes (art. 25, caput). Tios ficam fora desse núcleo." },
+        { "t": "Família substituta, pois toda convivência fora da casa dos pais caracteriza colocação em família substituta.", "p": "generalizacao", "w": "Família substituta é forma excepcional de colocação, por guarda, tutela ou adoção, mediante decisão judicial (art. 28). Morar com parentes não basta." },
+        { "t": "Família extensa, mas só depois que a tia obtiver a tutela judicial da sobrinha.", "p": "restricao", "w": "O conceito de família extensa não depende de decisão judicial; basta o parentesco próximo com convivência e vínculos de afinidade e afetividade." },
+        { "t": "Família extensa ou ampliada: parentes próximos com quem a criança convive e mantém vínculos de afinidade e afetividade.", "p": "correta", "w": "Art. 25, parágrafo único: família extensa ou ampliada é a que vai além da unidade pais e filhos, formada por parentes próximos com quem a criança convive e mantém vínculos de afinidade e afetividade." }
+      ]
+    },
+    {
+      "id": "eca5",
+      "topic": "Consentimento do adolescente",
+      "c": "Em Uberlândia (MG), o juiz da Infância analisa pedido de guarda de Lucas, de 13 anos, formulado pelo padrinho com quem ele vive desde a morte dos pais.",
+      "q": "Quanto à vontade de Lucas, o que exige o ECA?",
+      "a": 0,
+      "src": "ECA, art. 28, §§1º e 2º",
+      "o": [
+        { "t": "Por ter mais de 12 anos, seu consentimento é necessário e deve ser colhido em audiência.", "p": "correta", "w": "Art. 28, §2º: tratando-se de maior de 12 anos de idade, será necessário seu consentimento, colhido em audiência. A regra vale para qualquer modalidade de família substituta." },
+        { "t": "Só a partir dos 16 anos o consentimento é exigido; aos 13, basta ouvi-lo se possível.", "p": "troca", "w": "Troca a idade-limite. O consentimento é exigido do maior de 12 anos; abaixo disso, a criança é ouvida sempre que possível (§1º)." },
+        { "t": "O consentimento é necessário, mas só vale se apresentado por escrito, com firma reconhecida em cartório.", "p": "restricao", "w": "A lei exige que o consentimento seja colhido em audiência, perante o juiz, e não por documento com firma reconhecida." },
+        { "t": "Nenhuma oitiva é necessária, pois em pedidos de família substituta a decisão cabe sempre aos adultos envolvidos.", "p": "generalizacao", "w": "O ECA manda ouvir a criança ou o adolescente sempre que possível e exige o consentimento do maior de 12 anos (art. 28, §§1º e 2º)." }
+      ]
+    },
+    {
+      "id": "eca6",
+      "topic": "Diferença de idade",
+      "c": "Em Teresina (PI), Marta, de 31 anos, solteira, cria há dois anos o adolescente Ícaro, de 16 anos, e quer adotá-lo.",
+      "q": "Pela regra do ECA, Marta pode adotar Ícaro?",
+      "a": 1,
+      "src": "ECA, art. 42, caput e §3º",
+      "o": [
+        { "t": "Não, porque a adoção por pessoa solteira é vedada.", "p": "restricao", "w": "Podem adotar os maiores de 18 anos, independentemente do estado civil (art. 42, caput). Ser solteira não impede a adoção." },
+        { "t": "Não, porque o adotante deve ser pelo menos 16 anos mais velho que o adotando, e a diferença aqui é de 15 anos.", "p": "correta", "w": "Art. 42, §3º: o adotante há de ser, pelo menos, dezesseis anos mais velho do que o adotando. 31 − 16 = 15 anos de diferença, abaixo do mínimo legal. O STJ já flexibilizou o requisito em casos excepcionais, mas a regra legal é essa." },
+        { "t": "Sim, porque a diferença de idade entre os dois é de 16 anos, exatamente o mínimo exigido.", "p": "calculo", "w": "Erro de conta: 31 − 16 = 15. A diferença fica um ano abaixo do mínimo de 16 anos." },
+        { "t": "Sim, porque basta ao adotante ser maior de 18 anos, sem outra exigência ligada à idade.", "p": "generalizacao", "w": "Além da maioridade (caput), o §3º exige diferença mínima de 16 anos entre adotante e adotando." }
+      ]
+    },
+    {
+      "id": "eca7",
+      "topic": "Quem não pode adotar",
+      "c": "Em Petrolina (PE), os pais de Heitor, de 4 anos, foram destituídos do poder familiar. A avó paterna, que cuida dele, e um casal de tios maternos querem adotá-lo.",
+      "q": "Pela letra do ECA, assinale a alternativa correta.",
+      "a": 2,
+      "src": "ECA, art. 42, §1º",
+      "o": [
+        { "t": "Os tios não podem adotar, mas a avó pode, por ser ascendente e integrante da família extensa.", "p": "inversao", "w": "Inverte a regra: a vedação atinge justamente os ascendentes e os irmãos do adotando (art. 42, §1º). Tios não estão impedidos." },
+        { "t": "Nenhum parente pode adotar, pois a adoção é reservada a pessoas sem vínculo com a criança.", "p": "generalizacao", "w": "A lei só impede ascendentes e irmãos. Outros parentes, como tios, podem adotar." },
+        { "t": "A avó não pode adotar, pois ascendentes e irmãos do adotando são impedidos; os tios podem.", "p": "correta", "w": "Art. 42, §1º: não podem adotar os ascendentes e os irmãos do adotando. A avó pode receber guarda ou tutela, mas não adotar o neto. O STJ já admitiu a adoção avoenga em situação excepcionalíssima, mas a regra legal é a vedação." },
+        { "t": "Os tios só podem adotar se a avó renunciar antes ao direito de preferência da família extensa.", "p": "restricao", "w": "Não há essa condição. Como a avó nem pode adotar, não existe preferência dela a ser renunciada para fins de adoção." }
+      ]
+    },
+    {
+      "id": "eca8",
+      "topic": "Adoção irrevogável",
+      "c": "Em Caxias do Sul (RS), três anos depois de concluída a adoção de Valentina, os pais biológicos, recuperados da dependência química, pedem ao juiz para reaver a filha e desfazer a adoção.",
+      "q": "Qual a resposta correta à luz do ECA?",
+      "a": 3,
+      "src": "ECA, arts. 39, §1º, 41 e 49",
+      "o": [
+        { "t": "O pedido é viável se os pais provarem que superaram a causa da destituição e o Ministério Público concordar.", "p": "restricao", "w": "Nenhuma condição torna a adoção desfazível: ela é irrevogável (art. 39, §1º)." },
+        { "t": "A adoção pode ser desfeita, pois a recuperação dos pais biológicos restabelece o poder familiar.", "p": "extrapolacao", "w": "A adoção desliga o adotado dos vínculos com pais e parentes (art. 41). Nem a morte dos adotantes restabelece o poder familiar dos pais naturais (art. 49)." },
+        { "t": "A adoção é revogável a qualquer tempo, porque toda medida protetiva pode ser substituída pelo juiz.", "p": "troca", "w": "A substituição a qualquer tempo vale para as medidas de proteção (art. 99), não para a adoção, que é irrevogável." },
+        { "t": "A adoção é medida excepcional e irrevogável; o vínculo com os pais biológicos foi desligado e não se restabelece.", "p": "correta", "w": "Art. 39, §1º: a adoção é medida excepcional e irrevogável. O art. 41 desliga o adotado de qualquer vínculo com pais e parentes, salvo os impedimentos matrimoniais." }
+      ]
+    },
+    {
+      "id": "eca9",
+      "topic": "Tutela",
+      "c": "Em Belém (PA), Ana, de 15 anos, perdeu os pais num acidente. O tio, que quer cuidar dela e administrar a pensão que ela recebe, pede a tutela.",
+      "q": "Assinale a alternativa correta sobre a tutela no ECA.",
+      "a": 0,
+      "src": "ECA, art. 36, caput e parágrafo único",
+      "o": [
+        { "t": "É deferida, nos termos da lei civil, a pessoa de até 18 anos incompletos e implica necessariamente o dever de guarda.", "p": "correta", "w": "Art. 36: a tutela será deferida, nos termos da lei civil, a pessoa de até 18 anos incompletos; o parágrafo único diz que ela implica necessariamente o dever de guarda." },
+        { "t": "Só pode ser deferida a crianças, isto é, até 12 anos incompletos; para Ana, cabe apenas guarda.", "p": "troca", "w": "Troca o limite de idade. A tutela alcança pessoas de até 18 anos incompletos, o que inclui adolescentes." },
+        { "t": "Exige que o tio seja ao menos 16 anos mais velho que Ana, como na adoção.", "p": "restricao", "w": "A diferença mínima de 16 anos é requisito da adoção (art. 42, §3º), não da tutela." },
+        { "t": "Faz de Ana filha do tio, com desligamento dos vínculos com a família de origem.", "p": "extrapolacao", "w": "Atribuir a condição de filho e desligar vínculos de origem são efeitos da adoção (art. 41). A tutela confere representação e guarda, sem criar filiação." }
+      ]
+    },
+    {
+      "id": "eca10",
+      "topic": "Guarda",
+      "c": "Em Maceió (AL), a avó de Pietra, de 10 anos, obteve judicialmente a guarda da neta. Meses depois, o pai, que mora em outro estado e não visitava a filha, aparece e tenta levá-la consigo sem decisão judicial.",
+      "q": "O que o ECA assegura à avó?",
+      "a": 1,
+      "src": "ECA, arts. 33, caput, e 35",
+      "o": [
+        { "t": "Nada: a guarda nunca pode ser oposta aos pais, que sempre prevalecem sobre terceiros.", "p": "generalizacao", "w": "O art. 33 diz o contrário: a guarda confere ao detentor o direito de opor-se a terceiros, inclusive aos pais." },
+        { "t": "O direito de opor-se a terceiros, inclusive aos pais, pois a guarda obriga à assistência material, moral e educacional.", "p": "correta", "w": "Art. 33, caput: a guarda obriga a assistência material, moral e educacional e confere ao detentor o direito de opor-se a terceiros, inclusive aos pais. Só ato judicial fundamentado a revoga (art. 35)." },
+        { "t": "A extinção definitiva do poder familiar do pai, efeito automático de toda guarda judicial.", "p": "extrapolacao", "w": "A guarda não extingue o poder familiar; perda ou suspensão dependem de procedimento próprio. A guarda é revogável (art. 35)." },
+        { "t": "O direito de se opor ao pai somente depois que a guarda for convertida em adoção.", "p": "restricao", "w": "O direito de oposição, inclusive aos pais, decorre da própria guarda (art. 33), sem depender de adoção." }
+      ]
+    },
+    {
+      "id": "eca11",
+      "topic": "Prazos do acolhimento",
+      "c": "Em Aracaju (SE), os irmãos Enzo e Lara foram acolhidos institucionalmente em fevereiro, após denúncia de negligência. A equipe do serviço quer saber os prazos legais que regem o caso.",
+      "q": "Pelo ECA, como se controla a duração do acolhimento?",
+      "a": 2,
+      "src": "ECA, art. 19, §§1º e 2º (redação da Lei 13.509/2017)",
+      "o": [
+        { "t": "A situação é reavaliada a cada 6 meses, e a permanência não pode passar de 3 anos.", "p": "troca", "w": "Esses são os prazos da internação socioeducativa (art. 121, §§2º e 3º). O acolhimento tem prazos próprios e mais curtos." },
+        { "t": "A situação é reavaliada a cada 18 meses, e a permanência não pode passar de 3 meses.", "p": "inversao", "w": "Inverte os números: a reavaliação é no máximo a cada 3 meses, e a permanência não deve passar de 18 meses." },
+        { "t": "Reavaliação no máximo a cada 3 meses e permanência de até 18 meses, salvo necessidade comprovada e fundamentada pelo juiz.", "p": "correta", "w": "Art. 19, §1º: reavaliação no máximo a cada 3 meses. §2º: a permanência em acolhimento institucional não se prolongará por mais de 18 meses, salvo comprovada necessidade fundamentada pela autoridade judiciária." },
+        { "t": "Não há prazo, porque o acolhimento dura sempre até a criança completar 18 anos.", "p": "generalizacao", "w": "O acolhimento é provisório e excepcional (art. 101, §1º), com reavaliação periódica e limite de permanência no art. 19." }
+      ]
+    },
+    {
+      "id": "eca12",
+      "topic": "Hipóteses de proteção",
+      "c": "Em Palmas (TO), o Conselho Tutelar atende três casos na mesma semana: uma criança sem vaga na creche municipal, um adolescente abandonado pelos pais e uma adolescente que passou a faltar às aulas por conta própria.",
+      "q": "Em quais casos cabem medidas de proteção?",
+      "a": 3,
+      "src": "ECA, art. 98",
+      "o": [
+        { "t": "Só no caso do adolescente abandonado, pois a medida exige falta, omissão ou abuso dos pais.", "p": "restricao", "w": "A conduta dos pais é só uma das hipóteses (art. 98, II). Também cabem medidas por omissão do Estado (I) e pela conduta da própria criança ou adolescente (III)." },
+        { "t": "Só na falta de vaga na creche, já que a conduta da própria adolescente gera medida socioeducativa.", "p": "troca", "w": "Faltar às aulas não é ato infracional. A conduta da própria adolescente que ameaça seus direitos é hipótese de medida de proteção (art. 98, III)." },
+        { "t": "Nos três casos, e em todos o Conselho deve afastar a criança ou o adolescente do convívio familiar.", "p": "extrapolacao", "w": "Medida de proteção não significa afastamento da família. O afastamento é excepcional e de competência exclusiva do juiz (art. 101, §2º)." },
+        { "t": "Nos três, pois há direitos ameaçados ou violados por omissão do Estado, omissão dos pais e conduta da própria adolescente.", "p": "correta", "w": "Art. 98: as medidas de proteção cabem quando os direitos forem ameaçados ou violados por ação ou omissão da sociedade ou do Estado (I), por falta, omissão ou abuso dos pais (II) ou em razão da própria conduta (III)." }
+      ]
+    },
+    {
+      "id": "eca13",
+      "topic": "Afastamento do convívio familiar",
+      "c": "Em Cuiabá (MT), o Conselho Tutelar acompanha há meses a família de Bianca, de 6 anos, e conclui que, apesar das medidas de apoio já aplicadas, ela deveria ser afastada da mãe e encaminhada a acolhimento. Não há situação de emergência.",
+      "q": "Como o Conselho Tutelar deve proceder?",
+      "a": 0,
+      "src": "ECA, arts. 101, §§1º e 2º, e 136, parágrafo único",
+      "o": [
+        { "t": "Comunicar incontinenti o fato ao Ministério Público, pois o afastamento do convívio familiar é de competência exclusiva do juiz.", "p": "correta", "w": "Art. 136, parágrafo único: se entender necessário o afastamento, o Conselho comunicará incontinenti o fato ao MP. O art. 101, §2º, reserva o afastamento à autoridade judiciária, em procedimento contencioso." },
+        { "t": "Determinar ele mesmo o afastamento e o acolhimento definitivo, por ser órgão autônomo que dispensa controle judicial.", "p": "extrapolacao", "w": "Autonomia não dá ao Conselho poder de afastar a criança da família fora de emergência. Além disso, o acolhimento é provisório, nunca definitivo (art. 101, §1º)." },
+        { "t": "Aguardar que a mãe cometa crime contra a filha, condição legal para qualquer afastamento.", "p": "restricao", "w": "A lei não exige crime. O afastamento pode ser decidido pelo juiz diante de violação de direitos que o justifique." },
+        { "t": "Encaminhar Bianca diretamente para adoção, por ser medida mais estável que o acolhimento.", "p": "troca", "w": "Adoção é medida excepcional, cabível só após esgotados os recursos de manutenção na família natural ou extensa (art. 39, §1º), e depende de decisão judicial." }
+      ]
+    },
+    {
+      "id": "eca14",
+      "topic": "Ato infracional de criança",
+      "c": "Em Florianópolis (SC), Miguel, de 10 anos, quebrou de propósito a vidraça de uma loja. O dono da loja quer que ele receba a medida socioeducativa de reparação do dano.",
+      "q": "Qual é a resposta do ECA para o caso?",
+      "a": 1,
+      "src": "ECA, arts. 105 e 136, I",
+      "o": [
+        { "t": "Cabe reparação do dano, medida socioeducativa aplicável a qualquer pessoa com menos de 18 anos.", "p": "generalizacao", "w": "Medidas socioeducativas são aplicáveis a adolescentes (art. 112). À criança correspondem só as medidas de proteção (art. 105)." },
+        { "t": "À criança que pratica ato infracional correspondem apenas as medidas de proteção do art. 101, aplicadas pelo Conselho Tutelar.", "p": "correta", "w": "Art. 105: ao ato infracional praticado por criança corresponderão as medidas do art. 101. O Conselho Tutelar atende esses casos e aplica as medidas do art. 101, I a VII (art. 136, I)." },
+        { "t": "Cabe medida socioeducativa, desde que os pais concordem e se comprometam a acompanhar o cumprimento.", "p": "restricao", "w": "A concordância dos pais não muda a regra: criança não recebe medida socioeducativa, qualquer que seja a vontade da família." },
+        { "t": "O fato deve ser apurado na delegacia como crime de dano, e os pais respondem penalmente no lugar do filho.", "p": "troca", "w": "Não há responsabilidade penal por fato de terceiro. A conduta da criança é ato infracional, tratado com medidas de proteção." }
+      ]
+    },
+    {
+      "id": "eca15",
+      "topic": "Viagem nacional",
+      "c": "Em Ribeirão Preto (SP), Júlia, de 15 anos, quer ir sozinha de ônibus visitar uma amiga em Belo Horizonte (MG), comarca que não é contígua nem fica na mesma região metropolitana. Os pais concordam só verbalmente.",
+      "q": "Segundo o ECA, a viagem pode ocorrer como planejada?",
+      "a": 2,
+      "src": "ECA, art. 83 (redação da Lei 13.812/2019)",
+      "o": [
+        { "t": "Sim, porque a autorização judicial só é exigida para crianças, isto é, menores de 12 anos.", "p": "troca", "w": "Era a regra antes da Lei 13.812/2019. Hoje o art. 83 alcança toda criança ou adolescente menor de 16 anos." },
+        { "t": "Sim, desde que ela leve a certidão de nascimento e viaje durante o dia.", "p": "restricao", "w": "O ECA não prevê dispensa por documento de identificação ou horário. Para menor de 16 anos desacompanhado, a regra do art. 83 continua valendo." },
+        { "t": "Não: menor de 16 anos não pode viajar para fora da comarca desacompanhado dos pais ou responsáveis sem expressa autorização judicial.", "p": "correta", "w": "Art. 83, caput (Lei 13.812/2019): nenhuma criança ou adolescente menor de 16 anos poderá viajar para fora da comarca onde reside desacompanhado dos pais ou dos responsáveis sem expressa autorização judicial." },
+        { "t": "Não, porque nenhum adolescente pode viajar sem os pais pelo território nacional, qualquer que seja a idade.", "p": "generalizacao", "w": "A exigência do art. 83 vale só para menores de 16 anos. O adolescente de 16 ou 17 anos não depende de autorização judicial para viajar no país." }
+      ]
+    },
+    {
+      "id": "eca16",
+      "topic": "Viagem com parente",
+      "c": "Em Feira de Santana (BA), Arthur, de 11 anos, vai passar as férias em Fortaleza (CE) com o tio materno, de 35 anos, que levará documentos que comprovam o parentesco.",
+      "q": "É necessária autorização judicial para a viagem?",
+      "a": 3,
+      "src": "ECA, art. 83, §1º, 'b', 1",
+      "o": [
+        { "t": "Sim, porque a dispensa vale só para viagens com ascendentes, como os avós.", "p": "restricao", "w": "A dispensa abrange ascendente ou colateral maior até o terceiro grau. O tio é colateral de terceiro grau." },
+        { "t": "Sim, porque a dispensa só existe na viagem com ambos os pais, regra que vale para o exterior.", "p": "troca", "w": "Confunde a viagem nacional (art. 83) com a internacional (art. 84). No país, a companhia de parente até o terceiro grau já dispensa a autorização." },
+        { "t": "Não, pois qualquer adulto pode acompanhar criança em viagem nacional, mesmo sem autorização dos pais.", "p": "generalizacao", "w": "Fora dos parentes previstos, só a pessoa maior expressamente autorizada pelo pai, mãe ou responsável dispensa a autorização judicial (art. 83, §1º, 'b', 2)." },
+        { "t": "Não: a autorização é dispensada quando a criança viaja com colateral maior até o terceiro grau, com parentesco comprovado por documento.", "p": "correta", "w": "Art. 83, §1º, 'b', 1: a autorização não é exigida quando a criança ou o adolescente menor de 16 anos estiver acompanhado de ascendente ou colateral maior, até o terceiro grau, comprovado documentalmente o parentesco." }
+      ]
+    },
+    {
+      "id": "eca17",
+      "topic": "Viagem ao exterior",
+      "c": "Em São Luís (MA), Helena, de 13 anos, vai a Lisboa só com a mãe. O pai, que mora em outra cidade, concorda com a viagem.",
+      "q": "Para dispensar a autorização judicial, o que o ECA exige?",
+      "a": 0,
+      "src": "ECA, art. 84, II",
+      "o": [
+        { "t": "Que o pai autorize expressamente a viagem por documento com firma reconhecida.", "p": "correta", "w": "Art. 84, II: a autorização judicial é dispensável se a criança ou o adolescente viajar na companhia de um dos pais, autorizado expressamente pelo outro por documento com firma reconhecida." },
+        { "t": "Nada, pois a viagem com um dos pais sempre dispensa qualquer formalidade.", "p": "generalizacao", "w": "Viajando com só um dos pais, a dispensa depende da autorização expressa do outro, com firma reconhecida (art. 84, II)." },
+        { "t": "Que a mãe obtenha autorização do Conselho Tutelar, que substitui o juiz nessas viagens.", "p": "troca", "w": "O Conselho Tutelar não autoriza viagens. O ECA fala em autorização judicial ou nas hipóteses de dispensa do art. 84." },
+        { "t": "Que o pai autorize por escritura pública e que a viagem não dure mais de 90 dias.", "p": "restricao", "w": "O art. 84 exige documento com firma reconhecida e não fixa limite de duração da viagem." }
+      ]
+    },
+    {
+      "id": "eca18",
+      "topic": "Saída com estrangeiro",
+      "c": "Em Foz do Iguaçu (PR), Rafael, de 8 anos, nascido no Brasil, vai viajar a Assunção com a madrinha, paraguaia que mora no Paraguai. Os pais assinaram autorização com firma reconhecida.",
+      "q": "A viagem pode ocorrer só com a autorização dos pais?",
+      "a": 1,
+      "src": "ECA, art. 85",
+      "o": [
+        { "t": "Sim, pois a autorização dos pais com firma reconhecida sempre dispensa o juiz.", "p": "generalizacao", "w": "Há exceção expressa: a saída do país com estrangeiro residente ou domiciliado no exterior depende de prévia e expressa autorização judicial (art. 85)." },
+        { "t": "Não: criança nascida no Brasil só sai do país com estrangeiro residente no exterior com prévia e expressa autorização judicial.", "p": "correta", "w": "Art. 85: sem prévia e expressa autorização judicial, nenhuma criança ou adolescente nascido em território nacional poderá sair do país em companhia de estrangeiro residente ou domiciliado no exterior." },
+        { "t": "Sim, desde que o destino seja país do Mercosul e a viagem dure menos de 30 dias.", "p": "restricao", "w": "O ECA não abre exceção por destino nem por duração. A regra do art. 85 vale para qualquer país." },
+        { "t": "Não, porque o ECA proíbe em qualquer hipótese a saída de criança do país com estrangeiro.", "p": "extrapolacao", "w": "Não há proibição absoluta: a viagem é possível com prévia e expressa autorização judicial." }
+      ]
+    },
+    {
+      "id": "eca19",
+      "topic": "Conceito de ato infracional",
+      "c": "Em Juiz de Fora (MG), Bruno, de 16 anos, foi visto praticando vias de fato contra um colega na saída da escola, empurrando-o sem causar lesão.",
+      "q": "A conduta de Bruno configura ato infracional?",
+      "a": 2,
+      "src": "ECA, art. 103; Decreto-Lei 3.688/1941 (LCP), art. 21",
+      "o": [
+        { "t": "Não, pois só é ato infracional a conduta descrita como crime, e vias de fato é contravenção.", "p": "restricao", "w": "O art. 103 inclui expressamente a contravenção penal no conceito de ato infracional." },
+        { "t": "Não, porque briga escolar é infração disciplinar, punida apenas pelo regimento da escola.", "p": "troca", "w": "O local do fato não muda sua natureza. Se a conduta está descrita como contravenção, é ato infracional, sem prejuízo de sanção escolar." },
+        { "t": "Sim: ato infracional é a conduta descrita como crime ou contravenção penal, e vias de fato é contravenção (LCP, art. 21).", "p": "correta", "w": "Art. 103 do ECA: considera-se ato infracional a conduta descrita como crime ou contravenção penal. Vias de fato está no art. 21 da Lei das Contravenções Penais." },
+        { "t": "Sim, porque toda conduta reprovável de adolescente é ato infracional, mesmo sem previsão na lei penal.", "p": "generalizacao", "w": "Só é ato infracional a conduta descrita como crime ou contravenção. Conduta reprovável sem previsão penal não é ato infracional." }
+      ]
+    },
+    {
+      "id": "eca20",
+      "topic": "Apreensão de adolescente",
+      "c": "Em Santarém (PA), policiais militares apreenderam em flagrante Yasmin, de 17 anos, por furto numa loja. Levada à delegacia, ela pediu que avisassem a avó, com quem mora.",
+      "q": "O que o ECA determina sobre a comunicação da apreensão?",
+      "a": 3,
+      "src": "ECA, arts. 106 e 107",
+      "o": [
+        { "t": "Deve ser comunicada ao juiz em até 24 horas, e à família apenas se a adolescente for liberada.", "p": "troca", "w": "O ECA exige comunicação incontinenti, isto é, imediata, ao juiz e à família ou pessoa indicada, sem depender da liberação." },
+        { "t": "Não precisa ser comunicada, pois o flagrante dispensa qualquer controle judicial imediato.", "p": "generalizacao", "w": "Mesmo no flagrante, a apreensão e o local de recolhimento devem ser comunicados imediatamente ao juiz (art. 107)." },
+        { "t": "Deve ser comunicada só aos pais, e não à avó, porque apenas eles detêm o poder familiar.", "p": "restricao", "w": "O art. 107 manda comunicar a família do apreendido ou a pessoa por ele indicada, o que inclui a avó." },
+        { "t": "A apreensão e o local de recolhimento devem ser comunicados incontinenti ao juiz competente e à família ou à pessoa indicada.", "p": "correta", "w": "Art. 107: a apreensão de qualquer adolescente e o local onde se encontra recolhido serão incontinenti comunicados à autoridade judiciária competente e à família do apreendido ou à pessoa por ele indicada." }
+      ]
+    },
+    {
+      "id": "eca21",
+      "topic": "Internação provisória",
+      "c": "Em Vitória da Conquista (BA), o juiz decretou, em decisão fundamentada, a internação provisória de Igor, de 16 anos, acusado de latrocínio. Passados 50 dias, o procedimento ainda não terminou.",
+      "q": "Qual é a regra aplicável?",
+      "a": 0,
+      "src": "ECA, arts. 108 e 183",
+      "o": [
+        { "t": "A internação antes da sentença tem prazo máximo de 45 dias, que já foi ultrapassado.", "p": "correta", "w": "Art. 108: a internação antes da sentença pode ser determinada pelo prazo máximo de 45 dias. O art. 183 fixa o mesmo prazo para concluir o procedimento com o adolescente internado provisoriamente." },
+        { "t": "O prazo máximo é de 3 anos, o mesmo da internação definitiva, e ainda não terminou.", "p": "troca", "w": "Três anos é o teto da internação aplicada por sentença (art. 121, §3º). A provisória tem limite de 45 dias." },
+        { "t": "O prazo de 45 dias pode ser prorrogado sempre que o ato for equiparado a crime hediondo.", "p": "restricao", "w": "O ECA não prevê prorrogação por gravidade do ato. O prazo de 45 dias é máximo." },
+        { "t": "Não há prazo, pois a internação provisória dura enquanto houver necessidade imperiosa.", "p": "generalizacao", "w": "A necessidade imperiosa é requisito para decretar a medida (art. 108, parágrafo único), não autorização para mantê-la sem limite." }
+      ]
+    },
+    {
+      "id": "eca22",
+      "topic": "Prestação de serviços",
+      "c": "Em Blumenau (SC), o juiz aplicou a Thiago, de 15 anos, prestação de serviços à comunidade por ter danificado placas de trânsito. Ele estuda pela manhã e é aprendiz à tarde.",
+      "q": "Como a medida deve ser cumprida?",
+      "a": 1,
+      "src": "ECA, art. 117",
+      "o": [
+        { "t": "Por no mínimo 6 meses, com jornada livre fixada pela entidade, como na liberdade assistida.", "p": "troca", "w": "Prazo mínimo de 6 meses é regra da liberdade assistida (art. 118, §2º). A prestação de serviços tem prazo máximo de 6 meses e jornada limitada." },
+        { "t": "Por até 6 meses, em jornada máxima de 8 horas semanais, sem prejudicar a escola nem o trabalho.", "p": "correta", "w": "Art. 117: tarefas gratuitas de interesse geral, por período não excedente a seis meses, em jornada máxima de oito horas semanais, sem prejuízo da frequência à escola ou à jornada normal de trabalho." },
+        { "t": "Por até 6 meses, em 8 horas diárias aos sábados e domingos, somando 16 horas semanais.", "p": "calculo", "w": "Erro de procedimento: o limite de 8 horas é semanal, não diário. Somar 16 horas por semana dobra o máximo legal." },
+        { "t": "Em qualquer tarefa indicada pela prefeitura, ainda que sem relação com as aptidões do adolescente.", "p": "generalizacao", "w": "O parágrafo único do art. 117 manda atribuir as tarefas conforme as aptidões do adolescente." }
+      ]
+    },
+    {
+      "id": "eca23",
+      "topic": "Liberdade assistida",
+      "c": "Em Mossoró (RN), o juiz aplicou liberdade assistida a Gabriel, de 17 anos, e fixou a medida em 3 meses. O Ministério Público recorreu.",
+      "q": "Assinale a alternativa correta sobre a liberdade assistida.",
+      "a": 2,
+      "src": "ECA, art. 118, §§1º e 2º",
+      "o": [
+        { "t": "A fixação está correta, pois a liberdade assistida tem prazo máximo de 6 meses, como a prestação de serviços.", "p": "troca", "w": "Confunde as medidas: 6 meses é o teto da prestação de serviços (art. 117). Na liberdade assistida, 6 meses é o prazo mínimo." },
+        { "t": "A medida só pode ser aplicada depois que o adolescente cumprir uma advertência.", "p": "restricao", "w": "Não há essa ordem obrigatória. A liberdade assistida é adotada sempre que for a medida mais adequada (art. 118)." },
+        { "t": "É fixada pelo prazo mínimo de 6 meses e pode ser prorrogada, revogada ou substituída, ouvidos orientador, MP e defensor.", "p": "correta", "w": "Art. 118, §2º: a liberdade assistida será fixada pelo prazo mínimo de seis meses, podendo a qualquer tempo ser prorrogada, revogada ou substituída, ouvidos o orientador, o Ministério Público e o defensor." },
+        { "t": "Não tem prazo e dura, em qualquer caso, até o adolescente completar 21 anos.", "p": "generalizacao", "w": "A lei fixa prazo mínimo de 6 meses e permite revogação ou substituição a qualquer tempo; não há duração obrigatória até os 21 anos." }
+      ]
+    },
+    {
+      "id": "eca24",
+      "topic": "Hipóteses de internação",
+      "c": "Em Rio Branco (AC), Vinícius, de 16 anos, sem nenhum outro registro, furtou um celular de uma mochila, sem violência ou ameaça. O promotor pede internação por considerar o fato grave para a comunidade.",
+      "q": "O pedido de internação pode ser acolhido?",
+      "a": 3,
+      "src": "ECA, art. 122, I a III e §2º",
+      "o": [
+        { "t": "Sim, desde que o juiz fundamente a decisão na gravidade concreta do furto.", "p": "restricao", "w": "Fundamentação não supre a falta de hipótese legal. A internação só cabe nos casos taxativos do art. 122." },
+        { "t": "Sim, porque a internação pode ser aplicada a qualquer ato infracional, a critério do juiz.", "p": "generalizacao", "w": "A internação só poderá ser aplicada nas hipóteses do art. 122, e nunca se houver outra medida adequada (§2º)." },
+        { "t": "Sim, porque um único furto já configura reiteração no cometimento de infrações graves.", "p": "troca", "w": "Reiteração (art. 122, II) pressupõe outras infrações graves anteriores. Vinícius não tem registro anterior." },
+        { "t": "Não: sem violência ou grave ameaça, reiteração em infrações graves ou descumprimento reiterado de medida, a internação não cabe.", "p": "correta", "w": "Art. 122: a internação só se aplica por ato com grave ameaça ou violência a pessoa (I), reiteração em infrações graves (II) ou descumprimento reiterado e injustificável de medida anterior (III)." }
+      ]
+    },
+    {
+      "id": "eca25",
+      "topic": "Internação por descumprimento",
+      "c": "Em Porto Velho (RO), Luan, de 16 anos, deixou de comparecer, repetidamente e sem justificativa, às atividades da liberdade assistida que recebeu. O juiz, após ouvi-lo, decide aplicar internação.",
+      "q": "Qual é o limite dessa internação?",
+      "a": 0,
+      "src": "ECA, art. 122, III e §1º (redação da Lei 12.594/2012)",
+      "o": [
+        { "t": "No máximo 3 meses, decretada judicialmente após o devido processo legal.", "p": "correta", "w": "Art. 122, §1º: na hipótese de descumprimento reiterado e injustificável de medida anterior (inciso III), o prazo de internação não poderá ser superior a 3 meses, decretada judicialmente após o devido processo legal." },
+        { "t": "No máximo 3 anos, como qualquer internação, com reavaliação a cada 6 meses.", "p": "troca", "w": "Três anos é o teto da internação aplicada por sentença (art. 121, §3º). A internação por descumprimento tem limite próprio de 3 meses." },
+        { "t": "Até os 21 anos, pois o descumprimento converte a liberdade assistida em internação por prazo indeterminado.", "p": "extrapolacao", "w": "O descumprimento não converte a medida em internação sem prazo; a lei limita essa internação a 3 meses." },
+        { "t": "No máximo 3 meses, mas só se o adolescente tiver cometido novo ato infracional durante a liberdade assistida.", "p": "restricao", "w": "O inciso III exige descumprimento reiterado e injustificável da medida anterior, não a prática de novo ato infracional." }
+      ]
+    },
+    {
+      "id": "eca26",
+      "topic": "Liberação compulsória",
+      "c": "Em Macapá (AP), Diego praticou roubo com arma de fogo aos 17 anos e 4 meses. Por demora no processo, a internação só começou quando ele tinha 18 anos e 9 meses.",
+      "q": "Qual é o tempo máximo que Diego pode permanecer internado?",
+      "a": 1,
+      "src": "ECA, arts. 104, parágrafo único, e 121, §§3º e 5º",
+      "o": [
+        { "t": "3 anos, até completar 21 anos e 9 meses, pois o teto conta do início da internação.", "p": "calculo", "w": "Ignora o segundo limite: a liberação é compulsória aos 21 anos (art. 121, §5º), que chega antes do fim dos 3 anos." },
+        { "t": "2 anos e 3 meses: a internação não passa de 3 anos, mas a liberação é compulsória aos 21 anos.", "p": "correta", "w": "Art. 121, §3º: máximo de 3 anos; §5º: liberação compulsória aos 21 anos. De 18 anos e 9 meses até 21 anos são 2 anos e 3 meses." },
+        { "t": "Nenhum: como já tinha 18 anos ao iniciar a medida, ele deve ser liberado de imediato.", "p": "troca", "w": "Vale a idade na data do fato (art. 104, parágrafo único). O ECA se aplica excepcionalmente até os 21 anos (art. 2º, parágrafo único)." },
+        { "t": "A liberação é compulsória aos 18 anos, e só a reavaliação semestral pode estender a medida até os 21.", "p": "inversao", "w": "A idade de liberação compulsória é 21 anos, não 18. A reavaliação semestral (art. 121, §2º) serve para encerrar ou manter a medida, não para estendê-la além da lei." }
+      ]
+    },
+    {
+      "id": "eca27",
+      "topic": "Remissão",
+      "c": "Em Natal (RN), já iniciado o procedimento por um pequeno furto, o juiz concedeu remissão a Clara, de 14 anos, cumulada com prestação de serviços à comunidade. Os pais temem que o caso conste como antecedente.",
+      "q": "Assinale a alternativa correta sobre a remissão.",
+      "a": 2,
+      "src": "ECA, arts. 126 e 127",
+      "o": [
+        { "t": "A remissão implica reconhecimento da responsabilidade e passa a valer como antecedente.", "p": "inversao", "w": "Inverte o art. 127: a remissão não implica necessariamente reconhecimento ou comprovação da responsabilidade, nem prevalece para efeito de antecedentes." },
+        { "t": "A remissão pode incluir qualquer medida socioeducativa, inclusive a internação.", "p": "generalizacao", "w": "O art. 127 exclui expressamente a semiliberdade e a internação das medidas que podem acompanhar a remissão." },
+        { "t": "Não implica necessariamente reconhecimento de responsabilidade, não vale como antecedente e não inclui semiliberdade nem internação.", "p": "correta", "w": "Art. 127: a remissão não implica necessariamente o reconhecimento ou a comprovação da responsabilidade, não prevalece para antecedentes e pode incluir medidas, exceto semiliberdade e internação." },
+        { "t": "Concedida pelo juiz, a remissão é forma de exclusão do processo, e não de suspensão ou extinção.", "p": "troca", "w": "A exclusão do processo é a remissão do MP antes do procedimento (art. 126, caput). Concedida pelo juiz, ela importa suspensão ou extinção do processo (parágrafo único)." }
+      ]
+    },
+    {
+      "id": "eca28",
+      "topic": "Composição do Conselho Tutelar",
+      "c": "Em Sobral (CE), a Câmara Municipal discute projeto para reorganizar o Conselho Tutelar: um vereador propõe 3 membros com mandato de 2 anos; outro, proibir qualquer recondução.",
+      "q": "O que determina a redação vigente do ECA?",
+      "a": 3,
+      "src": "ECA, art. 132 (redação da Lei 13.824/2019)",
+      "o": [
+        { "t": "Ao menos 1 Conselho por município, com 5 membros e mandato de 3 anos, permitida uma única recondução.", "p": "troca", "w": "Mistura regras revogadas. Hoje o mandato é de 4 anos (Lei 12.696/2012), e a Lei 13.824/2019 trocou a recondução única pela recondução por novos processos de escolha." },
+        { "t": "O número de membros e o mandato são livres, pois cabe a cada município legislar sobre o Conselho.", "p": "generalizacao", "w": "A lei municipal trata de funcionamento e remuneração (art. 134), mas a composição de 5 membros e o mandato de 4 anos vêm do ECA." },
+        { "t": "5 membros com mandato de 4 anos, permitida a recondução desde que o conselheiro tenha curso superior.", "p": "restricao", "w": "O ECA não condiciona a recondução a escolaridade; os requisitos legais de candidatura estão no art. 133." },
+        { "t": "Ao menos 1 Conselho por município, com 5 membros escolhidos pela população, mandato de 4 anos e recondução por novos processos de escolha.", "p": "correta", "w": "Art. 132: em cada município haverá, no mínimo, 1 Conselho Tutelar, composto de 5 membros escolhidos pela população local para mandato de 4 anos, permitida recondução por novos processos de escolha." }
+      ]
+    },
+    {
+      "id": "eca29",
+      "type": "ce",
+      "topic": "Revisão das decisões",
+      "src": "ECA, arts. 131 e 137",
+      "c": "Em Dourados (MS), o Conselho Tutelar aplicou aos pais de Marina a medida de encaminhamento a programa de orientação. Inconformado, o pai pediu ao prefeito que anulasse a decisão.",
+      "q": "As decisões do Conselho Tutelar só podem ser revistas pela autoridade judiciária, a pedido de quem tenha legítimo interesse, e não pelo prefeito.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 137: as decisões do Conselho Tutelar somente poderão ser revistas pela autoridade judiciária a pedido de quem tenha legítimo interesse. O Conselho é órgão autônomo (art. 131)." },
+        { "t": "Errado", "p": "troca", "w": "Julgar errado supõe que, por integrar a administração local, o Conselho estaria subordinado ao prefeito. A autonomia do art. 131 afasta essa revisão hierárquica." }
+      ]
+    },
+    {
+      "id": "eca30",
+      "type": "ce",
+      "topic": "Natureza do Conselho",
+      "src": "ECA, arts. 131 e 136, VI",
+      "c": "Em Montes Claros (MG), uma conselheira tutelar foi chamada a atender adolescente apreendido após um roubo. Ela propôs aplicar ela mesma a semiliberdade, por entender o caso urgente.",
+      "q": "Por ser órgão jurisdicional e autônomo, o Conselho Tutelar pode aplicar medidas socioeducativas a adolescente autor de ato infracional.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo confunde o Conselho com a Justiça da Infância. Aplicar medida socioeducativa é tarefa do juiz, após o devido processo legal." },
+        { "t": "Errado", "p": "correta", "w": "O Conselho é órgão permanente e autônomo, não jurisdicional (art. 131). Para adolescente autor de ato infracional, cabe a ele providenciar a medida fixada pelo juiz entre as do art. 101, I a VI (art. 136, VI)." }
+      ]
+    },
+    {
+      "id": "eca31",
+      "type": "ce",
+      "topic": "Requisitos do conselheiro",
+      "src": "ECA, art. 133",
+      "c": "Em Chapecó (SC), Renan, de 19 anos, morador da cidade e de reconhecida idoneidade moral, quer se candidatar a conselheiro tutelar.",
+      "q": "Renan preenche os requisitos do ECA, que exige do candidato idoneidade moral, idade superior a 18 anos e residência no município.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo aceita a troca da idade mínima: o ECA não usa a maioridade civil como critério para a candidatura." },
+        { "t": "Errado", "p": "correta", "w": "Art. 133: exigem-se reconhecida idoneidade moral, idade superior a 21 anos e residência no município. Com 19 anos, Renan ainda não pode concorrer." }
+      ]
+    },
+    {
+      "id": "eca32",
+      "type": "ce",
+      "topic": "Comunicação de maus-tratos",
+      "src": "ECA, art. 13",
+      "c": "Em Imperatriz (MA), a pediatra de uma unidade básica de saúde notou marcas compatíveis com agressão em uma criança de 5 anos, mas a mãe negou qualquer violência.",
+      "q": "Mesmo havendo apenas suspeita, o caso deve ser obrigatoriamente comunicado ao Conselho Tutelar da localidade, sem prejuízo de outras providências legais.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 13: os casos de suspeita ou confirmação de castigo físico, tratamento cruel ou degradante e maus-tratos serão obrigatoriamente comunicados ao Conselho Tutelar da respectiva localidade." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado exigiria confirmação da violência antes de comunicar. A lei manda comunicar já na suspeita." }
+      ]
+    },
+    {
+      "id": "eca33",
+      "type": "ce",
+      "topic": "Omissão do professor",
+      "src": "ECA, art. 245",
+      "c": "Em Parnaíba (PI), um professor do ensino fundamental soube, pelo relato de um aluno de 9 anos, de suspeita de maus-tratos em casa e preferiu não comunicar ninguém.",
+      "q": "A omissão do professor configura crime previsto no ECA, punido com detenção, por deixar de comunicar à autoridade competente a suspeita de maus-tratos.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo troca infração administrativa por crime. O ECA trata essa omissão no capítulo das infrações administrativas, com multa." },
+        { "t": "Errado", "p": "correta", "w": "Art. 245: é infração administrativa o professor ou responsável por estabelecimento de ensino fundamental deixar de comunicar suspeita ou confirmação de maus-tratos; pena de multa de 3 a 20 salários de referência, dobrada na reincidência. O crime de deixar de comunicar à autoridade pública a prática de violência contra criança está fora do ECA (Lei 14.344/2022, art. 26)." }
+      ]
+    },
+    {
+      "id": "eca34",
+      "type": "ce",
+      "topic": "Ação penal nos crimes",
+      "src": "ECA, arts. 227 e 243",
+      "c": "Em Arapiraca (AL), um comerciante foi flagrado vendendo cerveja a dois adolescentes de 15 anos. Os pais dos jovens dizem que não querem processar ninguém.",
+      "q": "Os crimes definidos no ECA, como o de vender bebida alcoólica a adolescente, são de ação pública incondicionada, de modo que a vontade dos pais não impede a atuação do Ministério Público.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 227: os crimes definidos no ECA são de ação pública incondicionada. Vender bebida alcoólica a criança ou adolescente é crime do art. 243." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado condiciona a ação à vontade da família, como se exigisse representação. O art. 227 dispensa essa condição." }
+      ]
+    },
+    {
+      "id": "eca35",
+      "type": "ce",
+      "topic": "Corrupção de menores",
+      "src": "ECA, art. 244-B (incluído pela Lei 12.015/2009); STJ, Súmula 500",
+      "c": "Em Campo Grande (MS), Júlio, de 25 anos, chamou o vizinho Mateus, de 16 anos, para juntos furtarem uma motocicleta, o que fizeram na mesma noite.",
+      "q": "Além do furto, Júlio responde pelo crime de corrupção de menores previsto no ECA, por ter praticado infração penal com adolescente.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 244-B: corromper ou facilitar a corrupção de menor de 18 anos, com ele praticando infração penal ou induzindo-o a praticá-la; pena de reclusão de 1 a 4 anos. A Súmula 500 do STJ dispensa prova da efetiva corrupção." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado exigiria prova de que o adolescente era antes 'inocente' ou ficou efetivamente corrompido, condição que a lei e a Súmula 500 do STJ não exigem." }
+      ]
+    },
+    {
+      "id": "eca36",
+      "type": "ce",
+      "topic": "Lei 9.099 afastada",
+      "src": "ECA, art. 226, §1º (incluído pela Lei 14.344/2022, Lei Henry Borel)",
+      "c": "Em Pelotas (RS), um homem foi denunciado por crime com pena máxima de 1 ano praticado contra uma criança de 8 anos. A defesa pede transação penal.",
+      "q": "Como a pena máxima não passa de 2 anos, o caso admite transação penal e os demais institutos da Lei 9.099/1995.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "generalizacao", "w": "Julgar certo aplica a regra geral do menor potencial ofensivo, ignorando a exceção criada para crimes contra criança e adolescente." },
+        { "t": "Errado", "p": "correta", "w": "Art. 226, §1º, do ECA (Lei 14.344/2022): aos crimes cometidos contra a criança e o adolescente, independentemente da pena prevista, não se aplica a Lei 9.099/1995." }
+      ]
+    },
+    {
+      "id": "eca37",
+      "type": "ce",
+      "topic": "Competências no SINASE",
+      "src": "Lei 12.594/2012 (SINASE), arts. 4º, III, e 5º, III",
+      "c": "Em Anápolis (GO), o secretário municipal de assistência social afirma que a prefeitura precisa construir uma unidade de internação, porque todas as medidas socioeducativas seriam municipais.",
+      "q": "Pela Lei do SINASE, cabe aos Municípios criar e manter os programas de internação e de semiliberdade, ficando os Estados com as medidas em meio aberto.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "inversao", "w": "Julgar certo aceita a inversão das competências entre Estados e Municípios." },
+        { "t": "Errado", "p": "correta", "w": "Lei 12.594/2012: compete aos Estados criar, desenvolver e manter programas de semiliberdade e internação (art. 4º, III) e aos Municípios criar e manter programas de meio aberto (art. 5º, III)." }
+      ]
+    },
+    {
+      "id": "eca38",
+      "type": "ce",
+      "topic": "Plano Individual de Atendimento",
+      "src": "Lei 12.594/2012 (SINASE), arts. 52, 53, 55 e 56",
+      "c": "Em Boa Vista (RR), Pedro, de 17 anos, ingressou numa unidade de internação. A equipe técnica começou a montar o Plano Individual de Atendimento com ele e com a mãe.",
+      "q": "Nas medidas de semiliberdade e internação, o PIA deve ser elaborado em até 45 dias do ingresso do adolescente no programa, com participação efetiva dele e da família.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 55 da Lei 12.594/2012: na semiliberdade e na internação, o PIA será elaborado no prazo de até 45 dias do ingresso. O art. 53 exige participação efetiva do adolescente e da família." },
+        { "t": "Errado", "p": "troca", "w": "Julgar errado confunde com o prazo de até 15 dias, que vale para prestação de serviços à comunidade e liberdade assistida (art. 56)." }
+      ]
+    },
+    {
+      "id": "eca39",
+      "type": "ce",
+      "topic": "Castigo físico",
+      "src": "ECA, arts. 18-A e 18-B (incluídos pela Lei 13.010/2014)",
+      "c": "Em Niterói (RJ), um pai bateu com um cinto no filho de 10 anos para 'corrigir' as notas baixas. Questionado pela escola, disse que a lei só proíbe agressões graves.",
+      "q": "O ECA admite castigo físico moderado aplicado pelos pais com finalidade educativa, vedando apenas o tratamento cruel ou degradante.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "restricao", "w": "Julgar certo restringe a proibição aos casos graves. A lei veda o castigo físico ao lado do tratamento cruel ou degradante." },
+        { "t": "Errado", "p": "correta", "w": "Art. 18-A: a criança e o adolescente têm direito de ser educados sem castigo físico ou tratamento cruel ou degradante, como forma de correção ou disciplina, inclusive pelos pais. O art. 18-B prevê medidas para quem o utiliza." }
+      ]
+    },
+    {
+      "id": "eca40",
+      "type": "ce",
+      "topic": "Conselhos de direitos",
+      "src": "ECA, art. 88, II",
+      "c": "Em Vitória (ES), o Conselho Municipal dos Direitos da Criança e do Adolescente aprovou diretrizes para a política municipal de atendimento. Um secretário alega que o conselho é apenas consultivo.",
+      "q": "Os conselhos dos direitos da criança e do adolescente são órgãos deliberativos e controladores das ações em todos os níveis, com participação popular paritária por meio de organizações representativas.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 88, II: é diretriz da política de atendimento a criação de conselhos municipais, estaduais e nacional dos direitos, órgãos deliberativos e controladores das ações em todos os níveis, com participação popular paritária." },
+        { "t": "Errado", "p": "troca", "w": "Julgar errado trata o conselho de direitos como órgão meramente consultivo ou o confunde com o Conselho Tutelar, que atende casos individuais." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1101 @@
+{
+  "id": "cont",
+  "title": "Contabilidade Pública e Geral",
+  "subtitle": "Patrimônio, lançamentos, PCASP e MCASP",
+  "tag": "Concursos",
+  "blurb": "Partidas dobradas, PCASP, regimes orçamentário e patrimonial, balanços da Lei 4.320, depreciação e dívida ativa em casos de prova, com contas resolvidas.",
+  "questions": [
+    {
+      "id": "cont1",
+      "topic": "Equação patrimonial",
+      "c": "A Papelaria Ipê, de Uberlândia (MG), levantou em 31 de dezembro: caixa de R$ 15.000, estoques de R$ 40.000, duplicatas a receber de R$ 25.000, veículo de R$ 70.000, fornecedores a pagar de R$ 35.000 e empréstimo bancário de R$ 50.000.",
+      "q": "Qual é o patrimônio líquido da papelaria?",
+      "a": 2,
+      "src": "CPC 00 (R2), cap. 4 (ativo, passivo e patrimônio líquido)",
+      "o": [
+        {
+          "t": "R$ 150.000, pois o patrimônio líquido corresponde ao total de bens e direitos.",
+          "p": "troca",
+          "w": "Confunde ativo com patrimônio líquido. O PL é o que sobra do ativo depois de deduzidas as obrigações com terceiros."
+        },
+        {
+          "t": "R$ 235.000, soma de todos os saldos levantados.",
+          "p": "calculo",
+          "w": "Somar obrigações a bens e direitos é erro de procedimento: o passivo se subtrai do ativo, não se soma."
+        },
+        {
+          "t": "R$ 65.000: ativo de R$ 150.000 menos passivo exigível de R$ 85.000.",
+          "p": "correta",
+          "w": "Ativo = 15.000 + 40.000 + 25.000 + 70.000 = 150.000; passivo = 35.000 + 50.000 = 85.000. Pela equação patrimonial, PL = A − P = 65.000."
+        },
+        {
+          "t": "R$ 40.000, pois duplicatas a receber só entram no ativo depois de recebidas.",
+          "p": "restricao",
+          "w": "Direitos a receber já são ativo, ainda que não tenham virado dinheiro. Excluí-los (125.000 − 85.000) gera 40.000, valor errado."
+        }
+      ]
+    },
+    {
+      "id": "cont2",
+      "topic": "Passivo a descoberto",
+      "c": "A Transportadora Borborema, de Campina Grande (PB), acumulou prejuízos e hoje tem ativo total de R$ 80.000 e obrigações com terceiros de R$ 110.000.",
+      "q": "Como se descreve a situação patrimonial da empresa?",
+      "a": 0,
+      "src": "CPC 00 (R2), cap. 4; José Carlos Marion, Contabilidade Básica (situações patrimoniais)",
+      "o": [
+        {
+          "t": "Patrimônio líquido negativo de R$ 30.000, situação conhecida como passivo a descoberto.",
+          "p": "correta",
+          "w": "PL = A − P = 80.000 − 110.000 = −30.000. Quando as obrigações superam o ativo, o PL é negativo e diz-se que há passivo a descoberto."
+        },
+        {
+          "t": "Patrimônio líquido positivo de R$ 30.000, já que o passivo supera o ativo.",
+          "p": "inversao",
+          "w": "Inverte a equação: se o passivo é maior que o ativo, a diferença é negativa, não positiva."
+        },
+        {
+          "t": "Patrimônio líquido nulo, pois ativo e passivo se anulam e não há riqueza própria.",
+          "p": "troca",
+          "w": "PL nulo ocorre quando o ativo é igual ao passivo. Aqui o passivo é R$ 30.000 maior, o que torna o PL negativo."
+        },
+        {
+          "t": "Não há patrimônio líquido, porque a equação patrimonial exige sempre ativo maior que passivo.",
+          "p": "generalizacao",
+          "w": "A equação A = P + PL vale em qualquer situação; o PL pode ser positivo, nulo ou negativo."
+        }
+      ]
+    },
+    {
+      "id": "cont3",
+      "topic": "Débito e crédito",
+      "c": "O Hospital São Lucas, de Ribeirão Preto (SP), contratou empréstimo de R$ 200.000, creditado no mesmo dia na conta-corrente da entidade, para pagar em 24 parcelas.",
+      "q": "Qual é o lançamento contábil na data do crédito?",
+      "a": 1,
+      "src": "José Carlos Marion, Contabilidade Básica (mecanismo de débito e crédito)",
+      "o": [
+        {
+          "t": "Débito em Empréstimos a Pagar e crédito em Bancos conta Movimento, de R$ 200.000.",
+          "p": "inversao",
+          "w": "Inverte a natureza das contas: assim se registraria o pagamento do empréstimo, que reduz o banco e a dívida."
+        },
+        {
+          "t": "Débito em Bancos conta Movimento e crédito em Empréstimos a Pagar, ambos de R$ 200.000.",
+          "p": "correta",
+          "w": "Aumento de ativo se registra a débito e aumento de passivo, a crédito. O dinheiro entra em Bancos (ativo) e nasce a dívida (passivo), em valores iguais."
+        },
+        {
+          "t": "Débito em Bancos conta Movimento e crédito em Capital Social, de R$ 200.000.",
+          "p": "troca",
+          "w": "Capital social é recurso dos sócios (PL). Dinheiro de banco que deve ser devolvido é obrigação com terceiros, isto é, passivo."
+        },
+        {
+          "t": "Nenhum lançamento agora; o empréstimo só é registrado quando a primeira parcela for paga.",
+          "p": "restricao",
+          "w": "O fato contábil já ocorreu: a entidade recebeu o dinheiro e assumiu a dívida. Condicionar o registro ao pagamento acrescenta uma exigência que não existe."
+        }
+      ]
+    },
+    {
+      "id": "cont4",
+      "topic": "Partidas dobradas",
+      "c": "A Distribuidora Sergipana, de Aracaju (SE), comprou mercadorias para revenda por R$ 30.000: pagou R$ 10.000 em dinheiro e o restante ficou para 60 dias.",
+      "q": "Qual lançamento registra a compra?",
+      "a": 3,
+      "src": "Luca Pacioli, Summa de Arithmetica (1494); José Carlos Marion, Contabilidade Básica",
+      "o": [
+        {
+          "t": "Débito em Caixa, R$ 10.000, e em Fornecedores, R$ 20.000; crédito em Estoques, R$ 30.000.",
+          "p": "inversao",
+          "w": "Inverte todos os lados: esse lançamento reduziria o estoque e aumentaria o caixa, o oposto do que ocorreu."
+        },
+        {
+          "t": "Débito em Estoques e crédito em Caixa, de R$ 10.000; a parte a prazo só é registrada no pagamento.",
+          "p": "restricao",
+          "w": "A compra a prazo já gera a obrigação com o fornecedor e a entrada da mercadoria. Deixar R$ 20.000 fora do registro acrescenta uma condição que não existe."
+        },
+        {
+          "t": "Débito em Custo das Mercadorias Vendidas, R$ 30.000; créditos em Caixa e em Fornecedores.",
+          "p": "troca",
+          "w": "Mercadoria comprada para revenda é estoque (ativo). Só vira CMV quando é vendida."
+        },
+        {
+          "t": "Débito em Estoques, R$ 30.000; créditos em Caixa, R$ 10.000, e em Fornecedores, R$ 20.000.",
+          "p": "correta",
+          "w": "Pelo método das partidas dobradas, a soma dos débitos é igual à dos créditos: o estoque entra pelo total, saem R$ 10.000 do caixa e nasce dívida de R$ 20.000."
+        }
+      ]
+    },
+    {
+      "id": "cont5",
+      "topic": "Fato permutativo",
+      "c": "A Ferragem Gaúcha, de Porto Alegre (RS), pagou por transferência bancária uma duplicata de R$ 12.000 ao fornecedor, no vencimento e sem juros.",
+      "q": "Como se classifica esse fato contábil?",
+      "a": 1,
+      "src": "José Carlos Marion, Contabilidade Básica (fatos contábeis)",
+      "o": [
+        {
+          "t": "Modificativo diminutivo, porque sai dinheiro da empresa.",
+          "p": "troca",
+          "w": "Saída de dinheiro não é o mesmo que despesa. Como a dívida diminui no mesmo valor, o PL fica intacto."
+        },
+        {
+          "t": "Permutativo: ativo (bancos) e passivo (fornecedores) diminuem no mesmo valor, sem alterar o patrimônio líquido.",
+          "p": "correta",
+          "w": "Fato permutativo troca elementos patrimoniais sem mudar o PL. Saem R$ 12.000 do banco e some uma dívida de igual valor."
+        },
+        {
+          "t": "Misto, pois todo pagamento altera ao mesmo tempo ativo, passivo e patrimônio líquido.",
+          "p": "generalizacao",
+          "w": "Só é misto o pagamento com juros ou com desconto. Pagamento pelo valor exato da dívida não afeta o PL."
+        },
+        {
+          "t": "Modificativo aumentativo, já que a redução da dívida representa ganho para a empresa.",
+          "p": "extrapolacao",
+          "w": "Quitar dívida não gera ganho: o ativo cai na mesma medida. Ganho só haveria com desconto obtido."
+        }
+      ]
+    },
+    {
+      "id": "cont6",
+      "topic": "Fato modificativo",
+      "c": "A Escola de Idiomas Ilha, de Florianópolis (SC), recebeu em dinheiro R$ 8.000 de mensalidades referentes às aulas dadas no próprio mês.",
+      "q": "Como se classifica esse fato contábil?",
+      "a": 2,
+      "src": "José Carlos Marion, Contabilidade Básica (fatos contábeis)",
+      "o": [
+        {
+          "t": "Permutativo, porque apenas entra dinheiro no caixa da escola.",
+          "p": "troca",
+          "w": "Seria permutativo se a entrada fosse compensada por outro ativo ou por um passivo. Aqui a contrapartida é receita, que aumenta o PL."
+        },
+        {
+          "t": "Modificativo diminutivo, porque a escola gastou recursos para dar as aulas.",
+          "p": "inversao",
+          "w": "Os gastos com as aulas são outros fatos (despesas). O recebimento de receita aumenta, e não diminui, o PL."
+        },
+        {
+          "t": "Modificativo aumentativo: entra caixa com contrapartida em receita de serviços, o que aumenta o patrimônio líquido.",
+          "p": "correta",
+          "w": "O serviço já foi prestado, então há receita. Débito em Caixa e crédito em Receita de Serviços: o ativo cresce sem aumento do passivo, e o PL sobe."
+        },
+        {
+          "t": "Misto, pois qualquer fato que movimente o caixa altera também o patrimônio líquido.",
+          "p": "generalizacao",
+          "w": "Muitos fatos que movimentam o caixa são permutativos, como compras à vista. Misto é o fato que combina permuta e modificação, como pagamento de dívida com juros."
+        }
+      ]
+    },
+    {
+      "id": "cont7",
+      "topic": "Fato misto",
+      "c": "Uma loja de móveis de Natal (RN) pagou com atraso uma duplicata de R$ 10.000, acrescida de R$ 500 de juros, por transferência bancária de R$ 10.500.",
+      "q": "Como se classifica esse fato contábil?",
+      "a": 0,
+      "src": "José Carlos Marion, Contabilidade Básica (fatos contábeis)",
+      "o": [
+        {
+          "t": "Misto diminutivo: a dívida de R$ 10.000 é quitada (permuta) e os juros de R$ 500 reduzem o patrimônio líquido.",
+          "p": "correta",
+          "w": "Débito em Fornecedores (10.000) e em Despesa de Juros (500); crédito em Bancos (10.500). Há permuta e despesa no mesmo fato, o que o torna misto diminutivo."
+        },
+        {
+          "t": "Permutativo, porque se trata apenas de pagamento de dívida.",
+          "p": "troca",
+          "w": "Seria permutativo se fosse pago só o principal. Os juros são despesa e reduzem o PL."
+        },
+        {
+          "t": "Misto aumentativo, pois a dívida com o fornecedor desaparece.",
+          "p": "inversao",
+          "w": "Inverte o efeito: os juros pagos são despesa, que diminui o PL. Misto aumentativo seria, por exemplo, pagar com desconto obtido."
+        },
+        {
+          "t": "Modificativo diminutivo de R$ 10.500, pois todo o valor pago reduz o patrimônio líquido.",
+          "p": "calculo",
+          "w": "Só os R$ 500 de juros afetam o PL. Os R$ 10.000 liquidam uma dívida já registrada, sem efeito no resultado."
+        }
+      ]
+    },
+    {
+      "id": "cont8",
+      "topic": "Competência e caixa",
+      "c": "Em dezembro, uma clínica veterinária de Maringá (PR) prestou R$ 30.000 em serviços (recebeu R$ 10.000 no mês e R$ 20.000 em janeiro) e recebeu R$ 5.000 por serviços de novembro. Pagou R$ 12.000 de salários de dezembro e deixou o aluguel de dezembro, de R$ 4.000, para pagar em janeiro.",
+      "q": "Qual é o resultado de dezembro pelo regime de competência?",
+      "a": 3,
+      "src": "Lei 6.404/76, arts. 177 e 187, §1º; CPC 00 (R2), cap. 1",
+      "o": [
+        {
+          "t": "Lucro de R$ 3.000: entradas de R$ 15.000 menos saídas de R$ 12.000 em dezembro.",
+          "p": "troca",
+          "w": "Esse é o resultado pelo regime de caixa (10.000 + 5.000 − 12.000). A competência ignora a data do recebimento ou do pagamento."
+        },
+        {
+          "t": "Lucro de R$ 18.000, pois o aluguel ainda não pago não entra no resultado de dezembro.",
+          "p": "restricao",
+          "w": "Despesa incorrida no mês entra no resultado do mês, paga ou não. Excluir o aluguel acrescenta uma condição (o pagamento) que a competência não exige."
+        },
+        {
+          "t": "Lucro de R$ 19.000: R$ 35.000 de serviços menos R$ 16.000 de despesas.",
+          "p": "calculo",
+          "w": "Erra ao somar os R$ 5.000 recebidos em dezembro, que são receita de novembro, já reconhecida naquele mês."
+        },
+        {
+          "t": "Lucro de R$ 14.000: receitas de R$ 30.000 menos despesas de R$ 16.000 (salários e aluguel de dezembro).",
+          "p": "correta",
+          "w": "Na competência, conta-se o que foi ganho e consumido no mês, recebido ou pago ou não: 30.000 − 12.000 − 4.000 = 14.000. Os R$ 5.000 recebidos pertencem a novembro."
+        }
+      ]
+    },
+    {
+      "id": "cont9",
+      "topic": "Balancete de verificação",
+      "c": "Ao fechar o mês, a contadora de uma cooperativa de Belo Horizonte (MG) levantou o balancete: o total dos saldos devedores bateu com o dos credores. Depois, descobriu que uma compra de cadeiras fora debitada em Veículos, e não em Móveis e Utensílios.",
+      "q": "Assinale a afirmação correta sobre o balancete.",
+      "a": 0,
+      "src": "José Carlos Marion, Contabilidade Básica (balancete de verificação); Lei 6.404/76, art. 176",
+      "o": [
+        {
+          "t": "Ele confere a igualdade entre débitos e créditos, mas não revela lançamento de valor certo feito na conta errada.",
+          "p": "correta",
+          "w": "O balancete testa o método das partidas dobradas. Se o débito foi para a conta errada com o valor certo, os totais continuam iguais e o erro passa."
+        },
+        {
+          "t": "Se os totais de saldos devedores e credores coincidem, a escrituração está livre de erros.",
+          "p": "generalizacao",
+          "w": "A igualdade dos totais não garante acerto: erros de classificação, omissões completas e lançamentos invertidos podem passar sem desequilibrar o balancete."
+        },
+        {
+          "t": "É a demonstração que apura o lucro do período e dispensa a elaboração da DRE.",
+          "p": "troca",
+          "w": "O balancete é instrumento de verificação, não demonstração de resultado. A DRE continua exigida (Lei 6.404/76, art. 176, III)."
+        },
+        {
+          "t": "Nele, contas de ativo e de despesa aparecem com saldo credor; as de passivo, PL e receita, com saldo devedor.",
+          "p": "inversao",
+          "w": "É o contrário: ativo e despesa têm natureza devedora; passivo, PL e receita, natureza credora."
+        }
+      ]
+    },
+    {
+      "id": "cont10",
+      "topic": "Classificação no balanço",
+      "c": "A Metalúrgica Dona Francisca, de Joinville (SC), encerrou o balanço em 31/12/2025. No ano, comprou uma prensa para a linha de produção e tomou empréstimo bancário com pagamento integral em 31/12/2027.",
+      "q": "Como esses itens devem ser classificados no balanço de 2025?",
+      "a": 2,
+      "src": "Lei 6.404/76, arts. 178, 179, IV, e 180",
+      "o": [
+        {
+          "t": "Prensa no imobilizado; empréstimo no passivo circulante, pois toda dívida bancária é de curto prazo.",
+          "p": "generalizacao",
+          "w": "O critério é o vencimento: só vai ao circulante o que vence no exercício seguinte. O empréstimo vence em 2027, depois do fim de 2026."
+        },
+        {
+          "t": "Prensa no grupo investimentos; empréstimo no passivo não circulante.",
+          "p": "troca",
+          "w": "Investimentos abrigam participações e bens não destinados à atividade da empresa. Máquina usada na produção é imobilizado."
+        },
+        {
+          "t": "Prensa no ativo não circulante imobilizado; empréstimo no passivo não circulante.",
+          "p": "correta",
+          "w": "Bem corpóreo destinado à manutenção das atividades vai ao imobilizado (art. 179, IV). Obrigação que vence após o exercício seguinte é passivo não circulante (art. 180)."
+        },
+        {
+          "t": "Prensa no ativo circulante, pois só vai ao não circulante bem com vida útil superior a dez anos.",
+          "p": "restricao",
+          "w": "A lei não fixa vida útil mínima de dez anos. O que define o imobilizado é ser bem corpóreo destinado à manutenção das atividades."
+        }
+      ]
+    },
+    {
+      "id": "cont11",
+      "topic": "Lucro bruto na DRE",
+      "c": "Em 2025, a Comercial Ver-o-Peso, de Belém (PA), teve receita bruta de vendas de R$ 500.000, devoluções de R$ 20.000, impostos sobre vendas de R$ 60.000, CMV de R$ 220.000, despesas com vendas de R$ 50.000 e despesas administrativas de R$ 70.000.",
+      "q": "Qual foi o lucro bruto?",
+      "a": 1,
+      "src": "Lei 6.404/76, art. 187, I a III",
+      "o": [
+        {
+          "t": "R$ 280.000: receita bruta de R$ 500.000 menos CMV de R$ 220.000.",
+          "p": "calculo",
+          "w": "Esquece as deduções da receita bruta. O CMV se subtrai da receita líquida, não da bruta."
+        },
+        {
+          "t": "R$ 200.000: receita líquida de R$ 420.000 menos CMV de R$ 220.000.",
+          "p": "correta",
+          "w": "Receita líquida = 500.000 − 20.000 − 60.000 = 420.000. Lucro bruto = receita líquida − CMV = 420.000 − 220.000 = 200.000 (art. 187, I e II)."
+        },
+        {
+          "t": "R$ 150.000, porque as despesas com vendas integram o custo antes do lucro bruto.",
+          "p": "troca",
+          "w": "Despesas com vendas são despesas operacionais, deduzidas depois do lucro bruto (art. 187, III). Só o CMV entra antes."
+        },
+        {
+          "t": "R$ 80.000, pois o lucro bruto já considera todas as despesas do período.",
+          "p": "generalizacao",
+          "w": "R$ 80.000 é o resultado depois das despesas operacionais. O lucro bruto considera só a receita líquida e o custo do que foi vendido."
+        }
+      ]
+    },
+    {
+      "id": "cont12",
+      "topic": "Materialidade",
+      "c": "A Controladoria-Geral de Teresina (PI) decidiu não detalhar em nota explicativa cada item de mobiliário de pequeno valor, porque a omissão desse detalhe não influenciaria a avaliação dos usuários sobre as contas do município.",
+      "q": "Na NBC TSP Estrutura Conceitual, essa decisão se apoia em qual conceito?",
+      "a": 3,
+      "src": "NBC TSP Estrutura Conceitual, cap. 3 (características qualitativas e restrições)",
+      "o": [
+        {
+          "t": "Tempestividade, que manda divulgar a informação antes que ela perca a utilidade.",
+          "p": "troca",
+          "w": "Tempestividade trata do momento da divulgação, não do grau de detalhe. O critério para omitir itens irrelevantes é a materialidade."
+        },
+        {
+          "t": "Verificabilidade, que dispensa divulgar qualquer informação que não possa ser auditada.",
+          "p": "generalizacao",
+          "w": "Verificabilidade é característica qualitativa que dá segurança ao usuário; não autoriza omitir toda informação difícil de verificar."
+        },
+        {
+          "t": "Representação fidedigna, que exige omitir itens de pequeno valor para que o retrato seja completo.",
+          "p": "inversao",
+          "w": "Inverte o conceito: a representação fidedigna pede informação completa, neutra e livre de erro material, e não omissões."
+        },
+        {
+          "t": "Materialidade, que a norma trata como restrição à informação, ao lado do custo-benefício e do equilíbrio entre características.",
+          "p": "correta",
+          "w": "A informação é material se sua omissão ou distorção puder influenciar a prestação de contas ou as decisões dos usuários. A norma a trata como restrição, não como característica qualitativa."
+        }
+      ]
+    },
+    {
+      "id": "cont13",
+      "topic": "Objetivos da informação",
+      "c": "Um vereador de Porto Velho (RO) afirmou em plenário que as demonstrações contábeis do município servem apenas para o Tribunal de Contas conferir a execução do orçamento.",
+      "q": "Segundo a NBC TSP Estrutura Conceitual, qual é o objetivo da informação contábil do setor público?",
+      "a": 2,
+      "src": "NBC TSP Estrutura Conceitual, cap. 2 (objetivos e usuários)",
+      "o": [
+        {
+          "t": "Apenas permitir que o Tribunal de Contas controle a execução orçamentária.",
+          "p": "restricao",
+          "w": "Restringe o alcance: a informação serve a vários usuários e abrange situação patrimonial, desempenho e fluxos de caixa, não só o orçamento."
+        },
+        {
+          "t": "Informar investidores sobre o retorno do capital aplicado, como nas demonstrações das empresas.",
+          "p": "troca",
+          "w": "Troca o foco do setor público pelo do setor privado. No setor público, o centro é a prestação de contas a cidadãos e provedores de recursos."
+        },
+        {
+          "t": "Fornecer informação útil aos usuários para prestação de contas e responsabilização (accountability) e para tomada de decisão.",
+          "p": "correta",
+          "w": "É o objetivo fixado pela Estrutura Conceitual, voltada sobretudo aos usuários dos serviços e aos provedores de recursos, e a seus representantes."
+        },
+        {
+          "t": "Substituir a prestação de contas exigida em lei, que fica dispensada com a publicação dos balanços.",
+          "p": "extrapolacao",
+          "w": "Os balanços apoiam a prestação de contas, mas não a substituem. O dever de prestar contas decorre da Constituição (art. 70, parágrafo único) e das leis."
+        }
+      ]
+    },
+    {
+      "id": "cont14",
+      "topic": "Natureza de controle",
+      "c": "A Secretaria de Saúde de Cuiabá (MT) assinou contrato de R$ 240.000 para manutenção de equipamentos durante 12 meses. Até agora, nenhum serviço foi prestado.",
+      "q": "O registro da assinatura do contrato no PCASP tem qual natureza de informação?",
+      "a": 0,
+      "src": "MCASP (STN, edição vigente), Parte IV – PCASP (natureza da informação contábil)",
+      "o": [
+        {
+          "t": "De controle, nas classes 7 e 8, por se tratar de ato potencial que pode vir a afetar o patrimônio.",
+          "p": "correta",
+          "w": "Atos que ainda não alteraram o patrimônio, mas podem alterá-lo, como contratos assinados e garantias, são registrados nas contas de controle (classes 7 e 8)."
+        },
+        {
+          "t": "Orçamentária, nas classes 5 e 6, pois a assinatura do contrato equivale à aprovação do orçamento.",
+          "p": "troca",
+          "w": "As classes 5 e 6 registram o planejamento e a execução do orçamento, como a dotação e o empenho. A assinatura do contrato, em si, é ato potencial, registrado em controle."
+        },
+        {
+          "t": "Patrimonial, com reconhecimento imediato de passivo de R$ 240.000 na classe 2.",
+          "p": "extrapolacao",
+          "w": "Sem serviço prestado, não há obrigação presente decorrente de evento passado. O passivo só nasce com a execução do serviço."
+        },
+        {
+          "t": "Nenhuma: só se registra no PCASP o que já alterou o patrimônio.",
+          "p": "generalizacao",
+          "w": "O PCASP registra também o orçamento e os atos potenciais, nas classes de natureza orçamentária e de controle."
+        }
+      ]
+    },
+    {
+      "id": "cont15",
+      "topic": "Classes do PCASP",
+      "c": "Uma escola estadual de Manaus (AM) requisitou ao almoxarifado R$ 3.000 em material de limpeza, comprado e pago no mês anterior, e o consumiu nas salas de aula.",
+      "q": "Que classes do PCASP recebem o lançamento do consumo?",
+      "a": 3,
+      "src": "MCASP (STN, edição vigente), Parte IV – PCASP (estrutura das classes)",
+      "o": [
+        {
+          "t": "Débito em estoques (classe 1) e crédito em VPA (classe 4).",
+          "p": "inversao",
+          "w": "Inverte o fato: assim se registraria a entrada de material recebido em doação, e não o seu consumo."
+        },
+        {
+          "t": "Registro de novo empenho nas classes 5 e 6, porque o consumo é nova despesa orçamentária.",
+          "p": "troca",
+          "w": "Troca o enfoque: as classes 5 e 6 tratam do orçamento, executado na compra. O consumo de estoque é fato patrimonial."
+        },
+        {
+          "t": "Débito em VPD (classe 3) e crédito em fornecedores (classe 2), pois todo consumo gera dívida.",
+          "p": "generalizacao",
+          "w": "O material já foi pago. Consumir estoque não gera obrigação; a contrapartida é a baixa do próprio estoque."
+        },
+        {
+          "t": "Débito em VPD (classe 3) e crédito em estoques, no ativo (classe 1).",
+          "p": "correta",
+          "w": "O consumo reduz o ativo (estoque) e gera variação patrimonial diminutiva. A despesa orçamentária ocorreu na compra; agora só há reflexo patrimonial."
+        }
+      ]
+    },
+    {
+      "id": "cont16",
+      "topic": "Regimes orçamentário e patrimonial",
+      "c": "A folha de dezembro de 2025 da Prefeitura de Caruaru (PE), de R$ 900.000, foi empenhada e liquidada em dezembro, mas paga só em 6 de janeiro de 2026.",
+      "q": "Assinale a alternativa correta.",
+      "a": 1,
+      "src": "Lei 4.320/64, arts. 35 e 36; MCASP (STN, edição vigente), Parte I",
+      "o": [
+        {
+          "t": "A despesa orçamentária pertence a 2026, ano do pagamento, pelo art. 35 da Lei 4.320/64.",
+          "p": "troca",
+          "w": "O art. 35 liga a despesa ao empenho, não ao pagamento. O pagamento em 2026 não muda o exercício da despesa."
+        },
+        {
+          "t": "A despesa orçamentária e a VPD pertencem a 2025; em 2026 há apenas o pagamento de restos a pagar processados.",
+          "p": "correta",
+          "w": "Pelo art. 35, II, a despesa é do exercício em que foi empenhada; pela competência, a VPD é do mês trabalhado. Liquidada e não paga até 31/12, vira resto a pagar processado (art. 36)."
+        },
+        {
+          "t": "A despesa orçamentária pertence a 2025, mas a VPD é reconhecida em 2026, quando o dinheiro sai.",
+          "p": "inversao",
+          "w": "Inverte a lógica patrimonial: a VPD segue a competência, isto é, o mês do trabalho prestado, e não a data do pagamento."
+        },
+        {
+          "t": "As duas pertencem a 2025 apenas se o pagamento ocorrer até 31 de janeiro de 2026.",
+          "p": "restricao",
+          "w": "Não há esse prazo. O exercício da despesa orçamentária é definido pelo empenho e o da VPD pelo fato gerador, independentemente da data do pagamento."
+        }
+      ]
+    },
+    {
+      "id": "cont17",
+      "topic": "Receita não efetiva",
+      "c": "O Município de Juiz de Fora (MG) recebeu R$ 5 milhões de uma operação de crédito de longo prazo, autorizada em lei, para financiar obras de mobilidade urbana.",
+      "q": "Como esse ingresso se comporta nos enfoques orçamentário e patrimonial?",
+      "a": 0,
+      "src": "Lei 4.320/64, art. 11, §2º; MCASP (STN, edição vigente), Parte I",
+      "o": [
+        {
+          "t": "É receita orçamentária de capital, mas não VPA: o caixa aumenta junto com um passivo, sem alterar o patrimônio líquido.",
+          "p": "correta",
+          "w": "Operação de crédito é receita de capital (art. 11, §2º). Patrimonialmente é fato permutativo, por isso o MCASP a chama de receita orçamentária não efetiva."
+        },
+        {
+          "t": "É receita orçamentária e VPA de R$ 5 milhões, pois toda receita orçamentária aumenta o patrimônio líquido.",
+          "p": "generalizacao",
+          "w": "Nem toda receita orçamentária é efetiva. Na operação de crédito, o ingresso vem acompanhado de uma dívida de igual valor."
+        },
+        {
+          "t": "É VPA, mas não receita orçamentária, por ser recurso de terceiros.",
+          "p": "inversao",
+          "w": "Inverte os enfoques: há receita orçamentária, e não há VPA, porque o ingresso cria passivo."
+        },
+        {
+          "t": "É receita extraorçamentária, como as cauções e os depósitos de terceiros.",
+          "p": "troca",
+          "w": "Extraorçamentários são ingressos que o ente apenas guarda temporariamente, como cauções e retenções. Operação de crédito de longo prazo autorizada em lei é receita orçamentária."
+        }
+      ]
+    },
+    {
+      "id": "cont18",
+      "topic": "Despesa não efetiva",
+      "c": "A Secretaria de Segurança Pública de Goiás comprou uma viatura de R$ 250.000. A despesa foi empenhada, liquidada com a entrega do veículo e paga em Goiânia no mesmo mês.",
+      "q": "Assinale a alternativa correta sobre os efeitos da compra.",
+      "a": 2,
+      "src": "Lei 4.320/64, art. 12, §4º; MCASP (STN, edição vigente), Parte I",
+      "o": [
+        {
+          "t": "Há VPD de R$ 250.000, pois toda despesa orçamentária reduz o patrimônio líquido.",
+          "p": "generalizacao",
+          "w": "Só a despesa efetiva reduz o PL. Na compra de bem, o imobilizado aumenta no mesmo valor em que o caixa diminui."
+        },
+        {
+          "t": "Não há despesa orçamentária, pois a compra de um bem é mera troca entre ativos.",
+          "p": "troca",
+          "w": "Mistura os enfoques: a troca de ativos é a visão patrimonial. No orçamento houve empenho, liquidação e pagamento, logo há despesa orçamentária."
+        },
+        {
+          "t": "Há despesa orçamentária de capital, mas não VPD: troca-se caixa por imobilizado, e a VPD virá com a depreciação.",
+          "p": "correta",
+          "w": "Aquisição de equipamento é investimento (art. 12, §4º). Patrimonialmente é fato permutativo, por isso o MCASP a classifica como despesa orçamentária não efetiva."
+        },
+        {
+          "t": "A VPD de R$ 250.000 só será reconhecida de uma vez, quando a viatura for vendida ou baixada.",
+          "p": "restricao",
+          "w": "O consumo do bem é reconhecido aos poucos, pela depreciação ao longo da vida útil, e não apenas na baixa."
+        }
+      ]
+    },
+    {
+      "id": "cont19",
+      "topic": "Depreciação em linha reta",
+      "c": "A Prefeitura de Petrolina (PE) comprou em 1º/1/2024 uma retroescavadeira de R$ 180.000, posta em uso no mesmo dia, com vida útil de 5 anos e valor residual de R$ 30.000. Usa o método das quotas constantes.",
+      "q": "Qual é o valor contábil líquido da máquina em 31/12/2025?",
+      "a": 3,
+      "src": "NBC TSP 07 – Ativo Imobilizado; MCASP (STN, edição vigente), Parte II",
+      "o": [
+        {
+          "t": "R$ 108.000: depreciação de R$ 36.000 por ano, por 2 anos.",
+          "p": "calculo",
+          "w": "Ignora o valor residual: 180.000 ÷ 5 = 36.000. O valor residual não se deprecia."
+        },
+        {
+          "t": "R$ 150.000, pois a depreciação só começa no segundo ano de uso.",
+          "p": "restricao",
+          "w": "A depreciação começa quando o bem está disponível para uso, aqui em 1º/1/2024. Não há carência de um ano."
+        },
+        {
+          "t": "R$ 60.000, que é o valor que sobra após dois anos de uso.",
+          "p": "troca",
+          "w": "R$ 60.000 é a depreciação acumulada, não o valor contábil. O valor contábil é o custo menos essa depreciação."
+        },
+        {
+          "t": "R$ 120.000: depreciação de R$ 30.000 por ano sobre R$ 150.000 depreciáveis, por 2 anos.",
+          "p": "correta",
+          "w": "Base depreciável = 180.000 − 30.000 = 150.000; quota anual = 150.000 ÷ 5 = 30.000. Após 2 anos, depreciação acumulada de 60.000 e valor contábil de 120.000."
+        }
+      ]
+    },
+    {
+      "id": "cont20",
+      "topic": "Lançamento da depreciação",
+      "c": "Uma universidade federal sediada em Viçosa (MG) calculou depreciação mensal de R$ 4.000 sobre seus computadores, pelo método das quotas constantes.",
+      "q": "Como a depreciação do mês é registrada?",
+      "a": 1,
+      "src": "NBC TSP 07; MCASP (STN, edição vigente), Partes II e IV",
+      "o": [
+        {
+          "t": "Débito em depreciação acumulada e crédito em VPD de depreciação.",
+          "p": "inversao",
+          "w": "Inverte as naturezas: a VPD é debitada (reduz o resultado) e a conta redutora do ativo é creditada (reduz o valor líquido do bem)."
+        },
+        {
+          "t": "Débito em VPD de depreciação (classe 3) e crédito em depreciação acumulada, conta redutora do imobilizado, sem empenho.",
+          "p": "correta",
+          "w": "A depreciação reconhece o consumo do bem pela competência. Não há saída de caixa nem execução do orçamento, que ocorreu na compra."
+        },
+        {
+          "t": "Empenho mensal de R$ 4.000, pois toda VPD precisa de autorização orçamentária.",
+          "p": "generalizacao",
+          "w": "Várias VPDs não passam pelo orçamento, como a depreciação e o consumo de estoques. O empenho ocorreu na aquisição dos computadores."
+        },
+        {
+          "t": "Débito em VPD e crédito em redução ao valor recuperável, pois depreciação é perda por impairment.",
+          "p": "troca",
+          "w": "Troca conceitos vizinhos: depreciação é a alocação sistemática do custo pela vida útil; redução ao valor recuperável é perda apurada em teste próprio."
+        }
+      ]
+    },
+    {
+      "id": "cont21",
+      "topic": "Terreno e edificação",
+      "c": "A Prefeitura de Chapecó (SC) comprou um imóvel para instalar uma creche: R$ 400.000 correspondem ao terreno e R$ 1.200.000 à edificação, com vida útil estimada de 40 anos e valor residual nulo.",
+      "q": "Qual é a depreciação anual pelo método das quotas constantes?",
+      "a": 0,
+      "src": "NBC TSP 07 – Ativo Imobilizado (terrenos e edifícios); MCASP (STN, edição vigente), Parte II",
+      "o": [
+        {
+          "t": "R$ 30.000, apenas sobre a edificação, pois o terreno não é depreciado.",
+          "p": "correta",
+          "w": "Terrenos e edifícios são contabilizados separadamente; o terreno, em regra, tem vida útil ilimitada e não se deprecia. 1.200.000 ÷ 40 = 30.000 por ano."
+        },
+        {
+          "t": "R$ 40.000, sobre o valor total de R$ 1.600.000, pois todo imobilizado se deprecia.",
+          "p": "generalizacao",
+          "w": "Nem todo imobilizado se deprecia: o terreno fica fora da base. Dividir 1.600.000 por 40 superestima a depreciação."
+        },
+        {
+          "t": "Nenhuma, porque bens imóveis públicos são inalienáveis e por isso não se desgastam.",
+          "p": "extrapolacao",
+          "w": "A inalienabilidade é regime jurídico e não impede o desgaste físico. A edificação pública se deprecia normalmente."
+        },
+        {
+          "t": "R$ 10.000, apenas sobre o terreno, já que a edificação será reformada ao longo do tempo.",
+          "p": "inversao",
+          "w": "Inverte os bens: é a edificação que se desgasta e se deprecia; o terreno, em regra, não. Reformas não eliminam a depreciação."
+        }
+      ]
+    },
+    {
+      "id": "cont22",
+      "topic": "Inscrição em dívida ativa",
+      "c": "O ISS de 2024 de uma empresa de Feira de Santana (BA) venceu e não foi pago. A procuradoria do município analisou o processo para inscrever o débito.",
+      "q": "Pelo art. 39 da Lei 4.320/64, assinale a alternativa correta.",
+      "a": 3,
+      "src": "Lei 4.320/64, art. 39, §1º",
+      "o": [
+        {
+          "t": "A inscrição só pode ocorrer depois de ajuizada a execução fiscal.",
+          "p": "inversao",
+          "w": "Inverte a ordem: primeiro se inscreve em dívida ativa, o que dá origem à certidão de dívida ativa, título que depois instrui a execução fiscal."
+        },
+        {
+          "t": "O crédito só pode ser inscrito depois de cinco anos de vencido.",
+          "p": "restricao",
+          "w": "A lei não exige esse prazo; basta o crédito ser exigível pelo transcurso do prazo de pagamento e ter liquidez e certeza apuradas."
+        },
+        {
+          "t": "Todo valor devido ao município é inscrito automaticamente no dia seguinte ao vencimento, sem análise.",
+          "p": "generalizacao",
+          "w": "A inscrição exige controle prévio, com a apuração da liquidez e da certeza do crédito."
+        },
+        {
+          "t": "Exigível pelo transcurso do prazo de pagamento, o crédito é inscrito em registro próprio após apuradas sua liquidez e certeza.",
+          "p": "correta",
+          "w": "É o que diz o art. 39, §1º: os créditos exigíveis pelo transcurso do prazo para pagamento são inscritos como dívida ativa, em registro próprio, após apurada sua liquidez e certeza."
+        }
+      ]
+    },
+    {
+      "id": "cont23",
+      "topic": "Dívida ativa tributária",
+      "c": "O Município de Vitória (ES) tem três créditos vencidos e não pagos: multa de mora pelo atraso no IPTU, multa de trânsito aplicada pelo órgão municipal de trânsito e aluguel de um box no mercado público.",
+      "q": "Como esses créditos se classificam na dívida ativa?",
+      "a": 2,
+      "src": "Lei 4.320/64, art. 39, §2º",
+      "o": [
+        {
+          "t": "As duas multas são dívida ativa tributária, pois toda multa aplicada pelo município é tributária.",
+          "p": "generalizacao",
+          "w": "Só a multa ligada a tributo é tributária. O §2º põe as multas de qualquer origem, exceto as tributárias, na dívida ativa não tributária."
+        },
+        {
+          "t": "Os três são dívida ativa não tributária, porque multa não é tributo.",
+          "p": "troca",
+          "w": "Multa não é tributo, mas a multa relativa a tributo integra a dívida ativa tributária, que abrange os tributos e respectivos adicionais e multas."
+        },
+        {
+          "t": "A multa do IPTU é dívida ativa tributária; a multa de trânsito e o aluguel são dívida ativa não tributária.",
+          "p": "correta",
+          "w": "O §2º inclui na dívida ativa tributária os tributos e respectivos adicionais e multas. Multas de outra origem, aluguéis e créditos de contratos são dívida ativa não tributária."
+        },
+        {
+          "t": "O aluguel não pode ser inscrito em dívida ativa, por ser obrigação contratual.",
+          "p": "restricao",
+          "w": "O §2º inclui expressamente aluguéis e créditos de contratos em geral na dívida ativa não tributária."
+        }
+      ]
+    },
+    {
+      "id": "cont24",
+      "topic": "Resultado orçamentário",
+      "c": "O Balanço Orçamentário de 2025 do Município de Sobral (CE) mostra receita prevista de R$ 120 milhões, receita realizada de R$ 114 milhões e despesa empenhada de R$ 118 milhões, da qual R$ 110 milhões foram liquidados e R$ 104 milhões pagos.",
+      "q": "Qual é o resultado da execução orçamentária?",
+      "a": 1,
+      "src": "Lei 4.320/64, arts. 35 e 102; MCASP (STN, edição vigente), Parte V",
+      "o": [
+        {
+          "t": "Superávit de R$ 10 milhões: receita realizada menos despesa paga.",
+          "p": "troca",
+          "w": "Usa o pagamento no lugar do empenho. No regime orçamentário, a despesa pertence ao exercício em que foi empenhada."
+        },
+        {
+          "t": "Déficit de R$ 4 milhões: receita realizada menos despesa empenhada.",
+          "p": "correta",
+          "w": "O art. 35 liga a receita à arrecadação e a despesa ao empenho: 114 − 118 = −4, déficit orçamentário de R$ 4 milhões."
+        },
+        {
+          "t": "Superávit de R$ 4 milhões, já que a despesa empenhada supera a receita realizada.",
+          "p": "inversao",
+          "w": "Inverte o sinal: despesa maior que receita gera déficit, não superávit."
+        },
+        {
+          "t": "Déficit de R$ 6 milhões: receita prevista menos receita realizada.",
+          "p": "calculo",
+          "w": "120 − 114 = 6 é a insuficiência de arrecadação, comparação entre previsão e realização da receita, e não o resultado da execução."
+        }
+      ]
+    },
+    {
+      "id": "cont25",
+      "topic": "Balanço Financeiro",
+      "c": "O Município de Parnaíba (PI) começou 2025 com R$ 2 milhões em caixa. No ano, arrecadou R$ 50 milhões de receita orçamentária e empenhou R$ 48 milhões, dos quais R$ 3 milhões foram inscritos em restos a pagar. Recebeu ainda R$ 1 milhão de retenções e fez R$ 1,5 milhão de pagamentos extraorçamentários.",
+      "q": "Qual saldo em espécie o Balanço Financeiro transfere para 2026?",
+      "a": 0,
+      "src": "Lei 4.320/64, art. 103 e parágrafo único; MCASP (STN, edição vigente), Parte V",
+      "o": [
+        {
+          "t": "R$ 6,5 milhões: 2 + 50 + 4 (retenções e restos a pagar) − 48 − 1,5.",
+          "p": "correta",
+          "w": "Os restos a pagar inscritos entram como recebimento extraorçamentário, para compensar sua inclusão na despesa orçamentária (art. 103, parágrafo único): 56 − 49,5 = 6,5."
+        },
+        {
+          "t": "R$ 3,5 milhões, pois os restos a pagar não entram em nenhum lado do balanço.",
+          "p": "calculo",
+          "w": "Esquece a compensação do parágrafo único do art. 103: 2 + 50 + 1 − 48 − 1,5 = 3,5, valor que não bate com o caixa real."
+        },
+        {
+          "t": "R$ 4,5 milhões, pois o Balanço Financeiro considera só as movimentações do próprio exercício.",
+          "p": "restricao",
+          "w": "O art. 103 manda conjugar os saldos em espécie vindos do exercício anterior. Sem os R$ 2 milhões iniciais, o saldo final fica errado."
+        },
+        {
+          "t": "R$ 0,5 milhão, porque os restos a pagar inscritos são pagamentos extraorçamentários.",
+          "p": "inversao",
+          "w": "Inverte o lado: os restos a pagar inscritos são recebimentos extraorçamentários. Lançados como pagamento, são descontados duas vezes."
+        }
+      ]
+    },
+    {
+      "id": "cont26",
+      "topic": "Superávit financeiro",
+      "c": "O Balanço Patrimonial de 2025 do Município de Rio Branco (AC) mostra ativo financeiro de R$ 18 milhões, ativo permanente de R$ 95 milhões, passivo financeiro de R$ 11 milhões e passivo permanente de R$ 40 milhões. Não há créditos adicionais reabertos nem operações de crédito a eles vinculadas.",
+      "q": "Qual superávit financeiro pode servir de fonte para créditos adicionais em 2026?",
+      "a": 3,
+      "src": "Lei 4.320/64, arts. 43, §1º, I, e §2º, e 105",
+      "o": [
+        {
+          "t": "R$ 62 milhões, saldo patrimonial do balanço.",
+          "p": "troca",
+          "w": "R$ 62 milhões (113 − 51) é o saldo patrimonial, que inclui bens permanentes. O superávit financeiro considera só ativos e passivos financeiros."
+        },
+        {
+          "t": "R$ 84 milhões: ativo permanente menos passivo financeiro.",
+          "p": "calculo",
+          "w": "Mistura grupos: o ativo permanente depende de autorização legislativa para ser mobilizado e não entra no cálculo."
+        },
+        {
+          "t": "R$ 7 milhões, mas usáveis só para pagar restos a pagar, nunca para abrir créditos adicionais.",
+          "p": "restricao",
+          "w": "O art. 43, §1º, I, prevê o superávit financeiro do balanço patrimonial do exercício anterior justamente como fonte para créditos suplementares e especiais."
+        },
+        {
+          "t": "R$ 7 milhões: ativo financeiro menos passivo financeiro.",
+          "p": "correta",
+          "w": "Pelo art. 43, §2º, superávit financeiro é a diferença positiva entre ativo financeiro e passivo financeiro: 18 − 11 = 7. Ele é fonte de créditos suplementares e especiais (§1º, I)."
+        }
+      ]
+    },
+    {
+      "id": "cont27",
+      "topic": "Resultado patrimonial",
+      "c": "Em 2025, uma autarquia municipal de saneamento de Itabuna (BA) registrou VPA de R$ 82 milhões e VPD de R$ 75 milhões, incluídos R$ 6 milhões de depreciação. A receita orçamentária foi de R$ 80 milhões e a despesa empenhada, de R$ 79 milhões.",
+      "q": "Qual resultado patrimonial a DVP evidencia?",
+      "a": 2,
+      "src": "Lei 4.320/64, art. 104; MCASP (STN, edição vigente), Parte V",
+      "o": [
+        {
+          "t": "Superávit de R$ 1 milhão: receita orçamentária menos despesa empenhada.",
+          "p": "troca",
+          "w": "Esse é o resultado orçamentário, do Balanço Orçamentário. A DVP compara variações patrimoniais aumentativas e diminutivas."
+        },
+        {
+          "t": "Superávit de R$ 13 milhões, pois a depreciação não sai do caixa e deve ser excluída.",
+          "p": "calculo",
+          "w": "A depreciação é VPD e reduz o resultado patrimonial, mesmo sem saída de caixa. Excluí-la gera 82 − 69 = 13, valor errado."
+        },
+        {
+          "t": "Superávit patrimonial de R$ 7 milhões: VPA menos VPD.",
+          "p": "correta",
+          "w": "A DVP evidencia as alterações do patrimônio e indica o resultado patrimonial do exercício (art. 104): 82 − 75 = 7."
+        },
+        {
+          "t": "Déficit patrimonial de R$ 7 milhões, pois as VPD consomem o patrimônio.",
+          "p": "inversao",
+          "w": "Inverte o sinal: VPA maior que VPD gera superávit patrimonial."
+        }
+      ]
+    },
+    {
+      "id": "cont28",
+      "topic": "Fluxos de caixa",
+      "c": "Ao montar a DFC de 2025, a contadoria do Estado do Tocantins, em Palmas, separou três desembolsos: (I) salários dos servidores da saúde; (II) compra de equipamentos hospitalares; (III) amortização do principal de um empréstimo.",
+      "q": "Como esses desembolsos se classificam na DFC?",
+      "a": 1,
+      "src": "NBC TSP 12 – Demonstração dos Fluxos de Caixa; MCASP (STN, edição vigente), Parte V",
+      "o": [
+        {
+          "t": "I nas atividades operacionais; II nas de financiamento; III nas de investimento.",
+          "p": "inversao",
+          "w": "Inverte II e III: comprar equipamento é investimento, e devolver principal de empréstimo é financiamento."
+        },
+        {
+          "t": "I nas atividades operacionais; II nas de investimento; III nas de financiamento.",
+          "p": "correta",
+          "w": "Pagar pessoal é fluxo operacional; adquirir ativo não circulante é investimento; amortizar o principal da dívida é financiamento."
+        },
+        {
+          "t": "Todos nas atividades operacionais, pois decorrem da execução do orçamento.",
+          "p": "generalizacao",
+          "w": "A execução orçamentária não define o fluxo. A DFC separa operações, investimentos e financiamentos pela natureza do desembolso."
+        },
+        {
+          "t": "I e III nas operacionais, por serem despesas correntes; II nas de investimento.",
+          "p": "troca",
+          "w": "Amortização da dívida é despesa de capital (Lei 4.320/64, art. 13) e, na DFC, fluxo de financiamento."
+        }
+      ]
+    },
+    {
+      "id": "cont29",
+      "type": "ce",
+      "topic": "Método das partidas dobradas",
+      "src": "Luca Pacioli, Summa de Arithmetica (1494); José Carlos Marion, Contabilidade Básica",
+      "c": "Em uma aula de contabilidade em Pelotas (RS), o professor lançou no quadro a compra de um computador por R$ 6.000, metade à vista e metade a prazo.",
+      "q": "Pelo método das partidas dobradas, esse lançamento terá débito de R$ 6.000 em Computadores e créditos que somam R$ 6.000, em Caixa e em Fornecedores.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Não há débito sem crédito de igual valor: débito de 6.000 em Computadores; créditos de 3.000 em Caixa e de 3.000 em Fornecedores."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que cada lançamento só poderia ter uma conta a crédito. O método exige igualdade entre a soma dos débitos e a dos créditos, não um único par de contas."
+        }
+      ]
+    },
+    {
+      "id": "cont30",
+      "type": "ce",
+      "topic": "Receita por competência",
+      "src": "Lei 6.404/76, art. 187, §1º, a; CPC 00 (R2), cap. 1",
+      "c": "Uma agência de turismo de Macapá (AP) organizou e realizou em novembro uma viagem de R$ 25.000 para um grupo escolar, que vai pagar em fevereiro.",
+      "q": "Pelo regime de competência, a receita de R$ 25.000 só será reconhecida em fevereiro, quando o dinheiro entrar.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo confunde competência com regime de caixa. Na competência, a receita é reconhecida quando ganha, isto é, em novembro."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "As receitas são computadas no período em que ganhas, independentemente de sua realização em moeda (Lei 6.404/76, art. 187, §1º, a). Prestado o serviço em novembro, a receita é de novembro."
+        }
+      ]
+    },
+    {
+      "id": "cont31",
+      "type": "ce",
+      "topic": "Compra a prazo",
+      "src": "José Carlos Marion, Contabilidade Básica (fatos contábeis)",
+      "c": "Uma padaria de São Luís (MA) comprou um forno de R$ 18.000 para pagar em 3 parcelas mensais.",
+      "q": "Trata-se de fato modificativo aumentativo, pois aumenta o ativo da padaria.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo esquece a contrapartida: o passivo também sobe R$ 18.000. Aumento de ativo sem efeito no PL caracteriza fato permutativo, não modificativo."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O forno entra no ativo e a dívida com o fornecedor entra no passivo, pelo mesmo valor. O PL não muda: o fato é permutativo."
+        }
+      ]
+    },
+    {
+      "id": "cont32",
+      "type": "ce",
+      "topic": "Natureza orçamentária",
+      "src": "MCASP (STN, edição vigente), Parte IV – PCASP (natureza da informação contábil)",
+      "c": "Na Secretaria de Fazenda de Boa Vista (RR), um estagiário perguntou em que classes do PCASP ficam o registro da dotação aprovada na LOA e o do empenho da despesa.",
+      "q": "Esses registros ficam nas classes 5 e 6, que reúnem as contas de natureza orçamentária do PCASP.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O PCASP agrupa a natureza patrimonial nas classes 1 a 4, a orçamentária nas classes 5 (aprovação do planejamento e orçamento) e 6 (execução) e a de controle nas classes 7 e 8."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado troca as naturezas: as classes 7 e 8 são de controle (atos potenciais e outros controles), e não de orçamento."
+        }
+      ]
+    },
+    {
+      "id": "cont33",
+      "type": "ce",
+      "topic": "Balanços da Lei 4.320",
+      "src": "Lei 4.320/64, art. 101; MCASP (STN, edição vigente), Parte V",
+      "c": "Um analista do Tribunal de Contas do Estado de Pernambuco, no Recife, revisava a prestação de contas anual de um município do sertão.",
+      "q": "Segundo o art. 101 da Lei 4.320/64, os resultados gerais do exercício são demonstrados no Balanço Orçamentário, no Balanço Financeiro, no Balanço Patrimonial, na DVP e na Demonstração dos Fluxos de Caixa.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "extrapolacao",
+          "w": "Julgar certo estende a lei: o art. 101 lista só quatro demonstrações. A DFC é exigida pelo MCASP e pela NBC TSP 12, não pelo art. 101."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O art. 101 menciona Balanço Orçamentário, Balanço Financeiro, Balanço Patrimonial e Demonstração das Variações Patrimoniais. A DFC integra as demonstrações do setor público por força do MCASP."
+        }
+      ]
+    },
+    {
+      "id": "cont34",
+      "type": "ce",
+      "topic": "Ativo financeiro",
+      "src": "Lei 4.320/64, art. 105, §§1º e 2º",
+      "c": "O Município de Blumenau (SC) tem saldo em conta bancária e aplicações financeiras de resgate imediato, disponíveis para pagar suas obrigações.",
+      "q": "Esses valores integram o ativo financeiro, que compreende os créditos e valores realizáveis independentemente de autorização orçamentária e os valores numerários.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "É o conceito do art. 105, §1º. Dinheiro em banco e aplicações de resgate imediato podem ser movimentados sem autorização orçamentária."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado confunde com o ativo permanente, que reúne bens, créditos e valores cuja mobilização ou alienação depende de autorização legislativa (art. 105, §2º)."
+        }
+      ]
+    },
+    {
+      "id": "cont35",
+      "type": "ce",
+      "topic": "Passivo permanente",
+      "src": "Lei 4.320/64, arts. 98 e 105, §4º",
+      "c": "O Estado do Rio Grande do Norte tem um financiamento de longo prazo contratado com banco de fomento para obras de infraestrutura, com parcelas que vencem até 2035.",
+      "q": "Pela Lei 4.320/64, essa dívida integra o passivo permanente, que reúne as dívidas fundadas e outras que dependam de autorização legislativa para amortização ou resgate.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "É o texto do art. 105, §4º. Compromissos de exigibilidade superior a doze meses contraídos para financiar obras e serviços públicos são dívida fundada (art. 98)."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado põe a dívida no passivo financeiro, que reúne as dívidas cujo pagamento independe de autorização orçamentária, como os restos a pagar."
+        }
+      ]
+    },
+    {
+      "id": "cont36",
+      "type": "ce",
+      "topic": "Receita da dívida ativa",
+      "src": "Lei 4.320/64, arts. 35, I, e 39, caput",
+      "c": "Em novembro de 2025, a procuradoria do Município de Mossoró (RN) inscreveu em dívida ativa R$ 300.000 de IPTU não pago. O contribuinte só pagou o débito em março de 2026.",
+      "q": "Do ponto de vista orçamentário, os R$ 300.000 constituem receita de 2025, exercício em que ocorreu a inscrição em dívida ativa.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo troca a inscrição pela arrecadação. A inscrição não gera receita orçamentária; esta só existe quando o dinheiro entra."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Pelo art. 39, os créditos da Fazenda Pública são escriturados como receita do exercício em que forem arrecadados (ver também art. 35, I). A receita orçamentária é de 2026, ano do pagamento."
+        }
+      ]
+    },
+    {
+      "id": "cont37",
+      "type": "ce",
+      "topic": "Depreciação e orçamento",
+      "src": "MCASP (STN, edição vigente), Partes I e II; NBC TSP 07",
+      "c": "A Prefeitura de Montes Claros (MG) apurou R$ 15.000 de depreciação mensal sobre sua frota de ambulâncias.",
+      "q": "Essa depreciação deve ser empenhada todo mês, pois constitui despesa orçamentária corrente do município.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo supõe que toda VPD é despesa orçamentária. A depreciação reduz o patrimônio sem desembolso nem execução do orçamento."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "A depreciação é VPD sem execução orçamentária: débito em VPD e crédito em depreciação acumulada. O orçamento já foi executado na compra das ambulâncias."
+        }
+      ]
+    },
+    {
+      "id": "cont38",
+      "type": "ce",
+      "topic": "Empenho sem liquidação",
+      "src": "Lei 4.320/64, arts. 35, II, e 36; MCASP (STN, edição vigente), Parte I",
+      "c": "Em dezembro de 2025, a Prefeitura de Dourados (MS) empenhou R$ 80.000 para pintar escolas. O serviço só foi executado em fevereiro de 2026.",
+      "q": "Sob o enfoque orçamentário, a despesa pertence a 2025, ano do empenho, embora a VPD só deva ser reconhecida em 2026, quando o serviço for prestado.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Pelo art. 35, II, pertence ao exercício a despesa nele legalmente empenhada; não liquidada, vira resto a pagar não processado (art. 36). Já a VPD segue a competência e surge com a prestação do serviço."
+        },
+        {
+          "t": "Errado",
+          "p": "generalizacao",
+          "w": "Julgar errado supõe que os dois enfoques andam sempre juntos. O regime orçamentário segue o empenho; o patrimonial, o fato gerador, e por isso as datas podem divergir."
+        }
+      ]
+    },
+    {
+      "id": "cont39",
+      "type": "ce",
+      "topic": "Variações patrimoniais (DVP)",
+      "src": "Lei 4.320/64, art. 104; MCASP (STN, edição vigente), Parte V",
+      "c": "O Município de Anápolis (GO) recebeu de uma empresa local, em doação, um terreno para construir uma unidade de saúde, sem nenhum pagamento.",
+      "q": "Como a DVP evidencia as alterações do patrimônio resultantes ou independentes da execução orçamentária, a doação do terreno, que não passou pelo orçamento, deve nela figurar.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O art. 104 manda a DVP evidenciar as alterações patrimoniais resultantes ou independentes da execução orçamentária e indicar o resultado patrimonial. A doação recebida é VPA."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que a DVP só mostraria fatos ligados ao orçamento. O art. 104 inclui as variações independentes da execução orçamentária, como doações de bens."
+        }
+      ]
+    },
+    {
+      "id": "cont40",
+      "type": "ce",
+      "topic": "Contas de compensação",
+      "src": "Lei 4.320/64, art. 105, §5º; MCASP (STN, edição vigente), Parte IV – PCASP",
+      "c": "A Prefeitura de Campos dos Goytacazes (RJ) recebeu de uma construtora, como garantia de execução de contrato, uma apólice de seguro-garantia.",
+      "q": "As contas de compensação do art. 105 da Lei 4.320/64, como a que registra essa garantia, correspondem no PCASP às classes 5 e 6.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo troca as naturezas: as classes 5 e 6 são orçamentárias. Garantias recebidas são atos potenciais, controlados nas classes 7 e 8."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "As contas de compensação registram bens, valores, obrigações e situações que possam vir a afetar o patrimônio (art. 105, §5º). No PCASP, esses controles ficam nas classes 7 (controles devedores) e 8 (controles credores)."
+        }
+      ]
+    }
+  ]
+}

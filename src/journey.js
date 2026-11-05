@@ -1,6 +1,8 @@
 Object.assign(DECK_LOOK, { bio: { pal: 'mint', v: 1, glyph: 'DNA' }, hist: { pal: 'yellow', v: 0, glyph: '1822' }, dadm: { pal: 'blue', v: 3, glyph: 'Adm' }, info: { pal: 'lilac', v: 2, glyph: '</>' }, seg: { pal: 'navy', v: 2, icon: 'shield' },
   dh: { pal: 'peach', v: 1, icon: 'humans' }, dpen: { pal: 'navy', v: 0, icon: 'gavel' }, dpp: { pal: 'blue', v: 1, icon: 'inquiry' }, etica: { pal: 'mint', v: 2, icon: 'ethics' },
-  dciv: { pal: 'yellow', v: 3, icon: 'signature' }, adm: { pal: 'lilac', v: 0, icon: 'org' }, dpc: { pal: 'blue', v: 3, icon: 'scale' }, ingl: { pal: 'peach', v: 2, icon: 'lang' } });
+  dciv: { pal: 'yellow', v: 3, icon: 'signature' }, adm: { pal: 'lilac', v: 0, icon: 'org' }, dpc: { pal: 'blue', v: 3, icon: 'scale' }, ingl: { pal: 'peach', v: 2, icon: 'lang' },
+  afo: { pal: 'mint', v: 1, icon: 'budget' }, cont: { pal: 'blue', v: 2, icon: 'calc' }, est: { pal: 'lilac', v: 3, icon: 'stats' }, dtrib: { pal: 'navy', v: 1, icon: 'receipt' },
+  dcons: { pal: 'peach', v: 3, icon: 'bag' }, eca: { pal: 'yellow', v: 0, icon: 'care' }, sus: { pal: 'mint', v: 0, icon: 'health' }, redof: { pal: 'blue', v: 0, icon: 'write' }, arq: { pal: 'lilac', v: 1, icon: 'archive' } });
 /* ================= Jornada da trilha (etapas em caminho) ================= */
 // Cada trilha vira um caminho de etapas de 4 questões. A etapa fecha quando todas foram acertadas ao menos uma vez.
 // As estrelas mostram a memória atual da etapa (caem com o tempo e voltam com a revisão).

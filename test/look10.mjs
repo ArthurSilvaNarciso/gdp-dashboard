@@ -9,7 +9,7 @@ await p.goto('http://localhost:3962/'); await p.waitForTimeout(700);
 await p.click('[data-act=onb-next]'); await p.fill('#onb-name', 'Ruth'); await p.click('[data-act=persona][data-id=concurso]'); await p.click('[data-act=onb-next]');
 await p.click('[data-act=onb-finish]'); await p.waitForTimeout(500); await p.keyboard.press('Escape'); await p.waitForTimeout(300);
 await p.evaluate(() => { const x = document.querySelector('[data-act=diag-skip]'); if (x) x.click(); });
-await p.evaluate(() => { ui.tab = 'trilhas'; ui.cat = 'Concursos'; render(); });
+await p.evaluate(() => { ui.tab = 'trilhas'; ui.cat = 'all'; render(); });
 await p.waitForTimeout(1500);
 const h = await p.evaluate(() => document.getElementById('view').scrollHeight); await p.setViewportSize({ width: 390, height: Math.min(h, 4000) }); await p.waitForTimeout(1200);
 await p.screenshot({ path: OUT + 'l10-trilhas.png' }); await p.setViewportSize({ width: 390, height: 844 });

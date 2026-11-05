@@ -103,10 +103,11 @@ Object.assign(ACT, {
     ACT['share-week'].file = file;
     ui.sheet = `<div class="share-sheet"><h2>Seu cartão da semana</h2><p class="small muted">Poste no story ou no status e chame alguém para estudar junto.</p>
       <div class="share-prev"><img src="${url}" width="1080" height="1920" alt="Cartão com o resumo da sua semana no Memory"></div>
-      ${canShare ? '<button class="btn btn-orange btn-block" data-act="share-week-go">Compartilhar</button>' : `<a class="btn btn-orange btn-block" href="${url}" download="memory-semana.png">Salvar imagem</a><p class="tiny" style="text-align:center">No celular, você também pode tocar e segurar a imagem para salvar.</p>`}
+      ${canShare ? '<button class="btn btn-orange btn-block" data-act="share-week-go">Compartilhar</button><button class="btn btn-ghost btn-block" data-act="share-week-save">Salvar imagem</button>' : '<button class="btn btn-orange btn-block" data-act="share-week-save">Salvar imagem</button><p class="tiny" style="text-align:center">No celular, você também pode tocar e segurar a imagem para salvar.</p>'}
       <button class="btn btn-text btn-block" data-act="sheet-close">Fechar</button></div>`;
     render();
   },
+  'share-week-save': async () => { const f = ACT['share-week'].file; if (!f) return; const r = await saveFile('memory-semana.png', f); if (r === 'saved') notify('Imagem salva'); else if (r === 'unavailable') notify('Toque e segure a imagem para salvar.'); },
   'share-week-go': async () => { const f = ACT['share-week'].file; if (!f) return; try { await navigator.share({ files: [f], title: 'Minha semana no Memory' }); } catch (e) { /* cancelado */ } }
 });
 

@@ -155,7 +155,7 @@ function reminderSheet() {
   ui.sheet = `<div class="blk" style="gap:6px"><h2>Lembrete diário</h2><p class="muted small">Escolha um horário. O Memory cria um evento diário no calendário do seu celular, com alerta, para você não esquecer.</p></div>
     <div class="seg" role="group">${['07:00', '12:00', '19:00', '21:00'].map((t) => `<button data-act="remind-pick" data-t="${t}" aria-pressed="${cur === t}">${t}</button>`).join('')}</div>
     <div class="field"><label for="rm-time">Outro horário</label><input id="rm-time" class="input" type="time" value="${cur}"></div>
-    <button class="btn btn-orange btn-block" data-act="remind-save">Adicionar ao calendário</button>`;
+    <button class="btn btn-orange btn-block" data-act="remind-save">${inClaude() ? 'Salvar meu horário' : 'Adicionar ao calendário'}</button>`;
   renderSheet();
 }
 
@@ -171,10 +171,10 @@ Object.assign(ACT, {
   'remind-save': () => {
     const t = (document.getElementById('rm-time') || {}).value || '19:00';
     S.user.remind = t; persist();
-    const url = URL.createObjectURL(new Blob([reminderICS(t)], { type: 'text/calendar' }));
-    const a = document.createElement('a'); a.href = url; a.download = 'lembrete-memory.ics'; document.body.appendChild(a); a.click(); a.remove();
-    setTimeout(() => URL.revokeObjectURL(url), 4000);
-    ui.sheet = null; renderSheet(); render(); notify('Abra o arquivo para adicionar o lembrete das ' + t + '.');
+    ui.sheet = null; renderSheet(); render();
+    // Arquivo de agenda (.ics) só no site; dentro do Claude o lembrete fica no próprio app.
+    if (inClaude()) return notify('Horário das ' + t + ' salvo. Para receber o lembrete no celular, use o Memory instalado pelo site.');
+    saveFile('lembrete-memory.ics', new Blob([reminderICS(t)], { type: 'text/calendar' })).then(() => notify('Abra o arquivo para adicionar o lembrete das ' + t + '.'));
   },
   'shop-buy': () => {
     const items = lockedInCfg(AVED.cfg); const buyable = items.filter((x) => x.r.price);

@@ -1,0 +1,557 @@
+{
+  "id": "dcons",
+  "title": "Direito do Consumidor",
+  "subtitle": "CDC na prática: direitos, prazos e responsabilidade",
+  "tag": "Concursos",
+  "blurb": "Fato e vício, prazos de 30 e 90 dias, oferta, publicidade, cláusulas abusivas e superendividamento em casos reais, com o artigo exato do CDC.",
+  "questions": [
+    {
+      "id": "dcons1",
+      "topic": "Destinatário final",
+      "c": "Em Londrina (PR), a Eletrocel Ltda. comprou 200 celulares de uma distribuidora para revender em sua loja. No mesmo dia, a professora Sandra comprou um desses aparelhos na Eletrocel para uso pessoal.",
+      "q": "Pelo conceito do art. 2º do CDC, quem é consumidor nessas compras?",
+      "a": 0,
+      "src": "CDC (Lei 8.078/1990), art. 2º, caput",
+      "o": [
+        { "t": "Só Sandra, porque adquiriu o aparelho como destinatária final; a Eletrocel comprou para revender.", "p": "correta", "w": "Art. 2º: consumidor é quem adquire ou utiliza produto ou serviço como destinatário final. Quem compra para revender recoloca o bem no mercado e não é destinatário final." },
+        { "t": "Só Sandra, porque pessoa jurídica nunca pode ser consumidora segundo o CDC.", "p": "generalizacao", "w": "O art. 2º diz que consumidor é toda pessoa física ou jurídica. A Eletrocel não é consumidora porque compra para revender, e não por ser empresa." },
+        { "t": "As duas, porque toda compra de produto no mercado configura relação de consumo.", "p": "extrapolacao", "w": "Nem toda compra é de consumo: o CDC exige destinação final. A compra para revenda é relação entre empresários, fora do conceito do art. 2º." },
+        { "t": "Só a Eletrocel, pois quem compra em grande quantidade é que fica mais exposto ao mercado.", "p": "inversao", "w": "Inverte o critério: a quantidade não define o consumidor. O que importa é a destinação final, que só Sandra tem." }
+      ]
+    },
+    {
+      "id": "dcons2",
+      "topic": "Vítima do evento",
+      "c": "Em Recife (PE), Mariana comprou um botijão de gás que, por defeito na válvula, explodiu durante um almoço em sua casa. Seu vizinho Rogério, que estava de visita, sofreu queimaduras.",
+      "q": "Rogério, que não comprou o botijão, pode invocar o CDC contra o fabricante?",
+      "a": 2,
+      "src": "CDC (Lei 8.078/1990), arts. 12 e 17",
+      "o": [
+        { "t": "Não, porque só quem tem contrato com o fornecedor pode ser tratado como consumidor.", "p": "restricao", "w": "Acrescenta a exigência de vínculo contratual, que o CDC dispensa: o art. 17 equipara aos consumidores todas as vítimas do evento." },
+        { "t": "Sim, mas como consumidor equiparado do art. 29, o que o obriga a provar a culpa do fabricante.", "p": "troca", "w": "O art. 29 trata de quem é exposto às práticas comerciais e contratuais. Para vítimas de acidente de consumo vale o art. 17, e a responsabilidade do art. 12 é objetiva." },
+        { "t": "Sim: o art. 17 equipara a consumidor toda vítima do acidente de consumo, e o fabricante responde independentemente de culpa.", "p": "correta", "w": "Art. 17: na seção do fato do produto e do serviço, equiparam-se aos consumidores todas as vítimas do evento. O fabricante responde objetivamente (art. 12)." },
+        { "t": "Sim, e qualquer pessoa presente ao almoço, mesmo sem sofrer dano algum, pode pedir indenização.", "p": "extrapolacao", "w": "O art. 17 protege as vítimas do evento, isto é, quem sofreu dano. Sem dano não há o que indenizar." }
+      ]
+    },
+    {
+      "id": "dcons3",
+      "topic": "Serviço no CDC",
+      "c": "Em Manaus (AM), Paulo, correntista do Banco Ribeirinho S.A., reclama de uma tarifa cobrada sem previsão contratual. Ao mesmo tempo, Luana, caixa da mesma agência, discute com o banco o pagamento de horas extras.",
+      "q": "Qual dessas relações é de consumo segundo o art. 3º, § 2º, do CDC?",
+      "a": 1,
+      "src": "CDC (Lei 8.078/1990), art. 3º, § 2º",
+      "o": [
+        { "t": "As duas, porque o banco é fornecedor em qualquer relação que mantenha com pessoas físicas.", "p": "generalizacao", "w": "O próprio § 2º do art. 3º exclui as relações de caráter trabalhista. A relação de Luana com o banco é de emprego." },
+        { "t": "Só a de Paulo: serviço bancário é serviço de consumo, mas as relações de caráter trabalhista ficam fora do CDC.", "p": "correta", "w": "Art. 3º, § 2º: serviço é atividade remunerada fornecida no mercado de consumo, inclusive bancária, financeira, de crédito e securitária, salvo as decorrentes das relações de caráter trabalhista." },
+        { "t": "Nenhuma, porque a atividade bancária é regida só pelas normas do Banco Central, e não pelo CDC.", "p": "troca", "w": "O CDC menciona expressamente a atividade bancária como serviço. A regulação do sistema financeiro não afasta a proteção do consumidor." },
+        { "t": "Só a de Paulo, e apenas se ele tiver aberto a conta pessoalmente na agência, e não pelo aplicativo.", "p": "restricao", "w": "O CDC não usa o canal de contratação para definir serviço. A conta aberta por aplicativo também é relação de consumo." }
+      ]
+    },
+    {
+      "id": "dcons4",
+      "topic": "Vulnerabilidade do consumidor",
+      "c": "Em Florianópolis (SC), o engenheiro eletricista Caio processou a loja que lhe vendeu um inversor solar, comprado para a própria casa, com defeito. A loja alegou que, por ser especialista no assunto, Caio não seria vulnerável e não poderia invocar o CDC.",
+      "q": "Como o CDC trata a vulnerabilidade nesse caso?",
+      "a": 3,
+      "src": "CDC (Lei 8.078/1990), arts. 4º, I, e 6º, VIII",
+      "o": [
+        { "t": "Caio só seria vulnerável se provasse ser economicamente pobre, condição que a lei exige para aplicar o CDC.", "p": "restricao", "w": "A vulnerabilidade do art. 4º, I, não depende de pobreza nem é requisito a ser provado para aplicar o CDC. Condição econômica pode pesar na hipossuficiência, outro conceito." },
+        { "t": "Vulnerabilidade e hipossuficiência são a mesma coisa, e ambas precisam ser verificadas pelo juiz caso a caso.", "p": "troca", "w": "São conceitos diferentes: a vulnerabilidade é reconhecida pela lei no mercado de consumo (art. 4º, I); a hipossuficiência é avaliada no caso para inverter o ônus da prova (art. 6º, VIII)." },
+        { "t": "Como especialista, Caio passa a ser a parte forte da relação, e a loja é que se torna vulnerável.", "p": "inversao", "w": "Inverte a lógica do sistema: o conhecimento técnico de Caio não transforma o fornecedor na parte que a lei protege." },
+        { "t": "O art. 4º, I, reconhece a vulnerabilidade do consumidor no mercado de consumo; o saber técnico de Caio não o tira da proteção do CDC.", "p": "correta", "w": "A Política Nacional das Relações de Consumo parte do reconhecimento da vulnerabilidade do consumidor (art. 4º, I). Caio é destinatário final e, portanto, consumidor protegido." }
+      ]
+    },
+    {
+      "id": "dcons5",
+      "topic": "Inversão do ônus",
+      "c": "Em Goiânia (GO), Teresa processou a operadora de internet por cobranças de um pacote que diz nunca ter contratado. Ela juntou faturas e protocolos de reclamação; a gravação da suposta contratação está só com a empresa.",
+      "q": "Segundo o art. 6º, VIII, do CDC, como funciona a inversão do ônus da prova a favor de Teresa?",
+      "a": 2,
+      "src": "CDC (Lei 8.078/1990), art. 6º, VIII",
+      "o": [
+        { "t": "É automática em toda ação de consumo, sem necessidade de decisão do juiz.", "p": "generalizacao", "w": "O art. 6º, VIII, condiciona a inversão ao critério do juiz, diante da verossimilhança ou da hipossuficiência. Não é automática em toda ação." },
+        { "t": "O juiz só pode inverter se Teresa demonstrar, ao mesmo tempo, verossimilhança da alegação e hipossuficiência.", "p": "restricao", "w": "A lei usa 'ou': basta a alegação ser verossímil ou o consumidor ser hipossuficiente. Exigir os dois requisitos cria condição que não existe." },
+        { "t": "O juiz pode inverter, a seu critério, se a alegação for verossímil ou se Teresa for hipossuficiente, segundo as regras de experiência.", "p": "correta", "w": "Art. 6º, VIII: facilitação da defesa, inclusive com inversão do ônus da prova no processo civil, quando, a critério do juiz, for verossímil a alegação ou for o consumidor hipossuficiente." },
+        { "t": "A inversão só existe nos processos criminais contra fornecedores, e não em ações civis de cobrança indevida.", "p": "troca", "w": "O próprio inciso VIII fala em inversão 'no processo civil'. A alternativa troca o campo de aplicação da regra." }
+      ]
+    },
+    {
+      "id": "dcons6",
+      "topic": "Fato do produto",
+      "c": "Em Natal (RN), a tampa de uma panela de pressão da marca Cozimax se soltou durante o uso normal e feriu Josefa. O fabricante alegou que seguiu todos os protocolos de produção e que não houve culpa de seus funcionários.",
+      "q": "Essa defesa afasta a responsabilidade do fabricante?",
+      "a": 0,
+      "src": "CDC (Lei 8.078/1990), art. 12, caput e § 3º",
+      "o": [
+        { "t": "Não. A responsabilidade é objetiva; ele só se exime provando que não pôs o produto no mercado, que não há defeito ou culpa exclusiva da vítima ou de terceiro.", "p": "correta", "w": "Art. 12: o fabricante responde, independentemente da existência de culpa, pelos danos causados por defeitos do produto. As excludentes estão no § 3º." },
+        { "t": "Sim, porque Josefa precisaria provar a culpa do fabricante para receber indenização.", "p": "restricao", "w": "Acrescenta um requisito que a lei afasta: no fato do produto, o fabricante responde sem que a vítima precise provar culpa." },
+        { "t": "Sim, porque quem responde pelo acidente é a loja que vendeu a panela, e não o fabricante.", "p": "troca", "w": "Troca os papéis: o fabricante responde diretamente (art. 12); o comerciante só responde nas hipóteses do art. 13." },
+        { "t": "Não, e o fabricante responderia mesmo se provasse que o acidente decorreu só do mau uso feito por Josefa.", "p": "extrapolacao", "w": "Vai além da lei: a culpa exclusiva do consumidor é excludente expressa do art. 12, § 3º, III." }
+      ]
+    },
+    {
+      "id": "dcons7",
+      "topic": "Responsabilidade do comerciante",
+      "c": "Em Campinas (SP), Rafael passou mal após tomar um suco de caixinha com defeito de fabricação, comprado no Supermercado Bom Preço. A embalagem identificava claramente o fabricante, e o produto estava bem conservado.",
+      "q": "Pelo CDC, o supermercado responde pelo dano à saúde de Rafael?",
+      "a": 3,
+      "src": "CDC (Lei 8.078/1990), arts. 12 e 13",
+      "o": [
+        { "t": "Sim, porque todos os fornecedores da cadeia respondem solidariamente pelo acidente de consumo, em qualquer situação.", "p": "extrapolacao", "w": "Vai além do que a lei diz: no fato do produto, o comerciante não está entre os responsáveis do art. 12 e só responde nas hipóteses do art. 13." },
+        { "t": "Sim, porque no vício do produto o comerciante responde solidariamente com o fabricante.", "p": "troca", "w": "Usa a regra do vício (art. 18) num caso de fato do produto: houve dano à saúde, e não mera inadequação do suco." },
+        { "t": "Não, porque o comerciante nunca responde por acidente de consumo, nem quando o fabricante não pode ser identificado.", "p": "generalizacao", "w": "O art. 13 prevê casos em que o comerciante responde: fabricante não identificado, produto sem identificação clara ou perecível mal conservado." },
+        { "t": "Não: o comerciante só responde se o fabricante não puder ser identificado, se faltar identificação clara ou se conservar mal o perecível.", "p": "correta", "w": "Art. 13, I a III: a responsabilidade do comerciante pelo fato do produto se limita a essas hipóteses. Com fabricante identificado e suco bem conservado, responde o fabricante." }
+      ]
+    },
+    {
+      "id": "dcons8",
+      "topic": "Profissional liberal",
+      "c": "Em Teresina (PI), a dentista autônoma Lúcia fez um implante em Marcos, que teve complicações. No mesmo mês, um aparelho mal mantido da academia FitMais, empresa da cidade, se rompeu e feriu Marcos durante o treino.",
+      "q": "Como se apura a responsabilidade de cada uma pelo CDC?",
+      "a": 1,
+      "src": "CDC (Lei 8.078/1990), art. 14, caput e § 4º",
+      "o": [
+        { "t": "As duas respondem independentemente de culpa, porque todo prestador de serviço tem responsabilidade objetiva.", "p": "generalizacao", "w": "O art. 14, § 4º, abre exceção: a responsabilidade pessoal dos profissionais liberais é apurada mediante verificação de culpa." },
+        { "t": "A academia responde independentemente de culpa; a responsabilidade pessoal da dentista autônoma depende de verificação de culpa.", "p": "correta", "w": "Art. 14, caput: o fornecedor de serviços responde independentemente de culpa. O § 4º excepciona a responsabilidade pessoal do profissional liberal, apurada mediante verificação de culpa." },
+        { "t": "A dentista responde independentemente de culpa, e a academia só responde se ficar provada a culpa dela.", "p": "inversao", "w": "Inverte a regra: a responsabilidade objetiva é a da empresa prestadora; a subjetiva é a do profissional liberal." },
+        { "t": "As duas só respondem por culpa, porque a responsabilidade objetiva do CDC vale apenas para produtos.", "p": "troca", "w": "O art. 14 aplica a responsabilidade objetiva também aos serviços. A exceção é só a do profissional liberal." }
+      ]
+    },
+    {
+      "id": "dcons9",
+      "topic": "Fato e vício",
+      "c": "Em Cuiabá (MT), Bianca comprou dois aparelhos novos: um ventilador que simplesmente não liga e um secador de cabelo cujo cabo superaqueceu e queimou a mão dela.",
+      "q": "Como o CDC enquadra cada problema?",
+      "a": 2,
+      "src": "CDC (Lei 8.078/1990), arts. 12, 18, 26, II, e 27",
+      "o": [
+        { "t": "O ventilador é fato do produto e o secador é vício do produto.", "p": "inversao", "w": "Inverte os conceitos: produto que não funciona tem vício (inadequação); produto que causa acidente e fere o consumidor gera fato do produto." },
+        { "t": "Os dois são vícios do produto, porque qualquer problema em produto novo se resolve pelo art. 18.", "p": "generalizacao", "w": "Nem todo problema é vício: quando o defeito atinge a segurança e causa dano, como a queimadura, trata-se de fato do produto (art. 12)." },
+        { "t": "O ventilador tem vício, com 90 dias para reclamar; a queimadura é fato do produto, com prescrição de 5 anos para a reparação.", "p": "correta", "w": "Vício é inadequação (art. 18), e o direito de reclamar de bem durável caduca em 90 dias (art. 26, II). O acidente é fato do produto (art. 12), e a reparação prescreve em 5 anos (art. 27)." },
+        { "t": "O ventilador tem vício, com 30 dias para reclamar por ser produto não durável; a queimadura é fato do produto.", "p": "troca", "w": "Ventilador é produto durável, e o prazo para reclamar de vício aparente é de 90 dias (art. 26, II). Trinta dias vale para não duráveis." }
+      ]
+    },
+    {
+      "id": "dcons10",
+      "topic": "Prazo para sanar",
+      "c": "Em Juiz de Fora (MG), o notebook de Felipe apresentou defeito e foi para a assistência técnica autorizada. Passados 30 dias sem conserto, a loja ofereceu apenas um vale-compras.",
+      "q": "Quais são os direitos de Felipe?",
+      "a": 1,
+      "src": "CDC (Lei 8.078/1990), art. 18, § 1º",
+      "o": [
+        { "t": "Aceitar o vale ou continuar esperando o conserto, porque, após os 30 dias, a escolha da solução cabe ao fornecedor.", "p": "inversao", "w": "Inverte o titular da escolha: o art. 18, § 1º, diz que o consumidor pode exigir, alternativamente e à sua escolha, uma das três opções." },
+        { "t": "Escolher entre a troca por outro em perfeitas condições, a devolução da quantia paga atualizada ou o abatimento proporcional do preço.", "p": "correta", "w": "Art. 18, § 1º: não sanado o vício em 30 dias, o consumidor escolhe entre substituição, restituição imediata atualizada (sem prejuízo de perdas e danos) ou abatimento proporcional." },
+        { "t": "Esperar mais 60 dias, porque o fornecedor tem 90 dias para sanar o vício de produto durável.", "p": "troca", "w": "Confunde prazos: 90 dias é o prazo decadencial para reclamar (art. 26, II). O prazo para sanar o vício é de 30 dias (art. 18, § 1º)." },
+        { "t": "Exigir a troca, mas só se o notebook ainda estiver na embalagem original, com todos os acessórios.", "p": "restricao", "w": "Acrescenta condição inexistente: o art. 18, § 1º, não exige embalagem original para garantir as alternativas ao consumidor." }
+      ]
+    },
+    {
+      "id": "dcons11",
+      "topic": "Solidariedade no vício",
+      "c": "Em Porto Alegre (RS), Helena comprou na Loja Pampa uma geladeira que, em uma semana, parou de gelar. O gerente disse que ela deveria procurar diretamente o fabricante, pois a loja \"só revende\".",
+      "q": "A recusa da loja está de acordo com o CDC?",
+      "a": 0,
+      "src": "CDC (Lei 8.078/1990), arts. 18, caput, e 24",
+      "o": [
+        { "t": "Não: no vício do produto os fornecedores respondem solidariamente, e Helena pode exigir a solução da loja.", "p": "correta", "w": "Art. 18, caput: os fornecedores de produtos de consumo duráveis ou não duráveis respondem solidariamente pelos vícios de qualidade ou quantidade." },
+        { "t": "Sim, porque o comerciante só responde quando o fabricante não puder ser identificado.", "p": "troca", "w": "Aplica ao vício a regra do art. 13, que é do fato do produto. No vício, a responsabilidade do comerciante é solidária." },
+        { "t": "Não, mas a loja só responde se Helena provar que o defeito surgiu por culpa da própria loja.", "p": "restricao", "w": "O art. 18 não exige culpa do comerciante: a solidariedade entre os fornecedores decorre da própria lei." },
+        { "t": "Sim, porque a garantia é sempre prestada só pelo fabricante, conforme o termo de garantia.", "p": "generalizacao", "w": "A garantia legal de adequação independe de termo expresso e não pode ser afastada (art. 24); ela vincula todos os fornecedores do art. 18." }
+      ]
+    },
+    {
+      "id": "dcons12",
+      "topic": "Vício do serviço",
+      "c": "Em Salvador (BA), a Pinturas Atlântico pintou o apartamento de Joana, mas deixou manchas e falhas em todas as paredes. Joana não confia mais na empresa para refazer o trabalho.",
+      "q": "Quais alternativas o art. 20 do CDC dá a Joana?",
+      "a": 3,
+      "src": "CDC (Lei 8.078/1990), art. 20, caput e § 1º",
+      "o": [
+        { "t": "Só a reexecução pela própria empresa, que tem o direito exclusivo de corrigir o serviço.", "p": "restricao", "w": "A lei prevê três alternativas à escolha do consumidor, e o § 1º permite a reexecução por terceiros capacitados, por conta e risco do fornecedor." },
+        { "t": "Só a substituição do produto por outro da mesma espécie, como no vício do produto.", "p": "troca", "w": "Substituição do produto é opção do art. 18. No serviço, as opções são reexecução, restituição ou abatimento (art. 20)." },
+        { "t": "Exigir a devolução integral do valor e, além dela, o pagamento em dobro do serviço como multa legal.", "p": "extrapolacao", "w": "Vai além da lei: o art. 20 prevê restituição atualizada, sem prejuízo de perdas e danos, mas não pagamento em dobro, que é regra da cobrança indevida (art. 42)." },
+        { "t": "Escolher entre reexecução, que pode ser feita por terceiros por conta e risco da empresa, devolução atualizada do valor ou abatimento.", "p": "correta", "w": "Art. 20: o consumidor escolhe entre reexecução sem custo, restituição imediata atualizada ou abatimento proporcional; o § 1º admite reexecução por terceiros por conta e risco do fornecedor." }
+      ]
+    },
+    {
+      "id": "dcons13",
+      "topic": "Prazo decadencial",
+      "c": "Em Fortaleza (CE), Lívia recebeu em casa um sofá com um rasgo visível no tecido. No mesmo dia, comprou num mercado um pacote de pães que veio mofado.",
+      "q": "Qual é o prazo para Lívia reclamar de cada vício aparente?",
+      "a": 3,
+      "src": "CDC (Lei 8.078/1990), art. 26, I e II, e § 1º",
+      "o": [
+        { "t": "30 dias para o sofá e 90 dias para os pães.", "p": "inversao", "w": "Inverte os prazos: 90 dias é para bens duráveis, como o sofá; 30 dias para não duráveis, como o pão." },
+        { "t": "90 dias para os dois, porque o CDC tem prazo único para qualquer vício aparente.", "p": "generalizacao", "w": "O art. 26 distingue: 30 dias para produtos não duráveis (I) e 90 dias para duráveis (II)." },
+        { "t": "5 anos para os dois, contados do conhecimento do dano e de sua autoria.", "p": "troca", "w": "Cinco anos é a prescrição da reparação de danos por fato do produto (art. 27), não o prazo para reclamar de vício." },
+        { "t": "90 dias para o sofá e 30 dias para os pães, contados da entrega efetiva dos produtos.", "p": "correta", "w": "Art. 26: 30 dias para produtos não duráveis e 90 dias para duráveis; pelo § 1º, a contagem começa com a entrega efetiva do produto." }
+      ]
+    },
+    {
+      "id": "dcons14",
+      "topic": "Vício oculto",
+      "c": "Em São Luís (MA), a máquina de lavar de Otávio, comprada havia oito meses, passou a vazar por uma falha interna de fabricação que não era perceptível antes. A loja respondeu que o prazo de 90 dias já tinha acabado.",
+      "q": "Como se conta o prazo decadencial nesse caso?",
+      "a": 2,
+      "src": "CDC (Lei 8.078/1990), art. 26, II e § 3º",
+      "o": [
+        { "t": "Da entrega da máquina, porque o prazo do art. 26 sempre corre a partir da compra.", "p": "generalizacao", "w": "Para vício oculto, o § 3º determina que o prazo começa no momento em que ficar evidenciado o defeito." },
+        { "t": "Em 5 anos do conhecimento do problema, por ser prazo prescricional de fato do produto.", "p": "troca", "w": "Vazamento sem acidente nem dano à pessoa é vício, não fato do produto. O prazo de 5 anos do art. 27 não se aplica." },
+        { "t": "Em 90 dias a partir do momento em que o defeito ficou evidenciado, por se tratar de vício oculto em bem durável.", "p": "correta", "w": "Art. 26, § 3º: tratando-se de vício oculto, o prazo decadencial inicia-se no momento em que ficar evidenciado o defeito. Para bem durável, o prazo é de 90 dias." },
+        { "t": "Em 90 dias do aparecimento do vazamento, mas só se Otávio tiver comprado garantia estendida.", "p": "restricao", "w": "O CDC não condiciona o direito a garantia contratual: a garantia legal de adequação independe de termo expresso (art. 24)." }
+      ]
+    },
+    {
+      "id": "dcons15",
+      "topic": "Prescrição do fato",
+      "c": "Em Vitória (ES), Cláudio sofreu lesões quando o pneu do seu carro, fabricado pela RodaForte, estourou por defeito de fabricação. Ele soube na hora do dano e de quem era o pneu, mas só decidiu processar a fabricante quatro anos depois.",
+      "q": "A pretensão de Cláudio ainda pode ser exercida?",
+      "a": 0,
+      "src": "CDC (Lei 8.078/1990), art. 27",
+      "o": [
+        { "t": "Sim: a reparação por fato do produto prescreve em 5 anos, contados do conhecimento do dano e de sua autoria.", "p": "correta", "w": "Art. 27: prescreve em 5 anos a pretensão à reparação pelos danos causados por fato do produto ou do serviço, contados do conhecimento do dano e de sua autoria." },
+        { "t": "Não, porque o prazo de 90 dias previsto para produtos duráveis já se esgotou.", "p": "troca", "w": "90 dias é o prazo decadencial para reclamar de vício (art. 26, II), não o prazo para pedir reparação por acidente de consumo." },
+        { "t": "Sim, e poderia agir a qualquer tempo, porque danos à saúde do consumidor não prescrevem.", "p": "extrapolacao", "w": "Vai além da lei: o art. 27 fixa prazo prescricional de 5 anos para a reparação por fato do produto." },
+        { "t": "Não, porque a pretensão prescreve em 3 anos, como qualquer pedido de reparação civil.", "p": "generalizacao", "w": "O Código Civil prevê 3 anos para a reparação civil em geral (art. 206, § 3º, V), mas o CDC tem regra própria para o fato do produto: 5 anos (art. 27)." }
+      ]
+    },
+    {
+      "id": "dcons16",
+      "topic": "Desconsideração da personalidade",
+      "c": "Em Maceió (AL), a construtora Mar Azul Ltda. encerrou as atividades sem entregar os apartamentos vendidos e não tem bens para indenizar os compradores. Os sócios, porém, têm patrimônio pessoal.",
+      "q": "Pelo CDC, os compradores podem alcançar o patrimônio dos sócios?",
+      "a": 1,
+      "src": "CDC (Lei 8.078/1990), art. 28, caput e § 5º",
+      "o": [
+        { "t": "Só se provarem desvio de finalidade ou confusão patrimonial, únicos requisitos da desconsideração no CDC.", "p": "troca", "w": "Desvio de finalidade e confusão patrimonial são requisitos do art. 50 do Código Civil. No CDC, o § 5º do art. 28 basta que a personalidade seja obstáculo ao ressarcimento." },
+        { "t": "Sim: o juiz pode desconsiderar a pessoa jurídica sempre que a personalidade dela for, de alguma forma, obstáculo ao ressarcimento.", "p": "correta", "w": "Art. 28, § 5º: também poderá ser desconsiderada a pessoa jurídica sempre que sua personalidade for, de alguma forma, obstáculo ao ressarcimento de prejuízos causados aos consumidores." },
+        { "t": "Não, porque o patrimônio dos sócios de sociedade limitada nunca responde pelas dívidas da empresa.", "p": "generalizacao", "w": "A separação patrimonial não é absoluta: o art. 28 do CDC autoriza o juiz a desconsiderar a personalidade jurídica em várias hipóteses." },
+        { "t": "Sim, e o próprio Procon pode decretar a desconsideração em processo administrativo, sem ordem judicial.", "p": "extrapolacao", "w": "O art. 28 atribui a desconsideração ao juiz. O Procon aplica sanções administrativas, mas não desconsidera a personalidade jurídica com base no CDC." }
+      ]
+    },
+    {
+      "id": "dcons17",
+      "topic": "Oferta vinculante",
+      "c": "Em João Pessoa (PB), o encarte da Loja Nordeste anunciava uma TV de 50 polegadas por R$ 2.499,00. No caixa, a loja quis cobrar do consumidor Eduardo R$ 2.899,00, dizendo que o encarte era apenas \"ilustrativo\".",
+      "q": "O que Eduardo, que levou o encarte à loja, pode fazer?",
+      "a": 1,
+      "src": "CDC (Lei 8.078/1990), arts. 30 e 35",
+      "o": [
+        { "t": "Aceitar a solução que a loja escolher entre as opções legais, já que foi ela quem descumpriu a oferta.", "p": "inversao", "w": "Inverte o titular da escolha: o art. 35 dá ao consumidor a livre escolha entre as alternativas." },
+        { "t": "Exigir a TV pelo preço anunciado, aceitar produto equivalente ou desistir, com devolução do que antecipou e perdas e danos.", "p": "correta", "w": "Art. 30: a oferta suficientemente precisa obriga o fornecedor. Art. 35: na recusa, o consumidor escolhe entre cumprimento forçado, produto equivalente ou rescisão com restituição e perdas e danos." },
+        { "t": "Nada, porque a oferta só obriga a loja depois que um contrato é assinado com o consumidor.", "p": "restricao", "w": "Art. 30: a informação ou publicidade suficientemente precisa, veiculada por qualquer meio, obriga o fornecedor e integra o contrato que vier a ser celebrado." },
+        { "t": "Pedir apenas o abatimento proporcional do preço, como no vício do produto.", "p": "troca", "w": "Abatimento é uma das opções do vício (art. 18, § 1º, III). No descumprimento da oferta, valem as opções do art. 35." }
+      ]
+    },
+    {
+      "id": "dcons18",
+      "topic": "Publicidade abusiva",
+      "c": "Em Campo Grande (MS), uma fabricante de brinquedos veiculou anúncio em que um personagem diz às crianças que só quem tiver o boneco Robozão será amigo dos colegas na escola. Todas as informações sobre o brinquedo eram verdadeiras.",
+      "q": "Como o CDC classifica essa publicidade?",
+      "a": 0,
+      "src": "CDC (Lei 8.078/1990), art. 37, §§ 1º e 2º",
+      "o": [
+        { "t": "Abusiva, porque se aproveita da deficiência de julgamento e experiência da criança.", "p": "correta", "w": "Art. 37, § 2º: é abusiva, entre outras, a publicidade que se aproveite da deficiência de julgamento e experiência da criança." },
+        { "t": "Enganosa, porque induz a criança em erro sobre as características do brinquedo.", "p": "troca", "w": "Enganosa é a publicidade falsa ou capaz de induzir em erro sobre dados do produto (§ 1º). Aqui as informações são verdadeiras; o problema é explorar a criança, o que torna o anúncio abusivo." },
+        { "t": "Lícita, porque a publicidade só é proibida quando contém informação falsa sobre o produto.", "p": "restricao", "w": "O CDC proíbe também a publicidade abusiva, ainda que verdadeira. A falsidade não é o único critério de ilicitude." },
+        { "t": "Ilegal, porque o CDC proíbe expressamente qualquer publicidade dirigida a crianças.", "p": "generalizacao", "w": "O art. 37 não proíbe toda publicidade dirigida ao público infantil; proíbe a que se aproveita da deficiência de julgamento e experiência da criança." }
+      ]
+    },
+    {
+      "id": "dcons19",
+      "topic": "Venda casada",
+      "c": "Em Aracaju (SE), o gerente do Banco Litoral só aprovou o empréstimo pessoal de Marta depois que ela contratou um seguro de vida do próprio banco, que ela não queria.",
+      "q": "Como o CDC qualifica a conduta do gerente?",
+      "a": 2,
+      "src": "CDC (Lei 8.078/1990), art. 39, I",
+      "o": [
+        { "t": "É lícita, desde que o preço do seguro seja compatível com o praticado no mercado.", "p": "restricao", "w": "O preço não legitima a conduta: condicionar um serviço à contratação de outro é prática abusiva, qualquer que seja o valor." },
+        { "t": "É publicidade enganosa por omissão, por não ter informado antes o custo do seguro.", "p": "troca", "w": "Não se trata de publicidade. A conduta é condicionar o fornecimento de um serviço à contratação de outro, prática abusiva do art. 39, I." },
+        { "t": "É prática abusiva de venda casada: condicionar o fornecimento de um serviço à contratação de outro.", "p": "correta", "w": "Art. 39, I: é vedado ao fornecedor condicionar o fornecimento de produto ou de serviço ao fornecimento de outro produto ou serviço." },
+        { "t": "É lícita, porque o banco pode sempre exigir do cliente qualquer contratação adicional antes de emprestar dinheiro.", "p": "generalizacao", "w": "Não existe essa liberdade irrestrita: a lei veda expressamente condicionar um serviço a outro (art. 39, I)." }
+      ]
+    },
+    {
+      "id": "dcons20",
+      "topic": "Repetição em dobro",
+      "c": "Em Belém (PA), a fatura de telefone de Raimundo, cujo plano custa R$ 99,90, veio com R$ 159,90, por incluir um serviço de R$ 60,00 que ele nunca contratou. Ele pagou a fatura inteira e depois reclamou.",
+      "q": "Não havendo engano justificável da operadora, quanto Raimundo tem direito a receber pelo art. 42?",
+      "a": 3,
+      "src": "CDC (Lei 8.078/1990), art. 42, parágrafo único",
+      "o": [
+        { "t": "R$ 319,80, o dobro do valor total da fatura, com correção monetária e juros.", "p": "calculo", "w": "Erro de base: o dobro incide sobre o que foi pago em excesso (R$ 60,00), e não sobre toda a fatura." },
+        { "t": "R$ 60,00, porque a devolução em dobro só cabe se Raimundo provar má-fé da operadora.", "p": "restricao", "w": "O parágrafo único do art. 42 só afasta o dobro na hipótese de engano justificável. Exigir prova de má-fé acrescenta requisito ao texto da lei." },
+        { "t": "R$ 60,00, porque o pagamento em dobro só se aplica a dívidas cobradas em ação judicial.", "p": "troca", "w": "A exigência de demanda judicial vem do art. 940 do Código Civil. No CDC, basta a cobrança indevida e o pagamento em excesso, mesmo fora do processo." },
+        { "t": "R$ 120,00, o dobro do que pagou em excesso, com correção monetária e juros legais.", "p": "correta", "w": "Art. 42, parágrafo único: o consumidor cobrado em quantia indevida tem direito ao dobro do que pagou em excesso, com correção e juros, salvo engano justificável. 2 × R$ 60,00 = R$ 120,00." }
+      ]
+    },
+    {
+      "id": "dcons21",
+      "topic": "Cadastro de inadimplentes",
+      "c": "Em Ribeirão Preto (SP), Alice descobriu que seu nome constava num cadastro de inadimplentes com o valor da dívida errado. Ela pediu a correção ao arquivista, a empresa que mantém o banco de dados.",
+      "q": "O que o art. 43 do CDC assegura a Alice?",
+      "a": 0,
+      "src": "CDC (Lei 8.078/1990), art. 43, §§ 3º e 4º",
+      "o": [
+        { "t": "A correção imediata, devendo o arquivista comunicar a alteração aos destinatários das informações incorretas em 5 dias úteis.", "p": "correta", "w": "Art. 43, § 3º: o consumidor pode exigir a imediata correção, e o arquivista tem cinco dias úteis para comunicar a alteração aos eventuais destinatários das informações incorretas." },
+        { "t": "A correção em até 30 dias, que é o prazo que o arquivista tem para analisar a reclamação.", "p": "troca", "w": "Não há prazo de 30 dias: a correção é imediata, e 5 dias úteis é o prazo para comunicar a alteração aos destinatários." },
+        { "t": "A correção, mas só depois que ela quitar a dívida, ainda que o valor registrado esteja errado.", "p": "restricao", "w": "O § 3º não condiciona a correção ao pagamento: dado inexato deve ser corrigido imediatamente." },
+        { "t": "A retirada imediata do nome de qualquer cadastro, porque o CDC proíbe bancos de dados de inadimplentes.", "p": "generalizacao", "w": "O CDC admite os bancos de dados e cadastros, considerados entidades de caráter público (§ 4º), desde que objetivos, claros e verdadeiros." }
+      ]
+    },
+    {
+      "id": "dcons22",
+      "topic": "Direito de arrependimento",
+      "c": "Em Joinville (SC), Pedro comprou uma cafeteira pelo site de uma loja em 3 de março e a recebeu em casa em 5 de março. Em 8 de março, sem defeito algum no produto, decidiu desistir da compra.",
+      "q": "Pedro pode desistir?",
+      "a": 3,
+      "src": "CDC (Lei 8.078/1990), art. 49",
+      "o": [
+        { "t": "Só se a cafeteira apresentar defeito, pois sem vício não existe direito de devolução.", "p": "restricao", "w": "O direito de arrependimento independe de vício: basta a contratação fora do estabelecimento comercial e o exercício em 7 dias." },
+        { "t": "Sim, e teria o mesmo direito se tivesse comprado a cafeteira na loja física.", "p": "generalizacao", "w": "O art. 49 só se aplica a contratações fora do estabelecimento comercial, como pela internet, por telefone ou a domicílio." },
+        { "t": "Sim, porque o CDC dá 30 dias para devolver qualquer produto, mesmo sem defeito.", "p": "troca", "w": "Confunde com o prazo decadencial de vício de não duráveis (art. 26, I). O arrependimento é de 7 dias, e só fora do estabelecimento." },
+        { "t": "Sim: na compra fora do estabelecimento, ele tem 7 dias para desistir, com devolução imediata e atualizada do que pagou.", "p": "correta", "w": "Art. 49: o consumidor pode desistir em 7 dias da assinatura ou do recebimento quando contrata fora do estabelecimento comercial; o parágrafo único manda devolver de imediato os valores, atualizados." }
+      ]
+    },
+    {
+      "id": "dcons23",
+      "topic": "Cláusula abusiva",
+      "c": "Em Uberlândia (MG), o contrato de adesão da escola de idiomas Fluent prevê que qualquer conflito com o aluno será resolvido obrigatoriamente por arbitragem, em câmara escolhida pela escola.",
+      "q": "Qual é a consequência dessa cláusula pelo CDC?",
+      "a": 1,
+      "src": "CDC (Lei 8.078/1990), art. 51, VII e § 2º",
+      "o": [
+        { "t": "É válida, salvo se o aluno provar prejuízo concreto causado pela arbitragem.", "p": "restricao", "w": "O art. 51 declara nulas de pleno direito as cláusulas que determinem arbitragem compulsória, sem exigir prova de prejuízo." },
+        { "t": "É nula de pleno direito, mas, em regra, o restante do contrato continua válido.", "p": "correta", "w": "Art. 51, VII: é nula a cláusula que determine a utilização compulsória de arbitragem. Pelo § 2º, a nulidade não invalida o contrato, salvo ônus excessivo a qualquer das partes." },
+        { "t": "É nula e anula todo o contrato, obrigando a escola a devolver todas as mensalidades já pagas.", "p": "extrapolacao", "w": "Vai além da lei: pelo § 2º do art. 51, a nulidade de cláusula abusiva, em regra, não invalida o contrato." },
+        { "t": "É apenas anulável, e o aluno precisa pedir a anulação em até 90 dias da assinatura.", "p": "troca", "w": "Confunde nulidade com anulabilidade e usa prazo de vício. As cláusulas do art. 51 são nulas de pleno direito." }
+      ]
+    },
+    {
+      "id": "dcons24",
+      "topic": "Multa de mora",
+      "c": "Em Caxias do Sul (RS), Neusa comprou móveis no crediário da Loja Serra em 12 parcelas de R$ 450,00, num total financiado de R$ 5.400,00. O contrato prevê multa de 10% sobre a parcela em atraso, e ela atrasou uma prestação.",
+      "q": "Qual é a multa de mora máxima que a loja pode cobrar por essa parcela?",
+      "a": 2,
+      "src": "CDC (Lei 8.078/1990), art. 52, caput e § 1º",
+      "o": [
+        { "t": "R$ 45,00, porque vale sempre a multa livremente pactuada no contrato.", "p": "generalizacao", "w": "O CDC limita a multa de mora a 2% do valor da prestação (art. 52, § 1º); a cláusula de 10% não prevalece." },
+        { "t": "R$ 108,00, que correspondem a 2% do valor total financiado.", "p": "calculo", "w": "Erro de base: os 2% incidem sobre o valor da prestação em atraso (R$ 450,00), e não sobre todo o valor financiado." },
+        { "t": "R$ 9,00, que correspondem a 2% do valor da prestação.", "p": "correta", "w": "Art. 52, § 1º: as multas de mora não podem ser superiores a 2% do valor da prestação. 2% de R$ 450,00 = R$ 9,00." },
+        { "t": "R$ 45,00, porque o limite de 2% só vale para empréstimos bancários, e não para crediário de loja.", "p": "restricao", "w": "O art. 52 alcança todo fornecimento de produtos ou serviços que envolva outorga de crédito ou financiamento, como o crediário." }
+      ]
+    },
+    {
+      "id": "dcons25",
+      "topic": "Sanções administrativas",
+      "c": "Em Palmas (TO), o Procon estadual constatou, em processo administrativo, que uma rede de farmácias vendia remédios com prazo de validade vencido e decidiu aplicar multa.",
+      "q": "Segundo o CDC, como essa multa deve ser graduada?",
+      "a": 0,
+      "src": "CDC (Lei 8.078/1990), arts. 56 e 57",
+      "o": [
+        { "t": "De acordo com a gravidade da infração, a vantagem auferida e a condição econômica do fornecedor.", "p": "correta", "w": "Art. 57: a multa é graduada de acordo com a gravidade da infração, a vantagem auferida e a condição econômica do fornecedor, e aplicada mediante procedimento administrativo." },
+        { "t": "Em valor fixo, igual para todo fornecedor, para garantir tratamento isonômico.", "p": "generalizacao", "w": "O CDC manda graduar a multa conforme as circunstâncias do caso; não há valor único para todos os infratores." },
+        { "t": "Só depois de condenação judicial transitada em julgado, porque o Procon não pode multar.", "p": "restricao", "w": "As sanções do art. 56 são administrativas, aplicadas pela autoridade administrativa em procedimento próprio, sem depender de sentença judicial." },
+        { "t": "Pelo valor do prejuízo de cada consumidor, já que a multa substitui a indenização civil.", "p": "troca", "w": "Multa administrativa não se confunde com indenização: o art. 56 aplica as sanções sem prejuízo das de natureza civil e penal." }
+      ]
+    },
+    {
+      "id": "dcons26",
+      "topic": "Conceito de superendividamento",
+      "c": "Em Petrolina (PE), três devedores pedem a proteção das regras do superendividamento: Ana, assalariada que não consegue pagar empréstimos e cartão sem comprometer o próprio sustento; a padaria Pão Quente Ltda.; e Jorge, que se endividou para comprar uma lancha de luxo de alto valor.",
+      "q": "Quem se enquadra no conceito do CDC?",
+      "a": 3,
+      "src": "CDC (Lei 8.078/1990), art. 54-A, §§ 1º e 3º (Lei 14.181/2021)",
+      "o": [
+        { "t": "Os três, porque qualquer devedor de dívidas de consumo pode pedir a repactuação.", "p": "generalizacao", "w": "O § 1º restringe o conceito à pessoa natural de boa-fé, e o § 3º exclui dívidas decorrentes de produtos e serviços de luxo de alto valor." },
+        { "t": "Ana e a padaria, porque o superendividamento alcança pessoas físicas e jurídicas que exercem atividade econômica.", "p": "troca", "w": "O superendividamento do CDC é da pessoa natural. A crise de empresas tem regime próprio, como a recuperação judicial e a falência." },
+        { "t": "Só Ana, e apenas se ela já estiver com o nome negativado em cadastro de inadimplentes.", "p": "restricao", "w": "A lei não exige negativação: basta a impossibilidade manifesta de pagar as dívidas de consumo sem comprometer o mínimo existencial." },
+        { "t": "Só Ana: o conceito alcança a pessoa natural de boa-fé e exclui dívidas de produtos ou serviços de luxo de alto valor.", "p": "correta", "w": "Art. 54-A, § 1º: superendividamento é a impossibilidade manifesta de o consumidor pessoa natural, de boa-fé, pagar suas dívidas de consumo sem comprometer o mínimo existencial. O § 3º exclui o luxo de alto valor." }
+      ]
+    },
+    {
+      "id": "dcons27",
+      "topic": "Repactuação de dívidas",
+      "c": "Em Feira de Santana (BA), o juiz instaurou processo de repactuação a pedido do superendividado Valdir e marcou audiência conciliatória com todos os credores. O Banco Sertão, cuja dívida tem valor certo e conhecido por Valdir, faltou sem justificativa.",
+      "q": "Qual é a consequência da ausência injustificada do banco?",
+      "a": 2,
+      "src": "CDC (Lei 8.078/1990), art. 104-A, caput e § 2º (Lei 14.181/2021)",
+      "o": [
+        { "t": "O banco ganha prioridade no plano e recebe antes dos credores que compareceram à audiência.", "p": "inversao", "w": "Inverte a regra: o credor ausente fica sujeito ao plano e só recebe depois dos credores presentes à audiência." },
+        { "t": "Nenhuma, porque o credor só fica vinculado ao plano de pagamento se assinar o acordo.", "p": "restricao", "w": "O § 2º do art. 104-A prevê consequências para o credor faltoso, inclusive a sujeição compulsória ao plano, sem depender de sua assinatura." },
+        { "t": "Suspende-se a exigibilidade do débito, interrompem-se os encargos da mora e o banco se sujeita ao plano, recebendo após os presentes.", "p": "correta", "w": "Art. 104-A, § 2º: a ausência injustificada acarreta suspensão da exigibilidade, interrupção dos encargos da mora e sujeição compulsória ao plano, com pagamento só após os credores presentes." },
+        { "t": "A dívida com o banco é extinta, como punição pela ausência na audiência.", "p": "extrapolacao", "w": "Vai além da lei: a dívida não é perdoada; ela entra no plano e será paga depois da dos credores presentes." }
+      ]
+    },
+    {
+      "id": "dcons28",
+      "topic": "Orçamento prévio",
+      "c": "Em Sorocaba (SP), a Oficina Motor Bom entregou a Renata um orçamento escrito para reparar os freios do carro, sem nada dizer sobre validade. Doze dias depois, Renata voltou para autorizar o serviço, e a oficina quis cobrar valor maior.",
+      "q": "Pelo CDC, a oficina ainda está obrigada ao valor orçado?",
+      "a": 1,
+      "src": "CDC (Lei 8.078/1990), arts. 39, VI, e 40, § 1º",
+      "o": [
+        { "t": "Sim, porque o orçamento obriga o fornecedor por tempo indeterminado.", "p": "generalizacao", "w": "Salvo estipulação em contrário, o valor orçado vale por 10 dias contados do recebimento pelo consumidor (art. 40, § 1º); não há validade indefinida." },
+        { "t": "Não, porque, sem estipulação em contrário, o orçamento vale por 10 dias contados do recebimento pelo consumidor.", "p": "correta", "w": "Art. 40, § 1º: salvo estipulação em contrário, o valor orçado terá validade pelo prazo de dez dias, contado de seu recebimento pelo consumidor. Já se passaram doze dias." },
+        { "t": "Sim, porque o orçamento vale por 30 dias, o mesmo prazo dado ao fornecedor para sanar vícios.", "p": "troca", "w": "Trinta dias é o prazo do art. 18, § 1º, para sanar vício do produto. A validade do orçamento, sem estipulação diversa, é de 10 dias." },
+        { "t": "Não, porque o orçamento só vincularia a oficina se tivesse sido registrado em cartório.", "p": "restricao", "w": "O CDC não exige registro do orçamento. O que afasta a vinculação aqui é o fim da validade de 10 dias do art. 40, § 1º." }
+      ]
+    },
+    {
+      "id": "dcons29",
+      "type": "ce",
+      "topic": "Exposição às práticas",
+      "src": "CDC (Lei 8.078/1990), art. 29",
+      "c": "Em Montes Claros (MG), uma loteadora distribuiu panfletos com a promessa falsa de \"juro zero\" no financiamento de lotes. A associação local de consumidores quer proteger também quem apenas recebeu o panfleto e ainda não comprou nada.",
+      "q": "Para os fins das práticas comerciais e da proteção contratual, equiparam-se aos consumidores todas as pessoas, determináveis ou não, expostas a essas práticas, mesmo que não tenham adquirido o produto.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 29: para os fins dos capítulos de práticas comerciais e de proteção contratual, equiparam-se aos consumidores todas as pessoas, determináveis ou não, expostas às práticas neles previstas." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado acrescenta a exigência de compra efetiva, que o art. 29 dispensa: basta estar exposto à prática." }
+      ]
+    },
+    {
+      "id": "dcons30",
+      "type": "ce",
+      "topic": "Coletividade equiparada",
+      "src": "CDC (Lei 8.078/1990), art. 2º, parágrafo único",
+      "c": "Em Santarém (PA), a Promotoria ajuizou ação coletiva em defesa de todos os moradores que compraram água mineral de um lote contaminado, sem saber quantos nem quem são essas pessoas.",
+      "q": "Equipara-se a consumidor a coletividade de pessoas, ainda que indetermináveis, que haja intervindo nas relações de consumo.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "É a redação do parágrafo único do art. 2º do CDC, que protege a coletividade de consumidores mesmo quando não é possível identificar cada um." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado exigiria que os consumidores fossem identificados um a um, condição que o parágrafo único do art. 2º afasta ao dizer 'ainda que indetermináveis'." }
+      ]
+    },
+    {
+      "id": "dcons31",
+      "type": "ce",
+      "topic": "Perecível mal conservado",
+      "src": "CDC (Lei 8.078/1990), art. 13, III",
+      "c": "Em Caruaru (PE), o açougue Boi Gordo deixou fora da refrigeração, por horas, carne embalada de um frigorífico claramente identificado. Um cliente consumiu o produto e foi internado com intoxicação alimentar.",
+      "q": "O açougue responde pelo dano, pois o comerciante é responsável pelo fato do produto quando não conserva adequadamente os produtos perecíveis.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 13, III: o comerciante é igualmente responsável quando não conservar adequadamente os produtos perecíveis, ainda que o fabricante esteja identificado." },
+        { "t": "Errado", "p": "generalizacao", "w": "Julgar errado parte da ideia de que, havendo fabricante identificado, o comerciante nunca responde. O art. 13, III, prevê justamente a má conservação de perecíveis." }
+      ]
+    },
+    {
+      "id": "dcons32",
+      "type": "ce",
+      "topic": "Prazo convencional",
+      "src": "CDC (Lei 8.078/1990), art. 18, § 2º",
+      "c": "Em Pelotas (RS), a Náutica Sul vendeu um motor de barco por contrato de adesão com cláusula, no meio do texto, que dá à empresa 200 dias para sanar qualquer vício do produto.",
+      "q": "A cláusula é válida, porque o CDC permite às partes ampliar livremente o prazo de 30 dias para sanar o vício, sem limite máximo.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "generalizacao", "w": "Julgar certo trata a ampliação como livre. A lei só admite prazo convencional entre 7 e 180 dias." },
+        { "t": "Errado", "p": "correta", "w": "Art. 18, § 2º: o prazo pode ser convencionado entre 7 e 180 dias; em contrato de adesão, a cláusula deve ser convencionada em separado, com manifestação expressa do consumidor. Os 200 dias excedem o limite." }
+      ]
+    },
+    {
+      "id": "dcons33",
+      "type": "ce",
+      "topic": "Obstação da decadência",
+      "src": "CDC (Lei 8.078/1990), art. 26, § 2º, I",
+      "c": "Em Niterói (RJ), Sérgio reclamou por e-mail, com número de protocolo, do vício do micro-ondas na loja onde o comprou. Semanas depois, a loja respondeu por escrito negando o conserto.",
+      "q": "A reclamação comprovadamente formulada por Sérgio ao fornecedor obstou a decadência até a resposta negativa transmitida de forma inequívoca.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 26, § 2º, I: obsta a decadência a reclamação comprovadamente formulada pelo consumidor perante o fornecedor até a resposta negativa correspondente, transmitida de forma inequívoca." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado exigiria que a reclamação fosse judicial ou feita no Procon. O art. 26, § 2º, I, aceita a reclamação feita diretamente ao fornecedor, desde que comprovada." }
+      ]
+    },
+    {
+      "id": "dcons34",
+      "type": "ce",
+      "topic": "Sociedades coligadas",
+      "src": "CDC (Lei 8.078/1990), art. 28, §§ 2º a 4º",
+      "c": "Em Chapecó (SC), um consumidor busca indenização da empresa Agrovale e quer incluir no processo a Grãos do Oeste S.A., sociedade apenas coligada a ela, que não teve participação nem culpa no dano.",
+      "q": "As sociedades coligadas respondem solidariamente pelas obrigações decorrentes do CDC, independentemente de culpa, tal como as sociedades consorciadas.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo troca o regime das coligadas pelo das consorciadas. Consorciadas são solidárias (§ 3º); coligadas só respondem por culpa (§ 4º)." },
+        { "t": "Errado", "p": "correta", "w": "Art. 28: sociedades integrantes de grupos societários e controladas respondem subsidiariamente (§ 2º), consorciadas solidariamente (§ 3º) e coligadas só por culpa (§ 4º)." }
+      ]
+    },
+    {
+      "id": "dcons35",
+      "type": "ce",
+      "topic": "Compra na loja física",
+      "src": "CDC (Lei 8.078/1990), art. 49",
+      "c": "Em Bauru (SP), Jéssica experimentou e comprou um vestido sem defeito na loja física de um shopping. Três dias depois, arrependeu-se e pediu o dinheiro de volta.",
+      "q": "A loja é obrigada a aceitar a desistência, pois o CDC dá a todo consumidor 7 dias para se arrepender de qualquer compra.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "generalizacao", "w": "Julgar certo estende a qualquer compra uma regra que o art. 49 restringe às contratações fora do estabelecimento comercial." },
+        { "t": "Errado", "p": "correta", "w": "O art. 49 garante o arrependimento em 7 dias só nas contratações fora do estabelecimento comercial, como internet, telefone ou a domicílio. Na loja física, a troca sem defeito depende da política do lojista." }
+      ]
+    },
+    {
+      "id": "dcons36",
+      "type": "ce",
+      "topic": "Produto não solicitado",
+      "src": "CDC (Lei 8.078/1990), art. 39, III e parágrafo único",
+      "c": "Em Macapá (AP), a editora Saber Mais enviou, sem nenhum pedido, uma coleção de livros à casa de Raquel, junto com um boleto de R$ 300,00.",
+      "q": "Os livros enviados sem solicitação prévia equiparam-se a amostras grátis, e Raquel não tem obrigação de pagar por eles.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 39, III: é prática abusiva enviar produto ao consumidor sem solicitação prévia. O parágrafo único equipara esses produtos a amostras grátis, inexistindo obrigação de pagamento." },
+        { "t": "Errado", "p": "inversao", "w": "Julgar errado inverte a lógica da lei: quem envia sem pedido assume o risco. O envio do boleto não cria dívida para Raquel." }
+      ]
+    },
+    {
+      "id": "dcons37",
+      "type": "ce",
+      "topic": "Prazo da negativação",
+      "src": "CDC (Lei 8.078/1990), art. 43, § 1º",
+      "c": "Em Rio Branco (AC), o atendente de um serviço de proteção ao crédito afirmou que a dívida de Francisco, por ser de valor alto, poderia continuar registrada no cadastro negativo por dez anos.",
+      "q": "Os cadastros de consumidores podem manter informações negativas por até dez anos quando se tratar de dívida de valor elevado.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "extrapolacao", "w": "Julgar certo cria uma exceção que a lei não prevê: o limite de cinco anos vale qualquer que seja o valor da dívida." },
+        { "t": "Errado", "p": "correta", "w": "Art. 43, § 1º: os cadastros não podem conter informações negativas referentes a período superior a cinco anos. O valor da dívida não altera esse limite." }
+      ]
+    },
+    {
+      "id": "dcons38",
+      "type": "ce",
+      "topic": "Ônus da prova publicitária",
+      "src": "CDC (Lei 8.078/1990), art. 38",
+      "c": "Em Porto Velho (RO), um suplemento era anunciado como capaz de \"eliminar 10 quilos em uma semana\". Num processo, discute-se quem deve provar que a afirmação do anúncio é verdadeira.",
+      "q": "Cabe ao consumidor que questiona o anúncio provar que a informação publicitária é falsa.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "inversao", "w": "Julgar certo inverte quem tem o dever de provar: o art. 38 põe esse ônus em quem patrocina a publicidade." },
+        { "t": "Errado", "p": "correta", "w": "Art. 38: o ônus da prova da veracidade e correção da informação ou comunicação publicitária cabe a quem as patrocina. É inversão prevista na própria lei, sem depender de decisão do juiz." }
+      ]
+    },
+    {
+      "id": "dcons39",
+      "type": "ce",
+      "topic": "Dívidas excluídas",
+      "src": "CDC (Lei 8.078/1990), art. 104-A, § 1º (Lei 14.181/2021)",
+      "c": "Em Boa Vista (RR), a superendividada Cristina pediu a repactuação de suas dívidas e quer incluir no plano, além do cartão e do cheque especial, as parcelas do financiamento imobiliário da casa.",
+      "q": "As dívidas de financiamento imobiliário podem ser incluídas no processo de repactuação, ao lado das demais dívidas de consumo.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "generalizacao", "w": "Julgar certo supõe que toda dívida de consumo entra na repactuação. O § 1º do art. 104-A exclui crédito com garantia real, financiamento imobiliário e crédito rural." },
+        { "t": "Errado", "p": "correta", "w": "Art. 104-A, § 1º: excluem-se do processo de repactuação as dívidas oriundas de contratos de crédito com garantia real, de financiamentos imobiliários e de crédito rural." }
+      ]
+    },
+    {
+      "id": "dcons40",
+      "type": "ce",
+      "topic": "Peças de reposição",
+      "src": "CDC (Lei 8.078/1990), art. 32, caput e parágrafo único",
+      "c": "Em Blumenau (SC), a fabricante Eletrolar deixou de produzir um modelo de lava-louças. Meses depois, Gustavo precisou de uma peça e ouviu que, encerrada a fabricação, a empresa não teria mais obrigação de fornecê-la.",
+      "q": "Cessada a produção, os fabricantes devem manter a oferta de componentes e peças de reposição por período razoável de tempo, na forma da lei.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 32: fabricantes e importadores devem assegurar a oferta de componentes e peças de reposição enquanto durar a fabricação ou importação; cessada esta, a oferta deve ser mantida por período razoável de tempo, na forma da lei." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado limitaria o dever ao período de fabricação. O parágrafo único do art. 32 estende a oferta por período razoável depois que ela cessar." }
+      ]
+    }
+  ]
+}

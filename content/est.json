@@ -1,0 +1,1101 @@
+{
+ "id": "est",
+ "title": "Estatística para concursos",
+ "subtitle": "Média, dispersão, probabilidade e gráficos",
+ "tag": "Concursos",
+ "blurb": "Variáveis, amostragem, média, mediana, desvio padrão, boxplot, probabilidade, normal e correlação em casos reais de concurso, com cada conta resolvida.",
+ "questions": [
+  {
+   "id": "est1",
+   "topic": "Qualitativa ordinal",
+   "c": "A central de atendimento da Prefeitura de Campinas (SP) pede que cada cidadão avalie o serviço recebido como ruim, regular, bom ou ótimo.",
+   "q": "Como se classifica a variável \"avaliação do atendimento\"?",
+   "a": 2,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 2 (tipos de variáveis)",
+   "o": [
+    {
+     "t": "Qualitativa nominal, pois as respostas são palavras e não números.",
+     "p": "troca",
+     "w": "Nominal é a variável qualitativa sem ordem entre as categorias, como estado civil. Aqui há ordem clara de ruim a ótimo."
+    },
+    {
+     "t": "Quantitativa discreta, porque as categorias podem ser codificadas de 1 a 4.",
+     "p": "extrapolacao",
+     "w": "Codificar categorias com números não transforma a variável em quantitativa: a distância entre \"ruim\" e \"regular\" não é uma medida."
+    },
+    {
+     "t": "Qualitativa ordinal, pois as categorias têm uma ordem natural.",
+     "p": "correta",
+     "w": "As respostas são categorias, não medidas, e existe ordem entre elas (ruim < regular < bom < ótimo). Isso caracteriza a variável qualitativa ordinal."
+    },
+    {
+     "t": "Quantitativa contínua, porque toda opinião pode assumir infinitos graus.",
+     "p": "generalizacao",
+     "w": "A variável só admite as quatro categorias oferecidas. Contínua é a variável quantitativa que assume qualquer valor num intervalo, como tempo ou peso."
+    }
+   ]
+  },
+  {
+   "id": "est2",
+   "topic": "Discreta e contínua",
+   "c": "Na agência do INSS em Recife (PE), a gerente anota, a cada hora, o número de pessoas na fila e o tempo de espera, em minutos, de cada pessoa atendida.",
+   "q": "Como se classificam, respectivamente, o número de pessoas na fila e o tempo de espera?",
+   "a": 0,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 2 (tipos de variáveis)",
+   "o": [
+    {
+     "t": "Quantitativa discreta e quantitativa contínua.",
+     "p": "correta",
+     "w": "Número de pessoas resulta de contagem e só assume valores inteiros (discreta). Tempo resulta de mensuração e pode assumir qualquer valor num intervalo (contínua)."
+    },
+    {
+     "t": "Quantitativa contínua e quantitativa discreta.",
+     "p": "inversao",
+     "w": "Inverte as classificações: contagem gera variável discreta, e mensuração de tempo gera variável contínua."
+    },
+    {
+     "t": "Ambas discretas, porque o tempo foi registrado em minutos inteiros.",
+     "p": "restricao",
+     "w": "Arredondar a medida na hora de anotar não muda a natureza da variável: o tempo continua podendo assumir qualquer valor num intervalo."
+    },
+    {
+     "t": "Qualitativa ordinal e quantitativa contínua, pois a fila tem ordem de chegada.",
+     "p": "troca",
+     "w": "A ordem de chegada não é o que se mede: o número de pessoas é uma contagem, logo quantitativa discreta."
+    }
+   ]
+  },
+  {
+   "id": "est3",
+   "topic": "População e amostra",
+   "c": "A Secretaria de Educação de Fortaleza (CE) quer conhecer a nota média em matemática dos 12.000 alunos do 9º ano da rede. Aplicou uma prova a 600 alunos sorteados e obteve média 6,2.",
+   "q": "Assinale a alternativa correta.",
+   "a": 1,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 10 (população e amostra; parâmetros e estatísticas)",
+   "o": [
+    {
+     "t": "Os 600 alunos são a população, pois foram eles que fizeram a prova.",
+     "p": "troca",
+     "w": "Os 600 alunos são a amostra. A população é o conjunto sobre o qual se quer concluir: os 12.000 alunos do 9º ano."
+    },
+    {
+     "t": "Os 12.000 alunos são a população, e 6,2 é uma estatística que estima a média populacional.",
+     "p": "correta",
+     "w": "População é o conjunto de todos os elementos de interesse; amostra é a parte observada. A média da amostra é uma estatística, usada para estimar o parâmetro (a média dos 12.000)."
+    },
+    {
+     "t": "6,2 é o parâmetro populacional, pois é a média verdadeira da rede.",
+     "p": "inversao",
+     "w": "Inverte os papéis: 6,2 foi calculado na amostra, então é estatística. O parâmetro é a média dos 12.000 alunos, que é desconhecida."
+    },
+    {
+     "t": "A amostra só é válida se tiver pelo menos 10% da população.",
+     "p": "restricao",
+     "w": "Não existe esse piso. A qualidade da amostra depende do método de seleção (aleatório) e do tamanho adequado à precisão desejada, não de um percentual fixo."
+    }
+   ]
+  },
+  {
+   "id": "est4",
+   "topic": "Amostragem estratificada",
+   "c": "O TRT da 3ª Região, em Belo Horizonte (MG), quer entrevistar 200 de seus 2.000 servidores, dos quais 1.200 são analistas e 800 são técnicos. O sorteio é feito separadamente em cada cargo, mantendo a proporção de cada um.",
+   "q": "Qual é o tipo de amostragem e quantos técnicos entram na amostra?",
+   "a": 3,
+   "src": "Bolfarine e Bussab, Elementos de Amostragem (amostragem estratificada); Bussab e Morettin, Estatística Básica, cap. 10",
+   "o": [
+    {
+     "t": "Por conglomerados, com 80 técnicos.",
+     "p": "troca",
+     "w": "Em conglomerados sorteiam-se grupos inteiros e só alguns entram. Aqui todos os cargos entram, com sorteio dentro de cada um: isso é estratificação."
+    },
+    {
+     "t": "Estratificada proporcional, com 100 técnicos, metade da amostra para cada cargo.",
+     "p": "calculo",
+     "w": "Dividir igualmente seria alocação uniforme, não proporcional. Na proporcional, cada estrato recebe a mesma fração: 10% de 800 = 80."
+    },
+    {
+     "t": "Estratificada proporcional, com 120 técnicos.",
+     "p": "inversao",
+     "w": "120 é a cota dos analistas (10% de 1.200). Os técnicos, que são 800, ficam com 80."
+    },
+    {
+     "t": "Estratificada proporcional, com 80 técnicos.",
+     "p": "correta",
+     "w": "Os cargos são estratos e sorteia-se dentro de cada um. A fração amostral é 200/2.000 = 10%, logo 10% de 800 = 80 técnicos (e 120 analistas)."
+    }
+   ]
+  },
+  {
+   "id": "est5",
+   "topic": "Amostragem sistemática",
+   "c": "Um auditor do TCE de Pernambuco, no Recife, vai examinar 50 dos 1.000 processos de pagamento do ano, numerados de 1 a 1.000. Ele sorteia um número de 1 a 20, obtém 7 e passa a selecionar um processo a cada 20.",
+   "q": "Qual é o tipo de amostragem e qual é o terceiro processo selecionado?",
+   "a": 0,
+   "src": "Bolfarine e Bussab, Elementos de Amostragem (amostragem sistemática)",
+   "o": [
+    {
+     "t": "Sistemática; o terceiro processo selecionado é o de número 47.",
+     "p": "correta",
+     "w": "O intervalo é k = 1.000/50 = 20, com início aleatório em 7. A sequência é 7, 27, 47, 67..., então o terceiro é o 47."
+    },
+    {
+     "t": "Sistemática; o terceiro processo selecionado é o de número 67.",
+     "p": "calculo",
+     "w": "67 é o quarto: o primeiro é o próprio 7, e a cada passo soma-se 20 (7, 27, 47, 67)."
+    },
+    {
+     "t": "Aleatória simples, porque o ponto de partida foi sorteado.",
+     "p": "troca",
+     "w": "Na aleatória simples todos os elementos são sorteados. Aqui só o início é aleatório, e os demais seguem intervalo fixo: é amostragem sistemática."
+    },
+    {
+     "t": "Estratificada, porque os processos foram divididos em blocos de 20.",
+     "p": "extrapolacao",
+     "w": "Os blocos de 20 são só o intervalo de seleção, não estratos definidos por uma característica (como tipo de despesa) com sorteio dentro de cada um."
+    }
+   ]
+  },
+  {
+   "id": "est6",
+   "topic": "Amostragem por conglomerados",
+   "c": "Para estimar a cobertura vacinal infantil em Manaus (AM), a prefeitura sorteia 15 dos 60 bairros da cidade e visita todos os domicílios com crianças nos bairros sorteados.",
+   "q": "Que tipo de amostragem foi usado?",
+   "a": 2,
+   "src": "IBGE, PNAD Contínua: plano amostral conglomerado em dois estágios; Bolfarine e Bussab, Elementos de Amostragem (amostragem por conglomerados)",
+   "o": [
+    {
+     "t": "Estratificada, porque os bairros são subgrupos da população.",
+     "p": "troca",
+     "w": "Na estratificada sorteiam-se elementos dentro de todos os estratos. Aqui 45 bairros ficam de fora, o que é próprio dos conglomerados."
+    },
+    {
+     "t": "Aleatória simples, porque qualquer sorteio torna a amostra aleatória simples.",
+     "p": "generalizacao",
+     "w": "Na aleatória simples sorteiam-se diretamente os elementos (domicílios) do cadastro completo. Sortear bairros inteiros é outro desenho."
+    },
+    {
+     "t": "Por conglomerados: sorteiam-se grupos (bairros) e observam-se os elementos dos grupos sorteados.",
+     "p": "correta",
+     "w": "A unidade sorteada é o grupo, não o domicílio. Só os 15 bairros sorteados são pesquisados, o que caracteriza a amostragem por conglomerados, usada também pelo IBGE na PNAD Contínua."
+    },
+    {
+     "t": "Sistemática, porque todos os domicílios dos bairros sorteados são visitados em sequência.",
+     "p": "extrapolacao",
+     "w": "Sistemática exige seleção a intervalo fixo numa lista ordenada. Visitar todos os domicílios dos grupos sorteados não envolve intervalo algum."
+    }
+   ]
+  },
+  {
+   "id": "est7",
+   "topic": "Frequência relativa",
+   "c": "Num dia, a unidade do Detran em Salvador (BA) atendeu 80 cidadãos: 32 para renovação de CNH, 20 para licenciamento, 16 para transferência e 12 para outros serviços.",
+   "q": "Qual é a frequência relativa dos atendimentos de licenciamento?",
+   "a": 1,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 2 (distribuições de frequências)",
+   "o": [
+    {
+     "t": "20%, porque foram 20 atendimentos de licenciamento.",
+     "p": "troca",
+     "w": "20 é a frequência absoluta. A relativa divide esse número pelo total de 80, o que dá 25%."
+    },
+    {
+     "t": "25%.",
+     "p": "correta",
+     "w": "Frequência relativa = frequência absoluta / total = 20/80 = 0,25, isto é, 25%."
+    },
+    {
+     "t": "65%, somando renovação e licenciamento.",
+     "p": "extrapolacao",
+     "w": "(32 + 20)/80 = 65% é a frequência relativa acumulada até licenciamento, não a frequência dessa categoria."
+    },
+    {
+     "t": "Cerca de 33%.",
+     "p": "calculo",
+     "w": "Resulta de dividir 20 pelos 60 atendimentos das outras categorias. O denominador correto é o total: 20/80 = 25%."
+    }
+   ]
+  },
+  {
+   "id": "est8",
+   "topic": "Frequência acumulada",
+   "c": "O regime de previdência dos servidores de Porto Alegre (RS) agrupou o tempo de análise de 50 pedidos de aposentadoria: menos de 30 dias, 12; de 30 a menos de 60, 18; de 60 a menos de 90, 15; 90 dias ou mais, 5.",
+   "q": "Que percentual dos pedidos foi analisado em menos de 60 dias?",
+   "a": 3,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 2 (distribuições de frequências)",
+   "o": [
+    {
+     "t": "36%.",
+     "p": "troca",
+     "w": "36% (18/50) é a frequência relativa simples da classe de 30 a menos de 60 dias. A pergunta pede a acumulada, que inclui também os 12 pedidos com menos de 30 dias."
+    },
+    {
+     "t": "30%.",
+     "p": "calculo",
+     "w": "30 é a frequência absoluta acumulada, não o percentual. Dividindo pelo total: 30/50 = 60%."
+    },
+    {
+     "t": "40%.",
+     "p": "inversao",
+     "w": "40% (20/50) é o complemento: os pedidos que levaram 60 dias ou mais."
+    },
+    {
+     "t": "60%.",
+     "p": "correta",
+     "w": "Frequência acumulada até a segunda classe: 12 + 18 = 30 pedidos. Em termos relativos, 30/50 = 60%."
+    }
+   ]
+  },
+  {
+   "id": "est9",
+   "topic": "Média ponderada",
+   "c": "No concurso da Prefeitura de Florianópolis (SC), a nota final é a média ponderada de três provas: conhecimentos gerais (peso 2), específicos (peso 3) e discursiva (peso 5). Ana tirou 6, 9 e 6, respectivamente.",
+   "q": "Qual é a nota final de Ana?",
+   "a": 2,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (medidas de posição)",
+   "o": [
+    {
+     "t": "7,0.",
+     "p": "troca",
+     "w": "7,0 é a média aritmética simples (21/3), que ignora os pesos. O edital manda usar a média ponderada."
+    },
+    {
+     "t": "23,0.",
+     "p": "calculo",
+     "w": "Dividiu a soma ponderada (69) pelo número de provas (3). Na média ponderada, divide-se pela soma dos pesos (10)."
+    },
+    {
+     "t": "6,9.",
+     "p": "correta",
+     "w": "(6 × 2 + 9 × 3 + 6 × 5)/(2 + 3 + 5) = (12 + 27 + 30)/10 = 69/10 = 6,9."
+    },
+    {
+     "t": "6,0, porque a prova de maior peso define a nota final.",
+     "p": "extrapolacao",
+     "w": "O maior peso aumenta a influência da discursiva, mas todas as provas entram no cálculo. A nota é 6,9."
+    }
+   ]
+  },
+  {
+   "id": "est10",
+   "topic": "Mediana com n par",
+   "c": "No Procon de Goiânia (GO), os tempos de espera de 8 consumidores, na ordem de chegada, foram (em minutos): 20, 5, 12, 30, 8, 15, 9 e 11.",
+   "q": "Qual é a mediana dos tempos de espera?",
+   "a": 0,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (medidas de posição)",
+   "o": [
+    {
+     "t": "11,5 minutos.",
+     "p": "correta",
+     "w": "Ordenando: 5, 8, 9, 11, 12, 15, 20, 30. Com n = 8 (par), a mediana é a média dos dois centrais (4º e 5º): (11 + 12)/2 = 11,5."
+    },
+    {
+     "t": "19 minutos.",
+     "p": "calculo",
+     "w": "19 é a média do 4º e do 5º valores na ordem de chegada (30 e 8). A mediana exige ordenar os dados antes."
+    },
+    {
+     "t": "13,75 minutos.",
+     "p": "troca",
+     "w": "13,75 é a média aritmética (110/8). A mediana é o valor que divide os dados ordenados ao meio."
+    },
+    {
+     "t": "11 minutos, pois com n par a mediana é o menor dos dois valores centrais.",
+     "p": "restricao",
+     "w": "Essa regra não existe: com n par, a mediana é a média aritmética dos dois valores centrais, (11 + 12)/2 = 11,5."
+    }
+   ]
+  },
+  {
+   "id": "est11",
+   "topic": "Moda",
+   "c": "No atendimento da Receita Federal em Belém (PA), contou-se quantos documentos cada contribuinte entregou num dia: 1 documento, 14 pessoas; 2 documentos, 22 pessoas; 3 documentos, 9 pessoas; 4 documentos, 5 pessoas.",
+   "q": "Qual é a moda do número de documentos por contribuinte?",
+   "a": 3,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (medidas de posição)",
+   "o": [
+    {
+     "t": "22 documentos.",
+     "p": "troca",
+     "w": "22 é a frequência da moda (quantas pessoas entregaram 2 documentos), não o valor da variável."
+    },
+    {
+     "t": "2,5 documentos, ponto médio entre 1 e 4.",
+     "p": "calculo",
+     "w": "O ponto médio entre o menor e o maior valor não é medida de moda. A moda é o valor mais frequente: 2."
+    },
+    {
+     "t": "Não há moda, pois todos os valores aparecem mais de uma vez.",
+     "p": "generalizacao",
+     "w": "Uma distribuição é amodal quando todos os valores têm a mesma frequência. Aqui as frequências diferem, e o 2 é o mais frequente."
+    },
+    {
+     "t": "2 documentos.",
+     "p": "correta",
+     "w": "Moda é o valor de maior frequência. O valor 2 aparece 22 vezes, mais que qualquer outro."
+    }
+   ]
+  },
+  {
+   "id": "est12",
+   "topic": "Média com constantes",
+   "c": "Os servidores de um setor da Prefeitura de Natal (RN) têm salário médio de R$ 4.000. A prefeitura concede reajuste de 10% a todos e, depois, um abono fixo de R$ 200 a cada um.",
+   "q": "Qual passa a ser o salário médio do setor?",
+   "a": 1,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (propriedades da média)",
+   "o": [
+    {
+     "t": "R$ 4.620.",
+     "p": "inversao",
+     "w": "Inverte a ordem das operações: (4.000 + 200) × 1,1 = 4.620. O reajuste veio antes do abono, então 4.000 × 1,1 + 200 = 4.600."
+    },
+    {
+     "t": "R$ 4.600.",
+     "p": "correta",
+     "w": "Multiplicar todos os valores por 1,1 multiplica a média por 1,1 (R$ 4.400); somar R$ 200 a todos soma R$ 200 à média: R$ 4.600."
+    },
+    {
+     "t": "R$ 4.400, porque um abono fixo não altera a média.",
+     "p": "troca",
+     "w": "Somar constante não altera a variância nem o desvio padrão, mas altera a média, que aumenta exatamente R$ 200."
+    },
+    {
+     "t": "Não é possível calcular sem conhecer o salário de cada servidor.",
+     "p": "restricao",
+     "w": "As propriedades da média dispensam os dados individuais: se y = 1,1x + 200, então a média de y é 1,1 × 4.000 + 200."
+    }
+   ]
+  },
+  {
+   "id": "est13",
+   "topic": "Média em tabela",
+   "c": "Na Defensoria Pública de Cuiabá (MT), registrou-se o número de atendimentos por defensor numa semana: 4 defensores fizeram 10 atendimentos; 4 fizeram 15; e 2 fizeram 20.",
+   "q": "Qual é o número médio de atendimentos por defensor?",
+   "a": 0,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (média de dados agrupados)",
+   "o": [
+    {
+     "t": "14 atendimentos.",
+     "p": "correta",
+     "w": "Média = (10 × 4 + 15 × 4 + 20 × 2)/(4 + 4 + 2) = (40 + 60 + 40)/10 = 140/10 = 14."
+    },
+    {
+     "t": "15 atendimentos, média dos valores 10, 15 e 20.",
+     "p": "calculo",
+     "w": "Fazer (10 + 15 + 20)/3 ignora quantos defensores há em cada valor. Cada valor deve ser ponderado pela sua frequência."
+    },
+    {
+     "t": "140 atendimentos.",
+     "p": "troca",
+     "w": "140 é o total de atendimentos da equipe. A média divide esse total pelos 10 defensores: 14."
+    },
+    {
+     "t": "Não é possível calcular sem a lista nominal dos defensores.",
+     "p": "restricao",
+     "w": "A tabela de frequências basta: cada valor multiplicado por sua frequência, somado e dividido pelo total de observações."
+    }
+   ]
+  },
+  {
+   "id": "est14",
+   "topic": "Leitura de boxplot",
+   "c": "O boxplot dos tempos de análise de licenças na Secretaria de Meio Ambiente de Curitiba (PR) mostra: mínimo de 10 dias, primeiro quartil 20, mediana 30, terceiro quartil 50 e máximo 70.",
+   "q": "Assinale a alternativa correta.",
+   "a": 2,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (quantis e box plots)",
+   "o": [
+    {
+     "t": "A amplitude interquartil é de 60 dias.",
+     "p": "calculo",
+     "w": "60 = 70 − 10 é a amplitude total (máximo menos mínimo). A interquartil usa os quartis: 50 − 20 = 30."
+    },
+    {
+     "t": "Apenas 25% dos processos levaram mais de 20 dias.",
+     "p": "inversao",
+     "w": "Q1 = 20 significa que cerca de 25% levaram até 20 dias; logo, cerca de 75% levaram mais de 20 dias."
+    },
+    {
+     "t": "Cerca de metade dos processos levou entre 20 e 50 dias, e a amplitude interquartil é de 30 dias.",
+     "p": "correta",
+     "w": "Entre Q1 e Q3 ficam cerca de 50% das observações centrais, e a amplitude interquartil é Q3 − Q1 = 50 − 20 = 30 dias."
+    },
+    {
+     "t": "A média dos tempos é 30 dias, pois a linha dentro da caixa é a média.",
+     "p": "troca",
+     "w": "A linha dentro da caixa é a mediana. O boxplot padrão não informa a média."
+    }
+   ]
+  },
+  {
+   "id": "est15",
+   "topic": "Valor atípico no boxplot",
+   "c": "Na central telefônica 156 de São Paulo (SP), a duração das ligações tem primeiro quartil de 4 minutos e terceiro quartil de 8 minutos.",
+   "q": "Pelo critério usual do boxplot, a partir de que duração uma ligação é considerada atípica por excesso?",
+   "a": 3,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (box plots: limites Q1 − 1,5·dq e Q3 + 1,5·dq)",
+   "o": [
+    {
+     "t": "Acima de 12 minutos.",
+     "p": "calculo",
+     "w": "Somou a amplitude interquartil inteira (8 + 4), esquecendo o fator 1,5. O limite é 8 + 1,5 × 4 = 14."
+    },
+    {
+     "t": "Acima de 8 minutos, pois todo valor acima do terceiro quartil é atípico.",
+     "p": "generalizacao",
+     "w": "Cerca de 25% dos dados ficam acima de Q3 normalmente. Atípico é só o que passa de Q3 + 1,5 vez a amplitude interquartil."
+    },
+    {
+     "t": "Acima de 20 minutos.",
+     "p": "troca",
+     "w": "Resulta de usar 1,5 vez o próprio Q3 (8 + 12). A regra multiplica 1,5 pela amplitude interquartil (Q3 − Q1 = 4)."
+    },
+    {
+     "t": "Acima de 14 minutos.",
+     "p": "correta",
+     "w": "Amplitude interquartil: 8 − 4 = 4. Limite superior: Q3 + 1,5 × 4 = 8 + 6 = 14 minutos."
+    }
+   ]
+  },
+  {
+   "id": "est16",
+   "topic": "Cálculo da variância",
+   "c": "Um servidor do INSS em Teresina (PI) cronometrou 5 atendimentos: 6, 8, 10, 12 e 14 minutos. Trate os dados como população, dividindo por n.",
+   "q": "Qual é a variância dos tempos?",
+   "a": 1,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (medidas de dispersão)",
+   "o": [
+    {
+     "t": "40 min².",
+     "p": "calculo",
+     "w": "40 é a soma dos quadrados dos desvios. Falta dividir por n = 5, o que dá 8 min²."
+    },
+    {
+     "t": "8 min².",
+     "p": "correta",
+     "w": "Média = 50/5 = 10. Desvios: −4, −2, 0, 2, 4; quadrados: 16, 4, 0, 4, 16, soma 40. Variância = 40/5 = 8 min² (desvio padrão ≈ 2,83 min)."
+    },
+    {
+     "t": "10 min².",
+     "p": "troca",
+     "w": "10 = 40/4 é a variância amostral (divide por n − 1). O enunciado manda tratar os dados como população, dividindo por n."
+    },
+    {
+     "t": "0 min², porque os desvios positivos e negativos se compensam.",
+     "p": "extrapolacao",
+     "w": "A soma dos desvios é zero, mas a variância eleva cada desvio ao quadrado justamente para que eles não se anulem."
+    }
+   ]
+  },
+  {
+   "id": "est17",
+   "topic": "Desvio padrão e constantes",
+   "c": "Numa prova do concurso da Câmara Municipal de Vitória (ES), as notas tiveram média 6 e desvio padrão 1,5. A banca multiplicou cada nota por 10, para a escala de 0 a 100, e depois somou 5 pontos de bônus a todos.",
+   "q": "Quais são a nova média e o novo desvio padrão?",
+   "a": 2,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (propriedades da média e da variância)",
+   "o": [
+    {
+     "t": "Média 65 e desvio padrão 20.",
+     "p": "extrapolacao",
+     "w": "Somar a mesma constante a todos desloca os dados sem mudar o espalhamento: o desvio padrão fica em 1,5 × 10 = 15."
+    },
+    {
+     "t": "Média 65 e desvio padrão 150.",
+     "p": "troca",
+     "w": "Multiplicar por 10 multiplica a variância por 100, mas o desvio padrão só por 10. Aplicou ao desvio a regra da variância."
+    },
+    {
+     "t": "Média 65 e desvio padrão 15.",
+     "p": "correta",
+     "w": "A média sofre as duas operações: 6 × 10 + 5 = 65. O desvio padrão é multiplicado por 10 (15) e não muda com a soma de constante."
+    },
+    {
+     "t": "Média 110 e desvio padrão 15.",
+     "p": "inversao",
+     "w": "Inverte a ordem: (6 + 5) × 10 = 110. Primeiro multiplicou-se por 10 e depois somaram-se 5: 6 × 10 + 5 = 65."
+    }
+   ]
+  },
+  {
+   "id": "est18",
+   "topic": "Coeficiente de variação",
+   "c": "As ouvidorias de duas prefeituras mediram o tempo de resposta às manifestações. Em Campo Grande (MS), média de 20 dias e desvio padrão de 4 dias; em João Pessoa (PB), média de 50 dias e desvio padrão de 5 dias.",
+   "q": "Qual cidade tem tempos de resposta mais homogêneos em termos relativos?",
+   "a": 0,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (coeficiente de variação)",
+   "o": [
+    {
+     "t": "João Pessoa, com CV de 10%, contra 20% em Campo Grande.",
+     "p": "correta",
+     "w": "CV = desvio padrão / média: 4/20 = 20% em Campo Grande e 5/50 = 10% em João Pessoa. Menor CV, maior homogeneidade relativa."
+    },
+    {
+     "t": "Campo Grande, porque tem o menor desvio padrão.",
+     "p": "troca",
+     "w": "O desvio padrão mede dispersão absoluta. Com médias tão diferentes, a comparação relativa exige o coeficiente de variação."
+    },
+    {
+     "t": "Campo Grande, com CV de 5, contra 10 em João Pessoa.",
+     "p": "calculo",
+     "w": "Dividiu a média pelo desvio padrão (20/4 e 50/5). O CV é o desvio padrão dividido pela média."
+    },
+    {
+     "t": "Nenhuma, pois médias diferentes impedem comparar dispersões.",
+     "p": "generalizacao",
+     "w": "O coeficiente de variação existe justamente para comparar dispersões de conjuntos com médias diferentes."
+    }
+   ]
+  },
+  {
+   "id": "est19",
+   "topic": "Leitura de histograma",
+   "c": "Um histograma mostra as idades dos 200 inscritos num concurso da Polícia Civil do Ceará, em Fortaleza, em classes de 5 anos: de 18 a menos de 23, 40; de 23 a menos de 28, 70; de 28 a menos de 33, 50; de 33 a menos de 38, 30; de 38 a menos de 43, 10.",
+   "q": "Assinale a alternativa correta.",
+   "a": 3,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 2 (histograma)",
+   "o": [
+    {
+     "t": "Por estar agrupada em classes, a idade passa a ser variável qualitativa ordinal.",
+     "p": "troca",
+     "w": "Agrupar em classes é forma de apresentação. A idade continua quantitativa contínua, por isso o gráfico é um histograma, com barras justapostas."
+    },
+    {
+     "t": "A classe modal é a de 38 a 43 anos, a de menor frequência.",
+     "p": "inversao",
+     "w": "Classe modal é a de maior frequência, não a de menor. Aqui é a de 23 a 28 anos."
+    },
+    {
+     "t": "35% dos inscritos têm de 23 a 28 anos, e 60% têm menos de 28.",
+     "p": "calculo",
+     "w": "A primeira parte está certa (70/200 = 35%), mas menos de 28 anos são 40 + 70 = 110, ou 55%, não 60%."
+    },
+    {
+     "t": "A classe modal é a de 23 a 28 anos, e 80% dos inscritos têm menos de 33 anos.",
+     "p": "correta",
+     "w": "A barra mais alta (70) é a de 23 a 28 anos. Abaixo de 33 anos: 40 + 70 + 50 = 160, e 160/200 = 80%."
+    }
+   ]
+  },
+  {
+   "id": "est20",
+   "topic": "Gráfico de setores",
+   "c": "No relatório anual da Defensoria Pública em São Luís (MA), um gráfico de setores mostra a distribuição de 600 atendimentos por área. O setor de direito de família ocupa um ângulo de 126°.",
+   "q": "Quanto representa a área de família?",
+   "a": 1,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 2 (gráfico de setores)",
+   "o": [
+    {
+     "t": "126 atendimentos, pois cada grau corresponde a um atendimento.",
+     "p": "generalizacao",
+     "w": "Um grau equivaleria a um atendimento só se o total fosse 360. Com 600 atendimentos, cada grau vale 600/360 ≈ 1,67."
+    },
+    {
+     "t": "35% do total, isto é, 210 atendimentos.",
+     "p": "correta",
+     "w": "O círculo tem 360°: 126/360 = 0,35 = 35%. Em atendimentos, 35% de 600 = 210."
+    },
+    {
+     "t": "21% do total, isto é, 126 atendimentos.",
+     "p": "calculo",
+     "w": "Dividiu o ângulo pelo total de atendimentos (126/600). O percentual vem de ângulo/360°."
+    },
+    {
+     "t": "35% do total, mas o gráfico de setores não permite chegar ao número de atendimentos.",
+     "p": "restricao",
+     "w": "Com o total conhecido (600), basta aplicar o percentual: 0,35 × 600 = 210 atendimentos."
+    }
+   ]
+  },
+  {
+   "id": "est21",
+   "topic": "Probabilidade clássica",
+   "c": "A Vigilância Sanitária de Londrina (PR) vai sortear ao acaso um entre 50 estabelecimentos para inspeção: 20 restaurantes, 15 padarias, 10 bares e 5 mercados.",
+   "q": "Qual é a probabilidade de o sorteado ser padaria ou mercado?",
+   "a": 0,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 5 (probabilidade em espaço equiprovável)",
+   "o": [
+    {
+     "t": "40%.",
+     "p": "correta",
+     "w": "Casos favoráveis: 15 + 5 = 20; casos possíveis: 50. P = 20/50 = 0,4 = 40%."
+    },
+    {
+     "t": "30%.",
+     "p": "restricao",
+     "w": "30% (15/50) é só a chance de padaria. O \"ou\" pede a união, que inclui os 5 mercados: 20/50."
+    },
+    {
+     "t": "3%.",
+     "p": "troca",
+     "w": "Multiplicou P(padaria) × P(mercado) = 0,3 × 0,1. O produto serve para a interseção de eventos independentes; para \"ou\" de eventos disjuntos, somam-se as probabilidades."
+    },
+    {
+     "t": "50%, porque são 2 dos 4 tipos de estabelecimento.",
+     "p": "generalizacao",
+     "w": "Os tipos não são equiprováveis: cada um tem quantidade diferente. O espaço equiprovável é o dos 50 estabelecimentos."
+    }
+   ]
+  },
+  {
+   "id": "est22",
+   "topic": "Evento complementar",
+   "c": "No fórum de Juiz de Fora (MG), cada uma de três impressoras falha num dia com probabilidade 0,1, independentemente das outras.",
+   "q": "Qual é a probabilidade de pelo menos uma impressora falhar num dia?",
+   "a": 2,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 5 (complementar e independência)",
+   "o": [
+    {
+     "t": "30%.",
+     "p": "calculo",
+     "w": "Somar 0,1 + 0,1 + 0,1 conta duas ou três vezes os dias em que mais de uma falha. O caminho certo é 1 − 0,9³."
+    },
+    {
+     "t": "0,1%.",
+     "p": "troca",
+     "w": "0,1³ = 0,001 é a probabilidade de as três falharem juntas, não de pelo menos uma falhar."
+    },
+    {
+     "t": "27,1%.",
+     "p": "correta",
+     "w": "Pelo complementar: P(nenhuma falha) = 0,9 × 0,9 × 0,9 = 0,729. Logo, P(pelo menos uma) = 1 − 0,729 = 0,271."
+    },
+    {
+     "t": "72,9%.",
+     "p": "inversao",
+     "w": "0,729 é a probabilidade de nenhuma falhar, o complemento do evento pedido."
+    }
+   ]
+  },
+  {
+   "id": "est23",
+   "topic": "Probabilidade da união",
+   "c": "Dos 200 servidores de uma agência reguladora em Brasília (DF), 80 fizeram curso de Excel, 60 fizeram curso de redação oficial e 30 fizeram os dois. Um servidor é sorteado.",
+   "q": "Qual é a probabilidade de ele ter feito pelo menos um dos cursos?",
+   "a": 3,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 5 (regra da adição)",
+   "o": [
+    {
+     "t": "70%.",
+     "p": "calculo",
+     "w": "(80 + 60)/200 conta duas vezes os 30 que fizeram os dois cursos. É preciso subtrair a interseção."
+    },
+    {
+     "t": "15%.",
+     "p": "troca",
+     "w": "30/200 = 15% é a probabilidade da interseção (fez os dois), não da união (fez pelo menos um)."
+    },
+    {
+     "t": "45%.",
+     "p": "inversao",
+     "w": "90/200 = 45% é o complemento: a probabilidade de não ter feito nenhum dos cursos."
+    },
+    {
+     "t": "55%.",
+     "p": "correta",
+     "w": "P(A ∪ B) = P(A) + P(B) − P(A ∩ B) = (80 + 60 − 30)/200 = 110/200 = 55%."
+    }
+   ]
+  },
+  {
+   "id": "est24",
+   "topic": "Probabilidade condicional",
+   "c": "A ouvidoria do Tribunal de Justiça de Santa Catarina, em Florianópolis, classificou 200 reclamações. Por telefone: 60 resolvidas e 40 não resolvidas. Pela internet: 90 resolvidas e 10 não resolvidas.",
+   "q": "Sorteada uma reclamação resolvida, qual a probabilidade de ela ter chegado pela internet?",
+   "a": 1,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 5 (probabilidade condicional)",
+   "o": [
+    {
+     "t": "90%.",
+     "p": "inversao",
+     "w": "90/100 = 90% é P(resolvida | internet), a condicional invertida. A condição dada é \"resolvida\"."
+    },
+    {
+     "t": "60%.",
+     "p": "correta",
+     "w": "Condicionando às resolvidas (60 + 90 = 150), as da internet são 90: P(internet | resolvida) = 90/150 = 0,6."
+    },
+    {
+     "t": "45%.",
+     "p": "troca",
+     "w": "90/200 = 45% é a probabilidade da interseção (internet e resolvida) no total, sem condicionar."
+    },
+    {
+     "t": "50%, porque metade das reclamações chegou pela internet.",
+     "p": "extrapolacao",
+     "w": "50% é P(internet) sem nenhuma informação. Saber que a reclamação foi resolvida muda o espaço amostral para 150 casos."
+    }
+   ]
+  },
+  {
+   "id": "est25",
+   "topic": "Distribuição binomial",
+   "c": "Num posto do Sine em Maceió (AL), cada candidato encaminhado a uma vaga é contratado com probabilidade 0,5, independentemente dos demais. Num dia, 4 candidatos são encaminhados.",
+   "q": "Qual é a probabilidade de exatamente 2 serem contratados?",
+   "a": 0,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 6 (distribuição binomial)",
+   "o": [
+    {
+     "t": "37,5%.",
+     "p": "correta",
+     "w": "Binomial com n = 4 e p = 0,5: P(X = 2) = C(4,2) × 0,5² × 0,5² = 6 × 1/16 = 6/16 = 0,375."
+    },
+    {
+     "t": "6,25%.",
+     "p": "calculo",
+     "w": "1/16 é a probabilidade de uma sequência específica (por exemplo, sim, sim, não, não). Faltou multiplicar pelas C(4,2) = 6 ordens possíveis."
+    },
+    {
+     "t": "50%, porque a chance de cada contratação é 0,5.",
+     "p": "generalizacao",
+     "w": "p = 0,5 é a probabilidade de cada candidato, não a de exatamente metade ser contratada. A conta binomial dá 6/16."
+    },
+    {
+     "t": "100%, porque o número esperado de contratações é 4 × 0,5 = 2.",
+     "p": "extrapolacao",
+     "w": "O valor esperado np = 2 é a média a longo prazo, não um resultado garantido. Em muitos dias haverá 0, 1, 3 ou 4 contratações."
+    }
+   ]
+  },
+  {
+   "id": "est26",
+   "topic": "Regra empírica da normal",
+   "c": "Os tempos de análise de pedidos de seguro-desemprego numa superintendência regional em Belo Horizonte (MG) seguem aproximadamente distribuição normal, com média de 20 dias e desvio padrão de 4 dias.",
+   "q": "Pela regra empírica, que percentual aproximado dos pedidos é analisado entre 12 e 28 dias?",
+   "a": 2,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 7 (distribuição normal)",
+   "o": [
+    {
+     "t": "Cerca de 68%.",
+     "p": "troca",
+     "w": "68% corresponde a média ± 1 desvio padrão (16 a 24 dias). A faixa de 12 a 28 tem 2 desvios de cada lado."
+    },
+    {
+     "t": "Cerca de 47,5%.",
+     "p": "calculo",
+     "w": "47,5% é só a metade da faixa (de 20 a 28 dias, ou de 12 a 20). O intervalo pedido inclui os dois lados da média."
+    },
+    {
+     "t": "Cerca de 95%.",
+     "p": "correta",
+     "w": "12 e 28 dias são 20 − 2 × 4 e 20 + 2 × 4, ou seja, média ± 2 desvios padrão, faixa que concentra cerca de 95% dos valores."
+    },
+    {
+     "t": "Cerca de 99,7%.",
+     "p": "extrapolacao",
+     "w": "99,7% vale para média ± 3 desvios padrão (8 a 32 dias), faixa mais larga que a pedida."
+    }
+   ]
+  },
+  {
+   "id": "est27",
+   "topic": "Sinal e intensidade",
+   "c": "A Escola de Governo de Pernambuco, no Recife, relacionou, para 30 servidores, as horas de treinamento e o número de erros em processos no semestre e obteve coeficiente de correlação r = −0,85.",
+   "q": "Assinale a interpretação correta.",
+   "a": 3,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 4 (coeficiente de correlação)",
+   "o": [
+    {
+     "t": "A correlação é fraca, porque o coeficiente é negativo.",
+     "p": "troca",
+     "w": "O sinal indica o sentido da relação, não a intensidade. A intensidade vem do valor absoluto, e 0,85 é alto."
+    },
+    {
+     "t": "A correlação é positiva e forte, já que 0,85 está próximo de 1.",
+     "p": "inversao",
+     "w": "Ignora o sinal: r negativo indica relação inversa (mais treinamento, menos erros), não direta."
+    },
+    {
+     "t": "O resultado prova que o treinamento reduz os erros em 85%.",
+     "p": "extrapolacao",
+     "w": "r mede associação linear, não percentual de redução, e não prova causa. Outros fatores podem explicar a relação."
+    },
+    {
+     "t": "Há correlação linear negativa forte: quem treinou mais tendeu a cometer menos erros.",
+     "p": "correta",
+     "w": "O sinal negativo indica que uma variável tende a diminuir quando a outra aumenta; |r| = 0,85, perto de 1, indica associação linear forte."
+    }
+   ]
+  },
+  {
+   "id": "est28",
+   "topic": "Eventos independentes",
+   "c": "No TRF da 5ª Região, no Recife (PE), o sistema de processo eletrônico fica indisponível num dia com probabilidade 0,05, e a rede de internet, com probabilidade 0,10, de forma independente.",
+   "q": "Qual é a probabilidade de as duas falhas ocorrerem no mesmo dia?",
+   "a": 1,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 5 (independência de eventos)",
+   "o": [
+    {
+     "t": "15%.",
+     "p": "calculo",
+     "w": "Somar 0,05 + 0,10 não dá a interseção; nem mesmo a união, que seria 0,15 − 0,005. Para \"as duas\", multiplica-se."
+    },
+    {
+     "t": "0,5%.",
+     "p": "correta",
+     "w": "Para eventos independentes, P(A ∩ B) = P(A) × P(B) = 0,05 × 0,10 = 0,005 = 0,5%."
+    },
+    {
+     "t": "0%, porque eventos independentes não podem ocorrer juntos.",
+     "p": "troca",
+     "w": "Confunde independência com exclusão mútua. Eventos independentes podem ocorrer juntos; mutuamente exclusivos é que não."
+    },
+    {
+     "t": "14,5%.",
+     "p": "extrapolacao",
+     "w": "0,05 + 0,10 − 0,005 = 0,145 é a probabilidade de pelo menos uma falha, não das duas ao mesmo tempo."
+    }
+   ]
+  },
+  {
+   "id": "est29",
+   "type": "ce",
+   "topic": "Variável codificada",
+   "src": "Bussab e Morettin, Estatística Básica, cap. 2 (tipos de variáveis)",
+   "c": "No sistema de RH do Tribunal Regional Eleitoral do Paraná, em Curitiba, o estado civil dos servidores é registrado com códigos: 1 = solteiro, 2 = casado, 3 = divorciado e 4 = viúvo.",
+   "q": "Apesar dos códigos numéricos, a variável estado civil é qualitativa nominal, e a média desses códigos não tem interpretação.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Os números são só rótulos de categorias sem ordem natural. A variável segue qualitativa nominal, e fazer contas com os códigos não produz informação; a medida adequada é a moda."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado trata os códigos como medidas, confundindo variável qualitativa com quantitativa. Trocar os códigos (por exemplo, 1 = casado) mudaria a \"média\", prova de que ela não tem sentido."
+    }
+   ]
+  },
+  {
+   "id": "est30",
+   "type": "ce",
+   "topic": "Amostra por conveniência",
+   "src": "Bolfarine e Bussab, Elementos de Amostragem (amostras probabilísticas); Bussab e Morettin, Estatística Básica, cap. 10",
+   "c": "Para avaliar a satisfação com o transporte público de Belém (PA), um estagiário entrevistou as 100 primeiras pessoas que passaram por um terminal de ônibus numa manhã de terça-feira.",
+   "q": "Trata-se de amostragem aleatória simples, pois cada morador de Belém teve a mesma chance de ser entrevistado.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo confunde amostra por conveniência com aleatória simples. Quem não passou por aquele terminal naquela manhã não tinha chance alguma de ser escolhido."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Não houve sorteio a partir de uma lista da população: entrou quem estava disponível. É amostra não probabilística (por conveniência), sujeita a viés, e não aleatória simples."
+    }
+   ]
+  },
+  {
+   "id": "est31",
+   "type": "ce",
+   "topic": "Média e valores extremos",
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (média e mediana)",
+   "c": "Num setor da Prefeitura de Joinville (SC), cinco servidores recebem R$ 3.000, R$ 3.000, R$ 3.500, R$ 4.000 e R$ 21.500, este último o salário do diretor.",
+   "q": "A média salarial do setor é o dobro da mediana, o que mostra que a média é mais sensível a valores extremos que a mediana.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Soma = 35.000, média = 35.000/5 = 7.000. Mediana (3º valor ordenado) = 3.500. A média é o dobro da mediana, puxada pelo salário de R$ 21.500, enquanto a mediana não se altera com ele."
+    },
+    {
+     "t": "Errado",
+     "p": "inversao",
+     "w": "Julgar errado inverte a propriedade: a mediana é que é resistente a valores extremos. A conta confirma o item: média de R$ 7.000 e mediana de R$ 3.500."
+    }
+   ]
+  },
+  {
+   "id": "est32",
+   "type": "ce",
+   "topic": "Variância e soma constante",
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (propriedades da variância)",
+   "c": "No posto do Detran-SP em Campinas, os tempos de espera tinham variância de 25 min². Após uma mudança no sistema de senhas, todos os tempos passaram a ter exatamente 5 minutos a mais.",
+   "q": "Com o acréscimo de 5 minutos a todos os tempos, a variância também aumentou, passando a 30 min².",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo aplica à variância a propriedade da média. Somar constante desloca todos os dados igualmente, e os desvios em relação à nova média ficam iguais."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Somar uma constante a todos os valores aumenta a média em 5, mas não altera a variância (continua 25 min²) nem o desvio padrão (5 min)."
+    }
+   ]
+  },
+  {
+   "id": "est33",
+   "type": "ce",
+   "topic": "Variância e multiplicação",
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (propriedades da variância)",
+   "c": "Na corregedoria de um tribunal em Goiânia (GO), os tempos de tramitação de sindicâncias, medidos em semanas, têm desvio padrão de 2 semanas. O relatório converteu todos os tempos para dias, multiplicando-os por 7.",
+   "q": "Em dias, o desvio padrão passa a ser de 14 dias, e a variância fica multiplicada por 49.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Multiplicar os dados por k multiplica o desvio padrão por |k| e a variância por k². Desvio: 2 × 7 = 14 dias; variância: de 4 semanas² para 196 dias², isto é, × 49."
+    },
+    {
+     "t": "Errado",
+     "p": "calculo",
+     "w": "Julgar errado supõe que a variância seria multiplicada por 7, como o desvio. A variância é medida em unidades ao quadrado, por isso é multiplicada por 7² = 49."
+    }
+   ]
+  },
+  {
+   "id": "est34",
+   "type": "ce",
+   "topic": "Gráfico de barras",
+   "src": "Bussab e Morettin, Estatística Básica, cap. 2 (gráfico em barras)",
+   "c": "Um gráfico de barras no relatório da Ouvidoria Geral do Município de Salvador (BA) mostra as manifestações recebidas no trimestre: janeiro, 120; fevereiro, 150; março, 180.",
+   "q": "De fevereiro para março, as manifestações cresceram 20%, embora o aumento absoluto (30) tenha sido igual ao de janeiro para fevereiro.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "De fevereiro para março: 30/150 = 0,2 = 20%. De janeiro para fevereiro, o aumento também foi de 30, mas sobre a base 120: 25%. Mesmo acréscimo absoluto, percentuais diferentes."
+    },
+    {
+     "t": "Errado",
+     "p": "calculo",
+     "w": "Julgar errado costuma vir de calcular 30/120 = 25% para março, usando a base errada. A variação percentual divide o aumento pelo valor do mês anterior (150)."
+    }
+   ]
+  },
+  {
+   "id": "est35",
+   "type": "ce",
+   "topic": "Exclusivos e independentes",
+   "src": "Bussab e Morettin, Estatística Básica, cap. 5 (independência de eventos)",
+   "c": "A CGU vai sortear um processo de um lote para auditoria em Brasília (DF). Seja A = \"processo de licitação\", com P(A) = 0,3, e B = \"processo de diárias\", com P(B) = 0,2. Nenhum processo é das duas espécies.",
+   "q": "Como A e B não podem ocorrer juntos, são eventos independentes, e P(A ∩ B) = 0,06.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo confunde eventos mutuamente exclusivos com independentes. Se fossem independentes, poderiam ocorrer juntos com probabilidade 0,06, o que o enunciado proíbe."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "A e B são mutuamente exclusivos: P(A ∩ B) = 0. Como 0 ≠ P(A) × P(B) = 0,06, eles são dependentes: saber que saiu A garante que B não saiu."
+    }
+   ]
+  },
+  {
+   "id": "est36",
+   "type": "ce",
+   "topic": "Cauda da normal",
+   "src": "Bussab e Morettin, Estatística Básica, cap. 7 (distribuição normal)",
+   "c": "Os atendimentos presenciais numa agência da Previdência Social em Campina Grande (PB) têm duração aproximadamente normal, com média de 30 minutos e desvio padrão de 5 minutos.",
+   "q": "Pela regra empírica, cerca de 16% dos atendimentos duram mais de 35 minutos.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Cerca de 68% ficam entre 25 e 35 minutos (média ± 1 desvio). Os 32% restantes se dividem igualmente entre as duas caudas, pela simetria da normal: 16% acima de 35 minutos."
+    },
+    {
+     "t": "Errado",
+     "p": "calculo",
+     "w": "Julgar errado costuma vir de esquecer a simetria e atribuir os 32% inteiros a uma só cauda, ou de usar 34%, que é a faixa entre 30 e 35 minutos."
+    }
+   ]
+  },
+  {
+   "id": "est37",
+   "type": "ce",
+   "topic": "Intensidade da correlação",
+   "src": "Bussab e Morettin, Estatística Básica, cap. 4 (coeficiente de correlação)",
+   "c": "Um analista da Secretaria da Fazenda do Rio Grande do Sul, em Porto Alegre, calculou r = −0,92 entre o número de servidores alocados em cada setor e o tempo médio de tramitação dos processos.",
+   "q": "Por ser negativo, o coeficiente indica correlação linear fraca entre as duas variáveis.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo confunde sentido com intensidade. O sinal só diz se a relação é direta ou inversa."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "r varia de −1 a 1, e a intensidade é dada pelo valor absoluto. |−0,92| = 0,92 indica correlação linear forte, e negativa: setores com mais servidores tendem a ter menor tempo de tramitação."
+    }
+   ]
+  },
+  {
+   "id": "est38",
+   "type": "ce",
+   "topic": "Correlação não é causa",
+   "src": "Bussab e Morettin, Estatística Básica, cap. 4 (associação entre variáveis)",
+   "c": "Um levantamento com dados mensais do Rio de Janeiro (RJ) mostrou correlação positiva forte entre as vendas de sorvete nas praias e os atendimentos de vítimas de afogamento.",
+   "q": "A correlação forte permite concluir que o consumo de sorvete causa os afogamentos.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "extrapolacao",
+     "w": "Julgar certo vai além do que a correlação informa. O coeficiente mede associação, e a relação aqui é explicada por uma terceira variável."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Correlação não implica causalidade. O calor do verão aumenta tanto as vendas de sorvete quanto a ida às praias, e com ela os afogamentos."
+    }
+   ]
+  },
+  {
+   "id": "est39",
+   "type": "ce",
+   "topic": "Média e variância binomial",
+   "src": "Bussab e Morettin, Estatística Básica, cap. 6 (distribuição binomial)",
+   "c": "Numa auditoria da Secretaria da Economia de Goiás, em Goiânia, 100 notas fiscais são sorteadas; cada uma tem, independentemente, probabilidade 0,2 de conter irregularidade.",
+   "q": "O número de notas irregulares segue distribuição binomial com média 20 e variância 20.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "calculo",
+     "w": "Julgar certo esquece o fator (1 − p) na variância. Média e variância só coincidiriam se 1 − p fosse 1."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "A distribuição é binomial com n = 100 e p = 0,2: média np = 20, mas variância np(1 − p) = 100 × 0,2 × 0,8 = 16."
+    }
+   ]
+  },
+  {
+   "id": "est40",
+   "type": "ce",
+   "topic": "Quartis e mediana",
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (quantis empíricos)",
+   "c": "O relatório da central de atendimento ao cidadão de Aracaju (SE) informa, para a duração das ligações, primeiro quartil de 3 minutos, mediana de 5 minutos e terceiro quartil de 9 minutos.",
+   "q": "Esses valores indicam que cerca de 75% das ligações duraram até 9 minutos e que cerca de metade delas durou entre 3 e 9 minutos.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Q3 deixa cerca de 75% das observações abaixo dele, e entre Q1 e Q3 ficam cerca de 50% centrais. A mediana é o segundo quartil."
+    },
+    {
+     "t": "Errado",
+     "p": "inversao",
+     "w": "Julgar errado inverte o sentido do quartil, como se Q3 deixasse 25% abaixo. Q1 deixa 25% abaixo; Q3, 75%."
+    }
+   ]
+  }
+ ]
+}

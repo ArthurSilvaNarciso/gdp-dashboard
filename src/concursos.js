@@ -86,8 +86,8 @@ function viewConcurso() {
   const c = (CC.list || []).find((x) => x.id === ui.cid);
   if (!c) { if (!CC.list) { setTimeout(() => loadConcursos(), 0); return '<div class="page"><div class="skel" style="height:300px"></div></div>'; } ui.tab = 'concursos'; return viewConcursos(); }
   const planned = S.user.plan && S.user.plan.cid === c.id;
-  const subj = c.disciplinas.map((x) => { const dk = subjectDeck(x.nome); return `<div class="item noicon cc-subj"><div class="main"><b>${esc(x.nome)}</b><span>${x.topicos.length ? esc(x.topicos.slice(0, 4).join(' · ')) + (x.topicos.length > 4 ? '…' : '') : 'Conteúdo conforme o edital'}</span></div>${dk ? '<span class="tag c-mint">Trilha pronta</span>' : '<span class="tag c-lilac">Gerada pela IA</span>'}</div>`; }).join('');
-  const ready = c.disciplinas.filter((x) => subjectDeck(x.nome)).length;
+  const subj = c.disciplinas.map((x) => { const dk = subjectDeck(x.nome, x.topicos); return `<div class="item noicon cc-subj"><div class="main"><b>${esc(x.nome)}</b><span>${x.topicos.length ? esc(x.topicos.slice(0, 4).join(' · ')) + (x.topicos.length > 4 ? '…' : '') : 'Conteúdo conforme o edital'}</span></div>${dk ? '<span class="tag c-mint">Trilha pronta</span>' : '<span class="tag c-lilac">Gerada pela IA</span>'}</div>`; }).join('');
+  const ready = c.disciplinas.filter((x) => subjectDeck(x.nome, x.topicos)).length;
   return `<div class="page">
     <div class="sec" style="padding-top:6px"><button class="icon-btn" data-act="tab" data-tab="concursos" aria-label="Voltar">${ico('back')}</button>${c.edital ? `<a class="icon-btn" href="${esc(c.edital)}" target="_blank" rel="noopener noreferrer" aria-label="Abrir edital oficial">${ico('external')}</a>` : ''}</div>
     <div class="cc-head">${ccMono(c)}<div><span class="tag ${c.status === 'em breve' ? 'c-yellow' : 'c-mint'}">${c.status === 'em breve' ? 'Inscrições em breve' : 'Inscrições abertas'}</span><h1>${esc(c.titulo)}</h1><p class="muted small">${esc(c.orgao)}${c.local ? ' · ' + esc(c.local) : ''}</p></div></div>
@@ -106,10 +106,22 @@ function viewConcurso() {
 /* ---------- Plano de estudo ---------- */
 const SUBJECT_MAP = [[/l[ií]ngua portuguesa|portugu[eê]s|reda[cç][aã]o oficial|interpreta[cç][aã]o de texto/i, 'port'], [/racioc[ií]nio|l[oó]gica|rlm/i, 'logica'], [/inform[aá]tica|no[cç][oõ]es de computa|tecnologia da informa/i, 'info'],
   [/direito constitucional|constitucional/i, 'dconst'], [/direito administrativo|administrativo/i, 'dadm'], [/^matem[aá]tica|matem[aá]tica (b[aá]sica|financeira|e)/i, 'mat'], [/lgpd|prote[cç][aã]o de dados/i, 'lgpd'],
+  [/tribut[aá]ri/i, 'dtrib'], [/or[cç]ament|finan[cç]as p[uú]blicas|direito financeiro|administra[cç][aã]o financeira|\bAFO\b|responsabilidade fiscal/i, 'afo'], [/contab/i, 'cont'],
+  [/estat[ií]stica|probabilidade/i, 'est'], [/consumidor/i, 'dcons'], [/crian[cç]a e (do )?adolescente|\bECA\b/i, 'eca'],
+  [/\bSUS\b|sa[uú]de p[uú]blica|sistema [uú]nico de sa[uú]de|pol[ií]ticas? (p[uú]blicas? )?de sa[uú]de/i, 'sus'], [/reda[cç][aã]o oficial|correspond[eê]ncia oficial/i, 'redof'], [/arquiv[oí]stic|arquivolog|no[cç][oõ]es de arquivo|gest[aã]o documental|gest[aã]o de documentos/i, 'arq'],
   [/processual penal|execu[cç][aã]o penal/i, 'dpp'], [/processual civil/i, 'dpc'], [/direito penal|legisla[cç][aã]o penal|penal especial/i, 'dpen'], [/direito civil/i, 'dciv'],
   [/direitos humanos/i, 'dh'], [/(^|[^a-zà-ú])[ée]tica|integridade|improbidade/i, 'etica'], [/administra[cç][aã]o (p[uú]blica|geral)|no[cç][oõ]es de administra[cç][aã]o|gest[aã]o p[uú]blica|gest[aã]o governamental|gest[aã]o estrat[ée]gica/i, 'adm'], [/ingl[eê]s|l[ií]ngua inglesa/i, 'ingl'],
   [/seguran[cç]a da informa/i, 'seg'], [/hist[oó]ria do brasil/i, 'hist'], [/^biologia/i, 'bio'], [/excel|planilha/i, 'excel']];
-function subjectDeck(nome) { for (const [re, id] of SUBJECT_MAP) if (re.test(nome)) return BUILTIN_DECKS.some((d) => d.id === id) ? id : null; return null; }
+const hasDeck = (id) => BUILTIN_DECKS.some((d) => d.id === id);
+const mapName = (t) => { for (const [re, id] of SUBJECT_MAP) if (re.test(t)) return id; return null; };
+// Pelo nome da matéria; se o nome for genérico ("Conhecimentos Gerais"), pela maioria dos tópicos do edital.
+function subjectDeck(nome, topicos) {
+  const byName = mapName(nome); if (byName) return hasDeck(byName) ? byName : null;
+  const t = (topicos || []).map(mapName).filter((id) => id && hasDeck(id)); if (t.length < 2) return null;
+  const n = {}; for (const id of t) n[id] = (n[id] || 0) + 1;
+  const [best, k] = Object.entries(n).sort((a, b) => b[1] - a[1])[0];
+  return k >= 2 && k / topicos.length >= 0.4 ? best : null;
+}
 const planDeckId = (cid, i) => ('uc_' + cid.replace(/[^a-z0-9]/g, '_').slice(0, 30) + '_' + i);
 function planBanner() {
   const p = S.user.plan; const ready = p.subjects.filter((x) => x.deck && deckById(x.deck)).length;
@@ -122,7 +134,7 @@ function ccPromo() {
   return `<button class="plan-banner promo-cc" data-act="tab" data-tab="concursos"><span class="tile c-blue">${ico('concursos')}</span><div class="main"><small>Concursos abertos</small><b>${n == null ? 'Escolha seu concurso' : n + (n === 1 ? ' concurso aberto' : ' concursos abertos') + (S.user.uf ? ' para você' : ' no Brasil')}</b><span>O Memory monta o plano com as matérias do edital</span></div>${chev()}</button>`;
 }
 function planCreate(c) {
-  const subjects = c.disciplinas.map((x, i) => ({ nome: x.nome, topicos: x.topicos.slice(0, 12), deck: subjectDeck(x.nome) || (deckById(planDeckId(c.id, i)) ? planDeckId(c.id, i) : null) }));
+  const subjects = c.disciplinas.map((x, i) => ({ nome: x.nome, topicos: x.topicos.slice(0, 12), deck: subjectDeck(x.nome, x.topicos) || (deckById(planDeckId(c.id, i)) ? planDeckId(c.id, i) : null) }));
   S.user.plan = { cid: c.id, titulo: c.titulo, orgao: c.orgao, sigla: c.sigla || '', banca: c.banca || '', uf: c.uf, prova: c.prova || null, at: Date.now(), subjects };
   if (c.prova) S.user.exam = { name: (c.sigla || c.orgao).slice(0, 40), date: c.prova };
   S.user.persona = 'concurso'; persist(); reindex();
