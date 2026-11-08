@@ -552,6 +552,280 @@
         { "t": "Certo", "p": "correta", "w": "Art. 88, II: é diretriz da política de atendimento a criação de conselhos municipais, estaduais e nacional dos direitos, órgãos deliberativos e controladores das ações em todos os níveis, com participação popular paritária." },
         { "t": "Errado", "p": "troca", "w": "Julgar errado trata o conselho de direitos como órgão meramente consultivo ou o confunde com o Conselho Tutelar, que atende casos individuais." }
       ]
+    },
+    {
+      "id": "eca41",
+      "topic": "Abandono afetivo",
+      "src": "ECA, arts. 4º, §§2º e 3º, 5º, parágrafo único, e 22 (redação da Lei 15.240/2025)",
+      "c": "Em Ponta Grossa (PR), o pai de Luana, de 11 anos, paga a pensão em dia, mas há três anos não a visita, não atende seus telefonemas e faltou a todos os momentos em que ela pediu sua presença.",
+      "q": "À luz do ECA, com as alterações de 2025, assinale a alternativa correta.",
+      "a": 1,
+      "o": [
+        { "t": "Como a pensão está em dia, o pai cumpre todos os seus deveres, que no ECA se limitam à assistência material.", "p": "restricao", "w": "Desde a Lei 15.240/2025, o art. 22 inclui entre os deveres dos pais a convivência e a assistência afetiva, e não só a material." },
+        { "t": "Os pais devem prestar assistência afetiva, por convívio ou visitação periódica; o abandono afetivo é conduta ilícita sujeita a reparação de danos.", "p": "correta", "w": "Art. 4º, §2º: cabe aos pais prestar assistência afetiva, por convívio ou visitação periódica. Art. 5º, parágrafo único: a ofensa a direito fundamental, incluído o abandono afetivo, é ilícito sujeito a reparação de danos." },
+        { "t": "O abandono afetivo gera automaticamente a perda do poder familiar e permite a adoção imediata de Luana pelo companheiro da mãe.", "p": "extrapolacao", "w": "A lei prevê reparação de danos, sem prejuízo de outras sanções. A perda do poder familiar exige processo judicial próprio, e não é efeito automático." },
+        { "t": "O abandono afetivo é só infração administrativa, punida com multa aplicada pelo Conselho Tutelar.", "p": "troca", "w": "O ECA trata o abandono afetivo como conduta ilícita sujeita a reparação de danos (art. 5º, parágrafo único). O Conselho Tutelar não aplica multas." }
+      ]
+    },
+    {
+      "id": "eca42",
+      "topic": "Bebida e consumo",
+      "src": "ECA, art. 243, caput e parágrafo único (incluído pela Lei 15.234/2025)",
+      "c": "Em Caruaru (PE), durante o São João, o dono de uma barraca serviu uma dose de cachaça a Pedro, de 16 anos, que a bebeu no balcão. A polícia flagrou a cena.",
+      "q": "Pelo ECA, como fica a pena do comerciante?",
+      "a": 3,
+      "o": [
+        { "t": "Não há crime: servir bebida a adolescente é só infração administrativa, punida com multa e interdição da barraca.", "p": "troca", "w": "Servir bebida alcoólica a adolescente é crime do art. 243 do ECA, ainda que de graça, e não mera infração administrativa." },
+        { "t": "Há crime, mas a causa de aumento só incide se o adolescente sofrer intoxicação comprovada por laudo médico.", "p": "restricao", "w": "O parágrafo único exige apenas que a criança ou o adolescente utilize ou consuma o produto. Não pede intoxicação nem laudo." },
+        { "t": "Detenção de 2 a 4 anos e multa, aumentada até o dobro porque o adolescente consumiu a bebida.", "p": "calculo", "w": "A fração está errada: a Lei 15.234/2025 prevê aumento de um terço até a metade, e não até o dobro." },
+        { "t": "Detenção de 2 a 4 anos e multa, aumentada de um terço até a metade, porque o adolescente consumiu o produto.", "p": "correta", "w": "Art. 243: detenção de 2 a 4 anos e multa, se o fato não constitui crime mais grave. O parágrafo único, da Lei 15.234/2025, aumenta a pena de 1/3 até a metade se a criança ou o adolescente utilizar ou consumir o produto." }
+      ]
+    },
+    {
+      "id": "eca43",
+      "topic": "Remuneração nos conselhos",
+      "src": "ECA, arts. 89 (redação da Lei 15.426/2026) e 134",
+      "c": "Em Rio Verde (GO), a Câmara discute dois projetos: um fixa a remuneração dos conselheiros tutelares; outro cria pagamento mensal aos membros do Conselho Municipal dos Direitos da Criança e do Adolescente.",
+      "q": "Pelo ECA, assinale a alternativa correta.",
+      "a": 0,
+      "o": [
+        { "t": "O primeiro é válido, pois lei municipal fixa a remuneração do conselheiro tutelar; o segundo não, pois a função no Conselho dos Direitos não é remunerada.", "p": "correta", "w": "Art. 134: lei municipal dispõe sobre a remuneração dos conselheiros tutelares. Art. 89: a função de membro dos conselhos dos direitos é de interesse público relevante e não será remunerada." },
+        { "t": "O segundo é válido e o primeiro não, pois o conselheiro tutelar exerce função honorífica, sem remuneração.", "p": "inversao", "w": "É o contrário: o conselheiro tutelar é remunerado, com férias, 13º e licenças garantidas (art. 134), e o membro do conselho dos direitos não (art. 89)." },
+        { "t": "Ambos são inválidos, pois nenhuma função ligada à proteção da infância pode ser remunerada.", "p": "generalizacao", "w": "O ECA manda a lei municipal fixar a remuneração dos conselheiros tutelares (art. 134). A gratuidade vale só para os conselhos dos direitos." },
+        { "t": "Ambos são válidos, desde que os valores sejam aprovados previamente pelo próprio Conselho Tutelar.", "p": "restricao", "w": "A lei não exige essa aprovação, e o pagamento aos membros do conselho dos direitos é vedado de qualquer forma (art. 89)." }
+      ]
+    },
+    {
+      "id": "eca44",
+      "topic": "Escolha do Conselho Tutelar",
+      "src": "ECA, art. 139, §§1º a 3º (incluídos pela Lei 12.696/2012)",
+      "c": "Em Cabo Frio (RJ), os conselheiros tutelares tomaram posse em janeiro de 2024, após o processo de escolha de outubro de 2023. Um interessado quer saber quando serão a próxima escolha e a posse.",
+      "q": "Pelo ECA, assinale a alternativa correta.",
+      "a": 2,
+      "o": [
+        { "t": "Escolha no primeiro domingo de outubro de 2026, junto com a eleição presidencial, e posse em 1º de janeiro de 2027.", "p": "calculo", "w": "A escolha ocorre no ano seguinte ao da eleição presidencial (2027, e não 2026), e a posse é em 10 de janeiro do ano seguinte." },
+        { "t": "Escolha em data fixada livremente por cada município, a cada 4 anos, com posse em 10 de janeiro.", "p": "troca", "w": "Desde a Lei 12.696/2012, a data é unificada em todo o território nacional, e não fixada por cada município." },
+        { "t": "Escolha unificada no país no primeiro domingo de outubro de 2027, ano seguinte ao da eleição presidencial, e posse em 10 de janeiro de 2028.", "p": "correta", "w": "Art. 139, §1º: escolha em data unificada, a cada 4 anos, no primeiro domingo de outubro do ano seguinte ao da eleição presidencial (2026). §2º: posse em 10 de janeiro do ano seguinte à escolha." },
+        { "t": "Escolha em outubro de 2027, podendo o candidato oferecer brindes de pequeno valor, pois só vantagens de grande valor são vedadas.", "p": "restricao", "w": "O §3º do art. 139 veda ao candidato oferecer ao eleitor bem ou vantagem de qualquer natureza, inclusive brindes de pequeno valor." }
+      ]
+    },
+    {
+      "id": "eca45",
+      "topic": "Impedimentos no Conselho",
+      "src": "ECA, art. 140, caput e parágrafo único",
+      "c": "Em Guarapuava (PR), foram escolhidos para o Conselho Tutelar Marcos e Paulo, que é casado com a irmã de Marcos. Outra eleita, Sílvia, é filha da promotora da Infância e da Juventude da comarca.",
+      "q": "Pelo ECA, assinale a alternativa correta.",
+      "a": 1,
+      "o": [
+        { "t": "Só Marcos e Paulo estão impedidos, pois o impedimento não alcança parentes de membros do Ministério Público.", "p": "restricao", "w": "O parágrafo único do art. 140 estende o impedimento ao juiz e ao promotor com atuação na Infância e Juventude em exercício na comarca." },
+        { "t": "Marcos e Paulo, cunhados, não podem servir no mesmo Conselho, e Sílvia está impedida em relação à promotora da Infância da comarca.", "p": "correta", "w": "Art. 140: são impedidos de servir no mesmo Conselho, entre outros, cunhados durante o cunhadio. O parágrafo único estende o impedimento em relação ao juiz e ao promotor da Infância e Juventude da comarca." },
+        { "t": "Os três estão impedidos, e o parentesco anula todo o processo de escolha do Conselho no município.", "p": "extrapolacao", "w": "O impedimento afeta quem está na relação de parentesco, e não invalida a escolha dos demais conselheiros." },
+        { "t": "Marcos e Paulo estão impedidos, mas Sílvia só seria impedida se a mãe fosse a juíza da Infância, e não promotora.", "p": "troca", "w": "O parágrafo único alcança tanto a autoridade judiciária quanto o representante do Ministério Público da Infância e Juventude na comarca." }
+      ]
+    },
+    {
+      "id": "eca46",
+      "topic": "Entrega voluntária",
+      "src": "ECA, arts. 13, §1º, e 19-A, caput e §§1º e 3º (Lei 13.509/2017)",
+      "c": "Em Teófilo Otoni (MG), Jéssica, de 24 anos, grávida de 8 meses, disse à enfermeira da maternidade que deseja entregar o bebê para adoção logo após o parto.",
+      "q": "Pelo ECA, como a equipe deve agir?",
+      "a": 0,
+      "o": [
+        { "t": "Encaminhá-la, sem constrangimento, à Justiça da Infância e da Juventude, onde será ouvida por equipe interprofissional.", "p": "correta", "w": "Arts. 13, §1º, e 19-A: a gestante ou mãe que manifeste interesse em entregar o filho para adoção, antes ou logo após o nascimento, é encaminhada, sem constrangimento, à Justiça da Infância e da Juventude." },
+        { "t": "Comunicar a polícia, pois a entrega do filho para adoção configura crime de abandono de incapaz.", "p": "troca", "w": "A entrega voluntária pela via legal é um direito e é o oposto do abandono. O ECA manda encaminhar a gestante à Justiça, e não à polícia." },
+        { "t": "Encaminhá-la à Justiça só se o pai da criança concordar por escrito com a entrega.", "p": "restricao", "w": "O ECA não condiciona o encaminhamento à anuência do pai. Na Justiça é que se busca a família extensa, por até 90 dias, prorrogáveis por igual período (art. 19-A, §3º)." },
+        { "t": "Entregar o bebê diretamente a um casal habilitado indicado pelo hospital, dispensando a Justiça.", "p": "extrapolacao", "w": "O hospital não escolhe adotantes. A colocação em família substituta depende de decisão judicial, no procedimento do art. 19-A, e não de escolha da equipe de saúde." }
+      ]
+    },
+    {
+      "id": "eca47",
+      "topic": "Estágio de convivência",
+      "src": "ECA, art. 46, caput e §§2º-A e 3º (Lei 13.509/2017)",
+      "c": "Em Santa Maria (RS), correm dois processos de adoção: um de casal residente em Porto Alegre e outro de casal residente na Itália. Nenhum deles tinha guarda anterior das crianças.",
+      "q": "Pelo ECA, quais são os prazos do estágio de convivência?",
+      "a": 3,
+      "o": [
+        { "t": "Para o casal de Porto Alegre, de 30 a 45 dias; para o casal da Itália, até 90 dias.", "p": "inversao", "w": "Os prazos estão trocados: até 90 dias é a regra interna, e de 30 a 45 dias vale para quem reside fora do país." },
+        { "t": "Até 90 dias para os dois casais, sem possibilidade de prorrogação em nenhum caso.", "p": "generalizacao", "w": "O ECA tem prazo próprio para adotantes residentes no exterior e admite prorrogação nos dois casos, por decisão fundamentada." },
+        { "t": "Até 90 dias para o casal de Porto Alegre, prorrogáveis por mais 45; para o da Itália, de 30 a 45 dias, sem prorrogação.", "p": "calculo", "w": "A prorrogação interna é por até igual período (mais 90 dias), e a do exterior também é admitida, uma única vez." },
+        { "t": "Até 90 dias para o casal de Porto Alegre, prorrogáveis por igual período; para o da Itália, de 30 a 45 dias, prorrogáveis uma vez por igual período.", "p": "correta", "w": "Art. 46: estágio de até 90 dias, prorrogável por até igual período (§2º-A). Para residente fora do país, de 30 a 45 dias, prorrogável por até igual período, uma única vez (§3º)." }
+      ]
+    },
+    {
+      "id": "eca48",
+      "topic": "Adoção por divorciados",
+      "src": "ECA, art. 42, §§4º e 5º",
+      "c": "Em Divinópolis (MG), Carla e Rodrigo começaram o estágio de convivência com o pequeno Theo quando ainda eram casados. Divorciaram-se durante o processo, e ambos querem concluir a adoção.",
+      "q": "Pelo ECA, a adoção conjunta ainda é possível?",
+      "a": 2,
+      "o": [
+        { "t": "Não: a adoção conjunta exige sempre que os adotantes estejam casados ou em união estável na data da sentença.", "p": "generalizacao", "w": "O §4º do art. 42 abre exceção expressa para divorciados, separados judicialmente e ex-companheiros." },
+        { "t": "Sim, mas só se a guarda ficar exclusivamente com a mãe, sem regime de visitas para o pai.", "p": "restricao", "w": "A lei exige acordo sobre guarda e visitas, não guarda materna exclusiva. A guarda compartilhada será assegurada se demonstrado efetivo benefício ao adotando (§5º)." },
+        { "t": "Sim, se acordarem sobre guarda e visitas, se o estágio tiver começado durante a união e houver vínculo afetivo com quem não ficar com a guarda.", "p": "correta", "w": "Art. 42, §4º: divorciados podem adotar conjuntamente se acordarem sobre guarda e visitas, se o estágio começou na constância da convivência e se houver afinidade e afetividade com o não guardião." },
+        { "t": "Sim, mas por meio de duas adoções unilaterais separadas, uma para cada ex-cônjuge.", "p": "troca", "w": "Adoção unilateral é a do cônjuge ou companheiro do pai ou da mãe. O caso é de adoção conjunta, admitida pelo §4º." }
+      ]
+    },
+    {
+      "id": "eca49",
+      "topic": "Adoção sem cadastro",
+      "src": "ECA, art. 50, §13, I a III",
+      "c": "Em Garanhuns (PE), três pessoas não cadastradas pediram adoção: o padrasto de Ana, o tio de Bruno, com quem ele convive e tem forte vínculo, e uma vizinha que cuida informalmente de Caio, de 2 anos, há um ano.",
+      "q": "Pelo ECA, em quais casos a adoção pode ser deferida sem cadastro prévio?",
+      "a": 1,
+      "o": [
+        { "t": "Nos três, pois o vínculo afetivo sempre dispensa a inscrição no cadastro de adoção.", "p": "generalizacao", "w": "O §13 do art. 50 lista hipóteses taxativas. O afeto sozinho não basta fora delas." },
+        { "t": "No do padrasto, por ser adoção unilateral, e no do tio, parente com vínculo de afinidade e afetividade; não no da vizinha.", "p": "correta", "w": "Art. 50, §13: dispensa-se o cadastro na adoção unilateral (I) e no pedido de parente com vínculos de afinidade e afetividade (II). A vizinha não tem guarda legal e Caio tem menos de 3 anos (III)." },
+        { "t": "Só no do padrasto, pois a dispensa do cadastro vale apenas para a adoção unilateral.", "p": "restricao", "w": "O inciso II também dispensa o cadastro para parente com quem a criança mantenha vínculos de afinidade e afetividade." },
+        { "t": "Nos três, porque cuidar de fato da criança por mais de um ano equivale à guarda legal exigida pela lei.", "p": "troca", "w": "O inciso III exige tutela ou guarda legal de criança maior de 3 anos ou adolescente. Guarda de fato não se confunde com guarda legal." }
+      ]
+    },
+    {
+      "id": "eca50",
+      "topic": "Pobreza e poder familiar",
+      "src": "ECA, art. 23, caput e §1º",
+      "c": "Em Codó (MA), a mãe de três crianças, desempregada, vive com elas num barraco sem banheiro. Uma vizinha pediu ao Ministério Público a destituição do poder familiar por falta de condições materiais.",
+      "q": "Pelo ECA, assinale a alternativa correta.",
+      "a": 0,
+      "o": [
+        { "t": "A falta de recursos materiais não basta para a perda ou suspensão do poder familiar; a família deve ser incluída em programas oficiais de apoio.", "p": "correta", "w": "Art. 23: a carência de recursos materiais não é motivo suficiente para perda ou suspensão do poder familiar. O §1º manda manter a criança na família, incluída obrigatoriamente em programas oficiais de proteção e apoio." },
+        { "t": "A pobreza extrema é motivo suficiente para a destituição, e as crianças devem ser encaminhadas à adoção.", "p": "inversao", "w": "O ECA diz o oposto: a carência material, sozinha, não autoriza a perda nem a suspensão do poder familiar." },
+        { "t": "A destituição só é afastada se a mãe conseguir emprego formal em até 6 meses.", "p": "restricao", "w": "A lei não fixa essa condição. Sem outro motivo, as crianças ficam com a família, que deve receber apoio." },
+        { "t": "Como a carência material não autoriza a destituição, o Estado fica proibido de aplicar qualquer medida à família.", "p": "extrapolacao", "w": "Ao contrário, o §1º obriga a inclusão da família em serviços e programas de proteção, apoio e promoção." }
+      ]
+    },
+    {
+      "id": "eca51",
+      "topic": "Afastamento do agressor",
+      "src": "ECA, art. 130, caput (redação da Lei 15.240/2025) e parágrafo único",
+      "c": "Em Cachoeiro de Itapemirim (ES), ficou comprovado que o pai de Júlia, de 9 anos, a agredia com frequência. Ele é o único provedor da casa onde ela vive com a mãe e o irmão.",
+      "q": "Que medida o ECA prevê especificamente para esse caso?",
+      "a": 3,
+      "o": [
+        { "t": "O acolhimento institucional de Júlia, que é sempre a primeira medida quando o agressor mora na casa.", "p": "generalizacao", "w": "O acolhimento é excepcional e provisório. O art. 130 permite tirar o agressor de casa, preservando o convívio da criança com a mãe." },
+        { "t": "O afastamento do agressor da moradia, mas só depois de condenação criminal definitiva.", "p": "restricao", "w": "O afastamento é medida cautelar: não depende de condenação criminal transitada em julgado." },
+        { "t": "O afastamento do agressor determinado pelo Conselho Tutelar, que também fixa alimentos provisórios.", "p": "troca", "w": "Quem determina o afastamento e fixa os alimentos é a autoridade judiciária, e não o Conselho Tutelar." },
+        { "t": "O juiz pode determinar, como medida cautelar, o afastamento do agressor da moradia comum, com fixação provisória de alimentos.", "p": "correta", "w": "Art. 130: verificados maus-tratos, negligência, opressão ou abuso sexual pelos pais ou responsável, o juiz pode afastar cautelarmente o agressor da moradia. O parágrafo único manda fixar alimentos provisórios aos dependentes." }
+      ]
+    },
+    {
+      "id": "eca52",
+      "topic": "Hospedagem em hotel",
+      "src": "ECA, art. 82",
+      "c": "Em Porto Seguro (BA), Nicolas, de 17 anos, chegou sozinho a uma pousada e pediu um quarto. Ele não tinha autorização dos pais nem estava acompanhado por eles.",
+      "q": "Pelo ECA, a pousada pode hospedá-lo?",
+      "a": 2,
+      "o": [
+        { "t": "Sim, pois a proibição de hospedagem só alcança crianças, isto é, menores de 12 anos.", "p": "restricao", "w": "O art. 82 protege criança e adolescente, sem distinção de idade dentro desse grupo." },
+        { "t": "Não, nem mesmo com autorização dos pais, pois adolescente nunca pode se hospedar sem os pais presentes.", "p": "generalizacao", "w": "A lei admite a hospedagem se o adolescente estiver autorizado ou acompanhado pelos pais ou responsável." },
+        { "t": "Não: é proibida a hospedagem de criança ou adolescente em hotel, pensão ou congênere, salvo se autorizado ou acompanhado pelos pais ou responsável.", "p": "correta", "w": "Art. 82: é proibida a hospedagem de criança ou adolescente em hotel, motel, pensão ou estabelecimento congênere, salvo se autorizado ou acompanhado pelos pais ou responsável." },
+        { "t": "Sim, porque aos 17 anos ele já pode viajar sozinho pelo país e, por isso, também pode se hospedar sem autorização.", "p": "extrapolacao", "w": "A regra de viagem do art. 83 não se estende à hospedagem, que tem regra própria no art. 82." }
+      ]
+    },
+    {
+      "id": "eca53",
+      "topic": "Sigilo do ato infracional",
+      "src": "ECA, art. 143, caput e parágrafo único",
+      "c": "Em Ilhéus (BA), um site publicou matéria sobre um roubo praticado por um adolescente, citando as iniciais de seu nome e o bairro onde ele mora, sem foto.",
+      "q": "Pelo ECA, a publicação foi regular?",
+      "a": 0,
+      "o": [
+        { "t": "Não: a notícia não pode identificar o adolescente, sendo vedadas, entre outras, a referência à residência e até as iniciais do nome e sobrenome.", "p": "correta", "w": "Art. 143, parágrafo único: a notícia não pode identificar o adolescente, vedadas fotografia, nome, apelido, filiação, parentesco, residência e inclusive iniciais do nome e sobrenome." },
+        { "t": "Sim, pois a lei veda apenas a fotografia e o nome completo do adolescente.", "p": "restricao", "w": "A vedação é mais ampla e inclui expressamente residência e iniciais do nome e sobrenome." },
+        { "t": "Não, pois o ECA proíbe qualquer notícia sobre ato infracional atribuído a adolescente.", "p": "generalizacao", "w": "O ECA admite a notícia sobre o fato; o que veda é a divulgação de atos judiciais, policiais e administrativos e a identificação do adolescente." },
+        { "t": "Sim, porque o sigilo do art. 143 protege a vítima do ato infracional, e não o adolescente apontado como autor.", "p": "troca", "w": "O art. 143 protege justamente a criança ou o adolescente a quem se atribui a autoria do ato infracional." }
+      ]
+    },
+    {
+      "id": "eca54",
+      "topic": "Internação sem unidade",
+      "src": "ECA, art. 185, caput e §§1º e 2º",
+      "c": "Em Tefé (AM), comarca sem unidade de internação, o juiz decretou a internação de Wesley, de 17 anos. Não é possível transferi-lo de imediato para uma unidade de Manaus.",
+      "q": "Pelo ECA, onde Wesley pode aguardar a transferência?",
+      "a": 1,
+      "o": [
+        { "t": "Na cadeia pública local, em cela comum, porque a falta de vaga autoriza o cumprimento em estabelecimento prisional.", "p": "troca", "w": "A internação não pode ser cumprida em estabelecimento prisional (art. 185, caput), nem havendo falta de vaga." },
+        { "t": "Em repartição policial, em seção isolada dos adultos e com instalações apropriadas, por no máximo 5 dias.", "p": "correta", "w": "Art. 185, §§1º e 2º: sem entidade na comarca, o adolescente é transferido para a localidade mais próxima. Se a transferência imediata for impossível, aguarda em repartição policial isolada dos adultos, por até 5 dias." },
+        { "t": "Em repartição policial, em seção isolada dos adultos, por até 45 dias, prazo da internação provisória.", "p": "calculo", "w": "O prazo de 45 dias é o da internação antes da sentença (art. 108). A espera em repartição policial não pode passar de 5 dias." },
+        { "t": "Em casa, com os pais, porque a falta de unidade na comarca extingue a medida de internação.", "p": "extrapolacao", "w": "A falta de unidade na comarca obriga a transferir o adolescente para a localidade mais próxima, e não extingue a medida." }
+      ]
+    },
+    {
+      "id": "eca55",
+      "type": "ce",
+      "topic": "Direito à natureza",
+      "src": "ECA, art. 4º, caput (redação da Lei 15.512/2026)",
+      "c": "Em Bonito (MS), a secretaria de educação criou aulas semanais em parques e trilhas para os alunos da rede municipal, citando o ECA como fundamento.",
+      "q": "Na redação dada pela Lei 15.512/2026, o art. 4º do ECA inclui a natureza entre os direitos que família, comunidade, sociedade e poder público devem assegurar com absoluta prioridade.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "A Lei 15.512/2026 alterou o caput do art. 4º, que passou a incluir a natureza, ao lado da vida, da saúde, da educação, da convivência familiar e comunitária e dos demais direitos, todos com absoluta prioridade." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado mantém a lista antiga do art. 4º. Desde a Lei 15.512/2026, a natureza figura expressamente entre os direitos assegurados com absoluta prioridade." }
+      ]
+    },
+    {
+      "id": "eca56",
+      "type": "ce",
+      "topic": "Tratamento extensivo à família",
+      "src": "ECA, art. 101, V (redação da Lei 15.280/2025)",
+      "c": "Em Pouso Alegre (MG), uma menina de 10 anos foi vítima de estupro de vulnerável, e a mãe passou a apresentar crises de ansiedade após o fato.",
+      "q": "A medida de proteção de requisição de tratamento médico, psicológico ou psiquiátrico pode ser estendida à família, especialmente em caso de vitimização em crime contra a dignidade sexual.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 101, V, na redação da Lei 15.280/2025: requisição de tratamento médico, psicológico ou psiquiátrico, em regime hospitalar ou ambulatorial, extensivo às famílias, se for o caso, especialmente em caso de vitimização em crime contra a dignidade sexual." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado limita o tratamento à criança. A Lei 15.280/2025 tornou a medida extensiva às famílias, se for o caso, com destaque para crimes contra a dignidade sexual." }
+      ]
+    },
+    {
+      "id": "eca57",
+      "type": "ce",
+      "topic": "Semiliberdade e atividades externas",
+      "src": "ECA, art. 120, caput e §§1º e 2º",
+      "c": "Em Uberaba (MG), Kevin, de 16 anos, cumpre semiliberdade e foi matriculado num curso técnico noturno fora da unidade. O diretor disse que ele só poderia frequentá-lo com autorização do juiz.",
+      "q": "Na semiliberdade, a realização de atividades externas depende de prévia autorização judicial.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "restricao", "w": "Julgar certo acrescenta uma condição que a lei afasta: na semiliberdade, as atividades externas são possíveis independentemente de autorização judicial." },
+        { "t": "Errado", "p": "correta", "w": "Art. 120: a semiliberdade possibilita atividades externas independentemente de autorização judicial, e a escolarização e a profissionalização são obrigatórias (§1º)." }
+      ]
+    },
+    {
+      "id": "eca58",
+      "type": "ce",
+      "topic": "Contagem dos prazos",
+      "src": "ECA, art. 152, §2º (incluído pela Lei 13.509/2017)",
+      "c": "Num processo de destituição do poder familiar em Piracicaba (SP), o promotor de justiça contou em dobro e em dias úteis o prazo para recorrer da sentença.",
+      "q": "Nos procedimentos do ECA, o Ministério Público tem prazo em dobro, e os prazos são contados em dias úteis, como no Código de Processo Civil.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo aplica a regra geral do CPC no lugar da regra especial do ECA, que manda contar em dias corridos e veda o prazo em dobro." },
+        { "t": "Errado", "p": "correta", "w": "Art. 152, §2º: os prazos do ECA são contados em dias corridos, excluído o dia do começo e incluído o do vencimento, vedado o prazo em dobro para a Fazenda Pública e o Ministério Público." }
+      ]
+    },
+    {
+      "id": "eca59",
+      "type": "ce",
+      "topic": "Origem biológica",
+      "src": "ECA, art. 48, caput e parágrafo único",
+      "c": "Em Volta Redonda (RJ), Gabriela, adotada quando bebê e hoje com 15 anos, pediu para conhecer o processo de adoção e a identidade da mãe biológica.",
+      "q": "O ECA permite que o acesso ao processo de adoção seja deferido a Gabriela antes dos 18 anos, a seu pedido, assegurada orientação e assistência jurídica e psicológica.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 48: após os 18 anos, o adotado tem acesso irrestrito ao processo e direito de conhecer sua origem biológica. O parágrafo único admite o acesso antes disso, a pedido do adotado, com orientação e assistência jurídica e psicológica." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado supõe que o acesso só é possível depois dos 18 anos. O parágrafo único do art. 48 admite o acesso antes dessa idade, a pedido do adotado." }
+      ]
+    },
+    {
+      "id": "eca60",
+      "type": "ce",
+      "topic": "Visita à mãe presa",
+      "src": "ECA, art. 19, §4º (incluído pela Lei 12.962/2014)",
+      "c": "Em Presidente Prudente (SP), a avó de Enzo, de 7 anos, quer levá-lo para visitar a mãe, presa na penitenciária feminina da região. A unidade exige autorização do juiz da Infância.",
+      "q": "Pelo ECA, a convivência da criança com a mãe privada de liberdade, por meio de visitas periódicas, depende de autorização judicial.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "restricao", "w": "Julgar certo impõe uma exigência que a lei dispensa: as visitas periódicas à mãe ou ao pai privado de liberdade ocorrem independentemente de autorização judicial." },
+        { "t": "Errado", "p": "correta", "w": "Art. 19, §4º: é garantida a convivência com a mãe ou o pai privado de liberdade por visitas periódicas promovidas pelo responsável ou, se houver acolhimento, pela entidade, independentemente de autorização judicial." }
+      ]
     }
   ]
 }

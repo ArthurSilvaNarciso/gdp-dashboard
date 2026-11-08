@@ -13,7 +13,7 @@ const MAP = {
   filter: 'sliders-horizontal', build: 'notebook-pen', play: 'circle-play', star: 'star', medal: 'medal', gauge: 'gauge', wrench: 'wrench', footprints: 'footprints',
   clipboard: 'clipboard-check', fileup: 'file-up', hundred: 'badge-check', streak: 'flame', info: 'info', lock: 'lock', globe: 'globe', pin: 'map-pinned',
   bookmark: 'bookmark', idea: 'lightbulb', warn: 'triangle-alert', sum: 'list-collapse', spark: 'rotate-ccw', memory: 'brain',
-  humans: 'heart-handshake', gavel: 'gavel', inquiry: 'file-search', signature: 'signature', scale: 'scale', ethics: 'handshake', org: 'building-2', lang: 'languages', budget: 'piggy-bank', calc: 'calculator', stats: 'chart-column', receipt: 'receipt', bag: 'shopping-bag', care: 'hand-heart', health: 'stethoscope', write: 'file-pen-line', archive: 'archive'
+  humans: 'heart-handshake', gavel: 'gavel', inquiry: 'file-search', signature: 'signature', scale: 'scale', ethics: 'handshake', org: 'building-2', lang: 'languages', budget: 'piggy-bank', calc: 'calculator', stats: 'chart-column', receipt: 'receipt', bag: 'shopping-bag', care: 'hand-heart', health: 'stethoscope', write: 'file-pen-line', archive: 'archive', school: 'school', bank: 'banknote', siren: 'siren'
 };
 const inner = (f) => fs.readFileSync(path.join(dir, f + '.svg'), 'utf8').replace(/<!--[\s\S]*?-->/g, '').replace(/^[\s\S]*?<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '').replace(/\s*\n\s*/g, '').replace(/ \/>/g, '/>').trim();
 const I = {}; for (const [k, f] of Object.entries(MAP)) I[k] = inner(f);

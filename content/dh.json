@@ -552,6 +552,552 @@
         { "t": "Certo", "p": "restricao", "w": "Julgar certo é condicionar o dever à confirmação. O ECA exige a comunicação já diante da suspeita." },
         { "t": "Errado", "p": "correta", "w": "O item está errado. Pelo art. 13, os casos de suspeita ou confirmação serão obrigatoriamente comunicados ao Conselho Tutelar; a omissão de professor ou dirigente de escola é infração administrativa (art. 245)." }
       ]
+    },
+    {
+      "id": "dh41",
+      "topic": "Vedação do retrocesso",
+      "c": "Uma lei estadual do Maranhão extinguiu o programa que fornecia gratuitamente insulina e fitas de glicemia a pacientes de baixa renda, sem criar nenhuma política que o substituísse. Associações de pacientes de São Luís preparam uma ação contra a medida.",
+      "q": "Qual princípio de direitos humanos dá o argumento central contra essa lei?",
+      "a": 2,
+      "src": "PIDESC (Decreto 591/1992), art. 2º, § 1º; J. J. Gomes Canotilho, Direito Constitucional e Teoria da Constituição (princípio da proibição de retrocesso social)",
+      "o": [
+        {
+          "t": "A reserva do possível, que obriga o Estado a manter todos os programas sociais já criados, sem exceção.",
+          "p": "troca",
+          "w": "A reserva do possível é argumento usado pelo próprio Estado para limitar prestações à disponibilidade de recursos. Quem protege o nível de proteção já alcançado é a vedação do retrocesso."
+        },
+        {
+          "t": "A vedação do retrocesso, que proíbe o legislador de alterar ou reformar qualquer lei sobre direitos sociais.",
+          "p": "generalizacao",
+          "w": "A vedação não congela a legislação: o legislador pode reformar políticas públicas. O que ela impede é esvaziar, sem alternativa equivalente, o núcleo já concretizado de um direito."
+        },
+        {
+          "t": "A vedação do retrocesso social: o Estado não pode suprimir, sem alternativa equivalente, o nível de proteção já alcançado em um direito social.",
+          "p": "correta",
+          "w": "Também chamada de efeito cliquet, ela decorre da realização progressiva do PIDESC (art. 2º, § 1º). Extinguir o programa sem nada pôr no lugar faz o direito à saúde andar para trás."
+        },
+        {
+          "t": "A vedação do retrocesso, que só protege direitos de primeira dimensão, como a liberdade de expressão e o voto.",
+          "p": "restricao",
+          "w": "O princípio é invocado justamente para os direitos sociais, de segunda dimensão, como saúde, educação e previdência. Limitá-lo aos direitos civis e políticos inverte sua razão de ser."
+        }
+      ]
+    },
+    {
+      "id": "dh42",
+      "topic": "Complementaridade do TPI",
+      "c": "Um ex-comandante de milícia é acusado de crimes contra a humanidade cometidos no interior do Amazonas. O Ministério Público já o denunciou e o processo corre regularmente na Justiça brasileira, mas uma ONG pede que o Tribunal Penal Internacional assuma o caso.",
+      "q": "Pelo Estatuto de Roma, o TPI pode julgar o caso nessas condições?",
+      "a": 0,
+      "src": "Estatuto de Roma (Decreto 4.388/2002), preâmbulo, arts. 1º e 17, § 1º, 'a'; CF/88, art. 5º, § 4º",
+      "o": [
+        {
+          "t": "Não: a jurisdição do TPI é complementar, e o caso é inadmissível quando o Estado competente o investiga ou processa de forma genuína.",
+          "p": "correta",
+          "w": "O TPI é complementar às jurisdições penais nacionais (art. 1º). Pelo art. 17, o caso é inadmissível se está sendo investigado ou processado pelo Estado, salvo se este não tiver vontade ou capacidade de fazê-lo de verdade."
+        },
+        {
+          "t": "Sim: a jurisdição do TPI prevalece sobre a nacional sempre que o crime estiver previsto no Estatuto de Roma.",
+          "p": "inversao",
+          "w": "A lógica é a oposta: os Estados têm a responsabilidade primária de julgar, e o TPI só atua quando o sistema nacional falha. Não há prevalência automática do tribunal internacional."
+        },
+        {
+          "t": "Não, porque o TPI só julga chefes de Estado e de governo, e não comandantes de grupos armados.",
+          "p": "restricao",
+          "w": "O Estatuto alcança qualquer pessoa física maior de 18 anos responsável pelos crimes de sua competência; a qualidade oficial é irrelevante (art. 27), mas não é requisito."
+        },
+        {
+          "t": "Sim, desde que o Congresso Nacional aprove, por decreto legislativo, a entrega do acusado ao Tribunal.",
+          "p": "troca",
+          "w": "Aprovação caso a caso pelo Congresso não é o critério. O Brasil já se submete ao TPI (CF, art. 5º, § 4º); o que barra o caso aqui é a complementaridade, porque a Justiça brasileira está atuando."
+        }
+      ]
+    },
+    {
+      "id": "dh43",
+      "topic": "Pedido de refúgio",
+      "c": "Um jornalista congolês, perseguido por suas reportagens, atravessou a fronteira por Corumbá (MS) sem passar pelo controle migratório. Ao procurar a Polícia Federal para pedir refúgio, descobriu que fora aberto procedimento contra ele pela entrada irregular.",
+      "q": "O que a Lei 9.474/1997 prevê nesse caso?",
+      "a": 1,
+      "src": "Lei 9.474/1997, arts. 1º, I, 8º e 10, caput e § 1º",
+      "o": [
+        {
+          "t": "Ele deve primeiro deixar o país e pedir refúgio em um consulado brasileiro, porque o pedido não pode partir de quem entrou irregularmente.",
+          "p": "troca",
+          "w": "A lei diz o contrário: o ingresso irregular no território nacional não impede que o estrangeiro peça refúgio às autoridades competentes (art. 8º)."
+        },
+        {
+          "t": "A entrada irregular não impede o pedido, e o pedido suspende o procedimento aberto em razão dessa entrada.",
+          "p": "correta",
+          "w": "É o que dizem os arts. 8º e 10 da Lei 9.474/1997. Se o refúgio for reconhecido, o procedimento é arquivado quando a infração decorreu dos mesmos fatos que justificaram o reconhecimento (art. 10, § 1º)."
+        },
+        {
+          "t": "O pedido só é admitido se ele tiver entrado com visto válido e comprovar documentalmente a perseguição.",
+          "p": "restricao",
+          "w": "A lei não exige visto, e o art. 8º protege justamente quem entrou sem ele. Basta o fundado temor de perseguição por motivo de raça, religião, nacionalidade, grupo social ou opinião política (art. 1º, I)."
+        },
+        {
+          "t": "O simples pedido extingue de imediato qualquer processo criminal contra ele, inclusive por crimes sem relação com a entrada.",
+          "p": "extrapolacao",
+          "w": "O pedido suspende apenas os procedimentos relativos à entrada irregular (art. 10). Não alcança crimes estranhos a ela, e o arquivamento depende do reconhecimento do refúgio."
+        }
+      ]
+    },
+    {
+      "id": "dh44",
+      "topic": "Não criminalização da migração",
+      "c": "Em Foz do Iguaçu (PR), um paraguaio que trabalhava como pedreiro foi encontrado com o prazo de permanência vencido havia oito meses. Um agente sugeriu mantê-lo preso até a conclusão do processo de deportação, 'para servir de exemplo'.",
+      "q": "Segundo a Lei 13.445/2017, como deve ser tratada a situação?",
+      "a": 3,
+      "src": "Lei 13.445/2017 (Lei de Migração), arts. 3º, III, e 123",
+      "o": [
+        {
+          "t": "Como crime de permanência irregular, punido com detenção, o que justifica a prisão em flagrante.",
+          "p": "troca",
+          "w": "A Lei de Migração tem a não criminalização da migração como princípio (art. 3º, III). Estar com o prazo vencido é irregularidade administrativa, não crime."
+        },
+        {
+          "t": "Com prisão administrativa decretada pelo delegado, por até 60 dias, enquanto durar o processo de deportação.",
+          "p": "calculo",
+          "w": "A Lei de Migração não prevê prisão administrativa para deportação, muito menos decretada por delegado. Ninguém é privado de liberdade por razões migratórias fora dos casos que ela mesma estabelece (art. 123)."
+        },
+        {
+          "t": "Com prisão apenas se ele não tiver residência fixa no Brasil, para garantir a execução da deportação.",
+          "p": "restricao",
+          "w": "A falta de residência fixa não é hipótese legal de prisão por razão migratória. A condição foi inventada e esbarra no art. 123 da Lei 13.445/2017."
+        },
+        {
+          "t": "Sem prisão: ninguém será privado de liberdade por razões migratórias, salvo nos casos previstos na própria Lei de Migração.",
+          "p": "correta",
+          "w": "É a regra literal do art. 123, ligada ao princípio da não criminalização da migração (art. 3º, III). A irregularidade se resolve pelas medidas administrativas, como a notificação para regularizar a situação ou deixar o país."
+        }
+      ]
+    },
+    {
+      "id": "dh45",
+      "topic": "Conceito de população negra",
+      "c": "A prefeitura de Ilhéus (BA) lançou um programa de qualificação profissional para a 'população negra', mas o edital aceitou apenas candidatos que se declarassem pretos, excluindo os que se declaravam pardos.",
+      "q": "À luz do Estatuto da Igualdade Racial, o critério do edital está correto?",
+      "a": 1,
+      "src": "Lei 12.288/2010 (Estatuto da Igualdade Racial), art. 1º, parágrafo único, IV",
+      "o": [
+        {
+          "t": "Sim, porque o Estatuto define população negra como o conjunto de pessoas que se autodeclaram pretas.",
+          "p": "restricao",
+          "w": "O Estatuto não exclui os pardos. A definição legal abrange pretos e pardos, e o edital criou um recorte que a lei não faz."
+        },
+        {
+          "t": "Não: pelo Estatuto, população negra é o conjunto de pessoas que se autodeclaram pretas e pardas, conforme o quesito cor ou raça do IBGE.",
+          "p": "correta",
+          "w": "É a definição do art. 1º, parágrafo único, IV, da Lei 12.288/2010, que também admite autodefinição análoga. Excluir os pardos contraria o conceito legal."
+        },
+        {
+          "t": "Não, porque o Estatuto define população negra a partir de laudo de comissão que avalia a ascendência africana do candidato.",
+          "p": "troca",
+          "w": "O critério do Estatuto é a autodeclaração, segundo o quesito cor ou raça do IBGE. Ascendência comprovada por laudo não é o parâmetro da lei."
+        },
+        {
+          "t": "Sim, porque cada município pode definir livremente quem integra a população negra em seus programas.",
+          "p": "generalizacao",
+          "w": "O conceito está fixado em lei federal, e o próprio edital usou a expressão 'população negra'. O município não pode esvaziar a definição do Estatuto."
+        }
+      ]
+    },
+    {
+      "id": "dh46",
+      "topic": "Prioridade especial do idoso",
+      "c": "Na fila de atendimento de um banco em Campina Grande (PB) estão, nesta ordem, um homem de 45 anos, uma senhora de 62 anos e um senhor de 84 anos. A gerente quer organizar o atendimento conforme o Estatuto da Pessoa Idosa.",
+      "q": "Qual é a ordem correta?",
+      "a": 2,
+      "src": "Lei 10.741/2003 (Estatuto da Pessoa Idosa), arts. 1º e 3º, § 1º, I, e § 2º",
+      "o": [
+        {
+          "t": "A senhora de 62 anos e depois o senhor de 84, pela ordem de chegada entre os idosos, e por fim o homem de 45.",
+          "p": "inversao",
+          "w": "Entre as pessoas idosas, os maiores de 80 anos têm prioridade especial, atendidos preferencialmente em relação aos demais idosos. A ordem de chegada não prevalece sobre isso."
+        },
+        {
+          "t": "O senhor de 84 anos, depois o homem de 45 e, por fim, a senhora de 62, que ainda não tem direito à prioridade.",
+          "p": "calculo",
+          "w": "Pessoa idosa é quem tem 60 anos ou mais (art. 1º). A senhora de 62 anos já tem prioridade sobre o homem de 45."
+        },
+        {
+          "t": "O senhor de 84 anos, depois a senhora de 62 e, por fim, o homem de 45 anos.",
+          "p": "correta",
+          "w": "Os dois idosos têm atendimento preferencial imediato (art. 3º, § 1º, I), e o maior de 80 anos tem prioridade especial em relação às demais pessoas idosas (art. 3º, § 2º)."
+        },
+        {
+          "t": "Os três por ordem de chegada, porque a prioridade especial dos maiores de 80 anos só vale em serviços de saúde.",
+          "p": "restricao",
+          "w": "A prioridade do art. 3º alcança o atendimento em órgãos públicos e privados prestadores de serviços à população, e não só a saúde. Bancos estão incluídos."
+        }
+      ]
+    },
+    {
+      "id": "dh47",
+      "topic": "Conceito de criança (ONU)",
+      "c": "Em um seminário em Macapá (AP), um conselheiro tutelar afirma que a Convenção sobre os Direitos da Criança não protege Júlia, de 16 anos, porque pelo ECA ela já é adolescente.",
+      "q": "Como a Convenção da ONU define criança?",
+      "a": 0,
+      "src": "Convenção sobre os Direitos da Criança (Decreto 99.710/1990), art. 1º; ECA (Lei 8.069/1990), art. 2º",
+      "o": [
+        {
+          "t": "Todo ser humano com menos de 18 anos, salvo se, pela lei aplicável, a maioridade for alcançada antes; Júlia está protegida.",
+          "p": "correta",
+          "w": "É o art. 1º da Convenção. A distinção entre criança (até 12 anos incompletos) e adolescente (12 a 18) é do ECA (art. 2º) e não reduz a proteção internacional."
+        },
+        {
+          "t": "A pessoa até 12 anos incompletos, como no ECA; Júlia fica fora da Convenção.",
+          "p": "troca",
+          "w": "O conselheiro usou o conceito do ECA no lugar do da Convenção. Para o tratado, criança é todo ser humano com menos de 18 anos."
+        },
+        {
+          "t": "A pessoa até 14 anos, idade a partir da qual a Convenção passa a tratar o jovem como adulto.",
+          "p": "calculo",
+          "w": "Não há corte aos 14 anos na Convenção. O limite é a idade de 18 anos, ressalvada a maioridade antecipada pela lei aplicável."
+        },
+        {
+          "t": "Qualquer pessoa até 21 anos, idade em que termina a proteção especial de todos os tratados da ONU.",
+          "p": "extrapolacao",
+          "w": "A Convenção fixa 18 anos, não 21. Não há regra geral que estenda a proteção dos tratados da ONU a jovens adultos."
+        }
+      ]
+    },
+    {
+      "id": "dh48",
+      "topic": "Censura prévia na CADH",
+      "c": "A Câmara de Sorocaba (SP) aprovou lei obrigando jornais e sites locais a submeter à prefeitura, antes da publicação, toda reportagem sobre o prefeito. A justificativa é 'evitar notícias falsas'.",
+      "q": "Segundo a Convenção Americana, como avaliar essa lei?",
+      "a": 3,
+      "src": "Convenção Americana sobre Direitos Humanos (Decreto 678/1992), art. 13, §§ 2º e 4º",
+      "o": [
+        {
+          "t": "É válida, porque a Convenção admite censura prévia sempre que o objetivo for proteger a honra de autoridades públicas.",
+          "p": "extrapolacao",
+          "w": "A proteção da reputação alheia justifica responsabilidades ulteriores fixadas em lei, não controle prévio. A Convenção não abre exceção para autoridades."
+        },
+        {
+          "t": "É válida se a análise prévia for feita pelo Judiciário, e não pela prefeitura.",
+          "p": "troca",
+          "w": "O problema não é quem censura, mas a censura em si. O art. 13, § 2º, veda a censura prévia, venha de onde vier, e admite apenas responsabilização posterior fixada em lei."
+        },
+        {
+          "t": "É inválida apenas para jornais impressos; sites e redes sociais podem ser submetidos a controle prévio.",
+          "p": "restricao",
+          "w": "O art. 13 protege a liberdade de expressão por qualquer meio, oralmente, por escrito, em forma impressa ou artística ou por qualquer outro processo de escolha da pessoa."
+        },
+        {
+          "t": "É inválida: a liberdade de expressão não se sujeita a censura prévia, mas a responsabilidades ulteriores fixadas em lei.",
+          "p": "correta",
+          "w": "É o que diz o art. 13, § 2º. A única censura prévia admitida é a de espetáculos públicos, para regular o acesso a eles em proteção moral da infância e da adolescência (§ 4º)."
+        }
+      ]
+    },
+    {
+      "id": "dh49",
+      "topic": "Protocolo de San Salvador",
+      "c": "Professores de uma rede municipal em Petrolina (PE) e moradores de um bairro sem posto de saúde querem usar o Protocolo de San Salvador para levar suas queixas ao sistema interamericano por petição individual.",
+      "q": "O que o Protocolo dispõe sobre o sistema de petições individuais?",
+      "a": 2,
+      "src": "Protocolo de San Salvador (Decreto 3.321/1999), arts. 8º, 1, 'a', 13 e 19, 6",
+      "o": [
+        {
+          "t": "Todos os direitos econômicos, sociais e culturais do Protocolo podem ser levados à Comissão por petição individual.",
+          "p": "generalizacao",
+          "w": "O Protocolo limita esse mecanismo. Pelo art. 19, 6, só a violação de dois direitos pode dar lugar ao sistema de petições individuais da Convenção Americana."
+        },
+        {
+          "t": "Nenhum direito do Protocolo admite petição individual; o único mecanismo é o envio de relatórios periódicos.",
+          "p": "inversao",
+          "w": "Os relatórios periódicos existem (art. 19, 1), mas não são o único mecanismo: o art. 19, 6, admite petições individuais para dois direitos."
+        },
+        {
+          "t": "Só os direitos sindicais do art. 8º, 1, 'a', e o direito à educação do art. 13 podem dar lugar a petições individuais.",
+          "p": "correta",
+          "w": "É a regra do art. 19, 6, quando a violação for imputável diretamente ao Estado-parte. A queixa sobre educação pode seguir esse caminho; a do posto de saúde, pelo Protocolo, não."
+        },
+        {
+          "t": "Só o direito à saúde admite petição individual, por ser o direito social mais ligado à vida.",
+          "p": "troca",
+          "w": "A saúde (art. 10) não está entre os direitos do art. 19, 6. Os dois previstos são os direitos sindicais e o direito à educação."
+        }
+      ]
+    },
+    {
+      "id": "dh50",
+      "topic": "Disparo contra fugitivo",
+      "c": "Em Niterói (RJ), um policial militar persegue a pé um adolescente desarmado que acabou de furtar um celular e corre em direção a uma praça vazia. O policial pensa em atirar para impedir a fuga.",
+      "q": "O que os Princípios Básicos da ONU sobre o Uso da Força e de Armas de Fogo determinam?",
+      "a": 1,
+      "src": "Princípios Básicos sobre o Uso da Força e de Armas de Fogo pelos Funcionários Responsáveis pela Aplicação da Lei (ONU, 1990), princípios 4, 5 e 9",
+      "o": [
+        {
+          "t": "Atirar é permitido para impedir a fuga de qualquer pessoa que tenha cometido crime, desde que o policial dê um aviso antes.",
+          "p": "generalizacao",
+          "w": "O aviso prévio é exigido (princípio 10), mas não torna lícito o disparo. A arma de fogo só cabe diante de perigo iminente de morte ou ferimento grave, ou de crime particularmente grave que ameace a vida."
+        },
+        {
+          "t": "Não pode atirar: arma de fogo só cabe contra ameaça iminente de morte ou ferimento grave, e o uso letal só quando inevitável para proteger a vida.",
+          "p": "correta",
+          "w": "É o princípio 9. Um adolescente desarmado em fuga após furto não representa esse risco, e os princípios 4 e 5 exigem meios não violentos e moderação proporcional à gravidade do delito."
+        },
+        {
+          "t": "Pode atirar nas pernas, porque os Princípios proíbem apenas o disparo com intenção de matar.",
+          "p": "restricao",
+          "w": "Os Princípios restringem qualquer uso de arma de fogo contra pessoas às hipóteses do princípio 9, não só o disparo letal. Mirar nas pernas continua sendo uso de arma de fogo fora dessas hipóteses."
+        },
+        {
+          "t": "Pode atirar, pois a decisão cabe só à avaliação do policial, e os Princípios são recomendações sem efeito no Brasil.",
+          "p": "extrapolacao",
+          "w": "Ainda que sejam soft law, os Princípios orientam a atuação policial e servem de parâmetro de controle. Ignorar a proporcionalidade não fica a critério do agente."
+        }
+      ]
+    },
+    {
+      "id": "dh51",
+      "topic": "Expulsão coletiva",
+      "c": "Depois de um conflito em Pacaraima (RR), um grupo de moradores exige que a Polícia Federal retire do país, de uma só vez, todos os venezuelanos de um abrigo, sem examinar a situação de cada um.",
+      "q": "Qual regra impede essa medida?",
+      "a": 0,
+      "src": "Convenção Americana (Decreto 678/1992), art. 22, § 9º; Lei 13.445/2017, art. 61",
+      "o": [
+        {
+          "t": "A proibição de expulsão coletiva de estrangeiros, prevista na Convenção Americana e repetida na Lei de Migração.",
+          "p": "correta",
+          "w": "O art. 22, § 9º, da Convenção proíbe a expulsão coletiva. A Lei 13.445/2017 (art. 61) veda a repatriação, a deportação e a expulsão coletivas, entendidas como as que não individualizam a situação de cada pessoa."
+        },
+        {
+          "t": "Nenhuma: a medida é válida se cada venezuelano estiver em situação migratória irregular.",
+          "p": "restricao",
+          "w": "Mesmo que todos estivessem irregulares, a retirada teria de examinar caso a caso. O que a lei veda é justamente a medida que não individualiza a situação de cada pessoa."
+        },
+        {
+          "t": "A proibição de expulsão coletiva, que só protege refugiados já reconhecidos pelo Conare.",
+          "p": "troca",
+          "w": "A vedação vale para qualquer estrangeiro, não só para refugiados. A proteção específica do refugiado é outra regra, a do não retorno (Lei 9.474/1997, art. 7º, § 1º)."
+        },
+        {
+          "t": "A proibição de qualquer retirada compulsória de estrangeiros do território brasileiro.",
+          "p": "generalizacao",
+          "w": "Deportação e expulsão continuam existindo na Lei de Migração, desde que individualizadas e com devido processo. A proibição recai sobre a medida coletiva."
+        }
+      ]
+    },
+    {
+      "id": "dh52",
+      "topic": "Algemas no parto",
+      "c": "Uma presa provisória entrou em trabalho de parto em um presídio de Montes Claros (MG). Na maternidade, a escolta quer algemá-la ao leito durante o parto, alegando que ela responde por roubo.",
+      "q": "O que dizem o Código de Processo Penal e as Regras de Bangkok?",
+      "a": 3,
+      "src": "CPP, art. 292, parágrafo único (Lei 13.434/2017); Regras de Bangkok (ONU, 2010), regra 24",
+      "o": [
+        {
+          "t": "As algemas são permitidas se a escolta justificar por escrito o risco de fuga, como admite a Súmula Vinculante 11.",
+          "p": "troca",
+          "w": "A SV 11 trata do uso de algemas em geral. Para o parto há regra específica: o CPP veda as algemas nessa situação, e as Regras de Bangkok dizem que contenção jamais deve ser usada."
+        },
+        {
+          "t": "A vedação vale só para presas já condenadas; presas provisórias podem ser algemadas por cautela.",
+          "p": "restricao",
+          "w": "Nem o CPP nem as Regras de Bangkok distinguem presa provisória de condenada. A proteção alcança toda mulher em trabalho de parto."
+        },
+        {
+          "t": "As algemas são proibidas durante toda a gestação, inclusive em audiências e em transferências entre unidades.",
+          "p": "extrapolacao",
+          "w": "A vedação expressa do CPP cobre os atos médico-hospitalares preparatórios do parto, o trabalho de parto e o puerpério imediato. Estendê-la a toda a gestação vai além do texto."
+        },
+        {
+          "t": "É vedado algemar a mulher nos atos preparatórios do parto, durante o trabalho de parto e no puerpério imediato.",
+          "p": "correta",
+          "w": "É a regra do art. 292, parágrafo único, do CPP, incluída pela Lei 13.434/2017. As Regras de Bangkok (regra 24) vão no mesmo sentido: instrumentos de contenção jamais devem ser usados nessa fase."
+        }
+      ]
+    },
+    {
+      "id": "dh53",
+      "topic": "Consulta prévia indígena",
+      "c": "O governo planeja um decreto que autoriza a abertura de uma estrada cortando território ocupado tradicionalmente por um povo indígena perto de Altamira (PA). A terra ainda não foi homologada.",
+      "q": "Pela Convenção 169 da OIT, o que deve ocorrer antes da medida?",
+      "a": 1,
+      "src": "Convenção 169 da OIT, arts. 1º, item 2, e 6º, itens 1, 'a', e 2 (Decreto 10.088/2019)",
+      "o": [
+        {
+          "t": "Basta uma audiência pública aberta a todos os moradores de Altamira, que substitui a consulta específica ao povo indígena.",
+          "p": "troca",
+          "w": "A audiência pública geral não equivale à consulta da Convenção. Ela deve ser feita com o povo interessado, por procedimentos apropriados e por meio de suas instituições representativas."
+        },
+        {
+          "t": "Consulta ao povo, de boa-fé, por procedimentos apropriados e por suas instituições representativas, com o objetivo de chegar a acordo.",
+          "p": "correta",
+          "w": "O art. 6º manda consultar os povos sempre que medidas legislativas ou administrativas possam afetá-los diretamente, de boa-fé e com o objetivo de chegar a acordo ou obter consentimento."
+        },
+        {
+          "t": "Nenhuma consulta, porque a Convenção só protege povos que vivem em terras já demarcadas e homologadas.",
+          "p": "restricao",
+          "w": "A Convenção não condiciona a consulta à homologação da terra. O critério fundamental para definir a quem se aplica é a consciência da identidade indígena ou tribal (art. 1º, item 2)."
+        },
+        {
+          "t": "Comunicação ao povo depois da publicação do decreto, para que ele possa recorrer se discordar.",
+          "p": "inversao",
+          "w": "A consulta é prévia: ocorre quando a medida é prevista, antes de sua adoção. Informar depois da decisão inverte a lógica do art. 6º."
+        }
+      ]
+    },
+    {
+      "id": "dh54",
+      "topic": "Cláusula federal",
+      "c": "Em processo na Corte Interamericana sobre tortura praticada por policiais civis de Goiás, a defesa da União alega que segurança pública é competência estadual e que, por isso, o Brasil não pode ser responsabilizado.",
+      "q": "Como a Convenção Americana responde a esse argumento?",
+      "a": 2,
+      "src": "Convenção Americana (Decreto 678/1992), art. 28; Convenção de Viena sobre o Direito dos Tratados (Decreto 7.030/2009), art. 27",
+      "o": [
+        {
+          "t": "O argumento procede: em Estados federais, cada estado-membro responde sozinho perante a Corte pelas violações de seus agentes.",
+          "p": "inversao",
+          "w": "Quem é parte da Convenção e responde perante a Corte é o Estado brasileiro, não Goiás. Estados-membros da federação não são partes no tratado."
+        },
+        {
+          "t": "O Brasil só responde se a União tiver sido notificada da tortura e se omitido de intervir no estado.",
+          "p": "restricao",
+          "w": "A Convenção não exige notificação prévia da União nem omissão federal específica. A conduta de qualquer agente público, de qualquer esfera, é atribuída ao Estado-parte."
+        },
+        {
+          "t": "O argumento não procede: o governo nacional deve adotar medidas para que os estados cumpram a Convenção, e a divisão interna de competências não exime o Brasil.",
+          "p": "correta",
+          "w": "É a cláusula federal do art. 28. Além disso, o Estado não pode invocar seu direito interno para justificar o descumprimento de um tratado (Convenção de Viena, art. 27)."
+        },
+        {
+          "t": "O argumento procede só para a indenização, que caberá ao estado de Goiás; as demais medidas da sentença obrigam a União.",
+          "p": "extrapolacao",
+          "w": "A Convenção não divide a condenação entre entes federativos. O Brasil é condenado por inteiro; a divisão interna de custos é assunto do direito interno, não da Corte."
+        }
+      ]
+    },
+    {
+      "id": "dh55",
+      "type": "ce",
+      "topic": "Revisão Periódica Universal",
+      "src": "Resolução 60/251 da Assembleia Geral da ONU (2006), §§ 1º e 5º, 'e'",
+      "c": "Em Palmas (TO), uma professora de cursinho explica a diferença entre os comitês criados por tratados e os órgãos ligados diretamente à Carta da ONU.",
+      "q": "O Conselho de Direitos Humanos da ONU, criado em 2006 em substituição à antiga Comissão de Direitos Humanos, realiza a Revisão Periódica Universal, que examina o cumprimento das obrigações de direitos humanos por todos os Estados.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O item está certo. A Resolução 60/251 criou o Conselho, com sede em Genebra, no lugar da Comissão, e lhe atribuiu a Revisão Periódica Universal do cumprimento das obrigações de cada Estado (§ 5º, 'e')."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que a revisão alcance só os Estados que ratificaram determinado tratado. A RPU é universal: examina todos os Estados-membros da ONU, com base na Carta e na DUDH, entre outros instrumentos."
+        }
+      ]
+    },
+    {
+      "id": "dh56",
+      "type": "ce",
+      "topic": "Medidas provisórias da Corte",
+      "src": "Convenção Americana (Decreto 678/1992), art. 63, § 2º",
+      "c": "Lideranças de uma comunidade rural do Acre recebem ameaças de morte, e a Comissão Interamericana avalia pedir proteção urgente à Corte, embora o caso ainda não tenha sido submetido a ela.",
+      "q": "Em casos de extrema gravidade e urgência, para evitar danos irreparáveis às pessoas, a Corte Interamericana pode adotar medidas provisórias mesmo em assuntos ainda não submetidos a seu conhecimento, desde que a pedido da Comissão.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O item está certo. O art. 63, § 2º, permite medidas provisórias nos casos em exame pela Corte e, nos que ainda não lhe foram submetidos, a pedido da Comissão."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado é supor que a Corte só possa agir nos casos que já estão em seu poder. A Convenção prevê expressamente a atuação a pedido da Comissão antes da submissão do caso."
+        }
+      ]
+    },
+    {
+      "id": "dh57",
+      "type": "ce",
+      "topic": "Caso Maria da Penha",
+      "src": "Comissão Interamericana de Direitos Humanos, Relatório 54/01, Caso 12.051 (Maria da Penha Maia Fernandes vs. Brasil), 2001",
+      "c": "Em uma roda de conversa em Maceió (AL) sobre os 20 anos da Lei 11.340/2006, uma palestrante resume a origem internacional da lei.",
+      "q": "No caso Maria da Penha Maia Fernandes, o Brasil foi condenado pela Corte Interamericana de Direitos Humanos por negligência e omissão diante da violência doméstica, o que impulsionou a edição da Lei 11.340/2006.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo é confundir os dois órgãos do sistema interamericano. O caso não chegou à Corte: quem responsabilizou o Brasil foi a Comissão."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O item está errado. A responsabilização veio da Comissão Interamericana, no Relatório 54/01, de 2001, que apontou negligência, omissão e tolerância do Estado e recomendou reformas."
+        }
+      ]
+    },
+    {
+      "id": "dh58",
+      "type": "ce",
+      "topic": "Mecanismo contra a tortura",
+      "src": "Lei 12.847/2013, art. 10, IV a VI",
+      "c": "Peritos do Mecanismo Nacional de Prevenção e Combate à Tortura chegam a uma unidade socioeducativa em Pelotas (RS) e pedem para conversar a sós com alguns internos. O diretor quer que um agente acompanhe as conversas.",
+      "q": "Pela Lei 12.847/2013, as entrevistas dos peritos com pessoas privadas de liberdade devem ser feitas na presença de um agente da unidade, por razões de segurança.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "restricao",
+          "w": "Julgar certo é criar uma condição que a lei não prevê. A presença do agente é justamente o que a garantia de entrevista reservada procura evitar."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O item está errado. O art. 10, V, assegura ao Mecanismo entrevistar as pessoas privadas de liberdade reservadamente e sem testemunhas, e o inciso VI lhe garante escolher os locais e as pessoas."
+        }
+      ]
+    },
+    {
+      "id": "dh59",
+      "type": "ce",
+      "topic": "Controle de convencionalidade",
+      "src": "Corte Interamericana, Caso Almonacid Arellano vs. Chile (2006), § 124; Caso Trabajadores Cesados del Congreso vs. Peru (2006), § 128",
+      "c": "Uma juíza de Dourados (MS) percebe que uma norma aplicável ao processo contraria a Convenção Americana, embora nenhuma das partes tenha levantado a questão.",
+      "q": "Segundo a jurisprudência da Corte Interamericana, os juízes nacionais devem exercer o controle de convencionalidade entre as normas internas e a Convenção Americana, inclusive de ofício.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O item está certo. Desde o caso Almonacid Arellano (2006), a Corte afirma que os juízes internos devem fazer esse controle, e no caso Trabajadores Cesados del Congreso (2006) acrescentou que ele deve ser feito de ofício."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado é confundir o controle de convencionalidade com o controle concentrado de constitucionalidade, reservado a certos tribunais. Para a Corte, todo juiz nacional deve exercê-lo, mesmo sem provocação das partes."
+        }
+      ]
+    },
+    {
+      "id": "dh60",
+      "type": "ce",
+      "topic": "Competência consultiva",
+      "src": "Convenção Americana (Decreto 678/1992), art. 64, §§ 1º e 2º",
+      "c": "O governo de um Estado-membro da OEA que nunca aceitou a competência contenciosa da Corte Interamericana quer pedir a ela um parecer sobre a interpretação da Convenção.",
+      "q": "Só os Estados que reconheceram a competência contenciosa da Corte Interamericana podem solicitar-lhe pareceres consultivos.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "restricao",
+          "w": "Julgar certo é acrescentar à competência consultiva uma exigência que só existe para a contenciosa, que depende de declaração do Estado (art. 62)."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O item está errado. Pelo art. 64, qualquer Estado-membro da OEA pode consultar a Corte sobre a interpretação da Convenção e de outros tratados de direitos humanos, e órgãos da OEA também podem fazê-lo, no que lhes compete."
+        }
+      ]
     }
   ]
 }

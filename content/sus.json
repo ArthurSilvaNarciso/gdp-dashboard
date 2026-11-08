@@ -1096,6 +1096,552 @@
      "w": "Art. 2º, V: o Mapa da Saúde é a descrição geográfica da distribuição de recursos humanos e de ações e serviços ofertados pelo SUS e pela iniciativa privada. O art. 16 manda considerar a oferta privada no planejamento."
     }
    ]
+  },
+  {
+   "id": "sus41",
+   "topic": "Maus-tratos e princípios",
+   "src": "Lei 8.080/90, art. 7º, XV (incluído pela Lei 14.679/2023); ECA, art. 13",
+   "c": "Em Juazeiro do Norte (CE), uma enfermeira da UBS notou hematomas em diferentes estágios num menino de 4 anos levado para vacinar. A coordenadora disse que a lei do SUS nada fala sobre isso.",
+   "q": "Pela Lei 8.080/90, assinale a alternativa correta.",
+   "a": 2,
+   "o": [
+    {
+     "t": "A lei trata do tema, mas a atenção à identificação de maus-tratos cabe só aos serviços de urgência, e não à atenção básica.",
+     "p": "restricao",
+     "w": "O inciso XV do art. 7º é princípio de todo o SUS, sem limitar a um tipo de serviço. A UBS, que vê a criança com frequência, está incluída."
+    },
+    {
+     "t": "A coordenadora tem razão: o tema é tratado só no ECA, e a Lei 8.080 se limita a organizar os serviços de saúde.",
+     "p": "troca",
+     "w": "Desde a Lei 14.679/2023, a própria Lei 8.080 traz o tema entre os princípios do SUS (art. 7º, XV), além das regras do ECA."
+    },
+    {
+     "t": "É princípio do SUS a proteção integral dos direitos humanos dos usuários, com especial atenção à identificação de maus-tratos e violência contra crianças.",
+     "p": "correta",
+     "w": "Art. 7º, XV, incluído pela Lei 14.679/2023: proteção integral dos direitos humanos de todos os usuários e especial atenção à identificação de maus-tratos, negligência e violência sexual contra crianças e adolescentes."
+    },
+    {
+     "t": "O princípio existe e dá à equipe da UBS competência para investigar e punir os responsáveis, dispensando outros órgãos.",
+     "p": "extrapolacao",
+     "w": "O inciso fala em atenção à identificação. Apurar e punir cabe a outros órgãos; o ECA manda comunicar a suspeita ao Conselho Tutelar (art. 13)."
+    }
+   ]
+  },
+  {
+   "id": "sus42",
+   "topic": "Privacidade da vítima",
+   "src": "Lei 8.080/90, art. 7º, XVI e parágrafo único (Leis 15.126/2025 e 14.847/2024)",
+   "c": "Em Londrina (PR), Cláudia chegou ao pronto-socorro municipal com lesões após ser agredida pelo companheiro, que a acompanhou e exigiu ficar na sala durante o atendimento.",
+   "q": "Pela Lei 8.080/90, como a equipe deve proceder?",
+   "a": 0,
+   "o": [
+    {
+     "t": "Acolher e atender Cláudia em local que garanta privacidade e restrinja o acesso de terceiros não autorizados por ela, em especial o agressor.",
+     "p": "correta",
+     "w": "Parágrafo único do art. 7º (Lei 14.847/2024): a mulher vítima de violência deve ser acolhida em ambiente com privacidade e restrição de terceiros não autorizados, em especial o agressor. A atenção humanizada é princípio (inciso XVI)."
+    },
+    {
+     "t": "Permitir a entrada do companheiro, pois toda paciente tem direito a acompanhante maior de idade, sem exceção.",
+     "p": "generalizacao",
+     "w": "O acompanhante do art. 19-J é escolhido pela paciente. Quem ela não autoriza, sobretudo o agressor, deve ter o acesso restrito."
+    },
+    {
+     "t": "Garantir a privacidade apenas se Cláudia apresentar boletim de ocorrência registrado contra o companheiro.",
+     "p": "restricao",
+     "w": "A lei não condiciona o acolhimento com privacidade a registro policial: basta ser vítima de qualquer tipo de violência."
+    },
+    {
+     "t": "Encaminhar Cláudia à delegacia antes do atendimento, porque o acolhimento de vítimas de violência cabe à segurança pública.",
+     "p": "troca",
+     "w": "A Lei 8.080 garante que a vítima seja acolhida e atendida nos próprios serviços de saúde. Adiar o cuidado contraria a lei e a atenção humanizada."
+    }
+   ]
+  },
+  {
+   "id": "sus43",
+   "topic": "Requisição em epidemia",
+   "src": "Lei 8.080/90, art. 15, XIII",
+   "c": "Durante uma epidemia que lotou os hospitais públicos de Juiz de Fora (MG), o secretário municipal de saúde precisou usar com urgência leitos e respiradores de um hospital particular sem contrato com o SUS.",
+   "q": "Pela Lei 8.080/90, assinale a alternativa correta.",
+   "a": 3,
+   "o": [
+    {
+     "t": "A autoridade pode requisitar os bens, e a requisição nunca gera indenização, por atender a interesse coletivo.",
+     "p": "generalizacao",
+     "w": "O art. 15, XIII, assegura justa indenização a quem tem bens ou serviços requisitados."
+    },
+    {
+     "t": "A requisição só alcança bens de pessoas jurídicas que já tenham contrato ou convênio com o SUS.",
+     "p": "restricao",
+     "w": "A lei permite requisitar bens e serviços de pessoas naturais e jurídicas, sem exigir vínculo prévio com o SUS."
+    },
+    {
+     "t": "O município precisa desapropriar os equipamentos, com indenização prévia em dinheiro, pois a lei não prevê requisição na saúde.",
+     "p": "troca",
+     "w": "Desapropriação transfere a propriedade. Para necessidades urgentes e transitórias, a Lei 8.080 prevê a requisição, com indenização posterior."
+    },
+    {
+     "t": "Em epidemia, a autoridade competente pode requisitar bens e serviços de pessoas naturais ou jurídicas, assegurada justa indenização.",
+     "p": "correta",
+     "w": "Art. 15, XIII: para necessidades coletivas, urgentes e transitórias, como perigo iminente, calamidade ou epidemia, a autoridade pode requisitar bens e serviços, com justa indenização."
+    }
+   ]
+  },
+  {
+   "id": "sus44",
+   "topic": "União e vigilância",
+   "src": "Lei 8.080/90, art. 16, §1º",
+   "c": "Em Pacaraima (RR), surgiu um agravo à saúde nunca registrado no país, com casos se multiplicando e risco de chegar a outros estados. A secretaria estadual não consegue controlá-lo.",
+   "q": "Pela Lei 8.080/90, a União pode executar diretamente ações de vigilância epidemiológica no local?",
+   "a": 1,
+   "o": [
+    {
+     "t": "Não: a União nunca executa vigilância epidemiológica, limitando-se a normatizar e coordenar o sistema.",
+     "p": "generalizacao",
+     "w": "A regra geral tem exceção expressa no art. 16, §1º, para circunstâncias especiais."
+    },
+    {
+     "t": "Sim: em circunstâncias especiais, como agravos inusitados que escapem ao controle estadual ou com risco de disseminação nacional.",
+     "p": "correta",
+     "w": "Art. 16, §1º: a União poderá executar ações de vigilância epidemiológica e sanitária em circunstâncias especiais, como agravos inusitados que possam escapar do controle estadual ou representem risco de disseminação nacional."
+    },
+    {
+     "t": "Sim, mas apenas depois de o Presidente da República decretar estado de defesa na região.",
+     "p": "restricao",
+     "w": "A lei não exige estado de defesa: basta a circunstância especial descrita no art. 16, §1º."
+    },
+    {
+     "t": "Sim, e a União assume em definitivo a direção do SUS no estado, que perde suas competências.",
+     "p": "extrapolacao",
+     "w": "A atuação é pontual e não elimina a direção única estadual. Estados e municípios mantêm suas competências."
+    }
+   ]
+  },
+  {
+   "id": "sus45",
+   "topic": "Medicamento sem protocolo",
+   "src": "Lei 8.080/90, art. 19-P, I a III",
+   "c": "Em Itajaí (SC), a secretaria quer fornecer um medicamento para uma doença que ainda não tem protocolo clínico nem diretriz terapêutica, incluindo-o na relação municipal de medicamentos.",
+   "q": "Pela Lei 8.080/90, onde se pactua a responsabilidade pelo fornecimento na esfera municipal?",
+   "a": 2,
+   "o": [
+    {
+     "t": "Na Comissão Intergestores Bipartite, com base nas relações estaduais de medicamentos.",
+     "p": "troca",
+     "w": "A CIB é o foro da esfera estadual (art. 19-P, II). Na esfera municipal, a pactuação ocorre no Conselho Municipal de Saúde."
+    },
+    {
+     "t": "Em lugar nenhum: sem protocolo clínico, nenhum ente pode dispensar o medicamento.",
+     "p": "generalizacao",
+     "w": "O art. 19-P regula justamente a dispensação na falta de protocolo clínico ou diretriz terapêutica."
+    },
+    {
+     "t": "No Conselho Municipal de Saúde, com dispensação suplementar com base na relação municipal de medicamentos.",
+     "p": "correta",
+     "w": "Art. 19-P, III: no âmbito municipal, a dispensação é suplementar, com base nas relações municipais, e a responsabilidade é pactuada no Conselho Municipal de Saúde."
+    },
+    {
+     "t": "Na Comissão Intergestores Tripartite, e a inclusão municipal obriga a União a custear o medicamento em todo o país.",
+     "p": "extrapolacao",
+     "w": "A CIT pactua o fornecimento das relações do gestor federal (inciso I). A lista municipal não gera obrigação nacional para a União."
+    }
+   ]
+  },
+  {
+   "id": "sus46",
+   "topic": "Uso off-label",
+   "src": "Lei 8.080/90, art. 19-T, parágrafo único, I (incluído pela Lei 14.313/2022)",
+   "c": "No hospital regional de Sorocaba (SP), médicos querem que o SUS pague um medicamento registrado na Anvisa para uso em doença diferente da indicada no registro.",
+   "q": "Pela Lei 8.080/90, assinale a alternativa correta.",
+   "a": 0,
+   "o": [
+    {
+     "t": "É possível se o uso for recomendado pela Conitec, com evidências de eficácia e segurança, e padronizado em protocolo do Ministério da Saúde.",
+     "p": "correta",
+     "w": "Art. 19-T, parágrafo único, I: a vedação não se aplica à indicação distinta da registrada quando recomendada pela Conitec, demonstradas as evidências, e padronizada em protocolo do Ministério."
+    },
+    {
+     "t": "É sempre vedado: o SUS nunca paga medicamento usado fora da indicação aprovada no registro da Anvisa.",
+     "p": "generalizacao",
+     "w": "A Lei 14.313/2022 criou exceção expressa à vedação do art. 19-T para o uso fora da indicação registrada."
+    },
+    {
+     "t": "É possível apenas por ordem judicial em favor de cada paciente, sem outro caminho previsto em lei.",
+     "p": "restricao",
+     "w": "A própria Lei 8.080 prevê o caminho administrativo: recomendação da Conitec e protocolo do Ministério da Saúde."
+    },
+    {
+     "t": "Basta a prescrição fundamentada do médico assistente, que dispensa a avaliação da Conitec.",
+     "p": "troca",
+     "w": "A lei exige recomendação da Conitec e protocolo do Ministério. A prescrição individual não substitui essa avaliação."
+    }
+   ]
+  },
+  {
+   "id": "sus47",
+   "topic": "Remuneração dos contratados",
+   "src": "Lei 8.080/90, art. 26, caput e §5º (incluído pela Lei 14.820/2024)",
+   "c": "A Santa Casa de Barbacena (MG), contratada pelo SUS, quer saber quem fixa os valores pagos pelos procedimentos que realiza e quando eles são definidos.",
+   "q": "Pela Lei 8.080/90, assinale a alternativa correta.",
+   "a": 3,
+   "o": [
+    {
+     "t": "Os valores são fixados pela Agência Nacional de Saúde Suplementar, que regula os prestadores de serviços de saúde.",
+     "p": "troca",
+     "w": "A ANS regula planos de saúde. A remuneração dos serviços contratados pelo SUS é fixada pela direção nacional do SUS (art. 26)."
+    },
+    {
+     "t": "O Conselho Nacional de Saúde estabelece os critérios e valores, e a direção nacional do SUS apenas os aprova.",
+     "p": "inversao",
+     "w": "É o contrário: a direção nacional estabelece, e o Conselho Nacional de Saúde aprova (art. 26, caput)."
+    },
+    {
+     "t": "Os valores são definidos em dezembro e devem repor toda a inflação, independentemente da disponibilidade orçamentária.",
+     "p": "extrapolacao",
+     "w": "O §5º busca preservar o valor real, mas manda observar a disponibilidade orçamentária e financeira."
+    },
+    {
+     "t": "A direção nacional do SUS fixa critérios e valores, aprovados no Conselho Nacional de Saúde, definidos em dezembro de cada ano por ato do Ministério.",
+     "p": "correta",
+     "w": "Art. 26, caput: critérios e valores são estabelecidos pela direção nacional e aprovados no CNS. O §5º, da Lei 14.820/2024, manda defini-los em dezembro de cada ano, por ato do Ministério da Saúde."
+    }
+   ]
+  },
+  {
+   "id": "sus48",
+   "topic": "Cargo de direção",
+   "src": "Lei 8.080/90, art. 28, caput e §§1º e 2º",
+   "c": "Em Montes Claros (MG), a médica Renata, servidora municipal em tempo integral, foi nomeada diretora do hospital municipal e quer continuar dando plantões em outro hospital do SUS da cidade.",
+   "q": "Pela Lei 8.080/90, assinale a alternativa correta.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Pode, pois todo servidor do SUS pode atuar em mais de um estabelecimento do sistema, sem exceção.",
+     "p": "generalizacao",
+     "w": "O §2º do art. 28 exclui expressamente os ocupantes de chefia, direção ou assessoramento."
+    },
+    {
+     "t": "Não pode: direção no SUS exige tempo integral, e a atuação em mais de um estabelecimento não alcança quem ocupa chefia, direção ou assessoramento.",
+     "p": "correta",
+     "w": "Art. 28: chefia, direção e assessoramento só em tempo integral. O §2º estende aos servidores em tempo integral a atuação em mais de um estabelecimento, exceto a esses ocupantes."
+    },
+    {
+     "t": "Pode, desde que os plantões sejam em hospital de outro município, para evitar conflito de interesses.",
+     "p": "restricao",
+     "w": "A lei não faz distinção pelo município do outro estabelecimento: a vedação decorre do cargo de direção."
+    },
+    {
+     "t": "Não pode, porque a lei proíbe o médico do SUS de acumular dois cargos públicos, mesmo com compatibilidade de horários.",
+     "p": "troca",
+     "w": "A CF admite acumular dois cargos de profissional de saúde com compatibilidade de horários (art. 37, XVI, c). O impedimento vem do cargo de direção."
+    }
+   ]
+  },
+  {
+   "id": "sus49",
+   "topic": "Planejamento ascendente",
+   "src": "Lei 8.080/90, art. 36, caput e §2º",
+   "c": "Em reunião em Brasília (DF), um assessor propôs que o Ministério da Saúde elaborasse sozinho o plano de saúde e repassasse recursos a municípios para ações que não constam de seus planos.",
+   "q": "Pela Lei 8.080/90, assinale a alternativa correta.",
+   "a": 0,
+   "o": [
+    {
+     "t": "O planejamento é ascendente, do local ao federal, ouvidos os órgãos deliberativos; é vedado financiar ações fora dos planos, salvo emergência ou calamidade.",
+     "p": "correta",
+     "w": "Art. 36, caput: planejamento e orçamento ascendentes, do nível local ao federal, ouvidos os órgãos deliberativos. O §2º veda financiar ações não previstas nos planos, exceto em emergência ou calamidade pública na saúde."
+    },
+    {
+     "t": "O planejamento é descendente: o plano nacional é feito primeiro, e os planos municipais apenas o reproduzem.",
+     "p": "inversao",
+     "w": "A lei manda o caminho oposto: do nível local até o federal."
+    },
+    {
+     "t": "O repasse para ações fora dos planos é vedado em qualquer hipótese, inclusive em calamidade pública.",
+     "p": "generalizacao",
+     "w": "O §2º do art. 36 ressalva as situações emergenciais ou de calamidade pública na área da saúde."
+    },
+    {
+     "t": "O planejamento é ascendente, mas os órgãos deliberativos só são ouvidos na esfera federal.",
+     "p": "restricao",
+     "w": "Os órgãos deliberativos (conselhos de saúde) são ouvidos em cada nível, do local ao federal."
+    }
+   ]
+  },
+  {
+   "id": "sus50",
+   "topic": "Convocação da Conferência",
+   "src": "Lei 8.142/90, art. 1º, §1º",
+   "c": "Diante de uma crise na rede de urgência, o Conselho Municipal de Saúde de Anápolis (GO) aprovou a convocação de uma Conferência Municipal de Saúde extraordinária. O prefeito afirmou que só ele poderia convocá-la.",
+   "q": "Pela Lei 8.142/90, assinale a alternativa correta.",
+   "a": 2,
+   "o": [
+    {
+     "t": "O prefeito tem razão: a Conferência é sempre convocada pelo Poder Executivo, e o Conselho apenas a organiza.",
+     "p": "generalizacao",
+     "w": "A convocação pelo Executivo é a regra, mas a lei admite convocação extraordinária pela própria Conferência ou pelo Conselho."
+    },
+    {
+     "t": "A convocação extraordinária cabe à Câmara Municipal, que exerce o controle externo da saúde.",
+     "p": "troca",
+     "w": "A Lei 8.142 não atribui essa convocação ao Legislativo, e sim à Conferência ou ao Conselho de Saúde."
+    },
+    {
+     "t": "A Conferência é convocada pelo Poder Executivo ou, extraordinariamente, por ela própria ou pelo Conselho de Saúde; a convocação é válida.",
+     "p": "correta",
+     "w": "Art. 1º, §1º: a Conferência é convocada pelo Poder Executivo ou, extraordinariamente, por esta ou pelo Conselho de Saúde."
+    },
+    {
+     "t": "O Conselho pode convocar, desde que haja autorização prévia do Conselho Estadual de Saúde.",
+     "p": "restricao",
+     "w": "A lei não exige autorização de outra esfera. Os conselhos não são hierarquicamente subordinados entre si."
+    }
+   ]
+  },
+  {
+   "id": "sus51",
+   "topic": "Prestação de contas",
+   "src": "LC 141/2012, art. 36, §§1º e 5º",
+   "c": "A secretária de saúde de Caxias do Sul (RS) monta o calendário de prestação de contas do ano: relatórios quadrimestrais em audiência pública e Relatório Anual de Gestão.",
+   "q": "Pela LC 141/2012, quais são os prazos e os destinatários?",
+   "a": 3,
+   "o": [
+    {
+     "t": "Audiências na Câmara até o fim de abril, agosto e dezembro; Relatório Anual de Gestão ao Conselho até 30 de março.",
+     "p": "calculo",
+     "w": "O prazo vence no fim do mês seguinte ao quadrimestre: maio, setembro e fevereiro, e não no último mês do período."
+    },
+    {
+     "t": "Audiências no Conselho de Saúde até o fim de maio, setembro e fevereiro; Relatório Anual de Gestão à Câmara até 30 de março.",
+     "p": "troca",
+     "w": "Os destinatários estão trocados: a audiência é na Casa Legislativa, e o Relatório de Gestão vai ao Conselho de Saúde."
+    },
+    {
+     "t": "Audiências até o fim de maio, setembro e fevereiro só em municípios com mais de 50 mil habitantes; relatório até 30 de março.",
+     "p": "restricao",
+     "w": "A audiência vale para todos os entes. O limite de 50 mil habitantes só permite modelo simplificado de relatório (§4º)."
+    },
+    {
+     "t": "Audiências públicas na Câmara até o fim de maio, setembro e fevereiro; Relatório Anual de Gestão ao Conselho até 30 de março do ano seguinte.",
+     "p": "correta",
+     "w": "Art. 36, §5º: o relatório quadrimestral é apresentado em audiência na Casa Legislativa até o fim de maio, setembro e fevereiro. §1º: o Relatório de Gestão vai ao Conselho até 30 de março."
+    }
+   ]
+  },
+  {
+   "id": "sus52",
+   "topic": "Saneamento e piso",
+   "src": "LC 141/2012, arts. 3º, VI e VII, e 4º, V",
+   "c": "A prefeitura de Oriximiná (PA) quer computar no mínimo em saúde duas despesas: obras de saneamento básico numa comunidade remanescente de quilombo e a ampliação da rede de esgoto da cidade, custeada por tarifa.",
+   "q": "Pela LC 141/2012, assinale a alternativa correta.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Nenhuma das duas conta, pois saneamento básico nunca é despesa com ações e serviços públicos de saúde.",
+     "p": "generalizacao",
+     "w": "O art. 3º, VI e VII, admite exceções: saneamento de domicílios ou pequenas comunidades e de comunidades quilombolas e distritos indígenas."
+    },
+    {
+     "t": "Conta o saneamento na comunidade quilombola; não conta a rede de esgoto custeada por tarifa, pois o saneamento básico em geral fica fora do piso.",
+     "p": "correta",
+     "w": "Art. 3º, VII: conta o saneamento de comunidades remanescentes de quilombos. Art. 4º, V: não conta o saneamento básico, inclusive o financiado por taxas ou tarifas."
+    },
+    {
+     "t": "Conta a rede de esgoto custeada por tarifa; não conta o saneamento na comunidade quilombola.",
+     "p": "inversao",
+     "w": "É o contrário: a exceção favorável é a do quilombo (art. 3º, VII), e a rede custeada por tarifa está excluída (art. 4º, V)."
+    },
+    {
+     "t": "Conta o saneamento quilombola, mas só se a Câmara Municipal aprovar lei específica autorizando o cômputo.",
+     "p": "restricao",
+     "w": "A LC 141 não exige lei municipal para isso. O cômputo decorre diretamente do art. 3º, VII."
+    }
+   ]
+  },
+  {
+   "id": "sus53",
+   "topic": "Região interestadual",
+   "src": "Decreto 7.508/2011, art. 4º, caput e §1º",
+   "c": "Petrolina (PE) e Juazeiro (BA), separadas apenas pelo rio São Francisco, compartilham hospitais e fluxos de pacientes, e os gestores querem formalizar uma Região de Saúde comum.",
+   "q": "Pelo Decreto 7.508/2011, assinale a alternativa correta.",
+   "a": 2,
+   "o": [
+    {
+     "t": "É impossível: toda Região de Saúde deve ficar inteiramente dentro de um único estado.",
+     "p": "generalizacao",
+     "w": "O art. 4º, §1º, admite expressamente Regiões de Saúde interestaduais."
+    },
+    {
+     "t": "A região interestadual é instituída pelo Ministério da Saúde, por portaria, após aprovação na CIT.",
+     "p": "troca",
+     "w": "Quem institui é o conjunto dos estados envolvidos, por ato conjunto, em articulação com os municípios, e não o Ministério."
+    },
+    {
+     "t": "É possível uma Região de Saúde interestadual de municípios limítrofes, instituída por ato conjunto dos estados em articulação com os municípios.",
+     "p": "correta",
+     "w": "Art. 4º, §1º: podem ser instituídas Regiões de Saúde interestaduais, compostas por municípios limítrofes, por ato conjunto dos respectivos estados em articulação com os municípios."
+    },
+    {
+     "t": "É possível, mas só se cada um dos municípios tiver mais de 300 mil habitantes.",
+     "p": "restricao",
+     "w": "O decreto não fixa população mínima: exige municípios limítrofes e ato conjunto dos estados."
+    }
+   ]
+  },
+  {
+   "id": "sus54",
+   "topic": "Agentes comunitários de saúde",
+   "src": "CF/88, art. 198, §§4º, 7º e 9º (EC 51/2006 e EC 120/2022)",
+   "c": "Em Santarém (PA), o prefeito quer admitir agentes comunitários de saúde por indicação de líderes de bairro e pagar a eles vencimento de um salário mínimo e meio.",
+   "q": "Pela Constituição, assinale a alternativa correta.",
+   "a": 0,
+   "o": [
+    {
+     "t": "A admissão deve ser por processo seletivo público, e o vencimento não pode ser inferior a dois salários mínimos, repassados pela União.",
+     "p": "correta",
+     "w": "Art. 198, §4º: os gestores locais admitem ACS por processo seletivo público. §§7º e 9º (EC 120/2022): o vencimento é responsabilidade da União e não pode ser inferior a dois salários mínimos."
+    },
+    {
+     "t": "A admissão deve ser por concurso público de provas e títulos, e o vencimento é fixado livremente por lei municipal.",
+     "p": "troca",
+     "w": "A Constituição prevê processo seletivo público para ACS (§4º) e fixa vencimento mínimo nacional de dois salários mínimos (§9º)."
+    },
+    {
+     "t": "A indicação é válida se aprovada pelo Conselho Municipal de Saúde; o vencimento mínimo é de dois salários mínimos.",
+     "p": "restricao",
+     "w": "Nenhuma aprovação do Conselho supre a exigência constitucional de processo seletivo público."
+    },
+    {
+     "t": "O processo seletivo é obrigatório, mas o vencimento cabe só ao município, sem repasse da União, e pode ser de um salário mínimo e meio.",
+     "p": "inversao",
+     "w": "Pelo §7º, o vencimento fica sob responsabilidade da União, que repassa os recursos; o mínimo é de dois salários mínimos (§9º)."
+    }
+   ]
+  },
+  {
+   "id": "sus55",
+   "type": "ce",
+   "topic": "Composição da Conitec",
+   "src": "Lei 8.080/90, art. 19-Q, §§1º e 1º-A (redação da Lei 15.120/2025)",
+   "c": "Uma associação nacional de pacientes com fibrose cística, fundada em 2015, foi chamada a ocupar o assento da sociedade civil na Conitec durante a análise de um novo medicamento para a doença.",
+   "q": "Pela Lei 8.080/90, o representante dessa organização participa da Conitec com direito a voz, mas sem direito a voto.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo restringe a participação que a lei garante: desde a Lei 15.120/2025, o representante da sociedade civil tem assegurado o direito a voto."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Art. 19-Q, §1º, na redação da Lei 15.120/2025: a Conitec conta com representante de organização da sociedade civil constituída há mais de dois anos, assegurado o direito a voto. O §1º-A torna o assento rotativo, ocupado pela entidade ligada à condição analisada."
+    }
+   ]
+  },
+  {
+   "id": "sus56",
+   "type": "ce",
+   "topic": "IBS no piso",
+   "src": "LC 141/2012, art. 7º (redação da LC 227/2026)",
+   "c": "Em 2026, a equipe de orçamento de Imperatriz (MA) revisou a base de cálculo do mínimo que o município deve aplicar em saúde, por causa da reforma tributária.",
+   "q": "Na redação dada pela LC 227/2026, a receita do IBS distribuída ao município integra a base sobre a qual incide o mínimo de 15% em ações e serviços públicos de saúde.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "A LC 227/2026 deu nova redação ao art. 7º da LC 141/2012 e incluiu na base a receita distribuída aos municípios do imposto do art. 156-A da CF (IBS), ao lado dos impostos municipais e das transferências constitucionais."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado limita a base aos impostos antigos. Com a LC 227/2026, a parcela do IBS distribuída ao município também entra no cálculo dos 15%."
+    }
+   ]
+  },
+  {
+   "id": "sus57",
+   "type": "ce",
+   "topic": "Estoque de medicamentos",
+   "src": "Lei 8.080/90, art. 6º-A (incluído pela Lei 14.654/2023)",
+   "c": "Em Rondonópolis (MT), moradores reclamam que vão à farmácia municipal sem saber se o remédio de uso contínuo está disponível.",
+   "q": "A Lei 8.080/90 obriga as instâncias gestoras do SUS a divulgar na internet, de forma acessível, os estoques de medicamentos das farmácias públicas sob sua gestão, com atualização quinzenal.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Art. 6º-A, incluído pela Lei 14.654/2023: as instâncias gestoras divulgarão nas suas páginas na internet os estoques de medicamentos das farmácias públicas sob sua gestão, com atualização quinzenal e de forma acessível ao cidadão comum."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado trata a divulgação como mera recomendação de portaria. A obrigação está na própria Lei 8.080, no art. 6º-A."
+    }
+   ]
+  },
+  {
+   "id": "sus58",
+   "type": "ce",
+   "topic": "Planejamento e iniciativa privada",
+   "src": "Decreto 7.508/2011, arts. 15, §1º, e 16",
+   "c": "Em Cascavel (PR), donos de clínicas privadas sem contrato com o SUS foram informados pela secretaria de que teriam de cumprir as metas do plano municipal de saúde.",
+   "q": "Pelo Decreto 7.508/2011, o planejamento da saúde é obrigatório tanto para os entes públicos quanto para a iniciativa privada, inclusive para os serviços sem vínculo com o SUS.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo estende a obrigação a todos. O decreto torna o planejamento obrigatório só para os entes públicos e indutor de políticas para a iniciativa privada."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Art. 15, §1º: o planejamento é obrigatório para os entes públicos e indutor de políticas para a iniciativa privada. Os serviços privados são considerados no planejamento e nos Mapas da Saúde (art. 16), sem ficarem obrigados às metas."
+    }
+   ]
+  },
+  {
+   "id": "sus59",
+   "type": "ce",
+   "topic": "Integralidade na rede",
+   "src": "Decreto 7.508/2011, art. 20",
+   "c": "Em Maceió (AL), Seu Benedito começou a investigar um câncer na UBS, fez o tratamento num hospital de referência de outra Região de Saúde e voltou a ser acompanhado pela equipe de Saúde da Família.",
+   "q": "Pelo Decreto 7.508/2011, a integralidade da assistência se inicia e se completa na Rede de Atenção à Saúde, mediante referenciamento do usuário na rede regional e interestadual.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Art. 20: a integralidade da assistência à saúde se inicia e se completa na Rede de Atenção à Saúde, mediante referenciamento do usuário na rede regional e interestadual, conforme pactuado nas Comissões Intergestores."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado supõe que o cuidado integral precisa caber num só serviço ou município. O decreto prevê o referenciamento na rede regional e interestadual."
+    }
+   ]
+  },
+  {
+   "id": "sus60",
+   "type": "ce",
+   "topic": "Pactuação consensual",
+   "src": "Decreto 7.508/2011, art. 2º, IV",
+   "c": "Na Comissão Intergestores Bipartite do Rio Grande do Norte, uma proposta de novos fluxos de hemodiálise teve apoio de 6 dos 10 gestores presentes, e o coordenador declarou-a aprovada por maioria.",
+   "q": "Pelo Decreto 7.508/2011, as Comissões Intergestores são instâncias de deliberação por maioria de votos dos gestores presentes.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo confunde a Comissão Intergestores com o Conselho de Saúde, que é órgão deliberativo. As Comissões pactuam por consenso entre os entes."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Art. 2º, IV: as Comissões Intergestores são instâncias de pactuação consensual entre os entes federativos para definir as regras da gestão compartilhada do SUS, e não de votação por maioria."
+    }
+   ]
   }
  ]
 }

@@ -1096,6 +1096,280 @@
           "w": "Item errado. Pelo art. 1.010, § 3º, após as contrarrazões, os autos são remetidos ao tribunal pelo juiz, independentemente de juízo de admissibilidade. Quem examina a tempestividade é o tribunal."
         }
       ]
+    },
+    {
+      "id": "dpc41",
+      "topic": "Eleição de foro",
+      "c": "Uma empresa de software de Florianópolis e um cliente empresarial de Cuiabá assinaram contrato escrito elegendo o foro de Macapá para eventuais litígios. Nenhuma das partes tem domicílio em Macapá, e o serviço é prestado em Cuiabá.",
+      "q": "Pelo CPC, com a redação da Lei 14.879/2024, essa cláusula de eleição de foro produz efeito?",
+      "a": 3,
+      "src": "CPC, art. 63, § 1º (Lei 14.879/2024)",
+      "o": [
+        { "t": "Sim, porque, entre empresas, a eleição de foro por escrito vale para qualquer comarca escolhida.", "p": "generalizacao", "w": "Desde a Lei 14.879/2024, não basta a forma escrita: o foro eleito precisa ter ligação com o domicílio ou a residência de uma das partes ou com o local da obrigação." },
+        { "t": "Sim, desde que o contrato tenha firma reconhecida das duas partes.", "p": "restricao", "w": "O CPC não exige reconhecimento de firma. Exige instrumento escrito, referência expressa ao negócio e pertinência do foro com as partes ou a obrigação." },
+        { "t": "Não, porque a competência territorial é absoluta e nunca pode ser modificada pelas partes.", "p": "troca", "w": "A competência territorial é relativa e pode ser modificada pela eleição de foro (art. 63, caput). O problema aqui é a falta de pertinência do foro escolhido." },
+        { "t": "Não, porque o foro eleito deve ter pertinência com o domicílio ou a residência de uma das partes ou com o local da obrigação.", "p": "correta", "w": "Art. 63, § 1º: a eleição de foro só produz efeito se constar de instrumento escrito, aludir a determinado negócio e guardar pertinência com o domicílio ou a residência de uma das partes ou com o local da obrigação." }
+      ]
+    },
+    {
+      "id": "dpc42",
+      "topic": "Foro da situação",
+      "c": "Um morador de Belo Horizonte quer propor ação de demarcação de terras contra o vizinho de seu sítio, localizado em Diamantina. O vizinho mora em Contagem.",
+      "q": "Onde a ação deve ser proposta?",
+      "a": 1,
+      "src": "CPC, art. 47, caput e § 1º",
+      "o": [
+        { "t": "Em Contagem, domicílio do réu, regra geral aplicável a qualquer ação.", "p": "troca", "w": "O foro do domicílio do réu (art. 46) é a regra das ações pessoais e das reais sobre móveis. Para direito real sobre imóveis, vale o foro da situação da coisa (art. 47)." },
+        { "t": "Em Diamantina, foro da situação do imóvel, sem opção para o autor, por se tratar de demarcação de terras.", "p": "correta", "w": "Art. 47: nas ações fundadas em direito real sobre imóveis, é competente o foro da situação da coisa. O § 1º não admite opção quando o litígio recai sobre demarcação de terras." },
+        { "t": "Em Diamantina ou em Contagem, à escolha do autor, porque toda ação real imobiliária admite o foro do domicílio do réu.", "p": "generalizacao", "w": "A opção pelo domicílio do réu ou pelo foro de eleição existe, mas o § 1º do art. 47 a exclui nos litígios sobre propriedade, vizinhança, servidão, divisão, demarcação e nunciação de obra nova." },
+        { "t": "Em Belo Horizonte, porque nas ações sobre imóveis prevalece o domicílio do autor.", "p": "inversao", "w": "O CPC não privilegia o domicílio do autor nessas ações. O critério é o local onde está o imóvel." }
+      ]
+    },
+    {
+      "id": "dpc43",
+      "topic": "Conexão e sentença",
+      "c": "Em Caxias do Sul, tramitam em varas diferentes duas ações sobre o mesmo contrato de compra e venda: uma de cobrança, proposta pelo vendedor, e outra de rescisão, proposta pelo comprador. A ação de cobrança já foi sentenciada.",
+      "q": "As duas ações devem ser reunidas?",
+      "a": 2,
+      "src": "CPC, arts. 55, caput e § 1º, e 337, VIII e § 5º",
+      "o": [
+        { "t": "Sim, porque ações conexas são sempre reunidas, em qualquer fase do processo.", "p": "generalizacao", "w": "Não é sempre: o § 1º do art. 55 afasta a reunião quando um dos processos já foi sentenciado." },
+        { "t": "Não, porque há litispendência entre elas, e a ação de rescisão deve ser extinta sem resolução do mérito.", "p": "troca", "w": "Litispendência exige as mesmas partes, a mesma causa de pedir e o mesmo pedido. Aqui os pedidos são diferentes; a relação é de conexão (art. 55)." },
+        { "t": "Não, porque a reunião de ações conexas não ocorre se uma delas já houver sido sentenciada.", "p": "correta", "w": "As ações são conexas por terem a mesma causa de pedir, mas o art. 55, § 1º, manda reuni-las salvo se um dos processos já houver sido sentenciado." },
+        { "t": "Sim, desde que as duas partes requeiram, pois o juiz não pode reconhecer a conexão de ofício.", "p": "restricao", "w": "A conexão está entre as matérias que o juiz conhece de ofício (art. 337, VIII e § 5º). De qualquer modo, já não cabe reunião depois da sentença." }
+      ]
+    },
+    {
+      "id": "dpc44",
+      "topic": "Litisconsórcio necessário",
+      "c": "Em Petrolina, um credor propôs ação para anular, por simulação, a escritura de venda de um imóvel celebrada entre Marta, vendedora, e Otávio, comprador, mas indicou como réu apenas Otávio. Antes de sentenciar, o juiz percebe que Marta também deveria integrar o processo.",
+      "q": "O que o juiz deve fazer?",
+      "a": 0,
+      "src": "CPC, arts. 114 e 115, parágrafo único",
+      "o": [
+        { "t": "Determinar que o autor requeira a citação de Marta, no prazo que assinar, sob pena de extinção do processo.", "p": "correta", "w": "Art. 115, parágrafo único: no litisconsórcio passivo necessário, o juiz determina ao autor que requeira a citação de todos os litisconsortes, no prazo que assinar, sob pena de extinção." },
+        { "t": "Extinguir o processo de imediato, sem dar ao autor a oportunidade de corrigir o polo passivo.", "p": "extrapolacao", "w": "A extinção é a consequência de o autor não atender à ordem. Antes, o juiz deve dar-lhe prazo para pedir a citação do litisconsorte que falta." },
+        { "t": "Julgar o mérito só contra Otávio, e a sentença valerá também para Marta.", "p": "inversao", "w": "É o oposto: se a decisão deveria ser uniforme para todos, a sentença sem a citação de quem deveria integrar o processo é nula (art. 115, I)." },
+        { "t": "Mandar intimar Marta para ingressar como assistente simples, já que ela não foi indicada como ré.", "p": "troca", "w": "Assistência é intervenção voluntária de terceiro interessado. Marta é parte do negócio que se quer anular, e por isso é litisconsorte necessária (art. 114), a ser citada como ré." }
+      ]
+    },
+    {
+      "id": "dpc45",
+      "topic": "Gratuidade da justiça",
+      "c": "Em Juazeiro do Norte, uma diarista pediu gratuidade da justiça na petição inicial, com declaração de insuficiência de recursos. Ela é representada por advogado particular, e não há nos autos nenhum elemento que contrarie a declaração.",
+      "q": "O juiz pode negar o benefício só porque ela contratou advogado particular?",
+      "a": 3,
+      "src": "CPC, art. 99, §§ 2º a 4º",
+      "o": [
+        { "t": "Sim, porque quem contrata advogado particular nunca tem direito à gratuidade.", "p": "generalizacao", "w": "O art. 99, § 4º, diz expressamente que a assistência por advogado particular não impede a concessão da gratuidade." },
+        { "t": "Sim, salvo se ela juntar as declarações de imposto de renda dos últimos três anos.", "p": "restricao", "w": "O CPC não exige esse documento. O juiz só pode indeferir se houver nos autos elementos contrários e, antes, deve dar à parte oportunidade de comprovar os pressupostos (§ 2º)." },
+        { "t": "Não, porque a gratuidade é concedida automaticamente a qualquer pessoa, natural ou jurídica, que a declare.", "p": "extrapolacao", "w": "A presunção de veracidade da declaração vale só para a pessoa natural (art. 99, § 3º). A pessoa jurídica precisa demonstrar a insuficiência." },
+        { "t": "Não: presume-se verdadeira a alegação de insuficiência da pessoa natural, e o advogado particular não impede o benefício.", "p": "correta", "w": "Art. 99, § 3º: presume-se verdadeira a alegação de insuficiência deduzida exclusivamente por pessoa natural. O § 4º afasta o advogado particular como motivo de indeferimento." }
+      ]
+    },
+    {
+      "id": "dpc46",
+      "topic": "Compensação de honorários",
+      "c": "Em Sobral, o autor de uma ação de indenização por danos materiais pediu R$ 100 mil e obteve R$ 40 mil. O juiz fixou honorários para os advogados das duas partes e determinou, na sentença, que eles se compensassem.",
+      "q": "Essa compensação dos honorários é válida?",
+      "a": 0,
+      "src": "CPC, art. 85, § 14",
+      "o": [
+        { "t": "Não, porque os honorários são direito do advogado, têm natureza alimentar e é vedada a compensação na sucumbência parcial.", "p": "correta", "w": "Art. 85, § 14: os honorários constituem direito do advogado e têm natureza alimentar, sendo vedada a compensação em caso de sucumbência parcial." },
+        { "t": "Sim, porque os honorários de sucumbência pertencem às partes, que se tornam credoras e devedoras recíprocas.", "p": "inversao", "w": "Os honorários pertencem ao advogado, e não à parte. Como os credores são pessoas diferentes, não há reciprocidade que permita compensar." },
+        { "t": "Sim, desde que os honorários fixados para os dois advogados tenham o mesmo valor.", "p": "restricao", "w": "O § 14 do art. 85 veda a compensação sem ressalva de valores iguais ou diferentes." },
+        { "t": "Não, porque na sucumbência parcial cada parte paga o próprio advogado e não há honorários de sucumbência.", "p": "troca", "w": "Na sucumbência parcial há honorários para os advogados das duas partes, proporcionais ao que cada uma perdeu. O que a lei proíbe é compensá-los." }
+      ]
+    },
+    {
+      "id": "dpc47",
+      "topic": "Impedimento do juiz",
+      "c": "Em Rondonópolis, a advogada que atua desde a petição inicial em uma ação de cobrança é irmã do juiz que assumiu a vara depois, com o processo já em andamento.",
+      "q": "Qual é a situação do juiz?",
+      "a": 1,
+      "src": "CPC, art. 144, III e § 1º",
+      "o": [
+        { "t": "Está apenas suspeito, e a parte contrária precisa provar que ele é amigo íntimo da advogada.", "p": "troca", "w": "Parentesco do juiz com o advogado da parte é causa objetiva de impedimento (art. 144, III), e não de suspeição, que trata de amizade ou inimizade (art. 145)." },
+        { "t": "Está impedido, porque a irmã já atuava no processo antes do início da atividade do juiz nele.", "p": "correta", "w": "Art. 144, III: há impedimento quando atua como advogado parente colateral até o terceiro grau. O § 1º exige que o advogado já integrasse o processo antes do juiz, como no caso." },
+        { "t": "Não há impedimento, porque o parentesco colateral só impede até o segundo grau, e irmãos são parentes em terceiro grau.", "p": "calculo", "w": "A conta está errada nos dois pontos: irmãos são colaterais em segundo grau, e o art. 144, III, vai até o terceiro grau." },
+        { "t": "Não há impedimento, porque ele só existiria se a advogada tivesse ingressado no processo depois do juiz.", "p": "inversao", "w": "É o contrário: o § 1º só reconhece o impedimento se o advogado já integrava o processo antes do juiz, e o § 2º veda criar fato superveniente para provocá-lo." }
+      ]
+    },
+    {
+      "id": "dpc48",
+      "topic": "Citação com hora certa",
+      "c": "Em Itabuna, o oficial de justiça procurou o réu em casa duas vezes, em dias diferentes, sem encontrá-lo. Os vizinhos contaram que ele se esconde sempre que vê o oficial chegar.",
+      "q": "Qual é o procedimento previsto no CPC?",
+      "a": 2,
+      "src": "CPC, arts. 252 e 253",
+      "o": [
+        { "t": "Citar o réu por edital, por estar em local incerto e não sabido.", "p": "troca", "w": "O endereço do réu é conhecido; ele apenas se oculta. Para a suspeita de ocultação, o CPC prevê a citação com hora certa (art. 252), e não o edital." },
+        { "t": "Voltar mais uma vez e só depois da terceira tentativa frustrada marcar a hora certa.", "p": "calculo", "w": "O art. 252 exige duas procuras sem encontrar o citando, e não três." },
+        { "t": "Intimar pessoa da família ou, na falta, vizinho de que voltará no dia útil imediato, na hora que designar, para fazer a citação.", "p": "correta", "w": "Art. 252: após duas procuras frustradas e com suspeita de ocultação, o oficial intima familiar ou vizinho de que voltará no dia útil imediato, na hora designada. O art. 253 regula esse retorno." },
+        { "t": "Considerar o réu citado desde já e certificar a ocultação, sem nenhuma nova diligência.", "p": "extrapolacao", "w": "A suspeita de ocultação não equivale à citação. O oficial precisa marcar a hora e voltar no dia útil seguinte (arts. 252 e 253)." }
+      ]
+    },
+    {
+      "id": "dpc49",
+      "topic": "Número de testemunhas",
+      "c": "Em Macaé, na decisão de saneamento de uma ação de indenização, o juiz fixou três fatos controvertidos. O autor apresentou rol com 12 testemunhas, seis delas sobre o mesmo fato.",
+      "q": "Qual é o limite fixado pelo CPC?",
+      "a": 3,
+      "src": "CPC, art. 357, § 6º",
+      "o": [
+        { "t": "Até 10 testemunhas no total, com no máximo 5 para cada fato.", "p": "calculo", "w": "O total de 10 está certo, mas o limite por fato é 3, e não 5 (art. 357, § 6º)." },
+        { "t": "Não há limite, pois a parte pode arrolar quantas testemunhas quiser para provar seu direito.", "p": "generalizacao", "w": "O direito à prova tem limite legal: o § 6º do art. 357 fixa o número máximo de testemunhas." },
+        { "t": "Até 3 testemunhas no total, limite dos juizados especiais aplicado ao procedimento comum.", "p": "troca", "w": "O limite de três testemunhas por parte é do juizado especial cível (Lei 9.099/95, art. 34). No procedimento comum, vale o art. 357, § 6º, do CPC." },
+        { "t": "Até 10 testemunhas no total, sendo no máximo 3 para a prova de cada fato.", "p": "correta", "w": "Art. 357, § 6º: o número de testemunhas arroladas não pode ser superior a 10, sendo 3, no máximo, para a prova de cada fato." }
+      ]
+    },
+    {
+      "id": "dpc50",
+      "topic": "Remessa necessária",
+      "c": "O Município de Caruaru (PE), que não é capital, foi condenado em sentença de valor certo e líquido equivalente a 150 salários mínimos. O município não apelou.",
+      "q": "A sentença está sujeita à remessa necessária?",
+      "a": 0,
+      "src": "CPC, art. 496, I, §§ 1º e 3º, III",
+      "o": [
+        { "t": "Sim, porque, para municípios que não são capitais, a remessa só é dispensada se a condenação for inferior a 100 salários mínimos.", "p": "correta", "w": "Art. 496, § 3º, III: dispensa-se a remessa quando a condenação certa e líquida for inferior a 100 salários mínimos para os demais municípios. Como 150 supera esse limite, há remessa." },
+        { "t": "Não, porque o limite de 500 salários mínimos vale para todos os municípios.", "p": "troca", "w": "O limite de 500 salários mínimos vale para os Estados, o Distrito Federal e os municípios que são capitais (§ 3º, II). Caruaru está no inciso III, de 100." },
+        { "t": "Não, porque a remessa necessária só ocorre quando a Fazenda Pública apela da sentença.", "p": "inversao", "w": "A remessa existe justamente quando não há apelação: não interposta no prazo, o juiz ordena a remessa dos autos ao tribunal (art. 496, § 1º)." },
+        { "t": "Sim, porque toda sentença contra a Fazenda Pública, de qualquer valor, se sujeita à remessa necessária.", "p": "generalizacao", "w": "A conclusão está certa, mas a regra não: o § 3º do art. 496 dispensa a remessa abaixo de certos valores, e o § 4º, em outras hipóteses." }
+      ]
+    },
+    {
+      "id": "dpc51",
+      "topic": "Prazo da rescisória",
+      "c": "Em Varginha, uma sentença de mérito foi confirmada pelo Tribunal de Justiça em apelação, e o acórdão, última decisão proferida no processo, transitou em julgado. A parte vencida quer propor ação rescisória por violação manifesta de norma jurídica.",
+      "q": "Qual é, como regra, o prazo para a rescisória?",
+      "a": 1,
+      "src": "CPC, arts. 966, V, e 975, caput e § 2º",
+      "o": [
+        { "t": "Dois anos, contados da publicação da sentença de primeiro grau, ainda que tenha havido apelação.", "p": "troca", "w": "O marco não é a sentença: o art. 975 conta o prazo do trânsito em julgado da última decisão proferida no processo." },
+        { "t": "Dois anos, contados do trânsito em julgado da última decisão proferida no processo.", "p": "correta", "w": "Art. 975: o direito à rescisão se extingue em 2 anos contados do trânsito em julgado da última decisão proferida no processo." },
+        { "t": "Não há prazo, porque a decisão que viola norma jurídica nunca se torna definitiva.", "p": "generalizacao", "w": "A violação manifesta de norma jurídica (art. 966, V) é fundamento de rescisória sujeito ao prazo decadencial de 2 anos do art. 975." },
+        { "t": "Cinco anos do trânsito em julgado, prazo aplicável a qualquer fundamento de rescisória.", "p": "extrapolacao", "w": "Cinco anos é o limite máximo para a rescisória fundada em prova nova, cujo prazo conta da descoberta da prova (art. 975, § 2º). Não vale para qualquer fundamento." }
+      ]
+    },
+    {
+      "id": "dpc52",
+      "topic": "Embargos à execução",
+      "c": "Em Paranaguá, uma empresa foi citada em execução de título extrajudicial e não tem bens para garantir o juízo. O sócio acredita que, sem penhora, não poderá se defender.",
+      "q": "Assinale a alternativa correta sobre a defesa da empresa.",
+      "a": 2,
+      "src": "CPC, arts. 914 e 915",
+      "o": [
+        { "t": "Os embargos só são admitidos depois de seguro o juízo pela penhora, depósito ou caução.", "p": "restricao", "w": "O art. 914 afirma o contrário: o executado pode opor embargos independentemente de penhora, depósito ou caução." },
+        { "t": "Pode embargar sem penhora, mas no prazo de 30 dias contado da juntada do mandado de citação.", "p": "calculo", "w": "A dispensa de penhora está certa, mas o prazo dos embargos é de 15 dias, contado na forma do art. 231 (art. 915)." },
+        { "t": "Pode opor embargos independentemente de penhora, depósito ou caução, no prazo de 15 dias contado na forma do art. 231.", "p": "correta", "w": "Art. 914: o executado se opõe por embargos independentemente de penhora, depósito ou caução. Art. 915: o prazo é de 15 dias, contado conforme o art. 231." },
+        { "t": "Deve apresentar impugnação ao cumprimento de sentença, defesa própria da execução de título extrajudicial.", "p": "troca", "w": "A impugnação é a defesa no cumprimento de sentença (art. 525). Na execução de título extrajudicial, a defesa típica são os embargos à execução." }
+      ]
+    },
+    {
+      "id": "dpc53",
+      "topic": "Impenhorabilidade da poupança",
+      "c": "Em Dourados, um banco executa uma dívida de cartão de crédito de Rogério. O único bem encontrado é uma caderneta de poupança com saldo equivalente a 25 salários mínimos.",
+      "q": "Esse saldo pode ser penhorado?",
+      "a": 0,
+      "src": "CPC, arts. 833, X, e 835, I",
+      "o": [
+        { "t": "Não, porque é impenhorável a quantia depositada em caderneta de poupança até o limite de 40 salários mínimos.", "p": "correta", "w": "Art. 833, X: é impenhorável a quantia depositada em caderneta de poupança até 40 salários mínimos. A dívida de cartão não se enquadra na exceção dos alimentos (§ 2º)." },
+        { "t": "Sim, no que exceder 20 salários mínimos, limite legal de impenhorabilidade da poupança.", "p": "calculo", "w": "O limite do art. 833, X, é de 40 salários mínimos, e não 20. Com saldo de 25, nada pode ser penhorado." },
+        { "t": "Sim, porque dinheiro em instituição financeira é o primeiro bem na ordem de penhora, sem exceção.", "p": "generalizacao", "w": "O dinheiro tem preferência na ordem do art. 835, I, mas só entre bens penhoráveis. A impenhorabilidade do art. 833 vem antes." },
+        { "t": "Não, desde que Rogério prove que a poupança é sua única reserva para alimentação.", "p": "restricao", "w": "O art. 833, X, não exige essa prova: a proteção decorre do valor depositado em poupança, até 40 salários mínimos." }
+      ]
+    },
+    {
+      "id": "dpc54",
+      "topic": "Retratação no indeferimento",
+      "c": "Em Garanhuns, o juiz indeferiu a petição inicial de uma ação de cobrança e extinguiu o processo antes da citação do réu. O autor apelou.",
+      "q": "O que o juiz pode fazer ao receber a apelação?",
+      "a": 1,
+      "src": "CPC, art. 331, caput e § 1º",
+      "o": [
+        { "t": "Nada: só o tribunal pode rever a sentença, pois o juiz esgota sua jurisdição ao sentenciar.", "p": "generalizacao", "w": "A regra de que o juiz não altera a própria sentença tem exceções, e o art. 331 é uma delas: ele faculta a retratação." },
+        { "t": "Retratar-se em 5 dias; se não o fizer, mandará citar o réu para responder ao recurso.", "p": "correta", "w": "Art. 331: indeferida a inicial, o autor pode apelar, facultado ao juiz retratar-se em 5 dias. Sem retratação, o juiz manda citar o réu para responder ao recurso (§ 1º)." },
+        { "t": "Retratar-se em 15 dias úteis, o mesmo prazo previsto para a apelação.", "p": "calculo", "w": "O prazo de retratação do art. 331 é de 5 dias. Os 15 dias são o prazo para interpor a apelação." },
+        { "t": "Retratar-se e, na mesma decisão, julgar o mérito em favor do autor, sem citar o réu.", "p": "extrapolacao", "w": "A retratação só desfaz o indeferimento e permite que o processo prossiga. O réu ainda precisa ser citado para se defender." }
+      ]
+    },
+    {
+      "id": "dpc55",
+      "type": "ce",
+      "topic": "Juízo aleatório",
+      "src": "CPC, art. 63, § 5º (Lei 14.879/2024)",
+      "c": "Um escritório ajuizou em Chapecó (SC) uma ação de cobrança entre uma empresa de Natal e um cliente de Teresina, sobre contrato celebrado e cumprido no Nordeste. Nenhuma das partes nem o negócio têm ligação com Santa Catarina.",
+      "q": "O ajuizamento de ação em juízo aleatório, sem vinculação com o domicílio ou a residência das partes ou com o negócio jurídico discutido, constitui prática abusiva que justifica a declinação de competência de ofício.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "É o texto do art. 63, § 5º, do CPC, incluído pela Lei 14.879/2024. Nesse caso, o juiz pode declinar da competência de ofício." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado aplica sem ressalva a regra de que a incompetência relativa depende de alegação do réu. O § 5º do art. 63 autoriza o juiz a declinar de ofício diante do juízo aleatório." }
+      ]
+    },
+    {
+      "id": "dpc56",
+      "type": "ce",
+      "topic": "Negócio jurídico processual",
+      "src": "CPC, art. 190, caput e parágrafo único",
+      "c": "Duas empresas de Jaraguá do Sul, em contrato paritário, ajustaram regras sobre prazos e provas para eventual processo. Já na ação, o juiz considera o acordo inconveniente para a condução da causa, embora não veja nele nenhum vício.",
+      "q": "O juiz pode recusar aplicação a negócio jurídico processual sempre que o considerar inconveniente para o andamento do processo, ainda que não haja nulidade, inserção abusiva em contrato de adesão ou vulnerabilidade de uma das partes.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "generalizacao", "w": "Julgar certo dá ao juiz um poder amplo que a lei não prevê. O controle do art. 190, parágrafo único, é de validade, e não de conveniência." },
+        { "t": "Errado", "p": "correta", "w": "Art. 190, parágrafo único: o juiz controla a validade das convenções processuais e só lhes recusa aplicação nos casos de nulidade, inserção abusiva em contrato de adesão ou manifesta vulnerabilidade de uma parte." }
+      ]
+    },
+    {
+      "id": "dpc57",
+      "type": "ce",
+      "topic": "Mediador e conciliador",
+      "src": "CPC, art. 165, §§ 2º e 3º",
+      "c": "No Centro Judiciário de Solução de Conflitos de Cascavel, chegou uma disputa entre dois irmãos, sócios há anos de uma oficina, sobre a divisão dos lucros. O coordenador precisa escolher o profissional adequado.",
+      "q": "Havendo vínculo anterior entre as partes, como no caso dos irmãos, atua preferencialmente o conciliador, que pode sugerir soluções para o litígio.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo troca as figuras. O conciliador atua preferencialmente quando não há vínculo anterior entre as partes (art. 165, § 2º)." },
+        { "t": "Errado", "p": "correta", "w": "Art. 165, § 3º: o mediador atua preferencialmente nos casos em que houver vínculo anterior entre as partes, ajudando-as a restabelecer a comunicação para que elas mesmas encontrem a solução." }
+      ]
+    },
+    {
+      "id": "dpc58",
+      "type": "ce",
+      "topic": "Ação monitória",
+      "src": "CPC, arts. 700 e 701, caput e § 1º",
+      "c": "Em Santarém, uma fornecedora com notas fiscais e e-mails de confirmação de pedido, sem eficácia de título executivo, propôs ação monitória. O juiz expediu mandado de pagamento, e o réu pagou dentro do prazo de 15 dias.",
+      "q": "Ao cumprir o mandado no prazo, o réu fica isento do pagamento de custas processuais.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 701, § 1º: o réu será isento do pagamento de custas processuais se cumprir o mandado no prazo. Ele arca apenas com honorários de 5% do valor da causa (caput)." },
+        { "t": "Errado", "p": "troca", "w": "Julgar errado confunde a monitória com o cumprimento de sentença. Na monitória, o pagamento no prazo isenta o réu das custas, e os honorários são de apenas 5% (art. 701)." }
+      ]
+    },
+    {
+      "id": "dpc59",
+      "type": "ce",
+      "topic": "Suspensão convencional",
+      "src": "CPC, art. 313, II e § 4º",
+      "c": "Em Lavras, autor e réu de uma ação de cobrança negociam um acordo e pediram juntos a suspensão do processo por convenção, pelo prazo de um ano.",
+      "q": "Por convenção das partes, o processo pode ficar suspenso por até um ano.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "calculo", "w": "Julgar certo usa o prazo errado. O limite de um ano vale para a suspensão por prejudicialidade (inciso V); para a convenção das partes, o limite é de seis meses (art. 313, § 4º)." },
+        { "t": "Errado", "p": "correta", "w": "Art. 313, § 4º: a suspensão nunca pode exceder 6 meses na hipótese de convenção das partes (inciso II). O prazo de 1 ano é o do inciso V." }
+      ]
+    },
+    {
+      "id": "dpc60",
+      "type": "ce",
+      "topic": "Causa madura",
+      "src": "CPC, art. 1.013, § 3º, I",
+      "c": "Em Rio Verde, o juiz extinguiu o processo sem resolução do mérito por ilegitimidade do autor. Ao julgar a apelação, o tribunal entende que o autor é parte legítima e que a causa, só de direito, está pronta para julgamento.",
+      "q": "Nesse caso, ao reformar a sentença, o tribunal deve decidir desde logo o mérito, em vez de devolver os autos ao primeiro grau.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 1.013, § 3º, I: se o processo estiver em condições de imediato julgamento, o tribunal deve decidir desde logo o mérito quando reformar sentença fundada no art. 485." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado exige a volta dos autos ao primeiro grau, condição que o CPC afasta quando a causa está madura. O art. 1.013, § 3º, I, manda o tribunal julgar o mérito." }
+      ]
     }
   ]
 }

@@ -659,6 +659,8 @@ function viewAdmin() {
       ${d.traps.length ? `<div class="item"><span class="tile c-pink">${ico('alert')}</span><div class="main"><b>Pegadinhas que mais derrubam</b><span>${d.traps.map(([k, v]) => esc(TRAP(k)) + ' (' + v + ')').join(' · ')}</span></div></div>` : ''}
     </div>
     ${adminReportsHTML()}
+    ${adminLawHTML()}
+    ${adminHealthHTML()}
     <div class="blk"><div class="sec"><h2>Usuários</h2><span class="tiny num">${(ADM.users || []).length}</span></div>
       <label class="search">${ico('search')}<input id="adm-q" placeholder="Buscar por nome ou e-mail" value="${esc(ADM.q)}" autocomplete="off" aria-label="Buscar usuário"></label>
       <div class="list">${(ADM.users || []).map((u) => `<div class="item"><span class="avatar sm">${esc(ini2(u.name))}</span><div class="main"><b>${esc(u.name)}</b><span style="overflow-wrap:anywhere">${esc(u.email)} · visto ${rel(u.lastSeen)}</span><span>${u.answered} respostas · ${u.week} na semana${u.accuracy != null ? ' · ' + u.accuracy + '%' : ''}${u.owned ? ' · professor(a) de ' + u.owned : ''}${u.joined ? ' · aluno(a) em ' + u.joined : ''}</span></div><button class="icon-btn flat" data-act="adm-reset" data-id="${u.id}" data-n="${esc(u.name)}" aria-label="Gerar link para redefinir a senha de ${esc(u.name)}">${ico('key')}</button></div>`).join('') || '<div class="empty">Nenhum usuário encontrado.</div>'}</div></div>

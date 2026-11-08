@@ -552,6 +552,280 @@
         { "t": "Certo", "p": "correta", "w": "Art. 32: fabricantes e importadores devem assegurar a oferta de componentes e peças de reposição enquanto durar a fabricação ou importação; cessada esta, a oferta deve ser mantida por período razoável de tempo, na forma da lei." },
         { "t": "Errado", "p": "restricao", "w": "Julgar errado limitaria o dever ao período de fabricação. O parágrafo único do art. 32 estende a oferta por período razoável depois que ela cessar." }
       ]
+    },
+    {
+      "id": "dcons41",
+      "topic": "Vício de quantidade",
+      "c": "Em Belo Horizonte (MG), Sônia comprou no Supermercado Serrano um pacote de café com 500 g indicados no rótulo. Na balança de casa, conferiu e reconfirmou: havia apenas 430 g. O gerente disse que a loja teria 30 dias para resolver.",
+      "q": "O que o CDC garante a Sônia?",
+      "a": 3,
+      "src": "CDC (Lei 8.078/1990), art. 19, I a IV",
+      "o": [
+        { "t": "Esperar 30 dias, prazo que o fornecedor sempre tem para sanar qualquer vício antes de o consumidor escolher uma solução.", "p": "troca", "w": "Aplica ao vício de quantidade o prazo de 30 dias do vício de qualidade (art. 18, § 1º). O art. 19 não dá esse prazo: a escolha da solução é imediata." },
+        { "t": "Apenas a devolução do valor pago, porque o vício de quantidade não admite outra solução.", "p": "restricao", "w": "Reduz indevidamente as opções. O art. 19 prevê quatro alternativas, à escolha do consumidor, e a restituição é só uma delas." },
+        { "t": "Exigir do fabricante, e nunca do supermercado, porque só quem embalou o café responde pela diferença de peso.", "p": "inversao", "w": "Inverte a regra: no vício de quantidade, os fornecedores respondem solidariamente (art. 19, caput), e o supermercado pode ser acionado." },
+        { "t": "Escolher de imediato entre abatimento do preço, complementação do peso, troca por outro produto sem o vício ou restituição do valor pago.", "p": "correta", "w": "É o art. 19, I a IV. No vício de quantidade, o consumidor escolhe livremente a solução, e os fornecedores da cadeia respondem solidariamente." }
+      ]
+    },
+    {
+      "id": "dcons42",
+      "topic": "Produto essencial",
+      "c": "Em Campina Grande (PB), Hugo comprou um nebulizador para o tratamento diário de asma do filho pequeno. O aparelho parou de funcionar no terceiro dia, e a loja disse que ele precisaria esperar 30 dias pelo conserto.",
+      "q": "Hugo é obrigado a aguardar esse prazo?",
+      "a": 1,
+      "src": "CDC (Lei 8.078/1990), art. 18, §§ 1º e 3º",
+      "o": [
+        { "t": "Sim, porque o fornecedor sempre tem 30 dias para sanar o vício antes de o consumidor exigir troca ou devolução.", "p": "generalizacao", "w": "Ignora a exceção do art. 18, § 3º. O prazo de 30 dias é a regra, mas não se aplica a produto essencial." },
+        { "t": "Não, porque, tratando-se de produto essencial, ele pode exigir de imediato a troca, a restituição do valor ou o abatimento do preço.", "p": "correta", "w": "É o art. 18, § 3º: o consumidor pode usar de imediato as alternativas do § 1º quando se tratar de produto essencial, como o nebulizador indispensável ao tratamento." },
+        { "t": "Não, mas só se ele apresentar laudo médico e o termo de garantia do fabricante devidamente preenchido.", "p": "restricao", "w": "Cria requisitos que o CDC não prevê. A garantia legal independe de termo expresso (art. 24), e a lei não exige laudo para reconhecer a essencialidade." },
+        { "t": "Não, e a loja ainda deve pagar a Hugo, por imposição do CDC, multa equivalente ao dobro do preço do aparelho.", "p": "extrapolacao", "w": "Vai além da lei. O § 3º antecipa as alternativas do § 1º; perdas e danos dependem de prova, e não existe multa legal do dobro do preço nesse caso." }
+      ]
+    },
+    {
+      "id": "dcons43",
+      "topic": "Produto in natura",
+      "c": "Em Uberaba (MG), Cícero comprou numa banca do mercado municipal tomates que estavam estragados por dentro. Os tomates eram vendidos a granel, sem nenhuma identificação do produtor.",
+      "q": "Quem responde perante Cícero pelo vício?",
+      "a": 0,
+      "src": "CDC (Lei 8.078/1990), art. 18, § 5º",
+      "o": [
+        { "t": "O dono da banca, fornecedor imediato, porque, no produto in natura, ele responde salvo quando o produtor estiver claramente identificado.", "p": "correta", "w": "É o art. 18, § 5º. Sem identificação clara do produtor, o fornecedor imediato responde pelo vício do produto in natura." },
+        { "t": "Apenas o produtor rural, mesmo sem identificação, porque o vício nasceu na lavoura.", "p": "inversao", "w": "Inverte a regra do § 5º: quem responde é o fornecedor imediato, e o produtor só passa a responder no lugar dele quando estiver claramente identificado." },
+        { "t": "Ninguém, porque produto in natura vendido a granel fica fora da proteção do CDC.", "p": "generalizacao", "w": "Cria exclusão inexistente. Alimento in natura é produto (art. 3º, § 1º), e o CDC tem regra própria para ele no art. 18, § 5º." },
+        { "t": "O dono da banca, mas só se Cícero provar que ele armazenou os tomates de forma inadequada.", "p": "restricao", "w": "Exige culpa onde a lei não exige. A responsabilidade pelo vício não depende da prova de má conservação; basta o vício e a falta de identificação do produtor." }
+      ]
+    },
+    {
+      "id": "dcons44",
+      "topic": "Serviço público essencial",
+      "c": "Em Imperatriz (MA), bairros inteiros ficaram dias sem água por falhas repetidas na manutenção da rede. Processada por moradores, a concessionária alegou que, por prestar serviço público, estaria fora do CDC.",
+      "q": "Como o CDC trata a concessionária?",
+      "a": 2,
+      "src": "CDC (Lei 8.078/1990), arts. 6º, X, e 22",
+      "o": [
+        { "t": "Fica fora do CDC, porque os serviços públicos são regidos apenas pela lei de concessões e pelo contrato com o poder concedente.", "p": "troca", "w": "Troca o regime aplicável. O CDC inclui expressamente as concessionárias no art. 22 e lista a adequada e eficaz prestação dos serviços públicos entre os direitos básicos (art. 6º, X)." },
+        { "t": "Responde pelo CDC, mas só se os moradores provarem dolo dos diretores na falha de manutenção.", "p": "restricao", "w": "Acrescenta requisito estranho. O art. 22, parágrafo único, manda as pessoas jurídicas cumprirem as obrigações e repararem os danos na forma do CDC, sem exigir dolo." },
+        { "t": "Deve prestar serviço adequado, eficiente, seguro e, por ser essencial, contínuo, e pode ser compelida a cumprir essas obrigações e a reparar os danos.", "p": "correta", "w": "É o art. 22 e seu parágrafo único: órgãos públicos e concessionárias devem prestar serviços adequados, eficientes, seguros e, quanto aos essenciais, contínuos." },
+        { "t": "Responde pelo CDC, e qualquer interrupção, mesmo por obra emergencial com aviso, gera indenização automática a todos.", "p": "extrapolacao", "w": "Vai além do texto legal. O art. 22 exige continuidade e reparação dos danos causados, mas não cria indenização automática para toda interrupção." }
+      ]
+    },
+    {
+      "id": "dcons45",
+      "topic": "Peças na reparação",
+      "c": "Em Anápolis (GO), a oficina Auto Center Cerrado trocou o alternador do carro de Gilberto por uma peça usada, de desmanche e fora das especificações do fabricante, sem consultá-lo, e cobrou como se fosse nova.",
+      "q": "O que diz o CDC sobre a conduta da oficina?",
+      "a": 3,
+      "src": "CDC (Lei 8.078/1990), art. 21",
+      "o": [
+        { "t": "É lícita, porque a oficina pode usar qualquer peça, desde que o carro volte a funcionar.", "p": "generalizacao", "w": "Transforma em liberdade total o que o CDC limita: na reparação, é implícita a obrigação de usar componentes originais adequados e novos, ou que mantenham as especificações do fabricante." },
+        { "t": "Só é irregular porque o preço cobrado foi de peça nova; com o preço ajustado, a troca seria lícita.", "p": "restricao", "w": "Reduz a infração ao preço. Mesmo com preço menor, a peça fora das especificações, sem autorização do consumidor, descumpre o art. 21." },
+        { "t": "O problema é do fabricante do carro, que responde pelo vício do produto, e não da oficina.", "p": "troca", "w": "Confunde vício do produto com vício do serviço de reparação. Quem usou a peça inadequada foi a oficina, que responde pelo serviço prestado." },
+        { "t": "Viola o CDC, que impõe empregar peças originais adequadas e novas, ou que mantenham as especificações do fabricante, salvo autorização do consumidor.", "p": "correta", "w": "É o art. 21. A oficina empregou peça usada e fora das especificações do fabricante sem sequer consultar Gilberto, e ainda a cobrou como nova." }
+      ]
+    },
+    {
+      "id": "dcons46",
+      "topic": "Cláusula de não indenizar",
+      "c": "Em Curitiba (PR), a Lavanderia Araucária entrega aos clientes um tíquete com a frase: 'Não nos responsabilizamos por peças danificadas na lavagem'. Uma jaqueta de couro de Carla, pessoa física, voltou rasgada.",
+      "q": "Qual é o valor jurídico dessa cláusula?",
+      "a": 0,
+      "src": "CDC (Lei 8.078/1990), arts. 25 e 51, I",
+      "o": [
+        { "t": "É nula, porque o CDC veda cláusula que impossibilite, exonere ou atenue a obrigação do fornecedor de indenizar.", "p": "correta", "w": "É o art. 25, reforçado pelo art. 51, I: cláusulas que exoneram ou atenuam a responsabilidade do fornecedor são nulas de pleno direito." },
+        { "t": "É válida, porque Carla recebeu o tíquete e, ao deixar a jaqueta, aceitou todas as suas condições.", "p": "generalizacao", "w": "Supõe que toda cláusula aceita vale. Nas relações de consumo, cláusula exoneratória é nula, ainda que o consumidor tenha recebido o documento." },
+        { "t": "É válida, desde que a frase esteja redigida em destaque, com letras maiores que o restante do tíquete.", "p": "troca", "w": "Confunde com a regra do art. 54, § 4º, que exige destaque para cláusulas limitativas em contrato de adesão. Destaque não salva cláusula que exclui o dever de indenizar." },
+        { "t": "Pode limitar a indenização devida a Carla em situações justificáveis, como admite o CDC para qualquer consumidor.", "p": "extrapolacao", "w": "Estende a todos uma exceção estreita: a limitação em situações justificáveis só é admitida quando o consumidor é pessoa jurídica (art. 51, I)." }
+      ]
+    },
+    {
+      "id": "dcons47",
+      "topic": "Recall",
+      "c": "Uma montadora com fábrica em Camaçari (BA) descobriu, meses após o lançamento de um modelo, que o airbag podia disparar sem colisão. Até então, nenhum acidente tinha sido registrado.",
+      "q": "O que o CDC impõe à montadora?",
+      "a": 2,
+      "src": "CDC (Lei 8.078/1990), art. 10, §§ 1º e 2º",
+      "o": [
+        { "t": "Avisar apenas por carta os proprietários cadastrados, sem necessidade de anúncio público.", "p": "restricao", "w": "Restringe o meio de comunicação. O art. 10, § 2º, exige anúncios na imprensa, no rádio e na televisão, às expensas do fornecedor." },
+        { "t": "Nada por enquanto, porque o dever do fornecedor só surge depois que algum consumidor sofrer dano.", "p": "troca", "w": "Confunde o dever de prevenção com a responsabilidade pelo fato do produto (art. 12). A comunicação deve ser imediata, assim que o fornecedor conhece a periculosidade." },
+        { "t": "Comunicar imediatamente o fato às autoridades e aos consumidores, com anúncios na imprensa, no rádio e na televisão pagos por ela.", "p": "correta", "w": "É o art. 10, §§ 1º e 2º: conhecida a periculosidade após a introdução no mercado, o fornecedor comunica de imediato autoridades e consumidores, às suas expensas." },
+        { "t": "Recolher todos os carros vendidos e devolver o preço a todos os compradores, por determinação expressa do CDC.", "p": "extrapolacao", "w": "Vai além do texto do art. 10, que trata da comunicação imediata. A devolução do preço não é a consequência que o dispositivo impõe a todos os compradores." }
+      ]
+    },
+    {
+      "id": "dcons48",
+      "topic": "Informação em português",
+      "c": "Em São Paulo (SP), uma loja de suplementos vendia um pré-treino importado com rótulo apenas em inglês, inclusive nas advertências sobre o consumo por gestantes e hipertensos.",
+      "q": "A apresentação do produto atende ao CDC?",
+      "a": 1,
+      "src": "CDC (Lei 8.078/1990), art. 31",
+      "o": [
+        { "t": "Sim, porque o produto é importado, e as informações podem seguir a língua do país de origem.", "p": "generalizacao", "w": "Cria dispensa que a lei não dá. O art. 31 exige informação em língua portuguesa, inclusive para produtos importados." },
+        { "t": "Não, porque a oferta e a apresentação devem trazer informações corretas, claras, precisas e em língua portuguesa, inclusive sobre riscos à saúde.", "p": "correta", "w": "É o art. 31: características, composição, validade, origem e riscos à saúde e à segurança devem ser informados de forma ostensiva e em português." },
+        { "t": "Sim, desde que o vendedor explique oralmente as advertências a quem perguntar no balcão.", "p": "restricao", "w": "Condiciona a regularidade a algo que não supre o dever legal. A informação deve constar da apresentação do produto, de forma ostensiva." },
+        { "t": "Não, e isso caracteriza automaticamente publicidade abusiva, por explorar o medo do consumidor.", "p": "troca", "w": "Troca o enquadramento. O problema é a falta de informação adequada na apresentação do produto (art. 31), não publicidade que explore medo (art. 37, § 2º)." }
+      ]
+    },
+    {
+      "id": "dcons49",
+      "topic": "Aviso de negativação",
+      "c": "Em Cascavel (PR), Tiago descobriu ao tentar um crediário que seu nome tinha sido incluído num cadastro de inadimplentes por dívida com uma loja. Ele não recebeu nenhuma comunicação antes do registro.",
+      "q": "A quem cabia comunicá-lo por escrito antes da inscrição?",
+      "a": 3,
+      "src": "CDC (Lei 8.078/1990), art. 43, § 2º; STJ, Súmula 359",
+      "o": [
+        { "t": "A ninguém, porque o CDC não exige aviso quando a dívida existe e está vencida.", "p": "generalizacao", "w": "O art. 43, § 2º, exige comunicação por escrito da abertura de cadastro não solicitada pelo consumidor, mesmo que a dívida exista." },
+        { "t": "Ao Procon, que deve autorizar e comunicar previamente toda inclusão em cadastro de inadimplentes.", "p": "troca", "w": "Atribui ao Procon papel que a lei não lhe dá. O dever de notificar é de quem mantém o cadastro." },
+        { "t": "À loja credora, que responde sozinha pela comunicação, ficando o mantenedor do cadastro dispensado.", "p": "inversao", "w": "Inverte a orientação consolidada: pela Súmula 359 do STJ, a notificação prévia cabe ao órgão mantenedor do cadastro de proteção ao crédito." },
+        { "t": "Ao órgão mantenedor do cadastro de proteção ao crédito, que deve notificar o devedor antes de proceder à inscrição.", "p": "correta", "w": "É o art. 43, § 2º, com a leitura da Súmula 359 do STJ: cabe ao mantenedor do cadastro notificar o devedor antes da inscrição." }
+      ]
+    },
+    {
+      "id": "dcons50",
+      "topic": "Liquidação antecipada",
+      "c": "Em Sobral (CE), Raquel financiou uma motocicleta em 24 parcelas diretamente com a loja. Após receber uma herança, no 10º mês, quis quitar o saldo de uma vez.",
+      "q": "O que o CDC assegura a Raquel?",
+      "a": 0,
+      "src": "CDC (Lei 8.078/1990), art. 52, § 2º",
+      "o": [
+        { "t": "Liquidar antecipadamente o débito, no todo ou em parte, com redução proporcional dos juros e demais acréscimos.", "p": "correta", "w": "É o art. 52, § 2º: a liquidação antecipada, total ou parcial, é direito do consumidor e vem com redução proporcional de juros e acréscimos." },
+        { "t": "Quitar o saldo, mas pagando todos os juros das parcelas futuras, como se o contrato fosse cumprido até o fim.", "p": "inversao", "w": "Inverte a lógica do § 2º: quem antecipa o pagamento tem direito à redução proporcional dos juros, e não ao pagamento integral deles." },
+        { "t": "Quitar o saldo com redução de juros, mas só se a loja concordar com a antecipação.", "p": "restricao", "w": "Cria condição inexistente. A liquidação antecipada é assegurada ao consumidor, sem depender de aceitação do fornecedor." },
+        { "t": "Quitar o saldo sem pagar juros de nenhuma parcela, nem das já vencidas, como bônus pela antecipação.", "p": "extrapolacao", "w": "Vai além da regra. A redução é proporcional ao período antecipado; os juros das parcelas já transcorridas continuam devidos." }
+      ]
+    },
+    {
+      "id": "dcons51",
+      "topic": "Contrato de adesão",
+      "c": "Em Joinville (SC), o contrato de adesão de uma academia vinha em letras minúsculas, de corpo 8, e a cláusula que limita o reembolso no cancelamento aparecia sem nenhum destaque, no meio do texto.",
+      "q": "Quais regras do CDC esse contrato descumpre?",
+      "a": 2,
+      "src": "CDC (Lei 8.078/1990), art. 54, §§ 3º e 4º",
+      "o": [
+        { "t": "Nenhuma, porque a academia pode redigir o contrato como quiser, já que o cliente é livre para não assinar.", "p": "generalizacao", "w": "Ignora as exigências de forma do art. 54. No contrato de adesão, o consumidor não discute as cláusulas, e por isso a lei impõe clareza e destaque." },
+        { "t": "Só a regra do destaque, porque o tamanho da letra fica a critério do fornecedor.", "p": "restricao", "w": "O § 3º também fixa o tamanho mínimo: a fonte não pode ser inferior ao corpo doze." },
+        { "t": "A fonte deve ter no mínimo corpo doze, e as cláusulas que limitam direitos do consumidor devem ser redigidas com destaque.", "p": "correta", "w": "É o art. 54, §§ 3º e 4º: termos claros, caracteres ostensivos e legíveis em corpo não inferior a doze, e destaque para cláusulas limitativas." },
+        { "t": "A fonte deve ter no mínimo corpo doze, e toda cláusula limitativa de direito do consumidor é nula, ainda que destacada.", "p": "extrapolacao", "w": "Vai além da lei. Cláusula limitativa pode existir no contrato de adesão, desde que redigida com destaque e não seja abusiva (art. 54, § 4º)." }
+      ]
+    },
+    {
+      "id": "dcons52",
+      "topic": "Direitos individuais homogêneos",
+      "c": "Um banco cobrou a mesma tarifa ilegal de cerca de 30 mil correntistas identificados em Pernambuco. A Defensoria Pública quer, numa só ação, obter a devolução do que cada cliente pagou.",
+      "q": "Como o CDC classifica o direito tutelado nessa ação?",
+      "a": 1,
+      "src": "CDC (Lei 8.078/1990), art. 81, parágrafo único, I a III",
+      "o": [
+        { "t": "Difuso, porque os titulares são pessoas indeterminadas, ligadas apenas por circunstâncias de fato.", "p": "troca", "w": "Troca os conceitos. Os correntistas são identificáveis, e cada um tem direito divisível à sua devolução; não se trata de direito indivisível de pessoas indeterminadas." },
+        { "t": "Individual homogêneo, porque os direitos de cada correntista decorrem de origem comum, a mesma cobrança indevida.", "p": "correta", "w": "É o art. 81, parágrafo único, III. Os direitos são individuais e divisíveis, mas a origem comum permite a defesa coletiva." },
+        { "t": "Coletivo em sentido estrito, porque todos têm relação jurídica com o banco, e o resultado deve ser indivisível.", "p": "inversao", "w": "Inverte a natureza do pedido: a devolução de valores é divisível, cada cliente recebe o seu. Coletivo em sentido estrito é transindividual e indivisível (inciso II)." },
+        { "t": "Nenhum dos três, porque direito de pessoas identificadas só pode ser defendido em ações individuais.", "p": "generalizacao", "w": "O CDC admite a defesa coletiva de direitos individuais homogêneos justamente quando há titulares identificáveis com origem comum (art. 81, III)." }
+      ]
+    },
+    {
+      "id": "dcons53",
+      "topic": "Legitimidade da associação",
+      "c": "Em Santa Maria (RS), uma associação de defesa do consumidor criada há oito meses ajuizou ação coletiva contra uma construtora que entregou com graves falhas estruturais centenas de apartamentos populares.",
+      "q": "A associação tem legitimidade para a ação?",
+      "a": 0,
+      "src": "CDC (Lei 8.078/1990), art. 82, IV e § 1º",
+      "o": [
+        { "t": "Pode ter: a exigência de um ano de constituição pode ser dispensada pelo juiz quando houver manifesto interesse social.", "p": "correta", "w": "É o art. 82, IV e § 1º. O requisito de pré-constituição é dispensável pelo juiz diante da dimensão do dano ou da relevância do bem jurídico." },
+        { "t": "Não, porque toda associação precisa de pelo menos dois anos de constituição, sem exceção.", "p": "calculo", "w": "Erra o prazo e a rigidez da regra. O CDC fala em um ano de constituição e permite ao juiz dispensar o requisito (art. 82, § 1º)." },
+        { "t": "Sim, mas só se apresentar autorização da assembleia dos associados para ajuizar a ação.", "p": "restricao", "w": "O art. 82, IV, dispensa expressamente a autorização assemblear." },
+        { "t": "Não, porque só o Ministério Público e a Defensoria Pública podem propor ações coletivas de consumo.", "p": "generalizacao", "w": "O rol do art. 82 é amplo: inclui MP, União, Estados, Municípios, DF, órgãos da administração e associações." }
+      ]
+    },
+    {
+      "id": "dcons54",
+      "topic": "Aumento sem justa causa",
+      "c": "Em Goiânia (GO), uma rede de postos elevou o preço da gasolina durante uma crise de abastecimento, sem nenhum aumento no custo de compra do combustível nem outra justa causa. O Procon instaurou processo administrativo.",
+      "q": "Como o CDC qualifica a conduta da rede de postos?",
+      "a": 2,
+      "src": "CDC (Lei 8.078/1990), arts. 39, X, 56 e 57",
+      "o": [
+        { "t": "É lícita, porque em economia de mercado o fornecedor pode fixar qualquer preço, a qualquer tempo e por qualquer motivo.", "p": "generalizacao", "w": "Transforma a liberdade de preços em liberdade absoluta. O CDC proíbe expressamente elevar sem justa causa o preço de produtos ou serviços (art. 39, X)." },
+        { "t": "Só é prática abusiva se o aumento passar de um percentual máximo que o CDC fixa sobre o preço anterior.", "p": "restricao", "w": "O CDC não fixa percentual de reajuste. O que caracteriza a prática abusiva é a elevação sem justa causa, qualquer que seja o tamanho do aumento (art. 39, X)." },
+        { "t": "É prática abusiva, pois o CDC veda elevar sem justa causa o preço de produtos ou serviços, e sujeita o fornecedor a sanções administrativas, como multa.", "p": "correta", "w": "É o art. 39, X. A infração sujeita o fornecedor às sanções administrativas do art. 56, entre elas a multa do art. 57, aplicada mediante procedimento administrativo." },
+        { "t": "É prática abusiva, e o CDC autoriza o Procon a tabelar por conta própria o preço máximo da gasolina em todo o município.", "p": "extrapolacao", "w": "Vai além da lei. O CDC pune a elevação injustificada com sanções administrativas (arts. 56 e 57), mas não dá ao Procon o poder de tabelar preços." }
+      ]
+    },
+    {
+      "id": "dcons55",
+      "type": "ce",
+      "topic": "Foro do consumidor",
+      "src": "CDC (Lei 8.078/1990), art. 101, I",
+      "c": "Morador de Parnaíba (PI), Anselmo comprou pela internet uma bicicleta elétrica de uma fabricante sediada em Caxias do Sul (RS). A bateria explodiu e causou queimaduras nele.",
+      "q": "A ação de responsabilidade civil de Anselmo contra a fabricante pode ser proposta no domicílio dele, em Parnaíba.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O item está certo. Na ação de responsabilidade civil do fornecedor de produtos e serviços, a ação pode ser proposta no domicílio do autor (art. 101, I)." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado exige que o consumidor processe no foro da sede da empresa. O CDC facilita a defesa e permite ajuizar a ação no domicílio do autor (art. 101, I)." }
+      ]
+    },
+    {
+      "id": "dcons56",
+      "type": "ce",
+      "topic": "Denunciação da lide",
+      "src": "CDC (Lei 8.078/1990), arts. 13, parágrafo único, e 88",
+      "c": "Em Arapiraca (AL), um supermercado foi processado por consumidor intoxicado por um iogurte sem identificação clara do fabricante. Na contestação, o supermercado quis trazer o fabricante ao mesmo processo por denunciação da lide.",
+      "q": "Nesse caso, o CDC autoriza o comerciante a denunciar a lide ao fabricante, para resolver o regresso no mesmo processo movido pelo consumidor.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo aplica a regra geral do processo civil no lugar da regra especial do CDC, que veda a denunciação da lide no regresso do comerciante (art. 88)." },
+        { "t": "Errado", "p": "correta", "w": "O item está errado. O art. 88 veda a denunciação da lide na hipótese do art. 13, parágrafo único: o regresso pode ser ajuizado em processo autônomo ou prosseguir nos mesmos autos, depois, para não atrasar a reparação do consumidor." }
+      ]
+    },
+    {
+      "id": "dcons57",
+      "type": "ce",
+      "topic": "Assédio ao consumidor idoso",
+      "src": "CDC (Lei 8.078/1990), art. 54-C, IV (Lei 14.181/2021)",
+      "c": "Em Bauru (SP), funcionários de uma financeira abordaram repetidas vezes, por telefone e em casa, uma aposentada de 82 anos para que contratasse empréstimo consignado com um brinde.",
+      "q": "É vedado, na oferta de crédito ao consumidor, assediar ou pressionar o consumidor a contratar, principalmente se for idoso ou se a contratação envolver prêmio.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O item está certo. O art. 54-C, IV, incluído pela Lei 14.181/2021, veda assediar ou pressionar o consumidor, principalmente o idoso, o analfabeto, o doente ou em vulnerabilidade agravada, ou quando a contratação envolver prêmio." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado supõe que a insistência só seria ilícita se houvesse fraude no contrato. O art. 54-C, IV, proíbe o próprio assédio ou pressão, com destaque para o consumidor idoso." }
+      ]
+    },
+    {
+      "id": "dcons58",
+      "type": "ce",
+      "topic": "Perda das prestações",
+      "src": "CDC (Lei 8.078/1990), art. 53, caput",
+      "c": "Em Volta Redonda (RJ), uma loja vendeu móveis planejados em 18 prestações. O contrato prevê que, se o comprador atrasar e a loja pedir a resolução e retomar os móveis, ele perderá todas as parcelas já pagas.",
+      "q": "A cláusula de perda total das prestações pagas é válida, desde que redigida com destaque no contrato.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "restricao", "w": "Julgar certo condiciona a validade a uma formalidade que não resolve o problema. O destaque não salva cláusula que o art. 53 declara nula de pleno direito." },
+        { "t": "Errado", "p": "correta", "w": "O item está errado. Nas compras a prestação, é nula de pleno direito a cláusula de perda total das prestações pagas em favor do credor que pede a resolução e retoma o produto (art. 53)." }
+      ]
+    },
+    {
+      "id": "dcons59",
+      "type": "ce",
+      "topic": "Pronto pagamento",
+      "src": "CDC (Lei 8.078/1990), art. 39, IX",
+      "c": "Em Rondonópolis (MT), uma concessionária recusou vender um carro popular a Wagner, que queria pagar à vista, dizendo que aquele modelo só seria vendido com financiamento pela financeira do grupo.",
+      "q": "Recusar a venda de bens a quem se disponha a adquiri-los mediante pronto pagamento, fora dos casos de intermediação regulados em leis especiais, é prática abusiva.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O item está certo. O art. 39, IX, proíbe recusar a venda de bens ou a prestação de serviços diretamente a quem se disponha a adquiri-los mediante pronto pagamento, ressalvados os casos de intermediação regulados em leis especiais." },
+        { "t": "Errado", "p": "inversao", "w": "Julgar errado inverte a proteção: o CDC não deixa o fornecedor escolher só clientes que financiem com ele. A recusa de quem paga à vista é prática abusiva (art. 39, IX)." }
+      ]
+    },
+    {
+      "id": "dcons60",
+      "type": "ce",
+      "topic": "Convenção coletiva de consumo",
+      "src": "CDC (Lei 8.078/1990), art. 107, §§ 1º a 3º",
+      "c": "Em Londrina (PR), uma entidade civil de consumidores e o sindicato do comércio varejista registraram convenção coletiva de consumo sobre prazos de troca de mercadorias. Uma loja não filiada ao sindicato se recusa a cumpri-la.",
+      "q": "A convenção coletiva de consumo, depois de registrada, obriga todos os fornecedores do setor no município, filiados ou não às entidades signatárias.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "generalizacao", "w": "Julgar certo dá à convenção alcance de lei. Pelo art. 107, § 2º, ela só obriga os filiados às entidades signatárias." },
+        { "t": "Errado", "p": "correta", "w": "O item está errado. A convenção torna-se obrigatória com o registro no cartório de títulos e documentos (§ 1º), mas somente obriga os filiados às entidades signatárias (§ 2º); quem se desliga depois do registro continua obrigado (§ 3º)." }
+      ]
     }
   ]
 }

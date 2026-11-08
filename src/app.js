@@ -332,6 +332,8 @@ function startCycle(opts) {
   loadBodies().then(() => { clearTimeout(tm); startCycle0(opts); }).catch(() => { clearTimeout(tm); notify('Sem conexão para carregar as questões. Tente de novo.'); });
 }
 function startCycle0({ decks = [], ids = null, size = 10, title = 'Ciclo', reviewOnly = false, mode = 'learn', unit = null, diag = false, cespe = false }) {
+  track(cespe ? 'sim_cespe' : title === 'Plano de hoje' ? 'plan_today' : title === 'Revisão de véspera' ? 'vespera' : 'cycle_start');
+  radarLoad(); setTimeout(() => { const seen = new Set(); for (const id of (ui.session && ui.session.queue) || []) { const x = QINDEX[id]; if (x && !seen.has(x.deck.id)) { seen.add(x.deck.id); lessonsOf(x.deck); } } }, 0);
   let list;
   const now = Date.now();
   if (ids) list = ids.slice(0, size);
@@ -398,6 +400,7 @@ function nextQuestion() {
   $('#view').scrollTop = 0;
 }
 function finishCycle() {
+  track('cycle_done');
   const s = ui.session; clearInterval(s.tick); clearInterval(s.simTick);
   s.phase = 'summary';
   const L = todayLog(); L.cycles++; S.totals.cycles++;
@@ -503,7 +506,7 @@ const chev = () => `<svg class="ico chev" viewBox="0 0 24 24" aria-hidden="true"
 const tickIco = () => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${I.tick}</svg>`;
 
 /* ---------- Imagens (arquivos publicados junto com o app) ---------- */
-const PHOTOS = { hero: 'img/hero.webp', neuro: 1, port: 1, dconst: 1, logica: 1, excel: 1, mat: 1, lgpd: 1, bio: 1, hist: 1, dadm: 1, info: 1, seg: 1, dh: 1, dpen: 1, dpp: 1, etica: 1, dciv: 1, adm: 1, dpc: 1, ingl: 1, afo: 1, cont: 1, est: 1, dtrib: 1, dcons: 1, eca: 1, sus: 1, redof: 1, arq: 1 };
+const PHOTOS = { hero: 'img/hero.webp', neuro: 1, port: 1, dconst: 1, logica: 1, excel: 1, mat: 1, lgpd: 1, bio: 1, hist: 1, dadm: 1, info: 1, seg: 1, dh: 1, dpen: 1, dpp: 1, etica: 1, dciv: 1, adm: 1, dpc: 1, ingl: 1, afo: 1, cont: 1, est: 1, dtrib: 1, dcons: 1, eca: 1, sus: 1, redof: 1, arq: 1, ldb: 1, banc: 1, lpe: 1 };
 const REDUCED = (() => { try { return matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) { return false; } })();
 /* ---------- Capas ilustradas das trilhas ---------- */
 const PAL = {
@@ -700,8 +703,8 @@ function topicResults() {
 // Seções da lista de trilhas (só quando não há busca e a lista é longa).
 const DECK_SEC = { port: 'Básicas', logica: 'Básicas', mat: 'Básicas', info: 'Básicas', neuro: 'Básicas', ingl: 'Idiomas', sus: 'Saúde',
   dconst: 'Direito', dadm: 'Direito', dpen: 'Direito', dpp: 'Direito', dciv: 'Direito', dpc: 'Direito', dh: 'Direito', dtrib: 'Direito', dcons: 'Direito', eca: 'Direito', etica: 'Direito',
-  adm: 'Gestão e finanças', afo: 'Gestão e finanças', cont: 'Gestão e finanças', est: 'Gestão e finanças', arq: 'Gestão e finanças', redof: 'Gestão e finanças' };
-const SEC_ORDER = ['Suas trilhas', 'Básicas', 'Direito', 'Gestão e finanças', 'Saúde', 'Idiomas', 'Escola', 'Corporativo'];
+  adm: 'Gestão e finanças', afo: 'Gestão e finanças', banc: 'Gestão e finanças', lpe: 'Direito', ldb: 'Educação', cont: 'Gestão e finanças', est: 'Gestão e finanças', arq: 'Gestão e finanças', redof: 'Gestão e finanças' };
+const SEC_ORDER = ['Suas trilhas', 'Básicas', 'Direito', 'Gestão e finanças', 'Saúde', 'Educação', 'Idiomas', 'Escola', 'Corporativo'];
 const secOf = (d) => d.custom || d.classDeck ? 'Suas trilhas' : DECK_SEC[d.id] || d.tag || 'Outras';
 function deckSections(list) {
   const g = {}; for (const d of list) (g[secOf(d)] = g[secOf(d)] || []).push(d);
@@ -743,7 +746,7 @@ function viewDeck(d) {
           <button class="btn btn-soft btn-sm" data-act="sim-deck" data-id="${esc(d.id)}">Simulado · ${Math.round(simN * 1.5)} min</button></div>
         ${(() => { const n = d.questions.filter((q) => q.type === 'ce').length; return n >= 4 ? `<div class="duo ce-duo"><button class="btn btn-ghost btn-sm ce-btn" data-act="ce-deck" data-id="${esc(d.id)}"><b>C</b><b>E</b> Treino · ${n}</button>${n >= 10 ? `<button class="btn btn-ghost btn-sm" data-act="sim-cespe" data-id="${esc(d.id)}">Simulado Cebraspe</button>` : ''}</div>` : ''; })()}
       </div>
-      ${lessonsBlock(d)}
+      ${deckReviewHTML(d)}${lessonsBlock(d)}
       ${journeyHTML(d)}
       <div class="blk"><div class="sec"><h2>Conteúdo</h2><div class="legend"><span><i class="dot m"></i>Firme</span><span><i class="dot l"></i>Aprendendo</span></div></div>
         ${(() => {
@@ -808,7 +811,7 @@ function viewSession() {
       ${trap ? `<div class="callout" style="background:var(--t-peach)"><span class="tile" style="background:var(--orange);color:#fff">${ico('alert')}</span><div><b>O que te pegou: ${PATTERNS[trap].l}</b><p>${PATTERNS[trap].d}</p></div></div>` : ''}
       <div class="alts">${s.order.map((oi, di) => { const o = q.o[oi]; const isR = oi === q.a, isP = oi === s.pick && !isR;
         return `<div class="alt ${isR ? 'is-right' : ''} ${isP ? 'is-picked' : ''}"><div class="hd"><span class="L">${q.type === 'ce' ? (di ? 'E' : 'C') : LETTERS[di]}</span><span class="tag ${isR ? 'c-mint' : isP ? 'c-pink' : 'c-blue'}">${PATTERNS[o.p] ? PATTERNS[o.p].l : 'Incorreta'}</span>${isP ? '<span class="tiny" style="font-weight:700;color:var(--bad)">sua resposta</span>' : ''}</div><span class="t">${esc(o.t)}</span><span class="w">${esc(o.w)}</span></div>`; }).join('')}</div>
-      ${q.src ? `<p class="tiny">Fonte: ${esc(q.src)}</p>` : ''}${viewTrain(s)}${viewTutor(s)}`;
+      ${q.src ? `<p class="tiny">Fonte: ${esc(q.src)}</p>` : ''}${qLawAlertHTML(id)}${s.correct ? '' : lessonLinkHTML(id)}${viewTrain(s)}${viewTutor(s)}`;
     dock = `<button class="btn btn-primary btn-block" data-act="next">${s.i + 1 >= s.queue.length ? 'Ver resultado' : 'Próxima questão'}</button>`;
   }
   return `<div class="sess">${top(`<div class="steps4" aria-hidden="true">${labels.map((l, i) => `<span class="${i === pi ? 'on' : i < pi ? 'past' : ''}">${l}</span>`).join('')}</div>`)}
@@ -1022,6 +1025,7 @@ function viewProfile() {
     <div class="blk"><div class="sec"><h2>Preferências</h2></div><div class="list">
       ${sw('retrieval', 'Recuperação ativa', 'Pensar antes de ver as alternativas', 'c-blue', 'recall')}
       ${sw('fx', 'Som e vibração', 'Sinal de acerto e erro', 'c-peach', 'bolt')}
+      ${API && API.on ? sw('stats', 'Estatísticas anônimas', 'Contagens de uso sem nada que identifique você', 'c-mint', 'gauge') : ''}
       <button class="item" data-act="${serverReady() ? 'push-open' : 'remind-open'}"><span class="tile round c-lilac">${ico(serverReady() ? 'bell' : 'clock')}</span><div class="main"><b>Lembrete diário</b><span>${S.user.push ? 'Notificação no celular ativada' : S.user.remind ? 'Todo dia às ' + esc(S.user.remind) : serverReady() ? 'Notificação no celular quando não estudar' : 'Um alerta no calendário do celular'}</span></div>${chev()}</button>
       <button class="item" data-act="exam-open"><span class="tile round c-blue">${ico('exam')}</span><div class="main"><b>Objetivo e data da prova</b><span>${examInfo() ? esc(examInfo().name) + ' · ' + new Date(examInfo().at).toLocaleDateString('pt-BR') : 'Ainda não definido'}</span></div>${chev()}</button>
       <div class="item"><span class="tile round c-mint">${ico('shield')}</span><div class="main"><b>Seus dados</b><span>${loggedIn() ? 'Na sua conta Memory, sincronizados' : cloud.status === 'cloud' ? 'Salvos na sua conta e sincronizados' : 'Salvos neste aparelho'}</span></div></div>
@@ -1039,7 +1043,7 @@ function viewProfile() {
     <div class="list">${ui.confirmReset ?
       `<div class="item noicon"><div class="main"><b>Zerar todo o progresso?</b><span>Respostas, XP, sequência e revisões serão apagados. Suas trilhas continuam.</span></div></div><div class="item noicon" style="gap:10px"><button class="btn btn-ghost btn-sm" style="flex:1" data-act="cancel-reset">Cancelar</button><button class="btn btn-danger btn-sm" style="flex:1" data-act="do-reset">Zerar</button></div>` :
       `<button class="item noicon" data-act="ask-reset" style="justify-content:center;color:var(--bad);font-weight:700">Zerar progresso</button>`}</div>
-    <p class="tiny" style="text-align:center">Memory 7.2${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
+    <p class="tiny" style="text-align:center">Memory ${APP_VER}${API && API.on ? ' · servidor ' + (API.db ? 'conectado' : 'sem banco') : ''}</p>
   </div>`;
 }
 
@@ -1345,6 +1349,7 @@ document.addEventListener('keydown', (e) => {
 /* ================= Inicialização ================= */
 render();
 loadBodies().catch(() => {});
+track('open'); setTimeout(prefetchOffline, 4000);
 initCloud();
 initServer();
 (async () => {

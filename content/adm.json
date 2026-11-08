@@ -1096,6 +1096,552 @@
           "w": "Julgar errado supõe que a boa-fé é tema só do direito privado. A Lei 13.460 a prevê expressamente como diretriz do atendimento ao usuário (art. 5º, II)."
         }
       ]
+    },
+    {
+      "id": "adm41",
+      "topic": "Administração científica",
+      "c": "Na central de digitalização do Tribunal Regional do Trabalho em Campinas, um analista cronometrou cada etapa do trabalho dos digitalizadores, eliminou movimentos desnecessários, padronizou o método e fixou uma meta diária por servidor com base no tempo-padrão.",
+      "q": "Essa forma de racionalizar o trabalho tem origem em qual abordagem?",
+      "a": 2,
+      "src": "Taylor, Princípios de Administração Científica (1911); Chiavenato, Introdução à TGA (administração científica)",
+      "o": [
+        {
+          "t": "Teoria clássica de Fayol, cuja ênfase está no estudo de tempos e movimentos das tarefas do operário.",
+          "p": "troca",
+          "w": "Fayol enfatizou a estrutura e as funções da administração, de cima para baixo. O estudo de tempos e movimentos é a marca de Taylor."
+        },
+        {
+          "t": "Escola de Relações Humanas, pois todo ganho de produtividade decorre sempre de fatores sociais e do grupo.",
+          "p": "generalizacao",
+          "w": "A Escola de Relações Humanas valoriza os fatores sociais, mas o caso trata de racionalizar a tarefa com cronômetro e método padrão, sem nenhum foco no grupo."
+        },
+        {
+          "t": "Administração científica de Taylor, com ênfase na tarefa, no estudo de tempos e movimentos e na padronização do método.",
+          "p": "correta",
+          "w": "Taylor propôs substituir o improviso pelo método científico: analisar a tarefa, medir tempos, eliminar movimentos inúteis e fixar o tempo-padrão."
+        },
+        {
+          "t": "Administração científica, que via o trabalhador movido sobretudo por reconhecimento social e participação nas decisões.",
+          "p": "inversao",
+          "w": "É o oposto: Taylor partia do homo economicus, motivado por recompensas materiais. Reconhecimento social é a premissa da Escola de Relações Humanas."
+        }
+      ]
+    },
+    {
+      "id": "adm42",
+      "topic": "Princípios de Fayol",
+      "c": "No Hemocentro Regional de Uberlândia, uma técnica de laboratório recebe instruções diferentes sobre a mesma tarefa do coordenador de coleta e do gerente administrativo, e não sabe qual dos dois deve obedecer.",
+      "q": "Qual princípio de Fayol está sendo desrespeitado?",
+      "a": 0,
+      "src": "Fayol, Administração Industrial e Geral (1916): 14 princípios gerais de administração",
+      "o": [
+        {
+          "t": "Unidade de comando: cada empregado deve receber ordens de um só superior.",
+          "p": "correta",
+          "w": "Para Fayol, a dualidade de comando gera conflito e desorganização. Cada agente deve receber ordens de apenas um chefe."
+        },
+        {
+          "t": "Unidade de direção: cada empregado deve receber ordens de um único chefe sobre cada tarefa.",
+          "p": "troca",
+          "w": "Unidade de direção é ter um só chefe e um só programa para cada conjunto de operações com o mesmo objetivo. Receber ordens de um só superior é unidade de comando."
+        },
+        {
+          "t": "Cadeia escalar, que proíbe qualquer contato direto entre setores sem passar pelo topo da hierarquia.",
+          "p": "extrapolacao",
+          "w": "Fayol admitia a comunicação lateral direta (a chamada ponte de Fayol), desde que autorizada pelos chefes, para evitar a lentidão da via hierárquica."
+        },
+        {
+          "t": "Disciplina, pois qualquer conflito de ordens resulta sempre de desobediência do empregado.",
+          "p": "generalizacao",
+          "w": "O problema não está na conduta da técnica, e sim na estrutura que lhe dá dois chefes para a mesma tarefa."
+        }
+      ]
+    },
+    {
+      "id": "adm43",
+      "topic": "Experiência de Hawthorne",
+      "c": "Num estudo na Secretaria da Fazenda de Alagoas, a produtividade de uma equipe de atendimento subiu quando a iluminação foi melhorada e continuou alta quando ela voltou ao nível anterior. Os servidores disseram que se sentiram valorizados por terem sido escolhidos e passaram a se ajudar mais.",
+      "q": "O resultado se aproxima de qual conclusão da experiência de Hawthorne?",
+      "a": 3,
+      "src": "Mayo, The Human Problems of an Industrial Civilization (1933); Chiavenato, Introdução à TGA (experiência de Hawthorne)",
+      "o": [
+        {
+          "t": "Confirma a tese de Taylor de que as condições físicas do ambiente determinam a produtividade.",
+          "p": "troca",
+          "w": "Se as condições físicas determinassem o resultado, a produção cairia com a volta da iluminação antiga. Hawthorne derrubou essa ideia."
+        },
+        {
+          "t": "O nível de produção depende da capacidade física individual, e não das normas e da integração do grupo.",
+          "p": "inversao",
+          "w": "Inverte a conclusão de Mayo: o nível de produção é determinado pela integração social e pelas normas do grupo, não pela capacidade física."
+        },
+        {
+          "t": "Fatores sociais tornam o salário e as boas condições de trabalho desnecessários.",
+          "p": "extrapolacao",
+          "w": "Hawthorne mostrou a força dos fatores sociais, mas não concluiu que remuneração e condições de trabalho sejam dispensáveis."
+        },
+        {
+          "t": "Fatores psicológicos e sociais, como a atenção recebida e a integração do grupo, influenciam a produtividade.",
+          "p": "correta",
+          "w": "É a conclusão central da experiência conduzida por Elton Mayo: o comportamento no trabalho depende de fatores sociais, do grupo e do reconhecimento."
+        }
+      ]
+    },
+    {
+      "id": "adm44",
+      "topic": "Teoria de sistemas",
+      "c": "As prefeituras de Maringá e de Juazeiro do Norte zeraram a fila de matrícula em creches. Partiram de situações diferentes e usaram estratégias distintas: uma criou cadastro on-line com vagas remanejadas, a outra ampliou as vagas conveniadas.",
+      "q": "Qual conceito da teoria geral de sistemas descreve esse fenômeno?",
+      "a": 1,
+      "src": "Bertalanffy, Teoria Geral dos Sistemas; Katz e Kahn, Psicologia Social das Organizações (sistemas abertos)",
+      "o": [
+        {
+          "t": "Entropia: tendência dos sistemas abertos de chegar ao mesmo resultado por caminhos diferentes.",
+          "p": "troca",
+          "w": "Entropia é a tendência à desorganização e ao desgaste do sistema. Chegar ao mesmo resultado por caminhos diferentes é equifinalidade."
+        },
+        {
+          "t": "Equifinalidade: sistemas abertos podem alcançar o mesmo estado final a partir de condições iniciais e caminhos diferentes.",
+          "p": "correta",
+          "w": "É exatamente o caso: resultados iguais obtidos por meios distintos, o que mostra que não há uma única forma certa de organizar."
+        },
+        {
+          "t": "Equifinalidade, fenômeno próprio dos sistemas fechados, que não trocam energia com o ambiente.",
+          "p": "restricao",
+          "w": "É o contrário: a equifinalidade é característica dos sistemas abertos, que interagem com o ambiente."
+        },
+        {
+          "t": "Sinergia, pois resultados iguais entre organizações decorrem sempre de o todo ser maior que a soma das partes.",
+          "p": "generalizacao",
+          "w": "Sinergia é o efeito de o conjunto produzir mais que as partes isoladas. Ela não explica por que caminhos diferentes levam ao mesmo resultado."
+        }
+      ]
+    },
+    {
+      "id": "adm45",
+      "topic": "Mecanicista e orgânica",
+      "c": "Uma empresa estadual de tecnologia da informação em Salvador, que atua num mercado de mudança tecnológica rápida, abandonou regras rígidas e a hierarquia longa e passou a trabalhar com equipes, comunicação lateral e decisões descentralizadas.",
+      "q": "Segundo a pesquisa de Burns e Stalker, base da teoria contingencial, assinale a alternativa correta.",
+      "a": 0,
+      "src": "Burns e Stalker, The Management of Innovation (1961); Chiavenato, Introdução à TGA (teoria da contingência)",
+      "o": [
+        {
+          "t": "A empresa adotou o modelo orgânico, mais adequado a ambientes instáveis, com estrutura flexível e comunicação lateral.",
+          "p": "correta",
+          "w": "Burns e Stalker concluíram que ambientes estáveis favorecem a organização mecanicista, e ambientes mutáveis e inovadores, a orgânica."
+        },
+        {
+          "t": "O modelo mecanicista é o mais indicado para ambientes instáveis, justamente pela rigidez de suas regras.",
+          "p": "inversao",
+          "w": "Inverte a pesquisa: o modelo mecanicista, rígido e hierarquizado, funciona melhor em ambientes estáveis e rotineiros."
+        },
+        {
+          "t": "Existe uma única melhor forma de organizar, válida para qualquer ambiente.",
+          "p": "generalizacao",
+          "w": "A teoria contingencial nega o modelo único: a estrutura adequada depende do ambiente e da tecnologia."
+        },
+        {
+          "t": "A empresa adotou a burocracia weberiana, marcada por comunicação lateral e decisões descentralizadas.",
+          "p": "troca",
+          "w": "A burocracia de Weber se caracteriza por hierarquia formal, regras escritas e rotinas padronizadas, traços do modelo mecanicista."
+        }
+      ]
+    },
+    {
+      "id": "adm46",
+      "topic": "Tipos de dominação",
+      "c": "Num município do sertão de Pernambuco, os moradores seguem as orientações de um líder comunitário não por causa da lei nem dos costumes, mas pelas qualidades excepcionais que lhe atribuem. Quando ele se afastou, o movimento se dispersou.",
+      "q": "Pela tipologia de Max Weber, que tipo de dominação o caso descreve?",
+      "a": 2,
+      "src": "Weber, Economia e Sociedade: os três tipos puros de dominação legítima",
+      "o": [
+        {
+          "t": "Tradicional, fundada nas qualidades pessoais extraordinárias do líder.",
+          "p": "troca",
+          "w": "A dominação tradicional se apoia na crença nos costumes e na santidade das tradições. Qualidades extraordinárias do líder caracterizam o carisma."
+        },
+        {
+          "t": "Racional-legal, pois toda obediência numa comunidade organizada se baseia sempre em normas escritas.",
+          "p": "generalizacao",
+          "w": "O caso afasta expressamente a lei. Weber descreve três tipos legítimos de dominação, e nem todos se fundam em normas impessoais."
+        },
+        {
+          "t": "Carismática, baseada na devoção às qualidades excepcionais do líder, o que a torna instável na sucessão.",
+          "p": "correta",
+          "w": "Para Weber, a autoridade carismática depende da pessoa do líder; por isso enfrenta crise quando ele sai, como no caso."
+        },
+        {
+          "t": "Carismática, tipo que Weber reconhecia apenas em líderes religiosos.",
+          "p": "restricao",
+          "w": "Weber aplica o carisma também a líderes políticos, guerreiros e outros. A restrição a líderes religiosos não existe."
+        }
+      ]
+    },
+    {
+      "id": "adm47",
+      "topic": "Racionalidade limitada",
+      "c": "A comissão da Prefeitura de Joinville encarregada de escolher um sistema de gestão de multas, com prazo curto e poucas informações de mercado, analisou só três propostas e ficou com a primeira que atendia aos requisitos mínimos.",
+      "q": "Qual conceito de Herbert Simon explica essa forma de decidir?",
+      "a": 3,
+      "src": "Simon, Comportamento Administrativo (1947): racionalidade limitada e decisão satisfatória",
+      "o": [
+        {
+          "t": "Decisão programada, porque se trata de escolha rotineira, já resolvida por regras pré-estabelecidas.",
+          "p": "troca",
+          "w": "Escolher um novo sistema é decisão não programada, nova e pouco estruturada. Decisões programadas são repetitivas e seguem rotina."
+        },
+        {
+          "t": "Modelo racional clássico, em que o decisor conhece todas as alternativas e escolhe a melhor de todas.",
+          "p": "inversao",
+          "w": "O caso mostra o oposto do modelo racional clássico: a comissão não conhecia todas as opções e não buscou a ótima."
+        },
+        {
+          "t": "Racionalidade limitada, que torna a decisão nula por não ter avaliado todas as opções existentes.",
+          "p": "extrapolacao",
+          "w": "Simon descreve como as decisões são tomadas na prática. A racionalidade limitada não torna a escolha inválida."
+        },
+        {
+          "t": "Racionalidade limitada: com informação e tempo restritos, o decisor busca uma solução satisfatória, e não a ótima.",
+          "p": "correta",
+          "w": "Para Simon, o administrador não conhece todas as alternativas nem suas consequências; por isso escolhe a primeira opção satisfatória."
+        }
+      ]
+    },
+    {
+      "id": "adm48",
+      "topic": "Necessidades de McClelland",
+      "c": "Renata, analista da Controladoria-Geral do Município de São Paulo, prefere metas desafiadoras mas alcançáveis, pede retorno rápido sobre seu desempenho e gosta de assumir responsabilidade pessoal pelos resultados.",
+      "q": "Pela teoria de McClelland, qual necessidade predomina em Renata?",
+      "a": 1,
+      "src": "McClelland, The Achieving Society (1961); Robbins, Comportamento Organizacional (teoria das necessidades)",
+      "o": [
+        {
+          "t": "Afiliação: desejo de fazer melhor e de superar padrões de excelência.",
+          "p": "troca",
+          "w": "Afiliação é o desejo de relacionamentos próximos e amistosos. Buscar excelência e superar padrões é necessidade de realização."
+        },
+        {
+          "t": "Realização: busca de excelência, com preferência por metas desafiadoras, responsabilidade pessoal e feedback.",
+          "p": "correta",
+          "w": "McClelland descreve as pessoas com alta necessidade de realização exatamente assim: metas de dificuldade moderada, responsabilidade pessoal e retorno rápido."
+        },
+        {
+          "t": "Poder, pois quem assume responsabilidade busca sempre controlar e influenciar outras pessoas.",
+          "p": "generalizacao",
+          "w": "Poder é o desejo de influenciar e controlar os outros. Assumir responsabilidade pelos próprios resultados não revela, por si, essa necessidade."
+        },
+        {
+          "t": "Realização, que para McClelland é inata, e não aprendida ao longo da vida.",
+          "p": "inversao",
+          "w": "McClelland trata realização, poder e afiliação como necessidades adquiridas, aprendidas com a experiência e a cultura."
+        }
+      ]
+    },
+    {
+      "id": "adm49",
+      "topic": "Teoria da equidade",
+      "c": "Felipe, técnico do INSS em Manaus, descobriu que um colega com a mesma função, a mesma carga de trabalho e os mesmos resultados recebe gratificação maior. Desde então, passou a se esforçar menos.",
+      "q": "Qual teoria explica melhor a reação de Felipe?",
+      "a": 2,
+      "src": "Adams, Inequity in Social Exchange (1965); Robbins, Comportamento Organizacional (teoria da equidade)",
+      "o": [
+        {
+          "t": "Teoria da expectativa de Vroom, que explica a motivação pela comparação da própria recompensa com a dos colegas.",
+          "p": "troca",
+          "w": "Vroom trabalha com expectância, instrumentalidade e valência. A comparação com um referente é a essência da teoria de Adams."
+        },
+        {
+          "t": "Teoria da equidade, para a qual qualquer diferença de remuneração entre colegas gera desmotivação.",
+          "p": "generalizacao",
+          "w": "Adams compara razões entre resultados e contribuições. Se o colega contribuísse mais, ganhar mais não seria percebido como injusto."
+        },
+        {
+          "t": "Teoria da equidade de Adams: a pessoa compara sua razão entre resultados e contribuições com a de um referente e reage à iniquidade.",
+          "p": "correta",
+          "w": "Com contribuições iguais e recompensa menor, Felipe percebe iniquidade e a reduz diminuindo o próprio esforço, uma das reações previstas por Adams."
+        },
+        {
+          "t": "Teoria da equidade, que só considera comparações com trabalhadores de outras organizações.",
+          "p": "restricao",
+          "w": "O referente pode ser um colega da mesma organização, alguém de fora ou a própria pessoa em outra situação."
+        }
+      ]
+    },
+    {
+      "id": "adm50",
+      "topic": "Competências: CHA",
+      "c": "Ao mapear as competências dos atendentes do Procon de Belo Horizonte, a equipe registrou: conhecer o Código de Defesa do Consumidor; saber operar o sistema de reclamações e conduzir uma audiência de conciliação; tratar o consumidor com cortesia e paciência.",
+      "q": "Como esses elementos se classificam no modelo CHA?",
+      "a": 0,
+      "src": "Durand (1998), dimensões da competência; Carbone et al., Gestão por Competências e Gestão do Conhecimento (FGV)",
+      "o": [
+        {
+          "t": "Conhecer o CDC é conhecimento; operar o sistema e conduzir audiência são habilidades; cortesia e paciência são atitudes.",
+          "p": "correta",
+          "w": "Conhecimento é o saber; habilidade é o saber fazer, a aplicação prática; atitude é o querer fazer, ligado a comportamento e postura."
+        },
+        {
+          "t": "Conhecer o CDC é habilidade; operar o sistema é conhecimento; cortesia e paciência são atitudes.",
+          "p": "inversao",
+          "w": "Troca as duas primeiras dimensões: dominar o conteúdo da lei é conhecimento, e operar o sistema na prática é habilidade."
+        },
+        {
+          "t": "Cortesia e paciência são habilidades técnicas, pois dizem respeito ao saber fazer.",
+          "p": "troca",
+          "w": "Cortesia e paciência expressam disposição e postura diante do trabalho, ou seja, atitudes."
+        },
+        {
+          "t": "Só conhecer o CDC é competência, pois competência se resume sempre ao conhecimento formal comprovado.",
+          "p": "generalizacao",
+          "w": "Competência combina conhecimentos, habilidades e atitudes aplicados ao trabalho, não se limitando ao saber teórico."
+        }
+      ]
+    },
+    {
+      "id": "adm51",
+      "topic": "Caminho crítico",
+      "c": "A Secretaria de Infraestrutura de Palmas planejou a reforma de uma escola: A, projeto (3 semanas); B, compra de materiais (5 semanas, após A); C, licença ambiental (2 semanas, após A); D, preparo do terreno (4 semanas, após C); E, execução da obra (6 semanas, após B e D).",
+      "q": "Qual é o caminho crítico e a duração mínima do projeto?",
+      "a": 3,
+      "src": "PMI, Guia PMBOK (método do caminho crítico)",
+      "o": [
+        {
+          "t": "A-C-D-E, com 20 semanas, somando todas as atividades do projeto.",
+          "p": "calculo",
+          "w": "Somar todas as atividades ignora que B corre em paralelo com C e D. O prazo é dado pelo caminho mais longo: 3 + 2 + 4 + 6 = 15 semanas."
+        },
+        {
+          "t": "Não é possível definir, pois o caminho crítico exige conhecer o custo de cada atividade.",
+          "p": "restricao",
+          "w": "O caminho crítico se calcula com durações e dependências. Custos não entram nessa conta."
+        },
+        {
+          "t": "A-B-E, com 14 semanas, pois o caminho mais curto define o prazo mínimo.",
+          "p": "inversao",
+          "w": "O prazo mínimo é dado pelo caminho mais longo, já que nenhuma atividade pode terminar antes de suas predecessoras."
+        },
+        {
+          "t": "A-C-D-E, com 15 semanas, o caminho mais longo, cujas atividades não têm folga.",
+          "p": "correta",
+          "w": "A-B-E soma 3 + 5 + 6 = 14 e A-C-D-E soma 3 + 2 + 4 + 6 = 15. O mais longo é o crítico; atraso nele atrasa o projeto."
+        }
+      ]
+    },
+    {
+      "id": "adm52",
+      "topic": "Mudança: modelo de Lewin",
+      "c": "Antes de implantar o processo eletrônico, a direção do Tribunal de Justiça de Rondônia fez reuniões com dados sobre o custo do papel e o atraso dos autos físicos, para que os servidores percebessem a necessidade de mudar e abandonassem velhos hábitos.",
+      "q": "Pelo modelo de Kurt Lewin, essas reuniões correspondem a qual fase?",
+      "a": 1,
+      "src": "Lewin, Frontiers in Group Dynamics (1947); Robbins, Comportamento Organizacional (modelo de mudança em três etapas)",
+      "o": [
+        {
+          "t": "Mudança (movimento), fase em que se aprendem os novos comportamentos e o sistema é implantado.",
+          "p": "troca",
+          "w": "O sistema ainda não foi implantado. As reuniões preparam o terreno, o que caracteriza a fase anterior, o descongelamento."
+        },
+        {
+          "t": "Descongelamento, em que se cria a percepção da necessidade de mudar e se enfraquecem os padrões antigos.",
+          "p": "correta",
+          "w": "Lewin descreve três fases: descongelamento, mudança e recongelamento. Mostrar os problemas do modelo atual para vencer a resistência é descongelar."
+        },
+        {
+          "t": "Recongelamento, que é a primeira etapa, quando se rompem os hábitos antigos.",
+          "p": "inversao",
+          "w": "O recongelamento é a última etapa: consolida e estabiliza o novo comportamento depois da mudança."
+        },
+        {
+          "t": "Nenhuma, pois para Lewin a mudança ocorre sempre de uma vez, sem etapas.",
+          "p": "generalizacao",
+          "w": "O modelo de Lewin é justamente um processo em três etapas sucessivas."
+        }
+      ]
+    },
+    {
+      "id": "adm53",
+      "topic": "Conversão do conhecimento",
+      "c": "Antes de se aposentar, um fiscal experiente da Vigilância Sanitária de Curitiba transformou em manual, com exemplos e listas de verificação, o que sabia por experiência sobre identificar riscos em cozinhas industriais.",
+      "q": "No modelo de Nonaka e Takeuchi, que modo de conversão do conhecimento ocorreu?",
+      "a": 2,
+      "src": "Nonaka e Takeuchi, Criação de Conhecimento na Empresa (1997): espiral do conhecimento (SECI)",
+      "o": [
+        {
+          "t": "Socialização, conversão do conhecimento tácito em explícito por meio de documentos.",
+          "p": "troca",
+          "w": "Socialização é de tácito para tácito, pela convivência e observação. Passar o tácito para documentos é externalização."
+        },
+        {
+          "t": "Internalização, pois o conhecimento passou de explícito para tácito.",
+          "p": "inversao",
+          "w": "O sentido foi o oposto: a experiência pessoal (tácita) virou manual (explícito). Internalização ocorre quando alguém aprende com o manual e o incorpora à prática."
+        },
+        {
+          "t": "Externalização: conversão do conhecimento tácito em explícito, por meio de modelos, conceitos e documentos.",
+          "p": "correta",
+          "w": "O saber prático do fiscal, que estava só na sua experiência, foi articulado em manual e checklists, tornando-se explícito e compartilhável."
+        },
+        {
+          "t": "Combinação, pois todo registro escrito de conhecimento é sempre combinação.",
+          "p": "generalizacao",
+          "w": "Combinação é de explícito para explícito, como reunir relatórios num novo documento. Aqui a origem era conhecimento tácito."
+        }
+      ]
+    },
+    {
+      "id": "adm54",
+      "topic": "Accountability horizontal",
+      "c": "O Tribunal de Contas do Estado do Rio Grande do Sul julgou irregulares as contas de um secretário estadual e aplicou multa. Meses depois, nas eleições, os eleitores deixaram de reeleger o governador que o nomeara.",
+      "q": "Pela classificação de Guillermo O'Donnell, assinale a alternativa correta.",
+      "a": 0,
+      "src": "O'Donnell, Accountability horizontal e novas poliarquias, Lua Nova n. 44 (1998)",
+      "o": [
+        {
+          "t": "A atuação do tribunal de contas é accountability horizontal, entre agências do Estado; o voto é accountability vertical.",
+          "p": "correta",
+          "w": "Para O'Donnell, a horizontal é exercida por agências estatais com poder de fiscalizar e sancionar outras; a vertical, pelos cidadãos, sobretudo nas eleições."
+        },
+        {
+          "t": "O tribunal de contas exerce accountability vertical, e o voto é accountability horizontal.",
+          "p": "inversao",
+          "w": "Inverte os conceitos: o controle entre órgãos do Estado, como o do tribunal de contas, é horizontal; o do eleitor é vertical."
+        },
+        {
+          "t": "Só o voto é accountability, pois O'Donnell restringe o conceito ao controle eleitoral.",
+          "p": "restricao",
+          "w": "O'Donnell destacou justamente a accountability horizontal, exercida por agências estatais, ao lado da vertical eleitoral."
+        },
+        {
+          "t": "Os dois casos são accountability societal, exercida por associações civis e pela imprensa.",
+          "p": "troca",
+          "w": "A accountability societal envolve sociedade civil e mídia. O tribunal de contas é órgão do Estado, e o voto é a forma típica da vertical eleitoral."
+        }
+      ]
+    },
+    {
+      "id": "adm55",
+      "type": "ce",
+      "topic": "Decreto-Lei 200/1967",
+      "src": "Decreto-Lei 200/1967, art. 6º",
+      "c": "Numa aula da Escola de Governo do Paraná sobre a reforma administrativa de 1967, a instrutora pediu que os alunos identificassem, no texto do Decreto-Lei 200, os princípios que orientam as atividades da Administração Federal.",
+      "q": "O Decreto-Lei 200/1967 estabelece como princípios fundamentais da Administração Federal o planejamento, a coordenação, a descentralização, a delegação de competência e o controle.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O art. 6º do Decreto-Lei 200/1967 lista exatamente esses cinco princípios fundamentais: planejamento, coordenação, descentralização, delegação de competência e controle."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado costuma vir da confusão com outras listas, como os princípios do art. 37 da CF ou os da governança do Decreto 9.203/2017. O art. 6º do DL 200 traz os cinco citados."
+        }
+      ]
+    },
+    {
+      "id": "adm56",
+      "type": "ce",
+      "topic": "Liderança transformacional",
+      "src": "Bass, Leadership and Performance Beyond Expectations (1985); Robbins, Comportamento Organizacional (liderança transacional e transformacional)",
+      "c": "A nova diretora de um campus do Instituto Federal de Sergipe, em Aracaju, comunica uma visão inspiradora para a instituição, estimula os servidores a questionarem velhas práticas e dá atenção individual ao desenvolvimento de cada um.",
+      "q": "O caso descreve a liderança transacional, baseada na troca de recompensas pelo cumprimento de metas previamente acordadas.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo troca os estilos. A liderança transacional se apoia em recompensas contingentes e correção de desvios, e nada disso aparece no caso."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Visão inspiradora, estímulo intelectual e consideração individualizada são componentes da liderança transformacional descrita por Bass."
+        }
+      ]
+    },
+    {
+      "id": "adm57",
+      "type": "ce",
+      "topic": "Governo digital",
+      "src": "Lei 14.129/2021, art. 14",
+      "c": "Depois de ampliar os serviços oferecidos pelo aplicativo Meu INSS, um gerente regional em Belém propôs encerrar todo o atendimento presencial, alegando que a lei de governo digital exige que os serviços sejam apenas digitais.",
+      "q": "Pela Lei 14.129/2021, a prestação digital dos serviços públicos deve ocorrer por tecnologias de amplo acesso, inclusive pela população de baixa renda ou residente em áreas rurais e isoladas, sem prejuízo do direito do cidadão a atendimento presencial.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "É o texto do art. 14 da Lei 14.129/2021. A lei estimula o serviço digital, mas preserva o direito ao atendimento presencial, o que contraria a proposta do gerente."
+        },
+        {
+          "t": "Errado",
+          "p": "extrapolacao",
+          "w": "Julgar errado leva a lei além do que ela diz. A Lei 14.129 prioriza o digital e o autosserviço, mas não suprime o atendimento presencial."
+        }
+      ]
+    },
+    {
+      "id": "adm58",
+      "type": "ce",
+      "topic": "Missão e visão",
+      "src": "Chiavenato e Sapiro, Planejamento Estratégico: Fundamentos e Aplicações (missão e visão)",
+      "c": "No planejamento estratégico da Prefeitura de Niterói, a frase “ser reconhecida, até 2030, como a cidade com a melhor qualidade de vida do país” foi registrada no campo destinado à missão.",
+      "q": "O registro está adequado, pois a missão descreve a situação futura que a organização deseja alcançar num horizonte de tempo definido.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "inversao",
+          "w": "Julgar certo inverte os conceitos. A imagem de futuro desejada, com horizonte de tempo, é a visão; a missão é a razão de ser da organização."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "A missão declara por que a organização existe e a quem serve. A frase do caso, voltada ao futuro e com prazo, é uma visão."
+        }
+      ]
+    },
+    {
+      "id": "adm59",
+      "type": "ce",
+      "topic": "Teoria ERC",
+      "src": "Alderfer, Existence, Relatedness, and Growth (1972); Robbins, Comportamento Organizacional (teoria ERG)",
+      "c": "Pesquisador da Embrapa em Petrolina, Tiago viu suspensas as chances de liderar novos projetos e de crescer na carreira. Desde então, concentra suas energias em reivindicar reajuste salarial e melhores condições de trabalho.",
+      "q": "Na teoria ERC de Alderfer, mais de uma necessidade pode atuar ao mesmo tempo, e a frustração de uma necessidade de nível superior pode levar a pessoa a intensificar a busca por uma de nível inferior.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Alderfer agrupa as necessidades em existência, relacionamento e crescimento, admite que atuem simultaneamente e prevê o efeito frustração-regressão, como no caso de Tiago."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado confunde ERC com a hierarquia de Maslow, em que as necessidades seguem uma progressão rígida, uma de cada vez."
+        }
+      ]
+    },
+    {
+      "id": "adm60",
+      "type": "ce",
+      "topic": "Grupos e equipes",
+      "src": "Robbins, Comportamento Organizacional (grupos de trabalho x equipes de trabalho)",
+      "c": "A Defensoria Pública de Mato Grosso criou, em Cuiabá, um núcleo com defensor, assistente social e psicóloga, de habilidades complementares, que respondem em conjunto pelo resultado de cada atendimento a famílias.",
+      "q": "Para Robbins, esse núcleo é um grupo de trabalho, no qual a sinergia é positiva e as habilidades são complementares, enquanto na equipe de trabalho a responsabilidade é apenas individual.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo troca grupo por equipe. Sinergia positiva, habilidades complementares e responsabilidade mútua definem a equipe de trabalho."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Segundo Robbins, no grupo de trabalho a sinergia é neutra (às vezes negativa) e a responsabilidade é individual; na equipe, a sinergia é positiva e a responsabilidade é individual e mútua."
+        }
+      ]
     }
   ]
 }

@@ -13,10 +13,26 @@
       "a": 2,
       "src": "Lei 8.159/1991, arts. 2º, 11 e 12",
       "o": [
-        { "t": "Não é arquivo, pois a Lei 8.159/1991 só considera arquivos os conjuntos de documentos produzidos por órgãos públicos.", "p": "restricao", "w": "O art. 2º inclui entidades privadas e pessoas físicas, e o art. 11 define arquivos privados como os conjuntos produzidos ou recebidos por pessoas físicas ou jurídicas em decorrência de suas atividades." },
-        { "t": "Só contratos e atas formam o arquivo; fotografias e e-mails são material de museu ou de biblioteca.", "p": "troca", "w": "O que faz um documento ser de arquivo é a ligação com a atividade que o gerou, não o gênero. Fotografias e e-mails produzidos pela cooperativa nas suas atividades integram o arquivo." },
-        { "t": "É arquivo: conjunto de documentos produzidos e recebidos em decorrência de suas atividades, qualquer que seja o suporte da informação.", "p": "correta", "w": "Art. 2º: arquivos são conjuntos de documentos produzidos e recebidos por órgãos públicos, instituições de caráter público e entidades privadas, em decorrência do exercício de atividades específicas, bem como por pessoa física, qualquer que seja o suporte da informação ou a natureza dos documentos." },
-        { "t": "É arquivo público, pois todo arquivo privado com mais de 30 anos passa a ser de interesse público por força de lei.", "p": "extrapolacao", "w": "Não existe essa conversão pela idade. Um arquivo privado pode ser identificado pelo Poder Público como de interesse público e social, por ato específico (art. 12), e nem por isso deixa de ser privado." }
+        {
+          "t": "Não é arquivo, pois a Lei 8.159/1991 só considera arquivos os conjuntos de documentos produzidos por órgãos públicos.",
+          "p": "restricao",
+          "w": "O art. 2º inclui entidades privadas e pessoas físicas, e o art. 11 define arquivos privados como os conjuntos produzidos ou recebidos por pessoas físicas ou jurídicas em decorrência de suas atividades."
+        },
+        {
+          "t": "Só contratos e atas formam o arquivo; fotografias e e-mails são material de museu ou de biblioteca.",
+          "p": "troca",
+          "w": "O que faz um documento ser de arquivo é a ligação com a atividade que o gerou, não o gênero. Fotografias e e-mails produzidos pela cooperativa nas suas atividades integram o arquivo."
+        },
+        {
+          "t": "É arquivo: conjunto de documentos produzidos e recebidos em decorrência de suas atividades, qualquer que seja o suporte da informação.",
+          "p": "correta",
+          "w": "Art. 2º: arquivos são conjuntos de documentos produzidos e recebidos por órgãos públicos, instituições de caráter público e entidades privadas, em decorrência do exercício de atividades específicas, bem como por pessoa física, qualquer que seja o suporte da informação ou a natureza dos documentos."
+        },
+        {
+          "t": "É arquivo público, pois todo arquivo privado com mais de 30 anos passa a ser de interesse público por força de lei.",
+          "p": "extrapolacao",
+          "w": "Não existe essa conversão pela idade. Um arquivo privado pode ser identificado pelo Poder Público como de interesse público e social, por ato específico (art. 12), e nem por isso deixa de ser privado."
+        }
       ]
     },
     {
@@ -27,10 +43,26 @@
       "a": 0,
       "src": "Marilena Leite Paes, Arquivo: teoria e prática, cap. 1 (arquivo, biblioteca e museu)",
       "o": [
-        { "t": "O arquivo é órgão receptor: recebe os documentos gerados pelas atividades da administração, enquanto biblioteca e museu são órgãos colecionadores.", "p": "correta", "w": "Paes distingue o arquivo, que recebe o que a entidade produz e recebe no exercício de suas funções, da biblioteca e do museu, que formam coleções por compra, doação ou permuta, com finalidade cultural." },
-        { "t": "O arquivo é órgão colecionador, que adquire documentos por compra e permuta; a biblioteca recebe o que a prefeitura produz.", "p": "inversao", "w": "Inverte os papéis: quem coleciona por compra, doação e permuta é a biblioteca; o arquivo recebe a documentação produzida e recebida pela própria entidade." },
-        { "t": "Arquivo e biblioteca se confundem, pois ambos guardam documentos com finalidade exclusivamente cultural.", "p": "generalizacao", "w": "A finalidade primeira do arquivo é funcional: servir de prova e informação à entidade que o produziu. O uso cultural pode vir depois, mas não é a razão de sua formação." },
-        { "t": "Distinguem-se apenas pelo suporte: o arquivo guarda papel, a biblioteca guarda livros e o museu guarda objetos.", "p": "restricao", "w": "O suporte não define a instituição: o arquivo guarda documentos em qualquer suporte (Lei 8.159/1991, art. 2º). O critério é a origem e a finalidade dos documentos." }
+        {
+          "t": "O arquivo é órgão receptor: recebe os documentos gerados pelas atividades da administração, enquanto biblioteca e museu são órgãos colecionadores.",
+          "p": "correta",
+          "w": "Paes distingue o arquivo, que recebe o que a entidade produz e recebe no exercício de suas funções, da biblioteca e do museu, que formam coleções por compra, doação ou permuta, com finalidade cultural."
+        },
+        {
+          "t": "O arquivo é órgão colecionador, que adquire documentos por compra e permuta; a biblioteca recebe o que a prefeitura produz.",
+          "p": "inversao",
+          "w": "Inverte os papéis: quem coleciona por compra, doação e permuta é a biblioteca; o arquivo recebe a documentação produzida e recebida pela própria entidade."
+        },
+        {
+          "t": "Arquivo e biblioteca se confundem, pois ambos guardam documentos com finalidade exclusivamente cultural.",
+          "p": "generalizacao",
+          "w": "A finalidade primeira do arquivo é funcional: servir de prova e informação à entidade que o produziu. O uso cultural pode vir depois, mas não é a razão de sua formação."
+        },
+        {
+          "t": "Distinguem-se apenas pelo suporte: o arquivo guarda papel, a biblioteca guarda livros e o museu guarda objetos.",
+          "p": "restricao",
+          "w": "O suporte não define a instituição: o arquivo guarda documentos em qualquer suporte (Lei 8.159/1991, art. 2º). O critério é a origem e a finalidade dos documentos."
+        }
       ]
     },
     {
@@ -41,10 +73,26 @@
       "a": 1,
       "src": "Arquivo Nacional, Dicionário Brasileiro de Terminologia Arquivística (2005), verbetes dossiê e processo",
       "o": [
-        { "t": "Processo e dossiê.", "p": "inversao", "w": "Inverte os conceitos: a reunião informal para uma finalidade específica é o dossiê; a reunião oficial, no curso de uma ação administrativa, é o processo." },
-        { "t": "Dossiê e processo.", "p": "correta", "w": "Dossiê é a unidade documental que reúne informalmente documentos de natureza diversa para uma finalidade específica; processo reúne oficialmente documentos no decurso de uma ação administrativa ou judicial e constitui unidade de arquivamento." },
-        { "t": "Série e fundo.", "p": "troca", "w": "Série e fundo são agrupamentos muito mais amplos: fundo é o conjunto de documentos de uma mesma proveniência, e série reúne sequências de documentos de mesma função, atividade ou tipo." },
-        { "t": "Ambos são processos, pois qualquer reunião de documentos sobre um mesmo assunto constitui processo.", "p": "generalizacao", "w": "Processo exige reunião oficial, com autuação, no curso de uma ação administrativa ou judicial. A simples reunião por assunto, sem essa formalidade, é dossiê." }
+        {
+          "t": "Processo e dossiê.",
+          "p": "inversao",
+          "w": "Inverte os conceitos: a reunião informal para uma finalidade específica é o dossiê; a reunião oficial, no curso de uma ação administrativa, é o processo."
+        },
+        {
+          "t": "Dossiê e processo.",
+          "p": "correta",
+          "w": "Dossiê é a unidade documental que reúne informalmente documentos de natureza diversa para uma finalidade específica; processo reúne oficialmente documentos no decurso de uma ação administrativa ou judicial e constitui unidade de arquivamento."
+        },
+        {
+          "t": "Série e fundo.",
+          "p": "troca",
+          "w": "Série e fundo são agrupamentos muito mais amplos: fundo é o conjunto de documentos de uma mesma proveniência, e série reúne sequências de documentos de mesma função, atividade ou tipo."
+        },
+        {
+          "t": "Ambos são processos, pois qualquer reunião de documentos sobre um mesmo assunto constitui processo.",
+          "p": "generalizacao",
+          "w": "Processo exige reunião oficial, com autuação, no curso de uma ação administrativa ou judicial. A simples reunião por assunto, sem essa formalidade, é dossiê."
+        }
       ]
     },
     {
@@ -55,10 +103,26 @@
       "a": 3,
       "src": "Arquivo Nacional, Dicionário Brasileiro de Terminologia Arquivística (2005), verbetes acervo, fundo e série",
       "o": [
-        { "t": "Fundo, já que todo conjunto de documentos do mesmo tipo constitui um fundo.", "p": "generalizacao", "w": "Fundo não se define pelo tipo documental, mas pela proveniência: é o conjunto de documentos de uma mesma entidade produtora, como a Prefeitura ou a companhia de águas." },
-        { "t": "Acervo, pois os alvarás são a parte mais consultada da instituição.", "p": "extrapolacao", "w": "Acervo é o conjunto dos documentos de uma entidade produtora ou custodiadora; aqui, abrange os dois fundos inteiros, e não apenas os alvarás." },
-        { "t": "Dossiê, pois os alvarás tratam de um mesmo tema.", "p": "troca", "w": "Dossiê reúne informalmente documentos de natureza diversa para uma finalidade específica. Uma sequência de documentos do mesmo tipo, ligada a uma mesma atividade, é série." },
-        { "t": "Série: subdivisão que reúne documentos relativos a uma mesma função, atividade ou tipo documental, dentro do fundo da Prefeitura.", "p": "correta", "w": "Série é a subdivisão do quadro de arranjo que corresponde a uma sequência de documentos relativos a uma mesma função, atividade, tipo documental ou assunto. Os alvarás são uma série do fundo da Prefeitura." }
+        {
+          "t": "Fundo, já que todo conjunto de documentos do mesmo tipo constitui um fundo.",
+          "p": "generalizacao",
+          "w": "Fundo não se define pelo tipo documental, mas pela proveniência: é o conjunto de documentos de uma mesma entidade produtora, como a Prefeitura ou a companhia de águas."
+        },
+        {
+          "t": "Acervo, pois os alvarás são a parte mais consultada da instituição.",
+          "p": "extrapolacao",
+          "w": "Acervo é o conjunto dos documentos de uma entidade produtora ou custodiadora; aqui, abrange os dois fundos inteiros, e não apenas os alvarás."
+        },
+        {
+          "t": "Dossiê, pois os alvarás tratam de um mesmo tema.",
+          "p": "troca",
+          "w": "Dossiê reúne informalmente documentos de natureza diversa para uma finalidade específica. Uma sequência de documentos do mesmo tipo, ligada a uma mesma atividade, é série."
+        },
+        {
+          "t": "Série: subdivisão que reúne documentos relativos a uma mesma função, atividade ou tipo documental, dentro do fundo da Prefeitura.",
+          "p": "correta",
+          "w": "Série é a subdivisão do quadro de arranjo que corresponde a uma sequência de documentos relativos a uma mesma função, atividade, tipo documental ou assunto. Os alvarás são uma série do fundo da Prefeitura."
+        }
       ]
     },
     {
@@ -69,10 +133,26 @@
       "a": 1,
       "src": "Lei 12.527/2011, art. 10, §3º, art. 11, §§1º e 2º, e art. 15",
       "o": [
-        { "t": "Até 10 dias, prazo que a lei reserva para pedidos dirigidos a arquivos.", "p": "troca", "w": "10 dias é o prazo do recurso contra a negativa de acesso (art. 15), não o de resposta; e a lei não cria prazo especial para arquivos." },
-        { "t": "Até 20 dias, prorrogáveis por mais 10 mediante justificativa expressa, com ciência à requerente.", "p": "correta", "w": "Art. 11: não sendo possível o acesso imediato, o órgão tem até 20 dias para responder (§1º), prorrogáveis por mais 10 mediante justificativa expressa, da qual será cientificado o requerente (§2º)." },
-        { "t": "Até 20 dias, contados apenas depois que Bianca explicar por escrito para que quer as atas.", "p": "restricao", "w": "São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público (art. 10, §3º)." },
-        { "t": "Não há prazo, pois documentos com mais de 25 anos ficam fora da Lei de Acesso à Informação.", "p": "extrapolacao", "w": "A LAI alcança a informação em poder do órgão, inclusive a antiga. 25 anos é o prazo máximo de restrição da informação ultrassecreta (art. 24, §1º, I), não um limite de alcance da lei." }
+        {
+          "t": "Até 10 dias, prazo que a lei reserva para pedidos dirigidos a arquivos.",
+          "p": "troca",
+          "w": "10 dias é o prazo do recurso contra a negativa de acesso (art. 15), não o de resposta; e a lei não cria prazo especial para arquivos."
+        },
+        {
+          "t": "Até 20 dias, prorrogáveis por mais 10 mediante justificativa expressa, com ciência à requerente.",
+          "p": "correta",
+          "w": "Art. 11: não sendo possível o acesso imediato, o órgão tem até 20 dias para responder (§1º), prorrogáveis por mais 10 mediante justificativa expressa, da qual será cientificado o requerente (§2º)."
+        },
+        {
+          "t": "Até 20 dias, contados apenas depois que Bianca explicar por escrito para que quer as atas.",
+          "p": "restricao",
+          "w": "São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público (art. 10, §3º)."
+        },
+        {
+          "t": "Não há prazo, pois documentos com mais de 25 anos ficam fora da Lei de Acesso à Informação.",
+          "p": "extrapolacao",
+          "w": "A LAI alcança a informação em poder do órgão, inclusive a antiga. 25 anos é o prazo máximo de restrição da informação ultrassecreta (art. 24, §1º, I), não um limite de alcance da lei."
+        }
       ]
     },
     {
@@ -83,10 +163,26 @@
       "a": 2,
       "src": "Arquivo Nacional, Dicionário Brasileiro de Terminologia Arquivística (2005), verbete princípio da proveniência",
       "o": [
-        { "t": "É adequada, pois a organização por assunto prevalece sobre a origem quando os temas coincidem.", "p": "inversao", "w": "Inverte a hierarquia: na arquivística, a origem vem antes do assunto. Por isso os fundos de produtores diferentes não se misturam." },
-        { "t": "Contraria o princípio da unicidade, que exige que cada documento exista em uma única via.", "p": "troca", "w": "Unicidade é o caráter único do documento em função do contexto em que foi produzido, não a proibição de cópias; e não é ela que veda misturar fundos." },
-        { "t": "Contraria o princípio da proveniência, ou do respeito aos fundos: o arquivo de um produtor não deve ser misturado ao de outros.", "p": "correta", "w": "Pelo princípio da proveniência, o arquivo produzido por uma entidade, pessoa ou família não deve ser misturado aos de outras entidades produtoras. Também é chamado princípio do respeito aos fundos." },
-        { "t": "É possível, pois a proveniência só se aplica enquanto o órgão produtor existe.", "p": "restricao", "w": "A extinção do órgão não autoriza misturar fundos. O fundo de órgão extinto é fechado e preservado como conjunto próprio." }
+        {
+          "t": "É adequada, pois a organização por assunto prevalece sobre a origem quando os temas coincidem.",
+          "p": "inversao",
+          "w": "Inverte a hierarquia: na arquivística, a origem vem antes do assunto. Por isso os fundos de produtores diferentes não se misturam."
+        },
+        {
+          "t": "Contraria o princípio da unicidade, que exige que cada documento exista em uma única via.",
+          "p": "troca",
+          "w": "Unicidade é o caráter único do documento em função do contexto em que foi produzido, não a proibição de cópias; e não é ela que veda misturar fundos."
+        },
+        {
+          "t": "Contraria o princípio da proveniência, ou do respeito aos fundos: o arquivo de um produtor não deve ser misturado ao de outros.",
+          "p": "correta",
+          "w": "Pelo princípio da proveniência, o arquivo produzido por uma entidade, pessoa ou família não deve ser misturado aos de outras entidades produtoras. Também é chamado princípio do respeito aos fundos."
+        },
+        {
+          "t": "É possível, pois a proveniência só se aplica enquanto o órgão produtor existe.",
+          "p": "restricao",
+          "w": "A extinção do órgão não autoriza misturar fundos. O fundo de órgão extinto é fechado e preservado como conjunto próprio."
+        }
       ]
     },
     {
@@ -97,10 +193,26 @@
       "a": 0,
       "src": "Arquivo Nacional, Dicionário Brasileiro de Terminologia Arquivística (2005), verbete organicidade",
       "o": [
-        { "t": "Organicidade: a relação natural entre os documentos, decorrente das atividades da entidade produtora.", "p": "correta", "w": "Organicidade é a relação natural entre os documentos de um arquivo em decorrência das atividades da entidade produtora. É ela que liga o projeto ao parecer, à ata e ao autógrafo." },
-        { "t": "Unicidade, pela qual cada documento deve ser lido isoladamente, sem relação com os demais.", "p": "inversao", "w": "Unicidade é o caráter único do documento no contexto de produção; ela não isola o documento do conjunto. A relação entre os documentos é justamente a organicidade." },
-        { "t": "Cumulatividade, pois os documentos foram reunidos artificialmente pela arquivista.", "p": "troca", "w": "Cumulatividade descreve a acumulação natural e progressiva do arquivo, nunca uma reunião artificial. O que Lúcia observa é o vínculo entre os documentos." },
-        { "t": "Organicidade, que exige que todos os documentos de um órgão sejam reunidos num único processo.", "p": "extrapolacao", "w": "Organicidade é relação entre documentos, não obrigação de juntá-los fisicamente num processo. Cada um pode estar em sua série, preservado o vínculo." }
+        {
+          "t": "Organicidade: a relação natural entre os documentos, decorrente das atividades da entidade produtora.",
+          "p": "correta",
+          "w": "Organicidade é a relação natural entre os documentos de um arquivo em decorrência das atividades da entidade produtora. É ela que liga o projeto ao parecer, à ata e ao autógrafo."
+        },
+        {
+          "t": "Unicidade, pela qual cada documento deve ser lido isoladamente, sem relação com os demais.",
+          "p": "inversao",
+          "w": "Unicidade é o caráter único do documento no contexto de produção; ela não isola o documento do conjunto. A relação entre os documentos é justamente a organicidade."
+        },
+        {
+          "t": "Cumulatividade, pois os documentos foram reunidos artificialmente pela arquivista.",
+          "p": "troca",
+          "w": "Cumulatividade descreve a acumulação natural e progressiva do arquivo, nunca uma reunião artificial. O que Lúcia observa é o vínculo entre os documentos."
+        },
+        {
+          "t": "Organicidade, que exige que todos os documentos de um órgão sejam reunidos num único processo.",
+          "p": "extrapolacao",
+          "w": "Organicidade é relação entre documentos, não obrigação de juntá-los fisicamente num processo. Cada um pode estar em sua série, preservado o vínculo."
+        }
       ]
     },
     {
@@ -111,10 +223,26 @@
       "a": 3,
       "src": "Heloísa Liberalli Bellotto, Arquivística: objetos, princípios e rumos (2002), princípios arquivísticos",
       "o": [
-        { "t": "A via do Tribunal é dispensável, pois um documento só pode existir uma vez no conjunto dos arquivos públicos.", "p": "generalizacao", "w": "Unicidade não significa exemplar único no mundo. Podem existir várias vias, e cada uma tem sentido próprio no arquivo em que está." },
-        { "t": "Só a via da prefeitura tem caráter arquivístico, porque foi ela que produziu o documento.", "p": "restricao", "w": "Documentos recebidos também integram o arquivo (Lei 8.159/1991, art. 2º: documentos produzidos e recebidos). A via do Tribunal é documento de arquivo do Tribunal." },
-        { "t": "As duas vias formam um único fundo, porque têm o mesmo conteúdo.", "p": "troca", "w": "Fundo se define pela proveniência. Cada via pertence ao fundo da entidade que a acumulou, e as duas não se fundem por terem texto igual." },
-        { "t": "Cada via conserva caráter único em função do contexto em que foi produzida ou recebida, apesar de terem o mesmo texto.", "p": "correta", "w": "Pela unicidade, qualquer que seja forma, gênero, tipo ou suporte, o documento de arquivo conserva caráter único em função do contexto de produção: o ofício expedido e o recebido cumprem funções distintas." }
+        {
+          "t": "A via do Tribunal é dispensável, pois um documento só pode existir uma vez no conjunto dos arquivos públicos.",
+          "p": "generalizacao",
+          "w": "Unicidade não significa exemplar único no mundo. Podem existir várias vias, e cada uma tem sentido próprio no arquivo em que está."
+        },
+        {
+          "t": "Só a via da prefeitura tem caráter arquivístico, porque foi ela que produziu o documento.",
+          "p": "restricao",
+          "w": "Documentos recebidos também integram o arquivo (Lei 8.159/1991, art. 2º: documentos produzidos e recebidos). A via do Tribunal é documento de arquivo do Tribunal."
+        },
+        {
+          "t": "As duas vias formam um único fundo, porque têm o mesmo conteúdo.",
+          "p": "troca",
+          "w": "Fundo se define pela proveniência. Cada via pertence ao fundo da entidade que a acumulou, e as duas não se fundem por terem texto igual."
+        },
+        {
+          "t": "Cada via conserva caráter único em função do contexto em que foi produzida ou recebida, apesar de terem o mesmo texto.",
+          "p": "correta",
+          "w": "Pela unicidade, qualquer que seja forma, gênero, tipo ou suporte, o documento de arquivo conserva caráter único em função do contexto de produção: o ofício expedido e o recebido cumprem funções distintas."
+        }
       ]
     },
     {
@@ -125,10 +253,26 @@
       "a": 1,
       "src": "Bellotto, Arquivística: objetos, princípios e rumos (2002); Lei 8.159/1991, art. 10",
       "o": [
-        { "t": "Organicidade, que proíbe retirar apenas documentos que ainda estão na fase corrente.", "p": "restricao", "w": "A organicidade não se limita à fase corrente, e o princípio que veda dispersar e alienar o fundo é o da indivisibilidade ou integridade." },
-        { "t": "Indivisibilidade ou integridade: o fundo deve ser preservado sem dispersão, mutilação, alienação ou destruição não autorizada.", "p": "correta", "w": "Pela integridade arquivística, os fundos devem ser preservados sem dispersão, mutilação, alienação, destruição não autorizada ou adição indevida. E documentos de valor permanente são inalienáveis (Lei 8.159/1991, art. 10)." },
-        { "t": "Nenhum, pois a doação é válida desde que o museu mantenha as atas abertas à visitação pública.", "p": "extrapolacao", "w": "Abrir à visitação não autoriza alienar documento de valor permanente. A lei declara esses documentos inalienáveis e imprescritíveis (art. 10)." },
-        { "t": "Cumulatividade, que obriga o arquivo a só crescer e nunca eliminar documento algum.", "p": "generalizacao", "w": "Cumulatividade descreve a formação natural e progressiva do arquivo. Ela não impede eliminações feitas conforme tabela de temporalidade aprovada." }
+        {
+          "t": "Organicidade, que proíbe retirar apenas documentos que ainda estão na fase corrente.",
+          "p": "restricao",
+          "w": "A organicidade não se limita à fase corrente, e o princípio que veda dispersar e alienar o fundo é o da indivisibilidade ou integridade."
+        },
+        {
+          "t": "Indivisibilidade ou integridade: o fundo deve ser preservado sem dispersão, mutilação, alienação ou destruição não autorizada.",
+          "p": "correta",
+          "w": "Pela integridade arquivística, os fundos devem ser preservados sem dispersão, mutilação, alienação, destruição não autorizada ou adição indevida. E documentos de valor permanente são inalienáveis (Lei 8.159/1991, art. 10)."
+        },
+        {
+          "t": "Nenhum, pois a doação é válida desde que o museu mantenha as atas abertas à visitação pública.",
+          "p": "extrapolacao",
+          "w": "Abrir à visitação não autoriza alienar documento de valor permanente. A lei declara esses documentos inalienáveis e imprescritíveis (art. 10)."
+        },
+        {
+          "t": "Cumulatividade, que obriga o arquivo a só crescer e nunca eliminar documento algum.",
+          "p": "generalizacao",
+          "w": "Cumulatividade descreve a formação natural e progressiva do arquivo. Ela não impede eliminações feitas conforme tabela de temporalidade aprovada."
+        }
       ]
     },
     {
@@ -139,10 +283,26 @@
       "a": 0,
       "src": "Lei 8.159/1991, art. 8º, §1º",
       "o": [
-        { "t": "Corrente, porque, mesmo sem movimentação, é objeto de consultas frequentes.", "p": "correta", "w": "Art. 8º, §1º: correntes são os documentos em curso ou que, mesmo sem movimentação, constituam objeto de consultas frequentes." },
-        { "t": "Intermediária, porque todo documento sem tramitação passa automaticamente à segunda idade.", "p": "generalizacao", "w": "A falta de movimentação não basta: a consulta frequente mantém o documento na fase corrente (art. 8º, §1º)." },
-        { "t": "Permanente, porque contratos encerrados têm valor histórico e devem ser recolhidos.", "p": "extrapolacao", "w": "O fim do contrato não lhe dá valor histórico. A destinação depende da avaliação e da tabela de temporalidade, e o documento ainda é muito usado pela administração." },
-        { "t": "Intermediária, porque o contrato já cumpriu a finalidade para a qual foi assinado.", "p": "troca", "w": "Confunde o fim da execução do contrato com o fim do uso administrativo. O que define a fase é o uso: consultado com frequência, o documento é corrente." }
+        {
+          "t": "Corrente, porque, mesmo sem movimentação, é objeto de consultas frequentes.",
+          "p": "correta",
+          "w": "Art. 8º, §1º: correntes são os documentos em curso ou que, mesmo sem movimentação, constituam objeto de consultas frequentes."
+        },
+        {
+          "t": "Intermediária, porque todo documento sem tramitação passa automaticamente à segunda idade.",
+          "p": "generalizacao",
+          "w": "A falta de movimentação não basta: a consulta frequente mantém o documento na fase corrente (art. 8º, §1º)."
+        },
+        {
+          "t": "Permanente, porque contratos encerrados têm valor histórico e devem ser recolhidos.",
+          "p": "extrapolacao",
+          "w": "O fim do contrato não lhe dá valor histórico. A destinação depende da avaliação e da tabela de temporalidade, e o documento ainda é muito usado pela administração."
+        },
+        {
+          "t": "Intermediária, porque o contrato já cumpriu a finalidade para a qual foi assinado.",
+          "p": "troca",
+          "w": "Confunde o fim da execução do contrato com o fim do uso administrativo. O que define a fase é o uso: consultado com frequência, o documento é corrente."
+        }
       ]
     },
     {
@@ -153,10 +313,26 @@
       "a": 2,
       "src": "Lei 8.159/1991, art. 8º, §§1º a 3º, e art. 9º",
       "o": [
-        { "t": "Permanentes, pois todo documento guardado fora do setor de origem é histórico.", "p": "generalizacao", "w": "Estar fora do setor de origem não torna o documento permanente. Permanentes são os conjuntos de valor histórico, probatório e informativo que devem ser definitivamente preservados (art. 8º, §3º)." },
-        { "t": "Correntes, pois ainda estão dentro do prazo de guarda da tabela.", "p": "troca", "w": "Prazo de guarda pendente não define a fase corrente. Corrente é o documento em curso ou de consulta frequente (art. 8º, §1º)." },
-        { "t": "Intermediários: sem uso corrente no órgão produtor, aguardam, por interesse administrativo, a eliminação ou o recolhimento.", "p": "correta", "w": "Art. 8º, §2º: intermediários são os que, não sendo de uso corrente nos órgãos produtores, por razões de interesse administrativo, aguardam sua eliminação ou recolhimento para guarda permanente." },
-        { "t": "Intermediários, e por isso o chefe do depósito já pode eliminá-los a qualquer momento.", "p": "extrapolacao", "w": "A eliminação só ocorre depois de cumprido o prazo e com autorização da instituição arquivística pública competente (art. 9º), seguindo o rito da Resolução CONARQ 40/2014." }
+        {
+          "t": "Permanentes, pois todo documento guardado fora do setor de origem é histórico.",
+          "p": "generalizacao",
+          "w": "Estar fora do setor de origem não torna o documento permanente. Permanentes são os conjuntos de valor histórico, probatório e informativo que devem ser definitivamente preservados (art. 8º, §3º)."
+        },
+        {
+          "t": "Correntes, pois ainda estão dentro do prazo de guarda da tabela.",
+          "p": "troca",
+          "w": "Prazo de guarda pendente não define a fase corrente. Corrente é o documento em curso ou de consulta frequente (art. 8º, §1º)."
+        },
+        {
+          "t": "Intermediários: sem uso corrente no órgão produtor, aguardam, por interesse administrativo, a eliminação ou o recolhimento.",
+          "p": "correta",
+          "w": "Art. 8º, §2º: intermediários são os que, não sendo de uso corrente nos órgãos produtores, por razões de interesse administrativo, aguardam sua eliminação ou recolhimento para guarda permanente."
+        },
+        {
+          "t": "Intermediários, e por isso o chefe do depósito já pode eliminá-los a qualquer momento.",
+          "p": "extrapolacao",
+          "w": "A eliminação só ocorre depois de cumprido o prazo e com autorização da instituição arquivística pública competente (art. 9º), seguindo o rito da Resolução CONARQ 40/2014."
+        }
       ]
     },
     {
@@ -167,10 +343,26 @@
       "a": 3,
       "src": "Arquivo Nacional, Dicionário Brasileiro de Terminologia Arquivística (2005), verbetes transferência e recolhimento",
       "o": [
-        { "t": "Recolhimento e transferência.", "p": "inversao", "w": "Inverte os termos: a passagem para o arquivo intermediário é transferência; a entrada no arquivo permanente é recolhimento." },
-        { "t": "Transferência nos dois casos, pois ambos os lotes saem do setor de origem.", "p": "generalizacao", "w": "Sair do setor de origem não basta para usar um só termo. O destino define a operação: intermediário (transferência) ou permanente (recolhimento)." },
-        { "t": "Eliminação e recolhimento, já que as caixas deixam de ser responsabilidade do setor.", "p": "troca", "w": "Eliminação é a destruição de documentos sem valor que justifique a guarda, mediante autorização. Enviar caixas ao arquivo central não destrói nada." },
-        { "t": "Transferência e recolhimento.", "p": "correta", "w": "Transferência é a passagem de documentos do arquivo corrente para o intermediário; recolhimento é a entrada de documentos em arquivo permanente." }
+        {
+          "t": "Recolhimento e transferência.",
+          "p": "inversao",
+          "w": "Inverte os termos: a passagem para o arquivo intermediário é transferência; a entrada no arquivo permanente é recolhimento."
+        },
+        {
+          "t": "Transferência nos dois casos, pois ambos os lotes saem do setor de origem.",
+          "p": "generalizacao",
+          "w": "Sair do setor de origem não basta para usar um só termo. O destino define a operação: intermediário (transferência) ou permanente (recolhimento)."
+        },
+        {
+          "t": "Eliminação e recolhimento, já que as caixas deixam de ser responsabilidade do setor.",
+          "p": "troca",
+          "w": "Eliminação é a destruição de documentos sem valor que justifique a guarda, mediante autorização. Enviar caixas ao arquivo central não destrói nada."
+        },
+        {
+          "t": "Transferência e recolhimento.",
+          "p": "correta",
+          "w": "Transferência é a passagem de documentos do arquivo corrente para o intermediário; recolhimento é a entrada de documentos em arquivo permanente."
+        }
       ]
     },
     {
@@ -181,10 +373,26 @@
       "a": 0,
       "src": "Arquivo Nacional, Dicionário Brasileiro de Terminologia Arquivística (2005), verbetes valor primário e valor secundário; Paes, Arquivo: teoria e prática",
       "o": [
-        { "t": "Valor secundário, atribuído pela utilidade para fins diferentes daqueles para os quais o documento foi criado.", "p": "correta", "w": "Valor secundário é o atribuído ao documento pelo interesse que possa ter para a entidade e para outros usuários, para fins diferentes dos que motivaram sua produção, como a pesquisa histórica." },
-        { "t": "Valor primário, pois o interesse dos historiadores renova a finalidade administrativa.", "p": "troca", "w": "Valor primário liga-se à utilidade do documento para a entidade produtora, para fins administrativos, legais e fiscais. O uso por pesquisadores é valor secundário." },
-        { "t": "Valor primário e secundário ao mesmo tempo, porque todo documento mantém os dois valores para sempre.", "p": "generalizacao", "w": "O valor primário é temporário e se esgota quando cessa a utilidade administrativa. Não é verdade que todo documento conserve os dois valores para sempre." },
-        { "t": "Nenhum, pois documentos sem uso administrativo devem ser eliminados.", "p": "extrapolacao", "w": "Perder o uso administrativo não leva automaticamente à eliminação. A avaliação verifica se há valor secundário, que justifica a guarda permanente." }
+        {
+          "t": "Valor secundário, atribuído pela utilidade para fins diferentes daqueles para os quais o documento foi criado.",
+          "p": "correta",
+          "w": "Valor secundário é o atribuído ao documento pelo interesse que possa ter para a entidade e para outros usuários, para fins diferentes dos que motivaram sua produção, como a pesquisa histórica."
+        },
+        {
+          "t": "Valor primário, pois o interesse dos historiadores renova a finalidade administrativa.",
+          "p": "troca",
+          "w": "Valor primário liga-se à utilidade do documento para a entidade produtora, para fins administrativos, legais e fiscais. O uso por pesquisadores é valor secundário."
+        },
+        {
+          "t": "Valor primário e secundário ao mesmo tempo, porque todo documento mantém os dois valores para sempre.",
+          "p": "generalizacao",
+          "w": "O valor primário é temporário e se esgota quando cessa a utilidade administrativa. Não é verdade que todo documento conserve os dois valores para sempre."
+        },
+        {
+          "t": "Nenhum, pois documentos sem uso administrativo devem ser eliminados.",
+          "p": "extrapolacao",
+          "w": "Perder o uso administrativo não leva automaticamente à eliminação. A avaliação verifica se há valor secundário, que justifica a guarda permanente."
+        }
       ]
     },
     {
@@ -195,10 +403,26 @@
       "a": 1,
       "src": "T. R. Schellenberg, Arquivos modernos: princípios e técnicas (valores probatórios e informativos); Paes, Arquivo: teoria e prática",
       "o": [
-        { "t": "Informativo e probatório.", "p": "inversao", "w": "Inverte os valores: o que documenta a organização e o funcionamento do próprio tribunal é o valor probatório; o que informa sobre terras, pessoas e fatos é o informativo." },
-        { "t": "Probatório e informativo.", "p": "correta", "w": "Na classificação de Schellenberg, adotada por Paes, o valor probatório está no que o documento comprova sobre a origem, a organização e o funcionamento da entidade; o informativo, nas informações sobre pessoas, lugares, fatos e fenômenos." },
-        { "t": "Primário e secundário.", "p": "troca", "w": "Os dois conjuntos estão no arquivo permanente por valor secundário. A pergunta é sobre as espécies desse valor: probatório e informativo." },
-        { "t": "Probatório em ambos, pois todo documento de tribunal serve como prova judicial.", "p": "generalizacao", "w": "Ser produzido por tribunal não torna todo documento relevante pelo valor probatório. Os autos interessam ao geógrafo pelas informações sobre os conflitos de terra." }
+        {
+          "t": "Informativo e probatório.",
+          "p": "inversao",
+          "w": "Inverte os valores: o que documenta a organização e o funcionamento do próprio tribunal é o valor probatório; o que informa sobre terras, pessoas e fatos é o informativo."
+        },
+        {
+          "t": "Probatório e informativo.",
+          "p": "correta",
+          "w": "Na classificação de Schellenberg, adotada por Paes, o valor probatório está no que o documento comprova sobre a origem, a organização e o funcionamento da entidade; o informativo, nas informações sobre pessoas, lugares, fatos e fenômenos."
+        },
+        {
+          "t": "Primário e secundário.",
+          "p": "troca",
+          "w": "Os dois conjuntos estão no arquivo permanente por valor secundário. A pergunta é sobre as espécies desse valor: probatório e informativo."
+        },
+        {
+          "t": "Probatório em ambos, pois todo documento de tribunal serve como prova judicial.",
+          "p": "generalizacao",
+          "w": "Ser produzido por tribunal não torna todo documento relevante pelo valor probatório. Os autos interessam ao geógrafo pelas informações sobre os conflitos de terra."
+        }
       ]
     },
     {
@@ -209,10 +433,26 @@
       "a": 3,
       "src": "Lei 8.159/1991, art. 3º",
       "o": [
-        { "t": "O coordenador está certo, pois gestão de documentos é sinônimo de tratamento do arquivo permanente.", "p": "inversao", "w": "É o contrário: a gestão atua nas fases corrente e intermediária e termina com a eliminação ou o recolhimento para guarda permanente." },
-        { "t": "A gestão abrange somente a avaliação e a eliminação de documentos sem valor.", "p": "restricao", "w": "A lei lista produção, tramitação, uso, avaliação e arquivamento; eliminar é apenas um dos destinos possíveis." },
-        { "t": "A gestão abrange as três idades e inclui a descrição dos documentos permanentes para pesquisa.", "p": "extrapolacao", "w": "O art. 3º limita a gestão às fases corrente e intermediária. Arranjo e descrição do acervo permanente ficam fora do conceito legal." },
-        { "t": "Abrange produção, tramitação, uso, avaliação e arquivamento nas fases corrente e intermediária, visando à eliminação ou ao recolhimento.", "p": "correta", "w": "Art. 3º: gestão de documentos é o conjunto de procedimentos e operações técnicas referentes à produção, tramitação, uso, avaliação e arquivamento em fase corrente e intermediária, visando à eliminação ou ao recolhimento para guarda permanente." }
+        {
+          "t": "O coordenador está certo, pois gestão de documentos é sinônimo de tratamento do arquivo permanente.",
+          "p": "inversao",
+          "w": "É o contrário: a gestão atua nas fases corrente e intermediária e termina com a eliminação ou o recolhimento para guarda permanente."
+        },
+        {
+          "t": "A gestão abrange somente a avaliação e a eliminação de documentos sem valor.",
+          "p": "restricao",
+          "w": "A lei lista produção, tramitação, uso, avaliação e arquivamento; eliminar é apenas um dos destinos possíveis."
+        },
+        {
+          "t": "A gestão abrange as três idades e inclui a descrição dos documentos permanentes para pesquisa.",
+          "p": "extrapolacao",
+          "w": "O art. 3º limita a gestão às fases corrente e intermediária. Arranjo e descrição do acervo permanente ficam fora do conceito legal."
+        },
+        {
+          "t": "Abrange produção, tramitação, uso, avaliação e arquivamento nas fases corrente e intermediária, visando à eliminação ou ao recolhimento.",
+          "p": "correta",
+          "w": "Art. 3º: gestão de documentos é o conjunto de procedimentos e operações técnicas referentes à produção, tramitação, uso, avaliação e arquivamento em fase corrente e intermediária, visando à eliminação ou ao recolhimento para guarda permanente."
+        }
       ]
     },
     {
@@ -223,10 +463,26 @@
       "a": 2,
       "src": "Lei 8.159/1991, arts. 10 e 25",
       "o": [
-        { "t": "Podem ser vendidos, desde que o valor arrecadado seja aplicado na preservação do acervo.", "p": "restricao", "w": "A destinação do dinheiro não muda a regra: documentos de valor permanente são inalienáveis (art. 10)." },
-        { "t": "Podem ser vendidos após 100 anos de sua produção, quando caem em domínio público.", "p": "extrapolacao", "w": "A lei não prevê venda após prazo algum. 100 anos é o prazo máximo de restrição de informações pessoais na LAI (art. 31, §1º, I), tema diverso." },
-        { "t": "São inalienáveis e imprescritíveis, e quem os desfigurar ou destruir responde penal, civil e administrativamente.", "p": "correta", "w": "Art. 10: os documentos de valor permanente são inalienáveis e imprescritíveis. Art. 25: quem desfigurar ou destruir documentos de valor permanente ou de interesse público e social responde nas esferas penal, civil e administrativa." },
-        { "t": "São inalienáveis, mas o direito de reavê-los prescreve se ficarem muito tempo com particulares.", "p": "inversao", "w": "Imprescritível significa justamente que o poder público não perde, com o passar do tempo, o direito sobre esses documentos (art. 10)." }
+        {
+          "t": "Podem ser vendidos, desde que o valor arrecadado seja aplicado na preservação do acervo.",
+          "p": "restricao",
+          "w": "A destinação do dinheiro não muda a regra: documentos de valor permanente são inalienáveis (art. 10)."
+        },
+        {
+          "t": "Podem ser vendidos após 100 anos de sua produção, quando caem em domínio público.",
+          "p": "extrapolacao",
+          "w": "A lei não prevê venda após prazo algum. 100 anos é o prazo máximo de restrição de informações pessoais na LAI (art. 31, §1º, I), tema diverso."
+        },
+        {
+          "t": "São inalienáveis e imprescritíveis, e quem os desfigurar ou destruir responde penal, civil e administrativamente.",
+          "p": "correta",
+          "w": "Art. 10: os documentos de valor permanente são inalienáveis e imprescritíveis. Art. 25: quem desfigurar ou destruir documentos de valor permanente ou de interesse público e social responde nas esferas penal, civil e administrativa."
+        },
+        {
+          "t": "São inalienáveis, mas o direito de reavê-los prescreve se ficarem muito tempo com particulares.",
+          "p": "inversao",
+          "w": "Imprescritível significa justamente que o poder público não perde, com o passar do tempo, o direito sobre esses documentos (art. 10)."
+        }
       ]
     },
     {
@@ -237,10 +493,26 @@
       "a": 1,
       "src": "Arquivo Nacional, Código de Classificação e Tabela de Temporalidade das atividades-meio do Poder Executivo Federal (Portaria AN/MGI 174/2024)",
       "o": [
-        { "t": "O código é alfabético, e o processo de férias fica na letra F.", "p": "troca", "w": "O código usa o método decimal, inspirado em Dewey, com classes, subclasses, grupos e subgrupos numerados, e não a ordem alfabética dos assuntos." },
-        { "t": "Usa o método decimal: a classe 000 reúne a administração geral, e o processo de férias cabe na subclasse 020, gestão de pessoas.", "p": "correta", "w": "O código das atividades-meio segue o método decimal. A classe 000, Administração geral, divide-se em subclasses como 010 (organização e funcionamento), 020 (gestão de pessoas) e 030 (gestão de materiais)." },
-        { "t": "O código cobre todas as atividades do órgão, inclusive as finalísticas, também classificadas na classe 000.", "p": "generalizacao", "w": "O código aprovado pelo Arquivo Nacional cobre as atividades-meio, comuns aos órgãos. As atividades-fim exigem código próprio, elaborado pela comissão de avaliação do órgão e submetido ao Arquivo Nacional (Portaria AN/MGI 174/2024, art. 4º)." },
-        { "t": "A classificação só deve ser feita quando o processo for transferido ao arquivo intermediário.", "p": "restricao", "w": "A classificação se faz na fase corrente, na produção ou no recebimento do documento. É ela que permite, depois, aplicar os prazos da tabela de temporalidade." }
+        {
+          "t": "O código é alfabético, e o processo de férias fica na letra F.",
+          "p": "troca",
+          "w": "O código usa o método decimal, inspirado em Dewey, com classes, subclasses, grupos e subgrupos numerados, e não a ordem alfabética dos assuntos."
+        },
+        {
+          "t": "Usa o método decimal: a classe 000 reúne a administração geral, e o processo de férias cabe na subclasse 020, gestão de pessoas.",
+          "p": "correta",
+          "w": "O código das atividades-meio segue o método decimal. A classe 000, Administração geral, divide-se em subclasses como 010 (organização e funcionamento), 020 (gestão de pessoas) e 030 (gestão de materiais)."
+        },
+        {
+          "t": "O código cobre todas as atividades do órgão, inclusive as finalísticas, também classificadas na classe 000.",
+          "p": "generalizacao",
+          "w": "O código aprovado pelo Arquivo Nacional cobre as atividades-meio, comuns aos órgãos. As atividades-fim exigem código próprio, elaborado pela comissão de avaliação do órgão e submetido ao Arquivo Nacional (Portaria AN/MGI 174/2024, art. 4º)."
+        },
+        {
+          "t": "A classificação só deve ser feita quando o processo for transferido ao arquivo intermediário.",
+          "p": "restricao",
+          "w": "A classificação se faz na fase corrente, na produção ou no recebimento do documento. É ela que permite, depois, aplicar os prazos da tabela de temporalidade."
+        }
       ]
     },
     {
@@ -251,10 +523,26 @@
       "a": 0,
       "src": "Arquivo Nacional, Dicionário Brasileiro de Terminologia Arquivística (2005), verbete tabela de temporalidade; Resolução CONARQ 40/2014, arts. 2º-A, 3º e 4º",
       "o": [
-        { "t": "Fixar os prazos de guarda nas fases corrente e intermediária e a destinação final de cada conjunto: eliminação ou guarda permanente.", "p": "correta", "w": "A tabela é o instrumento de destinação, aprovado por autoridade competente, que determina prazos e condições de guarda para transferência, recolhimento ou eliminação de documentos." },
-        { "t": "Definir a ordem física das pastas nas estantes, pela data de produção dos documentos.", "p": "troca", "w": "A ordem física das pastas é tarefa dos métodos de arquivamento, como o cronológico ou o alfabético. A tabela é instrumento de destinação." },
-        { "t": "Determinar a eliminação de todo documento com mais de cinco anos.", "p": "generalizacao", "w": "A tabela fixa prazos diferentes para cada conjunto e indica também a guarda permanente. Não existe prazo único de eliminação." },
-        { "t": "Substituir a listagem de eliminação e o edital de ciência, que deixam de ser necessários após sua aprovação.", "p": "extrapolacao", "w": "A tabela aprovada autoriza a eliminação, mas cada lote ainda exige listagem aprovada pelo titular, edital de ciência e termo de eliminação (Resolução CONARQ 40/2014, arts. 2º-A, 3º e 4º)." }
+        {
+          "t": "Fixar os prazos de guarda nas fases corrente e intermediária e a destinação final de cada conjunto: eliminação ou guarda permanente.",
+          "p": "correta",
+          "w": "A tabela é o instrumento de destinação, aprovado por autoridade competente, que determina prazos e condições de guarda para transferência, recolhimento ou eliminação de documentos."
+        },
+        {
+          "t": "Definir a ordem física das pastas nas estantes, pela data de produção dos documentos.",
+          "p": "troca",
+          "w": "A ordem física das pastas é tarefa dos métodos de arquivamento, como o cronológico ou o alfabético. A tabela é instrumento de destinação."
+        },
+        {
+          "t": "Determinar a eliminação de todo documento com mais de cinco anos.",
+          "p": "generalizacao",
+          "w": "A tabela fixa prazos diferentes para cada conjunto e indica também a guarda permanente. Não existe prazo único de eliminação."
+        },
+        {
+          "t": "Substituir a listagem de eliminação e o edital de ciência, que deixam de ser necessários após sua aprovação.",
+          "p": "extrapolacao",
+          "w": "A tabela aprovada autoriza a eliminação, mas cada lote ainda exige listagem aprovada pelo titular, edital de ciência e termo de eliminação (Resolução CONARQ 40/2014, arts. 2º-A, 3º e 4º)."
+        }
       ]
     },
     {
@@ -265,10 +553,26 @@
       "a": 3,
       "src": "Lei 8.159/1991, art. 9º; Resolução CONARQ 40/2014, art. 2º, caput e §§1º e 2º (redação da Resolução 44/2020)",
       "o": [
-        { "t": "Nos dois casos basta decisão do dirigente do órgão, pois eliminar é ato de gestão interna.", "p": "troca", "w": "A Lei 8.159/1991, art. 9º, exige autorização da instituição arquivística pública na sua esfera. O dirigente aprova a listagem, mas não substitui essa autorização." },
-        { "t": "Os dois lotes dependem de autorização avulsa do arquivo público, mesmo os documentos previstos na tabela.", "p": "restricao", "w": "Para documentos previstos na tabela, a autorização se dá pela aprovação do código e da tabela pela instituição arquivística (art. 2º). A autorização excepcional é só para os não previstos." },
-        { "t": "Os orçamentos podem ser eliminados; as fotografias, por não constarem da tabela, devem ser guardadas para sempre.", "p": "extrapolacao", "w": "Não constar da tabela não obriga guarda eterna. A resolução admite a eliminação mediante autorização excepcional da instituição arquivística (art. 2º, §2º)." },
-        { "t": "Para os orçamentos, a autorização decorre da tabela aprovada; as fotografias exigem autorização excepcional do arquivo público.", "p": "correta", "w": "Art. 2º: a autorização se dá pela aprovação do código de classificação e da tabela de temporalidade pela instituição arquivística pública. §2º: documentos não constantes da tabela só podem ser eliminados com autorização excepcional dessa instituição." }
+        {
+          "t": "Nos dois casos basta decisão do dirigente do órgão, pois eliminar é ato de gestão interna.",
+          "p": "troca",
+          "w": "A Lei 8.159/1991, art. 9º, exige autorização da instituição arquivística pública na sua esfera. O dirigente aprova a listagem, mas não substitui essa autorização."
+        },
+        {
+          "t": "Os dois lotes dependem de autorização avulsa do arquivo público, mesmo os documentos previstos na tabela.",
+          "p": "restricao",
+          "w": "Para documentos previstos na tabela, a autorização se dá pela aprovação do código e da tabela pela instituição arquivística (art. 2º). A autorização excepcional é só para os não previstos."
+        },
+        {
+          "t": "Os orçamentos podem ser eliminados; as fotografias, por não constarem da tabela, devem ser guardadas para sempre.",
+          "p": "extrapolacao",
+          "w": "Não constar da tabela não obriga guarda eterna. A resolução admite a eliminação mediante autorização excepcional da instituição arquivística (art. 2º, §2º)."
+        },
+        {
+          "t": "Para os orçamentos, a autorização decorre da tabela aprovada; as fotografias exigem autorização excepcional do arquivo público.",
+          "p": "correta",
+          "w": "Art. 2º: a autorização se dá pela aprovação do código de classificação e da tabela de temporalidade pela instituição arquivística pública. §2º: documentos não constantes da tabela só podem ser eliminados com autorização excepcional dessa instituição."
+        }
       ]
     },
     {
@@ -279,10 +583,26 @@
       "a": 2,
       "src": "Resolução CONARQ 40/2014, arts. 2º-A, 3º e 4º (redação da Resolução 44/2020)",
       "o": [
-        { "t": "Eliminar os documentos, lavrar o termo de eliminação e depois publicar o edital de ciência.", "p": "inversao", "w": "O edital vem antes da eliminação, justamente para dar publicidade prévia ao ato. O termo é lavrado depois, para registrá-lo." },
-        { "t": "Elaborar a listagem e eliminar logo em seguida, pois o edital de ciência só é exigido de órgãos federais.", "p": "restricao", "w": "A resolução vale para os órgãos e entidades do SINAR e prevê até a situação dos municípios: na falta de periódico oficial, o edital sai em outro veículo de divulgação local (art. 3º)." },
-        { "t": "Elaborar a listagem de eliminação, obtê-la aprovada pelo titular do órgão, publicar o edital de ciência e, após eliminar, lavrar o termo.", "p": "correta", "w": "A listagem é elaborada pela comissão e aprovada pelo titular do órgão (art. 2º-A); depois se publica o edital de ciência (art. 3º); feita a eliminação, lavra-se o termo de eliminação (art. 4º)." },
-        { "t": "Enviar a listagem ao Tribunal de Contas, que publica o edital e lavra o termo em nome do órgão.", "p": "troca", "w": "Quem elabora e publica o edital e lavra o termo é o próprio órgão ou entidade (arts. 3º e 4º). O Tribunal de Contas não conduz esse rito." }
+        {
+          "t": "Eliminar os documentos, lavrar o termo de eliminação e depois publicar o edital de ciência.",
+          "p": "inversao",
+          "w": "O edital vem antes da eliminação, justamente para dar publicidade prévia ao ato. O termo é lavrado depois, para registrá-lo."
+        },
+        {
+          "t": "Elaborar a listagem e eliminar logo em seguida, pois o edital de ciência só é exigido de órgãos federais.",
+          "p": "restricao",
+          "w": "A resolução vale para os órgãos e entidades do SINAR e prevê até a situação dos municípios: na falta de periódico oficial, o edital sai em outro veículo de divulgação local (art. 3º)."
+        },
+        {
+          "t": "Elaborar a listagem de eliminação, obtê-la aprovada pelo titular do órgão, publicar o edital de ciência e, após eliminar, lavrar o termo.",
+          "p": "correta",
+          "w": "A listagem é elaborada pela comissão e aprovada pelo titular do órgão (art. 2º-A); depois se publica o edital de ciência (art. 3º); feita a eliminação, lavra-se o termo de eliminação (art. 4º)."
+        },
+        {
+          "t": "Enviar a listagem ao Tribunal de Contas, que publica o edital e lavra o termo em nome do órgão.",
+          "p": "troca",
+          "w": "Quem elabora e publica o edital e lavra o termo é o próprio órgão ou entidade (arts. 3º e 4º). O Tribunal de Contas não conduz esse rito."
+        }
       ]
     },
     {
@@ -293,10 +613,26 @@
       "a": 0,
       "src": "Resolução CONARQ 40/2014, art. 5º, §§1º e 2º",
       "o": [
-        { "t": "Por descaracterização irreversível, como fragmentação do papel e desmagnetização das fitas, sob supervisão de responsável designado.", "p": "correta", "w": "Art. 5º: a eliminação se faz por fragmentação manual ou mecânica, pulverização, desmagnetização ou reformatação, com garantia de que a descaracterização não possa ser revertida; o §1º exige supervisão de responsável designado." },
-        { "t": "Entregando o material inteiro ao fornecedor, desde que ele assine termo de confidencialidade.", "p": "restricao", "w": "Termo de confidencialidade não substitui a descaracterização exigida pelo art. 5º. O material deve sair do órgão sem possibilidade de leitura." },
-        { "t": "Por incineração, único método aceito pelo CONARQ.", "p": "generalizacao", "w": "A resolução não exige incineração: lista fragmentação, pulverização, desmagnetização e reformatação, e manda observar as normas ambientais (art. 5º, §2º)." },
-        { "t": "Apagando só o índice das fitas e rasgando as notas ao meio, o que basta para torná-las inúteis.", "p": "calculo", "w": "É erro de procedimento: apagar o índice ou rasgar ao meio permite recuperar a informação. A resolução exige descaracterização que não possa ser revertida." }
+        {
+          "t": "Por descaracterização irreversível, como fragmentação do papel e desmagnetização das fitas, sob supervisão de responsável designado.",
+          "p": "correta",
+          "w": "Art. 5º: a eliminação se faz por fragmentação manual ou mecânica, pulverização, desmagnetização ou reformatação, com garantia de que a descaracterização não possa ser revertida; o §1º exige supervisão de responsável designado."
+        },
+        {
+          "t": "Entregando o material inteiro ao fornecedor, desde que ele assine termo de confidencialidade.",
+          "p": "restricao",
+          "w": "Termo de confidencialidade não substitui a descaracterização exigida pelo art. 5º. O material deve sair do órgão sem possibilidade de leitura."
+        },
+        {
+          "t": "Por incineração, único método aceito pelo CONARQ.",
+          "p": "generalizacao",
+          "w": "A resolução não exige incineração: lista fragmentação, pulverização, desmagnetização e reformatação, e manda observar as normas ambientais (art. 5º, §2º)."
+        },
+        {
+          "t": "Apagando só o índice das fitas e rasgando as notas ao meio, o que basta para torná-las inúteis.",
+          "p": "calculo",
+          "w": "É erro de procedimento: apagar o índice ou rasgar ao meio permite recuperar a informação. A resolução exige descaracterização que não possa ser revertida."
+        }
       ]
     },
     {
@@ -307,10 +643,26 @@
       "a": 1,
       "src": "Marilena Leite Paes, Arquivo: teoria e prática, cap. Métodos de arquivamento (regras de alfabetação)",
       "o": [
-        { "t": "Ana Paula Castelo Branco; Carlos Barbosa (Dr.); Pedro de Almeida; Rui Santa Rita.", "p": "inversao", "w": "Ordena pelo prenome. A regra básica manda considerar o último sobrenome e depois o prenome." },
-        { "t": "Almeida, Pedro de; Barbosa, Carlos (Dr.); Castelo Branco, Ana Paula; Santa Rita, Rui.", "p": "correta", "w": "Entra o último sobrenome; preposições como de não contam; títulos vão entre parênteses, fora da ordenação; sobrenomes compostos de substantivo e adjetivo (Castelo Branco) e os formados com Santa não se separam." },
-        { "t": "Almeida, Pedro de; Barbosa, Carlos (Dr.); Branco, Ana Paula Castelo; Rita, Rui Santa.", "p": "generalizacao", "w": "Aplica a regra do último sobrenome a nomes compostos. Castelo Branco e Santa Rita são sobrenomes compostos e entram juntos." },
-        { "t": "Almeida, Pedro de; Castelo Branco, Ana Paula; Dr. Barbosa, Carlos; Santa Rita, Rui.", "p": "troca", "w": "Títulos como Dr., Professor e General não entram na alfabetação; são colocados entre parênteses depois do nome." }
+        {
+          "t": "Ana Paula Castelo Branco; Carlos Barbosa (Dr.); Pedro de Almeida; Rui Santa Rita.",
+          "p": "inversao",
+          "w": "Ordena pelo prenome. A regra básica manda considerar o último sobrenome e depois o prenome."
+        },
+        {
+          "t": "Almeida, Pedro de; Barbosa, Carlos (Dr.); Castelo Branco, Ana Paula; Santa Rita, Rui.",
+          "p": "correta",
+          "w": "Entra o último sobrenome; preposições como de não contam; títulos vão entre parênteses, fora da ordenação; sobrenomes compostos de substantivo e adjetivo (Castelo Branco) e os formados com Santa não se separam."
+        },
+        {
+          "t": "Almeida, Pedro de; Barbosa, Carlos (Dr.); Branco, Ana Paula Castelo; Rita, Rui Santa.",
+          "p": "generalizacao",
+          "w": "Aplica a regra do último sobrenome a nomes compostos. Castelo Branco e Santa Rita são sobrenomes compostos e entram juntos."
+        },
+        {
+          "t": "Almeida, Pedro de; Castelo Branco, Ana Paula; Dr. Barbosa, Carlos; Santa Rita, Rui.",
+          "p": "troca",
+          "w": "Títulos como Dr., Professor e General não entram na alfabetação; são colocados entre parênteses depois do nome."
+        }
       ]
     },
     {
@@ -321,10 +673,26 @@
       "a": 3,
       "src": "Marilena Leite Paes, Arquivo: teoria e prática, cap. Métodos de arquivamento (regras de alfabetação)",
       "o": [
-        { "t": "Filho, Antônio Souza; Gómez, Juan Carlos Pérez; Lobos, Mariana Villa-.", "p": "generalizacao", "w": "Aplica mecanicamente a regra do último sobrenome. Filho integra o sobrenome anterior, o nome espanhol entra pelo penúltimo sobrenome e o hífen une Villa-Lobos." },
-        { "t": "Souza Filho, Antônio; Gómez, Juan Carlos Pérez; Villa-Lobos, Mariana.", "p": "troca", "w": "Aplica a regra brasileira ao nome espanhol. Nos nomes espanhóis, a entrada é pelo penúltimo sobrenome, que corresponde ao de família do pai." },
-        { "t": "Antônio Souza Filho; Juan Carlos Pérez Gómez; Mariana Villa-Lobos, tal como se apresentam.", "p": "extrapolacao", "w": "Registrar como se apresentam é regra para nomes orientais e para nomes de empresas e órgãos, não para nomes de pessoas brasileiras ou espanholas." },
-        { "t": "Souza Filho, Antônio; Pérez Gómez, Juan Carlos; Villa-Lobos, Mariana.", "p": "correta", "w": "Filho, Júnior, Neto e Sobrinho integram o último sobrenome; nomes espanhóis entram pelo penúltimo sobrenome; sobrenomes ligados por hífen não se separam." }
+        {
+          "t": "Filho, Antônio Souza; Gómez, Juan Carlos Pérez; Lobos, Mariana Villa-.",
+          "p": "generalizacao",
+          "w": "Aplica mecanicamente a regra do último sobrenome. Filho integra o sobrenome anterior, o nome espanhol entra pelo penúltimo sobrenome e o hífen une Villa-Lobos."
+        },
+        {
+          "t": "Souza Filho, Antônio; Gómez, Juan Carlos Pérez; Villa-Lobos, Mariana.",
+          "p": "troca",
+          "w": "Aplica a regra brasileira ao nome espanhol. Nos nomes espanhóis, a entrada é pelo penúltimo sobrenome, que corresponde ao de família do pai."
+        },
+        {
+          "t": "Antônio Souza Filho; Juan Carlos Pérez Gómez; Mariana Villa-Lobos, tal como se apresentam.",
+          "p": "extrapolacao",
+          "w": "Registrar como se apresentam é regra para nomes orientais e para nomes de empresas e órgãos, não para nomes de pessoas brasileiras ou espanholas."
+        },
+        {
+          "t": "Souza Filho, Antônio; Pérez Gómez, Juan Carlos; Villa-Lobos, Mariana.",
+          "p": "correta",
+          "w": "Filho, Júnior, Neto e Sobrinho integram o último sobrenome; nomes espanhóis entram pelo penúltimo sobrenome; sobrenomes ligados por hífen não se separam."
+        }
       ]
     },
     {
@@ -335,10 +703,26 @@
       "a": 2,
       "src": "Marilena Leite Paes, Arquivo: teoria e prática, cap. Métodos de arquivamento (método dígito-terminal)",
       "o": [
-        { "t": "051288, 234517, 983417, porque os pares são lidos da esquerda para a direita.", "p": "inversao", "w": "Inverte a leitura: no dígito-terminal, os pares são lidos da direita para a esquerda, e o último par é o grupo primário." },
-        { "t": "234517, 983417, 051288, porque o empate no par 17 se resolve pelo primeiro par.", "p": "calculo", "w": "Erro de procedimento: empatado o grupo primário (17), desempata-se pelo secundário, o par do meio (34 antes de 45), e não pelo terciário." },
-        { "t": "983417, 234517, 051288.", "p": "correta", "w": "Os números se dividem em pares: 98-34-17, 23-45-17 e 05-12-88. Ordena-se pelo último par (17 antes de 88); no empate, pelo par do meio (34 antes de 45)." },
-        { "t": "051288, 983417, 234517, porque o par do meio é o grupo primário.", "p": "troca", "w": "O par do meio é o grupo secundário. O primário, que define a primeira ordenação, é o último par da direita." }
+        {
+          "t": "051288, 234517, 983417, porque os pares são lidos da esquerda para a direita.",
+          "p": "inversao",
+          "w": "Inverte a leitura: no dígito-terminal, os pares são lidos da direita para a esquerda, e o último par é o grupo primário."
+        },
+        {
+          "t": "234517, 983417, 051288, porque o empate no par 17 se resolve pelo primeiro par.",
+          "p": "calculo",
+          "w": "Erro de procedimento: empatado o grupo primário (17), desempata-se pelo secundário, o par do meio (34 antes de 45), e não pelo terciário."
+        },
+        {
+          "t": "983417, 234517, 051288.",
+          "p": "correta",
+          "w": "Os números se dividem em pares: 98-34-17, 23-45-17 e 05-12-88. Ordena-se pelo último par (17 antes de 88); no empate, pelo par do meio (34 antes de 45)."
+        },
+        {
+          "t": "051288, 983417, 234517, porque o par do meio é o grupo primário.",
+          "p": "troca",
+          "w": "O par do meio é o grupo secundário. O primário, que define a primeira ordenação, é o último par da direita."
+        }
       ]
     },
     {
@@ -349,10 +733,26 @@
       "a": 0,
       "src": "Marilena Leite Paes, Arquivo: teoria e prática, cap. Métodos de arquivamento (método geográfico)",
       "o": [
-        { "t": "São Paulo, Campinas, Ribeirão Preto, Santos.", "p": "correta", "w": "Quando o arquivo é organizado por estado, a capital é alfabetada em primeiro lugar, e as demais cidades seguem em ordem alfabética." },
-        { "t": "Campinas, Ribeirão Preto, Santos, São Paulo, em ordem alfabética rigorosa.", "p": "troca", "w": "A ordem alfabética rigorosa, sem destaque para a capital, é a regra quando a entrada principal é a cidade, e não o estado." },
-        { "t": "Ribeirão Preto, Campinas, Santos, São Paulo, pois a cidade-sede da federação vem primeiro.", "p": "extrapolacao", "w": "Não há regra que dê precedência à cidade onde fica a entidade. A precedência é da capital do estado." },
-        { "t": "São Paulo, Santos, Ribeirão Preto, Campinas, em ordem decrescente depois da capital.", "p": "inversao", "w": "Depois da capital, as cidades seguem em ordem alfabética crescente, e não decrescente." }
+        {
+          "t": "São Paulo, Campinas, Ribeirão Preto, Santos.",
+          "p": "correta",
+          "w": "Quando o arquivo é organizado por estado, a capital é alfabetada em primeiro lugar, e as demais cidades seguem em ordem alfabética."
+        },
+        {
+          "t": "Campinas, Ribeirão Preto, Santos, São Paulo, em ordem alfabética rigorosa.",
+          "p": "troca",
+          "w": "A ordem alfabética rigorosa, sem destaque para a capital, é a regra quando a entrada principal é a cidade, e não o estado."
+        },
+        {
+          "t": "Ribeirão Preto, Campinas, Santos, São Paulo, pois a cidade-sede da federação vem primeiro.",
+          "p": "extrapolacao",
+          "w": "Não há regra que dê precedência à cidade onde fica a entidade. A precedência é da capital do estado."
+        },
+        {
+          "t": "São Paulo, Santos, Ribeirão Preto, Campinas, em ordem decrescente depois da capital.",
+          "p": "inversao",
+          "w": "Depois da capital, as cidades seguem em ordem alfabética crescente, e não decrescente."
+        }
       ]
     },
     {
@@ -363,10 +763,26 @@
       "a": 3,
       "src": "Marilena Leite Paes, Arquivo: teoria e prática, cap. Métodos de arquivamento (métodos básicos e padronizados)",
       "o": [
-        { "t": "Numérico simples, por ser método direto que dispensa índice.", "p": "inversao", "w": "O numérico simples é indireto: para achar a pasta, é preciso consultar antes um índice alfabético que indica o número." },
-        { "t": "Numérico cronológico, que dispensa índice porque cada documento recebe número e data.", "p": "extrapolacao", "w": "Número e data não dispensam o índice. Como todo método numérico, o cronológico é indireto." },
-        { "t": "Ideográfico numérico, como o decimal, por ser sempre o método mais simples e direto.", "p": "generalizacao", "w": "Os métodos por assunto numéricos, como o decimal e o duplex, exigem índice e não são diretos." },
-        { "t": "Variadex, variante do método alfabético, portanto direta, que usa cores como elemento auxiliar.", "p": "correta", "w": "Paes classifica o variadex entre os métodos padronizados: é uma variante do alfabético que usa cores para facilitar arquivamento e localização. Sendo alfabético, é direto." }
+        {
+          "t": "Numérico simples, por ser método direto que dispensa índice.",
+          "p": "inversao",
+          "w": "O numérico simples é indireto: para achar a pasta, é preciso consultar antes um índice alfabético que indica o número."
+        },
+        {
+          "t": "Numérico cronológico, que dispensa índice porque cada documento recebe número e data.",
+          "p": "extrapolacao",
+          "w": "Número e data não dispensam o índice. Como todo método numérico, o cronológico é indireto."
+        },
+        {
+          "t": "Ideográfico numérico, como o decimal, por ser sempre o método mais simples e direto.",
+          "p": "generalizacao",
+          "w": "Os métodos por assunto numéricos, como o decimal e o duplex, exigem índice e não são diretos."
+        },
+        {
+          "t": "Variadex, variante do método alfabético, portanto direta, que usa cores como elemento auxiliar.",
+          "p": "correta",
+          "w": "Paes classifica o variadex entre os métodos padronizados: é uma variante do alfabético que usa cores para facilitar arquivamento e localização. Sendo alfabético, é direto."
+        }
       ]
     },
     {
@@ -377,10 +793,26 @@
       "a": 1,
       "src": "Marilena Leite Paes, Arquivo: teoria e prática, cap. Protocolo (recebimento e classificação)",
       "o": [
-        { "t": "Abrir, registrar e classificar a carta como qualquer correspondência oficial.", "p": "generalizacao", "w": "Nem toda correspondência é aberta: a de caráter particular segue fechada ao destinatário. Abertura, registro e classificação valem para a oficial." },
-        { "t": "Não abrir e encaminhar a carta fechada diretamente ao destinatário.", "p": "correta", "w": "No recebimento, o protocolo separa a correspondência oficial, que é aberta, registrada e classificada, da particular, que é entregue fechada ao destinatário." },
-        { "t": "Abrir para conferir se o assunto é oficial e, se for particular, fechar de novo e entregar.", "p": "extrapolacao", "w": "O protocolo não abre correspondência particular nem para triagem. Ela segue fechada ao destinatário." },
-        { "t": "Devolver a carta ao remetente, pois o protocolo só recebe correspondência oficial.", "p": "restricao", "w": "O protocolo recebe toda a correspondência que chega ao órgão. A diferença está no tratamento: a particular é encaminhada fechada." }
+        {
+          "t": "Abrir, registrar e classificar a carta como qualquer correspondência oficial.",
+          "p": "generalizacao",
+          "w": "Nem toda correspondência é aberta: a de caráter particular segue fechada ao destinatário. Abertura, registro e classificação valem para a oficial."
+        },
+        {
+          "t": "Não abrir e encaminhar a carta fechada diretamente ao destinatário.",
+          "p": "correta",
+          "w": "No recebimento, o protocolo separa a correspondência oficial, que é aberta, registrada e classificada, da particular, que é entregue fechada ao destinatário."
+        },
+        {
+          "t": "Abrir para conferir se o assunto é oficial e, se for particular, fechar de novo e entregar.",
+          "p": "extrapolacao",
+          "w": "O protocolo não abre correspondência particular nem para triagem. Ela segue fechada ao destinatário."
+        },
+        {
+          "t": "Devolver a carta ao remetente, pois o protocolo só recebe correspondência oficial.",
+          "p": "restricao",
+          "w": "O protocolo recebe toda a correspondência que chega ao órgão. A diferença está no tratamento: a particular é encaminhada fechada."
+        }
       ]
     },
     {
@@ -391,10 +823,26 @@
       "a": 2,
       "src": "Lei 12.682/2012, art. 2º-A, §1º; Decreto 10.278/2020, arts. 9º, 11 e 12",
       "o": [
-        { "t": "Pode descartar tudo, pois a digitalização com certificação digital autoriza a destruição automática de qualquer original.", "p": "generalizacao", "w": "A destruição do original ressalva os documentos de valor histórico (Lei 12.682/2012, art. 2º-A, §1º; Decreto 10.278/2020, art. 9º), e o ente público segue a tabela de temporalidade." },
-        { "t": "Não pode descartar nenhum original, porque documento público digitalizado jamais pode ter o papel eliminado.", "p": "inversao", "w": "A lei admite destruir o original após a digitalização regular, constatada a integridade do documento digital, ressalvados os de valor histórico (Lei 12.682/2012, art. 2º-A, §1º)." },
-        { "t": "Os originais de valor histórico devem ser preservados, e os demais só podem ser eliminados conforme a tabela de temporalidade aprovada.", "p": "correta", "w": "O original de valor histórico não pode ser descartado (Decreto 10.278/2020, art. 9º). Entes públicos devem observar a Lei 8.159/1991 e as tabelas de temporalidade aprovadas pelas instituições arquivísticas (art. 12)." },
-        { "t": "Pode descartar tudo, desde que mantenha os arquivos digitais por cinco anos.", "p": "restricao", "w": "Não há prazo único de cinco anos. Representantes digitais sem valor histórico são preservados ao menos até o fim dos prazos de prescrição ou decadência (Decreto 10.278/2020, art. 11), e os de valor histórico mantêm o original." }
+        {
+          "t": "Pode descartar tudo, pois a digitalização com certificação digital autoriza a destruição automática de qualquer original.",
+          "p": "generalizacao",
+          "w": "A destruição do original ressalva os documentos de valor histórico (Lei 12.682/2012, art. 2º-A, §1º; Decreto 10.278/2020, art. 9º), e o ente público segue a tabela de temporalidade."
+        },
+        {
+          "t": "Não pode descartar nenhum original, porque documento público digitalizado jamais pode ter o papel eliminado.",
+          "p": "inversao",
+          "w": "A lei admite destruir o original após a digitalização regular, constatada a integridade do documento digital, ressalvados os de valor histórico (Lei 12.682/2012, art. 2º-A, §1º)."
+        },
+        {
+          "t": "Os originais de valor histórico devem ser preservados, e os demais só podem ser eliminados conforme a tabela de temporalidade aprovada.",
+          "p": "correta",
+          "w": "O original de valor histórico não pode ser descartado (Decreto 10.278/2020, art. 9º). Entes públicos devem observar a Lei 8.159/1991 e as tabelas de temporalidade aprovadas pelas instituições arquivísticas (art. 12)."
+        },
+        {
+          "t": "Pode descartar tudo, desde que mantenha os arquivos digitais por cinco anos.",
+          "p": "restricao",
+          "w": "Não há prazo único de cinco anos. Representantes digitais sem valor histórico são preservados ao menos até o fim dos prazos de prescrição ou decadência (Decreto 10.278/2020, art. 11), e os de valor histórico mantêm o original."
+        }
       ]
     },
     {
@@ -406,8 +854,16 @@
       "q": "Esses e-mails, gravações e planilhas são documentos de arquivo, pois o documento é registro de informação qualquer que seja o suporte ou o formato.",
       "a": 0,
       "o": [
-        { "t": "Certo", "p": "correta", "w": "Documento é unidade de registro de informações, qualquer que seja o suporte ou formato (DBTA). A Lei 8.159/1991, art. 2º, considera arquivos os conjuntos produzidos e recebidos nas atividades, qualquer que seja o suporte da informação." },
-        { "t": "Errado", "p": "restricao", "w": "Julgar errado supõe que só o papel forma arquivo, condição que a lei não impõe. Gravações e arquivos digitais gerados nas atividades da agência são documentos de arquivo." }
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Documento é unidade de registro de informações, qualquer que seja o suporte ou formato (DBTA). A Lei 8.159/1991, art. 2º, considera arquivos os conjuntos produzidos e recebidos nas atividades, qualquer que seja o suporte da informação."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que só o papel forma arquivo, condição que a lei não impõe. Gravações e arquivos digitais gerados nas atividades da agência são documentos de arquivo."
+        }
       ]
     },
     {
@@ -419,8 +875,16 @@
       "q": "O Conselho Nacional de Arquivos, órgão vinculado ao Arquivo Nacional, define a política nacional de arquivos como órgão central do Sistema Nacional de Arquivos.",
       "a": 0,
       "o": [
-        { "t": "Certo", "p": "correta", "w": "Art. 26 da Lei 8.159/1991: fica criado o CONARQ, órgão vinculado ao Arquivo Nacional, que definirá a política nacional de arquivos, como órgão central do SINAR." },
-        { "t": "Errado", "p": "troca", "w": "Julgar errado costuma vir da troca entre CONARQ e Arquivo Nacional. O Arquivo Nacional cuida da gestão e do recolhimento dos documentos do Executivo federal (art. 18); a política nacional cabe ao CONARQ." }
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 26 da Lei 8.159/1991: fica criado o CONARQ, órgão vinculado ao Arquivo Nacional, que definirá a política nacional de arquivos, como órgão central do SINAR."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado costuma vir da troca entre CONARQ e Arquivo Nacional. O Arquivo Nacional cuida da gestão e do recolhimento dos documentos do Executivo federal (art. 18); a política nacional cabe ao CONARQ."
+        }
       ]
     },
     {
@@ -432,8 +896,16 @@
       "q": "Esse modo de formação ilustra o princípio da cumulatividade, segundo o qual o arquivo é uma formação progressiva, natural e orgânica.",
       "a": 0,
       "o": [
-        { "t": "Certo", "p": "correta", "w": "Pela cumulatividade, o arquivo é formação progressiva, natural e orgânica, que cresce com as atividades da entidade, ao contrário da coleção, reunida artificialmente." },
-        { "t": "Errado", "p": "troca", "w": "Julgar errado confunde o arquivo com uma coleção montada por escolha. A acumulação natural ao longo das atividades é exatamente o que o princípio descreve." }
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Pela cumulatividade, o arquivo é formação progressiva, natural e orgânica, que cresce com as atividades da entidade, ao contrário da coleção, reunida artificialmente."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado confunde o arquivo com uma coleção montada por escolha. A acumulação natural ao longo das atividades é exatamente o que o princípio descreve."
+        }
       ]
     },
     {
@@ -445,8 +917,16 @@
       "q": "Nem todo documento passa pelas três idades: conforme a tabela de temporalidade, um documento pode ser eliminado ao fim da fase corrente, sem ir ao arquivo intermediário.",
       "a": 0,
       "o": [
-        { "t": "Certo", "p": "correta", "w": "A tabela fixa prazos para cada fase e a destinação final. Quando não há razão administrativa para guarda intermediária, a eliminação ocorre ao fim da fase corrente; as três idades descrevem o ciclo possível, não um percurso obrigatório." },
-        { "t": "Errado", "p": "generalizacao", "w": "Julgar errado supõe que todo documento percorre obrigatoriamente as fases corrente, intermediária e permanente, o que contraria a própria eliminação prevista no art. 3º da Lei 8.159/1991." }
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "A tabela fixa prazos para cada fase e a destinação final. Quando não há razão administrativa para guarda intermediária, a eliminação ocorre ao fim da fase corrente; as três idades descrevem o ciclo possível, não um percurso obrigatório."
+        },
+        {
+          "t": "Errado",
+          "p": "generalizacao",
+          "w": "Julgar errado supõe que todo documento percorre obrigatoriamente as fases corrente, intermediária e permanente, o que contraria a própria eliminação prevista no art. 3º da Lei 8.159/1991."
+        }
       ]
     },
     {
@@ -458,8 +938,16 @@
       "q": "Esses documentos estão na fase intermediária, que reúne documentos mantidos exclusivamente por seu valor histórico até o recolhimento.",
       "a": 1,
       "o": [
-        { "t": "Certo", "p": "troca", "w": "Julgar certo troca o motivo da guarda intermediária, que é o interesse administrativo, pelo da guarda permanente, que é o valor histórico, probatório e informativo." },
-        { "t": "Errado", "p": "correta", "w": "Art. 8º, §2º: intermediários são os que, sem uso corrente, aguardam a eliminação ou o recolhimento por razões de interesse administrativo. Valor histórico caracteriza os permanentes (§3º)." }
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo troca o motivo da guarda intermediária, que é o interesse administrativo, pelo da guarda permanente, que é o valor histórico, probatório e informativo."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 8º, §2º: intermediários são os que, sem uso corrente, aguardam a eliminação ou o recolhimento por razões de interesse administrativo. Valor histórico caracteriza os permanentes (§3º)."
+        }
       ]
     },
     {
@@ -471,8 +959,16 @@
       "q": "O valor primário, por decorrer da razão pela qual o documento foi criado, é permanente e nunca se esgota.",
       "a": 1,
       "o": [
-        { "t": "Certo", "p": "generalizacao", "w": "Julgar certo transforma em perpétuo um valor que, por natureza, é temporário. O que pode justificar a guarda definitiva é o valor secundário." },
-        { "t": "Errado", "p": "correta", "w": "Valor primário é o atribuído pelo interesse da entidade produtora, por sua utilidade administrativa, legal e fiscal. Ele se esgota com o tempo, o que permite eliminar o documento ou recolhê-lo, se tiver valor secundário." }
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo transforma em perpétuo um valor que, por natureza, é temporário. O que pode justificar a guarda definitiva é o valor secundário."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Valor primário é o atribuído pelo interesse da entidade produtora, por sua utilidade administrativa, legal e fiscal. Ele se esgota com o tempo, o que permite eliminar o documento ou recolhê-lo, se tiver valor secundário."
+        }
       ]
     },
     {
@@ -484,8 +980,16 @@
       "q": "Antes de eliminar os documentos, a autarquia deve publicar edital de ciência de eliminação em periódico oficial, para dar publicidade ao ato.",
       "a": 0,
       "o": [
-        { "t": "Certo", "p": "correta", "w": "Art. 3º da Resolução CONARQ 40/2014: aprovada a listagem, os órgãos e entidades devem elaborar e publicar o Edital de Ciência de Eliminação de Documentos em periódico oficial." },
-        { "t": "Errado", "p": "restricao", "w": "Julgar errado supõe que a aprovação da listagem bastaria para eliminar. A resolução exige a publicidade prévia por edital antes da eliminação." }
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 3º da Resolução CONARQ 40/2014: aprovada a listagem, os órgãos e entidades devem elaborar e publicar o Edital de Ciência de Eliminação de Documentos em periódico oficial."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que a aprovação da listagem bastaria para eliminar. A resolução exige a publicidade prévia por edital antes da eliminação."
+        }
       ]
     },
     {
@@ -497,8 +1001,16 @@
       "q": "O termo de eliminação, lavrado após a eliminação, deve obrigatoriamente ser publicado em periódico oficial.",
       "a": 1,
       "o": [
-        { "t": "Certo", "p": "troca", "w": "Julgar certo troca o termo pelo edital de ciência: é o edital, anterior à eliminação, que se publica em periódico oficial (art. 3º)." },
-        { "t": "Errado", "p": "correta", "w": "Art. 4º: o termo registra a eliminação já feita, e sua publicação em periódico oficial não é obrigatória; ele é divulgado em boletim interno ou no sítio eletrônico do órgão, com cópia à instituição arquivística." }
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo troca o termo pelo edital de ciência: é o edital, anterior à eliminação, que se publica em periódico oficial (art. 3º)."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 4º: o termo registra a eliminação já feita, e sua publicação em periódico oficial não é obrigatória; ele é divulgado em boletim interno ou no sítio eletrônico do órgão, com cópia à instituição arquivística."
+        }
       ]
     },
     {
@@ -510,8 +1022,16 @@
       "q": "Trata-se do método numérico simples, que é indireto, pois para achar a pasta de um fornecedor pelo nome é preciso consultar antes um índice alfabético.",
       "a": 0,
       "o": [
-        { "t": "Certo", "p": "correta", "w": "No numérico simples, atribui-se um número a cada correspondente pela ordem de chegada ou de registro, sem preocupação alfabética. Por isso o método é indireto e exige índice alfabético remissivo." },
-        { "t": "Errado", "p": "troca", "w": "Julgar errado confunde o método numérico com os diretos, como o alfabético e o geográfico, em que a busca se faz pelo próprio nome ou local." }
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "No numérico simples, atribui-se um número a cada correspondente pela ordem de chegada ou de registro, sem preocupação alfabética. Por isso o método é indireto e exige índice alfabético remissivo."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado confunde o método numérico com os diretos, como o alfabético e o geográfico, em que a busca se faz pelo próprio nome ou local."
+        }
       ]
     },
     {
@@ -523,8 +1043,16 @@
       "q": "A medida é adequada à preservação, pois o que importa é a média de temperatura e umidade ao longo da semana, e não suas oscilações diárias.",
       "a": 1,
       "o": [
-        { "t": "Certo", "p": "extrapolacao", "w": "Julgar certo ignora que as flutuações de temperatura e umidade são, por si, fator de degradação. Uma média aceitável não compensa a instabilidade." },
-        { "t": "Errado", "p": "correta", "w": "As recomendações do CONARQ destacam que a estabilidade da temperatura e da umidade relativa é essencial. Oscilações fazem o papel dilatar e contrair e criam condições para fungos e outros danos." }
+        {
+          "t": "Certo",
+          "p": "extrapolacao",
+          "w": "Julgar certo ignora que as flutuações de temperatura e umidade são, por si, fator de degradação. Uma média aceitável não compensa a instabilidade."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "As recomendações do CONARQ destacam que a estabilidade da temperatura e da umidade relativa é essencial. Oscilações fazem o papel dilatar e contrair e criam condições para fungos e outros danos."
+        }
       ]
     },
     {
@@ -536,8 +1064,16 @@
       "q": "A exigência é válida, pois a Lei de Acesso à Informação condiciona o pedido à exposição dos motivos determinantes da solicitação.",
       "a": 1,
       "o": [
-        { "t": "Certo", "p": "restricao", "w": "Julgar certo acrescenta uma condição que a lei proíbe. O pedido deve identificar o requerente e especificar a informação, mas não precisa de justificativa." },
-        { "t": "Errado", "p": "correta", "w": "Art. 10, §3º: são vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público. O caput exige só a identificação do requerente e a especificação da informação." }
+        {
+          "t": "Certo",
+          "p": "restricao",
+          "w": "Julgar certo acrescenta uma condição que a lei proíbe. O pedido deve identificar o requerente e especificar a informação, mas não precisa de justificativa."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 10, §3º: são vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público. O caput exige só a identificação do requerente e a especificação da informação."
+        }
       ]
     },
     {
@@ -549,8 +1085,562 @@
       "q": "Recomenda-se manter clipes e grampos metálicos em contato direto com o papel dos documentos permanentes, pois evitam a dispersão das folhas sem causar dano.",
       "a": 1,
       "o": [
-        { "t": "Certo", "p": "inversao", "w": "Julgar certo inverte a recomendação: o clipe metálico é fator de dano, e não de proteção, porque oxida com o tempo." },
-        { "t": "Errado", "p": "correta", "w": "Metais oxidam e deixam manchas de ferrugem no papel. As orientações de preservação mandam evitá-los em contato direto, preferindo clipes plásticos ou uma tira de papel entre o clipe e o documento." }
+        {
+          "t": "Certo",
+          "p": "inversao",
+          "w": "Julgar certo inverte a recomendação: o clipe metálico é fator de dano, e não de proteção, porque oxida com o tempo."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Metais oxidam e deixam manchas de ferrugem no papel. As orientações de preservação mandam evitá-los em contato direto, preferindo clipes plásticos ou uma tira de papel entre o clipe e o documento."
+        }
+      ]
+    },
+    {
+      "id": "arq41",
+      "topic": "Gêneros documentais",
+      "c": "O arquivo municipal de Campo Grande (MS) recebeu da Secretaria de Obras plantas de loteamentos e mapas do perímetro urbano, fotografias de inaugurações e gravações em áudio de audiências públicas.",
+      "q": "Pela classificação dos documentos por gênero, assinale a alternativa correta.",
+      "a": 1,
+      "src": "Marilena Leite Paes, Arquivo: teoria e prática (classificação dos documentos quanto ao gênero); Camargo e Bellotto, Dicionário de Terminologia Arquivística (1996), verbete gênero documental",
+      "o": [
+        {
+          "t": "Plantas e mapas são iconográficos; as fotografias são cartográficas; as gravações são sonoras.",
+          "p": "inversao",
+          "w": "Inverte os dois primeiros gêneros. Mapas e plantas, que representam espaços geográficos ou de engenharia, são cartográficos; fotografias, imagens estáticas, são iconográficas."
+        },
+        {
+          "t": "Plantas e mapas são cartográficos; as fotografias são iconográficas; as gravações de áudio são sonoras.",
+          "p": "correta",
+          "w": "O gênero depende do sistema de signos usado para registrar o conteúdo. Paes classifica mapas e plantas como cartográficos, fotografias como iconográficos e registros de som como sonoros."
+        },
+        {
+          "t": "Todos são iconográficos, pois qualquer documento que contenha imagem ou desenho pertence a esse gênero.",
+          "p": "generalizacao",
+          "w": "Plantas e mapas têm gênero próprio, o cartográfico, e as gravações de áudio nem contêm imagem: são documentos sonoros."
+        },
+        {
+          "t": "Plantas e mapas são cartográficos; as fotografias são iconográficas; as gravações de áudio são filmográficas.",
+          "p": "troca",
+          "w": "Filmográficos são os registros de imagens em movimento, como filmes e vídeos. Gravação só de som pertence ao gênero sonoro."
+        }
+      ]
+    },
+    {
+      "id": "arq42",
+      "topic": "Espécie e tipo documental",
+      "c": "Ao descrever o acervo da Câmara Municipal de Itajaí (SC), a arquivista registrou, para um mesmo documento, as expressões “ata” e “ata de reunião ordinária da Comissão de Finanças”.",
+      "q": "Como se classificam, respectivamente, essas duas expressões?",
+      "a": 3,
+      "src": "Camargo e Bellotto, Dicionário de Terminologia Arquivística (1996), verbetes espécie documental e tipo documental; Bellotto, Como fazer análise diplomática e análise tipológica de documento de arquivo (2002)",
+      "o": [
+        {
+          "t": "Tipo documental e espécie documental.",
+          "p": "inversao",
+          "w": "Inverte os conceitos. A ata, pela disposição de suas informações, é a espécie; somada à atividade que a gerou, forma o tipo."
+        },
+        {
+          "t": "Gênero documental e espécie documental.",
+          "p": "troca",
+          "w": "Gênero diz respeito ao sistema de signos (textual, iconográfico, sonoro etc.). A ata é uma espécie, e o documento todo é do gênero textual."
+        },
+        {
+          "t": "Sinônimos, pois espécie e tipo documental designam sempre a mesma coisa.",
+          "p": "generalizacao",
+          "w": "São conceitos distintos: o tipo é a espécie qualificada pela atividade que a produziu, o que permite separar atas de órgãos e funções diferentes."
+        },
+        {
+          "t": "Espécie documental e tipo documental.",
+          "p": "correta",
+          "w": "Espécie é a configuração do documento conforme a disposição e a natureza das informações (ata). Tipo é a espécie de acordo com a atividade que a gerou (ata de reunião da Comissão de Finanças)."
+        }
+      ]
+    },
+    {
+      "id": "arq43",
+      "topic": "Arranjo",
+      "c": "O Arquivo Público Mineiro, em Belo Horizonte, está organizando intelectual e fisicamente os documentos recolhidos de uma antiga secretaria estadual, distribuindo-os em fundo, seções e séries segundo um quadro previamente elaborado.",
+      "q": "Como se denomina essa operação no arquivo permanente?",
+      "a": 0,
+      "src": "Arquivo Nacional, Dicionário Brasileiro de Terminologia Arquivística (2005), verbete arranjo; Bellotto, Arquivos permanentes: tratamento documental (arranjo)",
+      "o": [
+        {
+          "t": "Arranjo: operações intelectuais e físicas de organização dos documentos de acordo com um quadro previamente estabelecido.",
+          "p": "correta",
+          "w": "A doutrina reserva o termo arranjo para a organização dos documentos na fase permanente, e classificação para as fases corrente e intermediária."
+        },
+        {
+          "t": "Classificação, termo exclusivo da fase permanente, enquanto o arranjo se faz nos arquivos correntes.",
+          "p": "inversao",
+          "w": "É o contrário: a classificação se faz desde a produção, nas fases corrente e intermediária; no arquivo permanente fala-se em arranjo."
+        },
+        {
+          "t": "Avaliação, que consiste em distribuir os documentos em fundos, seções e séries.",
+          "p": "troca",
+          "w": "Avaliação é a análise dos valores dos documentos para fixar prazos de guarda e destinação, e não a sua organização em quadro de arranjo."
+        },
+        {
+          "t": "Arranjo, que permite reunir documentos de vários fundos por assunto para facilitar a pesquisa.",
+          "p": "extrapolacao",
+          "w": "O arranjo respeita o princípio da proveniência: os documentos de cada produtor permanecem no seu fundo, sem mistura por assunto."
+        }
+      ]
+    },
+    {
+      "id": "arq44",
+      "topic": "Guia",
+      "c": "O Arquivo Histórico de Juiz de Fora (MG) publicou um instrumento com o histórico da instituição, endereço, horários, serviços oferecidos e uma visão geral de todos os fundos e coleções sob sua guarda.",
+      "q": "Que instrumento de pesquisa é esse?",
+      "a": 2,
+      "src": "Arquivo Nacional, Dicionário Brasileiro de Terminologia Arquivística (2005), verbetes guia, inventário e catálogo; Paes, Arquivo: teoria e prática (instrumentos de pesquisa)",
+      "o": [
+        {
+          "t": "Inventário, que oferece informações gerais sobre todos os fundos e coleções de um ou mais arquivos.",
+          "p": "troca",
+          "w": "O inventário descreve conjuntos documentais ou partes de um fundo. A visão geral de todos os fundos e da instituição é própria do guia."
+        },
+        {
+          "t": "Catálogo, o instrumento mais genérico, por isso o primeiro que o pesquisador deve consultar.",
+          "p": "inversao",
+          "w": "O catálogo é mais detalhado e se organiza por critérios temáticos, cronológicos, onomásticos ou geográficos. O instrumento mais genérico, porta de entrada do acervo, é o guia."
+        },
+        {
+          "t": "Guia: instrumento que oferece informações gerais sobre os fundos e coleções de um ou mais arquivos e orienta o usuário.",
+          "p": "correta",
+          "w": "O guia apresenta a instituição e seu acervo em linhas gerais, com dados práticos de acesso, e por isso é o instrumento de pesquisa mais abrangente."
+        },
+        {
+          "t": "Guia, mas ele só pode ser publicado depois que todos os documentos tiverem sido descritos item a item.",
+          "p": "restricao",
+          "w": "O guia trabalha com informações gerais sobre os fundos; não depende da descrição de cada documento, que é tarefa de instrumentos mais específicos."
+        }
+      ]
+    },
+    {
+      "id": "arq45",
+      "topic": "NOBRADE: elementos obrigatórios",
+      "c": "No Arquivo Público do Distrito Federal, um estagiário vai descrever pela NOBRADE o fundo de uma antiga autarquia distrital e pergunta quais elementos de descrição não pode deixar em branco.",
+      "q": "Quais elementos a NOBRADE torna obrigatórios?",
+      "a": 0,
+      "src": "CONARQ, NOBRADE: Norma Brasileira de Descrição Arquivística (2006), elementos de descrição obrigatórios",
+      "o": [
+        {
+          "t": "Código de referência, título, data(s), nível de descrição, dimensão e suporte, nome(s) do(s) produtor(es) e, nos níveis 0 e 1, condições de acesso.",
+          "p": "correta",
+          "w": "São os sete elementos obrigatórios da NOBRADE. Condições de acesso só é obrigatório nos níveis 0 (acervo da entidade custodiadora) e 1 (fundo ou coleção)."
+        },
+        {
+          "t": "Todos os elementos das oito áreas da norma, em qualquer nível de descrição.",
+          "p": "generalizacao",
+          "w": "A norma tem 28 elementos distribuídos em oito áreas, mas só sete são obrigatórios; os demais são usados conforme a necessidade."
+        },
+        {
+          "t": "Apenas o código de referência e o título, únicos exigidos em qualquer nível.",
+          "p": "restricao",
+          "w": "A lista obrigatória é maior: inclui também data(s), nível de descrição, dimensão e suporte, produtor e, nos níveis 0 e 1, condições de acesso."
+        },
+        {
+          "t": "Âmbito e conteúdo, história administrativa, sistema de arranjo e notas, que formam o núcleo obrigatório da norma.",
+          "p": "troca",
+          "w": "Esses elementos existem na NOBRADE, mas não estão entre os obrigatórios. O núcleo obrigatório identifica o documento: código, título, datas, nível, dimensão e produtor."
+        }
+      ]
+    },
+    {
+      "id": "arq46",
+      "topic": "Anexação e apensação",
+      "c": "No protocolo da Universidade Federal de Viçosa (MG), um novo requerimento do mesmo servidor, sobre o mesmo pedido de progressão, passou a integrar definitivamente o processo principal. Já o processo de outro servidor, sobre caso semelhante, foi juntado temporariamente para subsidiar o parecer.",
+      "q": "Como se chamam, respectivamente, essas duas formas de juntada?",
+      "a": 1,
+      "src": "Arquivo Nacional, Dicionário Brasileiro de Terminologia Arquivística (2005), verbetes anexação, apensação e juntada",
+      "o": [
+        {
+          "t": "Apensação e anexação.",
+          "p": "inversao",
+          "w": "Inverte os conceitos: a juntada definitiva é a anexação, e a temporária, para elucidar ou subsidiar a matéria, é a apensação."
+        },
+        {
+          "t": "Anexação e apensação.",
+          "p": "correta",
+          "w": "Pelo DBTA, anexação é a juntada em caráter definitivo; apensação é a juntada em caráter temporário, com o objetivo de elucidar ou subsidiar a matéria tratada."
+        },
+        {
+          "t": "Desentranhamento e desmembramento.",
+          "p": "troca",
+          "w": "Desentranhamento e desmembramento são retiradas de folhas ou peças de um processo, operações opostas à juntada descrita no caso."
+        },
+        {
+          "t": "Apensação nos dois casos, pois toda juntada de processos é temporária.",
+          "p": "generalizacao",
+          "w": "Há juntada definitiva, a anexação, usada justamente quando o documento ou processo passa a integrar o principal, como o requerimento do mesmo servidor."
+        }
+      ]
+    },
+    {
+      "id": "arq47",
+      "topic": "Código das atividades-fim",
+      "c": "Uma superintendência do Ibama, integrante do SIGA, precisa classificar e definir prazos de guarda para autos de infração ambiental, documentos ligados à missão finalística do órgão, que não aparecem no código das atividades-meio.",
+      "q": "Pela Portaria AN/MGI 174/2024, como o órgão deve proceder?",
+      "a": 3,
+      "src": "Portaria AN/MGI 174/2024, arts. 1º e 4º",
+      "o": [
+        {
+          "t": "Classificar os autos na classe 000, que abrange todas as atividades do órgão, meio ou fim.",
+          "p": "generalizacao",
+          "w": "A classe 000 trata da administração geral, atividade-meio comum aos órgãos. A fiscalização ambiental é atividade-fim e exige código próprio."
+        },
+        {
+          "t": "Dispensar código e tabela para os autos, pois atividades-fim não precisam de instrumentos de gestão documental.",
+          "p": "extrapolacao",
+          "w": "Os documentos das atividades-fim também precisam ser classificados e avaliados; a portaria apenas atribui a elaboração desses instrumentos ao próprio órgão."
+        },
+        {
+          "t": "Aguardar que o Arquivo Nacional elabore, por conta própria, o código das atividades-fim do Ibama.",
+          "p": "inversao",
+          "w": "Inverte os papéis: quem elabora é a comissão permanente de avaliação do órgão; o Arquivo Nacional aprova o instrumento."
+        },
+        {
+          "t": "A comissão permanente de avaliação do órgão elabora o código e a tabela das atividades-fim e os submete à aprovação do Arquivo Nacional.",
+          "p": "correta",
+          "w": "O art. 4º da Portaria AN/MGI 174/2024 atribui às CPADs a elaboração dos códigos e tabelas das atividades-fim, submetidos ao Arquivo Nacional para aprovação."
+        }
+      ]
+    },
+    {
+      "id": "arq48",
+      "topic": "Graus de sigilo",
+      "c": "Um relatório técnico de um ministério, produzido em 12 de abril de 2021, foi classificado como reservado em 3 de maio de 2021. Em 20 de abril de 2026, uma jornalista pediu acesso a ele; não houve reclassificação nem termo final por evento.",
+      "q": "Pela Lei de Acesso à Informação, assinale a alternativa correta.",
+      "a": 2,
+      "src": "Lei 12.527/2011, art. 24, §§1º, III, e 4º",
+      "o": [
+        {
+          "t": "Ainda é sigiloso até 3 de maio de 2026, porque o prazo de cinco anos conta da data da classificação.",
+          "p": "calculo",
+          "w": "O art. 24, §1º, manda contar os prazos a partir da data de produção da informação, e não da classificação: o prazo terminou em 12 de abril de 2026."
+        },
+        {
+          "t": "Ainda é sigiloso até 2036, pois a informação reservada fica restrita por 15 anos.",
+          "p": "troca",
+          "w": "Quinze anos é o prazo da informação secreta. A reservada tem prazo máximo de cinco anos; a ultrassecreta, de 25."
+        },
+        {
+          "t": "Deve ser franqueado: o prazo de cinco anos da reservada, contado da produção, terminou em 12 de abril de 2026, e o acesso se tornou público.",
+          "p": "correta",
+          "w": "Prazo máximo de cinco anos para a reservada, contado da produção (art. 24, §1º, III). Transcorrido o prazo, a informação torna-se automaticamente de acesso público (§4º)."
+        },
+        {
+          "t": "Só pode ser franqueado depois que a autoridade classificadora publicar ato formal de desclassificação.",
+          "p": "restricao",
+          "w": "A lei não exige ato de desclassificação: vencido o prazo, o acesso se torna público automaticamente (art. 24, §4º)."
+        }
+      ]
+    },
+    {
+      "id": "arq49",
+      "topic": "SIGAD e GED",
+      "c": "Uma autarquia federal em Recife (PE) comprou um sistema de gerenciamento eletrônico de documentos (GED) que digitaliza, indexa e recupera arquivos com rapidez. A arquivista alertou que o sistema não aplica o plano de classificação nem controla prazos de guarda e destinação.",
+      "q": "À luz do e-ARQ Brasil, assinale a alternativa correta.",
+      "a": 0,
+      "src": "CONARQ, e-ARQ Brasil: Modelo de Requisitos para Sistemas Informatizados de Gestão Arquivística de Documentos, versão 2 (2022); CONARQ, Orientação Técnica n. 1 (2011)",
+      "o": [
+        {
+          "t": "O SIGAD controla todo o ciclo de vida do documento, com classificação, prazos de guarda e destinação; um GED, sozinho, não garante esse controle.",
+          "p": "correta",
+          "w": "O GED é um conjunto de tecnologias para organizar e recuperar informação. O SIGAD implementa a gestão arquivística: aplica o plano de classificação e controla prazos e destinação."
+        },
+        {
+          "t": "GED e SIGAD são sinônimos, pois qualquer sistema que armazena documentos digitais faz gestão arquivística.",
+          "p": "generalizacao",
+          "w": "Armazenar e indexar não é fazer gestão arquivística. O e-ARQ Brasil distingue o SIGAD justamente pelo controle do ciclo de vida dos documentos."
+        },
+        {
+          "t": "O SIGAD só se aplica a documentos digitalizados, e nunca a documentos nascidos em meio digital.",
+          "p": "restricao",
+          "w": "O SIGAD gerencia documentos arquivísticos digitais, inclusive os nato-digitais, e pode controlar também documentos convencionais."
+        },
+        {
+          "t": "Basta digitalizar com reconhecimento de texto e indexar bem para atender a todos os requisitos do e-ARQ Brasil.",
+          "p": "extrapolacao",
+          "w": "Boa indexação facilita a busca, mas não substitui classificação, temporalidade, destinação e demais requisitos de gestão arquivística."
+        }
+      ]
+    },
+    {
+      "id": "arq50",
+      "topic": "Arquivos de concessionárias",
+      "c": "Uma empresa privada concessionária do abastecimento de água em Limeira (SP) quer descartar livremente os documentos produzidos na prestação do serviço, alegando que, por ser empresa privada, seus arquivos são privados.",
+      "q": "Pela Lei 8.159/1991, assinale a alternativa correta.",
+      "a": 2,
+      "src": "Lei 8.159/1991, art. 7º, caput e §1º",
+      "o": [
+        {
+          "t": "São privados, pois a lei só considera públicos os documentos produzidos por órgãos públicos.",
+          "p": "restricao",
+          "w": "A lei vai além dos órgãos públicos: o art. 7º, §1º, inclui as instituições de caráter público e as entidades privadas que gerem serviços públicos."
+        },
+        {
+          "t": "São arquivos privados de interesse público e social, declarados automaticamente pelo contrato de concessão.",
+          "p": "troca",
+          "w": "Arquivo privado de interesse público e social é outra figura (arts. 12 e 13). Os documentos da concessão já são públicos por força do art. 7º, §1º."
+        },
+        {
+          "t": "Os documentos produzidos e recebidos no exercício da gestão do serviço público são arquivos públicos.",
+          "p": "correta",
+          "w": "Art. 7º, §1º: são também públicos os conjuntos de documentos produzidos e recebidos por entidades privadas encarregadas da gestão de serviços públicos, no exercício dessas atividades."
+        },
+        {
+          "t": "Todos os documentos da empresa, inclusive os de atividades sem relação com a concessão, tornam-se públicos.",
+          "p": "extrapolacao",
+          "w": "A lei alcança os documentos produzidos no exercício das atividades de gestão do serviço público, e não toda a documentação da empresa."
+        }
+      ]
+    },
+    {
+      "id": "arq51",
+      "topic": "Fundo aberto e fechado",
+      "c": "O arquivo público estadual, em Campo Grande (MS), custodia os documentos de uma companhia estadual de habitação extinta em 2019 e continua recebendo transferências e recolhimentos da Secretaria de Fazenda, em plena atividade.",
+      "q": "Como se classifica o conjunto documental da companhia extinta?",
+      "a": 3,
+      "src": "Arquivo Nacional, Dicionário Brasileiro de Terminologia Arquivística (2005), verbetes fundo aberto, fundo fechado e coleção",
+      "o": [
+        {
+          "t": "Coleção, pois foi reunido pelo arquivo público depois da extinção da companhia.",
+          "p": "troca",
+          "w": "Coleção é conjunto reunido artificialmente, por características comuns. Os documentos da companhia se acumularam organicamente nas suas atividades: formam um fundo."
+        },
+        {
+          "t": "Fundo aberto, já que todo fundo recolhido a arquivo público continua aberto a novos documentos.",
+          "p": "generalizacao",
+          "w": "Fundo aberto é o do produtor ainda em atividade, como a Secretaria de Fazenda. Extinto o produtor, o fundo deixa de receber acréscimos."
+        },
+        {
+          "t": "Deixou de ser fundo com a extinção e deve ser incorporado ao fundo de outro órgão estadual.",
+          "p": "extrapolacao",
+          "w": "A extinção não dissolve o fundo. Pelo princípio da proveniência, os documentos da companhia se mantêm como fundo próprio, sem mistura com outros."
+        },
+        {
+          "t": "Fundo fechado, pois não recebe acréscimos de documentos, já que a entidade produtora não está mais em atividade.",
+          "p": "correta",
+          "w": "É a definição do DBTA. O fundo da Secretaria de Fazenda, cujo produtor continua ativo, é um fundo aberto."
+        }
+      ]
+    },
+    {
+      "id": "arq52",
+      "topic": "Arquivo especial",
+      "c": "Na Fundação de Cultura de Recife (PE), um setor guarda fotografias, discos de vinil, fitas de vídeo, microfilmes e CDs, que exigem condições próprias de armazenamento, acondicionamento e conservação.",
+      "q": "Segundo Marilena Leite Paes, como se classifica esse arquivo?",
+      "a": 1,
+      "src": "Marilena Leite Paes, Arquivo: teoria e prática (classificação dos arquivos quanto à natureza dos documentos: especiais e especializados)",
+      "o": [
+        {
+          "t": "Especializado, porque reúne documentos em suportes que exigem tratamento técnico próprio.",
+          "p": "troca",
+          "w": "Arquivo especializado guarda documentos de um campo específico do conhecimento, como os médicos ou de engenharia, qualquer que seja o suporte."
+        },
+        {
+          "t": "Especial: guarda documentos de formas físicas diversas, que por isso merecem tratamento especial de armazenamento e conservação.",
+          "p": "correta",
+          "w": "Para Paes, o critério do arquivo especial é a forma física dos documentos (fotos, discos, fitas, microformas), que exige tratamento específico."
+        },
+        {
+          "t": "Não é arquivo, pois só documentos textuais em papel integram arquivos; fotos e discos são acervo de museu.",
+          "p": "restricao",
+          "w": "Documentos de arquivo podem ter qualquer suporte. O que os define é terem sido produzidos ou recebidos nas atividades da entidade."
+        },
+        {
+          "t": "Especial, e por isso seus documentos ficam dispensados da tabela de temporalidade.",
+          "p": "extrapolacao",
+          "w": "O suporte diferente muda o tratamento físico, mas não afasta a avaliação: esses documentos também se submetem à tabela de temporalidade."
+        }
+      ]
+    },
+    {
+      "id": "arq53",
+      "topic": "Autenticidade digital",
+      "c": "Num tribunal estadual em Natal (RN), os metadados de um despacho digital registram autor, data, processo e contexto de produção, e a verificação técnica comprovou que o arquivo não sofreu nenhuma alteração desde a assinatura.",
+      "q": "Pelo glossário da Câmara Técnica de Documentos Eletrônicos do CONARQ, essas duas verificações sustentam qual qualidade?",
+      "a": 0,
+      "src": "CONARQ, Câmara Técnica de Documentos Eletrônicos, Glossário (verbete autenticidade); e-ARQ Brasil, versão 2 (2022)",
+      "o": [
+        {
+          "t": "Autenticidade, composta de identidade e integridade.",
+          "p": "correta",
+          "w": "Os metadados de autor, data e contexto atestam a identidade; a ausência de alteração atesta a integridade. Juntas, compõem a autenticidade."
+        },
+        {
+          "t": "Confiabilidade, que depende apenas de o arquivo não ter sido alterado depois de assinado.",
+          "p": "troca",
+          "w": "Confiabilidade é a credibilidade do documento como afirmação de um fato, ligada à forma e ao controle no momento da produção. Ausência de alteração é integridade."
+        },
+        {
+          "t": "Autenticidade, que só existe quando há assinatura digital, dispensando metadados de contexto.",
+          "p": "restricao",
+          "w": "A assinatura pode ajudar a comprovar a integridade, mas a autenticidade exige também a identidade, estabelecida pelos metadados de contexto."
+        },
+        {
+          "t": "Integridade, composta de autenticidade e identidade.",
+          "p": "inversao",
+          "w": "Inverte a relação: a integridade é uma das partes da autenticidade, ao lado da identidade, e não o contrário."
+        }
+      ]
+    },
+    {
+      "id": "arq54",
+      "topic": "Classificação funcional",
+      "c": "A Prefeitura de Anápolis (GO) reorganizou suas secretarias três vezes em oito anos. O plano de classificação, montado a partir do organograma, ficou desatualizado a cada reforma, e a arquivista propôs mudar o critério.",
+      "q": "Qual critério de classificação a doutrina arquivística recomenda nesse caso?",
+      "a": 2,
+      "src": "Janice Gonçalves, Como classificar e ordenar documentos de arquivo (Arquivo do Estado de São Paulo, 1998); Schellenberg, Arquivos modernos (classificação funcional)",
+      "o": [
+        {
+          "t": "Estrutural (organizacional), por ser o mais estável diante das reformas administrativas.",
+          "p": "inversao",
+          "w": "É o contrário: o critério estrutural acompanha o organograma, que é justamente o que mais muda, como mostra o caso."
+        },
+        {
+          "t": "Alfabético por nome do interessado, que é o método de classificação que reflete as funções do órgão.",
+          "p": "troca",
+          "w": "A ordem alfabética é método de ordenação ou arquivamento dentro das séries, e não critério de classificação baseado em funções."
+        },
+        {
+          "t": "Funcional, baseado nas funções e atividades do órgão, que mudam menos que a estrutura administrativa.",
+          "p": "correta",
+          "w": "Funções e atividades tendem a permanecer mesmo quando as unidades mudam de nome ou são fundidas, por isso a classificação funcional é a preferida."
+        },
+        {
+          "t": "Qualquer critério, pois todos os planos de classificação perdem validade a cada reforma administrativa.",
+          "p": "generalizacao",
+          "w": "O plano funcional resiste melhor às reformas justamente por não depender do organograma; os critérios não são equivalentes."
+        }
+      ]
+    },
+    {
+      "id": "arq55",
+      "type": "ce",
+      "topic": "Dever de gestão documental",
+      "src": "Lei 8.159/1991, art. 1º",
+      "c": "Em Picos (PI), o secretário de Administração propôs extinguir o setor de arquivo da prefeitura, alegando que organizar e guardar documentos é tarefa opcional, que só interessa a historiadores.",
+      "q": "Pela Lei 8.159/1991, é dever do Poder Público a gestão documental e a proteção especial a documentos de arquivos, como instrumento de apoio à administração, à cultura, ao desenvolvimento científico e como elementos de prova e informação.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "É o texto do art. 1º da Lei 8.159/1991. A gestão documental é dever do Poder Público, inclusive do município, e serve à própria administração e à prova, e não só à pesquisa histórica."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado reduz os arquivos ao interesse histórico ou trata sua gestão como opcional. O art. 1º impõe ao Poder Público esse dever, também como apoio à administração e como elemento de prova e informação."
+        }
+      ]
+    },
+    {
+      "id": "arq56",
+      "type": "ce",
+      "topic": "Informações pessoais",
+      "src": "Lei 12.527/2011, art. 31, §1º, I e II",
+      "c": "Um terceiro, sem consentimento dos pacientes e sem previsão legal específica, pediu ao arquivo público de Goiás cópias de prontuários de um hospital psiquiátrico estadual dos anos 1990, com dados sobre a vida íntima dos internados.",
+      "q": "Pela Lei de Acesso à Informação, as informações pessoais relativas à intimidade, vida privada, honra e imagem têm acesso restrito, independentemente de classificação de sigilo, pelo prazo máximo de 100 anos a contar da data de produção.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "É a regra do art. 31, §1º, I: o acesso fica restrito a agentes legalmente autorizados e à própria pessoa, por até 100 anos, sem depender de classificação de sigilo."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado confunde as informações pessoais com as classificadas por sigilo, cujos prazos máximos são de 25, 15 ou 5 anos. Para as pessoais, o prazo máximo é de 100 anos."
+        }
+      ]
+    },
+    {
+      "id": "arq57",
+      "type": "ce",
+      "topic": "Subclasse 080",
+      "src": "Portaria AN/MGI 174/2024, art. 1º, §1º",
+      "c": "Em treinamento para servidores de uma universidade federal em Santa Maria (RS), o instrutor apresentou as subclasses da classe 000 do código de classificação das atividades-meio.",
+      "q": "A subclasse 080, Pessoal Militar, é de uso comum a todos os órgãos e entidades do SIGA, como as demais subclasses da classe 000.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo estende a todos uma subclasse de uso restrito. A portaria limita a subclasse 080 ao Ministério da Defesa, aos Comandos Militares e às organizações que os integram."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O art. 1º, §1º, da Portaria AN/MGI 174/2024 reserva a subclasse 080, Pessoal Militar, ao Ministério da Defesa, aos Comandos Militares e às organizações que os integram. Não é de uso comum, e a universidade não a utiliza."
+        }
+      ]
+    },
+    {
+      "id": "arq58",
+      "type": "ce",
+      "topic": "Arquivo privado relevante",
+      "src": "Lei 8.159/1991, arts. 12 e 13",
+      "c": "O arquivo pessoal de um ex-governador de Pernambuco foi identificado pelo Poder Público como de interesse público e social. A família recebeu de uma universidade estrangeira proposta para comprar o acervo inteiro e levá-lo para fora do país.",
+      "q": "A venda e a transferência para o exterior são permitidas, desde que o acervo seja vendido inteiro, sem dispersão ou perda da unidade documental.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "restricao",
+          "w": "Julgar certo cria uma condição que a lei não prevê. Manter o acervo inteiro não autoriza a saída do país: a transferência para o exterior é vedada em qualquer caso."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O art. 13 da Lei 8.159/1991 proíbe alienar esses arquivos com dispersão ou perda da unidade documental e também transferi-los para o exterior; na alienação, o Poder Público tem preferência."
+        }
+      ]
+    },
+    {
+      "id": "arq59",
+      "type": "ce",
+      "topic": "Extinção de órgão público",
+      "src": "Lei 8.159/1991, art. 7º, §2º",
+      "c": "Uma autarquia municipal de trânsito de Juiz de Fora (MG) foi extinta por lei, e suas atribuições passaram à Secretaria de Mobilidade Urbana. O último diretor perguntou o destino dos documentos.",
+      "q": "Pela Lei 8.159/1991, a cessação de atividades de instituição pública implica o recolhimento de sua documentação à instituição arquivística pública ou a sua transferência à instituição sucessora.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "É o texto do art. 7º, §2º, da Lei 8.159/1991. No caso, os documentos vão ao arquivo público municipal ou à Secretaria de Mobilidade, sucessora da autarquia."
+        },
+        {
+          "t": "Errado",
+          "p": "extrapolacao",
+          "w": "Julgar errado supõe que a extinção libera o descarte ou a livre destinação dos documentos. A lei obriga a recolhê-los ao arquivo público ou transferi-los à sucessora."
+        }
+      ]
+    },
+    {
+      "id": "arq60",
+      "type": "ce",
+      "topic": "Eliminação de digitais",
+      "src": "Resolução CONARQ 40/2014, arts. 1º e 2º (redação da Resolução 44/2020)",
+      "c": "O setor de tecnologia de uma agência reguladora federal em Brasília quer apagar processos eletrônicos e e-mails institucionais antigos sem consultar a comissão permanente de avaliação, alegando que a norma do CONARQ só trata de papel.",
+      "q": "A Resolução CONARQ 40/2014 disciplina apenas a eliminação de documentos em papel, de modo que documentos digitais podem ser apagados sem a avaliação da comissão permanente de avaliação.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "restricao",
+          "w": "Julgar certo restringe a norma ao papel. Desde a Resolução 44/2020, o art. 1º da Resolução 40/2014 diz expressamente que trata da eliminação de documentos digitais e não digitais."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Na redação da Resolução 44/2020, a eliminação de documentos digitais e não digitais só ocorre após a avaliação e seleção pela CPAD, com base na tabela de temporalidade aprovada."
+        }
       ]
     }
   ]

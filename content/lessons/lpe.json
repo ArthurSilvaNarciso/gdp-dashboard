@@ -1,0 +1,342 @@
+{
+  "id": "lpe",
+  "lessons": [
+    {
+      "id": "lpe-a1",
+      "title": "Lei de Drogas: usuário, traficante e procedimento",
+      "mins": 7,
+      "qids": ["lpe1", "lpe2", "lpe3", "lpe4", "lpe5", "lpe30"],
+      "intro": "Ao fim desta aula, você separa usuário de traficante, aplica o tráfico privilegiado e a associação do art. 35 e domina os prazos do procedimento da Lei 11.343/06.",
+      "sections": [
+        {
+          "h": "Art. 28 e o que o STF decidiu sobre a maconha",
+          "p": [
+            "O art. 28 pune quem adquire, guarda, tem em depósito, transporta ou traz consigo droga para consumo pessoal com advertência, prestação de serviços à comunidade ou comparecimento a curso educativo. Não há pena de prisão, e o art. 48, § 2º, veda o flagrante: lavra-se termo circunstanciado.",
+            "No RE 635.659 (Tema 506), o STF decidiu que portar maconha para uso próprio não é crime: é ilícito sem efeitos penais. A droga é apreendida, e cabem advertência e curso educativo em procedimento não penal.",
+            "Presume-se usuário quem porta até 40 g de cannabis ou seis plantas-fêmeas, mas a presunção é relativa: balança, fracionamento e anotações de venda permitem tratar o caso como tráfico. Para as demais drogas, o art. 28 segue como crime."
+          ]
+        },
+        {
+          "h": "Tráfico e tráfico privilegiado",
+          "p": [
+            "O art. 33, caput, pune com reclusão de 5 a 15 anos e 500 a 1.500 dias-multa as condutas do tráfico, como importar, vender, guardar e transportar droga sem autorização. O § 4º permite reduzir a pena de um sexto a dois terços se o agente for primário, de bons antecedentes, não se dedicar a atividades criminosas nem integrar organização criminosa.",
+            "Os quatro requisitos são cumulativos e não exigem colaboração. Não confunda com o art. 41, que premia quem colabora voluntariamente identificando coautores e recuperando o produto do crime com redução de um terço a dois terços."
+          ]
+        },
+        {
+          "h": "Associação para o tráfico",
+          "p": [
+            "O art. 35 pune com reclusão de 3 a 10 anos a associação de duas ou mais pessoas para praticar, reiteradamente ou não, os crimes dos arts. 33, caput e § 1º, e 34. É crime autônomo, que se soma ao tráfico praticado.",
+            "Compare os números: duas pessoas no art. 35 da Lei de Drogas, três na associação criminosa do art. 288 do CP e quatro na organização criminosa da Lei 12.850/13."
+          ]
+        },
+        {
+          "h": "Procedimento especial",
+          "p": [
+            "Para o flagrante e a materialidade, basta o laudo de constatação da natureza e quantidade da droga, firmado por perito oficial ou, na falta, por pessoa idônea (art. 50, § 1º). O inquérito termina em 30 dias com indiciado preso e em 90 dias com indiciado solto, prazos que o juiz pode duplicar, ouvido o MP, a pedido justificado do delegado (art. 51).",
+            "Recebido o inquérito, o MP tem 10 dias para denunciar, pedir arquivamento ou requisitar diligências (art. 54). Oferecida a denúncia, o acusado é notificado para defesa prévia em 10 dias, antes do recebimento (art. 55)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Em Maringá (PR), Bruno, primário e sem antecedentes, foi preso com 200 g de cocaína; o celular dele mostrava que vendia droga havia dois anos para uma facção.",
+        "q": "Ele tem direito ao tráfico privilegiado?",
+        "a": "Não. A dedicação a atividades criminosas e o vínculo com a organização afastam o art. 33, § 4º, mesmo sendo ele primário e de bons antecedentes."
+      },
+      "traps": [
+        "Trocar as frações: 1/6 a 2/3 é o tráfico privilegiado; 1/3 a 2/3 é a colaboração do art. 41.",
+        "Achar que a tese do STF vale para qualquer droga ou que os 40 g formam presunção absoluta.",
+        "Exigir três ou quatro pessoas para a associação do art. 35: bastam duas."
+      ],
+      "summary": [
+        "Porte de maconha para uso próprio: ilícito não penal, com presunção relativa de até 40 g ou seis plantas-fêmeas.",
+        "Tráfico privilegiado: quatro requisitos cumulativos e redução de 1/6 a 2/3.",
+        "Inquérito: 30 dias preso, 90 dias solto, duplicáveis pelo juiz."
+      ],
+      "src": "Lei 11.343/06, arts. 28, 33, 35, 41, 48, 50, 51, 54 e 55; STF, RE 635.659 (Tema 506)."
+    },
+    {
+      "id": "lpe-a2",
+      "title": "Estatuto do Desarmamento e crimes hediondos",
+      "mins": 7,
+      "qids": ["lpe6", "lpe7", "lpe9", "lpe31", "lpe33", "lpe34"],
+      "intro": "Ao fim desta aula, você enquadra posse, porte, numeração raspada, omissão de cautela e comércio ilegal e sabe quais crimes de arma entram no rol dos hediondos.",
+      "sections": [
+        {
+          "h": "O mapa das penas do Estatuto",
+          "p": [
+            "A posse irregular de arma de uso permitido dentro de casa ou no local de trabalho de que se é titular tem detenção de 1 a 3 anos (art. 12). O porte ilegal de arma de uso permitido tem reclusão de 2 a 4 anos (art. 14), e o disparo em lugar habitado ou via pública também (art. 15).",
+            "Posse ou porte de arma de uso restrito: reclusão de 3 a 6 anos (art. 16, caput). Se a arma for de uso proibido, reclusão de 4 a 12 anos (art. 16, § 2º)."
+          ],
+          "list": [
+            "Art. 13: omissão de cautela que deixa menor de 18 anos se apoderar da arma, detenção de 1 a 2 anos.",
+            "Art. 17: comércio ilegal, reclusão de 6 a 12 anos.",
+            "Art. 18: tráfico internacional, reclusão de 8 a 16 anos."
+          ]
+        },
+        {
+          "h": "Numeração raspada e agente disfarçado",
+          "p": [
+            "Quem porta ou possui arma com numeração, marca ou sinal de identificação raspado, suprimido ou adulterado responde pelo art. 16, § 1º, IV, com as penas do caput, ainda que o calibre seja permitido.",
+            "A Lei 13.964/2019 criou a figura do agente policial disfarçado: vender ou entregar arma a ele configura comércio ilegal (art. 17, § 2º) ou tráfico internacional (art. 18, parágrafo único), desde que haja elementos probatórios razoáveis de conduta criminal preexistente."
+          ]
+        },
+        {
+          "h": "O que é hediondo e o que é equiparado",
+          "p": [
+            "O rol do art. 1º da Lei 8.072/90 é taxativo. No Estatuto do Desarmamento, são hediondos a posse ou o porte de arma de uso proibido, o comércio ilegal e o tráfico internacional de arma (parágrafo único, II a IV); a arma de uso restrito do caput do art. 16 ficou de fora.",
+            "Tortura, tráfico de drogas e terrorismo não estão no rol: são equiparados por força da CF, art. 5º, XLIII, e recebem as mesmas vedações do art. 2º, como anistia, graça, indulto e fiança."
+          ]
+        },
+        {
+          "h": "Temporária e progressão",
+          "p": [
+            "Nos hediondos e equiparados, a prisão temporária dura 30 dias, prorrogáveis por igual período em caso de extrema e comprovada necessidade (art. 2º, § 4º).",
+            "O § 2º do art. 2º, que tratava da progressão, foi revogado pela Lei 13.964/2019. A progressão segue o art. 112 da LEP, que foi alterado várias vezes em 2024 a 2026: estude sempre o texto vigente do edital."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Em Cascavel (PR), Nelson foi preso transportando no carro uma arma de fogo de uso proibido, sem autorização.",
+        "q": "O crime é hediondo?",
+        "a": "Sim. O porte ilegal de arma de uso proibido (art. 16, § 2º, do Estatuto) está no art. 1º, parágrafo único, II, da Lei 8.072/90, com pena de reclusão de 4 a 12 anos."
+      },
+      "traps": [
+        "Achar que a numeração raspada só agrava arma de uso restrito: vale para qualquer arma.",
+        "Dizer que todo crime do art. 16 é hediondo: só o de arma de uso proibido.",
+        "Colocar o tráfico de drogas no rol do art. 1º: ele é equiparado, não hediondo."
+      ],
+      "summary": [
+        "Posse é dentro de casa ou no próprio local de trabalho; fora disso é porte.",
+        "Arma raspada: art. 16, § 1º, IV, reclusão de 3 a 6 anos.",
+        "Temporária nos hediondos: 30 + 30 dias; progressão pela LEP."
+      ],
+      "src": "Lei 10.826/03, arts. 12 a 18; Lei 8.072/90, arts. 1º e 2º; CF/88, art. 5º, XLIII."
+    },
+    {
+      "id": "lpe-a3",
+      "title": "Organizações criminosas e meios de prova",
+      "mins": 8,
+      "qids": ["lpe10", "lpe11", "lpe12", "lpe32", "lpe18", "lpe36"],
+      "intro": "Ao fim desta aula, você reconhece uma organização criminosa e sabe os requisitos de colaboração premiada, infiltração, ação controlada e captação ambiental.",
+      "sections": [
+        {
+          "h": "O conceito em quatro números",
+          "p": [
+            "Organização criminosa é a associação de 4 ou mais pessoas, estruturalmente ordenada e com divisão de tarefas, ainda que informal, para obter vantagem mediante infrações com penas máximas superiores a 4 anos ou de caráter transnacional (Lei 12.850/13, art. 1º, § 1º).",
+            "Promover, constituir, financiar ou integrar organização criminosa tem reclusão de 3 a 8 anos e multa (art. 2º). A Lei 12.850/13 revogou expressamente a antiga Lei 9.034/95 (art. 26)."
+          ]
+        },
+        {
+          "h": "Colaboração premiada",
+          "p": [
+            "A colaboração é negócio jurídico processual e meio de obtenção de prova (art. 3º-A). O juiz não participa das negociações (art. 4º, § 6º) e, na homologação, verifica regularidade, legalidade, adequação dos benefícios e voluntariedade (§ 7º).",
+            "Os prêmios vão de perdão judicial e redução de até 2/3 à substituição por restritiva de direitos (art. 4º). O MP pode até deixar de denunciar se a infração era desconhecida e o colaborador não for o líder e for o primeiro a colaborar (§ 4º)."
+          ],
+          "list": [
+            "Art. 4º, § 16: nenhuma cautelar, recebimento de denúncia ou condenação com base apenas nas declarações do colaborador."
+          ]
+        },
+        {
+          "h": "Infiltração e ação controlada",
+          "p": [
+            "A infiltração exige autorização judicial circunstanciada, a requerimento do MP ou por representação do delegado, e só cabe se a prova não puder ser produzida por outros meios. Dura até 6 meses, renováveis; na infiltração virtual, o total não passa de 720 dias (arts. 10 e 10-A).",
+            "Na ação controlada, a polícia retarda a intervenção para agir no momento mais eficaz. Basta comunicação prévia ao juiz, que fixa os limites e comunica o MP (art. 8º, § 1º)."
+          ]
+        },
+        {
+          "h": "Captação ambiental",
+          "p": [
+            "O art. 8º-A da Lei 9.296/96 permite ao juiz autorizar a captação ambiental, a requerimento da polícia ou do MP, quando a prova não puder ser obtida por outros meios igualmente eficazes e houver elementos de autoria em crimes com pena máxima superior a 4 anos ou conexos. O prazo é de 15 dias, renováveis.",
+            "Fazer captação ambiental sem autorização judicial, quando exigida, é crime (art. 10-A), mas não há crime se quem grava é um dos interlocutores (§ 1º)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Em Santos (SP), a PF acompanha um contêiner com cocaína e decide não abordar o motorista no porto, para seguir a carga até o galpão da organização.",
+        "q": "O delegado precisa de autorização judicial?",
+        "a": "Não. Trata-se de ação controlada: a lei exige apenas comunicação prévia ao juiz, que poderá fixar limites (Lei 12.850/13, art. 8º, § 1º)."
+      },
+      "traps": [
+        "Trocar comunicação (ação controlada) por autorização (infiltração).",
+        "Usar três pessoas ou pena máxima de 4 anos no conceito: são quatro pessoas e pena máxima superior a 4 anos.",
+        "Dizer que a palavra do colaborador basta para receber a denúncia."
+      ],
+      "summary": [
+        "Organização criminosa: 4 ou mais pessoas e pena máxima superior a 4 anos ou transnacionalidade.",
+        "Colaboração é meio de obtenção de prova e precisa de corroboração.",
+        "Infiltração: autorização, 6 meses renováveis, 720 dias no virtual; ação controlada: só comunicação."
+      ],
+      "src": "Lei 12.850/13, arts. 1º a 4º, 8º, 10, 10-A e 26; Lei 9.296/96, arts. 8º-A e 10-A."
+    },
+    {
+      "id": "lpe-a4",
+      "title": "Lavagem de dinheiro e interceptação telefônica",
+      "mins": 7,
+      "qids": ["lpe13", "lpe14", "lpe15", "lpe35", "lpe16", "lpe17"],
+      "intro": "Ao fim desta aula, você identifica as fases da lavagem, sabe o que serve de antecedente e quando a interceptação telefônica é admitida.",
+      "sections": [
+        {
+          "h": "Fases e antecedente da lavagem",
+          "p": [
+            "A doutrina descreve três fases: colocação (o dinheiro entra no sistema, muitas vezes por depósitos fracionados), ocultação ou dissimulação (operações que apagam o rastro) e integração (retorno com aparência lícita). O crime não exige o ciclo completo: ocultar ou dissimular já basta.",
+            "Desde a Lei 12.683/2012, qualquer infração penal, inclusive contravenção, pode ser antecedente. A pena é de reclusão de 3 a 10 anos e multa (Lei 9.613/98, art. 1º)."
+          ]
+        },
+        {
+          "h": "Autonomia, autolavagem e colaboração",
+          "p": [
+            "O processo por lavagem independe do processo da infração antecedente; a denúncia só precisa de indícios suficientes dela, e o fato é punível ainda que o autor da antecedente seja desconhecido ou isento de pena (art. 2º, II e § 1º).",
+            "O autor do crime antecedente também pode responder por lavagem quando pratica atos autônomos de ocultação: é a autolavagem, admitida pelo STF e pelo STJ. Quem colabora espontaneamente pode ter a pena reduzida de 1/3 a 2/3, regime aberto ou semiaberto, ou o juiz pode deixar de aplicá-la ou substituí-la (art. 1º, § 5º)."
+          ]
+        },
+        {
+          "h": "Interceptação: quando não cabe",
+          "p": [
+            "A interceptação depende de ordem do juiz competente da ação principal, sob segredo de justiça (Lei 9.296/96, art. 1º). O art. 2º proíbe a medida em três situações.",
+            "Pode ser determinada a requerimento da autoridade policial, na investigação, ou do MP, na investigação e na instrução (art. 3º)."
+          ],
+          "list": [
+            "Não há indícios razoáveis de autoria ou participação.",
+            "A prova pode ser feita por outros meios disponíveis.",
+            "O fato é punido, no máximo, com detenção."
+          ]
+        },
+        {
+          "h": "Pedido, decisão e prazo",
+          "p": [
+            "Excepcionalmente, o pedido pode ser verbal, desde que reduzido a termo, e o juiz decide em 24 horas (art. 4º, §§ 1º e 2º). A decisão fundamentada fixa a forma de execução e o prazo de 15 dias, renovável por igual tempo uma vez comprovada a indispensabilidade (art. 5º).",
+            "Interceptar sem autorização judicial ou com objetivo não autorizado em lei é crime, com reclusão de 2 a 4 anos e multa (art. 10)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Em Londrina (PR), um prefeito recebia propina em espécie e a depositava aos poucos na conta de um primo, que depois comprava gado em seu próprio nome.",
+        "q": "Os depósitos fracionados já configuram lavagem?",
+        "a": "Sim. É a fase de colocação, com ocultação da origem dos valores; o crime do art. 1º da Lei 9.613/98 não exige que as três fases se completem."
+      },
+      "traps": [
+        "Exigir condenação pelo crime antecedente para processar a lavagem.",
+        "Ler \"renovável por igual tempo uma vez\" como renovação única: \"uma vez\" significa \"desde que\" comprovada a indispensabilidade.",
+        "Admitir interceptação para crime punido só com detenção."
+      ],
+      "summary": [
+        "Lavagem: qualquer infração penal antecedente e processo autônomo.",
+        "Autolavagem é possível quando há ocultação autônoma.",
+        "Interceptação: subsidiária, só para crimes com reclusão, 15 dias renováveis."
+      ],
+      "src": "Lei 9.613/98, arts. 1º e 2º; Lei 9.296/96, arts. 1º a 5º e 10; Badaró e Bottini, Lavagem de Dinheiro (RT)."
+    },
+    {
+      "id": "lpe-a5",
+      "title": "Juizados Especiais e crimes de trânsito",
+      "mins": 7,
+      "qids": ["lpe19", "lpe20", "lpe21", "lpe22", "lpe23", "lpe38"],
+      "intro": "Ao fim desta aula, você aplica termo circunstanciado, transação penal e suspensão condicional do processo e resolve os casos de embriaguez ao volante e recusa ao bafômetro.",
+      "sections": [
+        {
+          "h": "Menor potencial ofensivo",
+          "p": [
+            "São infrações de menor potencial ofensivo as contravenções e os crimes com pena máxima não superior a 2 anos, cumulada ou não com multa (Lei 9.099/95, art. 61). A autoridade lavra termo circunstanciado e não impõe flagrante nem fiança se o autor for ao Juizado ou assumir o compromisso de comparecer (art. 69, parágrafo único).",
+            "A transação penal não cabe a quem foi condenado por crime a pena privativa de liberdade por sentença definitiva, a quem recebeu o benefício nos 5 anos anteriores ou quando os antecedentes não a indicam (art. 76, § 2º). Ela não gera reincidência nem antecedentes (§§ 4º e 6º)."
+          ]
+        },
+        {
+          "h": "Suspensão condicional do processo",
+          "p": [
+            "O critério é outro: pena mínima igual ou inferior a 1 ano, para crimes abrangidos ou não pela Lei 9.099/95. O MP propõe com a denúncia a suspensão por 2 a 4 anos, se o acusado não estiver sendo processado nem tiver sido condenado por outro crime (art. 89).",
+            "Durante o período de prova, a prescrição não corre; cumprido sem revogação, o juiz declara extinta a punibilidade (§§ 5º e 6º)."
+          ]
+        },
+        {
+          "h": "Embriaguez ao volante",
+          "p": [
+            "O art. 306 do CTB pune conduzir com capacidade psicomotora alterada por álcool ou outra substância psicoativa, com detenção de 6 meses a 3 anos, multa e suspensão ou proibição de dirigir. A prova pode ser a concentração de 6 dg/L de sangue ou 0,3 mg/L de ar alveolar, ou sinais de alteração, inclusive por vídeo e testemunhas (§§ 1º e 2º).",
+            "Recusar o bafômetro é infração administrativa gravíssima do art. 165-A, com multa dez vezes e suspensão do direito de dirigir por 12 meses. A recusa, sozinha, não é o crime do art. 306."
+          ]
+        },
+        {
+          "h": "Outros crimes de trânsito",
+          "p": [
+            "Na lesão culposa de trânsito, não se aplicam composição civil, transação e representação se o agente estava sob influência de álcool, disputava racha ou trafegava a mais de 50 km/h acima da máxima; nesses casos instaura-se inquérito (art. 291, §§ 1º e 2º). Quem presta pronto e integral socorro à vítima não é preso em flagrante nem paga fiança (art. 301).",
+            "O homicídio culposo na direção tem detenção de 2 a 4 anos, que passa a reclusão de 5 a 8 anos se o condutor estava sob influência de álcool ou substância psicoativa (art. 302, § 3º)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Em Bauru (SP), Lívia, já beneficiada por transação há seis anos, foi autuada por crime com pena máxima de 1 ano.",
+        "q": "Ela pode receber nova transação?",
+        "a": "Pode, se preencher os demais requisitos: o impedimento do art. 76, § 2º, II, vale só para benefício recebido nos 5 anos anteriores."
+      },
+      "traps": [
+        "Trocar os critérios: pena máxima de até 2 anos define o menor potencial ofensivo; pena mínima de até 1 ano abre a suspensão do processo.",
+        "Tratar a recusa ao bafômetro como crime.",
+        "Inverter as medidas do etilômetro: 0,3 mg/L é no ar alveolar; 6 dg/L é no sangue."
+      ],
+      "summary": [
+        "Menor potencial ofensivo: pena máxima até 2 anos e termo circunstanciado.",
+        "Suspensão do processo: pena mínima até 1 ano e prova de 2 a 4 anos.",
+        "Recusa ao bafômetro: art. 165-A; crime do art. 306 se prova por outros meios."
+      ],
+      "src": "Lei 9.099/95, arts. 61, 69, 76 e 89; CTB, arts. 165-A, 291, 301, 302 e 306."
+    },
+    {
+      "id": "lpe-a6",
+      "title": "Racismo, pessoa idosa e crimes ambientais",
+      "mins": 6,
+      "qids": ["lpe25", "lpe39", "lpe26", "lpe40", "lpe27", "lpe28"],
+      "intro": "Ao fim desta aula, você distingue injúria racial de racismo após a Lei 14.532/2023, aplica as regras dos crimes contra a pessoa idosa e responsabiliza a pessoa jurídica por crime ambiental.",
+      "sections": [
+        {
+          "h": "Injúria racial e racismo",
+          "p": [
+            "Desde a Lei 14.532/2023, injuriar alguém em razão de raça, cor, etnia ou procedência nacional é o crime do art. 2º-A da Lei 7.716/89, com reclusão de 2 a 5 anos e multa. No art. 140, § 3º, do CP, ficaram só religião, pessoa idosa e pessoa com deficiência.",
+            "O art. 20 pune praticar, induzir ou incitar discriminação ou preconceito, com reclusão de 1 a 3 anos e multa; pela internet, redes sociais ou meios de comunicação, a pena sobe para 2 a 5 anos (§ 2º). Funcionário público no exercício da função tem pena aumentada de 1/3 até a metade (art. 20-B)."
+          ]
+        },
+        {
+          "h": "Crimes contra a pessoa idosa",
+          "p": [
+            "O Estatuto da Pessoa Idosa protege quem tem 60 anos ou mais. Seus crimes são de ação penal pública incondicionada, e não se aplicam as imunidades dos arts. 181 e 182 do CP, de modo que filho ou neto também responde (art. 95).",
+            "Desde a Lei 15.163/2025, o art. 94 manda aplicar o CP e o CPP e proíbe a Lei 9.099/95 nos crimes do Estatuto e nos praticados com violência contra a pessoa idosa, qualquer que seja a pena (parágrafo único)."
+          ],
+          "list": [
+            "Art. 102: apropriar-se ou desviar bens, proventos ou pensão, reclusão de 1 a 4 anos.",
+            "Art. 104: reter cartão de benefício para garantir dívida, detenção de 6 meses a 2 anos.",
+            "Art. 99: expor a perigo a integridade da pessoa idosa, reclusão de 2 a 5 anos (Lei 15.163/2025)."
+          ]
+        },
+        {
+          "h": "A pessoa jurídica no crime ambiental",
+          "p": [
+            "A pessoa jurídica responde administrativa, civil e penalmente quando a infração é cometida por decisão do representante legal ou contratual, ou do órgão colegiado, no interesse ou benefício da entidade (Lei 9.605/98, art. 3º; CF, art. 225, § 3º). Isso não exclui a responsabilidade das pessoas físicas.",
+            "As penas da pessoa jurídica são multa, restritivas de direitos e prestação de serviços à comunidade (art. 21); a proibição de contratar com o Poder Público vai até 10 anos (art. 22, § 3º). Empresa criada ou usada preponderantemente para crime ambiental sofre liquidação forçada, e o patrimônio vai ao Fundo Penitenciário Nacional (art. 24)."
+          ]
+        },
+        {
+          "h": "Juizados nos crimes ambientais",
+          "p": [
+            "A ação penal nos crimes ambientais é pública incondicionada (art. 26). A transação penal só pode ser proposta depois da prévia composição do dano ambiental, salvo comprovada impossibilidade (art. 27).",
+            "Na suspensão condicional do processo, a extinção da punibilidade depende de laudo que comprove a reparação do dano (art. 28, I)."
+          ]
+        }
+      ],
+      "example": {
+        "c": "Em Cuiabá (MT), um servidor do balcão de atendimento de uma autarquia ofendeu uma cidadã indígena com termos referentes à etnia dela.",
+        "q": "Qual crime e com qual consequência especial?",
+        "a": "Injúria racial (art. 2º-A da Lei 7.716/89), com pena aumentada de 1/3 até a metade por ter sido praticada por funcionário público no exercício da função (art. 20-B)."
+      },
+      "traps": [
+        "Enquadrar ofensa racial a pessoa determinada no art. 140, § 3º, do CP.",
+        "Aplicar a imunidade do art. 181 do CP ao neto que desvia a aposentadoria da avó.",
+        "Achar que a punição da empresa afasta a do sócio que decidiu o crime."
+      ],
+      "summary": [
+        "Injúria racial: Lei 7.716/89, art. 2º-A, reclusão de 2 a 5 anos.",
+        "Crimes do Estatuto da Pessoa Idosa: ação pública incondicionada, sem imunidades do CP.",
+        "Pessoa jurídica responde penalmente por crime ambiental, junto com as pessoas físicas."
+      ],
+      "src": "Lei 7.716/89, arts. 2º-A, 20 e 20-B; Lei 10.741/03, arts. 94, 95, 99, 102 e 104 (com a Lei 15.163/2025); Lei 9.605/98, arts. 3º, 21, 22, 24, 26 a 28."
+    }
+  ]
+}

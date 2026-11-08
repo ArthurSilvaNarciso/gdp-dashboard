@@ -1,0 +1,1101 @@
+{
+  "id": "lpe",
+  "title": "Legislação Penal Especial",
+  "subtitle": "Drogas, armas, crime organizado e mais",
+  "tag": "Concursos",
+  "blurb": "Drogas, armas, crime organizado, lavagem, interceptação, Juizados e trânsito em casos de delegacia, com o artigo exato já atualizado.",
+  "questions": [
+    {
+      "id": "lpe1",
+      "topic": "Tráfico privilegiado",
+      "c": "Em Juazeiro do Norte (CE), Tainá, de 22 anos, foi presa vendendo 15 porções de cocaína na porta de um bar. É primária, tem bons antecedentes e a investigação não achou indício de que se dedique a atividades criminosas ou integre organização criminosa.",
+      "q": "Condenada pelo art. 33, caput, da Lei 11.343/06, como a pena de Tainá pode ser tratada?",
+      "a": 2,
+      "src": "Lei 11.343/06, art. 33, caput e § 4º",
+      "o": [
+        {
+          "t": "Pode ser reduzida de um terço a dois terços, pois essa é a fração do tráfico privilegiado.",
+          "p": "calculo",
+          "w": "A fração de 1/3 a 2/3 é a da colaboração voluntária do art. 41. No tráfico privilegiado (art. 33, § 4º), a redução vai de um sexto a dois terços."
+        },
+        {
+          "t": "Pode ser reduzida, mas só se ela também indicar à polícia quem lhe fornecia a droga.",
+          "p": "restricao",
+          "w": "O § 4º não exige colaboração. Bastam os quatro requisitos: primariedade, bons antecedentes, não se dedicar a atividades criminosas e não integrar organização criminosa."
+        },
+        {
+          "t": "Pode ser reduzida de um sexto a dois terços, porque ela preenche cumulativamente os requisitos do tráfico privilegiado.",
+          "p": "correta",
+          "w": "Art. 33, § 4º: a pena pode ser reduzida de 1/6 a 2/3 se o agente for primário, de bons antecedentes, não se dedicar às atividades criminosas nem integrar organização criminosa. Os requisitos são cumulativos."
+        },
+        {
+          "t": "Deve ser reduzida para qualquer réu primário, ainda que integre organização criminosa.",
+          "p": "generalizacao",
+          "w": "Não integrar organização criminosa é requisito expresso do § 4º; a primariedade, sozinha, não garante a redução."
+        }
+      ]
+    },
+    {
+      "id": "lpe2",
+      "topic": "Associação para o tráfico",
+      "c": "Em Caxias do Sul (RS), a Polícia Civil comprovou que os irmãos Rui e Davi mantinham, havia mais de um ano, ajuste estável e permanente para vender cocaína em conjunto, dividindo lucros e pontos de venda. Ninguém mais participava do esquema.",
+      "q": "Além do tráfico, qual crime da legislação especial os irmãos cometeram?",
+      "a": 0,
+      "src": "Lei 11.343/06, art. 35; Lei 12.850/13, art. 1º, § 1º",
+      "o": [
+        {
+          "t": "Associação para o tráfico (art. 35 da Lei 11.343/06), que se configura com duas ou mais pessoas associadas para traficar.",
+          "p": "correta",
+          "w": "O art. 35 pune a associação de duas ou mais pessoas para praticar, reiteradamente ou não, os crimes dos arts. 33, caput e § 1º, e 34, com reclusão de 3 a 10 anos. O vínculo estável e permanente do caso caracteriza a associação."
+        },
+        {
+          "t": "Organização criminosa (Lei 12.850/13), já que há divisão de lucros e de pontos de venda.",
+          "p": "troca",
+          "w": "A organização criminosa exige quatro ou mais pessoas (art. 1º, § 1º, da Lei 12.850/13). Com dois integrantes, a figura própria é a do art. 35 da Lei de Drogas."
+        },
+        {
+          "t": "Nenhum, pois a associação para o tráfico exige no mínimo três pessoas.",
+          "p": "restricao",
+          "w": "Três pessoas é o mínimo da associação criminosa do art. 288 do CP. O art. 35 da Lei 11.343/06 se contenta com duas."
+        },
+        {
+          "t": "Nenhum crime autônomo, pois toda associação para traficar fica absorvida pelo próprio tráfico.",
+          "p": "generalizacao",
+          "w": "A associação do art. 35 é crime autônomo e se soma ao tráfico efetivamente praticado; não é absorvida por ele."
+        }
+      ]
+    },
+    {
+      "id": "lpe3",
+      "topic": "Inquérito: Lei de Drogas",
+      "c": "Em Cuiabá (MT), o delegado Murilo lavrou o auto de prisão em flagrante de um homem que transportava 8 kg de maconha no porta-malas. A investigação sobre o fornecedor ainda deve ser longa.",
+      "q": "Qual é o prazo para concluir esse inquérito, segundo a Lei de Drogas?",
+      "a": 3,
+      "src": "Lei 11.343/06, art. 51",
+      "o": [
+        {
+          "t": "10 dias, prazo geral do CPP para o investigado preso, sem possibilidade de prorrogação.",
+          "p": "troca",
+          "w": "Os 10 dias do art. 10 do CPP cedem à regra especial do art. 51 da Lei 11.343/06, que fixa 30 dias para o indiciado preso."
+        },
+        {
+          "t": "90 dias, porque o prazo maior da lei é justamente o do indiciado preso.",
+          "p": "inversao",
+          "w": "A lei faz o contrário: 30 dias para o indiciado preso e 90 dias para o solto (art. 51, caput)."
+        },
+        {
+          "t": "30 dias, que o próprio delegado pode prorrogar por mais 15 se a investigação for complexa.",
+          "p": "extrapolacao",
+          "w": "Não há prorrogação de 15 dias nem decisão do delegado sozinho: quem duplica o prazo é o juiz, ouvido o MP, a pedido justificado da autoridade policial."
+        },
+        {
+          "t": "30 dias, que o juiz pode duplicar, ouvido o Ministério Público, mediante pedido justificado do delegado.",
+          "p": "correta",
+          "w": "Art. 51: o inquérito termina em 30 dias se o indiciado estiver preso e em 90 dias se estiver solto. O parágrafo único permite ao juiz duplicar esses prazos, ouvido o MP, mediante pedido justificado da autoridade policial."
+        }
+      ]
+    },
+    {
+      "id": "lpe4",
+      "topic": "Colaboração: Lei de Drogas",
+      "c": "Em Ponta Grossa (PR), Everaldo, réu por tráfico, indicou voluntariamente à polícia os dois comparsas que guardavam a droga e o local onde estava parte do dinheiro das vendas, que foi recuperado.",
+      "q": "Se Everaldo for condenado, que benefício o art. 41 da Lei de Drogas lhe garante?",
+      "a": 1,
+      "src": "Lei 11.343/06, art. 41",
+      "o": [
+        {
+          "t": "Perdão judicial, porque a colaboração identificou os coautores.",
+          "p": "extrapolacao",
+          "w": "O art. 41 da Lei de Drogas não prevê perdão judicial; ele fixa uma redução de pena para o colaborador."
+        },
+        {
+          "t": "Redução da pena de um terço a dois terços.",
+          "p": "correta",
+          "w": "Art. 41: o indiciado ou acusado que colaborar voluntariamente na identificação dos coautores ou partícipes e na recuperação total ou parcial do produto do crime terá, se condenado, a pena reduzida de 1/3 a 2/3."
+        },
+        {
+          "t": "Redução da pena de um sexto a dois terços.",
+          "p": "calculo",
+          "w": "De 1/6 a 2/3 é a fração do tráfico privilegiado (art. 33, § 4º). Para a colaboração do art. 41, a redução é de 1/3 a 2/3."
+        },
+        {
+          "t": "Nenhum, porque o benefício só vale para colaboração prestada antes da denúncia.",
+          "p": "restricao",
+          "w": "O art. 41 abrange a colaboração na investigação policial e no processo criminal; a lei não a limita à fase anterior à denúncia."
+        }
+      ]
+    },
+    {
+      "id": "lpe5",
+      "topic": "Maconha no RE 635.659",
+      "c": "Em Florianópolis (SC), policiais abordaram Caio no calçadão e encontraram 20 g de maconha no bolso dele, sem balança, embalagens ou anotações de venda. Ele disse que a droga era para uso próprio.",
+      "q": "Segundo a tese firmada pelo STF no RE 635.659, como a conduta de Caio deve ser tratada?",
+      "a": 0,
+      "src": "STF, RE 635.659 (Tema 506 da repercussão geral); Lei 11.343/06, art. 28",
+      "o": [
+        {
+          "t": "Como ilícito sem natureza penal: a droga é apreendida e cabem advertência e curso educativo, em procedimento não penal.",
+          "p": "correta",
+          "w": "O STF decidiu que portar maconha para consumo pessoal não é crime e não gera efeitos penais. Mantêm-se a apreensão e as medidas de advertência e de comparecimento a curso educativo (art. 28, I e III), aplicadas em procedimento de natureza não penal."
+        },
+        {
+          "t": "Como crime do art. 28, com termo circunstanciado e possível prestação de serviços à comunidade.",
+          "p": "troca",
+          "w": "Para a maconha, o STF afastou a natureza penal da conduta, e a prestação de serviços à comunidade (art. 28, II) não entra nas medidas fixadas na tese."
+        },
+        {
+          "t": "Como conduta lícita, sem apreensão da droga e sem qualquer sanção.",
+          "p": "extrapolacao",
+          "w": "A decisão não legalizou a maconha: a conduta continua ilícita, a droga é apreendida e há sanções de natureza administrativa."
+        },
+        {
+          "t": "Como ilícito não penal, regra que o STF estendeu a qualquer droga portada em quantidade de até 40 g.",
+          "p": "generalizacao",
+          "w": "A tese e o critério de 40 g valem só para a cannabis. O porte de outras drogas para consumo pessoal continua sendo o crime do art. 28."
+        }
+      ]
+    },
+    {
+      "id": "lpe6",
+      "topic": "Numeração raspada",
+      "c": "Em Feira de Santana (BA), a PM abordou Wellington na rua e encontrou na cintura dele um revólver calibre .38, de uso permitido, com o número de série raspado. Ele não tinha porte.",
+      "q": "Qual crime Wellington cometeu?",
+      "a": 2,
+      "src": "Lei 10.826/03, arts. 14 e 16, § 1º, IV",
+      "o": [
+        {
+          "t": "Porte ilegal de arma de uso permitido (art. 14), pois a figura da numeração raspada só alcança arma de uso restrito.",
+          "p": "restricao",
+          "w": "O art. 16, § 1º, IV, pune portar ou possuir arma com numeração raspada, suprimida ou adulterada sem limitar a figura às armas de uso restrito."
+        },
+        {
+          "t": "Porte de arma de uso proibido (art. 16, § 2º), com reclusão de 4 a 12 anos.",
+          "p": "troca",
+          "w": "O § 2º trata de arma de uso proibido, conceito diferente de arma com numeração raspada. A figura do § 1º, IV, recebe as penas do caput do art. 16."
+        },
+        {
+          "t": "A figura do art. 16, § 1º, IV, com as mesmas penas do caput: reclusão de 3 a 6 anos e multa.",
+          "p": "correta",
+          "w": "Art. 16, § 1º, IV: incorre nas penas do caput (reclusão de 3 a 6 anos e multa) quem porta, possui, adquire, transporta ou fornece arma com numeração, marca ou sinal de identificação raspado, suprimido ou adulterado."
+        },
+        {
+          "t": "Tráfico internacional de arma (art. 18), pois a numeração raspada presume que a arma veio do exterior.",
+          "p": "extrapolacao",
+          "w": "Não existe essa presunção. O art. 18 exige importar, exportar ou favorecer a entrada ou saída da arma do território nacional sem autorização."
+        }
+      ]
+    },
+    {
+      "id": "lpe7",
+      "topic": "Omissão de cautela",
+      "c": "Em Montes Claros (MG), Sérgio tem posse regular de uma pistola e a deixou destrancada na gaveta da sala. O filho dele, de 13 anos, pegou a arma e a mostrou aos colegas na escola, sem dispará-la.",
+      "q": "Sérgio cometeu algum crime do Estatuto do Desarmamento?",
+      "a": 3,
+      "src": "Lei 10.826/03, art. 13",
+      "o": [
+        {
+          "t": "Sim, porte ilegal de arma (art. 14), porque a arma saiu da residência.",
+          "p": "troca",
+          "w": "Quem levou a arma para fora foi o adolescente. A conduta de Sérgio foi não tomar as cautelas necessárias, que tem tipo próprio no art. 13."
+        },
+        {
+          "t": "Não, porque quem tem posse regular da arma não responde pelo que outra pessoa faz com ela.",
+          "p": "generalizacao",
+          "w": "O registro não afasta o dever de cautela: o art. 13 pune justamente o possuidor ou proprietário que deixa de observar as cautelas necessárias."
+        },
+        {
+          "t": "Só responderia se o adolescente tivesse disparado a arma e ferido alguém.",
+          "p": "restricao",
+          "w": "O art. 13 descreve deixar de observar as cautelas para impedir que o menor de 18 anos se apodere da arma; não exige disparo nem lesão."
+        },
+        {
+          "t": "Sim, omissão de cautela (art. 13), punida com detenção de 1 a 2 anos e multa.",
+          "p": "correta",
+          "w": "Art. 13: deixar de observar as cautelas necessárias para impedir que menor de 18 anos ou pessoa com deficiência mental se apodere de arma de fogo sob sua posse ou de sua propriedade. Pena: detenção de 1 a 2 anos e multa."
+        }
+      ]
+    },
+    {
+      "id": "lpe8",
+      "topic": "Disparo de arma",
+      "c": "Na virada do ano, em Campina Grande (PB), Douglas, que tem porte de arma regular, disparou três tiros para o alto no meio de uma rua residencial, sem mirar em ninguém e sem intenção de cometer outro crime.",
+      "q": "Qual é a situação jurídica de Douglas?",
+      "a": 1,
+      "src": "Lei 10.826/03, art. 15",
+      "o": [
+        {
+          "t": "Não há crime, pois quem tem porte regular pode disparar a arma.",
+          "p": "restricao",
+          "w": "O art. 15 não exige falta de autorização: pune quem dispara em lugar habitado ou em via pública, tenha ou não porte. O porte não autoriza tiros a esmo."
+        },
+        {
+          "t": "Cometeu disparo de arma de fogo (art. 15), punido com reclusão de 2 a 4 anos e multa.",
+          "p": "correta",
+          "w": "Art. 15: disparar arma de fogo ou acionar munição em lugar habitado ou em suas adjacências, em via pública ou em direção a ela, desde que a conduta não tenha como finalidade a prática de outro crime. Pena: reclusão de 2 a 4 anos e multa."
+        },
+        {
+          "t": "Cometeu tentativa de homicídio contra os moradores da rua.",
+          "p": "extrapolacao",
+          "w": "Não havia alvo nem intenção de matar: ele atirou para o alto sem mirar. Sem dolo de matar, não há tentativa de homicídio."
+        },
+        {
+          "t": "Cometeu porte ilegal de arma de uso permitido (art. 14), crime que absorve o disparo.",
+          "p": "troca",
+          "w": "Douglas tinha porte regular, então não houve porte ilegal. A conduta típica é o disparo em via pública, do art. 15."
+        }
+      ]
+    },
+    {
+      "id": "lpe9",
+      "topic": "Hediondos: armas",
+      "c": "Na delegacia de Foz do Iguaçu (PR), a delegada Camila separa os autos de presos cujos crimes estão no rol da Lei 8.072/90, para pedir prisão temporária com o prazo especial dos hediondos.",
+      "q": "Qual destes crimes integra o rol de hediondos da Lei 8.072/90?",
+      "a": 3,
+      "src": "Lei 8.072/90, arts. 1º, parágrafo único, II, e 2º; Lei 10.826/03, art. 16",
+      "o": [
+        {
+          "t": "Tráfico de drogas, listado no art. 1º da Lei 8.072/90 ao lado do homicídio qualificado.",
+          "p": "troca",
+          "w": "O tráfico de drogas é equiparado a hediondo (CF, art. 5º, XLIII, e art. 2º da Lei 8.072/90), mas não está no rol do art. 1º."
+        },
+        {
+          "t": "Porte ilegal de arma de uso restrito, pois todo crime do art. 16 do Estatuto é hediondo.",
+          "p": "generalizacao",
+          "w": "O art. 1º, parágrafo único, II, inclui só a posse ou o porte de arma de uso proibido; a arma de uso restrito do caput do art. 16 ficou fora."
+        },
+        {
+          "t": "Posse irregular de arma de uso permitido na residência, quando a arma estiver carregada.",
+          "p": "extrapolacao",
+          "w": "A posse irregular de arma de uso permitido (art. 12) não está no rol, carregada ou não."
+        },
+        {
+          "t": "Posse ou porte ilegal de arma de fogo de uso proibido.",
+          "p": "correta",
+          "w": "Art. 1º, parágrafo único, II, da Lei 8.072/90: é hediondo o crime de posse ou porte ilegal de arma de fogo de uso proibido, previsto no art. 16 da Lei 10.826/03."
+        }
+      ]
+    },
+    {
+      "id": "lpe10",
+      "topic": "Conceito de organização criminosa",
+      "c": "Em Teresina (PI), a Polícia Civil investiga um grupo que aplica golpes com documentos falsos. Antes de indiciar os investigados por organização criminosa, o delegado revisa os requisitos legais.",
+      "q": "Que requisitos a Lei 12.850/13 exige para haver organização criminosa?",
+      "a": 0,
+      "src": "Lei 12.850/13, art. 1º, § 1º",
+      "o": [
+        {
+          "t": "Quatro ou mais pessoas, estrutura ordenada com divisão de tarefas, ainda que informal, e infrações com pena máxima superior a 4 anos ou transnacionais.",
+          "p": "correta",
+          "w": "Art. 1º, § 1º: associação de 4 ou mais pessoas, estruturalmente ordenada e com divisão de tarefas, ainda que informal, para obter vantagem mediante infrações com penas máximas superiores a 4 anos ou de caráter transnacional."
+        },
+        {
+          "t": "Três ou mais pessoas e infrações com pena máxima igual ou superior a 4 anos.",
+          "p": "calculo",
+          "w": "O mínimo é de quatro pessoas, e a pena máxima deve ser superior a 4 anos: pena máxima de exatamente 4 anos não basta."
+        },
+        {
+          "t": "Duas ou mais pessoas associadas de forma estável para praticar crimes, reiteradamente ou não.",
+          "p": "troca",
+          "w": "Esse é o desenho da associação para o tráfico (art. 35 da Lei 11.343/06), não da organização criminosa."
+        },
+        {
+          "t": "Hierarquia formal, com estatuto escrito e cargos definidos entre os integrantes.",
+          "p": "restricao",
+          "w": "A lei aceita divisão de tarefas ainda que informal; não exige estatuto, registro ou cargos formais."
+        }
+      ]
+    },
+    {
+      "id": "lpe11",
+      "topic": "Valor da colaboração",
+      "c": "Em Porto Velho (RO), o MP denunciou o empresário Rogério por integrar organização criminosa. A única prova contra ele é o depoimento de um colaborador cujo acordo foi homologado.",
+      "q": "À luz da Lei 12.850/13, assinale a alternativa correta.",
+      "a": 2,
+      "src": "Lei 12.850/13, arts. 3º-A e 4º, § 16",
+      "o": [
+        {
+          "t": "A colaboração é meio de prova autônomo e, depois de homologada, basta para condenar Rogério.",
+          "p": "troca",
+          "w": "O art. 3º-A define a colaboração como negócio jurídico processual e meio de obtenção de prova. A palavra do colaborador precisa ser corroborada por outras provas."
+        },
+        {
+          "t": "A palavra isolada do colaborador não basta para condenar, mas basta para receber a denúncia.",
+          "p": "restricao",
+          "w": "O art. 4º, § 16, II, também proíbe receber denúncia ou queixa com base apenas nas declarações do colaborador."
+        },
+        {
+          "t": "Nem o recebimento da denúncia nem a condenação podem se apoiar apenas nas declarações do colaborador.",
+          "p": "correta",
+          "w": "Art. 4º, § 16: nenhuma medida cautelar real ou pessoal, nenhum recebimento de denúncia ou queixa e nenhuma sentença condenatória serão decretados ou proferidos só com base nas declarações do colaborador."
+        },
+        {
+          "t": "As declarações do colaborador não têm valor algum e devem ser retiradas dos autos.",
+          "p": "generalizacao",
+          "w": "As declarações valem como elemento a ser corroborado e podem guiar a obtenção de outras provas. A lei proíbe apenas usá-las isoladamente para as medidas do § 16."
+        }
+      ]
+    },
+    {
+      "id": "lpe12",
+      "topic": "Infiltração virtual",
+      "c": "Em Manaus (AM), a Polícia Federal investiga uma organização criminosa que vende armas em grupos fechados de aplicativos. O delegado quer infiltrar um agente nesses grupos, usando perfil falso.",
+      "q": "Como a Lei 12.850/13 disciplina essa infiltração virtual?",
+      "a": 1,
+      "src": "Lei 12.850/13, arts. 8º, 10 e 10-A",
+      "o": [
+        {
+          "t": "Basta comunicar previamente o juiz, que fixará os limites da diligência.",
+          "p": "troca",
+          "w": "Comunicação prévia ao juiz é o regime da ação controlada (art. 8º, § 1º). A infiltração, inclusive a virtual, exige autorização judicial."
+        },
+        {
+          "t": "Exige autorização judicial, só cabe se a prova não puder ser obtida por outros meios e dura até 6 meses renováveis, sem passar de 720 dias.",
+          "p": "correta",
+          "w": "Art. 10-A: a infiltração virtual depende de autorização judicial, a requerimento do MP ou por representação do delegado, e só cabe se a prova não puder ser produzida por outros meios. O prazo é de até 6 meses, renovável, com total de até 720 dias."
+        },
+        {
+          "t": "Dura 15 dias, renováveis por igual período, como a interceptação telefônica.",
+          "p": "calculo",
+          "w": "15 dias é o prazo da interceptação (Lei 9.296/96, art. 5º). A infiltração virtual dura até 6 meses por vez, com limite total de 720 dias."
+        },
+        {
+          "t": "Pode ser renovada indefinidamente, enquanto a investigação precisar.",
+          "p": "generalizacao",
+          "w": "Na infiltração virtual, a soma das renovações não pode exceder 720 dias (art. 10-A)."
+        }
+      ]
+    },
+    {
+      "id": "lpe13",
+      "topic": "Fases da lavagem",
+      "c": "Em Goiânia (GO), um traficante depositou R$ 300 mil em espécie em dezenas de contas, sempre em valores pequenos, para não chamar a atenção dos bancos. Depois, transferiu o dinheiro entre empresas de fachada e, por fim, comprou imóveis em nome de uma delas.",
+      "q": "Os depósitos fracionados correspondem a qual fase da lavagem de dinheiro?",
+      "a": 0,
+      "src": "Lei 9.613/98, art. 1º; Badaró e Bottini, Lavagem de Dinheiro (RT)",
+      "o": [
+        {
+          "t": "Colocação, em que o dinheiro ilícito é introduzido no sistema financeiro.",
+          "p": "correta",
+          "w": "Na colocação, o dinheiro sujo entra na economia formal, muitas vezes por depósitos fracionados. Seguem-se a ocultação ou dissimulação, com operações que apagam o rastro, e a integração, com o retorno do valor em bens de aparência lícita."
+        },
+        {
+          "t": "Integração, porque é a primeira etapa, quando o dinheiro entra no banco.",
+          "p": "inversao",
+          "w": "A integração é a última fase, quando o dinheiro volta à economia com aparência lícita, como na compra dos imóveis."
+        },
+        {
+          "t": "Dissimulação, fase própria dos depósitos em várias contas.",
+          "p": "troca",
+          "w": "As transferências entre empresas de fachada é que formam a ocultação ou dissimulação; os depósitos iniciais são a colocação."
+        },
+        {
+          "t": "Nenhuma, pois só há lavagem quando as três fases se completam.",
+          "p": "restricao",
+          "w": "A lei não exige o ciclo completo: ocultar ou dissimular a origem, a localização ou a propriedade dos valores já configura o crime do art. 1º."
+        }
+      ]
+    },
+    {
+      "id": "lpe14",
+      "topic": "Infração antecedente",
+      "c": "Em Niterói (RJ), o dono de uma banca de jogo do bicho comprou três apartamentos em nome de laranjas para esconder a origem do dinheiro das apostas. Ele ainda não foi processado pela contravenção.",
+      "q": "É possível processá-lo por lavagem de dinheiro?",
+      "a": 3,
+      "src": "Lei 9.613/98, arts. 1º e 2º, II e § 1º",
+      "o": [
+        {
+          "t": "Não, porque só crimes de um rol taxativo, como tráfico e terrorismo, servem de infração antecedente.",
+          "p": "troca",
+          "w": "O rol taxativo de crimes antecedentes acabou com a Lei 12.683/2012. Hoje o art. 1º fala em bens provenientes de qualquer infração penal."
+        },
+        {
+          "t": "Sim, mas só depois da condenação definitiva pela contravenção.",
+          "p": "restricao",
+          "w": "O processo por lavagem independe do processo e julgamento da infração antecedente (art. 2º, II); bastam indícios suficientes dela na denúncia (art. 2º, § 1º)."
+        },
+        {
+          "t": "Sim, e a pena da lavagem será a mesma prevista para a contravenção antecedente.",
+          "p": "extrapolacao",
+          "w": "A lavagem tem pena própria, de reclusão de 3 a 10 anos e multa (art. 1º), sem relação com a pena da infração antecedente."
+        },
+        {
+          "t": "Sim, porque qualquer infração penal, inclusive contravenção, pode ser antecedente da lavagem.",
+          "p": "correta",
+          "w": "Desde a Lei 12.683/2012, o art. 1º pune ocultar ou dissimular bens provenientes, direta ou indiretamente, de infração penal, o que inclui contravenções como o jogo do bicho."
+        }
+      ]
+    },
+    {
+      "id": "lpe15",
+      "topic": "Colaboração na lavagem",
+      "c": "Em Joinville (SC), o contador de um esquema de lavagem decidiu, por conta própria, revelar à polícia os demais envolvidos e indicar as contas usadas para esconder o dinheiro.",
+      "q": "Que benefícios o art. 1º, § 5º, da Lei 9.613/98 admite para ele?",
+      "a": 2,
+      "src": "Lei 9.613/98, art. 1º, § 5º",
+      "o": [
+        {
+          "t": "Redução de um a dois terços, desde que a colaboração ocorra antes do recebimento da denúncia.",
+          "p": "restricao",
+          "w": "O § 5º não fixa esse marco: a colaboração espontânea é premiada, e o juiz pode deixar de aplicar a pena ou substituí-la a qualquer tempo."
+        },
+        {
+          "t": "Apenas redução da pena até a metade, com início obrigatório em regime fechado.",
+          "p": "calculo",
+          "w": "A redução é de um a dois terços, com início em regime aberto ou semiaberto; também é possível deixar de aplicar a pena ou substituí-la."
+        },
+        {
+          "t": "Redução de um a dois terços com regime aberto ou semiaberto, ou deixar de aplicar a pena ou substituí-la por restritiva de direitos.",
+          "p": "correta",
+          "w": "Art. 1º, § 5º: a pena pode ser reduzida de 1/3 a 2/3 e começar em regime aberto ou semiaberto, ou o juiz pode deixar de aplicá-la ou substituí-la por restritiva de direitos, a qualquer tempo, se a colaboração espontânea levar à apuração dos crimes, à identificação dos autores ou à localização dos bens."
+        },
+        {
+          "t": "Nenhum, porque benefício por colaboração depende de acordo formal homologado pelo juiz.",
+          "p": "troca",
+          "w": "O § 5º premia a colaboração espontânea sem exigir o acordo formal típico da Lei 12.850/13."
+        }
+      ]
+    },
+    {
+      "id": "lpe16",
+      "topic": "Requisitos da interceptação",
+      "c": "Em Aracaju (SE), um delegado investiga um crime punido apenas com detenção. Ele representa ao juiz pela interceptação do celular do suspeito, alegando que é o meio mais rápido de obter a prova.",
+      "q": "O pedido pode ser deferido?",
+      "a": 1,
+      "src": "Lei 9.296/96, arts. 2º, I a III, e 4º, § 2º",
+      "o": [
+        {
+          "t": "Sim, pois qualquer crime admite interceptação, desde que haja ordem judicial.",
+          "p": "generalizacao",
+          "w": "O art. 2º lista hipóteses em que a interceptação não é admitida, entre elas o fato punido, no máximo, com detenção."
+        },
+        {
+          "t": "Não, porque a lei veda a interceptação quando o fato investigado é punido, no máximo, com detenção.",
+          "p": "correta",
+          "w": "Art. 2º, III, da Lei 9.296/96: não se admite a interceptação quando o fato investigado for punido, no máximo, com detenção. Também é vedada sem indícios razoáveis de autoria e quando a prova puder ser feita por outros meios."
+        },
+        {
+          "t": "Sim, porque ser o meio mais rápido basta para justificar a medida, mesmo havendo outros meios.",
+          "p": "extrapolacao",
+          "w": "A interceptação é subsidiária: não cabe se a prova puder ser feita por outros meios disponíveis (art. 2º, II). Rapidez não é critério legal."
+        },
+        {
+          "t": "Sim, mas só por 24 horas, determinadas pelo próprio delegado em caso de urgência.",
+          "p": "troca",
+          "w": "O delegado nunca determina a interceptação: 24 horas é o prazo para o juiz decidir o pedido (art. 4º, § 2º)."
+        }
+      ]
+    },
+    {
+      "id": "lpe17",
+      "topic": "Pedido verbal e prazo",
+      "c": "Em Recife (PE), durante um sequestro em andamento, o promotor pediu verbalmente ao juiz de plantão a interceptação do telefone usado pelos sequestradores, ainda na fase de investigação.",
+      "q": "Segundo a Lei 9.296/96, assinale a alternativa correta.",
+      "a": 3,
+      "src": "Lei 9.296/96, arts. 3º, 4º e 5º",
+      "o": [
+        {
+          "t": "O pedido verbal é nulo, pois a interceptação sempre exige requerimento escrito.",
+          "p": "generalizacao",
+          "w": "O art. 4º, § 1º, admite excepcionalmente o pedido verbal, desde que presentes os pressupostos, com redução a termo."
+        },
+        {
+          "t": "Deferida, a interceptação dura 30 dias, renováveis uma única vez.",
+          "p": "calculo",
+          "w": "O prazo é de 15 dias, renovável por igual tempo uma vez comprovada a indispensabilidade do meio de prova (art. 5º)."
+        },
+        {
+          "t": "Na fase de investigação, só a autoridade policial pode pedir a interceptação; o MP só no processo.",
+          "p": "restricao",
+          "w": "O art. 3º, II, permite ao MP requerer a medida na investigação criminal e na instrução processual penal."
+        },
+        {
+          "t": "O pedido verbal é admitido excepcionalmente, reduzido a termo; o juiz decide em 24 horas, e a medida dura até 15 dias, renováveis.",
+          "p": "correta",
+          "w": "Art. 4º, §§ 1º e 2º: o pedido pode ser verbal em caráter excepcional, reduzido a termo, e o juiz decide em 24 horas. Art. 5º: prazo de 15 dias, renovável por igual tempo uma vez comprovada a indispensabilidade."
+        }
+      ]
+    },
+    {
+      "id": "lpe18",
+      "topic": "Captação ambiental",
+      "c": "Em Belém (PA), o delegado Arthur quer instalar escuta ambiental na sala de reuniões usada por investigados por corrupção. Não há outro meio igualmente eficaz de obter a prova.",
+      "q": "Segundo o art. 8º-A da Lei 9.296/96, como funciona a captação ambiental?",
+      "a": 0,
+      "src": "Lei 9.296/96, art. 8º-A",
+      "o": [
+        {
+          "t": "Depende de autorização judicial, a pedido da polícia ou do MP, para crimes com pena máxima superior a 4 anos ou conexos, e dura até 15 dias renováveis.",
+          "p": "correta",
+          "w": "Art. 8º-A: o juiz pode autorizar a captação a requerimento da autoridade policial ou do MP, quando a prova não puder ser feita por outros meios igualmente eficazes e houver elementos de autoria em crimes com pena máxima superior a 4 anos ou conexos. O § 3º fixa até 15 dias, renováveis por decisão judicial."
+        },
+        {
+          "t": "Basta que o crime seja punido com reclusão, o mesmo critério da interceptação telefônica.",
+          "p": "troca",
+          "w": "A captação ambiental tem critério próprio: crimes com pena máxima superior a 4 anos ou infrações penais conexas (art. 8º-A, II)."
+        },
+        {
+          "t": "Dura até 6 meses, renováveis, como a infiltração de agentes.",
+          "p": "calculo",
+          "w": "O prazo da captação ambiental é de 15 dias, renovável por decisão judicial (art. 8º-A, § 3º); 6 meses é o prazo da infiltração."
+        },
+        {
+          "t": "O juiz pode decretá-la de ofício, ainda na fase de investigação.",
+          "p": "extrapolacao",
+          "w": "O art. 8º-A prevê a autorização judicial a requerimento da autoridade policial ou do Ministério Público, e não de ofício."
+        }
+      ]
+    },
+    {
+      "id": "lpe19",
+      "topic": "Menor potencial ofensivo",
+      "c": "Em Natal (RN), Rodrigo entregou a direção do próprio carro ao sobrinho, que não é habilitado, e os dois foram parados numa blitz. O crime do art. 310 do CTB tem pena de detenção de 6 meses a 1 ano, ou multa.",
+      "q": "Como a autoridade policial deve proceder em relação a Rodrigo?",
+      "a": 2,
+      "src": "Lei 9.099/95, arts. 61 e 69; CTB, art. 310",
+      "o": [
+        {
+          "t": "Lavrar auto de prisão em flagrante, pois crime de trânsito nunca é infração de menor potencial ofensivo.",
+          "p": "generalizacao",
+          "w": "Crimes de trânsito com pena máxima de até 2 anos também são infrações de menor potencial ofensivo (art. 61 da Lei 9.099/95)."
+        },
+        {
+          "t": "Instaurar inquérito, porque a Lei 9.099/95 só alcança crimes com pena mínima de até 1 ano.",
+          "p": "troca",
+          "w": "Pena mínima de até 1 ano é critério da suspensão condicional do processo (art. 89). A infração de menor potencial ofensivo depende da pena máxima, não superior a 2 anos."
+        },
+        {
+          "t": "Lavrar termo circunstanciado; se Rodrigo assumir o compromisso de comparecer ao Juizado, não se impõe flagrante nem se exige fiança.",
+          "p": "correta",
+          "w": "Art. 61: são de menor potencial ofensivo as contravenções e os crimes com pena máxima não superior a 2 anos, cumulada ou não com multa. Art. 69, parágrafo único: lavra-se termo circunstanciado e não se impõe flagrante nem fiança a quem for ao Juizado ou assumir o compromisso de comparecer."
+        },
+        {
+          "t": "Lavrar termo circunstanciado só se o crime fosse punido apenas com multa.",
+          "p": "restricao",
+          "w": "O art. 61 abrange crimes com pena máxima de até 2 anos, cumulada ou não com multa; não exige que a pena seja só de multa."
+        }
+      ]
+    },
+    {
+      "id": "lpe20",
+      "topic": "Transação penal",
+      "c": "Em Sobral (CE), Lúcio foi autuado por uma infração de menor potencial ofensivo. Três anos antes, ele havia aceitado transação penal em outro caso.",
+      "q": "O Ministério Público pode oferecer nova transação penal a Lúcio?",
+      "a": 1,
+      "src": "Lei 9.099/95, art. 76, §§ 2º, II, 4º e 6º",
+      "o": [
+        {
+          "t": "Pode, porque o impedimento gerado pela transação anterior dura apenas 2 anos.",
+          "p": "calculo",
+          "w": "O impedimento é de 5 anos (art. 76, § 2º, II). Como só se passaram 3, Lúcio não pode receber o benefício de novo."
+        },
+        {
+          "t": "Não, porque quem foi beneficiado com transação nos 5 anos anteriores não pode recebê-la de novo.",
+          "p": "correta",
+          "w": "Art. 76, § 2º, II: não se admite a proposta se o autor tiver sido beneficiado, nos 5 anos anteriores, por outra transação. A transação anterior é registrada apenas para esse fim (§ 4º)."
+        },
+        {
+          "t": "Não, porque a transação anterior gerou reincidência e maus antecedentes.",
+          "p": "troca",
+          "w": "A transação não gera reincidência e não consta de certidão de antecedentes criminais (art. 76, §§ 4º e 6º); o obstáculo é o prazo de 5 anos."
+        },
+        {
+          "t": "Pode, porque a transação é um direito que o autor pode receber sempre que preencher o requisito da pena.",
+          "p": "generalizacao",
+          "w": "A lei impõe impedimentos à transação, entre eles o benefício recebido nos 5 anos anteriores (art. 76, § 2º)."
+        }
+      ]
+    },
+    {
+      "id": "lpe21",
+      "topic": "Suspensão condicional do processo",
+      "c": "Em Chapecó (SC), o MP denunciou Valéria por um crime punido com reclusão de 1 a 4 anos e multa. Ela não responde a outro processo, nunca foi condenada e preenche os requisitos do art. 77 do CP.",
+      "q": "Cabe suspensão condicional do processo?",
+      "a": 0,
+      "src": "Lei 9.099/95, art. 89",
+      "o": [
+        {
+          "t": "Sim: a pena mínima não passa de 1 ano, e o MP pode propor a suspensão por 2 a 4 anos ao oferecer a denúncia.",
+          "p": "correta",
+          "w": "Art. 89: nos crimes com pena mínima igual ou inferior a 1 ano, abrangidos ou não pela Lei 9.099/95, o MP, ao oferecer a denúncia, pode propor a suspensão do processo por 2 a 4 anos, se o acusado não estiver sendo processado nem tiver sido condenado por outro crime."
+        },
+        {
+          "t": "Não, porque a pena máxima supera 2 anos, o que afasta qualquer instituto da Lei 9.099/95.",
+          "p": "troca",
+          "w": "O teto de 2 anos define a infração de menor potencial ofensivo. A suspensão do art. 89 olha a pena mínima e vale para crimes abrangidos ou não pela Lei 9.099/95."
+        },
+        {
+          "t": "Sim, com período de prova de 1 a 2 anos.",
+          "p": "calculo",
+          "w": "O período de prova da suspensão condicional do processo é de 2 a 4 anos (art. 89, caput)."
+        },
+        {
+          "t": "Sim, mas só depois da sentença, se ela for condenada à pena mínima.",
+          "p": "restricao",
+          "w": "A proposta é feita com a denúncia, antes da instrução: a suspensão serve justamente para o processo não prosseguir."
+        }
+      ]
+    },
+    {
+      "id": "lpe22",
+      "topic": "Embriaguez sem bafômetro",
+      "c": "Em Juiz de Fora (MG), um motorista que bateu em um poste se recusou a fazer o teste do bafômetro. Os agentes gravaram em vídeo a fala arrastada e o desequilíbrio dele, e duas testemunhas confirmaram que ele bebeu a noite toda.",
+      "q": "Assinale a alternativa correta sobre o crime do art. 306 do CTB.",
+      "a": 3,
+      "src": "CTB, arts. 165-A e 306, §§ 1º e 2º",
+      "o": [
+        {
+          "t": "Sem bafômetro ou exame de sangue, o crime do art. 306 nunca pode ser comprovado.",
+          "p": "generalizacao",
+          "w": "O art. 306, § 2º, admite vídeo, prova testemunhal, exame clínico, perícia e outros meios de prova, e o § 1º, II, aceita sinais de alteração da capacidade psicomotora."
+        },
+        {
+          "t": "A simples recusa ao bafômetro já configura o crime do art. 306.",
+          "p": "troca",
+          "w": "A recusa é infração administrativa própria, do art. 165-A. O crime exige conduzir com a capacidade psicomotora alterada, o que se prova por outros meios."
+        },
+        {
+          "t": "O crime só se configura com concentração igual ou superior a 0,6 mg de álcool por litro de ar alveolar.",
+          "p": "calculo",
+          "w": "O limite no ar alveolar é de 0,3 mg/L; 6 decigramas é a medida por litro de sangue (art. 306, § 1º, I). Além disso, os sinais de alteração também bastam."
+        },
+        {
+          "t": "O crime pode ser provado pelos sinais de alteração da capacidade psicomotora, registrados em vídeo e confirmados por testemunhas.",
+          "p": "correta",
+          "w": "Art. 306, § 1º, II, e § 2º: a alteração da capacidade psicomotora pode ser constatada por sinais e provada por vídeo, testemunhas ou outros meios admitidos, assegurada a contraprova. Pena: detenção de 6 meses a 3 anos, multa e suspensão ou proibição de dirigir."
+        }
+      ]
+    },
+    {
+      "id": "lpe23",
+      "topic": "Lesão culposa e embriaguez",
+      "c": "Em Uberaba (MG), Fábio dirigia sob influência de álcool quando atingiu um motociclista, que sofreu lesão corporal culposa. A defesa pediu composição civil, transação penal e que a ação dependesse de representação da vítima.",
+      "q": "Os institutos da Lei 9.099/95 se aplicam a Fábio?",
+      "a": 1,
+      "src": "CTB, arts. 291, §§ 1º e 2º, e 303",
+      "o": [
+        {
+          "t": "Sim, porque a lesão culposa no trânsito sempre segue os arts. 74, 76 e 88 da Lei 9.099/95.",
+          "p": "generalizacao",
+          "w": "O § 1º do art. 291 traz exceções em que esses institutos não se aplicam, e a influência de álcool é a primeira delas."
+        },
+        {
+          "t": "Não, porque ele dirigia sob influência de álcool, hipótese em que o CTB afasta esses institutos e exige inquérito policial.",
+          "p": "correta",
+          "w": "Art. 291, § 1º, I: os arts. 74, 76 e 88 da Lei 9.099/95 não se aplicam à lesão culposa de trânsito se o agente estiver sob influência de álcool ou de outra substância psicoativa. O § 2º manda instaurar inquérito policial nesses casos."
+        },
+        {
+          "t": "Não, mas só porque a lesão foi causada a motociclista; contra pedestre, os institutos se aplicariam.",
+          "p": "restricao",
+          "w": "A exclusão do art. 291, § 1º, decorre da embriaguez, do racha ou do excesso de velocidade, não do tipo de vítima."
+        },
+        {
+          "t": "Sim, salvo se ele estivesse mais de 20 km/h acima da velocidade máxima da via.",
+          "p": "calculo",
+          "w": "A exceção de velocidade é de mais de 50 km/h acima da máxima permitida (art. 291, § 1º, III), e no caso já incide a exceção da embriaguez."
+        }
+      ]
+    },
+    {
+      "id": "lpe24",
+      "topic": "Socorro à vítima",
+      "c": "Em Petrolina (PE), a motorista Joana atropelou um ciclista ao fazer uma conversão. Ela parou na hora, chamou o Samu e acompanhou a vítima até o hospital.",
+      "q": "Segundo o CTB, Joana pode ser presa em flagrante pela lesão culposa?",
+      "a": 2,
+      "src": "CTB, arts. 301 e 303",
+      "o": [
+        {
+          "t": "Pode, porque crime de trânsito com vítima sempre autoriza prisão em flagrante.",
+          "p": "generalizacao",
+          "w": "O art. 301 afasta o flagrante e a fiança justamente para quem presta pronto e integral socorro à vítima."
+        },
+        {
+          "t": "Não pode, mas só porque a vítima sobreviveu.",
+          "p": "restricao",
+          "w": "O art. 301 não depende do resultado: vale para sinistros com vítima, desde que o condutor preste pronto e integral socorro."
+        },
+        {
+          "t": "Não: a quem presta pronto e integral socorro à vítima não se impõe prisão em flagrante nem se exige fiança.",
+          "p": "correta",
+          "w": "Art. 301 do CTB: ao condutor de veículo, nos sinistros de trânsito que resultem em vítima, não se imporá prisão em flagrante nem se exigirá fiança, se prestar pronto e integral socorro àquela."
+        },
+        {
+          "t": "Não, e o socorro prestado ainda extingue a punibilidade da lesão culposa.",
+          "p": "extrapolacao",
+          "w": "O socorro só afasta o flagrante e a fiança; Joana ainda pode responder pela lesão corporal culposa do art. 303."
+        }
+      ]
+    },
+    {
+      "id": "lpe25",
+      "topic": "Injúria racial",
+      "c": "Em um supermercado de Porto Alegre (RS), um cliente irritado com a demora chamou a operadora de caixa Luana de \"macaca\" e fez ofensas à cor da pele dela, na frente de outros clientes.",
+      "q": "Qual é o enquadramento da conduta após a Lei 14.532/2023?",
+      "a": 3,
+      "src": "Lei 7.716/89, arts. 2º-A e 20 (Lei 14.532/2023); CP, art. 140, § 3º",
+      "o": [
+        {
+          "t": "Injúria qualificada do art. 140, § 3º, do CP, que continua a abranger as ofensas por raça e cor.",
+          "p": "troca",
+          "w": "A Lei 14.532/2023 retirou raça, cor, etnia e procedência nacional do art. 140, § 3º, do CP. Lá ficaram religião, pessoa idosa e pessoa com deficiência."
+        },
+        {
+          "t": "Racismo do art. 20 da Lei 7.716/89, pois toda ofensa racial a uma pessoa é ataque à coletividade.",
+          "p": "generalizacao",
+          "w": "Ofensa à dignidade ou ao decoro de pessoa determinada é injúria racial (art. 2º-A). O art. 20 pune praticar, induzir ou incitar discriminação ou preconceito."
+        },
+        {
+          "t": "Injúria racial do art. 2º-A da Lei 7.716/89, com pena de reclusão de 1 a 3 anos e multa.",
+          "p": "calculo",
+          "w": "A pena da injúria racial é de reclusão de 2 a 5 anos e multa; 1 a 3 anos é a pena do caput do art. 20."
+        },
+        {
+          "t": "Injúria racial do art. 2º-A da Lei 7.716/89, punida com reclusão de 2 a 5 anos e multa.",
+          "p": "correta",
+          "w": "Art. 2º-A, incluído pela Lei 14.532/2023: injuriar alguém, ofendendo-lhe a dignidade ou o decoro, em razão de raça, cor, etnia ou procedência nacional. Pena: reclusão de 2 a 5 anos e multa."
+        }
+      ]
+    },
+    {
+      "id": "lpe26",
+      "topic": "Proventos da pessoa idosa",
+      "c": "Em Campo Grande (MS), Igor administrava o cartão da aposentadoria da avó, de 81 anos, e passou a usar o dinheiro para pagar as próprias dívidas, deixando-a sem remédios.",
+      "q": "Assinale a alternativa correta sobre a responsabilidade penal de Igor.",
+      "a": 0,
+      "src": "Lei 10.741/03, arts. 94 (red. Lei 15.163/2025), 95 e 102; CP, art. 181",
+      "o": [
+        {
+          "t": "Responde pelo art. 102 do Estatuto da Pessoa Idosa, em ação penal pública incondicionada, sem a imunidade que o CP dá ao descendente.",
+          "p": "correta",
+          "w": "Art. 102: apropriar-se ou desviar proventos da pessoa idosa, dando-lhes destinação diversa, tem pena de reclusão de 1 a 4 anos e multa. O art. 95 torna esses crimes de ação pública incondicionada e afasta os arts. 181 e 182 do CP."
+        },
+        {
+          "t": "Fica isento de pena, porque é descendente da vítima (art. 181, II, do CP).",
+          "p": "troca",
+          "w": "O art. 95 do Estatuto exclui expressamente a aplicação dos arts. 181 e 182 do CP aos crimes nele definidos."
+        },
+        {
+          "t": "Só pode ser processado se a avó oferecer representação.",
+          "p": "restricao",
+          "w": "Os crimes do Estatuto são de ação penal pública incondicionada (art. 95): o MP age sem depender da vontade da vítima."
+        },
+        {
+          "t": "Responde pelo art. 102, que, por força do art. 94, passou a ser infração de menor potencial ofensivo.",
+          "p": "extrapolacao",
+          "w": "É o contrário: desde a Lei 15.163/2025, o art. 94, parágrafo único, proíbe aplicar a Lei 9.099/95 aos crimes do Estatuto, qualquer que seja a pena. Além disso, com pena máxima de 4 anos, o art. 102 nunca coube no art. 61 daquela lei."
+        }
+      ]
+    },
+    {
+      "id": "lpe27",
+      "topic": "Pessoa jurídica ambiental",
+      "c": "Em Franca (SP), por decisão do sócio-administrador, o Curtume Vale Verde Ltda. passou a despejar efluentes sem tratamento em um córrego para economizar custos, causando mortandade de peixes.",
+      "q": "Como a Lei 9.605/98 trata a responsabilidade penal nesse caso?",
+      "a": 2,
+      "src": "Lei 9.605/98, art. 3º; CF/88, art. 225, § 3º",
+      "o": [
+        {
+          "t": "Só o sócio responde penalmente; a empresa responde apenas nas esferas civil e administrativa.",
+          "p": "restricao",
+          "w": "O art. 3º prevê responsabilidade administrativa, civil e penal da pessoa jurídica, como autoriza o art. 225, § 3º, da CF."
+        },
+        {
+          "t": "A empresa responde penalmente, e isso afasta a responsabilidade do sócio que tomou a decisão.",
+          "p": "inversao",
+          "w": "O parágrafo único do art. 3º diz o contrário: a responsabilidade da pessoa jurídica não exclui a das pessoas físicas autoras, coautoras ou partícipes."
+        },
+        {
+          "t": "A empresa e o sócio podem responder penalmente, pois a infração foi decidida pelo representante no interesse da empresa.",
+          "p": "correta",
+          "w": "Art. 3º: a pessoa jurídica responde penalmente quando a infração é cometida por decisão do representante legal ou contratual, ou do órgão colegiado, no interesse ou benefício da entidade. O parágrafo único mantém a responsabilidade das pessoas físicas."
+        },
+        {
+          "t": "A empresa responderia por qualquer dano causado por qualquer empregado, mesmo contra o interesse dela.",
+          "p": "generalizacao",
+          "w": "A lei exige decisão do representante legal ou contratual, ou do órgão colegiado, no interesse ou benefício da entidade."
+        }
+      ]
+    },
+    {
+      "id": "lpe28",
+      "topic": "Liquidação forçada",
+      "c": "Em Paragominas (PA), a perícia mostrou que a Madeireira Rio Claro foi criada apenas para emitir notas fiscais e dar aparência legal a madeira extraída ilegalmente.",
+      "q": "Que consequência o art. 24 da Lei 9.605/98 prevê para a empresa?",
+      "a": 1,
+      "src": "Lei 9.605/98, arts. 21, 22, § 3º, e 24",
+      "o": [
+        {
+          "t": "Liquidação forçada, com o patrimônio revertido ao Fundo Nacional do Meio Ambiente.",
+          "p": "troca",
+          "w": "O art. 24 considera o patrimônio instrumento do crime e o destina ao Fundo Penitenciário Nacional, não a um fundo ambiental."
+        },
+        {
+          "t": "Liquidação forçada, com o patrimônio considerado instrumento do crime e perdido em favor do Fundo Penitenciário Nacional.",
+          "p": "correta",
+          "w": "Art. 24: a pessoa jurídica constituída ou utilizada, preponderantemente, para permitir, facilitar ou ocultar crime ambiental terá decretada a liquidação forçada, e seu patrimônio será perdido em favor do Fundo Penitenciário Nacional."
+        },
+        {
+          "t": "Apenas multa, que é a única pena aplicável à pessoa jurídica.",
+          "p": "restricao",
+          "w": "O art. 21 prevê multa, restritivas de direitos e prestação de serviços à comunidade, e o art. 24 ainda autoriza a liquidação forçada."
+        },
+        {
+          "t": "Proibição de contratar com o Poder Público por no máximo 2 anos, sem liquidação.",
+          "p": "calculo",
+          "w": "A proibição de contratar com o Poder Público pode chegar a 10 anos (art. 22, § 3º), e a empresa de fachada do caso se sujeita à liquidação forçada."
+        }
+      ]
+    },
+    {
+      "id": "lpe29",
+      "type": "ce",
+      "topic": "Laudo de constatação",
+      "src": "Lei 11.343/06, art. 50, § 1º",
+      "c": "Em Mossoró (RN), a polícia prendeu em flagrante um homem com 2 kg de crack. Não havia perito oficial disponível naquela madrugada, e o laudo de constatação foi firmado por pessoa idônea.",
+      "q": "Para lavrar o auto de prisão em flagrante e estabelecer a materialidade do delito, basta o laudo de constatação da natureza e da quantidade da droga, que, na falta de perito oficial, pode ser firmado por pessoa idônea.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 50, § 1º, da Lei 11.343/06: para a lavratura do auto de prisão em flagrante e o estabelecimento da materialidade, é suficiente o laudo de constatação, firmado por perito oficial ou, na falta dele, por pessoa idônea. O laudo definitivo vem depois."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado é exigir já no flagrante o laudo definitivo ou o perito oficial. A lei se contenta com o laudo de constatação e admite pessoa idônea na falta de perito."
+        }
+      ]
+    },
+    {
+      "id": "lpe30",
+      "type": "ce",
+      "topic": "Presunção dos 40 gramas",
+      "src": "STF, RE 635.659 (Tema 506 da repercussão geral)",
+      "c": "Em Ribeirão Preto (SP), policiais encontraram com Henrique 30 g de maconha divididas em 25 trouxinhas, além de uma balança de precisão e um caderno com anotações de vendas.",
+      "q": "Pela tese do STF no RE 635.659, como a quantidade é inferior a 40 g, Henrique deve ser obrigatoriamente tratado como usuário.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo é tratar como absoluta uma presunção que o STF fixou como relativa. Mesmo abaixo de 40 g, fracionamento, balança e registros de venda podem caracterizar tráfico."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O STF presume usuário quem porta até 40 g de cannabis ou seis plantas-fêmeas, mas a presunção é relativa: embalagens fracionadas, balança e anotações de venda permitem afastá-la, com fundamentação da autoridade."
+        }
+      ]
+    },
+    {
+      "id": "lpe31",
+      "type": "ce",
+      "topic": "Agente policial disfarçado",
+      "src": "Lei 10.826/03, art. 17, caput e § 2º",
+      "c": "Em Sorocaba (SP), um policial disfarçado de comprador negociou duas pistolas com Valter, que já era investigado por vender armas sem autorização. Valter entregou as armas ao policial.",
+      "q": "Havendo elementos probatórios razoáveis de conduta criminal preexistente, Valter incorre nas penas do comércio ilegal de arma de fogo, ainda que tenha vendido as armas a um agente policial disfarçado.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 17, § 2º, incluído pela Lei 13.964/2019: incorre na mesma pena quem vende ou entrega arma, acessório ou munição, sem autorização, a agente policial disfarçado, quando presentes elementos probatórios razoáveis de conduta criminal preexistente. Pena: reclusão de 6 a 12 anos e multa."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado é confundir a figura com o flagrante preparado. A lei pune expressamente a venda ao policial disfarçado quando já havia elementos de conduta criminal preexistente."
+        }
+      ]
+    },
+    {
+      "id": "lpe32",
+      "type": "ce",
+      "topic": "Ação controlada",
+      "src": "Lei 12.850/13, art. 8º, caput e § 1º",
+      "c": "Em São José dos Campos (SP), a Polícia Civil monitora uma organização criminosa que vai receber uma carga de cigarros contrabandeados. O delegado decide retardar a abordagem para prender também os líderes, que chegarão depois.",
+      "q": "Na ação controlada da Lei 12.850/13, o retardamento da intervenção policial depende de prévia autorização judicial, sem a qual a diligência é ilegal.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo é aplicar à ação controlada o regime da infiltração, que exige autorização judicial. Para retardar a intervenção, a lei pede comunicação prévia ao juiz."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 8º, § 1º: o retardamento da intervenção policial ou administrativa será previamente comunicado ao juiz competente, que, se for o caso, estabelecerá seus limites e comunicará ao MP. A lei exige comunicação, não autorização."
+        }
+      ]
+    },
+    {
+      "id": "lpe33",
+      "type": "ce",
+      "topic": "Temporária nos hediondos",
+      "src": "Lei 8.072/90, arts. 1º, IV, e 2º, § 4º",
+      "c": "Em Vitória (ES), o delegado Marcos representou pela prisão temporária de um suspeito de extorsão mediante sequestro, crime hediondo, para concluir diligências do inquérito.",
+      "q": "Nos crimes hediondos, a prisão temporária tem prazo de 30 dias, prorrogável por igual período em caso de extrema e comprovada necessidade.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 2º, § 4º, da Lei 8.072/90: nos crimes hediondos, na tortura, no tráfico de drogas e no terrorismo, a prisão temporária dura 30 dias, prorrogável por igual período em caso de extrema e comprovada necessidade."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado é aplicar aos hediondos o prazo comum da Lei 7.960/89, que é bem menor. Para hediondos e equiparados, a Lei 8.072/90 fixa 30 dias, prorrogáveis por mais 30."
+        }
+      ]
+    },
+    {
+      "id": "lpe34",
+      "type": "ce",
+      "topic": "Progressão nos hediondos",
+      "src": "Lei 8.072/90, art. 2º, § 2º (revogado pela Lei 13.964/2019); LEP, art. 112",
+      "c": "Em Palmas (TO), a defesa de um condenado por estupro pediu progressão de regime com base no art. 2º, § 2º, da Lei 8.072/90.",
+      "q": "A progressão de regime nos crimes hediondos continua regulada pelo art. 2º, § 2º, da Lei 8.072/90.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo é aplicar dispositivo revogado. A Lei 13.964/2019 revogou o § 2º do art. 2º, e a progressão passou a ser disciplinada no art. 112 da LEP."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "A Lei 13.964/2019 revogou o art. 2º, § 2º, da Lei 8.072/90. Os requisitos de progressão dos condenados por crimes hediondos estão hoje no art. 112 da LEP, que vem sendo alterado com frequência; confira sempre a redação vigente."
+        }
+      ]
+    },
+    {
+      "id": "lpe35",
+      "type": "ce",
+      "topic": "Autolavagem",
+      "src": "Lei 9.613/98, arts. 1º e 2º, § 1º",
+      "c": "Em Campinas (SP), um traficante usou os lucros do tráfico para comprar postos de combustível em nome de laranjas, com contratos simulados para esconder a origem do dinheiro.",
+      "q": "Como o autor do crime antecedente não pode responder pela lavagem dos bens obtidos com esse mesmo crime, o traficante responde apenas pelo tráfico.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "restricao",
+          "w": "Julgar certo é criar uma exclusão que a Lei 9.613/98 não prevê. A jurisprudência admite a autolavagem quando há atos autônomos de ocultação, como os laranjas e os contratos simulados."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "A lei não exige que o autor da lavagem seja pessoa diversa do autor da infração antecedente, e o STF e o STJ admitem a autolavagem. O mero uso do proveito não basta, mas aqui houve ocultação autônoma, com laranjas e contratos simulados."
+        }
+      ]
+    },
+    {
+      "id": "lpe36",
+      "type": "ce",
+      "topic": "Gravação por interlocutor",
+      "src": "Lei 9.296/96, art. 10-A, caput e § 1º",
+      "c": "Em Maceió (AL), Patrícia gravou com o celular, sem avisar, a conversa presencial em que o síndico do prédio lhe pedia dinheiro para aprovar uma obra.",
+      "q": "Por ter sido feita por uma das interlocutoras, a captação ambiental realizada por Patrícia não configura o crime do art. 10-A da Lei 9.296/96.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 10-A, § 1º: não há crime se a captação é realizada por um dos interlocutores. O tipo pune a captação ambiental para investigação ou instrução criminal sem autorização judicial, quando ela é exigida."
+        },
+        {
+          "t": "Errado",
+          "p": "generalizacao",
+          "w": "Julgar errado é tratar como crime toda captação sem autorização judicial. A própria lei exclui o crime quando quem grava é um dos interlocutores."
+        }
+      ]
+    },
+    {
+      "id": "lpe37",
+      "type": "ce",
+      "topic": "Transação ambiental",
+      "src": "Lei 9.605/98, art. 27; Lei 9.099/95, arts. 74 e 76",
+      "c": "Em Lajeado (RS), o dono de uma chácara foi autuado por um crime ambiental de menor potencial ofensivo. Ainda não houve acordo para reparar o dano, que é plenamente possível.",
+      "q": "Nos crimes ambientais de menor potencial ofensivo, o Ministério Público pode propor a transação penal independentemente da prévia composição do dano ambiental.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo é ignorar a condição do art. 27: a transação nos crimes ambientais pressupõe a prévia composição do dano, salvo comprovada impossibilidade."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 27 da Lei 9.605/98: a proposta de transação penal (art. 76 da Lei 9.099/95) só pode ser formulada se tiver havido a prévia composição do dano ambiental (art. 74), salvo em caso de comprovada impossibilidade."
+        }
+      ]
+    },
+    {
+      "id": "lpe38",
+      "type": "ce",
+      "topic": "Recusa ao bafômetro",
+      "src": "CTB, arts. 165-A e 306",
+      "c": "Em Brasília (DF), numa blitz da Lei Seca, Augusto, que não apresentava sinais de embriaguez, recusou-se a soprar o etilômetro.",
+      "q": "A recusa de Augusto configura infração administrativa gravíssima, com multa e suspensão do direito de dirigir por 12 meses, mas não constitui, por si só, o crime do art. 306 do CTB.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 165-A: recusar-se a teste, exame clínico ou perícia que permita certificar a influência de álcool é infração gravíssima, com multa (dez vezes) e suspensão do direito de dirigir por 12 meses. O crime do art. 306 exige conduzir com capacidade psicomotora alterada, provada por outros meios."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado é confundir a sanção administrativa da recusa com o crime de embriaguez ao volante. Sem prova da alteração psicomotora, a recusa gera só as penalidades do art. 165-A."
+        }
+      ]
+    },
+    {
+      "id": "lpe39",
+      "type": "ce",
+      "topic": "Racismo nas redes sociais",
+      "src": "Lei 7.716/89, art. 20, caput e § 2º (Lei 14.532/2023)",
+      "c": "Em Salvador (BA), um influenciador publicou em rede social um vídeo incitando os seguidores a não contratar pessoas de determinada etnia.",
+      "q": "Por ter sido praticado em rede social, o crime de incitação à discriminação tem a mesma pena do caput do art. 20 da Lei 7.716/89: reclusão de 1 a 3 anos e multa.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "calculo",
+          "w": "Julgar certo é ignorar a forma qualificada do § 2º. Cometido por meio de rede social ou da internet, o crime tem pena de reclusão de 2 a 5 anos e multa."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 20, § 2º, com redação da Lei 14.532/2023: se o crime for cometido por meio de comunicação social, de publicação em redes sociais, da internet ou de publicação de qualquer natureza, a pena é de reclusão de 2 a 5 anos e multa."
+        }
+      ]
+    },
+    {
+      "id": "lpe40",
+      "type": "ce",
+      "topic": "Retenção de cartão",
+      "src": "Lei 10.741/03, arts. 95 e 104",
+      "c": "Em Ilhéus (BA), o dono de uma mercearia passou a reter o cartão de benefício de um aposentado de 70 anos para garantir o pagamento das compras fiadas.",
+      "q": "A conduta configura crime do Estatuto da Pessoa Idosa, de ação penal pública incondicionada.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 104: reter o cartão magnético de conta bancária relativa a benefícios, proventos ou pensão da pessoa idosa para assegurar recebimento ou ressarcimento de dívida. Pena: detenção de 6 meses a 2 anos e multa. Pelo art. 95, a ação é pública incondicionada."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado é exigir violência ou prejuízo efetivo, que o art. 104 não pede. Reter o cartão para garantir dívida já é crime, de ação pública incondicionada."
+        }
+      ]
+    }
+  ]
+}

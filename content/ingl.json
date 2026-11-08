@@ -1114,6 +1114,552 @@
      "w": "Julgar errado seria exigir que o texto declare a finalidade com todas as letras. “Since” aqui é causal, e não temporal, e liga a decisão aos moradores sem internet."
     }
    ]
+  },
+  {
+   "id": "ingl41",
+   "topic": "Discurso indireto",
+   "c": "In January, the education secretary of a city in Paraíba told reporters: “We will publish the exam results next week.” In March, a journalist reported the statement.",
+   "q": "Qual é a forma correta do relato em discurso indireto?",
+   "a": 2,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidades sobre reported speech",
+   "o": [
+    {
+     "t": "The secretary said that they will publish the exam results next week.",
+     "p": "calculo",
+     "w": "Em março, “next week” já não indica a semana certa, e o verbo de relato no passado pede o recuo de will para would."
+    },
+    {
+     "t": "The secretary told that they would publish the exam results the following week.",
+     "p": "troca",
+     "w": "“Tell” exige objeto indicando o ouvinte (told reporters that...). Sem ele, usa-se “said that”."
+    },
+    {
+     "t": "The secretary said that they would publish the exam results the following week.",
+     "p": "correta",
+     "w": "Com “said” no passado, will passa a would, “we” passa a “they” e “next week” passa a “the following week”."
+    },
+    {
+     "t": "The secretary said that they had published the exam results the week before.",
+     "p": "inversao",
+     "w": "Essa versão transforma uma promessa futura em fato já ocorrido. A fala original anunciava algo que ainda seria feito."
+    }
+   ]
+  },
+  {
+   "id": "ingl42",
+   "topic": "Stop: -ing ou to",
+   "c": "At a health unit in Belém, Dr. Lima told Carlos to stop smoking. On his way home, Carlos stopped to buy fruit at a street market.",
+   "q": "Qual interpretação está correta?",
+   "a": 0,
+   "src": "Swan, Practical English Usage, 4. ed. (Oxford University Press, 2016), seção sobre -ing form e infinitive (stop)",
+   "o": [
+    {
+     "t": "O médico pediu que Carlos deixasse de fumar; no caminho, Carlos parou para comprar frutas.",
+     "p": "correta",
+     "w": "“Stop + -ing” é deixar de fazer algo; “stop + to” é interromper o que se fazia para fazer outra coisa."
+    },
+    {
+     "t": "O médico pediu que Carlos parasse para fumar; no caminho, Carlos deixou de comprar frutas.",
+     "p": "inversao",
+     "w": "As construções foram invertidas: “stop smoking” é deixar de fumar, e “stopped to buy” é parar para comprar."
+    },
+    {
+     "t": "O médico pediu que Carlos fumasse menos, sem precisar parar de vez.",
+     "p": "extrapolacao",
+     "w": "O texto não fala em reduzir. “Stop smoking” indica deixar de fumar."
+    },
+    {
+     "t": "Stop seguido de -ing ou de to tem o mesmo sentido; muda apenas o estilo.",
+     "p": "generalizacao",
+     "w": "Com stop, a forma do verbo seguinte muda o sentido: abandonar uma atividade (-ing) ou parar com uma finalidade (to)."
+    }
+   ]
+  },
+  {
+   "id": "ingl43",
+   "topic": "Be used to",
+   "c": "When she worked in Porto Alegre, Júlia used to take two buses to the office. Now she lives near her job in Natal, but she is used to waking up at 5 a.m.",
+   "q": "Qual interpretação está correta?",
+   "a": 3,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidades 'used to (do)' e 'be/get used to'",
+   "o": [
+    {
+     "t": "Júlia está acostumada a pegar dois ônibus e costumava acordar às 5 da manhã.",
+     "p": "inversao",
+     "w": "Os sentidos foram trocados: “used to take” é hábito passado, e “is used to waking up” é costume atual."
+    },
+    {
+     "t": "Júlia ainda pega dois ônibus por dia, pois “used to” indica hábito atual.",
+     "p": "extrapolacao",
+     "w": "“Used to + verbo” indica hábito do passado que não existe mais; hoje ela mora perto do trabalho."
+    },
+    {
+     "t": "“Is used to waking up” indica que ela acordava às 5 só no passado.",
+     "p": "troca",
+     "w": "“Be used to + -ing” significa estar acostumado, no presente. O hábito apenas passado é “used to + verbo”."
+    },
+    {
+     "t": "Júlia costumava pegar dois ônibus; hoje está acostumada a acordar às 5 da manhã.",
+     "p": "correta",
+     "w": "“Used to take” é hábito do passado; “is used to waking up” é estar acostumada a algo, com o verbo em -ing."
+    }
+   ]
+  },
+  {
+   "id": "ingl44",
+   "topic": "Ausência de obrigação",
+   "c": "A notice at a state public archive in São Paulo says: “Visitors don’t have to book in advance, but they mustn’t take photos of the original documents.”",
+   "q": "O que o aviso informa?",
+   "a": 1,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidades sobre must, mustn't e have to",
+   "o": [
+    {
+     "t": "É proibido agendar com antecedência, e fotografar os originais é opcional.",
+     "p": "inversao",
+     "w": "Os valores foram trocados: “don’t have to” indica ausência de obrigação, e “mustn’t” indica proibição."
+    },
+    {
+     "t": "Agendar é opcional, e fotografar os documentos originais é proibido.",
+     "p": "correta",
+     "w": "“Don’t have to” significa não precisar (é opcional); “mustn’t” significa não poder (é proibido)."
+    },
+    {
+     "t": "Agendar é opcional, e fotografar os originais é desaconselhado, mas permitido.",
+     "p": "troca",
+     "w": "Isso seria “shouldn’t”. “Mustn’t” expressa proibição, não um simples conselho."
+    },
+    {
+     "t": "As duas expressões indicam proibição, pois qualquer modal negativo proíbe.",
+     "p": "generalizacao",
+     "w": "“Don’t have to” não proíbe: apenas retira a obrigação. A proibição está só em “mustn’t”."
+    }
+   ]
+  },
+  {
+   "id": "ingl45",
+   "topic": "Should have done",
+   "c": "After water leaked in a new public school in Londrina, the engineer wrote: “The contractor should have tested the pipes before closing the walls.”",
+   "q": "O que a frase do engenheiro expressa?",
+   "a": 2,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidades sobre should e should have (done)",
+   "o": [
+    {
+     "t": "A construtora testou os canos antes de fechar as paredes, como devia.",
+     "p": "inversao",
+     "w": "“Should have + particípio” indica algo que deveria ter sido feito e não foi; o teste não aconteceu."
+    },
+    {
+     "t": "Uma dedução: a construtora provavelmente testou os canos.",
+     "p": "troca",
+     "w": "Dedução sobre o passado se expressa com “must have tested”. “Should have tested” é crítica a uma omissão."
+    },
+    {
+     "t": "Uma crítica: a construtora não testou os canos, e deveria ter testado.",
+     "p": "correta",
+     "w": "“Should have + particípio” expressa crítica ou arrependimento sobre algo que não foi feito no passado."
+    },
+    {
+     "t": "Uma regra que obriga todas as construtoras do país a testar canos.",
+     "p": "extrapolacao",
+     "w": "A frase avalia a conduta de uma construtora numa obra; não cria nem cita regra geral."
+    }
+   ]
+  },
+  {
+   "id": "ingl46",
+   "topic": "Past perfect",
+   "c": "When the firefighters arrived at the warehouse in Contagem (MG), the workers had already left the building. Nobody was injured.",
+   "q": "Qual é a ordem dos fatos?",
+   "a": 0,
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidade 'Past perfect (I had done)'",
+   "o": [
+    {
+     "t": "Os trabalhadores saíram do prédio antes de os bombeiros chegarem.",
+     "p": "correta",
+     "w": "O past perfect (had left) marca a ação anterior a outra ação passada (arrived). A saída veio primeiro."
+    },
+    {
+     "t": "Os bombeiros chegaram e, depois, os trabalhadores saíram do prédio.",
+     "p": "inversao",
+     "w": "Essa leitura inverte a sequência. “Had already left” indica que a saída já tinha acontecido na chegada."
+    },
+    {
+     "t": "Os trabalhadores ainda estavam saindo quando os bombeiros chegaram.",
+     "p": "troca",
+     "w": "Ação em andamento seria “were leaving” (past continuous). “Had left” indica ação concluída antes."
+    },
+    {
+     "t": "Os trabalhadores nunca mais voltaram ao prédio depois do incêndio.",
+     "p": "extrapolacao",
+     "w": "O texto só diz que eles já tinham saído quando os bombeiros chegaram; nada informa sobre retornos."
+    }
+   ]
+  },
+  {
+   "id": "ingl47",
+   "topic": "Resume e comprehensive",
+   "c": "After the strike, a university in Florianópolis will resume classes on Monday. It will also publish a comprehensive calendar with all exam dates.",
+   "q": "Qual é o sentido de “resume” e “comprehensive” no trecho?",
+   "a": 3,
+   "src": "Cambridge Dictionary, verbetes 'resume' e 'comprehensive'",
+   "o": [
+    {
+     "t": "resumir; compreensível",
+     "p": "troca",
+     "w": "São falsos cognatos: “resume” é retomar, e “comprehensive” é abrangente. Compreensível seria “comprehensible”."
+    },
+    {
+     "t": "suspender; abrangente",
+     "p": "inversao",
+     "w": "Suspender é o oposto do sentido de “resume”. Depois da greve, as aulas serão retomadas."
+    },
+    {
+     "t": "retomar; compreensivo, isto é, tolerante com os alunos",
+     "p": "extrapolacao",
+     "w": "“Comprehensive” qualifica o calendário como completo, com todas as datas. Tolerante seria “understanding”."
+    },
+    {
+     "t": "retomar; abrangente",
+     "p": "correta",
+     "w": "“Resume” significa retomar algo interrompido, e “comprehensive” significa completo, abrangente: o calendário traz todas as datas."
+    }
+   ]
+  },
+  {
+   "id": "ingl48",
+   "topic": "Intend, prejudice e large",
+   "c": "The city government of Porto Velho intends to fight prejudice against migrants, who form a large group in the region.",
+   "q": "Qual é o sentido de “intends”, “prejudice” e “large” no trecho?",
+   "a": 1,
+   "src": "Cambridge Dictionary, verbetes 'intend', 'prejudice' e 'large'",
+   "o": [
+    {
+     "t": "pretende; prejuízo; grande",
+     "p": "troca",
+     "w": "“Prejudice” é preconceito, falso cognato frequente. Prejuízo, em inglês, é “loss” ou “damage”."
+    },
+    {
+     "t": "pretende; preconceito; grande",
+     "p": "correta",
+     "w": "“Intend” é pretender, ter a intenção; “prejudice” é preconceito; “large” é grande."
+    },
+    {
+     "t": "desiste de; preconceito; grande",
+     "p": "inversao",
+     "w": "“Intend” indica a intenção de fazer algo, o oposto de desistir; desistir, em inglês, é “give up”."
+    },
+    {
+     "t": "pretende; preconceito; largo",
+     "p": "generalizacao",
+     "w": "“Large” indica tamanho ou quantidade grande; largo, em inglês, é “wide” ou “broad”."
+    }
+   ]
+  },
+  {
+   "id": "ingl49",
+   "topic": "Grupo nominal",
+   "c": "A news site from Rio Branco (AC) reported: “The state health department vaccination campaign budget was approved yesterday.”",
+   "q": "Qual é o núcleo do sujeito e o sentido da frase?",
+   "a": 0,
+   "src": "Swan, Practical English Usage, 4. ed. (Oxford University Press, 2016), seção sobre noun + noun",
+   "o": [
+    {
+     "t": "Núcleo “budget”: o orçamento da campanha de vacinação da secretaria estadual de saúde foi aprovado.",
+     "p": "correta",
+     "w": "Em grupos nominais do inglês, o núcleo é o último substantivo, e os anteriores o qualificam. O que foi aprovado foi o orçamento."
+    },
+    {
+     "t": "Núcleo “state”, pois em inglês o núcleo vem primeiro, como em português.",
+     "p": "generalizacao",
+     "w": "Em sequências de substantivos, o inglês põe os modificadores antes; o núcleo é o último termo, “budget”."
+    },
+    {
+     "t": "Núcleo “campaign”: a campanha de vacinação foi aprovada.",
+     "p": "troca",
+     "w": "“Campaign” modifica “budget”. O texto informa a aprovação do orçamento, não da campanha."
+    },
+    {
+     "t": "Núcleo “department”: a secretaria de saúde aprovou o orçamento da campanha.",
+     "p": "inversao",
+     "w": "A frase está na voz passiva e não diz quem aprovou; “department” é só um dos modificadores de “budget”."
+    }
+   ]
+  },
+  {
+   "id": "ingl50",
+   "topic": "So that",
+   "c": "The health unit in Aracaju extended its opening hours so that workers could get vaccinated after 6 p.m.",
+   "q": "Que relação “so that” estabelece no trecho?",
+   "a": 2,
+   "src": "Cambridge Dictionary, verbetes 'so that' e 'so'",
+   "o": [
+    {
+     "t": "Consequência, com o sentido de “therefore”.",
+     "p": "troca",
+     "w": "Consequência é marcada por “so” sozinho ou por “therefore”. “So that” introduz o objetivo da ação."
+    },
+    {
+     "t": "Causa: a unidade ampliou o horário porque os trabalhadores já se vacinavam depois das 18h.",
+     "p": "inversao",
+     "w": "A vacinação após as 18h é o objetivo da ampliação, não sua causa anterior."
+    },
+    {
+     "t": "Finalidade: a unidade ampliou o horário para que os trabalhadores pudessem se vacinar depois das 18h.",
+     "p": "correta",
+     "w": "“So that” significa “para que” e costuma vir com modal (could, can, would), indicando o propósito da ação."
+    },
+    {
+     "t": "Intensidade, como em “so tired”, pois “so” sempre intensifica o termo seguinte.",
+     "p": "generalizacao",
+     "w": "“So” intensifica adjetivos e advérbios, mas “so that” seguido de oração indica finalidade."
+    }
+   ]
+  },
+  {
+   "id": "ingl51",
+   "topic": "Since causal",
+   "c": "Since the system was offline all morning, the clerks at a public service center in Cuiabá registered the citizens’ requests by hand.",
+   "q": "Qual é a tradução adequada de “Since” no trecho?",
+   "a": 3,
+   "src": "Cambridge Dictionary, verbete 'since'",
+   "o": [
+    {
+     "t": "Desde que, no sentido temporal de “a partir do momento em que”.",
+     "p": "troca",
+     "w": "O sentido temporal pediria um marco inicial e tempo perfeito na oração principal (“had registered”). Aqui o sistema fora do ar explica o registro manual."
+    },
+    {
+     "t": "Desde que, no sentido condicional de “contanto que”.",
+     "p": "restricao",
+     "w": "“Since” não tem valor condicional em inglês; essa leitura vem do português “desde que”."
+    },
+    {
+     "t": "Embora",
+     "p": "inversao",
+     "w": "Embora indicaria contraste, mas o sistema fora do ar é justamente o motivo do registro manual, não um obstáculo superado."
+    },
+    {
+     "t": "Como, já que",
+     "p": "correta",
+     "w": "Aqui “since” é causal: o sistema fora do ar foi o motivo de os pedidos serem registrados à mão."
+    }
+   ]
+  },
+  {
+   "id": "ingl52",
+   "topic": "Propósito do texto",
+   "c": "Notice on a city hall website in Caruaru (PE): “Starting on 1 March, requests for tax clearance certificates will only be accepted through the online portal. Citizens who need help may visit any service counter, where staff will guide them through the online form.”",
+   "q": "Qual é o propósito principal do aviso?",
+   "a": 1,
+   "src": "Grellet, Developing Reading Skills (Cambridge University Press, 1981)",
+   "o": [
+    {
+     "t": "Anunciar o fechamento dos balcões de atendimento da prefeitura.",
+     "p": "extrapolacao",
+     "w": "O aviso diz o contrário: os balcões continuam abertos para orientar quem precisar usar o formulário on-line."
+    },
+    {
+     "t": "Informar que os pedidos passarão a ser feitos só pelo portal, com orientação presencial para quem precisar.",
+     "p": "correta",
+     "w": "O aviso informa a mudança (“only through the online portal”) e oferece apoio nos balcões (“staff will guide them”)."
+    },
+    {
+     "t": "Informar que o portal será desativado e os pedidos voltarão a ser presenciais.",
+     "p": "inversao",
+     "w": "É o oposto: a partir de 1º de março, o portal passa a ser o único canal para os pedidos."
+    },
+    {
+     "t": "Avisar que só cidadãos com computador próprio poderão pedir a certidão.",
+     "p": "restricao",
+     "w": "O aviso não faz essa exigência: quem precisar de ajuda pode ir a qualquer balcão e ser orientado."
+    }
+   ]
+  },
+  {
+   "id": "ingl53",
+   "topic": "Prefixos over e under",
+   "c": "The audit found that the state government had underestimated the cost of the new hospital in Teresina. As a result, the project is now over budget.",
+   "q": "Qual interpretação está correta?",
+   "a": 0,
+   "src": "Oxford Learner's Dictionaries, verbetes 'underestimate' e 'budget' (over budget)",
+   "o": [
+    {
+     "t": "O governo subestimou o custo, e a obra está acima do orçamento.",
+     "p": "correta",
+     "w": "“Under-” indica algo abaixo do adequado: o custo foi calculado para menos. “Over budget” significa ter gastado mais que o previsto."
+    },
+    {
+     "t": "O governo superestimou o custo, e a obra está abaixo do orçamento.",
+     "p": "inversao",
+     "w": "Os prefixos foram lidos ao contrário: “underestimate” é estimar para menos, e “over budget” é acima do orçamento."
+    },
+    {
+     "t": "O governo subestimou o custo, e o orçamento da obra já foi encerrado.",
+     "p": "troca",
+     "w": "“Over budget” não se liga ao sentido de “acabado” (the game is over); significa ultrapassar o orçamento."
+    },
+    {
+     "t": "O governo subestimou o custo, e por isso a obra foi cancelada.",
+     "p": "extrapolacao",
+     "w": "O texto informa que a obra está acima do orçamento, não que foi cancelada."
+    }
+   ]
+  },
+  {
+   "id": "ingl54",
+   "topic": "Either or, neither nor",
+   "c": "A notice from the city hall of Anápolis (GO) says: “Applicants can submit the form either online or at the city hall. Neither late forms nor incomplete ones will be accepted.”",
+   "q": "Qual interpretação está correta?",
+   "a": 2,
+   "src": "Cambridge Dictionary, verbetes 'either' e 'neither'",
+   "o": [
+    {
+     "t": "O formulário deve ser entregue nas duas formas, on-line e na prefeitura.",
+     "p": "restricao",
+     "w": "“Either... or” apresenta alternativas: basta uma das duas formas de entrega."
+    },
+    {
+     "t": "Pode-se escolher a forma de entrega, e formulários atrasados ou incompletos serão aceitos.",
+     "p": "inversao",
+     "w": "“Neither... nor” nega os dois termos: nem os atrasados nem os incompletos serão aceitos."
+    },
+    {
+     "t": "Pode-se entregar on-line ou na prefeitura, e serão recusados os formulários atrasados e os incompletos.",
+     "p": "correta",
+     "w": "“Either... or” oferece alternativas (um ou outro); “neither... nor” nega ambos (nem um nem outro)."
+    },
+    {
+     "t": "Nenhum formulário será aceito, pois “neither” nega todas as formas de entrega.",
+     "p": "generalizacao",
+     "w": "“Neither... nor” se aplica só aos formulários atrasados e aos incompletos, não às formas de entrega."
+    }
+   ]
+  },
+  {
+   "id": "ingl55",
+   "type": "ce",
+   "topic": "Wish no presente",
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidades sobre wish",
+   "c": "A student at the public library of Teresópolis (RJ) wrote in the suggestion box: “I wish the library opened on Sundays.”",
+   "q": "A frase indica que, atualmente, a biblioteca não abre aos domingos e que o estudante gostaria que abrisse.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "“Wish + passado simples” expressa desejo irreal sobre o presente: o estudante quer algo que hoje não acontece."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado toma “opened” como fato passado. Depois de “wish”, o passado simples indica situação irreal no presente."
+    }
+   ]
+  },
+  {
+   "id": "ingl56",
+   "type": "ce",
+   "topic": "Advérbio hardly",
+   "src": "Cambridge Dictionary, verbete 'hardly'",
+   "c": "After the heavy rains in Petrópolis (RJ), residents of some neighborhoods could hardly reach the city center, because most roads were blocked.",
+   "q": "No trecho, “hardly” equivale a “duramente”, indicando que os moradores se esforçaram muito e conseguiram chegar ao centro sem maiores problemas.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo confunde “hardly” com “hard”. “Hardly” significa “mal” ou “quase não”: os moradores quase não conseguiam chegar ao centro."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "“Could hardly reach” significa que mal conseguiam chegar ao centro, o que combina com as estradas bloqueadas."
+    }
+   ]
+  },
+  {
+   "id": "ingl57",
+   "type": "ce",
+   "topic": "Fewer e less",
+   "src": "Cambridge Dictionary, verbetes 'fewer' e 'less'",
+   "c": "Since the online portal was launched, the city hall of Londrina has received fewer complaints and has produced less paperwork.",
+   "q": "O uso de “fewer” com “complaints” e de “less” com “paperwork” segue a norma-padrão, pois “complaints” é contável e “paperwork” é incontável.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Na norma-padrão, “fewer” acompanha substantivos contáveis no plural (complaints), e “less”, incontáveis (paperwork)."
+    },
+    {
+     "t": "Errado",
+     "p": "generalizacao",
+     "w": "Julgar errado supõe que um só quantificador serve para os dois casos. A norma-padrão distingue “fewer” (contáveis) de “less” (incontáveis)."
+    }
+   ]
+  },
+  {
+   "id": "ingl58",
+   "type": "ce",
+   "topic": "Exemplificação com such as",
+   "src": "Cambridge Dictionary, verbete 'such as'",
+   "c": "A state school of government in Belo Horizonte offers free online courses for public servants, such as Excel, public speaking and official writing.",
+   "q": "A expressão “such as” indica que Excel, oratória e redação oficial são os únicos cursos oferecidos pela escola.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo transforma exemplos em lista completa. “Such as” introduz exemplos, sem dizer que não há outros cursos."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "“Such as” significa “como” ou “por exemplo”: os três cursos ilustram a oferta, que pode incluir outros."
+    }
+   ]
+  },
+  {
+   "id": "ingl59",
+   "type": "ce",
+   "topic": "The more, the shorter",
+   "src": "Murphy, English Grammar in Use, 5. ed. (Cambridge University Press, 2019), unidades sobre comparison (the ... the ...)",
+   "c": "A report by the city hall of Uberlândia (MG) concluded: “The more citizens use the online portal, the shorter the lines at the service counters become.”",
+   "q": "A frase indica que, quanto mais cidadãos usam o portal, menores ficam as filas nos balcões de atendimento.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "A estrutura “the + comparativo..., the + comparativo...” equivale a “quanto mais..., mais (ou menos)...”: mais uso do portal, filas mais curtas."
+    },
+    {
+     "t": "Errado",
+     "p": "inversao",
+     "w": "Julgar errado inverte a relação. “The shorter” acompanha “the more”: o aumento do uso vem junto com filas menores."
+    }
+   ]
+  },
+  {
+   "id": "ingl60",
+   "type": "ce",
+   "topic": "Instead of",
+   "src": "Cambridge Dictionary, verbete 'instead of'",
+   "c": "Instead of printing the documents, the staff at a prosecutor’s office in Palmas (TO) now sign them electronically.",
+   "q": "A expressão “instead of” equivale a “além de”, indicando que os servidores imprimem os documentos e também os assinam eletronicamente.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo confunde “instead of” com “in addition to”. “Instead of” significa “em vez de”: a assinatura eletrônica substituiu a impressão."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "“Instead of” significa “em vez de”. Os servidores deixaram de imprimir e passaram a assinar eletronicamente."
+    }
+   ]
   }
  ]
 }

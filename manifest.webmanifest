@@ -1,7 +1,7 @@
 {
   "name": "Memory — estudo ativo",
   "short_name": "Memory",
-  "description": "Estude por recuperação ativa e repetição espaçada: questões com caso real, Certo ou Errado, simulados, liga semanal, turmas e tutor com IA.",
+  "description": "Estude para concursos com aulas curtas, questões comentadas, edital verticalizado e cronograma até a prova. Revisão espaçada, Certo ou Errado, simulados e radar de lei.",
   "lang": "pt-BR",
   "start_url": "/?origem=app",
   "scope": "/",

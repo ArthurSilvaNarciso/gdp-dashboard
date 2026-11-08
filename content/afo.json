@@ -552,6 +552,280 @@
         { "t": "Certo", "p": "correta", "w": "LC 200/2023, art. 5º, §1º: a variação real dos limites de despesa primária não será inferior a 0,6% nem superior a 2,5% ao ano. Dentro dessa faixa, vale 70% do crescimento real da receita primária, ou 50% se a meta de resultado primário não for cumprida." },
         { "t": "Errado", "p": "troca", "w": "Julgar errado costuma vir da lembrança do antigo teto de gastos (EC 95/2016), que só corrigia os limites pela inflação. O regime da LC 200/2023 admite crescimento real dentro da faixa de 0,6% a 2,5%." }
       ]
+    },
+    {
+      "id": "afo41",
+      "topic": "Investimento e inversão financeira",
+      "c": "Em Santos (SP), a prefeitura fez três despesas: I) comprou um prédio pronto, já em uso, para instalar a Secretaria de Finanças; II) comprou um terreno necessário para construir uma escola; III) comprou ambulâncias novas.",
+      "q": "Pela Lei 4.320/64, como se classificam essas despesas de capital?",
+      "a": 2,
+      "src": "Lei 4.320/64, art. 12, §§4º e 5º, I",
+      "o": [
+        { "t": "Todas são investimentos, porque toda aquisição de imóvel ou de bem durável aumenta o patrimônio público.", "p": "generalizacao", "w": "Ignora o §5º, I, do art. 12: a aquisição de imóvel ou de bem de capital já em utilização é inversão financeira, não investimento." },
+        { "t": "I e II são inversões financeiras, porque envolvem compra de imóvel; III é investimento.", "p": "restricao", "w": "Cria a regra de que toda compra de imóvel é inversão. O terreno comprado para a realização de obra é investimento (art. 12, §4º)." },
+        { "t": "I é inversão financeira; II e III são investimentos.", "p": "correta", "w": "Prédio já em utilização é inversão financeira (art. 12, §5º, I). Imóvel necessário à execução de obra e equipamentos e material permanente são investimentos (§4º)." },
+        { "t": "I é investimento, II é inversão financeira e III é despesa corrente, por se tratar de veículo.", "p": "inversao", "w": "Troca as duas classificações dos imóveis, e veículo novo é equipamento e material permanente, logo investimento (art. 12, §4º)." }
+      ]
+    },
+    {
+      "id": "afo42",
+      "topic": "Subvenções sociais e econômicas",
+      "c": "Em Campo Grande (MS), a prefeitura prevê no orçamento: I) repasse a uma associação filantrópica de assistência a pessoas com deficiência, sem fins lucrativos, para custear seus atendimentos; II) recursos para cobrir o déficit de manutenção da empresa pública municipal de mercados.",
+      "q": "Como a Lei 4.320/64 classifica esses repasses?",
+      "a": 0,
+      "src": "Lei 4.320/64, art. 12, §3º, e art. 18",
+      "o": [
+        { "t": "I é subvenção social e II é subvenção econômica, ambas transferências correntes.", "p": "correta", "w": "Subvenção social vai a instituição assistencial ou cultural sem fins lucrativos; a cobertura de déficit de manutenção de empresa pública se faz por subvenção econômica (arts. 12, §3º, e 18)." },
+        { "t": "I é subvenção econômica e II é subvenção social.", "p": "inversao", "w": "Inverte os conceitos: social é a destinada a entidade assistencial ou cultural sem fins lucrativos; econômica, a destinada a empresa (art. 12, §3º)." },
+        { "t": "Ambos são investimentos, porque fortalecem entidades que prestam serviço à população.", "p": "troca", "w": "Subvenções cobrem despesas de custeio das entidades beneficiadas e são transferências correntes, não despesas de capital." },
+        { "t": "I só é subvenção se a associação for entidade pública, porque é vedado repassar subvenção a entidade privada.", "p": "restricao", "w": "O art. 12, §3º, I, admite subvenção social a instituições públicas ou privadas de caráter assistencial ou cultural sem finalidade lucrativa." }
+      ]
+    },
+    {
+      "id": "afo43",
+      "topic": "Natureza da despesa",
+      "c": "Em Natal (RN), a Secretaria de Saúde empenhou a compra de desfibriladores para as UPAs, feita por ela mesma, com a natureza de despesa 4.4.90.52.",
+      "q": "O que indica cada parte desse código?",
+      "a": 3,
+      "src": "Portaria Interministerial STN/SOF 163/2001, art. 3º e Anexos I e II",
+      "o": [
+        { "t": "Despesa corrente, grupo outras despesas correntes, transferência a Municípios e elemento material de consumo.", "p": "inversao", "w": "Lê o código ao contrário: o 4 inicial é despesa de capital, o grupo 4 é investimentos e o elemento 52 é equipamentos e material permanente." },
+        { "t": "Despesa de capital, grupo inversões financeiras, aplicação direta e elemento equipamentos e material permanente.", "p": "troca", "w": "O grupo de natureza 4 é investimentos; inversões financeiras é o grupo 5." },
+        { "t": "Despesa de capital, grupo investimentos, transferência a instituições privadas e elemento obras e instalações.", "p": "calculo", "w": "Erra a leitura de dois campos: a modalidade 90 é aplicação direta, e obras e instalações é o elemento 51, não o 52." },
+        { "t": "Despesa de capital, grupo investimentos, modalidade aplicação direta e elemento equipamentos e material permanente.", "p": "correta", "w": "Na estrutura c.g.mm.ee: 4 = despesa de capital, 4 = investimentos, 90 = aplicações diretas e 52 = equipamentos e material permanente." }
+      ]
+    },
+    {
+      "id": "afo44",
+      "topic": "Classificação funcional",
+      "c": "Em Porto Velho (RO), a despesa com o pessoal administrativo da Secretaria de Educação foi classificada na função 12 (Educação), subfunção 122 (Administração Geral). Um estagiário apontou erro, porque a subfunção 122 pertence à função 04 (Administração).",
+      "q": "A classificação está correta?",
+      "a": 1,
+      "src": "Portaria MOG 42/1999, art. 1º, §§1º, 3º e 4º, e Anexo",
+      "o": [
+        { "t": "Não: cada subfunção só pode ser usada com a função a que está vinculada no Anexo da portaria.", "p": "generalizacao", "w": "Transforma o vínculo do Anexo em regra rígida. A própria portaria admite combinar subfunções com funções diferentes (art. 1º, §4º)." },
+        { "t": "Sim: as subfunções podem ser combinadas com funções diferentes daquelas a que estão vinculadas.", "p": "correta", "w": "É a matricialidade da classificação funcional (Portaria 42/1999, art. 1º, §4º): a função mostra a área (Educação) e a subfunção, o subconjunto da despesa (administração geral)." },
+        { "t": "Sim, mas só porque a despesa com pessoal é classificada pela função Encargos Especiais.", "p": "troca", "w": "Encargos Especiais reúne despesas a que não se associa bem ou serviço, como dívidas e indenizações (art. 1º, §2º); não é a função da folha da educação." },
+        { "t": "Não: a função é que se subdivide livremente, enquanto a subfunção deve ser sempre igual à função.", "p": "inversao", "w": "Inverte a hierarquia: a função é o maior nível de agregação, e a subfunção é uma partição dela (art. 1º, §§1º e 3º)." }
+      ]
+    },
+    {
+      "id": "afo45",
+      "topic": "Projeto, atividade, operação especial",
+      "c": "Em Goiânia (GO), o orçamento traz três ações: I) construção de uma nova unidade básica de saúde; II) manutenção do transporte escolar da rede municipal; III) pagamento de precatórios.",
+      "q": "Como essas ações se classificam?",
+      "a": 2,
+      "src": "Portaria MOG 42/1999, art. 2º, b, c e d",
+      "o": [
+        { "t": "I atividade, II projeto e III operação especial.", "p": "inversao", "w": "Troca projeto e atividade: obra nova, limitada no tempo, que expande a ação de governo é projeto; manutenção contínua é atividade." },
+        { "t": "Todas são atividades, porque toda ação orçamentária gera um produto para a sociedade.", "p": "generalizacao", "w": "Nem toda ação gera produto: a operação especial é justamente a que não resulta em produto nem gera contraprestação em bens ou serviços." },
+        { "t": "I projeto, II atividade e III operação especial.", "p": "correta", "w": "Projeto é limitado no tempo e expande ou aperfeiçoa a ação; atividade é contínua e mantém a ação; precatório não gera produto, logo é operação especial (art. 2º, b, c e d)." },
+        { "t": "I projeto, II atividade e III atividade, porque o pagamento de precatório se repete todo ano.", "p": "restricao", "w": "Usa a repetição anual como critério. O pagamento de precatórios não resulta em produto e por isso é operação especial, ainda que recorrente." }
+      ]
+    },
+    {
+      "id": "afo46",
+      "topic": "Limitação de empenho",
+      "c": "Ao fim do quarto bimestre, o Estado de Alagoas verificou que a receita realizada poderá não comportar a meta de resultado primário fixada no Anexo de Metas Fiscais da LDO.",
+      "q": "O que a LRF determina?",
+      "a": 0,
+      "src": "LC 101/2000, art. 9º, caput e §2º",
+      "o": [
+        { "t": "Cada Poder e o MP limitam empenho e movimentação financeira por ato próprio, nos 30 dias seguintes, sem atingir obrigações constitucionais e legais.", "p": "correta", "w": "É o art. 9º: limitação por ato próprio, nos 30 dias subsequentes, pelos critérios da LDO; o §2º exclui obrigações constitucionais e legais, como o serviço da dívida." },
+        { "t": "A limitação deve alcançar todas as despesas, inclusive o serviço da dívida, na proporção da frustração da receita.", "p": "generalizacao", "w": "O §2º do art. 9º exclui da limitação as obrigações constitucionais e legais, inclusive as destinadas ao pagamento do serviço da dívida." },
+        { "t": "A limitação só é verificada ao fim de cada quadrimestre, junto com o Relatório de Gestão Fiscal.", "p": "troca", "w": "Confunde com a periodicidade do RGF. A verificação do art. 9º é feita ao final de cada bimestre, no ritmo do RREO." },
+        { "t": "A limitação só é obrigatória se a frustração da receita superar 10% da receita prevista na LOA.", "p": "restricao", "w": "A LRF não fixa percentual mínimo de frustração: basta que a receita possa não comportar as metas de resultado primário ou nominal." }
+      ]
+    },
+    {
+      "id": "afo47",
+      "topic": "Recursos vinculados",
+      "c": "Em Ilhéus (BA), terminou 2025 um saldo de R$ 2 milhões da contribuição para o custeio do serviço de iluminação pública. Em 2026, o prefeito quer usar esse saldo para pagar os salários dos professores.",
+      "q": "O que diz a LRF sobre o uso desse saldo?",
+      "a": 3,
+      "src": "LC 101/2000, art. 8º, parágrafo único",
+      "o": [
+        { "t": "Pode ser usado livremente, porque a vinculação vale só no exercício em que o recurso ingressou.", "p": "restricao", "w": "Acrescenta limite temporal que a lei afasta: a vinculação continua ainda que em exercício diverso daquele do ingresso." },
+        { "t": "Pode ser usado, desde que a Câmara aprove crédito especial indicando o saldo como fonte.", "p": "extrapolacao", "w": "Abrir crédito não muda a vinculação legal; o crédito com essa fonte teria de atender ao próprio objeto vinculado." },
+        { "t": "Deve ser devolvido aos contribuintes, porque sobra de tributo vinculado não pode ficar no caixa do Município.", "p": "inversao", "w": "A LRF não manda devolver: manda manter o recurso no objeto da vinculação, inclusive em exercícios seguintes." },
+        { "t": "Só pode atender ao objeto da vinculação, ainda que em exercício diverso daquele em que ingressou.", "p": "correta", "w": "Recursos legalmente vinculados a finalidade específica atendem exclusivamente ao objeto de sua vinculação, ainda que em outro exercício (art. 8º, parágrafo único)." }
+      ]
+    },
+    {
+      "id": "afo48",
+      "topic": "Antecipação de receita (ARO)",
+      "c": "O prefeito de Montes Claros (MG), cujo mandato vai de 2025 a 2028, quer contratar uma operação de crédito por antecipação de receita orçamentária em fevereiro de 2028 para cobrir falta de caixa.",
+      "q": "A contratação é possível?",
+      "a": 1,
+      "src": "LC 101/2000, art. 38, I, II e IV, b",
+      "o": [
+        { "t": "Sim, desde que a operação seja liquidada, com juros e encargos, até 10 de dezembro de 2028.", "p": "extrapolacao", "w": "O prazo de liquidação até 10 de dezembro é exigência para as ARO permitidas; não afasta a proibição do último ano de mandato." },
+        { "t": "Não: a ARO é proibida no último ano de mandato do Presidente, Governador ou Prefeito.", "p": "correta", "w": "O art. 38, IV, b, da LRF proíbe a ARO no último ano de mandato do chefe do Executivo, e 2028 é o último ano desse mandato." },
+        { "t": "Sim, porque a vedação vale só para os dois últimos quadrimestres do mandato.", "p": "troca", "w": "Mistura com o art. 42, que trata de obrigações nos dois últimos quadrimestres. A vedação da ARO abrange todo o último ano." },
+        { "t": "Não, porque a ARO só pode ser contratada a partir de 10 de março de cada exercício.", "p": "calculo", "w": "Erra o marco: a ARO pode ser feita a partir do décimo dia do início do exercício (art. 38, I). O impedimento aqui é o último ano de mandato." }
+      ]
+    },
+    {
+      "id": "afo49",
+      "topic": "Final de mandato",
+      "c": "Em setembro de 2028, o prefeito de Caruaru (PE), em fim de mandato, quer contratar uma obra de 15 meses, com parte das parcelas a pagar em 2029.",
+      "q": "Pelo art. 42 da LRF, a contratação é possível?",
+      "a": 0,
+      "src": "LC 101/2000, art. 42, caput e parágrafo único",
+      "o": [
+        { "t": "Sim, se houver disponibilidade de caixa suficiente para as parcelas de 2029, descontados os compromissos a pagar até o fim do exercício.", "p": "correta", "w": "O art. 42 veda, nos dois últimos quadrimestres, obrigação com parcelas no exercício seguinte sem suficiente disponibilidade de caixa, considerados os encargos compromissados até o fim do ano." },
+        { "t": "Não: nos dois últimos quadrimestres do mandato é vedado assumir qualquer obrigação de despesa.", "p": "generalizacao", "w": "A vedação não é absoluta: obrigação com parcelas a pagar no exercício seguinte é admitida quando há suficiente disponibilidade de caixa para elas." },
+        { "t": "Não, porque o ato é nulo por ter sido praticado nos 180 dias anteriores ao fim do mandato.", "p": "troca", "w": "A nulidade dos 180 dias finais é do art. 21 e trata de aumento de despesa com pessoal, não de contratação de obra." },
+        { "t": "Sim, sem condição, porque a regra vale só para o Presidente da República e os Governadores.", "p": "restricao", "w": "O art. 42 alcança o titular de Poder ou órgão referido no art. 20, o que inclui o prefeito." }
+      ]
+    },
+    {
+      "id": "afo50",
+      "topic": "Alienação de ativos",
+      "c": "O Estado do Pará vendeu imóveis desocupados e arrecadou R$ 60 milhões. O governador quer usar o valor para pagar contas de energia e material de consumo dos hospitais estaduais.",
+      "q": "O que a LRF diz sobre o uso dessa receita?",
+      "a": 2,
+      "src": "LC 101/2000, art. 44",
+      "o": [
+        { "t": "Pode custear qualquer despesa, porque a receita de alienação de bens não tem destinação definida em lei.", "p": "generalizacao", "w": "O art. 44 restringe essa receita de capital: ela não pode financiar despesa corrente, com uma só exceção." },
+        { "t": "Pode custear despesas correntes da saúde, porque a saúde tem aplicação mínima garantida pela Constituição.", "p": "extrapolacao", "w": "O mínimo constitucional da saúde não cria exceção ao art. 44. A única ressalva é a destinação por lei aos regimes de previdência." },
+        { "t": "É vedado usá-la em despesa corrente, salvo se destinada por lei aos regimes de previdência social, geral e próprio.", "p": "correta", "w": "É a regra do art. 44: a receita de capital da alienação de bens e direitos não financia despesa corrente, salvo a destinada por lei ao RGPS ou ao RPPS." },
+        { "t": "Só pode ser usada para amortizar a dívida pública, vedado qualquer investimento.", "p": "restricao", "w": "A LRF não limita essa receita à amortização da dívida: ela pode financiar despesas de capital em geral, como investimentos." }
+      ]
+    },
+    {
+      "id": "afo51",
+      "topic": "Receita corrente líquida",
+      "c": "Nos últimos 12 meses, o Estado do Piauí arrecadou R$ 48 bilhões de receitas correntes, incluídos R$ 2,4 bilhões de contribuição dos servidores ao regime próprio e R$ 0,6 bilhão de compensação financeira do art. 201, §9º, da CF. Entregou R$ 9 bilhões aos Municípios por determinação constitucional e contratou R$ 3 bilhões em operações de crédito.",
+      "q": "Qual é a receita corrente líquida (RCL) do Estado?",
+      "a": 3,
+      "src": "LC 101/2000, art. 2º, IV, b e c, e §3º",
+      "o": [
+        { "t": "R$ 39 bilhões, deduzindo só as parcelas entregues aos Municípios.", "p": "inversao", "w": "Trata as contribuições dos servidores e a compensação previdenciária como parte da RCL, quando a LRF manda deduzi-las (art. 2º, IV, c)." },
+        { "t": "R$ 36,6 bilhões, deduzindo as parcelas dos Municípios e a contribuição dos servidores.", "p": "calculo", "w": "Esquece a compensação financeira do art. 201, §9º, que também se deduz: 48 − 9 − 2,4 − 0,6 = 36." },
+        { "t": "R$ 33 bilhões, deduzindo também as operações de crédito.", "p": "troca", "w": "Operação de crédito é receita de capital e nem integra as receitas correntes; não há o que deduzir dela no cálculo da RCL." },
+        { "t": "R$ 36 bilhões: 48 − 9 − 2,4 − 0,6.", "p": "correta", "w": "Das receitas correntes do mês e dos 11 anteriores, o Estado deduz as parcelas entregues aos Municípios, a contribuição dos servidores ao regime próprio e a compensação financeira (art. 2º, IV, b e c, e §3º)." }
+      ]
+    },
+    {
+      "id": "afo52",
+      "topic": "Excesso de dívida consolidada",
+      "c": "Ao fim do primeiro quadrimestre, a dívida consolidada de São Luís (MA) ultrapassou em R$ 120 milhões o limite fixado pelo Senado.",
+      "q": "Como a LRF manda reconduzir a dívida ao limite?",
+      "a": 1,
+      "src": "LC 101/2000, art. 31, caput e §1º",
+      "o": [
+        { "t": "Nos dois quadrimestres seguintes, eliminando ao menos R$ 40 milhões no primeiro.", "p": "troca", "w": "Aplica a regra do excesso de despesa com pessoal (art. 23): dois quadrimestres e um terço no primeiro. Para a dívida, são três quadrimestres e 25%." },
+        { "t": "Até o fim dos três quadrimestres seguintes, reduzindo ao menos R$ 30 milhões no primeiro.", "p": "correta", "w": "O art. 31 dá três quadrimestres e exige redução de pelo menos 25% do excedente no primeiro: 25% de R$ 120 milhões = R$ 30 milhões." },
+        { "t": "Até o fim do exercício seguinte, sem percentual mínimo no primeiro quadrimestre.", "p": "restricao", "w": "Cria prazo e flexibilidade que a lei não prevê. O art. 31 fixa três quadrimestres e redução mínima de 25% no primeiro." },
+        { "t": "Até o fim dos três quadrimestres seguintes, podendo contratar operações de crédito para quitar o excesso.", "p": "extrapolacao", "w": "Enquanto houver excesso, o ente fica proibido de contratar operação de crédito, ressalvado o refinanciamento do principal atualizado da dívida mobiliária (§1º, I)." }
+      ]
+    },
+    {
+      "id": "afo53",
+      "topic": "Limites do arcabouço fiscal",
+      "c": "Na elaboração do projeto de LOA da União, a equipe econômica apurou que a receita primária ajustada cresceu 3,2% acima do IPCA nos 12 meses encerrados em junho e que a meta de resultado primário apurada no exercício anterior não foi cumprida.",
+      "q": "Qual será o crescimento real dos limites de despesa primária?",
+      "a": 0,
+      "src": "LC 200/2023, art. 5º, caput, I e II, e §§1º e 4º",
+      "o": [
+        { "t": "1,6%, isto é, 50% do crescimento real da receita.", "p": "correta", "w": "Meta descumprida leva à proporção de 50% (art. 5º, II): 50% de 3,2% = 1,6%, dentro da faixa de 0,6% a 2,5% do §1º." },
+        { "t": "2,24%, isto é, 70% do crescimento real da receita.", "p": "troca", "w": "A proporção de 70% vale quando a meta foi cumprida (art. 5º, I). Com meta descumprida, aplica-se 50%." },
+        { "t": "2,5%, o teto anual de crescimento real dos limites.", "p": "extrapolacao", "w": "O teto de 2,5% só se aplica quando o cálculo o ultrapassa; 50% de 3,2% fica abaixo dele." },
+        { "t": "0,6%, porque o descumprimento da meta reduz o crescimento ao piso.", "p": "restricao", "w": "O descumprimento muda a proporção para 50%, não manda aplicar o piso. O piso de 0,6% só vale se o cálculo der menos que isso." }
+      ]
+    },
+    {
+      "id": "afo54",
+      "topic": "Prorrogação de benefício",
+      "c": "Em Campinas (SP), a prefeitura quer prorrogar por mais três anos a isenção de IPTU para aposentados de baixa renda, que gera renúncia de receita, compensando-a com o aumento da alíquota de outro tributo municipal.",
+      "q": "O que a LRF exige?",
+      "a": 2,
+      "src": "LC 101/2000, art. 14, caput, I e II (redação do caput pela LC 224/2025)",
+      "o": [
+        { "t": "Nada: o art. 14 alcança só a concessão e a ampliação de benefícios, não a prorrogação.", "p": "inversao", "w": "Com a LC 224/2025, o caput do art. 14 passou a citar expressamente a prorrogação ao lado da concessão e da ampliação." },
+        { "t": "Estimativa do impacto apenas no primeiro exercício da prorrogação, já que o benefício é antigo.", "p": "calculo", "w": "A estimativa cobre o exercício em que a medida deve iniciar sua vigência e os dois seguintes, ainda que se trate de prorrogação." },
+        { "t": "Estimativa do impacto no exercício de início e nos dois seguintes, respeito à LDO e compensação, nesse período, por aumento de receita.", "p": "correta", "w": "O art. 14 exige a estimativa trienal, o atendimento à LDO e ao menos uma das condições; aqui, a do inciso II: compensação no mesmo período por elevação de alíquota, ampliação de base ou majoração ou criação de tributo." },
+        { "t": "Autorização prévia do Tribunal de Contas do Estado, além da estimativa de impacto.", "p": "restricao", "w": "A LRF não condiciona a renúncia a autorização do Tribunal de Contas; as exigências são as do art. 14." }
+      ]
+    },
+    {
+      "id": "afo55",
+      "type": "ce",
+      "topic": "Remanejamento em CT&I",
+      "src": "CF/88, art. 167, VI e §5º",
+      "c": "A Secretaria de Ciência e Tecnologia do Rio Grande do Sul quer transferir recursos de uma categoria de programação para outra, dentro de projetos de inovação, para viabilizar seus resultados.",
+      "q": "No âmbito das atividades de ciência, tecnologia e inovação, a transposição, o remanejamento ou a transferência de recursos entre categorias de programação podem ser feitos por ato do Poder Executivo, sem a prévia autorização legislativa exigida em regra.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O art. 167, §5º, da CF, incluído pela EC 85/2015, admite essas movimentações por ato do Executivo para viabilizar resultados de projetos restritos a essas funções, sem a autorização do inciso VI." },
+        { "t": "Errado", "p": "generalizacao", "w": "Julgar errado é tratar a vedação do art. 167, VI, como absoluta. O §5º do mesmo artigo abre exceção expressa para ciência, tecnologia e inovação." }
+      ]
+    },
+    {
+      "id": "afo56",
+      "type": "ce",
+      "topic": "Saldo dos duodécimos",
+      "src": "CF/88, art. 168, caput e §§1º e 2º",
+      "c": "A Câmara Municipal de Juazeiro do Norte (CE) terminou o ano com saldo financeiro dos duodécimos recebidos da prefeitura e quer usá-lo para capitalizar um fundo de modernização do Legislativo.",
+      "q": "A Câmara pode transferir o saldo dos duodécimos ao fundo de modernização, desde que o fundo tenha sido criado por lei.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "restricao", "w": "Julgar certo é aceitar uma condição que a CF não prevê. O §1º do art. 168 veda a transferência a fundos de recursos oriundos de repasses duodecimais, com ou sem lei." },
+        { "t": "Errado", "p": "correta", "w": "A CF veda transferir duodécimos a fundos (art. 168, §1º). O saldo deve ser restituído ao caixa único do Tesouro ou deduzido das primeiras parcelas do exercício seguinte (§2º)." }
+      ]
+    },
+    {
+      "id": "afo57",
+      "type": "ce",
+      "topic": "Benefício a pessoa jurídica",
+      "src": "LC 101/2000, art. 14-A, III e §2º (incluído pela LC 224/2025)",
+      "c": "Tramita no Congresso projeto que prorroga um benefício de imposto de renda para empresas de um setor industrial. A avaliação oficial mostrou que as metas de desempenho fixadas na concessão não foram atingidas.",
+      "q": "A prorrogação é admitida, desde que o projeto venha acompanhado de medidas de compensação da renúncia de receita.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "extrapolacao", "w": "Julgar certo é estender a lógica da compensação do art. 14 a um caso que a lei bloqueia. O art. 14-A, §2º, veda a prorrogação quando as metas não foram atingidas." },
+        { "t": "Errado", "p": "correta", "w": "Pelo art. 14-A, §2º, incluído pela LC 224/2025, é vedada a prorrogação de benefício tributário cujas metas de resultado não tenham sido atingidas ou cuja avaliação não tenha sido feita." }
+      ]
+    },
+    {
+      "id": "afo58",
+      "type": "ce",
+      "topic": "Reserva de contingência",
+      "src": "LC 101/2000, art. 5º, III, b",
+      "c": "Na elaboração do projeto de LOA de Aracaju (SE), a Secretaria de Planejamento define o valor da reserva de contingência.",
+      "q": "A forma de utilização e o montante da reserva de contingência, definido com base na receita corrente líquida, são estabelecidos no plano plurianual.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo é trocar a LDO pelo PPA. A LRF manda a LDO estabelecer a forma de utilização e o montante da reserva de contingência." },
+        { "t": "Errado", "p": "correta", "w": "Pelo art. 5º, III, da LRF, a LOA contém reserva de contingência cuja forma de utilização e montante, definido com base na RCL, são estabelecidos na LDO, para passivos contingentes e riscos fiscais imprevistos." }
+      ]
+    },
+    {
+      "id": "afo59",
+      "type": "ce",
+      "topic": "Terceirização e pessoal",
+      "src": "LC 101/2000, art. 18, §1º",
+      "c": "Em Anápolis (GO), a prefeitura contratou empresa para fornecer auxiliares de enfermagem que ocupam postos antes preenchidos por servidores efetivos.",
+      "q": "Os valores desse contrato de terceirização de mão de obra, por substituir servidores, entram na despesa com pessoal como Outras Despesas de Pessoal.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O art. 18, §1º, da LRF manda contabilizar como Outras Despesas de Pessoal os contratos de terceirização de mão de obra que se referem à substituição de servidores e empregados públicos." },
+        { "t": "Errado", "p": "troca", "w": "Julgar errado é tratar o contrato como simples serviço de terceiros. Quando a terceirização substitui servidores, a LRF a soma à despesa com pessoal." }
+      ]
+    },
+    {
+      "id": "afo60",
+      "type": "ce",
+      "topic": "Condição prévia ao empenho",
+      "src": "LC 101/2000, art. 16, I e II e §4º, I",
+      "c": "Em Palmas (TO), a prefeitura criou um programa de reforço escolar que aumenta a despesa e vai abrir licitação para contratar o serviço.",
+      "q": "A estimativa do impacto orçamentário-financeiro e a declaração do ordenador da despesa sobre a adequação com a LOA e a compatibilidade com o PPA e a LDO são condição prévia para o empenho e a licitação.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O art. 16, §4º, I, da LRF faz das exigências do caput, a estimativa trienal e a declaração do ordenador, condição prévia para empenho e licitação de serviços, bens ou obras." },
+        { "t": "Errado", "p": "inversao", "w": "Julgar errado é supor que a estimativa e a declaração podem vir depois da contratação. A LRF as exige antes do empenho e da licitação." }
+      ]
     }
   ]
 }

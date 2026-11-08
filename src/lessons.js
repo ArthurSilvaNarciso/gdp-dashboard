@@ -10,7 +10,7 @@ function lessonsOf(d) {
   if (!LES.loading[d.id] && !LES.err[d.id]) {
     LES.loading[d.id] = true;
     loadJSONData('lessons/' + d.id + '.json').then((x) => { LES.cache[d.id] = (x && x.lessons) || []; }).catch(() => { LES.err[d.id] = true; LES.cache[d.id] = []; })
-      .finally(() => { LES.loading[d.id] = false; if ((ui.tab === 'trilhas' && ui.deck === d.id) || ui.tab === 'aula') rerender(); });
+      .finally(() => { LES.loading[d.id] = false; if ((ui.tab === 'trilhas' && ui.deck === d.id) || ui.tab === 'aula' || ui.tab === 'plano' || (ui.session && ui.session.phase === 'consol')) rerender(); });
   }
   return null;
 }
@@ -24,6 +24,7 @@ function lessonsBlock(d) {
   return `<div class="blk"><div class="sec"><h2>Aulas</h2><span class="tiny num" style="font-weight:700">${done}/${L.length} estudadas</span></div>
     <div class="list lessons">${show.map((l, i) => { const r = isRead(l); const nx = !r && i === nextI; return `<button class="item lesson-it ${r ? 'read' : ''} ${nx ? 'next' : ''}" data-act="aula" data-d="${esc(d.id)}" data-id="${esc(l.id)}">
       <span class="tile ${r ? 'c-mint' : nx ? 'c-peach' : 'c-blue'} num">${r ? ico('check') : i + 1}</span><div class="main"><b>${esc(l.title)}</b><span>${l.mins} min de leitura${l.qids && l.qids.length ? ' · ' + l.qids.length + ' questões' : ''}${nx ? ' · próxima' : ''}</span></div>${chev()}</button>`; }).join('')}</div>
+    ${'speechSynthesis' in window && L.length > 1 ? `<button class="btn btn-soft btn-sm btn-block" data-act="aula-seq" data-id="${esc(d.id)}">${ico('sound')} Ouvir as aulas em sequência</button>` : ''}
     ${L.length > 3 && ui.lmore !== d.id ? `<button class="btn btn-ghost btn-sm btn-block" data-act="lmore" data-id="${esc(d.id)}">Ver as ${L.length} aulas</button>` : ''}</div>`;
 }
 function viewAula() {
@@ -51,10 +52,40 @@ function viewAula() {
     <div class="dock"><div class="duo">${l.qids && l.qids.filter((id) => QINDEX[id]).length ? `<button class="btn btn-orange" data-act="aula-praticar">Praticar ${l.qids.filter((id) => QINDEX[id]).length} questões</button>` : `<button class="btn btn-orange" data-act="aula-done">Marcar como estudada</button>`}${nxt ? `<button class="btn btn-ghost" data-act="aula" data-d="${esc(d.id)}" data-id="${esc(nxt.id)}">Próxima aula</button>` : ''}</div></div>
   </div>`;
 }
-function markRead(id) { S.read = S.read || {}; if (!S.read[id]) { S.read[id] = Date.now(); earnCoins(2); } persist(); }
+/* Errou? A aula que explica aquele ponto, aberta por cima da questão (sem sair do ciclo). */
+function lessonFor(qid) {
+  const x = QINDEX[qid]; if (!x) return null; const L = lessonsOf(x.deck); if (!L || !L.length) return null;
+  const direct = L.find((l) => (l.qids || []).includes(qid)); if (direct) return { d: x.deck, l: direct };
+  const tn = norm(x.q.topic || ''); const byTopic = L.find((l) => (l.qids || []).some((id) => QINDEX[id] && norm(QINDEX[id].q.topic || '') === tn));
+  if (byTopic) return { d: x.deck, l: byTopic };
+  const w = tn.split(' ').filter((t) => t.length > 4); const byWord = L.find((l) => w.some((t) => norm(l.title).includes(t.slice(0, 5))));
+  return byWord ? { d: x.deck, l: byWord } : null;
+}
+function lessonLinkHTML(qid) { const r = lessonFor(qid); if (!r) return ''; return `<button class="callout aula-link" data-act="aula-peek" data-q="${esc(qid)}"><span class="tile c-blue">${ico('book')}</span><div><b>Revisar na aula</b><p>${esc(r.l.title)} · ${r.l.mins} min</p></div>${chev()}</button>`; }
+function aulaSheetHTML(l) {
+  const sec = (s) => `<section class="ls-sec"><h3>${esc(s.h)}</h3>${s.p.map((p) => `<p>${esc(p)}</p>`).join('')}${s.list && s.list.length ? `<ul>${s.list.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}</section>`;
+  return `<div class="blk aula-sheet" style="gap:8px"><span class="tag c-blue">Aula</span><h2>${esc(l.title)}</h2><p class="aula-intro">${esc(l.intro)}</p>${l.sections.map(sec).join('')}
+    ${l.traps && l.traps.length ? `<section class="ls-traps"><span class="ls-k">${ico('warn')} Pegadinhas de prova</span><ul>${l.traps.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></section>` : ''}
+    ${l.summary && l.summary.length ? `<section class="ls-sum"><span class="ls-k">${ico('list')} Para lembrar</span><ol>${l.summary.map((x) => `<li>${esc(x)}</li>`).join('')}</ol></section>` : ''}
+    <button class="btn btn-primary btn-block" data-act="sheet-close">Voltar à questão</button></div>`;
+}
+function lessonText(l) { return [l.title, l.intro, ...l.sections.flatMap((s) => [s.h, ...s.p, ...(s.list || [])]), l.example ? 'Exemplo. ' + l.example.c + ' ' + l.example.q + ' Resposta: ' + l.example.a : '', ...(l.traps || []).map((t) => 'Pegadinha: ' + t), 'Para lembrar: ' + (l.summary || []).join(' ')].join('. '); }
+function speakLesson(d, l) {
+  const u = new SpeechSynthesisUtterance(lessonText(l)); u.lang = 'pt-BR'; const v = speechSynthesis.getVoices().find((x) => /^pt(-|_)BR/i.test(x.lang)); if (v) u.voice = v;
+  u.onend = () => {
+    ui.tts = false; markRead(l.id);
+    const L = lessonsOf(d) || []; const nx = L[L.findIndex((x) => x.id === l.id) + 1];
+    if (ui.ttsSeq === d.id && nx && ui.tab === 'aula') { ACT.aula({ d: d.id, id: nx.id }); speakLesson(d, nx); return; }
+    ui.ttsSeq = null; const b = document.querySelector('[data-act=aula-tts]'); if (b) b.setAttribute('aria-pressed', 'false');
+  };
+  u.onerror = () => { ui.tts = false; ui.ttsSeq = null; const b = document.querySelector('[data-act=aula-tts]'); if (b) b.setAttribute('aria-pressed', 'false'); };
+  ttsStop(); ui.tts = true; speechSynthesis.speak(u); rerender();
+}
+function markRead(id) { S.read = S.read || {}; if (!S.read[id]) { S.read[id] = Date.now(); earnCoins(2); track('aula_read'); } persist(); }
 Object.assign(ACT, {
-  'aula': (d) => { if (ui.tts) ttsStop(); ui.aulaDeck = d.d; ui.aulaId = d.id; ui.tab = 'aula'; render(); $('#view').scrollTop = 0; },
-  'aula-back': () => { if (ui.tts) ttsStop(); ui.tab = 'trilhas'; ui.deck = ui.aulaDeck; render(); },
+  'aula-peek': (d) => { const r = lessonFor(d.q); if (!r) return; markRead(r.l.id); ui.sheet = aulaSheetHTML(r.l); renderSheet(); },
+  'aula': (d) => { if (ui.tts && !ui.ttsSeq) ttsStop(); ui.aulaDeck = d.d; ui.aulaId = d.id; ui.tab = 'aula'; render(); $('#view').scrollTop = 0; },
+  'aula-back': () => { if (ui.tts) ttsStop(); ui.ttsSeq = null; ui.tab = 'trilhas'; ui.deck = ui.aulaDeck; render(); },
   'lmore': (d) => { ui.lmore = d.id; rerender(); },
   'aula-done': () => { markRead(ui.aulaId); notify('Aula estudada · +2 moedas'); rerender(); },
   'aula-praticar': () => {
@@ -63,11 +94,13 @@ Object.assign(ACT, {
     startCycle({ ids, size: ids.length, title: l.title });
   },
   'aula-tts': () => {
-    if (ui.tts) { ttsStop(); rerender(); return; }
-    const d = deckById(ui.aulaDeck); const l = (lessonsOf(d) || []).find((x) => x.id === ui.aulaId); if (!l) return;
-    const text = [l.title, l.intro, ...l.sections.flatMap((s) => [s.h, ...s.p, ...(s.list || [])]), l.example ? 'Exemplo. ' + l.example.c + ' ' + l.example.q + ' Resposta: ' + l.example.a : '', ...(l.traps || []).map((t) => 'Pegadinha: ' + t), 'Para lembrar: ' + (l.summary || []).join(' ')].join('. ');
-    const u = new SpeechSynthesisUtterance(text); u.lang = 'pt-BR'; const v = speechSynthesis.getVoices().find((x) => /^pt(-|_)BR/i.test(x.lang)); if (v) u.voice = v;
-    u.onend = u.onerror = () => { ui.tts = false; const b = document.querySelector('[data-act=aula-tts]'); if (b) b.setAttribute('aria-pressed', 'false'); };
-    ttsStop(); ui.tts = true; speechSynthesis.speak(u); rerender();
+    if (ui.tts) { ttsStop(); ui.ttsSeq = null; rerender(); return; }
+    const d = deckById(ui.aulaDeck); const l = (lessonsOf(d) || []).find((x) => x.id === ui.aulaId); if (!l) return; speakLesson(d, l);
+  },
+  // Ouvir as aulas da trilha em sequência, como um podcast: ao terminar uma, abre e lê a próxima.
+  'aula-seq': (d) => {
+    const deck = deckById(d.id); const L = lessonsOf(deck) || []; if (!L.length || !('speechSynthesis' in window)) return;
+    const start = L.find((l) => !isRead(l)) || L[0]; ui.ttsSeq = deck.id; track('aula_audio'); ACT.aula({ d: deck.id, id: start.id }); speakLesson(deck, start);
   }
+
 });

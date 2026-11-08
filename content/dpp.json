@@ -552,6 +552,280 @@
         { "t": "Certo", "p": "generalizacao", "w": "Julgar certo transforma em perda total e obrigatória o que a lei limita a até 1/3 do tempo remido." },
         { "t": "Errado", "p": "correta", "w": "LEP, art. 127: em caso de falta grave, o juiz poderá revogar até 1/3 do tempo remido, recomeçando a contagem a partir da data da infração disciplinar. No caso, a perda máxima é de 20 dias." }
       ]
+    },
+    {
+      "id": "dpp41",
+      "topic": "Preventiva e gravidade abstrata",
+      "c": "Em 2026, numa ação penal por tráfico de drogas em Mossoró (RN), o Ministério Público pediu a prisão preventiva do réu. O juiz a decretou afirmando apenas que \"o tráfico é crime gravíssimo, que destrói famílias e alimenta a violência\", sem apontar nenhum fato do caso.",
+      "q": "Assinale a alternativa correta sobre a decisão.",
+      "a": 0,
+      "src": "CPP, arts. 311 e 312, §§ 2º e 4º (Lei 15.272/2025)",
+      "o": [
+        { "t": "É ilegal, pois a preventiva não pode se basear na gravidade abstrata do delito; periculosidade e risco devem ser demonstrados concretamente.", "p": "correta", "w": "Art. 312, § 4º, incluído pela Lei 15.272/2025: é incabível a preventiva com base em alegações de gravidade abstrata do delito, devendo ser concretamente demonstrados a periculosidade do agente e o risco que ele representa." },
+        { "t": "É válida, pois nos crimes equiparados a hediondos a gravidade do delito sempre basta para a preventiva.", "p": "generalizacao", "w": "Nenhuma espécie de crime dispensa a fundamentação concreta. A Lei 15.272/2025 vedou expressamente a preventiva fundada só na gravidade abstrata (art. 312, § 4º)." },
+        { "t": "É ilegal apenas porque a preventiva por tráfico exige condenação prévia em primeiro grau.", "p": "restricao", "w": "A preventiva cabe em qualquer fase da investigação ou do processo (art. 311), sem exigir condenação. O vício da decisão está na falta de fundamentação concreta." },
+        { "t": "É ilegal, pois a Lei 15.272/2025 proibiu a preventiva nos crimes cometidos sem violência ou grave ameaça.", "p": "extrapolacao", "w": "A lei não criou essa proibição. Ela listou critérios de periculosidade e vedou a fundamentação pela gravidade abstrata; a preventiva segue cabível no tráfico se houver risco concreto." }
+      ]
+    },
+    {
+      "id": "dpp42",
+      "topic": "Conversão do flagrante",
+      "c": "Em Caxias do Sul (RS), Wagner foi preso em flagrante por roubo com grave ameaça. Três meses antes, ele havia sido liberado em outra audiência de custódia, por um furto pelo qual ainda não foi julgado. Na nova audiência, o Ministério Público pediu a conversão em preventiva.",
+      "q": "Como o juiz deve decidir?",
+      "a": 2,
+      "src": "CPP, art. 310, caput, §§ 5º e 6º (Lei 15.272/2025)",
+      "o": [
+        { "t": "Deve converter automaticamente, pois essas circunstâncias passaram a impor a preventiva.", "p": "generalizacao", "w": "O § 5º do art. 310 diz que essas circunstâncias recomendam a conversão, não que a impõem. A decisão continua dependendo do exame do caso concreto." },
+        { "t": "Não pode considerar a liberação anterior, pois Wagner ainda não foi condenado pelo furto.", "p": "restricao", "w": "O art. 310, § 5º, III, permite considerar a liberação em audiência de custódia anterior, salvo se o agente tiver sido depois absolvido daquela infração, o que não ocorreu." },
+        { "t": "A grave ameaça e a liberação anterior recomendam a conversão, mas a decisão deve ser motivada e examinar essas circunstâncias.", "p": "correta", "w": "Art. 310, § 5º, II e III, e § 6º (Lei 15.272/2025): essas circunstâncias recomendam a conversão, e a decisão deve ser motivada e fundamentada, com exame obrigatório delas e dos critérios de periculosidade do art. 312, § 3º." },
+        { "t": "Deve decretar a prisão temporária, medida própria para quem já passou por audiência de custódia.", "p": "troca", "w": "A temporária é prisão da investigação, para crimes do rol da Lei 7.960/89. No flagrante, o art. 310 manda relaxar a prisão ilegal, convertê-la em preventiva ou conceder liberdade provisória." }
+      ]
+    },
+    {
+      "id": "dpp43",
+      "topic": "Coleta de perfil genético",
+      "c": "Em Campina Grande (PB), um homem foi preso em flagrante por estupro, crime contra a dignidade sexual. O delegado lavrou o auto, e a audiência de custódia foi marcada para o dia seguinte.",
+      "q": "O que o CPP prevê quanto à coleta de material biológico do preso?",
+      "a": 1,
+      "src": "CPP, art. 310-A, caput e §§ 1º e 2º (Lei 15.272/2025)",
+      "o": [
+        { "t": "O delegado determina a coleta por conta própria, logo depois de lavrar o auto de prisão.", "p": "troca", "w": "O art. 310-A manda o Ministério Público ou a autoridade policial requerer a coleta ao juiz; o delegado não a determina por conta própria." },
+        { "t": "O MP ou o delegado deve requerer ao juiz a coleta, feita de preferência na audiência de custódia ou em até 10 dias dela.", "p": "correta", "w": "Art. 310-A (Lei 15.272/2025): no flagrante por crime contra a dignidade sexual, entre outros, deve-se requerer ao juiz a coleta para obter o perfil genético, preferencialmente na própria audiência de custódia ou em até 10 dias de sua realização (§ 1º)." },
+        { "t": "O juiz deve determinar a coleta em toda prisão em flagrante, qualquer que seja o crime.", "p": "generalizacao", "w": "A regra é restrita: crimes com violência ou grave ameaça à pessoa, contra a dignidade sexual, hediondos e de integrantes de organização criminosa armada (art. 310-A, caput)." },
+        { "t": "A coleta só é cabível depois da condenação definitiva, já na execução da pena.", "p": "restricao", "w": "Desde a Lei 15.272/2025, a coleta é prevista já a partir da prisão em flagrante, sem prejuízo da coleta de condenados regulada na LEP." }
+      ]
+    },
+    {
+      "id": "dpp44",
+      "topic": "Admissibilidade da preventiva",
+      "c": "Em Rio Verde (GO), Paulo, primário e com identidade conhecida, foi denunciado por dano qualificado ao patrimônio do município, crime doloso punido com detenção de 6 meses a 3 anos. O Ministério Público pediu sua prisão preventiva.",
+      "q": "Pelo art. 313 do CPP, a preventiva é admissível?",
+      "a": 3,
+      "src": "CPP, art. 313, I a III; CP, art. 163, parágrafo único, III",
+      "o": [
+        { "t": "Sim, pois a preventiva cabe em qualquer crime doloso, desde que presentes os requisitos do art. 312.", "p": "generalizacao", "w": "Além dos requisitos do art. 312, a preventiva precisa de uma hipótese do art. 313, como crime doloso com pena máxima superior a 4 anos ou réu reincidente em crime doloso." },
+        { "t": "Sim, pois a pena máxima de 3 anos supera o limite de 2 anos das infrações de menor potencial ofensivo.", "p": "calculo", "w": "O patamar do art. 313, I, é pena máxima superior a 4 anos, não a 2. Com máximo de 3 anos, a hipótese não se aplica." },
+        { "t": "Não, pois a preventiva só cabe em crimes punidos com reclusão.", "p": "restricao", "w": "O art. 313 não distingue reclusão de detenção: olha a pena máxima do crime doloso, a reincidência e a violência doméstica, entre outras hipóteses." },
+        { "t": "Não, pois a pena máxima não é superior a 4 anos e Paulo não é reincidente em crime doloso.", "p": "correta", "w": "Art. 313, I e II: a preventiva é admitida nos crimes dolosos com pena máxima superior a 4 anos ou se o réu for reincidente em crime doloso. Nenhuma dessas hipóteses, nem a da violência doméstica (inciso III), ocorre aqui." }
+      ]
+    },
+    {
+      "id": "dpp45",
+      "topic": "Ação privada subsidiária",
+      "c": "Em Anápolis (GO), o inquérito sobre o furto qualificado na loja de Clara chegou ao Ministério Público, com o investigado solto. Passaram-se 40 dias sem que o promotor denunciasse, pedisse diligências ou se manifestasse pelo arquivamento.",
+      "q": "O que Clara pode fazer?",
+      "a": 2,
+      "src": "CF/88, art. 5º, LIX; CPP, arts. 29 e 46",
+      "o": [
+        { "t": "Nada, pois a ação pública pertence exclusivamente ao Ministério Público em qualquer situação.", "p": "generalizacao", "w": "A CF (art. 5º, LIX) e o art. 29 do CPP admitem a ação privada subsidiária da pública quando o MP não a intenta no prazo legal." },
+        { "t": "Oferecer queixa subsidiária, mas só se o Ministério Público tiver se manifestado pelo arquivamento.", "p": "inversao", "w": "É o oposto: a subsidiária pressupõe inércia do MP. Se ele se manifesta pelo arquivamento, não há inércia, e a vítima dispõe da revisão do art. 28, § 1º." },
+        { "t": "Oferecer queixa subsidiária, que o MP poderá aditar ou repudiar, com denúncia substitutiva, e retomar se ela for negligente.", "p": "correta", "w": "Esgotado o prazo de 15 dias para denunciar investigado solto (art. 46), cabe a queixa subsidiária; o MP pode aditá-la, repudiá-la e oferecer denúncia substitutiva e, se a querelante for negligente, retomar a ação como parte principal (art. 29)." },
+        { "t": "Oferecer queixa subsidiária, que transforma a ação em privada, extinguível por perdão ou perempção.", "p": "extrapolacao", "w": "A ação continua pública na essência: se a querelante for negligente, o MP retoma a ação como parte principal (art. 29), em vez de ela se extinguir." }
+      ]
+    },
+    {
+      "id": "dpp46",
+      "topic": "Perempção",
+      "c": "Em Juazeiro (BA), Marta processa um ex-sócio por injúria, mediante queixa-crime. Nas alegações finais, seu advogado apenas narrou os fatos, sem formular nenhum pedido de condenação do querelado.",
+      "q": "Qual é a consequência?",
+      "a": 0,
+      "src": "CPP, art. 60, I e III; CP, arts. 107, IV, e 145",
+      "o": [
+        { "t": "A ação fica perempta, e extingue-se a punibilidade do querelado.", "p": "correta", "w": "Art. 60, III: considera-se perempta a ação privada quando o querelante deixa de formular o pedido de condenação nas alegações finais. A perempção extingue a punibilidade (CP, art. 107, IV)." },
+        { "t": "Nenhuma, pois a perempção só ocorre se o querelante deixar o processo parado por 30 dias seguidos.", "p": "restricao", "w": "A paralisação por 30 dias seguidos é só uma das hipóteses (art. 60, I). Deixar de pedir a condenação nas alegações finais é outra, prevista no inciso III." },
+        { "t": "Há nulidade relativa, sanável pela intimação do advogado para corrigir as alegações.", "p": "troca", "w": "Não se trata de nulidade, mas de causa de perempção, que extingue a punibilidade na ação exclusivamente privada (art. 60, III)." },
+        { "t": "O juiz deve julgar o mérito, pois o pedido de condenação fica implícito desde a queixa.", "p": "extrapolacao", "w": "Na ação privada, o CPP exige o pedido de condenação nas alegações finais; sem ele, a ação é considerada perempta (art. 60, III)." }
+      ]
+    },
+    {
+      "id": "dpp47",
+      "topic": "Citação por edital",
+      "c": "Em Cascavel (PR), Igor, denunciado por receptação, não foi encontrado nos endereços conhecidos e foi citado por edital. Ele não compareceu nem constituiu advogado.",
+      "q": "Como o processo deve seguir?",
+      "a": 3,
+      "src": "CPP, arts. 366 e 367",
+      "o": [
+        { "t": "Prossegue à revelia, com defensor dativo, como ocorre com o réu citado pessoalmente que não comparece.", "p": "troca", "w": "O prosseguimento sem o réu vale para quem foi citado ou intimado pessoalmente (art. 367). Para o citado por edital que não comparece nem constitui advogado, o art. 366 manda suspender o processo." },
+        { "t": "Suspende-se o processo, mas o prazo prescricional continua correndo normalmente.", "p": "inversao", "w": "O art. 366 suspende juntos o processo e o curso do prazo prescricional." },
+        { "t": "Suspende-se o processo, e o juiz deve decretar obrigatoriamente a prisão preventiva de Igor.", "p": "generalizacao", "w": "A preventiva pode ser decretada se presentes os requisitos do art. 312, mas não é consequência automática da citação por edital (art. 366)." },
+        { "t": "Suspendem-se o processo e o prazo prescricional, e o juiz pode determinar a produção antecipada de provas urgentes.", "p": "correta", "w": "Art. 366: ficam suspensos o processo e o curso do prazo prescricional, podendo o juiz determinar a produção antecipada das provas urgentes e, se for o caso, decretar a preventiva nos termos do art. 312." }
+      ]
+    },
+    {
+      "id": "dpp48",
+      "topic": "Absolvição sumária",
+      "c": "Em Bauru (SP), Hélio foi denunciado por lesão corporal. Na resposta à acusação, a defesa juntou vídeo de câmera de segurança que mostra, sem margem de dúvida, que ele apenas repeliu um ataque a faca contra si.",
+      "q": "Qual é a providência adequada do juiz?",
+      "a": 1,
+      "src": "CPP, arts. 395, 396-A e 397, I",
+      "o": [
+        { "t": "Designar audiência, pois a absolvição só pode ocorrer depois da instrução e do interrogatório.", "p": "restricao", "w": "O art. 397 permite absolver sumariamente logo após a resposta à acusação, antes da instrução, quando a excludente é manifesta." },
+        { "t": "Absolver sumariamente Hélio, pois há manifesta causa excludente da ilicitude do fato.", "p": "correta", "w": "Art. 397, I: após a resposta à acusação (art. 396-A), o juiz absolve sumariamente quando verifica a existência manifesta de causa excludente da ilicitude, como a legítima defesa." },
+        { "t": "Rejeitar a denúncia por inépcia, pois a acusação ignorou a legítima defesa.", "p": "troca", "w": "A rejeição (art. 395) trata de inépcia, falta de pressuposto processual ou de justa causa. Excludente manifesta demonstrada na resposta leva à absolvição sumária (art. 397)." },
+        { "t": "Absolver sumariamente, como deve fazer sempre que a defesa alegar alguma excludente de ilicitude.", "p": "generalizacao", "w": "Não basta alegar: a excludente deve ser manifesta (art. 397, I). Havendo dúvida, o processo segue para a instrução." }
+      ]
+    },
+    {
+      "id": "dpp49",
+      "topic": "Emendatio libelli",
+      "c": "Em Sobral (CE), a denúncia narrou que Edgar abriu a porta de uma casa com uma chave falsa e subtraiu uma TV, mas classificou o fato como furto simples. Ao sentenciar, o juiz entendeu que os fatos descritos configuram furto qualificado pelo emprego de chave falsa.",
+      "q": "O juiz pode condenar Edgar por furto qualificado?",
+      "a": 0,
+      "src": "CPP, arts. 383 e 384; CP, art. 155, § 4º, III",
+      "o": [
+        { "t": "Sim, por emendatio libelli: sem alterar a descrição do fato, pode dar-lhe outra definição jurídica, ainda que a pena seja mais grave.", "p": "correta", "w": "Art. 383: o juiz, sem modificar a descrição do fato contida na denúncia, pode atribuir-lhe definição jurídica diversa, ainda que tenha de aplicar pena mais grave. O réu se defende dos fatos narrados." },
+        { "t": "Sim, mas só depois de o Ministério Público aditar a denúncia, por mutatio libelli.", "p": "troca", "w": "O aditamento do art. 384 é para elemento ou circunstância que não está na denúncia. Aqui a chave falsa já estava narrada; muda só a classificação." },
+        { "t": "Não, pois a nova definição jurídica não pode agravar a pena do réu.", "p": "restricao", "w": "O art. 383 admite expressamente a nova definição jurídica ainda que o juiz tenha de aplicar pena mais grave." },
+        { "t": "Não, e deve absolvê-lo, pois a classificação errada torna a denúncia inepta.", "p": "extrapolacao", "w": "Classificação jurídica equivocada não torna inepta a denúncia que descreve bem o fato. O juiz corrige a capitulação na sentença (art. 383)." }
+      ]
+    },
+    {
+      "id": "dpp50",
+      "topic": "Recurso da impronúncia",
+      "c": "Em Itabuna (BA), ao fim da primeira fase do júri, o juiz impronunciou Valdo, acusado de homicídio, por não se convencer da existência de indícios suficientes de autoria. O Ministério Público quer recorrer.",
+      "q": "Qual recurso cabe?",
+      "a": 2,
+      "src": "CPP, arts. 414, 416, 581, IV, 593 e 598",
+      "o": [
+        { "t": "Recurso em sentido estrito, o mesmo cabível contra a pronúncia.", "p": "troca", "w": "O RESE cabe contra a pronúncia (art. 581, IV). Contra a impronúncia e a absolvição sumária, o art. 416 prevê apelação." },
+        { "t": "Nenhum, pois a impronúncia permite nova denúncia se surgir prova nova, o que a torna irrecorrível.", "p": "generalizacao", "w": "A possibilidade de nova denúncia com prova nova (art. 414, parágrafo único) não afasta o recurso: a impronúncia é apelável (art. 416)." },
+        { "t": "Apelação, no prazo de 5 dias.", "p": "correta", "w": "Art. 416: contra a sentença de impronúncia ou de absolvição sumária cabe apelação, interposta no prazo de 5 dias (art. 593)." },
+        { "t": "Apelação, no prazo de 15 dias.", "p": "calculo", "w": "O MP apela em 5 dias (art. 593). Quinze dias é o prazo do ofendido não habilitado como assistente, contado do fim do prazo do MP (art. 598, parágrafo único)." }
+      ]
+    },
+    {
+      "id": "dpp51",
+      "topic": "Recusas de jurados",
+      "c": "Numa sessão do júri em Juazeiro do Norte (CE), durante o sorteio do Conselho de Sentença, o defensor quis recusar, sem dar nenhum motivo, quatro dos jurados sorteados.",
+      "q": "Assinale a alternativa correta.",
+      "a": 3,
+      "src": "CPP, arts. 447 e 468",
+      "o": [
+        { "t": "Ele pode recusar sem motivo quantos jurados quiser, até que restem os 7 do Conselho.", "p": "generalizacao", "w": "As recusas imotivadas são limitadas a 3 por parte (art. 468). Além delas, só se recusa com motivo, como impedimento ou suspeição." },
+        { "t": "Ele pode recusar até 5 jurados sem motivação, pois o Conselho tem 7 membros.", "p": "calculo", "w": "O limite do art. 468 é de 3 recusas imotivadas para cada parte, sem relação com o número de membros do Conselho." },
+        { "t": "Ele só pode recusar jurado se provar impedimento ou suspeição.", "p": "restricao", "w": "Além das recusas motivadas, a defesa e o MP têm até 3 recusas sem motivação cada (art. 468)." },
+        { "t": "Ele pode fazer até 3 recusas imotivadas; a quarta só cabe com motivo, como impedimento ou suspeição.", "p": "correta", "w": "Art. 468: a defesa e, depois dela, o MP podem recusar os jurados sorteados, até 3 cada parte, sem motivar a recusa. O Conselho de Sentença tem 7 jurados (art. 447)." }
+      ]
+    },
+    {
+      "id": "dpp52",
+      "topic": "Suspensão condicional do processo",
+      "c": "Em setembro de 2026, em Itajaí (SC), Murilo, primário e sem outro processo, foi denunciado por furto simples, que desde a Lei 15.397/2026 tem pena de reclusão de 1 a 6 anos.",
+      "q": "Em tese, cabe a suspensão condicional do processo?",
+      "a": 1,
+      "src": "Lei 9.099/95, arts. 61 e 89; CP, art. 155, caput (Lei 15.397/2026)",
+      "o": [
+        { "t": "Não, pois ela só cabe nas infrações de menor potencial ofensivo, com pena máxima de até 2 anos.", "p": "troca", "w": "Pena máxima não superior a 2 anos é o critério das infrações de menor potencial e da transação penal (arts. 61 e 76). A suspensão do art. 89 olha a pena mínima." },
+        { "t": "Sim, pois a pena mínima cominada não é superior a 1 ano, com período de prova de 2 a 4 anos.", "p": "correta", "w": "Art. 89 da Lei 9.099/95: cabe nos crimes com pena mínima igual ou inferior a 1 ano, se o acusado não estiver sendo processado nem tiver sido condenado por outro crime; o processo fica suspenso por 2 a 4 anos." },
+        { "t": "Não, pois o aumento da pena máxima pela Lei 15.397/2026 afastou o furto simples do benefício.", "p": "extrapolacao", "w": "A lei elevou o máximo para 6 anos, mas manteve o mínimo em 1 ano, e é o mínimo que interessa ao art. 89." },
+        { "t": "Sim, com período de prova de 1 a 2 anos.", "p": "calculo", "w": "O período de prova da suspensão condicional do processo é de 2 a 4 anos (art. 89, caput)." }
+      ]
+    },
+    {
+      "id": "dpp53",
+      "topic": "Interceptação telefônica",
+      "c": "Em São José dos Campos (SP), a delegada investiga ameaças que um homem vem fazendo a um vizinho, crime punido com detenção. Ela pensa em representar pela interceptação telefônica do suspeito.",
+      "q": "A interceptação pode ser autorizada?",
+      "a": 0,
+      "src": "Lei 9.296/96, arts. 1º, 2º, III, e 5º; CP, art. 147",
+      "o": [
+        { "t": "Não, pois a lei não admite interceptação quando o fato é punido, no máximo, com detenção.", "p": "correta", "w": "Lei 9.296/96, art. 2º, III: não se admite a interceptação quando o fato investigado constituir infração penal punida, no máximo, com pena de detenção." },
+        { "t": "Sim, pois a interceptação cabe para investigar qualquer crime, desde que haja ordem judicial.", "p": "generalizacao", "w": "A ordem judicial é necessária, mas não suficiente: a lei veda a medida para crimes punidos no máximo com detenção e quando a prova puder ser feita por outros meios (art. 2º)." },
+        { "t": "Sim, desde que autorizada pelo delegado em decisão fundamentada.", "p": "troca", "w": "A interceptação depende de ordem do juiz competente (CF, art. 5º, XII; Lei 9.296/96, art. 1º). O delegado apenas representa pela medida." },
+        { "t": "Sim, por até 30 dias, prazo improrrogável.", "p": "calculo", "w": "Quando cabível, o prazo é de 15 dias, renovável por igual tempo se comprovada a indispensabilidade (art. 5º). E, neste caso, a medida nem é admitida." }
+      ]
+    },
+    {
+      "id": "dpp54",
+      "topic": "Prisão domiciliar substitutiva",
+      "c": "Em Marabá (PA), Joana, mãe de um menino de 5 anos, teve a prisão preventiva decretada por tráfico de drogas, crime cometido sem violência ou grave ameaça e sem nenhuma relação com o filho.",
+      "q": "Quanto à substituição da preventiva por prisão domiciliar, assinale a alternativa correta.",
+      "a": 3,
+      "src": "CPP, arts. 318, III e V, e 318-A",
+      "o": [
+        { "t": "Só cabe se o filho tiver menos de 6 anos e depender de cuidados especiais da mãe.", "p": "calculo", "w": "Menor de 6 anos é a hipótese de quem é imprescindível aos cuidados especiais da criança (art. 318, III). Para a mãe, o art. 318, V, e o art. 318-A falam em filho de até 12 anos incompletos." },
+        { "t": "Não cabe, pois o tráfico, equiparado a hediondo, impede a prisão domiciliar.", "p": "extrapolacao", "w": "O art. 318-A só afasta a substituição se o crime tiver violência ou grave ameaça à pessoa ou for cometido contra o filho ou dependente; não exclui o tráfico." },
+        { "t": "Cabe em qualquer crime, mesmo se cometido com violência contra o próprio filho.", "p": "generalizacao", "w": "O art. 318-A ressalva exatamente os crimes com violência ou grave ameaça à pessoa e os cometidos contra o filho ou dependente." },
+        { "t": "Deve ser substituída, pois Joana é mãe de criança menor de 12 anos e o crime não envolveu violência, grave ameaça nem o filho.", "p": "correta", "w": "Art. 318-A: a preventiva da mulher gestante ou que for mãe ou responsável por criança ou pessoa com deficiência será substituída por domiciliar, desde que ela não tenha cometido crime com violência ou grave ameaça à pessoa nem contra seu filho ou dependente." }
+      ]
+    },
+    {
+      "id": "dpp55",
+      "type": "ce",
+      "topic": "Critérios de periculosidade",
+      "src": "CPP, art. 312, §§ 3º e 4º (Lei 15.272/2025)",
+      "c": "Em Ponta Porã (MS), Rodrigo foi preso com 300 kg de maconha, duas pistolas e munição de vários calibres. Ele já responde a outra ação penal por tráfico, e o Ministério Público pediu sua preventiva para garantia da ordem pública.",
+      "q": "Na aferição da periculosidade geradora de risco à ordem pública, o CPP manda considerar a natureza, a quantidade e a variedade das drogas, armas e munições apreendidas, além do fundado receio de reiteração delitiva.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O item está certo. O art. 312, § 3º, incluído pela Lei 15.272/2025, lista esses parâmetros (incisos III e IV), ao lado do modus operandi e da participação em organização criminosa." },
+        { "t": "Errado", "p": "troca", "w": "Julgar errado é confundir esses dados concretos do caso com a gravidade abstrata do crime. O que a lei veda é fundamentar a preventiva apenas na gravidade abstrata (art. 312, § 4º)." }
+      ]
+    },
+    {
+      "id": "dpp56",
+      "type": "ce",
+      "topic": "Menor potencial ofensivo",
+      "src": "Lei 9.099/95, arts. 61 e 76; CP, art. 331",
+      "c": "Em Lages (SC), Pedro foi autuado por desacato, crime punido com detenção de 6 meses a 2 anos, ou multa, depois de xingar um guarda municipal em serviço.",
+      "q": "O desacato é infração de menor potencial ofensivo, pois sua pena máxima não é superior a 2 anos, e admite, em tese, transação penal.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O item está certo. São de menor potencial ofensivo as contravenções e os crimes com pena máxima não superior a 2 anos, cumulada ou não com multa (art. 61), e neles o MP pode propor a transação penal (art. 76)." },
+        { "t": "Errado", "p": "calculo", "w": "Julgar errado é ler o limite como pena máxima inferior a 2 anos. A lei diz não superior a 2 anos, o que inclui o desacato, cujo máximo é exatamente 2." }
+      ]
+    },
+    {
+      "id": "dpp57",
+      "type": "ce",
+      "topic": "Colaboração premiada",
+      "src": "Lei 12.850/2013, art. 4º, § 16",
+      "c": "Numa investigação sobre fraudes em licitações em Porto Velho (RO), um empresário firmou colaboração premiada e apontou um secretário municipal como chefe do esquema. Não há nenhuma outra prova contra o secretário.",
+      "q": "O juiz pode receber a denúncia contra o secretário com base apenas nas declarações do colaborador, pois a lei só veda a condenação fundada exclusivamente nelas.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "restricao", "w": "Julgar certo é limitar a vedação à sentença. O art. 4º, § 16, também impede que o recebimento da denúncia e as medidas cautelares se fundem apenas nas declarações do colaborador." },
+        { "t": "Errado", "p": "correta", "w": "O item está errado. Pelo art. 4º, § 16, da Lei 12.850/2013, não podem ser decretadas ou proferidas com fundamento apenas nas declarações do colaborador as medidas cautelares reais ou pessoais, o recebimento de denúncia ou queixa e a sentença condenatória." }
+      ]
+    },
+    {
+      "id": "dpp58",
+      "type": "ce",
+      "topic": "Busca domiciliar noturna",
+      "src": "CF/88, art. 5º, XI; CPP, art. 245; Lei 13.869/19, art. 22, § 1º, III",
+      "c": "Em Sete Lagoas (MG), policiais civis tinham mandado judicial de busca e apreensão na casa de um investigado e decidiram cumpri-lo às 23h, contra a vontade do morador, sem nenhuma situação de flagrante.",
+      "q": "Como havia mandado judicial, os policiais podiam ingressar na casa a qualquer hora do dia ou da noite.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "generalizacao", "w": "Julgar certo é dar ao mandado um alcance que a CF não lhe dá. A ordem judicial só autoriza o ingresso durante o dia; à noite, sem consentimento, só em flagrante, desastre ou para prestar socorro." },
+        { "t": "Errado", "p": "correta", "w": "O item está errado. Por determinação judicial, só se entra na casa durante o dia (CF, art. 5º, XI; CPP, art. 245), e cumprir mandado de busca domiciliar após as 21h ou antes das 5h é abuso de autoridade (Lei 13.869/19, art. 22, § 1º, III)." }
+      ]
+    },
+    {
+      "id": "dpp59",
+      "type": "ce",
+      "topic": "Revisão criminal",
+      "src": "CPP, arts. 621, III, 622 e 623",
+      "c": "Em Ribeirão das Neves (MG), Célio cumpriu integralmente a pena de uma condenação por estupro. Anos depois, um exame de DNA em material guardado apontou outro homem como autor do crime.",
+      "q": "Mesmo com a pena já extinta pelo cumprimento, Célio pode ajuizar revisão criminal com base nessa prova nova de inocência.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "O item está certo. A revisão cabe quando, após a sentença, se descobrem novas provas de inocência do condenado (art. 621, III), e pode ser requerida a qualquer tempo, antes da extinção da pena ou depois dela (art. 622)." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado é exigir que a pena ainda esteja em curso. O art. 622 admite a revisão antes da extinção da pena ou depois, e o art. 623 a permite até após a morte do réu, pelos familiares." }
+      ]
+    },
+    {
+      "id": "dpp60",
+      "type": "ce",
+      "topic": "Assistente de acusação",
+      "src": "CPP, arts. 268 e 269",
+      "c": "Em Cabo Frio (RJ), a polícia ainda investiga, em inquérito, a tentativa de homicídio cometida por um assaltante que deixou Vera gravemente ferida. O advogado dela pediu ao juiz a habilitação como assistente de acusação.",
+      "q": "A vítima pode habilitar-se como assistente de acusação já durante o inquérito policial.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "extrapolacao", "w": "Julgar certo é levar a assistência para antes do processo. O art. 268 admite o assistente nos termos da ação pública, e não há ação penal enquanto não for oferecida a denúncia." },
+        { "t": "Errado", "p": "correta", "w": "O item está errado. O ofendido pode intervir como assistente do MP em todos os termos da ação pública (art. 268) e é admitido enquanto não passar em julgado a sentença (art. 269). No inquérito ainda não há ação penal." }
+      ]
     }
   ]
 }

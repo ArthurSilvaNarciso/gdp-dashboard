@@ -552,6 +552,280 @@
         { "t": "Certo", "p": "troca", "w": "Julgar certo confunde herdeiros legítimos com herdeiros necessários. Irmãos são colaterais: herdam na falta de testamento, mas não têm direito à legítima." },
         { "t": "Errado", "p": "correta", "w": "Art. 1.845: são herdeiros necessários os descendentes, os ascendentes e o cônjuge. Para excluir os colaterais, basta que o testador disponha do patrimônio sem os contemplar (art. 1.850)." }
       ]
+    },
+    {
+      "id": "dciv41",
+      "topic": "Taxa legal de juros",
+      "c": "Uma fábrica de móveis de Arapiraca vendeu mobília a um hotel de Maceió, com vencimento certo e sem nenhuma cláusula sobre juros ou índice de correção. O hotel pagou com meses de atraso, e o juiz precisa calcular os juros de mora.",
+      "q": "Pelo Código Civil, com a redação dada pela Lei 14.905/2024, como se fixam esses juros?",
+      "a": 2,
+      "src": "CC, arts. 389, parágrafo único, e 406, §§ 1º e 3º (Lei 14.905/2024)",
+      "o": [
+        { "t": "Pela taxa de 1% ao mês prevista no Código Tributário Nacional, que se aplica aos juros de mora civis.", "p": "troca", "w": "A taxa de 1% ao mês do CTN era usada por parte da doutrina antes da reforma. Desde a Lei 14.905/2024, o art. 406 manda aplicar a taxa legal, definida no próprio Código Civil." },
+        { "t": "Pela Selic integral, somada à variação do IPCA no mesmo período.", "p": "calculo", "w": "A Selic já embute a inflação. Por isso o § 1º do art. 406 manda deduzir dela o IPCA; somar os dois cobraria a inflação duas vezes." },
+        { "t": "Pela taxa legal, que é a Selic deduzido o IPCA; se o resultado for negativo, considera-se zero.", "p": "correta", "w": "Sem taxa convencionada, aplica-se a taxa legal (art. 406, caput), igual à Selic menos o índice do art. 389, parágrafo único, o IPCA (§ 1º). Resultado negativo vale zero (§ 3º)." },
+        { "t": "Não há juros de mora, porque eles só são devidos quando expressamente previstos no contrato.", "p": "restricao", "w": "O art. 406 manda aplicar a taxa legal justamente quando os juros não foram convencionados. Os juros da mora são devidos ainda que o credor não alegue prejuízo (art. 407)." }
+      ]
+    },
+    {
+      "id": "dciv42",
+      "topic": "Juros no mútuo",
+      "c": "Em Chapecó, um produtor rural emprestou R$ 80 mil a uma agroindústria para que ela ampliasse a linha de produção. O contrato escrito fixa o prazo de devolução, mas não diz nada sobre juros.",
+      "q": "A agroindústria deve juros sobre o valor emprestado?",
+      "a": 0,
+      "src": "CC, art. 591, caput e parágrafo único (Lei 14.905/2024)",
+      "o": [
+        { "t": "Sim: como o mútuo tem fins econômicos, presumem-se devidos juros, e, sem taxa pactuada, aplica-se a taxa legal do art. 406.", "p": "correta", "w": "Art. 591: destinando-se o mútuo a fins econômicos, presumem-se devidos juros. O parágrafo único, incluído pela Lei 14.905/2024, manda aplicar a taxa legal quando a taxa não for pactuada." },
+        { "t": "Não: se o contrato não menciona juros, presume-se gratuito o empréstimo, qualquer que seja sua finalidade.", "p": "inversao", "w": "A presunção é a oposta quando o empréstimo serve a fins econômicos, como a ampliação da produção. Aí os juros se presumem devidos (art. 591)." },
+        { "t": "Sim, pela taxa média de mercado dos empréstimos bancários divulgada pelo Banco Central.", "p": "troca", "w": "Taxa média de mercado é parâmetro de outros contextos. O parágrafo único do art. 591 remete expressamente à taxa legal do art. 406." },
+        { "t": "Sim, mas somente se o produtor rural for instituição financeira autorizada pelo Banco Central.", "p": "restricao", "w": "O art. 591 é regra do mútuo civil entre quaisquer partes. A presunção de juros não depende de o mutuante ser instituição financeira." }
+      ]
+    },
+    {
+      "id": "dciv43",
+      "topic": "Comoriência",
+      "c": "Um casal sem filhos, Hélio e Sandra, morreu em um acidente de carro na BR-116, perto de Vitória da Conquista. A perícia não conseguiu apurar qual dos dois morreu primeiro, e os pais de cada um disputam a herança.",
+      "q": "Como o Código Civil resolve a dúvida sobre a ordem das mortes?",
+      "a": 3,
+      "src": "CC, art. 8º",
+      "o": [
+        { "t": "Presume-se que o mais velho morreu antes do mais novo, regra própria das mortes na mesma ocasião.", "p": "troca", "w": "O Código Civil não adota presunção por idade. Quando não se pode averiguar quem morreu primeiro, presume a morte simultânea (art. 8º)." },
+        { "t": "Presumem-se simultaneamente mortos, e cada cônjuge herda metade dos bens do outro.", "p": "extrapolacao", "w": "A presunção de morte simultânea produz o efeito contrário: como nenhum sobreviveu ao outro, não há transmissão de herança entre eles." },
+        { "t": "A presunção de morte simultânea só se aplica quando os falecidos são parentes em linha reta.", "p": "restricao", "w": "O art. 8º fala em “dois ou mais indivíduos” falecidos na mesma ocasião, sem exigir parentesco de nenhum tipo." },
+        { "t": "Presumem-se simultaneamente mortos, e um não herda do outro.", "p": "correta", "w": "Art. 8º: sem prova de quem precedeu, presumem-se simultaneamente mortos (comoriência). Assim, nenhum herda do outro, e cada herança segue para os herdeiros de cada um." }
+      ]
+    },
+    {
+      "id": "dciv44",
+      "topic": "Morte presumida sem ausência",
+      "c": "Em 2025, um barco de pesca naufragou durante uma tempestade na costa de Rio Grande (RS). Os demais tripulantes foram resgatados, mas o marinheiro Raimundo não, e a Marinha encerrou as buscas sem encontrar o corpo.",
+      "q": "A família pode obter a declaração de morte presumida sem antes passar pela declaração de ausência?",
+      "a": 1,
+      "src": "CC, art. 7º, I e parágrafo único",
+      "o": [
+        { "t": "Não: sem o corpo, só cabe declarar a ausência, com sucessão provisória e, depois, definitiva.", "p": "troca", "w": "A ausência é o caminho para quem desaparece sem notícia. Quando a morte de quem estava em perigo de vida é extremamente provável, o art. 7º permite a declaração direta." },
+        { "t": "Sim, porque é extremamente provável a morte de quem estava em perigo de vida; esgotadas as buscas, a sentença fixará a data provável do óbito.", "p": "correta", "w": "Art. 7º, I: pode ser declarada a morte presumida, sem decretação de ausência, se for extremamente provável a morte de quem estava em perigo de vida. O parágrafo único exige buscas esgotadas e data provável na sentença." },
+        { "t": "Sim, mas só dois anos depois do naufrágio, prazo exigido em toda declaração de morte presumida.", "p": "generalizacao", "w": "O prazo de dois anos após o término da guerra vale só para o desaparecido em campanha ou feito prisioneiro (art. 7º, II). No caso do inciso I, basta esgotar as buscas." },
+        { "t": "Sim, e o cartório pode lavrar o óbito diretamente, a pedido da família, sem necessidade de sentença.", "p": "extrapolacao", "w": "O parágrafo único do art. 7º fala em declaração por sentença, que deve fixar a data provável do falecimento. Não é ato que a família obtém só no cartório." }
+      ]
+    },
+    {
+      "id": "dciv45",
+      "topic": "Dolo acidental",
+      "c": "Em Campina Grande, Marcos já tinha decidido comprar um carro em uma loja quando o vendedor mentiu que o IPVA do ano estava pago e, com isso, conseguiu um preço R$ 3 mil maior. Marcos compraria o carro de todo modo, mas por menos.",
+      "q": "Qual é a consequência do dolo do vendedor?",
+      "a": 0,
+      "src": "CC, arts. 145 e 146",
+      "o": [
+        { "t": "O negócio é válido, e Marcos tem direito apenas a perdas e danos, porque o dolo foi acidental.", "p": "correta", "w": "Art. 146: o dolo acidental só obriga à satisfação das perdas e danos. É acidental quando, a seu despeito, o negócio seria realizado, embora de outro modo." },
+        { "t": "O negócio é anulável, porque o dolo acidental também é causa de anulação do contrato.", "p": "troca", "w": "Só o dolo essencial, que é a causa do negócio, o torna anulável (art. 145). O acidental não leva à anulação." },
+        { "t": "Nenhuma, porque a lei tolera exageros do vendedor em qualquer negociação.", "p": "generalizacao", "w": "Mentir sobre um fato objetivo, como o IPVA pago, não é simples exagero comercial. É dolo e, sendo acidental, gera perdas e danos." },
+        { "t": "O negócio é nulo de pleno direito, e o juiz deve declarar a nulidade de ofício.", "p": "extrapolacao", "w": "Mesmo o dolo essencial gera apenas anulabilidade (art. 171, II), que não se pronuncia de ofício. O acidental nem isso: só perdas e danos." }
+      ]
+    },
+    {
+      "id": "dciv46",
+      "topic": "Lesão e suplemento",
+      "c": "Em Imperatriz (MA), Dona Cícera, sem experiência em negócios e com premente necessidade de dinheiro para quitar dívidas, vendeu por R$ 70 mil um terreno que valia R$ 200 mil. Ela pediu a anulação por lesão, e o comprador ofereceu completar o preço até o valor de mercado.",
+      "q": "O que acontece com o pedido de anulação?",
+      "a": 2,
+      "src": "CC, arts. 157, §§ 1º e 2º, e 171, II",
+      "o": [
+        { "t": "Deve ser acolhido, porque a lesão torna o negócio nulo, o que impede qualquer forma de conservação.", "p": "troca", "w": "A lesão é defeito que torna o negócio anulável (art. 171, II), e não nulo. E a lei prevê expressamente sua conservação pelo suplemento." },
+        { "t": "Depende do valor do terreno na data da sentença, pois a desproporção se mede pelos valores atuais.", "p": "inversao", "w": "Art. 157, § 1º: a desproporção se aprecia segundo os valores vigentes ao tempo em que o negócio foi celebrado." },
+        { "t": "A anulação não será decretada, porque o comprador ofereceu suplemento suficiente do preço.", "p": "correta", "w": "Art. 157, § 2º: não se decreta a anulação se for oferecido suplemento suficiente, ou se a parte favorecida concordar com a redução do proveito." },
+        { "t": "Deve ser acolhido, pois, provada a lesão, o negócio sempre é desfeito, ainda que a outra parte complete o preço.", "p": "generalizacao", "w": "Não é sempre: o § 2º do art. 157 permite salvar o negócio com o suplemento suficiente do preço." }
+      ]
+    },
+    {
+      "id": "dciv47",
+      "topic": "Assunção de dívida",
+      "c": "Em Rio Branco, Ivan devia R$ 40 mil a uma cooperativa, e o cunhado Jorge combinou assumir a dívida no lugar dele. Os dois notificaram a cooperativa, com prazo de 15 dias para consentir, e ela ficou em silêncio.",
+      "q": "Qual é o efeito do silêncio da cooperativa?",
+      "a": 3,
+      "src": "CC, art. 299, caput e parágrafo único",
+      "o": [
+        { "t": "Vale como consentimento, e Ivan fica exonerado da dívida.", "p": "inversao", "w": "O parágrafo único do art. 299 diz o contrário: esgotado o prazo, o silêncio do credor é interpretado como recusa." },
+        { "t": "Nenhum, porque a assunção de dívida dispensa o consentimento do credor em qualquer caso.", "p": "generalizacao", "w": "O art. 299 exige o consentimento expresso do credor. Trocar o devedor afeta a garantia do credor, que é o patrimônio de quem deve." },
+        { "t": "Vale como recusa e torna nulo o acordo entre Ivan e Jorge, que não pode mais ser proposto.", "p": "extrapolacao", "w": "A recusa só impede a liberação de Ivan perante a cooperativa. A lei não declara nulo o acordo nem proíbe nova proposta." },
+        { "t": "Interpreta-se como recusa, porque a assunção de dívida exige consentimento expresso do credor.", "p": "correta", "w": "Art. 299: a assunção depende do consentimento expresso do credor. Assinado prazo para consentir, seu silêncio é interpretado como recusa (parágrafo único)." }
+      ]
+    },
+    {
+      "id": "dciv48",
+      "topic": "Obrigação alternativa",
+      "c": "Uma criadora de gado de Araguaína (TO) se obrigou, por contrato, a entregar a um comprador 10 bezerros ou R$ 30 mil. O contrato não diz quem escolhe a prestação.",
+      "q": "A quem cabe a escolha, e com que limite?",
+      "a": 1,
+      "src": "CC, art. 252, caput e § 1º",
+      "o": [
+        { "t": "Ao credor, que pode exigir a prestação que lhe for mais vantajosa.", "p": "inversao", "w": "No silêncio do contrato, a escolha é do devedor, e não do credor (art. 252, caput)." },
+        { "t": "À devedora, que não pode, porém, obrigar o credor a receber parte em bezerros e parte em dinheiro.", "p": "correta", "w": "Art. 252: nas obrigações alternativas, a escolha cabe ao devedor, se outra coisa não se estipulou. O § 1º proíbe obrigar o credor a receber parte de uma prestação e parte de outra." },
+        { "t": "À devedora, que pode, por exemplo, entregar 5 bezerros e R$ 15 mil, combinando as prestações.", "p": "extrapolacao", "w": "Escolher não inclui misturar as prestações. O § 1º do art. 252 veda exatamente essa combinação sem a concordância do credor." },
+        { "t": "Ao juiz, porque, no silêncio do contrato, toda escolha em obrigação alternativa é judicial.", "p": "generalizacao", "w": "O juiz só escolhe em hipóteses específicas, como a falta de acordo entre vários optantes (art. 252, § 3º). No silêncio do contrato, a escolha é do devedor." }
+      ]
+    },
+    {
+      "id": "dciv49",
+      "topic": "Arras penitenciais",
+      "c": "Em Pouso Alegre (MG), Rita pagou R$ 20 mil de sinal na compra de um sítio, em contrato com cláusula expressa de direito de arrependimento. Dias depois, o vendedor se arrependeu e desistiu do negócio.",
+      "q": "O que Rita pode exigir do vendedor?",
+      "a": 2,
+      "src": "CC, art. 420",
+      "o": [
+        { "t": "O sinal em dobro e, além disso, indenização suplementar pelos prejuízos que provar.", "p": "extrapolacao", "w": "Com direito de arrependimento, as arras têm função unicamente indenizatória, e o art. 420 exclui expressamente a indenização suplementar." },
+        { "t": "Só a devolução dos R$ 20 mil, sem nenhum acréscimo.", "p": "calculo", "w": "Quem recebeu as arras e se arrependeu devolve-as “mais o equivalente” (art. 420). A conta é R$ 20 mil mais R$ 20 mil." },
+        { "t": "A devolução do sinal mais o equivalente, R$ 40 mil no total, sem direito a indenização suplementar.", "p": "correta", "w": "Art. 420: se o arrependido for quem recebeu as arras, devolvê-las-á mais o equivalente; em nenhum caso haverá direito a indenização suplementar." },
+        { "t": "O cumprimento forçado do contrato, porque o sinal confirma o negócio e impede o arrependimento.", "p": "troca", "w": "Essa é a lógica das arras confirmatórias (arts. 417 a 419). Havendo cláusula de arrependimento, as arras são penitenciais e o arrependimento é lícito." }
+      ]
+    },
+    {
+      "id": "dciv50",
+      "topic": "Onerosidade excessiva",
+      "c": "Uma distribuidora de Campos dos Goytacazes se obrigou a fornecer diesel por cinco anos, a preço fixo, a uma empresa de transporte. Um acontecimento extraordinário e imprevisível tornou sua prestação excessivamente onerosa, com extrema vantagem para a transportadora, e a distribuidora pediu a resolução.",
+      "q": "Assinale a alternativa correta sobre essa ação.",
+      "a": 0,
+      "src": "CC, arts. 478 e 479",
+      "o": [
+        { "t": "A resolução pode ser evitada se a transportadora se oferecer a modificar equitativamente as condições do contrato.", "p": "correta", "w": "Art. 479: a resolução poderá ser evitada, oferecendo-se o réu a modificar equitativamente as condições do contrato." },
+        { "t": "Provados os requisitos, a resolução é obrigatória, e a ré não tem meio de evitá-la.", "p": "generalizacao", "w": "O art. 479 dá ao réu justamente esse meio: a oferta de revisão equitativa do contrato evita a resolução." },
+        { "t": "Se decretada a resolução, os efeitos da sentença retroagirão à data da celebração do contrato.", "p": "troca", "w": "O art. 478 fixa outro marco: os efeitos da sentença que decretar a resolução retroagem à data da citação." },
+        { "t": "O pedido só cabe em contratos de execução instantânea, cumpridos de uma só vez.", "p": "inversao", "w": "É o contrário: o art. 478 trata dos contratos de execução continuada ou diferida, nos quais o tempo permite que surja o fato imprevisível." }
+      ]
+    },
+    {
+      "id": "dciv51",
+      "topic": "Responsabilidade do incapaz",
+      "c": "Em Anápolis, Gabriel, de 15 anos, quebrou com um chute a vitrine de uma loja, causando prejuízo de R$ 8 mil. Os pais não têm renda nem bens suficientes, mas Gabriel herdou do avô um apartamento alugado.",
+      "q": "O patrimônio de Gabriel pode responder pelo dano?",
+      "a": 3,
+      "src": "CC, arts. 928 e 932, I",
+      "o": [
+        { "t": "Não, porque o absolutamente incapaz nunca responde pelos danos que causa.", "p": "generalizacao", "w": "O art. 928 prevê que o incapaz responde pelos prejuízos que causar quando os responsáveis não tiverem obrigação de fazê-lo ou não dispuserem de meios suficientes." },
+        { "t": "Sim, e antes dos pais, porque quem causa o dano deve ser cobrado em primeiro lugar.", "p": "inversao", "w": "A ordem é a inversa: os pais respondem pelos filhos menores sob sua autoridade (art. 932, I), e o incapaz só responde de forma subsidiária (art. 928)." },
+        { "t": "Sim, sempre pelo valor integral do dano, ainda que isso o prive do necessário.", "p": "extrapolacao", "w": "O parágrafo único do art. 928 manda fixar indenização equitativa, que não terá lugar se privar do necessário o incapaz ou quem dele depende." },
+        { "t": "Sim, subsidiariamente, porque os pais não têm meios; a indenização será equitativa e não pode privá-lo do necessário.", "p": "correta", "w": "Art. 928: o incapaz responde se os responsáveis não dispuserem de meios suficientes. O parágrafo único exige indenização equitativa, que não o prive do necessário." }
+      ]
+    },
+    {
+      "id": "dciv52",
+      "topic": "Coisas caídas de prédio",
+      "c": "Em Balneário Camboriú, um vaso caiu da varanda do apartamento 1203, alugado e ocupado por Cristiano, e amassou um carro estacionado na rua. O proprietário do apartamento mora em Curitiba.",
+      "q": "Pelo Código Civil, quem responde pelo dano ao carro?",
+      "a": 1,
+      "src": "CC, art. 938",
+      "o": [
+        { "t": "O proprietário do apartamento, que responde por tudo o que cai do imóvel que lhe pertence.", "p": "troca", "w": "O art. 938 não fala em proprietário, e sim em quem habita o prédio ou parte dele. Quem ocupava a unidade era o locatário." },
+        { "t": "Cristiano, que habita o apartamento e responde pelo dano das coisas que dele caírem.", "p": "correta", "w": "Art. 938: aquele que habitar prédio, ou parte dele, responde pelo dano proveniente das coisas que dele caírem ou forem lançadas em lugar indevido." },
+        { "t": "O condomínio, que responde por qualquer dano ocorrido no prédio ou em suas imediações.", "p": "generalizacao", "w": "Identificada a unidade de onde caiu o vaso, responde quem a habita. Não há regra que transfira ao condomínio todo dano ocorrido perto do prédio." },
+        { "t": "Cristiano, mas só se o vaso tiver sido lançado de propósito; se apenas caiu, ninguém responde.", "p": "restricao", "w": "O art. 938 abrange as coisas que “caírem ou forem lançadas”. A simples queda do vaso já basta." }
+      ]
+    },
+    {
+      "id": "dciv53",
+      "topic": "Benfeitorias do possuidor",
+      "c": "Em Patos de Minas, Eliane possuía de boa-fé uma casa. Trocou o telhado, que ameaçava desabar, construiu uma garagem e instalou uma fonte decorativa no jardim. Depois, perdeu a casa em ação reivindicatória do verdadeiro dono.",
+      "q": "Quais direitos ela tem quanto às benfeitorias?",
+      "a": 0,
+      "src": "CC, arts. 96, 1.219 e 1.220",
+      "o": [
+        { "t": "Indenização do telhado e da garagem, com retenção por eles, e o direito de levantar a fonte não paga, sem dano à casa.", "p": "correta", "w": "Art. 1.219: o possuidor de boa-fé é indenizado pelas benfeitorias necessárias e úteis, com direito de retenção, e pode levantar as voluptuárias não pagas, sem detrimento da coisa." },
+        { "t": "Indenização apenas do telhado, sem direito de retenção nem de levantar a fonte.", "p": "troca", "w": "Esse é o regime do possuidor de má-fé (art. 1.220). Como Eliane estava de boa-fé, aplica-se o art. 1.219." },
+        { "t": "Indenização de todas as benfeitorias, inclusive a fonte, com direito de retenção por todas elas.", "p": "generalizacao", "w": "A fonte é benfeitoria voluptuária, de mero deleite (art. 96, § 1º). Por ela não há indenização obrigatória nem retenção, só o direito de levantá-la." },
+        { "t": "Indenização do telhado e da garagem, desde que o dono tenha autorizado as obras previamente.", "p": "restricao", "w": "O art. 1.219 não exige autorização do proprietário: a boa-fé basta. Exigência de consentimento aparece em outros regimes, como a locação de imóveis." }
+      ]
+    },
+    {
+      "id": "dciv54",
+      "topic": "Pacto comissório",
+      "c": "Em Sinop (MT), um agricultor tomou R$ 500 mil emprestados de um particular e deu a fazenda em hipoteca. O contrato diz que, se a dívida não for paga no vencimento, o credor fica com a fazenda.",
+      "q": "Qual é a situação dessa cláusula?",
+      "a": 2,
+      "src": "CC, arts. 184 e 1.428",
+      "o": [
+        { "t": "É válida, porque as partes são livres para escolher qualquer forma de satisfazer a garantia.", "p": "generalizacao", "w": "A liberdade contratual tem limite aqui: o art. 1.428 declara nula a cláusula que autoriza o credor hipotecário a ficar com o objeto da garantia." },
+        { "t": "É válida, desde que o valor da fazenda não ultrapasse o da dívida.", "p": "restricao", "w": "O art. 1.428 não faz ressalva de valor. A cláusula que permite ao credor ficar com o bem dado em garantia é nula." },
+        { "t": "É nula, mas, depois do vencimento, o devedor pode dar a fazenda em pagamento da dívida.", "p": "correta", "w": "Art. 1.428: é nulo o pacto comissório nas garantias reais. O parágrafo único permite que, após o vencimento, o devedor dê a coisa em pagamento." },
+        { "t": "É nula e contamina toda a hipoteca, que deixa de garantir a dívida.", "p": "extrapolacao", "w": "A nulidade atinge só a cláusula. A invalidade parcial não prejudica a parte válida quando separável (art. 184), e a hipoteca continua de pé." }
+      ]
+    },
+    {
+      "id": "dciv55",
+      "type": "ce",
+      "topic": "Decadência convencional",
+      "src": "CC, arts. 210 e 211",
+      "c": "Em Ponta Grossa, uma indústria e um fornecedor estipularam no contrato um prazo decadencial de 60 dias para a indústria desfazer a compra de uma máquina. Passado o prazo, a indústria ajuizou ação para desfazer o negócio, e o fornecedor, na contestação, não alegou a decadência.",
+      "q": "Por se tratar de decadência convencional, o juiz não pode reconhecê-la de ofício, mas o fornecedor pode alegá-la em qualquer grau de jurisdição.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 211: se a decadência for convencional, a parte a quem aproveita pode alegá-la em qualquer grau de jurisdição, mas o juiz não pode suprir a alegação." },
+        { "t": "Errado", "p": "troca", "w": "Julgar errado confunde decadência convencional com decadência legal. Só a legal deve ser conhecida de ofício pelo juiz (art. 210)." }
+      ]
+    },
+    {
+      "id": "dciv56",
+      "type": "ce",
+      "topic": "Benefício de ordem",
+      "src": "CC, arts. 827 e 828, I",
+      "c": "Em Taubaté, Sílvio assinou como fiador o contrato de empréstimo de um amigo e, em cláusula própria, renunciou expressamente ao benefício de ordem. Cobrado pelo credor, ele quer que primeiro sejam executados os bens do devedor.",
+      "q": "Mesmo tendo renunciado expressamente ao benefício de ordem, Sílvio pode exigir, até a contestação, que primeiro sejam executados os bens do devedor.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "extrapolacao", "w": "Julgar certo estende o benefício de ordem a quem abriu mão dele. O art. 827 o concede, mas o art. 828, I, diz que ele não aproveita ao fiador que o renunciou expressamente." },
+        { "t": "Errado", "p": "correta", "w": "O benefício de ordem do art. 827 não aproveita ao fiador que a ele renunciou expressamente (art. 828, I). Sílvio pode ser cobrado diretamente." }
+      ]
+    },
+    {
+      "id": "dciv57",
+      "type": "ce",
+      "topic": "Contrato de adesão",
+      "src": "CC, arts. 423 e 424",
+      "c": "Uma padaria de Palmas assinou, sem poder negociar nenhuma cláusula, o contrato-padrão de locação de fornos elaborado pela fornecedora. A cláusula sobre quem paga a manutenção admite duas leituras, e as partes divergem.",
+      "q": "Havendo no contrato de adesão cláusulas ambíguas ou contraditórias, deve-se adotar a interpretação mais favorável ao aderente.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "É o texto do art. 423 do Código Civil. Quem redigiu o contrato responde pela falta de clareza, e o art. 424 ainda declara nulas as cláusulas de renúncia antecipada do aderente a direito resultante da natureza do negócio." },
+        { "t": "Errado", "p": "inversao", "w": "Julgar errado inverte a regra, como se a dúvida devesse favorecer quem redigiu o contrato. O art. 423 manda interpretá-la a favor do aderente." }
+      ]
+    },
+    {
+      "id": "dciv58",
+      "type": "ce",
+      "topic": "Regime da união estável",
+      "src": "CC, arts. 1.660, I, e 1.725",
+      "c": "Em Montes Claros, Fernanda e Diego vivem em união estável há oito anos, sem nenhum contrato escrito. Durante a união, compraram um apartamento com os salários, mas a escritura saiu só em nome de Diego.",
+      "q": "Sem contrato escrito, aplica-se à união estável o regime da separação de bens, e o apartamento pertence apenas a Diego.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo troca o regime supletivo. Sem contrato escrito, o art. 1.725 manda aplicar, no que couber, a comunhão parcial, e não a separação de bens." },
+        { "t": "Errado", "p": "correta", "w": "Art. 1.725: salvo contrato escrito, aplica-se à união estável, no que couber, o regime da comunhão parcial. O apartamento comprado onerosamente durante a união se comunica, ainda que esteja só em nome de Diego (art. 1.660, I)." }
+      ]
+    },
+    {
+      "id": "dciv59",
+      "type": "ce",
+      "topic": "Capacidade para testar",
+      "src": "CC, arts. 1.858 e 1.860, parágrafo único",
+      "c": "Em Parintins, Yasmin tem 17 anos e não é emancipada. Ela quer fazer testamento deixando para a melhor amiga um colar de família que herdou da avó.",
+      "q": "Por ser maior de dezesseis anos, Yasmin pode testar, e não precisa da assistência dos pais para isso.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Art. 1.860, parágrafo único: podem testar os maiores de dezesseis anos. Como o testamento é ato personalíssimo (art. 1.858), não admite assistência nem representação." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado acrescenta uma exigência que a lei não faz. O testamento é ato personalíssimo (art. 1.858), e o maior de 16 anos testa sozinho." }
+      ]
+    },
+    {
+      "id": "dciv60",
+      "type": "ce",
+      "topic": "Forma da renúncia",
+      "src": "CC, art. 1.806",
+      "c": "Após a morte do pai, em Divinópolis, Leandro decidiu renunciar à herança. Para evitar custos, assinou um instrumento particular, com firma reconhecida, declarando expressamente a renúncia.",
+      "q": "A renúncia da herança pode ser feita por instrumento particular com firma reconhecida, desde que seja expressa.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "generalizacao", "w": "Julgar certo trata a renúncia como ato de forma livre. O art. 1.806 exige forma solene: instrumento público ou termo judicial." },
+        { "t": "Errado", "p": "correta", "w": "Art. 1.806: a renúncia da herança deve constar expressamente de instrumento público ou termo judicial. Documento particular, ainda que com firma reconhecida, não basta." }
+      ]
     }
   ]
 }

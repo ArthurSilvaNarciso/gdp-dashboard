@@ -1096,6 +1096,552 @@
      "w": "Julgar errado é supor que essas medidas dependem de condenação ou de lei diversa. Elas estão no rol do art. 22 e são de urgência."
     }
    ]
+  },
+  {
+   "id": "dpen41",
+   "topic": "Omissão imprópria",
+   "c": "Em Maceió, Gustavo, salva-vidas contratado por um clube, viu um sócio, seu desafeto, se afogando na piscina. Podia salvá-lo sem risco, mas decidiu não agir, querendo a morte dele, que de fato ocorreu.",
+   "q": "Por qual crime Gustavo responde?",
+   "a": 2,
+   "src": "CP, arts. 13, § 2º, b, e 135",
+   "o": [
+    {
+     "t": "Omissão de socorro com a pena triplicada pela morte, pois ele não causou o afogamento.",
+     "p": "troca",
+     "w": "A omissão de socorro (art. 135) é crime de quem não tem dever especial de agir. Quem assumiu a responsabilidade de impedir o resultado responde pelo próprio resultado (art. 13, § 2º)."
+    },
+    {
+     "t": "Nenhum crime contra a vida, pois o dever de agir só nasce da lei, como o dos pais e dos policiais.",
+     "p": "restricao",
+     "w": "O art. 13, § 2º, também impõe o dever a quem, de outra forma, assumiu a responsabilidade de impedir o resultado (alínea b), como o salva-vidas contratado."
+    },
+    {
+     "t": "Homicídio doloso por omissão, pois, como garante, ele devia e podia agir para evitar a morte.",
+     "p": "correta",
+     "w": "A omissão é penalmente relevante quando o omitente devia e podia agir, e o salva-vidas assumiu a responsabilidade de impedir o resultado (art. 13, § 2º, b). Como quis a morte, responde por homicídio doloso."
+    },
+    {
+     "t": "Homicídio por omissão, pois todo aquele que presencia um afogamento e não socorre responde pela morte.",
+     "p": "generalizacao",
+     "w": "Só o garante responde pelo resultado. Quem não tem o dever do art. 13, § 2º, e deixa de socorrer comete apenas omissão de socorro (art. 135)."
+    }
+   ]
+  },
+  {
+   "id": "dpen42",
+   "topic": "Dolo eventual",
+   "c": "Num churrasco em Imperatriz (MA), Rui quis exibir a pontaria e disparou várias vezes contra uma placa ao lado de um ponto de ônibus lotado, dizendo que, se acertasse alguém, \"paciência\". Um projétil matou um passageiro.",
+   "q": "Como se classifica o elemento subjetivo da conduta de Rui?",
+   "a": 0,
+   "src": "CP, art. 18, I e II",
+   "o": [
+    {
+     "t": "Dolo eventual: ele previu a morte como possível e assumiu o risco de produzi-la, respondendo por homicídio doloso.",
+     "p": "correta",
+     "w": "O art. 18, I, considera doloso o crime quando o agente quis o resultado ou assumiu o risco de produzi-lo. Dizer \"paciência\" diante da possível morte revela essa aceitação."
+    },
+    {
+     "t": "Culpa consciente: ele previu o resultado, mas responde por homicídio culposo.",
+     "p": "troca",
+     "w": "Na culpa consciente, o agente prevê o resultado, mas acredita sinceramente que ele não ocorrerá. Rui não confiou em evitá-lo: aceitou-o, o que é dolo eventual."
+    },
+    {
+     "t": "Culpa, pois só há dolo quando o agente quer diretamente o resultado.",
+     "p": "restricao",
+     "w": "O art. 18, I, não se limita ao dolo direto: também é doloso o crime quando o agente assume o risco de produzir o resultado."
+    },
+    {
+     "t": "Dolo direto, pois quem dispara uma arma de fogo sempre quer o resultado que dela advém.",
+     "p": "generalizacao",
+     "w": "Disparar uma arma não significa, por si, querer matar. Rui não buscava atingir ninguém; apenas aceitou o risco, o que é dolo eventual, e não direto."
+    }
+   ]
+  },
+  {
+   "id": "dpen43",
+   "topic": "Erro sobre a pessoa",
+   "c": "Em Pelotas (RS), Davi decidiu matar o próprio pai. À noite, viu de costas um homem saindo da casa da família e atirou, mas era o vizinho, muito parecido com o pai, que morreu.",
+   "q": "Como Davi responde?",
+   "a": 3,
+   "src": "CP, arts. 20, § 3º, e 61, II, e",
+   "o": [
+    {
+     "t": "Por homicídio culposo do vizinho, pois o erro sobre a vítima exclui o dolo.",
+     "p": "troca",
+     "w": "O erro sobre a pessoa é acidental e não exclui o dolo: Davi quis matar alguém e matou (art. 20, § 3º). Quem afasta o dolo é o erro de tipo essencial."
+    },
+    {
+     "t": "Por tentativa de homicídio contra o pai e homicídio culposo contra o vizinho, em concurso formal.",
+     "p": "extrapolacao",
+     "w": "O pai não chegou a correr perigo algum. O CP trata o caso como um só homicídio doloso consumado, levando em conta a vítima pretendida."
+    },
+    {
+     "t": "Por homicídio doloso, sem a agravante de crime contra ascendente, pois valem as condições da vítima atingida.",
+     "p": "inversao",
+     "w": "É o contrário: no erro sobre a pessoa, consideram-se as condições da vítima que o agente queria atingir, não as da vítima efetiva (art. 20, § 3º)."
+    },
+    {
+     "t": "Por homicídio doloso consumado, com a agravante de crime contra ascendente, como se tivesse matado o pai.",
+     "p": "correta",
+     "w": "O erro quanto à pessoa não isenta de pena, e consideram-se as qualidades da vítima visada (art. 20, § 3º). Por isso incide a agravante do art. 61, II, e."
+    }
+   ]
+  },
+  {
+   "id": "dpen44",
+   "topic": "Medida de segurança",
+   "c": "Em Arapiraca (AL), Ronaldo, portador de esquizofrenia grave, agrediu um vizinho durante um surto e lhe causou lesões leves. A perícia concluiu que ele era inteiramente incapaz de entender o caráter ilícito do fato.",
+   "q": "Qual deve ser a solução na sentença?",
+   "a": 1,
+   "src": "CP, arts. 26, 96, 97 e 129; CPP, art. 386, parágrafo único, III",
+   "o": [
+    {
+     "t": "Condenação, com a pena reduzida de um a dois terços em razão da doença mental.",
+     "p": "troca",
+     "w": "A redução de um a dois terços é para o semi-imputável, que tinha capacidade apenas reduzida (art. 26, parágrafo único). Ronaldo era inteiramente incapaz, logo inimputável."
+    },
+    {
+     "t": "Absolvição imprópria com medida de segurança, que pode ser tratamento ambulatorial, já que o crime é punido com detenção.",
+     "p": "correta",
+     "w": "O inimputável é isento de pena (art. 26) e recebe medida de segurança. Se o fato é punível com detenção, como a lesão leve, o juiz pode optar pelo tratamento ambulatorial (art. 97)."
+    },
+    {
+     "t": "Absolvição com internação obrigatória pelo prazo máximo de 1 a 3 anos.",
+     "p": "calculo",
+     "w": "De 1 a 3 anos é o prazo mínimo da medida de segurança (art. 97, § 1º), não o máximo. E, no crime punido com detenção, a internação não é obrigatória."
+    },
+    {
+     "t": "Absolvição pura e simples, sem nenhuma medida, pois o inimputável é isento de pena.",
+     "p": "extrapolacao",
+     "w": "Ser isento de pena não afasta toda resposta penal: ao inimputável aplica-se medida de segurança (CP, arts. 96 e 97; CPP, art. 386, parágrafo único, III)."
+    }
+   ]
+  },
+  {
+   "id": "dpen45",
+   "topic": "Coação moral irresistível",
+   "c": "Em Petrolina (PE), criminosos mantiveram como reféns a mulher e os filhos de Otávio, gerente de uma agência bancária, e o obrigaram, sob ameaça de matar as crianças, a abrir o cofre e entregar o dinheiro.",
+   "q": "Quem responde pela subtração do dinheiro?",
+   "a": 0,
+   "src": "CP, arts. 22 e 65, III, c",
+   "o": [
+    {
+     "t": "Apenas os criminosos, pois Otávio agiu sob coação moral irresistível.",
+     "p": "correta",
+     "w": "Se o fato é cometido sob coação irresistível, só é punível o autor da coação (art. 22). De Otávio não se podia exigir outra conduta."
+    },
+    {
+     "t": "Otávio e os criminosos, mas Otávio com a pena atenuada por ter agido sob coação.",
+     "p": "troca",
+     "w": "A atenuante do art. 65, III, c, é para a coação resistível. Diante da ameaça de morte aos filhos, a coação era irresistível e afasta a punição de Otávio."
+    },
+    {
+     "t": "Todos, em concurso de pessoas, pois quem executa a subtração sempre responde por ela.",
+     "p": "generalizacao",
+     "w": "Executar a conduta não basta para punir: o art. 22 isenta quem age sob coação irresistível e transfere a responsabilidade ao coator."
+    },
+    {
+     "t": "Ninguém, pois, isento de pena o gerente que executou a subtração, não resta autor punível.",
+     "p": "extrapolacao",
+     "w": "A isenção alcança só o coagido. Os criminosos respondem pelo crime, pois usaram Otávio como instrumento (art. 22)."
+    }
+   ]
+  },
+  {
+   "id": "dpen46",
+   "topic": "Extraterritorialidade",
+   "c": "Um servidor do Itamaraty lotado no consulado do Brasil em Lisboa desviou dinheiro público da repartição. Processado em Portugal, foi condenado lá.",
+   "q": "A lei penal brasileira se aplica a esse fato?",
+   "a": 2,
+   "src": "CP, arts. 5º, 7º, I, c, e § 1º, e 8º",
+   "o": [
+    {
+     "t": "Não, pois ninguém pode ser punido duas vezes pelo mesmo fato, e ele já foi julgado em Portugal.",
+     "p": "generalizacao",
+     "w": "Nos casos do art. 7º, I, a lei brasileira se aplica ainda que o agente tenha sido absolvido ou condenado no estrangeiro (§ 1º). A pena cumprida lá é computada ou atenua a daqui (art. 8º)."
+    },
+    {
+     "t": "Sim, mas só se ele entrar no território nacional e o fato também for punível em Portugal.",
+     "p": "troca",
+     "w": "Essas condições (art. 7º, § 2º) são da extraterritorialidade condicionada do inciso II. O crime contra a administração pública por quem está a seu serviço é hipótese incondicionada."
+    },
+    {
+     "t": "Sim, incondicionalmente, por ser crime contra a administração pública praticado por quem está a seu serviço.",
+     "p": "correta",
+     "w": "Art. 7º, I, c, e § 1º: nesses crimes, ainda que cometidos no estrangeiro, aplica-se a lei brasileira, mesmo que o agente tenha sido absolvido ou condenado lá."
+    },
+    {
+     "t": "Sim, por territorialidade, pois o consulado brasileiro no exterior é território nacional.",
+     "p": "extrapolacao",
+     "w": "Embaixadas e consulados não são extensão do território brasileiro, e o art. 5º, § 1º, não os inclui. A lei brasileira se aplica aqui por extraterritorialidade."
+    }
+   ]
+  },
+  {
+   "id": "dpen47",
+   "topic": "Reincidência",
+   "c": "Em Montes Claros (MG), Jairo teve extinta, em março de 2019, a pena de uma condenação definitiva por furto. Em junho de 2025, cometeu um novo furto.",
+   "q": "Na sentença do novo processo, Jairo deve ser considerado reincidente?",
+   "a": 3,
+   "src": "CP, arts. 63 e 64, I",
+   "o": [
+    {
+     "t": "Sim, pois quem já foi condenado definitivamente por crime doloso é reincidente para sempre.",
+     "p": "generalizacao",
+     "w": "A reincidência não é perpétua: a condenação anterior deixa de prevalecer depois de 5 anos do cumprimento ou da extinção da pena (art. 64, I)."
+    },
+    {
+     "t": "Sim, pois os 5 anos se contam da condenação anterior até a sentença do novo processo.",
+     "p": "calculo",
+     "w": "O prazo corre entre a data do cumprimento ou extinção da pena e a da infração posterior (art. 64, I). Aqui passaram mais de 6 anos."
+    },
+    {
+     "t": "Não, pois só há reincidência quando o novo crime é cometido durante o cumprimento da pena anterior.",
+     "p": "restricao",
+     "w": "A lei não exige isso: basta novo crime depois do trânsito em julgado da condenação anterior (art. 63), dentro do prazo do art. 64, I. Jairo não é reincidente porque esse prazo se esgotou."
+    },
+    {
+     "t": "Não, pois entre a extinção da pena e o novo crime passaram mais de 5 anos.",
+     "p": "correta",
+     "w": "Pelo art. 64, I, não prevalece a condenação anterior se, entre o cumprimento ou a extinção da pena e a infração posterior, passou período superior a 5 anos. De março de 2019 a junho de 2025 são mais de 6 anos."
+    }
+   ]
+  },
+  {
+   "id": "dpen48",
+   "topic": "Sursis",
+   "c": "Em Chapecó (SC), Leandro, primário e com circunstâncias judiciais favoráveis, foi condenado a 2 anos de reclusão por lesão corporal grave causada numa briga com um adversário durante uma partida de futebol amador.",
+   "q": "Que benefício o juiz pode conceder na sentença?",
+   "a": 1,
+   "src": "CP, arts. 44, I, 77 e 129, § 1º",
+   "o": [
+    {
+     "t": "Substituição por penas restritivas de direitos, cabível em toda pena de até 4 anos.",
+     "p": "generalizacao",
+     "w": "A substituição é vedada no crime doloso cometido com violência ou grave ameaça à pessoa (art. 44, I), como a lesão corporal de Leandro."
+    },
+    {
+     "t": "Suspensão condicional da pena, por 2 a 4 anos, já que a substituição é vedada pela violência.",
+     "p": "correta",
+     "w": "O sursis cabe para pena de até 2 anos, réu não reincidente em crime doloso, circunstâncias favoráveis e quando não for cabível a substituição do art. 44 (art. 77). O período de prova é de 2 a 4 anos."
+    },
+    {
+     "t": "Nenhum, pois o crime com violência impede tanto a substituição quanto o sursis.",
+     "p": "extrapolacao",
+     "w": "A violência à pessoa é impedimento do art. 44, não do art. 77. O sursis é justamente a saída quando a substituição não é cabível (art. 77, III)."
+    },
+    {
+     "t": "Suspensão condicional da pena, com período de prova de 4 a 6 anos.",
+     "p": "troca",
+     "w": "O prazo de 4 a 6 anos é do sursis etário ou humanitário, para pena de até 4 anos de condenado maior de 70 anos ou com razões de saúde (art. 77, § 2º). Para Leandro, é de 2 a 4 anos."
+    }
+   ]
+  },
+  {
+   "id": "dpen49",
+   "topic": "Livramento condicional",
+   "c": "Em Caxias do Sul (RS), Márcio, primário e de bons antecedentes, cumpre pena de 9 anos de reclusão por homicídio simples. A defesa quer saber quando ele poderá pedir o livramento condicional.",
+   "q": "Quanto ao requisito temporal, quando o pedido será possível?",
+   "a": 2,
+   "src": "CP, art. 83, I, II e V; Lei 8.072/90, art. 1º, I",
+   "o": [
+    {
+     "t": "Depois de cumprir mais da metade da pena, ou seja, mais de 4 anos e 6 meses.",
+     "p": "troca",
+     "w": "A metade é exigida do reincidente em crime doloso (art. 83, II). Márcio é primário e de bons antecedentes."
+    },
+    {
+     "t": "Depois de cumprir mais de dois terços, ou seja, mais de 6 anos, como em todo crime contra a vida.",
+     "p": "generalizacao",
+     "w": "Dois terços valem para hediondos e equiparados (art. 83, V). O homicídio simples só é hediondo se praticado em atividade típica de grupo de extermínio, o que não é o caso."
+    },
+    {
+     "t": "Depois de cumprir mais de um terço da pena, ou seja, mais de 3 anos.",
+     "p": "correta",
+     "w": "Para o condenado não reincidente em crime doloso e com bons antecedentes, exige-se o cumprimento de mais de um terço da pena (art. 83, I): 9 ÷ 3 = 3 anos."
+    },
+    {
+     "t": "Depois de cumprir um sexto da pena, ou seja, 1 ano e 6 meses.",
+     "p": "calculo",
+     "w": "Um sexto não é fração do livramento condicional. O art. 83, I, exige mais de um terço da pena, o que dá mais de 3 anos."
+    }
+   ]
+  },
+  {
+   "id": "dpen50",
+   "topic": "Perda do cargo",
+   "c": "Em Mossoró (RN), um técnico do INSS foi condenado a 2 anos e 6 meses de reclusão por corrupção passiva, por ter recebido propina para agilizar a concessão de benefícios.",
+   "q": "Quanto à perda do cargo público, assinale a alternativa correta.",
+   "a": 0,
+   "src": "CP, arts. 92, I, a e b, e § 1º, e 317",
+   "o": [
+    {
+     "t": "O juiz pode decretá-la, pois a pena é de 1 ano ou mais em crime com violação de dever para com a Administração, motivando-a na sentença.",
+     "p": "correta",
+     "w": "Art. 92, I, a: perde o cargo o condenado a pena igual ou superior a 1 ano nesses crimes. O efeito não é automático e deve ser declarado motivadamente na sentença (§ 1º)."
+    },
+    {
+     "t": "O juiz não pode decretá-la, pois a perda do cargo exige pena superior a 4 anos.",
+     "p": "troca",
+     "w": "Mais de 4 anos é o patamar para os demais crimes (art. 92, I, b). Nos crimes com abuso de poder ou violação de dever para com a Administração, basta pena igual ou superior a 1 ano."
+    },
+    {
+     "t": "A perda do cargo é automática em toda condenação por crime contra a administração pública.",
+     "p": "generalizacao",
+     "w": "Nesse caso, a perda não é automática: o juiz deve declará-la motivadamente na sentença (art. 92, § 1º)."
+    },
+    {
+     "t": "Só a própria Administração pode aplicá-la, depois de processo administrativo disciplinar.",
+     "p": "restricao",
+     "w": "A perda do cargo pode ser efeito da própria condenação penal (art. 92, I), declarado pelo juiz, sem prejuízo da esfera disciplinar."
+    }
+   ]
+  },
+  {
+   "id": "dpen51",
+   "topic": "Furto de celular",
+   "c": "Em agosto de 2026, num restaurante de Belém, Kauã aproveitou que uma cliente foi ao balcão e levou o celular dela, deixado sobre a mesa, sem que ninguém percebesse.",
+   "q": "Pelo Código Penal, com a redação dada pela Lei 15.397/2026, qual é o enquadramento?",
+   "a": 3,
+   "src": "CP, art. 155, caput, §§ 4º e 6º, II (Lei 15.397/2026)",
+   "o": [
+    {
+     "t": "Roubo majorado, pois a subtração de celular passou a aumentar a pena do roubo.",
+     "p": "troca",
+     "w": "A majorante do celular (art. 157, § 2º, IX) só vale para o roubo, que exige violência ou grave ameaça. Kauã agiu às escondidas: é furto."
+    },
+    {
+     "t": "Furto simples, com reclusão de 1 a 6 anos, pois a qualificadora do celular exige rompimento de obstáculo.",
+     "p": "restricao",
+     "w": "O art. 155, § 6º, II, não exige rompimento de obstáculo: basta a subtração de celular, computador ou dispositivo eletrônico semelhante."
+    },
+    {
+     "t": "Furto qualificado, com reclusão de 2 a 8 anos, a mesma pena das qualificadoras do § 4º.",
+     "p": "calculo",
+     "w": "De 2 a 8 anos é a pena do § 4º, como no abuso de confiança ou no rompimento de obstáculo. Para a subtração de celular, o § 6º prevê reclusão de 4 a 10 anos."
+    },
+    {
+     "t": "Furto qualificado pela subtração de celular, com reclusão de 4 a 10 anos e multa.",
+     "p": "correta",
+     "w": "A Lei 15.397/2026 incluiu no art. 155, § 6º, II, a subtração de aparelho celular, computador ou dispositivo semelhante, punida com reclusão de 4 a 10 anos e multa."
+    }
+   ]
+  },
+  {
+   "id": "dpen52",
+   "topic": "Roubo de celular",
+   "c": "Em setembro de 2026, em Vitória da Conquista (BA), Diogo, sozinho e desarmado, levou o celular de um pedestre sob grave ameaça verbal. O juiz fixou a pena-base no mínimo, sem agravantes nem atenuantes, e aplicou o aumento mínimo da majorante do celular.",
+   "q": "Qual é a pena final?",
+   "a": 1,
+   "src": "CP, art. 157, caput, § 2º, IX, e § 2º-A (Lei 15.397/2026)",
+   "o": [
+    {
+     "t": "5 anos e 4 meses, ou seja, 4 anos aumentados de um terço.",
+     "p": "calculo",
+     "w": "O mínimo de 4 anos era da redação anterior. Desde a Lei 15.397/2026, o roubo tem pena de reclusão de 6 a 10 anos, e o cálculo parte de 6."
+    },
+    {
+     "t": "8 anos, ou seja, 6 anos aumentados de um terço.",
+     "p": "correta",
+     "w": "O roubo passou a ter pena de 6 a 10 anos, e a subtração de celular é majorante do art. 157, § 2º, IX, que aumenta a pena de um terço até metade: 6 + 2 = 8 anos."
+    },
+    {
+     "t": "10 anos, ou seja, 6 anos aumentados de dois terços.",
+     "p": "troca",
+     "w": "O aumento de dois terços é o do § 2º-A, como no emprego de arma de fogo. A majorante do celular está no § 2º, com aumento de um terço até metade."
+    },
+    {
+     "t": "9 anos, pois as majorantes do roubo aumentam a pena sempre de metade.",
+     "p": "generalizacao",
+     "w": "A metade é o teto do § 2º, não uma fração fixa. Aplicado o aumento mínimo, de um terço, a pena é de 8 anos."
+    }
+   ]
+  },
+  {
+   "id": "dpen53",
+   "topic": "Receptação e prescrição",
+   "c": "Em agosto de 2026, em Maringá (PR), Everaldo, de 34 anos, comprou para uso próprio peças de carro que sabia serem produto de furto. Ele responde por receptação simples, e o processo ainda não tem sentença.",
+   "q": "Em quanto tempo prescreve a pretensão punitiva, calculada pela pena em abstrato?",
+   "a": 2,
+   "src": "CP, arts. 109, II e III, 115 e 180, caput (Lei 15.397/2026)",
+   "o": [
+    {
+     "t": "8 anos, pois a pena máxima da receptação simples é de 4 anos.",
+     "p": "calculo",
+     "w": "O máximo de 4 anos era da redação anterior. A Lei 15.397/2026 elevou a pena do art. 180, caput, para reclusão de 2 a 6 anos, e é ela que vale para um fato de agosto de 2026."
+    },
+    {
+     "t": "6 anos, pois o prazo cai pela metade nos crimes sem violência ou grave ameaça.",
+     "p": "extrapolacao",
+     "w": "A redução pela metade do art. 115 depende da idade (menor de 21 anos na data do fato ou maior de 70 na sentença), não da ausência de violência. Everaldo tem 34 anos."
+    },
+    {
+     "t": "12 anos, pois o máximo de 6 anos é superior a 4 e não excede 8.",
+     "p": "correta",
+     "w": "Antes da sentença, a prescrição regula-se pelo máximo da pena (art. 109). Com o máximo de 6 anos dado pela Lei 15.397/2026, o prazo é de 12 anos (art. 109, III)."
+    },
+    {
+     "t": "16 anos, prazo aplicável a todo crime com pena máxima superior a 4 anos.",
+     "p": "troca",
+     "w": "16 anos é o prazo para máximo superior a 8 e que não excede 12 (art. 109, II). Para máximo de 6 anos, o prazo é de 12."
+    }
+   ]
+  },
+  {
+   "id": "dpen54",
+   "topic": "Estupro de vulnerável",
+   "c": "Em Rondonópolis (MT), Thiago, de 20 anos, manteve relações sexuais com a namorada de 13 anos. Ela afirmou que consentiu, a família sabia do namoro e ela já tivera relações sexuais antes.",
+   "q": "Assinale a alternativa correta.",
+   "a": 0,
+   "src": "CP, arts. 213 e 217-A, caput, §§ 4º-A e 5º (Lei 15.353/2026)",
+   "o": [
+    {
+     "t": "Há estupro de vulnerável, pois a vulnerabilidade de quem tem menos de 14 anos é presumida de forma absoluta.",
+     "p": "correta",
+     "w": "O art. 217-A pune a conjunção carnal ou outro ato libidinoso com menor de 14 anos. A presunção de vulnerabilidade é absoluta (§ 4º-A), e consentimento e experiência sexual anterior são irrelevantes (§ 5º)."
+    },
+    {
+     "t": "Não há crime, pois o estupro exige violência ou grave ameaça, que não houve.",
+     "p": "troca",
+     "w": "Violência ou grave ameaça é elementar do estupro do art. 213. No estupro de vulnerável (art. 217-A), basta o ato sexual com menor de 14 anos."
+    },
+    {
+     "t": "Há crime apenas se a vítima não tivesse experiência sexual anterior.",
+     "p": "restricao",
+     "w": "O § 5º do art. 217-A afasta expressamente a relevância da experiência sexual da vítima e de relações sexuais anteriores ao crime."
+    },
+    {
+     "t": "Há estupro de vulnerável, crime que alcança qualquer ato sexual com menor de 18 anos.",
+     "p": "extrapolacao",
+     "w": "O critério etário do art. 217-A é ter menos de 14 anos. Acima dessa idade, a idade sozinha não caracteriza o estupro de vulnerável."
+    }
+   ]
+  },
+  {
+   "id": "dpen55",
+   "type": "ce",
+   "topic": "Estelionato: ação penal",
+   "src": "CP, arts. 100 e 171 (Lei 15.397/2026, art. 3º)",
+   "c": "Em setembro de 2026, em Blumenau (SC), Sílvia, de 35 anos, pagou R$ 15 mil por um carro anunciado por um desconhecido que nunca existiu. Registrou a ocorrência, mas disse que não queria ver o golpista processado.",
+   "q": "Como Sílvia não ofereceu representação, o Ministério Público não pode oferecer denúncia por estelionato.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo é aplicar uma condição que não existe mais. A exigência de representação ficava no art. 171, § 5º, revogado pela Lei 15.397/2026; a vontade da vítima não impede a denúncia."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. A Lei 15.397/2026 revogou o § 5º do art. 171, e o estelionato voltou à regra geral da ação penal pública incondicionada (CP, art. 100)."
+    }
+   ]
+  },
+  {
+   "id": "dpen56",
+   "type": "ce",
+   "topic": "Feminicídio: pena",
+   "src": "CP, art. 121-A (Lei 14.994/2024); Lei 8.072/90, art. 1º, I-B",
+   "c": "Em 2026, em Parnaíba (PI), Cléber matou a esposa dentro de casa, depois de anos de agressões contra ela.",
+   "q": "Cléber responde por feminicídio, crime autônomo punido com reclusão de 20 a 40 anos e classificado como hediondo.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. O art. 121-A, incluído pela Lei 14.994/2024, pune com reclusão de 20 a 40 anos matar mulher por razões da condição do sexo feminino, e a Lei 8.072/90 o lista como hediondo (art. 1º, I-B)."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado é confundir o feminicídio com a antiga qualificadora do homicídio, de 12 a 30 anos. Desde a Lei 14.994/2024, ele é crime autônomo, com pena de 20 a 40 anos."
+    }
+   ]
+  },
+  {
+   "id": "dpen57",
+   "type": "ce",
+   "topic": "Associação criminosa",
+   "src": "CP, art. 288",
+   "c": "Em Bauru (SP), três amigos formaram um grupo estável para aplicar golpes em idosos, dividiram tarefas e alugaram um imóvel para isso. Foram presos antes de aplicar o primeiro golpe.",
+   "q": "Eles já respondem por associação criminosa, que se consuma com a associação de três ou mais pessoas para o fim específico de cometer crimes, ainda que nenhum deles chegue a ser praticado.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. O art. 288 pune a associação de 3 ou mais pessoas para o fim específico de cometer crimes; é crime autônomo, consumado com a própria associação estável, independentemente dos crimes planejados."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado é exigir a prática de ao menos um dos crimes planejados, condição que o art. 288 não prevê. Se os golpes fossem aplicados, haveria concurso com eles."
+    }
+   ]
+  },
+  {
+   "id": "dpen58",
+   "type": "ce",
+   "topic": "Injúria e exceção",
+   "src": "CP, arts. 138, § 3º, 139, parágrafo único, e 140",
+   "c": "Numa reunião da Secretaria de Educação de Macapá, o diretor Fernando chamou um servidor de \"incompetente e preguiçoso\" diante dos colegas.",
+   "q": "Fernando cometeu injúria e poderá se defender por meio da exceção da verdade, provando que o servidor é de fato incompetente.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "extrapolacao",
+     "w": "Julgar certo é estender à injúria uma defesa que o CP reserva à calúnia e, em caso restrito, à difamação. Na injúria não há exceção da verdade."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. Atribuir qualidade negativa é injúria (art. 140), que não admite exceção da verdade; ela cabe na calúnia (art. 138, § 3º) e na difamação contra funcionário público relativa às suas funções (art. 139, parágrafo único)."
+    }
+   ]
+  },
+  {
+   "id": "dpen59",
+   "type": "ce",
+   "topic": "Infanticídio",
+   "src": "CP, arts. 121 e 123",
+   "c": "Em Santarém (PA), Rosa deu à luz sozinha em casa e, logo após o parto, sob a influência do estado puerperal, asfixiou o recém-nascido.",
+   "q": "Rosa responde por infanticídio, crime punido com detenção, e não por homicídio.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. Matar o próprio filho, sob a influência do estado puerperal, durante o parto ou logo após, é infanticídio (art. 123), punido com detenção de 2 a 6 anos."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado é tratar o caso como homicídio. O art. 123 é tipo especial que prevalece quando a mãe mata o filho sob a influência do estado puerperal, durante o parto ou logo após."
+    }
+   ]
+  },
+  {
+   "id": "dpen60",
+   "type": "ce",
+   "topic": "Aborto legal",
+   "src": "CP, art. 128, II",
+   "c": "Em Ilhéus (BA), Camila engravidou em decorrência de estupro. Com o consentimento dela, uma médica de hospital público interrompeu a gravidez, sem autorização judicial.",
+   "q": "A médica cometeu crime de aborto, pois a interrupção da gravidez resultante de estupro depende de prévia autorização judicial.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "restricao",
+     "w": "Julgar certo é acrescentar um requisito que o art. 128, II, não prevê. A lei exige que o aborto seja feito por médico e com o consentimento da gestante ou de seu representante legal."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. Não se pune o aborto praticado por médico se a gravidez resulta de estupro e é precedido do consentimento da gestante ou, quando incapaz, de seu representante legal (art. 128, II)."
+    }
+   ]
   }
  ]
 }

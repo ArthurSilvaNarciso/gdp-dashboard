@@ -394,3 +394,43 @@ test('concursos: lista atualizada pela IA com busca e material por disciplina', 
   const g = await u('POST', 'ai/discipline', { concurso: 'TJT Analista', banca: 'Vunesp', disciplina: 'Língua Portuguesa', topicos: ['Crase'] });
   assert.equal(g.status, 200);
 });
+
+test('radar de lei: verifica normas com a IA, registra mudanças posteriores à revisão e permite resolver', async () => {
+  const { LAWS } = await import('../lib/laws.js');
+  const key = 'DL2848/1940'; assert.ok(LAWS[key], 'Código Penal está no índice');
+  assert.deepEqual((await client()('GET', 'law-radar')).data.flags, {}, 'sem verificação, nenhum alerta');
+  const seen = [];
+  globalThis.__MEMORY_FAKE_SEARCH = async (body) => {
+    assert.equal(body.tools[0].name, 'web_search'); const txt = body.messages[0].content; seen.push(txt);
+    const isCP = txt.includes('Código Penal');
+    return { content: [{ type: 'text', text: 'Resultado: ' + JSON.stringify(isCP
+      ? { alterada: true, mudancas: [{ norma: 'Lei 99.999/2099', data: day(0), resumo: 'Mudou a pena do furto', artigos: ['art. 155'] }, { norma: 'Lei antiga', data: '2001-01-01', resumo: 'antes da revisão' }, { norma: 'Sem data' }] }
+      : { alterada: false, mudancas: [] }) }] };
+  };
+  const adm = client(); await adm('POST', 'auth/login', { email: 'chefe@ex.com', password: 'memoria-forte-c' });
+  assert.equal((await client()('POST', 'admin/law-radar/refresh', {})).status, 401, 'só administração');
+  const r = await adm('POST', 'admin/law-radar/refresh', { keys: [key, 'CF/1988'] });
+  assert.equal(r.status, 200); assert.equal(r.data.checked, 2); assert.equal(seen.length, 2);
+  const pub = await client()('GET', 'law-radar'); assert.equal(pub.status, 200);
+  assert.ok(pub.data.flags[key], 'Código Penal com alerta'); assert.equal(pub.data.flags[key].mudancas.length, 1, 'só a mudança válida e posterior à revisão');
+  assert.equal(pub.data.flags[key].mudancas[0].artigos[0], 'art. 155'); assert.ok(!pub.data.flags['CF/1988'], 'sem mudança, sem alerta');
+  // Rodada automática: não repete norma verificada há menos de 30 dias
+  seen.length = 0; const again = await adm('POST', 'admin/law-radar/refresh', { keys: [key] }); assert.equal(again.data.checked, 0); assert.equal(seen.length, 0);
+  const panel = await adm('GET', 'admin/law-radar'); assert.equal(panel.status, 200); assert.ok(panel.data.total > 50); assert.equal(panel.data.flags[key].status, 'aberto');
+  assert.equal((await adm('POST', 'admin/law-radar/' + encodeURIComponent(key) + '/resolve', {})).status, 200);
+  assert.ok(!(await client()('GET', 'law-radar')).data.flags[key], 'resolvido some do app');
+  delete globalThis.__MEMORY_FAKE_SEARCH;
+});
+
+test('saúde do app: erros agrupados sem dados pessoais e contagens anônimas de uso', async () => {
+  const anon = client();
+  for (let i = 0; i < 3; i++) assert.equal((await anon('POST', 'client-errors', { msg: 'TypeError: x is undefined', src: 'https://memory.app/index.html?v=1#a', line: 42, ver: '7.3', tab: 'home', ua: 'Android 14 Chrome/130' })).status, 200);
+  await anon('POST', 'client-errors', { msg: '' });
+  const u = await anon('POST', 'usage', { ev: { open: 2, cycle_done: 1, 'hack; DROP': 5, 'aula_read:x': 1, plan_create: -3, answer: 9999 } });
+  assert.equal(u.status, 200); assert.equal(u.data.n, 4, 'só eventos da lista e contagens válidas');
+  assert.equal((await anon('GET', 'admin/health')).status, 401);
+  const adm = client(); await adm('POST', 'auth/login', { email: 'chefe@ex.com', password: 'memoria-forte-c' });
+  const h = await adm('GET', 'admin/health'); assert.equal(h.status, 200);
+  const e = h.data.errors.find((x) => x.msg.startsWith('TypeError')); assert.ok(e); assert.equal(e.n, 3, 'agrupado por impressão digital'); assert.equal(e.src, 'https://memory.app/index.html', 'sem query nem hash');
+  const ev = Object.fromEntries(h.data.usage.map((x) => [x.ev, x.n])); assert.equal(ev.open, 2); assert.equal(ev.answer, 500, 'teto por envio'); assert.ok(!ev['hack; DROP']);
+});

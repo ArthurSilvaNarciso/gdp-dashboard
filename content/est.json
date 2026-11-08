@@ -1096,6 +1096,552 @@
      "w": "Julgar errado inverte o sentido do quartil, como se Q3 deixasse 25% abaixo. Q1 deixa 25% abaixo; Q3, 75%."
     }
    ]
+  },
+  {
+   "id": "est41",
+   "topic": "Variância amostral",
+   "c": "Uma servidora da Secretaria de Saúde de Uberlândia (MG) sorteou 5 dias do mês e anotou o tempo médio de espera na UBS central: 4, 7, 8, 9 e 12 minutos. Trate os dados como amostra e divida por n − 1.",
+   "q": "Qual é a variância amostral dos tempos?",
+   "a": 2,
+   "src": "Bussab e Morettin, Estatística Básica (variância amostral S², divisor n − 1)",
+   "o": [
+    {
+     "t": "6,8 min², pois a variância sempre se calcula dividindo por n, seja amostra ou população.",
+     "p": "generalizacao",
+     "w": "6,8 = 34/5 é a variância populacional. Para estimar a variância a partir de uma amostra, usa-se n − 1 = 4 no divisor, como o enunciado pede."
+    },
+    {
+     "t": "34 min².",
+     "p": "calculo",
+     "w": "34 é só a soma dos quadrados dos desvios (16 + 1 + 0 + 1 + 16). Faltou dividir por n − 1 = 4."
+    },
+    {
+     "t": "8,5 min².",
+     "p": "correta",
+     "w": "A média é 40/5 = 8; os desvios ao quadrado somam 16 + 1 + 0 + 1 + 16 = 34; dividindo por n − 1 = 4, S² = 8,5 min²."
+    },
+    {
+     "t": "Cerca de 2,9 minutos.",
+     "p": "troca",
+     "w": "2,9 ≈ √8,5 é o desvio padrão amostral, não a variância. A variância fica em min² e vale 8,5."
+    }
+   ]
+  },
+  {
+   "id": "est42",
+   "topic": "Assimetria da distribuição",
+   "c": "Na Secretaria da Fazenda de Ribeirão Preto (SP), os débitos de IPTU em atraso têm moda de R$ 600, mediana de R$ 900 e média de R$ 1.800, pois poucos imóveis devem valores muito altos.",
+   "q": "Como se classifica a distribuição dos débitos?",
+   "a": 0,
+   "src": "Crespo, Estatística Fácil (medidas de assimetria e curtose)",
+   "o": [
+    {
+     "t": "Assimétrica à direita (positiva): a cauda longa está nos valores altos, que puxam a média para cima.",
+     "p": "correta",
+     "w": "Quando moda < mediana < média, a distribuição é assimétrica positiva: os poucos débitos altos formam a cauda direita e elevam a média."
+    },
+    {
+     "t": "Assimétrica à esquerda (negativa), já que a média é maior que a moda.",
+     "p": "inversao",
+     "w": "É o contrário: média maior que mediana e moda indica assimetria positiva. Na negativa, a média fica abaixo da mediana e da moda."
+    },
+    {
+     "t": "Não é possível classificar a assimetria sem conhecer o desvio padrão.",
+     "p": "restricao",
+     "w": "O desvio padrão serve para medir a intensidade da assimetria, mas o sentido já se lê na posição da média em relação à mediana e à moda."
+    },
+    {
+     "t": "Leptocúrtica, porque a média supera a mediana.",
+     "p": "troca",
+     "w": "Curtose trata do achatamento da curva, não do deslocamento da média. A comparação entre média, mediana e moda indica assimetria."
+    }
+   ]
+  },
+  {
+   "id": "est43",
+   "topic": "Teorema de Bayes",
+   "c": "No INSS em Santos (SP), a equipe A analisa 70% dos pedidos de benefício, com 2% de erro, e a equipe B analisa 30%, com 6% de erro. Um pedido sorteado apresentou erro.",
+   "q": "Qual é a probabilidade de esse pedido ter sido analisado pela equipe B?",
+   "a": 3,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 5 (teorema de Bayes)",
+   "o": [
+    {
+     "t": "6%.",
+     "p": "inversao",
+     "w": "6% é P(erro | B), a taxa de erro da equipe B. A pergunta inverte a condição: quer P(B | erro)."
+    },
+    {
+     "t": "3,2%.",
+     "p": "troca",
+     "w": "3,2% é a probabilidade total de erro (0,7 × 0,02 + 0,3 × 0,06 = 0,032). Ela é o denominador do Teorema de Bayes, não a resposta."
+    },
+    {
+     "t": "1,8%.",
+     "p": "calculo",
+     "w": "1,8% é P(B e erro) = 0,3 × 0,06. Faltou dividir pela probabilidade total de erro, 0,032."
+    },
+    {
+     "t": "56,25%.",
+     "p": "correta",
+     "w": "P(B | erro) = (0,3 × 0,06) / (0,7 × 0,02 + 0,3 × 0,06) = 0,018 / 0,032 = 0,5625, ou seja, 56,25%."
+    }
+   ]
+  },
+  {
+   "id": "est44",
+   "topic": "Distribuição de Poisson",
+   "c": "A Defesa Civil de Blumenau (SC) recebe, em dias de chuva forte, em média 4 chamados por hora, segundo uma distribuição de Poisson. Use e⁻² ≈ 0,135 e e⁻⁴ ≈ 0,018.",
+   "q": "Qual é a probabilidade de não chegar nenhum chamado em 30 minutos?",
+   "a": 1,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 6 (distribuição de Poisson)",
+   "o": [
+    {
+     "t": "Cerca de 1,8%.",
+     "p": "calculo",
+     "w": "1,8% = e⁻⁴ usa a média de uma hora. Para 30 minutos, a média cai para λ = 2, e o tempo do intervalo precisa ser ajustado."
+    },
+    {
+     "t": "Cerca de 13,5%.",
+     "p": "correta",
+     "w": "Em 30 minutos, λ = 4 × 0,5 = 2. Pela Poisson, P(X = 0) = e⁻²·2⁰/0! = e⁻² ≈ 0,135, ou 13,5%."
+    },
+    {
+     "t": "Cerca de 27%.",
+     "p": "troca",
+     "w": "27% ≈ 2e⁻² é a probabilidade de exatamente um chamado em 30 minutos, não de nenhum."
+    },
+    {
+     "t": "0%, porque com média de 2 chamados em 30 minutos sempre chega algum.",
+     "p": "generalizacao",
+     "w": "A média é um valor esperado, não um mínimo garantido. Na Poisson, P(X = 0) = e⁻λ é sempre positiva."
+    }
+   ]
+  },
+  {
+   "id": "est45",
+   "topic": "Esperança matemática",
+   "c": "Na Vigilância Sanitária de Sorocaba (SP), o número X de autos de infração por fiscalização tem P(X = 0) = 0,5, P(X = 1) = 0,3 e P(X = 2) = 0,2.",
+   "q": "Qual é o número esperado de autos por fiscalização?",
+   "a": 2,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 6 (esperança de variável aleatória discreta)",
+   "o": [
+    {
+     "t": "1 auto, a média de 0, 1 e 2.",
+     "p": "calculo",
+     "w": "Fazer a média simples dos valores ignora as probabilidades. A esperança pondera cada valor pela sua probabilidade."
+    },
+    {
+     "t": "0 auto, o valor mais provável.",
+     "p": "troca",
+     "w": "0 é a moda de X (probabilidade 0,5). A esperança é a média ponderada pelas probabilidades."
+    },
+    {
+     "t": "0,7 auto.",
+     "p": "correta",
+     "w": "E(X) = 0 × 0,5 + 1 × 0,3 + 2 × 0,2 = 0 + 0,3 + 0,4 = 0,7 auto por fiscalização."
+    },
+    {
+     "t": "Não há resposta, pois a esperança precisa ser um dos valores que X assume.",
+     "p": "restricao",
+     "w": "A esperança é uma média de longo prazo e pode não ser um valor possível de X, como 0,7 auto."
+    }
+   ]
+  },
+  {
+   "id": "est46",
+   "topic": "Escore padronizado",
+   "c": "No concurso do Tribunal de Justiça de Mato Grosso do Sul, em Campo Grande, Bruno tirou 70 em Português (média 60, desvio padrão 5) e 80 em Matemática (média 70, desvio padrão 10).",
+   "q": "Em qual prova Bruno teve melhor desempenho relativo à turma?",
+   "a": 0,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 7 (variável padronizada Z = (X − μ)/σ)",
+   "o": [
+    {
+     "t": "Em Português, com escore padronizado 2, contra 1 em Matemática.",
+     "p": "correta",
+     "w": "Z = (70 − 60)/5 = 2 em Português e Z = (80 − 70)/10 = 1 em Matemática. Ele ficou 2 desvios padrão acima da média em Português."
+    },
+    {
+     "t": "Em Matemática, porque a nota bruta (80) é maior.",
+     "p": "troca",
+     "w": "Nota bruta não compara provas de escalas e dispersões diferentes. Para isso, usa-se o escore padronizado."
+    },
+    {
+     "t": "Nas duas igualmente, pois ficou 10 pontos acima da média em ambas.",
+     "p": "generalizacao",
+     "w": "Os 10 pontos valem mais onde a dispersão é menor: equivalem a 2 desvios padrão em Português e a 1 em Matemática."
+    },
+    {
+     "t": "Em Matemática, com escore 1,0, contra 0,5 em Português.",
+     "p": "inversao",
+     "w": "Esse cálculo divide o desvio padrão pela diferença para a média (5/10 e 10/10). O correto é (nota − média)/desvio padrão."
+    }
+   ]
+  },
+  {
+   "id": "est47",
+   "topic": "Normal com tabela",
+   "c": "Na Polícia Federal em Fortaleza (CE), o prazo de entrega de passaportes segue distribuição normal com média de 12 dias e desvio padrão de 2 dias. Use P(0 ≤ Z ≤ 1,5) = 0,4332.",
+   "q": "Qual é a probabilidade de um passaporte levar mais de 15 dias?",
+   "a": 3,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 7 (distribuição normal padrão)",
+   "o": [
+    {
+     "t": "43,32%.",
+     "p": "troca",
+     "w": "0,4332 é a área entre a média (12 dias) e 15 dias. A pergunta quer a cauda acima de 15 dias."
+    },
+    {
+     "t": "93,32%.",
+     "p": "inversao",
+     "w": "0,5 + 0,4332 = 0,9332 é a probabilidade de levar até 15 dias, o evento oposto ao pedido."
+    },
+    {
+     "t": "56,68%.",
+     "p": "calculo",
+     "w": "1 − 0,4332 subtrai de 1 só a área entre a média e 15 dias. Como a tabela começa na média, subtrai-se de 0,5."
+    },
+    {
+     "t": "6,68%.",
+     "p": "correta",
+     "w": "Z = (15 − 12)/2 = 1,5. Acima da média há 0,5 de probabilidade; logo, P(Z > 1,5) = 0,5 − 0,4332 = 0,0668, ou 6,68%."
+    }
+   ]
+  },
+  {
+   "id": "est48",
+   "topic": "Erro padrão da média",
+   "c": "A Prefeitura de Petrolina (PE) sabe que o gasto mensal das famílias com transporte tem desvio padrão populacional de R$ 120. Uma pesquisa vai sortear 36 famílias para estimar o gasto médio.",
+   "q": "Qual é o erro padrão da média amostral?",
+   "a": 1,
+   "src": "Bussab e Morettin, Estatística Básica (distribuição amostral da média: erro padrão σ/√n)",
+   "o": [
+    {
+     "t": "R$ 3,33.",
+     "p": "calculo",
+     "w": "120/36 ≈ 3,33 divide pelo tamanho da amostra. O erro padrão divide o desvio padrão pela raiz de n: √36 = 6."
+    },
+    {
+     "t": "R$ 20.",
+     "p": "correta",
+     "w": "Erro padrão = σ/√n = 120/√36 = 120/6 = R$ 20."
+    },
+    {
+     "t": "R$ 120.",
+     "p": "troca",
+     "w": "R$ 120 é o desvio padrão dos gastos individuais. A média de 36 famílias varia menos, com erro padrão σ/√n."
+    },
+    {
+     "t": "Não há como calcular, pois o erro padrão só existe se os gastos forem normais.",
+     "p": "restricao",
+     "w": "A fórmula σ/√n vale para amostras aleatórias de qualquer população com desvio padrão σ; a normalidade não é exigida."
+    }
+   ]
+  },
+  {
+   "id": "est49",
+   "topic": "Intervalo de confiança",
+   "c": "No Juizado Especial Federal de Campos dos Goytacazes (RJ), uma amostra de 100 processos teve tempo médio de 200 dias. O desvio padrão populacional é conhecido, 50 dias, e usa-se z = 1,96.",
+   "q": "Qual é o intervalo de 95% de confiança para o tempo médio de todos os processos?",
+   "a": 0,
+   "src": "Bussab e Morettin, Estatística Básica (intervalo de confiança para a média com σ conhecido)",
+   "o": [
+    {
+     "t": "De 190,2 a 209,8 dias.",
+     "p": "correta",
+     "w": "Erro padrão = 50/√100 = 5; margem = 1,96 × 5 = 9,8. O intervalo é 200 ± 9,8, de 190,2 a 209,8 dias."
+    },
+    {
+     "t": "De 102 a 298 dias.",
+     "p": "calculo",
+     "w": "Aqui se usou 1,96 × 50, sem dividir o desvio padrão por √n. A margem deve usar o erro padrão, 5."
+    },
+    {
+     "t": "De 195 a 205 dias.",
+     "p": "troca",
+     "w": "200 ± 5 é só um erro padrão para cada lado, o que corresponde a cerca de 68% de confiança, não a 95%."
+    },
+    {
+     "t": "De 190,2 a 209,8 dias, faixa onde estão 95% dos processos individuais.",
+     "p": "extrapolacao",
+     "w": "O intervalo de confiança trata da média populacional, não dos processos individuais, que variam bem mais (desvio padrão de 50 dias)."
+    }
+   ]
+  },
+  {
+   "id": "est50",
+   "topic": "Tamanho da amostra",
+   "c": "A Secretaria de Agricultura do Tocantins, em Palmas, quer estimar a produtividade média da soja com erro máximo de 2 sacas por hectare e 95% de confiança (z = 1,96). Estudos anteriores indicam desvio padrão de 10 sacas por hectare.",
+   "q": "Qual é o tamanho mínimo da amostra de propriedades?",
+   "a": 2,
+   "src": "Bussab e Morettin, Estatística Básica (dimensionamento da amostra: n = (zσ/E)²)",
+   "o": [
+    {
+     "t": "10 propriedades.",
+     "p": "calculo",
+     "w": "1,96 × 10/2 = 9,8 é só a base da fórmula. Faltou elevar ao quadrado: n = (zσ/E)²."
+    },
+    {
+     "t": "385 propriedades, porque toda pesquisa com 95% de confiança exige esse número.",
+     "p": "generalizacao",
+     "w": "385 vem da fórmula para proporção com p = 0,5 e erro de 5%. Aqui se estima uma média com σ = 10 e E = 2."
+    },
+    {
+     "t": "97 propriedades.",
+     "p": "correta",
+     "w": "n = (1,96 × 10/2)² = 9,8² = 96,04. Como n deve ser inteiro e garantir o erro, arredonda-se para cima: 97 propriedades."
+    },
+    {
+     "t": "68 propriedades.",
+     "p": "troca",
+     "w": "68 ≈ (1,645 × 5)² usa o valor de z de 90% de confiança. Para 95%, o enunciado fixa z = 1,96."
+    }
+   ]
+  },
+  {
+   "id": "est51",
+   "topic": "Erro tipo I",
+   "c": "Um laboratório de metrologia de Duque de Caxias (RJ) testou H₀: o peso médio dos pacotes de arroz de uma marca é 5 kg. Concluiu que os pacotes vinham abaixo do peso, mas depois se comprovou que a média era mesmo 5 kg.",
+   "q": "Que erro o laboratório cometeu?",
+   "a": 3,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 12 (testes de hipóteses: erros de tipo I e II)",
+   "o": [
+    {
+     "t": "Erro tipo II, pois rejeitou uma hipótese nula verdadeira.",
+     "p": "inversao",
+     "w": "Rejeitar H₀ verdadeira é o erro tipo I. O erro tipo II é não rejeitar H₀ quando ela é falsa."
+    },
+    {
+     "t": "Erro tipo I, cuja probabilidade é o poder do teste (1 − β).",
+     "p": "troca",
+     "w": "O poder do teste é a chance de rejeitar H₀ quando ela é falsa, uma decisão certa. A probabilidade do erro tipo I é α."
+    },
+    {
+     "t": "Nenhum, pois uma decisão tomada com nível de significância de 5% está sempre correta.",
+     "p": "generalizacao",
+     "w": "O nível de significância não elimina o erro: ele limita a probabilidade de rejeitar H₀ verdadeira, que continua possível."
+    },
+    {
+     "t": "Erro tipo I, cuja probabilidade é controlada pelo nível de significância α.",
+     "p": "correta",
+     "w": "O laboratório rejeitou H₀ (média de 5 kg) sendo ela verdadeira: erro tipo I, cuja probabilidade é o nível de significância α."
+    }
+   ]
+  },
+  {
+   "id": "est52",
+   "topic": "Regressão linear simples",
+   "c": "A Secretaria de Educação de Caxias do Sul (RS) ajustou, com escolas de 200 a 800 alunos, a reta: gasto mensal com merenda (R$) = 1.500 + 4,2 × número de alunos.",
+   "q": "Assinale a alternativa correta.",
+   "a": 1,
+   "src": "Bussab e Morettin, Estatística Básica (regressão linear simples: interpretação dos coeficientes)",
+   "o": [
+    {
+     "t": "Para uma escola de 500 alunos, o gasto previsto é de R$ 2.100.",
+     "p": "calculo",
+     "w": "4,2 × 500 = 2.100 esquece o intercepto. A previsão é 1.500 + 2.100 = R$ 3.600."
+    },
+    {
+     "t": "Para 500 alunos, prevê-se R$ 3.600, e cada aluno a mais eleva o gasto previsto em R$ 4,20.",
+     "p": "correta",
+     "w": "Y = 1.500 + 4,2 × 500 = 3.600. O coeficiente angular, 4,2, é a variação média do gasto para cada aluno a mais."
+    },
+    {
+     "t": "Para 500 alunos, prevê-se R$ 3.600, e cada aluno a mais eleva o gasto previsto em R$ 1.500.",
+     "p": "troca",
+     "w": "R$ 1.500 é o intercepto, não a inclinação. O acréscimo por aluno é o coeficiente angular, R$ 4,20."
+    },
+    {
+     "t": "A reta permite prever com a mesma confiança o gasto de uma escola de 5.000 alunos.",
+     "p": "extrapolacao",
+     "w": "A reta foi ajustada com escolas de 200 a 800 alunos. Prever muito fora dessa faixa é extrapolação sem respaldo nos dados."
+    }
+   ]
+  },
+  {
+   "id": "est53",
+   "topic": "Mediana em classes",
+   "c": "A Câmara Municipal de Maringá (PR) agrupou o tempo de serviço de 100 servidores: de 0 a menos de 10 anos, 10; de 10 a menos de 20, 30; de 20 a menos de 30, 40; de 30 a menos de 40, 20.",
+   "q": "Qual é a mediana estimada por interpolação?",
+   "a": 0,
+   "src": "Crespo, Estatística Fácil (mediana de dados agrupados em classes)",
+   "o": [
+    {
+     "t": "22,5 anos.",
+     "p": "correta",
+     "w": "n/2 = 50; a frequência acumulada chega a 40 até 20 anos, então a classe mediana é 20 a 30. Md = 20 + (50 − 40)/40 × 10 = 22,5 anos."
+    },
+    {
+     "t": "25 anos.",
+     "p": "troca",
+     "w": "25 é o ponto médio da classe mediana. A interpolação considera quantos casos faltam para chegar a 50 dentro da classe."
+    },
+    {
+     "t": "Cerca de 23,3 anos.",
+     "p": "calculo",
+     "w": "Esse valor divide 10 por 30, a frequência da classe anterior. Divide-se pela frequência da própria classe mediana, 40."
+    },
+    {
+     "t": "Não há valor: com dados em classes, só se indica a classe mediana.",
+     "p": "restricao",
+     "w": "Com dados agrupados, a mediana é estimada por interpolação linear dentro da classe mediana."
+    }
+   ]
+  },
+  {
+   "id": "est54",
+   "topic": "Covariância e correlação",
+   "c": "No Tribunal de Contas do Estado do Ceará, em Fortaleza, um analista calculou, para 25 servidores, covariância 24 entre horas de capacitação e nota na avaliação de desempenho; os desvios padrão foram 4 e 10.",
+   "q": "Qual é o coeficiente de correlação linear?",
+   "a": 2,
+   "src": "Bussab e Morettin, Estatística Básica, cap. 4 (covariância e coeficiente de correlação)",
+   "o": [
+    {
+     "t": "24, pois a covariância já é o coeficiente de correlação.",
+     "p": "troca",
+     "w": "A covariância depende das unidades e não fica entre −1 e 1. A correlação é a covariância padronizada."
+    },
+    {
+     "t": "0,015.",
+     "p": "calculo",
+     "w": "0,015 = 24/(16 × 100) divide pelas variâncias. O correto é dividir pelo produto dos desvios padrão, 4 × 10 = 40."
+    },
+    {
+     "t": "0,6.",
+     "p": "correta",
+     "w": "r = cov/(sₓ · sᵧ) = 24/(4 × 10) = 0,6: correlação linear positiva."
+    },
+    {
+     "t": "−0,6, pois covariância positiva indica relação inversa.",
+     "p": "inversao",
+     "w": "Covariância positiva indica que as variáveis tendem a crescer juntas; o sinal de r é o mesmo da covariância."
+    }
+   ]
+  },
+  {
+   "id": "est55",
+   "type": "ce",
+   "topic": "Desvio médio absoluto",
+   "src": "Bussab e Morettin, Estatística Básica, cap. 3 (desvio médio)",
+   "c": "No Juizado Especial Cível de Mossoró (RN), cinco audiências foram remarcadas com 2, 4, 6, 8 e 10 dias de atraso. Trate os dados como população e divida por n.",
+   "q": "O desvio médio absoluto dos atrasos é de 2,4 dias.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "A média é 6; os desvios absolutos são 4, 2, 0, 2 e 4, que somam 12; dividindo por n = 5, o desvio médio é 2,4 dias."
+    },
+    {
+     "t": "Errado",
+     "p": "calculo",
+     "w": "Julgar errado supõe que os desvios se anulam. Isso vale para a soma dos desvios com sinal; o desvio médio usa valores absolutos: 12/5 = 2,4."
+    }
+   ]
+  },
+  {
+   "id": "est56",
+   "type": "ce",
+   "topic": "Coeficiente de determinação",
+   "src": "Bussab e Morettin, Estatística Básica (regressão linear simples: coeficiente de determinação R²)",
+   "c": "A Secretaria de Planejamento de Juiz de Fora (MG) ajustou uma regressão linear simples entre a população dos bairros e o número de atendimentos nas UBS e obteve r = 0,8.",
+   "q": "A reta ajustada explica 80% da variação do número de atendimentos.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo confunde r com R². Na regressão linear simples, R² = r² = 0,64, ou seja, 64% da variação é explicada."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O coeficiente de determinação é o quadrado da correlação: 0,8² = 0,64. A reta explica 64%, e não 80%, da variação."
+    }
+   ]
+  },
+  {
+   "id": "est57",
+   "type": "ce",
+   "topic": "Média e variância Poisson",
+   "src": "Bussab e Morettin, Estatística Básica, cap. 6 (distribuição de Poisson)",
+   "c": "O pronto-socorro de um hospital público de Uberaba (MG) recebe, por noite, um número de acidentes com escorpião que segue distribuição de Poisson com média 4.",
+   "q": "O número de atendimentos por noite tem variância 4 e desvio padrão 2.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Na Poisson, média e variância são iguais a λ. Com λ = 4, a variância é 4 e o desvio padrão é √4 = 2."
+    },
+    {
+     "t": "Errado",
+     "p": "calculo",
+     "w": "Julgar errado supõe variância 16, o quadrado da média. Na Poisson, a variância é igual à média, λ = 4."
+    }
+   ]
+  },
+  {
+   "id": "est58",
+   "type": "ce",
+   "topic": "Decisão pelo p-valor",
+   "src": "Bussab e Morettin, Estatística Básica, cap. 12 (nível descritivo ou p-valor)",
+   "c": "Um analista do Tribunal de Contas do Estado da Bahia, em Salvador, testou H₀: o prazo médio de pagamento a fornecedores é de 30 dias, com nível de significância de 5%, e obteve p-valor de 0,03.",
+   "q": "Como o p-valor é menor que o nível de significância, o analista não deve rejeitar H₀.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "inversao",
+     "w": "Julgar certo inverte a regra de decisão. Rejeita-se H₀ quando o p-valor é menor ou igual a α, e 0,03 < 0,05."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "A regra é rejeitar H₀ quando o p-valor é menor ou igual a α. Como 0,03 < 0,05, H₀ deve ser rejeitada."
+    }
+   ]
+  },
+  {
+   "id": "est59",
+   "type": "ce",
+   "topic": "Variância da diferença",
+   "src": "Bussab e Morettin, Estatística Básica (variância da soma e da diferença de variáveis independentes)",
+   "c": "Numa vara cível de Feira de Santana (BA), o número diário de processos que entram (X) tem variância 9, e o de processos baixados (Y), variância 4. X e Y são independentes.",
+   "q": "A variância do saldo diário X − Y é igual a 5.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "calculo",
+     "w": "Julgar certo subtrai as variâncias. Para variáveis independentes, Var(X − Y) = Var(X) + Var(Y) = 9 + 4 = 13."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Com X e Y independentes, as variâncias se somam também na diferença: Var(X − Y) = 9 + 4 = 13, e não 5."
+    }
+   ]
+  },
+  {
+   "id": "est60",
+   "type": "ce",
+   "topic": "Teorema central do limite",
+   "src": "Bussab e Morettin, Estatística Básica (teorema central do limite)",
+   "c": "As multas de trânsito aplicadas pela prefeitura de Vitória da Conquista (BA) têm distribuição fortemente assimétrica, com média de R$ 300 e desvio padrão de R$ 120. Sorteiam-se 64 multas.",
+   "q": "A média amostral das 64 multas tem distribuição aproximadamente normal, com média R$ 300 e desvio padrão R$ 15.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Pelo teorema central do limite, com n grande a média amostral é aproximadamente normal, mesmo que a população não seja; seu desvio padrão é 120/√64 = 15."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado exige que a população seja normal. O teorema central do limite garante a normalidade aproximada da média para n grande."
+    }
+   ]
   }
  ]
 }

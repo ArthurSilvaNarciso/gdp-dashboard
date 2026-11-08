@@ -1096,6 +1096,280 @@
           "w": "As contas de compensação registram bens, valores, obrigações e situações que possam vir a afetar o patrimônio (art. 105, §5º). No PCASP, esses controles ficam nas classes 7 (controles devedores) e 8 (controles credores)."
         }
       ]
+    },
+    {
+      "id": "cont41",
+      "topic": "Provisão e passivo contingente",
+      "c": "A Prefeitura de Salvador (BA) responde a duas ações: na primeira, a procuradoria avalia a perda como provável e estima com confiabilidade R$ 2 milhões; na segunda, avalia a perda como apenas possível.",
+      "q": "Como cada ação deve ser tratada nas demonstrações contábeis?",
+      "a": 1,
+      "src": "NBC TSP 03 – Provisões, Passivos Contingentes e Ativos Contingentes",
+      "o": [
+        { "t": "As duas geram provisão no passivo, porque toda ação judicial contra o ente é obrigação presente.", "p": "generalizacao", "w": "Nem toda ação gera provisão: só a de saída de recursos provável e estimável com confiabilidade. A de perda possível é passivo contingente." },
+        { "t": "A primeira gera provisão no passivo; a segunda é passivo contingente, apenas divulgado em nota explicativa.", "p": "correta", "w": "Saída provável e estimativa confiável levam ao reconhecimento de provisão. Perda possível não se reconhece: divulga-se como passivo contingente." },
+        { "t": "A primeira é só divulgada em nota; a segunda gera provisão, por ser a de desfecho mais incerto.", "p": "inversao", "w": "Inverte os critérios: quanto mais provável a saída de recursos, mais forte o caso para reconhecer; a perda possível fica só na nota." },
+        { "t": "Nenhuma é registrada, porque obrigação judicial só vira passivo depois do trânsito em julgado.", "p": "restricao", "w": "Exige condição que a norma não prevê. A provisão se reconhece antes da sentença final, quando a saída é provável e estimável." }
+      ]
+    },
+    {
+      "id": "cont42",
+      "topic": "Saída do almoxarifado",
+      "c": "O almoxarifado da Secretaria de Educação de Aracaju (SE) tinha 100 resmas de papel a R$ 10 cada e comprou mais 200 resmas a R$ 13 cada. Depois, entregou 150 resmas às escolas.",
+      "q": "Por quanto a saída deve ser registrada?",
+      "a": 3,
+      "src": "Lei 4.320/64, art. 106, III; MCASP (STN, edição vigente), Parte II – estoques",
+      "o": [
+        { "t": "R$ 1.650, dando saída primeiro às resmas mais antigas.", "p": "troca", "w": "Usa o PEPS (100 × 10 + 50 × 13). A Lei 4.320/64 manda avaliar os bens de almoxarifado pelo preço médio ponderado das compras." },
+        { "t": "R$ 1.725, pela média simples dos dois preços, de R$ 11,50.", "p": "calculo", "w": "Erra a média: ela deve ser ponderada pelas quantidades, (1.000 + 2.600) ÷ 300 = R$ 12,00, e não a média simples dos preços." },
+        { "t": "R$ 1.950, pelo preço da compra mais recente, de R$ 13.", "p": "extrapolacao", "w": "Usa o custo da última entrada para todas as saídas, critério que a lei não adota para o almoxarifado público." },
+        { "t": "R$ 1.800, pelo preço médio ponderado de R$ 12,00 por resma.", "p": "correta", "w": "Preço médio ponderado: (100 × 10 + 200 × 13) ÷ 300 = R$ 12,00. A saída de 150 resmas vale R$ 1.800 (Lei 4.320/64, art. 106, III)." }
+      ]
+    },
+    {
+      "id": "cont43",
+      "topic": "Estoques pelo PEPS",
+      "c": "A Loja Sertaneja, de Caruaru (PE), começou o mês com 50 unidades de um produto a R$ 20, comprou 100 unidades a R$ 22 e depois 50 a R$ 25. Em seguida, vendeu 120 unidades a R$ 40 cada. Usa o método PEPS.",
+      "q": "Quais são o custo das mercadorias vendidas (CMV) e o estoque final?",
+      "a": 0,
+      "src": "CPC 16 (R1) – Estoques, itens 25 a 27",
+      "o": [
+        { "t": "CMV de R$ 2.540 e estoque final de R$ 1.910.", "p": "correta", "w": "Pelo PEPS saem primeiro as unidades mais antigas: 50 × 20 + 70 × 22 = R$ 2.540. Restam 30 × 22 + 50 × 25 = R$ 1.910." },
+        { "t": "CMV de R$ 2.790 e estoque final de R$ 1.660.", "p": "inversao", "w": "Dá saída primeiro às unidades mais recentes, que é o UEPS, método que o CPC 16 não admite." },
+        { "t": "CMV de R$ 2.670 e estoque final de R$ 1.780.", "p": "troca", "w": "Aplica o custo médio ponderado (4.450 ÷ 200 = R$ 22,25), e não o PEPS pedido no caso." },
+        { "t": "CMV de R$ 4.800 e estoque final de R$ 1.910.", "p": "calculo", "w": "Confunde o CMV com a receita de vendas (120 × 40). O CMV é o custo das unidades vendidas, não o preço cobrado do cliente." }
+      ]
+    },
+    {
+      "id": "cont44",
+      "topic": "Custo das mercadorias vendidas",
+      "c": "A Distribuidora Pantanal, de Cuiabá (MT), teve em 2025 estoque inicial de R$ 80.000, compras de R$ 300.000, fretes sobre compras de R$ 10.000, devoluções de compras de R$ 20.000 e estoque final de R$ 90.000. Não há tributos recuperáveis.",
+      "q": "Qual foi o CMV do ano?",
+      "a": 2,
+      "src": "Fórmula do CMV (EI + compras líquidas − EF); CPC 16 (R1), item 11",
+      "o": [
+        { "t": "R$ 270.000.", "p": "restricao", "w": "Exclui o frete das compras. O custo de aquisição inclui o transporte necessário para trazer o estoque à sua condição atual (CPC 16, item 11)." },
+        { "t": "R$ 300.000.", "p": "generalizacao", "w": "Esquece de abater as devoluções de compras, que reduzem as compras líquidas." },
+        { "t": "R$ 280.000: 80.000 + (300.000 + 10.000 − 20.000) − 90.000.", "p": "correta", "w": "CMV = estoque inicial + compras líquidas − estoque final. Compras líquidas incluem o frete e descontam as devoluções." },
+        { "t": "R$ 320.000.", "p": "inversao", "w": "Soma as devoluções de compras em vez de subtraí-las: mercadoria devolvida ao fornecedor sai do custo." }
+      ]
+    },
+    {
+      "id": "cont45",
+      "topic": "Despesa antecipada",
+      "c": "Em 1º de outubro de 2025, a Gráfica Paraná, de Londrina (PR), pagou à vista R$ 36.000 por um seguro contra incêndio com vigência de 12 meses.",
+      "q": "Em 31/12/2025, quais são a despesa de seguro do ano e o saldo do ativo?",
+      "a": 1,
+      "src": "Lei 6.404/76, art. 177; CPC 00 (R2), item 1.17 (regime de competência)",
+      "o": [
+        { "t": "Despesa de R$ 36.000 e nenhum saldo no ativo, porque o seguro foi pago em 2025.", "p": "troca", "w": "Usa o regime de caixa. Pela competência, a despesa é a parcela do período coberto em 2025." },
+        { "t": "Despesa de R$ 9.000 e seguro a apropriar de R$ 27.000 no ativo circulante.", "p": "correta", "w": "Foram consumidos 3 dos 12 meses: 36.000 × 3/12 = R$ 9.000. Os 9 meses restantes, R$ 27.000, ficam como despesa antecipada no ativo." },
+        { "t": "Despesa de R$ 27.000 e seguro a apropriar de R$ 9.000.", "p": "inversao", "w": "Inverte os valores: em 2025 passaram só 3 meses de cobertura (outubro a dezembro), não 9." },
+        { "t": "Nenhuma despesa em 2025, porque o seguro só é despesa quando ocorre um sinistro.", "p": "restricao", "w": "O prêmio do seguro é consumido com o passar do tempo de cobertura, haja sinistro ou não." }
+      ]
+    },
+    {
+      "id": "cont46",
+      "topic": "Adiantamento de clientes",
+      "c": "Em dezembro de 2025, a Móveis Serra Gaúcha, de Bento Gonçalves (RS), recebeu R$ 50.000 de um hotel como sinal por móveis planejados que só serão produzidos e entregues em março de 2026.",
+      "q": "Como o recebimento deve ser registrado em dezembro?",
+      "a": 0,
+      "src": "CPC 47 – Receita de Contrato com Cliente (passivo de contrato); Lei 6.404/76, art. 180",
+      "o": [
+        { "t": "Débito em Caixa ou Bancos e crédito em Adiantamento de Clientes, no passivo.", "p": "correta", "w": "Sem entrega, não há receita: a empresa tem a obrigação de entregar os móveis ou devolver o dinheiro. O valor fica no passivo até a entrega." },
+        { "t": "Débito em Caixa ou Bancos e crédito em Receita de Vendas.", "p": "troca", "w": "Reconhece receita antes de cumprida a obrigação de desempenho; a receita só nasce com a entrega dos móveis, em 2026." },
+        { "t": "Débito em Clientes e crédito em Caixa, porque o hotel passa a ter um direito contra a empresa.", "p": "inversao", "w": "Inverte os lados: entrou dinheiro (débito no disponível) e nasceu uma obrigação da empresa (crédito no passivo)." },
+        { "t": "Nenhum registro até a entrega, porque o contrato ainda não foi executado.", "p": "generalizacao", "w": "O contrato pendente não gera registro, mas o dinheiro recebido sim: houve entrada de caixa e surgiu uma obrigação." }
+      ]
+    },
+    {
+      "id": "cont47",
+      "topic": "Reserva legal",
+      "c": "A Cerâmica Potiguar S.A., de Mossoró (RN), tem capital social de R$ 1.000.000, reserva legal de R$ 190.000 e nenhuma reserva de capital. O lucro líquido de 2025 foi de R$ 400.000.",
+      "q": "Quanto deve ser destinado à reserva legal?",
+      "a": 3,
+      "src": "Lei 6.404/76, art. 193, caput e §1º",
+      "o": [
+        { "t": "R$ 20.000, isto é, 5% do lucro líquido.", "p": "generalizacao", "w": "Aplica os 5% sem olhar o teto: a reserva legal não pode exceder 20% do capital social, R$ 200.000, e já soma R$ 190.000." },
+        { "t": "R$ 80.000, isto é, 20% do lucro líquido.", "p": "troca", "w": "Confunde o teto da reserva (20% do capital social) com o percentual de destinação, que é de 5% do lucro." },
+        { "t": "Nada, porque a constituição da reserva legal passou a ser facultativa.", "p": "extrapolacao", "w": "A dispensa do §1º só vale quando reserva legal mais reservas de capital excede 30% do capital; aqui, R$ 190.000 não passa de R$ 300.000." },
+        { "t": "R$ 10.000, para a reserva alcançar o teto de 20% do capital social.", "p": "correta", "w": "Os 5% dariam R$ 20.000, mas a reserva não excede 20% do capital (R$ 200.000). Como já há R$ 190.000, destinam-se só R$ 10.000 (art. 193)." }
+      ]
+    },
+    {
+      "id": "cont48",
+      "topic": "Ações em tesouraria",
+      "c": "A Têxtil Vale do Itajaí S.A., de Blumenau (SC), recomprou no mercado ações de sua própria emissão por R$ 300.000, usando recursos de reservas de lucros, e as manteve em tesouraria.",
+      "q": "Como essas ações aparecem no balanço patrimonial?",
+      "a": 2,
+      "src": "Lei 6.404/76, art. 182, §5º",
+      "o": [
+        { "t": "No ativo não circulante, como investimento em participações societárias.", "p": "troca", "w": "Ação da própria companhia não é investimento em outra sociedade; a lei a trata dentro do patrimônio líquido." },
+        { "t": "No ativo circulante, como aplicação financeira, por terem cotação em bolsa.", "p": "restricao", "w": "A negociabilidade em bolsa não muda a natureza: a companhia não pode ter ativo contra si mesma." },
+        { "t": "No patrimônio líquido, como dedução da conta que registrou a origem dos recursos usados na recompra.", "p": "correta", "w": "O art. 182, §5º, manda destacar as ações em tesouraria como dedução da conta do PL que registrar a origem dos recursos aplicados na aquisição." },
+        { "t": "No patrimônio líquido, somadas ao capital social, por representarem ações emitidas.", "p": "inversao", "w": "Inverte o sinal: as ações em tesouraria reduzem o patrimônio líquido, porque a companhia devolveu recursos aos acionistas." }
+      ]
+    },
+    {
+      "id": "cont49",
+      "topic": "Índices de liquidez",
+      "c": "O balanço da Indústria Cearense de Castanhas, de Fortaleza (CE), mostra ativo circulante de R$ 600.000, dos quais R$ 240.000 em estoques, e passivo circulante de R$ 400.000.",
+      "q": "Quais são a liquidez corrente e a liquidez seca?",
+      "a": 1,
+      "src": "Alexandre Assaf Neto, Estrutura e Análise de Balanços (indicadores de liquidez)",
+      "o": [
+        { "t": "Liquidez corrente de 0,67 e liquidez seca de 0,9.", "p": "inversao", "w": "Inverte a fração da liquidez corrente (400 ÷ 600). O índice é ativo circulante dividido por passivo circulante." },
+        { "t": "Liquidez corrente de 1,5 e liquidez seca de 0,9.", "p": "correta", "w": "Corrente: 600.000 ÷ 400.000 = 1,5. Seca: (600.000 − 240.000) ÷ 400.000 = 0,9, porque exclui os estoques." },
+        { "t": "Liquidez corrente de 1,5 e liquidez seca de 1,5, porque os estoques fazem parte do ativo circulante.", "p": "troca", "w": "Repete a liquidez corrente. A liquidez seca existe justamente para retirar os estoques, de conversão em caixa mais incerta." },
+        { "t": "Liquidez corrente de 1,5 e liquidez seca de 0,6.", "p": "calculo", "w": "Divide só os estoques pelo passivo circulante (240 ÷ 400). A seca usa o ativo circulante menos os estoques." }
+      ]
+    },
+    {
+      "id": "cont50",
+      "topic": "Empenho no PCASP",
+      "c": "A Secretaria de Saúde de São Luís (MA) empenhou R$ 80.000 para comprar medicamentos, dentro de uma dotação que tinha R$ 500.000 disponíveis. A entrega ainda não ocorreu.",
+      "q": "Que registro de natureza orçamentária o empenho provoca?",
+      "a": 0,
+      "src": "MCASP (STN, edição vigente), Parte IV – PCASP (controle da execução orçamentária, classe 6)",
+      "o": [
+        { "t": "Na classe 6, o crédito disponível cai R$ 80.000 e o crédito empenhado a liquidar sobe no mesmo valor.", "p": "correta", "w": "O empenho reserva parte da dotação: o saldo passa de crédito disponível para crédito empenhado a liquidar, nas contas de execução do orçamento (classe 6)." },
+        { "t": "Débito em VPD de medicamentos e crédito em fornecedores, no passivo, por R$ 80.000.", "p": "troca", "w": "Esse é o efeito patrimonial que só ocorre com a entrega. O empenho sozinho não gera VPD nem passivo." },
+        { "t": "Na classe 6, o crédito empenhado a liquidar cai e o crédito disponível sobe R$ 80.000.", "p": "inversao", "w": "Inverte o movimento: o empenho reduz o crédito disponível e aumenta o empenhado a liquidar." },
+        { "t": "Nenhum registro contábil, porque o empenho só é anotado na nota de empenho.", "p": "restricao", "w": "O PCASP registra o empenho nas contas de natureza orçamentária; o controle não fica só no documento." }
+      ]
+    },
+    {
+      "id": "cont51",
+      "topic": "Amortização de intangível",
+      "c": "Em 1º de julho de 2025, a Agência Digital Capibaribe, do Recife (PE), comprou por R$ 180.000 a licença de uso de um software por 3 anos, sem valor residual, com amortização linear desde a data da compra.",
+      "q": "Qual é a despesa de amortização de 2025?",
+      "a": 3,
+      "src": "CPC 04 (R1) – Ativo Intangível (vida útil definida e amortização)",
+      "o": [
+        { "t": "R$ 60.000, a quota de um ano inteiro.", "p": "calculo", "w": "Ignora que a licença só foi usada por 6 meses em 2025: 60.000 × 6/12 = 30.000." },
+        { "t": "Nenhuma, porque ativo intangível não é amortizado, apenas testado para perda.", "p": "generalizacao", "w": "Só o intangível de vida útil indefinida deixa de ser amortizado. A licença de 3 anos tem vida útil definida." },
+        { "t": "R$ 180.000, lançados de uma vez como despesa, porque software não é bem físico.", "p": "troca", "w": "Trata o intangível como despesa do período. A licença gera benefícios por 3 anos e é ativo, amortizado ao longo desse prazo." },
+        { "t": "R$ 30.000: 180.000 ÷ 3 anos, por 6 meses.", "p": "correta", "w": "Quota anual de R$ 60.000 (180.000 ÷ 3), proporcional aos 6 meses de 2025: R$ 30.000. O valor contábil fica em R$ 150.000." }
+      ]
+    },
+    {
+      "id": "cont52",
+      "topic": "Ajuste de exercícios anteriores",
+      "c": "Em 2026, a Laticínios Serra da Canastra S.A., de Uberaba (MG), descobriu que deixou de registrar R$ 40.000 de depreciação de máquinas em 2024, por erro na planilha.",
+      "q": "Como a correção deve ser registrada?",
+      "a": 2,
+      "src": "Lei 6.404/76, art. 186, §1º",
+      "o": [
+        { "t": "Como despesa de depreciação na DRE de 2026, ano em que o erro foi descoberto.", "p": "inversao", "w": "Joga no resultado atual um efeito que pertence a 2024, distorcendo o lucro de 2026." },
+        { "t": "Não se corrige, porque as demonstrações de 2024 já foram aprovadas.", "p": "restricao", "w": "A aprovação não impede a correção. A lei prevê o ajuste de exercícios anteriores justamente para retificar erro de exercício passado." },
+        { "t": "Como ajuste de exercícios anteriores, na conta de lucros ou prejuízos acumulados, no patrimônio líquido.", "p": "correta", "w": "Retificação de erro imputável a exercício anterior é ajuste de exercícios anteriores (art. 186, §1º), feito no PL, e não na DRE corrente." },
+        { "t": "Como ajuste de exercícios anteriores, lançando nele também a depreciação de 2026 das mesmas máquinas.", "p": "extrapolacao", "w": "A lei limita o ajuste à mudança de critério contábil e à retificação de erro que não possam ser atribuídos a fatos subsequentes; a depreciação de 2026 vai para a DRE de 2026." }
+      ]
+    },
+    {
+      "id": "cont53",
+      "topic": "Evento subsequente",
+      "c": "O balanço de 2025 da Usina Rio Pardo, de Ribeirão Preto (SP), ainda não tinha sido autorizado para publicação quando, em fevereiro de 2026, um incêndio destruiu parte do seu armazém.",
+      "q": "Como o incêndio deve ser tratado nas demonstrações de 2025?",
+      "a": 0,
+      "src": "CPC 24 – Evento Subsequente",
+      "o": [
+        { "t": "Não ajusta os valores de 2025, mas, se relevante, é divulgado em nota explicativa.", "p": "correta", "w": "O incêndio é condição surgida depois da data do balanço: evento que não origina ajuste, divulgado quando material (CPC 24)." },
+        { "t": "Ajusta os valores de 2025, baixando o armazém destruído no balanço de 31/12/2025.", "p": "inversao", "w": "Só se ajustam eventos que evidenciam condições já existentes na data do balanço. O armazém estava intacto em 31/12/2025." },
+        { "t": "É ignorado, porque só fatos ocorridos até 31 de dezembro interessam às demonstrações de 2025.", "p": "generalizacao", "w": "O CPC 24 cuida justamente dos eventos entre a data do balanço e a autorização para publicação; os relevantes são divulgados." },
+        { "t": "Ajusta os valores de 2025 só se o prejuízo superar 10% do ativo total.", "p": "restricao", "w": "A norma não usa percentual fixo. O que decide o ajuste é a condição já existir na data do balanço." }
+      ]
+    },
+    {
+      "id": "cont54",
+      "topic": "Consolidação das contas",
+      "c": "O Estado do Tocantins transferiu R$ 200 milhões do Tesouro, na administração direta, para custear sua autarquia estadual de saúde. A contadoria prepara as demonstrações consolidadas do Estado.",
+      "q": "Como a transferência aparece nas demonstrações conjuntas?",
+      "a": 1,
+      "src": "LC 101/2000, art. 50, III e §1º",
+      "o": [
+        { "t": "Como VPD do Tesouro e VPA da autarquia, ambas mantidas pelo valor integral.", "p": "generalizacao", "w": "Somar as duas pontas duplica fluxos que não envolveram ninguém de fora do Estado." },
+        { "t": "É excluída, por ser operação intragovernamental entre órgãos e entidades do próprio ente.", "p": "correta", "w": "Nas demonstrações conjuntas, excluem-se as operações intragovernamentais (LRF, art. 50, §1º); a transferência entre Tesouro e autarquia se anula." },
+        { "t": "Só a VPA da autarquia aparece, porque a entidade que recebe é quem registra a transferência.", "p": "restricao", "w": "Manter apenas uma das pontas também distorce o consolidado: a operação inteira, interna ao ente, sai da consolidação." },
+        { "t": "É excluída só se a autarquia for empresa estatal dependente.", "p": "troca", "w": "A regra vale para todas as operações intragovernamentais do ente, não só para as de estatal dependente." }
+      ]
+    },
+    {
+      "id": "cont55",
+      "type": "ce",
+      "topic": "Sistema de custos",
+      "src": "LC 101/2000, art. 50, §3º",
+      "c": "O Tribunal de Contas do Estado de Mato Grosso do Sul, em auditoria na Prefeitura de Dourados, pediu informações sobre o custo de cada aluno da rede municipal.",
+      "q": "Pela LRF, a Administração Pública manterá sistema de custos que permita a avaliação e o acompanhamento da gestão orçamentária, financeira e patrimonial.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "É a redação do art. 50, §3º, da LRF: o sistema de custos é obrigação de toda a Administração Pública, para avaliar a gestão orçamentária, financeira e patrimonial." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado supõe que o sistema de custos seria só recomendação ou só para a União. A LRF o impõe à Administração Pública em geral." }
+      ]
+    },
+    {
+      "id": "cont56",
+      "type": "ce",
+      "topic": "Regime da despesa (LRF)",
+      "src": "LC 101/2000, art. 50, II",
+      "c": "A Controladoria de Feira de Santana (BA) revisa o manual de rotinas contábeis da prefeitura.",
+      "q": "Pela LRF, a despesa e a assunção de compromisso são registradas pelo regime de caixa, apurando-se, em caráter complementar, o resultado pelo regime de competência.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "inversao", "w": "Julgar certo aceita a troca dos regimes. A LRF manda registrar a despesa e a assunção de compromisso pela competência, com o caixa em caráter complementar." },
+        { "t": "Errado", "p": "correta", "w": "O art. 50, II, diz o contrário: despesa e assunção de compromisso seguem o regime de competência, e o resultado dos fluxos financeiros pelo caixa é apurado em caráter complementar." }
+      ]
+    },
+    {
+      "id": "cont57",
+      "type": "ce",
+      "topic": "Custeio de estoques",
+      "src": "CPC 16 (R1) – Estoques, item 25",
+      "c": "Em período de alta de preços, o dono de uma rede de farmácias de Manaus (AM) quer avaliar os estoques pelo UEPS para aumentar o custo das vendas e reduzir o lucro apurado.",
+      "q": "O CPC 16 admite o UEPS como critério de custeio dos estoques, ao lado do PEPS e do custo médio ponderado.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "extrapolacao", "w": "Julgar certo estende ao UEPS uma permissão que o CPC 16 dá só ao PEPS e ao custo médio ponderado, para itens intercambiáveis." },
+        { "t": "Errado", "p": "correta", "w": "O CPC 16 (R1), item 25, admite o PEPS e o custo médio ponderado. O UEPS não está entre os critérios aceitos." }
+      ]
+    },
+    {
+      "id": "cont58",
+      "type": "ce",
+      "topic": "Ativo contingente",
+      "src": "CPC 25 – Provisões, Passivos Contingentes e Ativos Contingentes (ativo contingente)",
+      "c": "A Construtora Planalto, de Goiânia (GO), move ação de indenização contra um fornecedor, e seus advogados consideram provável a vitória, ainda sem sentença.",
+      "q": "O ativo contingente não é reconhecido no balanço, mas deve ser divulgado em nota explicativa quando for provável a entrada de benefícios econômicos.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "Pelo CPC 25, a entidade não reconhece ativo contingente; ela o divulga quando a entrada de benefícios é provável. Só quando a entrada é praticamente certa o ativo deixa de ser contingente." },
+        { "t": "Errado", "p": "troca", "w": "Julgar errado aplica ao ativo a lógica da provisão. Para o passivo, saída provável gera reconhecimento; para o ativo, entrada provável gera só divulgação." }
+      ]
+    },
+    {
+      "id": "cont59",
+      "type": "ce",
+      "topic": "Alienação de ativos (DVP)",
+      "src": "LC 101/2000, art. 50, VI",
+      "c": "O Município de Juiz de Fora (MG) vendeu terrenos desocupados e a contadoria quer evidenciar para onde foram os recursos da venda.",
+      "q": "Pela LRF, é o Balanço Financeiro que dará destaque à origem e ao destino dos recursos provenientes da alienação de ativos.",
+      "a": 1,
+      "o": [
+        { "t": "Certo", "p": "troca", "w": "Julgar certo troca a demonstração. A LRF atribui esse destaque à demonstração das variações patrimoniais." },
+        { "t": "Errado", "p": "correta", "w": "O art. 50, VI, da LRF diz que a demonstração das variações patrimoniais dará destaque à origem e ao destino dos recursos provenientes da alienação de ativos." }
+      ]
+    },
+    {
+      "id": "cont60",
+      "type": "ce",
+      "topic": "Registro analítico de bens",
+      "src": "Lei 4.320/64, arts. 94 a 96",
+      "c": "Na Universidade Estadual de Londrina (PR), cada bem permanente recebe número de patrimônio, e o sistema identifica o setor e o servidor responsável por sua guarda.",
+      "q": "A Lei 4.320/64 exige registros analíticos de todos os bens de caráter permanente, com os elementos para sua perfeita caracterização e a indicação dos agentes responsáveis por sua guarda e administração.",
+      "a": 0,
+      "o": [
+        { "t": "Certo", "p": "correta", "w": "É o art. 94 da Lei 4.320/64. A contabilidade mantém ainda registros sintéticos dos bens móveis e imóveis (art. 95), e o levantamento geral se apoia no inventário analítico (art. 96)." },
+        { "t": "Errado", "p": "restricao", "w": "Julgar errado supõe que bastariam registros sintéticos ou só dos imóveis. O art. 94 pede registro analítico de todos os bens de caráter permanente, com seus responsáveis." }
+      ]
     }
   ]
 }

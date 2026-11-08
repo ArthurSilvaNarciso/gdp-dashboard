@@ -1096,6 +1096,552 @@
           "w": "O art. 10, §3º, veda quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público."
         }
       ]
+    },
+    {
+      "id": "etica41",
+      "topic": "Culpa não é improbidade",
+      "c": "Na Universidade Federal da Fronteira Sul, em Chapecó (SC), um servidor do setor financeiro, por desatenção, pagou duas vezes a mesma nota fiscal de um fornecedor, gerando prejuízo de R$ 40 mil. Não há indício de que tenha agido de propósito nem de que tenha se beneficiado.",
+      "q": "Pela Lei 8.429/92, na redação da Lei 14.230/2021, o servidor comete improbidade?",
+      "a": 1,
+      "src": "Lei 8.429/92, art. 1º, §§ 1º a 3º (redação da Lei 14.230/2021), mantida a exigência de dolo nas ADIs 7.156 e 7.236 (STF, 2026); Lei 8.112/90, art. 122",
+      "o": [
+        {
+          "t": "Sim, lesão ao erário na forma culposa, já que a negligência causou perda patrimonial efetiva.",
+          "p": "troca",
+          "w": "A modalidade culposa do art. 10 existia antes da Lei 14.230/2021 e foi suprimida. Hoje só condutas dolosas configuram improbidade (art. 1º, § 1º)."
+        },
+        {
+          "t": "Não: só condutas dolosas são improbidade; o servidor pode responder nas esferas administrativa e civil, inclusive ressarcindo o dano.",
+          "p": "correta",
+          "w": "A lei exige dolo, a vontade livre e consciente de alcançar o resultado ilícito (art. 1º, §§ 1º e 2º), exigência que o STF manteve nas ADIs 7.156 e 7.236. A responsabilidade civil do servidor, porém, alcança atos culposos (Lei 8.112/90, art. 122)."
+        },
+        {
+          "t": "Sim, porque todo prejuízo ao erário é improbidade, qualquer que seja o elemento subjetivo do agente.",
+          "p": "generalizacao",
+          "w": "O dano sozinho não basta. Sem comprovação de ato doloso com fim ilícito, o mero exercício da função afasta a improbidade (art. 1º, § 3º)."
+        },
+        {
+          "t": "Sim, violação de princípios do art. 11, pois a negligência ofende a eficiência administrativa.",
+          "p": "extrapolacao",
+          "w": "O art. 11 também exige dolo e tem rol taxativo de condutas. Ofensa genérica à eficiência por descuido não se enquadra em nenhum de seus incisos."
+        }
+      ]
+    },
+    {
+      "id": "etica42",
+      "topic": "Herdeiros na improbidade",
+      "c": "Um ex-prefeito de Araguaína (TO), réu em ação por enriquecimento ilícito estimado em R$ 500 mil, morreu durante o processo. Seus filhos receberam de herança bens que somam R$ 200 mil.",
+      "q": "Pela Lei 8.429/92, qual é a responsabilidade dos herdeiros?",
+      "a": 3,
+      "src": "Lei 8.429/92, art. 8º (redação da Lei 14.230/2021)",
+      "o": [
+        {
+          "t": "Respondem pelos R$ 500 mil e pela multa civil, inclusive com o próprio patrimônio, porque assumem a posição do réu.",
+          "p": "generalizacao",
+          "w": "A lei limita a responsabilidade dos sucessores. Eles não respondem com patrimônio próprio nem assumem as sanções pessoais do falecido."
+        },
+        {
+          "t": "Não respondem por nada, pois a morte do réu extingue a ação de improbidade como extingue a punibilidade penal.",
+          "p": "troca",
+          "w": "A extinção da punibilidade pela morte é regra do direito penal. Na improbidade, o art. 8º mantém a obrigação de reparar, transmitida aos sucessores dentro do limite da herança."
+        },
+        {
+          "t": "Respondem pela reparação e pela multa civil, ambas limitadas aos R$ 200 mil herdados.",
+          "p": "extrapolacao",
+          "w": "O art. 8º sujeita os herdeiros apenas à obrigação de reparar. A multa civil não se transmite a eles, mesmo dentro do limite da herança."
+        },
+        {
+          "t": "Estão sujeitos apenas à obrigação de reparar, até o limite do valor da herança, ou seja, até R$ 200 mil.",
+          "p": "correta",
+          "w": "É a regra do art. 8º: o sucessor ou herdeiro de quem causou dano ao erário ou se enriqueceu ilicitamente responde apenas pela reparação, até o limite da herança ou do patrimônio transferido."
+        }
+      ]
+    },
+    {
+      "id": "etica43",
+      "topic": "Declaração de bens falsa",
+      "c": "Um auditor de um órgão federal em Vitória (ES) apresentou a declaração anual de bens omitindo, de propósito, um apartamento e uma lancha comprados no ano anterior.",
+      "q": "Que consequência a Lei 8.429/92 prevê para essa conduta?",
+      "a": 0,
+      "src": "Lei 8.429/92, art. 13, caput e §§ 2º e 3º (redação da Lei 14.230/2021)",
+      "o": [
+        {
+          "t": "Demissão, sem prejuízo de outras sanções cabíveis, porque o agente prestou declaração falsa.",
+          "p": "correta",
+          "w": "O art. 13, § 3º, pune com demissão quem se recusa a prestar a declaração no prazo ou presta declaração falsa. A declaração deve ser atualizada anualmente e quando o agente deixa o cargo (§ 2º)."
+        },
+        {
+          "t": "Advertência, por se tratar de descumprimento de dever formal, sem dano ao erário.",
+          "p": "troca",
+          "w": "A advertência é pena da Lei 8.112/90 para infrações leves. Para a declaração falsa, a Lei 8.429/92 prevê expressamente a demissão."
+        },
+        {
+          "t": "Demissão, mas apenas se ficar provado que os bens omitidos foram comprados com dinheiro de origem ilícita.",
+          "p": "restricao",
+          "w": "A lei pune a própria falsidade da declaração. A origem ilícita dos bens pode configurar outra infração, como o enriquecimento ilícito, mas não é condição para a demissão do § 3º."
+        },
+        {
+          "t": "Nenhuma, porque a posse já ocorreu e a lei só exige a declaração de bens no momento da investidura.",
+          "p": "inversao",
+          "w": "A posse depende da declaração (caput), mas o dever não termina aí: ela é atualizada todo ano e na saída do cargo (§ 2º)."
+        }
+      ]
+    },
+    {
+      "id": "etica44",
+      "topic": "Desvio de atribuições",
+      "c": "Na gerência de um órgão federal em Mossoró (RN), o chefe determinou que um motorista oficial passasse a fazer, por tempo indeterminado, a conciliação contábil do setor, tarefa estranha ao cargo dele. Não havia emergência.",
+      "q": "Comprovada a infração, qual penalidade a Lei 8.112/90 prevê para o chefe?",
+      "a": 2,
+      "src": "Lei 8.112/90, arts. 117, XVII, 129 e 130",
+      "o": [
+        {
+          "t": "Advertência, porque toda proibição do art. 117 recebe advertência na primeira ocorrência.",
+          "p": "generalizacao",
+          "w": "Só as proibições dos incisos I a VIII e XIX levam a advertência (art. 129). As dos incisos IX a XVI levam a demissão, e as dos incisos XVII e XVIII, a suspensão."
+        },
+        {
+          "t": "Demissão, porque o chefe se valeu do cargo para obter proveito pessoal.",
+          "p": "troca",
+          "w": "Valer-se do cargo para lograr proveito (inciso IX) é outra infração. O caso descreve cometer a outro servidor atribuições estranhas ao cargo, que é o inciso XVII."
+        },
+        {
+          "t": "Suspensão, pois cometer a outro servidor atribuições estranhas ao cargo, fora de emergência e transitoriedade, é punido com essa pena.",
+          "p": "correta",
+          "w": "A proibição está no art. 117, XVII, e o art. 130 manda aplicar suspensão à violação das proibições que não levam a demissão nem a advertência. A exceção legal são as situações de emergência e transitórias."
+        },
+        {
+          "t": "Nenhuma, pois só haveria infração se o motorista tivesse se recusado a fazer a tarefa.",
+          "p": "restricao",
+          "w": "A concordância do subordinado não afasta a proibição. A lei veda a conduta do chefe, salvo emergência e situação transitória, que não existiam."
+        }
+      ]
+    },
+    {
+      "id": "etica45",
+      "topic": "Inassiduidade habitual",
+      "c": "Um servidor de um instituto federal em Rio Branco (AC) faltou sem justificativa 65 dias, de forma intercalada, ao longo de doze meses. Em nenhum momento ficou mais de três dias seguidos ausente.",
+      "q": "Como a Lei 8.112/90 enquadra a conduta?",
+      "a": 1,
+      "src": "Lei 8.112/90, arts. 132, II e III, 138 e 139",
+      "o": [
+        {
+          "t": "Abandono de cargo, punido com demissão, porque as faltas somadas passam de 30 dias.",
+          "p": "troca",
+          "w": "Abandono de cargo é a ausência intencional por mais de 30 dias consecutivos (art. 138). Faltas intercaladas caracterizam outra infração."
+        },
+        {
+          "t": "Inassiduidade habitual, punida com demissão, por somar 60 ou mais faltas injustificadas, interpoladamente, em doze meses.",
+          "p": "correta",
+          "w": "O art. 139 define inassiduidade habitual como a falta sem causa justificada por 60 dias, interpoladamente, durante doze meses. O art. 132, III, a pune com demissão."
+        },
+        {
+          "t": "Nenhuma infração de demissão, porque as faltas nunca chegaram a 30 dias seguidos.",
+          "p": "restricao",
+          "w": "A exigência de dias consecutivos é do abandono de cargo. Para a inassiduidade habitual, contam as faltas intercaladas no período de doze meses."
+        },
+        {
+          "t": "Inassiduidade habitual só a partir de 90 faltas em doze meses; com 65, cabe apenas desconto na remuneração.",
+          "p": "calculo",
+          "w": "O número legal é 60, e não 90. Com 65 faltas injustificadas no período, a infração está configurada."
+        }
+      ]
+    },
+    {
+      "id": "etica46",
+      "topic": "Acumulação e boa-fé",
+      "c": "Uma analista de um órgão federal em São José dos Campos (SP) também ocupava cargo de analista em uma autarquia estadual, acumulação vedada pela Constituição. Notificada, não fez a opção em dez dias, mas optou pelo cargo federal no último dia do prazo de defesa do procedimento sumário.",
+      "q": "Qual é a consequência, segundo a Lei 8.112/90?",
+      "a": 3,
+      "src": "Lei 8.112/90, art. 133, caput e §§ 5º e 6º; CF/88, art. 37, XVI",
+      "o": [
+        {
+          "t": "Demissão dos dois cargos, porque a acumulação ilegal sempre gera demissão, qualquer que seja o momento da opção.",
+          "p": "generalizacao",
+          "w": "A demissão pressupõe acumulação ilegal com má-fé provada (§ 6º). A opção feita até o fim do prazo de defesa afasta essa consequência."
+        },
+        {
+          "t": "Demissão, porque a opção só é válida se feita nos dez dias seguintes à notificação.",
+          "p": "restricao",
+          "w": "Os dez dias são o prazo inicial para a opção, mas a lei admite que ela seja feita até o último dia do prazo de defesa, com o mesmo efeito de boa-fé (§ 5º)."
+        },
+        {
+          "t": "Cassação de aposentadoria ou disponibilidade, pena própria para quem acumula cargos.",
+          "p": "troca",
+          "w": "Cassação de aposentadoria é sanção para inativos, aplicada em caso de má-fé. A analista está na ativa e agiu dentro do prazo."
+        },
+        {
+          "t": "A opção configura boa-fé e se converte automaticamente em pedido de exoneração do outro cargo.",
+          "p": "correta",
+          "w": "É o que diz o art. 133, § 5º: a opção até o último dia do prazo para defesa configura boa-fé e se converte automaticamente em pedido de exoneração do outro cargo."
+        }
+      ]
+    },
+    {
+      "id": "etica47",
+      "topic": "Absolvição penal e PAD",
+      "c": "Um servidor de uma superintendência federal em Aracaju (SE) responde a PAD e a ação penal pelo mesmo desvio de materiais. Na esfera penal, foi absolvido por insuficiência de provas, e a defesa pede o arquivamento automático do PAD.",
+      "q": "O que diz a Lei 8.112/90?",
+      "a": 0,
+      "src": "Lei 8.112/90, arts. 125 e 126; CPP, art. 386, VII",
+      "o": [
+        {
+          "t": "A responsabilidade administrativa só é afastada por absolvição criminal que negue a existência do fato ou sua autoria; o PAD prossegue.",
+          "p": "correta",
+          "w": "As esferas são independentes (art. 125), e o art. 126 só afasta a responsabilidade administrativa quando a absolvição nega o fato ou a autoria. Absolvição por falta de provas não tem esse efeito."
+        },
+        {
+          "t": "Qualquer absolvição criminal pelo mesmo fato encerra o PAD, por força da independência das instâncias.",
+          "p": "generalizacao",
+          "w": "A independência das instâncias aponta no sentido oposto. Só a absolvição que nega o fato ou a autoria repercute na esfera administrativa."
+        },
+        {
+          "t": "A absolvição por falta de provas afasta o PAD, desde que a sentença penal tenha transitado em julgado.",
+          "p": "restricao",
+          "w": "O trânsito em julgado não muda o fundamento da absolvição. Insuficiência de provas no processo penal não impede a punição administrativa."
+        },
+        {
+          "t": "O PAD deveria ter ficado suspenso desde o início, pois a administração precisa aguardar o fim da ação penal.",
+          "p": "troca",
+          "w": "A Lei 8.112/90 não manda suspender o PAD à espera do processo penal. As responsabilidades civil, penal e administrativa podem cumular-se e são independentes entre si (art. 125)."
+        }
+      ]
+    },
+    {
+      "id": "etica48",
+      "topic": "Direito à verdade",
+      "c": "Em uma agência do INSS em Imperatriz (MA), um segurado pergunta por que seu benefício foi negado. A servidora percebe que a negativa decorreu de um erro de cadastro cometido pela própria agência e pensa em responder apenas que 'o sistema indeferiu'.",
+      "q": "O que o Código de Ética do servidor federal exige dela?",
+      "a": 2,
+      "src": "Decreto 1.171/94, Anexo, VIII e XIV, b",
+      "o": [
+        {
+          "t": "Preservar a imagem da Administração e omitir o erro, já que a verdade só é devida quando favorece o órgão.",
+          "p": "inversao",
+          "w": "O Código diz o contrário: o servidor não pode omitir nem falsear a verdade, ainda que ela seja contrária aos interesses da Administração."
+        },
+        {
+          "t": "Revelar o erro somente se o segurado apresentar requerimento formal e por escrito pedindo os motivos.",
+          "p": "restricao",
+          "w": "O direito à verdade não depende de pedido escrito. O inciso VIII o reconhece a toda pessoa, e o servidor deve ser verdadeiro em qualquer atendimento."
+        },
+        {
+          "t": "Dizer a verdade: toda pessoa tem direito a ela, e o servidor não pode omiti-la ou falseá-la, ainda que contrária aos interesses da Administração.",
+          "p": "correta",
+          "w": "É o inciso VIII do Código. Além disso, é dever do servidor exercer suas atribuições com rapidez, perfeição e rendimento, evitando danos aos usuários (inciso XIV, b), o que inclui orientar a correção do erro."
+        },
+        {
+          "t": "Contar a verdade e conceder ela mesma o benefício na hora, sem novo exame, para compensar o erro da agência.",
+          "p": "extrapolacao",
+          "w": "O dever de verdade não autoriza a servidora a ignorar o procedimento. Reconhecer o erro é obrigação; conceder o benefício exige o exame regular do pedido."
+        }
+      ]
+    },
+    {
+      "id": "etica49",
+      "topic": "Conivência por solidariedade",
+      "c": "Em uma unidade federal em Caxias do Sul (RS), Renato viu um colega e amigo adulterar a própria folha de ponto para registrar horas extras que não trabalhou. Decidiu não comentar com ninguém, 'por coleguismo'.",
+      "q": "Como o Código de Ética avalia a omissão de Renato?",
+      "a": 3,
+      "src": "Decreto 1.171/94, Anexo, XIV, m, e XV, c",
+      "o": [
+        {
+          "t": "É legítima, porque a lealdade aos colegas é um dos deveres fundamentais do servidor no Código.",
+          "p": "troca",
+          "w": "A lealdade devida pelo servidor é às instituições a que serve (Lei 8.112/90, art. 116, II), não aos colegas que cometem infração. O Código veda justamente a conivência por solidariedade."
+        },
+        {
+          "t": "Só seria falta ética se Renato tivesse recebido parte do valor das horas extras falsas.",
+          "p": "restricao",
+          "w": "A vedação alcança a simples conivência, sem exigir que o servidor ganhe algo. Receber vantagem seria outra infração, ainda mais grave."
+        },
+        {
+          "t": "É falta ética e também crime de prevaricação, que a Comissão de Ética deve julgar e punir.",
+          "p": "extrapolacao",
+          "w": "A Comissão de Ética não julga crimes; sua única pena é a censura. Indícios de ilícito penal ou disciplinar são encaminhados às autoridades competentes."
+        },
+        {
+          "t": "É vedada: o servidor não pode ser conivente com erro ou infração por espírito de solidariedade e deve comunicar o fato aos superiores.",
+          "p": "correta",
+          "w": "A alínea c do inciso XV veda a conivência por espírito de solidariedade, e a alínea m do inciso XIV impõe comunicar imediatamente aos superiores ato contrário ao interesse público."
+        }
+      ]
+    },
+    {
+      "id": "etica50",
+      "topic": "Direito de vista",
+      "c": "Um servidor de uma autarquia federal em Bauru (SP) soube por colegas que a Comissão de Ética abrira procedimento sobre sua conduta. Pediu para ver os autos, mas a secretaria negou, dizendo que ele ainda não fora notificado.",
+      "q": "Pelo Decreto 6.029/2007, a negativa está correta?",
+      "a": 1,
+      "src": "Decreto 6.029/2007, arts. 13 e 14",
+      "o": [
+        {
+          "t": "Sim, porque o investigado só pode conhecer a acusação depois de ser formalmente notificado.",
+          "p": "restricao",
+          "w": "O decreto dispensa expressamente essa condição: o direito vale mesmo que o investigado ainda não tenha sido notificado da existência do procedimento."
+        },
+        {
+          "t": "Não: o investigado tem direito de saber o que lhe é imputado e de ter vista dos autos, mesmo antes da notificação, inclusive com cópia.",
+          "p": "correta",
+          "w": "É o art. 14 do Decreto 6.029/2007, que assegura vista dos autos no recinto da Comissão, ainda sem notificação, e inclui o direito de obter cópia e certidão."
+        },
+        {
+          "t": "Sim, porque o procedimento tem chancela de reservado até a conclusão, inclusive para o próprio investigado.",
+          "p": "troca",
+          "w": "A chancela de reservado (art. 13) protege o procedimento diante de terceiros. Ela não pode ser oposta ao próprio investigado, cujo acesso é garantido pelo art. 14."
+        },
+        {
+          "t": "Não, e o servidor pode levar os autos originais para casa a fim de preparar a defesa.",
+          "p": "extrapolacao",
+          "w": "O decreto garante a vista no recinto da Comissão e a obtenção de cópias. Não autoriza a retirada dos autos originais."
+        }
+      ]
+    },
+    {
+      "id": "etica51",
+      "topic": "Incorporação e responsabilidade",
+      "c": "Em 2024, a Construtora Ômega fraudou uma licitação federal em Marabá (PA). Em 2026, antes da conclusão do processo de responsabilização, ela foi incorporada pela Delta Engenharia, sem indício de simulação ou fraude na operação.",
+      "q": "Pela Lei 12.846/2013, qual é a responsabilidade da Delta?",
+      "a": 0,
+      "src": "Lei 12.846/2013, art. 4º, caput e § 1º",
+      "o": [
+        {
+          "t": "Fica restrita ao pagamento de multa e à reparação integral do dano, até o limite do patrimônio transferido.",
+          "p": "correta",
+          "w": "O art. 4º mantém a responsabilidade após a incorporação e, pelo § 1º, a limita à multa e à reparação integral do dano, até o patrimônio transferido. As demais sanções não alcançam a sucessora, salvo simulação ou fraude."
+        },
+        {
+          "t": "Nenhuma, porque a incorporação extingue a pessoa jurídica que praticou o ato lesivo.",
+          "p": "inversao",
+          "w": "A lei diz que a responsabilidade subsiste na hipótese de alteração contratual, transformação, incorporação, fusão ou cisão (art. 4º, caput)."
+        },
+        {
+          "t": "Todas as sanções que caberiam à Ômega, inclusive a dissolução compulsória e a proibição de receber incentivos.",
+          "p": "generalizacao",
+          "w": "Sem simulação ou fraude, a sucessora não responde por todas as sanções. Sua responsabilidade é limitada à multa e à reparação, dentro do patrimônio transferido."
+        },
+        {
+          "t": "Apenas a reparação do dano; a multa, por ser pessoal, não passa para a sucessora.",
+          "p": "restricao",
+          "w": "O § 1º inclui expressamente a multa entre as obrigações da sucessora, ao lado da reparação integral do dano."
+        }
+      ]
+    },
+    {
+      "id": "etica52",
+      "topic": "Agenda pública",
+      "c": "Recém-nomeado, um ministro de Estado pergunta à assessoria se precisa tornar públicos os encontros que terá com representantes de empresas interessadas em decisões do ministério.",
+      "q": "Pela Lei 12.813/2013, o que ele deve fazer?",
+      "a": 2,
+      "src": "Lei 12.813/2013, arts. 2º, I, e 11; Decreto 10.889/2021",
+      "o": [
+        {
+          "t": "Publicar mensalmente um relatório com o resumo das reuniões do mês anterior.",
+          "p": "calculo",
+          "w": "A periodicidade legal é diária, e não mensal. A agenda deve estar disponível na internet dia a dia."
+        },
+        {
+          "t": "Informar seus compromissos apenas a quem pedir, por meio de pedido de acesso à informação.",
+          "p": "restricao",
+          "w": "A divulgação da agenda é transparência ativa: independe de pedido. A lei impõe ao ministro o dever de publicá-la por iniciativa própria."
+        },
+        {
+          "t": "Divulgar diariamente, pela internet, sua agenda de compromissos públicos.",
+          "p": "correta",
+          "w": "O art. 11 impõe aos agentes do art. 2º, I a IV, entre eles os ministros de Estado, o dever de divulgar diariamente na internet a agenda de compromissos públicos. O Decreto 10.889/2021 regulamenta essa publicação."
+        },
+        {
+          "t": "Divulgar diariamente todos os seus compromissos, inclusive consultas médicas e encontros familiares.",
+          "p": "extrapolacao",
+          "w": "A lei fala em compromissos públicos. Compromissos estritamente particulares não entram na agenda e são protegidos pela intimidade."
+        }
+      ]
+    },
+    {
+      "id": "etica53",
+      "topic": "Informações pessoais na LAI",
+      "c": "Pelo sistema de acesso à informação, um cidadão pediu a uma universidade federal em Parnaíba (PI) os laudos médicos que fundamentaram a licença de saúde de um professor e o endereço residencial dele.",
+      "q": "Como a Lei 12.527/2011 trata o pedido?",
+      "a": 1,
+      "src": "Lei 12.527/2011, art. 31, caput e § 1º, I e II",
+      "o": [
+        {
+          "t": "Os dados só podem ser negados se a universidade os tiver classificado como ultrassecretos.",
+          "p": "troca",
+          "w": "A classificação em graus de sigilo serve à segurança da sociedade e do Estado. Informações pessoais têm acesso restrito independentemente de classificação."
+        },
+        {
+          "t": "São informações pessoais de acesso restrito por até 100 anos, liberadas a terceiros só com previsão legal ou consentimento expresso do professor.",
+          "p": "correta",
+          "w": "É o art. 31, § 1º: informações pessoais relativas à intimidade, vida privada, honra e imagem têm acesso restrito por até 100 anos, independentemente de classificação, e só se divulgam a terceiros com previsão legal ou consentimento expresso."
+        },
+        {
+          "t": "Têm acesso restrito por até 25 anos, prazo máximo de sigilo previsto na LAI.",
+          "p": "calculo",
+          "w": "Os 25 anos são o prazo da informação ultrassecreta (art. 24). Para informações pessoais, o prazo máximo é de 100 anos a contar da produção."
+        },
+        {
+          "t": "Devem ser entregues, porque a publicidade é a regra e todo dado sobre servidor público é de interesse público.",
+          "p": "generalizacao",
+          "w": "A publicidade é regra, mas a própria LAI protege a intimidade e a vida privada (art. 31). Nem todo dado ligado a um servidor é de interesse público."
+        }
+      ]
+    },
+    {
+      "id": "etica54",
+      "topic": "Prazo da ouvidoria",
+      "c": "Uma usuária de Ponta Grossa (PR) registrou na ouvidoria de uma autarquia federal reclamação sobre o atendimento que recebeu. Ela quer saber em quanto tempo terá a decisão administrativa final.",
+      "q": "Pela Lei 13.460/2017, qual é o prazo?",
+      "a": 3,
+      "src": "Lei 13.460/2017, art. 16, caput",
+      "o": [
+        {
+          "t": "Vinte dias, prorrogáveis por mais dez, como na Lei de Acesso à Informação.",
+          "p": "troca",
+          "w": "Esses são os prazos da LAI para pedido de informação (Lei 12.527/2011, art. 11). Para as manifestações de ouvidoria, a Lei 13.460/2017 fixa outro prazo."
+        },
+        {
+          "t": "Trinta dias, prorrogáveis por iguais períodos quantas vezes forem necessárias.",
+          "p": "generalizacao",
+          "w": "A prorrogação é admitida uma única vez, de forma justificada. Não há prorrogações sucessivas."
+        },
+        {
+          "t": "Trinta dias, prorrogáveis uma vez, mas só se a usuária concordar por escrito com a prorrogação.",
+          "p": "restricao",
+          "w": "A lei exige justificativa para prorrogar, e não concordância da usuária. A condição foi acrescentada sem base legal."
+        },
+        {
+          "t": "Trinta dias, prorrogáveis de forma justificada uma única vez, por igual período.",
+          "p": "correta",
+          "w": "É o art. 16 da Lei 13.460/2017: a ouvidoria encaminhará a decisão administrativa final ao usuário em trinta dias, prorrogáveis de forma justificada uma única vez, por igual período."
+        }
+      ]
+    },
+    {
+      "id": "etica55",
+      "type": "ce",
+      "topic": "Prescrição após as ADIs",
+      "src": "Lei 8.429/92, art. 23, caput, §§ 4º e 5º (redação da Lei 14.230/2021); STF, ADIs 7.156 e 7.236 (julgamento concluído em 01/07/2026)",
+      "c": "Em uma ação de improbidade em Sobral (CE), a prescrição foi interrompida. A defesa sustenta que, a partir da interrupção, o Ministério Público passou a ter só quatro anos para obter a condenação.",
+      "q": "Na ação de improbidade, interrompida a prescrição, o prazo de oito anos recomeça a correr pela metade, ou seja, por quatro anos.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo é aplicar a redação original do § 5º do art. 23 como se ainda valesse. A expressão que reduzia o prazo à metade foi declarada inconstitucional pelo STF."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O item está errado. Nas ADIs 7.156 e 7.236, concluídas em 01/07/2026, o STF declarou inconstitucional a redução do prazo pela metade após a interrupção; o prazo de oito anos do caput e as causas interruptivas do § 4º foram mantidos."
+        }
+      ]
+    },
+    {
+      "id": "etica56",
+      "type": "ce",
+      "topic": "Recurso na LAI",
+      "src": "Lei 12.527/2011, art. 15, caput e parágrafo único",
+      "c": "Uma pesquisadora de Santa Maria (RS) teve negado o acesso a dados sobre contratos de uma fundação federal e quer contestar a decisão.",
+      "q": "Negado o acesso, ela pode interpor recurso no prazo de 10 dias a contar da ciência da decisão, dirigido à autoridade hierarquicamente superior à que a proferiu, que deve se manifestar em 5 dias.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O item está certo. É exatamente o que prevê o art. 15 da Lei 12.527/2011, em seu caput e no parágrafo único."
+        },
+        {
+          "t": "Errado",
+          "p": "calculo",
+          "w": "Julgar errado costuma vir da troca dos prazos da LAI, como confundir os 10 dias do recurso com os 20 dias de resposta ao pedido. Os números do item estão corretos."
+        }
+      ]
+    },
+    {
+      "id": "etica57",
+      "type": "ce",
+      "topic": "Recompensa ao informante",
+      "src": "Lei 13.608/2018, arts. 4º-A e 4º-C, § 3º (incluídos pela Lei 13.964/2019)",
+      "c": "Um morador de Macaé (RJ) relatou à ouvidoria de uma autarquia federal um esquema de desvio de recursos, e as informações levaram à recuperação de R$ 2 milhões para os cofres públicos.",
+      "q": "Pela Lei 13.608/2018, quando as informações do informante resultarem na recuperação de produto de crime contra a administração pública, poderá ser fixada recompensa a ele de até 5% do valor recuperado.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O item está certo. O art. 4º-C, § 3º, prevê recompensa de até 5% do valor recuperado, e o art. 4º-A assegura ao informante proteção contra retaliações quando o relato for considerado razoável."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que a recompensa dependeria de processo criminal ou teria outro percentual. O art. 4º-C, § 3º, permite fixá-la em até 5% do valor recuperado."
+        }
+      ]
+    },
+    {
+      "id": "etica58",
+      "type": "ce",
+      "topic": "Comissão de Ética setorial",
+      "src": "Decreto 6.029/2007, art. 5º",
+      "c": "O dirigente máximo de uma autarquia federal sediada em Boa Vista (RR) precisa recompor a Comissão de Ética do órgão.",
+      "q": "Cada Comissão de Ética setorial é integrada por três membros titulares e três suplentes, escolhidos entre servidores e empregados do quadro permanente e designados pelo dirigente máximo do órgão, com mandatos não coincidentes de três anos.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "O item está certo e reproduz o art. 5º do Decreto 6.029/2007 sobre as comissões de ética de que trata o Decreto 1.171/94."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado é confundir a comissão setorial com a Comissão de Ética Pública, que tem sete membros designados pelo Presidente da República (art. 3º). A composição do item é a da comissão de cada órgão."
+        }
+      ]
+    },
+    {
+      "id": "etica59",
+      "type": "ce",
+      "topic": "Multa e reparação",
+      "src": "Lei 12.846/2013, art. 6º, I e § 3º",
+      "c": "Condenada em processo administrativo da CGU, uma empresa de vigilância de Feira de Santana (BA) pagou multa de 5% do faturamento bruto e alegou que, com isso, nada mais devia à União.",
+      "q": "Pela Lei 12.846/2013, a empresa que paga a multa administrativa fica dispensada de reparar integralmente o dano causado.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "extrapolacao",
+          "w": "Julgar certo é dar à multa um efeito que a lei não lhe atribui. Multa é sanção; reparação é obrigação autônoma de recompor o prejuízo."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O item está errado. Pelo art. 6º, § 3º, a aplicação das sanções não exclui, em qualquer hipótese, a obrigação da reparação integral do dano causado."
+        }
+      ]
+    },
+    {
+      "id": "etica60",
+      "type": "ce",
+      "topic": "Suspensão convertida em multa",
+      "src": "Lei 8.112/90, art. 130, § 2º",
+      "c": "Um servidor do único setor de protocolo de um órgão federal em Juazeiro do Norte (CE) recebeu suspensão de 20 dias. A chefia avalia que o afastamento dele paralisaria o atendimento.",
+      "q": "Havendo conveniência para o serviço, a suspensão pode ser convertida em multa de 50% por dia de vencimento ou remuneração, ficando o servidor dispensado de comparecer ao trabalho durante o período.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "inversao",
+          "w": "Julgar certo inverte a lógica da conversão: ela existe justamente para que o servidor continue trabalhando, já que o serviço precisa dele."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "O item está errado. Pelo art. 130, § 2º, convertida a suspensão em multa de 50% por dia, o servidor fica obrigado a permanecer em serviço."
+        }
+      ]
     }
   ]
 }

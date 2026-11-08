@@ -69,12 +69,22 @@ function dailyPlan() {
   const need = Math.max(goal, Math.ceil((missing * 2.2) / Math.max(1, ex.days))); // cada questão firme pede ~2 a 3 revisões
   return { n: Math.min(60, need), why: need > goal ? 'para chegar a 90% até a prova' : 'mantém você no ritmo da prova' };
 }
+/* Revisão de véspera: nos 3 dias antes da prova, os 30 cartões que você mais esquece (das trilhas do seu objetivo). */
+function vesperaIds() {
+  const pool = new Set(targetDecks().flatMap((d) => d.questions.map((q) => q.id)));
+  const ids = seenIds().filter((id) => !pool.size || pool.has(id)); const now = Date.now();
+  return ids.sort((a, b) => (retr(S.cards[a], now) - (S.cards[a].lapses || 0) * 0.05) - (retr(S.cards[b], now) - (S.cards[b].lapses || 0) * 0.05)).slice(0, 30);
+}
+function vesperaHTML(ex) {
+  if (!ex || ex.days < 0 || ex.days > 3) return ''; const n = vesperaIds().length; if (n < 5) return '';
+  return `<button class="callout vespera" data-act="vespera"><span class="tile" style="background:var(--orange);color:#141B4D">${ico('flame')}</span><div><b>Revisão de véspera</b><p>${ex.days === 0 ? 'É hoje' : ex.days === 1 ? 'A prova é amanhã' : 'Faltam ' + ex.days + ' dias'}: revise os ${n} pontos que você mais esquece.</p></div>${chev()}</button>`;
+}
 function examCard() {
   const ex = examInfo(); const r = readiness();
   if (!ex) return `<button class="goalcard empty" data-act="exam-open"><span class="tile c-blue">${ico('exam')}</span><div class="main"><b>Tem prova marcada?</b><span>Coloque a data e o Memory monta o ritmo até lá</span></div>${chev()}</button>`;
   if (ex.days < 0) return `<button class="goalcard" data-act="exam-open"><span class="tile c-mint">${ico('trophy')}</span><div class="main"><b>${esc(ex.name)} já passou</b><span>Como foi? Defina o próximo objetivo</span></div>${chev()}</button>`;
   const plan = dailyPlan(); const L = peekToday(); const done = Math.min(L.n, plan.n);
-  return `<button class="goalcard" data-act="exam-open" aria-label="Objetivo: ${esc(ex.name)}">
+  return vesperaHTML(ex) + `<button class="goalcard" data-act="exam-open" aria-label="Objetivo: ${esc(ex.name)}">
     <div class="gc-top"><div><small>${esc(ex.name)}</small><b class="num">${ex.days === 0 ? 'É hoje!' : ex.days === 1 ? 'Falta 1 dia' : 'Faltam ' + ex.days + ' dias'}</b></div>
       <div class="ring" style="--p:${r.pct}"><span class="num">${r.pct}%</span><i>preparação</i></div></div>
     <div class="gc-plan"><span>Hoje: <b class="num">${done}/${plan.n}</b> questões${plan.why ? ' · ' + plan.why : ''}</span><div class="bar"><i class="${done >= plan.n ? 'g' : 'o'}" style="width:${Math.round((done / plan.n) * 100)}%"></i></div></div>
@@ -161,6 +171,7 @@ function reminderSheet() {
 
 /* ---------- Ações ---------- */
 Object.assign(ACT, {
+  'vespera': () => { const ids = vesperaIds(); if (ids.length) startCycle({ ids, size: ids.length, title: 'Revisão de véspera' }); },
   'exam-open': () => examSheet(),
   'exam-sug': (d) => { const n = document.getElementById('ex-name'); if (n) { n.value = d.v; n.focus(); } },
   'exam-clear': () => { delete S.user.exam; persist(); ui.sheet = null; renderSheet(); render(); },

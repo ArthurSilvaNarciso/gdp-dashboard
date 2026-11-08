@@ -1,0 +1,1101 @@
+{
+ "id": "banc",
+ "title": "Conhecimentos Bancários",
+ "subtitle": "SFN, produtos, Pix, prevenção à lavagem",
+ "tag": "Concursos",
+ "blurb": "CMN, Banco Central autônomo, Copom, FGC, Pix, garantias e prevenção à lavagem em casos práticos, no padrão de BB, Caixa, BNB, BASA, BRB e Banrisul.",
+ "questions": [
+  {
+   "id": "banc1",
+   "topic": "Composição do CMN",
+   "c": "Em um cursinho de Florianópolis (SC), Larissa estuda para o concurso do Banco do Brasil e precisa saber quem vota nas reuniões do Conselho Monetário Nacional, órgão que edita as resoluções do sistema financeiro.",
+   "q": "Quem integra hoje o CMN?",
+   "a": 0,
+   "src": "Lei 9.069/1995, art. 8º (redação da Lei 14.600/2023)",
+   "o": [
+    {
+     "t": "O Ministro da Fazenda, que o preside, o Ministro do Planejamento e Orçamento e o Presidente do Banco Central.",
+     "p": "correta",
+     "w": "Art. 8º da Lei 9.069/1995, na redação da Lei 14.600/2023: são três membros, sob a presidência do Ministro da Fazenda. O CMN delibera por resoluções, por maioria de votos."
+    },
+    {
+     "t": "O Ministro da Fazenda, o Presidente do Banco Central e o Presidente da CVM.",
+     "p": "troca",
+     "w": "O Presidente da CVM integra a Comissão Técnica da Moeda e do Crédito (art. 9º), que assessora o CMN, mas não é membro do Conselho."
+    },
+    {
+     "t": "O Presidente do Banco Central, que o preside, o Ministro da Fazenda e o Ministro do Planejamento e Orçamento.",
+     "p": "inversao",
+     "w": "Quem preside o CMN é o Ministro da Fazenda. O Banco Central funciona como secretaria-executiva do Conselho (art. 8º, §5º)."
+    },
+    {
+     "t": "Os ministros da área econômica, o Presidente do Banco Central e os presidentes do Banco do Brasil e da Caixa.",
+     "p": "extrapolacao",
+     "w": "A lei fixa só três membros. O presidente do Conselho pode convidar outras autoridades para as reuniões, mas sem direito a voto (art. 8º, §3º)."
+    }
+   ]
+  },
+  {
+   "id": "banc2",
+   "topic": "Emissão de moeda",
+   "c": "Em visita à Casa da Moeda, no Rio de Janeiro (RJ), onde são impressas as cédulas de real, um candidato ao concurso da Caixa concluiu que a própria Casa da Moeda é quem emite a moeda nacional.",
+   "q": "Assinale a alternativa correta.",
+   "a": 2,
+   "src": "CF/88, art. 164, caput e §1º; Lei 4.595/1964, art. 10",
+   "o": [
+    {
+     "t": "Quem emite moeda é o Conselho Monetário Nacional, que aprova cada lote de cédulas por resolução.",
+     "p": "troca",
+     "w": "O CMN autoriza condições e limites, mas a emissão é ato do Banco Central (Lei 4.595/64, art. 10, e CF, art. 164)."
+    },
+    {
+     "t": "Qualquer banco público federal, como a Caixa ou o Banco do Brasil, pode emitir moeda em nome da União.",
+     "p": "generalizacao",
+     "w": "A Constituição atribui a emissão exclusivamente ao banco central. Bancos públicos são instituições financeiras como as demais nesse ponto."
+    },
+    {
+     "t": "A competência da União para emitir moeda é exercida exclusivamente pelo Banco Central; a Casa da Moeda apenas fabrica cédulas e moedas.",
+     "p": "correta",
+     "w": "Art. 164 da CF: a competência da União para emitir moeda será exercida exclusivamente pelo banco central. Fabricar o meio físico não é emitir; a emissão é do BC, nas condições e limites autorizados pelo CMN."
+    },
+    {
+     "t": "O Banco Central emite moeda e, por isso, pode conceder empréstimos ao Tesouro Nacional para cobrir déficits.",
+     "p": "extrapolacao",
+     "w": "É vedado ao BC conceder, direta ou indiretamente, empréstimos ao Tesouro Nacional e a órgão ou entidade que não seja instituição financeira (CF, art. 164, §1º)."
+    }
+   ]
+  },
+  {
+   "id": "banc3",
+   "topic": "Mandato no Banco Central",
+   "c": "Um Presidente da República cumpre mandato de 2027 a 2030 e indicará, com aprovação do Senado, o próximo presidente do Banco Central, nos termos da lei de autonomia da autoridade monetária.",
+   "q": "Pela LC 179/2021, quando começa e quanto dura o mandato desse presidente do Banco Central?",
+   "a": 1,
+   "src": "LC 179/2021, art. 4º, §§1º e 3º",
+   "o": [
+    {
+     "t": "Começa em 1º de janeiro de 2028 e dura quatro anos, admitida uma recondução.",
+     "p": "calculo",
+     "w": "Erro de contagem: no mandato 2027–2030, o primeiro ano é 2027 e o terceiro é 2029, não 2028."
+    },
+    {
+     "t": "Começa em 1º de janeiro de 2029 e dura quatro anos, admitida uma recondução.",
+     "p": "correta",
+     "w": "Art. 4º, §1º: o mandato do Presidente do BC é de quatro anos, com início em 1º de janeiro do terceiro ano do mandato do Presidente da República, que no ciclo 2027–2030 é 2029. O §3º admite uma recondução."
+    },
+    {
+     "t": "Começa junto com o mandato presidencial, em 2027, e termina com ele, em 2030.",
+     "p": "troca",
+     "w": "Confunde o modelo atual com o antigo cargo de livre nomeação. A LC 179 descasou os mandatos justamente para que nenhum Presidente da República troque toda a diretoria ao assumir."
+    },
+    {
+     "t": "Começa em 1º de janeiro de 2029 e dura quatro anos, vedada qualquer recondução.",
+     "p": "restricao",
+     "w": "A lei permite recondução, uma única vez, por decisão do Presidente da República (art. 4º, §3º)."
+    }
+   ]
+  },
+  {
+   "id": "banc4",
+   "topic": "Objetivos do Banco Central",
+   "c": "Num debate na Universidade Federal do Pará, em Belém (PA), um estudante afirmou que, desde a lei de autonomia, o Banco Central tem dois objetivos de igual peso: controlar a inflação e garantir o pleno emprego.",
+   "q": "O que diz a LC 179/2021 sobre os objetivos do Banco Central?",
+   "a": 3,
+   "src": "LC 179/2021, arts. 1º e 2º",
+   "o": [
+    {
+     "t": "O objetivo fundamental é fomentar o pleno emprego; a estabilidade de preços é buscada sem prejuízo dele.",
+     "p": "inversao",
+     "w": "Inverte a hierarquia do art. 1º: o fundamental é a estabilidade de preços, e o pleno emprego aparece entre os objetivos acessórios."
+    },
+    {
+     "t": "O único objetivo é a estabilidade de preços, e o BC está proibido de considerar o nível de emprego em suas decisões.",
+     "p": "generalizacao",
+     "w": "A lei não proíbe: o parágrafo único do art. 1º manda também suavizar as flutuações da atividade e fomentar o pleno emprego, sem prejuízo do objetivo fundamental."
+    },
+    {
+     "t": "O Banco Central define as metas de inflação e escolhe livremente quais objetivos priorizar a cada ano.",
+     "p": "troca",
+     "w": "Quem define as metas de política monetária é o CMN; ao BC cabe conduzir a política monetária necessária para cumpri-las (art. 2º)."
+    },
+    {
+     "t": "O objetivo fundamental é assegurar a estabilidade de preços; os demais, como fomentar o pleno emprego, são buscados sem prejuízo dele.",
+     "p": "correta",
+     "w": "Art. 1º: a estabilidade de preços é o objetivo fundamental. O parágrafo único acrescenta zelar pela estabilidade e eficiência do sistema financeiro, suavizar as flutuações da atividade e fomentar o pleno emprego, sem prejuízo do objetivo fundamental."
+    }
+   ]
+  },
+  {
+   "id": "banc5",
+   "topic": "Competência da CVM",
+   "c": "Uma companhia aberta com sede em Curitiba (PR) divulgou ao mercado um fato relevante enganoso sobre um contrato bilionário, e suas ações negociadas na B3 dispararam.",
+   "q": "Qual entidade tem competência para fiscalizar e punir administrativamente a companhia?",
+   "a": 2,
+   "src": "Lei 6.385/1976, arts. 5º e 8º",
+   "o": [
+    {
+     "t": "O Banco Central, que fiscaliza as instituições financeiras e, por extensão, as companhias listadas em bolsa.",
+     "p": "troca",
+     "w": "O BC supervisiona instituições financeiras. Companhias abertas e o mercado de valores mobiliários estão sob a CVM."
+    },
+    {
+     "t": "A CVM, mas apenas se a companhia for instituição financeira autorizada pelo Banco Central.",
+     "p": "restricao",
+     "w": "A competência da CVM alcança qualquer companhia aberta, seja qual for o ramo de atividade."
+    },
+    {
+     "t": "A Comissão de Valores Mobiliários, autarquia que fiscaliza as companhias abertas e o mercado de valores mobiliários.",
+     "p": "correta",
+     "w": "Lei 6.385/76: a CVM é autarquia em regime especial (art. 5º) e fiscaliza permanentemente as atividades do mercado de valores mobiliários e as companhias abertas (art. 8º)."
+    },
+    {
+     "t": "A CVM, que pode inclusive condenar criminalmente os administradores por manipulação de mercado.",
+     "p": "extrapolacao",
+     "w": "A CVM aplica sanções administrativas. Crimes contra o mercado de capitais são julgados pelo Poder Judiciário, em ação penal."
+    }
+   ]
+  },
+  {
+   "id": "banc6",
+   "topic": "Fundo de pensão fechado",
+   "c": "Os empregados de uma estatal de saneamento de Recife (PE) suspeitam de má gestão no fundo de pensão fechado, mantido pela empresa apenas para seus funcionários.",
+   "q": "A qual órgão cabe fiscalizar essa entidade?",
+   "a": 0,
+   "src": "Lei 12.154/2009, arts. 1º e 2º; LC 109/2001, art. 74",
+   "o": [
+    {
+     "t": "À Previc, que supervisiona as entidades fechadas de previdência complementar.",
+     "p": "correta",
+     "w": "Lei 12.154/2009: a Previc é a autarquia que fiscaliza e supervisiona as entidades fechadas de previdência complementar, os fundos de pensão. As entidades abertas ficam com a Susep."
+    },
+    {
+     "t": "À Susep, que fiscaliza a previdência complementar aberta e também a fechada.",
+     "p": "troca",
+     "w": "A Susep fiscaliza seguros, capitalização e as entidades abertas de previdência, como as que vendem PGBL e VGBL. Fundos de pensão fechados ficam com a Previc."
+    },
+    {
+     "t": "Ao Banco Central, que supervisiona todas as entidades que integram o Sistema Financeiro Nacional.",
+     "p": "generalizacao",
+     "w": "O BC supervisiona instituições financeiras e de pagamento. O SFN tem supervisores próprios para previdência fechada (Previc), seguros (Susep) e valores mobiliários (CVM)."
+    },
+    {
+     "t": "À Previc, mas só depois que o CMN autorizar a abertura do processo de fiscalização.",
+     "p": "restricao",
+     "w": "A Previc fiscaliza de forma permanente e direta, sem autorização do CMN, que nem é o órgão normativo da previdência fechada: esse papel é do CNPC."
+    }
+   ]
+  },
+  {
+   "id": "banc7",
+   "topic": "Conselho de Recursos (CRSFN)",
+   "c": "Um banco de São Luís (MA) foi multado pelo Banco Central em processo administrativo sancionador por falhas em seus controles internos e quer recorrer ainda na esfera administrativa.",
+   "q": "A quem cabe julgar esse recurso?",
+   "a": 3,
+   "src": "Decreto 9.889/2019, art. 2º; Lei 13.506/2017",
+   "o": [
+    {
+     "t": "Ao Conselho Monetário Nacional, órgão máximo do sistema financeiro.",
+     "p": "troca",
+     "w": "O CMN é órgão normativo e não julga recursos contra sanções; essa competência é do CRSFN."
+    },
+    {
+     "t": "A ninguém, porque as decisões sancionadoras do Banco Central são sempre definitivas na via administrativa.",
+     "p": "generalizacao",
+     "w": "Há recurso administrativo contra as sanções do BC, julgado pelo CRSFN em última instância."
+    },
+    {
+     "t": "Ao Supremo Tribunal Federal, por recurso direto contra a decisão da diretoria do Banco Central.",
+     "p": "extrapolacao",
+     "w": "O STF não é instância recursal de processo administrativo. O banco pode ir ao Judiciário, mas o recurso administrativo vai ao CRSFN."
+    },
+    {
+     "t": "Ao Conselho de Recursos do Sistema Financeiro Nacional, que julga esses recursos em última instância administrativa.",
+     "p": "correta",
+     "w": "Decreto 9.889/2019, art. 2º: o CRSFN julga, em última instância administrativa, os recursos contra sanções aplicadas pelo Banco Central com base na Lei 13.506/2017, entre outras hipóteses."
+    }
+   ]
+  },
+  {
+   "id": "banc8",
+   "topic": "Banco múltiplo",
+   "c": "Um grupo empresarial de Goiânia (GO) pediu autorização para constituir um banco múltiplo apenas com as carteiras de crédito imobiliário e de arrendamento mercantil.",
+   "q": "O pedido atende às regras do CMN?",
+   "a": 1,
+   "src": "Resolução CMN 5.060/2023, arts. 2º, §1º, e 4º",
+   "o": [
+    {
+     "t": "Sim, porque qualquer combinação de duas carteiras forma um banco múltiplo.",
+     "p": "generalizacao",
+     "w": "Duas carteiras é o mínimo, mas não serve qualquer par: a norma exige que uma seja comercial ou de investimento."
+    },
+    {
+     "t": "Não, porque o banco múltiplo precisa de ao menos duas carteiras, sendo uma delas obrigatoriamente comercial ou de investimento.",
+     "p": "correta",
+     "w": "Res. CMN 5.060/2023, art. 4º: o banco múltiplo opera com no mínimo duas carteiras, e uma delas deve ser comercial ou de investimento. Imobiliário e arrendamento, sozinhos, não bastam."
+    },
+    {
+     "t": "Não, porque o banco múltiplo deve operar com todas as carteiras previstas na norma.",
+     "p": "restricao",
+     "w": "A norma exige no mínimo duas carteiras, não todas. O defeito do pedido é a falta da carteira comercial ou de investimento."
+    },
+    {
+     "t": "Sim, desde que a denominação use a expressão \"Sociedade de Crédito\", e não \"Banco\".",
+     "p": "troca",
+     "w": "Ao contrário: o banco múltiplo deve ter a expressão \"Banco\" na denominação (art. 2º, §1º), e o pedido continua sem a carteira obrigatória."
+    }
+   ]
+  },
+  {
+   "id": "banc9",
+   "topic": "Cooperativa de crédito",
+   "c": "Em Chapecó (SC), o agricultor Ivo é associado de uma cooperativa de crédito, onde mantém R$ 80 mil em depósitos a prazo, e pergunta ao gerente quem protege esse dinheiro se a cooperativa quebrar.",
+   "q": "Assinale a resposta correta.",
+   "a": 0,
+   "src": "LC 130/2009, art. 2º; FGCoop (Fundo Garantidor do Cooperativismo de Crédito)",
+   "o": [
+    {
+     "t": "A cooperativa presta serviços financeiros aos associados, e os depósitos contam com o FGCoop, fundo garantidor próprio do cooperativismo de crédito.",
+     "p": "correta",
+     "w": "LC 130/2009, art. 2º: cooperativas de crédito destinam-se a prestar serviços financeiros a seus associados. Seus depósitos são protegidos pelo FGCoop, e não pelo FGC dos bancos."
+    },
+    {
+     "t": "Os depósitos são garantidos pelo FGC, o mesmo fundo dos bancos comerciais.",
+     "p": "troca",
+     "w": "Cooperativas de crédito se associam ao FGCoop, fundo garantidor próprio do setor, e não ao FGC."
+    },
+    {
+     "t": "Não há garantia alguma, porque cooperativas de crédito não são instituições financeiras.",
+     "p": "generalizacao",
+     "w": "Cooperativas de crédito são instituições financeiras autorizadas e supervisionadas pelo Banco Central, e seus depósitos têm a proteção do FGCoop."
+    },
+    {
+     "t": "Os depósitos são garantidos integralmente pelo Tesouro Nacional, sem limite de valor.",
+     "p": "extrapolacao",
+     "w": "Não existe garantia do Tesouro para depósitos em cooperativas; a proteção vem do FGCoop, dentro de limite por associado."
+    }
+   ]
+  },
+  {
+   "id": "banc10",
+   "topic": "SCD e SEP",
+   "c": "Duas fintechs de São Paulo (SP) pediram autorização ao Banco Central: a Alfa quer emprestar o próprio capital por aplicativo; a Beta quer conectar investidores a tomadores, sem emprestar recursos próprios.",
+   "q": "Qual modalidade corresponde a cada uma?",
+   "a": 2,
+   "src": "Resolução CMN 5.050/2022, arts. 7º, 10, 15, 18 e 22",
+   "o": [
+    {
+     "t": "Alfa deve ser SEP, e Beta, SCD.",
+     "p": "inversao",
+     "w": "Inverte os modelos: quem empresta capital próprio é a SCD; quem conecta credores e devedores é a SEP."
+    },
+    {
+     "t": "Alfa deve ser SCD e poderá captar depósitos do público para ampliar a carteira de crédito.",
+     "p": "extrapolacao",
+     "w": "A SCD não pode captar recursos do público, salvo por emissão de ações (art. 10, I)."
+    },
+    {
+     "t": "Alfa deve ser Sociedade de Crédito Direto (SCD), e Beta, Sociedade de Empréstimo entre Pessoas (SEP).",
+     "p": "correta",
+     "w": "Res. CMN 5.050/2022: a SCD empresta com capital próprio por plataforma eletrônica (art. 7º); a SEP intermedeia empréstimos entre pessoas e não pode operar com recursos próprios (arts. 15 e 22, I)."
+    },
+    {
+     "t": "Beta pode ser SEP, desde que garanta aos investidores o pagamento dos empréstimos.",
+     "p": "restricao",
+     "w": "Ao contrário: a SEP opera sem retenção de risco de crédito (art. 18); o risco de inadimplência é de quem empresta."
+    }
+   ]
+  },
+  {
+   "id": "banc11",
+   "topic": "Composição do Copom",
+   "c": "Em Fortaleza (CE), uma professora de cursinho explica aos alunos que a meta da taxa Selic anunciada na quarta-feira à noite foi decidida pelo Comitê de Política Monetária.",
+   "q": "Quem vota no Copom e por quanto tempo vale a meta?",
+   "a": 3,
+   "src": "BCB, Copom: definição e histórico; LC 179/2021, arts. 2º e 3º",
+   "o": [
+    {
+     "t": "Os três membros do Conselho Monetário Nacional; a meta vale até a reunião seguinte.",
+     "p": "troca",
+     "w": "O CMN fixa as metas de política monetária, como a de inflação, mas a meta da Selic é decidida pelo Copom, formado pela diretoria do BC."
+    },
+    {
+     "t": "O Presidente e os Diretores do BC, com voto também do Ministro da Fazenda; a meta vale até a reunião seguinte.",
+     "p": "extrapolacao",
+     "w": "O Ministro da Fazenda não vota no Copom: a decisão é restrita à diretoria colegiada do Banco Central."
+    },
+    {
+     "t": "O Presidente e os Diretores do BC; a meta só passa a valer depois de aprovada pelo Senado.",
+     "p": "restricao",
+     "w": "A decisão do Copom vale sem aprovação do Senado, que apenas aprova os nomes indicados para a diretoria do BC (LC 179/2021, art. 4º)."
+    },
+    {
+     "t": "O Presidente e os Diretores do Banco Central; a meta vale até a reunião ordinária seguinte.",
+     "p": "correta",
+     "w": "Pelo regulamento do Copom divulgado pelo BC, votam o Presidente e os Diretores do Banco Central, e a meta para a Selic vigora durante todo o intervalo entre duas reuniões ordinárias."
+    }
+   ]
+  },
+  {
+   "id": "banc12",
+   "topic": "Depósito compulsório",
+   "c": "Para conter a inflação, o Banco Central elevou a alíquota do recolhimento compulsório sobre depósitos à vista. O gerente de uma agência do Banrisul em Pelotas (RS) foi avisado de que o crédito ficaria mais escasso.",
+   "q": "Por que essa medida restringe o crédito?",
+   "a": 1,
+   "src": "Lei 4.595/1964, arts. 4º e 10",
+   "o": [
+    {
+     "t": "Não restringe: elevar o compulsório é medida expansionista, que barateia o crédito.",
+     "p": "inversao",
+     "w": "Inverte o efeito: aumentar o compulsório retira dinheiro de circulação; reduzi-lo é que libera recursos para o crédito."
+    },
+    {
+     "t": "Porque os bancos precisam manter no BC uma parcela maior dos depósitos, e sobram menos recursos para emprestar.",
+     "p": "correta",
+     "w": "O compulsório é a parcela dos depósitos que os bancos recolhem ao Banco Central (Lei 4.595/64, art. 10). Alíquota maior reduz a liquidez e o efeito multiplicador: é medida contracionista."
+    },
+    {
+     "t": "Porque os valores recolhidos são transferidos ao Tesouro Nacional para pagar a dívida pública.",
+     "p": "troca",
+     "w": "Os recolhimentos compulsórios são recebidos pelo Banco Central, por competência legal (art. 10); não são receita do Tesouro."
+    },
+    {
+     "t": "Porque o compulsório incide apenas sobre a poupança, principal fonte do crédito bancário.",
+     "p": "restricao",
+     "w": "O caso trata justamente de compulsório sobre depósitos à vista; o instrumento alcança diferentes modalidades de depósito, não só a poupança."
+    }
+   ]
+  },
+  {
+   "id": "banc13",
+   "topic": "Mercado aberto",
+   "c": "Numa manhã de grande sobra de reservas no mercado interbancário, a taxa praticada entre os bancos começou a cair abaixo da meta da Selic, e a mesa de operações do Banco Central em Brasília (DF) precisou agir.",
+   "q": "Que operação de mercado aberto aproxima a taxa da meta?",
+   "a": 2,
+   "src": "CF/88, art. 164, §2º; Lei 4.595/1964, art. 10",
+   "o": [
+    {
+     "t": "Comprar títulos públicos dos bancos, injetando reservas no sistema.",
+     "p": "inversao",
+     "w": "Comprar títulos injeta dinheiro e derruba ainda mais a taxa; essa seria a resposta para falta de liquidez, não para sobra."
+    },
+    {
+     "t": "Reduzir a taxa de redesconto, para que os bancos devolvam recursos ao BC.",
+     "p": "troca",
+     "w": "Redesconto é assistência de liquidez a bancos que precisam de recursos; barateá-lo não retira a sobra de reservas do mercado."
+    },
+    {
+     "t": "Vender títulos públicos federais aos bancos, em operações compromissadas, para retirar o excesso de liquidez.",
+     "p": "correta",
+     "w": "Ao vender títulos, o BC recolhe reservas e enxuga a liquidez, e a taxa volta a subir. O BC pode comprar e vender títulos do Tesouro para regular a oferta de moeda ou a taxa de juros (CF, art. 164, §2º)."
+    },
+    {
+     "t": "Nada, porque a Selic efetiva é sempre igual à meta, já que ambas são fixadas pelo Copom.",
+     "p": "generalizacao",
+     "w": "A Selic efetiva oscila no mercado; o BC atua diariamente com operações de mercado aberto para mantê-la próxima da meta definida pelo Copom."
+    }
+   ]
+  },
+  {
+   "id": "banc14",
+   "topic": "CDB e RDB",
+   "c": "Em Teresina (PI), Célia aplicou R$ 30 mil em um RDB de uma financeira e, meses depois, quis vender o título a um amigo, como já fizera antes com um CDB.",
+   "q": "Assinale a alternativa correta.",
+   "a": 0,
+   "src": "Lei 4.728/1965, art. 30; FGC, produtos cobertos",
+   "o": [
+    {
+     "t": "O RDB é intransferível, ao contrário do CDB, que pode ser transferido; ambos contam com a garantia do FGC.",
+     "p": "correta",
+     "w": "O CDB é título de crédito transferível por endosso (Lei 4.728/65, art. 30), enquanto o RDB é recibo inegociável e intransferível. Os dois estão na lista de produtos cobertos pelo FGC."
+    },
+    {
+     "t": "O RDB é transferível e o CDB não, porque só o RDB é título de crédito.",
+     "p": "inversao",
+     "w": "Inverte as características: o CDB é o título transferível; o RDB não pode ser negociado."
+    },
+    {
+     "t": "O RDB é intransferível e, por isso, fica sem a garantia do FGC, que cobre só títulos negociáveis.",
+     "p": "restricao",
+     "w": "O FGC cobre CDB e RDB igualmente; ser negociável não é requisito da garantia."
+    },
+    {
+     "t": "Os dois são intransferíveis até o vencimento, como qualquer aplicação de renda fixa bancária.",
+     "p": "generalizacao",
+     "w": "Generaliza a regra do RDB: o CDB pode ser transferido antes do vencimento."
+    }
+   ]
+  },
+  {
+   "id": "banc15",
+   "topic": "LCI e LCA",
+   "c": "Em Uberaba (MG), o investidor Rodrigo compara uma LCA do Banco do Brasil com uma LCI da Caixa e quer entender o que diferencia os dois títulos.",
+   "q": "Qual afirmação está correta?",
+   "a": 3,
+   "src": "Lei 10.931/2004, art. 12; Lei 11.076/2004, arts. 23 e 26; FGC, produtos cobertos",
+   "o": [
+    {
+     "t": "A LCA é lastreada em créditos imobiliários, e a LCI, em créditos rurais; ambas são cobertas pelo FGC.",
+     "p": "inversao",
+     "w": "Troca os lastros: a LCI é imobiliária e a LCA é do agronegócio."
+    },
+    {
+     "t": "A LCA é emitida pelo produtor rural, e a LCI, pela construtora, sem garantia do FGC.",
+     "p": "troca",
+     "w": "Confunde com títulos emitidos pelo setor produtivo, como a CPR. LCA e LCI são emitidas por instituições financeiras e contam com o FGC."
+    },
+    {
+     "t": "A LCA só pode ser emitida por bancos públicos, como o BB, e por isso tem garantia do Tesouro.",
+     "p": "restricao",
+     "w": "A LCA é de emissão exclusiva de instituições financeiras públicas ou privadas (Lei 11.076/2004, art. 26), e a garantia é do FGC, não do Tesouro."
+    },
+    {
+     "t": "A LCA é lastreada em direitos creditórios do agronegócio, e a LCI, em créditos imobiliários; ambas são cobertas pelo FGC.",
+     "p": "correta",
+     "w": "A LCI é lastreada em créditos imobiliários garantidos por hipoteca ou alienação fiduciária (Lei 10.931/2004, art. 12); a LCA, em direitos creditórios do agronegócio (Lei 11.076/2004, art. 23). As duas estão entre os créditos garantidos pelo FGC."
+    }
+   ]
+  },
+  {
+   "id": "banc16",
+   "topic": "Rendimento da poupança",
+   "c": "Suponha que o Copom reduza a meta da Selic para 7,5% ao ano. Dona Teresa, de Campina Grande (PB), abriu sua poupança em 2020 e quer saber quanto o dinheiro passará a render.",
+   "q": "Qual será a remuneração dos depósitos de Teresa enquanto a meta estiver em 7,5% ao ano?",
+   "a": 1,
+   "src": "Lei 8.177/1991, art. 12, II (redação da Lei 12.703/2012); BCB, Remuneração dos depósitos de poupança",
+   "o": [
+    {
+     "t": "0,5% ao mês mais a TR, regra fixa para qualquer depósito de poupança.",
+     "p": "generalizacao",
+     "w": "0,5% ao mês mais TR vale enquanto a meta estiver acima de 8,5% ao ano (e sempre para depósitos até 3/5/2012). Com meta de 7,5%, aplica-se a regra dos 70%."
+    },
+    {
+     "t": "70% da meta da Selic, isto é, 5,25% ao ano, mensalizados, mais a TR.",
+     "p": "correta",
+     "w": "Para depósitos feitos a partir de 4/5/2012, com meta igual ou inferior a 8,5% ao ano, a parcela adicional é 70% da meta, mensalizada, somada à TR: 0,7 × 7,5% = 5,25% ao ano."
+    },
+    {
+     "t": "70% da meta da Selic, isto é, 5,25% ao mês, mais a TR.",
+     "p": "calculo",
+     "w": "Erro de unidade: 5,25% é taxa anual, que depois é mensalizada. A poupança não renderia 5,25% ao mês."
+    },
+    {
+     "t": "70% da meta mais TR só para depósitos anteriores a 2012; os de 2020 rendem 0,5% ao mês mais TR.",
+     "p": "inversao",
+     "w": "Inverte a regra de transição: os depósitos antigos, até 3/5/2012, mantêm 0,5% ao mês; os posteriores seguem a regra dos 70% quando a meta está em 8,5% ou menos."
+    }
+   ]
+  },
+  {
+   "id": "banc17",
+   "topic": "Cobertura do FGC",
+   "c": "Em Natal (RN), Paulo tem, pelo mesmo banco, poupança, um CDB, debêntures de uma concessionária, cotas de um fundo multimercado e títulos do Tesouro IPCA+ comprados pelo Tesouro Direto.",
+   "q": "Quais dessas aplicações contam com a garantia do FGC?",
+   "a": 0,
+   "src": "Regulamento do FGC (Anexo II da Resolução CMN 4.222/2013), art. 2º",
+   "o": [
+    {
+     "t": "Somente a poupança e o CDB.",
+     "p": "correta",
+     "w": "Poupança e CDB estão na lista de créditos garantidos. Debêntures são dívida da empresa emissora, cotas de fundos ficam fora da garantia e títulos públicos têm o risco do Tesouro Nacional."
+    },
+    {
+     "t": "Todas, porque foram contratadas por meio de instituição associada ao FGC.",
+     "p": "generalizacao",
+     "w": "O FGC garante produtos específicos, não tudo o que o banco distribui. Fundos, debêntures e títulos públicos ficam fora."
+    },
+    {
+     "t": "A poupança, o CDB e o Tesouro IPCA+, porque títulos públicos também têm garantia do FGC.",
+     "p": "troca",
+     "w": "Título público é dívida do Tesouro Nacional: o risco é da União, não do FGC."
+    },
+    {
+     "t": "A poupança, o CDB e o fundo multimercado, porque o fundo aplica parte do dinheiro em CDBs.",
+     "p": "extrapolacao",
+     "w": "Cotas de fundos de investimento não são cobertas pelo FGC, ainda que a carteira do fundo tenha CDBs."
+    }
+   ]
+  },
+  {
+   "id": "banc18",
+   "topic": "Consórcio",
+   "c": "Em Feira de Santana (BA), Rose entrou num grupo de consórcio para comprar uma moto e quer saber como o plano funciona e quem o fiscaliza.",
+   "q": "Assinale a alternativa correta.",
+   "a": 2,
+   "src": "Lei 11.795/2008, arts. 2º, 6º e 22",
+   "o": [
+    {
+     "t": "É um financiamento bancário com juros, e a moto é entregue logo após a assinatura do contrato.",
+     "p": "troca",
+     "w": "Consórcio não cobra juros, e sim taxa de administração; o consorciado só recebe o crédito quando é contemplado."
+    },
+    {
+     "t": "A contemplação ocorre apenas por sorteio, sendo vedado ao consorciado oferecer lance.",
+     "p": "restricao",
+     "w": "A lei prevê contemplação por sorteio ou por lance (art. 22)."
+    },
+    {
+     "t": "É um autofinanciamento em grupo, com contemplação por sorteio ou lance, normatizado e fiscalizado pelo Banco Central.",
+     "p": "correta",
+     "w": "Lei 11.795/2008: o consórcio reúne pessoas em grupo para adquirir bens por autofinanciamento (art. 2º), com contemplação por sorteio ou lance (art. 22), e o sistema é normatizado e fiscalizado pelo Banco Central (art. 6º)."
+    },
+    {
+     "t": "Por ser um plano coletivo, pode ser oferecido por qualquer empresa, sem autorização de órgão algum.",
+     "p": "generalizacao",
+     "w": "A administradora de consórcio depende de autorização do Banco Central, que normatiza e fiscaliza o sistema (art. 6º)."
+    }
+   ]
+  },
+  {
+   "id": "banc19",
+   "topic": "Título de capitalização",
+   "c": "Numa agência bancária de Juiz de Fora (MG), o cliente Wagner foi convidado a comprar um título de capitalização com sorteios mensais e quis saber quem regula o produto e se ele tem a mesma proteção da poupança.",
+   "q": "Assinale a alternativa correta.",
+   "a": 3,
+   "src": "Decreto-Lei 261/1967; Decreto-Lei 73/1966, art. 36",
+   "o": [
+    {
+     "t": "É fiscalizado pela CVM, porque é um valor mobiliário negociado no mercado.",
+     "p": "troca",
+     "w": "Capitalização é setor supervisionado pela Susep, não valor mobiliário sob a CVM."
+    },
+    {
+     "t": "Tem a mesma garantia do FGC que a poupança, porque é vendido em agência bancária.",
+     "p": "generalizacao",
+     "w": "O local de venda não muda a natureza do produto: capitalização não está entre os créditos garantidos pelo FGC."
+    },
+    {
+     "t": "É fiscalizado pela Susep, mas só pode ser vendido por seguradoras, nunca em agências bancárias.",
+     "p": "restricao",
+     "w": "Títulos de capitalização são emitidos por sociedades de capitalização e podem ser oferecidos em agências bancárias; essa restrição não existe."
+    },
+    {
+     "t": "O título de capitalização é fiscalizado pela Susep e não é depósito bancário coberto pelo FGC.",
+     "p": "correta",
+     "w": "As sociedades de capitalização estão sob a fiscalização da Susep (Decreto-Lei 261/1967, que remete ao regime do Decreto-Lei 73/1966). Capitalização não está entre os créditos garantidos pelo FGC."
+    }
+   ]
+  },
+  {
+   "id": "banc20",
+   "topic": "Leasing",
+   "c": "Uma transportadora de Cuiabá (MT) contratou leasing de dois caminhões com uma sociedade de arrendamento mercantil, pagando contraprestações mensais por 36 meses.",
+   "q": "Durante o contrato, qual é a situação dos caminhões?",
+   "a": 1,
+   "src": "Lei 6.099/1974, arts. 1º, parágrafo único, e 5º",
+   "o": [
+    {
+     "t": "Pertencem à transportadora desde a assinatura, e a arrendadora tem só uma garantia sobre eles.",
+     "p": "inversao",
+     "w": "Inverte a titularidade: no leasing, a propriedade é da arrendadora durante o contrato."
+    },
+    {
+     "t": "Pertencem à arrendadora; a transportadora os usa e, ao fim, pode comprá-los, renovar o contrato ou devolvê-los.",
+     "p": "correta",
+     "w": "No arrendamento mercantil, a arrendadora adquire o bem para uso da arrendatária (Lei 6.099/74, art. 1º, parágrafo único), e o contrato prevê opção de compra ou renovação ao final (art. 5º)."
+    },
+    {
+     "t": "É um aluguel comum, regido pela Lei do Inquilinato, sem opção de compra.",
+     "p": "troca",
+     "w": "Leasing não se confunde com locação: é operação regulada pela Lei 6.099/74 e prevê opção de compra ao final."
+    },
+    {
+     "t": "A transportadora é obrigada a comprar os caminhões ao fim do contrato, sem outra alternativa.",
+     "p": "restricao",
+     "w": "A compra é uma opção, não uma obrigação: a arrendatária também pode renovar o contrato ou devolver os bens."
+    }
+   ]
+  },
+  {
+   "id": "banc21",
+   "topic": "Factoring e desconto",
+   "c": "Uma confecção de Caruaru (PE) tem duplicatas a receber em 90 dias e pode descontá-las no banco ou vendê-las a uma empresa de factoring.",
+   "q": "Qual a diferença essencial entre as duas operações?",
+   "a": 2,
+   "src": "Lei 9.249/1995, art. 15, §1º, III, d; LC 105/2001, art. 1º, §2º",
+   "o": [
+    {
+     "t": "No factoring, a confecção responde se o devedor não pagar; no desconto, o banco assume o risco.",
+     "p": "inversao",
+     "w": "Inverte os papéis: o direito de regresso é marca do desconto bancário; no factoring, o risco do não pagamento é da faturizadora."
+    },
+    {
+     "t": "As duas são operações privativas de instituição financeira autorizada pelo Banco Central.",
+     "p": "troca",
+     "w": "Factoring é atividade comercial de compra de créditos e prestação de serviços, sem autorização do BC para funcionar; só o desconto é operação bancária."
+    },
+    {
+     "t": "No desconto, o banco pode cobrar da confecção se o cliente dela não pagar; no factoring, a empresa compra os créditos e assume esse risco.",
+     "p": "correta",
+     "w": "O desconto é operação de crédito: o banco antecipa os valores e mantém direito de regresso contra o cliente. No factoring, a faturizadora compra os créditos e assume o risco do não pagamento; a Lei 9.249/95 (art. 15, §1º, III, d) descreve a atividade como prestação de serviços com compra de direitos creditórios."
+    },
+    {
+     "t": "No factoring, a empresa pode captar depósitos do público para financiar a compra das duplicatas.",
+     "p": "extrapolacao",
+     "w": "Captar depósitos do público é atividade privativa de instituição financeira; empresa de factoring não pode fazê-lo."
+    }
+   ]
+  },
+  {
+   "id": "banc22",
+   "topic": "Aval e fiança",
+   "c": "Em Manaus (AM), Júlio garantiu como fiador o empréstimo do irmão e, no mesmo dia, avalizou uma nota promissória de um amigo. Ele é casado no regime da comunhão parcial.",
+   "q": "Assinale a alternativa correta.",
+   "a": 0,
+   "src": "Código Civil, arts. 818, 827, 828, 897 a 899 e 1.647, III",
+   "o": [
+    {
+     "t": "Na fiança, Júlio pode exigir que primeiro se executem os bens do devedor, salvo renúncia; no aval, não. A fiança exige autorização da esposa.",
+     "p": "correta",
+     "w": "O art. 827 do CC dá ao fiador o benefício de ordem, afastado nos casos do art. 828; o avalista responde de forma autônoma, equiparado ao avalizado (art. 899). O art. 1.647, III, exige outorga do cônjuge para prestar fiança, salvo na separação absoluta."
+    },
+    {
+     "t": "O benefício de ordem existe no aval, e não na fiança.",
+     "p": "inversao",
+     "w": "Inverte as garantias: o benefício de ordem é do fiador (art. 827); o avalista não tem esse direito."
+    },
+    {
+     "t": "Na fiança, o benefício de ordem só existe se estiver previsto expressamente no contrato.",
+     "p": "restricao",
+     "w": "É o contrário: o benefício de ordem decorre da lei (art. 827) e só é afastado se o fiador o renunciar expressamente, se obrigar como principal pagador ou devedor solidário, ou se o devedor for insolvente ou falido (art. 828)."
+    },
+    {
+     "t": "Aval e fiança são garantias reais, porque vinculam um bem específico de Júlio ao pagamento.",
+     "p": "troca",
+     "w": "Aval e fiança são garantias pessoais: todo o patrimônio do garantidor responde. Garantias reais, como hipoteca e penhor, recaem sobre bem determinado."
+    }
+   ]
+  },
+  {
+   "id": "banc23",
+   "topic": "Garantias reais",
+   "c": "Em Belo Horizonte (MG), três clientes deram garantias: Ana entregou joias em penhor na Caixa; Bruno deu o apartamento em hipoteca; Carla financiou a casa com alienação fiduciária.",
+   "q": "Assinale a alternativa correta.",
+   "a": 3,
+   "src": "Código Civil, arts. 1.431 e 1.473; Lei 9.514/1997, arts. 22 e 23",
+   "o": [
+    {
+     "t": "Na hipoteca, o credor recebe a propriedade do imóvel; na alienação fiduciária, Carla mantém a propriedade e o banco tem só um ônus.",
+     "p": "inversao",
+     "w": "Inverte os institutos: é na alienação fiduciária que a propriedade resolúvel passa ao credor; a hipoteca é direito real sobre coisa alheia, e o imóvel segue do devedor."
+    },
+    {
+     "t": "Em toda garantia real, o bem fica obrigatoriamente na posse do credor até a quitação.",
+     "p": "generalizacao",
+     "w": "Só no penhor comum a posse passa ao credor. Na hipoteca o bem fica com o devedor, e no penhor rural, industrial, mercantil e de veículos também (art. 1.431, parágrafo único)."
+    },
+    {
+     "t": "Joias podem ser dadas em hipoteca, e imóveis, em penhor, à escolha das partes.",
+     "p": "troca",
+     "w": "Penhor recai sobre coisa móvel (art. 1.431); hipoteca recai sobre imóveis e os demais bens listados no art. 1.473."
+    },
+    {
+     "t": "As joias ficam com o credor; o imóvel hipotecado segue com Bruno; na alienação fiduciária, o credor recebe a propriedade resolúvel da casa.",
+     "p": "correta",
+     "w": "No penhor comum, a posse do bem móvel passa ao credor (CC, art. 1.431). Na hipoteca, o imóvel continua com o devedor. Na alienação fiduciária, transfere-se ao credor a propriedade resolúvel do imóvel (Lei 9.514/97, art. 22)."
+    }
+   ]
+  },
+  {
+   "id": "banc24",
+   "topic": "Limite do FGC",
+   "c": "Em Londrina (PR), Márcia tem R$ 180 mil em CDB no Banco Alfa e R$ 120 mil em LCI na Alfa Crédito Imobiliário, do mesmo conglomerado, além de R$ 90 mil de poupança no Banco Beta, de outro grupo. Os dois grupos são liquidados.",
+   "q": "Quanto Márcia recebe do FGC, no máximo?",
+   "a": 1,
+   "src": "Regulamento do FGC (Anexo II da Resolução CMN 4.222/2013), art. 2º",
+   "o": [
+    {
+     "t": "R$ 390 mil, porque cada instituição garante até R$ 250 mil separadamente.",
+     "p": "calculo",
+     "w": "O limite é por conglomerado, não por instituição: CDB e LCI do grupo Alfa somam R$ 300 mil e ficam limitados a R$ 250 mil."
+    },
+    {
+     "t": "R$ 340 mil: R$ 250 mil pelo conglomerado Alfa e R$ 90 mil pelo Banco Beta.",
+     "p": "correta",
+     "w": "A garantia é de até R$ 250 mil por CPF por conglomerado, somando todas as instituições do grupo: R$ 180 mil + R$ 120 mil = R$ 300 mil, limitados a R$ 250 mil. Com os R$ 90 mil do Beta, o total é R$ 340 mil, abaixo do teto global de R$ 1 milhão."
+    },
+    {
+     "t": "R$ 250 mil no total, porque esse é o limite por CPF em todo o sistema financeiro.",
+     "p": "generalizacao",
+     "w": "R$ 250 mil é o limite por conglomerado. Entre grupos diferentes, os limites se somam, respeitado o teto global de R$ 1 milhão a cada quatro anos."
+    },
+    {
+     "t": "Só R$ 90 mil, porque CDB e LCI do mesmo grupo perdem a garantia quando somam mais de R$ 250 mil.",
+     "p": "restricao",
+     "w": "Passar de R$ 250 mil não elimina a garantia: ela apenas fica limitada a R$ 250 mil naquele conglomerado."
+    }
+   ]
+  },
+  {
+   "id": "banc25",
+   "topic": "Fases da lavagem",
+   "c": "Em Foz do Iguaçu (PR), um grupo dividiu R$ 600 mil obtidos com contrabando em dezenas de depósitos em espécie de pequeno valor, espalhados por várias agências e contas de terceiros.",
+   "q": "Esse fracionamento corresponde a qual fase da lavagem de dinheiro?",
+   "a": 0,
+   "src": "Lei 9.613/1998, art. 1º; COAF e GAFI, fases da lavagem de dinheiro",
+   "o": [
+    {
+     "t": "Colocação, em que o dinheiro ilícito é introduzido no sistema econômico.",
+     "p": "correta",
+     "w": "A colocação é a primeira etapa: inserir o dinheiro em espécie no sistema, muitas vezes com depósitos fracionados para escapar dos controles. Depois vêm a ocultação e a integração."
+    },
+    {
+     "t": "Integração, primeira etapa, em que o dinheiro entra no sistema financeiro.",
+     "p": "inversao",
+     "w": "Inverte a ordem: a integração é a última fase, quando os recursos voltam à economia com aparência lícita."
+    },
+    {
+     "t": "Ocultação, porque o grupo usou contas de terceiros.",
+     "p": "troca",
+     "w": "A ocultação, ou estratificação, vem depois e consiste em movimentações sucessivas para apagar o rastro; o depósito inicial do dinheiro vivo é colocação."
+    },
+    {
+     "t": "Nenhuma, porque a lavagem só se configura quando o dinheiro é reintegrado à economia.",
+     "p": "restricao",
+     "w": "A lei pune quem oculta ou dissimula a origem dos bens (art. 1º); não é preciso completar as três fases para haver crime."
+    }
+   ]
+  },
+  {
+   "id": "banc26",
+   "topic": "Comunicação ao Coaf",
+   "c": "Em Porto Velho (RO), um gerente do BASA percebeu que um cliente com renda de R$ 8 mil recebia transferências diárias de várias empresas e sacava tudo logo em seguida.",
+   "q": "Qual a conduta exigida do banco?",
+   "a": 2,
+   "src": "Lei 9.613/1998, arts. 10 e 11; Circular BCB 3.978/2020, art. 49; LC 105/2001, art. 1º, §3º, IV",
+   "o": [
+    {
+     "t": "Avisar o cliente de que a conta será comunicada, para que ele possa justificar a origem dos valores.",
+     "p": "inversao",
+     "w": "É o oposto da regra: a lei proíbe dar ciência da comunicação ao interessado, para não frustrar a apuração."
+    },
+    {
+     "t": "Comunicar ao Coaf apenas se houver saque em espécie igual ou superior a R$ 50 mil.",
+     "p": "restricao",
+     "w": "Saques em espécie a partir de R$ 50 mil geram comunicação automática (Circular 3.978/2020, art. 49), mas a operação suspeita deve ser comunicada qualquer que seja o valor."
+    },
+    {
+     "t": "Comunicar a operação suspeita ao Coaf, sem dar ciência ao cliente nem a qualquer outra pessoa.",
+     "p": "correta",
+     "w": "Art. 11 da Lei 9.613/98: as pessoas obrigadas comunicam ao Coaf as operações com indícios de lavagem, abstendo-se de dar ciência do ato a qualquer pessoa, inclusive ao próprio cliente."
+    },
+    {
+     "t": "Pedir autorização judicial antes de comunicar, porque os dados estão protegidos pelo sigilo bancário.",
+     "p": "troca",
+     "w": "Comunicar ilícitos às autoridades competentes não viola o sigilo bancário (LC 105/2001, art. 1º, §3º, IV) e não depende de ordem judicial."
+    }
+   ]
+  },
+  {
+   "id": "banc27",
+   "topic": "LGPD no banco",
+   "c": "Em Aracaju (SE), Renata encerrou a conta no banco e pediu que todos os seus dados cadastrais fossem apagados, revogando o consentimento que achava ter dado na abertura.",
+   "q": "Como o banco deve agir?",
+   "a": 3,
+   "src": "Lei 13.709/2018 (LGPD), arts. 7º, II, e 16, I; Lei 9.613/1998, art. 10, §2º",
+   "o": [
+    {
+     "t": "Deve apagar todos os dados imediatamente, porque a revogação do consentimento sempre obriga a eliminação.",
+     "p": "generalizacao",
+     "w": "A eliminação tem exceções: dados mantidos para cumprir obrigação legal não dependem de consentimento e podem ser conservados (art. 16, I)."
+    },
+    {
+     "t": "Pode manter os dados por tempo indeterminado e usá-los em campanhas de marketing, já que Renata foi cliente.",
+     "p": "extrapolacao",
+     "w": "A conservação fica presa à finalidade legal e ao prazo necessário; usar os dados em marketing exigiria outra base legal."
+    },
+    {
+     "t": "Só pode manter os dados se obtiver ordem judicial que autorize a conservação.",
+     "p": "restricao",
+     "w": "A conservação para cumprir obrigação legal decorre da própria LGPD, sem necessidade de ordem judicial."
+    },
+    {
+     "t": "Pode conservar os dados que a lei manda guardar, como o cadastro de prevenção à lavagem, pois a LGPD autoriza isso para cumprir obrigação legal.",
+     "p": "correta",
+     "w": "A LGPD admite o tratamento para cumprimento de obrigação legal ou regulatória (art. 7º, II) e autoriza a conservação com essa finalidade (art. 16, I). A Lei 9.613/98 manda guardar cadastros por no mínimo cinco anos após o encerramento da conta (art. 10, §2º)."
+    }
+   ]
+  },
+  {
+   "id": "banc28",
+   "topic": "Multa em contrato bancário",
+   "c": "Em Porto Alegre (RS), o contrato de empréstimo pessoal que Fernando assinou num banco prevê multa de 10% sobre a parcela paga com atraso.",
+   "q": "A cláusula é válida?",
+   "a": 1,
+   "src": "STJ, Súmula 297; CDC (Lei 8.078/1990), art. 52, §1º",
+   "o": [
+    {
+     "t": "Sim, porque contratos bancários são regidos apenas pela Lei 4.595/1964, e não pelo CDC.",
+     "p": "troca",
+     "w": "Contraria a Súmula 297 do STJ: o Código de Defesa do Consumidor se aplica às instituições financeiras."
+    },
+    {
+     "t": "Não: o CDC se aplica aos bancos, e a multa de mora em contrato de crédito ao consumidor não pode passar de 2% do valor da prestação.",
+     "p": "correta",
+     "w": "Súmula 297 do STJ: o CDC é aplicável às instituições financeiras. O art. 52, §1º, limita a 2% do valor da prestação a multa de mora no fornecimento de crédito ao consumidor."
+    },
+    {
+     "t": "Não, e, além de reduzir a multa a 2%, o banco perde o direito de cobrar os juros do contrato.",
+     "p": "extrapolacao",
+     "w": "A consequência é reduzir a multa ao limite legal; o art. 52, §1º, não extingue os juros pactuados."
+    },
+    {
+     "t": "Só seria inválida se Fernando provasse ser consumidor de baixa renda.",
+     "p": "restricao",
+     "w": "O limite de 2% vale para qualquer consumidor em contrato de crédito, seja qual for a renda."
+    }
+   ]
+  },
+  {
+   "id": "banc29",
+   "type": "ce",
+   "topic": "Natureza do Banco Central",
+   "src": "LC 179/2021, art. 6º",
+   "c": "Em Brasília (DF), um assessor parlamentar sustenta que o Ministro da Fazenda pode ordenar ao presidente do Banco Central uma redução dos juros, porque o BC seria subordinado à pasta.",
+   "q": "Após a LC 179/2021, o Banco Central é autarquia de natureza especial vinculada ao Ministério da Fazenda, ao qual se subordina na condução da política monetária.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo confunde o BC com autarquias vinculadas a ministério, como a CVM. O art. 6º da LC 179 caracteriza o BC justamente pela ausência de vinculação a ministério, de tutela e de subordinação hierárquica."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "LC 179/2021, art. 6º: o Banco Central é autarquia de natureza especial caracterizada pela ausência de vinculação a ministério, de tutela ou de subordinação hierárquica, com autonomia técnica, operacional, administrativa e financeira."
+    }
+   ]
+  },
+  {
+   "id": "banc30",
+   "type": "ce",
+   "topic": "Selic meta e over",
+   "src": "BCB, Copom: definição e histórico; LC 179/2021, art. 2º",
+   "c": "Depois de uma reunião do Copom, um jornal de Vitória (ES) publicou que a taxa Selic efetiva do dia seguinte já estava fixada por decisão do comitê.",
+   "q": "O Copom fixa diretamente a taxa Selic over, que é a taxa média dos financiamentos diários lastreados em títulos públicos federais apurados no Selic.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo confunde a meta com a taxa efetiva. O Copom define a meta; a Selic over se forma nas operações do mercado, e o BC atua no mercado aberto para mantê-la próxima da meta."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O Copom define a meta para a taxa Selic. A Selic over, ou efetiva, é a taxa média dos financiamentos diários lastreados em títulos federais apurados no Selic e resulta das operações de mercado; o BC opera no mercado aberto para aproximá-la da meta."
+    }
+   ]
+  },
+  {
+   "id": "banc31",
+   "type": "ce",
+   "topic": "Teto global do FGC",
+   "src": "Regulamento do FGC (Anexo II da Resolução CMN 4.222/2013)",
+   "c": "Em Salvador (BA), Jorge aplicou em 2025 R$ 250 mil em CDB em cada um de cinco bancos de grupos diferentes, e todos sofreram liquidação extrajudicial no mesmo ano.",
+   "q": "Embora cada conglomerado garanta até R$ 250 mil, os pagamentos do FGC a Jorge ficam limitados a R$ 1 milhão no período de quatro anos.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Pelo regulamento do FGC, a garantia é de até R$ 250 mil por CPF por conglomerado, com teto global de R$ 1 milhão em pagamentos a um mesmo titular a cada período de quatro anos. Jorge recebe R$ 1 milhão dos R$ 1,25 milhão aplicados."
+    },
+    {
+     "t": "Errado",
+     "p": "calculo",
+     "w": "Julgar errado soma os limites sem teto: 5 × R$ 250 mil = R$ 1,25 milhão. Desde 2017, há teto global de R$ 1 milhão por titular a cada quatro anos para investimentos contratados a partir de então."
+    }
+   ]
+  },
+  {
+   "id": "banc32",
+   "type": "ce",
+   "topic": "MED e erro próprio",
+   "src": "Regulamento do Pix (Resolução BCB 1/2020), Mecanismo Especial de Devolução",
+   "c": "Em Palmas (TO), Lúcia digitou errado a chave e enviou R$ 400 por Pix a um desconhecido. No mesmo dia, pediu ao banco que acionasse o MED.",
+   "q": "O Mecanismo Especial de Devolução garante a Lúcia a devolução do valor, pois abrange qualquer Pix enviado por engano pelo próprio pagador.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo amplia o MED para além dos seus casos: ele serve a fundada suspeita de fraude ou a falha operacional nos sistemas dos participantes, não a erro de digitação do próprio pagador."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O MED é acionado em caso de fundada suspeita de fraude ou de falha operacional. Pix enviado por erro do próprio usuário, como chave ou valor digitados errado, não está coberto; resta procurar o recebedor ou as vias comuns de cobrança."
+    }
+   ]
+  },
+  {
+   "id": "banc33",
+   "type": "ce",
+   "topic": "Pix Automático",
+   "src": "Regulamento do Pix (Resolução BCB 1/2020, alterada pela Resolução BCB 402/2024); BCB, Pix Automático",
+   "c": "Desde 2025, Rafael, de Joinville (SC), paga a mensalidade da academia por Pix Automático, autorizado uma única vez. Ele se mudou de cidade e quer interromper os pagamentos.",
+   "q": "No Pix Automático, o pagador pode cancelar a autorização a qualquer momento, o que encerra as cobranças recorrentes.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O Pix Automático, em vigor desde 16/6/2025, funciona com autorização prévia do pagador, que pode fixar valor máximo por cobrança e cancelar a autorização a qualquer tempo, encerrando a recorrência."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado supõe que o cancelamento dependa da empresa recebedora ou de aviso prévio. No Pix Automático, o pagador controla a autorização e pode revogá-la a qualquer momento."
+    }
+   ]
+  },
+  {
+   "id": "banc34",
+   "type": "ce",
+   "topic": "Consentimento no Open Finance",
+   "src": "Resolução Conjunta BCB/CMN 1/2020, arts. 2º, 10 e 15",
+   "c": "Em Ribeirão Preto (SP), Henrique aceitou compartilhar pelo Open Finance o histórico da sua conta com uma fintech de crédito. Semanas depois, desistiu.",
+   "q": "No Open Finance, o compartilhamento de dados depende de consentimento prévio do cliente, que pode revogá-lo a qualquer tempo.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "A Resolução Conjunta 1/2020 exige consentimento livre, informado, prévio e inequívoco antes do compartilhamento (arts. 2º e 10), vedado obtê-lo por contrato de adesão ou aceite pré-preenchido, e permite revogá-lo a qualquer tempo (art. 15)."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado imagina que o consentimento fique travado até o fim do prazo concedido. A norma garante a revogação a qualquer tempo, por procedimento seguro e ágil."
+    }
+   ]
+  },
+  {
+   "id": "banc35",
+   "type": "ce",
+   "topic": "Infração penal antecedente",
+   "src": "Lei 9.613/1998, art. 1º, caput (redação da Lei 12.683/2012)",
+   "c": "Em Campo Grande (MS), o dono de uma banca de jogo do bicho comprou imóveis em nome de parentes para esconder o lucro da contravenção.",
+   "q": "A ocultação desses valores pode configurar lavagem de dinheiro, pois a lei admite como antecedente qualquer infração penal, inclusive contravenção.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Desde a Lei 12.683/2012, o art. 1º da Lei 9.613/98 pune quem oculta ou dissimula bens provenientes, direta ou indiretamente, de infração penal, o que inclui contravenções como o jogo do bicho."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado aplica o antigo rol fechado de crimes antecedentes, extinto em 2012. Hoje basta que os bens provenham de infração penal, expressão que abrange crimes e contravenções."
+    }
+   ]
+  },
+  {
+   "id": "banc36",
+   "type": "ce",
+   "topic": "Sigilo bancário e fisco",
+   "src": "LC 105/2001, art. 6º",
+   "c": "Em Ponta Grossa (PR), a Receita Federal abriu procedimento fiscal contra uma empresa e considerou indispensável examinar os extratos das contas dela.",
+   "q": "Havendo procedimento fiscal em curso e sendo o exame considerado indispensável, a autoridade fiscal pode examinar os dados bancários da empresa sem ordem judicial.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "LC 105/2001, art. 6º: autoridades fiscais podem examinar documentos, livros e registros de instituições financeiras, inclusive de contas de depósito, quando houver processo administrativo ou procedimento fiscal em curso e o exame for indispensável. O resultado permanece sigiloso."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado exige ordem judicial onde a lei não exige. O art. 6º da LC 105 permite o exame direto pelo fisco nessas condições, e os dados obtidos continuam sob sigilo."
+    }
+   ]
+  },
+  {
+   "id": "banc37",
+   "type": "ce",
+   "topic": "CPI e sigilo bancário",
+   "src": "CF/88, art. 58, §3º; LC 105/2001, art. 4º, §§1º e 2º",
+   "c": "Uma CPI do Senado que investiga fraudes em empréstimos aprovou, no plenário da comissão, requerimento de acesso aos dados bancários de um investigado de Maceió (AL).",
+   "q": "Para obter esses dados, a CPI precisa de prévia autorização judicial, pois só o juiz pode determinar a quebra do sigilo bancário.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo transforma a autorização judicial em exigência absoluta. CPIs têm poderes de investigação próprios das autoridades judiciais e obtêm dados bancários diretamente, por solicitação aprovada em seu plenário."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "CF, art. 58, §3º, e LC 105/2001, art. 4º, §§1º e 2º: as CPIs obtêm informações sigilosas diretamente das instituições financeiras ou por meio do BC ou da CVM, desde que a solicitação seja aprovada pelo plenário da casa ou da comissão."
+    }
+   ]
+  },
+  {
+   "id": "banc38",
+   "type": "ce",
+   "topic": "Fraude e fortuito interno",
+   "src": "STJ, Súmulas 297 e 479; CDC, art. 14",
+   "c": "Em Juazeiro do Norte (CE), criminosos abriram uma conta digital em nome de Dona Cícera com documentos falsos e contrataram empréstimos que passaram a ser cobrados dela.",
+   "q": "O banco responde objetivamente pelos danos, pois a fraude praticada por terceiro no âmbito de operações bancárias caracteriza fortuito interno.",
+   "a": 0,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "Súmula 479 do STJ: as instituições financeiras respondem objetivamente pelos danos gerados por fortuito interno relativo a fraudes e delitos praticados por terceiros no âmbito de operações bancárias. A Súmula 297 confirma a aplicação do CDC aos bancos."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado trata a fraude como culpa exclusiva de terceiro, que afastaria a responsabilidade. O STJ a classifica como fortuito interno, ligado ao risco da própria atividade bancária."
+    }
+   ]
+  },
+  {
+   "id": "banc39",
+   "type": "ce",
+   "topic": "Ações preferenciais sem voto",
+   "src": "Lei 6.404/1976, arts. 15, §2º, e 17",
+   "c": "Uma indústria de Sorocaba (SP) prepara a abertura de capital na B3 e quer que 70% das ações emitidas sejam preferenciais sem direito a voto, para captar sem diluir o controle.",
+   "q": "A Lei das S.A. permite essa estrutura, pois não há limite para a emissão de ações preferenciais sem direito a voto.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo ignora o teto legal: as preferenciais sem voto, ou com voto restrito, não podem passar de 50% do total das ações emitidas."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Art. 15, §2º, da Lei 6.404/76: o número de ações preferenciais sem direito a voto, ou sujeitas a restrição nesse direito, não pode ultrapassar 50% do total das ações emitidas. As ordinárias dão voto; as preferenciais têm vantagens como prioridade em dividendos (art. 17)."
+    }
+   ]
+  },
+  {
+   "id": "banc40",
+   "type": "ce",
+   "topic": "Debêntures",
+   "src": "Lei 6.404/1976, art. 52; FGC, produtos cobertos",
+   "c": "Em Campinas (SP), Sílvia comprou pela corretora debêntures de uma concessionária de rodovias e passou a se apresentar como sócia da empresa.",
+   "q": "Ao comprar debêntures, Sílvia tornou-se acionista da concessionária, com direito de participar dos lucros como sócia.",
+   "a": 1,
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo confunde debênture com ação. A debênture é título de dívida: dá direito de crédito contra a companhia, não participação no capital."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "Art. 52 da Lei 6.404/76: a debênture confere ao titular direito de crédito contra a companhia, nas condições da escritura de emissão. Sílvia é credora, não acionista, e o título não tem a garantia do FGC."
+    }
+   ]
+  }
+ ]
+}

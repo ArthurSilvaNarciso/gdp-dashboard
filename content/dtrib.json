@@ -1096,6 +1096,552 @@
      "w": "Julgar errado costuma vir da confusão com 2027, ano em que a CBS passa a ser efetivamente cobrada, depois do teste de 2026, e PIS e Cofins são extintos (ADCT, art. 126). ICMS e ISS só se extinguem em 2033."
     }
    ]
+  },
+  {
+   "id": "dtrib41",
+   "topic": "Competência residual",
+   "c": "Para financiar um programa de saneamento, o governo federal enviou ao Congresso projeto de lei ordinária que cria imposto federal sobre a propriedade de lanchas e iates, cobrado de forma cumulativa e calculado sobre o valor venal, a mesma base do IPVA.",
+   "q": "Quais exigências da competência residual da União o projeto descumpre?",
+   "a": 2,
+   "src": "CF/88, art. 154, I e II",
+   "o": [
+    {
+     "t": "Nenhuma, porque a União pode instituir qualquer imposto novo por lei ordinária, sem outras condições.",
+     "p": "generalizacao",
+     "w": "Transforma a competência residual em poder ilimitado. O art. 154, I, exige lei complementar, não cumulatividade e fato gerador e base de cálculo diferentes dos impostos já previstos."
+    },
+    {
+     "t": "Nenhuma, porque, como o imposto extraordinário de guerra, o imposto residual pode repetir o fato gerador de impostos de outros entes.",
+     "p": "troca",
+     "w": "Usa a regra do imposto extraordinário (art. 154, II), que pode coincidir com impostos já existentes. O imposto residual não pode ter fato gerador nem base de cálculo próprios dos discriminados na Constituição."
+    },
+    {
+     "t": "Exige lei complementar, e o imposto novo deve ser não cumulativo e não ter fato gerador ou base de cálculo próprios dos impostos já discriminados.",
+     "p": "correta",
+     "w": "É o art. 154, I. O projeto falha nos três pontos: usa lei ordinária, é cumulativo e repete a base do IPVA, que desde a EC 132/2023 também alcança veículos aquáticos."
+    },
+    {
+     "t": "Apenas a falta de autorização prévia do Senado Federal, exigida para a criação de todo imposto residual.",
+     "p": "restricao",
+     "w": "Cria requisito que não existe. A Constituição não condiciona o imposto residual a autorização do Senado; os requisitos são lei complementar, não cumulatividade e fato gerador e base inéditos."
+    }
+   ]
+  },
+  {
+   "id": "dtrib42",
+   "topic": "Isenção heterônoma",
+   "c": "Para estimular o turismo, lei federal concedeu isenção do ISS aos hotéis de cidades históricas, como Ouro Preto (MG) e Paraty (RJ). Mesmo assim, a prefeitura de Paraty continuou cobrando o imposto.",
+   "q": "A cobrança feita pela prefeitura é legítima?",
+   "a": 0,
+   "src": "CF/88, art. 151, III; art. 156, § 3º, II",
+   "o": [
+    {
+     "t": "Sim, porque a Constituição proíbe a União de conceder isenção de tributos da competência dos Estados, do DF e dos Municípios.",
+     "p": "correta",
+     "w": "É a vedação da isenção heterônoma (art. 151, III). Só o Município, titular da competência do ISS, pode isentar o imposto por lei própria; a lei federal não o alcança."
+    },
+    {
+     "t": "Não, porque a União está acima dos demais entes e pode isentar qualquer tributo cobrado no território nacional.",
+     "p": "generalizacao",
+     "w": "Não há hierarquia entre os entes na repartição de competências. A Constituição veda expressamente à União isentar tributos estaduais e municipais (art. 151, III)."
+    },
+    {
+     "t": "Não, porque lei complementar federal pode isentar o ISS de qualquer atividade, e a lei do turismo produz esse efeito.",
+     "p": "extrapolacao",
+     "w": "Amplia uma autorização estreita: a lei complementar pode excluir o ISS das exportações de serviços (art. 156, § 3º, II), não conceder isenções setoriais. Além disso, o caso trata de lei federal comum."
+    },
+    {
+     "t": "Sim, mas só porque a isenção de ISS depende de convênio prévio entre os municípios interessados, que não foi celebrado.",
+     "p": "troca",
+     "w": "Usa a lógica dos convênios do ICMS. A razão de a cobrança ser legítima é a vedação constitucional à isenção concedida pela União, não a falta de convênio."
+    }
+   ]
+  },
+  {
+   "id": "dtrib43",
+   "topic": "Interpretação da isenção",
+   "c": "Lei do Espírito Santo isentou do IPVA os veículos de transporte escolar. Uma empresa de Vila Velha que leva funcionários de fábricas pediu a mesma isenção, alegando finalidade social semelhante.",
+   "q": "Como o pedido deve ser decidido pelo CTN?",
+   "a": 3,
+   "src": "CTN, arts. 108, § 2º, e 111, II",
+   "o": [
+    {
+     "t": "Deve ser deferido por equidade, que o CTN autoriza para dispensar o pagamento de tributo em situações parecidas.",
+     "p": "inversao",
+     "w": "O CTN diz o contrário: o emprego da equidade não poderá resultar na dispensa do pagamento de tributo devido (art. 108, § 2º)."
+    },
+    {
+     "t": "Deve ser deferido, porque a isenção deve ser interpretada de forma ampla e alcança todo transporte coletivo de pessoas.",
+     "p": "extrapolacao",
+     "w": "Leva a isenção além do texto da lei. Norma que outorga isenção é interpretada literalmente (art. 111, II), e a lei capixaba falou só em transporte escolar."
+    },
+    {
+     "t": "Deve ser indeferido, mas só porque a empresa não pediu o benefício antes do vencimento do imposto.",
+     "p": "restricao",
+     "w": "Inventa um motivo que não decide o caso. Mesmo com pedido tempestivo, a isenção não alcança atividade que a lei não previu."
+    },
+    {
+     "t": "Deve ser indeferido, porque a legislação que outorga isenção se interpreta literalmente, sem ampliação para casos semelhantes.",
+     "p": "correta",
+     "w": "É o art. 111, II, do CTN. Isenção é exceção à regra de incidência e não se estende, por analogia ou por finalidade parecida, a quem a lei não incluiu."
+    }
+   ]
+  },
+  {
+   "id": "dtrib44",
+   "topic": "Solidariedade tributária",
+   "c": "Três irmãos são coproprietários de um terreno em Sobral (CE) com IPTU atrasado. Executado sozinho pela dívida inteira, Davi alegou que o município deveria primeiro cobrar a parte de cada irmão.",
+   "q": "Pelo CTN, a defesa de Davi procede?",
+   "a": 1,
+   "src": "CTN, arts. 124, I e parágrafo único, e 125, I",
+   "o": [
+    {
+     "t": "Sim, porque cada coproprietário responde apenas pela fração ideal do terreno registrada em seu nome.",
+     "p": "restricao",
+     "w": "Limita a responsabilidade onde a lei não limita. Os coproprietários têm interesse comum no fato gerador e são solidários pela dívida toda (art. 124, I)."
+    },
+    {
+     "t": "Não, porque há solidariedade entre os que têm interesse comum no fato gerador, e ela não comporta benefício de ordem.",
+     "p": "correta",
+     "w": "É o art. 124, I e parágrafo único. O município pode cobrar o total de qualquer um deles, sem seguir uma ordem; quem pagar pode depois acertar as contas com os irmãos."
+    },
+    {
+     "t": "Sim, porque a responsabilidade dos coproprietários é subsidiária, como a dos pais pelos tributos dos filhos menores.",
+     "p": "troca",
+     "w": "Confunde com a responsabilidade de terceiros do art. 134, que só se aplica quando não é possível cobrar do contribuinte. Entre coproprietários a solidariedade é plena."
+    },
+    {
+     "t": "Não, e o pagamento integral feito por Davi não aproveita aos irmãos, que continuam devendo o imposto ao município.",
+     "p": "inversao",
+     "w": "O CTN diz o oposto: o pagamento efetuado por um dos obrigados aproveita aos demais (art. 125, I). Quitada a dívida, o crédito do município se extingue."
+    }
+   ]
+  },
+  {
+   "id": "dtrib45",
+   "topic": "Capacidade tributária passiva",
+   "c": "Em Porto Velho (RO), dois amigos vendiam marmitas com cozinha, funcionários e clientela fixa, mas sem registro na Junta Comercial. Autuados por ICMS, alegaram que, sem pessoa jurídica regularmente constituída, não poderiam ser sujeitos passivos.",
+   "q": "A alegação procede?",
+   "a": 0,
+   "src": "CTN, arts. 118, I, e 126, I e III",
+   "o": [
+    {
+     "t": "Não, porque a capacidade tributária passiva independe de a pessoa jurídica estar regularmente constituída, bastando uma unidade econômica.",
+     "p": "correta",
+     "w": "É o art. 126, III. O negócio funciona como unidade econômica, e a falta de registro não afasta a obrigação tributária."
+    },
+    {
+     "t": "Sim, porque só pessoas jurídicas regularmente registradas podem ser contribuintes de qualquer tributo.",
+     "p": "generalizacao",
+     "w": "Cria regra absoluta contrária ao CTN, que dispensa a regular constituição (art. 126, III). Pessoas físicas e negócios informais também são contribuintes."
+    },
+    {
+     "t": "Não, mas só se os dois amigos tiverem plena capacidade civil, requisito para ser contribuinte.",
+     "p": "restricao",
+     "w": "Acrescenta condição que o CTN afasta: a capacidade tributária passiva independe da capacidade civil das pessoas naturais (art. 126, I)."
+    },
+    {
+     "t": "Sim, porque a atividade sem registro é irregular, e o CTN impede tributar fatos ligados a atos irregulares ou ilícitos.",
+     "p": "troca",
+     "w": "Confunde tributo com sanção. A definição do fato gerador abstrai a validade jurídica dos atos praticados (art. 118, I); vender marmitas é fato gerador lícito."
+    }
+   ]
+  },
+  {
+   "id": "dtrib46",
+   "topic": "Domicílio tributário",
+   "c": "Uma empresa com fábrica, estoque e escrituração em Contagem (MG) elegeu como domicílio tributário uma caixa postal em outro estado, o que vinha dificultando as intimações e a fiscalização do fisco mineiro.",
+   "q": "O que o CTN permite à autoridade fazer?",
+   "a": 2,
+   "src": "CTN, art. 127, caput e §§ 1º e 2º",
+   "o": [
+    {
+     "t": "Nada, porque a eleição do domicílio é direito absoluto do contribuinte e vincula o fisco em qualquer caso.",
+     "p": "generalizacao",
+     "w": "A eleição é a regra, mas não é absoluta: a autoridade pode recusar o domicílio que impossibilite ou dificulte a arrecadação ou a fiscalização (art. 127, § 2º)."
+    },
+    {
+     "t": "Escolher o endereço de qualquer sócio, porque o domicílio tributário é fixado pelo fisco, e não pelo contribuinte.",
+     "p": "inversao",
+     "w": "Inverte a regra: quem elege o domicílio é o contribuinte (art. 127, caput). Recusada a eleição, o critério é legal, e não a livre escolha do fisco."
+    },
+    {
+     "t": "Recusar o domicílio eleito e considerar o lugar da situação dos bens ou da ocorrência dos fatos que deram origem à obrigação.",
+     "p": "correta",
+     "w": "É o art. 127, § 2º, que remete ao § 1º. Como a eleição dificulta a fiscalização, o domicílio passa a ser Contagem, onde estão os bens e ocorrem os fatos geradores."
+    },
+    {
+     "t": "Recusar o domicílio e aplicar multa por fraude, porque eleger domicílio em outro estado é sempre infração dolosa.",
+     "p": "extrapolacao",
+     "w": "Vai além do CTN. A consequência prevista é a recusa do domicílio eleito; eleger domicílio distante não é, por si só, fraude punível."
+    }
+   ]
+  },
+  {
+   "id": "dtrib47",
+   "topic": "Lei aplicável ao lançamento",
+   "c": "Em 2026, o fisco de Mato Grosso do Sul lançou de ofício o ICMS de fatos geradores de 2023. Entre os fatos e o lançamento, uma lei estadual reduziu a alíquota do produto e outra ampliou os poderes de investigação dos auditores.",
+   "q": "Quais regras se aplicam a esse lançamento?",
+   "a": 3,
+   "src": "CTN, art. 144, caput e § 1º; art. 106",
+   "o": [
+    {
+     "t": "A alíquota reduzida da lei nova e as regras de fiscalização antigas, vigentes em 2023.",
+     "p": "inversao",
+     "w": "Troca as duas soluções. A alíquota é a da data do fato gerador (art. 144, caput); a regra nova de fiscalização é que se aplica ao lançamento posterior (art. 144, § 1º)."
+    },
+    {
+     "t": "Somente as leis vigentes em 2023, porque nenhuma lei posterior ao fato gerador pode ser aplicada ao lançamento.",
+     "p": "generalizacao",
+     "w": "Ignora o § 1º do art. 144: lei posterior que amplia poderes de investigação ou institui novos critérios de fiscalização aplica-se ao lançamento."
+    },
+    {
+     "t": "A lei vigente na data do lançamento, porque é ele, e não o fato gerador, que faz nascer a obrigação tributária.",
+     "p": "troca",
+     "w": "Confunde obrigação com crédito. A obrigação nasce com o fato gerador; o lançamento constitui o crédito e se reporta à data do fato gerador (arts. 113, § 1º, e 144)."
+    },
+    {
+     "t": "A alíquota da lei vigente em 2023 e a lei que ampliou os poderes de investigação, que alcança o lançamento posterior.",
+     "p": "correta",
+     "w": "É o art. 144: o lançamento rege-se pela lei vigente no fato gerador, mas aplica-se a lei nova que amplia poderes de investigação (§ 1º). A redução de alíquota não retroage: a retroatividade benigna do art. 106 vale para infrações e penalidades, não para o tributo."
+    }
+   ]
+  },
+  {
+   "id": "dtrib48",
+   "topic": "Imputação do pagamento",
+   "c": "Uma contribuinte de Ponta Grossa (PR) tem, ao mesmo tempo, débitos próprios e vencidos com o município: IPTU, taxa de coleta de lixo e contribuição de melhoria. Ela pagou valor insuficiente para quitar tudo, e a autoridade fará a imputação.",
+   "q": "A qual débito o pagamento deve ser imputado primeiro?",
+   "a": 1,
+   "src": "CTN, art. 163, I a IV",
+   "o": [
+    {
+     "t": "Ao IPTU, depois à taxa de coleta de lixo e por fim à contribuição de melhoria.",
+     "p": "inversao",
+     "w": "Inverte a ordem do CTN. Entre espécies diferentes, a imputação vai primeiro às contribuições de melhoria, depois às taxas e por fim aos impostos (art. 163, II)."
+    },
+    {
+     "t": "À contribuição de melhoria, depois à taxa de coleta de lixo e por fim ao IPTU.",
+     "p": "correta",
+     "w": "É o art. 163, II. Como todos os débitos são próprios (inciso I), aplica-se a ordem por espécie: contribuição de melhoria, taxa e imposto."
+    },
+    {
+     "t": "Ao débito de maior valor, qualquer que seja a espécie, pela ordem decrescente dos montantes.",
+     "p": "calculo",
+     "w": "Aplica fora de ordem o último critério. O valor (art. 163, IV) só desempata depois dos critérios anteriores, e aqui a espécie do tributo já resolve."
+    },
+    {
+     "t": "A nenhum deles, porque a imputação só pode ser feita se a contribuinte indicar a ordem por escrito.",
+     "p": "restricao",
+     "w": "Cria exigência que não existe. O CTN atribui à autoridade competente para receber o pagamento o dever de fazer a imputação, seguindo as regras do art. 163."
+    }
+   ]
+  },
+  {
+   "id": "dtrib49",
+   "topic": "Consignação em pagamento",
+   "c": "Uma empresa de manutenção industrial com sede em Barueri (SP) prestou serviço em Santana de Parnaíba (SP). Os dois municípios passaram a exigir o ISS sobre o mesmo serviço, e a empresa quer pagar sem correr o risco de pagar duas vezes.",
+   "q": "Qual é o instrumento previsto no CTN para esse caso?",
+   "a": 2,
+   "src": "CTN, art. 164, III e § 2º",
+   "o": [
+    {
+     "t": "O pedido de restituição: a empresa paga aos dois municípios e depois pede de volta o que pagou ao ente errado.",
+     "p": "troca",
+     "w": "A restituição serve para reaver pagamento indevido já feito. Para a dúvida sobre a quem pagar, o CTN prevê a consignação, que evita o pagamento em dobro."
+    },
+    {
+     "t": "A compensação, que o contribuinte pode fazer livremente entre créditos e débitos com quaisquer entes.",
+     "p": "generalizacao",
+     "w": "A compensação depende de lei do ente credor que a autorize (art. 170) e não resolve conflito entre dois municípios que exigem o mesmo imposto."
+    },
+    {
+     "t": "A ação de consignação em pagamento, cabível quando mais de uma pessoa jurídica de direito público exige tributo idêntico sobre o mesmo fato gerador.",
+     "p": "correta",
+     "w": "É o art. 164, III. A empresa deposita o valor em juízo, e a decisão definirá a quem ele cabe; julgada procedente, o pagamento se reputa efetuado (§ 2º)."
+    },
+    {
+     "t": "A consignação, e o simples ajuizamento da ação já extingue o crédito, mesmo que ela seja julgada improcedente.",
+     "p": "extrapolacao",
+     "w": "Vai além do CTN. Só a consignação julgada procedente extingue o crédito; se improcedente, cobra-se o crédito acrescido de juros de mora e penalidades (art. 164, § 2º)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib50",
+   "topic": "Prazo de restituição",
+   "c": "Em Juazeiro do Norte (CE), Helena pagou em duplicidade a cota única do IPTU em 10 de fevereiro de 2022. Ela só percebeu o erro em novembro de 2026 e quer pedir a devolução à prefeitura.",
+   "q": "Helena ainda pode pedir a restituição?",
+   "a": 0,
+   "src": "CTN, arts. 165, I, e 168, I",
+   "o": [
+    {
+     "t": "Sim, porque tem cinco anos contados da extinção do crédito, que no caso coincide com o pagamento, e o prazo vai até fevereiro de 2027.",
+     "p": "correta",
+     "w": "É o art. 168, I, combinado com o art. 165, I. Contados de 10 de fevereiro de 2022, os cinco anos terminam em fevereiro de 2027."
+    },
+    {
+     "t": "Não, porque o prazo para pedir a restituição é de dois anos contados do pagamento indevido.",
+     "p": "troca",
+     "w": "Usa o prazo errado. Dois anos é o prazo da ação anulatória da decisão administrativa que denega a restituição (art. 169); o pedido de restituição tem cinco anos (art. 168)."
+    },
+    {
+     "t": "Não, porque tributo pago espontaneamente nunca pode ser restituído, já que o pagamento confirma a dívida.",
+     "p": "generalizacao",
+     "w": "O CTN garante a restituição do tributo pago indevidamente, ainda que de forma espontânea (art. 165, I)."
+    },
+    {
+     "t": "Sim, mas só se ela provar que protestou contra a cobrança antes de efetuar o segundo pagamento.",
+     "p": "restricao",
+     "w": "Acrescenta condição que o CTN afasta: a restituição é devida independentemente de prévio protesto (art. 165, caput)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib51",
+   "topic": "Isenção onerosa",
+   "c": "Lei de Feira de Santana (BA) concedeu isenção de IPTU por dez anos às indústrias que se instalassem no distrito industrial e mantivessem 200 empregos. Uma fábrica cumpriu as condições, mas, no quarto ano, nova lei revogou o benefício para todos.",
+   "q": "A revogação atinge a fábrica?",
+   "a": 3,
+   "src": "CTN, art. 178; STF, Súmula 544",
+   "o": [
+    {
+     "t": "Sim, porque toda isenção pode ser revogada por lei a qualquer tempo, sem exceção.",
+     "p": "generalizacao",
+     "w": "A revogação livre é a regra, mas o art. 178 excetua a isenção concedida por prazo certo e em função de determinadas condições."
+    },
+    {
+     "t": "Não, porque a isenção, uma vez concedida, converte-se em imunidade e só pode ser suprimida por emenda constitucional.",
+     "p": "troca",
+     "w": "Confunde isenção, que é dispensa legal, com imunidade, que é limitação constitucional. A isenção continua sendo matéria de lei."
+    },
+    {
+     "t": "Sim, mas só depois de o município indenizar a fábrica pelos investimentos feitos para obter o benefício.",
+     "p": "restricao",
+     "w": "Cria saída que o CTN não prevê. Isenção onerosa por prazo certo, com condições cumpridas, não pode ser suprimida antes do prazo, nem mediante indenização."
+    },
+    {
+     "t": "Não, porque a isenção concedida por prazo certo e sob condições não pode ser livremente revogada em prejuízo de quem as cumpriu.",
+     "p": "correta",
+     "w": "É o art. 178 do CTN, reforçado pela Súmula 544 do STF: isenções concedidas sob condição onerosa não podem ser livremente suprimidas."
+    }
+   ]
+  },
+  {
+   "id": "dtrib52",
+   "topic": "ITCMD após a reforma",
+   "c": "Ana morreu domiciliada em Florianópolis (SC), deixando aplicações financeiras e um carro. O inventário foi aberto em Curitiba (PR), onde moram os herdeiros.",
+   "q": "A qual Estado cabe o ITCMD sobre esses bens móveis, e como devem ser as alíquotas?",
+   "a": 1,
+   "src": "CF/88, art. 155, § 1º, II e VI (EC 132/2023)",
+   "o": [
+    {
+     "t": "Ao Paraná, onde se processa o inventário, com alíquotas progressivas em razão do valor.",
+     "p": "troca",
+     "w": "Aplica o critério anterior à EC 132/2023. Hoje, para bens móveis, títulos e créditos, a competência é do Estado onde era domiciliado o falecido."
+    },
+    {
+     "t": "A Santa Catarina, Estado de domicílio da falecida, com alíquotas progressivas em razão do valor do quinhão ou do legado.",
+     "p": "correta",
+     "w": "É o art. 155, § 1º, II e VI, com a redação da EC 132/2023: competência do Estado do domicílio do de cujus e progressividade obrigatória do ITCMD."
+    },
+    {
+     "t": "A Santa Catarina, com alíquota única, porque a Constituição proíbe a progressividade do ITCMD.",
+     "p": "inversao",
+     "w": "Inverte a regra. Desde a EC 132/2023, a Constituição determina que o ITCMD seja progressivo em razão do valor do quinhão, do legado ou da doação."
+    },
+    {
+     "t": "Aos dois Estados, em partes iguais, desde que celebrem convênio para dividir a arrecadação.",
+     "p": "restricao",
+     "w": "Cria repartição e condição inexistentes. A Constituição atribui a competência a um único Estado, o do domicílio do falecido."
+    }
+   ]
+  },
+  {
+   "id": "dtrib53",
+   "topic": "IPVA após a reforma",
+   "c": "O Estado do Amazonas estuda cobrar IPVA de lanchas de passeio de particulares, de barcos usados na pesca artesanal e de aviões agrícolas que pulverizam lavouras.",
+   "q": "Pela Constituição, após a EC 132/2023, quais desses veículos podem ser alcançados pelo IPVA?",
+   "a": 2,
+   "src": "CF/88, art. 155, § 6º, III, a e b (EC 132/2023)",
+   "o": [
+    {
+     "t": "Todos, porque o IPVA passou a alcançar qualquer veículo automotor terrestre, aquático ou aéreo, sem exceção.",
+     "p": "generalizacao",
+     "w": "A EC 132/2023 estendeu o IPVA a veículos aquáticos e aéreos, mas excluiu, entre outros, as aeronaves agrícolas e as embarcações de pesca artesanal."
+    },
+    {
+     "t": "Nenhum, porque o IPVA continua restrito aos veículos automotores terrestres.",
+     "p": "restricao",
+     "w": "Repete limite que deixou de existir. O art. 155, § 6º, III, incluído pela EC 132/2023, prevê a incidência sobre veículos terrestres, aquáticos e aéreos."
+    },
+    {
+     "t": "Só as lanchas de passeio, porque barcos de pesca artesanal e aeronaves agrícolas estão excluídos pela própria Constituição.",
+     "p": "correta",
+     "w": "É o art. 155, § 6º, III: o IPVA alcança veículos aquáticos e aéreos, excetuadas as aeronaves agrícolas (alínea a) e as embarcações usadas em pesca artesanal (alínea b)."
+    },
+    {
+     "t": "Só os barcos de pesca e os aviões agrícolas, porque veículos de atividade econômica pagam IPVA e os de lazer não.",
+     "p": "inversao",
+     "w": "Inverte a lógica constitucional: as exceções protegem justamente esses usos econômicos, e a lancha de lazer é que pode ser tributada."
+    }
+   ]
+  },
+  {
+   "id": "dtrib54",
+   "topic": "IBS no destino",
+   "c": "Uma loja virtual com sede em Joinville (SC) vende um notebook a um consumidor de Mossoró (RN) e o entrega no endereço dele, nessa cidade. Considere as regras permanentes do IBS, já sem ICMS e ISS.",
+   "q": "Pela Constituição, como se define a alíquota do IBS nessa operação?",
+   "a": 0,
+   "src": "CF/88, art. 156-A, § 1º, V e VII (EC 132/2023)",
+   "o": [
+    {
+     "t": "Pelo somatório das alíquotas do Estado e do Município de destino: Rio Grande do Norte e Mossoró.",
+     "p": "correta",
+     "w": "É o art. 156-A, § 1º, VII: o IBS é cobrado pelo somatório das alíquotas do Estado e do Município de destino da operação, e cada ente fixa a sua por lei específica (inciso V)."
+    },
+    {
+     "t": "Pelo somatório das alíquotas do Estado e do Município de origem: Santa Catarina e Joinville.",
+     "p": "inversao",
+     "w": "Inverte o princípio adotado. O IBS segue o destino, e não a origem, o que reduz a disputa entre entes por instalação de empresas."
+    },
+    {
+     "t": "Só pela alíquota estadual do Rio Grande do Norte, porque a parcela municipal do IBS incide apenas sobre serviços.",
+     "p": "troca",
+     "w": "Transpõe a lógica de ICMS e ISS para o IBS. O IBS incide sobre bens e serviços, e a alíquota é a soma das parcelas estadual e municipal."
+    },
+    {
+     "t": "Por uma alíquota única nacional, igual para todos os entes, já que o IBS tem legislação uniforme em todo o país.",
+     "p": "extrapolacao",
+     "w": "Estende a uniformidade da legislação às alíquotas. A lei complementar é única, mas cada Estado, DF e Município fixa sua alíquota própria (art. 156-A, § 1º, V)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib55",
+   "type": "ce",
+   "topic": "Imposto Seletivo e exportação",
+   "c": "Uma fábrica de refrigerantes de Cuiabá (MT) vende parte da produção no mercado interno e exporta outra parte para a Bolívia. Bebidas açucaradas estão sujeitas ao Imposto Seletivo pela LC 214/2025.",
+   "q": "Como o Imposto Seletivo incide uma única vez sobre o bem, ele também é devido sobre os refrigerantes exportados.",
+   "a": 1,
+   "src": "CF/88, art. 153, VIII e § 6º, I e II (EC 132/2023); LC 214/2025, art. 409",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "extrapolacao",
+     "w": "Julgar certo estende a regra da incidência única além do que diz a Constituição. O art. 153, § 6º, I, afasta o Imposto Seletivo das exportações para o exterior dos bens e serviços que ele alcança."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. A incidência única (art. 153, § 6º, II) evita a cobrança repetida na cadeia interna, mas o imposto não incide sobre as exportações para o exterior (inciso I)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib56",
+   "type": "ce",
+   "topic": "Ano de teste 2026",
+   "c": "Em 2026, uma loja de material de construção de Teresina (PI) passou a destacar nas notas fiscais os valores de teste da CBS e do IBS, conforme a fase inicial da reforma tributária.",
+   "q": "Em 2026, a CBS é calculada à alíquota de 0,1% e o IBS à alíquota de 0,9%.",
+   "a": 1,
+   "src": "ADCT, art. 125 (EC 132/2023); LC 214/2025, arts. 343, 346 e 348",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "inversao",
+     "w": "Julgar certo aceita os percentuais trocados. No ano de teste, a alíquota maior é a da CBS federal, de 0,9%, e a menor é a do IBS, de 0,1%."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item inverte os números. Em 2026, a CBS é cobrada à alíquota de 0,9% e o IBS à alíquota estadual de 0,1% (ADCT, art. 125); o valor pode ser compensado com PIS e Cofins, e a LC 214/2025 dispensa o recolhimento de quem cumpre as obrigações acessórias."
+    }
+   ]
+  },
+  {
+   "id": "dtrib57",
+   "type": "ce",
+   "topic": "Imunidade religiosa",
+   "c": "Uma igreja evangélica de Ananindeua (PA) mantém, sem fins lucrativos e em imóvel próprio, um abrigo para idosos administrado por sua organização assistencial.",
+   "q": "Após a EC 132/2023, a imunidade de impostos das entidades religiosas e templos de qualquer culto alcança expressamente suas organizações assistenciais e beneficentes.",
+   "a": 0,
+   "src": "CF/88, art. 150, VI, b, e § 4º (EC 132/2023)",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. A EC 132/2023 deu nova redação ao art. 150, VI, b, que passou a falar em entidades religiosas e templos de qualquer culto, inclusive suas organizações assistenciais e beneficentes, observado o § 4º."
+    },
+    {
+     "t": "Errado",
+     "p": "restricao",
+     "w": "Julgar errado restringe a imunidade ao local do culto. Desde a EC 132/2023, o texto constitucional inclui expressamente as organizações assistenciais e beneficentes das entidades religiosas."
+    }
+   ]
+  },
+  {
+   "id": "dtrib58",
+   "type": "ce",
+   "topic": "Seguro garantia e suspensão",
+   "c": "Em execução fiscal movida pelo Estado de Pernambuco na comarca de Caruaru, uma indústria ofereceu seguro garantia, e a Procuradoria do Estado aceitou a apólice.",
+   "q": "Pelo CTN, com a redação dada pela LC 236/2026, a aceitação do seguro garantia pelo credor na execução fiscal suspende a exigibilidade do crédito tributário.",
+   "a": 0,
+   "src": "CTN, art. 151, VII a X (LC 236/2026)",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. A LC 236/2026 incluiu no art. 151 do CTN, entre as novas causas de suspensão, o seguro garantia e a fiança bancária aceitos pelo credor em execução fiscal, ao lado da arbitragem, da transação aceita e do acordo de mediação."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado aplica a regra anterior, em que só o depósito do montante integral, entre as garantias, suspendia a exigibilidade. Desde a LC 236/2026, o seguro garantia aceito pelo credor também suspende."
+    }
+   ]
+  },
+  {
+   "id": "dtrib59",
+   "type": "ce",
+   "topic": "Acordo de mediação",
+   "c": "Uma rede de hotéis de Maringá (PR) firmou acordo de mediação com o município sobre débitos de ISS e cumpriu todas as obrigações nele previstas.",
+   "q": "Pelo CTN, alterado pela LC 236/2026, o cumprimento do acordo de mediação é causa de extinção do crédito tributário.",
+   "a": 0,
+   "src": "CTN, arts. 151 e 156, XIII (LC 236/2026)",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O item está certo. A LC 236/2026 incluiu o cumprimento do acordo de mediação entre as causas de extinção do art. 156 (inciso XIII); enquanto o acordo é cumprido, ele apenas suspende a exigibilidade (art. 151)."
+    },
+    {
+     "t": "Errado",
+     "p": "troca",
+     "w": "Julgar errado confunde os dois efeitos previstos pela LC 236/2026: o acordo de mediação suspende a exigibilidade enquanto vigora, e o seu cumprimento extingue o crédito (art. 156, XIII)."
+    }
+   ]
+  },
+  {
+   "id": "dtrib60",
+   "type": "ce",
+   "topic": "Limite das multas",
+   "c": "A Receita Federal autuou uma distribuidora de Santos (SP) por sonegação dolosa com uso de notas fiscais falsas. Era a primeira autuação da empresa.",
+   "q": "Pelo art. 113-A do CTN, incluído pela LC 236/2026, a multa nesse caso pode chegar a 150% do tributo, limite próprio das infrações dolosas com fraude.",
+   "a": 1,
+   "src": "CTN, art. 113-A (LC 236/2026)",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo troca os limites. O teto de 150% é o da reincidência; para fraude, sonegação ou conluio dolosos, o art. 113-A fixa 100%."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O item está errado. O art. 113-A limita a multa a 75% do tributo como regra, a 100% nos casos dolosos de fraude, sonegação ou conluio e a 150% na reincidência. Sem reincidência, o teto aqui é 100%."
+    }
+   ]
   }
  ]
 }

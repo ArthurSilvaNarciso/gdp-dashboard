@@ -1,0 +1,1101 @@
+{
+  "id": "ldb",
+  "title": "Legislação Educacional",
+  "subtitle": "CF, LDB, BNCC, PNE e Fundeb",
+  "tag": "Concursos",
+  "blurb": "CF, LDB atualizada até 2026, BNCC, novo PNE, Fundeb, ECA e inclusão em casos de escola real, com o artigo exato para a prova de professor.",
+  "questions": [
+    {
+      "id": "ldb1",
+      "topic": "Ingresso no magistério",
+      "c": "A Câmara de Vereadores de Caruaru (PE) aprovou lei que permite contratar professores efetivos da rede municipal por análise de currículo, sem prova, para agilizar a reposição de vagas.",
+      "q": "À luz do art. 206 da CF, como avaliar essa lei?",
+      "a": 1,
+      "src": "CF/88, art. 206, V (redação da EC 53/2006)",
+      "o": [
+        {
+          "t": "Válida, pois cada município define livremente a forma de ingresso no magistério de sua rede.",
+          "p": "extrapolacao",
+          "w": "A autonomia municipal não afasta o art. 206, V, que impõe ingresso exclusivamente por concurso público de provas e títulos nas redes públicas."
+        },
+        {
+          "t": "Inconstitucional, pois o ingresso nos planos de carreira das redes públicas é exclusivamente por concurso público de provas e títulos.",
+          "p": "correta",
+          "w": "Art. 206, V: valorização dos profissionais da educação escolar, garantidos planos de carreira, com ingresso exclusivamente por concurso público de provas e títulos, aos das redes públicas."
+        },
+        {
+          "t": "Válida, porque a CF exige para o magistério apenas avaliação de títulos, e o currículo cumpre esse papel.",
+          "p": "troca",
+          "w": "A CF exige concurso de provas e títulos; a mera análise de currículo ou de títulos não basta."
+        },
+        {
+          "t": "Inconstitucional apenas se as contratações ultrapassarem o limite de despesa com pessoal da LRF.",
+          "p": "restricao",
+          "w": "O vício não depende de limite de despesa: a forma de ingresso sem concurso já afronta diretamente o art. 206, V."
+        }
+      ]
+    },
+    {
+      "id": "ldb2",
+      "topic": "Educação básica obrigatória",
+      "c": "Em Feira de Santana (BA), Joana procurou a Secretaria Municipal de Educação para matricular a filha de 4 anos na pré-escola e ouviu que não havia vaga e que a pré-escola \"não é obrigação do município\".",
+      "q": "Assinale a alternativa correta segundo a Constituição.",
+      "a": 2,
+      "src": "CF/88, art. 208, I, IV e §§1º e 2º (EC 53/2006 e EC 59/2009)",
+      "o": [
+        {
+          "t": "A recusa é legítima, pois a educação básica obrigatória começa aos 6 anos, no ensino fundamental.",
+          "p": "troca",
+          "w": "Desde a EC 59/2009, a educação básica é obrigatória e gratuita dos 4 aos 17 anos, o que inclui a pré-escola."
+        },
+        {
+          "t": "A pré-escola é obrigatória, mas o acesso a ela depende da disponibilidade orçamentária do município.",
+          "p": "restricao",
+          "w": "A CF não condiciona o direito ao orçamento: o acesso ao ensino obrigatório e gratuito é direito público subjetivo (art. 208, §1º)."
+        },
+        {
+          "t": "A pré-escola integra a educação básica obrigatória dos 4 aos 17 anos, e o acesso a ela é direito público subjetivo.",
+          "p": "correta",
+          "w": "Art. 208, I e §1º. Se o poder público não oferece o ensino obrigatório ou o oferece de forma irregular, a autoridade competente responde por isso (§2º)."
+        },
+        {
+          "t": "Toda a educação infantil, inclusive a creche, é obrigatória para as famílias desde o nascimento da criança.",
+          "p": "generalizacao",
+          "w": "A obrigatoriedade começa aos 4 anos. A creche é dever do Estado, que deve oferecê-la (art. 208, IV), mas não é etapa obrigatória para a família."
+        }
+      ]
+    },
+    {
+      "id": "ldb3",
+      "topic": "Atuação prioritária dos entes",
+      "c": "O novo prefeito de Ponta Grossa (PR) anunciou que vai concentrar os recursos da educação municipal na abertura de escolas de ensino médio, enquanto a fila por vagas em creches continua crescendo.",
+      "q": "Pela CF, em quais etapas os municípios devem atuar prioritariamente?",
+      "a": 0,
+      "src": "CF/88, art. 211, §§2º e 3º (EC 14/1996)",
+      "o": [
+        {
+          "t": "No ensino fundamental e na educação infantil; estados e DF atuam prioritariamente no ensino fundamental e no médio.",
+          "p": "correta",
+          "w": "Art. 211, §2º (municípios) e §3º (estados e DF). O ensino fundamental é prioridade compartilhada; o ensino médio é prioridade dos estados."
+        },
+        {
+          "t": "No ensino fundamental e no médio; a educação infantil cabe prioritariamente aos estados.",
+          "p": "inversao",
+          "w": "Inverte as prioridades: fundamental e médio são prioridade de estados e DF (art. 211, §3º); a educação infantil é do município (§2º)."
+        },
+        {
+          "t": "Em todas as etapas da educação básica, com igual prioridade, pois a competência em educação é comum.",
+          "p": "generalizacao",
+          "w": "A competência comum de proporcionar os meios de acesso à educação (art. 23, V) não elimina as prioridades fixadas no art. 211, §§2º e 3º."
+        },
+        {
+          "t": "No ensino superior, quando o município tiver universidade própria criada por lei local.",
+          "p": "extrapolacao",
+          "w": "A CF não dá ao município prioridade no ensino superior; a LDB só admite atuação em outros níveis depois de atendida plenamente sua área de competência (art. 11, V)."
+        }
+      ]
+    },
+    {
+      "id": "ldb4",
+      "topic": "Vinculação de receitas",
+      "c": "Em 2026, a receita de impostos do município de Montes Claros (MG), compreendidas as transferências recebidas, somou R$ 640 milhões. O controlador interno precisa informar o mínimo a aplicar em manutenção e desenvolvimento do ensino.",
+      "q": "Qual é esse mínimo?",
+      "a": 3,
+      "src": "CF/88, art. 212, caput",
+      "o": [
+        {
+          "t": "R$ 115,2 milhões, correspondentes a 18% da receita de impostos.",
+          "p": "troca",
+          "w": "18% é o mínimo da União. Estados, DF e municípios aplicam, no mínimo, 25% (art. 212, caput)."
+        },
+        {
+          "t": "25% apenas dos impostos arrecadados pelo próprio município, excluídas as transferências recebidas.",
+          "p": "restricao",
+          "w": "O art. 212 inclui expressamente a receita proveniente de transferências; excluí-las reduziria indevidamente a base de cálculo."
+        },
+        {
+          "t": "R$ 25,6 milhões, resultado de 25% aplicado sobre R$ 640 milhões.",
+          "p": "calculo",
+          "w": "Erro de conta: 640 ÷ 25 = 25,6, mas 25% de 640 é 640 × 0,25 = 160."
+        },
+        {
+          "t": "R$ 160 milhões, isto é, 25% da receita de impostos, incluídas as transferências.",
+          "p": "correta",
+          "w": "Art. 212: municípios aplicam anualmente, no mínimo, 25% da receita resultante de impostos, compreendida a proveniente de transferências. 640 × 0,25 = 160."
+        }
+      ]
+    },
+    {
+      "id": "ldb5",
+      "topic": "Recursos e aposentadorias",
+      "c": "Para fechar as contas de 2026, a Secretaria da Fazenda do Maranhão propôs contar como gasto em manutenção e desenvolvimento do ensino o pagamento de aposentadorias de professores da rede estadual.",
+      "q": "Essa proposta é compatível com a Constituição?",
+      "a": 1,
+      "src": "CF/88, art. 212, §7º (incluído pela EC 108/2020)",
+      "o": [
+        {
+          "t": "Sim, desde que os inativos tenham se aposentado em cargo de magistério da rede estadual.",
+          "p": "restricao",
+          "w": "Não há exceção para inativos do magistério: o §7º veda o uso desses recursos para aposentadorias e pensões em qualquer caso."
+        },
+        {
+          "t": "Não, pois a CF veda o uso dos recursos vinculados ao ensino para pagamento de aposentadorias e pensões.",
+          "p": "correta",
+          "w": "Art. 212, §7º, incluído pela EC 108/2020: é vedado o uso dos recursos do caput e dos §§5º e 6º (salário-educação) para pagamento de aposentadorias e de pensões."
+        },
+        {
+          "t": "Sim, porque qualquer despesa com pessoal da Secretaria de Educação conta como manutenção do ensino.",
+          "p": "generalizacao",
+          "w": "Nem toda despesa com pessoal entra no mínimo constitucional; aposentadorias e pensões estão expressamente excluídas (art. 212, §7º)."
+        },
+        {
+          "t": "Não, pois as aposentadorias de professores devem ser pagas com a complementação da União ao Fundeb.",
+          "p": "troca",
+          "w": "Troca a fonte sem resolver o problema: a CF não destina a complementação da União a inativos; ela proíbe usar recursos vinculados à educação para aposentadorias e pensões."
+        }
+      ]
+    },
+    {
+      "id": "ldb6",
+      "topic": "Complementação da União",
+      "c": "Num curso para conselheiros do Fundeb em Teresina (PI), um participante perguntou quanto a União deve complementar aos fundos em 2026 e como esse valor se divide.",
+      "q": "Assinale a resposta correta.",
+      "a": 0,
+      "src": "CF/88, art. 212-A, V, 'a', 'b' e 'c' (EC 108/2020); Lei 14.113/2020, art. 5º",
+      "o": [
+        {
+          "t": "No mínimo 23% do total dos fundos: 10 pontos pelo VAAF, 10,5 pelo VAAT e 2,5 pelo VAAR, ligado à gestão e a indicadores.",
+          "p": "correta",
+          "w": "Art. 212-A, V: 10 pontos aos fundos cujo VAAF não alcance o mínimo nacional; ao menos 10,5 às redes cujo VAAT não o alcance; 2,5 às redes que cumprirem condicionalidades de gestão e melhorarem indicadores."
+        },
+        {
+          "t": "Exatamente 10% do total dos fundos, distribuídos apenas aos estados com menor valor por aluno.",
+          "p": "troca",
+          "w": "10% era a complementação mínima do antigo Fundeb (Lei 11.494/2007). O Fundeb permanente fixou no mínimo 23%, em três modalidades."
+        },
+        {
+          "t": "No mínimo 23%, todo ele distribuído pelo VAAT diretamente às redes municipais de ensino.",
+          "p": "generalizacao",
+          "w": "O VAAT responde por 10,5 pontos e alcança redes municipais, estaduais ou distritais; há ainda as parcelas VAAF (10) e VAAR (2,5)."
+        },
+        {
+          "t": "No mínimo 23%, mas só a partir de 2030, ao fim do cronograma de transição da EC 108/2020.",
+          "p": "restricao",
+          "w": "A transição começou em 2021 e chega aos 23% em 2026 (ADCT, art. 60). Não há adiamento para 2030."
+        }
+      ]
+    },
+    {
+      "id": "ldb7",
+      "topic": "Subvinculação de 70%",
+      "c": "O Fundeb da rede municipal de Rio Branco (AC) somou R$ 300 milhões em 2026, sem parcela da complementação-VAAR. O secretário planeja destinar R$ 180 milhões aos profissionais da educação básica em efetivo exercício e o resto a obras.",
+      "q": "O plano respeita a Constituição?",
+      "a": 2,
+      "src": "CF/88, art. 212-A, XI (EC 108/2020); Lei 14.113/2020, art. 26",
+      "o": [
+        {
+          "t": "Sim, pois a CF exige apenas 60% do fundo para a remuneração do magistério.",
+          "p": "troca",
+          "w": "60% para o magistério era a regra do antigo Fundeb (Lei 11.494/2007). Hoje o mínimo é 70% para os profissionais da educação básica em efetivo exercício."
+        },
+        {
+          "t": "Sim, porque obras e equipamentos são despesas de capital e têm prioridade sobre pessoal.",
+          "p": "inversao",
+          "w": "Inverte a prioridade: a CF protege a remuneração (mínimo de 70%); o mínimo de 15% para despesas de capital incide só sobre a complementação-VAAT."
+        },
+        {
+          "t": "Não, pois ao menos 70% do fundo, R$ 210 milhões, deve pagar profissionais da educação básica em efetivo exercício.",
+          "p": "correta",
+          "w": "Art. 212-A, XI: proporção não inferior a 70% de cada fundo vai a esses profissionais. 300 × 0,70 = 210; os R$ 180 milhões equivalem a só 60%."
+        },
+        {
+          "t": "Não, pois a CF exige que 100% do fundo seja usado na remuneração dos profissionais da educação.",
+          "p": "generalizacao",
+          "w": "O mínimo é 70%, não a totalidade; o restante pode custear outras ações de manutenção e desenvolvimento da educação básica."
+        }
+      ]
+    },
+    {
+      "id": "ldb8",
+      "topic": "Plano Nacional de Educação",
+      "c": "Numa audiência pública sobre o plano municipal de educação de Cuiabá (MT), em setembro de 2026, um vereador afirmou que o PNE vigente ainda é o da Lei 13.005/2014, prorrogado até o Congresso aprovar outro.",
+      "q": "Assinale a alternativa correta.",
+      "a": 3,
+      "src": "CF/88, art. 214 (EC 59/2009); Lei 15.388/2026, art. 1º",
+      "o": [
+        {
+          "t": "O vereador está certo, pois o PNE só pode ser substituído por emenda constitucional.",
+          "p": "troca",
+          "w": "O art. 214 diz que a lei estabelecerá o PNE; não se exige emenda constitucional, e o novo plano já foi aprovado pela Lei 15.388/2026."
+        },
+        {
+          "t": "O PNE não tem prazo fixo e vigora até ser revogado por outra lei, como ocorreu com a Lei 13.005/2014.",
+          "p": "extrapolacao",
+          "w": "A CF exige plano de duração decenal (art. 214). A prorrogação do plano anterior foi medida excepcional, não regra de vigência indefinida."
+        },
+        {
+          "t": "O novo PNE vale por dez anos, mas só para a União; estados e municípios seguem apenas seus próprios planos.",
+          "p": "restricao",
+          "w": "O PNE é nacional e articula o sistema nacional de educação em regime de colaboração; os planos estaduais e municipais são elaborados em consonância com ele."
+        },
+        {
+          "t": "O novo PNE foi aprovado pela Lei 15.388/2026, com duração de dez anos contados da publicação, como exige o art. 214.",
+          "p": "correta",
+          "w": "A CF manda a lei estabelecer plano decenal (art. 214, EC 59/2009). A Lei 15.388, de 14/4/2026, aprovou o PNE por 10 anos a contar de sua publicação (art. 1º)."
+        }
+      ]
+    },
+    {
+      "id": "ldb9",
+      "topic": "Dever de matricular",
+      "c": "Em Blumenau (SC), os pais de Davi, de 4 anos, decidiram mantê-lo em casa até os 6 anos, por acharem que a pré-escola é opcional. A escola mais próxima comunicou o caso à Secretaria de Educação.",
+      "q": "O que diz a LDB sobre a conduta dos pais?",
+      "a": 0,
+      "src": "LDB (Lei 9.394/1996), arts. 4º, I, e 6º (redação da Lei 12.796/2013)",
+      "o": [
+        {
+          "t": "É dever dos pais ou responsáveis efetuar a matrícula das crianças na educação básica a partir dos 4 anos de idade.",
+          "p": "correta",
+          "w": "Art. 6º da LDB, na redação da Lei 12.796/2013, em sintonia com o art. 4º, I, que torna a educação básica obrigatória dos 4 aos 17 anos, a começar pela pré-escola."
+        },
+        {
+          "t": "Os pais só são obrigados a matricular a partir dos 6 anos, no início do ensino fundamental.",
+          "p": "troca",
+          "w": "Seis anos é a idade de início do ensino fundamental (art. 32), não do dever de matrícula, que começa aos 4 anos (art. 6º)."
+        },
+        {
+          "t": "A matrícula aos 4 anos só é obrigatória onde houver escola pública a menos de 2 km da casa da família.",
+          "p": "restricao",
+          "w": "A LDB não condiciona o dever de matricular à distância da escola; cabe ao poder público garantir a vaga, e aos pais, matricular."
+        },
+        {
+          "t": "Como a educação é direito da criança, os pais podem escolher livremente a idade de matrícula.",
+          "p": "inversao",
+          "w": "Inverte a lógica: por ser direito da criança, a educação básica obrigatória impõe aos pais o dever de matricular, e não uma escolha livre."
+        }
+      ]
+    },
+    {
+      "id": "ldb10",
+      "topic": "Exigibilidade do ensino obrigatório",
+      "c": "Em Juazeiro do Norte (CE), uma associação de moradores constatou que dezenas de adolescentes do bairro estão sem vaga no ensino fundamental e quer ir à Justiça contra o poder público.",
+      "q": "Segundo a LDB, a associação tem legitimidade para isso?",
+      "a": 1,
+      "src": "LDB, art. 5º, caput (redação da Lei 12.796/2013)",
+      "o": [
+        {
+          "t": "Não, pois só o Conselho Tutelar pode acionar o poder público por falta de vaga escolar.",
+          "p": "troca",
+          "w": "O Conselho Tutelar pode requisitar serviços públicos, mas o art. 5º da LDB dá legitimidade a cidadãos, associações comunitárias, sindicatos, entidades de classe e ao MP."
+        },
+        {
+          "t": "Sim, pois qualquer cidadão, grupo de cidadãos, associação comunitária, sindicato, entidade de classe ou o MP pode exigir esse direito.",
+          "p": "correta",
+          "w": "Art. 5º: o acesso à educação básica obrigatória é direito público subjetivo, e esses legitimados podem acionar o poder público para exigi-lo."
+        },
+        {
+          "t": "Sim, mas somente depois de esgotar recurso administrativo ao Conselho Estadual de Educação.",
+          "p": "restricao",
+          "w": "A LDB não exige esgotar a via administrativa: os legitimados podem acionar o poder público diretamente."
+        },
+        {
+          "t": "Não, porque o ensino fundamental é direito apenas programático, sem exigibilidade judicial.",
+          "p": "inversao",
+          "w": "É o oposto: o acesso à educação básica obrigatória é direito público subjetivo (LDB, art. 5º; CF, art. 208, §1º), exigível em juízo."
+        }
+      ]
+    },
+    {
+      "id": "ldb11",
+      "topic": "Carga horária anual",
+      "c": "A Secretaria de Educação de Anápolis (GO) propôs, para o ensino fundamental, um calendário de 190 dias letivos de 4 horas e 30 minutos cada, somando 855 horas no ano.",
+      "q": "O calendário cumpre a LDB?",
+      "a": 3,
+      "src": "LDB, art. 24, I (redação da Lei 14.945/2024)",
+      "o": [
+        {
+          "t": "Sim, pois a carga mínima é de 800 horas e o número de dias letivos fica a critério de cada rede.",
+          "p": "extrapolacao",
+          "w": "A LDB fixa dois mínimos cumulativos: 800 horas e 200 dias de efetivo trabalho escolar. Superar as horas não dispensa os dias."
+        },
+        {
+          "t": "Sim, pois 190 dias de 4h30 rendem mais horas do que 200 dias de 4 horas, o que supre os dias que faltam.",
+          "p": "calculo",
+          "w": "Horas excedentes não se convertem em dias letivos: a LDB exige, de forma autônoma, no mínimo 200 dias de efetivo trabalho escolar."
+        },
+        {
+          "t": "Não, pois o ensino fundamental exige no mínimo 1.000 horas anuais em 200 dias letivos.",
+          "p": "troca",
+          "w": "1.000 horas anuais é o mínimo do ensino médio; no ensino fundamental, são 800 horas."
+        },
+        {
+          "t": "Não, pois além de 800 horas anuais exigem-se no mínimo 200 dias de efetivo trabalho escolar, sem contar os exames finais.",
+          "p": "correta",
+          "w": "Art. 24, I: carga mínima de 800 horas no fundamental, distribuídas por no mínimo 200 dias de efetivo trabalho escolar, excluído o tempo reservado aos exames finais, quando houver."
+        }
+      ]
+    },
+    {
+      "id": "ldb12",
+      "topic": "Frequência mínima",
+      "c": "Na Escola Estadual Monte Castelo, em Manaus (AM), o 8º ano teve 800 horas letivas em 2026. O aluno Ícaro, com notas suficientes em todos os componentes, faltou a 220 horas.",
+      "q": "Pela regra da LDB, qual é a situação de Ícaro quanto à frequência?",
+      "a": 2,
+      "src": "LDB, art. 24, VI",
+      "o": [
+        {
+          "t": "Está aprovado, pois frequentou 580 horas, acima do mínimo de 60% exigido.",
+          "p": "troca",
+          "w": "60% é a frequência mínima da pré-escola (art. 31, IV). No ensino fundamental e no médio, exige-se 75% do total de horas letivas."
+        },
+        {
+          "t": "Está aprovado, pois suas faltas não chegaram a 30% das 800 horas letivas.",
+          "p": "calculo",
+          "w": "O limite de faltas é 25% (porque a frequência mínima é 75%), ou seja, 200 horas; 220 horas de falta ultrapassam esse limite."
+        },
+        {
+          "t": "Não atingiu a frequência mínima: precisava de 600 horas de presença (75% de 800) e teve 580.",
+          "p": "correta",
+          "w": "Art. 24, VI: exige-se frequência mínima de 75% do total de horas letivas para aprovação. 800 × 0,75 = 600; 800 − 220 = 580 horas de presença."
+        },
+        {
+          "t": "Notas suficientes dispensam a exigência de frequência, que vale só para alunos de baixo rendimento.",
+          "p": "restricao",
+          "w": "A frequência mínima é requisito autônomo de aprovação, aplicável a todos os alunos, independentemente das notas."
+        }
+      ]
+    },
+    {
+      "id": "ldb13",
+      "topic": "Avaliação na educação infantil",
+      "c": "Numa escola municipal de Petrolina (PE), a coordenadora quer reter na pré-escola as crianças de 5 anos que ainda não reconhecem todas as letras, para que só sigam ao ensino fundamental quando estiverem \"prontas\".",
+      "q": "A medida é compatível com a LDB?",
+      "a": 0,
+      "src": "LDB, art. 31, I (redação da Lei 12.796/2013)",
+      "o": [
+        {
+          "t": "Não: na educação infantil, a avaliação acompanha e registra o desenvolvimento, sem objetivo de promoção, mesmo para o acesso ao fundamental.",
+          "p": "correta",
+          "w": "Art. 31, I: avaliação mediante acompanhamento e registro do desenvolvimento das crianças, sem o objetivo de promoção, mesmo para o acesso ao ensino fundamental."
+        },
+        {
+          "t": "Sim, pois a pré-escola exige frequência mínima de 60% e domínio do alfabeto para a aprovação.",
+          "p": "extrapolacao",
+          "w": "A frequência mínima de 60% existe (art. 31, IV), mas a LDB não cria exame de alfabeto nem retenção na pré-escola."
+        },
+        {
+          "t": "Sim, desde que os pais concordem por escrito com a retenção da criança.",
+          "p": "restricao",
+          "w": "A concordância dos pais não muda a regra: a avaliação na educação infantil não tem objetivo de promoção."
+        },
+        {
+          "t": "Sim, porque a pré-escola segue as mesmas regras de promoção e recuperação do ensino fundamental.",
+          "p": "generalizacao",
+          "w": "A educação infantil tem regras próprias (art. 31); a verificação do rendimento com promoção do art. 24, V, vale para o fundamental e o médio."
+        }
+      ]
+    },
+    {
+      "id": "ldb14",
+      "topic": "Formação geral básica",
+      "c": "A Secretaria de Educação do Espírito Santo montou uma matriz de ensino médio regular, sem curso técnico, com 3.000 horas: 1.800 de formação geral básica e 1.200 de itinerários formativos.",
+      "q": "A matriz respeita a LDB na redação da Lei 14.945/2024?",
+      "a": 1,
+      "src": "LDB, arts. 35-C e 36, caput (redação da Lei 14.945/2024)",
+      "o": [
+        {
+          "t": "Sim, pois a Lei 14.945/2024 manteve o teto de 1.800 horas para a formação geral básica.",
+          "p": "troca",
+          "w": "O teto de 1.800 horas era da reforma de 2017 (Lei 13.415). A Lei 14.945/2024 passou a exigir no mínimo 2.400 horas de formação geral básica."
+        },
+        {
+          "t": "Não, pois a formação geral básica exige no mínimo 2.400 horas, e os itinerários formativos, no mínimo 600 horas.",
+          "p": "correta",
+          "w": "Art. 35-C: carga mínima total de 2.400 horas para a formação geral básica. Art. 36: itinerários formativos com carga mínima de 600 horas, ressalvada a formação técnica."
+        },
+        {
+          "t": "Não, pois toda a carga do ensino médio, 3.000 horas, deve ser de formação geral básica.",
+          "p": "generalizacao",
+          "w": "A lei reserva parte da carga aos itinerários formativos (mínimo de 600 horas); a formação geral básica tem mínimo de 2.400 horas."
+        },
+        {
+          "t": "Sim, desde que a escola ofereça ao menos um itinerário formativo de aprofundamento.",
+          "p": "restricao",
+          "w": "Oferecer itinerário não supre a falta de horas: o mínimo de 2.400 horas de formação geral básica é requisito autônomo (art. 35-C)."
+        }
+      ]
+    },
+    {
+      "id": "ldb15",
+      "topic": "Ensino médio técnico",
+      "c": "Um instituto estadual em Joinville (SC) oferece ensino médio com formação técnica em mecatrônica e quer saber o mínimo de formação geral básica exigido nesse caso.",
+      "q": "O que prevê a LDB, na redação da Lei 14.945/2024?",
+      "a": 3,
+      "src": "LDB, art. 35-C (incluído pela Lei 14.945/2024)",
+      "o": [
+        {
+          "t": "2.400 horas, as mesmas do ensino médio sem curso técnico, sem nenhuma flexibilização.",
+          "p": "generalizacao",
+          "w": "A lei flexibiliza o mínimo quando há formação técnica e profissional: 2.100 horas, e não 2.400."
+        },
+        {
+          "t": "1.800 horas, pois o restante da carga é absorvido pelo curso técnico.",
+          "p": "troca",
+          "w": "1.800 horas era o teto da reforma de 2017. Na redação da Lei 14.945/2024, o mínimo com formação técnica é de 2.100 horas."
+        },
+        {
+          "t": "2.100 horas, desde que o curso técnico tenha, no mínimo, 1.200 horas de estágio supervisionado.",
+          "p": "restricao",
+          "w": "A LDB não condiciona o mínimo de 2.100 horas a horas de estágio; essa condição não existe."
+        },
+        {
+          "t": "2.100 horas, das quais até 300 podem aprofundar conteúdos da BNCC diretamente ligados à formação técnica oferecida.",
+          "p": "correta",
+          "w": "Art. 35-C, na redação da Lei 14.945/2024: com formação técnica e profissional, a formação geral básica tem mínimo de 2.100 horas, admitidas até 300 horas para esse aprofundamento articulado."
+        }
+      ]
+    },
+    {
+      "id": "ldb16",
+      "topic": "Exames supletivos da EJA",
+      "c": "Em Campina Grande (PB), Luana, de 16 anos, parou de estudar depois do 9º ano e quer fazer exame supletivo para obter, de uma vez, o certificado de conclusão do ensino médio.",
+      "q": "Ela pode fazer esse exame agora?",
+      "a": 2,
+      "src": "LDB, arts. 37 e 38, §1º, I e II",
+      "o": [
+        {
+          "t": "Sim, pois o exame de conclusão do ensino médio exige apenas idade superior a 15 anos.",
+          "p": "troca",
+          "w": "Maiores de 15 anos é a idade do exame de conclusão do ensino fundamental. Para o ensino médio, exige-se ter mais de 18 anos."
+        },
+        {
+          "t": "Sim, desde que comprove estar trabalhando com carteira assinada.",
+          "p": "restricao",
+          "w": "A LDB não cria exceção por vínculo de trabalho: o critério para o exame de ensino médio é a idade, maior de 18 anos."
+        },
+        {
+          "t": "Não: o exame de conclusão do ensino médio é para maiores de 18 anos; o do fundamental, para maiores de 15.",
+          "p": "correta",
+          "w": "Art. 38, §1º: os exames se realizam no nível de conclusão do ensino fundamental para maiores de 15 anos e no do ensino médio para maiores de 18 anos."
+        },
+        {
+          "t": "Não, pois a EJA não admite exames: o certificado só vem pela conclusão de cursos presenciais.",
+          "p": "generalizacao",
+          "w": "A EJA se faz por cursos e exames (art. 37, §1º, e art. 38); os exames supletivos são previstos em lei."
+        }
+      ]
+    },
+    {
+      "id": "ldb17",
+      "topic": "Técnico concomitante",
+      "c": "Em Uberlândia (MG), Caio cursa o 1º ano do ensino médio numa escola estadual e, à tarde, faz curso técnico em eletrotécnica em outra instituição, com matrícula própria.",
+      "q": "Como a LDB classifica essa forma de oferta?",
+      "a": 0,
+      "src": "LDB, arts. 36-B e 36-C (Lei 11.741/2008)",
+      "o": [
+        {
+          "t": "Articulada concomitante, com matrículas distintas para cada curso, na mesma ou em outra instituição.",
+          "p": "correta",
+          "w": "Art. 36-C, II: a forma concomitante é oferecida a quem ingressa no ensino médio ou já o cursa, com matrículas distintas, podendo ocorrer em instituições diferentes."
+        },
+        {
+          "t": "Articulada integrada, porque ele cursa as duas formações no mesmo período da vida escolar.",
+          "p": "troca",
+          "w": "A integrada exige matrícula única na mesma instituição, para quem já concluiu o fundamental (art. 36-C, I). Matrículas separadas indicam concomitância."
+        },
+        {
+          "t": "Subsequente, pois o curso técnico é feito ao mesmo tempo que o ensino médio.",
+          "p": "inversao",
+          "w": "Subsequente é a oferta para quem já concluiu o ensino médio (art. 36-B, II), situação oposta à de Caio."
+        },
+        {
+          "t": "Qualificação de formação inicial, pois cursos técnicos não se vinculam ao ensino médio.",
+          "p": "extrapolacao",
+          "w": "A educação profissional técnica de nível médio é curso próprio (art. 39, §2º, II), distinto da formação inicial e continuada, e se articula com o ensino médio."
+        }
+      ]
+    },
+    {
+      "id": "ldb18",
+      "topic": "Início da educação especial",
+      "c": "Em Londrina (PR), a direção de um centro municipal de educação infantil recusou a matrícula de Benício, de 2 anos, que tem deficiência visual, alegando que a educação especial só é ofertada a partir do ensino fundamental.",
+      "q": "A justificativa está de acordo com a LDB?",
+      "a": 1,
+      "src": "LDB, art. 58, caput e §3º (Leis 12.796/2013 e 13.632/2018); CF/88, art. 208, III",
+      "o": [
+        {
+          "t": "Sim, pois o atendimento educacional especializado só é dever do Estado na faixa obrigatória, dos 4 aos 17 anos.",
+          "p": "restricao",
+          "w": "A LDB não limita a educação especial à faixa obrigatória: a oferta começa na educação infantil e se estende ao longo da vida (art. 58, §3º)."
+        },
+        {
+          "t": "Não, pois a oferta de educação especial começa na educação infantil e se estende ao longo da vida, preferencialmente na rede regular.",
+          "p": "correta",
+          "w": "Art. 58, caput e §3º (Lei 13.632/2018): modalidade oferecida preferencialmente na rede regular, com início na educação infantil. A CF também prevê o atendimento especializado preferencialmente na rede regular (art. 208, III)."
+        },
+        {
+          "t": "Não, mas Benício deve ser encaminhado obrigatoriamente a uma escola especial, fora da rede regular.",
+          "p": "inversao",
+          "w": "Inverte a preferência legal: a educação especial é oferecida preferencialmente na rede regular; classes ou escolas especializadas são exceção (art. 58, §2º)."
+        },
+        {
+          "t": "Sim, porque crianças com deficiência só ingressam na rede após laudo médico de aptidão escolar.",
+          "p": "extrapolacao",
+          "w": "A LDB não exige laudo de aptidão para a matrícula; condicionar o acesso a isso contraria o sistema educacional inclusivo."
+        }
+      ]
+    },
+    {
+      "id": "ldb19",
+      "topic": "Escola privada inclusiva",
+      "c": "Um colégio particular de Natal (RN) aceitou matricular Lia, aluna com deficiência, mas avisou que a família teria de pagar à parte o profissional de apoio escolar que a acompanhará.",
+      "q": "Segundo a Lei Brasileira de Inclusão, essa cobrança é permitida?",
+      "a": 3,
+      "src": "Lei 13.146/2015, art. 28, XVII e §1º",
+      "o": [
+        {
+          "t": "Sim, pois as obrigações de inclusão do art. 28 valem só para as escolas públicas.",
+          "p": "restricao",
+          "w": "O §1º estende às instituições privadas, de qualquer nível e modalidade, a maior parte dos incisos do art. 28, inclusive a oferta de profissionais de apoio escolar (XVII)."
+        },
+        {
+          "t": "Sim, se a família for avisada antes da matrícula e assinar contrato aceitando o valor.",
+          "p": "extrapolacao",
+          "w": "Aviso prévio e contrato não afastam a vedação legal: é proibida a cobrança de valores adicionais de qualquer natureza para cumprir essas obrigações."
+        },
+        {
+          "t": "Sim, pois o profissional de apoio é serviço de saúde, não educacional, e por isso fica fora da mensalidade.",
+          "p": "troca",
+          "w": "O profissional de apoio escolar está entre as medidas educacionais do art. 28 (XVII) e não se confunde com serviço de saúde."
+        },
+        {
+          "t": "Não, pois a lei veda às escolas privadas cobrar valores adicionais de qualquer natureza para cumprir essas obrigações.",
+          "p": "correta",
+          "w": "Art. 28, §1º: aplica-se às instituições privadas o disposto no art. 28, incluindo o inciso XVII, vedada a cobrança de valores adicionais de qualquer natureza em mensalidades, anuidades e matrículas."
+        }
+      ]
+    },
+    {
+      "id": "ldb20",
+      "topic": "Incumbências dos municípios",
+      "c": "Com filas em creches da zona rural, a prefeita de Sobral (CE) quer usar recursos da educação para criar uma faculdade municipal de Pedagogia, contando o gasto no mínimo constitucional.",
+      "q": "Pela LDB, na redação da Lei 15.369/2026, o que vale para o município?",
+      "a": 2,
+      "src": "LDB, arts. 10, VI, e 11, V (redação da Lei 15.369/2026)",
+      "o": [
+        {
+          "t": "Pode atuar livremente no ensino superior, pois a autonomia municipal permite escolher o nível a priorizar.",
+          "p": "generalizacao",
+          "w": "A LDB impõe uma ordem: educação infantil e, com prioridade, ensino fundamental; outros níveis, só depois de atendidas plenamente essas necessidades."
+        },
+        {
+          "t": "A educação infantil não é incumbência sua: cabe aos estados oferecê-la com prioridade, junto com o ensino médio.",
+          "p": "troca",
+          "w": "Aos estados cabe assegurar o ensino fundamental e oferecer, com prioridade, o ensino médio (art. 10, VI). A educação infantil em creches e pré-escolas é incumbência municipal."
+        },
+        {
+          "t": "Só pode atuar em outros níveis com sua área plenamente atendida e com recursos acima dos mínimos vinculados pela CF.",
+          "p": "correta",
+          "w": "Art. 11, V: o município oferece educação infantil em creches e pré-escolas, nas zonas urbanas e rurais, e, com prioridade, o ensino fundamental; outros níveis exigem essas duas condições."
+        },
+        {
+          "t": "Pode criar a faculdade, desde que a custeie apenas com os 25% vinculados, sem recursos adicionais.",
+          "p": "inversao",
+          "w": "Inverte a regra: a atuação em outros níveis só pode usar recursos acima dos percentuais mínimos vinculados, e não os próprios 25%."
+        }
+      ]
+    },
+    {
+      "id": "ldb21",
+      "topic": "Notificação ao Conselho Tutelar",
+      "c": "A diretora de uma escola estadual em Santarém (PA) identificou alunos com faltas muito acima do normal e um caso de automutilação, e quer saber a quem a LDB manda notificar.",
+      "q": "Pela redação vigente do art. 12, VIII, da LDB, o que a escola deve fazer?",
+      "a": 0,
+      "src": "LDB, art. 12, VII e VIII, 'a' e 'b' (redação da Lei 15.231/2025)",
+      "o": [
+        {
+          "t": "Notificar o Conselho Tutelar do Município dos alunos com faltas acima de 30% do percentual permitido em lei e dos casos de violência.",
+          "p": "correta",
+          "w": "Art. 12, VIII, na redação da Lei 15.231/2025: relação de alunos com faltas acima de 30% do percentual permitido (alínea a) e ocorrências de violência, especialmente automutilação e tentativas de suicídio (alínea b)."
+        },
+        {
+          "t": "Notificar, em conjunto, o Conselho Tutelar, o juiz da Comarca e o promotor de Justiça, pois a lei exige os três.",
+          "p": "troca",
+          "w": "A redação vigente do art. 12, VIII, aponta como destinatário o Conselho Tutelar do Município; não manda notificar juiz nem promotor."
+        },
+        {
+          "t": "Avisar só os pais, pois a escola não pode expor ao Conselho Tutelar dados de faltas e de violência dos alunos.",
+          "p": "inversao",
+          "w": "É o contrário: a lei obriga a escola a notificar o Conselho Tutelar. Informar os pais também é dever (art. 12, VII), mas não substitui essa notificação."
+        },
+        {
+          "t": "Notificar o Conselho Tutelar só quando as faltas passarem de 50% das aulas do ano.",
+          "p": "restricao",
+          "w": "Não há esse patamar de 50% das aulas: o gatilho são faltas acima de 30% do percentual permitido em lei, e a violência deve ser comunicada independentemente das faltas."
+        }
+      ]
+    },
+    {
+      "id": "ldb22",
+      "topic": "Incumbências dos docentes",
+      "c": "Numa escola municipal de Volta Redonda (RJ), um professor se recusou a participar da elaboração da proposta pedagógica, dizendo que isso é tarefa da direção, e também a planejar a recuperação dos alunos de menor rendimento.",
+      "q": "Segundo a LDB, assinale a correta.",
+      "a": 3,
+      "src": "LDB, arts. 12, I, e 13, I e IV",
+      "o": [
+        {
+          "t": "Ele está certo, pois elaborar a proposta pedagógica é incumbência exclusiva do diretor nomeado.",
+          "p": "troca",
+          "w": "A incumbência de elaborar e executar a proposta pedagógica é do estabelecimento (art. 12, I), e os docentes devem participar dela (art. 13, I)."
+        },
+        {
+          "t": "Ele deve participar da proposta, mas a recuperação dos alunos é tarefa exclusiva da coordenação pedagógica.",
+          "p": "restricao",
+          "w": "O art. 13, IV, incumbe ao próprio docente estabelecer estratégias de recuperação para os alunos de menor rendimento."
+        },
+        {
+          "t": "Ele pode recusar as duas tarefas, pois a LDB lista apenas direitos dos docentes, e os deveres ficam com a escola.",
+          "p": "inversao",
+          "w": "É o oposto: o art. 13 enumera incumbências dos docentes, como participar da proposta pedagógica e estabelecer estratégias de recuperação."
+        },
+        {
+          "t": "Ele deve participar da elaboração da proposta pedagógica e estabelecer estratégias de recuperação para alunos de menor rendimento.",
+          "p": "correta",
+          "w": "Art. 13, I e IV: incumbe aos docentes participar da elaboração da proposta pedagógica do estabelecimento e estabelecer estratégias de recuperação para os alunos de menor rendimento."
+        }
+      ]
+    },
+    {
+      "id": "ldb23",
+      "topic": "Gestão democrática",
+      "c": "Ao regulamentar a gestão democrática, a Câmara Municipal de Chapecó (SC) discute um projeto que restringe os conselhos escolares a professores e à direção, sem pais, alunos nem representantes da comunidade.",
+      "q": "O projeto está de acordo com a LDB?",
+      "a": 1,
+      "src": "CF/88, art. 206, VI; LDB, arts. 3º, VIII, e 14, I e II e §1º (redação da Lei 14.644/2023)",
+      "o": [
+        {
+          "t": "Sim, pois a gestão democrática é princípio só do ensino privado, e cada escola define seu conselho.",
+          "p": "troca",
+          "w": "A gestão democrática é princípio do ensino público (CF, art. 206, VI; LDB, art. 3º, VIII), regulamentada por lei de cada ente."
+        },
+        {
+          "t": "Não, pois a lei local deve assegurar a participação das comunidades escolar e local em conselhos escolares.",
+          "p": "correta",
+          "w": "Art. 14: lei dos estados, DF e municípios define as normas de gestão democrática, observadas a participação dos profissionais da educação no projeto pedagógico (I) e das comunidades escolar e local em conselhos escolares (II). O §1º inclui estudantes, pais ou responsáveis e membros da comunidade local no Conselho Escolar."
+        },
+        {
+          "t": "Sim, pois a LDB deixa a composição dos conselhos inteiramente livre para cada município.",
+          "p": "generalizacao",
+          "w": "Os entes têm margem para definir as normas, mas devem observar o art. 14, cujo §1º já fixa as categorias do Conselho Escolar, entre elas estudantes, pais e comunidade local."
+        },
+        {
+          "t": "Não, pois o conselho escolar deve ser formado apenas por pais e alunos, sem professores.",
+          "p": "inversao",
+          "w": "Também exclui um segmento: a LDB pede a participação dos profissionais da educação e das comunidades escolar e local, e não a exclusão dos professores."
+        }
+      ]
+    },
+    {
+      "id": "ldb24",
+      "topic": "Formação mínima docente",
+      "c": "O edital de concurso da prefeitura de Mossoró (RN) para professor de Matemática do 6º ao 9º ano exige apenas ensino médio na modalidade normal (magistério).",
+      "q": "A exigência atende à LDB?",
+      "a": 2,
+      "src": "LDB, arts. 62, caput (redação da Lei 13.415/2017), e 66",
+      "o": [
+        {
+          "t": "Sim, pois o curso normal de nível médio habilita para toda a educação básica.",
+          "p": "generalizacao",
+          "w": "O nível médio normal só é admitido como formação mínima para a educação infantil e os cinco primeiros anos do ensino fundamental."
+        },
+        {
+          "t": "Sim, desde que o aprovado conclua licenciatura em até cinco anos após a posse.",
+          "p": "restricao",
+          "w": "A LDB não prevê essa habilitação provisória: para os anos finais, a formação mínima é o nível superior em licenciatura."
+        },
+        {
+          "t": "Não, pois para os anos finais do fundamental exige-se licenciatura; o normal médio só vale na educação infantil e nos anos iniciais.",
+          "p": "correta",
+          "w": "Art. 62: formação de docentes para a educação básica em nível superior, em licenciatura plena, admitida como mínima a de nível médio normal para a educação infantil e os cinco primeiros anos do fundamental."
+        },
+        {
+          "t": "Não, pois para qualquer etapa da educação básica se exige mestrado na área de atuação.",
+          "p": "extrapolacao",
+          "w": "Mestrado e doutorado são a preparação prioritária para o magistério superior (art. 66); na educação básica, a regra é a licenciatura."
+        }
+      ]
+    },
+    {
+      "id": "ldb25",
+      "topic": "Jornada do piso",
+      "c": "Em Arapiraca (AL), uma professora da rede municipal tem jornada de 30 horas semanais. A secretaria quer que ela passe 24 horas por semana em sala, com os alunos.",
+      "q": "Pela Lei do Piso, qual é o máximo de horas semanais de interação com os alunos nessa jornada?",
+      "a": 0,
+      "src": "Lei 11.738/2008, art. 2º, §4º; CF/88, art. 206, VIII",
+      "o": [
+        {
+          "t": "20 horas, pois no máximo 2/3 da carga horária podem ser destinados à interação com os educandos.",
+          "p": "correta",
+          "w": "Art. 2º, §4º: limite máximo de dois terços da carga horária para atividades de interação com os educandos. 30 × 2 ÷ 3 = 20 horas; as 10 restantes ficam para atividades extraclasse."
+        },
+        {
+          "t": "24 horas, pois o limite é de 80% da carga horária com os alunos.",
+          "p": "troca",
+          "w": "Não existe limite de 80%: a Lei do Piso fixa no máximo dois terços da carga horária para a interação com os educandos."
+        },
+        {
+          "t": "10 horas, pois 2/3 da jornada devem ficar reservados a atividades extraclasse.",
+          "p": "inversao",
+          "w": "Inverte a fração: 2/3 é o máximo com os alunos; o mínimo de 1/3 (10 horas) é que fica para atividades extraclasse."
+        },
+        {
+          "t": "26 horas e 40 minutos, que correspondem a 2/3 da jornada.",
+          "p": "calculo",
+          "w": "26h40 são 2/3 de 40 horas. Para jornada de 30 horas, 2/3 equivalem a 20 horas (30 × 2 ÷ 3)."
+        }
+      ]
+    },
+    {
+      "id": "ldb26",
+      "topic": "Competências gerais da BNCC",
+      "c": "Em Caxias do Sul (RS), a professora Márcia planeja um projeto em que alunos do 8º ano checam notícias falsas e produzem podcasts, usando tecnologias digitais de forma crítica e ética.",
+      "q": "A qual competência geral da BNCC o projeto se vincula mais diretamente?",
+      "a": 3,
+      "src": "BNCC (MEC, 2017), Introdução, Competências gerais da Educação Básica; Resolução CNE/CP 2/2017",
+      "o": [
+        {
+          "t": "Competência 1, conhecimento, que trata de valorizar os conhecimentos historicamente construídos.",
+          "p": "troca",
+          "w": "A competência 1 trata de valorizar e utilizar conhecimentos historicamente construídos; o uso crítico e ético de tecnologias digitais é o núcleo da competência 5."
+        },
+        {
+          "t": "Nenhuma: a BNCC só trata de tecnologia nas competências específicas, e não nas gerais.",
+          "p": "inversao",
+          "w": "A BNCC trata expressamente das tecnologias digitais em suas competências gerais: a competência 5 é a de cultura digital."
+        },
+        {
+          "t": "Competência 10, que obriga o uso de tecnologias digitais em todas as aulas e componentes.",
+          "p": "generalizacao",
+          "w": "A competência 10 é responsabilidade e cidadania; nenhuma competência geral obriga o uso de tecnologia em todas as aulas."
+        },
+        {
+          "t": "Competência 5, cultura digital: compreender, utilizar e criar tecnologias digitais de forma crítica, significativa, reflexiva e ética.",
+          "p": "correta",
+          "w": "A BNCC tem 10 competências gerais; a 5 trata de compreender, utilizar e criar tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética."
+        }
+      ]
+    },
+    {
+      "id": "ldb27",
+      "topic": "Resoluções da BNCC",
+      "c": "A Secretaria de Educação de Recife (PE) revisa os currículos da rede e precisa citar, no documento oficial, o ato do Conselho Nacional de Educação que instituiu a BNCC para a etapa do ensino médio.",
+      "q": "Qual é esse ato?",
+      "a": 1,
+      "src": "Resolução CNE/CP 2/2017; Resolução CNE/CP 4/2018",
+      "o": [
+        {
+          "t": "Resolução CNE/CP 2/2017, que instituiu de uma só vez a BNCC de toda a educação básica.",
+          "p": "generalizacao",
+          "w": "A Resolução CNE/CP 2/2017 instituiu a BNCC da educação infantil e do ensino fundamental; a do ensino médio veio depois, em 2018."
+        },
+        {
+          "t": "Resolução CNE/CP 4/2018, que instituiu a BNCC do ensino médio, completando a da educação infantil e do fundamental.",
+          "p": "correta",
+          "w": "A Resolução CNE/CP 4/2018 instituiu a BNCC na etapa do ensino médio (BNCC-EM), como etapa final da educação básica, somando-se à Resolução CNE/CP 2/2017."
+        },
+        {
+          "t": "Lei 13.005/2014, pois o próprio PNE aprovou o texto da BNCC.",
+          "p": "troca",
+          "w": "O PNE de 2014 previa a pactuação de uma base comum, mas a BNCC foi instituída por resoluções do Conselho Nacional de Educação, homologadas pelo MEC."
+        },
+        {
+          "t": "Lei 14.945/2024, que substituiu a BNCC por diretrizes estaduais de ensino médio.",
+          "p": "extrapolacao",
+          "w": "A Lei 14.945/2024 reorganizou o ensino médio, mas manteve a BNCC como referência da formação geral básica (art. 35-D)."
+        }
+      ]
+    },
+    {
+      "id": "ldb28",
+      "topic": "Cultura afro-brasileira e indígena",
+      "c": "O diretor de um colégio particular de ensino fundamental e médio em Porto Alegre (RS) afirmou que o estudo da história e cultura afro-brasileira e indígena só é obrigatório nas escolas públicas.",
+      "q": "Assinale a alternativa correta sobre o art. 26-A da LDB.",
+      "a": 2,
+      "src": "LDB, art. 26-A, caput e §§1º e 2º (Leis 10.639/2003 e 11.645/2008)",
+      "o": [
+        {
+          "t": "O diretor está certo, pois a regra vale apenas para a rede mantida pelo poder público.",
+          "p": "restricao",
+          "w": "O art. 26-A abrange os estabelecimentos de ensino fundamental e médio, públicos e privados."
+        },
+        {
+          "t": "A regra vale para escolas públicas e privadas, mas trata só da cultura afro-brasileira; a indígena é optativa.",
+          "p": "troca",
+          "w": "A Lei 10.639/2003 tratava da cultura afro-brasileira; a Lei 11.645/2008 deu a redação vigente, que inclui a história e cultura indígena."
+        },
+        {
+          "t": "É obrigatório em escolas públicas e privadas de fundamental e médio, em todo o currículo, em especial artes, literatura e história.",
+          "p": "correta",
+          "w": "Art. 26-A, caput e §2º: obrigatoriedade nos estabelecimentos de ensino fundamental e médio, públicos e privados; conteúdos em todo o currículo, em especial em educação artística e literatura e história brasileiras."
+        },
+        {
+          "t": "É obrigatório em toda a educação básica, da creche ao ensino médio, em escolas públicas e privadas.",
+          "p": "generalizacao",
+          "w": "O art. 26-A se refere aos estabelecimentos de ensino fundamental e médio; não menciona a educação infantil."
+        }
+      ]
+    },
+    {
+      "id": "ldb29",
+      "type": "ce",
+      "topic": "Ensino religioso",
+      "src": "CF/88, art. 210, §1º; LDB, art. 33 (redação da Lei 9.475/1997)",
+      "c": "Em Aracaju (SE), pais de alunos do 4º ano de uma escola municipal querem saber se os filhos são obrigados a cursar ensino religioso, oferecido no horário normal das aulas.",
+      "q": "O ensino religioso, de matrícula facultativa, constitui disciplina dos horários normais das escolas públicas de ensino fundamental, vedadas quaisquer formas de proselitismo.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "CF, art. 210, §1º: matrícula facultativa e disciplina dos horários normais das escolas públicas de ensino fundamental. LDB, art. 33: integra a formação básica do cidadão, vedadas quaisquer formas de proselitismo."
+        },
+        {
+          "t": "Errado",
+          "p": "inversao",
+          "w": "Julgar errado supõe que o ensino religioso seria obrigatório ou ficaria fora do horário regular. A CF diz o contrário: matrícula facultativa, nos horários normais."
+        }
+      ]
+    },
+    {
+      "id": "ldb30",
+      "type": "ce",
+      "topic": "Fundeb e tempo integral",
+      "src": "CF/88, art. 212-A, XIV e XV (incluídos pela EC 135/2024)",
+      "c": "Em 2026, a Secretaria de Educação de Palmas (TO) planeja a aplicação dos recursos do Fundeb da rede municipal.",
+      "q": "A partir do exercício de 2026, estados, Distrito Federal e municípios devem destinar no mínimo 4% dos recursos dos fundos à criação de matrículas em tempo integral na educação básica, conforme diretrizes pactuadas com a União.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 212-A, XV, incluído pela EC 135/2024: a partir de 2026, no mínimo 4% dos recursos dos fundos vão à criação de matrículas em tempo integral, segundo diretrizes pactuadas com a União, até o cumprimento das metas de tempo integral do PNE."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado costuma vir da confusão com a regra de 2025, quando a União podia repassar até 10% da complementação para fomentar o tempo integral (inciso XIV). Para 2026, vale o mínimo de 4% aplicado pelos entes."
+        }
+      ]
+    },
+    {
+      "id": "ldb31",
+      "type": "ce",
+      "topic": "Comunicação ao Conselho Tutelar",
+      "src": "ECA (Lei 8.069/1990), art. 56, I a IV (redação da Lei 15.240/2025)",
+      "c": "A diretora de uma escola municipal de ensino fundamental em Rondonópolis (MT) percebeu que vários alunos de uma turma acumulam reprovações seguidas.",
+      "q": "Pelo ECA, os dirigentes de estabelecimentos de ensino fundamental devem comunicar ao Conselho Tutelar, entre outros casos, os elevados níveis de repetência.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 56: os dirigentes de estabelecimentos de ensino fundamental comunicam ao Conselho Tutelar maus-tratos, reiteração de faltas injustificadas e evasão (esgotados os recursos escolares), elevados níveis de repetência e negligência, abuso ou abandono."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que o dever se limita a maus-tratos. O art. 56 também inclui faltas reiteradas, evasão escolar e elevados níveis de repetência (inciso III)."
+        }
+      ]
+    },
+    {
+      "id": "ldb32",
+      "type": "ce",
+      "topic": "Contestação de avaliação",
+      "src": "ECA, art. 53, III",
+      "c": "Em Mogi das Cruzes (SP), Vitória, aluna do 9º ano, discorda dos critérios usados na correção de sua prova bimestral de Ciências e quer recorrer.",
+      "q": "O ECA assegura ao estudante o direito de contestar critérios avaliativos, podendo recorrer às instâncias escolares superiores.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 53, III: é assegurado à criança e ao adolescente o direito de contestar critérios avaliativos, podendo recorrer às instâncias escolares superiores."
+        },
+        {
+          "t": "Errado",
+          "p": "inversao",
+          "w": "Julgar errado supõe que a avaliação seria ato do professor imune a questionamento do aluno. O ECA garante expressamente o direito de contestar critérios avaliativos."
+        }
+      ]
+    },
+    {
+      "id": "ldb33",
+      "type": "ce",
+      "topic": "Vaga para irmãos",
+      "src": "ECA, art. 53, V (redação da Lei 13.845/2019)",
+      "c": "Em Vitória da Conquista (BA), a mãe de Pedro, do 2º ano do fundamental, e de Ana, do 1º ano do ensino médio, pediu que os dois estudem na mesma escola pública, perto de casa.",
+      "q": "O ECA garante vaga no mesmo estabelecimento a irmãos que frequentem a educação básica, qualquer que seja a etapa de cada um.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo amplia a regra: o ECA garante vaga no mesmo estabelecimento a irmãos que frequentem a mesma etapa ou ciclo de ensino da educação básica."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 53, V: acesso à escola pública e gratuita próxima da residência, garantindo-se vagas no mesmo estabelecimento a irmãos que frequentem a mesma etapa ou ciclo. Pedro e Ana estão em etapas diferentes."
+        }
+      ]
+    },
+    {
+      "id": "ldb34",
+      "type": "ce",
+      "topic": "Educação física facultativa",
+      "src": "LDB, art. 26, §3º, I a VI (redação da Lei 10.793/2003)",
+      "c": "Em Ribeirão Preto (SP), Renan, de 22 anos, sem filhos e sem vínculo militar, aluno do ensino médio noturno, trabalha 4 horas por dia num mercado e pediu dispensa da prática de educação física.",
+      "q": "Por trabalhar, Renan tem direito à prática facultativa de educação física, pois a LDB a assegura a qualquer aluno que cumpra jornada de trabalho, independentemente da duração.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "generalizacao",
+          "w": "Julgar certo ignora o requisito de duração: a prática é facultativa ao aluno que cumpra jornada de trabalho igual ou superior a seis horas."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 26, §3º, I: a prática é facultativa a quem cumpre jornada de trabalho igual ou superior a 6 horas. Pelos dados do caso, Renan não se enquadra nessa hipótese nem nas demais, como ter mais de 30 anos ou ter prole."
+        }
+      ]
+    },
+    {
+      "id": "ldb35",
+      "type": "ce",
+      "topic": "Jornada na educação infantil",
+      "src": "LDB, art. 31, III (redação da Lei 12.796/2013)",
+      "c": "A prefeitura de Maringá (PR) vai abrir turmas de pré-escola em turno parcial e em jornada integral e precisa definir o tempo mínimo diário de atendimento.",
+      "q": "Pela LDB, o atendimento na educação infantil deve ter no mínimo 4 horas diárias no turno parcial e 10 horas na jornada integral.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo aceita o número errado da jornada integral: a LDB fixa, no mínimo, 7 horas diárias, e não 10."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 31, III: atendimento à criança de, no mínimo, 4 horas diárias para o turno parcial e de 7 horas para a jornada integral."
+        }
+      ]
+    },
+    {
+      "id": "ldb36",
+      "type": "ce",
+      "topic": "Prazos dos planos locais",
+      "src": "Lei 15.388/2026 (PNE 2026-2036), art. 34",
+      "c": "Após a publicação da Lei 15.388/2026, o Conselho Municipal de Educação de Campos dos Goytacazes (RJ) quer saber o prazo para o município publicar seu novo plano de educação.",
+      "q": "Pelo novo PNE, os municípios têm até 12 meses e os estados e o Distrito Federal até 15 meses, contados da publicação da lei, para publicar seus planos de educação.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "inversao",
+          "w": "Julgar certo aceita a inversão dos prazos: são 12 meses para estados e DF e 15 meses para os municípios."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 34 da Lei 15.388/2026: estados e DF publicam seus planos em até 12 meses, e os municípios em até 15 meses, contados da publicação da lei."
+        }
+      ]
+    },
+    {
+      "id": "ldb37",
+      "type": "ce",
+      "topic": "Intérprete de Libras",
+      "src": "Lei 13.146/2015, art. 28, §2º, I e II",
+      "c": "A Secretaria de Educação do Amapá abriu seleção de tradutores e intérpretes de Libras para atuar em escolas de ensino fundamental e médio da rede estadual.",
+      "q": "Pela Lei Brasileira de Inclusão, para atuar na educação básica, o tradutor e intérprete de Libras deve ter, no mínimo, ensino médio completo e certificado de proficiência na Libras.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 28, §2º, I: na educação básica, exige-se no mínimo ensino médio completo e certificado de proficiência na Libras. Em salas de graduação e pós-graduação, o requisito é nível superior (II)."
+        },
+        {
+          "t": "Errado",
+          "p": "troca",
+          "w": "Julgar errado aplica à educação básica a exigência de nível superior, que a lei reserva aos intérpretes em salas de graduação e pós-graduação."
+        }
+      ]
+    },
+    {
+      "id": "ldb38",
+      "type": "ce",
+      "topic": "Experiência docente",
+      "src": "LDB, art. 67, §§1º e 2º (Lei 11.301/2006)",
+      "c": "O estatuto do magistério de Juiz de Fora (MG) exige experiência docente para que um servidor possa assumir a coordenação pedagógica de uma escola.",
+      "q": "A exigência encontra amparo na LDB, segundo a qual a experiência docente é pré-requisito para o exercício profissional de quaisquer outras funções de magistério, nos termos das normas de cada sistema de ensino.",
+      "a": 0,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "correta",
+          "w": "Art. 67, §1º: a experiência docente é pré-requisito para o exercício profissional de quaisquer outras funções de magistério, nos termos das normas de cada sistema. O §2º, para fins de aposentadoria especial, inclui a coordenação e o assessoramento pedagógico entre as funções de magistério."
+        },
+        {
+          "t": "Errado",
+          "p": "restricao",
+          "w": "Julgar errado supõe que o município não poderia exigir esse requisito. A própria LDB o impõe e remete às normas de cada sistema de ensino."
+        }
+      ]
+    },
+    {
+      "id": "ldb39",
+      "type": "ce",
+      "topic": "Natureza do Fundeb",
+      "src": "CF/88, art. 212-A, I e III (EC 108/2020)",
+      "c": "Em reunião do conselho de acompanhamento do Fundeb em Goiânia (GO), um conselheiro afirmou que o fundo é único e nacional, gerido diretamente pelo MEC.",
+      "q": "O Fundeb é um fundo único de âmbito nacional, administrado pela União, que redistribui seus recursos entre todos os entes federados.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "troca",
+          "w": "Julgar certo troca a estrutura do fundo: não há um Fundeb nacional, mas um fundo em cada estado e no DF, e a União participa por meio da complementação."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "Art. 212-A, I: institui-se, no âmbito de cada estado e do DF, um Fundeb de natureza contábil. Os recursos se distribuem entre cada estado e seus municípios conforme as matrículas nas respectivas redes (III)."
+        }
+      ]
+    },
+    {
+      "id": "ldb40",
+      "type": "ce",
+      "topic": "Espanhol no ensino médio",
+      "src": "LDB, art. 35-D, caput e §3º (incluído pela Lei 14.945/2024)",
+      "c": "Uma escola estadual de Foz do Iguaçu (PR), na fronteira com Paraguai e Argentina, quer saber se é obrigada a oferecer espanhol no ensino médio.",
+      "q": "Na redação da Lei 14.945/2024, a oferta de língua espanhola passou a ser obrigatória em todas as escolas de ensino médio do país.",
+      "a": 1,
+      "o": [
+        {
+          "t": "Certo",
+          "p": "extrapolacao",
+          "w": "Julgar certo vai além da lei: o art. 35-D, §3º, permite oferecer outras línguas estrangeiras, preferencialmente o espanhol, conforme a disponibilidade; não cria obrigação."
+        },
+        {
+          "t": "Errado",
+          "p": "correta",
+          "w": "A língua inglesa integra a área de linguagens da BNCC do ensino médio (art. 35-D). O espanhol pode ser oferecido, em caráter preferencial entre outras línguas, conforme a disponibilidade, sem obrigatoriedade geral."
+        }
+      ]
+    }
+  ]
+}

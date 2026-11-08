@@ -1,7 +1,7 @@
 /* ================= Privacidade e termos (LGPD) =================
    Preencha LEGAL.org (nome ou razão social de quem mantém o app), LEGAL.doc (CPF/CNPJ, opcional) e LEGAL.email
    (canal do encarregado de dados) antes do lançamento. Os textos foram escritos para este app; peça uma revisão jurídica. */
-const LEGAL = { org: 'Projeto Memory', doc: '', email: '', updated: '04/11/2026' };
+const LEGAL = { org: 'Projeto Memory', doc: '', email: '', updated: '05/11/2026' };
 const legalContact = () => (LEGAL.email ? `pelo e-mail <b>${esc(LEGAL.email)}</b>` : 'pelo canal de contato informado na página do Memory');
 const LEGAL_DOCS = {
   privacidade: () => ({
@@ -17,6 +17,8 @@ const LEGAL_DOCS = {
 <li><b>Material enviado para a IA:</b> o texto de PDFs ou anotações que você escolhe enviar para gerar questões, e as perguntas feitas ao tutor.</li>
 <li><b>Segurança:</b> endereço IP, data e hora de acessos e de ações importantes (login, troca de senha, exclusão).</li>
 <li><b>Notificações:</b> se você ativar, o endereço de entrega de notificações do seu navegador e o horário escolhido.</li>
+<li><b>Erros do app:</b> quando algo quebra no seu aparelho, registramos a mensagem técnica do erro, a tela, a versão do app e o tipo de navegador, sem nome, e-mail ou conteúdo seu, para corrigir o problema. Esses registros são apagados em 90 dias.</li>
+<li><b>Estatísticas anônimas:</b> contamos, por dia, quantas vezes algumas ações acontecem no app (por exemplo, ciclos concluídos e aulas estudadas), sem ligar a contagem a nenhuma pessoa. Você pode desligar no Perfil.</li>
 </ul>
 <p>Não usamos cookies de publicidade nem ferramentas de rastreamento de terceiros. O único cookie é o de sessão, necessário para manter você conectado.</p>
 <h3>3. Para que usamos e com qual base legal</h3>

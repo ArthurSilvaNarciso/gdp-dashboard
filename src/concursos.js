@@ -109,6 +109,8 @@ const SUBJECT_MAP = [[/l[ií]ngua portuguesa|portugu[eê]s|reda[cç][aã]o ofici
   [/tribut[aá]ri/i, 'dtrib'], [/or[cç]ament|finan[cç]as p[uú]blicas|direito financeiro|administra[cç][aã]o financeira|\bAFO\b|responsabilidade fiscal/i, 'afo'], [/contab/i, 'cont'],
   [/estat[ií]stica|probabilidade/i, 'est'], [/consumidor/i, 'dcons'], [/crian[cç]a e (do )?adolescente|\bECA\b/i, 'eca'],
   [/\bSUS\b|sa[uú]de p[uú]blica|sistema [uú]nico de sa[uú]de|pol[ií]ticas? (p[uú]blicas? )?de sa[uú]de/i, 'sus'], [/reda[cç][aã]o oficial|correspond[eê]ncia oficial/i, 'redof'], [/arquiv[oí]stic|arquivolog|no[cç][oõ]es de arquivo|gest[aã]o documental|gest[aã]o de documentos/i, 'arq'],
+  [/legisla[cç][aã]o (penal|criminal) (especial|extravagante)|leis penais especiais/i, 'lpe'], [/conhecimentos banc[aá]rios|sistema financeiro|mercado financeiro|atualidades do mercado/i, 'banc'],
+  [/legisla[cç][aã]o (educacional|da educa[cç][aã]o)|\bLDB\b|diretrizes e bases|fundamentos da educa[cç][aã]o|pol[ií]tica educacional/i, 'ldb'],
   [/processual penal|execu[cç][aã]o penal/i, 'dpp'], [/processual civil/i, 'dpc'], [/direito penal|legisla[cç][aã]o penal|penal especial/i, 'dpen'], [/direito civil/i, 'dciv'],
   [/direitos humanos/i, 'dh'], [/(^|[^a-zà-ú])[ée]tica|integridade|improbidade/i, 'etica'], [/administra[cç][aã]o (p[uú]blica|geral)|no[cç][oõ]es de administra[cç][aã]o|gest[aã]o p[uú]blica|gest[aã]o governamental|gest[aã]o estrat[ée]gica/i, 'adm'], [/ingl[eê]s|l[ií]ngua inglesa/i, 'ingl'],
   [/seguran[cç]a da informa/i, 'seg'], [/hist[oó]ria do brasil/i, 'hist'], [/^biologia/i, 'bio'], [/excel|planilha/i, 'excel']];
@@ -137,7 +139,7 @@ function planCreate(c) {
   const subjects = c.disciplinas.map((x, i) => ({ nome: x.nome, topicos: x.topicos.slice(0, 12), deck: subjectDeck(x.nome, x.topicos) || (deckById(planDeckId(c.id, i)) ? planDeckId(c.id, i) : null) }));
   S.user.plan = { cid: c.id, titulo: c.titulo, orgao: c.orgao, sigla: c.sigla || '', banca: c.banca || '', uf: c.uf, prova: c.prova || null, at: Date.now(), subjects };
   if (c.prova) S.user.exam = { name: (c.sigla || c.orgao).slice(0, 40), date: c.prova };
-  S.user.persona = 'concurso'; persist(); reindex();
+  S.user.persona = 'concurso'; persist(); reindex(); track('plan_create');
 }
 const GEN = {};
 async function genSubject(i) {
@@ -166,7 +168,7 @@ function viewPlano() {
   const dleft = p.prova ? daysTo(p.prova) : null;
   const decks = p.subjects.map((x) => x.deck && deckById(x.deck)).filter(Boolean);
   const totalQ = decks.reduce((a, d) => a + d.questions.length, 0); const seen = decks.reduce((a, d) => a + d.questions.filter((q) => S.cards[q.id] && S.cards[q.id].s).length, 0);
-  const perDay = dleft && dleft > 0 ? Math.max(5, Math.ceil(((totalQ - seen) * 1.6) / Math.max(1, dleft - 3))) : S.user.goal;
+  const E = edital(); const perDay = edPerDay(p, E);
   const pending = p.subjects.filter((x) => !x.deck).length;
   const rows = p.subjects.map((x, i) => {
     const d = x.deck && deckById(x.deck); const g = GEN[i];
@@ -179,6 +181,9 @@ function viewPlano() {
       <div class="ph-nums"><div><b class="num">${dleft == null ? '—' : Math.max(0, dleft)}</b><span>dias até a prova</span></div><div><b class="num">${perDay}</b><span>questões por dia</span></div><div><b class="num">${totalQ ? Math.round((seen / totalQ) * 100) : 0}%</b><span>do material visto</span></div></div></div>
     ${pending ? `<div class="callout" style="background:var(--t-lilac)"><span class="tile" style="background:var(--navy);color:#fff">${ico('build')}</span><div><b>${pending} ${pending === 1 ? 'matéria precisa' : 'matérias precisam'} de material</b><p>A IA cria 4 aulas e 12 questões no estilo ${esc(p.banca || 'da banca')} para cada uma, a partir do conteúdo do edital.</p></div></div>
       <button class="btn btn-orange btn-block" data-act="plan-gen-all" ${Object.values(GEN).includes('run') ? 'disabled' : ''}>Gerar todas as matérias</button>` : ''}
+    ${edExamCard(p)}${edWeakHTML(E)}
+    ${edWeekHTML(E, dleft, perDay)}
+    ${edHeat(E)}
     <div class="blk"><div class="sec"><h2>Matérias do edital</h2><span class="tiny num">${p.subjects.length - pending}/${p.subjects.length} prontas</span></div><div class="list">${rows}</div></div>
     ${decks.length ? `<button class="btn btn-primary btn-block" data-act="plan-study">Estudar agora · ${Math.min(perDay, 15)} questões</button>` : ''}
   </div>`;

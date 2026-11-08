@@ -1096,6 +1096,552 @@
      "w": "Errado. No local e data, não se usa a sigla da unidade da federação depois da cidade: \"Natal, 3 de março de 2026.\"."
     }
    ]
+  },
+  {
+   "id": "redof41",
+   "topic": "Cargo substituto",
+   "c": "Em Belo Horizonte (MG), a Coordenadora-Geral de Logística de uma superintendência federal está em férias, e a servidora Aline foi designada para responder pelo cargo enquanto a titular estiver afastada. Ela vai assinar um ofício.",
+   "q": "Como fica o cargo na identificação da signatária?",
+   "a": 2,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), itens 4.2.1 e 4.2.2",
+   "o": [
+    {
+     "t": "Coordenador-Geral substituto, porque o nome do cargo se grafa sempre no masculino.",
+     "p": "generalizacao",
+     "w": "Errada. O Manual manda flexionar o cargo quando a signatária é mulher, como em \"Ministra de Estado\"."
+    },
+    {
+     "t": "Coordenadora-Geral interina, porque interino é quem cobre férias e afastamentos do titular.",
+     "p": "troca",
+     "w": "Errada. Interino é quem ocupa transitoriamente o cargo durante a vacância; aqui a titular existe e só está afastada."
+    },
+    {
+     "t": "Coordenadora-Geral substituta, com o termo depois do cargo, em minúsculas, sem hífen e sem vírgula.",
+     "p": "correta",
+     "w": "Correta. Quem responde pelo cargo no afastamento do titular é substituto, e o Manual manda grafar o termo em minúsculas, sem hífen nem vírgula."
+    },
+    {
+     "t": "Coordenadora-Geral - Substituta, com hífen e inicial maiúscula para destacar a condição provisória.",
+     "p": "calculo",
+     "w": "Errada. O termo vem depois do nome do cargo sem hífen, sem vírgula e em minúsculas: \"Coordenadora-Geral substituta\"."
+    }
+   ]
+  },
+  {
+   "id": "redof42",
+   "topic": "Cargos compostos",
+   "c": "Em Brasília, uma assessora do Ministério da Defesa revisa um ofício que menciona o vice-presidente de uma comissão, o diretor-geral de um departamento, um tenente-coronel e um general de exército.",
+   "q": "Qual grafia dos cargos está de acordo com o Manual?",
+   "a": 0,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 4.3",
+   "o": [
+    {
+     "t": "Vice-Presidente, Diretor-Geral, Tenente-Coronel e General de Exército.",
+     "p": "correta",
+     "w": "Correta. Levam hífen os cargos com \"vice\", com \"geral\" e os postos militares compostos; com elemento de ligação preposicionado, como \"de\", não há hífen."
+    },
+    {
+     "t": "Vice-presidente, Diretor-Geral, Tenente-Coronel e General de Exército.",
+     "p": "troca",
+     "w": "Errada. Maiúscula ou minúscula é opção do redator, mas deve valer para todos os elementos ligados por hífen: \"Vice-Presidente\" ou \"vice-presidente\"."
+    },
+    {
+     "t": "Vice-Presidente, Diretor-Geral, Tenente-Coronel e General-de-Exército, pois todo cargo composto leva hífen.",
+     "p": "generalizacao",
+     "w": "Errada. Nomes compostos com elemento de ligação preposicionado ficam sem hífen, como \"general de exército\"."
+    },
+    {
+     "t": "Vice-Presidente, Diretor Geral, Tenente-Coronel e General de Exército, pois \"geral\" só leva hífen em nome de órgão.",
+     "p": "restricao",
+     "w": "Errada. O hífen com \"geral\" vale também para o cargo: Diretor-Geral, assim como Advocacia-Geral da União."
+    }
+   ]
+  },
+  {
+   "id": "redof43",
+   "topic": "Ofício conjunto circular",
+   "c": "O Ministério da Educação e o Ministério da Saúde decidem enviar um único ofício, assinado pelos dois, a todos os reitores das universidades federais sobre a residência médica.",
+   "q": "Como o Manual classifica esse documento?",
+   "a": 3,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 6.1",
+   "o": [
+    {
+     "t": "Ofício circular, porque o mesmo texto vai para vários destinatários.",
+     "p": "troca",
+     "w": "Errada. O ofício circular tem um só remetente; aqui há dois órgãos remetentes, o que exige também a variação \"conjunto\"."
+    },
+    {
+     "t": "Ofício conjunto, porque basta haver mais de um remetente, seja qual for o número de destinatários.",
+     "p": "restricao",
+     "w": "Errada. O ofício conjunto vai de vários órgãos a um destinatário; com vários destinatários, a variação é conjunto circular."
+    },
+    {
+     "t": "Dois ofícios separados, porque o Manual não admite mais de um órgão remetente no mesmo documento.",
+     "p": "generalizacao",
+     "w": "Errada. O Manual prevê as variações conjunto e conjunto circular justamente para documentos de mais de um órgão."
+    },
+    {
+     "t": "Ofício conjunto circular, com as siglas dos dois órgãos remetentes na identificação do expediente.",
+     "p": "correta",
+     "w": "Correta. Vários órgãos enviando o mesmo documento a vários destinatários formam o conjunto circular, como em \"OFÍCIO CONJUNTO CIRCULAR Nº 795/2018/CC/MJ/MRE\"."
+    }
+   ]
+  },
+  {
+   "id": "redof44",
+   "topic": "Anexos do e-mail",
+   "c": "Em Salvador (BA), um servidor do Iphan manda a outro órgão, por e-mail, a minuta de um termo de cooperação que ainda está em discussão. O corpo da mensagem fica vazio e, a cada resposta, ele reenvia o mesmo anexo.",
+   "q": "O que o Manual orienta?",
+   "a": 1,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 6.4.4",
+   "o": [
+    {
+     "t": "Enviar sempre em PDF, inclusive a minuta em discussão, para impedir alterações no texto.",
+     "p": "generalizacao",
+     "w": "Errada. O Manual pede que documentos ainda em discussão sejam enviados em formato que possa ser editado."
+    },
+    {
+     "t": "Informar no corpo o que o anexo contém, evitar reencaminhar anexos nas respostas e mandar a minuta em formato editável.",
+     "p": "correta",
+     "w": "Correta. O Manual pede informação mínima sobre o anexo, evita o reencaminhamento de anexos nas respostas e quer formato editável para o que está em discussão."
+    },
+    {
+     "t": "Reenviar o anexo em todas as respostas, para que cada mensagem tenha a versão completa do documento.",
+     "p": "inversao",
+     "w": "Errada. O Manual recomenda evitar o tamanho excessivo e o reencaminhamento de anexos nas mensagens de resposta."
+    },
+    {
+     "t": "Deixar o corpo vazio, pois o Manual manda colocar todo conteúdo em anexo para manter a mensagem curta.",
+     "p": "extrapolacao",
+     "w": "Errada. O Manual pede o contrário: avaliar se o anexo é indispensável e se o conteúdo não caberia no corpo da mensagem."
+    }
+   ]
+  },
+  {
+   "id": "redof45",
+   "topic": "Boas práticas no e-mail",
+   "c": "Em Goiânia (GO), a chefe de uma unidade do Incra precisa garantir que um prazo urgente chegue a outro órgão por e-mail e quer chamar atenção para ele.",
+   "q": "Qual conduta segue as recomendações do Manual?",
+   "a": 0,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 6.4.5",
+   "o": [
+    {
+     "t": "Usar a confirmação de leitura ou pedir confirmação de recebimento, destacando o prazo sem caixa alta.",
+     "p": "correta",
+     "w": "Correta. O Manual recomenda o recurso de confirmação de leitura quando necessário e veda texto em caixa alta para destaques."
+    },
+    {
+     "t": "Inserir o Brasão da República e a logomarca do órgão junto da assinatura, para dar oficialidade ao aviso.",
+     "p": "inversao",
+     "w": "Errada. O Manual pede que se evitem imagens no corpo do e-mail, inclusive as Armas da República e logomarcas junto à assinatura."
+    },
+    {
+     "t": "Escrever o pedido todo em maiúsculas, porque a caixa alta é o destaque admitido em situações urgentes.",
+     "p": "extrapolacao",
+     "w": "Errada. O Manual não admite caixa alta para destaques, em nenhuma situação."
+    },
+    {
+     "t": "Usar emoticons e abreviações como \"vc\" só com colegas de outros órgãos com quem já tem contato.",
+     "p": "restricao",
+     "w": "Errada. Ícones, emoticons e abreviações como \"vc\" e \"pq\" não devem ser usados no e-mail profissional, com qualquer destinatário."
+    }
+   ]
+  },
+  {
+   "id": "redof46",
+   "topic": "Citação longa",
+   "c": "Em Curitiba (PR), uma analista da Receita Federal vai transcrever, numa nota técnica, um trecho de cinco linhas de uma solução de consulta.",
+   "q": "Como o Manual manda apresentar essa citação?",
+   "a": 2,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), itens 10.1 e 5.1.6",
+   "o": [
+    {
+     "t": "Entre aspas e em itálico, no meio do parágrafo, pois toda citação direta leva os dois destaques.",
+     "p": "troca",
+     "w": "Errada. Mesmo a citação curta, entre aspas, vai em letra normal; o itálico tem outros usos, como palavras estrangeiras."
+    },
+    {
+     "t": "Entre aspas, no corpo do parágrafo, porque as aspas servem para citações de qualquer extensão.",
+     "p": "generalizacao",
+     "w": "Errada. As aspas no corpo do texto valem para citações de até três linhas."
+    },
+    {
+     "t": "Em bloco recuado, sem aspas e sem itálico, em corpo 11, por ter mais de três linhas.",
+     "p": "correta",
+     "w": "Correta. Citação com mais de três linhas vai destacada em bloco recuado, sem aspas e sem itálico; o item 5.1.6 prevê corpo 11 para citações recuadas."
+    },
+    {
+     "t": "Em bloco recuado só se tiver mais de dez linhas; até lá, entre aspas no parágrafo.",
+     "p": "restricao",
+     "w": "Errada. O limite do Manual é de três linhas: a partir de quatro, a citação já vai em bloco recuado."
+    }
+   ]
+  },
+  {
+   "id": "redof47",
+   "topic": "Itálico e negrito",
+   "c": "Em Recife (PE), um parecer de uma superintendência federal usa a expressão latina caput, a palavra internet e precisa destacar o prazo final de entrega.",
+   "q": "Qual formatação segue o Manual?",
+   "a": 3,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), itens 10.2 e 10.3",
+   "o": [
+    {
+     "t": "Caput e internet em itálico, pois toda palavra de origem estrangeira leva itálico.",
+     "p": "generalizacao",
+     "w": "Errada. Palavras já de uso corrente ou aportuguesadas, como internet, dispensam o itálico."
+    },
+    {
+     "t": "Prazo sublinhado, porque o sublinhado é o destaque próprio das comunicações oficiais.",
+     "p": "troca",
+     "w": "Errada. O Manual usa o negrito para destacar e pede que se evite o sublinhado nas comunicações oficiais."
+    },
+    {
+     "t": "Parágrafos inteiros em negrito, porque quanto mais destaque, mais clara fica a informação.",
+     "p": "extrapolacao",
+     "w": "Errada. O Manual pede uso comedido dos destaques: o excesso polui o texto e anula o efeito."
+    },
+    {
+     "t": "Caput em itálico, internet sem itálico e o prazo em negrito, com moderação.",
+     "p": "correta",
+     "w": "Correta. O itálico vale para palavras latinas e estrangeiras não incorporadas, e o negrito é o recurso de destaque, usado com parcimônia."
+    }
+   ]
+  },
+  {
+   "id": "redof48",
+   "topic": "Sigla e acrônimo",
+   "c": "Em um curso para servidores do Ministério da Saúde, em Brasília, o instrutor mostra os exemplos CEF (Caixa Econômica Federal) e Anvisa (Agência Nacional de Vigilância Sanitária).",
+   "q": "Como o Manual distingue os dois casos?",
+   "a": 1,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 10.6",
+   "o": [
+    {
+     "t": "Os dois são siglas, porque o Manual não diferencia sigla de acrônimo.",
+     "p": "generalizacao",
+     "w": "Errada. O Manual distingue os dois termos: sigla vem das letras iniciais; acrônimo, de sílabas ou partes das palavras."
+    },
+    {
+     "t": "CEF é sigla, formada pelas letras iniciais; Anvisa é acrônimo, formado por sílabas ou partes das palavras.",
+     "p": "correta",
+     "w": "Correta. É a definição do item 10.6, que usa exatamente esses dois exemplos."
+    },
+    {
+     "t": "CEF é acrônimo, formado pelas letras iniciais; Anvisa é sigla, formada por partes das palavras.",
+     "p": "inversao",
+     "w": "Errada. Os conceitos foram trocados: a forma feita só de iniciais é a sigla."
+    },
+    {
+     "t": "Anvisa é acrônimo e, por isso, pode ser usado em atos normativos mesmo sem previsão em norma.",
+     "p": "extrapolacao",
+     "w": "Errada. O Manual recomenda desconsiderar, nos atos normativos, formas popularizadas que não estejam previstas em dispositivo legal."
+    }
+   ]
+  },
+  {
+   "id": "redof49",
+   "topic": "Numeração de artigos",
+   "c": "Na consultoria jurídica de um ministério, em Brasília, o servidor Rafael formata uma minuta de decreto com doze artigos e hesita na passagem do nono para o décimo.",
+   "q": "Como ficam esses dois artigos?",
+   "a": 2,
+   "src": "LC 95/1998, art. 10, I; Manual de Redação da Presidência da República, 3ª ed. (2018), item 16.2.1",
+   "o": [
+    {
+     "t": "Art. 9 e Art. 10, sempre em numeração cardinal.",
+     "p": "calculo",
+     "w": "Errada. Até o nono, a numeração é ordinal: Art. 9º."
+    },
+    {
+     "t": "Art. 9º e Art. 10º, pois o artigo leva sempre numeração ordinal.",
+     "p": "generalizacao",
+     "w": "Errada. A partir do décimo, a numeração passa a ser cardinal: Art. 10."
+    },
+    {
+     "t": "Art. 9º e Art. 10: ordinal até o nono e cardinal a partir do décimo.",
+     "p": "correta",
+     "w": "Correta. A LC 95/1998 manda indicar o artigo pela abreviatura \"Art.\", com numeração ordinal até o nono e cardinal a partir deste."
+    },
+    {
+     "t": "Artigo 9º e Artigo 10, sempre por extenso, pois a abreviatura só cabe nas citações.",
+     "p": "troca",
+     "w": "Errada. A unidade básica de articulação é indicada pela abreviatura \"Art.\"."
+    }
+   ]
+  },
+  {
+   "id": "redof50",
+   "topic": "Parágrafo único",
+   "c": "Em Porto Alegre (RS), uma comissão de um órgão federal redige uma portaria em que o art. 3º tem um único parágrafo, sobre o prazo de recurso.",
+   "q": "Como esse parágrafo deve ser indicado?",
+   "a": 0,
+   "src": "LC 95/1998, art. 10, III; Manual de Redação da Presidência da República, 3ª ed. (2018), item 16.2.2",
+   "o": [
+    {
+     "t": "Parágrafo único, por extenso.",
+     "p": "correta",
+     "w": "Correta. Quando há apenas um parágrafo, a LC 95/1998 manda usar a expressão \"parágrafo único\" por extenso."
+    },
+    {
+     "t": "§ 1º, pois todo parágrafo é indicado pelo sinal gráfico e pelo número.",
+     "p": "generalizacao",
+     "w": "Errada. O sinal \"§\" com número vale quando há mais de um parágrafo; sendo só um, usa-se \"Parágrafo único\"."
+    },
+    {
+     "t": "§ único, juntando o sinal gráfico à palavra.",
+     "p": "calculo",
+     "w": "Errada. A forma mistura duas regras: com um só parágrafo, a expressão vem toda por extenso."
+    },
+    {
+     "t": "Inciso I, porque um desdobramento isolado do artigo vira inciso.",
+     "p": "troca",
+     "w": "Errada. Parágrafo e inciso são unidades diferentes; o número de desdobramentos não transforma um no outro."
+    }
+   ]
+  },
+  {
+   "id": "redof51",
+   "topic": "Incisos, alíneas e itens",
+   "c": "Em Fortaleza (CE), um órgão federal prepara uma instrução normativa cujo artigo lista requisitos, um dos requisitos tem subdivisões e uma das subdivisões ainda se desdobra.",
+   "q": "Qual é a forma correta dos desdobramentos, do maior para o menor?",
+   "a": 3,
+   "src": "LC 95/1998, art. 10, II e IV; Manual de Redação da Presidência da República, 3ª ed. (2018), item 16.2.3",
+   "o": [
+    {
+     "t": "Alíneas em algarismos romanos, incisos em letras minúsculas e itens em algarismos arábicos.",
+     "p": "inversao",
+     "w": "Errada. A ordem e os símbolos foram trocados: o artigo se desdobra em incisos, e são eles que levam algarismos romanos."
+    },
+    {
+     "t": "Incisos em algarismos romanos, alíneas em letras maiúsculas e itens em algarismos romanos minúsculos.",
+     "p": "troca",
+     "w": "Errada. Alíneas usam letras minúsculas e itens usam algarismos arábicos."
+    },
+    {
+     "t": "Incisos em algarismos arábicos, alíneas em letras minúsculas e itens em algarismos romanos.",
+     "p": "calculo",
+     "w": "Errada. Incisos levam algarismos romanos, e itens, algarismos arábicos."
+    },
+    {
+     "t": "Incisos em algarismos romanos, alíneas em letras minúsculas e itens em algarismos arábicos.",
+     "p": "correta",
+     "w": "Correta. Os incisos se desdobram em alíneas, e as alíneas em itens, com romanos, letras minúsculas e arábicos."
+    }
+   ]
+  },
+  {
+   "id": "redof52",
+   "topic": "Agrupamento de dispositivos",
+   "c": "Em Brasília, uma equipe da Casa Civil organiza um anteprojeto extenso e precisa decidir como agrupar os artigos em unidades maiores.",
+   "q": "Qual é a ordem crescente de agrupamento?",
+   "a": 1,
+   "src": "LC 95/1998, art. 10, V a VII; Manual de Redação da Presidência da República, 3ª ed. (2018), item 16.2.4",
+   "o": [
+    {
+     "t": "Seção, Subseção, Capítulo, Título, Livro e Parte.",
+     "p": "inversao",
+     "w": "Errada. A Subseção agrupa artigos e fica abaixo da Seção, não acima."
+    },
+    {
+     "t": "Subseção, Seção, Capítulo, Título, Livro e Parte.",
+     "p": "correta",
+     "w": "Correta. Artigos formam Subseções; Subseções, a Seção; Seções, o Capítulo; Capítulos, o Título; Títulos, o Livro; e Livros, a Parte."
+    },
+    {
+     "t": "Subseção, Seção, Título, Capítulo, Livro e Parte.",
+     "p": "troca",
+     "w": "Errada. O Título agrupa Capítulos, por isso vem acima do Capítulo."
+    },
+    {
+     "t": "Subseção, Seção, Capítulo e Título, sempre todos presentes, mesmo em lei curta.",
+     "p": "generalizacao",
+     "w": "Errada. A LC 95/1998 diz que o agrupamento \"poderá\" constituir essas unidades; elas são usadas conforme a necessidade do texto."
+    }
+   ]
+  },
+  {
+   "id": "redof53",
+   "topic": "Acréscimo de artigo",
+   "c": "Em Brasília, a consultoria jurídica de um ministério redige um decreto que acrescenta um novo artigo entre os arts. 5º e 6º de um decreto antigo e muda a redação do art. 8º.",
+   "q": "Como fazer essas alterações?",
+   "a": 0,
+   "src": "LC 95/1998, art. 12, III, b, c e d; Manual de Redação da Presidência da República, 3ª ed. (2018), item 17.1",
+   "o": [
+    {
+     "t": "O novo artigo vira Art. 5º-A, sem renumerar os demais, e o art. 8º alterado termina com \"(NR)\".",
+     "p": "correta",
+     "w": "Correta. A LC 95/1998 veda renumerar artigos, manda usar o número anterior com letra maiúscula e marcar o artigo alterado com \"(NR)\" ao final."
+    },
+    {
+     "t": "O novo artigo vira Art. 6º e os seguintes são renumerados, para manter a sequência.",
+     "p": "inversao",
+     "w": "Errada. A LC 95/1998 veda qualquer renumeração de artigos, mesmo quando recomendável."
+    },
+    {
+     "t": "O novo artigo vira Art. 5º-a, com letra minúscula, e o art. 8º recebe \"(nr)\" ao final.",
+     "p": "calculo",
+     "w": "Errada. O acréscimo usa letra maiúscula, e a marca é \"NR\" em maiúsculas, entre parênteses."
+    },
+    {
+     "t": "O artigo novo ocupa o número de um artigo revogado do mesmo decreto, para evitar letras.",
+     "p": "extrapolacao",
+     "w": "Errada. A LC 95/1998 veda o aproveitamento do número de dispositivo revogado ou vetado."
+    }
+   ]
+  },
+  {
+   "id": "redof54",
+   "topic": "Apostila",
+   "c": "Em Manaus (AM), uma portaria de nomeação de um servidor da UFAM saiu com o sobrenome dele grafado errado. O nome certo consta de todo o processo.",
+   "q": "Qual instrumento o Manual indica para corrigir o erro?",
+   "a": 2,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 18",
+   "o": [
+    {
+     "t": "Nova portaria de nomeação, revogando a anterior, pois erro em ato pessoal o torna nulo.",
+     "p": "extrapolacao",
+     "w": "Errada. Erro material flagrante, como a grafia de nome próprio, não exige refazer o ato; basta corrigi-lo por apostila."
+    },
+    {
+     "t": "Ofício ao servidor informando a grafia certa, sem registro no próprio ato.",
+     "p": "troca",
+     "w": "Errada. A correção se faz por apostila, com a data de sua publicação no boletim mencionada no original do ato, e não por simples comunicação ao servidor."
+    },
+    {
+     "t": "Apostila, que corrige erro material que não afeta a substância do ato pessoal.",
+     "p": "correta",
+     "w": "Correta. Pelo item 18.1, a apostila corrige erro material que não afete a substância do ato singular de caráter pessoal, como a grafia de um nome, e dispensa nova assinatura da autoridade."
+    },
+    {
+     "t": "Apostila, que também serve para trocar o cargo de nomeação, desde que antes da posse.",
+     "p": "restricao",
+     "w": "Errada. Trocar o cargo altera a substância do ato, e a apostila só cabe quando a correção não muda essa substância."
+    }
+   ]
+  },
+  {
+   "id": "redof55",
+   "type": "ce",
+   "topic": "Vacatio legis",
+   "c": "Uma lei federal publicada em 2 de março de 2026 traz a cláusula \"Esta Lei entra em vigor após decorridos 30 (trinta) dias de sua publicação oficial\".",
+   "q": "Contando o dia da publicação e o último dia do prazo, a lei entra em vigor em 1º de abril de 2026.",
+   "a": 0,
+   "src": "LC 95/1998, art. 8º, §§ 1º e 2º; Manual de Redação da Presidência da República, 3ª ed. (2018), item 34.4",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "A contagem inclui o dia 2 de março e o último dia: o 30º dia é 31 de março, e a lei vigora no dia seguinte, 1º de abril de 2026."
+    },
+    {
+     "t": "Errado",
+     "p": "calculo",
+     "w": "Julgar errado parte de uma conta que exclui o dia da publicação. A LC 95/1998 inclui a data da publicação e o último dia e põe a vigência no dia seguinte."
+    }
+   ]
+  },
+  {
+   "id": "redof56",
+   "type": "ce",
+   "topic": "Cláusula de revogação",
+   "c": "Em Brasília, um anteprojeto de lei preparado por um ministério termina com o artigo \"Revogam-se as disposições em contrário\".",
+   "q": "A cláusula atende à LC 95/1998, pois dispensa listar as normas revogadas quando o redator não as conhece todas.",
+   "a": 1,
+   "src": "LC 95/1998, art. 9º",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "troca",
+     "w": "Julgar certo confunde a fórmula genérica tradicional com a exigência atual. A LC 95/1998 manda enumerar expressamente as leis ou disposições revogadas."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O art. 9º da LC 95/1998 exige que a cláusula de revogação enumere, expressamente, as leis ou disposições legais revogadas."
+    }
+   ]
+  },
+  {
+   "id": "redof57",
+   "type": "ce",
+   "topic": "Veto parcial",
+   "c": "O Presidente da República concorda com quase todo um projeto de lei, mas discorda de uma única palavra no inciso II do art. 4º.",
+   "q": "Ele pode vetar apenas essa palavra, mantendo o restante do inciso.",
+   "a": 1,
+   "src": "CF/88, art. 66, § 2º; Manual de Redação da Presidência da República, 3ª ed. (2018), item 32.2",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "extrapolacao",
+     "w": "Julgar certo estende o veto parcial além do que a Constituição admite. Ele só abrange texto integral de artigo, de parágrafo, de inciso ou de alínea."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "O art. 66, § 2º, da Constituição diz que o veto parcial somente abrangerá texto integral; para atingir a palavra, ele teria de vetar o inciso inteiro."
+    }
+   ]
+  },
+  {
+   "id": "redof58",
+   "type": "ce",
+   "topic": "Prazo do veto",
+   "c": "Um projeto de lei aprovado pelo Congresso chega ao Palácio do Planalto, e o Presidente considera uma parte dele contrária ao interesse público.",
+   "q": "O Presidente tem quinze dias úteis, contados do recebimento, para vetar, e deve comunicar os motivos do veto ao Presidente do Senado Federal em quarenta e oito horas.",
+   "a": 0,
+   "src": "CF/88, art. 66, § 1º; Manual de Redação da Presidência da República, 3ª ed. (2018), item 32.1",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "É o que diz o art. 66, § 1º, da Constituição: veto em quinze dias úteis e comunicação dos motivos ao Presidente do Senado em quarenta e oito horas."
+    },
+    {
+     "t": "Errado",
+     "p": "calculo",
+     "w": "Julgar errado costuma vir de trocar os prazos, como contar quinze dias corridos. A Constituição fala em quinze dias úteis e quarenta e oito horas."
+    }
+   ]
+  },
+  {
+   "id": "redof59",
+   "type": "ce",
+   "topic": "Decreto autônomo",
+   "c": "Um ministério identifica vinte cargos efetivos vagos que não serão mais necessários e quer extingui-los sem esperar um projeto de lei.",
+   "q": "O Presidente da República pode extinguir esses cargos por decreto, porque estão vagos.",
+   "a": 0,
+   "src": "CF/88, art. 84, VI, b; Manual de Redação da Presidência da República, 3ª ed. (2018), item 24.4",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "correta",
+     "w": "O art. 84, VI, b, da Constituição permite ao Presidente dispor, mediante decreto, sobre a extinção de funções ou cargos públicos, quando vagos."
+    },
+    {
+     "t": "Errado",
+     "p": "generalizacao",
+     "w": "Julgar errado parte da ideia de que extinguir cargo sempre exige lei. Para cargos vagos, a Constituição admite o decreto autônomo."
+    }
+   ]
+  },
+  {
+   "id": "redof60",
+   "type": "ce",
+   "topic": "Assinatura da mensagem",
+   "c": "Na Casa Civil, em Brasília, um servidor formata a mensagem com que o Presidente da República encaminha ao Congresso Nacional um projeto de lei.",
+   "q": "Abaixo da assinatura, a mensagem deve trazer o nome do Presidente em maiúsculas e o cargo, como nos demais ofícios.",
+   "a": 1,
+   "src": "Manual de Redação da Presidência da República, 3ª ed. (2018), item 6.3.2",
+   "o": [
+    {
+     "t": "Certo",
+     "p": "generalizacao",
+     "w": "Julgar certo aplica à mensagem a regra geral do padrão ofício. O Manual diz que a mensagem, como os demais atos assinados pelo Presidente, não traz identificação do signatário."
+    },
+    {
+     "t": "Errado",
+     "p": "correta",
+     "w": "A mensagem, como os demais atos assinados pelo Presidente da República, não traz identificação de seu signatário."
+    }
+   ]
   }
  ]
 }
